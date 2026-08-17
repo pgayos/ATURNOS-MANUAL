@@ -1,0 +1,54 @@
+---
+schemaVersion: "1.0"
+contentId: "gestion-de-personal-3-datos-personalizados-del-trabajador"
+title: "Datos personalizados del trabajador"
+description: "Información sobre datos personalizados del trabajador, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentType: concept
+module: "Gestión de personal"
+submodule: "Altas y bajas"
+intent: "Datos personalizados del trabajador"
+audience:
+  - role: "Trabajador"
+    access: applicable
+entities:
+  - id: "datos"
+    label: "Datos"
+  - id: "personalizados"
+    label: "Personalizados"
+  - id: "trabajador"
+    label: "Trabajador"
+synonyms: []
+prerequisites: []
+platforms: [web]
+governance:
+  status: draft
+  owner: "Equipo de Producto de aTurnos"
+  reviewer: null
+  reviewedAt: null
+  reviewDueAt: null
+  sourceUrls:
+    - "https://manual.aturnos.com/knowledgebase/3-datos-personalizados-trabajador/"
+  redirectsFrom:
+    - "https://manual.aturnos.com/knowledgebase/3-datos-personalizados-trabajador/"
+ai:
+  answerableQuestions:
+    - "¿Qué debo saber sobre datos personalizados del trabajador?"
+  excludedQuestions: []
+  sensitivity: public
+  chunking: by-section
+readingTime: 1
+featured: false
+migration:
+  sourceCount: 1
+  contentHash: "52576b47adc6cceafbd03ec088a858309d2d70406e72f4be4096c8c1d1382e30"
+  migratedAt: 2026-08-17
+---
+## Resumen
+
+Información sobre datos personalizados del trabajador, con instrucciones y contexto revisables por el equipo de aTurnos.
+
+## Contenido
+
+Se identifica como Datos Personalizados aquella información que se quiere introducir al detalle sobre un aspecto que se quiera destacar de un trabajador o todo el equipo. Sobre todo, se añadirá y posteriormente utilizará para aquellos casos en los que sea de gran interés para la empresa.
+
+A través de la introducción del código del empleado puedes visualizar qué tipo de datos personalizados y en qué grupo de los mismos tiene el trabajador en cuestión dichos datos que previamente has añadido para tener mejor identificado uno o una serie de trabajadores de tu equipo (Aquí puedes ver más detalladamente qué son los datos personalizados ).

@@ -1,0 +1,72 @@
+---
+schemaVersion: "1.0"
+contentId: "gestion-de-personal-21-importar-fichajes-de-trabajadores"
+title: "Importar fichajes de trabajadores"
+description: "Información sobre importar fichajes de trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentType: reference
+module: "Gestión de personal"
+submodule: "Usuarios y perfiles"
+intent: "Importar fichajes de trabajadores"
+audience:
+  - role: "Planificador"
+    access: applicable
+  - role: "Trabajador"
+    access: applicable
+  - role: "Desarrollador API"
+    access: applicable
+entities:
+  - id: "fichajes"
+    label: "Fichajes"
+  - id: "importar"
+    label: "Importar"
+  - id: "trabajadores"
+    label: "Trabajadores"
+synonyms: []
+prerequisites: []
+platforms: [web]
+governance:
+  status: draft
+  owner: "Equipo de Producto de aTurnos"
+  reviewer: null
+  reviewedAt: null
+  reviewDueAt: null
+  sourceUrls:
+    - "https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/"
+  redirectsFrom:
+    - "https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/"
+ai:
+  answerableQuestions:
+    - "¿Qué debo saber sobre importar fichajes de trabajadores?"
+  excludedQuestions: []
+  sensitivity: public
+  chunking: by-section
+readingTime: 1
+featured: false
+migration:
+  sourceCount: 1
+  contentHash: "420055a83ffbc0efd7070d7214fb57fd19834f70f0438853339c6c93dd3ae807"
+  migratedAt: 2026-08-17
+---
+## Resumen
+
+Información sobre importar fichajes de trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos.
+
+## Contenido
+
+Es posible que si has utilizado otro sistema de registro de jornada, los marcajes hechos en dispositivos puedas trasladarlos al sistema de aTurnos. De la misma forma si por algún fallo técnico, los marcajes no se han volcado, también podemos insertarlos en el Control de Presencia de aTurnos.
+
+Crea un archivo de Excel (también en formato CSV) o completa la plantilla de ejemplo para importar los marcajes de los trabajadores, definiendo las columnas con los siguientes conceptos:
+
+- Fecha*: el formato debe coincidir con el que está informado en la configuración del equipo (ver Configuración Importar/Exportar ). Por ejemplo dd/MM/aaaa hh:mm
+- Tipo de marcaje*: se informa con el concepto de descripción de los tipos de marcajes que deben estar creados previamente en el equipo (ver Tipos de marcaje ). Los tipos de marcajes pueden computar en el horario, o no. En el caso de no computar no inserta horas presenciales en las estadísticas.
+- Dirección*: nos informa si la consideramos como entrada o salida. En el caso de entrada lo informaremos con el valor 0, para las salidas con el valor 1.
+- Email*: correo electrónico del trabajador.
+- Id Usuario aTurnos o Id Empleado empresa: número identificativo del trabajador. Hay empresas que por el sistema de integración, su número de identificación es distinto al Id de usuario de aTurnos.
+
+Plantilla ejemplo, para descargarla, haz clic en el enlace: CSV importacion_marcajes_prueba
+
+Una vez se ha creado o completado el archivo, guardar tu documento como formato tipo CSV.
+
+Para importar el archivo debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
+
+A continuación, se hace la importación del fichero a aTurnos y se asociará los conceptos de las columnas del fichero con los campos existentes en aTurnos.
