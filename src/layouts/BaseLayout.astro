@@ -16,7 +16,7 @@ const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTur
       <nav class="container nav" aria-label="Navegación principal">
         <a class="logo" href="/"><span class="logo-mark">a</span><span>Centro de ayuda</span></a>
         <div class="nav-links">
-          <a href="/#modulos">Módulos</a><a href="/manual/planificacion/">Planificación</a><a class="search-link" href="/buscar/">⌕ Buscar</a>
+          <a href="/#modulos">Módulos</a><a class="search-link" href="/buscar/">⌕ Buscar</a>
         </div>
         <select class="profile-picker" id="profile-picker" aria-label="Seleccionar mi perfil">
           <option value="general">Mi perfil</option><option>Trabajador</option><option>Planificador</option><option>Administrador</option><option>RRHH</option>
@@ -24,7 +24,7 @@ const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTur
       </nav>
     </header>
     <slot />
-    <footer class="site-footer"><div class="container">Piloto del nuevo manual de aTurnos · Contenido público y revisado antes de publicar.</div></footer>
+    <footer class="site-footer"><div class="container">Nuevo manual de aTurnos · Contenido público sujeto a revisión editorial.</div></footer>
     <script is:inline>
       const picker = document.querySelector('#profile-picker');
       if (picker) { picker.value = localStorage.getItem('manual-profile') || 'general'; picker.addEventListener('change', () => { localStorage.setItem('manual-profile', picker.value); document.documentElement.dataset.profile = picker.value; }); }

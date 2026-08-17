@@ -4,10 +4,11 @@ import type { CollectionEntry } from 'astro:content';
 interface Props { entry: CollectionEntry<'manual'>; headings: { depth: number; slug: string; text: string }[]; }
 const { entry, headings } = Astro.props;
 const d=entry.data;
+const moduleSlug=entry.id.split('/')[0];
 const reviewed=d.governance.reviewedAt ? d.governance.reviewedAt.toLocaleDateString('es-ES') : 'Pendiente de revisión';
 ---
 <BaseLayout title={`${d.title} · aTurnos`} description={d.description}>
-  <div class="container breadcrumbs"><a href="/">Inicio</a> / <a href="/manual/planificacion/">{d.module}</a> / {d.submodule}</div>
+  <div class="container breadcrumbs"><a href="/">Inicio</a> / <a href={`/manual/${moduleSlug}/`}>{d.module}</a> / {d.submodule}</div>
   <main class="container article-shell">
     <aside class="sidebar" aria-label="Índice del artículo"><strong>En esta página</strong>{headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}</aside>
     <article data-pagefind-body>
