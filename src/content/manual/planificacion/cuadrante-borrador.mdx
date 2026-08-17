@@ -1,0 +1,141 @@
+---
+schemaVersion: "1.0"
+contentId: planning-draft-schedule
+title: Crear y utilizar un cuadrante borrador
+description: Prepara cambios en la planificación sin modificar inmediatamente el cuadrante que utiliza el equipo.
+contentType: procedure
+module: Planificación
+submodule: Cuadrante
+intent: Crear y aplicar una planificación provisional
+audience:
+  - role: Administrador
+    access: required
+  - role: Planificador
+    access: required
+entities:
+  - id: schedule
+    label: Cuadrante
+  - id: draft-schedule
+    label: Cuadrante borrador
+  - id: shift
+    label: Turno
+synonyms: [planificación borrador, cuadrante provisional, borrador de planificación]
+prerequisites:
+  - Tener permisos para modificar la planificación.
+  - Disponer de trabajadores activos en el equipo.
+  - Tener configurados los turnos que se van a utilizar.
+platforms: [web]
+governance:
+  status: functional-review
+  owner: Equipo de Producto de aTurnos
+  reviewer: null
+  reviewedAt: null
+  reviewDueAt: null
+  sourceUrls:
+    - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-borrador/
+  redirectsFrom:
+    - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-borrador/
+ai:
+  answerableQuestions:
+    - ¿Cómo creo un cuadrante borrador?
+    - ¿Cómo copio el cuadrante actual al borrador?
+    - ¿Cómo publico un cuadrante borrador?
+  excludedQuestions:
+    - ¿Cómo creo tipos de turno?
+    - ¿Cómo calcula aTurnos la planificación automática?
+  sensitivity: public
+  chunking: by-section
+readingTime: 8
+featured: true
+---
+import Callout from '../../../components/manual/Callout.astro';
+import Steps from '../../../components/manual/Steps.astro';
+import Step from '../../../components/manual/Step.astro';
+import Media from '../../../components/manual/Media.astro';
+import Video from '../../../components/manual/Video.astro';
+
+## Resumen
+
+El cuadrante borrador permite preparar cambios en la planificación sin modificar inmediatamente el cuadrante que utiliza el equipo. Puedes copiar la planificación existente, realizar cambios y aplicarlos cuando hayan sido revisados.
+
+<Callout type="warning" title="Antes de aplicar el borrador">
+  Comprueba el periodo seleccionado y revisa qué trabajadores y turnos se verán afectados. La operación definitiva debe validarse funcionalmente antes de publicar este artículo.
+</Callout>
+
+## Cuándo utilizar esta función
+
+Utilízala para preparar una planificación, probar cambios sin alterar el cuadrante actual o revisar varias modificaciones antes de aplicarlas conjuntamente.
+
+## Antes de empezar
+
+- Tienes permisos de administrador o planificador.
+- Los trabajadores están activos en el equipo.
+- Los tipos de turno necesarios ya existen.
+- Has seleccionado las fechas correctas.
+
+## Procedimiento
+
+<Steps>
+  <Step title="Abrir el cuadrante borrador">
+    Accede a **Planificación**, abre el menú del cuadrante y selecciona **Cuadrante borrador**. Comprueba las fechas antes de continuar.
+  </Step>
+  <Step title="Copiar la planificación actual">
+    Selecciona la opción para importar el cuadrante principal, indica el periodo y confirma. Verifica que aparecen los turnos esperados.
+  </Step>
+  <Step title="Modificar y revisar el borrador">
+    Añade o modifica los turnos necesarios. Revisa trabajadores, jornadas, descansos, cobertura y avisos antes de aplicar los cambios.
+  </Step>
+  <Step title="Aplicar el cuadrante borrador">
+    Revisa el resumen, confirma la operación y abre el cuadrante principal para comprobar el resultado.
+  </Step>
+</Steps>
+
+<Media src="/media/cuadrante-borrador.svg" alt="Prototipo del planificador con la opción Cuadrante borrador destacada" caption="Prototipo visual: acceso al cuadrante borrador desde Planificación. Sustituir por una captura validada por Producto." />
+
+## Vídeo
+
+<Video videoId="dQw4w9WgXcQ" title="Vídeo de ejemplo sobre el cuadrante borrador" transcript="#transcripcion" />
+
+<Callout title="Vídeo pendiente">
+  El reproductor utiliza un identificador de demostración. Producto debe seleccionar el vídeo correcto de YouTube antes de aprobar el artículo.
+</Callout>
+
+## Resultado esperado
+
+Después de aplicar el borrador, los cambios deben aparecer en el cuadrante principal y quedar disponibles para los procesos posteriores correspondientes.
+
+## Problemas frecuentes
+
+### El borrador aparece vacío
+
+Comprueba que hayas seleccionado el mismo equipo, periodo y trabajadores que en el cuadrante principal.
+
+### No aparece la opción para aplicarlo
+
+Es posible que tu rol no tenga permisos suficientes. Solicita a un administrador que revise tus permisos.
+
+### Los cambios aparecen en fechas incorrectas
+
+No apliques el borrador. Revisa el periodo y corrige la planificación antes de confirmar.
+
+## Preguntas frecuentes
+
+### ¿Trabajar en el borrador modifica el cuadrante principal?
+
+No debería modificarlo hasta que se aplique el borrador. Esta afirmación está pendiente de validación funcional.
+
+### ¿Los trabajadores pueden ver el borrador?
+
+Este comportamiento debe confirmarse durante la revisión funcional del artículo.
+
+## Transcripción
+
+<div id="transcripcion"></div>
+
+La transcripción definitiva se incorporará cuando Producto seleccione y valide el vídeo correspondiente.
+
+## Artículos relacionados
+
+- [Trabajar con el cuadrante principal](/manual/planificacion/cuadrante-principal/)
+- [Crear y configurar turnos](/manual/planificacion/crear-turnos/)
+- [Resolver conflictos de planificación](/manual/planificacion/conflictos/)

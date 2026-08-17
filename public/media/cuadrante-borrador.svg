@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Prototipo del cuadrante borrador</title><desc id="d">Interfaz esquemática del planificador con el acceso al borrador destacado.</desc>
+  <rect width="1200" height="675" fill="#eef6fb"/><rect x="65" y="55" width="1070" height="565" rx="24" fill="white" stroke="#cbdbe7"/>
+  <rect x="65" y="55" width="1070" height="72" rx="24" fill="#123a63"/><circle cx="112" cy="91" r="18" fill="#27a1ef"/><text x="145" y="101" fill="white" font-family="Arial" font-size="28" font-weight="700">Planificación</text>
+  <rect x="90" y="153" width="240" height="430" rx="16" fill="#f5f8fb"/><text x="118" y="195" fill="#566b7f" font-family="Arial" font-size="18">MENÚ DEL CUADRANTE</text>
+  <rect x="108" y="225" width="205" height="58" rx="12" fill="#d9edff" stroke="#1485d1" stroke-width="3"/><text x="130" y="261" fill="#075a9c" font-family="Arial" font-size="22" font-weight="700">Cuadrante borrador</text>
+  <text x="128" y="326" fill="#596b7b" font-family="Arial" font-size="21">Cuadrante principal</text><text x="128" y="376" fill="#596b7b" font-family="Arial" font-size="21">Cobertura</text><text x="128" y="426" fill="#596b7b" font-family="Arial" font-size="21">Peticiones</text>
+  <text x="380" y="185" fill="#10233f" font-family="Arial" font-size="30" font-weight="700">Cuadrante borrador · Agosto</text>
+  <g fill="#e7f1f8" stroke="#ccdae5"><rect x="380" y="220" width="720" height="58"/><rect x="380" y="278" width="720" height="58"/><rect x="380" y="336" width="720" height="58"/><rect x="380" y="394" width="720" height="58"/><rect x="380" y="452" width="720" height="58"/></g>
+  <g fill="#168bd2"><rect x="520" y="236" width="120" height="27" rx="8"/><rect x="700" y="294" width="160" height="27" rx="8"/><rect x="450" y="352" width="180" height="27" rx="8"/><rect x="800" y="410" width="140" height="27" rx="8"/><rect x="615" y="468" width="210" height="27" rx="8"/></g>
+  <rect x="880" y="540" width="220" height="50" rx="12" fill="#0b6bcb"/><text x="919" y="572" fill="white" font-family="Arial" font-size="20" font-weight="700">Aplicar borrador</text>
+</svg>

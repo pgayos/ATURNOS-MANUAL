@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const articles=await getCollection('manual',({data})=>data.featured);
+---
+<BaseLayout>
+  <section class="hero"><div class="container"><span class="eyebrow">Nuevo manual de aTurnos</span><h1>Encuentra respuestas.<br />Trabaja con confianza.</h1><p class="lead">Guías verificadas, organizadas por módulos y preparadas para ayudarte también mediante IA.</p><form class="hero-search" action="/buscar/"><input name="q" aria-label="Buscar en el manual" placeholder="¿Qué necesitas hacer en aTurnos?" /><button class="button">Buscar</button></form></div></section>
+  <section class="section container" id="modulos"><div class="section-heading"><div><span class="eyebrow">Explora el producto</span><h2>Módulos</h2></div></div><div class="card-grid">
+    <a class="card" href="/manual/planificacion/"><span class="card-icon">▦</span><h3>Planificación</h3><p>Cuadrantes, turnos, patrones, vacaciones y coberturas.</p></a>
+    <a class="card" href="#"><span class="card-icon">◷</span><h3>Control horario</h3><p>Fichajes, validaciones, informes y configuración.</p></a>
+    <a class="card" href="#"><span class="card-icon">♙</span><h3>Gestión de personal</h3><p>Trabajadores, contratos, permisos y datos laborales.</p></a>
+  </div></section>
+  <section class="section container"><div class="section-heading"><div><span class="eyebrow">Piloto</span><h2>Contenido destacado</h2></div></div><div class="card-grid">{articles.map(a=><a class="card" href={`/manual/${a.id}/`}><span class="badge">{a.data.contentType}</span><h3>{a.data.title}</h3><p>{a.data.description}</p></a>)}</div></section>
+</BaseLayout>

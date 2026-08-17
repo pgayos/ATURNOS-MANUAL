@@ -1,0 +1,5 @@
+---
+interface Props { videoId: string; title: string; transcript?: string; }
+const { videoId, title, transcript } = Astro.props;
+---
+<section class="media-card"><iframe class="video" src={`https://www.youtube-nocookie.com/embed/${videoId}`} title={title} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{transcript && <div class="media-caption"><a href={transcript}>Leer la transcripción del vídeo</a></div>}</section>
