@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+interface Props {
+  moduleName: string;
+  articles: CollectionEntry<'manual'>[];
+}
+
+export async function getStaticPaths() {
+  const entries = await getCollection('manual');
+  const groups = new Map<string, CollectionEntry<'manual'>[]>();
+
+  for (const entry of entries) {
+    const moduleSlug = entry.id.split('/')[0];
+    const group = groups.get(moduleSlug) ?? [];
+    group.push(entry);
+    groups.set(moduleSlug, group);
+  }
+
+  return [...groups.entries()].map(([module, articles]) => ({
+    params: { module },
+    props: {
+      moduleName: articles[0].data.module,
+      articles: articles.sort((a, b) => a.data.title.localeCompare(b.data.title, 'es'))
+    }
+  }));
+}
+
+const { moduleName, articles } = Astro.props;
+const submodules = [...new Set(articles.map(article => article.data.submodule))];
+---
+<BaseLayout title={`${moduleName} · Manual de aTurnos`} description={`Guías y documentación del módulo ${moduleName} de aTurnos.`}>
+  <section class="hero"><div class="container"><span class="eyebrow">Módulo</span><h1>{moduleName}</h1><p class="lead">Consulta {articles.length} {articles.length === 1 ? 'artículo' : 'artículos'} organizados en {submodules.length} {submodules.length === 1 ? 'área' : 'áreas'}.</p></div></section>
+  <section class="section container">
+    <div class="card-grid">{articles.map(article => <a class="card" href={`/manual/${article.id}/`}><span class="badge">{article.data.submodule}</span><h3>{article.data.title}</h3><p>{article.data.description}</p></a>)}</div>
+  </section>
+</BaseLayout>
