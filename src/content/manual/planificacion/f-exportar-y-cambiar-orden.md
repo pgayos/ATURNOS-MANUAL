@@ -1,0 +1,65 @@
+---
+schemaVersion: "1.0"
+contentId: "planificacion-f-exportar-y-cambiar-orden"
+title: "Exportar y cambiar orden"
+description: "Aprende a exportar y cambiar orden, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentType: procedure
+module: "Planificación"
+submodule: "Turnos y patrones"
+intent: "Exportar y cambiar orden"
+audience:
+  - role: "Administrador"
+    access: applicable
+  - role: "RRHH"
+    access: applicable
+  - role: "Planificador"
+    access: applicable
+  - role: "Desarrollador API"
+    access: applicable
+entities:
+  - id: "cambiar"
+    label: "Cambiar"
+  - id: "exportar"
+    label: "Exportar"
+  - id: "orden"
+    label: "Orden"
+synonyms: []
+prerequisites: []
+platforms: [web]
+governance:
+  status: draft
+  owner: "Equipo de Producto de aTurnos"
+  reviewer: null
+  reviewedAt: null
+  reviewDueAt: null
+  sourceUrls:
+    - "https://manual.aturnos.com/knowledgebase/f-exportar-y-cambiar-orden/"
+  redirectsFrom:
+    - "https://manual.aturnos.com/knowledgebase/f-exportar-y-cambiar-orden/"
+ai:
+  answerableQuestions:
+    - "¿Cómo puedo exportar y cambiar orden?"
+  excludedQuestions: []
+  sensitivity: public
+  chunking: by-section
+readingTime: 1
+featured: false
+migration:
+  sourceCount: 1
+  contentHash: "f53b4536c91adb98dd9f5e924778b9301a7f02e942a729ccc3f4bd31ad7426ca"
+  migratedAt: 2026-08-17
+---
+## Resumen
+
+Aprende a exportar y cambiar orden, con instrucciones y contexto revisables por el equipo de aTurnos.
+
+## Contenido
+
+Te permite descargar el listado de turnos en un formato CSV. Es una funcionalidad muy útil, por ejemplo, para modificar cualquier variable de forma genérica a varios turnos y volver a importar el archivo en aTurnos. Así se evita modificar los tipos de turnos y absentismos, uno a uno, en el caso de equipos donde existe un importante listado de turnos.
+
+El administrador puede ordenar los tipos de turnos, para que en el resto de herramientas de aTurnos se mantengan con este orden y así sea más sencillo de gestionar. Por ejemplo, se recomienda poner más arriba los turnos que más se utilizan para localizarlos más rápido. Para ello, y desde la acción cambiar orden, junto al botón de acción de exportar, se puede realizar este cambio de diferentes maneras:
+
+1. Arrastrando al hacer clic la fila del tipo de turno, buscando el orden que se le quiera dar al tipo de turno que se arrastra de arriba, debajo y viceversa. Es necesario hacer clic en el botón “ Guardar orden ” (parte superior derecha) para que se guarde el nuevo orden de los turnos.
+2. Asignando a cada turno una numeración, en la última columna llamada “orden” de la tabla. A menor valor numérico, más alta será la posición del turno. Es necesario hacer clic en el botón “ guardar orden ” (parte superior derecha) para que se guarde el nuevo orden de los turnos.
+3. Por orden alfabético de la ‘A’ a la ‘Z’ y viceversa, atendiendo a las letras de las abreviaturas del tipo de turno. Para ello, se hace clic en la fecha que aparece en los enunciados de la columna denominada Abreviatura y descripción. Es necesario hacer clic en el botón “ Cambiar orden ” para que se guarde el nuevo orden de los turnos.
+4. Por orden de hora de inicio de turno, al hacer clic en la flecha que aparece en las columnas de Inicio u Horario, los turnos se ordenan atendiendo a la hora de inicio del mismo. Es necesario hacer clic en el botón “ Guardar orden ” (parte superior derecha) para que se guarde el nuevo orden de los turnos.

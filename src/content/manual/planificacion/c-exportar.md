@@ -1,0 +1,79 @@
+---
+schemaVersion: "1.0"
+contentId: "planificacion-c-exportar"
+title: "Exportar"
+description: "Información sobre exportar, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentType: concept
+module: "Planificación"
+submodule: "Vacaciones y ausencias"
+intent: "Exportar"
+audience:
+  - role: "RRHH"
+    access: applicable
+  - role: "Planificador"
+    access: applicable
+  - role: "Trabajador"
+    access: applicable
+entities:
+  - id: "exportar"
+    label: "Exportar"
+synonyms: []
+prerequisites: []
+platforms: [web]
+governance:
+  status: draft
+  owner: "Equipo de Producto de aTurnos"
+  reviewer: null
+  reviewedAt: null
+  reviewDueAt: null
+  sourceUrls:
+    - "https://manual.aturnos.com/knowledgebase/c-exportar/"
+  redirectsFrom:
+    - "https://manual.aturnos.com/knowledgebase/c-exportar/"
+ai:
+  answerableQuestions:
+    - "¿Qué debo saber sobre exportar?"
+  excludedQuestions: []
+  sensitivity: public
+  chunking: by-section
+readingTime: 1
+featured: false
+migration:
+  sourceCount: 1
+  contentHash: "8bb7f91a9fbf6d34a8387558698378072a37c9abda01c163cf0d08c6ee2ffa38"
+  migratedAt: 2026-08-17
+---
+## Resumen
+
+Información sobre exportar, con instrucciones y contexto revisables por el equipo de aTurnos.
+
+## Contenido
+
+En aTurnos existen distintas formas de exportar los datos, tanto desde esta ventana como desde las distintas pestañas dentro de aTurnos que tengan habilitado el icono de exportación como, por ejemplo: Listado de tipos de turno, Estadísticas, Cuadrante, entre otros menús.
+
+Este menú de ‘Exportar’ se compone de cuatro partes:
+
+- Filtro de fechas.
+- Filtro de trabajadores.
+- Formato.
+- Selección de datos a exportar.
+
+Para una correcta exportación de los datos es necesario:
+
+1. Indicar un periodo de exportación (con una fecha de inicio y fin de dicho periodo).
+
+1. En segundo lugar, el filtro situado en la parte derecha, permite exportar solo aquellos trabajadores de los cuales se haya indicado su nombre, email o ID Empleado.
+
+1. El tercer paso, es escoger el tipo de formato deseado (JSON o CSV) en el que se quiere exportar.
+
+1. Por último, los datos que se desean exportar. Estos datos se encuentran clasificados en cuatro categorías distintas (para ubicar más fácilmente los conceptos que se desean exportar), como:
+
+- Datos básicos (nombre del equipo, nombre del usuario, emails, teléfonos, roles, datos personalizados, entre otros)
+
+- Categoría & Contrato (fecha inicio y fin de contrato, categoría, localización, tipo de vacaciones y posición ).
+
+- Tiempos (horas contrato, balances de horas, horas planificadas, vacaciones, turnos de trabajo, entre otros)
+
+- Datos de planificación (datos de los patrones de turnos aplicados ).
+
+Una vez seleccionados los conceptos a exportar, se debe hacer clic en el botón de “ Exportar “, y se generará el archivo para su consulta.

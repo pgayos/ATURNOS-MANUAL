@@ -35,6 +35,11 @@ const manual = defineCollection({
       sensitivity: z.enum(['public', 'authenticated', 'restricted']),
       chunking: z.literal('by-section')
     }),
+    migration: z.object({
+      sourceCount: z.number().int().positive(),
+      contentHash: z.string().length(64),
+      migratedAt: z.coerce.date()
+    }).optional(),
     readingTime: z.number().positive(),
     featured: z.boolean().default(false)
   })

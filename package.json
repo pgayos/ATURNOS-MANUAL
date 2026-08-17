@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "migrate": "python3 scripts/migrate_manual.py",
+    "validate:migration": "python3 scripts/validate_migration.py",
     "build": "astro check && astro build && pagefind --site dist",
     "preview": "astro preview",
     "check": "astro check"
