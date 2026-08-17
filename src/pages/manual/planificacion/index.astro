@@ -1,5 +1,0 @@
----
-import BaseLayout from '../../../layouts/BaseLayout.astro'; import { getCollection } from 'astro:content';
-const articles=await getCollection('manual',({data})=>data.module==='Planificación');
----
-<BaseLayout title="Planificación · Manual de aTurnos"><section class="hero"><div class="container"><span class="eyebrow">Módulo</span><h1>Planificación</h1><p class="lead">Aprende a organizar cuadrantes, turnos, vacaciones y coberturas.</p></div></section><section class="section container"><div class="card-grid">{articles.map(a=><a class="card" href={`/manual/${a.id}/`}><span class="badge">{a.data.submodule}</span><h3>{a.data.title}</h3><p>{a.data.description}</p></a>)}</div></section></BaseLayout>

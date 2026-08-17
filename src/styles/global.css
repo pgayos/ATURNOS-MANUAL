@@ -37,6 +37,7 @@ h3 { margin-top: 1.7em; line-height: 1.25; scroll-margin-top: 100px; }
 .card-icon { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 13px; background: var(--soft); color: var(--brand); font-size: 1.3rem; }
 .card h3 { margin: 18px 0 7px; }
 .card p { margin: 0; color: var(--muted); }
+.card-count { display: inline-block; margin-top: 16px; color: var(--brand-dark); font-size: .85rem; font-weight: 750; }
 .article-shell { display: grid; grid-template-columns: 230px minmax(0, 760px) 230px; gap: 38px; align-items: start; padding: 30px 0 80px; }
 .sidebar { position: sticky; top: 102px; font-size: .92rem; }
 .sidebar strong { display: block; margin-bottom: 10px; }
