@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+interface Props { entry: CollectionEntry<'manual'>; headings: { depth: number; slug: string; text: string }[]; }
+const { entry, headings } = Astro.props;
+const d=entry.data;
+const reviewed=d.governance.reviewedAt ? d.governance.reviewedAt.toLocaleDateString('es-ES') : 'Pendiente de revisión';
+---
+<BaseLayout title={`${d.title} · aTurnos`} description={d.description}>
+  <div class="container breadcrumbs"><a href="/">Inicio</a> / <a href="/manual/planificacion/">{d.module}</a> / {d.submodule}</div>
+  <main class="container article-shell">
+    <aside class="sidebar" aria-label="Índice del artículo"><strong>En esta página</strong>{headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}</aside>
+    <article data-pagefind-body>
+      <header class="article-header">
+        <span class="eyebrow">{d.module} · {d.submodule}</span><h1>{d.title}</h1><p class="lead">{d.description}</p>
+        <div class="badges">{d.audience.map(a=><span class="badge" data-role={a.role}>{a.role}</span>)}</div>
+        <div class="article-meta"><span>◷ {d.readingTime} min</span><span>✓ Estado: {d.governance.status}</span><span>↻ Revisado: {reviewed}</span></div>
+      </header>
+      <div class="article-body"><slot /></div>
+      <div class="feedback"><strong>¿Te ha resultado útil este artículo?</strong><div><button type="button">Sí</button> <button type="button">No</button></div></div>
+    </article>
+    <aside class="right-panel">
+      <div class="mini-card ai-box"><h3>Pregunta a la IA</h3><p>Obtén una respuesta basada únicamente en contenido aprobado y con citas.</p><a class="button" href="/asistente/">Abrir asistente</a></div>
+      <div class="mini-card"><h3>Para tu perfil</h3><p>Selecciona tu perfil en la cabecera para destacar requisitos y pasos relevantes.</p></div>
+      <div class="mini-card"><h3>Responsable</h3><p>{d.governance.owner}<br />Revisión anual</p></div>
+    </aside>
+  </main>
+</BaseLayout>

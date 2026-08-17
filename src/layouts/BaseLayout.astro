@@ -1,0 +1,33 @@
+---
+import '../styles/global.css';
+interface Props { title?: string; description?: string; }
+const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTurnos con guías claras y respuestas verificadas.' } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav" aria-label="Navegación principal">
+        <a class="logo" href="/"><span class="logo-mark">a</span><span>Centro de ayuda</span></a>
+        <div class="nav-links">
+          <a href="/#modulos">Módulos</a><a href="/manual/planificacion/">Planificación</a><a class="search-link" href="/buscar/">⌕ Buscar</a>
+        </div>
+        <select class="profile-picker" id="profile-picker" aria-label="Seleccionar mi perfil">
+          <option value="general">Mi perfil</option><option>Trabajador</option><option>Planificador</option><option>Administrador</option><option>RRHH</option>
+        </select>
+      </nav>
+    </header>
+    <slot />
+    <footer class="site-footer"><div class="container">Piloto del nuevo manual de aTurnos · Contenido público y revisado antes de publicar.</div></footer>
+    <script is:inline>
+      const picker = document.querySelector('#profile-picker');
+      if (picker) { picker.value = localStorage.getItem('manual-profile') || 'general'; picker.addEventListener('change', () => { localStorage.setItem('manual-profile', picker.value); document.documentElement.dataset.profile = picker.value; }); }
+    </script>
+  </body>
+</html>

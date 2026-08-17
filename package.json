@@ -1,0 +1,21 @@
+{
+  "name": "aturnos-manual",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "7.0.5",
+    "astro": "7.2.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "latest",
+    "pagefind": "1.5.2",
+    "typescript": "latest"
+  }
+}
