@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-guia-conceptos-que-operan-entre-conceptos-para-administradores"
-title: "Conceptos que operan entre conceptos para administradores"
-description: "Aprende a conceptos que operan entre conceptos para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: costes-y-nominas-guia-conceptos-que-operan-entre-conceptos-para-administradores
+title: Conceptos que operan entre conceptos para administradores
+description: "Esta opción sirve para crear un concepto “final” a partir de otros conceptos que ya existen, haciendo una operación sencilla: sumar, restar, multiplicar o dividir."
 contentType: procedure
-module: "Costes y nóminas"
-submodule: "Nóminas"
-intent: "Conceptos que operan entre conceptos"
+module: Costes y nóminas
+submodule: Nóminas
+intent: Conceptos que operan entre conceptos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-27
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-que-operan-entre-conceptos/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-que-operan-entre-conceptos/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo conceptos que operan entre conceptos para administradores?"
+    - ¿Cómo puedo conceptos que operan entre conceptos para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-que-operan-entre-conceptos/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-que-operan-entre-conceptos/
+  contentHash: 9bc4445b5a348428dae0407c92cb1f5c13cda793f17d1ac0aed82c95608eb126
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -95,3 +106,7 @@ A continuación, se explica paso a paso un caso de uso, en el que se calcula el 
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el dato personalizado NO_FIJO_NOCHE”, añadir como “concepto seleccionado para operar”
 
 El dato personalizado tiene la función de activador del pago, sí está informado en el perfil del trabajador con el valor correspondiente, en este caso un 1, calcula el concepto.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

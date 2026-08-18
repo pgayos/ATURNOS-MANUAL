@@ -1,49 +1,55 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-7-listado-de-fichajes"
-title: "Listado de fichajes"
-description: "En esta consulta se informan todos los fichajes resumidos en un listado con los campos configurados en RRHH."
+contentId: control-horario-7-listado-de-fichajes
+title: Listado de fichajes
+description: En esta consulta se informan todos los fichajes resumidos en un listado con los campos configurados en RRHH.
 contentType: concept
-module: "Control horario"
-submodule: "Usuarios y perfiles"
-intent: "Listado de fichajes"
+module: Control horario
+submodule: Usuarios y perfiles
+intent: Listado de fichajes
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "listado"
-    label: "Listado"
+  - id: fichajes
+    label: Fichajes
+  - id: listado
+    label: Listado
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-listado-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/7-listado-de-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-listado-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/7-listado-de-fichajes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre listado de fichajes?"
+    - ¿Qué debo saber sobre listado de fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "4888a91bfffa1d67108db901c42ce2a65e4b35cdd27f6628d8507987ceaa77a2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-listado-de-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-listado-de-fichajes/
+  contentHash: 81b272942af795bf0b0820dcf751d80d97b9d57ae02449bfaa51da467dd4bc49
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-actividad-1-practica-la-planificacion-para-administradores"
-title: "Actividad 1. Practica la planificación para administradores"
+contentId: planificacion-guia-actividad-1-practica-la-planificacion-para-administradores
+title: Actividad 1. Practica la planificación para administradores
 description: "Añade los siguientes turnos a una jornada partida: Turno1(JP1) y Turno2 (JP2)."
 contentType: concept
-module: "Planificación"
-submodule: "Ejercicios prácticos"
-intent: "Actividad 1. Practica la planificación"
+module: Planificación
+submodule: Ejercicios prácticos
+intent: Actividad 1. Practica la planificación
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-05-22
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-1-practica-la-planificacion/"
+    - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-1-practica-la-planificacion/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre actividad 1. Practica la planificación para administradores?"
+    - ¿Qué debo saber sobre actividad 1. Practica la planificación para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-1-practica-la-planificacion/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-1-practica-la-planificacion/
+  contentHash: c1211426c8f8dd069d2d40e475789f77167e056848b8caefeb5f7f985b1e3ffa
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -66,3 +77,7 @@ Añade los siguientes turnos a una jornada partida: Turno1(JP1) y Turno2 (JP2).
 - Extra | EX | Extra | 1.5
 - Festiva | FE | Complementaria | 2
 - Formación | FO | Normal | 1
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

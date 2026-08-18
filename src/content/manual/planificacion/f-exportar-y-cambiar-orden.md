@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-f-exportar-y-cambiar-orden"
-title: "Exportar y cambiar orden"
-description: "Aprende a exportar y cambiar orden, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-f-exportar-y-cambiar-orden
+title: Exportar y cambiar orden
+description: Te permite descargar el listado de turnos en un formato CSV.
 contentType: procedure
-module: "Planificación"
-submodule: "Turnos y patrones"
-intent: "Exportar y cambiar orden"
+module: Planificación
+submodule: Turnos y patrones
+intent: Exportar y cambiar orden
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "cambiar"
-    label: "Cambiar"
-  - id: "exportar"
-    label: "Exportar"
-  - id: "orden"
-    label: "Orden"
+  - id: cambiar
+    label: Cambiar
+  - id: exportar
+    label: Exportar
+  - id: orden
+    label: Orden
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/f-exportar-y-cambiar-orden/"
+    - https://manual.aturnos.com/knowledgebase/f-exportar-y-cambiar-orden/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/f-exportar-y-cambiar-orden/"
+    - https://manual.aturnos.com/knowledgebase/f-exportar-y-cambiar-orden/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo exportar y cambiar orden?"
+    - ¿Cómo puedo exportar y cambiar orden?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f53b4536c91adb98dd9f5e924778b9301a7f02e942a729ccc3f4bd31ad7426ca"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/f-exportar-y-cambiar-orden/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/f-exportar-y-cambiar-orden/
+  contentHash: e671de2b6c6a4414eca0d342559262f2566899f5a398dc5396fc98e980503c4e
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a exportar y cambiar orden, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Te permite descargar el listado de turnos en un formato CSV. Es una funcionalidad muy útil, por ejemplo, para modificar cualquier variable de forma genérica a varios turnos y volver a importar el archivo en aTurnos. Así se evita modificar los tipos de turnos y absentismos, uno a uno, en el caso de equipos donde existe un importante listado de turnos.
 
 El administrador puede ordenar los tipos de turnos, para que en el resto de herramientas de aTurnos se mantengan con este orden y así sea más sencillo de gestionar. Por ejemplo, se recomienda poner más arriba los turnos que más se utilizan para localizarlos más rápido. Para ello, y desde la acción cambiar orden, junto al botón de acción de exportar, se puede realizar este cambio de diferentes maneras:

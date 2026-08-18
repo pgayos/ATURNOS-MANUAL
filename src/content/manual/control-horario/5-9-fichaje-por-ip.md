@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-9-fichaje-por-ip"
-title: "Fichaje por IP"
-description: "Información sobre fichaje por IP, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-9-fichaje-por-ip
+title: Fichaje por IP
+description: Este sistema de fichaje permite que los trabajadores realicen sus fichajes de entrada y salida desde el terminal con el que se conectan a internet (ordenador o dispositivo móvil conectado a.
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Fichaje por IP"
+module: Control horario
+submodule: Fichajes
+intent: Fichaje por IP
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichaje"
-    label: "Fichaje"
+  - id: fichaje
+    label: Fichaje
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-9-fichaje-por-ip/"
+    - https://manual.aturnos.com/knowledgebase/5-9-fichaje-por-ip/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-9-fichaje-por-ip/"
+    - https://manual.aturnos.com/knowledgebase/5-9-fichaje-por-ip/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre fichaje por IP?"
+    - ¿Qué debo saber sobre fichaje por IP?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b79b3b5ab6c6243f6c5c925c257480bb95f159c98ef77b83d4270582b68492ee"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-9-fichaje-por-ip/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-9-fichaje-por-ip/
+  contentHash: a57dcc9f04f3add30916bf467a06c5a278737c2153447c7451a7120a0f68420b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre fichaje por IP, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Este sistema de fichaje permite que los trabajadores realicen sus fichajes de entrada y salida desde el terminal con el que se conectan a internet (ordenador o dispositivo móvil conectado a la red) desde su centro de trabajo mediante el filtrado de la IP.
 
 Antes de configurar, se tiene que entender que cuando se habla de IP de una Red, genéricamente todos los routers se conectan bajo la misma IP Privada 192.168.1.1. El sistema de filtrado por IP, comprueba siempre los tres primeros números de la IP, en este caso, 192.168.1. Cualquier IP de un dispositivo conectado a esta Red, tendrá una IP Privada con un cuarto número.

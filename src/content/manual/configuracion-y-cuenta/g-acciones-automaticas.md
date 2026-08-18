@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-g-acciones-automaticas"
-title: "Acciones Automáticas"
-description: "Las acciones en aTurnos son procesos que se configuran en el sistema para que sean ejecutados de manera automática tomando en cuenta la frecuencia y parámetros requeridos."
+contentId: configuracion-y-cuenta-g-acciones-automaticas
+title: Acciones Automáticas
+description: Las acciones en aTurnos son procesos que se configuran en el sistema para que sean ejecutados de manera automática tomando en cuenta la frecuencia y parámetros requeridos.
 contentType: concept
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Acciones Automáticas"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Acciones Automáticas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "acciones"
-    label: "Acciones"
-  - id: "automaticas"
-    label: "Automaticas"
+  - id: acciones
+    label: Acciones
+  - id: automaticas
+    label: Automaticas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/g-acciones-automaticas/"
+    - https://manual.aturnos.com/knowledgebase/g-acciones-automaticas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/g-acciones-automaticas/"
+    - https://manual.aturnos.com/knowledgebase/g-acciones-automaticas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre acciones Automáticas?"
+    - ¿Qué debo saber sobre acciones Automáticas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 7
+readingTime: 10
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3339514a66dc39455559237c66db716edc12629333e0e5cf3c490567b78a2f91"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/g-acciones-automaticas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/g-acciones-automaticas/
+  contentHash: edb22808b20391f767912cab618177efbbaea5a7f1a81d5a3f07a52e9388dbd3
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Las acciones en aTurnos son procesos que se configuran en el sistema para que sean ejecutados de manera automática tomando en cuenta la frecuencia y parámetros requeridos.
 
-## Contenido
-
+## Qué debes saber
 Al “Añadir” se pueden configurar las siguientes acciones:
 
 Esta acción automática sirve para denegar cambios de turno solicitados por los usuarios que no se hayan aprobado todavía por todas las partes involucradas en el periodo de tiempo configurado. Por ejemplo, se puede configurar que al final de cada mes se borren aquellas solicitudes de cambios de turno no gestionadas para tener los cuadrantes lo más actualizados posible.

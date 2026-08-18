@@ -1,55 +1,62 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-cuadro-de-mando-operaciones-planificacion-de-personal"
+contentId: planificacion-4-cuadro-de-mando-operaciones-planificacion-de-personal
 title: "Cuadro de mando: Operaciones planificación de personal"
-description: "Aprende a cuadro de mando: Operaciones planificación de personal, con instrucciones y contexto revisables por el equipo de aTurnos."
+description: Una vez creada la Curva de necesidad o demanda (Véase como crear curvas de demanda), podrás visualizarla de forma gráfica en este punto.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
+module: Planificación
+submodule: Vacaciones y ausencias
 intent: "Cuadro de mando: Operaciones planificación de personal"
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cuadro"
-    label: "Cuadro"
-  - id: "mando"
-    label: "Mando"
-  - id: "operaciones"
-    label: "Operaciones"
-  - id: "personal"
-    label: "Personal"
-  - id: "planificacion"
-    label: "Planificacion"
+  - id: cuadro
+    label: Cuadro
+  - id: mando
+    label: Mando
+  - id: operaciones
+    label: Operaciones
+  - id: personal
+    label: Personal
+  - id: planificacion
+    label: Planificacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-cuadro-de-mando-operaciones-planificacion-de-personal/"
+    - https://manual.aturnos.com/knowledgebase/3-cuadro-de-mando-operaciones-planificacion-de-personal/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-cuadro-de-mando-operaciones-planificacion-de-personal/"
+    - https://manual.aturnos.com/knowledgebase/3-cuadro-de-mando-operaciones-planificacion-de-personal/
 ai:
   answerableQuestions:
     - "¿Cómo puedo cuadro de mando: Operaciones planificación de personal?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "89dca660f53523a3f1db7e0eb1a431093d36c50979135b21d09068e23199f0e4"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-cuadro-de-mando-operaciones-planificacion-de-personal/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-cuadro-de-mando-operaciones-planificacion-de-personal/
+  contentHash: 5b7a4175f9f39269ee67d753b5808d4a2bb1c48132673c1c0565fc249c61e5d2
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -86,3 +93,7 @@ De igual forma, posicionando el cursor sobre alguna de las barras se revela el d
 Resume las horas que genera ese modelo, como lo son horas demandadas, horas por exceso y por defecto. También identifica punto de mayor demanda, Mayor necesidad de trabajadores (día y hora) y Mayor exceso de trabajadores (día y hora).
 
 Adicionalmente, haciendo clic en el icono de “Tabla de cobertura del equipo” se mostrará la cantidad de personas que están cubriendo cada hora por día (según período establecido).
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

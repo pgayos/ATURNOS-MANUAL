@@ -1,43 +1,50 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-16-el-dia-a-dia"
-title: "El día a día"
-description: "Al no poder reservar on-line a más de 15 días, se debe comprobar en el cuadrante si los turnos de trabajo asignados se corresponden con los días de apertura."
+contentId: planificacion-16-el-dia-a-dia
+title: El día a día
+description: Al no poder reservar on-line a más de 15 días, se debe comprobar en el cuadrante si los turnos de trabajo asignados se corresponden con los días de apertura.
 contentType: procedure
-module: "Planificación"
-submodule: "Cuadrante"
-intent: "El día a día"
+module: Planificación
+submodule: Cuadrante
+intent: El día a día
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "dia"
-    label: "Dia"
+  - id: dia
+    label: Dia
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/16-el-dia-a-dia/"
+    - https://manual.aturnos.com/knowledgebase/16-el-dia-a-dia/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/16-el-dia-a-dia/"
+    - https://manual.aturnos.com/knowledgebase/16-el-dia-a-dia/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo el día a día?"
+    - ¿Cómo puedo el día a día?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ec6c57f90ebcbbdc62875268a9a15b9611438f919dd76ed317889da7e2f22255"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/16-el-dia-a-dia/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/16-el-dia-a-dia/
+  contentHash: 84d368c882ad9e48f7bfd910812a0673efbd293ced3890cbbac121ee2fd51393
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -76,3 +83,7 @@ También aquí, en la opción “Cantidad de tareas pendientes para visualizar e
 Hay que tener alguna precaución en el caso de que queramos que un puesto que durante el día ha tenido una determinada función lo pasemos a otra.
 
 En estos casos, si le quitamos la función que ha estado desarrollando (le indicamos un 1 en la especialidad que tiene), es posible que clientes con cita solicitada (para la tarea que hemos marcado como 1) no sean llamados, esto ocurriría en el caso de que al puesto al que le hemos quitado la tarea sea el único que tiene el día planificado.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

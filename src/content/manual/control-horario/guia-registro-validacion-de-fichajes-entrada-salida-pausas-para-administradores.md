@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-guia-registro-validacion-de-fichajes-entrada-salida-pausas-para-administradores"
-title: "Registro, validación de fichajes (entrada, salida, pausas) para administradores"
-description: "Información sobre registro, validación de fichajes (entrada, salida, pausas) para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-guia-registro-validacion-de-fichajes-entrada-salida-pausas-para-administradores
+title: Registro, validación de fichajes (entrada, salida, pausas) para administradores
+description: El sistema de fichaje por IP de aTurnos permite a los trabajadores registrar su entrada y salida de manera fácil y segura desde cualquier dispositivo conectado a internet (ordenadores o móvi.
 contentType: reference
-module: "Control horario"
-submodule: "Horas trabajadas"
-intent: "Registro, validación de fichajes (entrada, salida, pausas)."
+module: Control horario
+submodule: Horas trabajadas
+intent: Registro, validación de fichajes (entrada, salida, pausas).
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/registro-validacion-de-fichajes-entrada-salida-pausas/"
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/registro-validacion-de-fichajes-entrada-salida-pausas/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre registro, validación de fichajes (entrada, salida, pausas) para administradores?"
+    - ¿Qué debo saber sobre registro, validación de fichajes (entrada, salida, pausas) para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/registro-validacion-de-fichajes-entrada-salida-pausas/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/registro-validacion-de-fichajes-entrada-salida-pausas/
+  contentHash: 345186eb9283531da35c6efa66b314932787855030a44b96ad7bef0e0112ee17
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

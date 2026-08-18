@@ -1,42 +1,43 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-1-descripcion-y-consideraciones-previas"
-title: "Descripción y consideraciones previas"
-description: "El módulo de tareas de aTurnos permite la asignación de tareas por terceros a los trabajadores planificados en el cuadrante y la gestión de estas tareas desde diferentes puestos y usuarios."
+contentId: tareas-1-descripcion-y-consideraciones-previas
+title: Descripción y consideraciones previas
+description: El módulo de tareas de aTurnos permite la asignación de tareas por terceros a los trabajadores planificados en el cuadrante y la gestión de estas tareas desde diferentes puestos y usuarios.
 contentType: concept
-module: "Tareas"
-submodule: "Vacaciones y ausencias"
-intent: "Descripción y consideraciones previas"
+module: Tareas
+submodule: Vacaciones y ausencias
+intent: Descripción y consideraciones previas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "consideraciones"
-    label: "Consideraciones"
-  - id: "descripcion"
-    label: "Descripcion"
-  - id: "previas"
-    label: "Previas"
+  - id: consideraciones
+    label: Consideraciones
+  - id: descripcion
+    label: Descripcion
+  - id: previas
+    label: Previas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-descripcion-y-consideraciones-previas/"
+    - https://manual.aturnos.com/knowledgebase/1-descripcion-y-consideraciones-previas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-descripcion-y-consideraciones-previas/"
+    - https://manual.aturnos.com/knowledgebase/1-descripcion-y-consideraciones-previas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre descripción y consideraciones previas?"
+    - ¿Qué debo saber sobre descripción y consideraciones previas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -44,15 +45,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "7f514347fbba4491c9049e117f8319b609f2cd5b069bd354d6b92f407a3f5bc6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-descripcion-y-consideraciones-previas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-descripcion-y-consideraciones-previas/
+  contentHash: 758481d68a882e9cd1200d4841af40126e923e4345d0d4892c14d5f995b0f3cf
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El módulo de tareas de aTurnos permite la asignación de tareas por terceros a los trabajadores planificados en el cuadrante y la gestión de estas tareas desde diferentes puestos y usuarios.
 
-## Contenido
-
+## Qué debes saber
 Las tareas pueden ser asignadas desde sistemas externos conectados al API de aTurnos, desde las solicitud de citas desde los kioscos por parte de clientes o por los mismos trabajadores.
 
 Estas tareas/citas son asignadas atendido a las diferentes especialidades de los trabajadores y a diferentes criterios de asignación.

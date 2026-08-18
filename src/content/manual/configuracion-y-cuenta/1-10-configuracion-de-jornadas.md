@@ -1,52 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-1-10-configuracion-de-jornadas"
-title: "Configuración de jornadas"
-description: "Para poder calcular el número de Jornadas, Jornadas Nocturnas, Jornadas Festivas, Jornadas Festivas Especiales, etc. se deben establecer en aTurnos cuatro variables, a través ADMINISTRAR → AJUSTES → Configuración."
+contentId: configuracion-y-cuenta-1-10-configuracion-de-jornadas
+title: Configuración de jornadas
+description: Para poder calcular el número de Jornadas, Jornadas Nocturnas, Jornadas Festivas, Jornadas Festivas Especiales, etc. se deben establecer en aTurnos cuatro variables, a través ADMINISTRAR → AJUSTES → Configuración.
 contentType: procedure
-module: "Configuración y cuenta"
-submodule: "General"
-intent: "Configuración de jornadas"
+module: Configuración y cuenta
+submodule: General
+intent: Configuración de jornadas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "configuracion"
-    label: "Configuracion"
-  - id: "jornadas"
-    label: "Jornadas"
+  - id: configuracion
+    label: Configuracion
+  - id: jornadas
+    label: Jornadas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-10-jornadas/"
+    - https://manual.aturnos.com/knowledgebase/1-10-jornadas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-10-jornadas/"
+    - https://manual.aturnos.com/knowledgebase/1-10-jornadas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo configuración de jornadas?"
+    - ¿Cómo puedo configuración de jornadas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "7f450510ba2007ed93cdfa2bcecab3f16e828bf3fff9760ce03a02a4ff7172f0"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-10-jornadas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-10-jornadas/
+  contentHash: 1449a85b3c21aed7cf31594dd840617ded97b956fc98fe8ab4400374de39a886
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Para poder calcular el número de Jornadas, Jornadas Nocturnas, Jornadas Festivas, Jornadas Festivas Especiales, etc. se deben establecer en aTurnos cuatro variables, a través ADMINISTRAR → AJUSTES → Configuración.
 
-## Contenido
-
+## Procedimiento
 Los conceptos que recuperan las jornadas son los conceptos tipo 1.4, accede al Manual para consultar los conceptos de cálculo que hacen referencia a jornadas. Conceptos 1.4.
 
 Las variables son:

@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-4-mis-equipos"
-title: "Mis equipos"
-description: "Aprende a mis equipos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-1-4-mis-equipos
+title: Mis equipos
+description: Un equipo en aTurnos es un grupo de usuarios que comparten un mismo entorno de trabajo.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Mis equipos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Mis equipos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "equipos"
-    label: "Equipos"
-  - id: "mis"
-    label: "Mis"
+  - id: equipos
+    label: Equipos
+  - id: mis
+    label: Mis
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/mis-equipos/"
+    - https://manual.aturnos.com/knowledgebase/mis-equipos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/mis-equipos/"
+    - https://manual.aturnos.com/knowledgebase/mis-equipos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo mis equipos?"
+    - ¿Cómo puedo mis equipos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c4c2bb228cf261e659cf3bd2fc9b5172c342265d797fe247ea6c424bc0af170e"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/mis-equipos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/mis-equipos/
+  contentHash: 6478e54c36495a0539e6eb166693be1bf52b2bd3f2234b6e1c0e3ef252f14ba4
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a mis equipos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Un equipo en aTurnos es un grupo de usuarios que comparten un mismo entorno de trabajo. En ese entorno se gestiona todo lo relacionado con turnos, control horario, reportes, documentos y otros servicios que ofrece la plataforma. El usuario cuando accede a aTurnos puede pertenecer al equipo (como puede ser un trabajador/administrador planificable), o no pertenecer al equipo (como puede ser un administrador no planificable).
 
 Dependerá de la configuración del perfil del usuario, en cada uno de los equipos, a los que tiene acceso: ver configuración. Un mismo usuario puede acceder a uno o varios equipos usando sus credenciales de aTurnos.

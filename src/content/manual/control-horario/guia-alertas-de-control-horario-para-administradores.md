@@ -1,27 +1,28 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-guia-alertas-de-control-horario-para-administradores"
-title: "Alertas de control horario para administradores"
-description: "Información sobre alertas de control horario para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-guia-alertas-de-control-horario-para-administradores
+title: Alertas de control horario para administradores
+description: El sistema de control de presencia está diseñado para garantizar la precisión y el cumplimiento en el registro de la jornada laboral.
 contentType: troubleshooting
-module: "Control horario"
-submodule: "Alertas"
-intent: "Alertas de control horario"
+module: Control horario
+submodule: Alertas
+intent: Alertas de control horario
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-02-17
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/alertas-de-control-horario/"
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/alertas-de-control-horario/
   redirectsFrom: []
 ai:
   answerableQuestions:
@@ -29,8 +30,18 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/alertas-de-control-horario/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/alertas-de-control-horario/
+  contentHash: aa39cc9783bbaad026d5acef4f68db8d4da8132568d1da5878a906a5c5d9baa1
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -132,3 +143,7 @@ Acción pendiente: Justifica el absentismo o corrige los fichajes.
 Descripción: El trabajador excedió el límite configurado de minutos trabajados.
 
 Acción pendiente: Valida si se deben aplicar horas extras o ajusta la planificación.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

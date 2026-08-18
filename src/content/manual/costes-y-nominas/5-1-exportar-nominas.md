@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-5-1-exportar-nominas"
-title: "Exportar nóminas"
-description: "La exportación a nómina genera un fichero csv que recupera los valores calculados entre las fechas de la ejecución."
+contentId: costes-y-nominas-5-1-exportar-nominas
+title: Exportar nóminas
+description: La exportación a nómina genera un fichero csv que recupera los valores calculados entre las fechas de la ejecución.
 contentType: procedure
-module: "Costes y nóminas"
-submodule: "Usuarios y perfiles"
-intent: "Exportar nóminas"
+module: Costes y nóminas
+submodule: Usuarios y perfiles
+intent: Exportar nóminas
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "exportar"
-    label: "Exportar"
-  - id: "nominas"
-    label: "Nominas"
+  - id: exportar
+    label: Exportar
+  - id: nominas
+    label: Nominas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/d-exportar-nominas/"
+    - https://manual.aturnos.com/knowledgebase/d-exportar-nominas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/d-exportar-nominas/"
+    - https://manual.aturnos.com/knowledgebase/d-exportar-nominas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo exportar nóminas?"
+    - ¿Cómo puedo exportar nóminas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6d590b3e90450495a77fc69435e98823f64f4362c4079066933dbcdbad9a4fc4"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/d-exportar-nominas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/d-exportar-nominas/
+  contentHash: f5a393e75fd38803df440718d39c4a6045db363d107eb41c07cdd7a97e6b237d
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 La exportación a nómina genera un fichero csv que recupera los valores calculados entre las fechas de la ejecución.
 
-## Contenido
-
+## Procedimiento
 Desde ADMINISTRAR → NÓMINAS → EXPORTAR A NÓMINA se accede al menú
 
 1.- Filtros para la exportación.

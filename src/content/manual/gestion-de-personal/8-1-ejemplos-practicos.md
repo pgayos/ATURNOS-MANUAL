@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-8-1-ejemplos-practicos"
-title: "Ejemplos Prácticos"
-description: "Para obtener la variables de un trabajador para realizar el finiquito:."
+contentId: gestion-de-personal-8-1-ejemplos-practicos
+title: Ejemplos Prácticos
+description: Para obtener la variables de un trabajador para realizar el finiquito:.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Ejemplos Prácticos"
+module: Gestión de personal
+submodule: Contratos
+intent: Ejemplos Prácticos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "ejemplos"
-    label: "Ejemplos"
-  - id: "practicos"
-    label: "Practicos"
+  - id: ejemplos
+    label: Ejemplos
+  - id: practicos
+    label: Practicos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-1-ejemplo/"
+    - https://manual.aturnos.com/knowledgebase/8-1-ejemplo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-1-ejemplo/"
+    - https://manual.aturnos.com/knowledgebase/8-1-ejemplo/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre ejemplos Prácticos?"
+    - ¿Qué debo saber sobre ejemplos Prácticos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 7
+readingTime: 10
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "22655bd10460d799f241732e817e2f0c7bf5d73833e5cb6a37f732258fce4a5d"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-1-ejemplo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-1-ejemplo/
+  contentHash: 6c14b4f1bca063656e3b2ca2e404241ad28e7fbf5681d5c72a9fbb429244dd2b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Para obtener la variables de un trabajador para realizar el finiquito:.
 
-## Contenido
-
+## Qué debes saber
 1.- Informar la fecha de baja en el perfil del trabajador
 
 2.- Guardar la modificación efectuada para que se actualicen los datos, al aceptar al informar la fecha de baja, la aplicación pregunta si se deben recalcular las horas a trabajar, es decir, el trabajador que fue alta el 01/09 hasta fin de año debía hacer unas horas, al terminar su contrato el 25/10, las horas a realizar son menos, por tanto si se deben “Calcular automáticamente”

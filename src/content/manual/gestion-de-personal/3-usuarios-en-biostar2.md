@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-3-usuarios-en-biostar2"
-title: "Usuarios en Biostar2"
-description: "Información sobre usuarios en Biostar2, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-3-usuarios-en-biostar2
+title: Usuarios en Biostar2
+description: Definimos como usuario en el programa de Biostar2, tanto a los trabajadores que estarán cargados dentro del software para realizar los registros de la jornada de trabajo por medio de los dis.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Usuarios en Biostar2"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Usuarios en Biostar2
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "biostar2"
-    label: "Biostar2"
-  - id: "usuarios"
-    label: "Usuarios"
+  - id: biostar2
+    label: Biostar2
+  - id: usuarios
+    label: Usuarios
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-usuarios-en-biostar2/"
+    - https://manual.aturnos.com/knowledgebase/3-usuarios-en-biostar2/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-usuarios-en-biostar2/"
+    - https://manual.aturnos.com/knowledgebase/3-usuarios-en-biostar2/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre usuarios en Biostar2?"
+    - ¿Qué debo saber sobre usuarios en Biostar2?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 9
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "87f126324237af652005899e0b8f364dc334dc36ce713212a2a13035d0cf3516"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-usuarios-en-biostar2/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-usuarios-en-biostar2/
+  contentHash: 025e9c63b7ecc4d001052aadd3bbedd3f2692a68869321eee89d1943184fa228
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -184,3 +191,7 @@ Encontrado el número ID de la tarjeta, habría que seleccionarlo y hacer clic e
 Habría que aplicar los cambios al nuevo usuario en su perfil y transferirlo a los dispositivos.
 
 Siempre seleccionando la opción “Reemplazar usuarios con información diferente”.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

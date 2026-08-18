@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-tipos-de-recursos"
-title: "Tipos de recursos"
-description: "Uno de los campos que se informan cuando se crea un recurso es el tipo y la selección de un tipo u otro determina el comportamiento."
+contentId: recursos-y-partes-tipos-de-recursos
+title: Tipos de recursos
+description: Uno de los campos que se informan cuando se crea un recurso es el tipo y la selección de un tipo u otro determina el comportamiento.
 contentType: concept
-module: "Recursos y partes"
-submodule: "General"
-intent: "Tipos de recursos"
+module: Recursos y partes
+submodule: General
+intent: Tipos de recursos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "recursos"
-    label: "Recursos"
-  - id: "tipos"
-    label: "Tipos"
+  - id: recursos
+    label: Recursos
+  - id: tipos
+    label: Tipos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/tipos-de-recursos/"
+    - https://manual.aturnos.com/knowledgebase/tipos-de-recursos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/tipos-de-recursos/"
+    - https://manual.aturnos.com/knowledgebase/tipos-de-recursos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre tipos de recursos?"
+    - ¿Qué debo saber sobre tipos de recursos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3a85428934f35b4439824b9659c51503e3cd8e065db32f41856d7858624d7e65"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/tipos-de-recursos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/tipos-de-recursos/
+  contentHash: 3284c86a1c6c30211d5883cf071fca49ab0ed6ebda9f3d20dc7f038126c75ce0
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Uno de los campos que se informan cuando se crea un recurso es el tipo y la selección de un tipo u otro determina el comportamiento.
 
-## Contenido
-
+## Qué debes saber
 Los tipos disponibles son:
 
 Tipo Textual: Permite escribir un texto.

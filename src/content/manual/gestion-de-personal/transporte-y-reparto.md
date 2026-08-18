@@ -1,62 +1,75 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-transporte-y-reparto"
-title: "Transporte y Reparto"
-description: "Información sobre transporte y Reparto, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-transporte-y-reparto
+title: Transporte y Reparto
+description: Lo primero es conocer nuestro equipo y los datos que necesitemos para planificarlo mejor.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Transporte y Reparto"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Transporte y Reparto
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "reparto"
-    label: "Reparto"
-  - id: "transporte"
-    label: "Transporte"
+  - id: reparto
+    label: Reparto
+  - id: transporte
+    label: Transporte
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/documentation/4-tabla-de-cobertura-y-operativa-diaria/"
-    - "https://manual.aturnos.com/documentation/algoritmos-planificacion-personal-transporte-reparto/"
-    - "https://manual.aturnos.com/documentation/demanda-personal-transporte-reparto/"
-    - "https://manual.aturnos.com/documentation/empleados-transporte-reparto/"
-    - "https://manual.aturnos.com/documentation/introduccion-planificacion-transporte-y-reparto/"
+    - https://manual.aturnos.com/documentation/4-tabla-de-cobertura-y-operativa-diaria/
+    - https://manual.aturnos.com/documentation/algoritmos-planificacion-personal-transporte-reparto/
+    - https://manual.aturnos.com/documentation/demanda-personal-transporte-reparto/
+    - https://manual.aturnos.com/documentation/empleados-transporte-reparto/
+    - https://manual.aturnos.com/documentation/introduccion-planificacion-transporte-y-reparto/
   redirectsFrom:
-    - "https://manual.aturnos.com/documentation/4-tabla-de-cobertura-y-operativa-diaria/"
-    - "https://manual.aturnos.com/documentation/algoritmos-planificacion-personal-transporte-reparto/"
-    - "https://manual.aturnos.com/documentation/demanda-personal-transporte-reparto/"
-    - "https://manual.aturnos.com/documentation/empleados-transporte-reparto/"
-    - "https://manual.aturnos.com/documentation/introduccion-planificacion-transporte-y-reparto/"
+    - https://manual.aturnos.com/documentation/4-tabla-de-cobertura-y-operativa-diaria/
+    - https://manual.aturnos.com/documentation/algoritmos-planificacion-personal-transporte-reparto/
+    - https://manual.aturnos.com/documentation/demanda-personal-transporte-reparto/
+    - https://manual.aturnos.com/documentation/empleados-transporte-reparto/
+    - https://manual.aturnos.com/documentation/introduccion-planificacion-transporte-y-reparto/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre transporte y Reparto?"
+    - ¿Qué debo saber sobre transporte y Reparto?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 5
-  contentHash: "d2ca2764ba9da19ecf2b3dbebe503fb615a5f371a664cffddf5eb3cc314d9cda"
+  originUrls:
+    - https://manual.aturnos.com/documentation/4-tabla-de-cobertura-y-operativa-diaria/
+    - https://manual.aturnos.com/documentation/algoritmos-planificacion-personal-transporte-reparto/
+    - https://manual.aturnos.com/documentation/demanda-personal-transporte-reparto/
+    - https://manual.aturnos.com/documentation/empleados-transporte-reparto/
+    - https://manual.aturnos.com/documentation/introduccion-planificacion-transporte-y-reparto/
+  redirectFrom:
+    - https://manual.aturnos.com/documentation/4-tabla-de-cobertura-y-operativa-diaria/
+    - https://manual.aturnos.com/documentation/algoritmos-planificacion-personal-transporte-reparto/
+    - https://manual.aturnos.com/documentation/demanda-personal-transporte-reparto/
+    - https://manual.aturnos.com/documentation/empleados-transporte-reparto/
+    - https://manual.aturnos.com/documentation/introduccion-planificacion-transporte-y-reparto/
+  contentHash: 9639b80b5fa632d753ec21e930af87fda53948a619771171b422bed19aca276f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre transporte y Reparto, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Lo primero es conocer nuestro equipo y los datos que necesitemos para planificarlo mejor. Sobre los empleados es necesario definir un mínimo de datos para poder trabajar de forma ágil y tener una visión operativa sobre mi plantilla actual.
 
 1. Explicar las especialidades como conductor, repartidor, manager, etc. Puede ser interesante saber las especialidades que pueden tener cada uno de los empleados y tomar en cuenta su polivalencia a la hora de planificar.

@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "integraciones-y-api-guia-link-con-powerbi-para-administradores"
-title: "Link con PowerBI para administradores"
-description: "Desde aTurnos puedes crear reportes personalizados y visualizarlos directamente en PowerBI. Esta integración es ideal para analizar datos como turnos, ausencias, productividad y otros indicadores clave."
+contentId: integraciones-y-api-guia-link-con-powerbi-para-administradores
+title: Link con PowerBI para administradores
+description: Desde aTurnos puedes crear reportes personalizados y visualizarlos directamente en PowerBI. Esta integración es ideal para analizar datos como turnos, ausencias, productividad y otros indicadores clave.
 contentType: procedure
-module: "Integraciones y API"
-submodule: "Sistemas externos"
-intent: "Link con PowerBI"
+module: Integraciones y API
+submodule: Sistemas externos
+intent: Link con PowerBI
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/link-con-powerbi/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/link-con-powerbi/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo link con PowerBI para administradores?"
+    - ¿Cómo puedo link con PowerBI para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/link-con-powerbi/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/link-con-powerbi/
+  contentHash: 6c93c363c149b49b048ba8536af47acda6408bb2bb2598db55b60ff7b4c245af
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

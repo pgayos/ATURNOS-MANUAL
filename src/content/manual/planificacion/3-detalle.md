@@ -1,45 +1,52 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-3-detalle"
-title: "Detalle en aTurnos"
-description: "Información sobre detalle en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-3-detalle
+title: Detalle en aTurnos
+description: El trabajador puede tener acceso a sus fichajes para ver gráficamente el estado de sus horas comparando las horas trabajadas presenciales con las horas planificadas.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Detalle en aTurnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Detalle en aTurnos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "detalle"
-    label: "Detalle"
+  - id: detalle
+    label: Detalle
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-detalle/"
+    - https://manual.aturnos.com/knowledgebase/3-detalle/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-detalle/"
+    - https://manual.aturnos.com/knowledgebase/3-detalle/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre detalle en aTurnos?"
+    - ¿Qué debo saber sobre detalle en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6b35359c07f32c4c55bf1e553a4012c07827538ebc8d102bef7f3f4d150c6cf3"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-detalle/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-detalle/
+  contentHash: 7b935f1dbb2edd077c4fcadfd2814c5f6d7107c0604637f4bcf9f4ea0292c5ff
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -83,3 +90,7 @@ Los datos son los siguientes:
 - Estado: diferencia entre las horas planificadas y las presencial que no han sido ajustadas, ni como absentismo, ni como horas añadidas.
 
 *Las entradas y salidas vienen acompañadas de una abreviatura (A, M o P) que indica el origen de dicho fichaje. Siendo A=automático (originado por el fichaje del trabajador), M=Manual (insertado por el administrador de forma manual) y por último P=Petición (fichaje solicitado mediante el proceso de solicitar fichajes ).
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

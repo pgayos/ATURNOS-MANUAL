@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-5-8-configuracion-de-guardias"
-title: "Configuración de guardias"
-description: "Información sobre configuración de guardias, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-5-8-configuracion-de-guardias
+title: Configuración de guardias
+description: En este apartado se desarrolla cómo se realiza la configuración de aquellos tipos de turnos que vayan a planificarse como guardias en sectores como el sanitario, servicios funerarios, entre.
 contentType: reference
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Configuración de guardias"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Configuración de guardias
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "configuracion"
-    label: "Configuracion"
-  - id: "guardias"
-    label: "Guardias"
+  - id: configuracion
+    label: Configuracion
+  - id: guardias
+    label: Guardias
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-8-configuracion-de-guardias/"
+    - https://manual.aturnos.com/knowledgebase/5-8-configuracion-de-guardias/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-8-configuracion-de-guardias/"
+    - https://manual.aturnos.com/knowledgebase/5-8-configuracion-de-guardias/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre configuración de guardias?"
+    - ¿Qué debo saber sobre configuración de guardias?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "7bb782622dc336f87ccf4d02e0abaca872121914a71e29815e87e79703780105"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-8-configuracion-de-guardias/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-8-configuracion-de-guardias/
+  contentHash: 55987b62727c3e064c97470b5d139e87282f9f95ed873d528c4ed2447800ee39
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre configuración de guardias, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 En este apartado se desarrolla cómo se realiza la configuración de aquellos tipos de turnos que vayan a planificarse como guardias en sectores como el sanitario, servicios funerarios, entre otros. Se hará una distinción entre aquellas guardias que son presenciales (se fichan y computan las horas) y aquellas que no son presenciales llamadas localizadas (no se fichan, salvo si el trabajador debe acudir al centro de trabajo, cuyo tiempo si deberá ficharlo. pero aparecen en el Informe de Control de presencia ).
 
 Esta opción permite configurar para que aparezcan en el ‘ Informe ‘ del ‘ Detalle ‘, el turno planificado de ‘ Guardia localizada (no presencial) ‘.

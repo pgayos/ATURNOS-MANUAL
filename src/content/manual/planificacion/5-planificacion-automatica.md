@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-5-planificacion-automatica"
-title: "Planificación Automática"
-description: "Una vez definidas las variables, como lo son curvas de necesidades o demanda y las restricciones, pasamos a planificar de manera automática a través del menú Planificación Automática- → Planificación Automática."
+contentId: planificacion-5-planificacion-automatica
+title: Planificación Automática
+description: Una vez definidas las variables, como lo son curvas de necesidades o demanda y las restricciones, pasamos a planificar de manera automática a través del menú Planificación Automática- → Planificación Automática.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Planificación Automática"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Planificación Automática
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "automatica"
-    label: "Automatica"
-  - id: "planificacion"
-    label: "Planificacion"
+  - id: automatica
+    label: Automatica
+  - id: planificacion
+    label: Planificacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-ajuste-automatico/"
+    - https://manual.aturnos.com/knowledgebase/4-ajuste-automatico/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-ajuste-automatico/"
+    - https://manual.aturnos.com/knowledgebase/4-ajuste-automatico/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo planificación Automática?"
+    - ¿Cómo puedo planificación Automática?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "5302235dd10fb4f8a254f9c41ba0fd2243af54198960020629afc9a563e7dc74"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-ajuste-automatico/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-ajuste-automatico/
+  contentHash: e82afff4be2ab5863a12e11a2e0c2d0d0f7af60e0bf19e9e5b74acf263875ccd
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Una vez definidas las variables, como lo son curvas de necesidades o demanda y las restricciones, pasamos a planificar de manera automática a través del menú Planificación Automática- → Planificación Automática.
 
-## Contenido
-
+## Procedimiento
 Esta función te permite crear una nueva Petición de Planificación que, posteriormente, podrás aplicar al cuadrante. Se muestran 8 pasos a seguir:
 
 1.- Demandas: Indica si quieres cubrir una demanda o varias. Si no hay demanda, pero has creado tareas, puedes asignarlas. Una vez haces clic en añadir demanda debes seleccionar la(s) que quieres incluir y mover su posición según prioridad.

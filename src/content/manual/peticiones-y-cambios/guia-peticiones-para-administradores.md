@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-guia-peticiones-para-administradores"
-title: "Peticiones para administradores"
-description: "Información sobre peticiones para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-guia-peticiones-para-administradores
+title: Peticiones para administradores
+description: La función de Peticiones en aTurnos está diseñada para facilitar la gestión de solicitudes laborales de manera eficiente, tanto para empleados como para administradores.
 contentType: concept
-module: "Peticiones y cambios"
-submodule: "Autogestión"
-intent: "Peticiones"
+module: Peticiones y cambios
+submodule: Autogestión
+intent: Peticiones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/peticiones/"
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/peticiones/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre peticiones para administradores?"
+    - ¿Qué debo saber sobre peticiones para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/peticiones/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/peticiones/
+  contentHash: ae5a1e1792993e1422f584b7a73d41ec01b2b86f4cb0ce77314643c6119da513
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -151,3 +162,7 @@ Otras Configuraciones:
 - Rol Mínimo para Solicitar Absentismos a Otros Trabajadores
 - Inserción Automática de Turnos tras Vacaciones
 - Eliminación de Absentismos Temporales y Horas al Sustituir
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

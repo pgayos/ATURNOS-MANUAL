@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-9-planificabilidad-disponibilidad"
-title: "Planificabilidad & Disponibilidad"
-description: "Información sobre planificabilidad & Disponibilidad, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-9-planificabilidad-disponibilidad
+title: Planificabilidad & Disponibilidad
+description: La planificabilidad mide la adecuación de un trabajador para realizar un turno o una tarea en un momento determinado dependiendo de su contrato y las restricciones laborales, tanto las oblig.
 contentType: concept
-module: "Planificación"
-submodule: "Contratos"
-intent: "Planificabilidad & Disponibilidad"
+module: Planificación
+submodule: Contratos
+intent: Planificabilidad & Disponibilidad
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "disponibilidad"
-    label: "Disponibilidad"
-  - id: "planificabilidad"
-    label: "Planificabilidad"
+  - id: disponibilidad
+    label: Disponibilidad
+  - id: planificabilidad
+    label: Planificabilidad
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/planificabilidad-disponibilidad/"
+    - https://manual.aturnos.com/knowledgebase/planificabilidad-disponibilidad/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/planificabilidad-disponibilidad/"
+    - https://manual.aturnos.com/knowledgebase/planificabilidad-disponibilidad/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre planificabilidad & Disponibilidad?"
+    - ¿Qué debo saber sobre planificabilidad & Disponibilidad?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "56543d376b3f0cc8c1bb8865e29aa1d17b871f7f086722d7100f206e21ce5f9d"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/planificabilidad-disponibilidad/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/planificabilidad-disponibilidad/
+  contentHash: 60d82babf6717e5e0c15395626d58bfdaee649a8a33584cd444c98c1c3db4fe8
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -111,3 +118,7 @@ Aquí, el 20 horas tiene un turno el martes, y por eso el lunes y el miércoles 
 En este caso, el trabajador de 20 horas tiene un turno el sábado, y por lo tanto, los días contiguos tendrán prioridad para trabajar.
 
 Lo mismo pasa cuando es el weekend el que tiene el turno:
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "integraciones-y-api-guia-importacion-exportacion-de-datos-para-administradores"
-title: "Importación / Exportación de datos para administradores"
-description: "Información sobre importación / Exportación de datos para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: integraciones-y-api-guia-importacion-exportacion-de-datos-para-administradores
+title: Importación / Exportación de datos para administradores
+description: aTurnos facilita la gestión masiva de información de tu equipo mediante las funciones de importación y exportación.
 contentType: reference
-module: "Integraciones y API"
-submodule: "Sistemas externos"
-intent: "Importación / Exportación de datos"
+module: Integraciones y API
+submodule: Sistemas externos
+intent: Importación / Exportación de datos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-27
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/importacion-exportacion-de-datos/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/importacion-exportacion-de-datos/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importación / Exportación de datos para administradores?"
+    - ¿Qué debo saber sobre importación / Exportación de datos para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/importacion-exportacion-de-datos/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/importacion-exportacion-de-datos/
+  contentHash: febcdaa4b5eec3c8ca35eab06d2a3017ff3b52b98d22338cb51d20ed7e518f27
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -108,3 +119,7 @@ B. Exportación avanzada
 - Cada casilla seleccionada se traduce en una columna del archivo Excel.
 
 Esta funcionalidad te permite personalizar tus exportaciones y simplificar la recopilación de datos clave.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

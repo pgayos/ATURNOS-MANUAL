@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-10-4-exportar-a-nominas"
-title: "Exportar a nóminas"
-description: "La exportación a nómina genera un fichero csv que recupera los valores calculados entre las fechas de la ejecución."
+contentId: costes-y-nominas-10-4-exportar-a-nominas
+title: Exportar a nóminas
+description: La exportación a nómina genera un fichero csv que recupera los valores calculados entre las fechas de la ejecución.
 contentType: concept
-module: "Costes y nóminas"
-submodule: "Cuadrante"
-intent: "Exportar a nóminas"
+module: Costes y nóminas
+submodule: Cuadrante
+intent: Exportar a nóminas
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "exportar"
-    label: "Exportar"
-  - id: "nominas"
-    label: "Nominas"
+  - id: exportar
+    label: Exportar
+  - id: nominas
+    label: Nominas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-4-exportar-a-nominas/"
+    - https://manual.aturnos.com/knowledgebase/10-4-exportar-a-nominas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-4-exportar-a-nominas/"
+    - https://manual.aturnos.com/knowledgebase/10-4-exportar-a-nominas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre exportar a nóminas?"
+    - ¿Qué debo saber sobre exportar a nóminas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "4e525e6d57d41a47d8073e2dec58e95ae655d8289d4e3993f91440590bfb0c35"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-4-exportar-a-nominas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-4-exportar-a-nominas/
+  contentHash: 308a95d772fa472819ced189ba69ce39dce9d461e1b7cbb637c66a9da5fd2116
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 La exportación a nómina genera un fichero csv que recupera los valores calculados entre las fechas de la ejecución.
 
-## Contenido
-
+## Qué debes saber
 Suele utilizarse en equipos en el que el Modo de validación para la exportación (ver punto 1.1. del Manual) está indicada la opción “No necesita validación” ya que en el mismo proceso de exportación permite cerrar el cuadrante.
 
 No es aconsejable el uso de la exportación de nómina (explicado en este punto) si para el cálculo de las variables se utilizan cálculos complejos en los que se utilizan tanto conceptos que operan entre conceptos como conceptos de comparación, ya que las operaciones (de suma, resta, multiplicación o división, así como las de comparación) se realizan entre las fechas de la ejecución.

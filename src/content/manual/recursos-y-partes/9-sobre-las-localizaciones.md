@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-9-sobre-las-localizaciones"
-title: "Sobre las localizaciones"
-description: "Esta restricción impide planificar a los trabajadores de una determinada localización."
+contentId: recursos-y-partes-9-sobre-las-localizaciones
+title: Sobre las localizaciones
+description: Esta restricción impide planificar a los trabajadores de una determinada localización.
 contentType: procedure
-module: "Recursos y partes"
-submodule: "Vacaciones y ausencias"
-intent: "Sobre las localizaciones"
+module: Recursos y partes
+submodule: Vacaciones y ausencias
+intent: Sobre las localizaciones
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "localizaciones"
-    label: "Localizaciones"
-  - id: "sobre"
-    label: "Sobre"
+  - id: localizaciones
+    label: Localizaciones
+  - id: sobre
+    label: Sobre
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-sobre-las-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/7-sobre-las-localizaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-sobre-las-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/7-sobre-las-localizaciones/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo sobre las localizaciones?"
+    - ¿Cómo puedo sobre las localizaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "abfaac2952a85c2b44648b2b54e88e1e45cd2c45b6312d0744dd85e22ec87662"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-sobre-las-localizaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-sobre-las-localizaciones/
+  contentHash: e6da51b448f0898301af101ff44450248b8b7d116f77a092997bf44fbde891d2
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Esta restricción impide planificar a los trabajadores de una determinada localización.
 
-## Contenido
-
+## Procedimiento
 ⚙️Configuración: Además de la configuración básica, tiene dos campos adicionales.
 
 - Todas las localizaciones: Marcando SÍ no permitirá planificar en ninguna localización. Únicamente a los trabajadores sin localización por defecto. Localización: Este campo se habilitará si el campo anterior está marcado como NO. Este campo te permite seleccionar las localizaciones que no tienen permitido añadir ningún tipo de planificación.

@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-guia-conceptos-de-calculo-para-administradores"
-title: "Conceptos de cálculo para administradores"
-description: "Información sobre conceptos de cálculo para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: costes-y-nominas-guia-conceptos-de-calculo-para-administradores
+title: Conceptos de cálculo para administradores
+description: En aTurnos, los conceptos de nómina convierten la planificación (turnos, cambios de horario y ausencias) en valores listos para nómina.
 contentType: reference
-module: "Costes y nóminas"
-submodule: "Nóminas"
-intent: "Conceptos de cálculo"
+module: Costes y nóminas
+submodule: Nóminas
+intent: Conceptos de cálculo
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-27
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-calculo/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-calculo/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre conceptos de cálculo para administradores?"
+    - ¿Qué debo saber sobre conceptos de cálculo para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-calculo/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-calculo/
+  contentHash: 7226ddea68915983d8f56e9fbdd9e44ad9c83b6959d04315eaf159b127079a98
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -178,3 +189,7 @@ Comportamiento con turnos:
 Comportamiento con turnos:
 
 - Devuelve 1 o 0 según lo que el trabajador tenga informado en su perfil, y se utiliza como activador para el pago de variables.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

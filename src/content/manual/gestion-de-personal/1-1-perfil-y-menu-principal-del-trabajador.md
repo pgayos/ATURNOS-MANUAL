@@ -1,55 +1,62 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-1-perfil-y-menu-principal-del-trabajador"
-title: "Perfil y Menú principal del Trabajador"
-description: "En este apartado dispones del acceso a diferentes páginas de aTurnos:."
+contentId: gestion-de-personal-1-1-perfil-y-menu-principal-del-trabajador
+title: Perfil y Menú principal del Trabajador
+description: En este apartado dispones del acceso a diferentes páginas de aTurnos:.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Perfil y Menú principal del Trabajador"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Perfil y Menú principal del Trabajador
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "menu"
-    label: "Menu"
-  - id: "perfil"
-    label: "Perfil"
-  - id: "principal"
-    label: "Principal"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: menu
+    label: Menu
+  - id: perfil
+    label: Perfil
+  - id: principal
+    label: Principal
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal-2/"
+    - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal-2/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal-2/"
+    - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal-2/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre perfil y Menú principal del Trabajador?"
+    - ¿Qué debo saber sobre perfil y Menú principal del Trabajador?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 8
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d8ee22142267607c09630abe785e18892684f7716b7f8c51f4e3fce81fc069c5"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal-2/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal-2/
+  contentHash: a966574d905e1c1f91de62c8a7166e167b91513fc2089a5001642cfb66f21fe3
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -170,3 +177,7 @@ Las ventanas que puede visualizar un Trabajador sin módulos añadidos son las s
 4. Trabajadores
 5. Estadísticas: Estadísticas
 6. Control de Presencia: Control de presencia
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

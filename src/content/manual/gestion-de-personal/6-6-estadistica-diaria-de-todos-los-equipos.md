@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-6-6-estadistica-diaria-de-todos-los-equipos"
-title: "Estadística diaria de todos los equipos"
-description: "Aprende a estadística diaria de todos los equipos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-6-6-estadistica-diaria-de-todos-los-equipos
+title: Estadística diaria de todos los equipos
+description: A través de la estadística diaria de todos los equipos se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculado.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Estadística diaria de todos los equipos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Estadística diaria de todos los equipos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "diaria"
-    label: "Diaria"
-  - id: "equipos"
-    label: "Equipos"
-  - id: "estadistica"
-    label: "Estadistica"
-  - id: "todos"
-    label: "Todos"
+  - id: diaria
+    label: Diaria
+  - id: equipos
+    label: Equipos
+  - id: estadistica
+    label: Estadistica
+  - id: todos
+    label: Todos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-7-estadistica-todos-los-equipos-diaria/"
+    - https://manual.aturnos.com/knowledgebase/10-7-estadistica-todos-los-equipos-diaria/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-7-estadistica-todos-los-equipos-diaria/"
+    - https://manual.aturnos.com/knowledgebase/10-7-estadistica-todos-los-equipos-diaria/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo estadística diaria de todos los equipos?"
+    - ¿Cómo puedo estadística diaria de todos los equipos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "01da80111ac2e4a98266585fd878b5355e032ad09f44c18b42b19e070815c894"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-7-estadistica-todos-los-equipos-diaria/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-7-estadistica-todos-los-equipos-diaria/
+  contentHash: 7d2ddf89102b0f1084ad25d24c61d77d8face5108e7be82cc2a42cc95feea052
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a estadística diaria de todos los equipos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 A través de la estadística diaria de todos los equipos se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculados diariamente en el período seleccionado).
 
 Veamos un ejemplo, con los conceptos que se han ido desarrollando en este Manual, en este caso, las horas de nocturnidad se calculan en un concepto de nómina si son menores a 10 (concepto 3K00) y si las horas nocturnas son iguales o mayores a 10 (concepto 3000).

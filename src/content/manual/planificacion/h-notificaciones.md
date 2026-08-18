@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-h-notificaciones"
-title: "Notificaciones"
-description: "A través ADMINISTRAR → AJUSTES → NOTIFICACIONES se accede al menú donde se parametrizan las notificaciones que van a recibir los usuarios de aTurnos, atendiendo al rol de cada uno de ellos:."
+contentId: planificacion-h-notificaciones
+title: Notificaciones
+description: A través ADMINISTRAR → AJUSTES → NOTIFICACIONES se accede al menú donde se parametrizan las notificaciones que van a recibir los usuarios de aTurnos, atendiendo al rol de cada uno de ellos:.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Notificaciones"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Notificaciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "notificaciones"
-    label: "Notificaciones"
+  - id: notificaciones
+    label: Notificaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/g-notificaciones/"
+    - https://manual.aturnos.com/knowledgebase/g-notificaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/g-notificaciones/"
+    - https://manual.aturnos.com/knowledgebase/g-notificaciones/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo notificaciones?"
+    - ¿Cómo puedo notificaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "7c3fdf19383f792eb3ed16a81b451aeef6f1b396c9c982d15244cb9c00506777"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/g-notificaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/g-notificaciones/
+  contentHash: 84ae91ce153bf597b6f074b94e13cf08baf8d434c2fe96c1daf26daeabbed593
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 A través ADMINISTRAR → AJUSTES → NOTIFICACIONES se accede al menú donde se parametrizan las notificaciones que van a recibir los usuarios de aTurnos, atendiendo al rol de cada uno de ellos:.
 
-## Contenido
-
+## Procedimiento
 Para ello dividimos los procesos de aTurnos donde ha existido actividad notificando las acciones que se indiquen atendiendo al rol.
 
 - CUADRANTE: Se notifican todas las acciones que impliquen modificación en el cuadrante, añadir turnos, borrarlos, modificar el tipo de turno asignado, horas, etc. Las acciones en el cuadrante no se notificarán si la fecha de estas es anterior a la hora actual más los días informados en el campo “Horizonte de notificación (CUADRANTE)”

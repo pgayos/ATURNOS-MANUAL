@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-absentismo"
-title: "Absentismo"
-description: "Un absentismo es una ausencia en el puesto de trabajo durante los turnos y horas planificados en su cuadrante."
+contentId: planificacion-absentismo
+title: Absentismo
+description: Un absentismo es una ausencia en el puesto de trabajo durante los turnos y horas planificados en su cuadrante.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Absentismo"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Absentismo
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismo"
-    label: "Absentismo"
+  - id: absentismo
+    label: Absentismo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/absentismo/"
+    - https://manual.aturnos.com/knowledgebase/absentismo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/absentismo/"
+    - https://manual.aturnos.com/knowledgebase/absentismo/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre absentismo?"
+    - ¿Qué debo saber sobre absentismo?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "9d6c5123fd4f42cdabe842f1c9168c2653592b4cdc5f68e5ae44654708fa8ea1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/absentismo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/absentismo/
+  contentHash: 32b69b4028f8a8874e65a20f78864d57de2bb1076cd8214531b0d3442c44a3bc
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -64,3 +71,7 @@ Por ello, es necesario solicitar una nueva petición de permisos días cuando es
 https://manual.aturnos.com/Manual/f-anade-absentismos/#Absentismos_totales
 
 https://manual.aturnos.com/Manual/2-5-1-nueva-peticion-y-filtro/
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

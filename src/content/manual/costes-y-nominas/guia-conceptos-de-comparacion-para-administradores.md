@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-guia-conceptos-de-comparacion-para-administradores"
-title: "Conceptos de comparación para administradores"
-description: "Información sobre conceptos de comparación para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: costes-y-nominas-guia-conceptos-de-comparacion-para-administradores
+title: Conceptos de comparación para administradores
+description: Estos conceptos sirven para comparar un concepto ya calculado (por ejemplo, horas nocturnas) con otro concepto o con un valor fijo (por ejemplo, 10).
 contentType: concept
-module: "Costes y nóminas"
-submodule: "Nóminas"
-intent: "Conceptos de comparación"
+module: Costes y nóminas
+submodule: Nóminas
+intent: Conceptos de comparación
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-27
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-comparacion/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-comparacion/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre conceptos de comparación para administradores?"
+    - ¿Qué debo saber sobre conceptos de comparación para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-comparacion/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-comparacion/
+  contentHash: cef423730a9d7de9525c63db4fab0806db94be1d497307b0605d2d676657de05
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -132,3 +143,7 @@ Misma lógica:
 - Conceptos seleccionados para operar:
 - Concepto base: “Horas nocturnidad en el día de inicio”
 - Activador: “3K00 – Nocturnidad día inicio < 10”
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

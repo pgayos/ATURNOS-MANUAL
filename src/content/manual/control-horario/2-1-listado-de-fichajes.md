@@ -1,47 +1,53 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-2-1-listado-de-fichajes"
-title: "Listado de fichajes"
-description: "Se nos muestra una lista con todos los fichajes de un trabajador entre las fechas indicadas en la barra superior de filtro, por defecto siempre aparecerá la del mes actual."
+contentId: control-horario-2-1-listado-de-fichajes
+title: Listado de fichajes
+description: Se nos muestra una lista con todos los fichajes de un trabajador entre las fechas indicadas en la barra superior de filtro, por defecto siempre aparecerá la del mes actual.
 contentType: procedure
-module: "Control horario"
-submodule: "Vacaciones y ausencias"
-intent: "Listado de fichajes"
+module: Control horario
+submodule: Vacaciones y ausencias
+intent: Listado de fichajes
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "listado"
-    label: "Listado"
+  - id: fichajes
+    label: Fichajes
+  - id: listado
+    label: Listado
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-1-listado-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/2-1-listado-de-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-1-listado-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/2-1-listado-de-fichajes/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo listado de fichajes?"
+    - ¿Cómo puedo listado de fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 10
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "fefebbfcbd3c59cc00c6098fd40a5436977952ba4d0b4f80e0098358eecc24e3"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-1-listado-de-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-1-listado-de-fichajes/
+  contentHash: 9de8148a2e4bf113f54e609c19645ec20ac8c04cf690b6d4ac377e540ad6fca2
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

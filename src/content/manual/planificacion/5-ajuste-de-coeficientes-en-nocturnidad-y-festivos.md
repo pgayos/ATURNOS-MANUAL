@@ -1,42 +1,43 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-5-ajuste-de-coeficientes-en-nocturnidad-y-festivos"
-title: "Ajuste de coeficientes en nocturnidad y festivos"
-description: "Información sobre ajuste de coeficientes en nocturnidad y festivos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-5-ajuste-de-coeficientes-en-nocturnidad-y-festivos
+title: Ajuste de coeficientes en nocturnidad y festivos
+description: Existen ajustes en las horas realizadas que no se corresponden con una planificación de turnos asignada a un trabajador pero que se deben tener en cuenta dentro del contaje de horas de su jo.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Ajuste de coeficientes en nocturnidad y festivos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Ajuste de coeficientes en nocturnidad y festivos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "ajuste"
-    label: "Ajuste"
-  - id: "coeficientes"
-    label: "Coeficientes"
-  - id: "festivos"
-    label: "Festivos"
-  - id: "nocturnidad"
-    label: "Nocturnidad"
+  - id: ajuste
+    label: Ajuste
+  - id: coeficientes
+    label: Coeficientes
+  - id: festivos
+    label: Festivos
+  - id: nocturnidad
+    label: Nocturnidad
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-ajuste-de-noctunidad-y-festivos/"
+    - https://manual.aturnos.com/knowledgebase/5-ajuste-de-noctunidad-y-festivos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-ajuste-de-noctunidad-y-festivos/"
+    - https://manual.aturnos.com/knowledgebase/5-ajuste-de-noctunidad-y-festivos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre ajuste de coeficientes en nocturnidad y festivos?"
+    - ¿Qué debo saber sobre ajuste de coeficientes en nocturnidad y festivos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -44,15 +45,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "aca9ca796cbe0a3ccb638fb9700b43c859de63d5944e85ae20706153059e44ef"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-ajuste-de-noctunidad-y-festivos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-ajuste-de-noctunidad-y-festivos/
+  contentHash: f3134995fb563f0f64fe1104005757a0c2e2c7a3c2f5990aec25ea72a622b729
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre ajuste de coeficientes en nocturnidad y festivos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Existen ajustes en las horas realizadas que no se corresponden con una planificación de turnos asignada a un trabajador pero que se deben tener en cuenta dentro del contaje de horas de su jornada. Por ejemplo, si las horas trabajadas son nocturnas computan más horas (coeficiente mayor en el conteo de horas nocturnas), si hace horas festivas se computan más horas (coeficiente mayor en el conteo de horas festivas). En este apartado podrás definir estos ajustes:
 
 - Calcular mediante tabla de coeficientes: Se pueden cargar por tabla, donde por cada hora de noche o festiva realizada se corresponde un incremento en las horas planificadas específicas. Esto se realiza cuando no existe una relación directa porcentual entre las horas realizadas por el trabajador y el conteo de las horas (nocturnas y/o festivas). Esta tabla se carga desde la importación.

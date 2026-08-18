@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "integraciones-y-api-guia-integracion-con-herramientas-rrhh-y-erp-para-administradores"
-title: "Integración con herramientas RRHH y ERP para administradores"
-description: "Información sobre integración con herramientas RRHH y ERP para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: integraciones-y-api-guia-integracion-con-herramientas-rrhh-y-erp-para-administradores
+title: Integración con herramientas RRHH y ERP para administradores
+description: La integración de aTurnos con otras herramientas de Recursos Humanos (RRHH) y Enterprise Resource Planning (ERP) es fundamental para optimizar la gestión del personal, la planificación de tu.
 contentType: concept
-module: "Integraciones y API"
-submodule: "Sistemas externos"
-intent: "Integración con herramientas RRHH y ERP"
+module: Integraciones y API
+submodule: Sistemas externos
+intent: Integración con herramientas RRHH y ERP
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-27
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-herramientas-rrhh-y-erp/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-herramientas-rrhh-y-erp/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre integración con herramientas RRHH y ERP para administradores?"
+    - ¿Qué debo saber sobre integración con herramientas RRHH y ERP para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-herramientas-rrhh-y-erp/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-herramientas-rrhh-y-erp/
+  contentHash: 302fac9852eacbad35820d2b8fa9a808cfc7eeebd0006c2bd65bd541220b8872
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -61,3 +72,7 @@ La integración de aTurnos con otras herramientas de Recursos Humanos (RRHH) y E
 
 - Protección de datos: Cumplimiento de normativas de privacidad como el RGPD en Europa, garantizando la seguridad de los datos compartidos entre sistemas.
 - Control de accesos y permisos: Gestión avanzada de roles para garantizar que solo el personal autorizado acceda a datos sensibles.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

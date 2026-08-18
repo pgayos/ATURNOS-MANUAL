@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-absentismos-para-trabajadores"
-title: "Absentismos para trabajadores"
-description: "Información sobre absentismos para trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-absentismos-para-trabajadores
+title: Absentismos para trabajadores
+description: aTurnos te permite gestionar de forma sencilla tus ausencias laborales, ya sean de corta o larga duración.
 contentType: concept
-module: "Planificación"
-submodule: "Absentismos"
-intent: "Absentismos"
+module: Planificación
+submodule: Absentismos
+intent: Absentismos
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-28
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/absentismos/"
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/absentismos/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre absentismos para trabajadores?"
+    - ¿Qué debo saber sobre absentismos para trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/absentismos/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/absentismos/
+  contentHash: df78c664240ce11b99eaefe4de255db14c8054eb998c7dca812098e3faaa08bf
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

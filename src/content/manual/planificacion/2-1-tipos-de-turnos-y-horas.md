@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-1-tipos-de-turnos-y-horas"
-title: "Tipos de turnos y horas"
-description: "En este listado podremos visualizar todos aquellos tipos de turnos, absentismos y tipos de horas de los equipos que se gestionan como superusuario."
+contentId: planificacion-2-1-tipos-de-turnos-y-horas
+title: Tipos de turnos y horas
+description: En este listado podremos visualizar todos aquellos tipos de turnos, absentismos y tipos de horas de los equipos que se gestionan como superusuario.
 contentType: procedure
-module: "Planificación"
-submodule: "Usuarios y perfiles"
-intent: "Tipos de turnos y horas"
+module: Planificación
+submodule: Usuarios y perfiles
+intent: Tipos de turnos y horas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "horas"
-    label: "Horas"
-  - id: "tipos"
-    label: "Tipos"
-  - id: "turnos"
-    label: "Turnos"
+  - id: horas
+    label: Horas
+  - id: tipos
+    label: Tipos
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-1-tipos-de-turnos-y-horas/"
+    - https://manual.aturnos.com/knowledgebase/7-1-tipos-de-turnos-y-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-1-tipos-de-turnos-y-horas/"
+    - https://manual.aturnos.com/knowledgebase/7-1-tipos-de-turnos-y-horas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo tipos de turnos y horas?"
+    - ¿Cómo puedo tipos de turnos y horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "7c958949cedd30ecd6cc29acd984527d5276b8b08d8890c5897f14fb6da58758"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-1-tipos-de-turnos-y-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-1-tipos-de-turnos-y-horas/
+  contentHash: e012b9bb915d4f00d524bc6353ea064086f591dc90f272bafd0f3426897c375a
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En este listado podremos visualizar todos aquellos tipos de turnos, absentismos y tipos de horas de los equipos que se gestionan como superusuario.
 
-## Contenido
-
+## Procedimiento
 Se pueden seleccionar tantos equipos se necesite cargar los datos de los tipos de turnos, absentismos o tipos de horas. Para facilitar la búsqueda, se puede introducir el nombre del equipo de trabajo. También se podrán elegir todos aquellos equipos que dependan de un equipo o jerarquía superior.
 
 Una vez seleccionados los equipos, haciendo clic en “Cargar” se mostrarán los resultados.

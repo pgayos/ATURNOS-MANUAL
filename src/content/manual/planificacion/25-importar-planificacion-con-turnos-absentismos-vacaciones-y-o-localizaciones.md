@@ -1,62 +1,67 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-localizaciones"
-title: "Importar planificación con turnos, absentismos, vacaciones y/o localizaciones"
-description: "En ocasiones existen empresas o managers que tienen ya una planificación y no desean modificarla, ésta puede ser importada incluyendo la planificación de turnos, vacaciones y absentismos."
+contentId: planificacion-25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-localizaciones
+title: Importar planificación con turnos, absentismos, vacaciones y/o localizaciones
+description: En ocasiones existen empresas o managers que tienen ya una planificación y no desean modificarla, ésta puede ser importada incluyendo la planificación de turnos, vacaciones y absentismos.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Importar planificación con turnos, absentismos, vacaciones y/o localizaciones"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Importar planificación con turnos, absentismos, vacaciones y/o localizaciones
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
-  - id: "importar"
-    label: "Importar"
-  - id: "localizaciones"
-    label: "Localizaciones"
-  - id: "planificacion"
-    label: "Planificacion"
-  - id: "turnos"
-    label: "Turnos"
-  - id: "vacaciones"
-    label: "Vacaciones"
+  - id: absentismos
+    label: Absentismos
+  - id: importar
+    label: Importar
+  - id: localizaciones
+    label: Localizaciones
+  - id: planificacion
+    label: Planificacion
+  - id: turnos
+    label: Turnos
+  - id: vacaciones
+    label: Vacaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/25-importacion-turnos-absentismos-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/25-importacion-turnos-absentismos-vacaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/25-importacion-turnos-absentismos-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/25-importacion-turnos-absentismos-vacaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importar planificación con turnos, absentismos, vacaciones y/o localizaciones?"
+    - ¿Qué debo saber sobre importar planificación con turnos, absentismos, vacaciones y/o localizaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d892cc8cafd67c9256797b339dcb09657c4ddd7e21d3b00040cbc0dfa7b12948"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/25-importacion-turnos-absentismos-vacaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/25-importacion-turnos-absentismos-vacaciones/
+  contentHash: c447b43acdce522460f62f6701343740e1667002cd6537cb96a0eba350f55ee8
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En ocasiones existen empresas o managers que tienen ya una planificación y no desean modificarla, ésta puede ser importada incluyendo la planificación de turnos, vacaciones y absentismos.
 
-## Contenido
-
+## Qué debes saber
 Para poder importar la planificación puedes completar la plantilla de ejemplo que puedes descargar:
 
 CSV Importar planificacion (turnos)

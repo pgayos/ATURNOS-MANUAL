@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-f-visualizacion"
-title: "Visualización"
-description: "Aquí se puede configurar la visualización de los datos que se necesite tener en el cuadrante."
+contentId: gestion-de-personal-f-visualizacion
+title: Visualización
+description: Aquí se puede configurar la visualización de los datos que se necesite tener en el cuadrante.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Visualización"
+module: Gestión de personal
+submodule: Contratos
+intent: Visualización
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "visualizacion"
-    label: "Visualizacion"
+  - id: visualizacion
+    label: Visualizacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/e-visualizacion/"
+    - https://manual.aturnos.com/knowledgebase/e-visualizacion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/e-visualizacion/"
+    - https://manual.aturnos.com/knowledgebase/e-visualizacion/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo visualización?"
+    - ¿Cómo puedo visualización?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d9064adea515e998eb6ec5b5df70517ba0d0da99a3b7e0a6fd9af6b2cb1a832f"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/e-visualizacion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/e-visualizacion/
+  contentHash: 3c5948fd30aded67502b61bf8da06ad5cb78bb06ae7b2420d773e6f21a4460d4
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -113,3 +120,7 @@ Se puede añadir o quitar información.
 ### Campos identificativos en los reportes de localizaciones
 
 Añadir información de ‘Datos personalizados’, para ser mostrados en los ‘Reportes por localización’.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

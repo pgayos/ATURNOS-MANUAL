@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-c-dar-de-baja-un-trabajador"
-title: "Dar de baja un trabajador"
-description: "Información sobre dar de baja un trabajador, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-c-dar-de-baja-un-trabajador
+title: Dar de baja un trabajador
+description: En aTurnos el significado de dar de baja a un trabajador no significa a la baja total y definitiva del trabajador en aTurnos, sino que pasará a formar parte del listado de “trabajadores inac.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Dar de baja un trabajador"
+module: Gestión de personal
+submodule: Contratos
+intent: Dar de baja un trabajador
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "baja"
-    label: "Baja"
-  - id: "dar"
-    label: "Dar"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: baja
+    label: Baja
+  - id: dar
+    label: Dar
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/c-dar-de-baja-un-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/c-dar-de-baja-un-trabajador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/c-dar-de-baja-un-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/c-dar-de-baja-un-trabajador/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre dar de baja un trabajador?"
+    - ¿Qué debo saber sobre dar de baja un trabajador?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "2436ba4685c728bd3eb0a9007f91b8d7d1e4c12200a9b3862f8fcd9e5685b0b2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/c-dar-de-baja-un-trabajador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/c-dar-de-baja-un-trabajador/
+  contentHash: bd66a5a892bbebdb8d18ce02293fab638f118510cf0d95ebded85c829df10510
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -67,3 +74,7 @@ El trabajador puede reingresar de nuevo en aTurnos, tantas veces como la empresa
 En aTurnos se define como un trabajador inactivo a aquellos trabajadores que han sido dados de baja contractualmente, pero que, para no ser eliminados de aTurnos en referencia a futuras contrataciones (como pueden ser los trabajadores temporales), se encuentran en el listado como trabajadores inactivos. Será inactivo un trabajador una vez que se le elimina por medio de la acción “borrar” (icono papelera).
 
 También se va a mostrar a un trabajador en el listado de inactivos cuando se le indica en su perfil una fecha de baja.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

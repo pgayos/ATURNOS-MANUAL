@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-variables-del-patron"
-title: "Variables del patrón"
-description: "Al crear un patrón de turnos es necesario informar en primer lugar los siguientes campos o variables que definirán el patrón:."
+contentId: planificacion-1-variables-del-patron
+title: Variables del patrón
+description: Al crear un patrón de turnos es necesario informar en primer lugar los siguientes campos o variables que definirán el patrón:.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Variables del patrón"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Variables del patrón
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "patron"
-    label: "Patron"
-  - id: "variables"
-    label: "Variables"
+  - id: patron
+    label: Patron
+  - id: variables
+    label: Variables
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-variables-del-patron/"
+    - https://manual.aturnos.com/knowledgebase/1-variables-del-patron/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-variables-del-patron/"
+    - https://manual.aturnos.com/knowledgebase/1-variables-del-patron/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre variables del patrón?"
+    - ¿Qué debo saber sobre variables del patrón?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "753afe6ea1feec0dfa36b9dbfe701113d572678f3c5791f84fa42822e35ef02f"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-variables-del-patron/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-variables-del-patron/
+  contentHash: 2eb34601cc4d3fde61b50d81b15df9174b12bd2d754765e12bf6674460a6f435
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Al crear un patrón de turnos es necesario informar en primer lugar los siguientes campos o variables que definirán el patrón:.
 
-## Contenido
-
+## Qué debes saber
 - Describe tu patrón: nombre con el que se identificará la secuencia de turnos a crear.
 - Escalonados con diferencia: número de días que constituye cada período en el patrón. Es decir, duración en días de los periodos del patrón, cada cuánto tiempo van a rotar los periodos. El escalonado a 7 días es el más común, ya que cuadran los fines de semana al rotar (Ver más acerca de los períodos en Qué es un período del patrón de turnos ).
 - Festivos: cuando se planifique con el patrón, se insertará los tipos de turnos en los festivos en el caso que se informe en este campo “aplicar a festivos”, de lo contrario, no se aplicará turnos en los días festivos, previamente informados en el cuadrante (ver detalle de cómo informar días festivos en el equipo ).

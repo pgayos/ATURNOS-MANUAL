@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-5-calculo-estimado-de-horas"
-title: "Cálculo estimado de horas"
-description: "El cálculo estimado de horas es la forma que tenemos en aTurnos de distribuir mensualmente el total de las horas contrato."
+contentId: planificacion-5-calculo-estimado-de-horas
+title: Cálculo estimado de horas
+description: El cálculo estimado de horas es la forma que tenemos en aTurnos de distribuir mensualmente el total de las horas contrato.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Cálculo estimado de horas"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Cálculo estimado de horas
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "calculo"
-    label: "Calculo"
-  - id: "estimado"
-    label: "Estimado"
-  - id: "horas"
-    label: "Horas"
+  - id: calculo
+    label: Calculo
+  - id: estimado
+    label: Estimado
+  - id: horas
+    label: Horas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-calculo-estimado-de-horas/"
+    - https://manual.aturnos.com/knowledgebase/5-calculo-estimado-de-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-calculo-estimado-de-horas/"
+    - https://manual.aturnos.com/knowledgebase/5-calculo-estimado-de-horas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cálculo estimado de horas?"
+    - ¿Qué debo saber sobre cálculo estimado de horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 11
+readingTime: 15
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "31cf56051e987cfb46be6818a03818b516da86cfc749bc755fc4d0440a412ae1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-calculo-estimado-de-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-calculo-estimado-de-horas/
+  contentHash: 7b1e66bedc09d069a0bb29246298008fc010c26d8922fb9bbf670e854cfcde35
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -368,3 +375,7 @@ En ambos casos las horas contrato s0n 34,14
 Los informes de saldos los tienes disponibles si eres administrador total en Estadísticas → Reportes (A continuación, puedes ver los reportes ).
 
 Si eres Superusuario, puedes realizar una petición de informe en los específicos que encuentras en RRHH (Véase las estadísticas de reportes por trabajador )
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

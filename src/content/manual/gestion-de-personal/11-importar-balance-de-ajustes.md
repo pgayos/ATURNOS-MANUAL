@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-11-importar-balance-de-ajustes"
-title: "Importar balance de ajustes"
-description: "Aprende a importar balance de ajustes, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-11-importar-balance-de-ajustes
+title: Importar balance de ajustes
+description: Los Ajustes que se realizan para saldar horas se pueden registrar en aTurnos a través de la importación de un fichero, el cual se recomienda para agilizar el proceso cuando son muchos los tr.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Importar balance de ajustes"
+module: Gestión de personal
+submodule: Contratos
+intent: Importar balance de ajustes
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "ajustes"
-    label: "Ajustes"
-  - id: "balance"
-    label: "Balance"
-  - id: "importar"
-    label: "Importar"
+  - id: ajustes
+    label: Ajustes
+  - id: balance
+    label: Balance
+  - id: importar
+    label: Importar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/11-importacion-balance-de-ajustes-2/"
+    - https://manual.aturnos.com/knowledgebase/11-importacion-balance-de-ajustes-2/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/11-importacion-balance-de-ajustes-2/"
+    - https://manual.aturnos.com/knowledgebase/11-importacion-balance-de-ajustes-2/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo importar balance de ajustes?"
+    - ¿Cómo puedo importar balance de ajustes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "cb743f71925f06986fcc07f644f23317f4f9eca95c915e467648be7de064a2bc"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/11-importacion-balance-de-ajustes-2/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/11-importacion-balance-de-ajustes-2/
+  contentHash: 9dc243b04570191b075c5ea66b4f7bc039c003a8243e27e3b76bd79f5723445c
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a importar balance de ajustes, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Los Ajustes que se realizan para saldar horas se pueden registrar en aTurnos a través de la importación de un fichero, el cual se recomienda para agilizar el proceso cuando son muchos los trabajadores involucrados. Para importar el archivo debes iniciar creando un documento Excel con formato CSV o descarga una de nuestras plantillas.
 
 La plantilla del fichero debe contener las siguientes columnas:

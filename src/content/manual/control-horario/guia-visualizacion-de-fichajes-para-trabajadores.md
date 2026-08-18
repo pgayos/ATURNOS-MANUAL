@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-guia-visualizacion-de-fichajes-para-trabajadores"
-title: "Visualización de Fichajes para trabajadores"
-description: "Si necesitas revisar tus fichajes y asegurarte de que todo está correcto, el sistema te ofrece dos formas de hacerlo. A continuación, te explicamos ambas opciones paso a paso."
+contentId: control-horario-guia-visualizacion-de-fichajes-para-trabajadores
+title: Visualización de Fichajes para trabajadores
+description: Si necesitas revisar tus fichajes y asegurarte de que todo está correcto, el sistema te ofrece dos formas de hacerlo. A continuación, te explicamos ambas opciones paso a paso.
 contentType: reference
-module: "Control horario"
-submodule: "Uso por el trabajador"
-intent: "Visualización de Fichajes"
+module: Control horario
+submodule: Uso por el trabajador
+intent: Visualización de Fichajes
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-29
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-trabajador/control-horario/visualizacion-de-fichajes/"
+    - https://guias.aturnos.com/guias/guias-trabajador/control-horario/visualizacion-de-fichajes/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre visualización de Fichajes para trabajadores?"
+    - ¿Qué debo saber sobre visualización de Fichajes para trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-trabajador/control-horario/visualizacion-de-fichajes/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-trabajador/control-horario/visualizacion-de-fichajes/
+  contentHash: 6bfbb3f902e88b063e6c8ce5786edb3529d22054b454cc18eadfdd381b8a2abf
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-4-3-festivos-nocturnidad"
-title: "Festivos & Nocturnidad"
-description: "Información sobre festivos & Nocturnidad, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-4-3-festivos-nocturnidad
+title: Festivos & Nocturnidad
+description: Desde las siguientes estadísticas tendremos la opción de ver toda la información que afecta a turnos que se realicen en horario nocturno y en fechas marcadas como festivos, los cuales a su v.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Altas y bajas"
-intent: "Festivos & Nocturnidad"
+module: Gestión de personal
+submodule: Altas y bajas
+intent: Festivos & Nocturnidad
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "festivos"
-    label: "Festivos"
-  - id: "nocturnidad"
-    label: "Nocturnidad"
+  - id: festivos
+    label: Festivos
+  - id: nocturnidad
+    label: Nocturnidad
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-3-festivos-nocturnidad/"
+    - https://manual.aturnos.com/knowledgebase/4-3-festivos-nocturnidad/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-3-festivos-nocturnidad/"
+    - https://manual.aturnos.com/knowledgebase/4-3-festivos-nocturnidad/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre festivos & Nocturnidad?"
+    - ¿Qué debo saber sobre festivos & Nocturnidad?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c03f43747836a3d50a43ee260793f604bee1f17c6108c1635c484bc196703424"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-3-festivos-nocturnidad/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-3-festivos-nocturnidad/
+  contentHash: 4ca00e6b20897eff8912f0637454bf343ed194e88c907032d5f1e63fa20a69e7
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre festivos & Nocturnidad, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Desde las siguientes estadísticas tendremos la opción de ver toda la información que afecta a turnos que se realicen en horario nocturno y en fechas marcadas como festivos, los cuales a su vez pueden ser clasificados como especiales o no.
 
 En las primeras cinco columnas nos centramos únicamente en el número de horas que realiza cada trabajador en un periodo de tiempo, desglosando la cantidad de horas en turnos con nocturnidad o festividad. Estos datos se recogen entre dos fechas que debemos indicar en la barra superior.

@@ -1,94 +1,135 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-gestion-de-proyectos"
-title: "Gestión de Proyectos"
-description: "Información sobre gestión de Proyectos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-gestion-de-proyectos
+title: Gestión de Proyectos
+description: Con miras a la satisfacción de nuestros clientes somos versátiles en la mejora continua de nuestra plataforma, logrando implantar el sistema de manera exitosa en clientes de diversos sectore.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Gestión de Proyectos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Gestión de Proyectos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "gestion"
-    label: "Gestion"
-  - id: "proyectos"
-    label: "Proyectos"
+  - id: gestion
+    label: Gestion
+  - id: proyectos
+    label: Proyectos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/documentation/1-analisis-funcional/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-1-reunion-de-inicio-start-up/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-2-maestro-de-empleados/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-de-superusuarios-jefes-de-proyecto/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-en-la-herramienta-de-planificacion-operativa-diaria/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/planificacion-de-trabajadores-de-los-equipos-piloto/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/pruebas-funcionales-de-planificacion-y-operativa-diaria-de-equipos-piloto/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/revision-de-requerimientos-y-necesidades-de-planificacion/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/validacion-de-la-implantacion/"
-    - "https://manual.aturnos.com/documentation/3-fin-de-fase-de-implantacion/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-1-formacion-de-parametrizacion/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-2-formacion-de-planificacion/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-3-formacion-de-operativa-y-planificaciones-diarias/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-4-formacion-de-rrhh/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/5-planificacion-automatica/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/6-control-horario/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/7-que-es-y-por-que-recomendamos-identificar-un-key-user/"
+    - https://manual.aturnos.com/documentation/1-analisis-funcional/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-1-reunion-de-inicio-start-up/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-2-maestro-de-empleados/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-de-superusuarios-jefes-de-proyecto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-en-la-herramienta-de-planificacion-operativa-diaria/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/planificacion-de-trabajadores-de-los-equipos-piloto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/pruebas-funcionales-de-planificacion-y-operativa-diaria-de-equipos-piloto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/revision-de-requerimientos-y-necesidades-de-planificacion/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/validacion-de-la-implantacion/
+    - https://manual.aturnos.com/documentation/3-fin-de-fase-de-implantacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-1-formacion-de-parametrizacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-2-formacion-de-planificacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-3-formacion-de-operativa-y-planificaciones-diarias/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-4-formacion-de-rrhh/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/5-planificacion-automatica/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/6-control-horario/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/7-que-es-y-por-que-recomendamos-identificar-un-key-user/
   redirectsFrom:
-    - "https://manual.aturnos.com/documentation/1-analisis-funcional/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-1-reunion-de-inicio-start-up/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-2-maestro-de-empleados/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-de-superusuarios-jefes-de-proyecto/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-en-la-herramienta-de-planificacion-operativa-diaria/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/planificacion-de-trabajadores-de-los-equipos-piloto/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/pruebas-funcionales-de-planificacion-y-operativa-diaria-de-equipos-piloto/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/revision-de-requerimientos-y-necesidades-de-planificacion/"
-    - "https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/validacion-de-la-implantacion/"
-    - "https://manual.aturnos.com/documentation/3-fin-de-fase-de-implantacion/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-1-formacion-de-parametrizacion/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-2-formacion-de-planificacion/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-3-formacion-de-operativa-y-planificaciones-diarias/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-4-formacion-de-rrhh/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/5-planificacion-automatica/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/6-control-horario/"
-    - "https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/7-que-es-y-por-que-recomendamos-identificar-un-key-user/"
+    - https://manual.aturnos.com/documentation/1-analisis-funcional/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-1-reunion-de-inicio-start-up/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-2-maestro-de-empleados/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-de-superusuarios-jefes-de-proyecto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-en-la-herramienta-de-planificacion-operativa-diaria/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/planificacion-de-trabajadores-de-los-equipos-piloto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/pruebas-funcionales-de-planificacion-y-operativa-diaria-de-equipos-piloto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/revision-de-requerimientos-y-necesidades-de-planificacion/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/validacion-de-la-implantacion/
+    - https://manual.aturnos.com/documentation/3-fin-de-fase-de-implantacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-1-formacion-de-parametrizacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-2-formacion-de-planificacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-3-formacion-de-operativa-y-planificaciones-diarias/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-4-formacion-de-rrhh/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/5-planificacion-automatica/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/6-control-horario/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/7-que-es-y-por-que-recomendamos-identificar-un-key-user/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre gestión de Proyectos?"
+    - ¿Qué debo saber sobre gestión de Proyectos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 19
-  contentHash: "4209503ee24064f31742371f573db068269dd3c471403f19f838916aa1a48b17"
+  originUrls:
+    - https://manual.aturnos.com/documentation/1-analisis-funcional/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-1-reunion-de-inicio-start-up/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-2-maestro-de-empleados/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-de-superusuarios-jefes-de-proyecto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-en-la-herramienta-de-planificacion-operativa-diaria/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/planificacion-de-trabajadores-de-los-equipos-piloto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/pruebas-funcionales-de-planificacion-y-operativa-diaria-de-equipos-piloto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/revision-de-requerimientos-y-necesidades-de-planificacion/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/validacion-de-la-implantacion/
+    - https://manual.aturnos.com/documentation/3-fin-de-fase-de-implantacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-1-formacion-de-parametrizacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-2-formacion-de-planificacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-3-formacion-de-operativa-y-planificaciones-diarias/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-4-formacion-de-rrhh/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/5-planificacion-automatica/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/6-control-horario/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/7-que-es-y-por-que-recomendamos-identificar-un-key-user/
+  redirectFrom:
+    - https://manual.aturnos.com/documentation/1-analisis-funcional/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-1-reunion-de-inicio-start-up/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/2-2-maestro-de-empleados/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-de-superusuarios-jefes-de-proyecto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/formacion-en-la-herramienta-de-planificacion-operativa-diaria/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/planificacion-de-trabajadores-de-los-equipos-piloto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/pruebas-funcionales-de-planificacion-y-operativa-diaria-de-equipos-piloto/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/revision-de-requerimientos-y-necesidades-de-planificacion/
+    - https://manual.aturnos.com/documentation/2-fases-de-la-implantacion/validacion-de-la-implantacion/
+    - https://manual.aturnos.com/documentation/3-fin-de-fase-de-implantacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-1-formacion-de-parametrizacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-2-formacion-de-planificacion/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-3-formacion-de-operativa-y-planificaciones-diarias/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/4-4-formacion-de-rrhh/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/5-planificacion-automatica/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/6-control-horario/
+    - https://manual.aturnos.com/documentation/4-plan-de-formacion-para-la-implantacion/7-que-es-y-por-que-recomendamos-identificar-un-key-user/
+  contentHash: 5e37252ce8ec295157e4abda8fb524d919a52e6802f554ddae713ab5d785e88c
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre gestión de Proyectos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Con miras a la satisfacción de nuestros clientes somos versátiles en la mejora continua de nuestra plataforma, logrando implantar el sistema de manera exitosa en clientes de diversos sectores empresariales, como el sector Sanitario, en Fábricas, en el sector de Retail, Transporte, entre otros. Todo esto gracias a dos aspectos principales:
 
 1.- Nuestra capacidad de customizar sus procesos, al ser los propios desarrolladores de nuestro sistema podemos ser agiles en adaptarnos a las necesidades del cliente.

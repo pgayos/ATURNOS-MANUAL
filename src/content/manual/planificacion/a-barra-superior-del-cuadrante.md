@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-a-barra-superior-del-cuadrante"
-title: "Barra superior del cuadrante"
-description: "En la parte superior del cuadrante se puede ver la leyenda de los eventos que se aplican en el cuadrante."
+contentId: planificacion-a-barra-superior-del-cuadrante
+title: Barra superior del cuadrante
+description: En la parte superior del cuadrante se puede ver la leyenda de los eventos que se aplican en el cuadrante.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Barra superior del cuadrante"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Barra superior del cuadrante
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "barra"
-    label: "Barra"
-  - id: "cuadrante"
-    label: "Cuadrante"
-  - id: "superior"
-    label: "Superior"
+  - id: barra
+    label: Barra
+  - id: cuadrante
+    label: Cuadrante
+  - id: superior
+    label: Superior
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/a-barra-superior-del-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/a-barra-superior-del-cuadrante/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/a-barra-superior-del-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/a-barra-superior-del-cuadrante/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre barra superior del cuadrante?"
+    - ¿Qué debo saber sobre barra superior del cuadrante?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "47f1264c12f61cdd2cf65fa6c9abe7aa4552bf25dce46e6fd55b972d6dfbe099"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/a-barra-superior-del-cuadrante/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/a-barra-superior-del-cuadrante/
+  contentHash: 48c4b39b7ef1d2c3dbc5c44f53f9e76843b99037a262aba1f30e6181577e5245
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En la parte superior del cuadrante se puede ver la leyenda de los eventos que se aplican en el cuadrante.
 
-## Contenido
-
+## Qué debes saber
 - Bolsas: horas pertenecientes a una bolsa de horas.
 - Extra/Complementarias: Horas añadidas de tipo extraordinarias o complementarias (así como las horas personalizadas creadas por el administrador que tengan la consideración de extraordinarias o complementarias)
 - Vacaciones: días de vacaciones planificados.

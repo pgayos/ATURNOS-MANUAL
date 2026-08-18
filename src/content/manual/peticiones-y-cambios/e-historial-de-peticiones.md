@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-e-historial-de-peticiones"
-title: "Historial de peticiones"
-description: "Información sobre historial de peticiones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-e-historial-de-peticiones
+title: Historial de peticiones
+description: Desde esta pestaña se puede consultar todo el registro de peticiones (de permisos, horas y vacaciones) que realizan los trabajadores filtrando por la fecha en la parte superior, así como por.
 contentType: concept
-module: "Peticiones y cambios"
-submodule: "Vacaciones y ausencias"
-intent: "Historial de peticiones"
+module: Peticiones y cambios
+submodule: Vacaciones y ausencias
+intent: Historial de peticiones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "historial"
-    label: "Historial"
-  - id: "peticiones"
-    label: "Peticiones"
+  - id: historial
+    label: Historial
+  - id: peticiones
+    label: Peticiones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-5-3-historial-de-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/2-5-3-historial-de-peticiones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-5-3-historial-de-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/2-5-3-historial-de-peticiones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre historial de peticiones?"
+    - ¿Qué debo saber sobre historial de peticiones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "48d7219a25c0a50f25b23a32f8e7fed2211961b6e7cf76520cd1b7c978dd5b24"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-5-3-historial-de-peticiones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-5-3-historial-de-peticiones/
+  contentHash: c9d49627e8b0fe23e326bf4a079ed3fa0f8e6d977b2faf81f43939f99984a448
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre historial de peticiones, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Desde esta pestaña se puede consultar todo el registro de peticiones (de permisos, horas y vacaciones) que realizan los trabajadores filtrando por la fecha en la parte superior, así como por cualquier otro filtro (icono del embudo). El administrador puede ver el detalle de la petición haciendo clic en el icono del ojo en la columna “Acción”.
 
 En este listado, las peticiones se pueden encontrar en distintos estados de confirmación:

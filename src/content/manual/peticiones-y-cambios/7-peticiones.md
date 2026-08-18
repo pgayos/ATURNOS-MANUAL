@@ -1,50 +1,55 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-7-peticiones"
-title: "Peticiones"
-description: "Esta restricción establece un mínimo de horas de adelanto para poder aceptar una petición de realizar un tipo de hora."
+contentId: peticiones-y-cambios-7-peticiones
+title: Peticiones
+description: Esta restricción establece un mínimo de horas de adelanto para poder aceptar una petición de realizar un tipo de hora.
 contentType: reference
-module: "Peticiones y cambios"
-submodule: "Roles y permisos"
-intent: "Peticiones"
+module: Peticiones y cambios
+submodule: Roles y permisos
+intent: Peticiones
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "peticiones"
-    label: "Peticiones"
+  - id: peticiones
+    label: Peticiones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/8-peticiones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/8-peticiones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre peticiones?"
+    - ¿Qué debo saber sobre peticiones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "90e9683cb7092af12c79b4538641512a1172bed02bd824f5f9b8a5b2524e2530"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-peticiones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-peticiones/
+  contentHash: caa67aaa0577470ca0fd89e9d540e0e82262386a9a15d4a41195199cbfdd8391
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Esta restricción establece un mínimo de horas de adelanto para poder aceptar una petición de realizar un tipo de hora.
 
-## Contenido
-
+## Opciones y datos disponibles
 ⚙️Configuración: Además de la configuración básica, tiene dos campos adicionales.
 
 - Valor de la restricción: Indica el mínimo de horas de antelación que debe de haber para aceptar un tipo de hora. Tipo de hora: Indica que tipo de hora es el que le afectará la restricción

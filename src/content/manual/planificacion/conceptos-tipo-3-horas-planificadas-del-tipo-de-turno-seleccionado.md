@@ -1,64 +1,69 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado"
+contentId: planificacion-conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado
 title: "Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado"
-description: "Aprende a conceptos tipo 3: Horas planificadas del tipo de turno seleccionado, con instrucciones y contexto revisables por el equipo de aTurnos."
+description: Recupera el número de horas por la duración total de un determinado tipo, excepto en el caso de que el turno tenga asociado un absentismo total/temporal no productivo (como suelen ser las in.
 contentType: procedure
-module: "Planificación"
-submodule: "General"
+module: Planificación
+submodule: General
 intent: "Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado"
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "horas"
-    label: "Horas"
-  - id: "planificadas"
-    label: "Planificadas"
-  - id: "seleccionado"
-    label: "Seleccionado"
-  - id: "tipo"
-    label: "Tipo"
-  - id: "turno"
-    label: "Turno"
+  - id: conceptos
+    label: Conceptos
+  - id: horas
+    label: Horas
+  - id: planificadas
+    label: Planificadas
+  - id: seleccionado
+    label: Seleccionado
+  - id: tipo
+    label: Tipo
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/
 ai:
   answerableQuestions:
     - "¿Cómo puedo conceptos tipo 3: Horas planificadas del tipo de turno seleccionado?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "89b934aaf407bdcaf9ca19f41279a85a7817ae9ca5406c586d78337a6826c742"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/
+  contentHash: 284f05e7ad6cd85b914cc92f3a9210163c24e809761891d678f6dd3ff543ec92
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a conceptos tipo 3: Horas planificadas del tipo de turno seleccionado, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Recupera el número de horas por la duración total de un determinado tipo, excepto en el caso de que el turno tenga asociado un absentismo total/temporal no productivo (como suelen ser las incapacidades temporales, permisos establecidos en el convenio, etc.) y/o un absentismo total/temporal no justificado (por ejemplo, las faltas de asistencia).
 
 En este caso, recuperar 17 horas por la duración total del turno, en el caso de utilizar el concepto tipo 2 asociado a este turno, devolvería cero horas por las horas de la duración computada.

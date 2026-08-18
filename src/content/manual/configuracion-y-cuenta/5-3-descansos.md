@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-5-3-descansos"
-title: "Descansos"
-description: "Información sobre descansos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-5-3-descansos
+title: Descansos
+description: Esta función permite configurar los descansos a nivel de equipo, aplicándose automáticamente a los trabajadores que no tengan un descanso individual configurado o cuyo tipo de turno no espec.
 contentType: reference
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Descansos"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Descansos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "descansos"
-    label: "Descansos"
+  - id: descansos
+    label: Descansos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-3-descansos/"
+    - https://manual.aturnos.com/knowledgebase/5-3-descansos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-3-descansos/"
+    - https://manual.aturnos.com/knowledgebase/5-3-descansos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre descansos?"
+    - ¿Qué debo saber sobre descansos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 8
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "0377b720cf23b11fd07834fd6cd8f2c2725a75742f17aa86c0021c206f6c56cb"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-3-descansos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-3-descansos/
+  contentHash: f02babd6bba904da0f3d158b2da6fb209cbfd4d65d7220224ad3d8e09583ce9c
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre descansos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 La gestión de descansos tiene tres niveles:
 
 - Por tipo de turno.

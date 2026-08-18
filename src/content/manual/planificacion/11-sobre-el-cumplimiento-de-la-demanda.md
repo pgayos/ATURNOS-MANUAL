@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-11-sobre-el-cumplimiento-de-la-demanda"
-title: "Sobre el cumplimiento de la demanda"
-description: "Información sobre sobre el cumplimiento de la demanda, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-11-sobre-el-cumplimiento-de-la-demanda
+title: Sobre el cumplimiento de la demanda
+description: Esta restricción asegura que la planificación cubra al menos el número mínimo de trabajadores requerido según la demanda definida por turno, día, localización, categoría, u otros criterios o.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Sobre el cumplimiento de la demanda"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Sobre el cumplimiento de la demanda
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cumplimiento"
-    label: "Cumplimiento"
-  - id: "demanda"
-    label: "Demanda"
-  - id: "sobre"
-    label: "Sobre"
+  - id: cumplimiento
+    label: Cumplimiento
+  - id: demanda
+    label: Demanda
+  - id: sobre
+    label: Sobre
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-sobre-el-cumplimiento-de-la-demanda/"
+    - https://manual.aturnos.com/knowledgebase/3-sobre-el-cumplimiento-de-la-demanda/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-sobre-el-cumplimiento-de-la-demanda/"
+    - https://manual.aturnos.com/knowledgebase/3-sobre-el-cumplimiento-de-la-demanda/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre sobre el cumplimiento de la demanda?"
+    - ¿Qué debo saber sobre sobre el cumplimiento de la demanda?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e6b94a1a63b32d9b880d28faec122f539c339521ff0de165fe3902dec9ae2ee3"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-sobre-el-cumplimiento-de-la-demanda/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-sobre-el-cumplimiento-de-la-demanda/
+  contentHash: cfde7566faf5043886a3bb1ab2feb8b5480e1b2c274a3061f0e2d4400b8fe230
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre sobre el cumplimiento de la demanda, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Esta restricción asegura que la planificación cubra al menos el número mínimo de trabajadores requerido según la demanda definida por turno, día, localización, categoría, u otros criterios operativos. Si no se alcanza el mínimo indicado, el sistema mostrará una advertencia. Es especialmente útil para mantener la cobertura operativa tras movimientos como asignaciones de vacaciones u otros cambios.
 
 ⚙️Configuración: Esta restricción, además de la configuración básica, tiene un campo adicional.

@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-metodos-para-asignar-turnos-a-los-trabajadores-para-administradores"
-title: "Métodos para asignar turnos a los trabajadores para administradores"
-description: "Una vez ya tienes creados los tipos de turnos, ya está todo preparado para planificar a tus trabajadores. Desde aTurnos puedes planificar de varias maneras."
+contentId: planificacion-guia-metodos-para-asignar-turnos-a-los-trabajadores-para-administradores
+title: Métodos para asignar turnos a los trabajadores para administradores
+description: Una vez ya tienes creados los tipos de turnos, ya está todo preparado para planificar a tus trabajadores. Desde aTurnos puedes planificar de varias maneras.
 contentType: procedure
-module: "Planificación"
-submodule: "Turnos y cuadrantes"
-intent: "Métodos para asignar turnos a los trabajadores"
+module: Planificación
+submodule: Turnos y cuadrantes
+intent: Métodos para asignar turnos a los trabajadores
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/metodos-para-asignar-turnos-a-los-trabajadores/"
+    - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/metodos-para-asignar-turnos-a-los-trabajadores/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo métodos para asignar turnos a los trabajadores para administradores?"
+    - ¿Cómo puedo métodos para asignar turnos a los trabajadores para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/metodos-para-asignar-turnos-a-los-trabajadores/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/metodos-para-asignar-turnos-a-los-trabajadores/
+  contentHash: 0469e5a32713f67ec1d510d91a374f0efb78055dc200d50ef47c425edb4d60c5
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

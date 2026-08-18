@@ -1,42 +1,43 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-2-8-crear-nueva-oferta"
-title: "Crear nueva oferta"
-description: "Cabe destacar que esta opción SOLO podrá realizarla los ADMINISTRADORES del equipo. Los trabajadores únicamente podrán inscribirse en dichas ofertas."
+contentId: peticiones-y-cambios-2-8-crear-nueva-oferta
+title: Crear nueva oferta
+description: Cabe destacar que esta opción SOLO podrá realizarla los ADMINISTRADORES del equipo. Los trabajadores únicamente podrán inscribirse en dichas ofertas.
 contentType: concept
-module: "Peticiones y cambios"
-submodule: "General"
-intent: "Crear nueva oferta"
+module: Peticiones y cambios
+submodule: General
+intent: Crear nueva oferta
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "crear"
-    label: "Crear"
-  - id: "nueva"
-    label: "Nueva"
-  - id: "oferta"
-    label: "Oferta"
+  - id: crear
+    label: Crear
+  - id: nueva
+    label: Nueva
+  - id: oferta
+    label: Oferta
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-8-crear-nueva-oferta/"
+    - https://manual.aturnos.com/knowledgebase/2-8-crear-nueva-oferta/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-8-crear-nueva-oferta/"
+    - https://manual.aturnos.com/knowledgebase/2-8-crear-nueva-oferta/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre crear nueva oferta?"
+    - ¿Qué debo saber sobre crear nueva oferta?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -44,15 +45,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "62ac1d783f5cece8e06ebf73fc2da0080c39f2d433dab8866744838aef5a35fb"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-8-crear-nueva-oferta/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-8-crear-nueva-oferta/
+  contentHash: c85a9f6380d16f536e9ed6e7cad3d58215bb35f0a2ee7f7ca43f236d97865b14
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Cabe destacar que esta opción SOLO podrá realizarla los ADMINISTRADORES del equipo. Los trabajadores únicamente podrán inscribirse en dichas ofertas.
 
-## Contenido
-
+## Qué debes saber
 Los administradores podrán crear ofertas de turnos y horas para los trabajadores en función de sus necesidades rellenando los siguientes:
 
 - Tipo: turnos u horas.

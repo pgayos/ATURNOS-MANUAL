@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-7-vacaciones"
-title: "Vacaciones"
-description: "Información sobre vacaciones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-4-7-vacaciones
+title: Vacaciones
+description: El trabajador podrá comprobar sus estadísticas de vacaciones.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Vacaciones"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Vacaciones
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "vacaciones"
-    label: "Vacaciones"
+  - id: vacaciones
+    label: Vacaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-7-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/4-7-vacaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-7-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/4-7-vacaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre vacaciones?"
+    - ¿Qué debo saber sobre vacaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,15 +41,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "121db51db6d117cd62261605b7f8156b941feb468e6e837f4a478f25375d54cc"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-7-vacaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-7-vacaciones/
+  contentHash: 5b37924271f7070efd5b9d90c5bf225e50f05e123cab74e41610e8298e117e73
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre vacaciones, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 El trabajador podrá comprobar sus estadísticas de vacaciones. Para ello, puede ver tanto las vacaciones del año actual, como las de años anteriores y así ver si se han respetado días que pertenecían al periodo de un año anterior.
 
 En este informe tendrás la posibilidad de consultar:

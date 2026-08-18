@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-2-2-conceptos-que-operan-entre-conceptos"
-title: "Conceptos que operan entre conceptos"
-description: "Estos conceptos permiten realizar operaciones de suma, resta, multiplicación o división entre conceptos comunes creados previamente."
+contentId: gestion-de-personal-2-2-conceptos-que-operan-entre-conceptos
+title: Conceptos que operan entre conceptos
+description: Estos conceptos permiten realizar operaciones de suma, resta, multiplicación o división entre conceptos comunes creados previamente.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Altas y bajas"
-intent: "Conceptos que operan entre conceptos"
+module: Gestión de personal
+submodule: Altas y bajas
+intent: Conceptos que operan entre conceptos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "entre"
-    label: "Entre"
-  - id: "operan"
-    label: "Operan"
+  - id: conceptos
+    label: Conceptos
+  - id: entre
+    label: Entre
+  - id: operan
+    label: Operan
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-2-conceptos-que-operan-entre-conceptos/"
+    - https://manual.aturnos.com/knowledgebase/2-2-conceptos-que-operan-entre-conceptos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-2-conceptos-que-operan-entre-conceptos/"
+    - https://manual.aturnos.com/knowledgebase/2-2-conceptos-que-operan-entre-conceptos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre conceptos que operan entre conceptos?"
+    - ¿Qué debo saber sobre conceptos que operan entre conceptos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f9eb8545e02193956817bcade62016bc5ec4773ee93473f5643c218667d31b7f"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-2-conceptos-que-operan-entre-conceptos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-2-conceptos-que-operan-entre-conceptos/
+  contentHash: 31d49c79c69764c4319fa1a5f661e540f890a885c0ce2f6fc7e973f77baf8fb9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Estos conceptos permiten realizar operaciones de suma, resta, multiplicación o división entre conceptos comunes creados previamente.
 
-## Contenido
-
+## Qué debes saber
 Uno de los usos más frecuentes de estos es, por ejemplo, cuando en un equipo tenemos que diferenciar a unos trabajadores a los que no se abona el plus nocturno porque tienen la consideración de “fijos de noche” y lo perciben como fijo en la nómina, de aquellos a los que hay que abonarle el número de horas nocturnas realizadas por no tener la condición de “fijos de noche”
 
 En estos casos, se debe crear un dato personalizado, con el nombre “No Fijo Noche” e informar a los trabajadores que tienen que perciben el plus con valor 1.

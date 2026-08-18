@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-estadisticas-del-trabajador"
-title: "Estadísticas del trabajador"
-description: "Aprende a estadísticas del trabajador, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-4-estadisticas-del-trabajador
+title: Estadísticas del trabajador
+description: Se define como Estadísticas aquellas clasificaciones o conjunto de datos que se usan posteriormente para establecer hechos o probabilidades sobre los datos que contienen las mismas.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Estadísticas del trabajador"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Estadísticas del trabajador
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "estadisticas"
-    label: "Estadisticas"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: estadisticas
+    label: Estadisticas
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-estadisticas-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/4-estadisticas-trabajador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-estadisticas-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/4-estadisticas-trabajador/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo estadísticas del trabajador?"
+    - ¿Cómo puedo estadísticas del trabajador?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "74ee612a3f3d9933726d33de4657289afbd32218eba4db66e74ea0525bd66c47"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-estadisticas-trabajador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-estadisticas-trabajador/
+  contentHash: 67cc9b97c711e78e3c8efa3031b94c23ebc33f754006ca2e33ad80a958ba04a8
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a estadísticas del trabajador, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Se define como Estadísticas aquellas clasificaciones o conjunto de datos que se usan posteriormente para establecer hechos o probabilidades sobre los datos que contienen las mismas. Podrás consultar datos básicos de cada trabajador mediante diferentes gráficos estadísticos en forma de “gráficos de pastel”. Previamente, para que los muestre, tienes que seleccionar el periodo en el que quieres visualizar dichos datos (esquina superior derecha).
 
 Los gráficos estadísticos que se muestran versan sobre los siguientes aspectos:

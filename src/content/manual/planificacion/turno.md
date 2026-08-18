@@ -1,34 +1,35 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-turno"
-title: "Turno en aTurnos"
-description: "Es la unidad mínima de trabajo de planificación en aTurnos. Cada tipo de turno representa una duración de tiempo, este tiempo puede computar o no computar en horas según configuración del turno."
+contentId: planificacion-turno
+title: Turno en aTurnos
+description: Es la unidad mínima de trabajo de planificación en aTurnos. Cada tipo de turno representa una duración de tiempo, este tiempo puede computar o no computar en horas según configuración del turno.
 contentType: procedure
-module: "Planificación"
-submodule: "Cuadrante"
-intent: "Turno en aTurnos"
+module: Planificación
+submodule: Cuadrante
+intent: Turno en aTurnos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "turno"
-    label: "Turno"
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/turno/"
+    - https://manual.aturnos.com/knowledgebase/turno/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/turno/"
+    - https://manual.aturnos.com/knowledgebase/turno/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo turno en aTurnos?"
+    - ¿Cómo puedo turno en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -36,15 +37,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f6ee33abaf15f3064aadd5edc26bf7f7a9a85fb539969c97dcee0996dc82c7a6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/turno/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/turno/
+  contentHash: d3c62edba3c0eb5b8f9457e961259f4da0ea2ba87f47c8175a620ac38d02c9f0
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Es la unidad mínima de trabajo de planificación en aTurnos. Cada tipo de turno representa una duración de tiempo, este tiempo puede computar o no computar en horas según configuración del turno.
 
-## Contenido
-
+## Procedimiento
 En un equipo de trabajo se pueden crear todos los tipos de turnos que se estimen necesarios, se verán planificados en el Cuadrante identificados con letras y/o números a modo de abreviatura.
 
 (Ver en el manual los tipos de turno y cómo crear/editar un tipo de turno )

@@ -1,43 +1,50 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-d-perfiles"
-title: "Perfiles"
-description: "Información sobre perfiles, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-d-perfiles
+title: Perfiles
+description: Hablamos de perfiles como el conjunto de características comunes que pueden definir a un determinado grupo de trabajadores como una especialidad, unos ‘datos personalizados’ o un Bloque de d.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Perfiles"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Perfiles
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "perfiles"
-    label: "Perfiles"
+  - id: perfiles
+    label: Perfiles
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/d-perfiles/"
+    - https://manual.aturnos.com/knowledgebase/d-perfiles/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/d-perfiles/"
+    - https://manual.aturnos.com/knowledgebase/d-perfiles/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre perfiles?"
+    - ¿Qué debo saber sobre perfiles?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b07ea264c7abb99accf25c1bbca761a45964faca6b648aaa8d86805ded795b1b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/d-perfiles/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/d-perfiles/
+  contentHash: 6ec0f0ecebd7663afa958e894c81f453393fa7a45d18410785bc366a5709c843
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -75,3 +82,7 @@ Aquellos datos personalizados creados en el equipo de trabajo para completar el 
 Los datos personalizados que se hayan creado se puede agrupar en ‘Bloques de datos personalizados’ para poder hacer distinción de distintos tipos de datos de carácter personal de los trabajadores. En este caso, para el mismo perfil se puede indicar la ciudad o si tienen carnet de conducir.
 
 Configuradas todas las características del perfil, para registrarlo, únicamente faltaría ‘Guardar’ los cambios realizados.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

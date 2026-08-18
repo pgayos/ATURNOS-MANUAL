@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-6-alertas-warnings"
-title: "Alertas (Warnings)"
-description: "El sistema de control de presencia avisa tanto en el ‘ Diario ‘, como en el ‘ Detalle por trabajador ‘ de sucesos que afectan al cómputo de los fichajes de cada trabajador."
+contentId: planificacion-1-6-alertas-warnings
+title: Alertas (Warnings)
+description: El sistema de control de presencia avisa tanto en el ‘ Diario ‘, como en el ‘ Detalle por trabajador ‘ de sucesos que afectan al cómputo de los fichajes de cada trabajador.
 contentType: troubleshooting
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Alertas (Warnings)"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Alertas (Warnings)
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "alertas"
-    label: "Alertas"
-  - id: "warnings"
-    label: "Warnings"
+  - id: alertas
+    label: Alertas
+  - id: warnings
+    label: Warnings
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-6-alertas-warnings/"
+    - https://manual.aturnos.com/knowledgebase/1-6-alertas-warnings/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-6-alertas-warnings/"
+    - https://manual.aturnos.com/knowledgebase/1-6-alertas-warnings/
 ai:
   answerableQuestions:
     - "¿Cómo resuelvo el problema: Alertas (Warnings)?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "56a1ad424ca59da0b5a095e193014c0d71f9c933e098feb571cf0f98d1fb4347"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-6-alertas-warnings/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-6-alertas-warnings/
+  contentHash: bce7ed41f40c2bc29c1b0f1d06992c0cee323eeeb35fc78562673e98ffec24b7
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El sistema de control de presencia avisa tanto en el ‘ Diario ‘, como en el ‘ Detalle por trabajador ‘ de sucesos que afectan al cómputo de los fichajes de cada trabajador.
 
-## Contenido
-
+## Diagnóstico y solución
 Las alertas pueden aparecer por errores al realizar los fichajes o por una mala planificación (absentismo o turnos de vacaciones erróneo). En la pantalla se mostrará junto línea del tiempo, una señal (icono triangular de peligro) que avisa de que existe una alerta.
 
 Estas alertas se pueden parametrizar en ‘Configuración de alertas’.

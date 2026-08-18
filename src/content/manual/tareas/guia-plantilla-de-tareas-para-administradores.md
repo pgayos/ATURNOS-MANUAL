@@ -1,43 +1,52 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-guia-plantilla-de-tareas-para-administradores"
-title: "Plantilla de tareas para administradores"
-description: "Aprende a plantilla de tareas para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: tareas-guia-plantilla-de-tareas-para-administradores
+title: Plantilla de tareas para administradores
+description: Cuando se necesita crear varias tareas similares al mismo tiempo, el proceso habitual de creación individual puede resultar lento y repetitivo.
 contentType: procedure
-module: "Tareas"
-submodule: "Gestión de tareas"
-intent: "Plantilla de tareas"
+module: Tareas
+submodule: Gestión de tareas
+intent: Plantilla de tareas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-06-02
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/plantilla-de-tareas/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/plantilla-de-tareas/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo plantilla de tareas para administradores?"
+    - ¿Cómo puedo plantilla de tareas para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/plantilla-de-tareas/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/plantilla-de-tareas/
+  contentHash: 2ea5ecd4677e28142644f1a7127d6981c17183ee5f7af3e1456b1daabb03bdc3
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
 Cuando se necesita crear varias tareas similares al mismo tiempo, el proceso habitual de creación individual puede resultar lento y repetitivo. Para facilitar esta tarea, el sistema ofrece la funcionalidad de plantillas de tareas, que permite agrupar y generar múltiples tareas de forma rápida y organizada.
 
-## Contenido
-
+## Procedimiento
 Para acceder a esta opción, ve al menú Tareas → Plantillas → Añadir.
 
 Al crear una nueva plantilla, puedes empezar desde cero asignándole un nombre y seleccionando en el campo “Crear plantilla desde” la opción “Nueva plantilla”.

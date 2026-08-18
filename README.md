@@ -12,6 +12,15 @@ Piloto navegable del nuevo manual estructurado para publicación web, búsqueda 
 - La IA solo podrá utilizar contenido aprobado y deberá citar las fuentes.
 - WordPress se mantiene durante una migración progresiva con redirecciones 301.
 
+Cada artículo conserva trazabilidad explícita para la puesta en producción:
+
+- `migration.originUrls`: páginas públicas utilizadas como fuente.
+- `migration.redirectFrom`: URLs antiguas que deberán redirigir a la nueva ruta.
+- `migration.contentHash`: huella del cuerpo migrado para detectar cambios.
+- `labels: [PENDIENTE]`: el borrador es útil, pero necesita validación funcional de Producto.
+
+Los campos equivalentes de `governance` se mantienen por compatibilidad con el flujo editorial existente.
+
 ## Desarrollo
 
 ```bash

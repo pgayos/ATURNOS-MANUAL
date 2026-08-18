@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-9-asignacion-de-tareas"
-title: "Asignación de tareas"
-description: "Conforme los clientes van pidiendo citas a través del Kiosko, el sistema reserva slots de tiempo (de acuerdo a la configuración de la cola) al puesto que tiene asignada la función (o especialidad) de la cita."
+contentId: tareas-9-asignacion-de-tareas
+title: Asignación de tareas
+description: Conforme los clientes van pidiendo citas a través del Kiosko, el sistema reserva slots de tiempo (de acuerdo a la configuración de la cola) al puesto que tiene asignada la función (o especialidad) de la cita.
 contentType: reference
-module: "Tareas"
-submodule: "Turnos y patrones"
-intent: "Asignación de tareas"
+module: Tareas
+submodule: Turnos y patrones
+intent: Asignación de tareas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "asignacion"
-    label: "Asignacion"
-  - id: "tareas"
-    label: "Tareas"
+  - id: asignacion
+    label: Asignacion
+  - id: tareas
+    label: Tareas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/9-asignacion-de-tareas/"
+    - https://manual.aturnos.com/knowledgebase/9-asignacion-de-tareas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/9-asignacion-de-tareas/"
+    - https://manual.aturnos.com/knowledgebase/9-asignacion-de-tareas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre asignación de tareas?"
+    - ¿Qué debo saber sobre asignación de tareas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6783daa40364f0c5ce50c205df6a1d3db4317b4649de26fe6101f159b0944aa4"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/9-asignacion-de-tareas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/9-asignacion-de-tareas/
+  contentHash: a40ad14792cb0c11b000a5fe4a8f06cd17b9c0160edcf4f24c2ffad6c65f1ec7
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Conforme los clientes van pidiendo citas a través del Kiosko, el sistema reserva slots de tiempo (de acuerdo a la configuración de la cola) al puesto que tiene asignada la función (o especialidad) de la cita.
 
-## Contenido
-
+## Opciones y datos disponibles
 Tal y como se muestra en la siguiente pantalla que encuentra en Tareas → Asignación
 
 IMPORTANTE: Con independencia de que sólo haya un puesto de trabajo con la especialidad de Financiación con turno planificado, el sistema permite a los demás puestos con los que comparte especialidad, estén o no planificados, llamar a clientes que tengan cita en la cola en la que el puesto de trabajo sin planificación (en el ejemplo, el Puesto 1) esté especializado.

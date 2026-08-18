@@ -1,62 +1,67 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-sobre-vacaciones-festivos-y-bolsas-de-horas"
-title: "Sobre vacaciones, festivos y bolsas de horas"
-description: "Esta restricción impide que el trabajador pueda superar su saldo de vacaciones anual."
+contentId: planificacion-4-sobre-vacaciones-festivos-y-bolsas-de-horas
+title: Sobre vacaciones, festivos y bolsas de horas
+description: Esta restricción impide que el trabajador pueda superar su saldo de vacaciones anual.
 contentType: reference
-module: "Planificación"
-submodule: "Contratos"
-intent: "Sobre vacaciones, festivos y bolsas de horas"
+module: Planificación
+submodule: Contratos
+intent: Sobre vacaciones, festivos y bolsas de horas
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "bolsas"
-    label: "Bolsas"
-  - id: "festivos"
-    label: "Festivos"
-  - id: "horas"
-    label: "Horas"
-  - id: "sobre"
-    label: "Sobre"
-  - id: "vacaciones"
-    label: "Vacaciones"
+  - id: bolsas
+    label: Bolsas
+  - id: festivos
+    label: Festivos
+  - id: horas
+    label: Horas
+  - id: sobre
+    label: Sobre
+  - id: vacaciones
+    label: Vacaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-sobre-vacaciones-y-contingentes-de-permisos-y-festivos/"
+    - https://manual.aturnos.com/knowledgebase/4-sobre-vacaciones-y-contingentes-de-permisos-y-festivos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-sobre-vacaciones-y-contingentes-de-permisos-y-festivos/"
+    - https://manual.aturnos.com/knowledgebase/4-sobre-vacaciones-y-contingentes-de-permisos-y-festivos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre sobre vacaciones, festivos y bolsas de horas?"
+    - ¿Qué debo saber sobre sobre vacaciones, festivos y bolsas de horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 7
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c613ce34f86a7a01b73ce3cec06b15a02d7e75417ddfa0501346cce1133f1445"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-sobre-vacaciones-y-contingentes-de-permisos-y-festivos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-sobre-vacaciones-y-contingentes-de-permisos-y-festivos/
+  contentHash: 07f34ef44d02b363c4d3a071f1597a540558d7820af50ebb6b5e6bdfb7c04fad
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Esta restricción impide que el trabajador pueda superar su saldo de vacaciones anual.
 
-## Contenido
-
+## Opciones y datos disponibles
 ⚙️ Configuración: Esta restricción tiene una configuración básica.
 
 Por ejemplo, si un trabajador tiene 3 días de vacaciones no usados en 2019, la restricción define si esos días se descuentan del saldo de 2019 o del de 2020 cuando los pide en 2020. Por defecto, el sistema permite usar las vacaciones del año anterior hasta el 15 de enero del año siguiente.

@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-b-horas"
-title: "Horas en aTurnos"
+contentId: planificacion-b-horas
+title: Horas en aTurnos
 description: "Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas."
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Horas en aTurnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Horas en aTurnos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "horas"
-    label: "Horas"
+  - id: horas
+    label: Horas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-2-horas/"
+    - https://manual.aturnos.com/knowledgebase/6-2-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-2-horas/"
+    - https://manual.aturnos.com/knowledgebase/6-2-horas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo horas en aTurnos?"
+    - ¿Cómo puedo horas en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "fa739230a991889db73e70a0ccb9eef8bab4984d9c94ecd69f9708514bef2b3c"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-2-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-2-horas/
+  contentHash: 4a61929f78af6edcc450c4f3e2925582c8d3a557bcf2b237a57beb4f10be9bd4
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -70,3 +77,7 @@ Muestra los datos por Horas de nuestra planificación, cada columna se correspon
 ### Gráfico
 
 Gráfico de barras, que especifica el total de horas por cada trabajador.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

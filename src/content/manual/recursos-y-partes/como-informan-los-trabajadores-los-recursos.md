@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-como-informan-los-trabajadores-los-recursos"
-title: "¿Cómo informan los trabajadores los recursos?"
-description: "Solo se pueden asignarse recursos si se tienen turno y/u horas planificadas en el cuadrante."
+contentId: recursos-y-partes-como-informan-los-trabajadores-los-recursos
+title: ¿Cómo informan los trabajadores los recursos?
+description: Solo se pueden asignarse recursos si se tienen turno y/u horas planificadas en el cuadrante.
 contentType: faq
-module: "Recursos y partes"
-submodule: "Vacaciones y ausencias"
-intent: "¿Cómo informan los trabajadores los recursos?"
+module: Recursos y partes
+submodule: Vacaciones y ausencias
+intent: ¿Cómo informan los trabajadores los recursos?
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "informan"
-    label: "Informan"
-  - id: "recursos"
-    label: "Recursos"
-  - id: "trabajadores"
-    label: "Trabajadores"
+  - id: informan
+    label: Informan
+  - id: recursos
+    label: Recursos
+  - id: trabajadores
+    label: Trabajadores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/casos-de-uso-de-trabajadores/"
+    - https://manual.aturnos.com/knowledgebase/casos-de-uso-de-trabajadores/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/casos-de-uso-de-trabajadores/"
+    - https://manual.aturnos.com/knowledgebase/casos-de-uso-de-trabajadores/
 ai:
   answerableQuestions:
-    - "¿Cómo informan los trabajadores los recursos?"
+    - ¿Cómo informan los trabajadores los recursos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8f58cd1a1c540f1e49c7612d7b08587f359945510f08117f72b1bf4459a8fffd"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/casos-de-uso-de-trabajadores/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/casos-de-uso-de-trabajadores/
+  contentHash: bc0abf9e56bf390855e4a9803faaf15cbfb98fc32628b602bcdcad2cacac1314
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Solo se pueden asignarse recursos si se tienen turno y/u horas planificadas en el cuadrante.
 
-## Contenido
-
+## Respuesta
 Para añadir un Recurso, el trabajador debe:
 
 1.- Desde el menú CUADRANTE → CUADRANTE, hacer clic en el día y turno al que se le va a añadir el recurso y seleccionar la opción “Recursos”

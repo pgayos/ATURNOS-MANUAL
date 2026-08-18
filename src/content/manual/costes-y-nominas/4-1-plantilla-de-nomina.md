@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-4-1-plantilla-de-nomina"
-title: "Plantilla de nómina"
-description: "Información sobre plantilla de nómina, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: costes-y-nominas-4-1-plantilla-de-nomina
+title: Plantilla de nómina
+description: Una vez creados los conceptos de nómina, se tiene que definir el formato del fichero de exportación, tanto en lo que se refiere a la configuración del fichero (formato de fecha y el modo de.
 contentType: reference
-module: "Costes y nóminas"
-submodule: "General"
-intent: "Plantilla de nómina"
+module: Costes y nóminas
+submodule: General
+intent: Plantilla de nómina
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "nomina"
-    label: "Nomina"
-  - id: "plantilla"
-    label: "Plantilla"
+  - id: nomina
+    label: Nomina
+  - id: plantilla
+    label: Plantilla
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/c-plantilla-de-nomina/"
+    - https://manual.aturnos.com/knowledgebase/c-plantilla-de-nomina/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/c-plantilla-de-nomina/"
+    - https://manual.aturnos.com/knowledgebase/c-plantilla-de-nomina/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre plantilla de nómina?"
+    - ¿Qué debo saber sobre plantilla de nómina?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b60f806098471409fa5f9267479150a5946b46384ac7aa8c12ef2b6b592a0144"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/c-plantilla-de-nomina/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/c-plantilla-de-nomina/
+  contentHash: bbf810e2eac5e728fd577d7a1a08e4e6aa6a73eb7de850cfae0e77551e970c20
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre plantilla de nómina, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Una vez creados los conceptos de nómina, se tiene que definir el formato del fichero de exportación, tanto en lo que se refiere a la configuración del fichero (formato de fecha y el modo de mostrar los conceptos) como a los campos clave (id empleado, código de concepto, cantidad, etc.) que precisa el fichero.
 
 La configuración de la plantilla permite establecer unos valores por defecto cuando se ejecutan las estadísticas de nómina, tanto la estadística por periodo como la estadística diaria en lo que se refiere al formato (por líneas o por columnas), a través del campo “Modo de mostrar los conceptos”

@@ -1,27 +1,28 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-las-restricciones-en-aturnos-para-administradores"
-title: "Las restricciones en aTurnos para administradores"
-description: "Información sobre las restricciones en aTurnos para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-las-restricciones-en-aturnos-para-administradores
+title: Las restricciones en aTurnos para administradores
+description: Las Restricciones en aTurnos permiten verificar automáticamente el cumplimiento de leyes laborales, convenios colectivos, contratos y condiciones específicas de los empleados.
 contentType: troubleshooting
-module: "Planificación"
-submodule: "Restricciones"
-intent: "Las restricciones en aTurnos"
+module: Planificación
+submodule: Restricciones
+intent: Las restricciones en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-09-02
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/las-restricciones-en-aturnos/"
+    - https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/las-restricciones-en-aturnos/
   redirectsFrom: []
 ai:
   answerableQuestions:
@@ -29,8 +30,18 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/las-restricciones-en-aturnos/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/las-restricciones-en-aturnos/
+  contentHash: a480dc83a36d91ba6df9ea297bea2f4f74c0f2b8787c97d561f3e12719c3e277
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -67,3 +78,7 @@ Cada restricción se configura de una manera particular, pero todas comparten un
 - Restricción habilitada: Marcando la opción «SÍ», la restricción está activada para usarse, si se marca «NO», puede guardarse la configuración para habilitarla más tarde.
 
 Para información más en detalle sobre el comportamiento de cada restricción, accede a este enlace.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

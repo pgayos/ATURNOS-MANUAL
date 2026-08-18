@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-guia-informes-sobre-cumplimiento-de-horarios-y-horas-acumuladas-para-administradores"
-title: "Informes sobre cumplimiento de horarios y horas acumuladas para administradores"
-description: "Información sobre informes sobre cumplimiento de horarios y horas acumuladas para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-guia-informes-sobre-cumplimiento-de-horarios-y-horas-acumuladas-para-administradores
+title: Informes sobre cumplimiento de horarios y horas acumuladas para administradores
+description: El módulo de Control Horario no solo registra la asistencia de los empleados, sino que también ofrece herramientas de análisis para que puedas gestionar de forma eficiente el tiempo de traba.
 contentType: concept
-module: "Control horario"
-submodule: "Horas trabajadas"
-intent: "Informes sobre cumplimiento de horarios y horas acumuladas"
+module: Control horario
+submodule: Horas trabajadas
+intent: Informes sobre cumplimiento de horarios y horas acumuladas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-05-22
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/informes-sobre-cumplimiento-de-horarios-y-horas-acumuladas/"
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/informes-sobre-cumplimiento-de-horarios-y-horas-acumuladas/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre informes sobre cumplimiento de horarios y horas acumuladas para administradores?"
+    - ¿Qué debo saber sobre informes sobre cumplimiento de horarios y horas acumuladas para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 7
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/informes-sobre-cumplimiento-de-horarios-y-horas-acumuladas/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/informes-sobre-cumplimiento-de-horarios-y-horas-acumuladas/
+  contentHash: a26e6f1531a1e944bc4df7120182d096bd48e789d982551b599a9976f15274c9
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -109,3 +120,7 @@ Muestra el estado del acumulado de horas centrándose en las localizaciones.
 
 - Principales datos proporcionados: Localización: Ubicación asociada al fichaje. Acumulado positivo: Tiempo fichado que se ha trabajado adicionalmente a lo planificado. Acumulado negativo: Tiempo planificado que no se ha fichado.
 - Opciones de filtrado: Empleado individual: Buscar por nombre, correo electrónico o ID de empleado para analizar datos de un trabajador en particular. Localización: Filtrar por una o varias ubicaciones específicas.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

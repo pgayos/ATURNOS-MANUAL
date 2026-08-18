@@ -1,49 +1,55 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-listado-avanzado"
-title: "Listado avanzado"
-description: "Este reporte informa de todos los fichajes que se están realizando a través de los distintos sistemas para el registro de la jornada laboral."
+contentId: planificacion-2-listado-avanzado
+title: Listado avanzado
+description: Este reporte informa de todos los fichajes que se están realizando a través de los distintos sistemas para el registro de la jornada laboral.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Listado avanzado"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Listado avanzado
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "avanzado"
-    label: "Avanzado"
-  - id: "listado"
-    label: "Listado"
+  - id: avanzado
+    label: Avanzado
+  - id: listado
+    label: Listado
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-listado-avanzado/"
+    - https://manual.aturnos.com/knowledgebase/2-listado-avanzado/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-listado-avanzado/"
+    - https://manual.aturnos.com/knowledgebase/2-listado-avanzado/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre listado avanzado?"
+    - ¿Qué debo saber sobre listado avanzado?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "0523c59f0829b34d69c82048ed9a3e2135fe634689f1a632dc0f7cdbd24a7d16"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-listado-avanzado/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-listado-avanzado/
+  contentHash: ca4919c547a1d103e52423e842ee6ce5861435ed4435027505bd49a27b11e936
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

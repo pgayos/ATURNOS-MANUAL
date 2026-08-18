@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-3-estado-del-acumulado-del-empleado"
-title: "Estado del acumulado del empleado"
-description: "Información sobre estado del acumulado del empleado, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-4-3-estado-del-acumulado-del-empleado
+title: Estado del acumulado del empleado
+description: Es un reporte que ofrece las horas del estado acumuladas al comparar las horas planificadas y presenciales del trabajador.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Estado del acumulado del empleado"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Estado del acumulado del empleado
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "acumulado"
-    label: "Acumulado"
-  - id: "empleado"
-    label: "Empleado"
-  - id: "estado"
-    label: "Estado"
+  - id: acumulado
+    label: Acumulado
+  - id: empleado
+    label: Empleado
+  - id: estado
+    label: Estado
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-3-estado-del-acumulado-del-empleado/"
+    - https://manual.aturnos.com/knowledgebase/4-3-estado-del-acumulado-del-empleado/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-3-estado-del-acumulado-del-empleado/"
+    - https://manual.aturnos.com/knowledgebase/4-3-estado-del-acumulado-del-empleado/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre estado del acumulado del empleado?"
+    - ¿Qué debo saber sobre estado del acumulado del empleado?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6e1dd587d748f901a6fb44edef853188782c1d98677c255aa9ff1164ae3dca50"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-3-estado-del-acumulado-del-empleado/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-3-estado-del-acumulado-del-empleado/
+  contentHash: 66266284bc81347472e040be7f9e13e4742e59f45ba4b38e6ad17d87b4fbe75b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre estado del acumulado del empleado, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Es un reporte que ofrece las horas del estado acumuladas al comparar las horas planificadas y presenciales del trabajador. Teniendo en cuenta las horas planificadas computables, las horas planificadas no computables y el acumulado de horas (horas presenciales menos planificadas).
 
 Desde la barra superior se pueden filtrar los datos entre dos fechas, así como buscar mediante el botón de filtro.

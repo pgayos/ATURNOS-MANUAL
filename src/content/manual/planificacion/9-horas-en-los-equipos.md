@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-9-horas-en-los-equipos"
-title: "Horas en los equipos"
-description: "Información sobre horas en los equipos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-9-horas-en-los-equipos
+title: Horas en los equipos
+description: Este apartado es útil para un administrador, porque ofrece una tabla donde podrá visualizar, de una forma rápida y sencilla, datos importantes de la planificación de un trabajador en los dif.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Horas en los equipos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Horas en los equipos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "equipos"
-    label: "Equipos"
-  - id: "horas"
-    label: "Horas"
+  - id: equipos
+    label: Equipos
+  - id: horas
+    label: Horas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/9-horas-en-los-equipos/"
+    - https://manual.aturnos.com/knowledgebase/9-horas-en-los-equipos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/9-horas-en-los-equipos/"
+    - https://manual.aturnos.com/knowledgebase/9-horas-en-los-equipos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre horas en los equipos?"
+    - ¿Qué debo saber sobre horas en los equipos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "78cfffb3abbb65d36bc4425ce29f3fe762bb845373c0c2955d52b8362c68b010"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/9-horas-en-los-equipos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/9-horas-en-los-equipos/
+  contentHash: 155a5ce79d59fad25d298a953c8d6b37729966f41cb68838b287511f0ae54d23
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre horas en los equipos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Este apartado es útil para un administrador, porque ofrece una tabla donde podrá visualizar, de una forma rápida y sencilla, datos importantes de la planificación de un trabajador en los diferentes equipos como son las horas planificadas, vacaciones y sus balances, donde ha sido planificado durante todo un año. Se dividen en las siguientes opciones:
 
 En la tabla ‘Horas’ podrás consultar los siguientes datos:

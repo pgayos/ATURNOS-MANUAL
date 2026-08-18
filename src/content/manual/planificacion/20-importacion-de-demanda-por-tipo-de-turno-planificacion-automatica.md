@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica"
-title: "Importación de demanda por tipo de turno (Planificación automática)"
-description: "Información sobre importación de demanda por tipo de turno (Planificación automática), con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica
+title: Importación de demanda por tipo de turno (Planificación automática)
+description: En muchos casos los managers de operaciones necesitan planificar sus equipos en base a una demanda de turnos requerida para garantizar la calidad de su servicio o actividad.
 contentType: concept
-module: "Planificación"
-submodule: "Turnos y patrones"
-intent: "Importación de demanda por tipo de turno (Planificación automática)"
+module: Planificación
+submodule: Turnos y patrones
+intent: Importación de demanda por tipo de turno (Planificación automática)
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "automatica"
-    label: "Automatica"
-  - id: "demanda"
-    label: "Demanda"
-  - id: "importacion"
-    label: "Importacion"
-  - id: "planificacion"
-    label: "Planificacion"
-  - id: "tipo"
-    label: "Tipo"
-  - id: "turno"
-    label: "Turno"
+  - id: automatica
+    label: Automatica
+  - id: demanda
+    label: Demanda
+  - id: importacion
+    label: Importacion
+  - id: planificacion
+    label: Planificacion
+  - id: tipo
+    label: Tipo
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/20-importacion-de-demanda-por-tipo-de-turno-operaciones/"
+    - https://manual.aturnos.com/knowledgebase/20-importacion-de-demanda-por-tipo-de-turno-operaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/20-importacion-de-demanda-por-tipo-de-turno-operaciones/"
+    - https://manual.aturnos.com/knowledgebase/20-importacion-de-demanda-por-tipo-de-turno-operaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importación de demanda por tipo de turno (Planificación automática)?"
+    - ¿Qué debo saber sobre importación de demanda por tipo de turno (Planificación automática)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d6cb74c061a0462fe8dad948e79e3b0905b73cbe95d35d38c6c7d45a01429fc7"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/20-importacion-de-demanda-por-tipo-de-turno-operaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/20-importacion-de-demanda-por-tipo-de-turno-operaciones/
+  contentHash: 49dc9552b552ef80a3bd180aa9b030fbb137bf48976f80b252ce1aedacb7a769
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre importación de demanda por tipo de turno (Planificación automática), con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En muchos casos los managers de operaciones necesitan planificar sus equipos en base a una demanda de turnos requerida para garantizar la calidad de su servicio o actividad. Para ello, podemos importar un fichero Excel donde indiquemos el incremento de demanda por cada turno de la actividad. Para importar este archivo, se debe tener activado el módulo de Planificación automática.
 
 Es recomendable importar una demanda cuando la necesidad a cubrir varía en los días de cada semana, Ej. en una demanda de dos semanas, el lunes de la semana 1 la necesidad de turnos no es la misma que la del lunes de la semana 2. La necesidad de cobertura no se mantiene constante por día en todas las semanas.

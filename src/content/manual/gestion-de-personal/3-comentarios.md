@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-3-comentarios"
-title: "Comentarios"
-description: "Información sobre comentarios, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-3-comentarios
+title: Comentarios
+description: Registrar un comentario en el cuadrante de turnos es una acción frecuente y de gran valor tanto para el administrador del equipo como para el propio trabajador.
 contentType: troubleshooting
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Comentarios"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Comentarios
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "comentarios"
-    label: "Comentarios"
+  - id: comentarios
+    label: Comentarios
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/c-comentarios/"
+    - https://manual.aturnos.com/knowledgebase/c-comentarios/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/c-comentarios/"
+    - https://manual.aturnos.com/knowledgebase/c-comentarios/
 ai:
   answerableQuestions:
     - "¿Cómo resuelvo el problema: Comentarios?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "714f9b34f0b4f9ee41e15b2b663892b3229ce5b21da46e1eef8cb0899f8a8598"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/c-comentarios/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/c-comentarios/
+  contentHash: d621f6ebe0aa7e28be073929b3cca63a1685791401c5ff939a012b3278a61557
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre comentarios, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Diagnóstico y solución
 Registrar un comentario en el cuadrante de turnos es una acción frecuente y de gran valor tanto para el administrador del equipo como para el propio trabajador. Existe un comentario cuando dentro de un turno aparece el icono ‘i’ en un turno.
 
 Desde el propio cuadrante el usuario puede añadir un comentario en cualquier día, el rol administrador puede registrar comentarios en la planificación de cualquier miembro de su equipo. De esta manera puede añadir información se su interés y quedar registrado con fines recordatorio. Esta acción se realiza desde la función ‘Comentario’ que aparece cuando se cliquea en un determinado día dentro del cuadrante.

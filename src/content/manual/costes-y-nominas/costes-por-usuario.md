@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-costes-por-usuario"
-title: "Costes por usuario"
-description: "Aprende a costes por usuario, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: costes-y-nominas-costes-por-usuario
+title: Costes por usuario
+description: Al contar con el Módulo de Costes entre las funcionalidades de aTurnos se activará en el Perfil del trabajador una pestaña de “Costes” desde la cual se pueden configurar costes directamente.
 contentType: procedure
-module: "Costes y nóminas"
-submodule: "Usuarios y perfiles"
-intent: "Costes por usuario"
+module: Costes y nóminas
+submodule: Usuarios y perfiles
+intent: Costes por usuario
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "costes"
-    label: "Costes"
-  - id: "usuario"
-    label: "Usuario"
+  - id: costes
+    label: Costes
+  - id: usuario
+    label: Usuario
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/costes-por-usuario/"
+    - https://manual.aturnos.com/knowledgebase/costes-por-usuario/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/costes-por-usuario/"
+    - https://manual.aturnos.com/knowledgebase/costes-por-usuario/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo costes por usuario?"
+    - ¿Cómo puedo costes por usuario?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "fe2fcc6934f73f834b7327b60bac2f82a3d0d7120d06d2d8ea72782095c955c6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/costes-por-usuario/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/costes-por-usuario/
+  contentHash: 3331a800af98d876583cb6035acb3602b4157e377b8da778a5637fd5373b1136
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a costes por usuario, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Al contar con el Módulo de Costes entre las funcionalidades de aTurnos se activará en el Perfil del trabajador una pestaña de “Costes” desde la cual se pueden configurar costes directamente relacionados a un usuario del equipo. Esta configuración es recomendada cuando un usuario tiene valores de costes diferentes al resto de los empleados, independientemente de la categoría y/o turno que realice.
 
 - Activar costes usuario: Se selecciona esta casilla para informar las variables que afectarán al cálculo de coste por hora del usuario.

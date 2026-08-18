@@ -1,45 +1,52 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-e-localizaciones"
-title: "Localizaciones"
+contentId: recursos-y-partes-e-localizaciones
+title: Localizaciones
 description: "Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas."
 contentType: procedure
-module: "Recursos y partes"
-submodule: "Usuarios y perfiles"
-intent: "Localizaciones"
+module: Recursos y partes
+submodule: Usuarios y perfiles
+intent: Localizaciones
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "localizaciones"
-    label: "Localizaciones"
+  - id: localizaciones
+    label: Localizaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-5-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/6-5-localizaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-5-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/6-5-localizaciones/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo localizaciones?"
+    - ¿Cómo puedo localizaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ef1b58b9701fc97e7a4b25a8287ed5676c8841d293a3add8a3133ac0ca6d95e7"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-5-localizaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-5-localizaciones/
+  contentHash: 0ca44060bf9b6e51ccacfef84674cdb8fb9b805008b33640749a1d0b0b266d84
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -65,3 +72,7 @@ Se presentan las estadísticas por cada trabajador según su localización. Cada
 ### Gráfico
 
 Se trata de un diagrama, donde se representan las horas de cada localización sobre el total, según el número de total de horas computadas en el equipo. Si pasamos con el ratón sobre cada sector del gráfico, nos aparecerá el nombre de la localización y el porcentaje. Para hacerlo más visual, se nos ofrece una leyenda por colores diferenciando los sectores por cada localización.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

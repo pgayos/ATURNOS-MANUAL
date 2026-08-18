@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-6-1-estadistica-por-periodo"
-title: "Estadística por periodo"
-description: "A través de la estadística por periodo se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculados en el período seleccionado)."
+contentId: costes-y-nominas-6-1-estadistica-por-periodo
+title: Estadística por periodo
+description: A través de la estadística por periodo se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculados en el período seleccionado).
 contentType: procedure
-module: "Costes y nóminas"
-submodule: "Usuarios y perfiles"
-intent: "Estadística por periodo"
+module: Costes y nóminas
+submodule: Usuarios y perfiles
+intent: Estadística por periodo
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "estadistica"
-    label: "Estadistica"
-  - id: "periodo"
-    label: "Periodo"
+  - id: estadistica
+    label: Estadistica
+  - id: periodo
+    label: Periodo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/e-estadisticas/"
+    - https://manual.aturnos.com/knowledgebase/e-estadisticas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/e-estadisticas/"
+    - https://manual.aturnos.com/knowledgebase/e-estadisticas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo estadística por periodo?"
+    - ¿Cómo puedo estadística por periodo?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "991c5ae9ac02d8872f8387346b4434b7bdda4a5466942f4ca4a8389ad184ea3c"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/e-estadisticas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/e-estadisticas/
+  contentHash: c7896dcdf973c442345d3df6055182e7d8b49808eb83cf5c60fdfffefe417801
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 A través de la estadística por periodo se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculados en el período seleccionado).
 
-## Contenido
-
+## Procedimiento
 No es aconsejable el uso de la estadística por periodo si en el cálculo de las variables se utilizan cálculos complejos tanto conceptos que operan entre conceptos como conceptos de comparación, las operaciones que ejecutan (de suma, resta, multiplicación o división, así como las de comparación) se realizan entre las fechas de la ejecución calculando en todo el periodo seleccionado.
 
 Ver en el Manual el apartado 5.1.- Exportar a nóminas (Manual) el comportamiento de la estadística por periodo.

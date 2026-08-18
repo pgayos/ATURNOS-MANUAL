@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-1-detalle"
-title: "Detalle en aTurnos"
-description: "Información sobre detalle en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-1-detalle
+title: Detalle en aTurnos
+description: Este submenú permite al administrador visualizar, en un determinado día, información sobre los marcajes que realizan los trabajadores en comparación con la planificación.
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Detalle en aTurnos"
+module: Control horario
+submodule: Fichajes
+intent: Detalle en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "detalle"
-    label: "Detalle"
+  - id: detalle
+    label: Detalle
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-detalle/"
+    - https://manual.aturnos.com/knowledgebase/1-detalle/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-detalle/"
+    - https://manual.aturnos.com/knowledgebase/1-detalle/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre detalle en aTurnos?"
+    - ¿Qué debo saber sobre detalle en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e357ff86269a02e2b453a993f974f57913968b6fa4a50591725601dde8c0bd3a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-detalle/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-detalle/
+  contentHash: 6c1d90393189ecc7431dd2d5ee70146208a5098b0ab04a8970952491c222a822
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -107,3 +114,7 @@ Además desde ‘Ajustar’ se pueden realizar otras acciones:
 - Reducir Jornada, es aplicable a consecuencia de que el trabajador haya realizado un marcaje cerrado (barra naranja) de menos tiempo que el turno planificado (barra verde), provocando una reducción del turno con la misma duración del marcaje cerrado. Esto provoca una modificación de la planificación, convirtiendo el turno en horas.
 
 Los ajustes también se puede realizar a todos los trabajadores filtrados desde el botón ‘Ajustar todos’, haciendo señalado previamente el botón de selección de todos los trabajadores.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

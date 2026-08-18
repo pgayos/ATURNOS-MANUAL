@@ -1,27 +1,28 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-planificar-absentismos-totales-absentismos-temporales-y-periodos-de-absentismo-para-administrado"
-title: "Planificar absentismos totales, absentismos temporales y periodos de absentismo para administradores"
-description: "Información sobre planificar absentismos totales, absentismos temporales y periodos de absentismo para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-planificar-absentismos-totales-absentismos-temporales-y-periodos-de-absentismo-para-administrado
+title: Planificar absentismos totales, absentismos temporales y periodos de absentismo para administradores
+description: En el día a día de cualquier equipo, gestionar correctamente las ausencias del personal es fundamental para garantizar el cumplimiento normativo, mantener la productividad y evitar errores e.
 contentType: troubleshooting
-module: "Planificación"
-submodule: "Permisos y absentismos"
-intent: "Planificar absentismos totales, absentismos temporales y periodos de absentismo"
+module: Planificación
+submodule: Permisos y absentismos
+intent: Planificar absentismos totales, absentismos temporales y periodos de absentismo
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-10-31
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/planificar-absentismos-totales-absentismos-temporales-y-periodos-de-absentismo/"
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/planificar-absentismos-totales-absentismos-temporales-y-periodos-de-absentismo/
   redirectsFrom: []
 ai:
   answerableQuestions:
@@ -29,8 +30,17 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/planificar-absentismos-totales-absentismos-temporales-y-periodos-de-absentismo/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/planificar-absentismos-totales-absentismos-temporales-y-periodos-de-absentismo/
+  contentHash: 8287b4de2a630a72a7792825fdfe91ee92f6b2587401e6c79a06ae58c6ee93c5
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

@@ -1,43 +1,52 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-guia-preguntas-frecuentes-sobre-autogestion-del-trabajador-para-trabajadores"
-title: "Preguntas frecuentes sobre autogestión del trabajador para trabajadores"
-description: "Puedes deshacerla desde el apartado Cuadrante → Peticiones y cambios → Pendientes antes de que tu administrador la apruebe."
+contentId: peticiones-y-cambios-guia-preguntas-frecuentes-sobre-autogestion-del-trabajador-para-trabajadores
+title: Preguntas frecuentes sobre autogestión del trabajador para trabajadores
+description: Puedes deshacerla desde el apartado Cuadrante → Peticiones y cambios → Pendientes antes de que tu administrador la apruebe.
 contentType: concept
-module: "Peticiones y cambios"
-submodule: "Autogestión del trabajador"
-intent: "Preguntas Frecuentes"
+module: Peticiones y cambios
+submodule: Autogestión del trabajador
+intent: Preguntas Frecuentes
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-29
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/preguntas-frecuentes-9/"
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/preguntas-frecuentes-9/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre preguntas frecuentes sobre autogestión del trabajador para trabajadores?"
+    - ¿Qué debo saber sobre preguntas frecuentes sobre autogestión del trabajador para trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/preguntas-frecuentes-9/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/preguntas-frecuentes-9/
+  contentHash: 6684d3b3b2a5029372673b3842fc272d9d74455cc63f72e2026add81eba34cec
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
 Puedes deshacerla desde el apartado Cuadrante → Peticiones y cambios → Pendientes antes de que tu administrador la apruebe.
 
-## Contenido
-
+## Qué debes saber
 - ¿Qué ocurre si me equivoco al realizar una solicitud?
 
 - ¿Puedo pedir varios tipos de absentismos para el mismo día?

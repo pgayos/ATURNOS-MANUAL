@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-16-importacion-plantilla-de-tareas-tareas"
-title: "Importación plantilla de tareas (Tareas)"
+contentId: tareas-16-importacion-plantilla-de-tareas-tareas
+title: Importación plantilla de tareas (Tareas)
 description: "Ejemplo de documento: CSV import_plantilla-tareas."
 contentType: concept
-module: "Tareas"
-submodule: "General"
-intent: "Importación plantilla de tareas (Tareas)"
+module: Tareas
+submodule: General
+intent: Importación plantilla de tareas (Tareas)
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities:
-  - id: "importacion"
-    label: "Importacion"
-  - id: "plantilla"
-    label: "Plantilla"
-  - id: "tareas"
-    label: "Tareas"
+  - id: importacion
+    label: Importacion
+  - id: plantilla
+    label: Plantilla
+  - id: tareas
+    label: Tareas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/16-importacion-plantilla-tareas/"
+    - https://manual.aturnos.com/knowledgebase/16-importacion-plantilla-tareas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/16-importacion-plantilla-tareas/"
+    - https://manual.aturnos.com/knowledgebase/16-importacion-plantilla-tareas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importación plantilla de tareas (Tareas)?"
+    - ¿Qué debo saber sobre importación plantilla de tareas (Tareas)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,15 +41,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6a5ccb9a1b0df08e94e142859f9bb70122352fb353b4c9d7cbaa4a36886ceb31"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/16-importacion-plantilla-tareas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/16-importacion-plantilla-tareas/
+  contentHash: 20e576e52f60cf3ce365769488700058be3bccf3afa1ca7421c3a29f7bf4b7a8
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Ejemplo de documento: CSV import_plantilla-tareas.
 
-## Contenido
-
+## Qué debes saber
 - Nombre de la plantilla de tareas
 - Especialidad de la tarea
 - Descripción de la tarea

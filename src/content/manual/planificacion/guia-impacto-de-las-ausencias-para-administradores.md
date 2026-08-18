@@ -1,27 +1,28 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-impacto-de-las-ausencias-para-administradores"
-title: "Impacto de las ausencias para administradores"
-description: "Información sobre impacto de las ausencias para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-impacto-de-las-ausencias-para-administradores
+title: Impacto de las ausencias para administradores
+description: La tabla de cobertura es una herramienta clave de aTurnos diseñada para ayudar a los administradores a gestionar la planificación del personal.
 contentType: troubleshooting
-module: "Planificación"
-submodule: "Permisos y absentismos"
-intent: "Impacto de las ausencias"
+module: Planificación
+submodule: Permisos y absentismos
+intent: Impacto de las ausencias
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-02-17
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/impacto-de-las-ausencias/"
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/impacto-de-las-ausencias/
   redirectsFrom: []
 ai:
   answerableQuestions:
@@ -29,8 +30,18 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/impacto-de-las-ausencias/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/impacto-de-las-ausencias/
+  contentHash: 7601a798a0e77c15ff2f773fe82ff06ee21b53257e907b746c986421209f3742
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -90,3 +101,7 @@ Una empresa con múltiples departamentos necesita revisar si un equipo puede pre
 - Optimización de recursos por localización:
 
 Un restaurante con varias sucursales utiliza la vista «Total por localización» para asegurarse de que cada sede tiene el personal necesario en turnos clave.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

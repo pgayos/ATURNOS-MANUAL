@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-visualizar-patron"
-title: "Visualizar patrón"
-description: "Una de las acciones que puedes realizar desde el listado de patrones de turnos es visualizarlo. Con esta opción, se puede visualizar la secuencia de tipos de turnos que componen los diferentes periodos del patrón."
+contentId: planificacion-2-visualizar-patron
+title: Visualizar patrón
+description: Una de las acciones que puedes realizar desde el listado de patrones de turnos es visualizarlo. Con esta opción, se puede visualizar la secuencia de tipos de turnos que componen los diferentes periodos del patrón.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Visualizar patrón"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Visualizar patrón
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "patron"
-    label: "Patron"
-  - id: "visualizar"
-    label: "Visualizar"
+  - id: patron
+    label: Patron
+  - id: visualizar
+    label: Visualizar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-visualizar-patron/"
+    - https://manual.aturnos.com/knowledgebase/2-visualizar-patron/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-visualizar-patron/"
+    - https://manual.aturnos.com/knowledgebase/2-visualizar-patron/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre visualizar patrón?"
+    - ¿Qué debo saber sobre visualizar patrón?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "81efe00e1a0f4d93f2734d47165560b98ed29230722839b7fef88fdd1d7e0a47"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-visualizar-patron/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-visualizar-patron/
+  contentHash: 2bda800b3793e3edc4c65e71229d2f025fa6e601918624dbbc484c4a48f01df6
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Una de las acciones que puedes realizar desde el listado de patrones de turnos es visualizarlo. Con esta opción, se puede visualizar la secuencia de tipos de turnos que componen los diferentes periodos del patrón.
 
-## Contenido
-
+## Qué debes saber
 1. Visualización de datos básicos del patrón: visualizarás los datos esenciales que componen el patrón, que son los siguientes:
 
 - Número de días: totalidad de número de días que componen el patrón de turnos, desde que empieza en el periodo 1 hasta que finaliza en el último periodo (en nuestro ejemplo: 8 periodos de 7 días cada uno, por lo tanto 56 días). En el tour de los 10 pasos para aplicar el patrón, en el paso 8 “periodo inicial”, cuando el escalonado es cero, se le hace referencia a la numeración de los días/celdas como el nombre de índice (pasos de aplicar un patrón). Escalonado: número de días que constituye el ciclo del patrón. Es decir, duración en días de los periodos del patrón, cada cuánto tiempo van a rotar los periodos. El escalonado a 7 días es el más común, ya que cuadran los fines de semana cuando rotan los periodos. En nuestro ejemplo: 7 días. Número de periodos requeridos: número de períodos totales que tiene el patrón (en nuestro ejemplo: 8 periodos). Horas anuales: las horas planificadas a un trabajador, si se le aplica este patrón en un año completo, sin descontar las horas de las vacaciones.

@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-gestion-de-vacaciones-de-anos-anteriores-para-administradores"
-title: "Gestión de vacaciones de años anteriores para administradores"
-description: "Aprende a gestión de vacaciones de años anteriores para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-gestion-de-vacaciones-de-anos-anteriores-para-administradores
+title: Gestión de vacaciones de años anteriores para administradores
+description: En aTurnos, la gestión eficiente de los días de vacaciones pendientes es clave para mantener un control claro del tiempo libre de los empleados y evitar desajustes en la planificación.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones"
-intent: "Gestión de vacaciones de años anteriores"
+module: Planificación
+submodule: Vacaciones
+intent: Gestión de vacaciones de años anteriores
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/vacaciones-anterior/"
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/vacaciones-anterior/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo gestión de vacaciones de años anteriores para administradores?"
+    - ¿Cómo puedo gestión de vacaciones de años anteriores para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/vacaciones-anterior/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/vacaciones-anterior/
+  contentHash: 959ef21d73d0ae47154df7831fdc6e9e0684af603a5d1fecfdf1fcd1b83c890a
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -103,3 +114,7 @@ Un trabajador con 10 días pendientes de 2023 tendría los siguientes ajustes:
 
 - Decrementar el saldo de 2023 en 10 días (quedando en 0).
 - Incrementar el saldo de 2024 en 10 días, sumándolos al saldo asignado por convenio.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

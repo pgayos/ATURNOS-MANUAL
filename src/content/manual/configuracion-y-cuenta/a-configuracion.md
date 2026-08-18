@@ -1,36 +1,37 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-a-configuracion"
-title: "Configuración"
-description: "Información sobre configuración, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-a-configuracion
+title: Configuración
+description: Para un correcto funcionamiento de la importación y la exportación es necesario configurar el comportamiento de la plataforma de aTurnos para obtener los resultados deseados.
 contentType: reference
-module: "Configuración y cuenta"
-submodule: "Equipo y centros"
-intent: "Configuración"
+module: Configuración y cuenta
+submodule: Equipo y centros
+intent: Configuración
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "configuracion"
-    label: "Configuracion"
+  - id: configuracion
+    label: Configuracion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/a-configuracion/"
+    - https://manual.aturnos.com/knowledgebase/a-configuracion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/a-configuracion/"
+    - https://manual.aturnos.com/knowledgebase/a-configuracion/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre configuración?"
+    - ¿Qué debo saber sobre configuración?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -38,15 +39,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "421c127bd97fbd9959441b80a9c95515fa033348fd8223cb40954f341abb00b4"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/a-configuracion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/a-configuracion/
+  contentHash: 751b651c1463f29b602ae015cce8b75caa5fd8d81c165f60c51161b4b8fca29f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre configuración, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Para un correcto funcionamiento de la importación y la exportación es necesario configurar el comportamiento de la plataforma de aTurnos para obtener los resultados deseados. Dentro de la pestaña de configuración aparecen 3 secciones distintas:
 
 - Formato de exportación: se trata del separador que se insertará en el archivo csv a la hora de exportarlo. Se puede elegir entre cuatro opciones distintas: Coma (,), Punto y coma (;), Tabulador (t) o Tubería (|).

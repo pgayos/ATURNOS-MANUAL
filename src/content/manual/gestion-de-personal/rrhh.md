@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-rrhh"
-title: "Rrhh en aTurnos"
-description: "En el apartado de Recursos Humanos el administrador total podrá obtener todos los datos sobre la imputación de tareas que han realizado todos los empleados, independientemente del equipo en el que se encuentren."
+contentId: gestion-de-personal-rrhh
+title: Rrhh en aTurnos
+description: En el apartado de Recursos Humanos el administrador total podrá obtener todos los datos sobre la imputación de tareas que han realizado todos los empleados, independientemente del equipo en el que se encuentren.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Altas y bajas"
-intent: "Rrhh en aTurnos"
+module: Gestión de personal
+submodule: Altas y bajas
+intent: Rrhh en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "rrhh"
-    label: "Rrhh"
+  - id: rrhh
+    label: Rrhh
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-rrhh/"
+    - https://manual.aturnos.com/knowledgebase/3-rrhh/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-rrhh/"
+    - https://manual.aturnos.com/knowledgebase/3-rrhh/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre rrhh en aTurnos?"
+    - ¿Qué debo saber sobre rrhh en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6499178374a66cbf38d971434c45f699d5ff862ee0988105a5e16a988c44f833"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-rrhh/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-rrhh/
+  contentHash: c85458d44076d8a20f8b142b056dc06c398c7f214b7428f90852e5682d2bee90
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En el apartado de Recursos Humanos el administrador total podrá obtener todos los datos sobre la imputación de tareas que han realizado todos los empleados, independientemente del equipo en el que se encuentren.
 
-## Contenido
-
+## Qué debes saber
 El apartado de RRHH se divide en 2 secciones:
 
 1. Estadísticas, se podrá obtener la información de los trabajadores y sus imputaciones. Para ello, deberá indicar sobre qué quiere obtener información (horas de tareas o balance de tareas), el periodo de tiempo y el equipo.

@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-uso-de-calculadora-de-patrones-de-turnos-para-administradores"
-title: "Uso de calculadora de patrones de turnos para administradores"
-description: "Información sobre uso de calculadora de patrones de turnos para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-uso-de-calculadora-de-patrones-de-turnos-para-administradores
+title: Uso de calculadora de patrones de turnos para administradores
+description: La Calculadora de Patrones de Turnos de aTurnos es una herramienta diseñada para simplificar la creación de patrones de turnos personalizados.
 contentType: concept
-module: "Planificación"
-submodule: "Turnos y cuadrantes"
-intent: "Uso de calculadora de patrones de turnos"
+module: Planificación
+submodule: Turnos y cuadrantes
+intent: Uso de calculadora de patrones de turnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-02-17
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-de-calculadora-de-patrones-de-turnos-2/"
+    - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-de-calculadora-de-patrones-de-turnos-2/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre uso de calculadora de patrones de turnos para administradores?"
+    - ¿Qué debo saber sobre uso de calculadora de patrones de turnos para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-de-calculadora-de-patrones-de-turnos-2/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-de-calculadora-de-patrones-de-turnos-2/
+  contentHash: c45c8d49ad3f1e1a73db3bb9ffb40df2c597f68b0fdbdce85ca5ac1911849d4d
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

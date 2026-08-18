@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-d-barra-superior"
-title: "Barra superior"
-description: "Aprende a barra superior, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-d-barra-superior
+title: Barra superior
+description: En este apartado, te mostrará cómo puedes visualizar los datos de los diferentes trabajadores de tu equipo.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Barra superior"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Barra superior
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "barra"
-    label: "Barra"
-  - id: "superior"
-    label: "Superior"
+  - id: barra
+    label: Barra
+  - id: superior
+    label: Superior
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/d-barra-superior/"
+    - https://manual.aturnos.com/knowledgebase/d-barra-superior/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/d-barra-superior/"
+    - https://manual.aturnos.com/knowledgebase/d-barra-superior/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo barra superior?"
+    - ¿Cómo puedo barra superior?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 8
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "501acd4842f5330ef83ebd558606f602b40ee7838b95d8f6e6addea821c59747"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/d-barra-superior/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/d-barra-superior/
+  contentHash: 0e7e7e944f08f9e7f1c826c203880d21746024484e32ec886f9d1157277f78e9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a barra superior, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 En este apartado, te mostrará cómo puedes visualizar los datos de los diferentes trabajadores de tu equipo. En la esquina superior derecha del listado de trabajadores, tienes diferentes funcionalidades y a través del cual, te mostrará diferentes formas de buscar y acceder a los datos de los trabajadores. Se compone de los siguientes campos a modo de barra horizontal, que puede estar presente o guardada, según preferencias del usuario:
 
 Se trata de la fecha exacta en la que quieres visualizar el listado de trabajadores. Para indicarla, tienes que hacer clic y seleccionar el día del mes en el año correspondiente en el cual pretendes que te muestre la información. Para ello, una vez haces dicho clic, se abre un sencillo calendario donde puedes elegir el día en concreto del mes en el año de referencia en el que quieres visualizar la información pertinente.

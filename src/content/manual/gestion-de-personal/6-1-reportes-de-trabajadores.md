@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-6-1-reportes-de-trabajadores"
-title: "Reportes de trabajadores"
+contentId: gestion-de-personal-6-1-reportes-de-trabajadores
+title: Reportes de trabajadores
 description: "Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas."
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Reportes de trabajadores"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Reportes de trabajadores
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "reportes"
-    label: "Reportes"
-  - id: "trabajadores"
-    label: "Trabajadores"
+  - id: reportes
+    label: Reportes
+  - id: trabajadores
+    label: Trabajadores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-1-reportes-por-trabajadores/"
+    - https://manual.aturnos.com/knowledgebase/6-1-reportes-por-trabajadores/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-1-reportes-por-trabajadores/"
+    - https://manual.aturnos.com/knowledgebase/6-1-reportes-por-trabajadores/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo reportes de trabajadores?"
+    - ¿Cómo puedo reportes de trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 9
+readingTime: 14
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "7279030f02758c67fa5e2b52239bf00248a22cbaae33529f678ecf951c13d903"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-1-reportes-por-trabajadores/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-1-reportes-por-trabajadores/
+  contentHash: 0f21e55c453e6be4cb098d055e46c87722cd016c575f67f713997dc07daf2006
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -164,3 +171,7 @@ Variable Calidad del fichaje
 - Descanso automático anulado por empleado: Igual que la variable anterior, ésta solo se contabiliza si la configuración de descansos del control de presencia implica que al no ficharse éstos, son descontados automáticamente. Si un trabajador anula esta resta automática, el descanso se computa como tiempo de trabajo, y se contabiliza en esta variable como descanso automático anulado.
 - Fichaje solicitado de la deducción automático: Siguiendo el hilo del caso anterior, si el trabajador no anula el descanso, sino que solicita los fichajes del descanso para que éste sea contabilizado correctamente, entonces se contabiliza en esta variable como fichajes solicitados en base a la deducción automática del descanso. Con esto se pueden saber los casos que se han fichado los descansos después de la deducción automática de éstos.
 - Total de warnings: Total de alertas activas en el periodo seleccionado. Una alerta por ejemplo puede ser: Fichaje coincide con vacaciones.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

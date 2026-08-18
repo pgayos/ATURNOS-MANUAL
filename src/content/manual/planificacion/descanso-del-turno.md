@@ -1,36 +1,37 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-descanso-del-turno"
-title: "Descanso del turno"
-description: "Información sobre descanso del turno, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-descanso-del-turno
+title: Descanso del turno
+description: No todos los turnos tienen descanso, depende de la configuración de los turnos (Crear tipos de turnos).
 contentType: reference
-module: "Planificación"
-submodule: "Turnos y patrones"
-intent: "Descanso del turno"
+module: Planificación
+submodule: Turnos y patrones
+intent: Descanso del turno
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "descanso"
-    label: "Descanso"
-  - id: "turno"
-    label: "Turno"
+  - id: descanso
+    label: Descanso
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/descanso/"
+    - https://manual.aturnos.com/knowledgebase/descanso/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/descanso/"
+    - https://manual.aturnos.com/knowledgebase/descanso/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre descanso del turno?"
+    - ¿Qué debo saber sobre descanso del turno?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -38,15 +39,20 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "0da357d8e7f3d6708de9296a62ba3a66da5e8a2b4c2d671dc9e91ebadda9ae09"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/descanso/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/descanso/
+  contentHash: 1b2689d890d86aa5766f26bd73d0ed40cfd833ebef59edc32250d359843a4a5d
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
 Información sobre descanso del turno, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Tiempo de descanso del turno planificado.
 
 No todos los turnos tienen descanso, depende de la configuración de los turnos (Crear tipos de turnos).
@@ -54,3 +60,7 @@ No todos los turnos tienen descanso, depende de la configuración de los turnos 
 ## Revisión requerida
 
 La fuente pública de **Descanso del turno** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

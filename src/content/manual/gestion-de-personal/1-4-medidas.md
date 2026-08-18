@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-4-medidas"
-title: "Medidas en aTurnos"
-description: "Información sobre medidas en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-1-4-medidas
+title: Medidas en aTurnos
+description: "Las medidas de personal de Gestión de Personal sirven para registrar en el sistema un tratamiento realizado a un empleado: una nueva contratación, un cambio de contrato, una baja, un despido."
 contentType: reference
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Medidas en aTurnos"
+module: Gestión de personal
+submodule: Contratos
+intent: Medidas en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "medidas"
-    label: "Medidas"
+  - id: medidas
+    label: Medidas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-4-medidas/"
+    - https://manual.aturnos.com/knowledgebase/1-4-medidas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-4-medidas/"
+    - https://manual.aturnos.com/knowledgebase/1-4-medidas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre medidas en aTurnos?"
+    - ¿Qué debo saber sobre medidas en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d5562c05b76df8d31e60988a879b5f2b6be878a4ee52bf0befcb00c1caa267cf"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-4-medidas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-4-medidas/
+  contentHash: 20c4fd72a843d9b1682a8f916ad2312e646392617cf7074dda7768c08b777905
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre medidas en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Las medidas de personal de Gestión de Personal sirven para registrar en el sistema un tratamiento realizado a un empleado: una nueva contratación, un cambio de contrato, una baja, un despido, etc. Estas medidas pueden tener un impacto en los ajustes de las horas del contrato. Por ejemplo, si es una baja el balance de horas se ajusta y se pasa como abono de nómina. Para ello tenemos diferentes opciones que afectan a las horas y vacaciones según el tipo de medida.
 
 Además, estos tipos de medidas puedan afectar tanto en las altas como en las bajas.

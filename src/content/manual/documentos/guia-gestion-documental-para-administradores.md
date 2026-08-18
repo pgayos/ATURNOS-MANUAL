@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "documentos-guia-gestion-documental-para-administradores"
-title: "Gestión documental para administradores"
-description: "Aprende a gestión documental para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: documentos-guia-gestion-documental-para-administradores
+title: Gestión documental para administradores
+description: Para poder acceder a la gestión documental de aTurnos, es necesario que contrates la suscripción de aTurnos Enterprise.
 contentType: procedure
-module: "Documentos"
-submodule: "Gestión documental"
-intent: "Gestión documental"
+module: Documentos
+submodule: Gestión documental
+intent: Gestión documental
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-02-17
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/gestion-documental/"
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/gestion-documental/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo gestión documental para administradores?"
+    - ¿Cómo puedo gestión documental para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/gestion-documental/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/gestion-documental/
+  contentHash: 85e7e0b435889b1ed04ca259a111273ec9e8c687559cb97dfe6bd3c1b459ce2d
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -76,3 +87,7 @@ Para poder acceder a la gestión documental de aTurnos, es necesario que contrat
 - Eliminar documentos obsoletos.
 - Editar información asociada a los documentos.
 - Filtrar por tipo, fecha o usuario para encontrar fácilmente lo que necesitas.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

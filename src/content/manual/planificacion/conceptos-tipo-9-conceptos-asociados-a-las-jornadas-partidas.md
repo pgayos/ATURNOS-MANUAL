@@ -1,43 +1,44 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas"
+contentId: planificacion-conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas
 title: "Conceptos tipo 9: Conceptos asociados a las jornadas partidas"
-description: "Contabilizan el número de jornadas partidas que estén definidas expresamente como tales, en PLANIFICADOR → TIPOS DE TURNO → Pestaña Jornadas Partidas."
+description: Contabilizan el número de jornadas partidas que estén definidas expresamente como tales, en PLANIFICADOR → TIPOS DE TURNO → Pestaña Jornadas Partidas.
 contentType: concept
-module: "Planificación"
-submodule: "Altas y bajas"
+module: Planificación
+submodule: Altas y bajas
 intent: "Conceptos tipo 9: Conceptos asociados a las jornadas partidas"
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "asociados"
-    label: "Asociados"
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "jornadas"
-    label: "Jornadas"
-  - id: "partidas"
-    label: "Partidas"
-  - id: "tipo"
-    label: "Tipo"
+  - id: asociados
+    label: Asociados
+  - id: conceptos
+    label: Conceptos
+  - id: jornadas
+    label: Jornadas
+  - id: partidas
+    label: Partidas
+  - id: tipo
+    label: Tipo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/
 ai:
   answerableQuestions:
     - "¿Qué debo saber sobre conceptos tipo 9: Conceptos asociados a las jornadas partidas?"
@@ -48,15 +49,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "5400a91784c1f9566dc759294a3e19250d98ab9465621105af1aabb031ab1b4c"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/
+  contentHash: 7d0074f1ba28ae28385b016b72620e6ef8c6dcc9728a9a5df9a83d7ebd7ae6fd
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Contabilizan el número de jornadas partidas que estén definidas expresamente como tales, en PLANIFICADOR → TIPOS DE TURNO → Pestaña Jornadas Partidas.
 
-## Contenido
-
+## Qué debes saber
 En aTurnos, las jornadas partidas se configuran con dos turnos, es decir, una jornada de 09:00 a 18:00 con 1 hora para comer a mediodía, en aTurnos se precisa un turno de mañana de 09:00 a 14:00 y un turno de tarde de 15:00 a 16:00, que se pueden asociar como jornada partida.
 
 En este equipo de ejemplo existe dos jornadas partidas creadas

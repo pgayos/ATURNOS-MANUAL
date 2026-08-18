@@ -1,62 +1,67 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-d-ver-periodos-y-eliminar-trabajador"
-title: "Ver periodos y eliminar trabajador"
-description: "Información sobre ver periodos y eliminar trabajador, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-d-ver-periodos-y-eliminar-trabajador
+title: Ver periodos y eliminar trabajador
+description: En esta función tendremos la opción de visualizar todos los periodos de contratación de un trabajador en un mismo equipo o en diferentes equipos.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Ver periodos y eliminar trabajador"
+module: Gestión de personal
+submodule: Contratos
+intent: Ver periodos y eliminar trabajador
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "eliminar"
-    label: "Eliminar"
-  - id: "periodos"
-    label: "Periodos"
-  - id: "trabajador"
-    label: "Trabajador"
-  - id: "ver"
-    label: "Ver"
+  - id: eliminar
+    label: Eliminar
+  - id: periodos
+    label: Periodos
+  - id: trabajador
+    label: Trabajador
+  - id: ver
+    label: Ver
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-4-ver-periodos-y-eliminar-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/1-4-ver-periodos-y-eliminar-trabajador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-4-ver-periodos-y-eliminar-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/1-4-ver-periodos-y-eliminar-trabajador/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre ver periodos y eliminar trabajador?"
+    - ¿Qué debo saber sobre ver periodos y eliminar trabajador?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3a75829edbef6dd1cd9f8a9f26d5ba3cfab29728056a035e649ea747a6ef29d9"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-4-ver-periodos-y-eliminar-trabajador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-4-ver-periodos-y-eliminar-trabajador/
+  contentHash: 0d26a182bea28419e49d302dfe5dbf3b1483b7e03c83626db29a4734860902e2
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre ver periodos y eliminar trabajador, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En esta función tendremos la opción de visualizar todos los periodos de contratación de un trabajador en un mismo equipo o en diferentes equipos. Se muestran tanto los periodos pasados, como el actual y en caso de estar informados, los futuros.
 
 Llamamos periodos a cada intervalo de tiempo que tenga una fecha de alta, la cual puede tener una fecha de baja (contrato temporal con fecha fin de contrato) o no tener una fecha fin (contrato indefinido).

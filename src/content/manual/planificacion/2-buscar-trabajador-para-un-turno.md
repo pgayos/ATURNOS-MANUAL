@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-buscar-trabajador-para-un-turno"
-title: "Buscar trabajador para un turno"
-description: "El administrador, como consecuencia de la planificación del cuadrante, puede ‘Buscar trabajador para turno’ para cubrir un turno con un trabajador más."
+contentId: planificacion-2-buscar-trabajador-para-un-turno
+title: Buscar trabajador para un turno
+description: El administrador, como consecuencia de la planificación del cuadrante, puede ‘Buscar trabajador para turno’ para cubrir un turno con un trabajador más.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Buscar trabajador para un turno"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Buscar trabajador para un turno
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "buscar"
-    label: "Buscar"
-  - id: "trabajador"
-    label: "Trabajador"
-  - id: "turno"
-    label: "Turno"
+  - id: buscar
+    label: Buscar
+  - id: trabajador
+    label: Trabajador
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-buscar-trabajador-para-un-turno/"
+    - https://manual.aturnos.com/knowledgebase/2-buscar-trabajador-para-un-turno/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-buscar-trabajador-para-un-turno/"
+    - https://manual.aturnos.com/knowledgebase/2-buscar-trabajador-para-un-turno/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre buscar trabajador para un turno?"
+    - ¿Qué debo saber sobre buscar trabajador para un turno?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "4a887d480e106b2bd04f7d7e5b094b000f8aa45a561b9744b6c0f5107639b869"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-buscar-trabajador-para-un-turno/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-buscar-trabajador-para-un-turno/
+  contentHash: 707bf1669eb2bf2dd8d9ea234f6f7df9119905ed1386d02eedf14269adea2439
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El administrador, como consecuencia de la planificación del cuadrante, puede ‘Buscar trabajador para turno’ para cubrir un turno con un trabajador más.
 
-## Contenido
-
+## Qué debes saber
 Se inserta y planifica un turno a un trabajador o varios que estén disponibles (es decir, que no tengan un turno insertado con anterioridad) y que no incumpla ninguna restricción.
 
 Los administradores pueden buscar a un trabajador para cualquier turno con una localización determinada. El filtro también permite buscar trabajadores de una localización, una categoría o especialidad, en concreto.

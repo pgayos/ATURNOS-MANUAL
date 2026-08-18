@@ -1,44 +1,45 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-6-limites-inferiores-de-horas-de-los-empleados"
-title: "Límites inferiores de horas de los empleados"
-description: "Esta restricción establece una duración mínima que debe tener un tipo de hora si se quiere solicitar o planificar."
+contentId: gestion-de-personal-6-limites-inferiores-de-horas-de-los-empleados
+title: Límites inferiores de horas de los empleados
+description: Esta restricción establece una duración mínima que debe tener un tipo de hora si se quiere solicitar o planificar.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Límites inferiores de horas de los empleados"
+module: Gestión de personal
+submodule: Contratos
+intent: Límites inferiores de horas de los empleados
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "empleados"
-    label: "Empleados"
-  - id: "horas"
-    label: "Horas"
-  - id: "inferiores"
-    label: "Inferiores"
-  - id: "limites"
-    label: "Limites"
+  - id: empleados
+    label: Empleados
+  - id: horas
+    label: Horas
+  - id: inferiores
+    label: Inferiores
+  - id: limites
+    label: Limites
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-limites-inferiores-de-horas-de-los-empleados/"
+    - https://manual.aturnos.com/knowledgebase/6-limites-inferiores-de-horas-de-los-empleados/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-limites-inferiores-de-horas-de-los-empleados/"
+    - https://manual.aturnos.com/knowledgebase/6-limites-inferiores-de-horas-de-los-empleados/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre límites inferiores de horas de los empleados?"
+    - ¿Qué debo saber sobre límites inferiores de horas de los empleados?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -46,15 +47,19 @@ readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8248ee0ad1cebfe3d4b0bd0c10f9b0d315037dd6475cb4187ffdb565453554d1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-limites-inferiores-de-horas-de-los-empleados/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-limites-inferiores-de-horas-de-los-empleados/
+  contentHash: f527d9d80442b9ba7ce2dd402bcdcdc60c7bcf9e27539912ed574b6f5da3aecc
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Esta restricción establece una duración mínima que debe tener un tipo de hora si se quiere solicitar o planificar.
 
-## Contenido
-
+## Opciones y datos disponibles
 ⚙️ Configuración: Además de la configuración básica, tiene dos campos adicionales.
 
 - Valor de la restricción: Indica la duración mínima que debe tener el tipo de hora. Tipo de hora: Indica el tipo de hora al que aplica la restricción.

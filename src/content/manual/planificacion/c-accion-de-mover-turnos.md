@@ -1,49 +1,55 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-c-accion-de-mover-turnos"
-title: "Acción de mover turnos"
-description: "Aprende a acción de mover turnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-c-accion-de-mover-turnos
+title: Acción de mover turnos
+description: La particularidad de esta opción es que los turnos que tenga planificado el trabajador a sustituir en las fechas seleccionadas, se le pasan al trabajador sustituto quedándose el trabajador a.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Acción de mover turnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Acción de mover turnos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "accion"
-    label: "Accion"
-  - id: "mover"
-    label: "Mover"
-  - id: "turnos"
-    label: "Turnos"
+  - id: accion
+    label: Accion
+  - id: mover
+    label: Mover
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/c-accion-de-mover-turnos/"
+    - https://manual.aturnos.com/knowledgebase/c-accion-de-mover-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/c-accion-de-mover-turnos/"
+    - https://manual.aturnos.com/knowledgebase/c-accion-de-mover-turnos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo acción de mover turnos?"
+    - ¿Cómo puedo acción de mover turnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "96ec63ba473f5f83be4c6caebdb81bc5c70a947cbdc9786151cc1f9e0d81095c"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/c-accion-de-mover-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/c-accion-de-mover-turnos/
+  contentHash: 1efcb73dbb585178d6a1557602ddcd756692706f28f26b799810aa26f77e6e49
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

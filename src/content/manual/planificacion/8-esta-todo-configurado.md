@@ -1,42 +1,43 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-8-esta-todo-configurado"
-title: "¿Está todo configurado?"
-description: "Si ha seguido todos los pasos, ya puede solicitar citas a través del Kiosko, apareciendo las colas (funciones o tareas a las que solicitar), y ha precisado de:."
+contentId: planificacion-8-esta-todo-configurado
+title: ¿Está todo configurado?
+description: Si ha seguido todos los pasos, ya puede solicitar citas a través del Kiosko, apareciendo las colas (funciones o tareas a las que solicitar), y ha precisado de:.
 contentType: faq
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "¿Está todo configurado?"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: ¿Está todo configurado?
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "configurado"
-    label: "Configurado"
-  - id: "esta"
-    label: "Esta"
-  - id: "todo"
-    label: "Todo"
+  - id: configurado
+    label: Configurado
+  - id: esta
+    label: Esta
+  - id: todo
+    label: Todo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-esta-todo-configurado/"
+    - https://manual.aturnos.com/knowledgebase/8-esta-todo-configurado/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-esta-todo-configurado/"
+    - https://manual.aturnos.com/knowledgebase/8-esta-todo-configurado/
 ai:
   answerableQuestions:
-    - "¿Está todo configurado?"
+    - ¿Está todo configurado?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -44,15 +45,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c8da085bfc3ea7251585cef05392efc4d559096391b4ac0450e1b976a1b95aac"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-esta-todo-configurado/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-esta-todo-configurado/
+  contentHash: ba8a40351d6731fdd876f6ffdb4cc02d59308681fbe8a9b27ff1042ff58d059e
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Si ha seguido todos los pasos, ya puede solicitar citas a través del Kiosko, apareciendo las colas (funciones o tareas a las que solicitar), y ha precisado de:.
 
-## Contenido
-
+## Respuesta
 1.Crear una especialidad. (Administrar → Perfil del trabajador → Especialidades).
 
 2.Configurar una cola. (Tareas → Procesos → Colas).

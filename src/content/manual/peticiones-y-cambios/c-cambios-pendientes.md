@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-c-cambios-pendientes"
-title: "Cambios pendientes"
-description: "Información sobre cambios pendientes, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-c-cambios-pendientes
+title: Cambios pendientes
+description: En Administrar → Ajustes → Cambios se pueden definir la configuración de los cambios de turno entre trabajadores.
 contentType: reference
-module: "Peticiones y cambios"
-submodule: "General"
-intent: "Cambios pendientes"
+module: Peticiones y cambios
+submodule: General
+intent: Cambios pendientes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cambios"
-    label: "Cambios"
-  - id: "pendientes"
-    label: "Pendientes"
+  - id: cambios
+    label: Cambios
+  - id: pendientes
+    label: Pendientes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-5-4-cambios-pendientes/"
+    - https://manual.aturnos.com/knowledgebase/2-5-4-cambios-pendientes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-5-4-cambios-pendientes/"
+    - https://manual.aturnos.com/knowledgebase/2-5-4-cambios-pendientes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cambios pendientes?"
+    - ¿Qué debo saber sobre cambios pendientes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "301f8533f5c726c79d456e55b101c9b9e1f13df5cbd4fc81cac871896e41e762"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-5-4-cambios-pendientes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-5-4-cambios-pendientes/
+  contentHash: a60ebe8e3611e8212f55576e4368cb59da9f90a426a6aced3b0fdbb620dc2f3b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre cambios pendientes, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 En Administrar → Ajustes → Cambios se pueden definir la configuración de los cambios de turno entre trabajadores. Si se escoge que el Administrador tiene que aceptar las peticiones de cambios de turno entre compañeros, el administrador desde el menú peticiones y cambios → Pendientes → Cambios pendientes puede acceder a todos los cambios de turnos pendientes que tienen que pasar por su gestión:
 
 - Solicitado por: persona que realiza el cambio y da comienzo al proceso del cambio de turno. Por lo general es un trabajador, pero también puede ser habitual que el proceso del cambio lo inicie el propio administrador del equipo.

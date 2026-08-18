@@ -1,62 +1,67 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-a-editar-mover-trabajadores-del-equipo"
-title: "Editar/Mover trabajadores del equipo"
+contentId: gestion-de-personal-a-editar-mover-trabajadores-del-equipo
+title: Editar/Mover trabajadores del equipo
 description: "Desde el icono del “lapicero” se podrán hacer dos acciones: editar alguna información básica del trabajador en el equipo actual o mover al trabajador a otro equipo (le llamaremos equipo de destino)."
 contentType: concept
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Editar/Mover trabajadores del equipo"
+module: Gestión de personal
+submodule: Contratos
+intent: Editar/Mover trabajadores del equipo
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "editar"
-    label: "Editar"
-  - id: "equipo"
-    label: "Equipo"
-  - id: "mover"
-    label: "Mover"
-  - id: "trabajadores"
-    label: "Trabajadores"
+  - id: editar
+    label: Editar
+  - id: equipo
+    label: Equipo
+  - id: mover
+    label: Mover
+  - id: trabajadores
+    label: Trabajadores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-1-mover-o-anadir-el-trabajador-a-otro-equipo/"
+    - https://manual.aturnos.com/knowledgebase/1-1-mover-o-anadir-el-trabajador-a-otro-equipo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-1-mover-o-anadir-el-trabajador-a-otro-equipo/"
+    - https://manual.aturnos.com/knowledgebase/1-1-mover-o-anadir-el-trabajador-a-otro-equipo/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre editar/Mover trabajadores del equipo?"
+    - ¿Qué debo saber sobre editar/Mover trabajadores del equipo?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "975f370724a199a8ba9b3e656a4f8a25928ab663234f015e4c38b5c519a8bbac"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-1-mover-o-anadir-el-trabajador-a-otro-equipo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-1-mover-o-anadir-el-trabajador-a-otro-equipo/
+  contentHash: 00636bbd283e2af290358ea23e9a808e97c7c2786695211bb84b025c8827c6cc
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Desde el icono del “lapicero” se podrán hacer dos acciones: editar alguna información básica del trabajador en el equipo actual o mover al trabajador a otro equipo (le llamaremos equipo de destino).
 
-## Contenido
-
+## Qué debes saber
 Al hacer clic en el lapicero, el formulario nos mostrará el estado actual en el aTurno (equipo) del trabajador.
 
 Esta información es editable en los siguientes campos:

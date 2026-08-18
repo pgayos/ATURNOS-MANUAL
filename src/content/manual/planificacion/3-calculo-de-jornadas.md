@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-3-calculo-de-jornadas"
-title: "Cálculo de jornadas"
-description: "Las jornadas se utilizan para identificar si un trabajador ha realizado una unidad completa de trabajo en un día, realizando un mínimo y un máximo de horas, según la configuración."
+contentId: planificacion-3-calculo-de-jornadas
+title: Cálculo de jornadas
+description: Las jornadas se utilizan para identificar si un trabajador ha realizado una unidad completa de trabajo en un día, realizando un mínimo y un máximo de horas, según la configuración.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Cálculo de jornadas"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Cálculo de jornadas
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "calculo"
-    label: "Calculo"
-  - id: "jornadas"
-    label: "Jornadas"
+  - id: calculo
+    label: Calculo
+  - id: jornadas
+    label: Jornadas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-calculo-de-jornadas/"
+    - https://manual.aturnos.com/knowledgebase/3-calculo-de-jornadas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-calculo-de-jornadas/"
+    - https://manual.aturnos.com/knowledgebase/3-calculo-de-jornadas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cálculo de jornadas?"
+    - ¿Qué debo saber sobre cálculo de jornadas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "a14141d590bda28806209dc2126def90085c36327b0f4b4291753f50156f6af9"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-calculo-de-jornadas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-calculo-de-jornadas/
+  contentHash: 17b368e82bd7db55c278022e8ab9fe55642d3759d9613d8f87e74560d3131e27
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Las jornadas se utilizan para identificar si un trabajador ha realizado una unidad completa de trabajo en un día, realizando un mínimo y un máximo de horas, según la configuración.
 
-## Contenido
-
+## Opciones y datos disponibles
 En este punto se define por ejemplo como puede afectar a nóminas:
 
 - Si se paga una unidad de trabajo al realizar al menos 3 horas.

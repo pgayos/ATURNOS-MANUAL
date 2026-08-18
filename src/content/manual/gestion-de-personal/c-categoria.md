@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-c-categoria"
-title: "Categoría"
-description: "Información sobre categoría, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-c-categoria
+title: Categoría
+description: La categoría de un trabajador lo clasifica según el puesto de trabajo y las funciones que tiene que desempeñar.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Categoría"
+module: Gestión de personal
+submodule: Contratos
+intent: Categoría
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "categoria"
-    label: "Categoria"
+  - id: categoria
+    label: Categoria
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/c-categoria/"
+    - https://manual.aturnos.com/knowledgebase/c-categoria/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/c-categoria/"
+    - https://manual.aturnos.com/knowledgebase/c-categoria/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre categoría?"
+    - ¿Qué debo saber sobre categoría?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "9e14e7ea44f738167c0e0ddc3f3ae0966ba209fadbb05cd28221a479a3d744b4"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/c-categoria/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/c-categoria/
+  contentHash: 4c46d8c075694cd500c2ac61458dae8b24e3d8b0d42e13b24bf6f9fe34d50ca3
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -78,3 +85,7 @@ Se tiene que configurar:
 ### Borrar categoría
 
 Para eliminar una categoría creada, se puede hacer desde el botón de acción.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

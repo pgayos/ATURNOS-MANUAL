@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-conceptos-tipo-10-conceptos-asociados-al-control-de-presencia"
+contentId: control-horario-conceptos-tipo-10-conceptos-asociados-al-control-de-presencia
 title: "Conceptos tipo 10: Conceptos asociados al control de presencia"
 description: "El módulo de Control de Presencia activa el concepto de cálculo: Control de Presencia (Nocturnidad) que recupera el número de horas con marcajes en el periodo Nocturno."
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
+module: Control horario
+submodule: Fichajes
 intent: "Conceptos tipo 10: Conceptos asociados al control de presencia"
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "asociados"
-    label: "Asociados"
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "control"
-    label: "Control"
-  - id: "presencia"
-    label: "Presencia"
-  - id: "tipo"
-    label: "Tipo"
+  - id: asociados
+    label: Asociados
+  - id: conceptos
+    label: Conceptos
+  - id: control
+    label: Control
+  - id: presencia
+    label: Presencia
+  - id: tipo
+    label: Tipo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/
 ai:
   answerableQuestions:
     - "¿Qué debo saber sobre conceptos tipo 10: Conceptos asociados al control de presencia?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6b0fc7617d8c3feee205c1e03edb8adbd7c61f8961b3c98991c534852e98be1b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/
+  contentHash: 744e79565d7815520c57ec1e21608f3194095db859ff070b03f678bdf010f10e
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El módulo de Control de Presencia activa el concepto de cálculo: Control de Presencia (Nocturnidad) que recupera el número de horas con marcajes en el periodo Nocturno.
 
-## Contenido
-
+## Qué debes saber
 ADMINISTRAR → NOMINAS → CONCEPTOS DE CALCULO
 
 ADMINISTRAR → CONCEPTOS DE NOMINA

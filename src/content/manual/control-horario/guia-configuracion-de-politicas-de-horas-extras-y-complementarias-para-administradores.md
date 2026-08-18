@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-guia-configuracion-de-politicas-de-horas-extras-y-complementarias-para-administradores"
-title: "Configuración de políticas de horas extras y complementarias para administradores"
-description: "Información sobre configuración de políticas de horas extras y complementarias para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-guia-configuracion-de-politicas-de-horas-extras-y-complementarias-para-administradores
+title: Configuración de políticas de horas extras y complementarias para administradores
+description: En aTurnos, la gestión de horas extras y complementarias se realiza de forma sencilla y controlada, gracias a la configuración de límites y restricciones automáticas.
 contentType: reference
-module: "Control horario"
-submodule: "Horas trabajadas"
-intent: "Configuración de políticas de horas extras y complementarias."
+module: Control horario
+submodule: Horas trabajadas
+intent: Configuración de políticas de horas extras y complementarias.
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/configuracion-de-politicas-de-horas-extras-y-complementarias/"
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/configuracion-de-politicas-de-horas-extras-y-complementarias/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre configuración de políticas de horas extras y complementarias para administradores?"
+    - ¿Qué debo saber sobre configuración de políticas de horas extras y complementarias para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/configuracion-de-politicas-de-horas-extras-y-complementarias/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/configuracion-de-politicas-de-horas-extras-y-complementarias/
+  contentHash: 73247c9c0f6d13cffe575afe865ea6a2151be1c082a3e2d857208eba4cd5a7d0
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

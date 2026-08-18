@@ -1,49 +1,55 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-peticiones-de-fichajes"
-title: "Peticiones de fichajes"
-description: "Información sobre peticiones de fichajes, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-peticiones-de-fichajes
+title: Peticiones de fichajes
+description: Si por error u olvido no se han registrado los fichajes de entrada o salida en el control de presencia, tienes la opción de solicitar a los administradores del equipo la petición de cerrar e.
 contentType: troubleshooting
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Peticiones de fichajes"
+module: Control horario
+submodule: Fichajes
+intent: Peticiones de fichajes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "peticiones"
-    label: "Peticiones"
+  - id: fichajes
+    label: Fichajes
+  - id: peticiones
+    label: Peticiones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-peticiones-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/5-peticiones-de-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-peticiones-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/5-peticiones-de-fichajes/
 ai:
   answerableQuestions:
     - "¿Cómo resuelvo el problema: Peticiones de fichajes?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "9e13f73e82aca37474b1efb74914fa3cdf1df63caa5be51222518cd443faeebc"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-peticiones-de-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-peticiones-de-fichajes/
+  contentHash: 761e38ba6eaa9365f054cea3e6ba892f9e80307a78cb144e92bd4b3e11fb0d63
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

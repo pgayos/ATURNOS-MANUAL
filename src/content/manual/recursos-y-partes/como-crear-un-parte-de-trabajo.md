@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-como-crear-un-parte-de-trabajo"
-title: "¿Cómo crear un parte de trabajo?"
-description: "El primer paso que tiene que realizar un administrador es crear los recursos que forman parte del parte de trabajo."
+contentId: recursos-y-partes-como-crear-un-parte-de-trabajo
+title: ¿Cómo crear un parte de trabajo?
+description: El primer paso que tiene que realizar un administrador es crear los recursos que forman parte del parte de trabajo.
 contentType: faq
-module: "Recursos y partes"
-submodule: "Usuarios y perfiles"
-intent: "¿Cómo crear un parte de trabajo?"
+module: Recursos y partes
+submodule: Usuarios y perfiles
+intent: ¿Cómo crear un parte de trabajo?
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "crear"
-    label: "Crear"
-  - id: "parte"
-    label: "Parte"
-  - id: "trabajo"
-    label: "Trabajo"
+  - id: crear
+    label: Crear
+  - id: parte
+    label: Parte
+  - id: trabajo
+    label: Trabajo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/como-personalizar-el-parte-hoja-de-trabajo/"
+    - https://manual.aturnos.com/knowledgebase/como-personalizar-el-parte-hoja-de-trabajo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/como-personalizar-el-parte-hoja-de-trabajo/"
+    - https://manual.aturnos.com/knowledgebase/como-personalizar-el-parte-hoja-de-trabajo/
 ai:
   answerableQuestions:
-    - "¿Cómo crear un parte de trabajo?"
+    - ¿Cómo crear un parte de trabajo?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c5a59f0b449cbb563f2dfc030c79527fe89ac1c01b72cd4eabf24ce670bea504"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/como-personalizar-el-parte-hoja-de-trabajo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/como-personalizar-el-parte-hoja-de-trabajo/
+  contentHash: 9ae5c6cbbcc9505a74a329f36be84d967930ef715560b1d51f1d5d7f98d45ec9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El primer paso que tiene que realizar un administrador es crear los recursos que forman parte del parte de trabajo.
 
-## Contenido
-
+## Respuesta
 Los Recursos se crean través del menú RECURSOS → RECURSOS, clicando el botón “Acciones” y “Añadir Recursos”.
 
 Los datos que se precisan para crear un recurso son:

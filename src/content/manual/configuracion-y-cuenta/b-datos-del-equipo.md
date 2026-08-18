@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-b-datos-del-equipo"
-title: "Datos del equipo"
-description: "Permite configurar los datos del equipo y cómo se estructura dentro de la empresa. Puedes agregar o modificar las siguientes casillas:."
+contentId: configuracion-y-cuenta-b-datos-del-equipo
+title: Datos del equipo
+description: Permite configurar los datos del equipo y cómo se estructura dentro de la empresa. Puedes agregar o modificar las siguientes casillas:.
 contentType: concept
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Datos del equipo"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Datos del equipo
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "datos"
-    label: "Datos"
-  - id: "equipo"
-    label: "Equipo"
+  - id: datos
+    label: Datos
+  - id: equipo
+    label: Equipo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/b-datos-del-equipo/"
+    - https://manual.aturnos.com/knowledgebase/b-datos-del-equipo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/b-datos-del-equipo/"
+    - https://manual.aturnos.com/knowledgebase/b-datos-del-equipo/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre datos del equipo?"
+    - ¿Qué debo saber sobre datos del equipo?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e1265085e86e9f434f20d02492bf1264bb48e82ff7d4462b3ac51587eb02f19a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/b-datos-del-equipo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/b-datos-del-equipo/
+  contentHash: 91c47bccd689607c518edd3ed82c4af2d3b3da59405baa2db3157bd77f618c6f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Permite configurar los datos del equipo y cómo se estructura dentro de la empresa. Puedes agregar o modificar las siguientes casillas:.
 
-## Contenido
-
+## Qué debes saber
 - Descripción: dispone de texto para añadir más información descriptiva que ayude a diferenciarlo de los otros equipos a los que pertenece un mismo administrador/empresa.
 - Código Postal: es un código que asigna a distintas zonas o lugares de un país. Generalmente es una serie de dígitos, aunque en algunos países incluyen letras. Es muy útil a la hora de realizar la importación de los festivos para recuperarlos automáticamente.
 - ID de externo: código o nomenclatura que se le asigna al equipo por parte de terceros (ej. Algún programa informático de RRHH). En aTurnos existe un código único por cada equipo, de gran ayuda a los procesos de importación/exportación con otros sistemas informáticos. Se puede informar uno por parte del cliente y mantenerlo sincronizados con los maestros de datos que tenga. Por ejemplo, se puede indicar como ID externo de un equipo, el ID de la Unidad Organizativa.

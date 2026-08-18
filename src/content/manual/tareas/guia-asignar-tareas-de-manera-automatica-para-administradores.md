@@ -1,43 +1,52 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-guia-asignar-tareas-de-manera-automatica-para-administradores"
-title: "Asignar tareas de manera automática para administradores"
-description: "Información sobre asignar tareas de manera automática para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: tareas-guia-asignar-tareas-de-manera-automatica-para-administradores
+title: Asignar tareas de manera automática para administradores
+description: La funcionalidad de Asignación Automática de Tareas permite distribuir tareas entre los trabajadores de forma organizada, según criterios previamente configurados.
 contentType: concept
-module: "Tareas"
-submodule: "Gestión de tareas"
-intent: "Asignar tareas de manera automática"
+module: Tareas
+submodule: Gestión de tareas
+intent: Asignar tareas de manera automática
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-06-02
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignar-tareas-de-manera-automatica/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignar-tareas-de-manera-automatica/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre asignar tareas de manera automática para administradores?"
+    - ¿Qué debo saber sobre asignar tareas de manera automática para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignar-tareas-de-manera-automatica/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignar-tareas-de-manera-automatica/
+  contentHash: ae2259c37a6a1893097ccba0ccc968ac3da39be1637024eb6abe6fe7badebe9f
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
 La funcionalidad de Asignación Automática de Tareas permite distribuir tareas entre los trabajadores de forma organizada, según criterios previamente configurados. Este sistema busca optimizar la carga de trabajo teniendo en cuenta especialidades, localización, franjas horarias, y prioridades de las tareas.
 
-## Contenido
-
+## Qué debes saber
 A continuación, se describe paso a paso cómo configurar esta funcionalidad.
 
 El primer paso consiste en definir el periodo de tiempo en el que se encuentran las tareas que se desean asignar. Este intervalo puede ser un día, semana u otro rango configurable.

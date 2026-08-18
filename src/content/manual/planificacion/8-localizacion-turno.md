@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-8-localizacion-turno"
-title: "Localización turno"
-description: "Las localizaciones se pueden emplear para organizar un equipo en diferentes departamentos o localizaciones físicas, por ejemplo, diferentes puntos de venta o trabajadores que realizan la misma tarea."
+contentId: planificacion-8-localizacion-turno
+title: Localización turno
+description: Las localizaciones se pueden emplear para organizar un equipo en diferentes departamentos o localizaciones físicas, por ejemplo, diferentes puntos de venta o trabajadores que realizan la misma tarea.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Localización turno"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Localización turno
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "localizacion"
-    label: "Localizacion"
-  - id: "turno"
-    label: "Turno"
+  - id: localizacion
+    label: Localizacion
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/g-localizacion-turno/"
+    - https://manual.aturnos.com/knowledgebase/g-localizacion-turno/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/g-localizacion-turno/"
+    - https://manual.aturnos.com/knowledgebase/g-localizacion-turno/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo localización turno?"
+    - ¿Cómo puedo localización turno?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e3012a1660e62f0ef64586a1f49c1a452fe34f0249591b2fb13fcdf25c1e2196"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/g-localizacion-turno/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/g-localizacion-turno/
+  contentHash: 4a8d3950279725f756e3c8068eff1f58e0b937d2de215e61e0e86919143da6dc
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Las localizaciones se pueden emplear para organizar un equipo en diferentes departamentos o localizaciones físicas, por ejemplo, diferentes puntos de venta o trabajadores que realizan la misma tarea.
 
-## Contenido
-
+## Procedimiento
 Esta función, cambia ese día seleccionado a ese turno en concreto a una localización que le apliques, por ejemplo, un trabajador que tiene su localización por defecto en la recepción de un hotel, pero en un día/turno determinado se modifica y se cambia a oficinas administración (si lo que deseas es cambiar a ese trabajador de localización por defecto, en el cuadrante del trabajador, haz clic en la columna donde está su nombre/foto y selecciona “localización por defecto”).
 
 La opción de Localización turno se utiliza para insertar una localización en un turno, para ello se debe hacer clic en el turno deseado y en “Localización turno”.

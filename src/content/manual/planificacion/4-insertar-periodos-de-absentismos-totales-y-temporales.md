@@ -1,62 +1,67 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-insertar-periodos-de-absentismos-totales-y-temporales"
-title: "Insertar periodos de absentismos totales y temporales"
-description: "Información sobre insertar periodos de absentismos totales y temporales, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-4-insertar-periodos-de-absentismos-totales-y-temporales
+title: Insertar periodos de absentismos totales y temporales
+description: El administrador puede insertar periodos de absentismos (ver Nuevo periodo de absentismo ) o absentismos temporales a través de un fichero Excel en el cuadrante de aTurnos.
 contentType: concept
-module: "Planificación"
-submodule: "Altas y bajas"
-intent: "Insertar periodos de absentismos totales y temporales"
+module: Planificación
+submodule: Altas y bajas
+intent: Insertar periodos de absentismos totales y temporales
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
-  - id: "insertar"
-    label: "Insertar"
-  - id: "periodos"
-    label: "Periodos"
-  - id: "temporales"
-    label: "Temporales"
-  - id: "totales"
-    label: "Totales"
+  - id: absentismos
+    label: Absentismos
+  - id: insertar
+    label: Insertar
+  - id: periodos
+    label: Periodos
+  - id: temporales
+    label: Temporales
+  - id: totales
+    label: Totales
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-importacion-de-periodos-de-absentismo/"
+    - https://manual.aturnos.com/knowledgebase/4-importacion-de-periodos-de-absentismo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-importacion-de-periodos-de-absentismo/"
+    - https://manual.aturnos.com/knowledgebase/4-importacion-de-periodos-de-absentismo/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre insertar periodos de absentismos totales y temporales?"
+    - ¿Qué debo saber sobre insertar periodos de absentismos totales y temporales?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ef6006038de5112d5f2f70ddf0a12a2bdec6bce711ac82908c1b1812b826205e"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-importacion-de-periodos-de-absentismo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-importacion-de-periodos-de-absentismo/
+  contentHash: d4877842429b8c3b0d13b92bf9d99b8dacef4a933d2132e4557e3b34f787ce6f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre insertar periodos de absentismos totales y temporales, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 El administrador puede insertar periodos de absentismos (ver Nuevo periodo de absentismo ) o absentismos temporales a través de un fichero Excel en el cuadrante de aTurnos. Para poder importar los absentismos puedes completar la plantilla de ejemplo que puedes descargar CSV Importar periodos de absentismos
 
 En caso de querer hacer un fichero propio, te ayudamos a confeccionar un documento Excel en formato CSV con las siguientes columnas:

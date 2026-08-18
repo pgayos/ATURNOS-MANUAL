@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-10-sobre-el-modulo-de-control-horario"
-title: "Sobre el módulo de Control Horario"
-description: "Información sobre sobre el módulo de Control Horario, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-10-sobre-el-modulo-de-control-horario
+title: Sobre el módulo de Control Horario
+description: Esta restricción asegura que los turnos planificados incluyan el tiempo de descanso correspondiente según lo definido en el perfil del trabajador.
 contentType: reference
-module: "Control horario"
-submodule: "Vacaciones y ausencias"
-intent: "Sobre el módulo de Control Horario"
+module: Control horario
+submodule: Vacaciones y ausencias
+intent: Sobre el módulo de Control Horario
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "control"
-    label: "Control"
-  - id: "horario"
-    label: "Horario"
-  - id: "modulo"
-    label: "Modulo"
-  - id: "sobre"
-    label: "Sobre"
+  - id: control
+    label: Control
+  - id: horario
+    label: Horario
+  - id: modulo
+    label: Modulo
+  - id: sobre
+    label: Sobre
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-sobre-el-modulo-de-control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/10-sobre-el-modulo-de-control-de-presencia/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-sobre-el-modulo-de-control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/10-sobre-el-modulo-de-control-de-presencia/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre sobre el módulo de Control Horario?"
+    - ¿Qué debo saber sobre sobre el módulo de Control Horario?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "9b9ad511b5300a8da05dbbae7a79e242341ef7a75d6b13bc3b0c4c5d8ea8e880"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-sobre-el-modulo-de-control-de-presencia/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-sobre-el-modulo-de-control-de-presencia/
+  contentHash: 68ad6507e5a9ec92b63c86456a8dad27d04279ee9fd1f6973c54c0fbb42e2a5f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre sobre el módulo de Control Horario, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Esta restricción asegura que los turnos planificados incluyan el tiempo de descanso correspondiente según lo definido en el perfil del trabajador. Si no se encuentra esta información en el perfil, se aplican los valores configurados por defecto. La restricción verifica que, para aplicar el descanso, se haya planificado un mínimo de horas trabajadas, y también contempla un descanso reducido en caso de no alcanzarse ese mínimo.
 
 ⚙️Configuración: Esta restricción, además de la configuración básica, tiene cuatro campos adicionales.

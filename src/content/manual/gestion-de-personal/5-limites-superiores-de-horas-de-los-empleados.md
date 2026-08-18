@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-5-limites-superiores-de-horas-de-los-empleados"
-title: "Límites superiores de horas de los empleados"
-description: "Esta restricción impide que las horas planificadas en el cuadrante superen las horas anuales establecidas en el contrato del trabajador, según lo informado en su perfil."
+contentId: gestion-de-personal-5-limites-superiores-de-horas-de-los-empleados
+title: Límites superiores de horas de los empleados
+description: Esta restricción impide que las horas planificadas en el cuadrante superen las horas anuales establecidas en el contrato del trabajador, según lo informado en su perfil.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Límites superiores de horas de los empleados"
+module: Gestión de personal
+submodule: Contratos
+intent: Límites superiores de horas de los empleados
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "empleados"
-    label: "Empleados"
-  - id: "horas"
-    label: "Horas"
-  - id: "limites"
-    label: "Limites"
-  - id: "superiores"
-    label: "Superiores"
+  - id: empleados
+    label: Empleados
+  - id: horas
+    label: Horas
+  - id: limites
+    label: Limites
+  - id: superiores
+    label: Superiores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-limites-superiores-de-horas-de-los-empleados/"
+    - https://manual.aturnos.com/knowledgebase/5-limites-superiores-de-horas-de-los-empleados/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-limites-superiores-de-horas-de-los-empleados/"
+    - https://manual.aturnos.com/knowledgebase/5-limites-superiores-de-horas-de-los-empleados/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre límites superiores de horas de los empleados?"
+    - ¿Qué debo saber sobre límites superiores de horas de los empleados?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 7
+readingTime: 9
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d911d6e07ed7ddc9cea61dd395af4da987363817ed50aa49880285b5818795da"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-limites-superiores-de-horas-de-los-empleados/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-limites-superiores-de-horas-de-los-empleados/
+  contentHash: 17d6ebb3adff60e1f0f67695b814016a5552b757f6b80ccc8046f478b8f93783
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Esta restricción impide que las horas planificadas en el cuadrante superen las horas anuales establecidas en el contrato del trabajador, según lo informado en su perfil.
 
-## Contenido
-
+## Opciones y datos disponibles
 Sirve para garantizar que la planificación no sobrepase el total pactado, asegurando el cumplimiento de las condiciones laborales. Si se supera el número de horas anuales permitido, el sistema mostrará una alerta.
 
 Por ejemplo, si el contrato del trabajador es de 1.756 horas al año, no podrá planificarse por encima de ese valor, salvo que se haya definido un margen de flexibilidad.

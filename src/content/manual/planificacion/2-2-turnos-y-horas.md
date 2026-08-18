@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-2-turnos-y-horas"
-title: "Turnos y horas"
-description: "Aprende a turnos y horas, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-2-2-turnos-y-horas
+title: Turnos y horas
+description: Se puede obtener información de los turnos y de los diferentes tipos de horas de manera detallada o resumida (Ej.
 contentType: procedure
-module: "Planificación"
-submodule: "Usuarios y perfiles"
-intent: "Turnos y horas"
+module: Planificación
+submodule: Usuarios y perfiles
+intent: Turnos y horas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "horas"
-    label: "Horas"
-  - id: "turnos"
-    label: "Turnos"
+  - id: horas
+    label: Horas
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-2-turnos-y-horas/"
+    - https://manual.aturnos.com/knowledgebase/7-2-turnos-y-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-2-turnos-y-horas/"
+    - https://manual.aturnos.com/knowledgebase/7-2-turnos-y-horas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo turnos y horas?"
+    - ¿Cómo puedo turnos y horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6a5c54b27038864e0a3a492e0d459a7149388e909475b335d8e0dbf086b54b73"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-2-turnos-y-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-2-turnos-y-horas/
+  contentHash: deb2cf94f2cff36f4c707d42f4b5085ae54b9a9c7e442a1d6c74bca9a54932eb
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a turnos y horas, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Se puede obtener información de los turnos y de los diferentes tipos de horas de manera detallada o resumida (Ej. en un período de tiempo, de un trabajador en específico) que estén planificadas en los equipos que se gestionan como superusuario.
 
 Se pueden seleccionar tantos equipos se necesite cargar los datos de los turnos y tipos de horas planificados. Para facilitar la búsqueda, se puede introducir el nombre del equipo de trabajo. También se podrán elegir todos aquellos equipos que dependan de un equipo o jerarquía superior.

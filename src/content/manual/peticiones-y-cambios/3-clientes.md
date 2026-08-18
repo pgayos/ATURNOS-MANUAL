@@ -1,50 +1,55 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-3-clientes"
-title: "Clientes"
-description: "Aprende a clientes, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-3-clientes
+title: Clientes
+description: Al entrar por menú Tareas – Clientes, se muestra el listado de clientes que han solicitado citas o servicios, este histórico te permite ver el detalle de la solicitud así como agregar mas in.
 contentType: procedure
-module: "Peticiones y cambios"
-submodule: "General"
-intent: "Clientes"
+module: Peticiones y cambios
+submodule: General
+intent: Clientes
 audience:
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "clientes"
-    label: "Clientes"
+  - id: clientes
+    label: Clientes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-clientes/"
+    - https://manual.aturnos.com/knowledgebase/3-clientes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-clientes/"
+    - https://manual.aturnos.com/knowledgebase/3-clientes/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo clientes?"
+    - ¿Cómo puedo clientes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "06ae06139448c844a76610f841a16f497804e2aaadc073288c4537c1e5a41ff5"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-clientes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-clientes/
+  contentHash: 764db46f4c67885011d8759f1bad862e0f307b2e19ce4575f22eb25ef8aae365
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a clientes, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Al entrar por menú Tareas – Clientes, se muestra el listado de clientes que han solicitado citas o servicios, este histórico te permite ver el detalle de la solicitud así como agregar mas información en caso de requerirlo.
 
 - Filtro: al hacer clic en el filtro podrás buscar directamente a un cliente en específico, colocando el nombre o email del mismo.

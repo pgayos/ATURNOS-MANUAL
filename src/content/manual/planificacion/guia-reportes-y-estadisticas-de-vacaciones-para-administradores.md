@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-reportes-y-estadisticas-de-vacaciones-para-administradores"
-title: "Reportes y estadísticas de vacaciones para administradores"
-description: "Información sobre reportes y estadísticas de vacaciones para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-reportes-y-estadisticas-de-vacaciones-para-administradores
+title: Reportes y estadísticas de vacaciones para administradores
+description: aTurnos facilita la gestión y visualización de las vacaciones para administradores y trabajadores, proporcionando herramientas avanzadas para analizar saldos, balances y periodos vacacionale.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones"
-intent: "Reportes y estadísticas de vacaciones"
+module: Planificación
+submodule: Vacaciones
+intent: Reportes y estadísticas de vacaciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-08-06
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/reportes-vac/"
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/reportes-vac/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre reportes y estadísticas de vacaciones para administradores?"
+    - ¿Qué debo saber sobre reportes y estadísticas de vacaciones para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/reportes-vac/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/reportes-vac/
+  contentHash: aae5025a81849b97037bb1f3dd33672de6f2a95421b0e15c667890d409edec73
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -97,3 +108,7 @@ Este registro proporciona una tabla clara y estructurada con información mensua
 
 - Columna «Inicio»: Indica el primer día del periodo vacacional.
 - Columna «Fin»: Indica el último día del periodo, ambos inclusive.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

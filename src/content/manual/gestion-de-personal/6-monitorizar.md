@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-6-monitorizar"
-title: "Monitorizar"
-description: "Todas las acciones que se realizan en los dispositivos o aquellas incidencias que les afectan, quedan registradas en Biostar2. Supervisa los eventos que suceden en tu sistema de Control de Presencia."
+contentId: gestion-de-personal-6-monitorizar
+title: Monitorizar
+description: Todas las acciones que se realizan en los dispositivos o aquellas incidencias que les afectan, quedan registradas en Biostar2. Supervisa los eventos que suceden en tu sistema de Control de Presencia.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Monitorizar"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Monitorizar
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "monitorizar"
-    label: "Monitorizar"
+  - id: monitorizar
+    label: Monitorizar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-monitorizar/"
+    - https://manual.aturnos.com/knowledgebase/6-monitorizar/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-monitorizar/"
+    - https://manual.aturnos.com/knowledgebase/6-monitorizar/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre monitorizar?"
+    - ¿Qué debo saber sobre monitorizar?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "60ed1f2d97730b97d196263946b9f254f22a8cd35b136f7b439a346647cf5d68"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-monitorizar/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-monitorizar/
+  contentHash: 2b75b3d4913ecea37bc517e9d768b921d0eacde510750ef72e0a5c9411f31372
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -139,3 +146,7 @@ En esta lista encontraremos todos aquellos dispositivos que están vinculados a 
 En caso de existir cualquier tipo de alerta e algún dispositivo, se nos mostrará en la columna Alarma.
 
 - Último evento: en esta columna nos aparecerá el último evento que se ha registrado en cada dispositivo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

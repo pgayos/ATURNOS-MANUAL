@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-c-exportar"
-title: "Exportar"
-description: "Información sobre exportar, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-c-exportar
+title: Exportar
+description: En aTurnos existen distintas formas de exportar los datos, tanto desde esta ventana como desde las distintas pestañas dentro de aTurnos que tengan habilitado el icono de exportación como, po.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Exportar"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Exportar
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "exportar"
-    label: "Exportar"
+  - id: exportar
+    label: Exportar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/c-exportar/"
+    - https://manual.aturnos.com/knowledgebase/c-exportar/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/c-exportar/"
+    - https://manual.aturnos.com/knowledgebase/c-exportar/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre exportar?"
+    - ¿Qué debo saber sobre exportar?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8bb7f91a9fbf6d34a8387558698378072a37c9abda01c163cf0d08c6ee2ffa38"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/c-exportar/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/c-exportar/
+  contentHash: a571eb2a913e29bd475155af3445e06c58209b56904c2f363e78961994d2d6c2
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre exportar, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En aTurnos existen distintas formas de exportar los datos, tanto desde esta ventana como desde las distintas pestañas dentro de aTurnos que tengan habilitado el icono de exportación como, por ejemplo: Listado de tipos de turno, Estadísticas, Cuadrante, entre otros menús.
 
 Este menú de ‘Exportar’ se compone de cuatro partes:

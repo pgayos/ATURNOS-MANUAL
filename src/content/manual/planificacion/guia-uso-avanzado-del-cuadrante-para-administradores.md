@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-uso-avanzado-del-cuadrante-para-administradores"
-title: "Uso avanzado del cuadrante para administradores"
-description: "Información sobre uso avanzado del cuadrante para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-uso-avanzado-del-cuadrante-para-administradores
+title: Uso avanzado del cuadrante para administradores
+description: El cuadrante de planificación es una herramienta versátil diseñada para optimizar la gestión de horarios y tareas en tu equipo.
 contentType: reference
-module: "Planificación"
-submodule: "Turnos y cuadrantes"
-intent: "Uso avanzado del cuadrante"
+module: Planificación
+submodule: Turnos y cuadrantes
+intent: Uso avanzado del cuadrante
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-02-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-avanzado-del-cuadrante/"
+    - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-avanzado-del-cuadrante/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre uso avanzado del cuadrante para administradores?"
+    - ¿Qué debo saber sobre uso avanzado del cuadrante para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-avanzado-del-cuadrante/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-avanzado-del-cuadrante/
+  contentHash: b5752aaa97ec1e39727c7bc2ccc83db63041cedee44151b3bc3696f56f3658e1
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

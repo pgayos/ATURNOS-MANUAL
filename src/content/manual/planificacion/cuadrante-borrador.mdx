@@ -19,12 +19,16 @@ entities:
     label: Cuadrante borrador
   - id: shift
     label: Turno
-synonyms: [planificación borrador, cuadrante provisional, borrador de planificación]
+synonyms:
+  - planificación borrador
+  - cuadrante provisional
+  - borrador de planificación
 prerequisites:
   - Tener permisos para modificar la planificación.
   - Disponer de trabajadores activos en el equipo.
   - Tener configurados los turnos que se van a utilizar.
-platforms: [web]
+platforms:
+  - web
 governance:
   status: functional-review
   owner: Equipo de Producto de aTurnos
@@ -45,8 +49,17 @@ ai:
     - ¿Cómo calcula aTurnos la planificación automática?
   sensitivity: public
   chunking: by-section
-readingTime: 8
+readingTime: 2
 featured: true
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-borrador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-borrador/
+  contentHash: c907aa208273727633986312b25bf46c6fde3df37e1eb64fe96eb8977d351b83
+  migratedAt: 2026-08-18
 ---
 import Callout from '../../../components/manual/Callout.astro';
 import Steps from '../../../components/manual/Steps.astro';

@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-7-1-clonacion-de-datos"
-title: "Clonación de datos"
-description: "La acción de clonación permite añadir, modificar o clonar los datos de un equipo (equipo origen) a uno o más equipos (equipo destino)."
+contentId: gestion-de-personal-7-1-clonacion-de-datos
+title: Clonación de datos
+description: La acción de clonación permite añadir, modificar o clonar los datos de un equipo (equipo origen) a uno o más equipos (equipo destino).
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Datos laborales"
-intent: "Clonación de datos"
+module: Gestión de personal
+submodule: Datos laborales
+intent: Clonación de datos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "clonacion"
-    label: "Clonacion"
-  - id: "datos"
-    label: "Datos"
+  - id: clonacion
+    label: Clonacion
+  - id: datos
+    label: Datos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/11-1-clonar-datos/"
+    - https://manual.aturnos.com/knowledgebase/11-1-clonar-datos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/11-1-clonar-datos/"
+    - https://manual.aturnos.com/knowledgebase/11-1-clonar-datos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo clonación de datos?"
+    - ¿Cómo puedo clonación de datos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8a8462c5d3a87423e52bb7ca5f6b63099545a552793673a43d2f4fa04f5cc99f"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/11-1-clonar-datos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/11-1-clonar-datos/
+  contentHash: de9e952d89c5d31e99439d740e1bbde9cc9c66d0f381d57f5d15bd8f4493b12d
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -90,3 +97,7 @@ En clonar Absentismos:
 - Añadir absentismos del origen al destino: permite clonar absentismos del equipo Origen que no existen en el equipo Destino, añadiéndolos al listado de absentismos que tenga ya informados el equipo Destino, es decir, no borra los absentismos que existan previamente en el destino. En estos casos el sistema toma en cuenta las Abreviaturas del absentismo para identificar si ya existen o no en el destino (independientemente de cómo este configurado, si es justificado o injustificado).
 - Clonar los absentismos del origen al destino: copiará los absentismos del equipo origen al destino tal y como estén configurados en el Origen (si ya existía el absentismo con la misma abreviatura en el destino, lo que hará el sistema es actualizarle la información tal y como esté configurado ese absentismo en el equipo origen). No elimina o borra absentismos existentes en el equipo destino.
 - Dejar solo los tipos de absentismo del origen en el de destino, y si en el de destino existen otros diferentes ponerlos en “No disponibles”: en este caso clonará exactamente todos los absentismos al equipo destino. En el caso de que el equipo destino tuviera algún absentismo informado que sea distinto a los clonados lo eliminará dejándolo informado en el listado de No disponibles” (ver mas).
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

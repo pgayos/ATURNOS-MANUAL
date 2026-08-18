@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-control-horario-app"
-title: "Control Horario (APP)"
-description: "Información sobre control Horario (APP), con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-control-horario-app
+title: Control Horario (APP)
+description: Para fichar desde la app de aTurnos (iOS y Android), acceda a Control Horario → Fichar donde podrá ver el botón correspondiente para realizar el marcaje (ya sea de entrada o de salida).
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Control Horario (APP)"
+module: Control horario
+submodule: Fichajes
+intent: Control Horario (APP)
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "app"
-    label: "App"
-  - id: "control"
-    label: "Control"
-  - id: "horario"
-    label: "Horario"
+  - id: app
+    label: App
+  - id: control
+    label: Control
+  - id: horario
+    label: Horario
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/control-de-presencia/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/control-de-presencia/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre control Horario (APP)?"
+    - ¿Qué debo saber sobre control Horario (APP)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1723a3a93642c3003741357b7bfaf767200cf9df6865e6ebf9834a0fda6a3ac8"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/control-de-presencia/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/control-de-presencia/
+  contentHash: 40198f31698afaf85cd9b5c0503392af4bd335a0ee4525c0033c3db6ca4331a3
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -120,3 +127,7 @@ Además, más abajo aparecerán todos los detalles relacionados con los tiempos 
 - Descanso planificado: hace referencia a cuando turno planificado tiene una duración computada menor, donde X minutos pertenecen al descanso (contabilizar descansos, no se fichan).
 - Descanso fichado: también llamado como descanso de control de presencia, hace referencia a cuando el trabajador hace un fichaje de salida a las 11:30 y un marcaje de entrada a las 11:42, donde 12 minutos son de descanso, por ejemplo (contabilizar los descansos, si se fichan).
 - Ajustes: si se realiza un exceso o defecto de tiempo presencial, se comprobará un estado positivo o negativo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

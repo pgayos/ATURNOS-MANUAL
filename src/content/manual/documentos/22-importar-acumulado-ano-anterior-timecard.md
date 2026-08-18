@@ -1,44 +1,45 @@
 ---
 schemaVersion: "1.0"
-contentId: "documentos-22-importar-acumulado-ano-anterior-timecard"
-title: "Importar acumulado año anterior (Timecard)"
-description: "Aprende a importar acumulado año anterior (Timecard), con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: documentos-22-importar-acumulado-ano-anterior-timecard
+title: Importar acumulado año anterior (Timecard)
+description: Es posible que si has utilizado otro sistema de registro de jornada y estás a mitad de año tengas un saldo acumulado el cual quieras traspasar a aTurnos.
 contentType: procedure
-module: "Documentos"
-submodule: "General"
-intent: "Importar acumulado año anterior (Timecard)"
+module: Documentos
+submodule: General
+intent: Importar acumulado año anterior (Timecard)
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "acumulado"
-    label: "Acumulado"
-  - id: "ano"
-    label: "Ano"
-  - id: "anterior"
-    label: "Anterior"
-  - id: "importar"
-    label: "Importar"
-  - id: "timecard"
-    label: "Timecard"
+  - id: acumulado
+    label: Acumulado
+  - id: ano
+    label: Ano
+  - id: anterior
+    label: Anterior
+  - id: importar
+    label: Importar
+  - id: timecard
+    label: Timecard
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/22-importar-acumulado-ano-anterior/"
+    - https://manual.aturnos.com/knowledgebase/22-importar-acumulado-ano-anterior/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/22-importar-acumulado-ano-anterior/"
+    - https://manual.aturnos.com/knowledgebase/22-importar-acumulado-ano-anterior/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo importar acumulado año anterior (Timecard)?"
+    - ¿Cómo puedo importar acumulado año anterior (Timecard)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -46,15 +47,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "380323aad2249e12f78b076f34ecc3abec3aa614f7cc5514ba19a426c272dfa1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/22-importar-acumulado-ano-anterior/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/22-importar-acumulado-ano-anterior/
+  contentHash: 8192fba10892df733696df97c1071491a2bd460b39c12633e5c8fdcc841aad4d
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a importar acumulado año anterior (Timecard), con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Es posible que si has utilizado otro sistema de registro de jornada y estás a mitad de año tengas un saldo acumulado el cual quieras traspasar a aTurnos. La forma de hacerlo es a través de esta importación en el Timecard.
 
 Crea un archivo de Excel en formato CSV o completa la plantilla de ejemplo para importar los marcajes de los trabajadores, definiendo las columnas con los siguientes conceptos:

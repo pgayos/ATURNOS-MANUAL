@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-guia-preguntas-frecuentes-sobre-autogestion-para-administradores"
-title: "Preguntas frecuentes sobre autogestión para administradores"
-description: "Sí, siempre que sean de tipos diferentes (por ejemplo, una solicitud de horas y un permiso)."
+contentId: peticiones-y-cambios-guia-preguntas-frecuentes-sobre-autogestion-para-administradores
+title: Preguntas frecuentes sobre autogestión para administradores
+description: Sí, siempre que sean de tipos diferentes (por ejemplo, una solicitud de horas y un permiso).
 contentType: concept
-module: "Peticiones y cambios"
-submodule: "Autogestión"
-intent: "Preguntas frecuentes"
+module: Peticiones y cambios
+submodule: Autogestión
+intent: Preguntas frecuentes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/preguntas-frecuentes-5/"
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/preguntas-frecuentes-5/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre preguntas frecuentes sobre autogestión para administradores?"
+    - ¿Qué debo saber sobre preguntas frecuentes sobre autogestión para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/preguntas-frecuentes-5/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/preguntas-frecuentes-5/
+  contentHash: 6465dbbef8b716b38263cb5ddb3279e963c5be687bf81ba7efbe5f48caac81e0
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -113,3 +124,7 @@ Sí, al crear una oferta puedes especificar la cantidad de plazas disponibles pa
 - ¿Cómo se notifica a los trabajadores sobre las ofertas?
 
 Sí, se notifica por teléfono y correo, para ello debes tener activadas las notificaciones desde administrar → configuración → notificaciones.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

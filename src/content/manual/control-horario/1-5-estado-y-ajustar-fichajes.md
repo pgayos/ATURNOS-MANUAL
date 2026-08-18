@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-1-5-estado-y-ajustar-fichajes"
-title: "Estado y ajustar fichajes"
-description: "Todos los fichajes modificados o insertados por el administrador se guardarán como fichajes manuales. Para poder ajustar fichajes se puede hacer desde ‘ Diario ‘ o ‘ Detalle ‘."
+contentId: control-horario-1-5-estado-y-ajustar-fichajes
+title: Estado y ajustar fichajes
+description: Todos los fichajes modificados o insertados por el administrador se guardarán como fichajes manuales. Para poder ajustar fichajes se puede hacer desde ‘ Diario ‘ o ‘ Detalle ‘.
 contentType: concept
-module: "Control horario"
-submodule: "Vacaciones y ausencias"
-intent: "Estado y ajustar fichajes"
+module: Control horario
+submodule: Vacaciones y ausencias
+intent: Estado y ajustar fichajes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "ajustar"
-    label: "Ajustar"
-  - id: "estado"
-    label: "Estado"
-  - id: "fichajes"
-    label: "Fichajes"
+  - id: ajustar
+    label: Ajustar
+  - id: estado
+    label: Estado
+  - id: fichajes
+    label: Fichajes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-5-estado-y-ajustar-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/1-5-estado-y-ajustar-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-5-estado-y-ajustar-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/1-5-estado-y-ajustar-fichajes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre estado y ajustar fichajes?"
+    - ¿Qué debo saber sobre estado y ajustar fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 8
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "242746d44a08a93b4ef78f2a6eee77d31fb402140cbbdc131f5e0e2089c1f718"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-5-estado-y-ajustar-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-5-estado-y-ajustar-fichajes/
+  contentHash: 86ba9e874744bae607caa707d343872e1704b8b7a3fc8da8859fb73c8ab0cd96
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -132,3 +139,7 @@ Al realizar el ajuste sobre el total, se calculará esa diferencia de 15 minutos
 El ajuste de reducción de jornada permite que si por razones de fuerza mayor o para no modificar el tipo de turno asignado a un trabajador que se ha acogido a una reducción de jornada, el turno planificado se adapte al tiempo registrado en el control de presencia.
 
 Por ejemplo, una trabajadora tiene un turno de 15:00 a 22:00 horas, pero por razones de conciliación familiar ha fichado la entrada a las 15:45 y la salida a las 21:00 horas. El turno se ve reducido a unas horas planificadas, aunque también es posible que el administrador modifique el tipo de turno planificado en el cuadrante (ver Modificar turno ) o convertirlo a horas para adaptar la duración al fichaje (ver Cambiar turno a horas ).
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

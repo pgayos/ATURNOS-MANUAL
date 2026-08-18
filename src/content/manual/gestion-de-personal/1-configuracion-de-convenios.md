@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-configuracion-de-convenios"
-title: "Configuración de convenios"
-description: "Información sobre configuración de convenios, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-1-configuracion-de-convenios
+title: Configuración de convenios
+description: Antes de realizar los Ajustes de Turnos para generar la Propuesta de planificación según la demanda creada, es fundamental revisar previamente ciertos datos de configuración del sistema.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Configuración de convenios"
+module: Gestión de personal
+submodule: Contratos
+intent: Configuración de convenios
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "configuracion"
-    label: "Configuracion"
-  - id: "convenios"
-    label: "Convenios"
+  - id: configuracion
+    label: Configuracion
+  - id: convenios
+    label: Convenios
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-configuracion-de-convenios/"
+    - https://manual.aturnos.com/knowledgebase/8-configuracion-de-convenios/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-configuracion-de-convenios/"
+    - https://manual.aturnos.com/knowledgebase/8-configuracion-de-convenios/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre configuración de convenios?"
+    - ¿Qué debo saber sobre configuración de convenios?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "eb064f95027d9391af36a2475fc52f29a57f0a6d6c3f099d073f4a65b4310ad5"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-configuracion-de-convenios/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-configuracion-de-convenios/
+  contentHash: 01b92ec2cf6934a50ba4cb47aedd4741b583df6bda9357bd469915d8bcb2f7f0
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -68,3 +75,7 @@ En algunos casos, un trabajador puede estar sujeto a un convenio distinto, con u
 Las restricciones permiten definir límites para la asignación de horas, tanto a nivel de equipo como de trabajador, utilizando como base los valores definidos en la configuración general (Datos del convenio). Por ejemplo, se puede establecer que la planificación semanal no supere un número determinado de horas.
 
 También es posible definir restricciones relacionadas con los turnos, como impedir que un trabajador realice determinados turnos o limitar su disponibilidad a ciertos días o franjas horarias. Más información disponible en el siguiente enlace: Restricciones.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

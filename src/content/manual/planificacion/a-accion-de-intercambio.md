@@ -1,47 +1,53 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-a-accion-de-intercambio"
-title: "Acción de intercambio"
-description: "Aprende a acción de intercambio, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-a-accion-de-intercambio
+title: Acción de intercambio
+description: Esta opción permite intercambiar la planificación de dos trabajadores en un periodo de tiempo determinado.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Acción de intercambio"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Acción de intercambio
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "accion"
-    label: "Accion"
-  - id: "intercambio"
-    label: "Intercambio"
+  - id: accion
+    label: Accion
+  - id: intercambio
+    label: Intercambio
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/a-accion-de-intercambio/"
+    - https://manual.aturnos.com/knowledgebase/a-accion-de-intercambio/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/a-accion-de-intercambio/"
+    - https://manual.aturnos.com/knowledgebase/a-accion-de-intercambio/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo acción de intercambio?"
+    - ¿Cómo puedo acción de intercambio?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "39bf8ee0791529fef1d788d98949d5f811378119de546f0289d9c80f98be77ea"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/a-accion-de-intercambio/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/a-accion-de-intercambio/
+  contentHash: ea2b7280a3d49abf5b3fd5aab54ac1375f11e89c73cff6d4b4bed408d195222b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

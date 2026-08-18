@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-f-absentismos"
-title: "Absentismos"
+contentId: planificacion-f-absentismos
+title: Absentismos
 description: "Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas."
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Absentismos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Absentismos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
+  - id: absentismos
+    label: Absentismos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-6-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/6-6-absentismos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-6-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/6-6-absentismos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo absentismos?"
+    - ¿Cómo puedo absentismos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b03f36192d51e4ba9eb82827c43f6564801674df87c3a0ce8140cefdb8d75004"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-6-absentismos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-6-absentismos/
+  contentHash: 35c8194111f9ec83413434922e415dd6ffba27272b01e9ec3793f86ce3a1cf3f
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -109,3 +116,7 @@ A través de hacer clic en Ocultar, podrás eliminar aquellas columnas de la tab
 2. Elige entre hacer una Copia de los datos para pegarlos en una Hoja de Excel, o directamente puedes exportarlo a un Libro de Excel, CSV (delimitado por comas), y PDF. También se podrá descargar el gráfico en distintos formatos (PNG, JPGE y SVG) o en PDF.
 
 Puedes seguir la demostración de estas herramientas en puntos anteriores, haciendo clic aquí: Ocultar y exportar.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-2-3-oferta-de-turno"
-title: "Oferta de turno"
-description: "Aprende a oferta de turno, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-2-3-oferta-de-turno
+title: Oferta de turno
+description: Este apartado de ofertar turno consiste en que el administrador ofrece un turno de trabajo al equipo.
 contentType: procedure
-module: "Peticiones y cambios"
-submodule: "Vacaciones y ausencias"
-intent: "Oferta de turno"
+module: Peticiones y cambios
+submodule: Vacaciones y ausencias
+intent: Oferta de turno
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "oferta"
-    label: "Oferta"
-  - id: "turno"
-    label: "Turno"
+  - id: oferta
+    label: Oferta
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-3-oferta-de-turno/"
+    - https://manual.aturnos.com/knowledgebase/2-3-oferta-de-turno/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-3-oferta-de-turno/"
+    - https://manual.aturnos.com/knowledgebase/2-3-oferta-de-turno/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo oferta de turno?"
+    - ¿Cómo puedo oferta de turno?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b104058be904a147942443eb132361cb1038431cdbe3b7ed60c27c27d42385fe"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-3-oferta-de-turno/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-3-oferta-de-turno/
+  contentHash: da666ffdef57dae32fe3c9138dcbb953f402f259509d0a6c2e82690b67567f54
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -59,3 +66,7 @@ Este apartado de ofertar turno consiste en que el administrador ofrece un turno 
 Para apuntarte a un turno ofertado, sólo tienes que pulsar el botón de acción deslizando la oferta hacia la izquierda:
 
 Será el administrador quien decida, a quien planificar el turno, entre todos los trabajadores que han realizado la acción de “inscribirse en la oferta”. Por otro lado en el icono del ojo podrá ver las condiciones de dicha oferta de turno.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

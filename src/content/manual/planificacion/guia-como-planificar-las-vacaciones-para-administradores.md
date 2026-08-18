@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-como-planificar-las-vacaciones-para-administradores"
-title: "Como planificar las vacaciones para administradores"
-description: "Información sobre como planificar las vacaciones para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-como-planificar-las-vacaciones-para-administradores
+title: Como planificar las vacaciones para administradores
+description: "aTurnos te ofrece dos formas principales de gestionar las vacaciones: como tipo de turno o como tipo de absentismo."
 contentType: faq
-module: "Planificación"
-submodule: "Vacaciones"
-intent: "Como planificar las vacaciones"
+module: Planificación
+submodule: Vacaciones
+intent: Como planificar las vacaciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-03-31
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/configuracion-vac/"
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/configuracion-vac/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre como planificar las vacaciones para administradores?"
+    - ¿Qué debo saber sobre como planificar las vacaciones para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/configuracion-vac/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/configuracion-vac/
+  contentHash: 34b95d9c409eb6a24ee809c25553b3bac1a6ac2016e3ae8c03399ef9de74c341
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-16-teletrabajo-sin-control-web-ip"
-title: "Teletrabajo (Sin control Web/IP)"
-description: "Información sobre teletrabajo (Sin control Web/IP), con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-16-teletrabajo-sin-control-web-ip
+title: Teletrabajo (Sin control Web/IP)
+description: En los últimos años, las formas de trabajar han variado y ahora es posible realizar algunos trabajos desde casa, así como debido a la movilidad en otras actividades laborales que no se reali.
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Teletrabajo (Sin control Web/IP)"
+module: Control horario
+submodule: Fichajes
+intent: Teletrabajo (Sin control Web/IP)
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "control"
-    label: "Control"
-  - id: "sin"
-    label: "Sin"
-  - id: "teletrabajo"
-    label: "Teletrabajo"
-  - id: "web"
-    label: "Web"
+  - id: control
+    label: Control
+  - id: sin
+    label: Sin
+  - id: teletrabajo
+    label: Teletrabajo
+  - id: web
+    label: Web
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-16-teletrabajo-sin-control-web-ip/"
+    - https://manual.aturnos.com/knowledgebase/5-16-teletrabajo-sin-control-web-ip/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-16-teletrabajo-sin-control-web-ip/"
+    - https://manual.aturnos.com/knowledgebase/5-16-teletrabajo-sin-control-web-ip/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre teletrabajo (Sin control Web/IP)?"
+    - ¿Qué debo saber sobre teletrabajo (Sin control Web/IP)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b9e146f0076cce4a23a63e1e5f208664fbd56b00519c4f095cd5d2b53d6855ea"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-16-teletrabajo-sin-control-web-ip/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-16-teletrabajo-sin-control-web-ip/
+  contentHash: b4a7a238aafa00dfb7645b7fc493c2af6bf252bfea35d7a2abe2f21147818ea2
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre teletrabajo (Sin control Web/IP), con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En los últimos años, las formas de trabajar han variado y ahora es posible realizar algunos trabajos desde casa, así como debido a la movilidad en otras actividades laborales que no se realicen en un lugar físico determinado.
 
 aTurnos ofrece la solución de poder fichar desde cualquier punto con conexión GPS o datos móvil con la APP para móviles y tablet o en nuestro entorno web con un PC.

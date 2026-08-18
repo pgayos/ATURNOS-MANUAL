@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-3-editar-patron"
-title: "Editar patrón"
-description: "Aprende a editar patrón, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-3-editar-patron
+title: Editar patrón
+description: En aTurnos se pueden crear todos los tipos de patrones de turnos que sean necesarios.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Editar patrón"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Editar patrón
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "editar"
-    label: "Editar"
-  - id: "patron"
-    label: "Patron"
+  - id: editar
+    label: Editar
+  - id: patron
+    label: Patron
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-editar-patron/"
+    - https://manual.aturnos.com/knowledgebase/3-editar-patron/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-editar-patron/"
+    - https://manual.aturnos.com/knowledgebase/3-editar-patron/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo editar patrón?"
+    - ¿Cómo puedo editar patrón?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c58bb7e0c06a8918e16ad7e307e9252a2d17bec6ed2c44ee9d2d4bc72efafb31"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-editar-patron/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-editar-patron/
+  contentHash: 2df6084f4638ff0c3cdc950c364107329a5f348c47507d443b427b52effe8246
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a editar patrón, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 En aTurnos se pueden crear todos los tipos de patrones de turnos que sean necesarios. Para crear un patrón de turno, es imprescindible que se hayan generado previamente los tipos de turno. Estos tipos de turnos son los que utilizarás para definir una secuencia de turnos, la cual que se repite cíclicamente en el momento de ser planificado a los trabajadores.
 
 En aTurnos, los patrones de turnos pueden estar formados por un solo periodo, o por más de un periodo de turnos.

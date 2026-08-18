@@ -1,53 +1,60 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-reporte-detalles-trabajador"
-title: "Reporte detalles trabajador"
-description: "Con esta función, desde el menú RRHH, el administrador tiene la posibilidad de conseguir un reporte personalizado. Puede consultar los valores de las variables que necesita."
+contentId: gestion-de-personal-1-reporte-detalles-trabajador
+title: Reporte detalles trabajador
+description: Con esta función, desde el menú RRHH, el administrador tiene la posibilidad de conseguir un reporte personalizado. Puede consultar los valores de las variables que necesita.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Reporte detalles trabajador"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Reporte detalles trabajador
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "detalles"
-    label: "Detalles"
-  - id: "reporte"
-    label: "Reporte"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: detalles
+    label: Detalles
+  - id: reporte
+    label: Reporte
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/e-reporte-detalles-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/e-reporte-detalles-trabajador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/e-reporte-detalles-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/e-reporte-detalles-trabajador/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo reporte detalles trabajador?"
+    - ¿Cómo puedo reporte detalles trabajador?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 8
+readingTime: 12
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "fcd11dcffaaf26d2c92fe0870af2447129d383b8f51bf040cf5124c6dd0f0da2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/e-reporte-detalles-trabajador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/e-reporte-detalles-trabajador/
+  contentHash: 08dbca2cf6f96a06af93068fe3ebebbff95f9deb69d5203ee39bd50213fc895d
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -141,3 +148,7 @@ Esta petición comenzará a ejecutarse, y dependiendo del volumen de datos a rep
 ¿Dónde puedo consultar el estado de la petición del reporte? ¿Dónde puedo descargar el reporte solicitado?
 
 Pasado unos minutos, el sistema consigue generar el reporte solicitado. El propio sistema mediante un aviso en la pestaña RRHH/PETICIONES REPORTES indica al administrador que esta pendiente de descargar, cliqueando el icono “Descarga” se obtiene el reporte esperado en formato Excel.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

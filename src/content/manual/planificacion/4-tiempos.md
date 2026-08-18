@@ -1,49 +1,55 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-tiempos"
-title: "Tiempos en aTurnos"
-description: "Información sobre tiempos en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-4-tiempos
+title: Tiempos en aTurnos
+description: El administrador, en el perfil del trabajador, puede consultar información de tiempos relacionados con los días de vacaciones, horas de contrato, horas planificadas, balances, ajuste de hora.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Tiempos en aTurnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Tiempos en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "tiempos"
-    label: "Tiempos"
+  - id: tiempos
+    label: Tiempos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-tiempos/"
+    - https://manual.aturnos.com/knowledgebase/4-tiempos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-tiempos/"
+    - https://manual.aturnos.com/knowledgebase/4-tiempos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre tiempos en aTurnos?"
+    - ¿Qué debo saber sobre tiempos en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 10
+readingTime: 13
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bd5117edec98c0a8f243082b806e2bbb2e582f352e1d2db8e999ad38ff49f7e1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-tiempos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-tiempos/
+  contentHash: f8cf787e8e5743bafda5feb2f631a56f8a1a19fe2bfa3b759d9339194e55e28e
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

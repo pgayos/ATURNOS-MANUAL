@@ -1,44 +1,45 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-perfil-del-trabajador-app"
-title: "Perfil del Trabajador (APP)"
-description: "Esta sección se encuentra en la parte inferior derecha con el siguiente icono:."
+contentId: gestion-de-personal-perfil-del-trabajador-app
+title: Perfil del Trabajador (APP)
+description: Esta sección se encuentra en la parte inferior derecha con el siguiente icono:.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Perfil del Trabajador (APP)"
+module: Gestión de personal
+submodule: Contratos
+intent: Perfil del Trabajador (APP)
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "app"
-    label: "App"
-  - id: "perfil"
-    label: "Perfil"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: app
+    label: App
+  - id: perfil
+    label: Perfil
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/perfil-del-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/perfil-del-trabajador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/perfil-del-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/perfil-del-trabajador/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre perfil del Trabajador (APP)?"
+    - ¿Qué debo saber sobre perfil del Trabajador (APP)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -46,8 +47,14 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e0497d23c7b2ff91f28ec66eec1f3d4067b45b7d91225303b9b1ebcfb59a717c"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/perfil-del-trabajador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/perfil-del-trabajador/
+  contentHash: 099fa865e94529489e700ae3cec1c9572a20d0e776996d7fd92db6bbeff6c595
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -89,3 +96,7 @@ En este último apartado de la Configuración, podrás realizar las siguientes a
 
 - Cambiar contraseña
 - Idioma
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-5-restricciones-trabajador"
-title: "Restricciones trabajador"
-description: "Aprende a restricciones trabajador, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-5-restricciones-trabajador
+title: Restricciones trabajador
+description: Se entiende como restricciones aquellas limitaciones legales o personales impuestas por la empresa debido a su actividad y/o gestión, y que posteriormente puedes informar en aTurnos para una.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Restricciones trabajador"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Restricciones trabajador
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "restricciones"
-    label: "Restricciones"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: restricciones
+    label: Restricciones
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-restricciones-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/5-restricciones-trabajador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-restricciones-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/5-restricciones-trabajador/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo restricciones trabajador?"
+    - ¿Cómo puedo restricciones trabajador?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f870f6d84ebbaad5edba38dc65fe6df0847e5bd87ec314c59ca157be4cd8c797"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-restricciones-trabajador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-restricciones-trabajador/
+  contentHash: 72c86ed0690aa764e76422459642a39fa775b0272a2ab618c3c80e201cb9c96a
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a restricciones trabajador, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Se entiende como restricciones aquellas limitaciones legales o personales impuestas por la empresa debido a su actividad y/o gestión, y que posteriormente puedes informar en aTurnos para una planificación más eficiente. En este caso, tendrás la opción de añadir tantas restricciones como consideres oportunas sobre uno, varios o el total de trabajadores del equipo.
 
 Las restricciones son seleccionadas y gestionadas por el administrador y se clasifican en:

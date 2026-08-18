@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-7-nominas"
-title: "Nóminas en aTurnos"
-description: "En la pestaña de nómina del trabajador se puede visualizar:."
+contentId: costes-y-nominas-7-nominas
+title: Nóminas en aTurnos
+description: En la pestaña de nómina del trabajador se puede visualizar:.
 contentType: procedure
-module: "Costes y nóminas"
-submodule: "Usuarios y perfiles"
-intent: "Nóminas en aTurnos"
+module: Costes y nóminas
+submodule: Usuarios y perfiles
+intent: Nóminas en aTurnos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "nominas"
-    label: "Nominas"
+  - id: nominas
+    label: Nominas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-nominas/"
+    - https://manual.aturnos.com/knowledgebase/7-nominas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-nominas/"
+    - https://manual.aturnos.com/knowledgebase/7-nominas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo nóminas en aTurnos?"
+    - ¿Cómo puedo nóminas en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3808351c890fc69f1564de791a95fb03642593447fb791e9d8d91a53c9daef17"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-nominas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-nominas/
+  contentHash: 6977943aebd62c7781d2b776180d9744c259d4a63d9c8b60ac0d282776435176
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En la pestaña de nómina del trabajador se puede visualizar:.
 
-## Contenido
-
+## Procedimiento
 1.- La fecha de cierre de cuadrante de un trabajador.
 
 2.- La fecha de validación del cuadrante de un trabajador siempre y cuando en los ajustes de nómina se indique como opción que el cuadrante debe estar cerrado y validado. (Ver en el Manual: Configuración de ajustes de nómina )

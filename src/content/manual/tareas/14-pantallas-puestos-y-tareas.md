@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-14-pantallas-puestos-y-tareas"
-title: "Pantallas, puestos y tareas"
-description: "A cada una de las pantallas se le informa una url conectada a su vez con el puesto que llama a los clientes."
+contentId: tareas-14-pantallas-puestos-y-tareas
+title: Pantallas, puestos y tareas
+description: A cada una de las pantallas se le informa una url conectada a su vez con el puesto que llama a los clientes.
 contentType: procedure
-module: "Tareas"
-submodule: "General"
-intent: "Pantallas, puestos y tareas"
+module: Tareas
+submodule: General
+intent: Pantallas, puestos y tareas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities:
-  - id: "pantallas"
-    label: "Pantallas"
-  - id: "puestos"
-    label: "Puestos"
-  - id: "tareas"
-    label: "Tareas"
+  - id: pantallas
+    label: Pantallas
+  - id: puestos
+    label: Puestos
+  - id: tareas
+    label: Tareas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/14-pantallas-puestos-y-tareas/"
+    - https://manual.aturnos.com/knowledgebase/14-pantallas-puestos-y-tareas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/14-pantallas-puestos-y-tareas/"
+    - https://manual.aturnos.com/knowledgebase/14-pantallas-puestos-y-tareas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo pantallas, puestos y tareas?"
+    - ¿Cómo puedo pantallas, puestos y tareas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bfc02a3461a46d6262ab359916c7f0604f87f9191674d05bdc70cca7bf30e0a3"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/14-pantallas-puestos-y-tareas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/14-pantallas-puestos-y-tareas/
+  contentHash: 453c330306542d7fec8efec02b2b6b1d297038d429b14ac132e63a119c8f81d9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 A cada una de las pantallas se le informa una url conectada a su vez con el puesto que llama a los clientes.
 
-## Contenido
-
+## Procedimiento
 Existen dos formas de configurar los puestos/pantallas, en la explicada a continuación, en la pantalla se visualizan las colas que pueden ser llamadas
 
 Acceda a TIMELINE → CONFIG.FILTROS.

@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-8-crear-patrones-de-turnos"
-title: "Crear patrones de turnos"
-description: "Los manager o supervisores de los equipos de trabajo, pueden tener una secuencia de trabajo habitual, a lo que en aTurnos llamamos Patrones de turnos."
+contentId: planificacion-8-crear-patrones-de-turnos
+title: Crear patrones de turnos
+description: Los manager o supervisores de los equipos de trabajo, pueden tener una secuencia de trabajo habitual, a lo que en aTurnos llamamos Patrones de turnos.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Crear patrones de turnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Crear patrones de turnos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "crear"
-    label: "Crear"
-  - id: "patrones"
-    label: "Patrones"
-  - id: "turnos"
-    label: "Turnos"
+  - id: crear
+    label: Crear
+  - id: patrones
+    label: Patrones
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-crear-patroness-de-turnos/"
+    - https://manual.aturnos.com/knowledgebase/8-crear-patroness-de-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-crear-patroness-de-turnos/"
+    - https://manual.aturnos.com/knowledgebase/8-crear-patroness-de-turnos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre crear patrones de turnos?"
+    - ¿Qué debo saber sobre crear patrones de turnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "09c22fa0d9077d61be419d3618e573c2aa3e5c45364fd471769fe1a39c395d4d"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-crear-patroness-de-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-crear-patroness-de-turnos/
+  contentHash: 0c95a18046ceb5b9279309b70dbeeac1c006e3881118882893cc681aa29602ce
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Los manager o supervisores de los equipos de trabajo, pueden tener una secuencia de trabajo habitual, a lo que en aTurnos llamamos Patrones de turnos.
 
-## Contenido
-
+## Qué debes saber
 Se pueden cargar los patrones desde un archivo completando la plantilla de ejemplo que puedes descargar:
 
 CSV importación de patrones

@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-1-2-descarga-de-nomina"
-title: "Descarga de nómina"
-description: "Se precisa indicar si se permite descargar de nuevo los conceptos de nómina ya descargados o por el contrario una vez descargados no se permite realizar una nueva descarga."
+contentId: costes-y-nominas-1-2-descarga-de-nomina
+title: Descarga de nómina
+description: Se precisa indicar si se permite descargar de nuevo los conceptos de nómina ya descargados o por el contrario una vez descargados no se permite realizar una nueva descarga.
 contentType: reference
-module: "Costes y nóminas"
-submodule: "Usuarios y perfiles"
-intent: "Descarga de nómina"
+module: Costes y nóminas
+submodule: Usuarios y perfiles
+intent: Descarga de nómina
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "descarga"
-    label: "Descarga"
-  - id: "nomina"
-    label: "Nomina"
+  - id: descarga
+    label: Descarga
+  - id: nomina
+    label: Nomina
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-2-descarga-de-nomina/"
+    - https://manual.aturnos.com/knowledgebase/1-2-descarga-de-nomina/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-2-descarga-de-nomina/"
+    - https://manual.aturnos.com/knowledgebase/1-2-descarga-de-nomina/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre descarga de nómina?"
+    - ¿Qué debo saber sobre descarga de nómina?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ec98aa46eacc65ed6afb22037864e35ec469900e003a8f37a195bd9042e27c22"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-2-descarga-de-nomina/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-2-descarga-de-nomina/
+  contentHash: 3ccad7545ca6caf950aff0039490aa5cb7b6f84cf27a22faeb4685e5bccb889c
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Se precisa indicar si se permite descargar de nuevo los conceptos de nómina ya descargados o por el contrario una vez descargados no se permite realizar una nueva descarga.
 
-## Contenido
-
+## Opciones y datos disponibles
 Las opciones disponibles son dos:
 
 1. No permitir la descarga de los conceptos de nómina anteriormente descargados. Es la opción recomendada.

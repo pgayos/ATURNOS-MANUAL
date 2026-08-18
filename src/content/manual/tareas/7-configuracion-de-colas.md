@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-7-configuracion-de-colas"
-title: "Configuración de colas"
-description: "Una vez dadas de alta las Especialidades se crean las Colas, acceda a Tareas → Procesos → Colas. Utiliza la opción Crear y selecciona una a una todas las especialidades creadas."
+contentId: tareas-7-configuracion-de-colas
+title: Configuración de colas
+description: Una vez dadas de alta las Especialidades se crean las Colas, acceda a Tareas → Procesos → Colas. Utiliza la opción Crear y selecciona una a una todas las especialidades creadas.
 contentType: procedure
-module: "Tareas"
-submodule: "General"
-intent: "Configuración de colas"
+module: Tareas
+submodule: General
+intent: Configuración de colas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "colas"
-    label: "Colas"
-  - id: "configuracion"
-    label: "Configuracion"
+  - id: colas
+    label: Colas
+  - id: configuracion
+    label: Configuracion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-configuracion-de-colas/"
+    - https://manual.aturnos.com/knowledgebase/7-configuracion-de-colas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-configuracion-de-colas/"
+    - https://manual.aturnos.com/knowledgebase/7-configuracion-de-colas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo configuración de colas?"
+    - ¿Cómo puedo configuración de colas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "911c5a26a7018667bbc595a47612101bf3e2cf6c690ea7961962de1129e02dcb"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-configuracion-de-colas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-configuracion-de-colas/
+  contentHash: b94239637eda367735ac5e32d61258a79628fa2dfec9ede3fcb116a7f1d129b9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Una vez dadas de alta las Especialidades se crean las Colas, acceda a Tareas → Procesos → Colas. Utiliza la opción Crear y selecciona una a una todas las especialidades creadas.
 
-## Contenido
-
+## Procedimiento
 Una vez creada la cola, se edita para configurar correctamente el sistema y le permite modificar los minutos que se asignan a cada tarea (de 5 en 5 minutos), entre otras funcionalidades.
 
 1.Privada (Solo se pueden asignar tareas por los trabajadores desde la tienda): En caso positivo las tareas en la cola solo pueden ser asignadas en tienda por los trabajadores desde el backoffice. Es decir, no es accesible desde a los clientes desde la Web, el APP o los kioscos. Suele ser NO.

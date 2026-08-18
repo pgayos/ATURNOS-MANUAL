@@ -1,43 +1,52 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-preguntas-frecuentes-sobre-permisos-y-absentismos-para-administradores"
-title: "Preguntas frecuentes sobre permisos y absentismos para administradores"
-description: "¿Qué sucede si no configuro el tipo de absentismo correctamente?."
+contentId: planificacion-guia-preguntas-frecuentes-sobre-permisos-y-absentismos-para-administradores
+title: Preguntas frecuentes sobre permisos y absentismos para administradores
+description: ¿Qué sucede si no configuro el tipo de absentismo correctamente?.
 contentType: reference
-module: "Planificación"
-submodule: "Permisos y absentismos"
-intent: "Preguntas frecuentes"
+module: Planificación
+submodule: Permisos y absentismos
+intent: Preguntas frecuentes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-08
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/non-knowledgebase/gestion-de-permisos-y-absentismos/preguntas-frecuentes-3/"
+    - https://guias.aturnos.com/guias/non-knowledgebase/gestion-de-permisos-y-absentismos/preguntas-frecuentes-3/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre preguntas frecuentes sobre permisos y absentismos para administradores?"
+    - ¿Qué debo saber sobre preguntas frecuentes sobre permisos y absentismos para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/non-knowledgebase/gestion-de-permisos-y-absentismos/preguntas-frecuentes-3/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/non-knowledgebase/gestion-de-permisos-y-absentismos/preguntas-frecuentes-3/
+  contentHash: 18581ff0f3c625cb0aa03831d7f905c0b1bf19541953ff233e629157e42d4853
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
 ¿Qué sucede si no configuro el tipo de absentismo correctamente?
 
-## Contenido
-
+## Opciones y datos disponibles
 Podrías enfrentar inconsistencias en los reportes de nómina o planificación de horas. Verifica los tipos y las opciones elegidas antes de guardarlos.
 
 ¿Puedo editar un tipo de absentismo después de crearlo?

@@ -1,53 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-conceptos-tipo-1-2-conceptos-asociados-a-horas"
+contentId: planificacion-conceptos-tipo-1-2-conceptos-asociados-a-horas
 title: "Conceptos tipo 1.2: Conceptos asociados a horas"
-description: "Información sobre conceptos tipo 1.2: Conceptos asociados a horas, con instrucciones y contexto revisables por el equipo de aTurnos."
+description: Contabilizan el número de horas que el trabajador tiene planificadas según el criterio de cada concepto.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
+module: Planificación
+submodule: Vacaciones y ausencias
 intent: "Conceptos tipo 1.2: Conceptos asociados a horas"
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "asociados"
-    label: "Asociados"
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "horas"
-    label: "Horas"
-  - id: "tipo"
-    label: "Tipo"
+  - id: asociados
+    label: Asociados
+  - id: conceptos
+    label: Conceptos
+  - id: horas
+    label: Horas
+  - id: tipo
+    label: Tipo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-1-2-conceptos-asociados-a-las-horas-personalizadas/"
+    - https://manual.aturnos.com/knowledgebase/2-1-2-conceptos-asociados-a-las-horas-personalizadas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-1-2-conceptos-asociados-a-las-horas-personalizadas/"
+    - https://manual.aturnos.com/knowledgebase/2-1-2-conceptos-asociados-a-las-horas-personalizadas/
 ai:
   answerableQuestions:
     - "¿Qué debo saber sobre conceptos tipo 1.2: Conceptos asociados a horas?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 11
+readingTime: 17
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b1491618d4935e1eae19303f4fe45a844367d088371bccdf955f7569ed2dd43d"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-1-2-conceptos-asociados-a-las-horas-personalizadas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-1-2-conceptos-asociados-a-las-horas-personalizadas/
+  contentHash: a9c95c390ada7d57df7e9f04179ad48e2cf52ecb8970e3f474d4b3c00739cc7a
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

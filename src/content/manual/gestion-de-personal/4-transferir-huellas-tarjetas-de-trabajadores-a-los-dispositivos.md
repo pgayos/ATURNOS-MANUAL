@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos"
-title: "Transferir huellas/tarjetas de trabajadores a los dispositivos"
-description: "Información sobre transferir huellas/tarjetas de trabajadores a los dispositivos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos
+title: Transferir huellas/tarjetas de trabajadores a los dispositivos
+description: Tenemos nuestros dispositivos y las huellas dactilares de nuestros trabajadores, registradas cada una en su perfil de usuario.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Transferir huellas/tarjetas de trabajadores a los dispositivos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Transferir huellas/tarjetas de trabajadores a los dispositivos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "dispositivos"
-    label: "Dispositivos"
-  - id: "huellas"
-    label: "Huellas"
-  - id: "tarjetas"
-    label: "Tarjetas"
-  - id: "trabajadores"
-    label: "Trabajadores"
-  - id: "transferir"
-    label: "Transferir"
+  - id: dispositivos
+    label: Dispositivos
+  - id: huellas
+    label: Huellas
+  - id: tarjetas
+    label: Tarjetas
+  - id: trabajadores
+    label: Trabajadores
+  - id: transferir
+    label: Transferir
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-volcado-de-trabajadores/"
+    - https://manual.aturnos.com/knowledgebase/4-volcado-de-trabajadores/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-volcado-de-trabajadores/"
+    - https://manual.aturnos.com/knowledgebase/4-volcado-de-trabajadores/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre transferir huellas/tarjetas de trabajadores a los dispositivos?"
+    - ¿Qué debo saber sobre transferir huellas/tarjetas de trabajadores a los dispositivos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ed8ead62a76dcae37646bf66f665c4192ed2c08e7c682e6e355965d76e7fbe54"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-volcado-de-trabajadores/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-volcado-de-trabajadores/
+  contentHash: bb39c415260ada5da6873a26a134881804dfffdc6f4a2bf8b9318eb3786bf1f6
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre transferir huellas/tarjetas de trabajadores a los dispositivos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Tenemos nuestros dispositivos y las huellas dactilares de nuestros trabajadores, registradas cada una en su perfil de usuario. La última fase antes de que nuestros trabajadores puedan empezar a realizar fichajes por medio de este sistema biométrico es el volcado de los usuarios a los dispositivos. La transferencia de las huellas a los dispositivos puede configurarse de forma automática en configuración- → servidor pero también puede mantenerse de forma manual.
 
 La acción que vamos a realizar es Transferir a Dispositivo. Mediante esta función, vincularemos a los diferentes usuarios a los dispositivos donde vayan a tener que fichar, teniendo la opción de que un mismo trabajador pueda realizar sus fichajes en distintos dispositivos.

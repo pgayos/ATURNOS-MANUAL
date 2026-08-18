@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-6-2-cierre-por-equipos"
-title: "Cierre por equipos"
-description: "Aprende a cierre por equipos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-6-2-cierre-por-equipos
+title: Cierre por equipos
+description: A través del cierre de cuadrante bloqueas la posibilidad de modificar la planificación existente.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Cierre por equipos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Cierre por equipos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cierre"
-    label: "Cierre"
-  - id: "equipos"
-    label: "Equipos"
+  - id: cierre
+    label: Cierre
+  - id: equipos
+    label: Equipos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-2-cierre-por-equipos/"
+    - https://manual.aturnos.com/knowledgebase/10-2-cierre-por-equipos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-2-cierre-por-equipos/"
+    - https://manual.aturnos.com/knowledgebase/10-2-cierre-por-equipos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo cierre por equipos?"
+    - ¿Cómo puedo cierre por equipos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d2be5c6881c4b4851ecf807d4fd43808905b0709af54e5cba1af77df29246d26"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-2-cierre-por-equipos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-2-cierre-por-equipos/
+  contentHash: a41aa2fba212554ce770e9efa886e71729ab6fe1adeee8a16e0473e2c27859fb
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a cierre por equipos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 A través del cierre de cuadrante bloqueas la posibilidad de modificar la planificación existente. El cuadrante se cierra de forma automática, si se selecciona la opción, cuando se ejecuta el proceso de exportación a nómina (ver más).
 
 No solo impide la modificación del cuadrante, sino que es un requisito previo para la descarga de nómina si en los ajustes del equipo está seleccionada esta opción, consulta Exportación a nómina.

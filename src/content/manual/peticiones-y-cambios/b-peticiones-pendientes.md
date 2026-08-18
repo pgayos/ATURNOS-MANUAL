@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-b-peticiones-pendientes"
-title: "Peticiones Pendientes"
-description: "Aprende a peticiones Pendientes, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-b-peticiones-pendientes
+title: Peticiones Pendientes
+description: Para acceder a esta pestaña debes ir al Menú → Cuadrante → Peticiones y cambios → Pendientes.
 contentType: procedure
-module: "Peticiones y cambios"
-submodule: "Vacaciones y ausencias"
-intent: "Peticiones Pendientes"
+module: Peticiones y cambios
+submodule: Vacaciones y ausencias
+intent: Peticiones Pendientes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "pendientes"
-    label: "Pendientes"
-  - id: "peticiones"
-    label: "Peticiones"
+  - id: pendientes
+    label: Pendientes
+  - id: peticiones
+    label: Peticiones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-5-2-peticiones-pendientes/"
+    - https://manual.aturnos.com/knowledgebase/2-5-2-peticiones-pendientes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-5-2-peticiones-pendientes/"
+    - https://manual.aturnos.com/knowledgebase/2-5-2-peticiones-pendientes/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo peticiones Pendientes?"
+    - ¿Cómo puedo peticiones Pendientes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "602dfa9fa0d61a43c8ad29f8582ded163a021e2b323bcb88184a5c51aa67dd61"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-5-2-peticiones-pendientes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-5-2-peticiones-pendientes/
+  contentHash: 5f03e5ef0e2b192b73497aeac055a2ec224248271341b501091b30217a42efc8
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -106,3 +113,7 @@ Más información sobre peticiones en aTurnos:
 ¿Cómo puedo gestionar las peticiones de vacaciones, absentismos, turnos, horas y libres?
 
 ¿Cómo deshacer una petición ya aprobada?
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

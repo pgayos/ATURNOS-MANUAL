@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-concepto-tipo-1-1-conceptos-relacionados-con-los-turnos"
+contentId: planificacion-concepto-tipo-1-1-conceptos-relacionados-con-los-turnos
 title: "Concepto tipo 1.1: Conceptos relacionados con los turnos"
-description: "Descarga el número de turnos entrantes en el día seleccionado, es decir, aquellos turnos cuyo inicio se sitúen en el día seleccionado."
+description: Descarga el número de turnos entrantes en el día seleccionado, es decir, aquellos turnos cuyo inicio se sitúen en el día seleccionado.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
+module: Planificación
+submodule: Vacaciones y ausencias
 intent: "Concepto tipo 1.1: Conceptos relacionados con los turnos"
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "concepto"
-    label: "Concepto"
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "relacionados"
-    label: "Relacionados"
-  - id: "tipo"
-    label: "Tipo"
-  - id: "turnos"
-    label: "Turnos"
+  - id: concepto
+    label: Concepto
+  - id: conceptos
+    label: Conceptos
+  - id: relacionados
+    label: Relacionados
+  - id: tipo
+    label: Tipo
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-conceptos-asociados-a-las-horas-por-turnos-computadas/"
+    - https://manual.aturnos.com/knowledgebase/2-conceptos-asociados-a-las-horas-por-turnos-computadas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-conceptos-asociados-a-las-horas-por-turnos-computadas/"
+    - https://manual.aturnos.com/knowledgebase/2-conceptos-asociados-a-las-horas-por-turnos-computadas/
 ai:
   answerableQuestions:
     - "¿Cómo puedo concepto tipo 1.1: Conceptos relacionados con los turnos?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 8
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "601d13cb3af0767c8e49fce8bfbd224e80c8051240e22d37b62d281af06c3c96"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-conceptos-asociados-a-las-horas-por-turnos-computadas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-conceptos-asociados-a-las-horas-por-turnos-computadas/
+  contentHash: 1af55542a875c7328e704b6d8a4f2ec1eeec2e220e0ac093b0af2b4a349828c7
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Descarga el número de turnos entrantes en el día seleccionado, es decir, aquellos turnos cuyo inicio se sitúen en el día seleccionado.
 
-## Contenido
-
+## Procedimiento
 Turnos
 
 - Contabiliza los turnos con duración total, independientemente de su duración computada.

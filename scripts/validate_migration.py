@@ -54,9 +54,21 @@ def main() -> int:
     content_ids: dict[str, list[str]] = defaultdict(list)
     long_paragraphs = 0
     tiny_bodies = 0
+    missing_traceability = 0
+    generic_descriptions = 0
+    pending_labels = 0
     for path in generated:
         text = path.read_text(encoding="utf-8")
         body = body_of(text)
+        if not re.search(r"^\s+originUrls:\s*$", text, re.M) or not re.search(r"^\s+redirectFrom:\s*$", text, re.M):
+            missing_traceability += 1
+        description = re.search(r"^description:\s*(.+)$", text, re.M)
+        if description and re.search(r"con instrucciones y contexto revisables|Información sobre .* en aTurnos", description.group(1), re.I):
+            generic_descriptions += 1
+        if re.search(r"^\s+- PENDIENTE\s*$", text, re.M):
+            pending_labels += 1
+            if "## PENDIENTE de validación" not in body:
+                failures.append(f"PENDIENTE label without review section: {path.relative_to(ROOT)}")
         if media_pattern.search(body):
             failures.append(f"media reference found: {path.relative_to(ROOT)}")
         if not re.search(r"^##\s+", body, re.M):
@@ -92,6 +104,10 @@ def main() -> int:
         failures.append(f"{len(missing_targets)} redirect targets do not resolve")
     if long_paragraphs:
         failures.append(f"{long_paragraphs} paragraphs exceed 620 characters")
+    if missing_traceability:
+        failures.append(f"{missing_traceability} articles lack origin/redirect traceability")
+    if generic_descriptions:
+        failures.append(f"{generic_descriptions} generic descriptions remain")
     if tiny_bodies:
         warnings.append(f"{tiny_bodies} generated drafts contain fewer than 25 words")
     status_counts = Counter("invalid" if entry.get("invalidSource") else "content" for entry in report["entries"])
@@ -99,7 +115,8 @@ def main() -> int:
         "sourceUrls": report["sourceUrls"], "externalGuides": guides_report["created"], "canonicalFiles": len(files), "generatedMarkdown": len(generated),
         "redirects": len(redirects), "duplicateBodies": len(duplicate_bodies), "duplicateContentIds": len(duplicate_ids),
         "missingRedirectTargets": len(missing_targets), "mediaReferences": sum("media reference" in f for f in failures),
-        "longParagraphs": long_paragraphs, "veryShortDrafts": tiny_bodies, "entryTypes": status_counts,
+        "longParagraphs": long_paragraphs, "veryShortDrafts": tiny_bodies, "pendingReview": pending_labels,
+        "missingTraceability": missing_traceability, "genericDescriptions": generic_descriptions, "entryTypes": status_counts,
         "warnings": warnings, "failures": failures,
     }
     print(json.dumps(result, ensure_ascii=False, indent=2))

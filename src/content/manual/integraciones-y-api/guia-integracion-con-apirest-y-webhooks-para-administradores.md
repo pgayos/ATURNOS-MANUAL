@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "integraciones-y-api-guia-integracion-con-apirest-y-webhooks-para-administradores"
-title: "Integración con APIRest y Webhooks para administradores"
-description: "Información sobre integración con APIRest y Webhooks para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: integraciones-y-api-guia-integracion-con-apirest-y-webhooks-para-administradores
+title: Integración con APIRest y Webhooks para administradores
+description: En un entorno empresarial cada vez más orientado a la digitalización, las APIs (Interfaces de Programación de Aplicaciones) se han convertido en herramientas indispensables para la integraci.
 contentType: concept
-module: "Integraciones y API"
-submodule: "Sistemas externos"
-intent: "Integración con APIRest y Webhooks"
+module: Integraciones y API
+submodule: Sistemas externos
+intent: Integración con APIRest y Webhooks
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-04-02
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-apirest-y-webhooks/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-apirest-y-webhooks/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre integración con APIRest y Webhooks para administradores?"
+    - ¿Qué debo saber sobre integración con APIRest y Webhooks para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-apirest-y-webhooks/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-apirest-y-webhooks/
+  contentHash: 37d1d145ded9e0a13659f9797943b37b656119fc28faf59e363a81178a5af3d5
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

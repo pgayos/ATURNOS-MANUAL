@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-crear-listado-de-absentismos-del-equipo-para-administradores"
-title: "Crear listado de absentismos del equipo para administradores"
-description: "Aprende a crear listado de absentismos del equipo para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-crear-listado-de-absentismos-del-equipo-para-administradores
+title: Crear listado de absentismos del equipo para administradores
+description: Una correcta gestión de permisos y ausencias es esencial para que los equipos trabajen de forma organizada y eficiente.
 contentType: procedure
-module: "Planificación"
-submodule: "Permisos y absentismos"
-intent: "Crear listado de absentismos del equipo"
+module: Planificación
+submodule: Permisos y absentismos
+intent: Crear listado de absentismos del equipo
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-03-19
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/crear-listado-abs/"
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/crear-listado-abs/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo crear listado de absentismos del equipo para administradores?"
+    - ¿Cómo puedo crear listado de absentismos del equipo para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/crear-listado-abs/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/crear-listado-abs/
+  contentHash: 5e1ba729788edf2c3741a2c69f5eac2822c51120c2bc99e5666417078443494e
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

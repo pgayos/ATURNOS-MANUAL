@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-2-menos-de-12-hrs-entre-fichajes"
-title: "Menos de 12 hrs entre fichajes"
-description: "Aprende a menos de 12 hrs entre fichajes, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-2-menos-de-12-hrs-entre-fichajes
+title: Menos de 12 hrs entre fichajes
+description: Los trabajadores que hayan fichado en menos de 12 horas entre un fichaje cerrado y el siguiente, se mostrarán en este reporte.
 contentType: procedure
-module: "Control horario"
-submodule: "Altas y bajas"
-intent: "Menos de 12 hrs entre fichajes"
+module: Control horario
+submodule: Altas y bajas
+intent: Menos de 12 hrs entre fichajes
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "entre"
-    label: "Entre"
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "hrs"
-    label: "Hrs"
-  - id: "menos"
-    label: "Menos"
+  - id: entre
+    label: Entre
+  - id: fichajes
+    label: Fichajes
+  - id: hrs
+    label: Hrs
+  - id: menos
+    label: Menos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-menos-de-12-hrs-entre-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/2-menos-de-12-hrs-entre-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-menos-de-12-hrs-entre-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/2-menos-de-12-hrs-entre-fichajes/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo menos de 12 hrs entre fichajes?"
+    - ¿Cómo puedo menos de 12 hrs entre fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "43cdc638a87d8d740da0abdcf4e2ff8ece99cd5f0ef5c35b49f5504e61039581"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-menos-de-12-hrs-entre-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-menos-de-12-hrs-entre-fichajes/
+  contentHash: 19c497a0b13c4fd076d8aa0679bd3bb48c00abd28a1b51bab3883b907e7654ed
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a menos de 12 hrs entre fichajes, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Los trabajadores que hayan fichado en menos de 12 horas entre un fichaje cerrado y el siguiente, se mostrarán en este reporte. Esto siempre que se cumpla la configuración de “Tiempo máximo en minutos para considerar descanso”, ya que cuando la duración entre el fichaje cerrado anterior y el siguiente supere la duración de minutos configurada.
 
 El reporte informa:

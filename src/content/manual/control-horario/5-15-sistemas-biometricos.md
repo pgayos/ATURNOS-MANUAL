@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-15-sistemas-biometricos"
-title: "Sistemas biométricos"
-description: "Información sobre sistemas biométricos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-15-sistemas-biometricos
+title: Sistemas biométricos
+description: Los lugares físicos de trabajo donde existe un gran número de trabajadores planificados pueden realizar los fichajes entrada y salida por equipos biométricos, que ya existan en la empresa o.
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Sistemas biométricos"
+module: Control horario
+submodule: Fichajes
+intent: Sistemas biométricos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "biometricos"
-    label: "Biometricos"
-  - id: "sistemas"
-    label: "Sistemas"
+  - id: biometricos
+    label: Biometricos
+  - id: sistemas
+    label: Sistemas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-15-sistemas-biometricos/"
+    - https://manual.aturnos.com/knowledgebase/5-15-sistemas-biometricos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-15-sistemas-biometricos/"
+    - https://manual.aturnos.com/knowledgebase/5-15-sistemas-biometricos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre sistemas biométricos?"
+    - ¿Qué debo saber sobre sistemas biométricos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c8590a26518912856481d69793316b9e737721be2b14e7827660955bfda785ea"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-15-sistemas-biometricos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-15-sistemas-biometricos/
+  contentHash: 9616193cc50768ab9f943f899fe1cd8593f64df71a8300e3d1f2ed56bf390118
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre sistemas biométricos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Los lugares físicos de trabajo donde existe un gran número de trabajadores planificados pueden realizar los fichajes entrada y salida por equipos biométricos, que ya existan en la empresa o los modelos de Suprema con los que trabaja aTurnos.
 
 Existen dos formas de fichar:

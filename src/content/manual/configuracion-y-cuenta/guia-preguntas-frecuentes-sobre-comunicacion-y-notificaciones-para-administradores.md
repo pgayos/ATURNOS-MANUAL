@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-guia-preguntas-frecuentes-sobre-comunicacion-y-notificaciones-para-administradores"
-title: "Preguntas frecuentes sobre comunicación y notificaciones para administradores"
-description: "Los usuarios no recibirán notificaciones sobre las acciones configuradas, pero podrán consultar la actividad directamente en aTurnos."
+contentId: configuracion-y-cuenta-guia-preguntas-frecuentes-sobre-comunicacion-y-notificaciones-para-administradores
+title: Preguntas frecuentes sobre comunicación y notificaciones para administradores
+description: Los usuarios no recibirán notificaciones sobre las acciones configuradas, pero podrán consultar la actividad directamente en aTurnos.
 contentType: reference
-module: "Configuración y cuenta"
-submodule: "Comunicación y notificaciones"
-intent: "Preguntas frecuentes"
+module: Configuración y cuenta
+submodule: Comunicación y notificaciones
+intent: Preguntas frecuentes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-09
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/preguntas-frecuentes-4/"
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/preguntas-frecuentes-4/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre preguntas frecuentes sobre comunicación y notificaciones para administradores?"
+    - ¿Qué debo saber sobre preguntas frecuentes sobre comunicación y notificaciones para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/preguntas-frecuentes-4/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/preguntas-frecuentes-4/
+  contentHash: b8a8b5b23a11a80867af274b0867f9fcaeae5b48eb5bd43efd24ff20833ee21b
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -127,3 +138,7 @@ Actualmente, no es posible exportar directamente los comentarios desde el sistem
 - ¿Se notifican los comentarios a los trabajadores?
 
 No se envían notificaciones automáticas. Los trabajadores deben revisar el cuadrante para visualizar los comentarios.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

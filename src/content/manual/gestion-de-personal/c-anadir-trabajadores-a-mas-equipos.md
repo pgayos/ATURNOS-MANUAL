@@ -1,62 +1,67 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-c-anadir-trabajadores-a-mas-equipos"
-title: "Añadir trabajadores a más equipos"
-description: "Si la necesidad es añadir a un trabajador en otro equipo, el cual ya está dado de alta en un equipo, desde el maestro de empleados, el superusuario lo puede gestionar siguiendo estos pasos:."
+contentId: gestion-de-personal-c-anadir-trabajadores-a-mas-equipos
+title: Añadir trabajadores a más equipos
+description: Si la necesidad es añadir a un trabajador en otro equipo, el cual ya está dado de alta en un equipo, desde el maestro de empleados, el superusuario lo puede gestionar siguiendo estos pasos:.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Añadir trabajadores a más equipos"
+module: Gestión de personal
+submodule: Contratos
+intent: Añadir trabajadores a más equipos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anadir"
-    label: "Anadir"
-  - id: "equipos"
-    label: "Equipos"
-  - id: "mas"
-    label: "Mas"
-  - id: "trabajadores"
-    label: "Trabajadores"
+  - id: anadir
+    label: Anadir
+  - id: equipos
+    label: Equipos
+  - id: mas
+    label: Mas
+  - id: trabajadores
+    label: Trabajadores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-3-anadir-el-trabajador-a-mas-equipos/"
+    - https://manual.aturnos.com/knowledgebase/1-3-anadir-el-trabajador-a-mas-equipos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-3-anadir-el-trabajador-a-mas-equipos/"
+    - https://manual.aturnos.com/knowledgebase/1-3-anadir-el-trabajador-a-mas-equipos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo añadir trabajadores a más equipos?"
+    - ¿Cómo puedo añadir trabajadores a más equipos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "66ab450bc6e73ba8cb49bf67b61c96e8ae8fc24d15631204c04e8a3f4e7c82ee"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-3-anadir-el-trabajador-a-mas-equipos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-3-anadir-el-trabajador-a-mas-equipos/
+  contentHash: 2019be5f107126e754ac2091e58a7aa4ecdda68b4cd4f377fdabe0aba07d254d
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Si la necesidad es añadir a un trabajador en otro equipo, el cual ya está dado de alta en un equipo, desde el maestro de empleados, el superusuario lo puede gestionar siguiendo estos pasos:.
 
-## Contenido
-
+## Procedimiento
 - Tiene que hacer clic en el botón “+” y completar los campos necesarios del formulario.
 
 1. El equipo de destino: equipo donde se añade y activa al trabajador.

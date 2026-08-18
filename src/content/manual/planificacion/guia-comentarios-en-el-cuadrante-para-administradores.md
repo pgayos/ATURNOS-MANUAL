@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-comentarios-en-el-cuadrante-para-administradores"
-title: "Comentarios en el cuadrante para administradores"
-description: "Aprende a comentarios en el cuadrante para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-comentarios-en-el-cuadrante-para-administradores
+title: Comentarios en el cuadrante para administradores
+description: La función de comentarios en aTurnos permite compartir información adicional o dar indicaciones específicas directamente en el cuadrante o en los procesos de peticiones y cambios.
 contentType: procedure
-module: "Planificación"
-submodule: "Cuadrante"
-intent: "Comentarios en el cuadrante"
+module: Planificación
+submodule: Cuadrante
+intent: Comentarios en el cuadrante
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-02-04
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/comentarios-en-el-cuadrante/"
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/comentarios-en-el-cuadrante/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo comentarios en el cuadrante para administradores?"
+    - ¿Cómo puedo comentarios en el cuadrante para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/comentarios-en-el-cuadrante/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/comentarios-en-el-cuadrante/
+  contentHash: 3d6498a057067fdb57b7083e6d91dd8c24cecc1c03fc6ace4e0d1da104b71e22
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -92,3 +103,7 @@ Los supervisores pueden dejar comentarios solo visibles para otros administrador
 - Indicaciones de equipo:
 
 Un comentario visible para todos puede incluir detalles sobre un evento o instrucciones generales para todo el equipo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

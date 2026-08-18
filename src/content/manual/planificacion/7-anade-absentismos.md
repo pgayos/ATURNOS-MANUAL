@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-7-anade-absentismos"
-title: "Añade absentismos"
-description: "Aprende a añade absentismos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-7-anade-absentismos
+title: Añade absentismos
+description: Un absentismo es una ausencia del trabajador al no estar ejerciendo sus funciones y deberes de su puesto de trabajo en un horario planificado.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Añade absentismos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Añade absentismos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
-  - id: "anade"
-    label: "Anade"
+  - id: absentismos
+    label: Absentismos
+  - id: anade
+    label: Anade
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/f-anade-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/f-anade-absentismos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/f-anade-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/f-anade-absentismos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo añade absentismos?"
+    - ¿Cómo puedo añade absentismos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "171872846b60c8e56e31eafb51f69d92991ba24a4acab3e6b9533e7023faae16"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/f-anade-absentismos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/f-anade-absentismos/
+  contentHash: fc044ba7b20b1a5b914f8de646d7423ac4002143543f2d9f8ca714fb985ba285
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -110,3 +117,7 @@ Con esta opción se pueden visualizar los periodos de absentismo sin necesidad d
 Esta opción permite borrar los absentismos insertados entre dos fechas (no confundir con la opción anterior de “Periodos de absentismo”). Para ello hay que introducir las fechas entre las cuales se desean eliminar los absentismos totales y guardar.
 
 Para quitar un absentismo total, hay que hacer clic encima del turno afectado por el absentismo, se desplegará el menú de opciones. Seleccionando la opción Absentismo, se nos abrirá otro menú donde elegir ‘Quitar absentismo’.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

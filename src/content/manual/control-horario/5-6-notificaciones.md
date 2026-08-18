@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-6-notificaciones"
-title: "Notificaciones"
-description: "Los trabajadores o administradores pueden ser notificados en dos casos:."
+contentId: control-horario-5-6-notificaciones
+title: Notificaciones
+description: Los trabajadores o administradores pueden ser notificados en dos casos:.
 contentType: reference
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Notificaciones"
+module: Control horario
+submodule: Fichajes
+intent: Notificaciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "notificaciones"
-    label: "Notificaciones"
+  - id: notificaciones
+    label: Notificaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-6-notificaciones/"
+    - https://manual.aturnos.com/knowledgebase/5-6-notificaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-6-notificaciones/"
+    - https://manual.aturnos.com/knowledgebase/5-6-notificaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre notificaciones?"
+    - ¿Qué debo saber sobre notificaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bb73ede048360ac221192c07a6c65322de257ebd312c2d07327b4af7e89c7c1b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-6-notificaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-6-notificaciones/
+  contentHash: 528fb04913d549243b7fa847932b416b66f9c9db0c373c62634ab7a1d3edb03a
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Los trabajadores o administradores pueden ser notificados en dos casos:.
 
-## Contenido
-
+## Opciones y datos disponibles
 - Fichaje realizado sobre un día de vacaciones.
 - Horas Extra/Complementarias sin fichar.
 

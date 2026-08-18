@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-1-maestro-de-empleados"
-title: "Maestro de empleados"
-description: "El maestro de empleados es una de las herramientas más interesantes que ofrece aTurnos para el departamento de RRHH y superusuarios de nuestros clientes."
+contentId: gestion-de-personal-1-1-maestro-de-empleados
+title: Maestro de empleados
+description: El maestro de empleados es una de las herramientas más interesantes que ofrece aTurnos para el departamento de RRHH y superusuarios de nuestros clientes.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Maestro de empleados"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Maestro de empleados
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "empleados"
-    label: "Empleados"
-  - id: "maestro"
-    label: "Maestro"
+  - id: empleados
+    label: Empleados
+  - id: maestro
+    label: Maestro
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-1-maestro-de-empleados/"
+    - https://manual.aturnos.com/knowledgebase/1-1-maestro-de-empleados/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-1-maestro-de-empleados/"
+    - https://manual.aturnos.com/knowledgebase/1-1-maestro-de-empleados/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo maestro de empleados?"
+    - ¿Cómo puedo maestro de empleados?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "87ef6c762a53a48281f37598157a3167d42e0abb62af20b6b708495b3cb2c0d7"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-1-maestro-de-empleados/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-1-maestro-de-empleados/
+  contentHash: 464919383cb9add964dd0b919324377e2c401a0b7ab051d279c7503b60ec579d
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El maestro de empleados es una de las herramientas más interesantes que ofrece aTurnos para el departamento de RRHH y superusuarios de nuestros clientes.
 
-## Contenido
-
+## Procedimiento
 Para acceder al maestro de empleado lo puede hacer cualquier superusuario desde el menú de RRHH → Estructura → Maestro de empleado.
 
 Desde este menú se visualizan en pantalla todos los usuarios de los equipos a los que tiene acceso el superusuario.

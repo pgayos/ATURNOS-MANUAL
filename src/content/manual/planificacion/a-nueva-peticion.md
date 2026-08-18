@@ -1,51 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-a-nueva-peticion"
-title: "Nueva petición"
-description: "Como administrador podrás realizar peticiones de vacaciones, permisos de días… así como cambios de turno, doblajes…."
+contentId: planificacion-a-nueva-peticion
+title: Nueva petición
+description: Como administrador podrás realizar peticiones de vacaciones, permisos de días… así como cambios de turno, doblajes….
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Nueva petición"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Nueva petición
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "nueva"
-    label: "Nueva"
-  - id: "peticion"
-    label: "Peticion"
+  - id: nueva
+    label: Nueva
+  - id: peticion
+    label: Peticion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-5-1-nueva-peticion-y-filtro/"
+    - https://manual.aturnos.com/knowledgebase/2-5-1-nueva-peticion-y-filtro/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-5-1-nueva-peticion-y-filtro/"
+    - https://manual.aturnos.com/knowledgebase/2-5-1-nueva-peticion-y-filtro/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo nueva petición?"
+    - ¿Cómo puedo nueva petición?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "461102bafa914c17396afb575c79e1bc2a8e068b976d88c86b8eab7fecd102e6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-5-1-nueva-peticion-y-filtro/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-5-1-nueva-peticion-y-filtro/
+  contentHash: cd3d1d63e59fcfde4e7842d31fbca79f3bdb854daa658b7443ec588b0f209ad9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

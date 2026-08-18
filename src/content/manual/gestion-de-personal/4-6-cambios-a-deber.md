@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-4-6-cambios-a-deber"
-title: "Cambios a deber"
-description: "Información sobre cambios a deber, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-4-6-cambios-a-deber
+title: Cambios a deber
+description: El administrador puede entrar en detalle y saber si los cambios han sido devueltos o no, comprobando si los trabajadores del equipo se deben turnos.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Altas y bajas"
-intent: "Cambios a deber"
+module: Gestión de personal
+submodule: Altas y bajas
+intent: Cambios a deber
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cambios"
-    label: "Cambios"
-  - id: "deber"
-    label: "Deber"
+  - id: cambios
+    label: Cambios
+  - id: deber
+    label: Deber
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-6-debe-haber-turnos/"
+    - https://manual.aturnos.com/knowledgebase/4-6-debe-haber-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-6-debe-haber-turnos/"
+    - https://manual.aturnos.com/knowledgebase/4-6-debe-haber-turnos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cambios a deber?"
+    - ¿Qué debo saber sobre cambios a deber?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "eed41b6024a2662d5fd2e8f283982a972b88bfb84e51dd8f439830537817b723"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-6-debe-haber-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-6-debe-haber-turnos/
+  contentHash: f6fbc91b086b32e07171c8514151152a90ca526090cd0143b8df9322214681e5
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre cambios a deber, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 El administrador puede entrar en detalle y saber si los cambios han sido devueltos o no, comprobando si los trabajadores del equipo se deben turnos. Se puede acceder a esta información desde el menú Registro → Cambios a deber, además esta información se puede filtrar por la fecha que se desee en la barra de la parte superior. Los cambios a deber irán desapareciendo de esta lista según se vayan devolviendo.
 
 Estas deudas de cambios pendientes por devolver, se generan cuando se solicita un “Libre o Doblaje” desde el cuadrante, mediante la opción “Hacer cambio” y se haga clic en la opción “dejar a deber” (ver más en: Hacer cambio).

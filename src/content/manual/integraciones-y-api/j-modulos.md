@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "integraciones-y-api-j-modulos"
-title: "Módulos en aTurnos"
-description: "Información sobre módulos en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: integraciones-y-api-j-modulos
+title: Módulos en aTurnos
+description: Principalmente, esta página muestra datos técnicos del equipo (Datos de la API), que son de utilidad para identificarlos y para los casos en los que hay integración entre aTurnos y el sistem.
 contentType: concept
-module: "Integraciones y API"
-submodule: "General"
-intent: "Módulos en aTurnos"
+module: Integraciones y API
+submodule: General
+intent: Módulos en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "modulos"
-    label: "Modulos"
+  - id: modulos
+    label: Modulos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/j-modulos/"
+    - https://manual.aturnos.com/knowledgebase/j-modulos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/j-modulos/"
+    - https://manual.aturnos.com/knowledgebase/j-modulos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre módulos en aTurnos?"
+    - ¿Qué debo saber sobre módulos en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8ee4ef532edbca02a6db1b20c2272a7219c4f79b455df4e52565314de0896df7"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/j-modulos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/j-modulos/
+  contentHash: 67e3d3dc9d662f844711b77793ac52d698921fbd544020675ea72a07e094aa63
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre módulos en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Principalmente, esta página muestra datos técnicos del equipo (Datos de la API), que son de utilidad para identificarlos y para los casos en los que hay integración entre aTurnos y el sistema de nómina del cliente. De igual forma, cuando el equipo cuenta con módulos adicionales como el de Recursos, Tareas, etc, podrá configurar desde esta pantalla información de los mismos, tal como se muestra en este ejemplo para el módulo de Recursos que tenia asignado el equipo.
 
 En aTurnos, además de las funcionalidades que se muestran por defecto en nuestro menú principal, también se ofrecen Módulos para poder realizar actividades o funciones adicionales. El administrador tiene la opción de solicitar a Turnos su activación en el equipo para disponer de dichos módulos. Entre estos se encuentran:

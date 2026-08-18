@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-vacaciones-para-trabajadores"
-title: "Vacaciones para trabajadores"
-description: "Información sobre vacaciones para trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-vacaciones-para-trabajadores
+title: Vacaciones para trabajadores
+description: aTurnos permite gestionar fácilmente las solicitudes de vacaciones, ya seas trabajador o administrador.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones"
-intent: "Vacaciones"
+module: Planificación
+submodule: Vacaciones
+intent: Vacaciones
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-28
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/vacaciones/"
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/vacaciones/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre vacaciones para trabajadores?"
+    - ¿Qué debo saber sobre vacaciones para trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/vacaciones/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/vacaciones/
+  contentHash: a6678f95a5356b23fda2bcafa15eefc4e82cc7db04c65f9c289834204c653eff
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

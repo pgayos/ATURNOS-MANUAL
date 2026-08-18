@@ -1,62 +1,69 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-configuracion-reportes-rrhh"
-title: "Configuración Reportes RRHH"
-description: "El superusuario, desde la opción RRHH → ESTADISTICAS → CONFIGURACION REPORTE RRHH se parametriza:."
+contentId: gestion-de-personal-1-configuracion-reportes-rrhh
+title: Configuración Reportes RRHH
+description: El superusuario, desde la opción RRHH → ESTADISTICAS → CONFIGURACION REPORTE RRHH se parametriza:.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Configuración Reportes RRHH"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Configuración Reportes RRHH
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "configuracion"
-    label: "Configuracion"
-  - id: "reportes"
-    label: "Reportes"
-  - id: "rrhh"
-    label: "Rrhh"
+  - id: configuracion
+    label: Configuracion
+  - id: reportes
+    label: Reportes
+  - id: rrhh
+    label: Rrhh
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-8-configuracion-reportes-rrhh/"
-    - "https://manual.aturnos.com/knowledgebase/f-configuracion-reportes-rrhh/"
+    - https://manual.aturnos.com/knowledgebase/8-8-configuracion-reportes-rrhh/
+    - https://manual.aturnos.com/knowledgebase/f-configuracion-reportes-rrhh/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-8-configuracion-reportes-rrhh/"
-    - "https://manual.aturnos.com/knowledgebase/f-configuracion-reportes-rrhh/"
+    - https://manual.aturnos.com/knowledgebase/8-8-configuracion-reportes-rrhh/
+    - https://manual.aturnos.com/knowledgebase/f-configuracion-reportes-rrhh/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre configuración Reportes RRHH?"
+    - ¿Qué debo saber sobre configuración Reportes RRHH?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 2
-  contentHash: "a96c175627a73c85c968c2571d22abf908f7a20ead1d55824e9ecd0c29677cf6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-8-configuracion-reportes-rrhh/
+    - https://manual.aturnos.com/knowledgebase/f-configuracion-reportes-rrhh/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-8-configuracion-reportes-rrhh/
+    - https://manual.aturnos.com/knowledgebase/f-configuracion-reportes-rrhh/
+  contentHash: bf59fa9fad7aeea36174931d815481d4299a1833da2e9ba53ee1e9e3ce2e30c4
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El superusuario, desde la opción RRHH → ESTADISTICAS → CONFIGURACION REPORTE RRHH se parametriza:.
 
-## Contenido
-
+## Opciones y datos disponibles
 1.- El formato de salida:
 
 - Excel o csv (en este caso se debe indicar el separador)

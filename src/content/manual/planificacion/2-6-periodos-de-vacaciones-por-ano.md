@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-6-periodos-de-vacaciones-por-ano"
-title: "Periodos de vacaciones por año"
-description: "Aprende a periodos de vacaciones por año, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-2-6-periodos-de-vacaciones-por-ano
+title: Periodos de vacaciones por año
+description: En este menú tendremos acceso a los periodos de vacaciones de los trabajadores de los equipos que se carguen en el año que se indique.
 contentType: procedure
-module: "Planificación"
-submodule: "Contratos"
-intent: "Periodos de vacaciones por año"
+module: Planificación
+submodule: Contratos
+intent: Periodos de vacaciones por año
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "ano"
-    label: "Ano"
-  - id: "periodos"
-    label: "Periodos"
-  - id: "vacaciones"
-    label: "Vacaciones"
+  - id: ano
+    label: Ano
+  - id: periodos
+    label: Periodos
+  - id: vacaciones
+    label: Vacaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-6-periodos-de-vacaciones-por-ano/"
+    - https://manual.aturnos.com/knowledgebase/7-6-periodos-de-vacaciones-por-ano/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-6-periodos-de-vacaciones-por-ano/"
+    - https://manual.aturnos.com/knowledgebase/7-6-periodos-de-vacaciones-por-ano/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo periodos de vacaciones por año?"
+    - ¿Cómo puedo periodos de vacaciones por año?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d0d401b22ada6a83deaa082f38e429f9485321ca99f3b3750f129e92530523bd"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-6-periodos-de-vacaciones-por-ano/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-6-periodos-de-vacaciones-por-ano/
+  contentHash: 6ab91c5d0dc67d1025e28517c1b8c87bd70ef0931757eabb6d138abf9f7e5b7b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a periodos de vacaciones por año, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 En este menú tendremos acceso a los periodos de vacaciones de los trabajadores de los equipos que se carguen en el año que se indique. A modo de resumen se muestran por meses los días de vacaciones o periodos (en el caso de haber más de un día, desde el día de inicio y el día fin de vacaciones). También informa del saldo de vacaciones del trabajador en el equipo en el año consultado.
 
 En la barra superior se puede seleccionar:

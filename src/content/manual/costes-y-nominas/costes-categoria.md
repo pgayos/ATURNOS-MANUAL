@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-costes-categoria"
-title: "Costes/Categoría"
-description: "Información sobre costes/Categoría, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: costes-y-nominas-costes-categoria
+title: Costes/Categoría
+description: Este tipo de coste se recomienda para aquellas empresas que deben diferenciar el coste de las horas por grupos o categorías profesionales.
 contentType: reference
-module: "Costes y nóminas"
-submodule: "Vacaciones y ausencias"
-intent: "Costes/Categoría"
+module: Costes y nóminas
+submodule: Vacaciones y ausencias
+intent: Costes/Categoría
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "categoria"
-    label: "Categoria"
-  - id: "costes"
-    label: "Costes"
+  - id: categoria
+    label: Categoria
+  - id: costes
+    label: Costes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/costes-por-categoria/"
+    - https://manual.aturnos.com/knowledgebase/costes-por-categoria/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/costes-por-categoria/"
+    - https://manual.aturnos.com/knowledgebase/costes-por-categoria/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre costes/Categoría?"
+    - ¿Qué debo saber sobre costes/Categoría?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "939e6af99406816baca49c2891e0a15af889326fceb0e2b79d6c92769065ea3e"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/costes-por-categoria/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/costes-por-categoria/
+  contentHash: 85d33e33bfab3ba043885e9384828f2d9241201afb5eebe54542d3ca65c8aa45
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre costes/Categoría, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Este tipo de coste se recomienda para aquellas empresas que deben diferenciar el coste de las horas por grupos o categorías profesionales. Se podrá establecer el coste por hora de una o varias categorías profesionales que existan en el equipo (Ver más acerca de Categorías).
 
 La configuración del coste por categoría se realiza desde el menú Trabajadores – Datos del Trabajador – Categorías, y editar la categoría (en el icono del lapicero de las Acciones), tal como te mostramos a continuación:

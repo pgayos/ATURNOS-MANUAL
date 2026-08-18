@@ -1,53 +1,60 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-7-crear-tipos-de-turnos"
-title: "Crear tipos de turnos"
-description: "El administrador puede tener definido previamente un horario de trabajo, lo que en aTurnos llamamos ‘ Tipos de turno ’."
+contentId: planificacion-7-crear-tipos-de-turnos
+title: Crear tipos de turnos
+description: El administrador puede tener definido previamente un horario de trabajo, lo que en aTurnos llamamos ‘ Tipos de turno ’.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Crear tipos de turnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Crear tipos de turnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "crear"
-    label: "Crear"
-  - id: "tipos"
-    label: "Tipos"
-  - id: "turnos"
-    label: "Turnos"
+  - id: crear
+    label: Crear
+  - id: tipos
+    label: Tipos
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-crear-tipos-de-turnos/"
+    - https://manual.aturnos.com/knowledgebase/7-crear-tipos-de-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-crear-tipos-de-turnos/"
+    - https://manual.aturnos.com/knowledgebase/7-crear-tipos-de-turnos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre crear tipos de turnos?"
+    - ¿Qué debo saber sobre crear tipos de turnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d1c1c9726654de9daa2e16714ede055dc8c9935f16911cafb5cea03fe4de8d9a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-crear-tipos-de-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-crear-tipos-de-turnos/
+  contentHash: fe9677d2ea165eac8ef62a9af1933c0888bd95a40483abfb0690f0de3ce5a177
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -90,3 +97,7 @@ Pero si se quiere un histórico donde a partir de una fecha, la configuración s
 Finalmente, guardar el documento como formato tipo CSV.
 
 Para importar el archivo, debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

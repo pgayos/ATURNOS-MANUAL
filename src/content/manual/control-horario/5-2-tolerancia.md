@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-2-tolerancia"
-title: "Tolerancia"
-description: "Información sobre tolerancia, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-2-tolerancia
+title: Tolerancia
+description: La tolerancia es el lapso de tiempo que se permite al trabajador para poder realizar un fichaje de entrada o salida de su turno de trabajo planificado, sin que se cuantifique como defecto o.
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Tolerancia"
+module: Control horario
+submodule: Fichajes
+intent: Tolerancia
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "tolerancia"
-    label: "Tolerancia"
+  - id: tolerancia
+    label: Tolerancia
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-2-tolerancia/"
+    - https://manual.aturnos.com/knowledgebase/5-2-tolerancia/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-2-tolerancia/"
+    - https://manual.aturnos.com/knowledgebase/5-2-tolerancia/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre tolerancia?"
+    - ¿Qué debo saber sobre tolerancia?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d99089f4bd48295040bc4faa0e00454a807d7a4943845fb7f8b653aabf090c25"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-2-tolerancia/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-2-tolerancia/
+  contentHash: 5a08aa1473d20a836463298d12316f4b7d03b24938d2a5f2205769e504c9176b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre tolerancia, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 La tolerancia es el lapso de tiempo que se permite al trabajador para poder realizar un fichaje de entrada o salida de su turno de trabajo planificado, sin que se cuantifique como defecto* o exceso** de tiempo. Si existe diferencia por defecto o exceso (estado), entre la duración del fichaje cerrado (horas presenciales) y la duración total de los turnos u horas planificadas (horas realizadas), superando el tiempo de tolerancia, se generará un ajuste de fichajes.
 
 Esta tolerancia se puede calcular de las siguientes formas:

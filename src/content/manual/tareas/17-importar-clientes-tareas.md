@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-17-importar-clientes-tareas"
-title: "Importar clientes (Tareas)"
-description: "Si necesitamos hacer una carga de varios clientes a la vez con la importación de clientes a través del módulo de Tareas se podría realizar."
+contentId: tareas-17-importar-clientes-tareas
+title: Importar clientes (Tareas)
+description: Si necesitamos hacer una carga de varios clientes a la vez con la importación de clientes a través del módulo de Tareas se podría realizar.
 contentType: concept
-module: "Tareas"
-submodule: "General"
-intent: "Importar clientes (Tareas)"
+module: Tareas
+submodule: General
+intent: Importar clientes (Tareas)
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "clientes"
-    label: "Clientes"
-  - id: "importar"
-    label: "Importar"
-  - id: "tareas"
-    label: "Tareas"
+  - id: clientes
+    label: Clientes
+  - id: importar
+    label: Importar
+  - id: tareas
+    label: Tareas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/17-importar-clientes-tareas/"
+    - https://manual.aturnos.com/knowledgebase/17-importar-clientes-tareas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/17-importar-clientes-tareas/"
+    - https://manual.aturnos.com/knowledgebase/17-importar-clientes-tareas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importar clientes (Tareas)?"
+    - ¿Qué debo saber sobre importar clientes (Tareas)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b3932e3b232bcc8bd9291a22f553f8523e1986533181e59ac5c1cb42df801766"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/17-importar-clientes-tareas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/17-importar-clientes-tareas/
+  contentHash: 1586fc5d1b2795156d912f90af5ed6d961dea5396f9e7c3fe8c5dd57d95c9e41
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Si necesitamos hacer una carga de varios clientes a la vez con la importación de clientes a través del módulo de Tareas se podría realizar.
 
-## Contenido
-
+## Qué debes saber
 IMPORTANTE: Antes de realizar cualquier carga, es recomendable comparar las tareas que hay en la herramienta con las tareas a cargar, para verificar que se esta cargando lo mismo y no se está sobrescribiendo ninguna actividad, tarea o subtarea.
 
 Para llevar a cabo la importación del fichero que contiene los catálogos de tareas, se debe crear un documento de tipo Importar clientes (Tareas), que contenga las siguientes columnas:

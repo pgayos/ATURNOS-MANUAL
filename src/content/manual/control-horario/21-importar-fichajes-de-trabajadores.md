@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-21-importar-fichajes-de-trabajadores"
-title: "Importar fichajes de trabajadores"
-description: "Información sobre importar fichajes de trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-21-importar-fichajes-de-trabajadores
+title: Importar fichajes de trabajadores
+description: Es posible que si has utilizado otro sistema de registro de jornada, los marcajes hechos en dispositivos puedas trasladarlos al sistema de aTurnos.
 contentType: reference
-module: "Control horario"
-submodule: "Usuarios y perfiles"
-intent: "Importar fichajes de trabajadores"
+module: Control horario
+submodule: Usuarios y perfiles
+intent: Importar fichajes de trabajadores
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "importar"
-    label: "Importar"
-  - id: "trabajadores"
-    label: "Trabajadores"
+  - id: fichajes
+    label: Fichajes
+  - id: importar
+    label: Importar
+  - id: trabajadores
+    label: Trabajadores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importar fichajes de trabajadores?"
+    - ¿Qué debo saber sobre importar fichajes de trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "420055a83ffbc0efd7070d7214fb57fd19834f70f0438853339c6c93dd3ae807"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/
+  contentHash: 99e5bb30070e618e5d050dc3f9129407a51aa9239a4fb83ef1f6810310acf71b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre importar fichajes de trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Es posible que si has utilizado otro sistema de registro de jornada, los marcajes hechos en dispositivos puedas trasladarlos al sistema de aTurnos. De la misma forma si por algún fallo técnico, los marcajes no se han volcado, también podemos insertarlos en el Control de Presencia de aTurnos.
 
 Crea un archivo de Excel (también en formato CSV) o completa la plantilla de ejemplo para importar los marcajes de los trabajadores, definiendo las columnas con los siguientes conceptos:

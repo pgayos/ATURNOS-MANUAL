@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-7-11-externos"
-title: "Externos"
-description: "Aprende a externos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-7-11-externos
+title: Externos
+description: El usuario externo en aTurnos tiene un rol de consultor, puede acceder a los equipos para visualizar la planificación de los trabajadores, marcajes del control de presencia y datos de contac.
 contentType: procedure
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Externos"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Externos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "externos"
-    label: "Externos"
+  - id: externos
+    label: Externos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-11-externos/"
+    - https://manual.aturnos.com/knowledgebase/7-11-externos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-11-externos/"
+    - https://manual.aturnos.com/knowledgebase/7-11-externos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo externos?"
+    - ¿Cómo puedo externos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d94920c62693cea1070916baf7b6c30403100d8fbc08200123ef958800b68045"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-11-externos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-11-externos/
+  contentHash: 94ddf249ec47e8882ae7dbd222144c82e0f5847f85e60976f6f67d2ee31acdd8
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a externos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 El usuario externo en aTurnos tiene un rol de consultor, puede acceder a los equipos para visualizar la planificación de los trabajadores, marcajes del control de presencia y datos de contacto de los trabajadores (según configuración de permisos). No disponen de opciones para modificar datos de planificación, marcajes, ajustes o cualquier otra acción que han realizado los trabajadores y administradores de los equipos.
 
 Algunos ejemplos de usuarios externos pueden ser los representantes de los trabajadores, supervisión externa de un comité de empresa, de expertos o directivos o supervisores de guardias.

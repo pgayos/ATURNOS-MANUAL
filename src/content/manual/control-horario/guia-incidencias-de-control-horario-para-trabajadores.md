@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-guia-incidencias-de-control-horario-para-trabajadores"
-title: "Incidencias de Control Horario para trabajadores"
-description: "Información sobre incidencias de Control Horario para trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-guia-incidencias-de-control-horario-para-trabajadores
+title: Incidencias de Control Horario para trabajadores
+description: El sistema de fichaje de aTurnos te permite registrar tus entradas y salidas de manera rápida y segura desde cualquier dispositivo con acceso a internet.
 contentType: reference
-module: "Control horario"
-submodule: "Uso por el trabajador"
-intent: "Incidencias de Control Horario"
+module: Control horario
+submodule: Uso por el trabajador
+intent: Incidencias de Control Horario
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-02-04
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-trabajador/control-horario/incidencias-de-control-horario/"
+    - https://guias.aturnos.com/guias/guias-trabajador/control-horario/incidencias-de-control-horario/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre incidencias de Control Horario para trabajadores?"
+    - ¿Qué debo saber sobre incidencias de Control Horario para trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-trabajador/control-horario/incidencias-de-control-horario/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-trabajador/control-horario/incidencias-de-control-horario/
+  contentHash: ee72bc3543852b5063fdeb6a7b033666c1313c6e710c3d35b7345ec1f01258f7
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -135,3 +146,7 @@ Solicitar modificación de un fichaje.
 Ejemplo práctico: Si la incidencia es del tipo «Fichaje olvidado «, solo necesitas seleccionar la opción Solicitar fichaje para corregirla.
 
 Siguiendo estos pasos, podrás gestionar fácilmente tus incidencias y asegurarte de que tu registro de horas esté siempre actualizado.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,47 +1,53 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-f-tabla-de-cobertura"
-title: "Tabla de Cobertura"
-description: "La tabla de cobertura es una solución que aTurnos ofrece a los administradores para que puedan consultar de un vistazo si las demandas están cubiertas. Esta tabla se encuentra haciendo clic en su pestaña en el cuadrante."
+contentId: planificacion-f-tabla-de-cobertura
+title: Tabla de Cobertura
+description: La tabla de cobertura es una solución que aTurnos ofrece a los administradores para que puedan consultar de un vistazo si las demandas están cubiertas. Esta tabla se encuentra haciendo clic en su pestaña en el cuadrante.
 contentType: reference
-module: "Planificación"
-submodule: "Cuadrante"
-intent: "Tabla de Cobertura"
+module: Planificación
+submodule: Cuadrante
+intent: Tabla de Cobertura
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "cobertura"
-    label: "Cobertura"
-  - id: "tabla"
-    label: "Tabla"
+  - id: cobertura
+    label: Cobertura
+  - id: tabla
+    label: Tabla
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-tabla-de-cobertura/"
+    - https://manual.aturnos.com/knowledgebase/6-tabla-de-cobertura/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-tabla-de-cobertura/"
+    - https://manual.aturnos.com/knowledgebase/6-tabla-de-cobertura/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre tabla de Cobertura?"
+    - ¿Qué debo saber sobre tabla de Cobertura?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "2147f41efa7ef1c5d8cab1387fa623efee94584e5e655e738f62e29a45e1435a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-tabla-de-cobertura/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-tabla-de-cobertura/
+  contentHash: 26bc39a7610b92ff7a16693c041795ee0bcb88c0c4b218e1314309661667e09b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

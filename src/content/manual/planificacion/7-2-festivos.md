@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-7-2-festivos"
-title: "Festivos"
-description: "Información sobre festivos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-7-2-festivos
+title: Festivos
+description: En resumen, para hacer una planificación precisa en un calendario, es necesario tener en cuenta y configurar previamente los días festivos del equipo.
 contentType: reference
-module: "Planificación"
-submodule: "Usuarios y perfiles"
-intent: "Festivos"
+module: Planificación
+submodule: Usuarios y perfiles
+intent: Festivos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "festivos"
-    label: "Festivos"
+  - id: festivos
+    label: Festivos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-2-festivos/"
+    - https://manual.aturnos.com/knowledgebase/7-2-festivos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-2-festivos/"
+    - https://manual.aturnos.com/knowledgebase/7-2-festivos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre festivos?"
+    - ¿Qué debo saber sobre festivos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "82e5ca635fcdc72a1fff8c9271b515691457dc512ff094377fcc99d4d5ba111a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-2-festivos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-2-festivos/
+  contentHash: ffd37a00c5b8da4fb43b7bdb2b8c64be3058830ce34098eb72ea5069e83049b9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre festivos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 En resumen, para hacer una planificación precisa en un calendario, es necesario tener en cuenta y configurar previamente los días festivos del equipo. Los días festivos pueden variar considerablemente entre empresas e incluso entre equipos de la misma empresa. Por ejemplo, en la “Empresa X”, los festivos serán diferentes para el equipo de “Madrid” y el equipo de “Barcelona” debido a su ubicación geográfica.
 
 Para definir qué se considera como festivos hay que configurar “Consideración de festivos según convenio”.

@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-maestro-de-absentismos"
-title: "Maestro de absentismos"
-description: "Información sobre maestro de absentismos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-1-maestro-de-absentismos
+title: Maestro de absentismos
+description: El maestro de absentismo genera un reporte informando diferentes conceptos e información sobre los absentismos, incluyendo los periodos de absentismos, absentismos de días completos y horas.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Maestro de absentismos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Maestro de absentismos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
-  - id: "maestro"
-    label: "Maestro"
+  - id: absentismos
+    label: Absentismos
+  - id: maestro
+    label: Maestro
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-maestro-de-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/1-maestro-de-absentismos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-maestro-de-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/1-maestro-de-absentismos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre maestro de absentismos?"
+    - ¿Qué debo saber sobre maestro de absentismos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3d54d4ae72ee06188fae875c846b60f93eebfc835085e9fe4888a296c13e71f9"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-maestro-de-absentismos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-maestro-de-absentismos/
+  contentHash: c0c07c57860e68112390e465bd008706ab328b41ab7624ae3972459c486f5551
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre maestro de absentismos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 El maestro de absentismo genera un reporte informando diferentes conceptos e información sobre los absentismos, incluyendo los periodos de absentismos, absentismos de días completos y horas de absentismos. El superusuario puede consultar esta información en una fecha y en los equipos que se seleccionen.
 
 La tabla del maestro de absentismos muestra los siguientes conceptos, por defecto:

@@ -1,58 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-reportes-por-equipos"
-title: "Reportes por equipos"
-description: "Aprende a reportes por equipos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-1-reportes-por-equipos
+title: Reportes por equipos
+description: Si necesitas la información agregada por equipo, desde aquí vas a poder seleccionar los datos que desees para generar tu informe.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Reportes por equipos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Reportes por equipos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "equipos"
-    label: "Equipos"
-  - id: "reportes"
-    label: "Reportes"
+  - id: equipos
+    label: Equipos
+  - id: reportes
+    label: Reportes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-5-reportes/"
-    - "https://manual.aturnos.com/knowledgebase/a-reportes-por-equipos/"
+    - https://manual.aturnos.com/knowledgebase/8-5-reportes/
+    - https://manual.aturnos.com/knowledgebase/a-reportes-por-equipos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-5-reportes/"
-    - "https://manual.aturnos.com/knowledgebase/a-reportes-por-equipos/"
+    - https://manual.aturnos.com/knowledgebase/8-5-reportes/
+    - https://manual.aturnos.com/knowledgebase/a-reportes-por-equipos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo reportes por equipos?"
+    - ¿Cómo puedo reportes por equipos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 2
-  contentHash: "010fc7eda810fcccd0cefe33ea9da693ecf52719e1744bdea7f560c3522178b2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-5-reportes/
+    - https://manual.aturnos.com/knowledgebase/a-reportes-por-equipos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-5-reportes/
+    - https://manual.aturnos.com/knowledgebase/a-reportes-por-equipos/
+  contentHash: adab3c2c203f4980a45ba3ad3899b236308145ca2f7dd75a038d8399d4f4ebe7
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a reportes por equipos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Si necesitas la información agregada por equipo, desde aquí vas a poder seleccionar los datos que desees para generar tu informe. Indica el periodo, día, mes o año, si el dato lo quieres del Cuadrante o del Cuadrante Borrador, las fechas y los datos del informe, que pueden ser los siguientes:
 
 - Turnos: total de turnos planificados en cada día del periodo seleccionado, teniendo en cuenta a todos los trabajadores del equipo. Los totales se encuentran separados por cada equipo seleccionado. Los turnos con absentismos asociados también se incluyen.

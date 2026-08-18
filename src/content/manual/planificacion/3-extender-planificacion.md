@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-3-extender-planificacion"
-title: "Extender planificación"
-description: "Los trabajadores pueden tener un patrón aplicado (ver aplicar Patrón de turnos ) hasta una fecha, es posible extender planificación hasta otra fecha futura."
+contentId: planificacion-3-extender-planificacion
+title: Extender planificación
+description: Los trabajadores pueden tener un patrón aplicado (ver aplicar Patrón de turnos ) hasta una fecha, es posible extender planificación hasta otra fecha futura.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Extender planificación"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Extender planificación
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "extender"
-    label: "Extender"
-  - id: "planificacion"
-    label: "Planificacion"
+  - id: extender
+    label: Extender
+  - id: planificacion
+    label: Planificacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-extender-planificacion/"
+    - https://manual.aturnos.com/knowledgebase/2-extender-planificacion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-extender-planificacion/"
+    - https://manual.aturnos.com/knowledgebase/2-extender-planificacion/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre extender planificación?"
+    - ¿Qué debo saber sobre extender planificación?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "a8577f60d0cfe03ad3a0bf90564198ca471048622082b175616177d0bd44a561"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-extender-planificacion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-extender-planificacion/
+  contentHash: f676bf8194f81f0e9ad05429b248d3cc5088bdf500ed72c664a4a310061a3521
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Los trabajadores pueden tener un patrón aplicado (ver aplicar Patrón de turnos ) hasta una fecha, es posible extender planificación hasta otra fecha futura.
 
-## Contenido
-
+## Qué debes saber
 Un ejemplo de su utilidad es cuando el administrador planifica al trabajador aplicándole un patrón de turnos por un mes y luego quiere extenderle esa misma planificación al mes siguiente o por un período más largo. En este caso, Jaime tiene planificado el mes de enero.
 
 Un dato importante, antes de extender planificación, es conocer qué es:

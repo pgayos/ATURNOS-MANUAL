@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-d-tipos-de-horas"
-title: "Tipos de horas"
-description: "Información sobre tipos de horas, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-d-tipos-de-horas
+title: Tipos de horas
+description: No todo tiene que ser turnos, en aTurnos puedes crear tipos de horas.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Tipos de horas"
+module: Gestión de personal
+submodule: Contratos
+intent: Tipos de horas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "horas"
-    label: "Horas"
-  - id: "tipos"
-    label: "Tipos"
+  - id: horas
+    label: Horas
+  - id: tipos
+    label: Tipos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/e-tipos-de-horas/"
+    - https://manual.aturnos.com/knowledgebase/e-tipos-de-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/e-tipos-de-horas/"
+    - https://manual.aturnos.com/knowledgebase/e-tipos-de-horas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre tipos de horas?"
+    - ¿Qué debo saber sobre tipos de horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "cf2fab89f464e0cc8c72e11373dd9fa41a105c029098b4f7d4a1d2b10aa5d1a4"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/e-tipos-de-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/e-tipos-de-horas/
+  contentHash: e4c014057fed66e06ba962fa0d775be438e97d45af990b7e6d537b3c139f6eba
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -90,3 +97,7 @@ Esto es muy útil cuando quieres que se pidan absentismos justificado por horas 
 - Rol mínimo para para aceptar peticiones. Existen diversos roles en aTurnos (ver Roles de usuario ) y no todos pueden tener acceso para validar la petición de eventos como un tipo de horas. Esta función limita hasta qué nivel pueden validar el tipo de horas creado. No es lo mismo un supervisor de servicio (administrador planificador) que el director del servicio (administrador total o superusuario).
 
 Una vez cumplimentado el formulario se debe hacer clic en “Guardar”.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

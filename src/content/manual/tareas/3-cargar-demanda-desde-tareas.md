@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-3-cargar-demanda-desde-tareas"
-title: "Cargar demanda desde tareas"
-description: "Hemos visto que la demanda se puede cargar como una necesidad de turnos o una carga manual que puede llegar añadiendo los datos en el backoffice o puede llegar por la carga de un archivo o por el API."
+contentId: tareas-3-cargar-demanda-desde-tareas
+title: Cargar demanda desde tareas
+description: Hemos visto que la demanda se puede cargar como una necesidad de turnos o una carga manual que puede llegar añadiendo los datos en el backoffice o puede llegar por la carga de un archivo o por el API.
 contentType: concept
-module: "Tareas"
-submodule: "Turnos y patrones"
-intent: "Cargar demanda desde tareas"
+module: Tareas
+submodule: Turnos y patrones
+intent: Cargar demanda desde tareas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "cargar"
-    label: "Cargar"
-  - id: "demanda"
-    label: "Demanda"
-  - id: "desde"
-    label: "Desde"
-  - id: "tareas"
-    label: "Tareas"
+  - id: cargar
+    label: Cargar
+  - id: demanda
+    label: Demanda
+  - id: desde
+    label: Desde
+  - id: tareas
+    label: Tareas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-cargar-demanda-desde-tareas/"
+    - https://manual.aturnos.com/knowledgebase/2-cargar-demanda-desde-tareas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-cargar-demanda-desde-tareas/"
+    - https://manual.aturnos.com/knowledgebase/2-cargar-demanda-desde-tareas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cargar demanda desde tareas?"
+    - ¿Qué debo saber sobre cargar demanda desde tareas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1a1ba58922d6e647f7e9333b3450a02dc65af2593d16ddd2364e812538d20db8"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-cargar-demanda-desde-tareas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-cargar-demanda-desde-tareas/
+  contentHash: 6d2d19b63bb567604bfd5e70385cc2084bb504d579ecccd46b5eb187dead3618
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -64,3 +71,7 @@ Recuerda que puedes filtrar las tareas si quieres solo de cierta localización o
 ### Generación de demanda desde plantillas de tareas
 
 Si no es necesario crear tareas, se puede crear una demanda con las plantillas de tareas existentes. Esto se suele usar cuando se quiere hacer una planificación a futuro más que un análisis de la situación actual. Para la situación actual ya tendríamos las tareas y usaríamos la generación de demanda con las tareas existentes. Para poder crear esta demanda podemos definir los siguientes campos:
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

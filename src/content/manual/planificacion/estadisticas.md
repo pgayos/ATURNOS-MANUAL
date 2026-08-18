@@ -1,34 +1,35 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-estadisticas"
-title: "Estadísticas"
-description: "Información sobre estadísticas, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-estadisticas
+title: Estadísticas
+description: En este informe estadístico nos informará del número de tipos de turno que tenemos planificados en nuestro Cuadrante en un periodo de tiempo.
 contentType: concept
-module: "Planificación"
-submodule: "Cuadrante"
-intent: "Estadísticas"
+module: Planificación
+submodule: Cuadrante
+intent: Estadísticas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "estadisticas"
-    label: "Estadisticas"
+  - id: estadisticas
+    label: Estadisticas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/estadisticas/"
+    - https://manual.aturnos.com/knowledgebase/estadisticas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/estadisticas/"
+    - https://manual.aturnos.com/knowledgebase/estadisticas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre estadísticas?"
+    - ¿Qué debo saber sobre estadísticas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -36,8 +37,14 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "9f78bba8dcfcf7e8257e52972682a382bc325ba431fb840543a151e1b626efa2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/estadisticas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/estadisticas/
+  contentHash: 30dd9e93fdfa925f61824f9871622dfaae2d25c289f6226a64dc43c4c54a99ba
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -50,3 +57,7 @@ En este informe estadístico nos informará del número de tipos de turno que te
 ### 5.2 Total de horas
 
 Por otro lado, en este informe estadístico nos informará del número de horas que tenemos planificadas en nuestro Cuadrante en un periodo de tiempo determinado que podremos cambiar en la parte superior. Para ello, en la tercera columna aparecerá el total de horas realizadas por cada turno correspondiente.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

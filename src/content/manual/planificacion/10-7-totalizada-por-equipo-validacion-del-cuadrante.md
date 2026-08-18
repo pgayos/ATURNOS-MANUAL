@@ -1,46 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-10-7-totalizada-por-equipo-validacion-del-cuadrante"
-title: "Totalizada por equipo. Validación del cuadrante"
-description: "Desde aquí se valida el cuadrante siempre que en el equipo esté seleccionado “Modo de validación para la exportación” en la opción “El cuadrante debe estar cerrado y validado”."
+contentId: planificacion-10-7-totalizada-por-equipo-validacion-del-cuadrante
+title: Totalizada por equipo. Validación del cuadrante
+description: Desde aquí se valida el cuadrante siempre que en el equipo esté seleccionado “Modo de validación para la exportación” en la opción “El cuadrante debe estar cerrado y validado”.
 contentType: procedure
-module: "Planificación"
-submodule: "Usuarios y perfiles"
-intent: "Totalizada por equipo. Validación del cuadrante"
+module: Planificación
+submodule: Usuarios y perfiles
+intent: Totalizada por equipo. Validación del cuadrante
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cuadrante"
-    label: "Cuadrante"
-  - id: "equipo"
-    label: "Equipo"
-  - id: "totalizada"
-    label: "Totalizada"
-  - id: "validacion"
-    label: "Validacion"
+  - id: cuadrante
+    label: Cuadrante
+  - id: equipo
+    label: Equipo
+  - id: totalizada
+    label: Totalizada
+  - id: validacion
+    label: Validacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-7-totalizada-por-equipo/"
+    - https://manual.aturnos.com/knowledgebase/10-7-totalizada-por-equipo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-7-totalizada-por-equipo/"
+    - https://manual.aturnos.com/knowledgebase/10-7-totalizada-por-equipo/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo totalizada por equipo. Validación del cuadrante?"
+    - ¿Cómo puedo totalizada por equipo. Validación del cuadrante?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -48,15 +49,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d12997b73d00682279e2c25d731f88b06944d911242642cc23936b4d2a674dbd"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-7-totalizada-por-equipo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-7-totalizada-por-equipo/
+  contentHash: 72e55f780893bf2a6795c8f7316fde8e6041d1211f6682cd3024db2179e4a78d
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Desde aquí se valida el cuadrante siempre que en el equipo esté seleccionado “Modo de validación para la exportación” en la opción “El cuadrante debe estar cerrado y validado”.
 
-## Contenido
-
+## Procedimiento
 A través de RRHH → NÓMINAS → TOTALIZADA POR EQUIPOS, seleccionando:
 
 - Fecha de inicio

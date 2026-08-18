@@ -1,42 +1,43 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-configuracion-del-modulo-de-recursos"
-title: "Configuración del Módulo de Recursos"
-description: "El módulo permite cuatro configuraciones, accede a ADMINISTRAR → AJUSTES → Módulos para seleccionar la configuración más adecuada."
+contentId: recursos-y-partes-configuracion-del-modulo-de-recursos
+title: Configuración del Módulo de Recursos
+description: El módulo permite cuatro configuraciones, accede a ADMINISTRAR → AJUSTES → Módulos para seleccionar la configuración más adecuada.
 contentType: procedure
-module: "Recursos y partes"
-submodule: "Roles y permisos"
-intent: "Configuración del Módulo de Recursos"
+module: Recursos y partes
+submodule: Roles y permisos
+intent: Configuración del Módulo de Recursos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "configuracion"
-    label: "Configuracion"
-  - id: "modulo"
-    label: "Modulo"
-  - id: "recursos"
-    label: "Recursos"
+  - id: configuracion
+    label: Configuracion
+  - id: modulo
+    label: Modulo
+  - id: recursos
+    label: Recursos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/configuracion/"
+    - https://manual.aturnos.com/knowledgebase/configuracion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/configuracion/"
+    - https://manual.aturnos.com/knowledgebase/configuracion/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo configuración del Módulo de Recursos?"
+    - ¿Cómo puedo configuración del Módulo de Recursos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -44,15 +45,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "4ff1ab246173a465c5f701de35b14b524c3cf55510cca206b029422039f78695"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/configuracion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/configuracion/
+  contentHash: 1281f6de0df3f62e98273c0ca47a5d0904964f097767c8fe2ed58b33393fe6e9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El módulo permite cuatro configuraciones, accede a ADMINISTRAR → AJUSTES → Módulos para seleccionar la configuración más adecuada.
 
-## Contenido
-
+## Procedimiento
 Con independencia de si es el administrador y/o los trabajadores los que añaden los recursos, con la opción SI en el campo “Permitir a los trabajadores ver datos de recursos”, el trabajador visualiza toda la información de los recursos informados tanto en el cuadrante como en el resumen.
 
 En este caso, solo los administradores pueden informar los recursos, pero al estar el campo “Permitir a los trabajadores ver datos de recursos” con valor SI, el trabajador visualiza toda la información de los recursos informados tanto en el cuadrante como en el resumen.
