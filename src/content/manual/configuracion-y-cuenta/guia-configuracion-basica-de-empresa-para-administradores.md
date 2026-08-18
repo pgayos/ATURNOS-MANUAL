@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/ajustes-basicos-de-empresa/
   contentHash: 7b41a6103145b17f3ca4b7eaeeb5a804b475af5fd9ac998085345648d9dc144e
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

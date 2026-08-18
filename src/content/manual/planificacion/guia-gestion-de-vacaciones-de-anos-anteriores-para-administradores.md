@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/vacaciones-anterior/
   contentHash: 959ef21d73d0ae47154df7831fdc6e9e0684af603a5d1fecfdf1fcd1b83c890a
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/perfil-del-trabajador/mi-perfil/
   contentHash: d28555b30f3e69bf08b5dfe298aff7ffd5ace5ea03732dcb794a20cd96448083
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

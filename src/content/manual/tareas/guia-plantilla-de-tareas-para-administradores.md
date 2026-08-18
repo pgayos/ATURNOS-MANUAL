@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/plantilla-de-tareas/
   contentHash: 2ea5ecd4677e28142644f1a7127d6981c17183ee5f7af3e1456b1daabb03bdc3
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/creacion-de-informes-personalizados/exportacion-de-informes/
   contentHash: 68d1dd39c3ee6ef2693f2117e3c63b4486d623e2260c3a5f77bfb557c37f6db4
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

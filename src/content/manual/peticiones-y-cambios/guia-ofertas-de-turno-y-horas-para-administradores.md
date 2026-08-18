@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/ofertas-de-turno-y-horas/
   contentHash: d4bf82c8c91356b0561448178efb4f0257ca0037f6431701110f2f74881d4e9d
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

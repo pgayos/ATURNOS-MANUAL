@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/restricciones-vac/
   contentHash: 5f7647a68ed7c46bc94bfad7bf13a667266f67b716b60c5f4c607048fbe9e187
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

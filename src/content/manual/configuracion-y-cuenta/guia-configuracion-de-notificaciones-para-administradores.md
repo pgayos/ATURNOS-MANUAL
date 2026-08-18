@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/configuracion-de-notificaciones/
   contentHash: b7602354de68e97afcaf559feb94d53b5429c709dc7ed57501f2eb67bdef596b
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

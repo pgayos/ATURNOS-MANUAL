@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/gestion-documental/
   contentHash: 85e7e0b435889b1ed04ca259a111273ec9e8c687559cb97dfe6bd3c1b459ce2d
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

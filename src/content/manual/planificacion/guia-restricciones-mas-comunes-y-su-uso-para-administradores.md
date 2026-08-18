@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/restricciones-mas-comunes-y-su-uso/
   contentHash: 43bf8330b309b8379d1808883a1c8b73c10117bb0bb872fb0b8fa8e3c22ee1a3
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

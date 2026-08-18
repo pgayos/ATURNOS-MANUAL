@@ -38,6 +38,7 @@ for (const file of files.sort()) {
   const match = original.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
   if (!match) throw new Error(`Frontmatter no válido: ${file}`);
   const data = YAML.parse(match[1]);
+  data.order ??= 1;
   let body = match[2].trim();
   body = body.replace(/^## Contenido\s*$/m, `## ${headings[data.contentType] ?? 'Contenido'}`);
   if (body !== match[2].trim()) headingsChanged++;

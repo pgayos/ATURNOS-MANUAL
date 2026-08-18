@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/solicitar-aprobar-y-gestionar-permisos-bajas/
   contentHash: 55435590aa0f189734d65f098505678b5e55ed0688e800a200ee4895cd2e9ddc
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/registro-validacion-de-fichajes-entrada-salida-pausas/
   contentHash: 345186eb9283531da35c6efa66b314932787855030a44b96ad7bef0e0112ee17
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

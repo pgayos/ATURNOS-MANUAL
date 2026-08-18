@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/vacaciones/
   contentHash: a6678f95a5356b23fda2bcafa15eefc4e82cc7db04c65f9c289834204c653eff
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

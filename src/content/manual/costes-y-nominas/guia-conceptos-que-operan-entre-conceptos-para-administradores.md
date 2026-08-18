@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-que-operan-entre-conceptos/
   contentHash: 9bc4445b5a348428dae0407c92cb1f5c13cda793f17d1ac0aed82c95608eb126
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

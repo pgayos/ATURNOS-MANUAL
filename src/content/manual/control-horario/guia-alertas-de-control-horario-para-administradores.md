@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/alertas-de-control-horario/
   contentHash: aa39cc9783bbaad026d5acef4f68db8d4da8132568d1da5878a906a5c5d9baa1
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

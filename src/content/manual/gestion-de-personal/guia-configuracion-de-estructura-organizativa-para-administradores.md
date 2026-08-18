@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-estructura-organizativa/
   contentHash: 6d5bc38f73ef223fbcd47eff611c66139512c4eb0b1cf58b52d1dca1a6da4503
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

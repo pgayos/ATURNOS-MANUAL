@@ -22,7 +22,7 @@ export async function getStaticPaths() {
     params: { module },
     props: {
       moduleName: articles[0].data.module,
-      articles: articles.sort((a, b) => a.data.title.localeCompare(b.data.title, 'es'))
+      articles: articles.sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title, 'es'))
     }
   }));
 }

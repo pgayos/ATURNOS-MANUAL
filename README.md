@@ -14,6 +14,7 @@ Piloto navegable del nuevo manual estructurado para publicación web, búsqueda 
 
 Cada artículo conserva trazabilidad explícita para la puesta en producción:
 
+- `order`: orden de presentación configurable; todos los artículos parten de `1`.
 - `migration.originUrls`: páginas públicas utilizadas como fuente.
 - `migration.redirectFrom`: URLs antiguas que deberán redirigir a la nueva ruta.
 - `migration.contentHash`: huella del cuerpo migrado para detectar cambios.

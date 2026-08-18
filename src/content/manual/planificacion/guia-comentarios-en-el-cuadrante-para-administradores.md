@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/comentarios-en-el-cuadrante/
   contentHash: 3d6498a057067fdb57b7083e6d91dd8c24cecc1c03fc6ace4e0d1da104b71e22
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

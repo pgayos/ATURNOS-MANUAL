@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-3-planifica-a-tus-trabajadores/
   contentHash: 158d505a14ff5721090e1f5cb47d54b49775bf54b2b8f3ae134c5d0fe0778e83
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/horas/
   contentHash: e89e8624b4460b2f5dab584d5a88be66847a2f43c600c889e498c0311b1f67d3
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

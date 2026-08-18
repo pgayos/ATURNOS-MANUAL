@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/crear-tareas/
   contentHash: 556b85a1f4f8ff00ac63ef96b1cccf04e6f007eb40755f7e190a594211f42e62
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

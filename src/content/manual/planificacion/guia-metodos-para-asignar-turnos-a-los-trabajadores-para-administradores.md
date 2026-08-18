@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/metodos-para-asignar-turnos-a-los-trabajadores/
   contentHash: 0469e5a32713f67ec1d510d91a374f0efb78055dc200d50ef47c425edb4d60c5
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/control-horario/incidencias-de-control-horario/
   contentHash: ee72bc3543852b5063fdeb6a7b033666c1313c6e710c3d35b7345ec1f01258f7
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

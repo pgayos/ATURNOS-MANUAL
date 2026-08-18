@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/solicitar-cambios-de-turno/
   contentHash: ad325c7a727dcdea913c0f45eec5f24f35e56381dbed0d3bf4ab46dc5c659450
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

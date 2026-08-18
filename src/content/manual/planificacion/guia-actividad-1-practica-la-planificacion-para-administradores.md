@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-1-practica-la-planificacion/
   contentHash: c1211426c8f8dd069d2d40e475789f77167e056848b8caefeb5f7f985b1e3ffa
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

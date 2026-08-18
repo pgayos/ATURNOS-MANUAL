@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/peticiones/
   contentHash: ae5a1e1792993e1422f584b7a73d41ec01b2b86f4cb0ce77314643c6119da513
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

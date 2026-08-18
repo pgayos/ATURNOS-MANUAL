@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-herramientas-rrhh-y-erp/
   contentHash: 302fac9852eacbad35820d2b8fa9a808cfc7eeebd0006c2bd65bd541220b8872
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

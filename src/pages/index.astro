@@ -2,7 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 const allArticles = await getCollection('manual');
-const articles = allArticles.filter(({ data }) => data.featured);
+const articles = allArticles
+  .filter(({ data }) => data.featured)
+  .sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title, 'es'));
 const moduleDescriptions: Record<string, string> = {
   'App móvil': 'Uso de aTurnos desde dispositivos móviles y fichaje.',
   'Cita previa': 'Servicios, reservas y gestión de citas.',

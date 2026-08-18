@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/preguntas-frecuentes/
   contentHash: 12add0348680a9943741677aaed6c3291b70738c5e2e5d1f393aee67ea8ac3f7
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

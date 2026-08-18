@@ -80,6 +80,7 @@ migration:
   contentHash: 151f9a29f57fefc5f0bed87c56a4526e8662bec7b3a18262cb600093983e0757
   migratedAt: 2026-08-17
 labels: []
+order: 1
 ---
 ## Resumen
 
