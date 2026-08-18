@@ -6,6 +6,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <span class="eyebrow">Buscador</span>
     <h1>¿Qué necesitas hacer?</h1>
     <div class="search-panel">
+      <div class="profile-loader" id="profile-loader" role="status" aria-live="polite" hidden>
+        <div class="profile-loader-card">
+          <span class="profile-loader-mark" aria-hidden="true"><img src="/brand/aturnos-logo.svg" alt="" /></span>
+          <strong>Adaptando el manual a tu perfil</strong>
+          <span>Estamos filtrando los artículos más relevantes.</span>
+        </div>
+      </div>
       <form class="manual-search" id="manual-search" role="search">
         <label class="sr-only" for="manual-search-input">Buscar en el manual</label>
         <input id="manual-search-input" name="q" type="search" autocomplete="off" placeholder="Buscar en el manual…" />
@@ -23,9 +30,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     const summary = document.querySelector('#search-summary');
     const results = document.querySelector('#search-results');
     const profileLabel = document.querySelector('#profile-filter');
+    const loader = document.querySelector('#profile-loader');
     const params = new URLSearchParams(window.location.search);
     let timer;
     let searchSequence = 0;
+    let loaderSequence = 0;
 
     const selectedProfile = () => localStorage.getItem('manual-profile') || 'general';
     const filtersForProfile = () => selectedProfile() === 'general' ? {} : { profile: selectedProfile() };
@@ -79,6 +88,19 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       }
     }
 
+    async function filterForSelectedProfile() {
+      const sequence = ++loaderSequence;
+      const startedAt = Date.now();
+      loader.hidden = false;
+      try {
+        await runSearch();
+        const remaining = Math.max(0, 450 - (Date.now() - startedAt));
+        if (remaining) await new Promise(resolve => window.setTimeout(resolve, remaining));
+      } finally {
+        if (sequence === loaderSequence) loader.hidden = true;
+      }
+    }
+
     form.addEventListener('submit', event => {
       event.preventDefault();
       const url = new URL(window.location.href);
@@ -90,7 +112,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       window.clearTimeout(timer);
       timer = window.setTimeout(runSearch, 180);
     });
-    window.addEventListener('manual-profile-change', runSearch);
+    window.addEventListener('manual-profile-change', filterForSelectedProfile);
 
     input.value = params.get('q') || '';
     updateProfileLabel();
