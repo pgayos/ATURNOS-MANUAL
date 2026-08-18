@@ -33,7 +33,7 @@ const modules = [...new Map(allArticles.map(article => {
   .sort((a, b) => a.name.localeCompare(b.name, 'es'));
 ---
 <BaseLayout>
-  <section class="hero"><div class="container"><span class="eyebrow">Nuevo manual de aTurnos</span><h1>Encuentra respuestas.<br />Trabaja con confianza.</h1><p class="lead">Guías verificadas, organizadas por módulos y preparadas para ayudarte también mediante IA.</p><form class="hero-search" action="/buscar/"><input name="q" aria-label="Buscar en el manual" placeholder="¿Qué necesitas hacer en aTurnos?" /><button class="button">Buscar</button></form></div></section>
+  <section class="hero"><div class="container hero-content"><span class="eyebrow">Centro de ayuda aTurnos</span><h1>Encuentra respuestas.<br /><span>Trabaja con confianza.</span></h1><p class="lead">Guías verificadas, organizadas por módulos y preparadas para ayudarte también mediante IA.</p><form class="hero-search" action="/buscar/"><input name="q" aria-label="Buscar en el manual" placeholder="¿Qué necesitas hacer en aTurnos?" /><button class="button">Buscar</button></form></div></section>
   <section class="section container" id="modulos"><div class="section-heading"><div><span class="eyebrow">Explora el producto</span><h2>Módulos</h2></div></div><div class="card-grid">
     {modules.map(module => <a class="card" href={`/manual/${module.slug}/`}><span class="card-icon">{moduleIcons[module.name] ?? '◆'}</span><h3>{module.name}</h3><p>{moduleDescriptions[module.name] ?? `Consulta las guías de ${module.name}.`}</p><span class="card-count">{module.count} {module.count === 1 ? 'artículo' : 'artículos'}</span></a>)}
   </div></section>

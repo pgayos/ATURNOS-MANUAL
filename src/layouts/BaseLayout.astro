@@ -9,14 +9,22 @@ const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTur
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/brand/aturnos-symbol.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <title>{title}</title>
   </head>
   <body>
     <header class="site-header">
       <nav class="container nav" aria-label="Navegación principal">
-        <a class="logo" href="/"><span class="logo-mark">a</span><span>Centro de ayuda</span></a>
+        <a class="logo" href="/" aria-label="aTurnos · Centro de ayuda">
+          <img src="/brand/aturnos-logo.svg" width="147" height="38" alt="aTurnos" />
+          <span class="logo-divider" aria-hidden="true"></span>
+          <span>Centro de ayuda</span>
+        </a>
         <div class="nav-links">
-          <a href="/#modulos">Módulos</a><a class="search-link" href="/buscar/">⌕ Buscar</a>
+          <a href="/#modulos">Módulos</a><a class="search-link" href="/buscar/"><span aria-hidden="true">⌕</span> Buscar</a>
         </div>
         <select class="profile-picker" id="profile-picker" aria-label="Seleccionar mi perfil">
           <option value="general">Mi perfil</option><option>Trabajador</option><option>Planificador</option><option>Administrador</option><option>RRHH</option>
@@ -24,7 +32,7 @@ const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTur
       </nav>
     </header>
     <slot />
-    <footer class="site-footer"><div class="container">Nuevo manual de aTurnos · Contenido público sujeto a revisión editorial.</div></footer>
+    <footer class="site-footer"><div class="container footer-inner"><img src="/brand/aturnos-logo.svg" width="126" height="32" alt="aTurnos" /><span>Centro de ayuda · Contenido público sujeto a revisión editorial.</span><a href="https://aturnos.com/" rel="external">Ir a aTurnos.com</a></div></footer>
     <script is:inline>
       const picker = document.querySelector('#profile-picker');
       if (picker) { picker.value = localStorage.getItem('manual-profile') || 'general'; picker.addEventListener('change', () => { localStorage.setItem('manual-profile', picker.value); document.documentElement.dataset.profile = picker.value; }); }
