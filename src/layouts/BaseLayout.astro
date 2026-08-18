@@ -16,6 +16,13 @@ const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTur
     <title>{title}</title>
   </head>
   <body>
+    <div class="profile-loader" id="profile-loader" role="status" aria-live="polite" hidden>
+      <div class="profile-loader-card">
+        <span class="profile-loader-mark" aria-hidden="true"><img src="/brand/aturnos-logo.svg" alt="" /></span>
+        <strong>Adaptando el manual a tu perfil</strong>
+        <span>Estamos filtrando los artículos más relevantes.</span>
+      </div>
+    </div>
     <header class="site-header">
       <nav class="container nav" aria-label="Navegación principal">
         <a class="logo" href="/" aria-label="aTurnos · Centro de ayuda">
@@ -35,13 +42,52 @@ const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTur
     <footer class="site-footer"><div class="container footer-inner"><img src="/brand/aturnos-logo.svg" width="126" height="32" alt="aTurnos" /><span>Centro de ayuda · Contenido público sujeto a revisión editorial.</span><a href="https://aturnos.com/" rel="external">Ir a aTurnos.com</a></div></footer>
     <script is:inline>
       const picker = document.querySelector('#profile-picker');
+      const profileLoader = document.querySelector('#profile-loader');
       if (picker) {
         picker.value = localStorage.getItem('manual-profile') || 'general';
         document.documentElement.dataset.profile = picker.value;
+
+        const applyProfileFilter = profile => {
+          document.querySelectorAll('[data-profile-card]').forEach(card => {
+            const profiles = (card.dataset.profiles || '').split('|').filter(Boolean);
+            card.hidden = profile !== 'general' && !profiles.includes(profile);
+          });
+
+          document.querySelectorAll('[data-module-profile-counts]').forEach(card => {
+            const counts = JSON.parse(card.dataset.moduleProfileCounts || '{}');
+            const count = profile === 'general' ? Number(card.dataset.totalCount || 0) : Number(counts[profile] || 0);
+            card.hidden = profile !== 'general' && count === 0;
+            const label = card.querySelector('[data-module-count]');
+            if (label) label.textContent = `${count} ${count === 1 ? 'artículo' : 'artículos'}`;
+          });
+
+          const visibleCards = [...document.querySelectorAll('[data-profile-list] [data-profile-card]:not([hidden])')];
+          document.querySelectorAll('[data-profile-visible-count]').forEach(label => {
+            label.textContent = String(visibleCards.length);
+          });
+          const areas = new Set(visibleCards.map(card => card.dataset.submodule).filter(Boolean));
+          document.querySelectorAll('[data-profile-area-count]').forEach(label => {
+            label.textContent = String(areas.size);
+          });
+          document.querySelectorAll('[data-profile-empty]').forEach(message => {
+            message.hidden = visibleCards.length !== 0;
+          });
+        };
+
+        applyProfileFilter(picker.value);
         picker.addEventListener('change', () => {
+          profileLoader.hidden = false;
+          profileLoader.dataset.busy = 'profile';
           localStorage.setItem('manual-profile', picker.value);
           document.documentElement.dataset.profile = picker.value;
+          applyProfileFilter(picker.value);
           window.dispatchEvent(new CustomEvent('manual-profile-change', { detail: { profile: picker.value } }));
+          window.setTimeout(() => {
+            if (profileLoader.dataset.busy === 'profile') {
+              delete profileLoader.dataset.busy;
+              profileLoader.hidden = true;
+            }
+          }, 450);
         });
       }
     </script>
