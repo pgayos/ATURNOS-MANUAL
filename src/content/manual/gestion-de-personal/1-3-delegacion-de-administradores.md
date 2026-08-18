@@ -53,7 +53,7 @@ Información sobre delegación de administradores, con instrucciones y contexto 
 
 En equipos con varias sedes o departamentos (lo que llamamos localizaciones ), es importante que cada trabajador o responsable solo pueda ver los turnos de su propio equipo. Para esto existe una opción de Privacidad, que puedes activar para que:
 
-“ Los trabajadores, validadores y planificadores solo puedan ver los turnos y compañeros de su misma localización.”
+“Los trabajadores, validadores y planificadores solo puedan ver los turnos y compañeros de su misma localización.”
 
 Ejemplo: Luigi es planificador en la localización Consultoría. José Miguel pertenece a IT, pero tiene un turno el 10/12/2021 en Consultoría. Gracias a esta configuración, Luigi podrá ver ese turno de José Miguel, aunque su localización principal (Localización por defecto) sea IT.
 

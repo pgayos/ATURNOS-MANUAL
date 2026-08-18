@@ -72,7 +72,7 @@ Opciones básicas
 4. Datos de contacto obligatorios. Por defecto solo es obligatorio el correo electrónico, pero puedes forzar que el cliente también tenga que introducir el teléfono para terminar la reserva de la cita previa en el formulario.
 5. Seleccionar trabajador. Esta opción permite al cliente (indicando “si”) escoger qué trabajador quiere que le atienda según el servicio escogido y la hora. Si indicas no, la tarea se asignará aleatoriamente al primer trabajador disponible para la hora escogida por el cliente.
 6. Antelación para cita previa. Puedes indicar con cuánta antelación (en días) se podrán reservar citas.
-7. Experiencia mínima. Se trata del nivel mínimo de puntuación de la especialidad que tienen que tener los trabajadores para ser aptos para realizar este servicio ( ver más ).
+7. Experiencia mínima. Se trata del nivel mínimo de puntuación de la especialidad que tienen que tener los trabajadores para ser aptos para realizar este servicio (ver más).
 
 Para guardar, haz clic en Guardar cambios.
 

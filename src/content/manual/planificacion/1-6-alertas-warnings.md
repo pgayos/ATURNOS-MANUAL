@@ -79,9 +79,9 @@ Si el descanso es anulado, aparecerá esa alerta y desaparece el descanso descon
 
 Si la configuración de los descansos indica que los descansos se ficha y no han sido fichados, aparecerá la siguiente alerta.
 
-Esta alerta puede ajustarse por medio del botón “ Solicitar fichaje ” para hacer una solicitud de los fichajes del descanso que no se ha fichado (Añadir salida, comienzo del descanso y Añadir Entrada, final del descanso), como si de una petición de fichajes se tratara (ver Peticiones de fichajes ).
+Esta alerta puede ajustarse por medio del botón “Solicitar fichaje” para hacer una solicitud de los fichajes del descanso que no se ha fichado (Añadir salida, comienzo del descanso y Añadir Entrada, final del descanso), como si de una petición de fichajes se tratara (ver Peticiones de fichajes ).
 
-Si existe una configuración de descanso a nivel del trabajador (ver descanso trabajador ) o a nivel de un tipo de turno (ver descanso en tipo de turno ), cuando la duración del fichaje de la salida para hacer el descanso y la siguiente entrada para el final del mismo, sea mayor a una hora y media, se mostrará esta incidencia. Hay que tener en cuenta la configuración del “ Tiempo máximo en minutos para considerar descanso”.
+Si existe una configuración de descanso a nivel del trabajador (ver descanso trabajador ) o a nivel de un tipo de turno (ver descanso en tipo de turno ), cuando la duración del fichaje de la salida para hacer el descanso y la siguiente entrada para el final del mismo, sea mayor a una hora y media, se mostrará esta incidencia. Hay que tener en cuenta la configuración del “Tiempo máximo en minutos para considerar descanso”.
 
 El empleado ha fichado un descanso menor del 50% del descanso que tiene planificado en su perfil del empleado o en el tipo de turno. Por ejemplo, si un trabajador tiene un tipo de turno que empieza a las 15:00 y acaba a las 22:00 horas, con un descanso planificado de 30 minutos y solo descansa 14 minutos, se mostrará esta incidencia.
 

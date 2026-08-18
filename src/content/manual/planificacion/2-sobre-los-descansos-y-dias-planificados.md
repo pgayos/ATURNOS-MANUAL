@@ -187,7 +187,7 @@ Esta restricción impide planificar en fechas específicas por algún evento se�
 
 ⚙️Configuración: Esta restricción, además de la configuración básica tiene dos campos adicionales:
 
-- Comprobación día al que pertenece el evento: Configura qué momento del día utilizar para la comprobación de la restricción Días/Seleccionar/Borrar todos: Estos tres campos se configuran a la vez. En días, se hace clic en “ Añadir día ” y se van añadiendo fechas. Estas fechas se insertan en el campo seleccionar y se pueden visualizar o eliminar. Y si se desea vaciar ese campo, se debe hacer clic sobre Borrar todos.
+- Comprobación día al que pertenece el evento: Configura qué momento del día utilizar para la comprobación de la restricción Días/Seleccionar/Borrar todos: Estos tres campos se configuran a la vez. En días, se hace clic en “Añadir día” y se van añadiendo fechas. Estas fechas se insertan en el campo seleccionar y se pueden visualizar o eliminar. Y si se desea vaciar ese campo, se debe hacer clic sobre Borrar todos.
 
 ### 2.17 No permitir planificar los días del mes indicados
 

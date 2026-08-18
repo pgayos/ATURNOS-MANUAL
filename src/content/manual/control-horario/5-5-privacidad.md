@@ -63,7 +63,7 @@ En este campo, hay 3 opciones a escoger ya que se pueden solicitar fichajes olvi
 - Permitir a los trabajadores solicitar tanto fichajes como modificaciones de fichajes: en este caso se permiten ambas acciones a los trabajadores, tantas peticiones de fichajes como de modificaciones de fichajes.
 - No permitir ninguna de las dos opciones: en este caso los trabajadores no tendrían acceso a la pestaña de ‘P eticiones de fichajes’ y no podrían realizar ninguna de las dos acciones.
 
-Al establecer un rol, indicamos qué tipo de administrador puede aceptar o denegar las peticiones (así como las peticiones de modificaciones de fichajes) o si por lo contrario se permite que sean aceptadas de forma automática (teniendo en cuenta que los fichajes realizados mediante peticiones se registran con la abreviatura (P) de peticiones ( ver más ). Se permiten las siguientes opciones:
+Al establecer un rol, indicamos qué tipo de administrador puede aceptar o denegar las peticiones (así como las peticiones de modificaciones de fichajes) o si por lo contrario se permite que sean aceptadas de forma automática (teniendo en cuenta que los fichajes realizados mediante peticiones se registran con la abreviatura (P) de peticiones (ver más). Se permiten las siguientes opciones:
 
 - Las peticiones se aprobarán automáticamente (Excepto modificaciones de fichajes).
 - Las peticiones se aprobarán automáticamente.

@@ -69,4 +69,4 @@ CSV Tipos de turnos
 
 Guarda el documento como formato tipo CSV.
 
-Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “ Importar “.
+Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “Importar “.

@@ -53,7 +53,7 @@ Aprende a cierre por equipos, con instrucciones y contexto revisables por el equ
 
 ## Contenido
 
-A través del cierre de cuadrante bloqueas la posibilidad de modificar la planificación existente. El cuadrante se cierra de forma automática, si se selecciona la opción, cuando se ejecuta el proceso de exportación a nómina ( ver más ).
+A través del cierre de cuadrante bloqueas la posibilidad de modificar la planificación existente. El cuadrante se cierra de forma automática, si se selecciona la opción, cuando se ejecuta el proceso de exportación a nómina (ver más).
 
 No solo impide la modificación del cuadrante, sino que es un requisito previo para la descarga de nómina si en los ajustes del equipo está seleccionada esta opción, consulta Exportación a nómina.
 

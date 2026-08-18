@@ -74,4 +74,4 @@ A nivel de trabajadores se pueden añadir los siguientes campos identificativos:
 
 Dato personalizado del empleado: en este campo se puede seleccionar uno o varios Datos personalizados para que aparezcan en la plantilla del reporte solicitado. En caso de requerir que aparezcan en el informe varios datos personalizados es necesario registrar en el campo cada uno deparado por “,” y un espacio, ejemplo: Centro de costes, Area
 
-Dependiendo de los campos que se quieran observar en los reportes del superusuario se debe añadir estos campos disponibles desde el botón de acción “ añadir ” y guardarlos con el botón de acción que “ Guardar ”.
+Dependiendo de los campos que se quieran observar en los reportes del superusuario se debe añadir estos campos disponibles desde el botón de acción “añadir” y guardarlos con el botón de acción que “Guardar”.

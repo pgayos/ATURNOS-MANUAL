@@ -68,8 +68,8 @@ Es posible por otra parte configurar una propia demanda, creando desde cero un d
 - Incremento: número de cantidad de demanda en cada intervalo de tiempo.
 - Localización: localización asociada a la demanda que se importa, la cual debe estar creada previamente (ver Crear nueva localización ).
 - Especialidad: podemos añadir un nivel de especialidad para calcular la demanda, ésta puede estar creada antes de hacer la importación (ver Especialidades ).
-- Modificar: valor 0, aumenta el valor informado en el campo “ Incremento ” de la demanda ya creada a modificar. Valor 1, modificar el valor informado en la demanda ya creada por el informado en la importación del campo “ Incremento “.
+- Modificar: valor 0, aumenta el valor informado en el campo “Incremento” de la demanda ya creada a modificar. Valor 1, modificar el valor informado en la demanda ya creada por el informado en la importación del campo “Incremento “.
 
 Por último, antes de realizar la importación, guarda el documento en formato tipo CSV.
 
-Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “ Importar “.
+Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “Importar “.

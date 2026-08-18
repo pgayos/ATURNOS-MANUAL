@@ -71,8 +71,8 @@ Te contamos los pasos, si lo que necesitas es confeccionar un documento Excel, u
 
 - Email*: informar de los mails de los trabajadores.
 - Fecha Hora Inicio*: indicar el día y la hora de comienzo a partir de la cual se insertarán las horas de más. Este campo no es necesario si se añaden los dos campos siguientes.
-- Día*: asociar con el campo de aTurnos “ Día ”. Se trata de la fecha en la que se quieren insertar las horas. Este campo no es necesario si se indica el campo anterior “Fecha”.
-- Hora inicio*: asociar con el campo de aTurnos “ Hora Inicio ”. Se trata del campo de la hora de inicio de las horas. Este campo es necesario si se indica el campo anterior “Día”.
+- Día*: asociar con el campo de aTurnos “Día”. Se trata de la fecha en la que se quieren insertar las horas. Este campo no es necesario si se indica el campo anterior “Fecha”.
+- Hora inicio*: asociar con el campo de aTurnos “Hora Inicio”. Se trata del campo de la hora de inicio de las horas. Este campo es necesario si se indica el campo anterior “Día”.
 - Horas*: indicar la duración de las horas a insertar. Formato hora: hh:mm:ss
 - Descripción: informar del motivo o razón de planificar las horas (es opcional, por ejemplo: Por necesidades del servicio).
 - Localización: indicar a que localización se le aplicarán las horas (es opcional).
@@ -84,6 +84,6 @@ Te contamos los pasos, si lo que necesitas es confeccionar un documento Excel, u
 
 Guardar el documento como formato tipo CSV.
 
-Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “ Importar “.
+Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “Importar “.
 
 Estos serán los campos que se deben asociar.

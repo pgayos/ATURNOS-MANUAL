@@ -57,7 +57,7 @@ El sistema, por si solo irá posicionando a los trabajadores según la cantidad 
 
 Ese orden o posicionamiento de los trabajadores es sensible a penalizaciones de horas. Las penalizaciones son horas que añade el administrador, por el motivo que considere, con el fin de descender la posición del trabajador.
 
-1. Desde el menú en Administrar, puedes acceder a “ Bolsas ”. Cree una nueva bolsa desde la opción “ Añadir ” y desígnale un nombre.
+1. Desde el menú en Administrar, puedes acceder a “Bolsas”. Cree una nueva bolsa desde la opción “Añadir” y desígnale un nombre.
 2. Una vez creado, configure la bolsa desde el botón Editar (icono del lápiz) de la columna acciones. Al editar, aparece un listado a modo de tabla con los siguientes encabezados: Nombre: muestra el nombre del trabajador. Participa: desde esta columna el administrador selecciona los candidatos que participarán y serán los disponibles para asignar tipos de turnos u horas gestionadas para esa bolsa. Tiene la opción de seleccionar a TODOS los trabajadores desde este encabezado. Horas iniciales: el administrador puede añadir horas que el trabajador ya tenía acumuladas en bolsa previamente pero que no estaban registradas en aTurnos. Penalización: son horas que añade el administrador, por el motivo que considere, con el fin de descender la posición del trabajador. Estas horas se sumarán al Total de horas haciendo que baje de posición en la tabla. Última llamada: fecha en la que se le asignó al trabajador el ultimo evento en la bolsa. Total: muestra el total de horas (independientemente de su tipo: Normal, extra, etc.) realizadas en bolsa, sumando incluso las horas de penalización.
 3. Una vez editada, Guarda la modificación que se han realizado.
 

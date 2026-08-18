@@ -67,7 +67,7 @@ Si está dado de alta en varios equipos, al iniciar sesión deberá seleccionar 
 
 Una vez que ya se encuentra dentro de uno de los equipos, se puede navegar entre los equipos en los que se encuentra dado de alta.
 
-Para ello, tiene que hacer clic sobre el nombre del equipo donde se encuentra logueado y seleccionar el equipo desde el despegable que le aparece en el menú. Si en lugar de seleccionar un equipo determinado, selecciona “ Mis equipos ” vuelve a la pantalla inicial donde aparecen todos los equipos a los que tiene acceso.
+Para ello, tiene que hacer clic sobre el nombre del equipo donde se encuentra logueado y seleccionar el equipo desde el despegable que le aparece en el menú. Si en lugar de seleccionar un equipo determinado, selecciona “Mis equipos” vuelve a la pantalla inicial donde aparecen todos los equipos a los que tiene acceso.
 
 En esta pantalla de “Mis equipos” puede realizar las siguientes acciones:
 

@@ -70,4 +70,4 @@ Además, haciendo clic en un día seleccionado en concreto podrás realizar las 
 3. Modificar turno: una vez añadido el turno y planificado en el cuadrante, podrán modificarlo de forma rápida y sencilla.
 4. Eliminar turno: al igual que en caso anterior, se podrá eliminar el turno con tan sólo un clic.
 5. Añadir absentismo: en este caso, si ya hay un turno planificado previamente, se podrá añadir cualquier tipo de absentismo creado, al igual que el trabajador.
-6. Anadir comentario: esta función al igual que el trabajador podrá realizarla el administrador ( ver manual del trabajador para más información ).
+6. Anadir comentario: esta función al igual que el trabajador podrá realizarla el administrador (ver manual del trabajador para más información).

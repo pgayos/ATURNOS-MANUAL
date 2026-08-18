@@ -85,7 +85,7 @@ Con extender planificación, los días 1, 2, 3 y 4 de marzo, se planificarán co
 
 Al marcar la opción “Comenzar desde inicio de patrón”, la planificación de los días 1, 2, 3 y 4 de marzo será la misma que tuvo los días 1, 2, 3 y 4 de febrero o los mismos días en enero, en este caso un turno (M), dependiendo de la fecha de inicio de los datos de planificación.
 
-Este proceso también deberá marcar la opción de planificar “ Hasta final de mes ” y seleccionar en la fecha fin, el mes hasta el cual se quiere extender.
+Este proceso también deberá marcar la opción de planificar “Hasta final de mes” y seleccionar en la fecha fin, el mes hasta el cual se quiere extender.
 
 Al seleccionar esta opción, se extenderá la planificación hasta el último día del mes indicado.
 

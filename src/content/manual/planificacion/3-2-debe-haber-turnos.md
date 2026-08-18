@@ -57,6 +57,6 @@ En el Debe/Haber de aTurnos se visualizan las “deudas” de turnos entre los t
 
 La función debe/haber ofrece una tabla con información si el trabajador que esta logueado debe algún turno a otro compañero del equipo, o por el contrario es el compañero quién le debe algún turno. El debe/haber estará sin “deudas” de cambios de turnos si esta tabla se encuentra vacía, en el caso de que haya alguna deuda de cambios de turno es señal de que hay cambios que aún no se han cerrado.
 
-Estas deudas de cambios pendientes por devolver, se generan cuando se hacen un cambio de turnos entre trabajadores desde el cuadrante ‘Hacer cambios’, en los tipos de cambios por los distintos tipos de cambio: Libres o Doblajes de turno, y siempre que no se “devuelva el cambio ”.
+Estas deudas de cambios pendientes por devolver, se generan cuando se hacen un cambio de turnos entre trabajadores desde el cuadrante ‘Hacer cambios’, en los tipos de cambios por los distintos tipos de cambio: Libres o Doblajes de turno, y siempre que no se “devuelva el cambio”.
 
 Ver registro, ofrece en detalle los cambios que les deben y/o los que deben los trabajadores.

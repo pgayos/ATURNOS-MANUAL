@@ -49,4 +49,4 @@ Estadísticamente es el total de las horas extras más las subtipos de horas ext
 
 ## Contenido
 
-En aTurnos existen 3 tipos de horas por defecto: horas normales, horas complementarias y horas extraordinarias. También se puede crear subtipos horas personalizadas para la planificación horaria del cualquier equipo. ( Ver tipos de horas ).
+En aTurnos existen 3 tipos de horas por defecto: horas normales, horas complementarias y horas extraordinarias. También se puede crear subtipos horas personalizadas para la planificación horaria del cualquier equipo. (Ver tipos de horas).

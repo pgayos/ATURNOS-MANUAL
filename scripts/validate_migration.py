@@ -11,10 +11,13 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from migrate_manual import slugify
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "src/content/manual"
 REPORT = ROOT / "migration/migration-report.json"
+GUIDES_REPORT = ROOT / "migration/external-guides-integration.json"
 REDIRECTS = ROOT / "redirects/redirects.csv"
 
 
@@ -32,19 +35,23 @@ def main() -> int:
     failures: list[str] = []
     warnings: list[str] = []
     report = json.loads(REPORT.read_text())
+    guides_report = json.loads(GUIDES_REPORT.read_text()) if GUIDES_REPORT.exists() else {"created": 0}
     files = sorted([*CONTENT.rglob("*.md"), *CONTENT.rglob("*.mdx")])
     generated = [p for p in files if p.suffix == ".md"]
-    if len(files) != report["canonicalEntries"]:
-        failures.append(f"canonical file count {len(files)} != report {report['canonicalEntries']}")
+    expected_files = report["canonicalEntries"] + guides_report["created"]
+    if len(files) != expected_files:
+        failures.append(f"canonical file count {len(files)} != expected {expected_files}")
     with REDIRECTS.open(encoding="utf-8") as fh:
         redirects = list(csv.DictReader(fh))
-    if len(redirects) != report["sourceUrls"]:
-        failures.append(f"redirect count {len(redirects)} != source count {report['sourceUrls']}")
+    external_redirects = [row for row in redirects if row["source"].startswith("http")]
+    if len(external_redirects) != report["sourceUrls"]:
+        failures.append(f"external redirect count {len(external_redirects)} != source count {report['sourceUrls']}")
     sources = [r["source"] for r in redirects]
     if len(sources) != len(set(sources)):
         failures.append("duplicate source URL in redirects")
     media_pattern = re.compile(r"<\s*(?:img|video|audio|iframe|embed|object|picture|Media|Video)\b|!\[[^\]]*\]\([^)]*\)|youtube(?:-nocookie)?\.com|youtu\.be", re.I)
     hashes: dict[str, list[str]] = defaultdict(list)
+    content_ids: dict[str, list[str]] = defaultdict(list)
     long_paragraphs = 0
     tiny_bodies = 0
     for path in generated:
@@ -58,6 +65,12 @@ def main() -> int:
             failures.append(f"generated entry is not draft: {path.relative_to(ROOT)}")
         normalized = norm(body)
         hashes[hashlib.sha256(normalized.encode()).hexdigest()].append(str(path.relative_to(ROOT)))
+        content_id = re.search(r'^contentId:\s+"([^"]+)"', text, re.M)
+        module = re.search(r'^module:\s+"?([^"\n]+)"?', text, re.M)
+        if content_id:
+            content_ids[content_id.group(1)].append(str(path.relative_to(ROOT)))
+        if module and path.relative_to(CONTENT).parts[0] != slugify(module.group(1).strip()):
+            failures.append(f"module/path mismatch: {path.relative_to(ROOT)}")
         words = len(normalized.split())
         if words < 25:
             tiny_bodies += 1
@@ -67,14 +80,25 @@ def main() -> int:
     duplicate_bodies = [paths for paths in hashes.values() if len(paths) > 1]
     if duplicate_bodies:
         failures.append(f"{len(duplicate_bodies)} duplicate canonical body groups remain")
+    duplicate_ids = [paths for paths in content_ids.values() if len(paths) > 1]
+    if duplicate_ids:
+        failures.append(f"{len(duplicate_ids)} duplicate contentId groups remain")
+    valid_targets = {
+        "/manual/" + "/".join(path.relative_to(CONTENT).with_suffix("").parts) + "/"
+        for path in files
+    }
+    missing_targets = sorted({row["target"] for row in redirects if row["target"] not in valid_targets})
+    if missing_targets:
+        failures.append(f"{len(missing_targets)} redirect targets do not resolve")
     if long_paragraphs:
         failures.append(f"{long_paragraphs} paragraphs exceed 620 characters")
     if tiny_bodies:
         warnings.append(f"{tiny_bodies} generated drafts contain fewer than 25 words")
     status_counts = Counter("invalid" if entry.get("invalidSource") else "content" for entry in report["entries"])
     result = {
-        "sourceUrls": report["sourceUrls"], "canonicalFiles": len(files), "generatedMarkdown": len(generated),
-        "redirects": len(redirects), "duplicateBodies": len(duplicate_bodies), "mediaReferences": sum("media reference" in f for f in failures),
+        "sourceUrls": report["sourceUrls"], "externalGuides": guides_report["created"], "canonicalFiles": len(files), "generatedMarkdown": len(generated),
+        "redirects": len(redirects), "duplicateBodies": len(duplicate_bodies), "duplicateContentIds": len(duplicate_ids),
+        "missingRedirectTargets": len(missing_targets), "mediaReferences": sum("media reference" in f for f in failures),
         "longParagraphs": long_paragraphs, "veryShortDrafts": tiny_bodies, "entryTypes": status_counts,
         "warnings": warnings, "failures": failures,
     }

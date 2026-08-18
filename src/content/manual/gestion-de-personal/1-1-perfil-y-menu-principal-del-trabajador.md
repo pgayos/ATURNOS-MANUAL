@@ -98,7 +98,7 @@ Muestra los siguientes datos:
 - Correo electrónico.
 - Número de teléfono.
 
-Indica la cantidad de “ Datos personalizados ”, completados en el perfil (si no se han creado “Datos personalizados” en tu equipo de aTurnos, el porcentaje es 0%) y si el trabajador está activo o inactivo en el equipo.
+Indica la cantidad de “Datos personalizados”, completados en el perfil (si no se han creado “Datos personalizados” en tu equipo de aTurnos, el porcentaje es 0%) y si el trabajador está activo o inactivo en el equipo.
 
 El trabajador, dependiendo de los permisos que tenga previamente configurado por la empresa, podrá acceder a las siguientes pestañas del menú del perfil del trabajador:
 

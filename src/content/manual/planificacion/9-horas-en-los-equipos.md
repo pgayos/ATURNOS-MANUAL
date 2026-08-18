@@ -66,12 +66,12 @@ En la tabla ‘Horas’ podrás consultar los siguientes datos:
 - Horas contrato: Son las horas que corresponde hacer al trabajador en el periodo teniendo en cuenta la fecha de inicio y fin del periodo y el porcentaje de jornada.
 - Días: Son el número de días naturales del periodo contratado del trabajador.
 - Horas planificadas: Suma de las horas y turnos planificados (horas computadas). También incluyen, si es el caso, las horas computables del ajuste del control de presencia del periodo de contrato consultado. Se excluyen las horas asociadas a los absentismos no justificado.
-- Ajuste de horas: Es el incremento o decremento de horas que se añade a un trabajador en el periodo de contrato. Estas horas no están planificadas ni son visibles en el cuadrante. Ejemplo cuando se traspasan saldos por exceso o defecto de horas de un año al siguiente. También se utiliza, por ejemplo, al hacer un finiquito al final del contrato y saldar las horas. ( Ver ¿qué son los ajustes de horas? )
+- Ajuste de horas: Es el incremento o decremento de horas que se añade a un trabajador en el periodo de contrato. Estas horas no están planificadas ni son visibles en el cuadrante. Ejemplo cuando se traspasan saldos por exceso o defecto de horas de un año al siguiente. También se utiliza, por ejemplo, al hacer un finiquito al final del contrato y saldar las horas. (Ver ¿qué son los ajustes de horas?)
 - Balance de horas: Es el resultado en horas de la diferencia entre las horas contrato menos las horas planificadas. Si lo que nos muestra el total es un balance con saldo negativo, entonces el trabajador ha realizado horas de más, es decir, son las horas en las que excede respecto a las que tiene identificadas en su contrato de trabajo en el periodo seleccionado. Por el contrario, si arroja un saldo positivo, entonces el trabajador ha realizado horas de menos, es decir, son las horas que le faltan respecto a las que tiene identificadas en su contrato de trabajo en el periodo seleccionado.
-- Balance de horas con ajuste: Es el resultado en horas de la diferencia entre las horas contrato menos las horas planificadas y el ajuste de horas añadido. ( Ver ¿qué son los ajustes de horas? )
+- Balance de horas con ajuste: Es el resultado en horas de la diferencia entre las horas contrato menos las horas planificadas y el ajuste de horas añadido. (Ver ¿qué son los ajustes de horas?)
 - Acciones: Podrás acceder al resto de equipos directamente haciendo clic en el botón verde del equipo que deseas.
 
-El administrador desde el perfil de trabajador puede ajustar las horas por defecto o exceso que realiza un trabajador de un periodo a otro desde el propio perfil de trabajador para dejar el periodo finalizado con un balance a “0” en la opción “ Horas en los equipos ”.
+El administrador desde el perfil de trabajador puede ajustar las horas por defecto o exceso que realiza un trabajador de un periodo a otro desde el propio perfil de trabajador para dejar el periodo finalizado con un balance a “0” en la opción “Horas en los equipos”.
 
 En el momento que un trabajador acaba un contrato es frecuente que las horas que ha realizado no se ajusten a las horas de contrato, bien por defecto o por exceso. Esta diferencia genera un balance en horas con valor diferente a cero. Para que el balance sea igual a cero, es necesario pasar las horas por exceso o defecto del periodo de contrato al siguiente periodo de contrato.
 
@@ -79,8 +79,8 @@ En el momento que un trabajador acaba un contrato es frecuente que las horas que
 
 1. Desde el perfil del trabajador en “Horas en los equipos” seleccionar la opción Horas.
 
-1. Desde la columna “ Balance horas con ajuste ” hacer clic en el botón de acción representado por una misma fecha ascendente y descendente.
-2. Al hacer clic en este botón, seleccionar el periodo, de los que se muestran, y donde se quiere pasar las horas. Una vez seleccionado hacer clic en el botón “ Guardar ”.
+1. Desde la columna “Balance horas con ajuste” hacer clic en el botón de acción representado por una misma fecha ascendente y descendente.
+2. Al hacer clic en este botón, seleccionar el periodo, de los que se muestran, y donde se quiere pasar las horas. Una vez seleccionado hacer clic en el botón “Guardar”.
 
 1. Las horas pasan al periodo seleccionado y el balance se ajusta a “0”.
 
@@ -93,7 +93,7 @@ En la tabla Vacaciones podrás consultar los siguientes datos:
 - Balance de Vacaciones: Es el resultado de la diferencia entre las vacaciones contrato menos las vacaciones disfrutadas.
 - Balance de Vacaciones con ajuste: Resultado de la diferencia entre las vacaciones contrato, menos las vacaciones disfrutadas y el ajuste de vacaciones.
 
-El administrador desde el perfil de trabajador puede ajustar las vacaciones por exceso o defecto que hayan sido disfrutada o no por el trabajador. Este ajuste se realiza de un periodo de contrato a otro desde el propio perfil de trabajador para dejar el periodo finalizado con un balance a “0” en la opción “ Horas en los equipos ”.
+El administrador desde el perfil de trabajador puede ajustar las vacaciones por exceso o defecto que hayan sido disfrutada o no por el trabajador. Este ajuste se realiza de un periodo de contrato a otro desde el propio perfil de trabajador para dejar el periodo finalizado con un balance a “0” en la opción “Horas en los equipos”.
 
 En el momento que un trabajador acaba un contrato, es frecuente que las vacaciones de ese contrato no hayan sido planificadas. Esta diferencia genera un balance en las vacaciones con valor diferente a cero a favor del trabajador. Para que el balance sea igual a cero, es necesario pasar las vacaciones por exceso o defecto del periodo de contrato al siguiente periodo de contrato.
 
@@ -101,8 +101,8 @@ En el momento que un trabajador acaba un contrato, es frecuente que las vacacion
 
 1. Desde el perfil del trabajador en “Horas en los equipos” seleccionar la opción Vacaciones.
 
-1. Desde la columna “ Balance ” hacer clic en el botón de acción representado por una misma fecha ascendente y descendente.
-2. Al hacer clic en este botón, seleccionar el periodo, de los que se muestran, y donde se quiere pasar las vacaciones. Una vez seleccionado hacer clic en el botón “ Guardar ”.
+1. Desde la columna “Balance” hacer clic en el botón de acción representado por una misma fecha ascendente y descendente.
+2. Al hacer clic en este botón, seleccionar el periodo, de los que se muestran, y donde se quiere pasar las vacaciones. Una vez seleccionado hacer clic en el botón “Guardar”.
 
 1. Las vacaciones pasan al periodo seleccionado y el balance se ajusta a “0”.
 

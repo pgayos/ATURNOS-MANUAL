@@ -57,7 +57,7 @@ Se puede borrar:
 
 - Planificación: como turnos, horas, absentismos y recursos asociados (este último si el equipo tiene el Módulo de Recursos activado).
 - Vacaciones: borrará las vacaciones planificadas dentro del período visible.
-- Turnos de 0 horas: es aquel que su duración total y computada es de cero horas ( turno sin horas ), estos turnos se identifican en el cuadrante con el color naranja.
+- Turnos de 0 horas: es aquel que su duración total y computada es de cero horas (turno sin horas), estos turnos se identifican en el cuadrante con el color naranja.
 
 Cada vez que se borre el cuadrante, el sistema preguntará si se quiere actualizar la fecha fin de planificación.
 

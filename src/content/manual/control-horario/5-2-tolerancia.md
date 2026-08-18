@@ -61,7 +61,7 @@ Esta opción, permite definir dos tolerancias distintas. Una tolerancia al inici
 
 En último lugar, se pueden configurar hasta cuatro tipos de tolerancias. Se pueden indicar una tolerancia para el tiempo de defecto al inicio del turno (retraso a la entrada) y otra tolerancia por exceso al inicio del turno (entrar antes en el puesto de trabajo). De la misma forma, se puede disponer de una tolerancia por defecto de tiempo al final del turno (salir antes del trabajo) y otra tolerancia por exceso de tiempo al final del turno (acabar más tarde un servicio).
 
-Para más información con algunos ejemplos, consultar nuestro articulo del blog “ Una forma nueva de gestionar las tolerancias del Control Horario “.
+Para más información con algunos ejemplos, consultar nuestro articulo del blog “Una forma nueva de gestionar las tolerancias del Control Horario “.
 
 * Defecto de tiempo: fichar menos tiempo, ya sea por llegar más tarde de la hora inicio del turno o por salir antes de la hora fin del turno. ** Exceso de tiempo: fichar más tiempo, ya sea por llegar antes de la hora inicio del turno o por salir más tardes de la hora fin del turno.
 

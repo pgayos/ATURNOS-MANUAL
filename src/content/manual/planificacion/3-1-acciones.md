@@ -2,7 +2,7 @@
 schemaVersion: "1.0"
 contentId: "planificacion-3-1-acciones"
 title: "Acciones"
-description: "En Acciones quedan registrados todo lo que ocurren en aTurnos, quién ha realizado cada una de las acciones y a qué usuarios ha afectado."
+description: "En Acciones quedan registradosss todo lo que ocurren en aTurnos, quién ha realizado cada una de las acciones y a qué usuarios ha afectado."
 contentType: concept
 module: "Planificación"
 submodule: "Vacaciones y ausencias"
@@ -45,7 +45,7 @@ migration:
 ---
 ## Resumen
 
-En Acciones quedan registrados todo lo que ocurren en aTurnos, quién ha realizado cada una de las acciones y a qué usuarios ha afectado.
+En Acciones quedan registradosss todo lo que ocurren en aTurnos, quién ha realizado cada una de las acciones y a qué usuarios ha afectado.
 
 ## Contenido
 

@@ -53,6 +53,6 @@ Aprende a enviar cuadrante por Email, con instrucciones y contexto revisables po
 
 ## Contenido
 
-Desde esta función, el administrador podrá enviar el cuadrante por correo electrónico al trabajador seleccionado de manera sencilla (para un envío masivo a todos los trabajadores ver la función ” Enviar cuadrante por correo electrónico a todos “).
+Desde esta función, el administrador podrá enviar el cuadrante por correo electrónico al trabajador seleccionado de manera sencilla (para un envío masivo a todos los trabajadores ver la función” Enviar cuadrante por correo electrónico a todos “).
 
 El trabajador recibió la planificación del periodo que está visualizando el administrador en el momento de enviar el cuadrante.

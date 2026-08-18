@@ -57,19 +57,19 @@ Aprende a estadística diaria de todos los equipos, con instrucciones y contexto
 
 A través de la estadística diaria se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculados diariamente en el período seleccionado). Ver en el Manual el comportamiento de la estadística diaria: Estadística diaria
 
-Al acceder a RRHH → ADMINISTRAR → NOMINAS → ESTADISTICA TODOS LOS EQUIPOS DIARIA se genera un reporte donde se recuperan los conceptos calculados día a día, en función de la configuración de la plantilla de nómina. Ver en el Manual ( Plantilla de nómina ).:
+Al acceder a RRHH → ADMINISTRAR → NOMINAS → ESTADISTICA TODOS LOS EQUIPOS DIARIA se genera un reporte donde se recuperan los conceptos calculados día a día, en función de la configuración de la plantilla de nómina. Ver en el Manual (Plantilla de nómina).:
 
 - Fecha de inicio
 - Fecha de fin
 - Equipo o equipos seleccionados
-- Por defecto, el formato de salida de la estadística (plantilla de nómina) recuperará la plantilla de nómina (conceptos por filas o conceptos por columnas) del equipo en el que se está logueado. ( Ver en el Manual ).
+- Por defecto, el formato de salida de la estadística (plantilla de nómina) recuperará la plantilla de nómina (conceptos por filas o conceptos por columnas) del equipo en el que se está logueado. (Ver en el Manual).
 
 Por defecto, el tipo de consulta es el modo Consulta, las opciones disponibles son:
 
 - Consulta. Recupera el valor de los conceptos de nómina sin tener en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, informados en el perfil del trabajador.
 - Simulación. Recupera el valor de los conceptos de nómina teniendo en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, sin modificar la fecha del último día exportado en el perfil del trabajador.
 
-Por defecto, el tipo de descarga (estadística diaria sin totalizar o estadística diaria totalizada) es el indicado en la plantilla de nómina. ( Ver en el Manual ).
+Por defecto, el tipo de descarga (estadística diaria sin totalizar o estadística diaria totalizada) es el indicado en la plantilla de nómina. (Ver en el Manual).
 
 Al marcar “Cargar”, la aplicación nos muestra un mensaje
 

@@ -47,6 +47,6 @@ Por diferentes circunstancias, puedes dejar de usar algún patrón de turnos. Re
 
 ## Contenido
 
-Una vez estés seguro de eliminar el patrón, tienes que hacer clic en el icono borrar “ papelera “, el sistema te consulta si realmente deseas eliminar el patrón. Si haces clic en “ eliminar ”, se borra el patrón del listado. Debes asegurarte al realizar de esta acción, ya que posteriormente, una vez eliminado, no se puede restablecer.
+Una vez estés seguro de eliminar el patrón, tienes que hacer clic en el icono borrar “papelera “, el sistema te consulta si realmente deseas eliminar el patrón. Si haces clic en “eliminar”, se borra el patrón del listado. Debes asegurarte al realizar de esta acción, ya que posteriormente, una vez eliminado, no se puede restablecer.
 
 Si dicho patrón ha sido utilizado para planificar turnos en el cuadrante, la planificación del cuadrante no se modifica, es decir, los turnos planificados en el cuadrante son independientes del patrón origen.

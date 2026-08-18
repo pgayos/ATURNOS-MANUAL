@@ -49,7 +49,7 @@ Información sobre descanso del turno, con instrucciones y contexto revisables p
 
 Tiempo de descanso del turno planificado.
 
-No todos los turnos tienen descanso, depende de la configuración de los turnos ( Crear tipos de turnos ).
+No todos los turnos tienen descanso, depende de la configuración de los turnos (Crear tipos de turnos).
 
 ## Revisión requerida
 

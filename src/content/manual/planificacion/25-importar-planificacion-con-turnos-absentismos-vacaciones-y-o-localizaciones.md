@@ -64,13 +64,13 @@ CSV Importar planificacion (turnos)
 - Nombre: nombres que identifican a los trabajadores
 - Email*: se añade en las diferentes filas los correos electrónicos de los trabajadores.
 - Id Empleado*
-- En las siguientes columnas añadir cada día desde la fecha de inicio ( Columna Inicio ) hasta la fecha fin de planificación ( Columna Final ) en formato dd/MM/aaaa del periodo de tiempo que se quiere importar. En las celdas de las columnas de los días del cuadrante, se insertan las abreviaturas idénticas de los turnos, vacaciones y absentismos que están previamente creados (ver Tipos de turno ). También podemos añadir más de un tipo de turno en un día o una jornada partida, para ello habría que insertar en la celda M+T. En el caso de los absentismo debe ir asociada al tipo de turno, de la siguiente estructura: abreviatura del turno, guion (–) y abreviatura del absentismo, por ejemplo: M-IT (ver Absentismos ).
+- En las siguientes columnas añadir cada día desde la fecha de inicio (Columna Inicio) hasta la fecha fin de planificación (Columna Final) en formato dd/MM/aaaa del periodo de tiempo que se quiere importar. En las celdas de las columnas de los días del cuadrante, se insertan las abreviaturas idénticas de los turnos, vacaciones y absentismos que están previamente creados (ver Tipos de turno ). También podemos añadir más de un tipo de turno en un día o una jornada partida, para ello habría que insertar en la celda M+T. En el caso de los absentismo debe ir asociada al tipo de turno, de la siguiente estructura: abreviatura del turno, guion (–) y abreviatura del absentismo, por ejemplo: M-IT (ver Absentismos ).
 
 Guarda el documento como formato tipo CSV.
 
-Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “ Importar “.
+Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “Importar “.
 
-A la hora de asociar los campos del documento con aTurnos, hay que tener en cuenta que para tomar las fechas de planificación, la columna del primer día planificado en el archivo que se va a importar, se debe asociar al campo “ Columna Inicio ” y la última fecha de planificación asociarla al campo “ Columna final “.
+A la hora de asociar los campos del documento con aTurnos, hay que tener en cuenta que para tomar las fechas de planificación, la columna del primer día planificado en el archivo que se va a importar, se debe asociar al campo “Columna Inicio” y la última fecha de planificación asociarla al campo “Columna final “.
 
 Existen tres opciones de importación, si se informa en el documento de Excel con el campo “Cuadrante”:
 

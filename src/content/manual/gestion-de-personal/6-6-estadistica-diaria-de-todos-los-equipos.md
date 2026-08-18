@@ -70,13 +70,13 @@ Los días son:
 - Día 14/04/2024 tiene un turno de 1 horas, debe recuperar valor el concepto 3K00
 - Día 16/04/2024 tiene un turno de 2 horas, debe recuperar valor el concepto 3K00
 
-Al acceder a RRHH → NOMINAS → ESTADISTICA DIARIA DE TODOS LOS EQUIPOS, se genera un reporte donde se recuperan los conceptos calculados día a día, en función de la configuración de la plantilla de nómina del equipo en el que el usuario que genera el reporte está logueado. Ver en el Manual ( Plantilla de nómina ).
+Al acceder a RRHH → NOMINAS → ESTADISTICA DIARIA DE TODOS LOS EQUIPOS, se genera un reporte donde se recuperan los conceptos calculados día a día, en función de la configuración de la plantilla de nómina del equipo en el que el usuario que genera el reporte está logueado. Ver en el Manual (Plantilla de nómina).
 
 1.- Selecciona las fechas.
 
 2.- Selecciona el equipo / equipos.
 
-3.- Selecciona en la plantilla de nómina los conceptos en filas para una mejor visualización / control. En el caso de seleccionar “según configuración” recuperará los valores indicados en la plantilla de nómina del equipo en el que está logueado el usuario que ejecuta la estadística. ( Ver en el Manual ).
+3.- Selecciona en la plantilla de nómina los conceptos en filas para una mejor visualización / control. En el caso de seleccionar “según configuración” recuperará los valores indicados en la plantilla de nómina del equipo en el que está logueado el usuario que ejecuta la estadística. (Ver en el Manual).
 
 Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística.
 
@@ -85,7 +85,7 @@ Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística.
 - Consulta. Recupera el valor de los conceptos de nómina sin tener en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, informados en el perfil del trabajador.
 - Simulación. Recupera el valor de los conceptos de nómina teniendo en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, sin modificar la fecha del último día exportado en el perfil del trabajador.
 
-5.- Por defecto, el tipo de descarga (estadística diaria sin totalizar o estadística diaria totalizada) es el indicado en la plantilla de nómina del equipo en el que está logueado el usuario que ejecuta la estadística. ( Ver en el Manual ).
+5.- Por defecto, el tipo de descarga (estadística diaria sin totalizar o estadística diaria totalizada) es el indicado en la plantilla de nómina del equipo en el que está logueado el usuario que ejecuta la estadística. (Ver en el Manual).
 
 5.- Al cargar la estadística, salta un aviso para que la aplicación genere un reporte.
 

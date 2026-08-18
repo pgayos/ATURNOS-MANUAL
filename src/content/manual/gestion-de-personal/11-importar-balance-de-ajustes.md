@@ -73,4 +73,4 @@ CSV Importar balance de ajustes
 
 Por último, antes de realizar la importación, guarda el documento con formato tipo CSV.
 
-Para importar el archivo puedes consultar los pasos que indicamos en nuestro menú de “ Importar “.
+Para importar el archivo puedes consultar los pasos que indicamos en nuestro menú de “Importar “.

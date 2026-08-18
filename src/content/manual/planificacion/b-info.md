@@ -51,7 +51,7 @@ En este apartado se muestra información a detalle del evento que está registra
 
 En ocasiones el trabajador puede estar planificado en más cuadrante de otros equipos. En el caso de que tenga planificación en otros cuadrantes el sistema informa la planificación de la semana de todos los equipos en el que se encuentra dado de alta.
 
-Cuando en el día se encuentra registrada una “Petición” del trabajador (ya aprobado por su supervisor), al entrar en la información se mostrará en la columna de Peticiones el icono para ver el detalle de la misma, así como la planificación que tenía asignados anteriormente ( Cuadrante anterior ).
+Cuando en el día se encuentra registrada una “Petición” del trabajador (ya aprobado por su supervisor), al entrar en la información se mostrará en la columna de Peticiones el icono para ver el detalle de la misma, así como la planificación que tenía asignados anteriormente (Cuadrante anterior).
 
 Se muestra también la opción de Deshacer acción que es muy útil si por algún motivo, luego de aprobar una petición (de vacaciones, un turno, horas, etc.), necesitas deshacerla o cancelarla. Desde aquí tendrás la opción de hacerlo y recuperar los eventos que tenia registrados el trabajador antes de hacer la petición.
 

@@ -54,7 +54,7 @@ Estos datos son los siguientes:
 - Teléfono: Define el número de teléfono del trabajador para una mejor identificación del mismo. Sobre todo, servirá en aquellos casos en que el teléfono sea una de las herramientas de trabajo principales del trabajador. Si no lo has añadido previamente cuando has procedido a crear el trabajador y quieres conocer este dato, posteriormente solo puede añadirlo el trabajador al que se hace referencia.
 - ID Empleado: Es el código de usuario de la empresa. Se utiliza para el traspaso de datos con el resto de equipos de la empresa. En el caso de que el trabajador este asignado a más de un mismo equipo se mantiene el ID en los diferentes equipos. Más información en Maestro de empleados de aTurnos.
 - ID Usuario: Es el código interno que recibe el trabajador por parte de aTurnos. Se trata de un código único, personal y que se puede utilizar como otro código de identificación. Dicho dato es generado por aTurnos y no se puede proceder a su modificación.
-- Rol del usuario: Es el Rol de usuario que quieres que tenga el trabajador. Por defecto, la persona que crea un equipo, tiene el rol de “ Administrador Total ” y el resto de los trabajadores, en el momento del alta, el rol de “ trabajador ”. En un equipo puede haber tantos administradores como se desee.
+- Rol del usuario: Es el Rol de usuario que quieres que tenga el trabajador. Por defecto, la persona que crea un equipo, tiene el rol de “Administrador Total” y el resto de los trabajadores, en el momento del alta, el rol de “trabajador”. En un equipo puede haber tantos administradores como se desee.
 
 ### Perfil del usuario
 

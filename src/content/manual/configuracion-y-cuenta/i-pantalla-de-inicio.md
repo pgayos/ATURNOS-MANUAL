@@ -53,7 +53,7 @@ Aprende a pantalla de inicio, con instrucciones y contexto revisables por el equ
 
 Al iniciar sesión y acceder a un equipo, la primera pantalla que visualiza el usuario se denomina pantalla de inicio, en la que se pueden ver los widgets de información o accesos rápidos a los apartados más destacados de la herramienta. Los widgets que se visualizan se pueden configurar en los Ajustes del equipo.
 
-Para configurar la pantalla de inicio accede a Administrar → Ajustes → Pantalla de Inicio ( ver configuración de pantalla de inicio y más widgets ). Según el rol, existen diferentes widgets, y éstos tiene que ser seleccionado por un administrador, para saber cuáles serán Widgets disponibles y de éstos, cuales serán los Widgets visibles para los usuarios dependiendo de su rol y perfil (planificable o no planificable).
+Para configurar la pantalla de inicio accede a Administrar → Ajustes → Pantalla de Inicio (ver configuración de pantalla de inicio y más widgets). Según el rol, existen diferentes widgets, y éstos tiene que ser seleccionado por un administrador, para saber cuáles serán Widgets disponibles y de éstos, cuales serán los Widgets visibles para los usuarios dependiendo de su rol y perfil (planificable o no planificable).
 
 Más detalles de los widgets 👈🏻
 

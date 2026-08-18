@@ -76,7 +76,7 @@ El cambio de turno es uno de los procesos más usado por los profesionales que t
 
 El cambio de turno implica el movimiento o cesión de turnos de un trabajador a otro trabajador dentro del mismo día. Esto se realiza para el mismo día, así validamos que existen las mismas coberturas que fueron planificadas. Esta acción solo es posible realizarla en un día presente o en un día futuro del cuadrante, nunca a pasado.
 
-Los cambios de turnos, según configuración, pueden ser validados por los trabajadores implicados en el cambio y el administrador del equipo. Todos los cambios de turnos entre trabajadores quedan registrados en un histórico de cambios, accediendo a ellos para cualquier consulta o seguimiento cuando sea requerido.
+Los cambios de turnos, según configuración, pueden ser validados por los trabajadores implicados en el cambio y el administrador del equipo. Todos los cambios de turnos entre trabajadores quedan registradosss en un histórico de cambios, accediendo a ellos para cualquier consulta o seguimiento cuando sea requerido.
 
 Si necesitas cambiar un turno con un compañero, se manejan varios escenarios en aTurnos, existiendo tres tipos de cambios de turnos: Intercambia r turno en el mismo día, Librar un turno planificado, o doblar turno en el mismo día.
 

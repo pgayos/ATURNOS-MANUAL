@@ -59,7 +59,7 @@ A través de la estadística por periodo de todos los equipos se visualiza el re
 
 No es aconsejable el uso de la estadística por periodo si en el cálculo de las variables se utilizan cálculos complejos tanto conceptos que operan entre conceptos como conceptos de comparación, las operaciones que ejecutan (de suma, resta, multiplicación o división, así como las de comparación) se realizan entre las fechas de la ejecución calculando en todo el periodo seleccionado.
 
-Ver en el Manual el apartado 6.4.- Exportar a nóminas ( Manual ) el comportamiento de la estadística por periodo.
+Ver en el Manual el apartado 6.4.- Exportar a nóminas (Manual) el comportamiento de la estadística por periodo.
 
 Veamos un ejemplo, con los conceptos que se han ido desarrollando en este Manual, en este caso, las horas de nocturnidad se calculan en un concepto de nómina si son menores a 10 (concepto 3K00) y si las horas nocturnas son iguales o mayores a 10 (concepto 3000).
 
@@ -80,7 +80,7 @@ Accede a RRHH → NOMINAS → ESTADISTICA POR PERIODO DE TODOS LOS EQUIPOS
 
 2.- Selecciona los equipos
 
-3.- Por defecto, la plantilla de nómina (conceptos por filas o conceptos por columnas) será la indicada. ( Ver en el Manual ). Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística
+3.- Por defecto, la plantilla de nómina (conceptos por filas o conceptos por columnas) será la indicada. (Ver en el Manual). Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística
 
 4.- Tipo de consulta: Consulta
 

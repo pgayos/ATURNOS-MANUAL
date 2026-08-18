@@ -47,7 +47,7 @@ migration:
 
 Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas.
 
-Este informe ofrece las estadísticas de los Absentismos, en el que se contabilizan las ausencias y su comparación con los turnos planificados. Todos estos datos se pueden desglosar según el tipo de absentismo, además de diferenciarlo entre productivos y no productivos. Los Tipos de Absentismos se tienen que crear o importar por el administrador del equipo para que se puedan colocar en el cuadrante, o se contabilicen a la hora de realizar los ajustes en el Control de Presencia ( ver más ).
+Este informe ofrece las estadísticas de los Absentismos, en el que se contabilizan las ausencias y su comparación con los turnos planificados. Todos estos datos se pueden desglosar según el tipo de absentismo, además de diferenciarlo entre productivos y no productivos. Los Tipos de Absentismos se tienen que crear o importar por el administrador del equipo para que se puedan colocar en el cuadrante, o se contabilicen a la hora de realizar los ajustes en el Control de Presencia (ver más).
 
 En los siguientes puntos se expone de forma sencilla las utilidades incluidas en este informe estadístico de los absentismos:
 

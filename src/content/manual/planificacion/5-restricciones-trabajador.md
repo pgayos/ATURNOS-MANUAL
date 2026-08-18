@@ -62,7 +62,7 @@ Las restricciones son seleccionadas y gestionadas por el administrador y se clas
 
 El trabajador en su propio perfil puede ver todas las restricciones en las que se ve afectado tanto a nivel de equipo, como a nivel individual.
 
-El administrador desde el perfil de cualquier trabajador puede añadir restricciones a un trabajador, a más de uno o a todos los trabajadores del equipo. También puede comprobar si las restricciones se están cumpliendo según los datos de planificación del cuadrante o del cuadrante borrador del/los trabajadores. Desde aquí se pueden añadir restricciones al trabajador haciendo clic en “ añadir ” (Aquí puedes visualizar los tipos de restricciones que puedes añadir ).
+El administrador desde el perfil de cualquier trabajador puede añadir restricciones a un trabajador, a más de uno o a todos los trabajadores del equipo. También puede comprobar si las restricciones se están cumpliendo según los datos de planificación del cuadrante o del cuadrante borrador del/los trabajadores. Desde aquí se pueden añadir restricciones al trabajador haciendo clic en “añadir” (Aquí puedes visualizar los tipos de restricciones que puedes añadir ).
 
 Haciendo clic en el botón “Petición”, el trabajador podrá solicitar cualquier de los más de 100 tipos de restricciones creadas en aTurnos (ver listado de tipos de restricciones ). Además del tipo de restricción, se deberá indicar si esta es “Deseable” (se puede permitir su omisión) u “Obligatoria” (es de obligado cumplimiento por acuerdo entre las partes, contrato, convenio colectivo o ley).
 
@@ -70,9 +70,9 @@ También es posible que se tengan que informar de otras variables, como los tipo
 
 En la parte inferior, aparecen las “Peticiones de restricciones” solicitadas, pudiendo saber cuáles han sido aprobadas, denegadas o aún pendientes.
 
-En el perfil del trabajador desde la opción “ Restricciones ” el administrador puede revisar si las restricciones se incumplen, a nivel individual del trabajador en el que se está consultado su perfil o a nivel de todos los trabajadores del equipo. Estas opciones depende de los 2 botones de comprobación de restricciones:
+En el perfil del trabajador desde la opción “Restricciones” el administrador puede revisar si las restricciones se incumplen, a nivel individual del trabajador en el que se está consultado su perfil o a nivel de todos los trabajadores del equipo. Estas opciones depende de los 2 botones de comprobación de restricciones:
 
-1. El botón “ Comprobar ”, el cual se encuentra fuera de la columna acción: comprobará todas las restricciones exclusivas del trabajador consultado.
+1. El botón “Comprobar”, el cual se encuentra fuera de la columna acción: comprobará todas las restricciones exclusivas del trabajador consultado.
 
 2. El botón de la columna de acción de las restricciones: comprueba el tipo de la restricción seleccionada, en un periodo de tiempo, escogiendo si la comprobación la quiere realizar sobre el cuadrante o sobre el cuadrante borrador, y en el caso de ser una restricción aplicada a todo el equipo nos informará el nombre de los trabajadores que incumplen esta restricción.
 

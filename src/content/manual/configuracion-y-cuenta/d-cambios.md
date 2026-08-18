@@ -135,7 +135,7 @@ Informa fecha a partir de la cual se tienen en cuenta el máximo de cambios a de
 
 ### Permitir cambios en distintos años fiscales
 
-Marcando “ SI ” los trabajadores pueden realizar cambios de turnos en distintos años fiscales. Se recomienda marcar en SI (Ver mas acerca de Inicio año fiscal)
+Marcando “SI” los trabajadores pueden realizar cambios de turnos en distintos años fiscales. Se recomienda marcar en SI (Ver mas acerca de Inicio año fiscal)
 
 ### Aplicar restricciones en los cambios de turno
 

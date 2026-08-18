@@ -58,7 +58,7 @@ Para poder recuperar la planificación necesitamos conocer:
 - E mail del trabajador, del cual queremos recuperar la planificación.
 - Fecha de borrado, que es la fecha cuando se produjo el borrado de la planificación.
 
-En el caso de no saber esta fecha con exactitud se puede informar otra fecha aproximada hasta conseguir que se muestre los turnos borrados en forma de tabla al hacer clic en le botón de acción “Buscar ”.
+En el caso de no saber esta fecha con exactitud se puede informar otra fecha aproximada hasta conseguir que se muestre los turnos borrados en forma de tabla al hacer clic en le botón de acción “Buscar”.
 
 En la tabla que se muestra nos informa los tipos de turnos que se pueden recuperar en el cuadrante del equipo donde se borraron. Es importante indicar que los turnos se insertarán de nuevo solo en el cuadrante del equipo donde se perdieron, a pesar de que el trabajador esté activo en más de un equipo/cuadrantes. En esta misma tabla nos dará la siguiente información:
 

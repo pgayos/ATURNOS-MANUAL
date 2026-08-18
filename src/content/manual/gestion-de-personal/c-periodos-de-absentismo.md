@@ -57,4 +57,4 @@ El listado muestra nombre del trabajador, fecha de inicio y fin del período, ti
 
 Cabe resaltar que este registro en particular no permite modificar datos del Periodo de absentismo de los trabajadores. Si el Administrador del equipo desea modificarlo debe entrar al perfil del trabajador y hacerlo desde la pestaña de Periodos de absentismos. (Ver más en: Periodos de absentismo en el perfil del trabajador ).
 
-En el icono de “ Ocultar ” puedes quitar y agregar nuevamente alguna de las columnas que se muestran en el informe o tabla, así como, exportar el listado a un archivo CSV, Excel, PDF, entre otros, dese el icono de “ Acciones ”.
+En el icono de “Ocultar” puedes quitar y agregar nuevamente alguna de las columnas que se muestran en el informe o tabla, así como, exportar el listado a un archivo CSV, Excel, PDF, entre otros, dese el icono de “Acciones”.

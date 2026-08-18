@@ -117,7 +117,7 @@ Existe un responsable del proyecto por parte de aTurnos y el cliente asigna un r
 7. Validación del proceso de planificación y operativa diaria de equipos piloto
 8. Validación de los pilotos y planificación del roll-out
 
-Estas fases y/o tareas se reflejan en un diagrama de Gantt, donde se define el período de duración de cada una, buscando cumplir con el tiempo de duración establecido para el proyecto de implantación. ( Ver Modelo de Gantt )
+Estas fases y/o tareas se reflejan en un diagrama de Gantt, donde se define el período de duración de cada una, buscando cumplir con el tiempo de duración establecido para el proyecto de implantación. (Ver Modelo de Gantt)
 
 Es importante resaltar que, este proceso también podría ser realizado directamente por la empresa, aunque por volumen y complejidad recomendamos gestionarlo con la consultoría de aTurnos.
 

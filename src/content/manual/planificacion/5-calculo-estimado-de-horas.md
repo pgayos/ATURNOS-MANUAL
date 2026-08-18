@@ -94,15 +94,15 @@ Como ya se ha indicado, el objetivo del cálculo estimado es distribuir mensualm
 
 ### Días estimados a trabajar al año
 
-Con estas dos variables (los días de descanso semanal y si trabaja o no los festivos), la aplicación calcula los “ días estimados a trabajar al año “, que son los días naturales de alta en el año, menos los días de absentismo tipo excedencia menos los festivos anuales, menos los días de vacaciones, menos los días de descanso semanal que le corresponden al año.
+Con estas dos variables (los días de descanso semanal y si trabaja o no los festivos), la aplicación calcula los “días estimados a trabajar al año “, que son los días naturales de alta en el año, menos los días de absentismo tipo excedencia menos los festivos anuales, menos los días de vacaciones, menos los días de descanso semanal que le corresponden al año.
 
 ### Horas estimadas por día de trabajo
 
-Con las “horas contrato” y los “días estimados a trabajar al año” se obtienen las “ horas estimadas por día de trabajo “.
+Con las “horas contrato” y los “días estimados a trabajar al año” se obtienen las “horas estimadas por día de trabajo “.
 
 ### Horas contrato mes
 
-Para terminar, “ las horas contrato mes ” es el resultado de multiplicar las “horas estimadas por día de trabajo” por los “ días contrato al mes “, el resultado de esta operación se resta a las horas planificadas más/menos los ajustes para obtener el balance mensual.
+Para terminar, “las horas contrato mes” es el resultado de multiplicar las “horas estimadas por día de trabajo” por los “días contrato al mes “, el resultado de esta operación se resta a las horas planificadas más/menos los ajustes para obtener el balance mensual.
 
 Al tratarse de un cálculo con cierta complejidad, a continuación se explica con varios ejemplos:
 
@@ -120,11 +120,11 @@ Al tratarse de un cálculo con cierta complejidad, a continuación se explica co
 
 Todos estos datos están informados en el perfil del trabajador, para acceder a los datos de un trabajador en sigue las instrucciones que te indicamos en el Manual
 
-1.- Cálculo de las “ horas contrato”, es decir, el número de horas que los/las trabajadores/trabajadoras deben “prestar servicios” atendiendo a las horas anuales de convenio, los días de alta y al porcentaje de jornada.
+1.- Cálculo de las “horas contrato”, es decir, el número de horas que los/las trabajadores/trabajadoras deben “prestar servicios” atendiendo a las horas anuales de convenio, los días de alta y al porcentaje de jornada.
 
 - Fórmula: horas año por defecto (1780) / días año (365 días en el año 2022) x días de alta (365) es igual 1780 horas.
 
-2.- Cálculo de los “ días estimados a trabajar al año”, son los días de alta (365) menos los días que no se “deben prestar servicios”. Los días que no se “deben prestar servicios” es la suma de los días de vacaciones anuales (30), más los festivos anuales (14) más los días de descanso semanal anuales que no se trabajan.
+2.- Cálculo de los “días estimados a trabajar al año”, son los días de alta (365) menos los días que no se “deben prestar servicios”. Los días que no se “deben prestar servicios” es la suma de los días de vacaciones anuales (30), más los festivos anuales (14) más los días de descanso semanal anuales que no se trabajan.
 
 ¿Cómo se calculan los días de descanso semanal anuales?
 
@@ -143,11 +143,11 @@ Los días estimados a trabajar al año es igual a:
 
 Es decir, de los 365 días de alta, solo debería trabajar 252, 21 días, pero ¿cuántas horas debe trabajar al día?
 
-3.- Cálculo de las “ horas estimadas por día de trabajo”.
+3.- Cálculo de las “horas estimadas por día de trabajo”.
 
 - Fórmula: horas contrato (1780) x porcentaje de jornadas (100) / días estimados a trabajar al año (252,21) es igual a 7,05749079580855, se redondea a 7,06.
 
-4.- Cálculo de los “ días contrato al mes enero”, es decir, los días de alta en el mes menos los días de vacaciones disfrutadas en el mes y/o la prorrata de las mismas (si no estuvieran planificadas) menos los festivos del mes menos los días de descanso semanal mensuales.
+4.- Cálculo de los “días contrato al mes enero”, es decir, los días de alta en el mes menos los días de vacaciones disfrutadas en el mes y/o la prorrata de las mismas (si no estuvieran planificadas) menos los festivos del mes menos los días de descanso semanal mensuales.
 
 Para el mes de Enero, los datos con los que cuenta la aplicación son:
 
@@ -184,7 +184,7 @@ En la última columna, en el mes de febrero el balance acumulado del mes de ener
 
 El balance acumulado es de 180 horas, las vacaciones no están planificadas, cuando se planifiquen el balance será menor, en el siguiente ejemplo veremos el comportamiento de la aplicación con las vacaciones planificadas.
 
-6.- A modo de ejemplo, cálculo de los “ días contrato al mes febrero”,
+6.- A modo de ejemplo, cálculo de los “días contrato al mes febrero”,
 
 Para el mes de Febrero, los datos con los que cuenta la aplicación son:
 
@@ -221,7 +221,7 @@ Para el proceso de cálculo cuando se tienen vacaciones planificadas hay que seg
 
 En este ejemplo, el/la trabajador/a tiene planificados 30 días de vacaciones en el mes de Junio
 
-4.- Cálculo de los “ días contrato al mes enero”, es decir, los días de alta en el mes menos los días de vacaciones disfrutadas en el mes y/o la prorrata de las mismas (si no estuvieran planificadas) menos los festivos del mes menos los días de descanso semanal mensuales.
+4.- Cálculo de los “días contrato al mes enero”, es decir, los días de alta en el mes menos los días de vacaciones disfrutadas en el mes y/o la prorrata de las mismas (si no estuvieran planificadas) menos los festivos del mes menos los días de descanso semanal mensuales.
 
 Para el mes de Enero, los datos con los que cuenta la aplicación son:
 
@@ -284,13 +284,13 @@ Además, a nivel de cada trabajador, se puede indicar si trabaja o no los festiv
 
 ¿Cómo afecta las modificaciones en el cálculo estimado al balance del trabajador?
 
-2.- Los días estimados a trabajar ya no son 252,21, el cálculo de los “ días estimados a trabajar al año”, son los días de alta (365) menos los días que no se “deben prestar servicios”. Los días que no se “deben prestar servicios” es la suma de los días de vacaciones anuales (30), más los festivos anuales (65).
+2.- Los días estimados a trabajar ya no son 252,21, el cálculo de los “días estimados a trabajar al año”, son los días de alta (365) menos los días que no se “deben prestar servicios”. Los días que no se “deben prestar servicios” es la suma de los días de vacaciones anuales (30), más los festivos anuales (65).
 
 - Fórmula: días de alta (365) – vacaciones (30) – festivos (65) es igual a 270 días.
 
 Es decir, de los 365 días de alta, solo debería trabajar 270 días, pero ¿cuántas horas debe trabajar al día?
 
-3.- Cálculo de las “ horas estimadas por día de trabajo”, ya no son 7,06
+3.- Cálculo de las “horas estimadas por día de trabajo”, ya no son 7,06
 
 - Fórmula: horas contrato (1780) x porcentaje de jornadas (100) / días estimados a trabajar al año (270) es igual a 6,59
 
@@ -308,9 +308,9 @@ En el primer ejemplo, el balance mensual, en enero, el trabajador tenía 13,32 h
 
 Con la modificación del cálculo, restando las horas de vacaciones pendientes del balance, el trabajador tiene un defecto de 0,81. La suma de las horas contrato más las horas vacaciones pendientes es igual a 160,81.
 
-Las horas de vacaciones se calculan multiplicando las “ horas estimadas por día de alta ” por el campo “ vacaciones prorrateadas.
+Las horas de vacaciones se calculan multiplicando las “horas estimadas por día de alta” por el campo “vacaciones prorrateadas.
 
-El cálculo de las “ horas estimadas por día de alta ” depende del valor que tenga informado el campo “Restar las vacaciones para el calculo de horas estimadas por día de alta”:
+El cálculo de las “horas estimadas por día de alta” depende del valor que tenga informado el campo “Restar las vacaciones para el calculo de horas estimadas por día de alta”:
 
 - Si está informado si, la fórmula de cálculo es la siguiente: horas contrato (1780) / días de alta (365) – días de vacaciones (30) – festivos (14) es igual a 5,55
 - En caso contrario, la fórmula de cálculo es la siguiente: horas contrato (1780) / días de alta (365) es igual a 4,88

@@ -54,7 +54,7 @@ En las estadísticas de horas encontramos dos pestañas:
 Muestra los datos por Horas de nuestra planificación, cada columna se corresponde con una variable diferente, en las cuales podemos ordenar los datos que contiene en orden ascendente y descendente. De la misma forma podemos variar la posición de cada columna como mostramos en puntos anteriores. Veremos las siguientes nomenclaturas:
 
 - Trabajadores: nombre de las personas que componen el equipo.
-- Turnos: son las columnas identificadas con las abreviaturas que corresponde con uno de los turnos ( ver más ) aplicados en el cuadrante del equipo. Informa el número de horas de ese tipo de turno que tiene planificada el trabajador durante el periodo de fechas marcado en la barra de filtros.
+- Turnos: son las columnas identificadas con las abreviaturas que corresponde con uno de los turnos (ver más) aplicados en el cuadrante del equipo. Informa el número de horas de ese tipo de turno que tiene planificada el trabajador durante el periodo de fechas marcado en la barra de filtros.
 - Absentismo: informa el número de horas de absentismos (productivos y no productivos) asociados a los turnos y horas planificadas. Incluyen absentismos totales y temporales.
 - Normales: informa el número de horas que no pertenecen a los tipos de turnos y computan como horas de contrato. Se incluyen las planificadas y realizadas.
 - Extra: informa el número de horas que no pertenecen a los tipos de turnos y no computan como horas de contrato. Computan de manera independiente a las horas de contrato en las estadísticas y en los conceptos de nómina. Se incluyen en las horas realizadas, pero no en las planificadas.

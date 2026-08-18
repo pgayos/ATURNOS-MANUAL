@@ -61,9 +61,9 @@ Si la necesidad es añadir a un trabajador en otro equipo, el cual ya está dado
 
 1. El equipo de destino: equipo donde se añade y activa al trabajador.
 2. El rol de usuario que se le asigna al trabajador en el equipo de destino. Dependiendo del rol de usuario tendrá determinados permisos sobre los diferentes equipos.
-3. Planificabilidad: seleccionar si es planificable, planificable oculto o no planificable. ( Ver detalle de planificabilidad del trabajador )
+3. Planificabilidad: seleccionar si es planificable, planificable oculto o no planificable. (Ver detalle de planificabilidad del trabajador)
 4. La categoría del trabajador: puesto del trabajador basado a una clasificación profesional de la empresa. Véase ¿ cómo crear categorías en aTurnos?.
 5. El porcentaje de jornada del trabajador, se calculará automáticamente atendiendo a las horas contrato año, ya informadas en el equipo donde irá destinado.
-6. La fecha indicará el día en que el trabajador estará activo en el nuevo equipo. La fecha fin ( hasta ) no es necesaria informarla en el caso de que se desconozca la fecha fin de actividad del trabajador en este equipo.
+6. La fecha indicará el día en que el trabajador estará activo en el nuevo equipo. La fecha fin (hasta) no es necesaria informarla en el caso de que se desconozca la fecha fin de actividad del trabajador en este equipo.
 7. Clonar especialidades y datos personalizados: si tiene un periodo anterior en otro equipo, clonaría los datos personales de su perfil (Id empleado, posición, etc.)., asi como datos personalizados y especialidad que tenga informada de ese equipo.
 8. Guardar, haciendo clic en este botón de acción se actualizará aTurnos, en base a la información cumplimentada en los pasos anteriores.

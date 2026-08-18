@@ -55,7 +55,7 @@ En este menú de acciones, el administrador podrá realizar las siguientes gesti
 
 - Buscar trabajador para turno: aTurnos presenta un formulario donde el administrador selecciona el tipo de turno que quiere planificar, el día donde insertará ese turno, la localización donde se insertará el mismo turno, especificar si el turno pertenece a una bolsa de trabajo o es un turno fuera de bolsa de trabajo y seleccionar el trabajador de los que aparecen y muestra aTurnos como disponible. Cuando selecciona a un trabajador con un clic sobre él, se insertará en la planificación del cuadrante de localizaciones, con los datos de planificación informado en este formulario.
 
-En el caso de que aTurnos no muestre trabajadores disponibles, o el administrador no seleccione a ninguno de los disponibles, existe una opción dentro de este formulario denominado “ Crear oferta de turno”, a partir del cual el administrador ofrece un turno, asociado a una localización y día, con la finalidad de que sean los trabajadores quien se ofrezcan a realizar el turno seleccionado. (Ver más en: Peticiones de oferta de turno ).
+En el caso de que aTurnos no muestre trabajadores disponibles, o el administrador no seleccione a ninguno de los disponibles, existe una opción dentro de este formulario denominado “Crear oferta de turno”, a partir del cual el administrador ofrece un turno, asociado a una localización y día, con la finalidad de que sean los trabajadores quien se ofrezcan a realizar el turno seleccionado. (Ver más en: Peticiones de oferta de turno ).
 
 - Añadir horas: se insertan y planifican horas a un trabajador o varios en la celda/día de la localización que necesite. Al hacer clic en añadir horas se despliega formulario para informar los datos.
 

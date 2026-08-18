@@ -127,7 +127,7 @@ Configuración
 
 Una vez cumplimentado el formulario se hace clic en “Guardar”.
 
-Si existen muchos turnos, para crearlos puedes importarlos a partir de un Excel o CSV desde nuestro menú ‘Importar’. Los datos necesarios para la importación de tipos de turnos, lo encontrarás en el siguiente enlace ( Importación de tipos de turnos ).
+Si existen muchos turnos, para crearlos puedes importarlos a partir de un Excel o CSV desde nuestro menú ‘Importar’. Los datos necesarios para la importación de tipos de turnos, lo encontrarás en el siguiente enlace (Importación de tipos de turnos).
 
 En caso de editar o borrar un tipo de turno ya creado, en el listado de tipos de turnos aparecen estos botones de acción.
 
@@ -149,13 +149,13 @@ Las modificaciones que se realicen en un turno, absentismo o tipo de hora, actua
 
 Los datos de los turnos pueden tener periodos de vigencia. Es decir, en el caso de un turno de mañana “M”, por ejemplo, en la temporada de invierno es de 8:00 a 15:00 y en la temporada de verano el turno de mañana es de 6:00 a 13:00, no siendo necesario crear dos turnos diferentes. Se puede editar los datos a partir una fecha, en la cual entra en vigor los datos modificados del turno, en este caso el horario, sin afectar a la planificación que había aplicada.
 
-En el ejemplo anterior, solo se cambiará el ‘Inicio’ (hora de comienzo), a continuación, haciendo clic sobre la acción “ Nuevos datos ” e informar la fecha correspondiente que indique la ‘Entrada en vigor’. A partir de esa fecha, turno ‘M’ empezará a las 06:00.
+En el ejemplo anterior, solo se cambiará el ‘Inicio’ (hora de comienzo), a continuación, haciendo clic sobre la acción “Nuevos datos” e informar la fecha correspondiente que indique la ‘Entrada en vigor’. A partir de esa fecha, turno ‘M’ empezará a las 06:00.
 
 ### Borrar un turno
 
 En el listado de tipos de turnos, haciendo clic en el botón de borrar.
 
-Cuando es borrado, no desaparece de aTurnos, ya que hay una opción habilitada para recuperarlo en caso de que se vuelva a necesitar. Esta opción está operativa en “ No disponibles”. Al hacer clic en esta opción, aTurnos ofrece en modo de tabla todos los tipos de turnos y absentismos que se pueden recuperar, para volver a estar disponible y poder planificar con ellos.
+Cuando es borrado, no desaparece de aTurnos, ya que hay una opción habilitada para recuperarlo en caso de que se vuelva a necesitar. Esta opción está operativa en “No disponibles”. Al hacer clic en esta opción, aTurnos ofrece en modo de tabla todos los tipos de turnos y absentismos que se pueden recuperar, para volver a estar disponible y poder planificar con ellos.
 
 ### Recuperar un turno borrado
 
