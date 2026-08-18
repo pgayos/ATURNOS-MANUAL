@@ -59,7 +59,7 @@ En aTurnos, los patrones de turnos pueden estar formados por un solo periodo, o 
 
 Un periodo del patrón de turnos es una secuencia de tipos de turnos en un número determinado de días, por defecto aTurnos genera periodos de 7 días, simulando una semana, siendo, por ejemplo, el día 1 del patrón el lunes de la semana y los días 6 y 7 del patrón, el sábado y domingo respectivamente. El primer día del patrón puede ser diferente a un lunes, porque se puede configurar según el día de la semana en el que tiene que empezar el patrón.
 
-El periodo de turno puede tener más de 7 días, o menos, para ello se cambiará el número de días del periodo en el campo “ escalonado ”, cuando se crea o edita el patrón.
+El periodo de turno puede tener más de 7 días, o menos, para ello se cambiará el número de días del periodo en el campo “escalonado”, cuando se crea o edita el patrón.
 
 Puede existir patrones con un solo periodo, o con más de un periodo. En el caso de tener más de un periodo de turnos, los periodos tienen el mismo número de días. Los periodos se insertan en el cuadrante de los trabajadores, de manera ordenada atendiendo el orden en el que se encuentren posicionado en el patrón de turnos.
 
@@ -68,10 +68,10 @@ Todos los patrones de turnos creados se quedan guardados en un listado de patron
 Planificar con patrones de turnos es una acción habitual que puedes realizar en tus equipos de trabajo. Los patrones de turnos ya creados posteriormente podrás editarlos. A continuación te mostramos los pasos para editar un patrón de turnos.
 
 1. Tienes que acceder a Menú- → Planificador- → Patrones de turno.
-2. Hacer “clic” en el botón de acción editar “ lapicero”.
+2. Hacer “clic” en el botón de acción editar “lapicero”.
 3. Modificar la información indicada, en el momento de cuando se creo el patrón de turnos en los siguientes campos:
 
-- Descripción: nombre con el que se identifica el turno. Escalonado: número de días que constituye el ciclo del patrón. Es decir, duración en días de los periodos del patrón, cada cuánto tiempo van a rotar los periodos. El escalonado a 7 días es el más común, ya que cuadran los fines de semana cuando rotan los periodos del patrón. Festivos: cuando se planifique con el patrón, se insertará los tipos de turnos en los festivos en el caso que se informe en este campo “ aplicar a festivos ”, de lo contrario no se aplicará turnos en los días festivos, previamente informados en el cuadrante. Aplicar patrón desde: informa el día de inicio del patrón, por defecto aTurnos lo asocia con un lunes, considerado como el primer día de la semana, aunque hay empresas que el primer día para aplicar el patrón puede ser cualquier día de la semana. Siendo el día de la semana desde cuando se aplicará el patrón.
+- Descripción: nombre con el que se identifica el turno. Escalonado: número de días que constituye el ciclo del patrón. Es decir, duración en días de los periodos del patrón, cada cuánto tiempo van a rotar los periodos. El escalonado a 7 días es el más común, ya que cuadran los fines de semana cuando rotan los periodos del patrón. Festivos: cuando se planifique con el patrón, se insertará los tipos de turnos en los festivos en el caso que se informe en este campo “aplicar a festivos”, de lo contrario no se aplicará turnos en los días festivos, previamente informados en el cuadrante. Aplicar patrón desde: informa el día de inicio del patrón, por defecto aTurnos lo asocia con un lunes, considerado como el primer día de la semana, aunque hay empresas que el primer día para aplicar el patrón puede ser cualquier día de la semana. Siendo el día de la semana desde cuando se aplicará el patrón.
 
 1. Insertar en cada día de la secuencia del patrón (identificado en aTurnos como día 1, día 2… día 7) el/los tipos de turnos. Se pueden insertar los turnos en las celdas, de esta secuencia, de varias maneras:
 
@@ -81,6 +81,6 @@ Planificar con patrones de turnos es una acción habitual que puedes realizar en
 - Se inserta el tipo de turno M (mañana) en los días del 1 hasta 5 (corresponde de lunes a viernes) y además se inserta un turno tipo T (tarde) en los días 2 y 4 (martes y jueves). Para el día 6 y 7, considerado como sábado y domingo, se insertará L (libres).
 - Observando la última columna de la tabla, te muestra la información del total de horas de cada periodo del patrón. En cada fila informa la suma de horas computadas de los diferentes turnos que forman parte de cada periodo del patrón. Se actualiza cuando alguna celda/día cambia de planificación (inserta un turno nuevo, se borra, se cambia un turno por otro con diferente número de horas computadas,…).
 
-Ya modificados los datos del patrón, se guarda en el botón inferior derecho “ Guardar ”, salvando con éxito la edición del patrón de turnos.
+Ya modificados los datos del patrón, se guarda en el botón inferior derecho “Guardar”, salvando con éxito la edición del patrón de turnos.
 
 En el momento de editar un patrón de turnos con más de un periodo, dispones de otras herramientas que te permiten hacer las mismas acciones que a la hora de crear un patrón de turnos.

@@ -49,4 +49,4 @@ Información sobre horas complementarias, con instrucciones y contexto revisable
 
 Estadísticamente es el total de las horas complementarias más las subtipos de horas complementarias. No suman en las horas computadas como las horas extras, pero estas específicamente para personal en jornada parcial. Estas horas se incluyen en las horas planificadas.
 
-En aTurnos existen 3 tipos de horas por defecto: horas normales, horas complementarias y horas extraordinarias. También se puede crear subtipos horas personalizadas para la planificación horaria del cualquier equipo. ( Ver tipos de horas ).
+En aTurnos existen 3 tipos de horas por defecto: horas normales, horas complementarias y horas extraordinarias. También se puede crear subtipos horas personalizadas para la planificación horaria del cualquier equipo. (Ver tipos de horas).

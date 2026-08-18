@@ -63,7 +63,7 @@ En el caso de un trabajador que tenga un turno de 22:00 – 08:00(+1), realiza u
 
 - En los casos donde los turnos planificados sean de larga duración (superen la duración máxima de la jornada), es recomendable que se indique la opción “Si”. Aunque se supere, se considerará el primer fichaje como entrada y el segundo como salida. Por ejemplo, cuando después de un turno mañana se planifica un turno de guardia, donde la duración en horas de ambos turnos es superior a la duración máxima de la jornada.
 
-- Si se opta por la opción “ NO ”, en este caso el registro de las acciones de entrada y salida dependerá de la duración máxima de la jornada. El primer fichaje será una salida, pero el siguiente fichaje, en el caso de superar la duración máxima de la jornada, será una nueva entrada. Por ejemplo, en caso de olvido del fichaje en la salida del trabajador, al transcurrir la duración configurada, el siguiente fichaje se inserta como nueva entrada.
+- Si se opta por la opción “NO”, en este caso el registro de las acciones de entrada y salida dependerá de la duración máxima de la jornada. El primer fichaje será una salida, pero el siguiente fichaje, en el caso de superar la duración máxima de la jornada, será una nueva entrada. Por ejemplo, en caso de olvido del fichaje en la salida del trabajador, al transcurrir la duración configurada, el siguiente fichaje se inserta como nueva entrada.
 
 Se pueden crear distintos tipos de fichaje para identificarlos según el sistema de fichaje que se realice. Por ejemplo, si el fichaje es mediante el sistema remoto que se activa en el perfil del trabajador, se puede forzar que el fichaje sea de un tipo en concreto.
 

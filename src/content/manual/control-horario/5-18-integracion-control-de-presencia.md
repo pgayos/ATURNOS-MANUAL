@@ -57,7 +57,7 @@ La integración se puede producir gracias a nuestra API y APIrestfull
 
 En este enlace ofrecemos toda la documentación sobre los parámetros de Control de Presencia: APIdoc
 
-En este método, en el parámetro “ what” primero mira si lo que se pasa es un Dato Personalizado sino, mira el “ id_user” y si no el “ id_employee”.
+En este método, en el parámetro “what” primero mira si lo que se pasa es un Dato Personalizado sino, mira el “id_user” y si no el “id_employee”.
 
 POST
 

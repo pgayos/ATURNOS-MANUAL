@@ -69,7 +69,7 @@ Existen 8 tipos: vacaciones, vacaciones por horas, permisos de días, permisos d
 
 ### Vacaciones
 
-En esta petición se solicitan días de vacaciones. La cantidad y si aplican a días naturales o laborables, dependerá de la configuración del equipo y del perfil del trabajador ( ver más ).
+En esta petición se solicitan días de vacaciones. La cantidad y si aplican a días naturales o laborables, dependerá de la configuración del equipo y del perfil del trabajador (ver más).
 
 ### Vacaciones por horas
 
@@ -87,21 +87,21 @@ Se trata de una petición que informa sobre la ausencia de un trabajador al turn
 
 Se diferencian de los “periodos de absentismo” porque si posterior a la petición del permiso de días, se insertan turnos, estos no se ven afectados por la primera petición, por lo que para pedir ese turno libre se debe realizar otra petición. Las celdas del cuadrante de los días de permisos aceptados no se sombrean en azul en el cuadrante. No aparece en el listado de periodos de absentismo del perfil del trabajador.
 
-Los absentismos que pueden solicitar los trabajadores los puedes crear en Planificador → Tipos de turno ( ver más ).
+Los absentismos que pueden solicitar los trabajadores los puedes crear en Planificador → Tipos de turno (ver más).
 
 ### Permisos de horas
 
 Son permisos temporales con una hora de inicio y fin que limita el absentismo, no son considerados como periodos de absentismos. El trabajador solicitará dicha opción, si necesita ir a una consulta médica y se ausenta de su puesto de trabajo durante algunas horas. Las celdas del cuadrante de los permisos temporales aceptados no se sombrean en azul en el cuadrante. No aparece en el listado de periodos de absentismo del perfil del trabajador. Se pueden añadir en días planificados o días sin planificar.
 
-Igual que en el caso anterior, puedes crear un listado de absentismos que pueden solicitar los trabajadores ( ver más ).
+Igual que en el caso anterior, puedes crear un listado de absentismos que pueden solicitar los trabajadores (ver más).
 
 ### Turno
 
-Un administrador puede solicitar a un trabajador trabajar un turno en un determinado día. Los turnos que pueden solicitar los trabajadores son aquellos que al crearlos (o en su configuración) se indica que se pueden solicitar ( ver más ).
+Un administrador puede solicitar a un trabajador trabajar un turno en un determinado día. Los turnos que pueden solicitar los trabajadores son aquellos que al crearlos (o en su configuración) se indica que se pueden solicitar (ver más).
 
 ### Horas
 
-Los trabajadores pueden solicitar realizar horas que computen como horas normales, extra o complementarias. Puedes crear un listado de tipos de horas que pueden solicitar los trabajadores ( ver más ). Por ejemplo, en ocasiones los trabajadores pueden solicitar realizar horas de más en concepto de “compensación” por un día que hayan faltado a su puesto.
+Los trabajadores pueden solicitar realizar horas que computen como horas normales, extra o complementarias. Puedes crear un listado de tipos de horas que pueden solicitar los trabajadores (ver más). Por ejemplo, en ocasiones los trabajadores pueden solicitar realizar horas de más en concepto de “compensación” por un día que hayan faltado a su puesto.
 
 ### Libre
 
@@ -112,7 +112,7 @@ Los administradores pueden solicitar un día libre en un día con un turno plani
 - Turnos: Este campo se autocompleta si únicamente se tiene planificado un turno en el día de la petición. Si se tienen varios, se puede elegir la cantidad de turnos a librar.
 - Comentarios: De manera opcional se puede añadir un comentario a la petición.
 
-Una vez enviada la petición, se hace clic en el botón “ guardar ” para que la petición se quede registrada en peticiones pendientes. En el cuadrante se puede visualizar de color morado la propuesta de la petición y al administrador le llegará un aviso de petición pendiente, notificación o email (depende de configuración), avisando de que se han registrado nuevas peticiones y están pendiente de ser gestionadas.
+Una vez enviada la petición, se hace clic en el botón “guardar” para que la petición se quede registrada en peticiones pendientes. En el cuadrante se puede visualizar de color morado la propuesta de la petición y al administrador le llegará un aviso de petición pendiente, notificación o email (depende de configuración), avisando de que se han registrado nuevas peticiones y están pendiente de ser gestionadas.
 
 El administrador para gestionar las peticiones pendientes puede hacerlo desde el propio cuadrante (propuesta morada que destaca en la planificación del cuadrante), desde el widget de peticiones y desde las peticiones y cambios del menú.
 

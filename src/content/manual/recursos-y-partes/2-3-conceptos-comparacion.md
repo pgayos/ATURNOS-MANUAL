@@ -120,7 +120,7 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “3000 – 3K00 horas nocturnidad en el día de inicio”, añadir como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el concepto 3000 – las horas de nocturnidad en el día de inicio son mayores a 10”, es decir el activador creado.
 
-6.- Para el concepto 3K00 (horas nocturnas menores a 10), el concepto que opera entre conceptos multiplicará el concepto “3000 – 3K00 horas de nocturnidad en el día de inicio” x “3K00 – las horas de nocturnidad en el día de inicio son menores a 10” ”, es decir multiplica por el activador creado en el punto 4.
+6.- Para el concepto 3K00 (horas nocturnas menores a 10), el concepto que opera entre conceptos multiplicará el concepto “3000 – 3K00 horas de nocturnidad en el día de inicio” x “3K00 – las horas de nocturnidad en el día de inicio son menores a 10””, es decir multiplica por el activador creado en el punto 4.
 
 - Concepto: Indicando en este caso, el concepto “3K00”, que coincide con el código del software de nómina que realiza el cálculo. Es obligatorio informar este campo.
 - Descripción: Breve resumen explicativo, si fuera necesario. No es obligatorio informar este campo.

@@ -59,12 +59,12 @@ Ejemplo de documento: CSV import_plantilla-tareas.
 - Flexible o Fija: En el caso de que las tareas sean flexible se informa valor 1, en caso de que las tareas sean fijas se informa cero o en blanco
 - Prioridad de la tarea: Valores de 1 a 5, siendo 5 el valor máximo.
 
-Finalmente, debe “ Guardar ” el documento como formato Excel o un fichero tipo CSV.
+Finalmente, debe “Guardar” el documento como formato Excel o un fichero tipo CSV.
 
 Una vez creado, accede a Administrar → Importar/Exportar → Importar (ver Importar ).
 
 Selecciona el fichero creado y selecciona el tipo de importación “Importar plantillas de tareas”.
 
-Para terminar marca “ Asociar ”.
+Para terminar marca “Asociar”.
 
 Accede a TAREAS → PLANTILLA DE TAREAS donde aparecen las plantillas de tareas importadas.

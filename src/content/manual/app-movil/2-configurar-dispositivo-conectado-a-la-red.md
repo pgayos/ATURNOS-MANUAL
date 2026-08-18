@@ -51,7 +51,7 @@ En los casos donde se haya conectado un nuevo dispositivo de lectura de huella, 
 
 ## Contenido
 
-- Acceder al software “ BioStarConfig “. seleccionar la subred y buscar dispositivo.
+- Acceder al software “BioStarConfig “. seleccionar la subred y buscar dispositivo.
 
 - Una vez encontrado el dispositivo, seleccionarlo y desmarcar ‘DHCP’. De esta forma, ya se puede editar la IP que se desea asignar al dispositivo y por último, una vez indicados los datos, pinchar en el botón ‘Apply’.
 

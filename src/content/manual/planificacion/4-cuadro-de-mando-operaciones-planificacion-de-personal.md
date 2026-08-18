@@ -57,7 +57,7 @@ Aprende a cuadro de mando: Operaciones planificación de personal, con instrucci
 
 ### Cuadro de mando
 
-Una vez creada la Curva de necesidad o demanda ( Véase como crear curvas de demanda ), podrás visualizarla de forma gráfica en este punto. En color rojo mostrará la cantidad de trabajadores que ya tienen planificación en el cuadrante los días del período seleccionado (aparecerá en rojo solo cuando existan trabajadores con turnos ya planificados en el cuadrante).
+Una vez creada la Curva de necesidad o demanda (Véase como crear curvas de demanda), podrás visualizarla de forma gráfica en este punto. En color rojo mostrará la cantidad de trabajadores que ya tienen planificación en el cuadrante los días del período seleccionado (aparecerá en rojo solo cuando existan trabajadores con turnos ya planificados en el cuadrante).
 
 Desde esta ventana podrás realizar las funciones enumeradas a continuación.
 

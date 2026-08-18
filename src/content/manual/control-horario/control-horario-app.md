@@ -53,7 +53,7 @@ Información sobre control Horario (APP), con instrucciones y contexto revisable
 
 ### 1.1 Cómo fichar
 
-Para fichar desde la app de aTurnos ( iOS y Android ), acceda a Control Horario → Fichar donde podrá ver el botón correspondiente para realizar el marcaje (ya sea de entrada o de salida). A continuación te mostramos cómo puedes realizar tus fichas de inicio y fin de la jornada laboral por medio de la app:
+Para fichar desde la app de aTurnos (iOS y Android), acceda a Control Horario → Fichar donde podrá ver el botón correspondiente para realizar el marcaje (ya sea de entrada o de salida). A continuación te mostramos cómo puedes realizar tus fichas de inicio y fin de la jornada laboral por medio de la app:
 
 Dicho proceso se ejecutará desde el apartado de fichar, donde te saldrá el tiempo que ha trabajado en caso haber fichada la entrada anteriormente, o directamente el botón donde hacer clic:
 

@@ -51,4 +51,4 @@ Aprende a acceder al perfil del trabajador, con instrucciones y contexto revisab
 
 ## Contenido
 
-Desde el icono “perfil” localizado junto a cada equipo en el que se encuentra asignado el trabajador, al hacer clic en este icono, el superusuario accede al perfil y detalle del trabajador en ese equipo, donde puede consultar y/o modificar datos del trabajador ( ver más ).
+Desde el icono “perfil” localizado junto a cada equipo en el que se encuentra asignado el trabajador, al hacer clic en este icono, el superusuario accede al perfil y detalle del trabajador en ese equipo, donde puede consultar y/o modificar datos del trabajador (ver más).

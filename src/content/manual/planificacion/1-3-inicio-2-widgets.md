@@ -55,7 +55,7 @@ Aprende a inicio 2 (Widgets), con instrucciones y contexto revisables por el equ
 
 En la pantalla de Inicio de aTurnos se pueden visualizar los “Widgets” o “Cajas” configurados en el equipo. Se trata de información clave para las gestiones diarias y que se adapta a cada perfil, es decir, la información que ven los administradores en comparación a la que pueden ver los trabajadores diferentes, dependiendo de la configuración, seleccionando los widgets para cada rol.
 
-Para configurar esta pantalla de inicio accede a Administrar → Ajustes → Pantalla de Inicio ( ver configuración de pantalla de inicio y más widgets ). Según el rol, existiten diferentes widgets, y éstos tiene que ser seleccionado por un administrador, para saber cuáles serán Widgets visibles, o por el contrario, Widgets no visibles.
+Para configurar esta pantalla de inicio accede a Administrar → Ajustes → Pantalla de Inicio (ver configuración de pantalla de inicio y más widgets). Según el rol, existiten diferentes widgets, y éstos tiene que ser seleccionado por un administrador, para saber cuáles serán Widgets visibles, o por el contrario, Widgets no visibles.
 
 A continuación explicamos los widgets disponibles para administradores y superusuarios:
 
@@ -142,7 +142,7 @@ Identificado como WIDGET_WORKER_LAST_NOT_CHECKING_CLOSE. Muestra si en algún tu
 
 Identificado como Fichajes sin cerrar del equipo. Muestra cuántos fichajes no se han cerrado en los turnos realizados con anterioridad.
 
-Identificado como Datos Personalizados. Muestra los datos personalizados del propio usuario ( ver más sobre datos personalizados ).
+Identificado como Datos Personalizados. Muestra los datos personalizados del propio usuario (ver más sobre datos personalizados).
 
 Identificado como Especialidades. Muestra el listado de especialidades creadas en el equipo, indicando número de trabajadores que tienen asignada cada una de ellas.
 

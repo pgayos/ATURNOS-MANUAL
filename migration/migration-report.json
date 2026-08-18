@@ -3,13 +3,13 @@
   "canonicalEntries": 614,
   "duplicatesConsolidated": 355,
   "invalidSources": 11,
-  "redirects": 969,
+  "redirects": 1129,
   "entries": [
     {
-      "target": "/manual/general/cuadrante/",
-      "file": "src/content/manual/general/cuadrante.md",
+      "target": "/manual/planificacion/cuadrante-2/",
+      "file": "src/content/manual/planificacion/cuadrante-2.md",
       "title": "Cuadrante",
-      "module": "General",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-1-cuadrante/"
       ],
@@ -36,10 +36,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/a-cuadrante-por-localizaciones/",
-      "file": "src/content/manual/planificacion/a-cuadrante-por-localizaciones.md",
+      "target": "/manual/recursos-y-partes/a-cuadrante-por-localizaciones/",
+      "file": "src/content/manual/recursos-y-partes/a-cuadrante-por-localizaciones.md",
       "title": "a. Cuadrante por localizaciones",
-      "module": "Planificación",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-4-cuadrante-por-localizaciones/"
       ],
@@ -58,10 +58,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/b-peticiones-pendientes/",
-      "file": "src/content/manual/planificacion/b-peticiones-pendientes.md",
+      "target": "/manual/peticiones-y-cambios/b-peticiones-pendientes/",
+      "file": "src/content/manual/peticiones-y-cambios/b-peticiones-pendientes.md",
       "title": "b. Peticiones Pendientes",
-      "module": "Planificación",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-5-2-peticiones-pendientes/"
       ],
@@ -69,10 +69,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/e-historial-de-peticiones/",
-      "file": "src/content/manual/planificacion/e-historial-de-peticiones.md",
+      "target": "/manual/peticiones-y-cambios/e-historial-de-peticiones/",
+      "file": "src/content/manual/peticiones-y-cambios/e-historial-de-peticiones.md",
       "title": "e. Historial de peticiones",
-      "module": "Planificación",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-5-3-historial-de-peticiones/"
       ],
@@ -102,10 +102,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/d-oferta-de-turno/",
-      "file": "src/content/manual/gestion-de-personal/d-oferta-de-turno.md",
+      "target": "/manual/peticiones-y-cambios/d-oferta-de-turno/",
+      "file": "src/content/manual/peticiones-y-cambios/d-oferta-de-turno.md",
       "title": "d. Oferta de turno",
-      "module": "Gestión de personal",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-5-6-oferta-de-turno/"
       ],
@@ -124,10 +124,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/barra-superior-del-cuadrante/",
-      "file": "src/content/manual/general/barra-superior-del-cuadrante.md",
+      "target": "/manual/planificacion/barra-superior-del-cuadrante/",
+      "file": "src/content/manual/planificacion/barra-superior-del-cuadrante.md",
       "title": "Barra superior del cuadrante",
-      "module": "General",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-1-2-barra-superior-del-cuadrante/"
       ],
@@ -135,10 +135,10 @@
       "invalidSource": true
     },
     {
-      "target": "/manual/general/menu-del-trabajador/",
-      "file": "src/content/manual/general/menu-del-trabajador.md",
+      "target": "/manual/gestion-de-personal/menu-del-trabajador/",
+      "file": "src/content/manual/gestion-de-personal/menu-del-trabajador.md",
       "title": "Menu del trabajador",
-      "module": "General",
+      "module": "Gestión de personal",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-1-3-menu-del-trabajador/"
       ],
@@ -223,10 +223,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/7-modifica-las-localizaciones/",
-      "file": "src/content/manual/gestion-de-personal/7-modifica-las-localizaciones.md",
+      "target": "/manual/recursos-y-partes/7-modifica-las-localizaciones/",
+      "file": "src/content/manual/recursos-y-partes/7-modifica-las-localizaciones.md",
       "title": "7. Modifica las localizaciones",
-      "module": "Gestión de personal",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-modifica-las-localizaciones/"
       ],
@@ -311,10 +311,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/13-modifica-las-localizaciones/",
-      "file": "src/content/manual/planificacion/13-modifica-las-localizaciones.md",
+      "target": "/manual/recursos-y-partes/13-modifica-las-localizaciones/",
+      "file": "src/content/manual/recursos-y-partes/13-modifica-las-localizaciones.md",
       "title": "13. Modifica las localizaciones",
-      "module": "Planificación",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/13-modifica-las-localizaciones-del-trabajador/"
       ],
@@ -322,10 +322,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/14-localizacion-por-defecto/",
-      "file": "src/content/manual/planificacion/14-localizacion-por-defecto.md",
+      "target": "/manual/recursos-y-partes/14-localizacion-por-defecto/",
+      "file": "src/content/manual/recursos-y-partes/14-localizacion-por-defecto.md",
       "title": "14. Localización por defecto",
-      "module": "Planificación",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/14-localizacion-por-defecto/"
       ],
@@ -399,10 +399,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/1-hacer-cambio-de-turno/",
-      "file": "src/content/manual/configuracion-y-cuenta/1-hacer-cambio-de-turno.md",
+      "target": "/manual/peticiones-y-cambios/1-hacer-cambio-de-turno/",
+      "file": "src/content/manual/peticiones-y-cambios/1-hacer-cambio-de-turno.md",
       "title": "1. Hacer Cambio de Turno",
-      "module": "Configuración y cuenta",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/a-hacer-cambio-2/"
       ],
@@ -487,10 +487,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/10-peticiones/",
-      "file": "src/content/manual/planificacion/10-peticiones.md",
+      "target": "/manual/peticiones-y-cambios/10-peticiones/",
+      "file": "src/content/manual/peticiones-y-cambios/10-peticiones.md",
       "title": "10. Peticiones",
-      "module": "Planificación",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/i-peticiones/"
       ],
@@ -575,10 +575,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/4-3-turnos-y-horas/",
-      "file": "src/content/manual/gestion-de-personal/4-3-turnos-y-horas.md",
+      "target": "/manual/planificacion/4-3-turnos-y-horas/",
+      "file": "src/content/manual/planificacion/4-3-turnos-y-horas.md",
       "title": "4.3 Turnos y Horas",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/4-3-turnos-y-horas/"
       ],
@@ -641,10 +641,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/b-absentismos/",
-      "file": "src/content/manual/configuracion-y-cuenta/b-absentismos.md",
+      "target": "/manual/planificacion/b-absentismos/",
+      "file": "src/content/manual/planificacion/b-absentismos.md",
       "title": "b. Absentismos",
-      "module": "Configuración y cuenta",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/b-absentismos/"
       ],
@@ -872,10 +872,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/4-sobre-vacaciones-festivos-y-bolsas-de-horas/",
-      "file": "src/content/manual/gestion-de-personal/4-sobre-vacaciones-festivos-y-bolsas-de-horas.md",
+      "target": "/manual/planificacion/4-sobre-vacaciones-festivos-y-bolsas-de-horas/",
+      "file": "src/content/manual/planificacion/4-sobre-vacaciones-festivos-y-bolsas-de-horas.md",
       "title": "4. Sobre vacaciones, festivos y bolsas de horas",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/4-sobre-vacaciones-y-contingentes-de-permisos-y-festivos/"
       ],
@@ -905,10 +905,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/9-sobre-las-localizaciones/",
-      "file": "src/content/manual/planificacion/9-sobre-las-localizaciones.md",
+      "target": "/manual/recursos-y-partes/9-sobre-las-localizaciones/",
+      "file": "src/content/manual/recursos-y-partes/9-sobre-las-localizaciones.md",
       "title": "9. Sobre las localizaciones",
-      "module": "Planificación",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-sobre-las-localizaciones/"
       ],
@@ -1026,10 +1026,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/7-nominas/",
-      "file": "src/content/manual/gestion-de-personal/7-nominas.md",
+      "target": "/manual/costes-y-nominas/7-nominas/",
+      "file": "src/content/manual/costes-y-nominas/7-nominas.md",
       "title": "7. Nóminas",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-nominas/"
       ],
@@ -1114,10 +1114,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/b-especialidades/",
-      "file": "src/content/manual/planificacion/b-especialidades.md",
+      "target": "/manual/gestion-de-personal/b-especialidades/",
+      "file": "src/content/manual/gestion-de-personal/b-especialidades.md",
       "title": "b. Especialidades",
-      "module": "Planificación",
+      "module": "Gestión de personal",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/b-especialidades/"
       ],
@@ -1158,10 +1158,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/c-festivos-nocturnidad/",
-      "file": "src/content/manual/configuracion-y-cuenta/c-festivos-nocturnidad.md",
+      "target": "/manual/planificacion/c-festivos-nocturnidad/",
+      "file": "src/content/manual/planificacion/c-festivos-nocturnidad.md",
       "title": "c. Festivos & Nocturnidad",
-      "module": "Configuración y cuenta",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-3-festivos-nocturnidad/"
       ],
@@ -1180,10 +1180,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/e-localizaciones/",
-      "file": "src/content/manual/gestion-de-personal/e-localizaciones.md",
+      "target": "/manual/recursos-y-partes/e-localizaciones/",
+      "file": "src/content/manual/recursos-y-partes/e-localizaciones.md",
       "title": "e. Localizaciones",
-      "module": "Gestión de personal",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-5-localizaciones/"
       ],
@@ -1202,10 +1202,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/g-vacaciones/",
-      "file": "src/content/manual/gestion-de-personal/g-vacaciones.md",
+      "target": "/manual/planificacion/g-vacaciones/",
+      "file": "src/content/manual/planificacion/g-vacaciones.md",
       "title": "g. Vacaciones",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-7-vacaciones/"
       ],
@@ -1224,10 +1224,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/6-2-reporte-de-localizaciones/",
-      "file": "src/content/manual/gestion-de-personal/6-2-reporte-de-localizaciones.md",
+      "target": "/manual/recursos-y-partes/6-2-reporte-de-localizaciones/",
+      "file": "src/content/manual/recursos-y-partes/6-2-reporte-de-localizaciones.md",
       "title": "6.2 Reporte de localizaciones",
-      "module": "Gestión de personal",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-2-reporte-de-localizaciones/"
       ],
@@ -1268,10 +1268,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/4-exportacion-a-nominas/",
-      "file": "src/content/manual/gestion-de-personal/4-exportacion-a-nominas.md",
+      "target": "/manual/costes-y-nominas/4-exportacion-a-nominas/",
+      "file": "src/content/manual/costes-y-nominas/4-exportacion-a-nominas.md",
       "title": "4. Exportación a nóminas",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/4-exportacion-a-nominas/"
       ],
@@ -1290,10 +1290,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/6-ajuste-de-absentismos/",
-      "file": "src/content/manual/gestion-de-personal/6-ajuste-de-absentismos.md",
+      "target": "/manual/planificacion/6-ajuste-de-absentismos/",
+      "file": "src/content/manual/planificacion/6-ajuste-de-absentismos.md",
       "title": "6. Ajuste de absentismos",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-ajuste-de-absentismos/"
       ],
@@ -1378,10 +1378,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/7-2-festivos/",
-      "file": "src/content/manual/gestion-de-personal/7-2-festivos.md",
+      "target": "/manual/planificacion/7-2-festivos/",
+      "file": "src/content/manual/planificacion/7-2-festivos.md",
       "title": "7.2 Festivos",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-2-festivos/"
       ],
@@ -1400,10 +1400,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/7-6-localizaciones/",
-      "file": "src/content/manual/gestion-de-personal/7-6-localizaciones.md",
+      "target": "/manual/recursos-y-partes/7-6-localizaciones/",
+      "file": "src/content/manual/recursos-y-partes/7-6-localizaciones.md",
       "title": "7.6 Localizaciones",
-      "module": "Gestión de personal",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-6-localizaciones/"
       ],
@@ -1488,10 +1488,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/documentos/14-importar-dias-festivos-en-los-equipos/",
-      "file": "src/content/manual/documentos/14-importar-dias-festivos-en-los-equipos.md",
+      "target": "/manual/planificacion/14-importar-dias-festivos-en-los-equipos/",
+      "file": "src/content/manual/planificacion/14-importar-dias-festivos-en-los-equipos.md",
       "title": "14. Importar días festivos en los equipos",
-      "module": "Documentos",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/14-importacion-de-festivos/"
       ],
@@ -1510,10 +1510,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/documentos/13-crear-localizaciones-y-localizaciones-padres/",
-      "file": "src/content/manual/documentos/13-crear-localizaciones-y-localizaciones-padres.md",
+      "target": "/manual/recursos-y-partes/13-crear-localizaciones-y-localizaciones-padres/",
+      "file": "src/content/manual/recursos-y-partes/13-crear-localizaciones-y-localizaciones-padres.md",
       "title": "13. Crear localizaciones y localizaciones padres",
-      "module": "Documentos",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/13-importacion-de-localizaciones/"
       ],
@@ -1521,10 +1521,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/4-insertar-periodos-de-absentismos-totales-y-temporales/",
-      "file": "src/content/manual/gestion-de-personal/4-insertar-periodos-de-absentismos-totales-y-temporales.md",
+      "target": "/manual/planificacion/4-insertar-periodos-de-absentismos-totales-y-temporales/",
+      "file": "src/content/manual/planificacion/4-insertar-periodos-de-absentismos-totales-y-temporales.md",
       "title": "4. Insertar periodos de absentismos totales y temporales",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/4-importacion-de-periodos-de-absentismo/"
       ],
@@ -1532,10 +1532,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/21-importar-fichajes-de-trabajadores/",
-      "file": "src/content/manual/gestion-de-personal/21-importar-fichajes-de-trabajadores.md",
+      "target": "/manual/control-horario/21-importar-fichajes-de-trabajadores/",
+      "file": "src/content/manual/control-horario/21-importar-fichajes-de-trabajadores.md",
       "title": "21. Importar fichajes de trabajadores",
-      "module": "Gestión de personal",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/"
       ],
@@ -1565,10 +1565,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/integraciones-y-api/4-1-plantilla-de-nomina/",
-      "file": "src/content/manual/integraciones-y-api/4-1-plantilla-de-nomina.md",
+      "target": "/manual/costes-y-nominas/4-1-plantilla-de-nomina/",
+      "file": "src/content/manual/costes-y-nominas/4-1-plantilla-de-nomina.md",
       "title": "4.1 Plantilla de nómina",
-      "module": "Integraciones y API",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/c-plantilla-de-nomina/"
       ],
@@ -1576,10 +1576,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/5-1-exportar-nominas/",
-      "file": "src/content/manual/gestion-de-personal/5-1-exportar-nominas.md",
+      "target": "/manual/costes-y-nominas/5-1-exportar-nominas/",
+      "file": "src/content/manual/costes-y-nominas/5-1-exportar-nominas.md",
       "title": "5.1 Exportar nóminas",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/d-exportar-nominas/"
       ],
@@ -1587,10 +1587,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/6-1-estadistica-por-periodo/",
-      "file": "src/content/manual/gestion-de-personal/6-1-estadistica-por-periodo.md",
+      "target": "/manual/costes-y-nominas/6-1-estadistica-por-periodo/",
+      "file": "src/content/manual/costes-y-nominas/6-1-estadistica-por-periodo.md",
       "title": "6.1 Estadística por periodo",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/e-estadisticas/"
       ],
@@ -1708,10 +1708,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/5-11-tipos-de-fichajes/",
-      "file": "src/content/manual/gestion-de-personal/5-11-tipos-de-fichajes.md",
+      "target": "/manual/control-horario/5-11-tipos-de-fichajes/",
+      "file": "src/content/manual/control-horario/5-11-tipos-de-fichajes.md",
       "title": "5.11 Tipos de fichajes",
-      "module": "Gestión de personal",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/5-11-tipos-de-fichajes/"
       ],
@@ -1730,10 +1730,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/app-movil/1-como-fichar/",
-      "file": "src/content/manual/app-movil/1-como-fichar.md",
+      "target": "/manual/control-horario/1-como-fichar/",
+      "file": "src/content/manual/control-horario/1-como-fichar.md",
       "title": "1. Cómo fichar",
-      "module": "App móvil",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-fichar/"
       ],
@@ -1774,10 +1774,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/1-crear-tipo-de-documento/",
-      "file": "src/content/manual/configuracion-y-cuenta/1-crear-tipo-de-documento.md",
+      "target": "/manual/documentos/1-crear-tipo-de-documento/",
+      "file": "src/content/manual/documentos/1-crear-tipo-de-documento.md",
       "title": "1. Crear tipo de documento",
-      "module": "Configuración y cuenta",
+      "module": "Documentos",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-crear-tipo-de-documento/"
       ],
@@ -1785,10 +1785,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-subir-documentos/",
-      "file": "src/content/manual/gestion-de-personal/2-subir-documentos.md",
+      "target": "/manual/documentos/2-subir-documentos/",
+      "file": "src/content/manual/documentos/2-subir-documentos.md",
       "title": "2. Subir documentos",
-      "module": "Gestión de personal",
+      "module": "Documentos",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-subir-documentos/"
       ],
@@ -1807,10 +1807,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/1-subir-documentos/",
-      "file": "src/content/manual/gestion-de-personal/1-subir-documentos.md",
+      "target": "/manual/documentos/1-subir-documentos/",
+      "file": "src/content/manual/documentos/1-subir-documentos.md",
       "title": "1. Subir documentos",
-      "module": "Gestión de personal",
+      "module": "Documentos",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-subir-documentos/"
       ],
@@ -1818,10 +1818,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-ver-documentos-subidos/",
-      "file": "src/content/manual/gestion-de-personal/2-ver-documentos-subidos.md",
+      "target": "/manual/documentos/2-ver-documentos-subidos/",
+      "file": "src/content/manual/documentos/2-ver-documentos-subidos.md",
       "title": "2. Ver documentos subidos",
-      "module": "Gestión de personal",
+      "module": "Documentos",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-ver-documentos-subidos/"
       ],
@@ -1840,10 +1840,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/1-5-estado-y-ajustar-fichajes/",
-      "file": "src/content/manual/planificacion/1-5-estado-y-ajustar-fichajes.md",
+      "target": "/manual/control-horario/1-5-estado-y-ajustar-fichajes/",
+      "file": "src/content/manual/control-horario/1-5-estado-y-ajustar-fichajes.md",
       "title": "1.5 Estado y ajustar fichajes",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-5-estado-y-ajustar-fichajes/"
       ],
@@ -1873,10 +1873,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/control-horario/3-2-peticiones-pendientes/",
-      "file": "src/content/manual/control-horario/3-2-peticiones-pendientes.md",
+      "target": "/manual/peticiones-y-cambios/3-2-peticiones-pendientes/",
+      "file": "src/content/manual/peticiones-y-cambios/3-2-peticiones-pendientes.md",
       "title": "3.2 Peticiones pendientes",
-      "module": "Control horario",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/3-2-peticiones-pendientes/"
       ],
@@ -1983,10 +1983,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/3-1-maestro-de-absentismos/",
-      "file": "src/content/manual/gestion-de-personal/3-1-maestro-de-absentismos.md",
+      "target": "/manual/planificacion/3-1-maestro-de-absentismos/",
+      "file": "src/content/manual/planificacion/3-1-maestro-de-absentismos.md",
       "title": "3.1 Maestro de absentismos",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/8-1-maestro-de-absentismos/"
       ],
@@ -1994,10 +1994,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/2-3-peticiones-y-cambios/",
-      "file": "src/content/manual/planificacion/2-3-peticiones-y-cambios.md",
+      "target": "/manual/peticiones-y-cambios/2-3-peticiones-y-cambios/",
+      "file": "src/content/manual/peticiones-y-cambios/2-3-peticiones-y-cambios.md",
       "title": "2.3 Peticiones y cambios",
-      "module": "Planificación",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-3-peticiones-y-cambios/"
       ],
@@ -2005,10 +2005,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/3-3-informe-y-ratios-de-absentimos/",
-      "file": "src/content/manual/gestion-de-personal/3-3-informe-y-ratios-de-absentimos.md",
+      "target": "/manual/planificacion/3-3-informe-y-ratios-de-absentimos/",
+      "file": "src/content/manual/planificacion/3-3-informe-y-ratios-de-absentimos.md",
       "title": "3.3 Informe y ratios de absentimos",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/8-2-informe-y-ratios-de-absentismos/"
       ],
@@ -2150,10 +2150,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/2-6-ajustes/",
-      "file": "src/content/manual/planificacion/2-6-ajustes.md",
+      "target": "/manual/configuracion-y-cuenta/2-6-ajustes/",
+      "file": "src/content/manual/configuracion-y-cuenta/2-6-ajustes.md",
       "title": "2.6 Ajustes",
-      "module": "Planificación",
+      "module": "Configuración y cuenta",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-4-ajustes/"
       ],
@@ -2227,10 +2227,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/",
-      "file": "src/content/manual/configuracion-y-cuenta/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado.md",
+      "target": "/manual/planificacion/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/",
+      "file": "src/content/manual/planificacion/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado.md",
       "title": "Conceptos tipo 2: Horas computadas del tipo de turno seleccionado",
-      "module": "Configuración y cuenta",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/"
       ],
@@ -2249,10 +2249,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/6-1-listado-de-conceptos-de-nomina/",
-      "file": "src/content/manual/gestion-de-personal/6-1-listado-de-conceptos-de-nomina.md",
+      "target": "/manual/costes-y-nominas/6-1-listado-de-conceptos-de-nomina/",
+      "file": "src/content/manual/costes-y-nominas/6-1-listado-de-conceptos-de-nomina.md",
       "title": "6.1 Listado de conceptos de nómina",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-1-listado-de-conceptos-de-nomina/"
       ],
@@ -2260,10 +2260,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/6-4-exportar-nominas/",
-      "file": "src/content/manual/gestion-de-personal/6-4-exportar-nominas.md",
+      "target": "/manual/costes-y-nominas/6-4-exportar-nominas/",
+      "file": "src/content/manual/costes-y-nominas/6-4-exportar-nominas.md",
       "title": "6.4 Exportar nóminas",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-5-exportar-nominas/"
       ],
@@ -2315,10 +2315,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/8-1-peticiones-de-reportes/",
-      "file": "src/content/manual/planificacion/8-1-peticiones-de-reportes.md",
+      "target": "/manual/peticiones-y-cambios/8-1-peticiones-de-reportes/",
+      "file": "src/content/manual/peticiones-y-cambios/8-1-peticiones-de-reportes.md",
       "title": "8.1 Peticiones de reportes",
-      "module": "Planificación",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/12-peticiones-de-reportes/"
       ],
@@ -2403,10 +2403,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/turnos/",
-      "file": "src/content/manual/general/turnos.md",
+      "target": "/manual/planificacion/turnos/",
+      "file": "src/content/manual/planificacion/turnos.md",
       "title": "Turnos",
-      "module": "General",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-1-turnos/"
       ],
@@ -2590,10 +2590,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/horas-computadas-mas-ajustes/",
-      "file": "src/content/manual/gestion-de-personal/horas-computadas-mas-ajustes.md",
+      "target": "/manual/configuracion-y-cuenta/horas-computadas-mas-ajustes/",
+      "file": "src/content/manual/configuracion-y-cuenta/horas-computadas-mas-ajustes.md",
       "title": "Horas computadas más ajustes",
-      "module": "Gestión de personal",
+      "module": "Configuración y cuenta",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/horas-efectivas/"
       ],
@@ -2667,10 +2667,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/oferta-de-turno/",
-      "file": "src/content/manual/planificacion/oferta-de-turno.md",
+      "target": "/manual/peticiones-y-cambios/oferta-de-turno/",
+      "file": "src/content/manual/peticiones-y-cambios/oferta-de-turno.md",
       "title": "Oferta de turno",
-      "module": "Planificación",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/oferta-de-turno/"
       ],
@@ -2689,10 +2689,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/peticion/",
-      "file": "src/content/manual/gestion-de-personal/peticion.md",
+      "target": "/manual/peticiones-y-cambios/peticion/",
+      "file": "src/content/manual/peticiones-y-cambios/peticion.md",
       "title": "Petición",
-      "module": "Gestión de personal",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/peticiones/"
       ],
@@ -2700,10 +2700,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/restriccion/",
-      "file": "src/content/manual/gestion-de-personal/restriccion.md",
+      "target": "/manual/planificacion/restriccion/",
+      "file": "src/content/manual/planificacion/restriccion.md",
       "title": "Restricción",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/restriccion/"
       ],
@@ -2722,10 +2722,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/restriccion-obligatoria/",
-      "file": "src/content/manual/gestion-de-personal/restriccion-obligatoria.md",
+      "target": "/manual/planificacion/restriccion-obligatoria/",
+      "file": "src/content/manual/planificacion/restriccion-obligatoria.md",
       "title": "Restricción obligatoria",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/restriccion-obligatoria/"
       ],
@@ -2733,10 +2733,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/roles-de-usuarios/",
-      "file": "src/content/manual/gestion-de-personal/roles-de-usuarios.md",
+      "target": "/manual/configuracion-y-cuenta/roles-de-usuarios/",
+      "file": "src/content/manual/configuracion-y-cuenta/roles-de-usuarios.md",
       "title": "Roles de usuarios",
-      "module": "Gestión de personal",
+      "module": "Configuración y cuenta",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/rol/"
       ],
@@ -2755,10 +2755,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/trabajador/",
-      "file": "src/content/manual/configuracion-y-cuenta/trabajador.md",
+      "target": "/manual/gestion-de-personal/trabajador/",
+      "file": "src/content/manual/gestion-de-personal/trabajador.md",
       "title": "Trabajador",
-      "module": "Configuración y cuenta",
+      "module": "Gestión de personal",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/trabajador/"
       ],
@@ -2832,10 +2832,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/borrar-concpetos-en-nominas/",
-      "file": "src/content/manual/general/borrar-concpetos-en-nominas.md",
+      "target": "/manual/costes-y-nominas/borrar-concpetos-en-nominas/",
+      "file": "src/content/manual/costes-y-nominas/borrar-concpetos-en-nominas.md",
       "title": "Borrar concpetos en nominas",
-      "module": "General",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-3-borrar-concpetos-en-nominas/"
       ],
@@ -2920,10 +2920,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/trabajador-planificado-control-de-presencia/",
-      "file": "src/content/manual/planificacion/trabajador-planificado-control-de-presencia.md",
+      "target": "/manual/control-horario/trabajador-planificado-control-de-presencia/",
+      "file": "src/content/manual/control-horario/trabajador-planificado-control-de-presencia.md",
       "title": "Trabajador planificado (Control de Presencia)",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/trabajadores-planificados-control-de-presencia/"
       ],
@@ -2942,10 +2942,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/recursos-y-partes/2-1-nueva-peticion/",
-      "file": "src/content/manual/recursos-y-partes/2-1-nueva-peticion.md",
+      "target": "/manual/peticiones-y-cambios/2-1-nueva-peticion/",
+      "file": "src/content/manual/peticiones-y-cambios/2-1-nueva-peticion.md",
       "title": "2.1 Nueva petición",
-      "module": "Recursos y partes",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-1-nueva-peticion/"
       ],
@@ -2964,10 +2964,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/2-3-oferta-de-turno/",
-      "file": "src/content/manual/planificacion/2-3-oferta-de-turno.md",
+      "target": "/manual/peticiones-y-cambios/2-3-oferta-de-turno/",
+      "file": "src/content/manual/peticiones-y-cambios/2-3-oferta-de-turno.md",
       "title": "2.3 Oferta de turno",
-      "module": "Planificación",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-3-oferta-de-turno/"
       ],
@@ -2975,10 +2975,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-4-historial-de-peticiones/",
-      "file": "src/content/manual/gestion-de-personal/2-4-historial-de-peticiones.md",
+      "target": "/manual/peticiones-y-cambios/2-4-historial-de-peticiones/",
+      "file": "src/content/manual/peticiones-y-cambios/2-4-historial-de-peticiones.md",
       "title": "2.4 Historial de peticiones",
-      "module": "Gestión de personal",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-4-historial-de-peticiones/"
       ],
@@ -3008,10 +3008,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-7-cambios-pendientes/",
-      "file": "src/content/manual/gestion-de-personal/2-7-cambios-pendientes.md",
+      "target": "/manual/peticiones-y-cambios/2-7-cambios-pendientes/",
+      "file": "src/content/manual/peticiones-y-cambios/2-7-cambios-pendientes.md",
       "title": "2.7 Cambios pendientes",
-      "module": "Gestión de personal",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-7-cambios-pendientes/"
       ],
@@ -3030,10 +3030,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/listado-de-trabajadores/",
-      "file": "src/content/manual/configuracion-y-cuenta/listado-de-trabajadores.md",
+      "target": "/manual/gestion-de-personal/listado-de-trabajadores/",
+      "file": "src/content/manual/gestion-de-personal/listado-de-trabajadores.md",
       "title": "Listado de trabajadores",
-      "module": "Configuración y cuenta",
+      "module": "Gestión de personal",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/listado-de-trabajadores/"
       ],
@@ -3085,10 +3085,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/documentos/",
-      "file": "src/content/manual/gestion-de-personal/documentos.md",
+      "target": "/manual/documentos/documentos/",
+      "file": "src/content/manual/documentos/documentos.md",
       "title": "Documentos",
-      "module": "Gestión de personal",
+      "module": "Documentos",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/documentos/"
       ],
@@ -3118,10 +3118,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/24-importacion-de-ajustes-coeficiente-de-horas/",
-      "file": "src/content/manual/gestion-de-personal/24-importacion-de-ajustes-coeficiente-de-horas.md",
+      "target": "/manual/configuracion-y-cuenta/24-importacion-de-ajustes-coeficiente-de-horas/",
+      "file": "src/content/manual/configuracion-y-cuenta/24-importacion-de-ajustes-coeficiente-de-horas.md",
       "title": "24. Importación de Ajustes-Coeficiente de Horas",
-      "module": "Gestión de personal",
+      "module": "Configuración y cuenta",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/24-importacion-de-ajustes-coeficiente-de-horas/"
       ],
@@ -3129,10 +3129,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/5-1-cuadrante-por-localizaciones/",
-      "file": "src/content/manual/gestion-de-personal/5-1-cuadrante-por-localizaciones.md",
+      "target": "/manual/recursos-y-partes/5-1-cuadrante-por-localizaciones/",
+      "file": "src/content/manual/recursos-y-partes/5-1-cuadrante-por-localizaciones.md",
       "title": "5.1 Cuadrante por localizaciones",
-      "module": "Gestión de personal",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/5-cuadrante-por-localizaciones/"
       ],
@@ -3140,10 +3140,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/7-5-migrar-balance-de-horas-y-vacaciones/",
-      "file": "src/content/manual/gestion-de-personal/7-5-migrar-balance-de-horas-y-vacaciones.md",
+      "target": "/manual/planificacion/7-5-migrar-balance-de-horas-y-vacaciones/",
+      "file": "src/content/manual/planificacion/7-5-migrar-balance-de-horas-y-vacaciones.md",
       "title": "7.5 Migrar balance de horas y vacaciones",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/"
       ],
@@ -3173,10 +3173,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-1-tipos-de-turnos-y-horas/",
-      "file": "src/content/manual/gestion-de-personal/2-1-tipos-de-turnos-y-horas.md",
+      "target": "/manual/planificacion/2-1-tipos-de-turnos-y-horas/",
+      "file": "src/content/manual/planificacion/2-1-tipos-de-turnos-y-horas.md",
       "title": "2.1 Tipos de turnos y horas",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-1-tipos-de-turnos-y-horas/"
       ],
@@ -3184,10 +3184,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/recursos-y-partes/2-cargar-la-demanda/",
-      "file": "src/content/manual/recursos-y-partes/2-cargar-la-demanda.md",
+      "target": "/manual/planificacion/2-cargar-la-demanda/",
+      "file": "src/content/manual/planificacion/2-cargar-la-demanda.md",
       "title": "2. Cargar la demanda",
-      "module": "Recursos y partes",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-cargar-la-demanda/"
       ],
@@ -3217,10 +3217,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/3-cargar-demanda-desde-tareas/",
-      "file": "src/content/manual/planificacion/3-cargar-demanda-desde-tareas.md",
+      "target": "/manual/tareas/3-cargar-demanda-desde-tareas/",
+      "file": "src/content/manual/tareas/3-cargar-demanda-desde-tareas.md",
       "title": "3. Cargar demanda desde tareas",
-      "module": "Planificación",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-cargar-demanda-desde-tareas/"
       ],
@@ -3283,10 +3283,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-2-turnos-y-horas/",
-      "file": "src/content/manual/gestion-de-personal/2-2-turnos-y-horas.md",
+      "target": "/manual/planificacion/2-2-turnos-y-horas/",
+      "file": "src/content/manual/planificacion/2-2-turnos-y-horas.md",
       "title": "2.2 Turnos y horas",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-2-turnos-y-horas/"
       ],
@@ -3294,10 +3294,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-6-periodos-de-vacaciones-por-ano/",
-      "file": "src/content/manual/gestion-de-personal/2-6-periodos-de-vacaciones-por-ano.md",
+      "target": "/manual/planificacion/2-6-periodos-de-vacaciones-por-ano/",
+      "file": "src/content/manual/planificacion/2-6-periodos-de-vacaciones-por-ano.md",
       "title": "2.6 Periodos de vacaciones por año",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-6-periodos-de-vacaciones-por-ano/"
       ],
@@ -3305,10 +3305,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/1-tiempo-real/",
-      "file": "src/content/manual/gestion-de-personal/1-tiempo-real.md",
+      "target": "/manual/tareas/1-tiempo-real/",
+      "file": "src/content/manual/tareas/1-tiempo-real.md",
       "title": "1. Tiempo Real",
-      "module": "Gestión de personal",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-tiempo-real/"
       ],
@@ -3360,10 +3360,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/7-4-relacion-ids-external/",
-      "file": "src/content/manual/gestion-de-personal/7-4-relacion-ids-external.md",
+      "target": "/manual/integraciones-y-api/7-4-relacion-ids-external/",
+      "file": "src/content/manual/integraciones-y-api/7-4-relacion-ids-external.md",
       "title": "7.4 Relación Ids. External",
-      "module": "Gestión de personal",
+      "module": "Integraciones y API",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/11-4-relacion-ids-external/"
       ],
@@ -3482,10 +3482,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/5-seguridad/",
-      "file": "src/content/manual/general/5-seguridad.md",
+      "target": "/manual/configuracion-y-cuenta/5-seguridad/",
+      "file": "src/content/manual/configuracion-y-cuenta/5-seguridad.md",
       "title": "5. Seguridad",
-      "module": "General",
+      "module": "Configuración y cuenta",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/5-seguridad/"
       ],
@@ -3526,10 +3526,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-cerrar-cuadrante/",
-      "file": "src/content/manual/gestion-de-personal/2-cerrar-cuadrante.md",
+      "target": "/manual/planificacion/2-cerrar-cuadrante/",
+      "file": "src/content/manual/planificacion/2-cerrar-cuadrante.md",
       "title": "2. Cerrar cuadrante",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-cerrar-cuadrante/"
       ],
@@ -3614,10 +3614,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/como-crear-un-parte-de-trabajo/",
-      "file": "src/content/manual/gestion-de-personal/como-crear-un-parte-de-trabajo.md",
+      "target": "/manual/recursos-y-partes/como-crear-un-parte-de-trabajo/",
+      "file": "src/content/manual/recursos-y-partes/como-crear-un-parte-de-trabajo.md",
       "title": "¿Cómo crear un parte de trabajo?",
-      "module": "Gestión de personal",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/como-personalizar-el-parte-hoja-de-trabajo/"
       ],
@@ -3636,10 +3636,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/recursos-y-partes/2-8-crear-nueva-oferta/",
-      "file": "src/content/manual/recursos-y-partes/2-8-crear-nueva-oferta.md",
+      "target": "/manual/peticiones-y-cambios/2-8-crear-nueva-oferta/",
+      "file": "src/content/manual/peticiones-y-cambios/2-8-crear-nueva-oferta.md",
       "title": "2.8 Crear nueva oferta",
-      "module": "Recursos y partes",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-8-crear-nueva-oferta/"
       ],
@@ -3658,10 +3658,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/configuracion-del-modulo-de-recursos/",
-      "file": "src/content/manual/configuracion-y-cuenta/configuracion-del-modulo-de-recursos.md",
+      "target": "/manual/recursos-y-partes/configuracion-del-modulo-de-recursos/",
+      "file": "src/content/manual/recursos-y-partes/configuracion-del-modulo-de-recursos.md",
       "title": "Configuración del Módulo de Recursos",
-      "module": "Configuración y cuenta",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/configuracion/"
       ],
@@ -3680,10 +3680,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/como-informan-los-trabajadores-los-recursos/",
-      "file": "src/content/manual/planificacion/como-informan-los-trabajadores-los-recursos.md",
+      "target": "/manual/recursos-y-partes/como-informan-los-trabajadores-los-recursos/",
+      "file": "src/content/manual/recursos-y-partes/como-informan-los-trabajadores-los-recursos.md",
       "title": "¿Cómo informan los trabajadores los recursos?",
-      "module": "Planificación",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/casos-de-uso-de-trabajadores/"
       ],
@@ -3691,10 +3691,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/costes-por-turno/",
-      "file": "src/content/manual/planificacion/costes-por-turno.md",
+      "target": "/manual/costes-y-nominas/costes-por-turno/",
+      "file": "src/content/manual/costes-y-nominas/costes-por-turno.md",
       "title": "Costes por turno",
-      "module": "Planificación",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/costes-por-turno/"
       ],
@@ -3702,10 +3702,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/costes-categoria/",
-      "file": "src/content/manual/planificacion/costes-categoria.md",
+      "target": "/manual/costes-y-nominas/costes-categoria/",
+      "file": "src/content/manual/costes-y-nominas/costes-categoria.md",
       "title": "Costes/Categoría",
-      "module": "Planificación",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/costes-por-categoria/"
       ],
@@ -3724,10 +3724,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/9-planificabilidad-disponibilidad/",
-      "file": "src/content/manual/gestion-de-personal/9-planificabilidad-disponibilidad.md",
+      "target": "/manual/planificacion/9-planificabilidad-disponibilidad/",
+      "file": "src/content/manual/planificacion/9-planificabilidad-disponibilidad.md",
       "title": "9. Planificabilidad & Disponibilidad",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/planificabilidad-disponibilidad/"
       ],
@@ -3735,10 +3735,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/e-peticiones/",
-      "file": "src/content/manual/gestion-de-personal/e-peticiones.md",
+      "target": "/manual/peticiones-y-cambios/e-peticiones/",
+      "file": "src/content/manual/peticiones-y-cambios/e-peticiones.md",
       "title": "e. Peticiones",
-      "module": "Gestión de personal",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/e-peticiones/"
       ],
@@ -3746,10 +3746,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/costes-por-usuario/",
-      "file": "src/content/manual/gestion-de-personal/costes-por-usuario.md",
+      "target": "/manual/costes-y-nominas/costes-por-usuario/",
+      "file": "src/content/manual/costes-y-nominas/costes-por-usuario.md",
       "title": "Costes por usuario",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/costes-por-usuario/"
       ],
@@ -3757,10 +3757,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/costes-detalle/",
-      "file": "src/content/manual/gestion-de-personal/costes-detalle.md",
+      "target": "/manual/costes-y-nominas/costes-detalle/",
+      "file": "src/content/manual/costes-y-nominas/costes-detalle.md",
       "title": "Costes Detalle",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/costes-detalle/"
       ],
@@ -3768,10 +3768,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/recursos-y-partes/costes-por-categoria/",
-      "file": "src/content/manual/recursos-y-partes/costes-por-categoria.md",
+      "target": "/manual/costes-y-nominas/costes-por-categoria/",
+      "file": "src/content/manual/costes-y-nominas/costes-por-categoria.md",
       "title": "Costes por Categoría",
-      "module": "Recursos y partes",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/coste-por-categoria/"
       ],
@@ -3779,10 +3779,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/recursos-y-partes/costes-por-localizacion/",
-      "file": "src/content/manual/recursos-y-partes/costes-por-localizacion.md",
+      "target": "/manual/costes-y-nominas/costes-por-localizacion/",
+      "file": "src/content/manual/costes-y-nominas/costes-por-localizacion.md",
       "title": "Costes por localización",
-      "module": "Recursos y partes",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/costes-por-localizacion/"
       ],
@@ -3790,10 +3790,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/7-peticiones/",
-      "file": "src/content/manual/configuracion-y-cuenta/7-peticiones.md",
+      "target": "/manual/peticiones-y-cambios/7-peticiones/",
+      "file": "src/content/manual/peticiones-y-cambios/7-peticiones.md",
       "title": "7. Peticiones",
-      "module": "Configuración y cuenta",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/8-peticiones/"
       ],
@@ -3812,10 +3812,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/recursos-y-partes/12-tareas/",
-      "file": "src/content/manual/recursos-y-partes/12-tareas.md",
+      "target": "/manual/tareas/12-tareas/",
+      "file": "src/content/manual/tareas/12-tareas.md",
       "title": "12. Tareas",
-      "module": "Recursos y partes",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-tareas/"
       ],
@@ -3911,10 +3911,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/4-mis-fichajes/",
-      "file": "src/content/manual/gestion-de-personal/4-mis-fichajes.md",
+      "target": "/manual/control-horario/4-mis-fichajes/",
+      "file": "src/content/manual/control-horario/4-mis-fichajes.md",
       "title": "4. Mis fichajes",
-      "module": "Gestión de personal",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/4-mis-fichajes/"
       ],
@@ -3955,10 +3955,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/turno-extraordinario/",
-      "file": "src/content/manual/gestion-de-personal/turno-extraordinario.md",
+      "target": "/manual/planificacion/turno-extraordinario/",
+      "file": "src/content/manual/planificacion/turno-extraordinario.md",
       "title": "Turno extraordinario",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/turno-extraordinario/"
       ],
@@ -4054,10 +4054,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/puntualidad/",
-      "file": "src/content/manual/configuracion-y-cuenta/puntualidad.md",
+      "target": "/manual/control-horario/puntualidad/",
+      "file": "src/content/manual/control-horario/puntualidad.md",
       "title": "Puntualidad",
-      "module": "Configuración y cuenta",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/puntualidad/"
       ],
@@ -4087,10 +4087,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/2-conceptos-de-calculo/",
-      "file": "src/content/manual/general/2-conceptos-de-calculo.md",
+      "target": "/manual/costes-y-nominas/2-conceptos-de-calculo/",
+      "file": "src/content/manual/costes-y-nominas/2-conceptos-de-calculo.md",
       "title": "2. Conceptos de cálculo",
-      "module": "General",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-conceptos-de-calculo/"
       ],
@@ -4142,10 +4142,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/1-1-modo-de-validacion-para-la-exportacion/",
-      "file": "src/content/manual/gestion-de-personal/1-1-modo-de-validacion-para-la-exportacion.md",
+      "target": "/manual/costes-y-nominas/1-1-modo-de-validacion-para-la-exportacion/",
+      "file": "src/content/manual/costes-y-nominas/1-1-modo-de-validacion-para-la-exportacion.md",
       "title": "1.1 Modo de validación para la exportación",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/"
       ],
@@ -4153,10 +4153,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/1-2-descarga-de-nomina/",
-      "file": "src/content/manual/gestion-de-personal/1-2-descarga-de-nomina.md",
+      "target": "/manual/costes-y-nominas/1-2-descarga-de-nomina/",
+      "file": "src/content/manual/costes-y-nominas/1-2-descarga-de-nomina.md",
       "title": "1.2 Descarga de nómina",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-2-descarga-de-nomina/"
       ],
@@ -4164,10 +4164,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
-      "file": "src/content/manual/planificacion/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina.md",
+      "target": "/manual/costes-y-nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
+      "file": "src/content/manual/costes-y-nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina.md",
       "title": "1.3 Comportamiento de aviso de cuadrante cerrado por nómina",
-      "module": "Planificación",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/"
       ],
@@ -4175,10 +4175,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
-      "file": "src/content/manual/gestion-de-personal/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante.md",
+      "target": "/manual/planificacion/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
+      "file": "src/content/manual/planificacion/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante.md",
       "title": "1.4 Nivel que puede cambiar la fecha de cierre del cuadrante",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/"
       ],
@@ -4263,10 +4263,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/9-1-integracion-nominas/",
-      "file": "src/content/manual/gestion-de-personal/9-1-integracion-nominas.md",
+      "target": "/manual/costes-y-nominas/9-1-integracion-nominas/",
+      "file": "src/content/manual/costes-y-nominas/9-1-integracion-nominas.md",
       "title": "9.1 Integración nóminas",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/9-1-integracion-nominas/"
       ],
@@ -4297,10 +4297,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-imputacion-de-tareas/",
-      "file": "src/content/manual/gestion-de-personal/2-imputacion-de-tareas.md",
+      "target": "/manual/tareas/2-imputacion-de-tareas/",
+      "file": "src/content/manual/tareas/2-imputacion-de-tareas.md",
       "title": "2. Imputación de tareas",
-      "module": "Gestión de personal",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-1-imputacion-de-tareas/"
       ],
@@ -4341,10 +4341,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
-      "file": "src/content/manual/gestion-de-personal/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina.md",
+      "target": "/manual/costes-y-nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
+      "file": "src/content/manual/costes-y-nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina.md",
       "title": "10.1 Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/"
       ],
@@ -4352,10 +4352,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/",
-      "file": "src/content/manual/gestion-de-personal/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo.md",
+      "target": "/manual/planificacion/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/",
+      "file": "src/content/manual/planificacion/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo.md",
       "title": "10.2 Cierre del cuadrante, validación y último día exportado (por equipo)",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-2-cierre-por-empresa/"
       ],
@@ -4374,10 +4374,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/10-4-exportar-a-nominas/",
-      "file": "src/content/manual/planificacion/10-4-exportar-a-nominas.md",
+      "target": "/manual/costes-y-nominas/10-4-exportar-a-nominas/",
+      "file": "src/content/manual/costes-y-nominas/10-4-exportar-a-nominas.md",
       "title": "10.4 Exportar a nóminas",
-      "module": "Planificación",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-4-exportar-a-nominas/"
       ],
@@ -4385,10 +4385,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/10-5-estadistica-todos-los-equipos/",
-      "file": "src/content/manual/configuracion-y-cuenta/10-5-estadistica-todos-los-equipos.md",
+      "target": "/manual/costes-y-nominas/10-5-estadistica-todos-los-equipos/",
+      "file": "src/content/manual/costes-y-nominas/10-5-estadistica-todos-los-equipos.md",
       "title": "10.5 Estadística todos los equipos",
-      "module": "Configuración y cuenta",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-5-estadistica-todos-los-equipos/"
       ],
@@ -4407,10 +4407,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/10-7-totalizada-por-equipo-validacion-del-cuadrante/",
-      "file": "src/content/manual/gestion-de-personal/10-7-totalizada-por-equipo-validacion-del-cuadrante.md",
+      "target": "/manual/planificacion/10-7-totalizada-por-equipo-validacion-del-cuadrante/",
+      "file": "src/content/manual/planificacion/10-7-totalizada-por-equipo-validacion-del-cuadrante.md",
       "title": "10.7 Totalizada por equipo. Validación del cuadrante",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-7-totalizada-por-equipo/"
       ],
@@ -4462,10 +4462,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/recursos-y-partes/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/",
-      "file": "src/content/manual/recursos-y-partes/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado.md",
+      "target": "/manual/planificacion/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/",
+      "file": "src/content/manual/planificacion/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado.md",
       "title": "Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado",
-      "module": "Recursos y partes",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/"
       ],
@@ -4473,10 +4473,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
-      "file": "src/content/manual/configuracion-y-cuenta/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos.md",
+      "target": "/manual/planificacion/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
+      "file": "src/content/manual/planificacion/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos.md",
       "title": "Conceptos tipo 4: Conceptos asociados a los tipos de turnos",
-      "module": "Configuración y cuenta",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/"
       ],
@@ -4528,10 +4528,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
-      "file": "src/content/manual/gestion-de-personal/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas.md",
+      "target": "/manual/planificacion/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
+      "file": "src/content/manual/planificacion/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas.md",
       "title": "Conceptos tipo 9: Conceptos asociados a las jornadas partidas",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/"
       ],
@@ -4561,10 +4561,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-como-imputar-tareas/",
-      "file": "src/content/manual/gestion-de-personal/2-como-imputar-tareas.md",
+      "target": "/manual/tareas/2-como-imputar-tareas/",
+      "file": "src/content/manual/tareas/2-como-imputar-tareas.md",
       "title": "2. Cómo imputar tareas",
-      "module": "Gestión de personal",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-imputacion-de-tareas/"
       ],
@@ -4627,10 +4627,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/1-descripcion-y-consideraciones-previas/",
-      "file": "src/content/manual/planificacion/1-descripcion-y-consideraciones-previas.md",
+      "target": "/manual/tareas/1-descripcion-y-consideraciones-previas/",
+      "file": "src/content/manual/tareas/1-descripcion-y-consideraciones-previas.md",
       "title": "1. Descripción y consideraciones previas",
-      "module": "Planificación",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-descripcion-y-consideraciones-previas/"
       ],
@@ -4715,10 +4715,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/9-asignacion-de-tareas/",
-      "file": "src/content/manual/planificacion/9-asignacion-de-tareas.md",
+      "target": "/manual/tareas/9-asignacion-de-tareas/",
+      "file": "src/content/manual/tareas/9-asignacion-de-tareas.md",
       "title": "9. Asignación de tareas",
-      "module": "Planificación",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/9-asignacion-de-tareas/"
       ],
@@ -4759,10 +4759,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/13-listado-de-tareas-informes/",
-      "file": "src/content/manual/configuracion-y-cuenta/13-listado-de-tareas-informes.md",
+      "target": "/manual/tareas/13-listado-de-tareas-informes/",
+      "file": "src/content/manual/tareas/13-listado-de-tareas-informes.md",
       "title": "13. Listado de tareas. Informes",
-      "module": "Configuración y cuenta",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/13-listado-de-tareas-informes/"
       ],
@@ -4781,10 +4781,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/configuracion-y-cuenta/15-url-s-de-kiosko-pantallas-centrales-kiosko-stop-go-etc/",
-      "file": "src/content/manual/configuracion-y-cuenta/15-url-s-de-kiosko-pantallas-centrales-kiosko-stop-go-etc.md",
+      "target": "/manual/cita-previa/15-url-s-de-kiosko-pantallas-centrales-kiosko-stop-go-etc/",
+      "file": "src/content/manual/cita-previa/15-url-s-de-kiosko-pantallas-centrales-kiosko-stop-go-etc.md",
       "title": "15. Url´s de kiosko, pantallas centrales, kiosko stop&go, etc",
-      "module": "Configuración y cuenta",
+      "module": "Cita previa",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/15-urls-de-kiosko-pantallas-centrales-kiosko-stopgo-etc/"
       ],
@@ -4858,10 +4858,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/por-que-no-puedo-fichar-desde-la-app/",
-      "file": "src/content/manual/planificacion/por-que-no-puedo-fichar-desde-la-app.md",
+      "target": "/manual/control-horario/por-que-no-puedo-fichar-desde-la-app/",
+      "file": "src/content/manual/control-horario/por-que-no-puedo-fichar-desde-la-app.md",
       "title": "¿Por qué no puedo fichar desde la APP?",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/por-que-no-puedo-fichar-desde-la-app/"
       ],
@@ -4869,10 +4869,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/como-puedo-cambiar-la-contrasena-desde-la-app/",
-      "file": "src/content/manual/gestion-de-personal/como-puedo-cambiar-la-contrasena-desde-la-app.md",
+      "target": "/manual/configuracion-y-cuenta/como-puedo-cambiar-la-contrasena-desde-la-app/",
+      "file": "src/content/manual/configuracion-y-cuenta/como-puedo-cambiar-la-contrasena-desde-la-app.md",
       "title": "¿Cómo puedo cambiar la contraseña desde la APP?",
-      "module": "Gestión de personal",
+      "module": "Configuración y cuenta",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/como-puedo-cambiar-la-contrasena-desde-la-app/"
       ],
@@ -4891,10 +4891,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/2-1-listado-de-fichajes/",
-      "file": "src/content/manual/planificacion/2-1-listado-de-fichajes.md",
+      "target": "/manual/control-horario/2-1-listado-de-fichajes/",
+      "file": "src/content/manual/control-horario/2-1-listado-de-fichajes.md",
       "title": "2.1 Listado de fichajes",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-1-listado-de-fichajes/"
       ],
@@ -4913,10 +4913,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/1-1-filtros-de-fichajes/",
-      "file": "src/content/manual/planificacion/1-1-filtros-de-fichajes.md",
+      "target": "/manual/control-horario/1-1-filtros-de-fichajes/",
+      "file": "src/content/manual/control-horario/1-1-filtros-de-fichajes.md",
       "title": "1.1 Filtros de fichajes",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-1-barra-de-filtros-de-fichajes/"
       ],
@@ -4979,10 +4979,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/1-2-detalle-de-los-fichajes/",
-      "file": "src/content/manual/planificacion/1-2-detalle-de-los-fichajes.md",
+      "target": "/manual/control-horario/1-2-detalle-de-los-fichajes/",
+      "file": "src/content/manual/control-horario/1-2-detalle-de-los-fichajes.md",
       "title": "1.2 Detalle de los fichajes",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/1-2-detalle-de-los-fichajes/"
       ],
@@ -5045,10 +5045,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/jornadas-absentismos/",
-      "file": "src/content/manual/gestion-de-personal/jornadas-absentismos.md",
+      "target": "/manual/planificacion/jornadas-absentismos/",
+      "file": "src/content/manual/planificacion/jornadas-absentismos.md",
       "title": "Jornadas absentismos",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/jornadas-absentismos/"
       ],
@@ -5090,10 +5090,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/horas-presenciales-en-turno-computable/",
-      "file": "src/content/manual/planificacion/horas-presenciales-en-turno-computable.md",
+      "target": "/manual/control-horario/horas-presenciales-en-turno-computable/",
+      "file": "src/content/manual/control-horario/horas-presenciales-en-turno-computable.md",
       "title": "Horas presenciales en turno computable",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/horas-presenciales-en-turno-computable/"
       ],
@@ -5101,10 +5101,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/horas-presenciales-en-turno-no-computable/",
-      "file": "src/content/manual/planificacion/horas-presenciales-en-turno-no-computable.md",
+      "target": "/manual/control-horario/horas-presenciales-en-turno-no-computable/",
+      "file": "src/content/manual/control-horario/horas-presenciales-en-turno-no-computable.md",
       "title": "Horas presenciales en turno no computable",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/horas-presenciales-en-turno-no-computable/"
       ],
@@ -5189,10 +5189,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/coste/",
-      "file": "src/content/manual/planificacion/coste.md",
+      "target": "/manual/costes-y-nominas/coste/",
+      "file": "src/content/manual/costes-y-nominas/coste.md",
       "title": "Coste",
-      "module": "Planificación",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/coste/"
       ],
@@ -5233,10 +5233,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/peticiones-y-cambios/solicitud-de-fichajes-pendientes/",
-      "file": "src/content/manual/peticiones-y-cambios/solicitud-de-fichajes-pendientes.md",
+      "target": "/manual/control-horario/solicitud-de-fichajes-pendientes/",
+      "file": "src/content/manual/control-horario/solicitud-de-fichajes-pendientes.md",
       "title": "Solicitud de fichajes pendientes",
-      "module": "Peticiones y cambios",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/solicitud-de-fichajes-pendientes/"
       ],
@@ -5244,10 +5244,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/fichajes-sin-cerrar/",
-      "file": "src/content/manual/gestion-de-personal/fichajes-sin-cerrar.md",
+      "target": "/manual/control-horario/fichajes-sin-cerrar/",
+      "file": "src/content/manual/control-horario/fichajes-sin-cerrar.md",
       "title": "Fichajes sin cerrar",
-      "module": "Gestión de personal",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/fichajes-sin-cerrar/"
       ],
@@ -5288,10 +5288,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/horas-presenciales-dentro-de-turno/",
-      "file": "src/content/manual/planificacion/horas-presenciales-dentro-de-turno.md",
+      "target": "/manual/control-horario/horas-presenciales-dentro-de-turno/",
+      "file": "src/content/manual/control-horario/horas-presenciales-dentro-de-turno.md",
       "title": "Horas presenciales dentro de turno",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/horas-presenciales-dentro-de-turno/"
       ],
@@ -5431,10 +5431,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/12-calculo-estimado-de-horas/",
-      "file": "src/content/manual/gestion-de-personal/12-calculo-estimado-de-horas.md",
+      "target": "/manual/planificacion/12-calculo-estimado-de-horas/",
+      "file": "src/content/manual/planificacion/12-calculo-estimado-de-horas.md",
       "title": "12. Cálculo estimado de horas",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/12-calculo-estimado-de-horas/"
       ],
@@ -5442,10 +5442,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/10-costes/",
-      "file": "src/content/manual/gestion-de-personal/10-costes.md",
+      "target": "/manual/costes-y-nominas/10-costes/",
+      "file": "src/content/manual/costes-y-nominas/10-costes.md",
       "title": "10. Costes",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-costes/"
       ],
@@ -5486,10 +5486,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/como-informan-los-administradores-los-recursos-a-los-trabajadores/",
-      "file": "src/content/manual/planificacion/como-informan-los-administradores-los-recursos-a-los-trabajadores.md",
+      "target": "/manual/recursos-y-partes/como-informan-los-administradores-los-recursos-a-los-trabajadores/",
+      "file": "src/content/manual/recursos-y-partes/como-informan-los-administradores-los-recursos-a-los-trabajadores.md",
       "title": "¿Cómo informan los administradores los recursos a los trabajadores?",
-      "module": "Planificación",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/funciones-del-administrador/"
       ],
@@ -5508,10 +5508,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/lanzar-peticiones-y-cambios/",
-      "file": "src/content/manual/planificacion/lanzar-peticiones-y-cambios.md",
+      "target": "/manual/peticiones-y-cambios/lanzar-peticiones-y-cambios/",
+      "file": "src/content/manual/peticiones-y-cambios/lanzar-peticiones-y-cambios.md",
       "title": "Lanzar peticiones y cambios",
-      "module": "Planificación",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/lanzar-peticiones-y-cambios/"
       ],
@@ -5530,10 +5530,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/balance-vacaciones-anual/",
-      "file": "src/content/manual/gestion-de-personal/balance-vacaciones-anual.md",
+      "target": "/manual/planificacion/balance-vacaciones-anual/",
+      "file": "src/content/manual/planificacion/balance-vacaciones-anual.md",
       "title": "Balance vacaciones anual",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/balance-vacaciones/"
       ],
@@ -5618,10 +5618,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/peticiones-y-cambios/6-listado-peticiones-de-fichajes/",
-      "file": "src/content/manual/peticiones-y-cambios/6-listado-peticiones-de-fichajes.md",
+      "target": "/manual/control-horario/6-listado-peticiones-de-fichajes/",
+      "file": "src/content/manual/control-horario/6-listado-peticiones-de-fichajes.md",
       "title": "6. Listado peticiones de fichajes",
-      "module": "Peticiones y cambios",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-listado-peticiones-de-fichajes/"
       ],
@@ -5651,10 +5651,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/5-mas-de-5-hrs-fichadas-sin-descanso/",
-      "file": "src/content/manual/planificacion/5-mas-de-5-hrs-fichadas-sin-descanso.md",
+      "target": "/manual/control-horario/5-mas-de-5-hrs-fichadas-sin-descanso/",
+      "file": "src/content/manual/control-horario/5-mas-de-5-hrs-fichadas-sin-descanso.md",
       "title": "5. Más de 5 Hrs fichadas sin descanso",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/5-mas-de-5-hrs-fichadas-sin-descanso/"
       ],
@@ -5662,10 +5662,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/6-trabajadores-sin-descanso-realizado/",
-      "file": "src/content/manual/planificacion/6-trabajadores-sin-descanso-realizado.md",
+      "target": "/manual/control-horario/6-trabajadores-sin-descanso-realizado/",
+      "file": "src/content/manual/control-horario/6-trabajadores-sin-descanso-realizado.md",
       "title": "6. Trabajadores sin descanso realizado",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-trabajadores-sin-descanso-realizado/"
       ],
@@ -5783,10 +5783,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/10-sobre-el-modulo-de-control-horario/",
-      "file": "src/content/manual/planificacion/10-sobre-el-modulo-de-control-horario.md",
+      "target": "/manual/control-horario/10-sobre-el-modulo-de-control-horario/",
+      "file": "src/content/manual/control-horario/10-sobre-el-modulo-de-control-horario.md",
       "title": "10. Sobre el módulo de Control Horario",
-      "module": "Planificación",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-sobre-el-modulo-de-control-de-presencia/"
       ],
@@ -5805,10 +5805,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/documentos/4-importacion-de-catalogos-de-tareas/",
-      "file": "src/content/manual/documentos/4-importacion-de-catalogos-de-tareas.md",
+      "target": "/manual/tareas/4-importacion-de-catalogos-de-tareas/",
+      "file": "src/content/manual/tareas/4-importacion-de-catalogos-de-tareas.md",
       "title": "4. Importación de catálogos de tareas",
-      "module": "Documentos",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/4-importacion-de-catalogos-de-tareas/"
       ],
@@ -5838,10 +5838,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/4-5-periodos-de-vacaciones/",
-      "file": "src/content/manual/gestion-de-personal/4-5-periodos-de-vacaciones.md",
+      "target": "/manual/planificacion/4-5-periodos-de-vacaciones/",
+      "file": "src/content/manual/planificacion/4-5-periodos-de-vacaciones.md",
       "title": "4.5 Periodos de vacaciones",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/4-5-periodos-de-vacaciones/"
       ],
@@ -5860,10 +5860,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/2-menos-de-12-hrs-entre-fichajes/",
-      "file": "src/content/manual/gestion-de-personal/2-menos-de-12-hrs-entre-fichajes.md",
+      "target": "/manual/control-horario/2-menos-de-12-hrs-entre-fichajes/",
+      "file": "src/content/manual/control-horario/2-menos-de-12-hrs-entre-fichajes.md",
       "title": "2. Menos de 12 hrs entre fichajes",
-      "module": "Gestión de personal",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-menos-de-12-hrs-entre-fichajes/"
       ],
@@ -5871,10 +5871,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/3-mas-de-2-hrs-entre-fichajes/",
-      "file": "src/content/manual/gestion-de-personal/3-mas-de-2-hrs-entre-fichajes.md",
+      "target": "/manual/control-horario/3-mas-de-2-hrs-entre-fichajes/",
+      "file": "src/content/manual/control-horario/3-mas-de-2-hrs-entre-fichajes.md",
       "title": "3. Más de 2 Hrs entre fichajes",
-      "module": "Gestión de personal",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/3-mas-de-2-hrs-entre-fichajes/"
       ],
@@ -5970,10 +5970,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/documentos/18-importacion-recursos/",
-      "file": "src/content/manual/documentos/18-importacion-recursos.md",
+      "target": "/manual/recursos-y-partes/18-importacion-recursos/",
+      "file": "src/content/manual/recursos-y-partes/18-importacion-recursos.md",
       "title": "18. Importación recursos",
-      "module": "Documentos",
+      "module": "Recursos y partes",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/18-importacion-recursos/"
       ],
@@ -6036,10 +6036,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/subir-y-descargar-documentos/",
-      "file": "src/content/manual/gestion-de-personal/subir-y-descargar-documentos.md",
+      "target": "/manual/documentos/subir-y-descargar-documentos/",
+      "file": "src/content/manual/documentos/subir-y-descargar-documentos.md",
       "title": "Subir y descargar documentos",
-      "module": "Gestión de personal",
+      "module": "Documentos",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/subir-y-descargar-documentos/"
       ],
@@ -6102,10 +6102,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/6-importar-ofertas-de-horas/",
-      "file": "src/content/manual/gestion-de-personal/6-importar-ofertas-de-horas.md",
+      "target": "/manual/peticiones-y-cambios/6-importar-ofertas-de-horas/",
+      "file": "src/content/manual/peticiones-y-cambios/6-importar-ofertas-de-horas.md",
       "title": "6. Importar ofertas de horas",
-      "module": "Gestión de personal",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-importar-ofertas-de-horas/"
       ],
@@ -6113,10 +6113,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/5-importar-ofertas-de-turnos/",
-      "file": "src/content/manual/gestion-de-personal/5-importar-ofertas-de-turnos.md",
+      "target": "/manual/planificacion/5-importar-ofertas-de-turnos/",
+      "file": "src/content/manual/planificacion/5-importar-ofertas-de-turnos.md",
       "title": "5. Importar ofertas de turnos",
-      "module": "Gestión de personal",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/5-importar-ofertas-de-turnos/"
       ],
@@ -6124,10 +6124,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/documentos/17-importar-clientes-tareas/",
-      "file": "src/content/manual/documentos/17-importar-clientes-tareas.md",
+      "target": "/manual/tareas/17-importar-clientes-tareas/",
+      "file": "src/content/manual/tareas/17-importar-clientes-tareas.md",
       "title": "17. Importar clientes (Tareas)",
-      "module": "Documentos",
+      "module": "Tareas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/17-importar-clientes-tareas/"
       ],
@@ -6135,10 +6135,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/12-importar-costes/",
-      "file": "src/content/manual/gestion-de-personal/12-importar-costes.md",
+      "target": "/manual/costes-y-nominas/12-importar-costes/",
+      "file": "src/content/manual/costes-y-nominas/12-importar-costes.md",
       "title": "12. Importar costes",
-      "module": "Gestión de personal",
+      "module": "Costes y nóminas",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/12-importar-costes/"
       ],
@@ -6157,10 +6157,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/documentos/15-importar-relacion-ids-external/",
-      "file": "src/content/manual/documentos/15-importar-relacion-ids-external.md",
+      "target": "/manual/integraciones-y-api/15-importar-relacion-ids-external/",
+      "file": "src/content/manual/integraciones-y-api/15-importar-relacion-ids-external.md",
       "title": "15. Importar relación Ids External",
-      "module": "Documentos",
+      "module": "Integraciones y API",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/15-importar-relacion-ids-external/"
       ],
@@ -6168,10 +6168,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/documentos/10-importar-posiciones/",
-      "file": "src/content/manual/documentos/10-importar-posiciones.md",
+      "target": "/manual/gestion-de-personal/10-importar-posiciones/",
+      "file": "src/content/manual/gestion-de-personal/10-importar-posiciones.md",
       "title": "10. Importar posiciones",
-      "module": "Documentos",
+      "module": "Gestión de personal",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/10-importar-posiciones/"
       ],
@@ -6267,10 +6267,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/5-17-flexibilidad-de-fichajes/",
-      "file": "src/content/manual/gestion-de-personal/5-17-flexibilidad-de-fichajes.md",
+      "target": "/manual/control-horario/5-17-flexibilidad-de-fichajes/",
+      "file": "src/content/manual/control-horario/5-17-flexibilidad-de-fichajes.md",
       "title": "5.17 Flexibilidad de fichajes",
-      "module": "Gestión de personal",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/5-17-flexibilidad-de-fichajes/"
       ],
@@ -6289,10 +6289,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/3-3-absentismos/",
-      "file": "src/content/manual/general/3-3-absentismos.md",
+      "target": "/manual/planificacion/3-3-absentismos/",
+      "file": "src/content/manual/planificacion/3-3-absentismos.md",
       "title": "3.3 Absentismos",
-      "module": "General",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/3-3-absentismos/"
       ],
@@ -6322,10 +6322,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/2-estadisticas-de-absentismos-totales/",
-      "file": "src/content/manual/general/2-estadisticas-de-absentismos-totales.md",
+      "target": "/manual/planificacion/2-estadisticas-de-absentismos-totales/",
+      "file": "src/content/manual/planificacion/2-estadisticas-de-absentismos-totales.md",
       "title": "2. Estadísticas de absentismos totales",
-      "module": "General",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/2-estadisticas-de-absentismos-totales/"
       ],
@@ -6333,10 +6333,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/3-estadisticas-de-absentismos-temporales/",
-      "file": "src/content/manual/general/3-estadisticas-de-absentismos-temporales.md",
+      "target": "/manual/planificacion/3-estadisticas-de-absentismos-temporales/",
+      "file": "src/content/manual/planificacion/3-estadisticas-de-absentismos-temporales.md",
       "title": "3. Estadísticas de absentismos temporales",
-      "module": "General",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/3-estadisticas-de-absentismos-temporales/"
       ],
@@ -6344,10 +6344,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/4-resumen-estadisticas-de-absentismos/",
-      "file": "src/content/manual/general/4-resumen-estadisticas-de-absentismos.md",
+      "target": "/manual/planificacion/4-resumen-estadisticas-de-absentismos/",
+      "file": "src/content/manual/planificacion/4-resumen-estadisticas-de-absentismos.md",
       "title": "4. Resumen estadísticas de absentismos",
-      "module": "General",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/4-resumen-estadisticas-de-absentismos/"
       ],
@@ -6355,10 +6355,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/general/5-listado-de-absentismos-temporales/",
-      "file": "src/content/manual/general/5-listado-de-absentismos-temporales.md",
+      "target": "/manual/planificacion/5-listado-de-absentismos-temporales/",
+      "file": "src/content/manual/planificacion/5-listado-de-absentismos-temporales.md",
       "title": "5. Listado de absentismos temporales",
-      "module": "General",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/5-listado-de-absentismos-temporales/"
       ],
@@ -6366,10 +6366,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/app-movil/6-informes-y-ratios-de-absentismos/",
-      "file": "src/content/manual/app-movil/6-informes-y-ratios-de-absentismos.md",
+      "target": "/manual/planificacion/6-informes-y-ratios-de-absentismos/",
+      "file": "src/content/manual/planificacion/6-informes-y-ratios-de-absentismos.md",
       "title": "6. Informes y ratios de absentismos",
-      "module": "App móvil",
+      "module": "Planificación",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/6-informes-y-ratios-de-absentismos/"
       ],
@@ -6421,10 +6421,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/7-listado-de-fichajes/",
-      "file": "src/content/manual/gestion-de-personal/7-listado-de-fichajes.md",
+      "target": "/manual/control-horario/7-listado-de-fichajes/",
+      "file": "src/content/manual/control-horario/7-listado-de-fichajes.md",
       "title": "7. Listado de fichajes",
-      "module": "Gestión de personal",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/7-listado-de-fichajes/"
       ],
@@ -6432,10 +6432,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/8-control-de-fichajes/",
-      "file": "src/content/manual/gestion-de-personal/8-control-de-fichajes.md",
+      "target": "/manual/control-horario/8-control-de-fichajes/",
+      "file": "src/content/manual/control-horario/8-control-de-fichajes.md",
       "title": "8. Control de fichajes",
-      "module": "Gestión de personal",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/8-control-de-fichajes-rrhh/"
       ],
@@ -6520,10 +6520,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/planificacion/como-recuperar-contrasena-desde-la-app-de-aturnos/",
-      "file": "src/content/manual/planificacion/como-recuperar-contrasena-desde-la-app-de-aturnos.md",
+      "target": "/manual/configuracion-y-cuenta/como-recuperar-contrasena-desde-la-app-de-aturnos/",
+      "file": "src/content/manual/configuracion-y-cuenta/como-recuperar-contrasena-desde-la-app-de-aturnos.md",
       "title": "¿Cómo recuperar contraseña desde la APP de aTurnos?",
-      "module": "Planificación",
+      "module": "Configuración y cuenta",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/como-recuperar-contrasena-desde-la-app-de-aturnos/"
       ],
@@ -6542,10 +6542,10 @@
       "invalidSource": false
     },
     {
-      "target": "/manual/gestion-de-personal/27-importar-peticiones/",
-      "file": "src/content/manual/gestion-de-personal/27-importar-peticiones.md",
+      "target": "/manual/peticiones-y-cambios/27-importar-peticiones/",
+      "file": "src/content/manual/peticiones-y-cambios/27-importar-peticiones.md",
       "title": "27. Importar peticiones",
-      "module": "Gestión de personal",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/knowledgebase/27-importar-peticiones/"
       ],
@@ -7001,10 +7001,10 @@
       "invalidSource": true
     },
     {
-      "target": "/manual/planificacion/cambios-de-turno/",
-      "file": "src/content/manual/planificacion/cambios-de-turno.md",
+      "target": "/manual/peticiones-y-cambios/cambios-de-turno/",
+      "file": "src/content/manual/peticiones-y-cambios/cambios-de-turno.md",
       "title": "Cambios de turno",
-      "module": "Planificación",
+      "module": "Peticiones y cambios",
       "sourceUrls": [
         "https://manual.aturnos.com/documentation/1-intercambio-de-turno/",
         "https://manual.aturnos.com/documentation/2-cambio-por-libre-dejando-a-deber/",
@@ -7067,10 +7067,10 @@
       "invalidSource": true
     },
     {
-      "target": "/manual/general/que-valor-indica-y-para-que-sirve-el-status-presencia-horas-contrato/",
-      "file": "src/content/manual/general/que-valor-indica-y-para-que-sirve-el-status-presencia-horas-contrato.md",
+      "target": "/manual/control-horario/que-valor-indica-y-para-que-sirve-el-status-presencia-horas-contrato/",
+      "file": "src/content/manual/control-horario/que-valor-indica-y-para-que-sirve-el-status-presencia-horas-contrato.md",
       "title": "Que valor indica y para que sirve el status presencia horas contrato",
-      "module": "General",
+      "module": "Control horario",
       "sourceUrls": [
         "https://manual.aturnos.com/documentation/5-reportes-y-estadisticas/que-valor-indica-y-para-que-sirve-el-status-presencia-horas-contrato/"
       ],

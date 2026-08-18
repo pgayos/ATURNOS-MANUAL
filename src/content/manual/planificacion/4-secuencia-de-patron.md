@@ -47,6 +47,6 @@ Información sobre secuencia de patrón, con instrucciones y contexto revisables
 
 ## Contenido
 
-Para establecer cómo va a ser la sucesión de turnos y los días en los que aplicará ese patrón de rotación, es importante tener claro que el Día 1 (de la secuencia del patrón), no se refiere al día 1 del mes sino que esta relacionado al día de la semana en que va a iniciar el patrón (según se haya informado en el campo “ Aplicar patrón desde “), en este ejemplo se refiere al Lunes y se entiende que si el “ Escalonado con diferencia ” informado es de 7 días, entonces el día 7 corresponderá siempre a los domingos.
+Para establecer cómo va a ser la sucesión de turnos y los días en los que aplicará ese patrón de rotación, es importante tener claro que el Día 1 (de la secuencia del patrón), no se refiere al día 1 del mes sino que esta relacionado al día de la semana en que va a iniciar el patrón (según se haya informado en el campo “Aplicar patrón desde “), en este ejemplo se refiere al Lunes y se entiende que si el “Escalonado con diferencia” informado es de 7 días, entonces el día 7 corresponderá siempre a los domingos.
 
 Observando la última columna de la tabla, te muestra la información del total de horas de cada periodo del patrón. En cada fila te informa la suma de horas computadas de los diferentes turnos que forman parte de cada periodo del patrón. Se actualiza cuando alguna celda/día cambia de planificación (inserta un turno nuevo, se borra, se cambia un turno por otro con diferente número de horas computadas).

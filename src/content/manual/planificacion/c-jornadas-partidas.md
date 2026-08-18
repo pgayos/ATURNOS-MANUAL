@@ -63,6 +63,6 @@ Se informan los campos que aparecen en el formulario, los cuales son los siguien
 - Descripción de la jornada partida: nombre identificativo de la jornada partida.
 - Seleccionar los tipos de turnos (A+B) que constituyen tu nueva jornada partida.
 
-En nuestro ejemplo anterior, para crear una jornada de 9:00h a 14:00h y de 16:00h a 18:30h, se informa seleccionando en el primer campo el tipo de turno “MP ” y en segundo campo se selecciona el tipo de turno “TP”.
+En nuestro ejemplo anterior, para crear una jornada de 9:00h a 14:00h y de 16:00h a 18:30h, se informa seleccionando en el primer campo el tipo de turno “MP” y en segundo campo se selecciona el tipo de turno “TP”.
 
 Horario: indica el horario de la jornada partida, se controla el solapamiento de los horarios de los turnos a medida que se van seleccionando los tipos de turnos en los campos diseñados para ello. En el caso de solapamiento entre turnos, se genera un aviso y no permite crear la jornada con los tipos de turnos seleccionados.

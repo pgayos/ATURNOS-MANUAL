@@ -59,7 +59,7 @@ Para definir la localización primero hay que introducir la dirección y posteri
 
 El penúltimo paso es la realización del fichaje por parte de cada empleado. Para ello, el empleado tiene que acceder a su sesión de aTurnos mediante la App o en la Web, y hacer clic en Iniciar Jornada. Para finalizar la jornada el proceso es el mismo, pero en vez de aparecer el botón de Iniciar aparecerá el de Finalizar.
 
-El fichaje por geolocalización funciona en la web ( https://www.aturnos.com/login-ad ) con aquellos dispositivos con GPS. En el caso de no tener GPS, se recogerá la ubicación que nos dé el dispositivo con respecto a su conexión a internet. El navegador solicitará el permiso para acceder a dicha ubicación.
+El fichaje por geolocalización funciona en la web (https://www.aturnos.com/login-ad) con aquellos dispositivos con GPS. En el caso de no tener GPS, se recogerá la ubicación que nos dé el dispositivo con respecto a su conexión a internet. El navegador solicitará el permiso para acceder a dicha ubicación.
 
 Desde la APP de aTurnos solamente será necesario tener acceso a la ubicación del dispositivo, la APP solicitará el permiso para acceder a dicha ubicación.
 

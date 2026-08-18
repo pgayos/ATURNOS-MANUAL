@@ -115,4 +115,4 @@ Una vez se elige el equipo, aparece un nuevo botón, el botón “Intercambiar�
 
 ¡Importante!
 
-Si se intercambia el equipo, la barra de localizaciones cambiará a color lila, esto indica que no se pueden realizar modificaciones sobre ese cuadrante (modo solo visualización). Si se quiere volver al equipo anterior al intercambio se debe volver a la pantalla de “ mis equipos ”, ya que si se intenta volver desde el botón “Intercambiar” ambos cuadrantes aparecerán de color lila y no se puede modificar.
+Si se intercambia el equipo, la barra de localizaciones cambiará a color lila, esto indica que no se pueden realizar modificaciones sobre ese cuadrante (modo solo visualización). Si se quiere volver al equipo anterior al intercambio se debe volver a la pantalla de “mis equipos”, ya que si se intenta volver desde el botón “Intercambiar” ambos cuadrantes aparecerán de color lila y no se puede modificar.

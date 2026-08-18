@@ -49,7 +49,7 @@ Aprende a estadísticas del trabajador, con instrucciones y contexto revisables 
 
 ## Contenido
 
-Se define como Estadísticas aquellas clasificaciones o conjunto de datos que se usan posteriormente para establecer hechos o probabilidades sobre los datos que contienen las mismas. Podrás consultar datos básicos de cada trabajador mediante diferentes gráficos estadísticos en forma de “ gráficos de pastel ”. Previamente, para que los muestre, tienes que seleccionar el periodo en el que quieres visualizar dichos datos (esquina superior derecha).
+Se define como Estadísticas aquellas clasificaciones o conjunto de datos que se usan posteriormente para establecer hechos o probabilidades sobre los datos que contienen las mismas. Podrás consultar datos básicos de cada trabajador mediante diferentes gráficos estadísticos en forma de “gráficos de pastel”. Previamente, para que los muestre, tienes que seleccionar el periodo en el que quieres visualizar dichos datos (esquina superior derecha).
 
 Los gráficos estadísticos que se muestran versan sobre los siguientes aspectos:
 
@@ -57,4 +57,4 @@ Los gráficos estadísticos que se muestran versan sobre los siguientes aspectos
 - Total de horas: Identifica el porcentaje de cada tipo de hora que previamente has creado o no (recuerda que son normales, extras y complementarias los tipos de horas que aTurnos crea por defecto) y que se han asignado en el cuadrante al realizar la planificación de un determinado trabajador. En la parte inferior del gráfico, te mostrará la totalidad de cada tipo de hora que has planificado en el trabajador. (Véase qué son las horas y cuáles son sus tipos ).
 - Total de absentismos: Muestra el porcentaje de cada tipo de absentismo que previamente has creado o no (absentismos por defecto) que se le han asignado en la planificación del trabajador sobre el cuadrante. En la parte inferior del gráfico podrás visualizar igualmente el número total de cada tipo de absentismo, los cuales previamente le has asignado al trabajador en su planificación sobre el cuadrante. (Véase qué son los absentismos y cómo puedes crearlos ).
 
-Si lo que deseas es poder visualizar las estadísticas con más detalle, debes acceder a las mismas a través de Menú- → Estadísticas ( acceso detallado a Estadísticas ).
+Si lo que deseas es poder visualizar las estadísticas con más detalle, debes acceder a las mismas a través de Menú- → Estadísticas (acceso detallado a Estadísticas).

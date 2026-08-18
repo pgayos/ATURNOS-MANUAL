@@ -63,7 +63,7 @@ Información sobre la leyenda de colores que aparecen en el cuadrante:
 
 - Bolsas: Los trabajadores con horas de bolsa se muestran en el cuadrante en color rojo. Para ver cómo crear bolsas haz clic en el siguiente enlace (ver Bolsas ). En este caso muestra las horas de bolsa y la localización.
 
-- Extra / Complementarias: Los trabajadores con horas extra / complementarias se muestran en el cuadrante en color marrón. Las horas extras / complementarias se pueden ejecutar en el cuadrante por añadirlas directamente desde ” Añadir horas “, o por petición de un trabajador teniendo el administrador que aceptarlas en ‘ Peticiones y cambios ‘ o al añadir horas extra / complementarias al hacer un ajuste en el control de presencia.
+- Extra / Complementarias: Los trabajadores con horas extra / complementarias se muestran en el cuadrante en color marrón. Las horas extras / complementarias se pueden ejecutar en el cuadrante por añadirlas directamente desde” Añadir horas “, o por petición de un trabajador teniendo el administrador que aceptarlas en ‘ Peticiones y cambios ‘ o al añadir horas extra / complementarias al hacer un ajuste en el control de presencia.
 
 - Vacaciones: Los trabajadores con vacaciones aceptadas se muestran en el cuadrante en color amarillo. Las vacaciones podrán ser añadidas en la planificación por el administrador añadiendo un turno “V”, por aplicar un patrón con turnos “V” de vacaciones o porque el administrador acepta una petición de vacaciones del trabajador en ‘ Peticiones y cambios ‘. Tienes más información sobre la gestión de vacaciones en Operativa de vacaciones.
 
@@ -71,9 +71,9 @@ Información sobre la leyenda de colores que aparecen en el cuadrante:
 
 - Propuesta: Se muestra así las solicitudes realizadas que aún no han sido aceptadas por el administrador y que aún están pendientes de su aprobación en ‘ Peticiones y cambios ‘.
 
-- Cambios Pendientes: Se muestran así los cambios pendientes de confirmar. Éstos se solicitan en el cuadrante por los trabajadores en ” Hacer cambio ” a los compañeros para intercambiar turnos, cambiarlo por un día libre o para que doble turno un compañero, quedando pendiente en ‘ Peticiones y cambios’ hasta que lo apruebe el administrador.
+- Cambios Pendientes: Se muestran así los cambios pendientes de confirmar. Éstos se solicitan en el cuadrante por los trabajadores en” Hacer cambio” a los compañeros para intercambiar turnos, cambiarlo por un día libre o para que doble turno un compañero, quedando pendiente en ‘ Peticiones y cambios’ hasta que lo apruebe el administrador.
 
-- Cambios confirmados: Se muestran así los cambios confirmados. Se aplica este color verde a los turnos, una vez han sido confirmados por los compañeros y administradores (dependiendo del flujo de aprobación de cambios ) en ” Peticiones y cambios “.
+- Cambios confirmados: Se muestran así los cambios confirmados. Se aplica este color verde a los turnos, una vez han sido confirmados por los compañeros y administradores (dependiendo del flujo de aprobación de cambios ) en” Peticiones y cambios “.
 
 ### 3. Fecha del cuadrante
 
@@ -100,7 +100,7 @@ Haciendo clic en el icono del filtro, se puede buscar por detalles de los trabaj
 
 En caso de que no necesite filtrar por los datos guardados, se tiene que seleccionar la opción “Quitar filtros”.
 
-Es importante destacar que para filtrar por “ Datos personalizados ” sebe seleccionar primero el Nombre del dato personalizado que se requiere y luego informar en la casilla de “Valor” el dato a buscar. Ej. Si un dato personalizado es la Licencia para Conducir debo colocar en el campo de valor el número de Licencia que necesita buscar.
+Es importante destacar que para filtrar por “Datos personalizados” sebe seleccionar primero el Nombre del dato personalizado que se requiere y luego informar en la casilla de “Valor” el dato a buscar. Ej. Si un dato personalizado es la Licencia para Conducir debo colocar en el campo de valor el número de Licencia que necesita buscar.
 
 Este filtro en el cuadrante sirve para filtrar por la localización por defecto (indicada en el perfil) del trabajador. Funciona de la siguiente forma:
 
@@ -114,4 +114,4 @@ Se puede exportar para su distribución / impresión en formato Excel, PDF A4 o 
 
 También se puede exportar el cuadrante para crear un patrón, está opción está disponible si el periodo que se visualiza es múltiplo de 7 (1, 2,3 o 4 semanas) utilizando la opción Exportar a patrón.
 
-Desde este botón se puede activar la función de aplicar patrón a los trabajadores que desee ( ver Manual de Aplicar Patrón ).
+Desde este botón se puede activar la función de aplicar patrón a los trabajadores que desee (ver Manual de Aplicar Patrón).

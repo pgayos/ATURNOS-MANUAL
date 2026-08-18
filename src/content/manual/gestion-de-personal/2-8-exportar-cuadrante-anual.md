@@ -67,4 +67,4 @@ Desde el menú de aTurnos en la función RRHH, al acceder a la opción Registros
 - Generar el cuadrante con todos los detalles. Ver información del cuadrante anual
 - Incluir la fecha de generación del informe en el propio informe
 
-3. Cuando lo solicita la petición al hacer clic en “ OK ”, el sistema nos informa que la petición se ha realizado correctamente. El resultado serán los cuadrantes de todos los trabajadores de los equipos seleccionados y año indicado. Se podrá acceder a los informes y descargarlos cuando se haya generado y almacenado en el listado de Peticiones de reporte del menú.(RRHH/Peticiones de reportes).
+3. Cuando lo solicita la petición al hacer clic en “OK”, el sistema nos informa que la petición se ha realizado correctamente. El resultado serán los cuadrantes de todos los trabajadores de los equipos seleccionados y año indicado. Se podrá acceder a los informes y descargarlos cuando se haya generado y almacenado en el listado de Peticiones de reporte del menú.(RRHH/Peticiones de reportes).

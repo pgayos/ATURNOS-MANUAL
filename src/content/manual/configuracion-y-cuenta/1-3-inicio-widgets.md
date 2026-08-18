@@ -74,7 +74,7 @@ También se utiliza el mismo sistema de columnas. Sin embargo, estos usuarios no
 
 ### Descripción detallada de los Widgets en aTurnos
 
-Identificado como “Datos Personalizados”, en la configuración de la pantalla de inicio. Muestra los datos personalizados del usuario logueado ( ver más sobre datos personalizados ). Visible para: Superusuario y Administrador Total.
+Identificado como “Datos Personalizados”, en la configuración de la pantalla de inicio. Muestra los datos personalizados del usuario logueado (ver más sobre datos personalizados). Visible para: Superusuario y Administrador Total.
 
 Muestra un resumen del cuadrante con turnos, horas, absentismos, vacaciones, comentarios, festivos y recursos del usuario. Permite ver otros meses, así como vistas por semana o día. Visible para: Usuarios planificables.
 
@@ -114,7 +114,7 @@ Indica cuántos trabajadores del equipo están planificados hoy con respecto al 
 
 Muestra la suma de las horas computadas de todos los usuarios planificados en el cuadrante (semana, mes y año), comparadas con la suma de las horas contrato de todos los usuarios planificables, indicadas en el perfil de cada trabajador. Visible para: superusuarios, administradores totales, planificadores y validadores.
 
-Identificado como “ Máximo de un tipo de turno al año R1.11-R1.15-R1.17″, en la configuración de la pantalla de inicio.
+Identificado como “Máximo de un tipo de turno al año R1.11-R1.15-R1.17″, en la configuración de la pantalla de inicio.
 
 Este widget está relacionado con la restricción 1.11, 1.15 y 1.17, mostrando los saldos que generan estas restricciones.
 
@@ -126,7 +126,7 @@ Este widget está relacionado con la restricción 1.11, 1.15 y 1.17, mostrando l
 
 Pueden acceder a este widget el administrador total, planificador, validador y trabajador que sean planificables. El superusario y los usuarios no planificables no pueden acceder porque no tienen horas extras en el cuadrante.
 
-Identificado como “ Demandas medias “, en la configuración de la pantalla de inicio.Permite la visualización del valor de la demanda media de cada una de las demandas existentes. Visible para: Administradores.
+Identificado como “Demandas medias “, en la configuración de la pantalla de inicio.Permite la visualización del valor de la demanda media de cada una de las demandas existentes. Visible para: Administradores.
 
 Muestra documentos que deben leerse y aún no se han descargado. Cuando se descarga para verlos, dejarán de aparecer en este widget. Visible para: Administradores y superusuarios.
 
@@ -136,7 +136,7 @@ Permite la visualización en la pantalla de inicio de los trabajadores, las hora
 
 Muestra el listado de especialidades creadas en el equipo, indicando número total de trabajadores que tienen asignada cada una de ellas, comparándolo con el número total de trabajadores del equipo. Visible para: Administradores y el superusuario.
 
-Informa de los trabajadores que, teniendo turno u horas planificadas en su cuadrante, han fichado el inicio de su jornada laboral en el control horario. Más información ver “ Diario ” y “ Detalle ”. Visible para: Administradores
+Informa de los trabajadores que, teniendo turno u horas planificadas en su cuadrante, han fichado el inicio de su jornada laboral en el control horario. Más información ver “Diario” y “Detalle”. Visible para: Administradores
 
 Muestra 4 pasos que guían al administrador de cómo empezar y configurar sus equipos en aTurnos. Visible para: Todos.
 
@@ -144,11 +144,11 @@ Muestra un listado de los trabajadores que tienen planificación hoy, pero no ha
 
 Muestra al usuario logueado si en algún turno realizado con anterioridad se ha realizado un fichaje de entrada pero no se ha realizado ninguno otro fichaje para cerrar el turno realizado, indicando su fecha, y en que periodo falta el dicho fichaje. Visible para: Administradores totales y trabajadores planificables.
 
-Identificado como “ Widget Tareas/Citas “, en la configuración de la pantalla de inicio.
+Identificado como “Widget Tareas/Citas “, en la configuración de la pantalla de inicio.
 
 Muestra las tareas o citas planificadas en la fecha seleccionda a trabajador, así como el número de horas pendientes de asignar siendo la diferencia entre las horas planificadas menos las horas de las tareas asignadas, en el ejemplo el usuario tiene 3 horas pendientes de tareas.
 
-Con dos botones de acciones, un botón “Clientes” para añadir clientes,en el caso de que no estén aún en el equipo. Y un botón “ Añadir tarea ” para crear una nueva tarea si lo requiere el usuario logueado en el equipo. Se puede descargar la tabla que muestra el widget, en el formato que se requiera, desde la acción descargar.
+Con dos botones de acciones, un botón “Clientes” para añadir clientes,en el caso de que no estén aún en el equipo. Y un botón “Añadir tarea” para crear una nueva tarea si lo requiere el usuario logueado en el equipo. Se puede descargar la tabla que muestra el widget, en el formato que se requiera, desde la acción descargar.
 
 Permite a superusuario y administradores crear, editar o eliminar ofertas de turno. Visible para: Superusuario, administrador total y planificador.
 
@@ -206,7 +206,7 @@ El administrador puede calcular el tanto por ciento de fichajes no automáticos 
 
 El administrador puede consultar los trabajadores que tienen el Timecard Cerrado y/o Validado. Si se hace clic en “Ir a Timecard Localizado”, redirige la página hacia la pestaña “Control Horario (Timecard Localizado)”. Visible para: Administradores.
 
-Identificado como “ Información de planificación “, en la configuración de la pantalla de inicio en los ajustes de equipo.
+Identificado como “Información de planificación “, en la configuración de la pantalla de inicio en los ajustes de equipo.
 
 Este widget muestra la localización por defecto del trabajador, no muestra la localización del turno. También muestra el tiempo computado de cada turno que esté planificado en el día hoy. No incluye las horas computadas ni planificadas de cualquier tipo de hora fuera de turno (como son las horas extras, complementaria, normales, personalizadas…). La información del widget es, en el día presente, únicamente.
 
@@ -248,7 +248,7 @@ Para añadir una noticia, o borrarla se realiza desde Administrar → Ajustes �
 
 Identificado como Saldos pendientes R4.10
 
-Muestra el balance de la restricción 4.10 “ Máximo de horas de un tipo de absentismo no puede superar las horas planificadas de un tipo de turno en un periodo”.
+Muestra el balance de la restricción 4.10 “Máximo de horas de un tipo de absentismo no puede superar las horas planificadas de un tipo de turno en un periodo”.
 
 Este widget, muestra el saldo entre el número permitido de horas de un tipo de absentismo, que se puede planificar al trabajador, dependiendo del número total de horas planificadas de un tipo de turno en el mes consultado.
 
@@ -276,7 +276,7 @@ Balance: un balance positivo indica cuantas horas absentismos de este tipo aún 
 
 Identificado como Saldos pendientes R4.5, en la configuración de la pantalla de inicio.
 
-Relacionado con la restricción 4.5 “ Máximo de un tipo de absentismo al año que tiene que ser menor a un tipo de turno “.
+Relacionado con la restricción 4.5 “Máximo de un tipo de absentismo al año que tiene que ser menor a un tipo de turno “.
 
 En este widget se muestra el saldo mensual entre el número permitido de un tipo de absentismo, que pueden planificar, dependiendo del número de un tipo de turno planificado en el mes.
 
@@ -342,7 +342,7 @@ Balance: un balance positivo indica que, en este mes consultado, hay más turnos
 
 - 4.10 Máximo de horas de un tipo de absentismo no puede superar las horas planificadas de un tipo de turno, en un periodo definido
 
-Muestra el balance de la restricción 4.10 “ Máximo de horas de un tipo de absentismo no puede superar las horas planificadas de un tipo de turno en un periodo “.
+Muestra el balance de la restricción 4.10 “Máximo de horas de un tipo de absentismo no puede superar las horas planificadas de un tipo de turno en un periodo “.
 
 Este widget, muestra el saldo entre el número permitido de horas de un tipo de absentismo, que pueden planificar, en el mes consultado, dependiendo del número total de horas planificadas de un tipo de turno y del periodo a revisar informado en la restricción.
 
@@ -364,7 +364,7 @@ Balance: un balance positivo indica cuantas horas absentismos de este tipo aún 
 
 Identificado como Saldos pendientes anual R4.10, en la configuración de la pantalla de inicio.
 
-Muestra el balance de la restricción 4.10 “ Máximo de horas de un tipo de absentismo no puede superar las horas planificadas de un tipo de turno en un periodo “.
+Muestra el balance de la restricción 4.10 “Máximo de horas de un tipo de absentismo no puede superar las horas planificadas de un tipo de turno en un periodo “.
 
 Este widget muestra el saldo entre el número permitido de horas de un tipo de absentismo, que se pueden planificar, dependiendo del número total de horas planificadas de un tipo de turno, en un año. La restricción limita que el número horas del tipo de absentismo planificado, no pude ser mayor al valor de número de horas de un tipo turno planificado e informado en la restricción.
 
@@ -386,7 +386,7 @@ Balance: un balance positivo indica cuantas horas absentismos de este tipo aún 
 
 Identificado como Saldos pendientes anual R4.4
 
-Muestra el balance de la restricción 4.4 “ Máximo de un tipo de absentismo tiene que ser menor a un tipo de hora, en un periodo definido”.
+Muestra el balance de la restricción 4.4 “Máximo de un tipo de absentismo tiene que ser menor a un tipo de hora, en un periodo definido”.
 
 Este widget muestra el saldo entre el número permitido de horas de un tipo de absentismo que pueden planificar dependiendo del número total de horas planificadas de un tipo de hora, en un año. La restricción limita que el número horas del tipo de absentismo planificado, no pude ser mayor al valor de número de horas de un tipo hora planificado e informado en la restricción. El balance que muestra el widget se realiza a nivel solo anual, de la planificación.
 
@@ -436,7 +436,7 @@ Muestra quiénes tienen vacaciones hoy. Además muestra los botones de acceso di
 
 Identificado como Saldos pendientes anual R4.5, en la configuración de la pantalla de inicio.
 
-Muestra el balance de la restricción 4.5 “ Máximo de un tipo de absentismo al año que tiene que ser menor a un tipo de turno “.
+Muestra el balance de la restricción 4.5 “Máximo de un tipo de absentismo al año que tiene que ser menor a un tipo de turno “.
 
 Este widget muestra el saldo entre el número permitido de un tipo de absentismo que pueden planificar dependiendo del número de un tipo de turno planificado. La restricción limita que el número del tipo de absentismo planificados, no pude ser mayor al valor del tipo turno planificado e informado en la restricción. El balance se realiza sobre una planificación anual, año actual o cualquier otro a consultar.
 

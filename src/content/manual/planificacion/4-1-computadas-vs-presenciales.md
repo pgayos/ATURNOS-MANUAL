@@ -57,7 +57,7 @@ De la misma forma, se comparan la “Horas computadas” y las “Horas presenci
 
 Las horas computadas son el total de horas y turnos que computan respecto a las horas contrato del trabajador. Se tiene en cuenta duración computada del turno. Se excluyen las horas afectadas por absentismos no justificados.
 
-Las horas presenciales de esta tabla, corresponde a las horas trabajadas de la tabla “ detalle por trabajador ”, que son el total de horas presenciales que coinciden con las horas planificadas menos el tiempo de descanso del turno planificado. Según la configuración se puede tener en cuenta contabilizar el descanso del turno en el tiempo presencial. No todos los turnos tienen descanso, depende de la configuración de los turnos.
+Las horas presenciales de esta tabla, corresponde a las horas trabajadas de la tabla “detalle por trabajador”, que son el total de horas presenciales que coinciden con las horas planificadas menos el tiempo de descanso del turno planificado. Según la configuración se puede tener en cuenta contabilizar el descanso del turno en el tiempo presencial. No todos los turnos tienen descanso, depende de la configuración de los turnos.
 
 Se excluyen las horas afectadas por cualquier tipo de absentismos (no justificados y justificados).
 

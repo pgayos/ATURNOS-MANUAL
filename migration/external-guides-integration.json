@@ -1,0 +1,568 @@
+{
+  "created": 65,
+  "skipped": 21,
+  "entries": [
+    {
+      "file": "src/content/manual/planificacion/guia-preguntas-frecuentes-sobre-permisos-y-absentismos-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/non-knowledgebase/gestion-de-permisos-y-absentismos/preguntas-frecuentes-3/",
+      "title": "Preguntas frecuentes sobre permisos y absentismos para administradores",
+      "module": "Planificación",
+      "wordCount": 275
+    },
+    {
+      "file": "src/content/manual/peticiones-y-cambios/guia-ofertas-de-turno-y-horas-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/ofertas-de-turno-y-horas/",
+      "title": "Ofertas de turno y horas para administradores",
+      "module": "Peticiones y cambios",
+      "wordCount": 452
+    },
+    {
+      "file": "src/content/manual/configuracion-y-cuenta/guia-preguntas-frecuentes-sobre-comunicacion-y-notificaciones-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/preguntas-frecuentes-4/",
+      "title": "Preguntas frecuentes sobre comunicación y notificaciones para administradores",
+      "module": "Configuración y cuenta",
+      "wordCount": 522
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-absentismos-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/absentismos/",
+      "title": "Absentismos para trabajadores",
+      "module": "Planificación",
+      "wordCount": 406
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-vacaciones-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/vacaciones/",
+      "title": "Vacaciones para trabajadores",
+      "module": "Planificación",
+      "wordCount": 231
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-turnos-y-horas-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/turnos/",
+      "title": "Turnos y Horas para trabajadores",
+      "module": "Planificación",
+      "wordCount": 289
+    },
+    {
+      "file": "src/content/manual/peticiones-y-cambios/guia-libre-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/horas/",
+      "title": "Libre para trabajadores",
+      "module": "Peticiones y cambios",
+      "wordCount": 264
+    },
+    {
+      "file": "src/content/manual/peticiones-y-cambios/guia-apuntarse-a-una-oferta-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/apuntarse-a-una-oferta/",
+      "title": "Apuntarse a una oferta para trabajadores",
+      "module": "Peticiones y cambios",
+      "wordCount": 192
+    },
+    {
+      "file": "src/content/manual/peticiones-y-cambios/guia-solicitar-cambios-de-turno-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/solicitar-cambios-de-turno/",
+      "title": "Solicitar cambios de turno para trabajadores",
+      "module": "Peticiones y cambios",
+      "wordCount": 592
+    },
+    {
+      "file": "src/content/manual/peticiones-y-cambios/guia-preguntas-frecuentes-sobre-autogestion-del-trabajador-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/preguntas-frecuentes-9/",
+      "title": "Preguntas frecuentes sobre autogestión del trabajador para trabajadores",
+      "module": "Peticiones y cambios",
+      "wordCount": 584
+    },
+    {
+      "file": "src/content/manual/gestion-de-personal/guia-mi-perfil-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/perfil-del-trabajador/mi-perfil/",
+      "title": "Mi perfil para trabajadores",
+      "module": "Gestión de personal",
+      "wordCount": 260
+    },
+    {
+      "file": "src/content/manual/control-horario/guia-fichar-en-aturnos-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/control-horario/fichar-en-aturnos/",
+      "title": "Fichar en aTurnos para trabajadores",
+      "module": "Control horario",
+      "wordCount": 528
+    },
+    {
+      "file": "src/content/manual/control-horario/guia-visualizacion-de-fichajes-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/control-horario/visualizacion-de-fichajes/",
+      "title": "Visualización de Fichajes para trabajadores",
+      "module": "Control horario",
+      "wordCount": 238
+    },
+    {
+      "file": "src/content/manual/control-horario/guia-incidencias-de-control-horario-para-trabajadores.md",
+      "url": "https://guias.aturnos.com/guias/guias-trabajador/control-horario/incidencias-de-control-horario/",
+      "title": "Incidencias de Control Horario para trabajadores",
+      "module": "Control horario",
+      "wordCount": 766
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-comentarios-en-el-cuadrante-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/comentarios-en-el-cuadrante/",
+      "title": "Comentarios en el cuadrante para administradores",
+      "module": "Planificación",
+      "wordCount": 395
+    },
+    {
+      "file": "src/content/manual/general/guia-crear-y-compartir-informes-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/creacion-de-informes-personalizados/configuracion-de-metricas-clave-de-gestion-y-planificacion-horaria/",
+      "title": "Crear y compartir informes para administradores",
+      "module": "General",
+      "wordCount": 607
+    },
+    {
+      "file": "src/content/manual/general/guia-exportacion-de-informes-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/creacion-de-informes-personalizados/exportacion-de-informes/",
+      "title": "Exportación de informes para administradores",
+      "module": "General",
+      "wordCount": 285
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-uso-avanzado-del-cuadrante-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-avanzado-del-cuadrante/",
+      "title": "Uso avanzado del cuadrante para administradores",
+      "module": "Planificación",
+      "wordCount": 619
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-uso-de-calculadora-de-patrones-de-turnos-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-de-calculadora-de-patrones-de-turnos-2/",
+      "title": "Uso de calculadora de patrones de turnos para administradores",
+      "module": "Planificación",
+      "wordCount": 393
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-impacto-de-las-ausencias-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/impacto-de-las-ausencias/",
+      "title": "Impacto de las ausencias para administradores",
+      "module": "Planificación",
+      "wordCount": 417
+    },
+    {
+      "file": "src/content/manual/control-horario/guia-alertas-de-control-horario-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/alertas-de-control-horario/",
+      "title": "Alertas de control horario para administradores",
+      "module": "Control horario",
+      "wordCount": 657
+    },
+    {
+      "file": "src/content/manual/documentos/guia-gestion-documental-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/gestion-documental/",
+      "title": "Gestión documental para administradores",
+      "module": "Documentos",
+      "wordCount": 369
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-crear-listado-de-absentismos-del-equipo-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/crear-listado-abs/",
+      "title": "Crear listado de absentismos del equipo para administradores",
+      "module": "Planificación",
+      "wordCount": 538
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-como-planificar-las-vacaciones-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/configuracion-vac/",
+      "title": "Como planificar las vacaciones para administradores",
+      "module": "Planificación",
+      "wordCount": 631
+    },
+    {
+      "file": "src/content/manual/integraciones-y-api/guia-integracion-con-apirest-y-webhooks-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-apirest-y-webhooks/",
+      "title": "Integración con APIRest y Webhooks para administradores",
+      "module": "Integraciones y API",
+      "wordCount": 841
+    },
+    {
+      "file": "src/content/manual/gestion-de-personal/guia-ser-rr-hh-en-aturnos-para-rr-hh.md",
+      "url": "https://guias.aturnos.com/guias/guias-rr-hh/recursos-humanos-aturnos/usos-de-la-funcion-de-rrhh-en-aturnos/",
+      "title": "Ser RR.HH. en aTurnos para RR. HH.",
+      "module": "Gestión de personal",
+      "wordCount": 865
+    },
+    {
+      "file": "src/content/manual/configuracion-y-cuenta/guia-crear-un-equipo-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/crear-un-equipo-2/",
+      "title": "Crear un equipo para administradores",
+      "module": "Configuración y cuenta",
+      "wordCount": 107
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-como-crear-turnos-y-tipos-de-horas-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/como-crear-turnos-y-tipos-de-horas-2/",
+      "title": "Cómo crear turnos y tipos de horas para administradores",
+      "module": "Planificación",
+      "wordCount": 804
+    },
+    {
+      "file": "src/content/manual/gestion-de-personal/guia-configuracion-de-estructura-organizativa-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-estructura-organizativa/",
+      "title": "Configuración de estructura organizativa para administradores",
+      "module": "Gestión de personal",
+      "wordCount": 296
+    },
+    {
+      "file": "src/content/manual/control-horario/guia-informes-sobre-cumplimiento-de-horarios-y-horas-acumuladas-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/informes-sobre-cumplimiento-de-horarios-y-horas-acumuladas/",
+      "title": "Informes sobre cumplimiento de horarios y horas acumuladas para administradores",
+      "module": "Control horario",
+      "wordCount": 1249
+    },
+    {
+      "file": "src/content/manual/gestion-de-personal/guia-actividad-2-anade-a-los-trabajadores-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-2-anade-a-los-trabajadores/",
+      "title": "Actividad 2. Añade a los trabajadores para administradores",
+      "module": "Gestión de personal",
+      "wordCount": 118
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-actividad-3-planifica-a-tus-trabajadores-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-3-planifica-a-tus-trabajadores/",
+      "title": "Actividad 3. Planifica a tus trabajadores para administradores",
+      "module": "Planificación",
+      "wordCount": 116
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-actividad-4-anade-restricciones-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-4-anade-restricciones/",
+      "title": "Actividad 4. Añade restricciones para administradores",
+      "module": "Planificación",
+      "wordCount": 146
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-actividad-1-practica-la-planificacion-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-1-practica-la-planificacion/",
+      "title": "Actividad 1. Practica la planificación para administradores",
+      "module": "Planificación",
+      "wordCount": 190
+    },
+    {
+      "file": "src/content/manual/tareas/guia-crear-tareas-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/crear-tareas/",
+      "title": "Crear tareas para administradores",
+      "module": "Tareas",
+      "wordCount": 253
+    },
+    {
+      "file": "src/content/manual/tareas/guia-plantilla-de-tareas-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/plantilla-de-tareas/",
+      "title": "Plantilla de tareas para administradores",
+      "module": "Tareas",
+      "wordCount": 866
+    },
+    {
+      "file": "src/content/manual/tareas/guia-asignar-tareas-manualmente-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignacion-manual/",
+      "title": "Asignar tareas manualmente para administradores",
+      "module": "Tareas",
+      "wordCount": 720
+    },
+    {
+      "file": "src/content/manual/tareas/guia-asignar-tareas-de-manera-automatica-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignar-tareas-de-manera-automatica/",
+      "title": "Asignar tareas de manera automática para administradores",
+      "module": "Tareas",
+      "wordCount": 543
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-reportes-y-estadisticas-de-vacaciones-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/reportes-vac/",
+      "title": "Reportes y estadísticas de vacaciones para administradores",
+      "module": "Planificación",
+      "wordCount": 446
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-las-restricciones-en-aturnos-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/las-restricciones-en-aturnos/",
+      "title": "Las restricciones en aTurnos para administradores",
+      "module": "Planificación",
+      "wordCount": 406
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-restricciones-mas-comunes-y-su-uso-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/restricciones-mas-comunes-y-su-uso/",
+      "title": "Restricciones más comunes y su uso para administradores",
+      "module": "Planificación",
+      "wordCount": 531
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-planificar-absentismos-totales-absentismos-temporales-y-periodos-de-absentismo-para-administrado.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/planificar-absentismos-totales-absentismos-temporales-y-periodos-de-absentismo/",
+      "title": "Planificar absentismos totales, absentismos temporales y periodos de absentismo para administradores",
+      "module": "Planificación",
+      "wordCount": 729
+    },
+    {
+      "file": "src/content/manual/configuracion-y-cuenta/guia-configuracion-basica-de-empresa-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/ajustes-basicos-de-empresa/",
+      "title": "Configuración básica de empresa para administradores",
+      "module": "Configuración y cuenta",
+      "wordCount": 1041
+    },
+    {
+      "file": "src/content/manual/gestion-de-personal/guia-configuracion-de-perfiles-roles-y-creacion-de-usuarios-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-perfiles-roles-y-creacion-de-usuarios/",
+      "title": "Configuración de perfiles, roles y creación de usuarios para administradores",
+      "module": "Gestión de personal",
+      "wordCount": 1362
+    },
+    {
+      "file": "src/content/manual/configuracion-y-cuenta/guia-preguntas-frecuentes-sobre-configuracion-inicial-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/preguntas-frecuentes/",
+      "title": "Preguntas frecuentes sobre configuración inicial para administradores",
+      "module": "Configuración y cuenta",
+      "wordCount": 719
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-metodos-para-asignar-turnos-a-los-trabajadores-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/metodos-para-asignar-turnos-a-los-trabajadores/",
+      "title": "Métodos para asignar turnos a los trabajadores para administradores",
+      "module": "Planificación",
+      "wordCount": 505
+    },
+    {
+      "file": "src/content/manual/peticiones-y-cambios/guia-solicitar-aprobar-y-gestionar-permisos-bajas-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/solicitar-aprobar-y-gestionar-permisos-bajas/",
+      "title": "Solicitar, aprobar y gestionar permisos, bajas para administradores",
+      "module": "Peticiones y cambios",
+      "wordCount": 460
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-control-de-vacaciones-mediante-restricciones-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/restricciones-vac/",
+      "title": "Control de vacaciones mediante restricciones para administradores",
+      "module": "Planificación",
+      "wordCount": 362
+    },
+    {
+      "file": "src/content/manual/planificacion/guia-gestion-de-vacaciones-de-anos-anteriores-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/vacaciones-anterior/",
+      "title": "Gestión de vacaciones de años anteriores para administradores",
+      "module": "Planificación",
+      "wordCount": 590
+    },
+    {
+      "file": "src/content/manual/peticiones-y-cambios/guia-peticiones-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/peticiones/",
+      "title": "Peticiones para administradores",
+      "module": "Peticiones y cambios",
+      "wordCount": 713
+    },
+    {
+      "file": "src/content/manual/peticiones-y-cambios/guia-cambios-de-turno-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/cambios/",
+      "title": "Cambios de turno para administradores",
+      "module": "Peticiones y cambios",
+      "wordCount": 775
+    },
+    {
+      "file": "src/content/manual/peticiones-y-cambios/guia-preguntas-frecuentes-sobre-autogestion-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/preguntas-frecuentes-5/",
+      "title": "Preguntas frecuentes sobre autogestión para administradores",
+      "module": "Peticiones y cambios",
+      "wordCount": 491
+    },
+    {
+      "file": "src/content/manual/configuracion-y-cuenta/guia-configuracion-de-notificaciones-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/configuracion-de-notificaciones/",
+      "title": "Configuración de notificaciones para administradores",
+      "module": "Configuración y cuenta",
+      "wordCount": 286
+    },
+    {
+      "file": "src/content/manual/configuracion-y-cuenta/guia-widgets-de-informacion-importante-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/widgets-de-informacion-importante/",
+      "title": "Widgets de información importante para administradores",
+      "module": "Configuración y cuenta",
+      "wordCount": 357
+    },
+    {
+      "file": "src/content/manual/control-horario/guia-registro-validacion-de-fichajes-entrada-salida-pausas-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/registro-validacion-de-fichajes-entrada-salida-pausas/",
+      "title": "Registro, validación de fichajes (entrada, salida, pausas) para administradores",
+      "module": "Control horario",
+      "wordCount": 943
+    },
+    {
+      "file": "src/content/manual/control-horario/guia-configuracion-de-politicas-de-horas-extras-y-complementarias-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/configuracion-de-politicas-de-horas-extras-y-complementarias/",
+      "title": "Configuración de políticas de horas extras y complementarias para administradores",
+      "module": "Control horario",
+      "wordCount": 1167
+    },
+    {
+      "file": "src/content/manual/control-horario/guia-preguntas-frecuentes-sobre-horas-trabajadas-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/preguntas-frecuentes-7/",
+      "title": "Preguntas frecuentes sobre horas trabajadas para administradores",
+      "module": "Control horario",
+      "wordCount": 466
+    },
+    {
+      "file": "src/content/manual/integraciones-y-api/guia-link-con-powerbi-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/link-con-powerbi/",
+      "title": "Link con PowerBI para administradores",
+      "module": "Integraciones y API",
+      "wordCount": 349
+    },
+    {
+      "file": "src/content/manual/integraciones-y-api/guia-conexion-con-sistemas-de-nominas-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/conexion-con-sistemas-de-nominas/",
+      "title": "Conexión con sistemas de nóminas para administradores",
+      "module": "Integraciones y API",
+      "wordCount": 440
+    },
+    {
+      "file": "src/content/manual/integraciones-y-api/guia-importacion-exportacion-de-datos-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/importacion-exportacion-de-datos/",
+      "title": "Importación / Exportación de datos para administradores",
+      "module": "Integraciones y API",
+      "wordCount": 372
+    },
+    {
+      "file": "src/content/manual/integraciones-y-api/guia-integracion-con-herramientas-rrhh-y-erp-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/integracion-con-herramientas-rrhh-y-erp/",
+      "title": "Integración con herramientas RRHH y ERP para administradores",
+      "module": "Integraciones y API",
+      "wordCount": 339
+    },
+    {
+      "file": "src/content/manual/costes-y-nominas/guia-configuracion-general-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/configuracion-general/",
+      "title": "Configuración General para administradores",
+      "module": "Costes y nóminas",
+      "wordCount": 1101
+    },
+    {
+      "file": "src/content/manual/costes-y-nominas/guia-conceptos-de-calculo-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-calculo/",
+      "title": "Conceptos de cálculo para administradores",
+      "module": "Costes y nóminas",
+      "wordCount": 813
+    },
+    {
+      "file": "src/content/manual/costes-y-nominas/guia-conceptos-que-operan-entre-conceptos-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-que-operan-entre-conceptos/",
+      "title": "Conceptos que operan entre conceptos para administradores",
+      "module": "Costes y nóminas",
+      "wordCount": 669
+    },
+    {
+      "file": "src/content/manual/costes-y-nominas/guia-conceptos-de-comparacion-para-administradores.md",
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-comparacion/",
+      "title": "Conceptos de comparación para administradores",
+      "module": "Costes y nóminas",
+      "wordCount": 622
+    }
+  ],
+  "skippedEntries": [
+    {
+      "url": "https://guias.aturnos.com/guias/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 0
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/introduccion/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 70
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/introduccion-2/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 83
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/non-knowledgebase/crear-y-asignar-turnos/preguntas-frecuentes-2/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 6
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/non-knowledgebase/resolucion-de-dudas-frecuentes/faqs/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 5
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/resolucion-de-dudas-frecuentes/uso-de-recursos-de-soporte/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 58
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/resolucion-de-dudas-frecuentes/peticiones-de-desarrollos-nuevos/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 74
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/resolucion-de-dudas-frecuentes/formaciones-y-consultoria-personalizada/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 69
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/introduccion-3/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 77
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/introduccion-4/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 48
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/introduccion-9/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 68
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/introduccion-7/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 96
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/creacion-de-informes-personalizados/introduccion-8/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 22
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/introduccion-5/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 41
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/introduccion-6/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 45
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/preguntas-frecuentes-6/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 6
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-rr-hh/uncategorized/este-es-un-documento-de-pruebas-para-rr-hh/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 24
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/aturnos-app/inicia-sesion/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 58
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/aturnos-app/realiza-peticiones/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 6
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/otros-recursos-disponibles/aturnos-app/fichar-en-la-app-y-peticiones-de-fichajes/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 12
+    },
+    {
+      "url": "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/prueba-faqs/",
+      "reason": "invalid-or-insufficient-content",
+      "wordCount": 6
+    }
+  ]
+}

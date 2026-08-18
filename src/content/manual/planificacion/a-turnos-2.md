@@ -55,7 +55,7 @@ En la primera pestaña, las variables que aparecen son las siguientes:
 - Turnos: cada campo corresponderá a uno de los turnos creados dentro de nuestro equipo y aplicados en nuestro cuadrante planificado.
 - Horas: horas añadidas (normales, extra o complementarias) en un periodo determinado de cada trabajador en un turno.
 - Absentismos: horas de absentismo dentro de un periodo determinado.
-- Festivos: días festivos en el intervalo indicado ( ver más ).
+- Festivos: días festivos en el intervalo indicado (ver más).
 - Productivas: turnos diarios realizados desde una fecha indicada hasta otra.
 - Total: suma de los turnos diarios productivos y los no productivos.
 

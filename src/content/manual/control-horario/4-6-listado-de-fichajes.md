@@ -50,12 +50,12 @@ Aprende a listado de fichajes, con instrucciones y contexto revisables por el eq
 El listado de fichajes se desglosa en dos pestañas: Fichajes y Fichajes automáticos. En este primero se muestra un sencillo resumen de los fichajes que se realizan en el control de presencia en un periodo de tiempo (seleccionable en filtro de fecha en la parte superior de la pestaña). Encontramos la siguiente información en el listado:
 
 - Trabajador: nombre del trabajador que ha realizado el marcaje.
-- Categoría: categoría del trabajador ( ver más sobre las categorías ).
+- Categoría: categoría del trabajador (ver más sobre las categorías).
 - Hora de marcaje: muestra la fecha (dd/mm/aaaa) y la hora en la que se registró el marcaje.
 - Dirección: indica si es una entrada o una salida.
-- Localización: en el caso de que el marcaje esté asociado a alguna localización ( ver más sobre las localizaciones ), se indicará en esta columna.
-- Computable: cuando se crea un Tipo de Marcaje, se informa si éste computa o no en el horario, en el caso de computar, aparecería un ‘Si’, en el caso contrario un ‘No’ ( ver más sobre tipos de fichajes ).
-- Tipo de marcaje: informa del tipo de marcaje que se ha realizado si hay varios tipos creados: descansos, almuerzo, fumar, etc. ( ver más sobre tipos de fichajes ).
+- Localización: en el caso de que el marcaje esté asociado a alguna localización (ver más sobre las localizaciones), se indicará en esta columna.
+- Computable: cuando se crea un Tipo de Marcaje, se informa si éste computa o no en el horario, en el caso de computar, aparecería un ‘Si’, en el caso contrario un ‘No’ (ver más sobre tipos de fichajes).
+- Tipo de marcaje: informa del tipo de marcaje que se ha realizado si hay varios tipos creados: descansos, almuerzo, fumar, etc. (ver más sobre tipos de fichajes).
 - Borrar: por último encontramos la opción de poder borrar un marcaje que se haya podido realizar por error.
 
 En el listado de fichajes automáticos encontramos las mismas cabeceras, sin embargo, solo aparecerán los fichajes automáticos, es decir, aquellos realizados por el propio trabajado en el momento que comienza o finaliza la jornada (no mediante petición de fichajes).

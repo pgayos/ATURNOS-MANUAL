@@ -47,7 +47,7 @@ Información sobre panel de herramientas, con instrucciones y contexto revisable
 
 ## Contenido
 
-aTurnos dispone de un panel de herramientas para insertar los tipos de turnos en los diferentes periodos del patrón. Se encuentra en la parte inferior de la página, por defecto oculto, siendo visible cuando se hace clic sobre la pestaña “ Panel de herramientas ”.
+aTurnos dispone de un panel de herramientas para insertar los tipos de turnos en los diferentes periodos del patrón. Se encuentra en la parte inferior de la página, por defecto oculto, siendo visible cuando se hace clic sobre la pestaña “Panel de herramientas”.
 
 Desde este panel, puedes añadir tipos de turnos a los periodos del patrón de turnos que estás creando y otras acciones como:
 

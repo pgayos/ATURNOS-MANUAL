@@ -85,7 +85,7 @@ Como ya se ha indicado en varias ocasiones en este Manual, uno de los principale
 
 En este enlace del Manual de Nóminas se explica el proceso completo de parametrización de nómina. Los conceptos de cálculo específicos de recursos se explican en el siguiente enlace: Conceptos asociados al módulo de Recursos.
 
-El efecto de la exportación a nómina solo si se realiza a través de ADMINISTRAR → NÓMINAS → EXPORTAR NÓMINAS ( Manual Exportar Nóminas ) es el marcado con el check en la columna “Exportado”.
+El efecto de la exportación a nómina solo si se realiza a través de ADMINISTRAR → NÓMINAS → EXPORTAR NÓMINAS (Manual Exportar Nóminas) es el marcado con el check en la columna “Exportado”.
 
 En este ejemplo, tanto los recursos “Dietas” como “Kilómetros a pagar” validados del día 07/05/2024 tienen el check en la columna “Exportado”.
 

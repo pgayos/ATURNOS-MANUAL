@@ -103,8 +103,8 @@ Se puede añadir o quitar información.
 - Mes: informa las horas al mes planificadas en el mes que se está visualizando, en comparación con las horas al mes que tiene por contrato.
 - Periodo visible: indica las el número de horas que hay visibles en el cuadrante según el tipo de vista seleccionado en la barra superior del cuadrante.
 - Semanas: horas planificadas por semana(s) visible(s)/número de horas semanales configuradas para cubrir el contrato (definidas en Administrar-Ajustes-Configuración general en el campo: “Horas semanales por defecto”, o en el perfil del trabajador ).
-- Teléfono: número de teléfono indicado en los datos personales del perfil del trabajador ( ver más ).
-- ID Empleado: número identificativo del trabajador (normalmente este campo del perfil del trabajador es usado para identificar a los trabajadores con sus números de referencia en otros sistema integrados con aTurnos) ( ver más ).
+- Teléfono: número de teléfono indicado en los datos personales del perfil del trabajador (ver más).
+- ID Empleado: número identificativo del trabajador (normalmente este campo del perfil del trabajador es usado para identificar a los trabajadores con sus números de referencia en otros sistema integrados con aTurnos) (ver más).
 - Porcentaje de jornada: indica el número de porcentaje de jornada que tiene informado en su perfil de trabajador.
 - Horas complementarias anuales: muestra las horas complementarias planificadas en el año respecto al número de horas complementarias que por contrato a tiempo parcial debe realizar en función al porcentaje informado en su perfil de trabajador (porcentaje de jornada inferior al 100%) y las horas año correspondientes por contrato.
 - Horas complementarias mensuales: muestra las horas complementarias planificadas en el año respecto al número de horas complementarias que por contrato a tiempo parcial debe realizar en función al porcentaje informado en su perfil de trabajador (porcentaje de jornada inferior al 100%) y de las horas al mes a realizar.

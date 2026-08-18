@@ -53,11 +53,11 @@ En este apartado, te mostrará cómo puedes visualizar los datos de los diferent
 
 Se trata de la fecha exacta en la que quieres visualizar el listado de trabajadores. Para indicarla, tienes que hacer clic y seleccionar el día del mes en el año correspondiente en el cual pretendes que te muestre la información. Para ello, una vez haces dicho clic, se abre un sencillo calendario donde puedes elegir el día en concreto del mes en el año de referencia en el que quieres visualizar la información pertinente.
 
-Esta opción permite ordenar los trabajadores en el Listado, lo que a su vez afectará al orden de los trabajadores en el Cuadrante. Para ello, tienes que hacer clic en el botón “Cambiar orden ”.
+Esta opción permite ordenar los trabajadores en el Listado, lo que a su vez afectará al orden de los trabajadores en el Cuadrante. Para ello, tienes que hacer clic en el botón “Cambiar orden”.
 
 Existen dos fórmulas para poder cambiar el orden:
 
-1. Por arrastre: con ayuda del cursor puedes arrastrar las filas de la tabla del listado, donde aparecen el nombre del trabajador que quieres cambiarle la posición. Una vez arrastradas las columnas y tener el orden del listado de los trabajadores que desees, es necesario clicar en el botón“ cambiar orden ”
+1. Por arrastre: con ayuda del cursor puedes arrastrar las filas de la tabla del listado, donde aparecen el nombre del trabajador que quieres cambiarle la posición. Una vez arrastradas las columnas y tener el orden del listado de los trabajadores que desees, es necesario clicar en el botón“cambiar orden”
 2. Por enumeración: en la última columna de la tabla se indica con valor numérico el orden de la posición que van a ocupar en el listado los diferentes trabajadores. El orden dependerá del valor numérico, cuanto menor sea el número más alto se encontrará el trabajador en el listado.
 
 Además del Cuadrante, también afectará a la ordenación vista en los reportes de Estadísticas.
@@ -78,11 +78,11 @@ Realizando correctamente esta técnica mediante el filtro de los diferentes dato
 
 Puedes visualizar todos los datos más destacados de los trabajadores de tu equipo mediante dos formas distintas. Según qué vista te aporte más información y te sea más sencilla la identificación, puedes elegir entre las siguientes:
 
-Esta opción te permitirá visualizar el listado de trabajadores mediante una vista “ por cajas ”, es decir, cada trabajador de tu equipo será una caja. En esta caja se mostrarán los datos más relevantes sobre cada uno de ellos (nombre y apellidos, rol de usuario dentro de aTurnos, localización en la que preste su trabajo, si se le ha añadido previamente, email en aTurnos, número de teléfono en el caso de haberlo introducido en el sistema, fecha de alta contractual, etc.).
+Esta opción te permitirá visualizar el listado de trabajadores mediante una vista “por cajas”, es decir, cada trabajador de tu equipo será una caja. En esta caja se mostrarán los datos más relevantes sobre cada uno de ellos (nombre y apellidos, rol de usuario dentro de aTurnos, localización en la que preste su trabajo, si se le ha añadido previamente, email en aTurnos, número de teléfono en el caso de haberlo introducido en el sistema, fecha de alta contractual, etc.).
 
-Permite que, de un simple vistazo, veas todos los datos de los trabajadores de tu equipo. Para que te muestre esto, tienes que acceder haciendo clic en el icono de la barra de herramientas “V ista Grid ”.
+Permite que, de un simple vistazo, veas todos los datos de los trabajadores de tu equipo. Para que te muestre esto, tienes que acceder haciendo clic en el icono de la barra de herramientas “V ista Grid”.
 
-Es el modo de visualización que aTurnos te mostrará por defecto. Aun así, si te encontraras sobre “Vista Grid” pero quieres que el sistema te muestre de nuevo la visualización como tabla, simplemente tienes que hacer clic sobre el icono “ Vista Tabla ”.
+Es el modo de visualización que aTurnos te mostrará por defecto. Aun así, si te encontraras sobre “Vista Grid” pero quieres que el sistema te muestre de nuevo la visualización como tabla, simplemente tienes que hacer clic sobre el icono “Vista Tabla”.
 
 En este caso, se muestran todos los trabajadores de tu equipo en filas (nombre del trabajador con cada uno de los datos de referencia). Dicha información de referencia que aparece en cada trabajador es la siguiente:
 
@@ -96,9 +96,9 @@ En este caso, se muestran todos los trabajadores de tu equipo en filas (nombre d
 - Horas contrato: Es el número de horas de contrato anuales indicadas en el contrato del trabajador con la empresa. Para trabajadores a tiempo completo, este número reflejará el total de horas anuales ordinarias que se establecen por convenio. Para un trabajador a tiempo parcial, reflejará el número de horas totales anuales según el porcentaje de jornada que tenga establecido en su contrato de trabajo.
 - Acción: Son las acciones o procesos que podemos realizar sobre el trabajador, son los siguientes:
 
-1. Editar: Es el acceso para visualizar toda la información detallada del trabajador (Véase cómo editar el perfil del trabajador ). Para acceder, tienes que hacer clic en el icono “ editar ”
-2. Baja: Mediante este botón, puede informar la fecha de baja al trabajador de la lista de trabajadores activos, pasando a formar parte de la lista de trabajadores inactivos. (Véase cómo dar la baja a un trabajador ). Para realizar esto, tienes que hacer clic en el icono “ baja ”
+1. Editar: Es el acceso para visualizar toda la información detallada del trabajador (Véase cómo editar el perfil del trabajador ). Para acceder, tienes que hacer clic en el icono “editar”
+2. Baja: Mediante este botón, puede informar la fecha de baja al trabajador de la lista de trabajadores activos, pasando a formar parte de la lista de trabajadores inactivos. (Véase cómo dar la baja a un trabajador ). Para realizar esto, tienes que hacer clic en el icono “baja”
 
-Muestra el listado de trabajadores dados de baja contractualmente (en aTurnos se les denominará “ trabajadores inactivos ”) (Véase qué es un trabajador inactivo ), no son bajas por algún tipo de incapacidad (IT) o algún tipo de absentismo (permiso).
+Muestra el listado de trabajadores dados de baja contractualmente (en aTurnos se les denominará “trabajadores inactivos”) (Véase qué es un trabajador inactivo ), no son bajas por algún tipo de incapacidad (IT) o algún tipo de absentismo (permiso).
 
-Los trabajadores que se encuentran ubicados en este listado, tienen en la columna “ baja ” la fecha fin de la relación laboral en el equipo de trabajo. Esto no significa que dichos trabajadores sean eliminados completamente de aTurnos, sino que se encuentran como “trabajadores inactivos”, pudiendo volver a ingresar a la misma en un futuro y a estar en un escenario de “trabajador activo”. Un trabajador inactivo o de baja no puede acceder a aTurnos, con su mail de acceso y contraseña.
+Los trabajadores que se encuentran ubicados en este listado, tienen en la columna “baja” la fecha fin de la relación laboral en el equipo de trabajo. Esto no significa que dichos trabajadores sean eliminados completamente de aTurnos, sino que se encuentran como “trabajadores inactivos”, pudiendo volver a ingresar a la misma en un futuro y a estar en un escenario de “trabajador activo”. Un trabajador inactivo o de baja no puede acceder a aTurnos, con su mail de acceso y contraseña.

@@ -49,7 +49,7 @@ Información sobre tareas APP, con instrucciones y contexto revisables por el eq
 
 Este apartado se creó para poder visualizar todas las solicitudes de Cita Previa. En primer lugar, es muy importante comprender que las citas que reservan los clientes, se transforman en tareas. Es decir, para ver las reservas que han realizado tus clientes, acceder al apartado de Tareas. Estas son las acciones que puedes realizar con cada tarea:
 
-- Iniciar tarea: En primer lugar, recibes al cliente y empiezas a atenderle. Por consiguiente, una vez iniciada, también puedes finalizar para pasar a la siguiente. Para iniciarla, tendrás que pulsar el botón de “ play ”.
+- Iniciar tarea: En primer lugar, recibes al cliente y empiezas a atenderle. Por consiguiente, una vez iniciada, también puedes finalizar para pasar a la siguiente. Para iniciarla, tendrás que pulsar el botón de “play”.
 
 - Cancelar tarea: Para cancelar una tarea, tendrás que hacer clic en el icono de la cruz.
 

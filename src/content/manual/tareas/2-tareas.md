@@ -61,7 +61,7 @@ Esta tabla o plantilla indica la siguiente información:
 - Trabajador: indica el trabajador que tiene que tiene asignada la tarea o cita.
 - Inicio: día y hora en que inicia cita.
 - Fin: día y hora en la que culmina cita.
-- Loc. Inicio: se puede informar una localización en la que inicia el servicio ( Ver mas acerca de Localizaciones )
+- Loc. Inicio: se puede informar una localización en la que inicia el servicio (Ver mas acerca de Localizaciones)
 - Loc. Fin: se puede informar una localización en la que termina el servicio (que puede no ser la misma de inicio)
 - Flexible:
 - Estado: indica el estatus de la tarea o cita. En Azul se muestra cuando esta siendo atendida Actualmente (sin terminar aún) mostrando también la hora en la que se inicio la atención. En Gris aquellas citas que ya fueron A tendidas con el detalle de hora de inicio y fin. Los estados en naranja indican que la cita aun no se ha comenzado lleva Retraso. En verde aparecen las citas que están sin comenzar próximas o pendientes a iniciarse (aun no supera la hora solicitada por el cliente para la cita). Y por último, en morado el estatus de las citas que han sido canceladas con la hora de su cancelación.

@@ -71,5 +71,5 @@ La definición de cada variable que hace referencia en cada trabajador es la sig
 - Horas contrato: Es el número de horas de contrato anuales indicadas en el contrato del trabajador con la empresa. Para trabajadores a tiempo completo, este número reflejará el total de horas anuales ordinarias que se establecen por convenio. Para un trabajador a tiempo parcial, reflejará el número de horas totales anuales según el porcentaje de jornada que tenga establecido en su contrato de trabajo.
 - Acción: Son las acciones o procesos que podemos realizar sobre el trabajador, son los siguientes:
 
-1. Editar: es el acceso a visualizar toda la información detallada del trabajador (Veáse ver y editar perfil del trabajador ). Para acceder, tienes que hacer clic en el icono “ editar ”
-2. Baja: mediante este botón, se procede a eliminar al trabajador de la lista de trabajadores activos, pasando a formar parte de la lista de trabajadores inactivos. (Ver cómo dar de baja a un trabajador ). Para realizar esto, tienes que hacer clic en el icono “ baja ”
+1. Editar: es el acceso a visualizar toda la información detallada del trabajador (Veáse ver y editar perfil del trabajador ). Para acceder, tienes que hacer clic en el icono “editar”
+2. Baja: mediante este botón, se procede a eliminar al trabajador de la lista de trabajadores activos, pasando a formar parte de la lista de trabajadores inactivos. (Ver cómo dar de baja a un trabajador ). Para realizar esto, tienes que hacer clic en el icono “baja”

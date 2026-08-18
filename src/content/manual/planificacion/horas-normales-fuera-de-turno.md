@@ -55,4 +55,4 @@ Estadísticamente es el total de las horas normales (fuera de turno) más las su
 
 Son horas que se planifican en el cuadrante con una hora de inicio y fin.
 
-En aTurnos creamos los tipos de horas por defecto: horas normales, horas complementarias y horas extraordinarias. También se puede crear tipos horas personalizadas para la planificación horaria del cualquier equipo. ( Ver tipos de horas ).
+En aTurnos creamos los tipos de horas por defecto: horas normales, horas complementarias y horas extraordinarias. También se puede crear tipos horas personalizadas para la planificación horaria del cualquier equipo. (Ver tipos de horas).

@@ -58,6 +58,6 @@ Al entrar por menú Tareas – Clientes, se muestra el listado de clientes que h
 
 Puedes también seleccionar la cantidad de Clientes que quieres visualizar en la tabla (desde 10 hasta 100).
 
-En el Icono de “ Ocultar “: podrás ocultar o mostrar nuevamente alguna de las columnas mencionadas previamente.
+En el Icono de “Ocultar “: podrás ocultar o mostrar nuevamente alguna de las columnas mencionadas previamente.
 
-En el icono de “ Acciones”: te permite exportar los datos del listado en un formato PDF, CSV o Excel, así como copiarlo para que luego procedas a pegar los datos en el archivo que desees.
+En el icono de “Acciones”: te permite exportar los datos del listado en un formato PDF, CSV o Excel, así como copiarlo para que luego procedas a pegar los datos en el archivo que desees.

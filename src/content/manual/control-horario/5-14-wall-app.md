@@ -57,7 +57,7 @@ Los trabajadores tienen que marcar su ID de usuario (o dato identificativo) para
 
 Se trata de un sistema sencillo y de reducido coste, alternativa a los sistemas biométricos.
 
-El acceso al Wall APP puede ser web, desde la dirección https://wall.aturnos.com/ o descargando la APP nativa ( disponible solo en Android )
+El acceso al Wall APP puede ser web, desde la dirección https://wall.aturnos.com/ o descargando la APP nativa (disponible solo en Android)
 
 A continuación explicamos la configuración y uso.
 
@@ -65,17 +65,17 @@ El sistema puede ser configurado a nivel de ‘Equipo’ o a nivel de ‘ Compa�
 
 En cualquier caso, esta acción solo la puede realizar un administrador total o superusuario.
 
-1. El administrador del equipo, debe entrar por medio del enlace https://wall.aturnos.com/ y hacer clic en “ Acceso administrador “.
+1. El administrador del equipo, debe entrar por medio del enlace https://wall.aturnos.com/ y hacer clic en “Acceso administrador “.
 
-1. Acceder con su usuario y contraseña en dos pasos. Después “ Iniciar sesión ” en Wall App de aTurnos.
+1. Acceder con su usuario y contraseña en dos pasos. Después “Iniciar sesión” en Wall App de aTurnos.
 
 1. Una vez se ha iniciado sesión, el administrador debe elegir el equipo en el cual quiere registrar un dispositivo para su uso para el Control de Presencia por el Wall App.
 
-1. Elegido el equipo, se mostrará el menú de “ Registrar dispositivo “. Para ello se necesitan dos datos:
+1. Elegido el equipo, se mostrará el menú de “Registrar dispositivo “. Para ello se necesitan dos datos:
 
 - Nombre del dispositivo, identifica distintos dispositivos en el mismo equipo. Localización, en el caso de que cada dispositivo sea para fichar en cada una de las diferentes localizaciones creadas. Tipo de fichaje, permite seleccionar un tipo de fichaje creado.
 
-1. Por último, hacer clic en “ Registrar “.
+1. Por último, hacer clic en “Registrar “.
 
 Se mostrará un mensaje certificando que el dispositivo sea ha registrado correctamente.
 
@@ -85,11 +85,11 @@ En el listado nos aparecerán los equipos donde el dispositivo esté registrado.
 
 Una vez el administrador ha registrado el dispositivo, debe salir de su sesión para empezar a utilizar el dispositivo registrado para el fichaje por los trabajadores.
 
-El último paso es establecer en el Wall App el teclado donde los trabajadores indicarán su código de usuario para fichar. El administrador debe pulsar la opción “ Fichaje de trabajador “.
+El último paso es establecer en el Wall App el teclado donde los trabajadores indicarán su código de usuario para fichar. El administrador debe pulsar la opción “Fichaje de trabajador “.
 
 Hecho esto, el dispositivo estará listo para usarse por los trabajadores para fichar su jornada de trabajo.
 
-El sistema permite una mayor flexibilidad y personalización cuando el registro se hace a través de una “ Compañía “, ya que todos los trabajadores de los Equipos que estén dentro de esta Compañía, podrán fichar en ese dispositivo.
+El sistema permite una mayor flexibilidad y personalización cuando el registro se hace a través de una “Compañía “, ya que todos los trabajadores de los Equipos que estén dentro de esta Compañía, podrán fichar en ese dispositivo.
 
 El administrador cuando accede al WallApp con su usuario y contraseña, puede seleccionar el registro del dispositivo por Compañía.
 
@@ -121,7 +121,7 @@ Cuando los tenga, aparecerá este menú llamado “Tarjeta empleado (QR)” dent
 
 Dentro de este menú tendremos esta pantalla donde se podrán crear los QR de fichaje de los trabajadores.
 
-Para crear el QR, se tiene que ir a ‘ Acciones ” y seleccionar ‘Añadir enlace’.
+Para crear el QR, se tiene que ir a ‘ Acciones” y seleccionar ‘Añadir enlace’.
 
 En ‘Añadir enlace’ se tiene que seleccionar el trabajador al cual se quiere crear el QR y guardar.
 
@@ -161,7 +161,7 @@ Algunos ejemplos de situaciones que pueden provocar este borrado incluyen:
 
 - Se ha cambiado de cuenta de perfil de usuario en el navegador.
 
-En el proceso de registro descrito anteriormente, el navegador guarda información esencial en su almacenamiento local ( Local Storage ). Desde un punto de vista técnico, se almacena un token que permite identificar el dispositivo desde el cual se realizan los fichajes y vincularlo con el equipo de trabajo configurado en aTurnos.
+En el proceso de registro descrito anteriormente, el navegador guarda información esencial en su almacenamiento local (Local Storage). Desde un punto de vista técnico, se almacena un token que permite identificar el dispositivo desde el cual se realizan los fichajes y vincularlo con el equipo de trabajo configurado en aTurnos.
 
 Para comprobar si el dispositivo está correctamente registrado, puede utilizar el Inspector del navegador. Si encuentra la clave tokens_allowed_checkin en el Local Storage, significa que el registro del dispositivo es correcto.
 

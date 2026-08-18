@@ -60,4 +60,4 @@ Es importante destacar que los decimales en el coeficiente deben estar separados
 
 Por último, antes de realizar la importación, guarda el documento E xcel con formato tipo CSV.
 
-Para importar el archivo puedes consultar los pasos que indicamos en nuestro menú de “ Importar “.
+Para importar el archivo puedes consultar los pasos que indicamos en nuestro menú de “Importar “.

@@ -51,6 +51,6 @@ Información sobre ajuste de horas computadas, con instrucciones y contexto revi
 
 ## Contenido
 
-Incremento o decremento de horas que se realiza en un día determinado para ajustar las horas computadas con las horas de contrato del trabajador. Un ejemplo de ajuste de horas es cuando se migran las horas computadas por exceso o defecto de un año al año siguiente.( Ver ajuste )
+Incremento o decremento de horas que se realiza en un día determinado para ajustar las horas computadas con las horas de contrato del trabajador. Un ejemplo de ajuste de horas es cuando se migran las horas computadas por exceso o defecto de un año al año siguiente.(Ver ajuste)
 
 En el caso de existir más de un ajuste de horas computadas en un mismo año, como pueden ser finiquitos de diferentes contratos en un mismo año, se contabilizan todas las horas ajustadas añadidas en ese año.

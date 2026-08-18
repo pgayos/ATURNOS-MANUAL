@@ -6,6 +6,11 @@
   "scripts": {
     "dev": "astro dev",
     "migrate": "python3 scripts/migrate_manual.py",
+    "audit:guides": "python3 scripts/audit_external_guides.py",
+    "audit:taxonomy": "python3 scripts/reclassify_manual.py",
+    "reclassify": "python3 scripts/reclassify_manual.py --apply",
+    "integrate:guides": "python3 scripts/integrate_external_guides.py",
+    "clean:content": "python3 scripts/clean_editorial_text.py",
     "validate:migration": "python3 scripts/validate_migration.py",
     "build": "astro check && astro build && pagefind --site dist",
     "preview": "astro preview",

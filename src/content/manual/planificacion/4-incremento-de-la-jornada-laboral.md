@@ -2,7 +2,7 @@
 schemaVersion: "1.0"
 contentId: "planificacion-4-incremento-de-la-jornada-laboral"
 title: "Incremento de la jornada laboral"
-description: "Complementaría a la función de “ Añadir horas “, existe la posibilidad de incrementar la jornada en horas al inicio o al fin de la misma. Este incremento se realiza en base a los tipos de horas creados."
+description: "Complementaría a la función de “Añadir horas “, existe la posibilidad de incrementar la jornada en horas al inicio o al fin de la misma. Este incremento se realiza en base a los tipos de horas creados."
 contentType: procedure
 module: "Planificación"
 submodule: "Vacaciones y ausencias"
@@ -47,7 +47,7 @@ migration:
 ---
 ## Resumen
 
-Complementaría a la función de “ Añadir horas “, existe la posibilidad de incrementar la jornada en horas al inicio o al fin de la misma. Este incremento se realiza en base a los tipos de horas creados.
+Complementaría a la función de “Añadir horas “, existe la posibilidad de incrementar la jornada en horas al inicio o al fin de la misma. Este incremento se realiza en base a los tipos de horas creados.
 
 ## Contenido
 

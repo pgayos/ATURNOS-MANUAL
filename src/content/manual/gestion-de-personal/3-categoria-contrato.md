@@ -2,7 +2,7 @@
 schemaVersion: "1.0"
 contentId: "gestion-de-personal-3-categoria-contrato"
 title: "Categoría & Contrato"
-description: "Se trata de la información contractual del trabajador. Son los datos más relevantes que vienen reflejados en su contrato de trabajo. Estos datos quedan registrados en los siguientes aspectos:."
+description: "Se trata de la información contractual del trabajador. Son los datos más relevantes que vienen reflejados en su contrato de trabajo. Estos datos quedan registradosss en los siguientes aspectos:."
 contentType: concept
 module: "Gestión de personal"
 submodule: "Contratos"
@@ -47,12 +47,12 @@ migration:
 ---
 ## Resumen
 
-Se trata de la información contractual del trabajador. Son los datos más relevantes que vienen reflejados en su contrato de trabajo. Estos datos quedan registrados en los siguientes aspectos:.
+Se trata de la información contractual del trabajador. Son los datos más relevantes que vienen reflejados en su contrato de trabajo. Estos datos quedan registradosss en los siguientes aspectos:.
 
 ## Contenido
 
 - Fecha de alta: Es el día en el que el trabajador comenzó la prestación laboral en la empresa o en el equipo de aTurnos. Es muy importante informar este dato de forma correcta, ya que afecta directamente a las horas de contrato, vacaciones, saldo de permisos que pueda tener y a la nómina. Igualmente, es importante que sepas que este dato no es la fecha de antigüedad del trabajador en la empresa, sino cuando comenzó en tu equipo de aTurnos. Ejemplo: puede ser que un trabajador lleve 10 años en la empresa, pero en tu equipo comienza hoy, por lo tanto, la fecha de alta del trabajador es el día de hoy.
-- Fecha de baja (Sin baja informada): Es el día que el trabajador deja de estar activo en tu equipo de aTurnos, pasando a formar parte de la lista de trabajadores inactivos. En caso de no tener baja informada, este campo se queda sin rellenar (en blanco). Este dato no se relaciona con la baja del trabajador en la empresa, sino que es cuando pasa a estar en situación de “ inactivo ” dentro de tu equipo de aTurnos. Ejemplo: un trabajador de tu equipo causa baja contractual, por lo tanto, pasa a situación de “inactivo”, pero lo mantienes en tu equipo en la lista de trabajadores inactivos, ya que posteriormente puede volver a ser contratado, y únicamente tienes que volver a activar al trabajador.
+- Fecha de baja (Sin baja informada): Es el día que el trabajador deja de estar activo en tu equipo de aTurnos, pasando a formar parte de la lista de trabajadores inactivos. En caso de no tener baja informada, este campo se queda sin rellenar (en blanco). Este dato no se relaciona con la baja del trabajador en la empresa, sino que es cuando pasa a estar en situación de “inactivo” dentro de tu equipo de aTurnos. Ejemplo: un trabajador de tu equipo causa baja contractual, por lo tanto, pasa a situación de “inactivo”, pero lo mantienes en tu equipo en la lista de trabajadores inactivos, ya que posteriormente puede volver a ser contratado, y únicamente tienes que volver a activar al trabajador.
 - Categoría: Es la categoría profesional del trabajador, con el fin de realizar planificaciones más eficientes y conocer la composición del equipo. Para poder informar sobre los datos que componen el perfil, se necesita crear una Categoría, la cual te ayudará para extraer reportes o tener una mejor agrupación de las clases de categorías. (Véase Categorías ).
 - Perfil: Definen un conjunto de datos que se generan automáticamente en la ficha del empleado al asociar al trabajador a un perfil. Esta información son datos personalizados y especialidades. Se definen los perfiles para asignar de forma más ágil datos a los trabajadores si ya existen tipos donde podemos informar previamente una gran cantidad de información.
 - Localización por defecto: Es la ubicación, departamento, espacio físico o nivel jerárquico (según se adopte la configuración de las Localizaciones ) donde el trabajador presta su servicio. Puedes asignarle a un trabajador una determinada localización, en la cual, con carácter general, acomete sus turnos de trabajo.

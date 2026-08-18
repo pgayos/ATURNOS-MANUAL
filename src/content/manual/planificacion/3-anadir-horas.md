@@ -53,7 +53,7 @@ Los responsables de los equipos de trabajo por necesidades planificación o debi
 
 Se insertan y planifican horas a un trabajador o varios. El tipo de hora se elige dentro del formulario, normal, extra o complementaria, así como asignarle una localización.
 
-Por defecto, las horas están “ Fuera de bolsa de trabajo ” se puede seleccionar para su realización a cualquier trabajador disponible en el día elegido.
+Por defecto, las horas están “Fuera de bolsa de trabajo” se puede seleccionar para su realización a cualquier trabajador disponible en el día elegido.
 
 El administrador tiene la posibilidad de gestionar las horas mediante las bolsas de trabajo creadas. De esta forma se añaden horas a los trabajadores que formen parte de cada bolsa de trabajo.
 

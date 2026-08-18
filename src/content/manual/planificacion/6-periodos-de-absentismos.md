@@ -51,7 +51,7 @@ Información sobre periodos de absentismos, con instrucciones y contexto revisab
 
 ## Contenido
 
-Se entiende por absentismo (permiso) una ausencia o abandono del puesto de trabajo durante toda la jornada laboral planificada ( Absentismo Total ), o durante un determinado periodo de tiempo en la planificación correspondiente a un día laboral ( Absentismo Temporal).Ejemplos de caso de uso:
+Se entiende por absentismo (permiso) una ausencia o abandono del puesto de trabajo durante toda la jornada laboral planificada (Absentismo Total), o durante un determinado periodo de tiempo en la planificación correspondiente a un día laboral ( Absentismo Temporal).Ejemplos de caso de uso:
 
 Caso de absentismo total: Jesús tienen planificado ambos durante un determinado día un turno “M” (8:00-15:00); Jesús no ha podido ir ese día a trabajar puesto que está de baja por prescripción médica durante 24h., por lo tanto, al faltar durante todo el día que se le ha planificado, es un absentismo total.
 

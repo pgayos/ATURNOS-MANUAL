@@ -67,7 +67,7 @@ Por defecto, cualquier trabajador que no haya estado activado antes en aTurnos, 
 
 Para registrar el trabajador “Con email y nombre” o “Sin email ni nombre” se debe pulsar sobre el botón ‘ Guardar ‘.
 
-Facilita añadir nuevos trabajadores en el caso de que estén informados en un archivo CSV o Excel previamente creado. Se puede adjuntar el fichero ( CSV o Excel ) y así cargar todos los datos de los trabajadores (ver cómo importar trabajadores de forma básica ).
+Facilita añadir nuevos trabajadores en el caso de que estén informados en un archivo CSV o Excel previamente creado. Se puede adjuntar el fichero (CSV o Excel) y así cargar todos los datos de los trabajadores (ver cómo importar trabajadores de forma básica ).
 
 Una vez el trabajador ha sido añadido y no su usuario no esté activado, se debe realizar lo siguiente.
 

@@ -67,7 +67,7 @@ De la misma forma, es posible crear un documento Excel con las siguientes column
 - Fecha de inicio del patrón: fecha a partir de la cual se inserta el patrón. Formato fecha dd/mm/aaaa
 - Fecha fin del pa trón: fecha hasta la cual se inserta el patrón. Formato fecha dd/mm/aaaa
 - Periodo: número del periodo al cual corresponde teniendo en cuenta que el periodo 1 su valor será 0. De ser el segundo periodo, se pondrá valor 1 y así sucesivamente, según el número de periodos y por cual comience.
-- Escalonado: informar del número de días de los que consta el patrón. Por ejemplo, en el patrón ”MMTTN_LL”, el valor será 8.
+- Escalonado: informar del número de días de los que consta el patrón. Por ejemplo, en el patrón”MMTTN_LL”, el valor será 8.
 - Día de la semana: en el caso de ser lunes será el valor uno, martes 2, miércoles 3,…y el domingo el valor será 7.
 - Cuadrante: indicar con el valor 0 si se desea planificar únicamente en cuadrante, el valor 1 si solo se desea planificar en cuadrante borrador y el valor 2 si se desea planificar en ambos cuadrantes.
 - Festivos: indicar con valor 1, si lo que se pretende es insertar turnos del patrón en días festivos que han sido informados en el cuadrante (ver Festivos ). Con valor 0 así como dejando vacía las celdas de esta columna, si no queremos insertar turnos en los días festivos.
@@ -76,6 +76,6 @@ De la misma forma, es posible crear un documento Excel con las siguientes column
 
 Guarda tu documento como formato tipo CSV.
 
-Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “ Importar “.
+Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “Importar “.
 
 Después deberás asociar los campos del documento con los que aparecen en el listado para parametrizar la importación.

@@ -69,7 +69,7 @@ Todos los externos que se creen, aparecerán en el listado del menú de ‘Exter
 
 Estos usuarios se pueden borrar, para que de esta forma no vuelvan a acceder al equipo, con solo hacer clic en el icono de la papelera, quedará eliminado.
 
-El externo deberá realizar la acción de “ No me acuerdo de mi contraseña ” desde la página web de aTurnos, para que se le envíe un enlace a su correo con el cual generar una contraseña de acceso.
+El externo deberá realizar la acción de “No me acuerdo de mi contraseña” desde la página web de aTurnos, para que se le envíe un enlace a su correo con el cual generar una contraseña de acceso.
 
 La contraseña también puede ser generada por aTurnos, el administrador debe informar al equipo de soporte de aTurnos para que la generen sin ningún proceso automático por razones de seguridad.
 

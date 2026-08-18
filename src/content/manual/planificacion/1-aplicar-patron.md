@@ -89,13 +89,13 @@ Se aplica el patrón de turnos desde el primer periodo y del día/celda del patr
 
 Cuando el patrón está constituido por más de un periodo, estos periodos se escalonan con “x” días cuando se selecciona a los trabajadores. Esto quiere decir que cada trabajador empezará con un periodo diferente del patrón. Por defecto, para una correcta planificación y se cumpla la cobertura, el valor de los días escalonados debe ser el número de días que tiene un periodo (Ejemplos casos prácticos ).
 
-En patrones de un solo periodo, todos los trabajadores comenzarán por el único periodo del patrón y la planificación será idéntica si no se cambia el valor que se informa por defecto ( Ejemplo caso práctico ).
+En patrones de un solo periodo, todos los trabajadores comenzarán por el único periodo del patrón y la planificación será idéntica si no se cambia el valor que se informa por defecto (Ejemplo caso práctico).
 
 Determina a qué localización se va a insertar el patrón:
 
 - Localización por defecto del trabajador, aplica el patrón con la localización que tiene el trabajador en su perfil.
 
-- Opción de aplicar el patrón “ Sin localización “.
+- Opción de aplicar el patrón “Sin localización “.
 
 - Con una localización diferente a la localización por defecto del trabajador.
 

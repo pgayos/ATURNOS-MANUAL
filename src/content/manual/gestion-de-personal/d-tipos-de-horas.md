@@ -71,11 +71,11 @@ Por ejemplo, un trabajador al 50% de la jornada, si tiene un convenio de 1800 ho
 
 ### Normales
 
-Computan con las horas establecidas en contrato. Se considera como el mismo tipo de horas que las horas computables de un turno. En las estadísticas de horas, el cómputo total de horas, bien sea en un cómputo anual o en un determinado periodo de tiempo seleccionado, engloba a las horas de los diferentes turnos planificados al trabajador y las horas añadidas de tipo “ normales ”.
+Computan con las horas establecidas en contrato. Se considera como el mismo tipo de horas que las horas computables de un turno. En las estadísticas de horas, el cómputo total de horas, bien sea en un cómputo anual o en un determinado periodo de tiempo seleccionado, engloba a las horas de los diferentes turnos planificados al trabajador y las horas añadidas de tipo “normales”.
 
-Además, el administrador puede crear cualquier otro tipo de horas. Como por ejemplo, se puede crear un tipo de hora que se llame “ Horas a recuperar ”, en la que el administrador la crea como tipo de hora normal, de tal manera que al planificarla este nuevo tipo de hora se identifica en el cuadrante como hora a recuperar y se contabilizará en las estadísticas, balance de horas y conceptos de nómina.
+Además, el administrador puede crear cualquier otro tipo de horas. Como por ejemplo, se puede crear un tipo de hora que se llame “Horas a recuperar”, en la que el administrador la crea como tipo de hora normal, de tal manera que al planificarla este nuevo tipo de hora se identifica en el cuadrante como hora a recuperar y se contabilizará en las estadísticas, balance de horas y conceptos de nómina.
 
-Otro ejemplo, puede ser un tipo de hora que se llame “ Hora de prolongación de jornada extraordinaria”, en la que el administrador la crea como tipo de hora extra, de tal manera que al planificarla este nuevo tipo de hora se identifica en el cuadrante como hora de prolongación de jornada extraordinaria y se contabiliza en las estadísticas de manera independiente y conceptos de nómina, sin contar en el balance de horas anual.
+Otro ejemplo, puede ser un tipo de hora que se llame “Hora de prolongación de jornada extraordinaria”, en la que el administrador la crea como tipo de hora extra, de tal manera que al planificarla este nuevo tipo de hora se identifica en el cuadrante como hora de prolongación de jornada extraordinaria y se contabiliza en las estadísticas de manera independiente y conceptos de nómina, sin contar en el balance de horas anual.
 
 ¿Cómo crear tipos de horas personalizadas en un equipo?
 

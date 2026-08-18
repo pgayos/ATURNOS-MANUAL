@@ -76,4 +76,4 @@ Para una correcta exportación de los datos es necesario:
 
 - Datos de planificación (datos de los patrones de turnos aplicados ).
 
-Una vez seleccionados los conceptos a exportar, se debe hacer clic en el botón de “ Exportar “, y se generará el archivo para su consulta.
+Una vez seleccionados los conceptos a exportar, se debe hacer clic en el botón de “Exportar “, y se generará el archivo para su consulta.

@@ -57,7 +57,7 @@ Para añadir un nuevo dispositivo, se debe pulsar sobre el botón ‘Acciones’
 
 El registro se realiza únicamente asignando una descripción a dicho dispositivo y pulsando ‘Aceptar’ para finalizar.
 
-Cuando un dispositivo se encuentra registrado, en el listado de dispositivos además de aparecer con la descripción con la cual se registró, se muestra el mensaje “ Este dispositivo se encuentra registrado para poder realizar fichajes “.
+Cuando un dispositivo se encuentra registrado, en el listado de dispositivos además de aparecer con la descripción con la cual se registró, se muestra el mensaje “Este dispositivo se encuentra registrado para poder realizar fichajes “.
 
 Cualquier usuario, se administrador o trabajador podrá realizar sus fichajes de entrada y salida de su jornada, ya que aparecerá en la barra superior el botón ‘ Play ‘ para marcar la entrada y el botón ‘ Stop ‘ para marcar la salida.
 
