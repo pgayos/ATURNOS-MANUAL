@@ -31,8 +31,9 @@ const { moduleName, articles } = Astro.props;
 const submodules = [...new Set(articles.map(article => article.data.submodule))];
 ---
 <BaseLayout title={`${moduleName} · Manual de aTurnos`} description={`Guías y documentación del módulo ${moduleName} de aTurnos.`}>
-  <section class="hero"><div class="container"><span class="eyebrow">Módulo</span><h1>{moduleName}</h1><p class="lead">Consulta {articles.length} {articles.length === 1 ? 'artículo' : 'artículos'} organizados en {submodules.length} {submodules.length === 1 ? 'área' : 'áreas'}.</p></div></section>
+  <section class="hero"><div class="container"><span class="eyebrow">Módulo</span><h1>{moduleName}</h1><p class="lead">Consulta <span data-profile-visible-count>{articles.length}</span> artículos organizados en <span data-profile-area-count>{submodules.length}</span> áreas para el perfil seleccionado.</p></div></section>
   <section class="section container">
-    <div class="card-grid">{articles.map(article => <a class="card" href={`/manual/${article.id}/`}><span class="badge">{article.data.submodule}</span><h3>{article.data.title}</h3><p>{article.data.description}</p></a>)}</div>
+    <div class="card-grid" data-profile-list>{articles.map(article => <a class="card" data-profile-card data-profiles={article.data.audience.map(item => item.role).join('|')} data-submodule={article.data.submodule} href={`/manual/${article.id}/`}><span class="badge">{article.data.submodule}</span><h3>{article.data.title}</h3><p>{article.data.description}</p></a>)}</div>
+    <p class="profile-empty" data-profile-empty hidden>No hay artículos de este módulo asignados al perfil seleccionado.</p>
   </section>
 </BaseLayout>

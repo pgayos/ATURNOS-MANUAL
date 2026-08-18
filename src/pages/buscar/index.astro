@@ -6,13 +6,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <span class="eyebrow">Buscador</span>
     <h1>¿Qué necesitas hacer?</h1>
     <div class="search-panel">
-      <div class="profile-loader" id="profile-loader" role="status" aria-live="polite" hidden>
-        <div class="profile-loader-card">
-          <span class="profile-loader-mark" aria-hidden="true"><img src="/brand/aturnos-logo.svg" alt="" /></span>
-          <strong>Adaptando el manual a tu perfil</strong>
-          <span>Estamos filtrando los artículos más relevantes.</span>
-        </div>
-      </div>
       <form class="manual-search" id="manual-search" role="search">
         <label class="sr-only" for="manual-search-input">Buscar en el manual</label>
         <input id="manual-search-input" name="q" type="search" autocomplete="off" placeholder="Buscar en el manual…" />
@@ -92,12 +85,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       const sequence = ++loaderSequence;
       const startedAt = Date.now();
       loader.hidden = false;
+      loader.dataset.busy = 'search';
       try {
         await runSearch();
         const remaining = Math.max(0, 450 - (Date.now() - startedAt));
         if (remaining) await new Promise(resolve => window.setTimeout(resolve, remaining));
       } finally {
-        if (sequence === loaderSequence) loader.hidden = true;
+        if (sequence === loaderSequence) {
+          delete loader.dataset.busy;
+          loader.hidden = true;
+        }
       }
     }
 
