@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/control-horario/visualizacion-de-fichajes/
   contentHash: 6bfbb3f902e88b063e6c8ce5786edb3529d22054b454cc18eadfdd381b8a2abf
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

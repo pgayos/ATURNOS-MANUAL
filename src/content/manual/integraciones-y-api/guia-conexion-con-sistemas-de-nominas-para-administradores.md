@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/conexion-con-sistemas-de-nominas/
   contentHash: 5160a8c6ca76751c5310c08ab0f37ef353cf4f40f77352257fd2355a5485ee5d
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

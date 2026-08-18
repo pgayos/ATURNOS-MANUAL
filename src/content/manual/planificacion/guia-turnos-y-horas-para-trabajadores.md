@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/turnos/
   contentHash: 9a8010ab87724d00f76886df182ac638d52dc9c8a2672c60cb74f2a106c6224d
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

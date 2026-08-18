@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/preguntas-frecuentes-5/
   contentHash: 6465dbbef8b716b38263cb5ddb3279e963c5be687bf81ba7efbe5f48caac81e0
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

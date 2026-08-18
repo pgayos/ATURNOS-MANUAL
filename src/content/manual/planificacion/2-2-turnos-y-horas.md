@@ -50,6 +50,7 @@ migration:
   contentHash: deb2cf94f2cff36f4c707d42f4b5085ae54b9a9c7e442a1d6c74bca9a54932eb
   migratedAt: 2026-08-17
 labels: []
+order: 1
 ---
 ## Resumen
 

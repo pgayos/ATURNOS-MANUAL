@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/preguntas-frecuentes-7/
   contentHash: ee296cdcf29dab3b3b0967a2441de2fbba51b2f5e170156ae73229a87f3da6eb
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

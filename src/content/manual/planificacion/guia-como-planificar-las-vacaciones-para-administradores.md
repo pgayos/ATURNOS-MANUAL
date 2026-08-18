@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/configuracion-vac/
   contentHash: 34b95d9c409eb6a24ee809c25553b3bac1a6ac2016e3ae8c03399ef9de74c341
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

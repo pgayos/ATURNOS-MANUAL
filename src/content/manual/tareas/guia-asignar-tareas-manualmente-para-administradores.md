@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignacion-manual/
   contentHash: 2c093ecdb516ba4cfab40467ba8933630bbc15885310a0e8ca85238db7d3806a
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

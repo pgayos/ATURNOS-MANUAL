@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/preguntas-frecuentes-9/
   contentHash: 6684d3b3b2a5029372673b3842fc272d9d74455cc63f72e2026add81eba34cec
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

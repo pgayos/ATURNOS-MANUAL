@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/crear-un-equipo-2/
   contentHash: 6dd664f19ffd2ceb011aa090ccf25bbbbe7e74f8b0b68f1e197148c808a263bd
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

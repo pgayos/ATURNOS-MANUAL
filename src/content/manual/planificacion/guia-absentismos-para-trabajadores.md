@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/absentismos/
   contentHash: df78c664240ce11b99eaefe4de255db14c8054eb998c7dca812098e3faaa08bf
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

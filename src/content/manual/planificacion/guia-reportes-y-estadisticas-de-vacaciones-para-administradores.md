@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/reportes-vac/
   contentHash: aae5025a81849b97037bb1f3dd33672de6f2a95421b0e15c667890d409edec73
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

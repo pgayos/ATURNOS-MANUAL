@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/configuracion-de-politicas-de-horas-extras-y-complementarias/
   contentHash: 73247c9c0f6d13cffe575afe865ea6a2151be1c082a3e2d857208eba4cd5a7d0
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

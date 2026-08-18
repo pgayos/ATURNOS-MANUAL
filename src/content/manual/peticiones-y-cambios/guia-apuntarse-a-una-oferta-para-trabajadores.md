@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/apuntarse-a-una-oferta/
   contentHash: 44489b045decae290dc3d56eca119a6f44f8393df95e02f0d35040e44a2c4313
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

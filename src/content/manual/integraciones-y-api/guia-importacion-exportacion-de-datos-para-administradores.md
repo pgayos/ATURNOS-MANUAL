@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/importacion-exportacion-de-datos/
   contentHash: febcdaa4b5eec3c8ca35eab06d2a3017ff3b52b98d22338cb51d20ed7e518f27
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/crear-listado-abs/
   contentHash: 5e1ba729788edf2c3741a2c69f5eac2822c51120c2bc99e5666417078443494e
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

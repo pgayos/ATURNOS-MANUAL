@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-comparacion/
   contentHash: cef423730a9d7de9525c63db4fab0806db94be1d497307b0605d2d676657de05
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-avanzado-del-cuadrante/
   contentHash: b5752aaa97ec1e39727c7bc2ccc83db63041cedee44151b3bc3696f56f3658e1
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

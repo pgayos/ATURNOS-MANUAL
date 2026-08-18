@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignar-tareas-de-manera-automatica/
   contentHash: ae2259c37a6a1893097ccba0ccc968ac3da39be1637024eb6abe6fe7badebe9f
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

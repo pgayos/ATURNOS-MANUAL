@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/como-crear-turnos-y-tipos-de-horas-2/
   contentHash: 3ce3a1ce20b3e7c26fb7a21df92d0122c1fe276dd657a5de17d1369514b21470
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

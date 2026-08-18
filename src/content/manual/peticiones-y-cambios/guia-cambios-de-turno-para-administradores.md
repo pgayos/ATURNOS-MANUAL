@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/cambios/
   contentHash: cfe3f56332cd5ee4f3d771f8b7a9e9b3ab70006818cde8c1c7901a998c5f4de1
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

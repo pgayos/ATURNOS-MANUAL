@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-perfiles-roles-y-creacion-de-usuarios/
   contentHash: 2813a9d460b309e0fa8cb915429908a2e2fa8cd75b7b6a13816d0f84f144b0d0
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

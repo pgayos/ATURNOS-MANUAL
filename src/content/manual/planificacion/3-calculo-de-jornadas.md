@@ -48,6 +48,7 @@ migration:
   contentHash: 17b368e82bd7db55c278022e8ab9fe55642d3759d9613d8f87e74560d3131e27
   migratedAt: 2026-08-17
 labels: []
+order: 1
 ---
 ## Resumen
 

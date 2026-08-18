@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/planificar-absentismos-totales-absentismos-temporales-y-periodos-de-absentismo/
   contentHash: 8287b4de2a630a72a7792825fdfe91ee92f6b2587401e6c79a06ae58c6ee93c5
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

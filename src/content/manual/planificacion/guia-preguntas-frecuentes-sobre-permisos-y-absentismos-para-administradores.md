@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/non-knowledgebase/gestion-de-permisos-y-absentismos/preguntas-frecuentes-3/
   contentHash: 18581ff0f3c625cb0aa03831d7f905c0b1bf19541953ff233e629157e42d4853
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

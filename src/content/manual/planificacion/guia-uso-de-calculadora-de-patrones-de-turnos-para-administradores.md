@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/crear-y-asignar-turnos/uso-de-calculadora-de-patrones-de-turnos-2/
   contentHash: c45c8d49ad3f1e1a73db3bb9ffb40df2c597f68b0fdbdce85ca5ac1911849d4d
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

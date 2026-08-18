@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/configuracion-general/
   contentHash: 80bde22062a23095544fd6e2ab08d258150f14d51e3ad641498f2b8eac1d6edd
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

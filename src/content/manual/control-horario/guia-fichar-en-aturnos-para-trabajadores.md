@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-trabajador/control-horario/fichar-en-aturnos/
   contentHash: 251767b3c0154b55368165d2a4f2903d952b6b254b38580175e2b52f05cbe799
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

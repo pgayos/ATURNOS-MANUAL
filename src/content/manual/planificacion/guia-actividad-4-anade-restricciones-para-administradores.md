@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-4-anade-restricciones/
   contentHash: 0c83e8dee596ed08765deed261191ac7b524f827dcdb424806f5e2bed061b72b
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/widgets-de-informacion-importante/
   contentHash: e0bc20ab88e0f975a22ebd24f5ab7377d23d0d023278be7531c25d5f4ee41757
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

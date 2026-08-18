@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-rr-hh/recursos-humanos-aturnos/usos-de-la-funcion-de-rrhh-en-aturnos/
   contentHash: f8449ec55606914ef5644a713dbace542f63bbc835721294aadb9a8c2afa5074
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

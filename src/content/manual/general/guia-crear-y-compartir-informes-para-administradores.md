@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/creacion-de-informes-personalizados/configuracion-de-metricas-clave-de-gestion-y-planificacion-horaria/
   contentHash: 5fe26fc1978f15abfeec5fe3696552adb9d4b162006ba9d5aae9cde6650f9f0b
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

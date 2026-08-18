@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/informes-sobre-cumplimiento-de-horarios-y-horas-acumuladas/
   contentHash: a26e6f1531a1e944bc4df7120182d096bd48e789d982551b599a9976f15274c9
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

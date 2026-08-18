@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/conceptos-de-calculo/
   contentHash: 7226ddea68915983d8f56e9fbdd9e44ad9c83b6959d04315eaf159b127079a98
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

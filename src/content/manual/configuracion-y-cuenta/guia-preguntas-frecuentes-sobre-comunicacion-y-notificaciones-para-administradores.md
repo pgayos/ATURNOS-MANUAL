@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/comunicacion-con-el-equipo/preguntas-frecuentes-4/
   contentHash: b8a8b5b23a11a80867af274b0867f9fcaeae5b48eb5bd43efd24ff20833ee21b
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

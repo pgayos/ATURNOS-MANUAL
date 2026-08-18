@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/impacto-de-las-ausencias/
   contentHash: 7601a798a0e77c15ff2f773fe82ff06ee21b53257e907b746c986421209f3742
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

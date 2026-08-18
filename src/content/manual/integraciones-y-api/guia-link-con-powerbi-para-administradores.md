@@ -41,6 +41,7 @@ migration:
     - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/link-con-powerbi/
   contentHash: 6c93c363c149b49b048ba8536af47acda6408bb2bb2598db55b60ff7b4c245af
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 

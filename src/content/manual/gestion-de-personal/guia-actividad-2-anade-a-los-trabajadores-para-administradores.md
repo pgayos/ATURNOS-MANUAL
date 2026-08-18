@@ -42,6 +42,7 @@ migration:
     - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-2-anade-a-los-trabajadores/
   contentHash: a961d1e099152864ac29478eb243cda734397a254554deadba9d7711fd5a9d02
   migratedAt: 2026-08-18
+order: 1
 ---
 ## Resumen
 
