@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-acceso-web-app"
-title: "Acceso web/app"
-description: "Es el número total de accesos a aTurnos del trabajador, tanto por web como por app."
+contentId: planificacion-acceso-web-app
+title: Acceso web/app
+description: Es el número total de accesos a aTurnos del trabajador, tanto por web como por app.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Acceso web/app"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Acceso web/app
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "acceso"
-    label: "Acceso"
-  - id: "app"
-    label: "App"
-  - id: "web"
-    label: "Web"
+  - id: acceso
+    label: Acceso
+  - id: app
+    label: App
+  - id: web
+    label: Web
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/acceso-web-app/"
+    - https://manual.aturnos.com/knowledgebase/acceso-web-app/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/acceso-web-app/"
+    - https://manual.aturnos.com/knowledgebase/acceso-web-app/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre acceso web/app?"
+    - ¿Qué debo saber sobre acceso web/app?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,8 +43,14 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "733eb960d6b36f360afc7a6eef40cc4529fe86f41fe655bafb1a29a9cc835739"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/acceso-web-app/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/acceso-web-app/
+  contentHash: 58b8c7ea41d471eb7a2e964d8d9eae4afdd12ccbea92ae74b2a06f559ee671c4
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -52,3 +59,7 @@ Es el número total de accesos a aTurnos del trabajador, tanto por web como por 
 ## Revisión requerida
 
 La fuente pública de **Acceso web/app** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

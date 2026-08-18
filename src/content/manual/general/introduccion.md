@@ -1,34 +1,35 @@
 ---
 schemaVersion: "1.0"
-contentId: "general-introduccion"
-title: "Introduccion"
-description: "Información sobre introduccion, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: general-introduccion
+title: Introduccion
+description: La URL pública original de Introduccion no devolvió contenido utilizable durante la migración.
 contentType: concept
-module: "General"
-submodule: "General"
-intent: "Introduccion"
+module: General
+submodule: General
+intent: Introduccion
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities:
-  - id: "introduccion"
-    label: "Introduccion"
+  - id: introduccion
+    label: Introduccion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/introduccion/"
+    - https://manual.aturnos.com/knowledgebase/introduccion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/introduccion/"
+    - https://manual.aturnos.com/knowledgebase/introduccion/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre introduccion?"
+    - ¿Qué debo saber sobre introduccion?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -36,8 +37,14 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "2b1181c46de68259a434bca0e948ff5f6197c8ce6180890bbd5d00a8d0abdeb3"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/introduccion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/introduccion/
+  contentHash: 1cd115e897e210a0189c25b08555fdea6f39fc253d0bb9049894793bebe2b00e
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Estado de la fuente
 
@@ -46,3 +53,7 @@ La URL pública original de **Introduccion** no devolvió contenido utilizable d
 ## Revisión requerida
 
 La fuente pública de **Introduccion** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

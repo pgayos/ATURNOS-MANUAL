@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-datos-de-convenio"
-title: "Datos de convenio"
-description: "A través de los Datos de Convenio vas a poder configurar el convenio colectivo de aplicación, de forma que en el momento del alta del trabajador se cargarán por defecto en cada uno de ellos. Datos como:."
+contentId: planificacion-1-datos-de-convenio
+title: Datos de convenio
+description: A través de los Datos de Convenio vas a poder configurar el convenio colectivo de aplicación, de forma que en el momento del alta del trabajador se cargarán por defecto en cada uno de ellos. Datos como:.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Datos de convenio"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Datos de convenio
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "convenio"
-    label: "Convenio"
-  - id: "datos"
-    label: "Datos"
+  - id: convenio
+    label: Convenio
+  - id: datos
+    label: Datos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-datos-de-convenio/"
+    - https://manual.aturnos.com/knowledgebase/1-datos-de-convenio/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-datos-de-convenio/"
+    - https://manual.aturnos.com/knowledgebase/1-datos-de-convenio/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre datos de convenio?"
+    - ¿Qué debo saber sobre datos de convenio?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 8
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1acd285faffd9b1b98cb53448f4dca1d7c45723fc248e87cef261408955370ca"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-datos-de-convenio/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-datos-de-convenio/
+  contentHash: aabb7e066c55e9afccc8c40c0a028e72def962de406c5e1cffb9a2a9178ecded
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -78,3 +85,7 @@ La definición de estos valores determinan el número de horas a trabajar al mes
 - Transformar en horas las vacaciones pendientes: Las vacaciones no planificadas se transforman en horas a trabajar, como ocurre en los contratos de corta duración, cuando las vacaciones no se van a disfrutar. Más información en “Horas pendientes pendientes”. Se tienen en cuenta en el balance de horas, con los siguientes efectos: Valor informado: Si. Las horas pendientes de vacaciones se suman a las horas de contrato del mes, siendo el total las horas a realizar en el mes (horas contrato mes + horas vacaciones pendientes. Valor informado: No. El prorrateo de los días de vacaciones al mes se restan de los días a trabajar, siguiendo el ejemplo anterior, en enero habría que restar, 2, 54 días. Es decir, como el trabajador tiene que disfrutar de vacaciones y no están planificadas, la aplicación resta de los días a trabajar al mes, las vacaciones que le corresponden cada mes.
 - Cálculo de las horas estimadas teniendo en cuenta vacaciones y festivos. Para transformar en horas las vacaciones pendientes existen dos posibilidades: seleccionando SI, se calcula [(1780 horas anuales) / (365 días del año – 30 días de vacaciones – 14 festivos)]. Seleccionando NO, se calcula (1780 horas anuales / 365 días del año).
 - Las horas restantes de vacaciones se calculan con respecto a la media de todos los periodos
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

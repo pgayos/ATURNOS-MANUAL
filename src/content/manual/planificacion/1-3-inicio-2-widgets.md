@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-3-inicio-2-widgets"
-title: "Inicio 2 (Widgets)"
-description: "Aprende a inicio 2 (Widgets), con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-1-3-inicio-2-widgets
+title: Inicio 2 (Widgets)
+description: En la pantalla de Inicio de aTurnos se pueden visualizar los “Widgets” o “Cajas” configurados en el equipo.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Inicio 2 (Widgets)"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Inicio 2 (Widgets)
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "inicio"
-    label: "Inicio"
-  - id: "widgets"
-    label: "Widgets"
+  - id: inicio
+    label: Inicio
+  - id: widgets
+    label: Widgets
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets-2/"
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets-2/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets-2/"
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets-2/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo inicio 2 (Widgets)?"
+    - ¿Cómo puedo inicio 2 (Widgets)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 8
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3bd9daeb09c1654b725c3e78232334bb21886e3882a404226667e5cfd0867b8e"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets-2/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets-2/
+  contentHash: 0c0d9cbd5d71a01b7ac6312a7f8945b42c1a1e2fe3021157a908721ed98e8f3c
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a inicio 2 (Widgets), con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 En la pantalla de Inicio de aTurnos se pueden visualizar los “Widgets” o “Cajas” configurados en el equipo. Se trata de información clave para las gestiones diarias y que se adapta a cada perfil, es decir, la información que ven los administradores en comparación a la que pueden ver los trabajadores diferentes, dependiendo de la configuración, seleccionando los widgets para cada rol.
 
 Para configurar esta pantalla de inicio accede a Administrar → Ajustes → Pantalla de Inicio (ver configuración de pantalla de inicio y más widgets). Según el rol, existiten diferentes widgets, y éstos tiene que ser seleccionado por un administrador, para saber cuáles serán Widgets visibles, o por el contrario, Widgets no visibles.

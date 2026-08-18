@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-b-barra-superior-del-cuadrante"
-title: "Barra superior del cuadrante"
-description: "Aprende a barra superior del cuadrante, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-b-barra-superior-del-cuadrante
+title: Barra superior del cuadrante
+description: En la parte superior del cuadrante se encuentra una barra de herramientas desde la que se pueden realizar diferentes acciones.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Barra superior del cuadrante"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Barra superior del cuadrante
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "barra"
-    label: "Barra"
-  - id: "cuadrante"
-    label: "Cuadrante"
-  - id: "superior"
-    label: "Superior"
+  - id: barra
+    label: Barra
+  - id: cuadrante
+    label: Cuadrante
+  - id: superior
+    label: Superior
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-barra-superior-del-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/2-barra-superior-del-cuadrante/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-barra-superior-del-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/2-barra-superior-del-cuadrante/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo barra superior del cuadrante?"
+    - ¿Cómo puedo barra superior del cuadrante?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "5c3718f7f9e96b57f12844a18657cb81d89e3372930b502826113a09b35947e1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-barra-superior-del-cuadrante/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-barra-superior-del-cuadrante/
+  contentHash: bdcd80c95f46c6b8e57bcc421185eb2a71b062285eaa2c0bfdd2e84f49fb1b9d
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -115,3 +122,7 @@ Se puede exportar para su distribución / impresión en formato Excel, PDF A4 o 
 También se puede exportar el cuadrante para crear un patrón, está opción está disponible si el periodo que se visualiza es múltiplo de 7 (1, 2,3 o 4 semanas) utilizando la opción Exportar a patrón.
 
 Desde este botón se puede activar la función de aplicar patrón a los trabajadores que desee (ver Manual de Aplicar Patrón).
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,64 +1,69 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado"
+contentId: planificacion-conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado
 title: "Conceptos tipo 2: Horas computadas del tipo de turno seleccionado"
-description: "Aprende a conceptos tipo 2: Horas computadas del tipo de turno seleccionado, con instrucciones y contexto revisables por el equipo de aTurnos."
+description: Recupera el número de horas por la duración computada de un determinado tipo, excepto en el caso de que el turno tenga asociado un absentismo total/temporal no productivo (como suelen ser la.
 contentType: procedure
-module: "Planificación"
-submodule: "Roles y permisos"
+module: Planificación
+submodule: Roles y permisos
 intent: "Conceptos tipo 2: Horas computadas del tipo de turno seleccionado"
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "computadas"
-    label: "Computadas"
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "horas"
-    label: "Horas"
-  - id: "seleccionado"
-    label: "Seleccionado"
-  - id: "tipo"
-    label: "Tipo"
-  - id: "turno"
-    label: "Turno"
+  - id: computadas
+    label: Computadas
+  - id: conceptos
+    label: Conceptos
+  - id: horas
+    label: Horas
+  - id: seleccionado
+    label: Seleccionado
+  - id: tipo
+    label: Tipo
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/
 ai:
   answerableQuestions:
     - "¿Cómo puedo conceptos tipo 2: Horas computadas del tipo de turno seleccionado?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d44d5b7c40c2e7c968a12acd5ae5dd63a664e61151341b0ad14b4617ae800cb7"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/
+  contentHash: a5ae804078d42b87b7f8a67f5e4305314e2f81430eb64bf984883bd3063fd517
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a conceptos tipo 2: Horas computadas del tipo de turno seleccionado, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Recupera el número de horas por la duración computada de un determinado tipo, excepto en el caso de que el turno tenga asociado un absentismo total/temporal no productivo (como suelen ser las incapacidades temporales, permisos establecidos en el convenio, etc.) y/o un absentismo total/temporal no justificado (por ejemplo, las faltas de asistencia).
 
 Para el turno GN12, el concepto del tipo 2 asociado a este turno recuperará 12 horas. Para recuperar las 16 horas por la duración computada del turno se deben utilizar los conceptos tipo 3.

@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-27-importar-peticiones"
-title: "Importar peticiones"
-description: "Información sobre importar peticiones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-27-importar-peticiones
+title: Importar peticiones
+description: Entre los distintos tipos de importaciones disponibles en aTurnos, se encuentra la opción de importar peticiones.
 contentType: concept
-module: "Peticiones y cambios"
-submodule: "Usuarios y perfiles"
-intent: "Importar peticiones"
+module: Peticiones y cambios
+submodule: Usuarios y perfiles
+intent: Importar peticiones
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "importar"
-    label: "Importar"
-  - id: "peticiones"
-    label: "Peticiones"
+  - id: importar
+    label: Importar
+  - id: peticiones
+    label: Peticiones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/27-importar-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/27-importar-peticiones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/27-importar-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/27-importar-peticiones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importar peticiones?"
+    - ¿Qué debo saber sobre importar peticiones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ec0e3743c8dbb9f3b08bdd9f316cf2987672759ed221fc200751a00b2afa73d0"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/27-importar-peticiones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/27-importar-peticiones/
+  contentHash: 2ea12aa627258d83425010d865e0b371655ad13cd84fa350e8d7f7f8fa3bc824
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre importar peticiones, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Aquí te mostramos un Excel ejemplo
 
 Entre los distintos tipos de importaciones disponibles en aTurnos, se encuentra la opción de importar peticiones. Esta funcionalidad permite añadir de forma masiva múltiples peticiones al cuadrante del trabajador o de los trabajadores indicados. Es importante tener en cuenta que, por defecto, las peticiones se importan en estado “Pendiente”, por lo que deberán ser aprobadas o denegadas manualmente para confirmar el evento solicitado.

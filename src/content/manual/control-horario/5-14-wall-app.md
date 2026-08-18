@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-14-wall-app"
-title: "Wall App"
-description: "Información sobre wall App, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-14-wall-app
+title: Wall App
+description: Este sistema permite realizar el fichaje desde una APP que se puede abrir en una tablet.
 contentType: reference
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Wall App"
+module: Control horario
+submodule: Fichajes
+intent: Wall App
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "app"
-    label: "App"
-  - id: "wall"
-    label: "Wall"
+  - id: app
+    label: App
+  - id: wall
+    label: Wall
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-14-wall-app/"
+    - https://manual.aturnos.com/knowledgebase/5-14-wall-app/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-14-wall-app/"
+    - https://manual.aturnos.com/knowledgebase/5-14-wall-app/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre wall App?"
+    - ¿Qué debo saber sobre wall App?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e1fd823e4225f961c099488027ec07e6833f58409af005b7da413fbd1c91bdf4"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-14-wall-app/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-14-wall-app/
+  contentHash: e950b47de9db7bc478358e7c1109ff30deeb7985af4b8ec38af414db3add5229
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre wall App, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Este sistema permite realizar el fichaje desde una APP que se puede abrir en una tablet. Para poder acceder a este sistema de registro de la jornada, es necesario tener contratado el módulo de Control Horario (ver Tarifas ).
 
 Los trabajadores tienen que marcar su ID de usuario (o dato identificativo) para poder fichar sus entradas y salidas.

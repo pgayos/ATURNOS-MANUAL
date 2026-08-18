@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "documentos-e-mostrar-ocultar-y-acciones"
-title: "Mostrar/Ocultar y Acciones"
-description: "Información sobre mostrar/Ocultar y Acciones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: documentos-e-mostrar-ocultar-y-acciones
+title: Mostrar/Ocultar y Acciones
+description: La tabla del listado de trabajadores se puede personalizar mostrando u ocultando las diferentes columnas de los datos de los trabajadores.
 contentType: concept
-module: "Documentos"
-submodule: "General"
-intent: "Mostrar/Ocultar y Acciones"
+module: Documentos
+submodule: General
+intent: Mostrar/Ocultar y Acciones
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "acciones"
-    label: "Acciones"
-  - id: "mostrar"
-    label: "Mostrar"
-  - id: "ocultar"
-    label: "Ocultar"
+  - id: acciones
+    label: Acciones
+  - id: mostrar
+    label: Mostrar
+  - id: ocultar
+    label: Ocultar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/e-mostrar-ocultar-y-acciones/"
+    - https://manual.aturnos.com/knowledgebase/e-mostrar-ocultar-y-acciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/e-mostrar-ocultar-y-acciones/"
+    - https://manual.aturnos.com/knowledgebase/e-mostrar-ocultar-y-acciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre mostrar/Ocultar y Acciones?"
+    - ¿Qué debo saber sobre mostrar/Ocultar y Acciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ee5fd10e775714c5be22494505fbf4fa7b7160180264b93e6ec964b0ae108e72"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/e-mostrar-ocultar-y-acciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/e-mostrar-ocultar-y-acciones/
+  contentHash: 096706216fb2ca11fb060373d198d82831f51524ea77014405a05142171fe6bb
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre mostrar/Ocultar y Acciones, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 La tabla del listado de trabajadores se puede personalizar mostrando u ocultando las diferentes columnas de los datos de los trabajadores. Esta opción se encuentra debajo de la barra superior en el botón de “mostrar/ocultar “.
 
 Haciendo clic sobre el icono “Mostrar/Ocultar” situado en la esquina superior derecha, puedes elegir entre mostrar u ocultar aquellas columnas para tener un listado de trabajadores a medida. Es de gran utilidad para que aTurnos te muestre información únicamente de aquellos parámetros que quieras saber y sean de tu interés. Por el contrario, haciendo clic de nuevo en las pestañas del desplegable que estás visualizando, se ocultarán y serán visibles solo aquellos datos que deseas que se muestren.

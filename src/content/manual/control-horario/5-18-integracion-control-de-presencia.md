@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-18-integracion-control-de-presencia"
-title: "Integración Control de Presencia"
-description: "Información sobre integración Control de Presencia, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-18-integracion-control-de-presencia
+title: Integración Control de Presencia
+description: aTurnos pone a disposición de sus clientes el fichaje a través de sistemas biométricos, pero también facilita que otros software de fichaje se puedan integrar con aTurnos para insertar los f.
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Integración Control de Presencia"
+module: Control horario
+submodule: Fichajes
+intent: Integración Control de Presencia
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "control"
-    label: "Control"
-  - id: "integracion"
-    label: "Integracion"
-  - id: "presencia"
-    label: "Presencia"
+  - id: control
+    label: Control
+  - id: integracion
+    label: Integracion
+  - id: presencia
+    label: Presencia
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-18-integracion-control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/5-18-integracion-control-de-presencia/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-18-integracion-control-de-presencia/"
+    - https://manual.aturnos.com/knowledgebase/5-18-integracion-control-de-presencia/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre integración Control de Presencia?"
+    - ¿Qué debo saber sobre integración Control de Presencia?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "20c99bd3e17305de5b9e40906e5b50d7ac33fc4db2c7697807eb1d2c6d832521"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-18-integracion-control-de-presencia/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-18-integracion-control-de-presencia/
+  contentHash: c01f2f57f6d2229b51271e8f7e1225fbefe8e27ff39e34849e3570ba06995306
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre integración Control de Presencia, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 aTurnos pone a disposición de sus clientes el fichaje a través de sistemas biométricos, pero también facilita que otros software de fichaje se puedan integrar con aTurnos para insertar los fichajes en el Control de Presencia.
 
 La integración se puede producir gracias a nuestra API y APIrestfull

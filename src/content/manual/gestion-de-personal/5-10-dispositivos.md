@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-5-10-dispositivos"
-title: "Dispositivos"
-description: "Información sobre dispositivos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-5-10-dispositivos
+title: Dispositivos
+description: Este sistema de fichaje permite que cualquier dispositivo que se registre (ordenador, tablet, móvil) que el trabajador utiliza como herramienta de trabajo, pueda ser utilizado para realizar.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Dispositivos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Dispositivos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "dispositivos"
-    label: "Dispositivos"
+  - id: dispositivos
+    label: Dispositivos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-10-dispositivos/"
+    - https://manual.aturnos.com/knowledgebase/5-10-dispositivos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-10-dispositivos/"
+    - https://manual.aturnos.com/knowledgebase/5-10-dispositivos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre dispositivos?"
+    - ¿Qué debo saber sobre dispositivos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "cf49699879cf0f802954c7e3486b493451749938c41bc345a1e8f836c4bd202c"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-10-dispositivos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-10-dispositivos/
+  contentHash: 56cc38492ccfdc1eca2d5bde1422eda3fdd8cfb2b5b562bd0aba1c8d9bc6cd01
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre dispositivos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Este sistema de fichaje permite que cualquier dispositivo que se registre (ordenador, tablet, móvil) que el trabajador utiliza como herramienta de trabajo, pueda ser utilizado para realizar los fichajes de entrada y salida de su turno de trabajo.
 
 Para registrar un dispositivo, el administrador tiene que acceder a aTurnos, a Configuración del Control de Presencia, en el apartado Dispositivos.

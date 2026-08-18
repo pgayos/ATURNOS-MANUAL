@@ -1,45 +1,52 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-1-como-fichar"
-title: "Cómo fichar"
-description: "Información sobre cómo fichar, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-1-como-fichar
+title: Cómo fichar
+description: La forma de fichar en aTurnos variará según el sistema que utilice tu empresa.
 contentType: faq
-module: "Control horario"
-submodule: "General"
-intent: "Cómo fichar"
+module: Control horario
+submodule: General
+intent: Cómo fichar
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichar"
-    label: "Fichar"
+  - id: fichar
+    label: Fichar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-fichar/"
+    - https://manual.aturnos.com/knowledgebase/1-fichar/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-fichar/"
+    - https://manual.aturnos.com/knowledgebase/1-fichar/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cómo fichar?"
+    - ¿Qué debo saber sobre cómo fichar?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f16ea36d4ea956c6ae7c2b332c2cb04b1b93bad7e267c309d6112378e83c5dea"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-fichar/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-fichar/
+  contentHash: 9763b55db331f56294e96cae34a027bfcbddcde8a627bf44867fb78cfff7f7da
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -64,3 +71,7 @@ Para fichar desde la app de aTurnos (iOS y Android), accede a Control de Presenc
 ### Desde la WallAPP de aTurnos
 
 La WallAPP de aTurnos es una app en la cual el trabajador para fichar debe teclear su ID de usuario en la pantalla sin necesidad de iniciar sesión como en los dos anterior puntos. Para comprender mejor los pasos a seguir para fichar desde la WallAPP, puedes ver el siguiente enlace: ¿Cómo fichar desde la WallApp?
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

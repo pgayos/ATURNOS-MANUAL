@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-19-importacion-demandas-planificacion-automatica"
-title: "Importación demandas (Planificación automática)"
-description: "Información sobre importación demandas (Planificación automática), con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-19-importacion-demandas-planificacion-automatica
+title: Importación demandas (Planificación automática)
+description: Algunos managers de operaciones conocen cuál es la demanda que necesitan en cada turno de trabajo o en horario predeterminado.
 contentType: concept
-module: "Planificación"
-submodule: "Turnos y patrones"
-intent: "Importación demandas (Planificación automática)"
+module: Planificación
+submodule: Turnos y patrones
+intent: Importación demandas (Planificación automática)
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "automatica"
-    label: "Automatica"
-  - id: "demandas"
-    label: "Demandas"
-  - id: "importacion"
-    label: "Importacion"
-  - id: "planificacion"
-    label: "Planificacion"
+  - id: automatica
+    label: Automatica
+  - id: demandas
+    label: Demandas
+  - id: importacion
+    label: Importacion
+  - id: planificacion
+    label: Planificacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/19-importacion-de-demanda-operaciones/"
+    - https://manual.aturnos.com/knowledgebase/19-importacion-de-demanda-operaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/19-importacion-de-demanda-operaciones/"
+    - https://manual.aturnos.com/knowledgebase/19-importacion-de-demanda-operaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importación demandas (Planificación automática)?"
+    - ¿Qué debo saber sobre importación demandas (Planificación automática)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "cbee852e8aceee3616f1428f44e4181d373a2197efdc4a38c25b2a0d3e08d7d6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/19-importacion-de-demanda-operaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/19-importacion-de-demanda-operaciones/
+  contentHash: 59ecc523ee195447177b0a6e08f3aec568df17d31c87a9f555343d5532eca4f1
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre importación demandas (Planificación automática), con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Algunos managers de operaciones conocen cuál es la demanda que necesitan en cada turno de trabajo o en horario predeterminado. Si necesitas planificar en base a la demanda de trabajo que requiere tu actividad, podemos importar un fichero Excel donde indiquemos el incremento de demanda entre las horas de la actividad. Para importar este archivo, se debe tener activado el módulo de Planificación automática.
 
 Para poder importar la demanda puedes completar la plantilla de ejemplo que puedes descargar:

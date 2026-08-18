@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-conceptos-tipo-1-4-conceptos-asociados-a-las-jornadas"
+contentId: planificacion-conceptos-tipo-1-4-conceptos-asociados-a-las-jornadas
 title: "Conceptos tipo 1.4: Conceptos asociados a las jornadas"
-description: "Información sobre conceptos tipo 1.4: Conceptos asociados a las jornadas, con instrucciones y contexto revisables por el equipo de aTurnos."
+description: Contabilizan el número de jornadas en los que trabajador tiene turnos y/u horas según el criterio de cada concepto.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
+module: Planificación
+submodule: Vacaciones y ausencias
 intent: "Conceptos tipo 1.4: Conceptos asociados a las jornadas"
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "asociados"
-    label: "Asociados"
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "jornadas"
-    label: "Jornadas"
-  - id: "tipo"
-    label: "Tipo"
+  - id: asociados
+    label: Asociados
+  - id: conceptos
+    label: Conceptos
+  - id: jornadas
+    label: Jornadas
+  - id: tipo
+    label: Tipo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-1-4-conceptos-asociados-a-las-jornadas/"
+    - https://manual.aturnos.com/knowledgebase/2-1-4-conceptos-asociados-a-las-jornadas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-1-4-conceptos-asociados-a-las-jornadas/"
+    - https://manual.aturnos.com/knowledgebase/2-1-4-conceptos-asociados-a-las-jornadas/
 ai:
   answerableQuestions:
     - "¿Qué debo saber sobre conceptos tipo 1.4: Conceptos asociados a las jornadas?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 13
+readingTime: 19
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "4356254f712354ecd30997f0ead7399643a74fdb114be563479989a7492289e0"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-1-4-conceptos-asociados-a-las-jornadas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-1-4-conceptos-asociados-a-las-jornadas/
+  contentHash: fa63bae8f2309dc05c2bd9bfa1d41810cc9943d904a144e0f925852163c60ec3
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre conceptos tipo 1.4: Conceptos asociados a las jornadas, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Contabilizan el número de jornadas en los que trabajador tiene turnos y/u horas según el criterio de cada concepto. Podemos configurar cada uno de los conceptos diferenciando en festivos, festivos especiales, sábados, domingos, etc. Además, se pueden distinguir las distintas localizaciones y categorías pudiendo generar distintos conceptos en función de los mismos.
 
 Calcula el número de jornadas entre las fechas que se indiquen atendiendo a la configuración establecida (Ver en el Manual Configuración de Jornadas ).

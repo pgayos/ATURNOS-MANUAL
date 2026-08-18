@@ -1,66 +1,71 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-resumen-de-los-recursos-validacion-exportacion-totales-alarmas"
-title: "Resumen de los Recursos. Validación. Exportación. Totales. Alarmas"
-description: "Para que los recursos informados por el trabajador (consulta en el Manual ) y/o por el administrador puedan exportarse como variable de nómina es obligatorio que el recurso esté validado."
+contentId: recursos-y-partes-resumen-de-los-recursos-validacion-exportacion-totales-alarmas
+title: Resumen de los Recursos. Validación. Exportación. Totales. Alarmas
+description: Para que los recursos informados por el trabajador (consulta en el Manual ) y/o por el administrador puedan exportarse como variable de nómina es obligatorio que el recurso esté validado.
 contentType: concept
-module: "Recursos y partes"
-submodule: "General"
-intent: "Resumen de los Recursos. Validación. Exportación. Totales. Alarmas"
+module: Recursos y partes
+submodule: General
+intent: Resumen de los Recursos. Validación. Exportación. Totales. Alarmas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "alarmas"
-    label: "Alarmas"
-  - id: "exportacion"
-    label: "Exportacion"
-  - id: "recursos"
-    label: "Recursos"
-  - id: "resumen"
-    label: "Resumen"
-  - id: "totales"
-    label: "Totales"
-  - id: "validacion"
-    label: "Validacion"
+  - id: alarmas
+    label: Alarmas
+  - id: exportacion
+    label: Exportacion
+  - id: recursos
+    label: Recursos
+  - id: resumen
+    label: Resumen
+  - id: totales
+    label: Totales
+  - id: validacion
+    label: Validacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/resumen/"
+    - https://manual.aturnos.com/knowledgebase/resumen/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/resumen/"
+    - https://manual.aturnos.com/knowledgebase/resumen/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre resumen de los Recursos. Validación. Exportación. Totales. Alarmas?"
+    - ¿Qué debo saber sobre resumen de los Recursos. Validación. Exportación. Totales. Alarmas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b341bbec830ce73597c930e72622df465eb968059f5ff76bfd671f3ab9a7bd94"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/resumen/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/resumen/
+  contentHash: af049ecea28c7c2513272cf8fe36a18a6ea3f3af62adec8a073b39b40d500550
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Para que los recursos informados por el trabajador (consulta en el Manual ) y/o por el administrador puedan exportarse como variable de nómina es obligatorio que el recurso esté validado.
 
-## Contenido
-
+## Qué debes saber
 1.- Para validar un recurso (solo el administrador tiene esta función) puede:
 
 1.1.- Marcar uno a uno los recursos que se desean validar en la columna “Validado”.

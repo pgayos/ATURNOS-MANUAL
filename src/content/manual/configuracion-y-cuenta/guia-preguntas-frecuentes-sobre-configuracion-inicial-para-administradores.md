@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-guia-preguntas-frecuentes-sobre-configuracion-inicial-para-administradores"
-title: "Preguntas frecuentes sobre configuración inicial para administradores"
-description: "Gestiono una gran empresa, ¿aTurnos puede ayudarme?."
+contentId: configuracion-y-cuenta-guia-preguntas-frecuentes-sobre-configuracion-inicial-para-administradores
+title: Preguntas frecuentes sobre configuración inicial para administradores
+description: Gestiono una gran empresa, ¿aTurnos puede ayudarme?.
 contentType: reference
-module: "Configuración y cuenta"
-submodule: "Configuración inicial"
-intent: "Preguntas frecuentes"
+module: Configuración y cuenta
+submodule: Configuración inicial
+intent: Preguntas frecuentes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/preguntas-frecuentes/"
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/preguntas-frecuentes/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre preguntas frecuentes sobre configuración inicial para administradores?"
+    - ¿Qué debo saber sobre preguntas frecuentes sobre configuración inicial para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/preguntas-frecuentes/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/preguntas-frecuentes/
+  contentHash: 12add0348680a9943741677aaed6c3291b70738c5e2e5d1f393aee67ea8ac3f7
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

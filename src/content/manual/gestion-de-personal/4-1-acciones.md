@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-4-1-acciones"
-title: "Acciones"
-description: "Información sobre acciones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-4-1-acciones
+title: Acciones
+description: En aTurnos, los administradores disponen de un registro de todas las acciones que se realizan por parte de los trabajadores y administradores del equipo.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Acciones"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Acciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "acciones"
-    label: "Acciones"
+  - id: acciones
+    label: Acciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-1-acciones/"
+    - https://manual.aturnos.com/knowledgebase/4-1-acciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-1-acciones/"
+    - https://manual.aturnos.com/knowledgebase/4-1-acciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre acciones?"
+    - ¿Qué debo saber sobre acciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ab588b3181b47f9d6ad6612ec662682b42a8ed3bb384811f61372914de7c71cb"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-1-acciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-1-acciones/
+  contentHash: 458774f726e704a226dcef30c47fcbac180e88911cb81bff26e3392c5f93a459
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre acciones, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En aTurnos, los administradores disponen de un registro de todas las acciones que se realizan por parte de los trabajadores y administradores del equipo. De esta manera queda constancia de todas las acciones que se han ejecutado en un equipo dentro de los últimos tres meses. En este apartado quedan asentadas todas las operaciones que ocurren, quién ha realizado cada una de las acciones y a qué usuarios ha afectado.
 
 Desde esta ventana se muestra:

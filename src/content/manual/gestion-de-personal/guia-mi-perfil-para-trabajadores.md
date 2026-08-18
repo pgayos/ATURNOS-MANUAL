@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-guia-mi-perfil-para-trabajadores"
-title: "Mi perfil para trabajadores"
-description: "Como trabajador, desde tu perfil en aTurnos, puedes gestionar tu información personal y consultar datos clave de tu contrato. Esto te permite:."
+contentId: gestion-de-personal-guia-mi-perfil-para-trabajadores
+title: Mi perfil para trabajadores
+description: Como trabajador, desde tu perfil en aTurnos, puedes gestionar tu información personal y consultar datos clave de tu contrato. Esto te permite:.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Perfil del trabajador"
-intent: "Mi perfil"
+module: Gestión de personal
+submodule: Perfil del trabajador
+intent: Mi perfil
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-29
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-trabajador/perfil-del-trabajador/mi-perfil/"
+    - https://guias.aturnos.com/guias/guias-trabajador/perfil-del-trabajador/mi-perfil/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo mi perfil para trabajadores?"
+    - ¿Cómo puedo mi perfil para trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-trabajador/perfil-del-trabajador/mi-perfil/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-trabajador/perfil-del-trabajador/mi-perfil/
+  contentHash: d28555b30f3e69bf08b5dfe298aff7ffd5ace5ea03732dcb794a20cd96448083
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

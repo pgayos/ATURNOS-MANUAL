@@ -1,42 +1,43 @@
 ---
 schemaVersion: "1.0"
-contentId: "documentos-subir-y-descargar-documentos"
-title: "Subir y descargar documentos"
-description: "Información sobre subir y descargar documentos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: documentos-subir-y-descargar-documentos
+title: Subir y descargar documentos
+description: El administrador o los administradores del equipo tendrán la opción de subir todo tipo de documentos para un trabajador en concreto o bien para todo el equipo.
 contentType: concept
-module: "Documentos"
-submodule: "Altas y bajas"
-intent: "Subir y descargar documentos"
+module: Documentos
+submodule: Altas y bajas
+intent: Subir y descargar documentos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "descargar"
-    label: "Descargar"
-  - id: "documentos"
-    label: "Documentos"
-  - id: "subir"
-    label: "Subir"
+  - id: descargar
+    label: Descargar
+  - id: documentos
+    label: Documentos
+  - id: subir
+    label: Subir
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/subir-y-descargar-documentos/"
+    - https://manual.aturnos.com/knowledgebase/subir-y-descargar-documentos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/subir-y-descargar-documentos/"
+    - https://manual.aturnos.com/knowledgebase/subir-y-descargar-documentos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre subir y descargar documentos?"
+    - ¿Qué debo saber sobre subir y descargar documentos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -44,15 +45,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "cb3035c038bcb10c3e0337544d06987b51a8b82eb2fde77e1cba3b41b9714d59"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/subir-y-descargar-documentos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/subir-y-descargar-documentos/
+  contentHash: 3c955d7f7a2f657d07832baf2658951d68969e65986911c0bb05dda41b0cf5e9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre subir y descargar documentos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 1. Subir documentos
 
 El administrador o los administradores del equipo tendrán la opción de subir todo tipo de documentos para un trabajador en concreto o bien para todo el equipo. De esta manera podrán subir cualquier archivo, ya sea un informe personal (nóminas, justificantes) como un comunicado de forma general (novedades de forma masiva, inscripciones, comunicados a nivel de empresa, etc).

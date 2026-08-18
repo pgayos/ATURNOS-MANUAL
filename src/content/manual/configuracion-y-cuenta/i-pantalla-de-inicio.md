@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-i-pantalla-de-inicio"
-title: "Pantalla de inicio"
-description: "Aprende a pantalla de inicio, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-i-pantalla-de-inicio
+title: Pantalla de inicio
+description: Al iniciar sesión y acceder a un equipo, la primera pantalla que visualiza el usuario se denomina pantalla de inicio, en la que se pueden ver los widgets de información o accesos rápidos a l.
 contentType: procedure
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Pantalla de inicio"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Pantalla de inicio
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "inicio"
-    label: "Inicio"
-  - id: "pantalla"
-    label: "Pantalla"
+  - id: inicio
+    label: Inicio
+  - id: pantalla
+    label: Pantalla
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/h-pantalla-de-inicio/"
+    - https://manual.aturnos.com/knowledgebase/h-pantalla-de-inicio/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/h-pantalla-de-inicio/"
+    - https://manual.aturnos.com/knowledgebase/h-pantalla-de-inicio/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo pantalla de inicio?"
+    - ¿Cómo puedo pantalla de inicio?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e8942a0091e751512005eee6e1b7290a5a283a8bccd683daf60819c078b791fe"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/h-pantalla-de-inicio/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/h-pantalla-de-inicio/
+  contentHash: 47f1b9d77f321333e9811e38b42794328653f860fe2708dbf6185e51e885c249
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -64,3 +71,7 @@ Cuando se crea un equipo, el administrador tiene acceso a una ayuda en forma de 
 Son cuatro guías, que indican los primeros pasos para orientar en la planificación y gestión del equipo como administrador.
 
 Cada proceso está descrito de forma breve, indicando qué es, cómo acceder y las funciones a poder realizar. Si haces clic en el botón de “X” del widget, éste desaparecerá (para que no se muestre más en tu pantalla de inicio, debes repetir este proceso 3 veces).
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-7-10-resetear-contrasena-trabajadores-anonimos"
-title: "Resetear contraseña trabajadores anónimos"
-description: "Se denominan trabajadores anónimos, todos aquellos que se han creado con un correo ‘@aturnos.com’."
+contentId: gestion-de-personal-7-10-resetear-contrasena-trabajadores-anonimos
+title: Resetear contraseña trabajadores anónimos
+description: Se denominan trabajadores anónimos, todos aquellos que se han creado con un correo ‘@aturnos.com’.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Resetear contraseña trabajadores anónimos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Resetear contraseña trabajadores anónimos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anonimos"
-    label: "Anonimos"
-  - id: "contrasena"
-    label: "Contrasena"
-  - id: "resetear"
-    label: "Resetear"
-  - id: "trabajadores"
-    label: "Trabajadores"
+  - id: anonimos
+    label: Anonimos
+  - id: contrasena
+    label: Contrasena
+  - id: resetear
+    label: Resetear
+  - id: trabajadores
+    label: Trabajadores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-10-resetear-contrasena-trabajadores-anonimos/"
+    - https://manual.aturnos.com/knowledgebase/7-10-resetear-contrasena-trabajadores-anonimos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-10-resetear-contrasena-trabajadores-anonimos/"
+    - https://manual.aturnos.com/knowledgebase/7-10-resetear-contrasena-trabajadores-anonimos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo resetear contraseña trabajadores anónimos?"
+    - ¿Cómo puedo resetear contraseña trabajadores anónimos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1070cf0aede65c74bf4f787ea2188d313874b836cae189a2ace1d5232363517a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-10-resetear-contrasena-trabajadores-anonimos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-10-resetear-contrasena-trabajadores-anonimos/
+  contentHash: 2007c42dea73b65f06bdb6040c31628588a47d4b804baebe86b9d71b7555958f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Se denominan trabajadores anónimos, todos aquellos que se han creado con un correo ‘@aturnos.com’.
 
-## Contenido
-
+## Procedimiento
 Por ejemplo, son aquellos trabajadores que se crean sin email, ni nombre, a la hora de añadir un nuevo trabajador al equipo.
 
 Para que se pueda resetear la contraseña a un trabajador anónimo, primero debe haber sido activado. Al tener un correo ficticio (@aturnos.com), para activarlo hay que hacerlo desde la opción ‘Activar usuarios’.

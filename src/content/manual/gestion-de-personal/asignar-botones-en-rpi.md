@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-asignar-botones-en-rpi"
-title: "Asignar botones en RPI"
-description: "Una vez configurada la RPI, y asignada a un equipo, la introducimos en anydesck para poder tener acceso remoto una vez que este en cliente."
+contentId: gestion-de-personal-asignar-botones-en-rpi
+title: Asignar botones en RPI
+description: Una vez configurada la RPI, y asignada a un equipo, la introducimos en anydesck para poder tener acceso remoto una vez que este en cliente.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Asignar botones en RPI"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Asignar botones en RPI
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "asignar"
-    label: "Asignar"
-  - id: "botones"
-    label: "Botones"
-  - id: "rpi"
-    label: "Rpi"
+  - id: asignar
+    label: Asignar
+  - id: botones
+    label: Botones
+  - id: rpi
+    label: Rpi
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/asignar-botones-en-rpi/"
+    - https://manual.aturnos.com/knowledgebase/asignar-botones-en-rpi/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/asignar-botones-en-rpi/"
+    - https://manual.aturnos.com/knowledgebase/asignar-botones-en-rpi/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre asignar botones en RPI?"
+    - ¿Qué debo saber sobre asignar botones en RPI?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f039a4a308024825ccca41a817327af5f3738395bcbfd7360534e5ecc1257c59"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/asignar-botones-en-rpi/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/asignar-botones-en-rpi/
+  contentHash: 8c3ecc55c99a3523a43e75fb15ace80efec1909051238df0353d4572044c57f6
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Una vez configurada la RPI, y asignada a un equipo, la introducimos en anydesck para poder tener acceso remoto una vez que este en cliente.
 
-## Contenido
-
+## Qué debes saber
 El siguiente paso es asignar los botones Bluetooth, cada botón estará asignado a una acción, cada vez que se presiona el botón realizara una llamada, por ejemplo “acuda a caja 1” que mostrará en pantalla.
 
 Conectamos por anydesk a la RPIde fila única y abrimos una consola:

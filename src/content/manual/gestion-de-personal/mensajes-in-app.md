@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-mensajes-in-app"
-title: "Mensajes in-APP"
-description: "Aprende a mensajes in-APP, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-mensajes-in-app
+title: Mensajes in-APP
+description: Se trata de notificaciones que va a poder lanzar el administrador del equipo de tal manera que le aparezca el mensaje a todos los miembros de su equipo en la app cuando éste indique y de la.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Mensajes in-APP"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Mensajes in-APP
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "app"
-    label: "App"
-  - id: "mensajes"
-    label: "Mensajes"
+  - id: app
+    label: App
+  - id: mensajes
+    label: Mensajes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/mensajes-in-app/"
+    - https://manual.aturnos.com/knowledgebase/mensajes-in-app/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/mensajes-in-app/"
+    - https://manual.aturnos.com/knowledgebase/mensajes-in-app/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo mensajes in-APP?"
+    - ¿Cómo puedo mensajes in-APP?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "4ae47c2eba92832e6adac4b2e23726f0486081ed2f81728bd55eb80fbfc6ade6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/mensajes-in-app/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/mensajes-in-app/
+  contentHash: 0f8d673538d7e05033c2416167a0041fd27a228537a2d1a1459ca34af00b8390
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a mensajes in-APP, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Se trata de notificaciones que va a poder lanzar el administrador del equipo de tal manera que le aparezca el mensaje a todos los miembros de su equipo en la app cuando éste indique y de la forma que indique. Así, se podrá lanzar un mensaje común en masa a todo el equipo, ya sea por un nuevo ajuste general, para felicitar las fiestas, etc.
 
 Para crear el mensaje y lanzarlo hay que hacerlo desde el menú RRHH → Acciones → Notificaciones APP → Añadir:

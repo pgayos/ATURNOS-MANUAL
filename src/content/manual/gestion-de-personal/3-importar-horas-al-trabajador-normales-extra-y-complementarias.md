@@ -1,64 +1,69 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-3-importar-horas-al-trabajador-normales-extra-y-complementarias"
-title: "Importar horas al trabajador (normales, extra y complementarias)"
-description: "Información sobre importar horas al trabajador (normales, extra y complementarias), con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-3-importar-horas-al-trabajador-normales-extra-y-complementarias
+title: Importar horas al trabajador (normales, extra y complementarias)
+description: El administrador puede insertar en la planificación de los trabajadores horas adicionales en el cuadrante (normales, extras, complementarias).
 contentType: reference
-module: "Gestión de personal"
-submodule: "Altas y bajas"
-intent: "Importar horas al trabajador (normales, extra y complementarias)"
+module: Gestión de personal
+submodule: Altas y bajas
+intent: Importar horas al trabajador (normales, extra y complementarias)
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "complementarias"
-    label: "Complementarias"
-  - id: "extra"
-    label: "Extra"
-  - id: "horas"
-    label: "Horas"
-  - id: "importar"
-    label: "Importar"
-  - id: "normales"
-    label: "Normales"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: complementarias
+    label: Complementarias
+  - id: extra
+    label: Extra
+  - id: horas
+    label: Horas
+  - id: importar
+    label: Importar
+  - id: normales
+    label: Normales
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-importacion-de-horas-normales-extra-y-complementarias/"
+    - https://manual.aturnos.com/knowledgebase/3-importacion-de-horas-normales-extra-y-complementarias/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-importacion-de-horas-normales-extra-y-complementarias/"
+    - https://manual.aturnos.com/knowledgebase/3-importacion-de-horas-normales-extra-y-complementarias/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importar horas al trabajador (normales, extra y complementarias)?"
+    - ¿Qué debo saber sobre importar horas al trabajador (normales, extra y complementarias)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "5245afc5868dc49db7454439f73b894f75cf833359dbbeb55babedc185129e4a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-importacion-de-horas-normales-extra-y-complementarias/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-importacion-de-horas-normales-extra-y-complementarias/
+  contentHash: 6d57291dcf70ebc1d1aeb4616179dff2ed92f14b58acdc40b37e576243f02028
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre importar horas al trabajador (normales, extra y complementarias), con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 El administrador puede insertar en la planificación de los trabajadores horas adicionales en el cuadrante (normales, extras, complementarias). Este proceso se realiza a través de la importación de horas, horas que deben haber sido creadas previamente dentro de aTurnos (ver Tipos de hora ).
 
 Puedes completar la plantilla de ejemplo, la cual tienes disponible para descargar, disponiendo de dos opciones:

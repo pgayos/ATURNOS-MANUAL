@@ -1,52 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-d-historico"
-title: "Histórico"
-description: "Información sobre histórico, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-d-historico
+title: Histórico
+description: En esta pestaña, puedes visualizar el listado histórico del total de sustituciones que has realizado dentro de un periodo determinado.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Histórico"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Histórico
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "historico"
-    label: "Historico"
+  - id: historico
+    label: Historico
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/d-historico-sustituciones/"
+    - https://manual.aturnos.com/knowledgebase/d-historico-sustituciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/d-historico-sustituciones/"
+    - https://manual.aturnos.com/knowledgebase/d-historico-sustituciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre histórico?"
+    - ¿Qué debo saber sobre histórico?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "740ba16df800a1251003871377bcca051ba47f8c42fd53b9cd60258a3dd280fe"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/d-historico-sustituciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/d-historico-sustituciones/
+  contentHash: ec68fb19de6d35e194d58eaa66fcc9abe065eeca321cd4231672d1fc82f68d2a
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre histórico, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En esta pestaña, puedes visualizar el listado histórico del total de sustituciones que has realizado dentro de un periodo determinado. Todo ello, para que así puedas tener un mejor control sobre ellas y que aTurnos te informe sobre todo el historial de sustituciones realizadas.
 
 En esta pestaña mostrará el listado mediante los siguientes campos que te explicamos de forma breve a continuación (los cuales aparecen en azul oscuro, para que así tengas sobre ellos una mejor identificación):

@@ -1,42 +1,43 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-3-mas-de-2-hrs-entre-fichajes"
-title: "Más de 2 Hrs entre fichajes"
-description: "Si un trabajador realiza un fichaje de salida y el siguiente fichaje de entrada se realiza más de 2 horas después, se mostrará en el reporte."
+contentId: control-horario-3-mas-de-2-hrs-entre-fichajes
+title: Más de 2 Hrs entre fichajes
+description: Si un trabajador realiza un fichaje de salida y el siguiente fichaje de entrada se realiza más de 2 horas después, se mostrará en el reporte.
 contentType: concept
-module: "Control horario"
-submodule: "Altas y bajas"
-intent: "Más de 2 Hrs entre fichajes"
+module: Control horario
+submodule: Altas y bajas
+intent: Más de 2 Hrs entre fichajes
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "entre"
-    label: "Entre"
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "hrs"
-    label: "Hrs"
-  - id: "mas"
-    label: "Mas"
+  - id: entre
+    label: Entre
+  - id: fichajes
+    label: Fichajes
+  - id: hrs
+    label: Hrs
+  - id: mas
+    label: Mas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-mas-de-2-hrs-entre-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/3-mas-de-2-hrs-entre-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-mas-de-2-hrs-entre-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/3-mas-de-2-hrs-entre-fichajes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre más de 2 Hrs entre fichajes?"
+    - ¿Qué debo saber sobre más de 2 Hrs entre fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -44,15 +45,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "26e832067cffab89588330406d56aa32a88c555130bd97c6b7fa94abfbaf9372"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-mas-de-2-hrs-entre-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-mas-de-2-hrs-entre-fichajes/
+  contentHash: f479aeb19407e722e86bcefe6787f4fbf8e417fd2960c0da99af7c8b99411d18
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Si un trabajador realiza un fichaje de salida y el siguiente fichaje de entrada se realiza más de 2 horas después, se mostrará en el reporte.
 
-## Contenido
-
+## Qué debes saber
 Es importante que exista una continuidad, como en los turnos con nocturnidad donde se pasa de un día a otro.
 
 Esta continuidad puede darse:

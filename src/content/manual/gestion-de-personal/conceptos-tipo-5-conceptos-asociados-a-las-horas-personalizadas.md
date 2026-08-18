@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas"
+contentId: gestion-de-personal-conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas
 title: "Conceptos tipo 5.: Conceptos asociados a las horas personalizadas"
-description: "Los conceptos tipo 5 recuperan la información de las “horas personalizadas” creadas en el equipo. Consulta el Manual, aquí, para ampliar información."
+description: Los conceptos tipo 5 recuperan la información de las “horas personalizadas” creadas en el equipo. Consulta el Manual, aquí, para ampliar información.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Altas y bajas"
+module: Gestión de personal
+submodule: Altas y bajas
 intent: "Conceptos tipo 5.: Conceptos asociados a las horas personalizadas"
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "asociados"
-    label: "Asociados"
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "horas"
-    label: "Horas"
-  - id: "personalizadas"
-    label: "Personalizadas"
-  - id: "tipo"
-    label: "Tipo"
+  - id: asociados
+    label: Asociados
+  - id: conceptos
+    label: Conceptos
+  - id: horas
+    label: Horas
+  - id: personalizadas
+    label: Personalizadas
+  - id: tipo
+    label: Tipo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/
 ai:
   answerableQuestions:
     - "¿Qué debo saber sobre conceptos tipo 5.: Conceptos asociados a las horas personalizadas?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d8d9fadfeb5c6889224d78a1b1ea2d0ed4377e5e43d405bd286790900a194754"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/
+  contentHash: a6bfb9fbf87b1aff12136a0ba47ced79ed922753912b7b6c928a7efff47153a1
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Los conceptos tipo 5 recuperan la información de las “horas personalizadas” creadas en el equipo. Consulta el Manual, aquí, para ampliar información.
 
-## Contenido
-
+## Qué debes saber
 Por cada tipo de hora personalizada se crean 7 conceptos:
 
 5.1.- Recupera el número de horas del tipo “Ejemplo Manual” planificadas a las que se les aplica el coeficiente indicado en el tipo de hora, pudiendo filtrar por:

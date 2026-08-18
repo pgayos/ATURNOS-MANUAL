@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-2-basica"
-title: "Básica en aTurnos"
-description: "En este apartado se registran los datos básicos que identifican al trabajador."
+contentId: gestion-de-personal-2-basica
+title: Básica en aTurnos
+description: En este apartado se registran los datos básicos que identifican al trabajador.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Básica en aTurnos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Básica en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "basica"
-    label: "Basica"
+  - id: basica
+    label: Basica
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-basica/"
+    - https://manual.aturnos.com/knowledgebase/2-basica/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-basica/"
+    - https://manual.aturnos.com/knowledgebase/2-basica/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre básica en aTurnos?"
+    - ¿Qué debo saber sobre básica en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b8ce2cb9ca9d9791a9a4fb05b3a6299089451245cfac51a4b45e278e1418e7fd"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-basica/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-basica/
+  contentHash: fb464d560a06e768f5ceb0ab05c2a6fbdff82a384ab924acaefbda9d123a8623
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -67,3 +74,7 @@ Además de las tres opciones de planificabilidad que se describen a continuació
 3. No Planificable: El usuario únicamente es visible en el listado de trabajadores, de esta manera el administrador puede acceder a su perfil y cambiar este estado. Ni los trabajadores, ni los administradores pueden visualizarlo en el cuadrante, cuadrante anual, reportes de estadísticas y detalles del control horario. Acceden a los equipos en los que sí se encuentran dado de alta y realizar las acciones según el rol que tenga asignado.
 
 Cuando el trabajador está activado en el sistema (tiene acceso a aTurnos) algunas de las casillas del perfil del trabajador estarán sombreadas en gris, lo que indica que no pueden ser modificadas por el administrador, tan solo por el propio usuario que inicia sesión con su correo electrónico y contraseña. El trabajador activado puede modificar los siguientes datos: nombre del usuario, correo electrónico y teléfono.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

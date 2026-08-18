@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-11-como-se-llama-a-los-clientes"
-title: "¿Cómo se llama a los clientes?"
-description: "Información sobre ¿Cómo se llama a los clientes?, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: tareas-11-como-se-llama-a-los-clientes
+title: ¿Cómo se llama a los clientes?
+description: Los puestos siempre tienen que tener abierta la aplicación de turnos para realizar llamadas a los clientes.
 contentType: faq
-module: "Tareas"
-submodule: "General"
-intent: "¿Cómo se llama a los clientes?"
+module: Tareas
+submodule: General
+intent: ¿Cómo se llama a los clientes?
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "clientes"
-    label: "Clientes"
-  - id: "llama"
-    label: "Llama"
+  - id: clientes
+    label: Clientes
+  - id: llama
+    label: Llama
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/11-como-se-llama-a-los-clientes/"
+    - https://manual.aturnos.com/knowledgebase/11-como-se-llama-a-los-clientes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/11-como-se-llama-a-los-clientes/"
+    - https://manual.aturnos.com/knowledgebase/11-como-se-llama-a-los-clientes/
 ai:
   answerableQuestions:
-    - "¿Cómo se llama a los clientes?"
+    - ¿Cómo se llama a los clientes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1d21f3fb5455745cd3c53fda6f7ae3f2c88c778c05cafaa3c38e00e9c5fc2fc4"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/11-como-se-llama-a-los-clientes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/11-como-se-llama-a-los-clientes/
+  contentHash: adcf49a305c854ca1b682eadaca4ccfebc0fe38a1f92619021e197bffde23543
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre ¿Cómo se llama a los clientes?, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Respuesta
 Los puestos siempre tienen que tener abierta la aplicación de turnos para realizar llamadas a los clientes. Cada puesto puede hacer llamadas de acuerdo a las especialidades con valor cinco (5) que tienen informadas, con independencia de que tengan un turno planificado ese día (entendiendo que siempre uno de los puestos con especialidad tienen que tener turno asignado), en caso contrario, el Kiosko no ofrecerá citas de esa especialidad o tarea.
 
 El menú de Tareas → Tiempo Real es el que permite a los puestos llamar a los clientes.

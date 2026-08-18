@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-guia-asignar-tareas-manualmente-para-administradores"
-title: "Asignar tareas manualmente para administradores"
-description: "Tal como su nombre indica, la asignación manual permite asignar las tareas creadas de manera manual, es decir, que requiere la intervención del mando superior."
+contentId: tareas-guia-asignar-tareas-manualmente-para-administradores
+title: Asignar tareas manualmente para administradores
+description: Tal como su nombre indica, la asignación manual permite asignar las tareas creadas de manera manual, es decir, que requiere la intervención del mando superior.
 contentType: concept
-module: "Tareas"
-submodule: "Gestión de tareas"
-intent: "Asignar tareas manualmente"
+module: Tareas
+submodule: Gestión de tareas
+intent: Asignar tareas manualmente
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-06-02
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignacion-manual/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignacion-manual/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre asignar tareas manualmente para administradores?"
+    - ¿Qué debo saber sobre asignar tareas manualmente para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignacion-manual/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/modulo-de-tareas-aturnos-optimiza-tu-planificacion/asignacion-manual/
+  contentHash: 2c093ecdb516ba4cfab40467ba8933630bbc15885310a0e8ca85238db7d3806a
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -74,3 +85,7 @@ Una vez elegido el trabajador, haz clic en Acciones → Asignar tareas. El siste
 Puedes ajustar qué tareas deseas visualizar configurando el rango de fechas y aplicando distintos filtros. También puedes activar o desactivar las opciones de «Restricciones» y «Planificados», según lo que desees ver.
 
 Con el trabajador seleccionado y los filtros configurados, simplemente localiza la tarea correspondiente y haz clic en el botón “+” para asignársela. El sistema vinculará la tarea al trabajador de forma inmediata.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-7-4-calendarios"
-title: "Calendarios"
-description: "Información sobre calendarios, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-7-4-calendarios
+title: Calendarios
+description: A través de ADMINISTRAR → CALENDARIOS → CALENDARIOS se pueden crear calendarios que se pueden asignar a los trabajadores.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Calendarios"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Calendarios
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "calendarios"
-    label: "Calendarios"
+  - id: calendarios
+    label: Calendarios
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-4-calendarios/"
+    - https://manual.aturnos.com/knowledgebase/7-4-calendarios/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-4-calendarios/"
+    - https://manual.aturnos.com/knowledgebase/7-4-calendarios/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre calendarios?"
+    - ¿Qué debo saber sobre calendarios?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6bd7e79920eb84f5b13413fb40c30318f841a1f33f060001cca59bcb6f0c2a85"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-4-calendarios/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-4-calendarios/
+  contentHash: cf7067fa3ed9078ef39593bee39a422f19ea7cb1977196d95d64cacd86ef7373
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre calendarios, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 A través de ADMINISTRAR → CALENDARIOS → CALENDARIOS se pueden crear calendarios que se pueden asignar a los trabajadores. Caso de uso, trabajadores que comparten localización por defecto (trabajan en el mismo equipo) pero que residen en localidades distintas y a cada uno de ellos se le quiere aplicar su propio Calendario.
 
 Para poder asociar calendarios a trabajadores se precisan tener estos permisos al menos al rol de Superusuario

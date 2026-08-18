@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-f-variables-del-listado-de-trabajadores"
-title: "Variables del listado de trabajadores"
-description: "Información sobre variables del listado de trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-f-variables-del-listado-de-trabajadores
+title: Variables del listado de trabajadores
+description: El listado de trabajadores se muestra a modo de tabla, por defecto (Ver Vista Tabla ).
 contentType: concept
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Variables del listado de trabajadores"
+module: Gestión de personal
+submodule: Contratos
+intent: Variables del listado de trabajadores
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "listado"
-    label: "Listado"
-  - id: "trabajadores"
-    label: "Trabajadores"
-  - id: "variables"
-    label: "Variables"
+  - id: listado
+    label: Listado
+  - id: trabajadores
+    label: Trabajadores
+  - id: variables
+    label: Variables
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/f-variables-del-listado-de-trabajadores/"
+    - https://manual.aturnos.com/knowledgebase/f-variables-del-listado-de-trabajadores/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/f-variables-del-listado-de-trabajadores/"
+    - https://manual.aturnos.com/knowledgebase/f-variables-del-listado-de-trabajadores/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre variables del listado de trabajadores?"
+    - ¿Qué debo saber sobre variables del listado de trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "2e33b0b10afc178811f094589e91800dbdf53db482a347b7a7ac7815ec205a87"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/f-variables-del-listado-de-trabajadores/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/f-variables-del-listado-de-trabajadores/
+  contentHash: dff90d148d5eedf5fc81231d40e054da62f7e49698dcb61cf2c86a18b13e0bda
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre variables del listado de trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 El listado de trabajadores se muestra a modo de tabla, por defecto (Ver Vista Tabla ). Las columnas de esta tabla hacen referencia a las diferentes variables de interés, sobre cada uno de los trabajadores del equipo, y se pueden ocultar o mostrar a demanda del administrador. Los trabajadores que se muestran en las filas de la tabla, pueden ser todos los activos o todos los inactivos en el sistema, según lo consultado por el administrador en ese momento.
 
 El nombre de estas variables, va acompañado de un tooltip informativo, donde se describe el concepto propio de la variable.

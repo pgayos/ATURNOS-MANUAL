@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-guia-solicitar-cambios-de-turno-para-trabajadores"
-title: "Solicitar cambios de turno para trabajadores"
-description: "Información sobre solicitar cambios de turno para trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-guia-solicitar-cambios-de-turno-para-trabajadores
+title: Solicitar cambios de turno para trabajadores
+description: El sistema de planificación de turnos de aTurnos permite realizar cambios de turno de manera ágil y eficiente, siempre que la configuración del equipo lo permita.
 contentType: reference
-module: "Peticiones y cambios"
-submodule: "Autogestión del trabajador"
-intent: "Solicitar cambios de turno"
+module: Peticiones y cambios
+submodule: Autogestión del trabajador
+intent: Solicitar cambios de turno
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-29
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/solicitar-cambios-de-turno/"
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/solicitar-cambios-de-turno/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre solicitar cambios de turno para trabajadores?"
+    - ¿Qué debo saber sobre solicitar cambios de turno para trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/solicitar-cambios-de-turno/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/solicitar-cambios-de-turno/
+  contentHash: ad325c7a727dcdea913c0f45eec5f24f35e56381dbed0d3bf4ab46dc5c659450
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -89,3 +100,7 @@ Dependiendo del estado de la solicitud, el cambio de turno se visualizará de la
 - Doblaje: El turno desaparece del cuadrante del trabajador que lo cedió y se muestra con marco verde en el cuadrante del compañero que aceptó asumirlo.
 
 Importante: La visualización de los cambios puede variar según la configuración de privacidad establecida por la empresa.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

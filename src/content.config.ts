@@ -20,6 +20,7 @@ const manual = defineCollection({
     synonyms: z.array(z.string()).default([]),
     prerequisites: z.array(z.string()).default([]),
     platforms: z.array(z.literal('web')),
+    labels: z.array(z.enum(['PENDIENTE'])).default([]),
     governance: z.object({
       status: z.enum(['draft', 'functional-review', 'editorial-review', 'approved', 'published', 'deprecated']),
       owner: z.string(),
@@ -37,9 +38,11 @@ const manual = defineCollection({
     }),
     migration: z.object({
       sourceCount: z.number().int().positive(),
+      originUrls: z.array(z.url()).min(1),
+      redirectFrom: z.array(z.url()).min(1),
       contentHash: z.string().length(64),
       migratedAt: z.coerce.date()
-    }).optional(),
+    }),
     readingTime: z.number().positive(),
     featured: z.boolean().default(false)
   })

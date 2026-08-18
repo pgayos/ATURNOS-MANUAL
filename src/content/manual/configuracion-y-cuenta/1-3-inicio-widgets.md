@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-1-3-inicio-widgets"
-title: "Inicio (Widgets)"
-description: "En la Pantalla de inicio de aTurnos puedes ver diferentes widgets. Un widget es una pequeña herramienta o aplicación que muestra información de forma visual y permite acceder rápidamente a funciones comunes."
+contentId: configuracion-y-cuenta-1-3-inicio-widgets
+title: Inicio (Widgets)
+description: En la Pantalla de inicio de aTurnos puedes ver diferentes widgets. Un widget es una pequeña herramienta o aplicación que muestra información de forma visual y permite acceder rápidamente a funciones comunes.
 contentType: reference
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Inicio (Widgets)"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Inicio (Widgets)
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "inicio"
-    label: "Inicio"
-  - id: "widgets"
-    label: "Widgets"
+  - id: inicio
+    label: Inicio
+  - id: widgets
+    label: Widgets
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets/"
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets/"
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre inicio (Widgets)?"
+    - ¿Qué debo saber sobre inicio (Widgets)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 21
+readingTime: 30
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b44969596846593a1b795e1c92f1fdacd0e11fe87194cd776a9f337e8f87a498"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets/
+  contentHash: fafb250b214722724d3c7982c8c21d57329dbb91714fa6c13e75f7e1b2e6f1c5
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -467,3 +474,7 @@ Este widget muestra el nombre de los trabajadores que en los próximos 30 días 
 Este widget te muestra la cantidad de horas que tienes planificadas de un tipo de absentismo seleccionado. Visible a nivel: Trabajador, validador y planificador.
 
 Este widget muestra el balance con el número de horas computadas en el año (según la planificación del cuadrante), comparadas con las horas año contrato establecidas en el perfil del trabajador que ha iniciado sesión. Además lo que diferencia este widget de los anteriores es que aparece el balance con los ajustes de horas que se le han realizado al trabajador y si se hace clic sobre él nos lleva al cuadrante anual para obtener más detalle sobre lo planificado y lo ajustado.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

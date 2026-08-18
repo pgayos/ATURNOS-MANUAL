@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-4-importacion-de-catalogos-de-tareas"
-title: "Importación de catálogos de tareas"
-description: "Información sobre importación de catálogos de tareas, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: tareas-4-importacion-de-catalogos-de-tareas
+title: Importación de catálogos de tareas
+description: Para realizar cualquiera de las acciones que se explican a continuación, es necesario acceder al sistema con el rol superusuario.
 contentType: concept
-module: "Tareas"
-submodule: "General"
-intent: "Importación de catálogos de tareas"
+module: Tareas
+submodule: General
+intent: Importación de catálogos de tareas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "catalogos"
-    label: "Catalogos"
-  - id: "importacion"
-    label: "Importacion"
-  - id: "tareas"
-    label: "Tareas"
+  - id: catalogos
+    label: Catalogos
+  - id: importacion
+    label: Importacion
+  - id: tareas
+    label: Tareas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-importacion-de-catalogos-de-tareas/"
+    - https://manual.aturnos.com/knowledgebase/4-importacion-de-catalogos-de-tareas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-importacion-de-catalogos-de-tareas/"
+    - https://manual.aturnos.com/knowledgebase/4-importacion-de-catalogos-de-tareas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importación de catálogos de tareas?"
+    - ¿Qué debo saber sobre importación de catálogos de tareas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "2c79bee264d23325e280bd450348cd571a0c4e65347da7fed573c8222909b708"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-importacion-de-catalogos-de-tareas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-importacion-de-catalogos-de-tareas/
+  contentHash: 2ba76060800cdc06bba2cefd1afd128399d73ef6665a0303237c3ef9f73ac1fc
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre importación de catálogos de tareas, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Para realizar cualquiera de las acciones que se explican a continuación, es necesario acceder al sistema con el rol superusuario. Hay que tener en cuenta que todas estas acciones, se realizan a nivel de equipo. IMPORTANTE: Antes de realizar cualquier carga, es recomendable comparar las tareas que hay en la herramienta con las tareas a cargar, para verificar que se esta cargando lo mismo y no se está sobrescribiendo ninguna actividad, tarea o subtarea.
 
 Para llevar a cabo la importación del fichero que contiene los catálogos de tareas, se debe crear un documento de tipo CSV (delimitado por comas), que contenga las siguientes columnas:

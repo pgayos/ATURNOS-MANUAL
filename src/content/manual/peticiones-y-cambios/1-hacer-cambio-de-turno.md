@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-1-hacer-cambio-de-turno"
-title: "Hacer Cambio de Turno"
-description: "Los cambios de turno solo pueden realizarse en el presente o en fechas futuras; aTurnos no permite aplicarlos sobre fechas pasadas."
+contentId: peticiones-y-cambios-1-hacer-cambio-de-turno
+title: Hacer Cambio de Turno
+description: Los cambios de turno solo pueden realizarse en el presente o en fechas futuras; aTurnos no permite aplicarlos sobre fechas pasadas.
 contentType: reference
-module: "Peticiones y cambios"
-submodule: "Roles y permisos"
-intent: "Hacer Cambio de Turno"
+module: Peticiones y cambios
+submodule: Roles y permisos
+intent: Hacer Cambio de Turno
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cambio"
-    label: "Cambio"
-  - id: "hacer"
-    label: "Hacer"
-  - id: "turno"
-    label: "Turno"
+  - id: cambio
+    label: Cambio
+  - id: hacer
+    label: Hacer
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/a-hacer-cambio-2/"
+    - https://manual.aturnos.com/knowledgebase/a-hacer-cambio-2/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/a-hacer-cambio-2/"
+    - https://manual.aturnos.com/knowledgebase/a-hacer-cambio-2/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre hacer Cambio de Turno?"
+    - ¿Qué debo saber sobre hacer Cambio de Turno?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 10
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1db91161addfe2520bab86e28b2db46171de0cd68304f27d45e2d69b3d8b3a7b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/a-hacer-cambio-2/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/a-hacer-cambio-2/
+  contentHash: 9d5b7111f697ec518be4cc07ef763eb6a0d6b9fe61c7b1a28bf28a7143328413
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -55,7 +62,7 @@ Los cambios de turno solo pueden realizarse en el presente o en fechas futuras; 
 
 El cambio de turnos es uno de los procesos más usado por los profesionales que trabajan a turnos. El cambio de turno entre trabajadores facilita la conciliación laboral y familiar, disminuyendo el número de absentismos por la flexibilidad en la planificación de los trabajadores con sus cambios de turnos.
 
-Los cambios de turnos, según configuración, pueden ser validados por los trabajadores implicados en el cambio y el administrador del equipo. Todos los cambios de turnos entre trabajadores quedan registradoss en un histórico de cambios, accediendo a ellos para cualquier consulta o seguimiento cuando sea requerido.
+Los cambios de turnos, según configuración, pueden ser validados por los trabajadores implicados en el cambio y el administrador del equipo. Todos los cambios de turnos entre trabajadores quedan registradosss en un histórico de cambios, accediendo a ellos para cualquier consulta o seguimiento cuando sea requerido.
 
 El Administrador puede iniciar un proceso de cambios de turnos entre compañeros, sin necesidad de que ellos mismos lo soliciten. Lo habitual es que este proceso de cambio de turnos se realice entre trabajadores, y sea validado en primer lugar por el trabajador implicado en el cambio, y a continuación por el administrador del equipo para confirmar o denegar, en última instancia, este cambio de turno. En aTurnos este proceso de validación de cambios de turnos es configurable (ver Configuración de cambios ).
 
@@ -143,3 +150,7 @@ El trabajador desde el cuadrante, sobre un turno planificado seleccionar la opci
 Cuando el trabajador selecciona el día, aparece un formulario que resume el cambio y con la opción de poner un comentario antes de guardarlo.
 
 Más especificaciones sobre la configuración del equipo relacionada con los cambios de turnos: acceda a este enlace.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

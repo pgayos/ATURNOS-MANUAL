@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-3-1-fichajes-pendientes"
-title: "Fichajes pendientes"
-description: "En ocasiones es posible que, por razones de configuración, técnicas u olvido del trabajador, algunos fichajes no sean realizados por los trabajadores al inicio o fin de su turno de trabajo."
+contentId: control-horario-3-1-fichajes-pendientes
+title: Fichajes pendientes
+description: En ocasiones es posible que, por razones de configuración, técnicas u olvido del trabajador, algunos fichajes no sean realizados por los trabajadores al inicio o fin de su turno de trabajo.
 contentType: reference
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Fichajes pendientes"
+module: Control horario
+submodule: Fichajes
+intent: Fichajes pendientes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "pendientes"
-    label: "Pendientes"
+  - id: fichajes
+    label: Fichajes
+  - id: pendientes
+    label: Pendientes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-1-fichajes-pendientes/"
+    - https://manual.aturnos.com/knowledgebase/3-1-fichajes-pendientes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-1-fichajes-pendientes/"
+    - https://manual.aturnos.com/knowledgebase/3-1-fichajes-pendientes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre fichajes pendientes?"
+    - ¿Qué debo saber sobre fichajes pendientes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3538ff4bc4ea1a48e28d1bb9662358fbc190ce659ebb21b199b27e20c42a4b83"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-1-fichajes-pendientes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-1-fichajes-pendientes/
+  contentHash: 46d4bac81d958102a6b9f8de8ff3418f350e57fa81a320ead339acb30238fff1
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En ocasiones es posible que, por razones de configuración, técnicas u olvido del trabajador, algunos fichajes no sean realizados por los trabajadores al inicio o fin de su turno de trabajo.
 
-## Contenido
-
+## Opciones y datos disponibles
 aTurnos dispone de esta función donde los administradores pueden solicitar y gestionar aquellas peticiones de fichajes que no se ficharon.
 
 Las peticiones de fichajes pueden ser configuradas para ser aprobadas automáticamente (ver ¿Cómo configurar peticiones de fichajes auto aprobables? ) o para ser aprobadas por un administrador (ver Privacidad de Control de Presencia ).

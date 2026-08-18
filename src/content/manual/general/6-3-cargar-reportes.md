@@ -1,36 +1,37 @@
 ---
 schemaVersion: "1.0"
-contentId: "general-6-3-cargar-reportes"
-title: "Cargar reportes"
-description: "Esta función permite cargar cualquier reporte que haya sido guardado."
+contentId: general-6-3-cargar-reportes
+title: Cargar reportes
+description: Esta función permite cargar cualquier reporte que haya sido guardado.
 contentType: concept
-module: "General"
-submodule: "General"
-intent: "Cargar reportes"
+module: General
+submodule: General
+intent: Cargar reportes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities:
-  - id: "cargar"
-    label: "Cargar"
-  - id: "reportes"
-    label: "Reportes"
+  - id: cargar
+    label: Cargar
+  - id: reportes
+    label: Reportes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-3-cargar-reportes/"
+    - https://manual.aturnos.com/knowledgebase/6-3-cargar-reportes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-3-cargar-reportes/"
+    - https://manual.aturnos.com/knowledgebase/6-3-cargar-reportes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cargar reportes?"
+    - ¿Qué debo saber sobre cargar reportes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -38,17 +39,26 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f1754376188f89d5b24159a9f2914d9b57291b02bf583d5a7a8f84168e9ddf28"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-3-cargar-reportes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-3-cargar-reportes/
+  contentHash: 9a8140b559b7dcc46a81dadb9f7f13b814935f002cf530113e90f58360755964
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
 Esta función permite cargar cualquier reporte que haya sido guardado.
 
-## Contenido
-
+## Qué debes saber
 Para acceder a un reporte, se debe hacer clic sobre la descripción del reporte.
 
 ## Revisión requerida
 
 La fuente pública de **Cargar reportes** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

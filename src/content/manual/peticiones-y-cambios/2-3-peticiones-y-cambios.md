@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-2-3-peticiones-y-cambios"
-title: "Peticiones y cambios"
-description: "En esta pestaña el trabajador puede visualizar tanto las peticiones como los cambios pendientes de validar por los administradores del equipo."
+contentId: peticiones-y-cambios-2-3-peticiones-y-cambios
+title: Peticiones y cambios
+description: En esta pestaña el trabajador puede visualizar tanto las peticiones como los cambios pendientes de validar por los administradores del equipo.
 contentType: concept
-module: "Peticiones y cambios"
-submodule: "Vacaciones y ausencias"
-intent: "Peticiones y cambios"
+module: Peticiones y cambios
+submodule: Vacaciones y ausencias
+intent: Peticiones y cambios
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cambios"
-    label: "Cambios"
-  - id: "peticiones"
-    label: "Peticiones"
+  - id: cambios
+    label: Cambios
+  - id: peticiones
+    label: Peticiones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-3-peticiones-y-cambios/"
+    - https://manual.aturnos.com/knowledgebase/2-3-peticiones-y-cambios/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-3-peticiones-y-cambios/"
+    - https://manual.aturnos.com/knowledgebase/2-3-peticiones-y-cambios/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre peticiones y cambios?"
+    - ¿Qué debo saber sobre peticiones y cambios?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "fccee5c3a4f9e1f89f2e1175d655fb11457b43c6ad738d26b963848a06fc7f50"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-3-peticiones-y-cambios/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-3-peticiones-y-cambios/
+  contentHash: 5f4a74947bcc3f853f28238140737b01707c2adba9858cb64778476bc6df129f
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -140,3 +147,7 @@ El administrador ofrece un turno de trabajo al equipo para que los trabajadores 
 Para apuntarte a un turno ofertado, solo tienes que pulsar el botón de acción.
 
 Aún no está planificado. Será el administrador quien decida, a quién planificar el turno, entre todos los trabajadores que han realizado la acción de “coger”. Después, las ofertas cuando son asignadas se solicitan en solicitudes de turno de un empleado que son aprobadas directamente por el administrador. Así dispone del asistente de peticiones para poder realizar las comprobaciones en las peticiones.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

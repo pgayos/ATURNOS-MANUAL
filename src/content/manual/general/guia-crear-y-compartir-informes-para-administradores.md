@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "general-guia-crear-y-compartir-informes-para-administradores"
-title: "Crear y compartir informes para administradores"
-description: "Información sobre crear y compartir informes para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: general-guia-crear-y-compartir-informes-para-administradores
+title: Crear y compartir informes para administradores
+description: aTurnos ofrece una herramienta avanzada de generación de reportes que facilita el análisis de datos clave tanto a nivel individual como colectivo.
 contentType: concept
-module: "General"
-submodule: "Informes y estadísticas"
-intent: "Crear y compartir informes"
+module: General
+submodule: Informes y estadísticas
+intent: Crear y compartir informes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-02-05
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/creacion-de-informes-personalizados/configuracion-de-metricas-clave-de-gestion-y-planificacion-horaria/"
+    - https://guias.aturnos.com/guias/guias-administrador/creacion-de-informes-personalizados/configuracion-de-metricas-clave-de-gestion-y-planificacion-horaria/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre crear y compartir informes para administradores?"
+    - ¿Qué debo saber sobre crear y compartir informes para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/creacion-de-informes-personalizados/configuracion-de-metricas-clave-de-gestion-y-planificacion-horaria/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/creacion-de-informes-personalizados/configuracion-de-metricas-clave-de-gestion-y-planificacion-horaria/
+  contentHash: 5fe26fc1978f15abfeec5fe3696552adb9d4b162006ba9d5aae9cde6650f9f0b
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

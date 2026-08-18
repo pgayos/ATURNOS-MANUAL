@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-4-menos-de-4-hrs-fichadas-en-un-dia"
-title: "Menos de 4 Hrs fichadas en un día"
-description: "Los trabajadores que hayan realizado un fichaje con duración inferior a 4 horas, se mostrarán en el reporte."
+contentId: gestion-de-personal-4-menos-de-4-hrs-fichadas-en-un-dia
+title: Menos de 4 Hrs fichadas en un día
+description: Los trabajadores que hayan realizado un fichaje con duración inferior a 4 horas, se mostrarán en el reporte.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Altas y bajas"
-intent: "Menos de 4 Hrs fichadas en un día"
+module: Gestión de personal
+submodule: Altas y bajas
+intent: Menos de 4 Hrs fichadas en un día
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "dia"
-    label: "Dia"
-  - id: "fichadas"
-    label: "Fichadas"
-  - id: "hrs"
-    label: "Hrs"
-  - id: "menos"
-    label: "Menos"
+  - id: dia
+    label: Dia
+  - id: fichadas
+    label: Fichadas
+  - id: hrs
+    label: Hrs
+  - id: menos
+    label: Menos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-menos-de-4-hrs-fichadas-en-un-dia/"
+    - https://manual.aturnos.com/knowledgebase/4-menos-de-4-hrs-fichadas-en-un-dia/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-menos-de-4-hrs-fichadas-en-un-dia/"
+    - https://manual.aturnos.com/knowledgebase/4-menos-de-4-hrs-fichadas-en-un-dia/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo menos de 4 Hrs fichadas en un día?"
+    - ¿Cómo puedo menos de 4 Hrs fichadas en un día?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "5d3d5de44bec146e090302398c1284fe60e9c90ab8490fff0a2addb23c59cfaf"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-menos-de-4-hrs-fichadas-en-un-dia/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-menos-de-4-hrs-fichadas-en-un-dia/
+  contentHash: a17ca881b31116a366ab4c779d6836deeb1bc57a6b0934b98c4042fca3174018
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Los trabajadores que hayan realizado un fichaje con duración inferior a 4 horas, se mostrarán en el reporte.
 
-## Contenido
-
+## Procedimiento
 El reporte informa:
 
 - Equipo donde sucede el caso.

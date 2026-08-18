@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-b-info"
-title: "info en aTurnos"
-description: "En este apartado se muestra información a detalle del evento que está registrado en el cuadrante el día seleccionado."
+contentId: planificacion-b-info
+title: info en aTurnos
+description: En este apartado se muestra información a detalle del evento que está registrado en el cuadrante el día seleccionado.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "info en aTurnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: info en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "info"
-    label: "Info"
+  - id: info
+    label: Info
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/b-info/"
+    - https://manual.aturnos.com/knowledgebase/b-info/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/b-info/"
+    - https://manual.aturnos.com/knowledgebase/b-info/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo info en aTurnos?"
+    - ¿Cómo puedo info en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f87d0d6105d80f61c713b74e90dafd9721d0f05c3a60266eb3c9df2b22ceb88d"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/b-info/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/b-info/
+  contentHash: 0fb97ac3bea47ff5a9939a58d2322a1653ba2fbf8b6beeb166d0a98d335be2f8
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En este apartado se muestra información a detalle del evento que está registrado en el cuadrante el día seleccionado.
 
-## Contenido
-
+## Procedimiento
 En ocasiones el trabajador puede estar planificado en más cuadrante de otros equipos. En el caso de que tenga planificación en otros cuadrantes el sistema informa la planificación de la semana de todos los equipos en el que se encuentra dado de alta.
 
 Cuando en el día se encuentra registrada una “Petición” del trabajador (ya aprobado por su supervisor), al entrar en la información se mostrará en la columna de Peticiones el icono para ver el detalle de la misma, así como la planificación que tenía asignados anteriormente (Cuadrante anterior).

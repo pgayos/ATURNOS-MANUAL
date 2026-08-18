@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-10-5-estadistica-todos-los-equipos"
-title: "Estadística todos los equipos"
-description: "A través de la estadística todos los equipos se visualiza el resultado del cálculo de variables entre las fechas de ejecución."
+contentId: costes-y-nominas-10-5-estadistica-todos-los-equipos
+title: Estadística todos los equipos
+description: A través de la estadística todos los equipos se visualiza el resultado del cálculo de variables entre las fechas de ejecución.
 contentType: concept
-module: "Costes y nóminas"
-submodule: "Roles y permisos"
-intent: "Estadística todos los equipos"
+module: Costes y nóminas
+submodule: Roles y permisos
+intent: Estadística todos los equipos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
 entities:
-  - id: "equipos"
-    label: "Equipos"
-  - id: "estadistica"
-    label: "Estadistica"
-  - id: "todos"
-    label: "Todos"
+  - id: equipos
+    label: Equipos
+  - id: estadistica
+    label: Estadistica
+  - id: todos
+    label: Todos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-5-estadistica-todos-los-equipos/"
+    - https://manual.aturnos.com/knowledgebase/10-5-estadistica-todos-los-equipos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-5-estadistica-todos-los-equipos/"
+    - https://manual.aturnos.com/knowledgebase/10-5-estadistica-todos-los-equipos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre estadística todos los equipos?"
+    - ¿Qué debo saber sobre estadística todos los equipos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8cc10aaecd02408025b8d75171e4b0e4e017d44cecaa5ae544c8d0d40a72771e"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-5-estadistica-todos-los-equipos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-5-estadistica-todos-los-equipos/
+  contentHash: d6b4468f7158c225b8e3adfcc75844ee2a4a0ca1ca06b46813a0c63ba0bdb2e9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 A través de la estadística todos los equipos se visualiza el resultado del cálculo de variables entre las fechas de ejecución.
 
-## Contenido
-
+## Qué debes saber
 No es aconsejable el uso de la estadística (de este punto) ya que en el caso de cálculos complejos en los que se utilizan tanto conceptos que operan entre conceptos como conceptos de comparación, los operaciones las realizan entre las fechas de la ejecución.
 
 Es decir, en el ejemplo que se ha ido desarrollando en este Manual, las horas de nocturnidad se calculan en un concepto de nómina si son menores a 10 (concepto 3K00) y si las horas nocturnas son iguales o mayores a 10 (concepto 3000).

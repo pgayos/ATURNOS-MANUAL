@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-a-turnos"
-title: "Turnos en aTurnos"
-description: "Es el tipo de evento básico de planificación en aTurnos. Cada turno tiene una duración total (tiempo total del turno) y una duración computada (tiempo computado del turno)."
+contentId: planificacion-a-turnos
+title: Turnos en aTurnos
+description: Es el tipo de evento básico de planificación en aTurnos. Cada turno tiene una duración total (tiempo total del turno) y una duración computada (tiempo computado del turno).
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Turnos en aTurnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Turnos en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "turnos"
-    label: "Turnos"
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/a-turnos/"
+    - https://manual.aturnos.com/knowledgebase/a-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/a-turnos/"
+    - https://manual.aturnos.com/knowledgebase/a-turnos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre turnos en aTurnos?"
+    - ¿Qué debo saber sobre turnos en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 9
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "a255c3ef422ce824f97a81ab0d0c08da963532eb1e9f3e22c7a5570200cc3c70"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/a-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/a-turnos/
+  contentHash: 5e3ae44c11a7fbc5581e2a4bd3b8728b4c753db6c0f3a9b6985f02cbb9c50c16
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -176,3 +183,7 @@ Se puede configurar una flexibilidad para los fichajes de los turnos.
 Para ello hay que indicar desde qué hora se puede contabilizar el fichaje de Entrada al turno de trabajo en el campo ‘Inicio horario fichajes’ y hasta qué hora se puede contabilizar el fichaje de Salida en ‘Fin horario fichajes’.
 
 Más información del funcionamiento en ‘Flexibilidad de fichajes’.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

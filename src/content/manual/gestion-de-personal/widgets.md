@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-widgets"
-title: "Widgets en aTurnos"
-description: "Una vez logueado el usuario administrador y seleccionadoel equipo deseado, en la pantalla de inicio encontrarás los siguientes widgets:."
+contentId: gestion-de-personal-widgets
+title: Widgets en aTurnos
+description: Una vez logueado el usuario administrador y seleccionadoel equipo deseado, en la pantalla de inicio encontrarás los siguientes widgets:.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Widgets en aTurnos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Widgets en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "widgets"
-    label: "Widgets"
+  - id: widgets
+    label: Widgets
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/widgets/"
+    - https://manual.aturnos.com/knowledgebase/widgets/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/widgets/"
+    - https://manual.aturnos.com/knowledgebase/widgets/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo widgets en aTurnos?"
+    - ¿Cómo puedo widgets en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bd77a7c6c7fffcd352f26975395188309ca873815c5210c7ef76ff8be776e902"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/widgets/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/widgets/
+  contentHash: 86f11b177a17b42071d0e9663894ee316471307d7aa184efbb50f6270abed370
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Una vez logueado el usuario administrador y seleccionadoel equipo deseado, en la pantalla de inicio encontrarás los siguientes widgets:.
 
-## Contenido
-
+## Procedimiento
 - Próximo turno a trabajar: día, turno y localización del siguiente turno a realizar correspondiente al administrador.
 - Chat: chat del equipo donde podrás comunicarte con los trabajadores del equipo, ver los mensajes nuevos, así como transmitir información importante y/o novedades.
 - Fichar entrada y/o salida y tiempo trabajado: desde el menú principal podrás fichar la entrada y/o salida y además podrás consultar de un solo vistazo el tiempo trabajado.

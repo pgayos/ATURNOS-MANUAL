@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-1-1-modo-de-validacion-para-la-exportacion"
-title: "Modo de validación para la exportación"
-description: "Se precisa indicar el estado en el que se debe encontrar el cuadrante para que se pueda ejecutar el proceso de descarga de variables."
+contentId: costes-y-nominas-1-1-modo-de-validacion-para-la-exportacion
+title: Modo de validación para la exportación
+description: Se precisa indicar el estado en el que se debe encontrar el cuadrante para que se pueda ejecutar el proceso de descarga de variables.
 contentType: reference
-module: "Costes y nóminas"
-submodule: "Usuarios y perfiles"
-intent: "Modo de validación para la exportación"
+module: Costes y nóminas
+submodule: Usuarios y perfiles
+intent: Modo de validación para la exportación
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "exportacion"
-    label: "Exportacion"
-  - id: "modo"
-    label: "Modo"
-  - id: "validacion"
-    label: "Validacion"
+  - id: exportacion
+    label: Exportacion
+  - id: modo
+    label: Modo
+  - id: validacion
+    label: Validacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/"
+    - https://manual.aturnos.com/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/"
+    - https://manual.aturnos.com/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre modo de validación para la exportación?"
+    - ¿Qué debo saber sobre modo de validación para la exportación?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c8ab9a4a4500d076317dbb9555d6c76941223487577752cc12614ea3390468f8"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/
+  contentHash: e912c7c75c01f13c6e5a95adbe560c5d733cd718281e1fd4439818e40a44f25d
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Se precisa indicar el estado en el que se debe encontrar el cuadrante para que se pueda ejecutar el proceso de descarga de variables.
 
-## Contenido
-
+## Opciones y datos disponibles
 Las opciones disponibles son tres:
 
 1. No necesita validación, es decir, la descarga de las variables siempre se puede ejecutar.

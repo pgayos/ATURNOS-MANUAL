@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-6-2-reporte-de-localizaciones"
-title: "Reporte de localizaciones"
+contentId: recursos-y-partes-6-2-reporte-de-localizaciones
+title: Reporte de localizaciones
 description: "Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas."
 contentType: procedure
-module: "Recursos y partes"
-submodule: "Usuarios y perfiles"
-intent: "Reporte de localizaciones"
+module: Recursos y partes
+submodule: Usuarios y perfiles
+intent: Reporte de localizaciones
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "localizaciones"
-    label: "Localizaciones"
-  - id: "reporte"
-    label: "Reporte"
+  - id: localizaciones
+    label: Localizaciones
+  - id: reporte
+    label: Reporte
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-2-reporte-de-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/6-2-reporte-de-localizaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-2-reporte-de-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/6-2-reporte-de-localizaciones/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo reporte de localizaciones?"
+    - ¿Cómo puedo reporte de localizaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "778b71ae9d39af41e88931eaaac6d6e30f1cd3f1415c3f398e8a39bb7c38f2d0"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-2-reporte-de-localizaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-2-reporte-de-localizaciones/
+  contentHash: 0cb3862e63fd2b8fbac3e66de59808f96733cea2515b61760ac0a50bfd65c780
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -69,3 +76,7 @@ Dicha tabla se configura de la siguiente forma, y para ello se muestran una seri
 - Variables seleccionables: Turnos: como periodo de tiempo definido con una hora de entrada y hora de salida, en el cual un trabajador cubre su puesto de trabajo. Jornadas: cantidad de tiempo definida en Ajustes (enlazar nuevo Administrar) que se considera como jornada en un día, dependiendo de lo estipulado en contrato de trabajo o convenio. Vacaciones: número de días de vacaciones disfrutados y planificados a la fecha por el trabajador. Libres: número de días libres de cada persona por periodo indicado. Jornadas absentismos: es la suma de absentismos de cada trabajador según la Jornada establecida por contrato o convenio. Horas: muestra el total de horas planificadas y trabajadas, dispuestas en el cuadrante de cada trabajador. Complementarias/Extras: presenta la suma de horas complementarias y extras. Horas absentismos: indica el total de horas de todos los tipos de absentismos en los que ha incurrido cada trabajador. Horas Extra: aquellas horas de trabajo que se realicen sobre la duración máxima de la jornada ordinaria de trabajo, fijada mediante convenio colectivo o, en su defecto, contrato individual. Complementaria: número de horas realizadas como adición a las horas ordinarias pactadas en el contrato a tiempo parcial. Normal: muestra las horas adicionales que se han añadido a cualquier tipo de turno por cada trabajador, que no son consideradas ni extras, ni complementarias. Horas festivas: refleja las horas planificadas en días que son declarados como festivos (domingos y festivos marcados en el calendario laboral correspondiente). Horas nocturnas: cantidad de horas realizadas en un turno considerado nocturno, entre las diez de la noche y las seis de la mañana, según estipula la legislación.
 
 Todos estos datos se generan a lo largo de un periodo, el cual puede abarcar más de un mes.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

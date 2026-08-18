@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-1-menu-principal"
-title: "Menú Principal"
-description: "Información sobre menú Principal, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-1-1-menu-principal
+title: Menú Principal
+description: El menú principal de aTurnos te permite acceder y gestionar la información de tu empresa de manera fácil y rápida.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Menú Principal"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Menú Principal
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "menu"
-    label: "Menu"
-  - id: "principal"
-    label: "Principal"
+  - id: menu
+    label: Menu
+  - id: principal
+    label: Principal
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal/"
+    - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal/"
+    - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre menú Principal?"
+    - ¿Qué debo saber sobre menú Principal?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f529b1f8fc3bd8ec90bf68f73f39a7f75b950407d817348b245403b61a3c13f0"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal/
+  contentHash: 2bb849f85c37037f5886d1382a101e59509fd73d03b1a46b7997229506340001
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre menú Principal, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 El menú principal de aTurnos te permite acceder y gestionar la información de tu empresa de manera fácil y rápida. En este menú, encontramos por defecto * las pestañas: Inicio, Cuadrante, Planificador, Registro, Trabajadores, Estadísticas y Administrar.
 
 *Además de estas opciones, aTurnos dispone de unos módulos adicionales para cubrir de manera más específica las necesidades de cada sector.

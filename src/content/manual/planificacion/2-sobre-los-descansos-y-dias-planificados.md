@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-sobre-los-descansos-y-dias-planificados"
-title: "Sobre los descansos y días planificados"
-description: "Esta restricción establece un horario de tiempo determinado para un trabajador o un grupo de trabajadores determinados. Si se inserta un horario diferente teniendo la restricción aplicada el sistema no lo permitiría."
+contentId: planificacion-2-sobre-los-descansos-y-dias-planificados
+title: Sobre los descansos y días planificados
+description: Esta restricción establece un horario de tiempo determinado para un trabajador o un grupo de trabajadores determinados. Si se inserta un horario diferente teniendo la restricción aplicada el sistema no lo permitiría.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Sobre los descansos y días planificados"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Sobre los descansos y días planificados
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "descansos"
-    label: "Descansos"
-  - id: "dias"
-    label: "Dias"
-  - id: "planificados"
-    label: "Planificados"
-  - id: "sobre"
-    label: "Sobre"
+  - id: descansos
+    label: Descansos
+  - id: dias
+    label: Dias
+  - id: planificados
+    label: Planificados
+  - id: sobre
+    label: Sobre
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-sobre-los-descansos/"
+    - https://manual.aturnos.com/knowledgebase/2-sobre-los-descansos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-sobre-los-descansos/"
+    - https://manual.aturnos.com/knowledgebase/2-sobre-los-descansos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo sobre los descansos y días planificados?"
+    - ¿Cómo puedo sobre los descansos y días planificados?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 10
+readingTime: 14
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "095ab99ab1d07354b36aea771cbcdf0f9911c542849556c9b5d977eed1f3a776"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-sobre-los-descansos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-sobre-los-descansos/
+  contentHash: 37ec428207eccb0f107c292054ba998039c272a2c819671b923b9685de525d6e
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -248,3 +255,7 @@ Esta restricción funciona como todas las anteriores que establecen un mínimo d
 ⚙️ Configuración: Esta restricción, además de la configuración básica, tiene un campo adicional:
 
 - Valor de la restricción: Establece un mínimo de horas que debe haber entre dos turnos en distinto día. Tipos de turno: Indica el tipo de turno que se tomará como referencia a la hora de comprobar la restricción.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

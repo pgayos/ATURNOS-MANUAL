@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-1-ajustes-del-control-horario"
-title: "Ajustes del control horario"
-description: "Información sobre ajustes del control horario, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-1-ajustes-del-control-horario
+title: Ajustes del control horario
+description: El funcionamiento del control horario se basa en la configuración de los ajustes que se explican a continuación, así como de la privacidad del acceso a la información de los fichajes por par.
 contentType: reference
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Ajustes del control horario"
+module: Control horario
+submodule: Fichajes
+intent: Ajustes del control horario
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "ajustes"
-    label: "Ajustes"
-  - id: "control"
-    label: "Control"
-  - id: "horario"
-    label: "Horario"
+  - id: ajustes
+    label: Ajustes
+  - id: control
+    label: Control
+  - id: horario
+    label: Horario
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-1-ajustes-del-control-horario/"
+    - https://manual.aturnos.com/knowledgebase/5-1-ajustes-del-control-horario/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-1-ajustes-del-control-horario/"
+    - https://manual.aturnos.com/knowledgebase/5-1-ajustes-del-control-horario/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre ajustes del control horario?"
+    - ¿Qué debo saber sobre ajustes del control horario?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "74a4c7ff4dd65674d2df8baafcd811fd88b243733b9a4d3a3db9c2da380bbc07"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-1-ajustes-del-control-horario/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-1-ajustes-del-control-horario/
+  contentHash: 25a6da3be8457508d81a9d83f2820a87a0265c4841fc00f0764a4de1c4e8595f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre ajustes del control horario, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 El funcionamiento del control horario se basa en la configuración de los ajustes que se explican a continuación, así como de la privacidad del acceso a la información de los fichajes por parte de los trabajadores (ver Detalle como trabajador) y la posibilidad de poder realizar peticiones de fichajes pendientes.
 
 Aspectos como el cálculo de la tolerancias y definición de tiempos de las tolerancias, la duración máxima de la jornada entre un fichaje y el siguiente (ver configuración de la duración máxima de la jornada ) o si los descansos en los turnos se fichan o no (ver configuración de los descansos ) pueden ser configurados según las necesidades del equipo de trabajo. A continuación se explica el funcionamiento de cada ajuste.

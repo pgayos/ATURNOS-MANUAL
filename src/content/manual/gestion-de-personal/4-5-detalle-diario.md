@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-4-5-detalle-diario"
-title: "Detalle diario"
-description: "En esta pestaña por día se pueden ver los siguiente datos:."
+contentId: gestion-de-personal-4-5-detalle-diario
+title: Detalle diario
+description: En esta pestaña por día se pueden ver los siguiente datos:.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Detalle diario"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Detalle diario
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "detalle"
-    label: "Detalle"
-  - id: "diario"
-    label: "Diario"
+  - id: detalle
+    label: Detalle
+  - id: diario
+    label: Diario
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-5-detalle-diario/"
+    - https://manual.aturnos.com/knowledgebase/4-5-detalle-diario/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-5-detalle-diario/"
+    - https://manual.aturnos.com/knowledgebase/4-5-detalle-diario/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre detalle diario?"
+    - ¿Qué debo saber sobre detalle diario?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bf445a8bf958f10f16fa5492b0b03e0499717313894e01e0f158946d8c23c62a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-5-detalle-diario/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-5-detalle-diario/
+  contentHash: 760f942ee26f786a4836d692222357e60ca757a4f40e347a47130fea3a7db4ff
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En esta pestaña por día se pueden ver los siguiente datos:.
 
-## Contenido
-
+## Qué debes saber
 - ID Empleado: este campo lo puedes completar en el perfil de cada trabajador (ver más sobre perfil de trabajadores).
 - Nombre: nombre del trabajador.
 - Categoría: categoría del trabajador (ver más sobre las categorías).

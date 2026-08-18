@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-b-especialidades"
-title: "Especialidades"
-description: "Información sobre especialidades, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-b-especialidades
+title: Especialidades
+description: Las especialidades en aTurnos son aquellas capacidades o habilidades que tiene un trabajador.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Vacaciones y ausencias"
-intent: "Especialidades"
+module: Gestión de personal
+submodule: Vacaciones y ausencias
+intent: Especialidades
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "especialidades"
-    label: "Especialidades"
+  - id: especialidades
+    label: Especialidades
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/b-especialidades/"
+    - https://manual.aturnos.com/knowledgebase/b-especialidades/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/b-especialidades/"
+    - https://manual.aturnos.com/knowledgebase/b-especialidades/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre especialidades?"
+    - ¿Qué debo saber sobre especialidades?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f41358f94c72f1ceea22de5b07e59f04b81dff58313b2fea4f35929a44f5c12f"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/b-especialidades/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/b-especialidades/
+  contentHash: 67c36f073d64e533771e9f34eac42f019d0499955a4aeacb0a90860c132aa439
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre especialidades, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Las especialidades en aTurnos son aquellas capacidades o habilidades que tiene un trabajador. Podemos elegir una puntuación para después ayudarnos en la planificación. Nos ayudará a diferenciar trabajadores por sus habilidades y esto implica una mejor planificación teniendo a los profesionales más cualificados en los momentos importantes.
 
 En muchas herramientas de aTurnos podrás controlar las especialidades, como por ejemplo en las tablas de cobertura para validar cuántos trabajadores tienes planificados con un mínimo de especialidad o no permitir cambios entre trabajadores que no tengan la misma especialidad. Te servirá para definir la polivalencia de tus trabajadores, cuando en su ficha puedas indicar varias especialidades que cumple el trabajador.

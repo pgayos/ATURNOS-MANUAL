@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-11-dispositivos"
-title: "Dispositivos"
-description: "En este listado se muestran los dispositivos registrados en el WallApp por Compañía."
+contentId: gestion-de-personal-11-dispositivos
+title: Dispositivos
+description: En este listado se muestran los dispositivos registrados en el WallApp por Compañía.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Dispositivos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Dispositivos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "dispositivos"
-    label: "Dispositivos"
+  - id: dispositivos
+    label: Dispositivos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/11-dispositivos/"
+    - https://manual.aturnos.com/knowledgebase/11-dispositivos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/11-dispositivos/"
+    - https://manual.aturnos.com/knowledgebase/11-dispositivos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo dispositivos?"
+    - ¿Cómo puedo dispositivos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "0bd1e108131d6286f06013ed0f34cdc3064a470abb46145ccfa22c003af5289b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/11-dispositivos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/11-dispositivos/
+  contentHash: 55273d58237c664249bc43f08b19ba6d71bd0b32650af7a2f53b3027dfa0c9c9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En este listado se muestran los dispositivos registrados en el WallApp por Compañía.
 
-## Contenido
-
+## Procedimiento
 Se pueden cargar, seleccionando la Compañía.
 
 También se puede ‘Añadir dispositivo’ que no esté dentro de una Compañía.

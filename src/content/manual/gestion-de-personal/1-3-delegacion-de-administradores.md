@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-3-delegacion-de-administradores"
-title: "Delegación de administradores"
-description: "Información sobre delegación de administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-1-3-delegacion-de-administradores
+title: Delegación de administradores
+description: En equipos con varias sedes o departamentos (lo que llamamos localizaciones ), es importante que cada trabajador o responsable solo pueda ver los turnos de su propio equipo.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Delegación de administradores"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Delegación de administradores
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "administradores"
-    label: "Administradores"
-  - id: "delegacion"
-    label: "Delegacion"
+  - id: administradores
+    label: Administradores
+  - id: delegacion
+    label: Delegacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-3-delegacion-de-administradores/"
+    - https://manual.aturnos.com/knowledgebase/1-3-delegacion-de-administradores/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-3-delegacion-de-administradores/"
+    - https://manual.aturnos.com/knowledgebase/1-3-delegacion-de-administradores/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre delegación de administradores?"
+    - ¿Qué debo saber sobre delegación de administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "68dfbc85904af3eb8b068a03cfd0f827bcdbd973421110d46e63c49e3abcd200"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-3-delegacion-de-administradores/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-3-delegacion-de-administradores/
+  contentHash: cf4d336d8920eb2db205354b5e0353ebf4a5d88231198fd37a7b489b6f40fb74
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -88,3 +95,7 @@ Cuando Luigi vuelva de vacaciones, puede retomar el control, retirando la delega
 1. Ir al listado de delegaciones.
 2. Buscar la delegación de Consultoría a José Miguel.
 3. Hacer clic en el botón Eliminar.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

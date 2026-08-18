@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-13-listado-de-tareas-informes"
-title: "Listado de tareas. Informes"
-description: "Encontramos distintos informes a los que se acceden a través de Tareas → Estadísticas."
+contentId: tareas-13-listado-de-tareas-informes
+title: Listado de tareas. Informes
+description: Encontramos distintos informes a los que se acceden a través de Tareas → Estadísticas.
 contentType: concept
-module: "Tareas"
-submodule: "Roles y permisos"
-intent: "Listado de tareas. Informes"
+module: Tareas
+submodule: Roles y permisos
+intent: Listado de tareas. Informes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities:
-  - id: "informes"
-    label: "Informes"
-  - id: "listado"
-    label: "Listado"
-  - id: "tareas"
-    label: "Tareas"
+  - id: informes
+    label: Informes
+  - id: listado
+    label: Listado
+  - id: tareas
+    label: Tareas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/13-listado-de-tareas-informes/"
+    - https://manual.aturnos.com/knowledgebase/13-listado-de-tareas-informes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/13-listado-de-tareas-informes/"
+    - https://manual.aturnos.com/knowledgebase/13-listado-de-tareas-informes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre listado de tareas. Informes?"
+    - ¿Qué debo saber sobre listado de tareas. Informes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,8 +41,14 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d1d69f96a12f5fd8bfc21f0a5e71ac37c3ade416df39df372adb3627811d25a1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/13-listado-de-tareas-informes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/13-listado-de-tareas-informes/
+  contentHash: a5dcbe62501dd9d07d00ec425dc11bb4aff64b7da0e63aee20b86b161e6e595c
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -58,3 +65,7 @@ Tiempos de respuesta pudiendo filtrar también por la especialidad o rol
 ### Franjas horarias
 
 ### Listado de tareas
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

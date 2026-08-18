@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-a-datos-personalizados"
-title: "Datos personalizados"
-description: "Información sobre datos personalizados, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-a-datos-personalizados
+title: Datos personalizados
+description: Los datos personalizados definen qué información o campos podemos añadir a la ficha de los empleados que nos sean de interés para que después sea añadida, modificada o borrada por los difere.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Datos personalizados"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Datos personalizados
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "datos"
-    label: "Datos"
-  - id: "personalizados"
-    label: "Personalizados"
+  - id: datos
+    label: Datos
+  - id: personalizados
+    label: Personalizados
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/a-datos-personalizados/"
+    - https://manual.aturnos.com/knowledgebase/a-datos-personalizados/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/a-datos-personalizados/"
+    - https://manual.aturnos.com/knowledgebase/a-datos-personalizados/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre datos personalizados?"
+    - ¿Qué debo saber sobre datos personalizados?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "4814a29b856ca3f5a8768f08aecd6476b184b0ca129f97b8c9e3cffdd4dbec34"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/a-datos-personalizados/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/a-datos-personalizados/
+  contentHash: e3ed227e590eaf33657b23277f7028cb47916fa5aa0ca6e6bf75e943c7e30534
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre datos personalizados, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Los datos personalizados definen qué información o campos podemos añadir a la ficha de los empleados que nos sean de interés para que después sea añadida, modificada o borrada por los diferentes roles dentro de aTurnos (ver más sobre los distintos tipos de usuario). Podemos configurar qué tipo de usuario tiene acceso a estos datos, qué tipo de dato es, si necesita algún tipo de validación para poder actualizarse, a qué afecta si solo a los trabajadores, a las localizaciones, tareas, etc.
 
 Por ejemplo, si quieres almacenar en los perfiles de cada trabajador si han solicitado formalmente EPI’s (Equipos de Protección Individual) para tener una mayor protección, aquí puedes añadir los tipos de EPI’s que se le entregarán al trabajador (ejemplo: calzado, camiseta y pantalón ) y posteriormente agruparlos en “grupo de datos”, creando el bloque EPI’s, agrupando así mismo a cada uno de ellos.

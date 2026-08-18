@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-14-importar-dias-festivos-en-los-equipos"
-title: "Importar días festivos en los equipos"
-description: "El proceso de crear los festivos del cuadrante (ver Festivos ) puede resultar más sencillo importando todos los días festivos desde un archivo y no ir creando uno a uno."
+contentId: planificacion-14-importar-dias-festivos-en-los-equipos
+title: Importar días festivos en los equipos
+description: El proceso de crear los festivos del cuadrante (ver Festivos ) puede resultar más sencillo importando todos los días festivos desde un archivo y no ir creando uno a uno.
 contentType: reference
-module: "Planificación"
-submodule: "General"
-intent: "Importar días festivos en los equipos"
+module: Planificación
+submodule: General
+intent: Importar días festivos en los equipos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "dias"
-    label: "Dias"
-  - id: "equipos"
-    label: "Equipos"
-  - id: "festivos"
-    label: "Festivos"
-  - id: "importar"
-    label: "Importar"
+  - id: dias
+    label: Dias
+  - id: equipos
+    label: Equipos
+  - id: festivos
+    label: Festivos
+  - id: importar
+    label: Importar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/14-importacion-de-festivos/"
+    - https://manual.aturnos.com/knowledgebase/14-importacion-de-festivos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/14-importacion-de-festivos/"
+    - https://manual.aturnos.com/knowledgebase/14-importacion-de-festivos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importar días festivos en los equipos?"
+    - ¿Qué debo saber sobre importar días festivos en los equipos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "79b5dc919fd92c0849768461def59dab57580549a6955ffe92afd7f7a4d3e9b8"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/14-importacion-de-festivos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/14-importacion-de-festivos/
+  contentHash: a505fde9f5e97387c295e50c95e809799679d843df9c60fd0811e75c78c685fe
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El proceso de crear los festivos del cuadrante (ver Festivos ) puede resultar más sencillo importando todos los días festivos desde un archivo y no ir creando uno a uno.
 
-## Contenido
-
+## Opciones y datos disponibles
 Esta importación se realiza completando la plantilla de ejemplo que puedes descargar:
 
 CSV import_festives

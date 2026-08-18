@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "cita-previa-4-servicios"
-title: "Servicios"
-description: "Al seleccionar el icono de añadir, se mostrarán las opciones (en el recuadro de Experiencia) que tienes de servicios sobre los que requieras llevar un orden de citas o cola."
+contentId: cita-previa-4-servicios
+title: Servicios
+description: Al seleccionar el icono de añadir, se mostrarán las opciones (en el recuadro de Experiencia) que tienes de servicios sobre los que requieras llevar un orden de citas o cola.
 contentType: procedure
-module: "Cita previa"
-submodule: "General"
-intent: "Servicios"
+module: Cita previa
+submodule: General
+intent: Servicios
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "servicios"
-    label: "Servicios"
+  - id: servicios
+    label: Servicios
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-1-servicios/"
+    - https://manual.aturnos.com/knowledgebase/4-1-servicios/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-1-servicios/"
+    - https://manual.aturnos.com/knowledgebase/4-1-servicios/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo servicios?"
+    - ¿Cómo puedo servicios?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "29e76723e847b04493ac54b26195536822f5d5e1a9d86d15443a17bba779eff1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-1-servicios/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-1-servicios/
+  contentHash: 8ab9c5837fcba0d5b40dfe000b6753a1727039f4c201be462bea2d615b700bdc
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Al seleccionar el icono de añadir, se mostrarán las opciones (en el recuadro de Experiencia) que tienes de servicios sobre los que requieras llevar un orden de citas o cola.
 
-## Contenido
-
+## Procedimiento
 Las experiencias o Especialidades deben crearse previamente para poder añadir la cola. Ver más detalle en ¿Cómo indicar qué servicio puede atender cada trabajador?
 
 Una vez creados los servicios, aparecerán listados en una tabla con los siguientes conceptos:

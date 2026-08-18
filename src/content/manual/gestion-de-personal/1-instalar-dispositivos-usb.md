@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-instalar-dispositivos-usb"
-title: "Instalar Dispositivos USB"
-description: "Este es el dispositivo con el que tendrá que realizar la lectura de las huellas dactilares de los empleados que será proporcionado por aTurnos."
+contentId: gestion-de-personal-1-instalar-dispositivos-usb
+title: Instalar Dispositivos USB
+description: Este es el dispositivo con el que tendrá que realizar la lectura de las huellas dactilares de los empleados que será proporcionado por aTurnos.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Instalar Dispositivos USB"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Instalar Dispositivos USB
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "dispositivos"
-    label: "Dispositivos"
-  - id: "instalar"
-    label: "Instalar"
-  - id: "usb"
-    label: "Usb"
+  - id: dispositivos
+    label: Dispositivos
+  - id: instalar
+    label: Instalar
+  - id: usb
+    label: Usb
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-instalar-dispositivos-usb/"
+    - https://manual.aturnos.com/knowledgebase/1-instalar-dispositivos-usb/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-instalar-dispositivos-usb/"
+    - https://manual.aturnos.com/knowledgebase/1-instalar-dispositivos-usb/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre instalar Dispositivos USB?"
+    - ¿Qué debo saber sobre instalar Dispositivos USB?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d20849f6255eb3244c354fef574bd246056b42c71f23e02e28f1d318233cae1b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-instalar-dispositivos-usb/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-instalar-dispositivos-usb/
+  contentHash: eede0c23209641455b67526060d2ec97db5ffd9eaf732e2e77fc618dee67551d
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -105,3 +112,7 @@ EttR3AGMCjlMnYNoFmPe7J0BLtTjYX13dddsTGGRmCZjug?e=tFKtK1
 Una vez tenemos descargado y descomprimido el archivo realizamos el reemplazo en la carpeta de instalación del programa.
 
 Cuando se ha reemplazado el archivo hay que ejecutar nuevamente el programa (preferentemente con una cuenta de administrador del equipo).
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

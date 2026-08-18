@@ -1,44 +1,45 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-2-8-exportar-cuadrante-anual"
-title: "Exportar cuadrante anual"
-description: "El superusuario puede exportar todos los cuadrantes anuales de los trabajadores de los equipos que estime necesario desde esta acción."
+contentId: gestion-de-personal-2-8-exportar-cuadrante-anual
+title: Exportar cuadrante anual
+description: El superusuario puede exportar todos los cuadrantes anuales de los trabajadores de los equipos que estime necesario desde esta acción.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Exportar cuadrante anual"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Exportar cuadrante anual
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anual"
-    label: "Anual"
-  - id: "cuadrante"
-    label: "Cuadrante"
-  - id: "exportar"
-    label: "Exportar"
+  - id: anual
+    label: Anual
+  - id: cuadrante
+    label: Cuadrante
+  - id: exportar
+    label: Exportar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-8-exportar-cuadrante-anual/"
+    - https://manual.aturnos.com/knowledgebase/7-8-exportar-cuadrante-anual/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-8-exportar-cuadrante-anual/"
+    - https://manual.aturnos.com/knowledgebase/7-8-exportar-cuadrante-anual/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo exportar cuadrante anual?"
+    - ¿Cómo puedo exportar cuadrante anual?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -46,15 +47,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6074229a96b16c6f83a008f262ffdecb3c51636f6bf0ad3c2b6dceb6f31352bb"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-8-exportar-cuadrante-anual/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-8-exportar-cuadrante-anual/
+  contentHash: 8b23fe364aa2aa2017e0529c26becbff4b673ef3dbf3df840844e5589505a903
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El superusuario puede exportar todos los cuadrantes anuales de los trabajadores de los equipos que estime necesario desde esta acción.
 
-## Contenido
-
+## Procedimiento
 ¿Cómo exportar los cuadrantes anuales de los trabajadores de varios equipos?
 
 Desde el menú de aTurnos en la función RRHH, al acceder a la opción Registros/Exportar cuadrante anual:

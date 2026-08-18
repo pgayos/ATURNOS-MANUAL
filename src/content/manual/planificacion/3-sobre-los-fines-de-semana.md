@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-3-sobre-los-fines-de-semana"
-title: "Sobre los fines de semana"
-description: "Esta restricción establece un número mínimo de fines de semana libre al mes."
+contentId: planificacion-3-sobre-los-fines-de-semana
+title: Sobre los fines de semana
+description: Esta restricción establece un número mínimo de fines de semana libre al mes.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Sobre los fines de semana"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Sobre los fines de semana
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fines"
-    label: "Fines"
-  - id: "semana"
-    label: "Semana"
-  - id: "sobre"
-    label: "Sobre"
+  - id: fines
+    label: Fines
+  - id: semana
+    label: Semana
+  - id: sobre
+    label: Sobre
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-sobre-los-fines-de-semana/"
+    - https://manual.aturnos.com/knowledgebase/3-sobre-los-fines-de-semana/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-sobre-los-fines-de-semana/"
+    - https://manual.aturnos.com/knowledgebase/3-sobre-los-fines-de-semana/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre sobre los fines de semana?"
+    - ¿Qué debo saber sobre sobre los fines de semana?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6bfa216517cdd14e85cb04669f43317d212233f4e0fa20e29ba558f23c9d9d29"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-sobre-los-fines-de-semana/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-sobre-los-fines-de-semana/
+  contentHash: 355f5ee62092dc24f987a079f613c60a5650ccc32429b80370b1c9a95499355a
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Esta restricción establece un número mínimo de fines de semana libre al mes.
 
-## Contenido
-
+## Opciones y datos disponibles
 ⚙️Configuración: Esta restricción, además de la configuración básica, tiene cinco campos adicionales.
 
 - Considera descanso, vacaciones y turnos sin horas: Si se indica SI, se consideran como libres las vacaciones, si se indica NO, el trabajador que tenga vacaciones, deberá tener el valor de la restricción libre al mes. Valor de la restricción: Indica el número mínimo de fines de semana libres al mes. Comprobación día al que pertenece el evento: Configura qué momento del día utilizar para la comprobación de la restricción. Considerar complementarias y extras: Indica si una planificación en fines de semana de complementarias o extras aplican o no en la restricción. El fin de semana es: Define que días son los que se consideran fin de semana en tu empresa.

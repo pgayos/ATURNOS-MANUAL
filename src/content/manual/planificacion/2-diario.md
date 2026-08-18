@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-diario"
-title: "Diario en aTurnos"
-description: "El trabajador puede tener acceso rápido a sus fichaje día a día, para revisar si los fichaje se han realizado correctamente y validar si el estado de ese día está correcto."
+contentId: planificacion-2-diario
+title: Diario en aTurnos
+description: El trabajador puede tener acceso rápido a sus fichaje día a día, para revisar si los fichaje se han realizado correctamente y validar si el estado de ese día está correcto.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Diario en aTurnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Diario en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "diario"
-    label: "Diario"
+  - id: diario
+    label: Diario
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-diario/"
+    - https://manual.aturnos.com/knowledgebase/2-diario/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-diario/"
+    - https://manual.aturnos.com/knowledgebase/2-diario/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo diario en aTurnos?"
+    - ¿Cómo puedo diario en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1723bc20842222d6fb97dcb30bba2e02e59b5a9fd9a8a72f066fa1081f7c68ce"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-diario/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-diario/
+  contentHash: e18228a5c2e1821f0cb6a5a0af0d9644e0d17868d0cedb2ebe5d07232033b8f9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El trabajador puede tener acceso rápido a sus fichaje día a día, para revisar si los fichaje se han realizado correctamente y validar si el estado de ese día está correcto.
 
-## Contenido
-
+## Procedimiento
 Por medio de esta herramienta, el trabajador puede seleccionar el detalle del día que elija en el selector del calendario que se despliega.
 
 De la misma forma puede filtrar por:

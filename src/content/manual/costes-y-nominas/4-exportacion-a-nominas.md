@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-4-exportacion-a-nominas"
-title: "Exportación a nóminas"
-description: "Con respecto a la nómina, dentro de la configuración del equipo en aTurnos se define."
+contentId: costes-y-nominas-4-exportacion-a-nominas
+title: Exportación a nóminas
+description: Con respecto a la nómina, dentro de la configuración del equipo en aTurnos se define.
 contentType: reference
-module: "Costes y nóminas"
-submodule: "Usuarios y perfiles"
-intent: "Exportación a nóminas"
+module: Costes y nóminas
+submodule: Usuarios y perfiles
+intent: Exportación a nóminas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "exportacion"
-    label: "Exportacion"
-  - id: "nominas"
-    label: "Nominas"
+  - id: exportacion
+    label: Exportacion
+  - id: nominas
+    label: Nominas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-exportacion-a-nominas/"
+    - https://manual.aturnos.com/knowledgebase/4-exportacion-a-nominas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-exportacion-a-nominas/"
+    - https://manual.aturnos.com/knowledgebase/4-exportacion-a-nominas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre exportación a nóminas?"
+    - ¿Qué debo saber sobre exportación a nóminas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1cb0bd29f2ebe791547c6f329ce20f1a5f8e3e556a346fd71a2fe6991b24b21b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-exportacion-a-nominas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-exportacion-a-nominas/
+  contentHash: a757b754f80798735069262e591cb91bc19a5d5261ae27d725992d7721019b4a
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Con respecto a la nómina, dentro de la configuración del equipo en aTurnos se define.
 
-## Contenido
-
+## Opciones y datos disponibles
 - Modo de validación para la exportación, hace referencia al estado del cuadrante. Las opciones permitidas elegir son: No se necesita validación: La exportación de nóminas se puede realizar siempre, no está sujeto a ningún control. El cuadrante debe estar cerrado: El cuadrante debe estar cerrado de forma que no se pueda modificar, añadir o borrar turnos y horas a la fecha de cierre de cuadrante. Si el cuadrante no está cerrado, no se exportaran los datos. Implica la acción de “cerrar el cuadrante” para todos los trabajadores a la vez (ver Cerrar cuadrante ) o se puede editar en el perfil para algún trabajador (ver Perfil del trabajador/Nóminas ). Cerrar el cuadrante a un trabajador es un proceso normal cuando se realizan finiquitos, es decir, para descargar solo los datos de este empleado. El resto de trabajadores tendrían un cierre de cuadrante en conjunto dentro de un proceso normal para sus nóminas del mes. El cuadrante debe estar cerrado y validado. El cuadrante tiene que estar primero cerrado y después validado, sino no se podrían exportar los conceptos de nómina. Es un proceso de doble validación, la validación la tiene que realizar un rol Superusuario dentro de las estadísticas de nóminas totalizadas (ver Totalizada por equipos ).
 
 - Descarga de nómina: Permitir volver a descargar los conceptos anteriormente descargados: esta opción da la posibilidad de que los conceptos de nómina se vuelvan a descargar nuevamente, a pesar de haber sido descargados con anterioridad. No permitir descargar los conceptos anteriormente descargados: impide que se vuelvan a exportar los conceptos que ya han sido descargados. Dentro de la ficha de los empleados existe una fecha de exportación (ver Perfil del trabajador/Nóminas ), cualquier concepto de nómina anterior a esa fecha no será exportado.

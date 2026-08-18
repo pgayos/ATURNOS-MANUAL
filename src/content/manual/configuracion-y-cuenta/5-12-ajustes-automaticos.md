@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-5-12-ajustes-automaticos"
-title: "Ajustes automáticos"
-description: "Indicando ‘SI’ en esta función, los ajustes se automatizan siguiendo la configuración de los siguientes apartados."
+contentId: configuracion-y-cuenta-5-12-ajustes-automaticos
+title: Ajustes automáticos
+description: Indicando ‘SI’ en esta función, los ajustes se automatizan siguiendo la configuración de los siguientes apartados.
 contentType: reference
-module: "Configuración y cuenta"
-submodule: "Equipo y centros"
-intent: "Ajustes automáticos"
+module: Configuración y cuenta
+submodule: Equipo y centros
+intent: Ajustes automáticos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "ajustes"
-    label: "Ajustes"
-  - id: "automaticos"
-    label: "Automaticos"
+  - id: ajustes
+    label: Ajustes
+  - id: automaticos
+    label: Automaticos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-12-ajustes-automaticos/"
+    - https://manual.aturnos.com/knowledgebase/5-12-ajustes-automaticos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-12-ajustes-automaticos/"
+    - https://manual.aturnos.com/knowledgebase/5-12-ajustes-automaticos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre ajustes automáticos?"
+    - ¿Qué debo saber sobre ajustes automáticos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c058854e7d5304133e9c6af8522ceaf7c2f8cd5e18c0a31293b7088c2367b7b9"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-12-ajustes-automaticos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-12-ajustes-automaticos/
+  contentHash: 2f18902c7589b103a9fe8fe5af8c6f5d18d3f6975d6cde8b31e14f5cae895a72
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -72,3 +79,7 @@ En los casos, donde el trabajador seleccione al fichar un tipo de fichaje ‘No 
 Ajusta los fichajes de los días que tienen planificadas horas extra o complementarias cuando se ha fichado exceso o defecto de tiempo.
 
 En el caso de que un trabajador tenga solicitado o planificado un absentismo temporal, como por ejemplo una visita médica. Si el trabajador ficha la entrada, antes de la hora fin del absentismo, el ajuste reducirá el absentismo hasta la hora del fichaje de entrada.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

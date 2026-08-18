@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-guia-actividad-2-anade-a-los-trabajadores-para-administradores"
-title: "Actividad 2. Añade a los trabajadores para administradores"
+contentId: gestion-de-personal-guia-actividad-2-anade-a-los-trabajadores-para-administradores
+title: Actividad 2. Añade a los trabajadores para administradores
 description: "Usuarios Reales: Añade a los siguientes empleados con la información proporcionada:."
 contentType: concept
-module: "Gestión de personal"
-submodule: "Alta de trabajadores"
-intent: "Actividad 2. Añade a los trabajadores"
+module: Gestión de personal
+submodule: Alta de trabajadores
+intent: Actividad 2. Añade a los trabajadores
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-05-22
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-2-anade-a-los-trabajadores/"
+    - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-2-anade-a-los-trabajadores/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre actividad 2. Añade a los trabajadores para administradores?"
+    - ¿Qué debo saber sobre actividad 2. Añade a los trabajadores para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
 readingTime: 1
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-2-anade-a-los-trabajadores/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/ejercicios-practicos-conocer-aturnos/actividad-2-anade-a-los-trabajadores/
+  contentHash: a961d1e099152864ac29478eb243cda734397a254554deadba9d7711fd5a9d02
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -54,3 +65,7 @@ Usuarios Ficticios: Añade a los siguientes empleados:
 ### Ejercicio 3. Asígnales un rol.
 
 Recuerda que los roles determinan los permisos y accesos dentro del sistema. Por ejemplo, un Administrador Total tiene acceso completo, mientras que un Trabajador tiene permisos limitados.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

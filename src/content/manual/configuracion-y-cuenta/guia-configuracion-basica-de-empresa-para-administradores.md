@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-guia-configuracion-basica-de-empresa-para-administradores"
-title: "Configuración básica de empresa para administradores"
-description: "Aprende a configuración básica de empresa para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-guia-configuracion-basica-de-empresa-para-administradores
+title: Configuración básica de empresa para administradores
+description: Una vez iniciada la sesión, el rol que se te asigna por defecto es Administrador Total, por lo que podrás configurar el equipo acorde a las políticas y convenios de tu empresa.
 contentType: procedure
-module: "Configuración y cuenta"
-submodule: "Configuración inicial"
-intent: "Configuración básica de empresa"
+module: Configuración y cuenta
+submodule: Configuración inicial
+intent: Configuración básica de empresa
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/ajustes-basicos-de-empresa/"
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/ajustes-basicos-de-empresa/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo configuración básica de empresa para administradores?"
+    - ¿Cómo puedo configuración básica de empresa para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/ajustes-basicos-de-empresa/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/ajustes-basicos-de-empresa/
+  contentHash: 7b41a6103145b17f3ca4b7eaeeb5a804b475af5fd9ac998085345648d9dc144e
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

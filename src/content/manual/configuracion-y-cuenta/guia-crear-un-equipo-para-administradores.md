@@ -1,43 +1,52 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-guia-crear-un-equipo-para-administradores"
-title: "Crear un equipo para administradores"
-description: "Para crear un equipo en aTurnos, debes acceder al siguiente enlace. Accediendo a él podrás registrar tu empresa en el software de aTurnos rellenando un formulario. El formulario contiene los siguientes campos:."
+contentId: configuracion-y-cuenta-guia-crear-un-equipo-para-administradores
+title: Crear un equipo para administradores
+description: Para crear un equipo en aTurnos, debes acceder al siguiente enlace. Accediendo a él podrás registrar tu empresa en el software de aTurnos rellenando un formulario. El formulario contiene los siguientes campos:.
 contentType: procedure
-module: "Configuración y cuenta"
-submodule: "Configuración inicial"
-intent: "Crear un equipo"
+module: Configuración y cuenta
+submodule: Configuración inicial
+intent: Crear un equipo
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-04-15
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/crear-un-equipo-2/"
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/crear-un-equipo-2/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo crear un equipo para administradores?"
+    - ¿Cómo puedo crear un equipo para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
 readingTime: 1
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/crear-un-equipo-2/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/crear-un-equipo-2/
+  contentHash: 6dd664f19ffd2ceb011aa090ccf25bbbbe7e74f8b0b68f1e197148c808a263bd
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
 Para crear un equipo en aTurnos, debes acceder al siguiente enlace. Accediendo a él podrás registrar tu empresa en el software de aTurnos rellenando un formulario. El formulario contiene los siguientes campos:
 
-## Contenido
-
+## Procedimiento
 - Nombre de tu equipo
 - Tu nombre
 - Email corporativo

@@ -1,36 +1,37 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-12-modificar-horas"
-title: "Modificar horas"
-description: "Con esta opción se pueden modificar las horas añadidas, bien sean extra, complementarias o de cualquier otro tipo creado, en Planificador → Tipos de turno → Horas. Cómo planificar horas."
+contentId: recursos-y-partes-12-modificar-horas
+title: Modificar horas
+description: Con esta opción se pueden modificar las horas añadidas, bien sean extra, complementarias o de cualquier otro tipo creado, en Planificador → Tipos de turno → Horas. Cómo planificar horas.
 contentType: concept
-module: "Recursos y partes"
-submodule: "General"
-intent: "Modificar horas"
+module: Recursos y partes
+submodule: General
+intent: Modificar horas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "horas"
-    label: "Horas"
-  - id: "modificar"
-    label: "Modificar"
+  - id: horas
+    label: Horas
+  - id: modificar
+    label: Modificar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/k-modificar-horas/"
+    - https://manual.aturnos.com/knowledgebase/k-modificar-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/k-modificar-horas/"
+    - https://manual.aturnos.com/knowledgebase/k-modificar-horas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre modificar horas?"
+    - ¿Qué debo saber sobre modificar horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -38,15 +39,20 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f88fd0c21e69b2ff2b5d7a11c9c36fb5133c9743c6d88488f9ff33b5772f3ec5"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/k-modificar-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/k-modificar-horas/
+  contentHash: 6bd1dcda253c4e922701ef5c06ec6a5dfe2453991c6734d141ef9a3e77522bba
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
 Con esta opción se pueden modificar las horas añadidas, bien sean extra, complementarias o de cualquier otro tipo creado, en Planificador → Tipos de turno → Horas. Cómo planificar horas.
 
-## Contenido
-
+## Qué debes saber
 Se puede modificar:
 
 - Descripción: razón de la horas añadidas.
@@ -55,3 +61,7 @@ Se puede modificar:
 - Localización: en qué localización se realizaron las horas.
 
 Como siempre, antes de salir, guarda lo cambios realizados.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

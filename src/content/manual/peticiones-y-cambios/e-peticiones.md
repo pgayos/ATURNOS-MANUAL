@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-e-peticiones"
-title: "Peticiones"
-description: "En ajustes, existe una configuración avanzada dedicada a las peticiones del equipo."
+contentId: peticiones-y-cambios-e-peticiones
+title: Peticiones
+description: En ajustes, existe una configuración avanzada dedicada a las peticiones del equipo.
 contentType: reference
-module: "Peticiones y cambios"
-submodule: "Usuarios y perfiles"
-intent: "Peticiones"
+module: Peticiones y cambios
+submodule: Usuarios y perfiles
+intent: Peticiones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "peticiones"
-    label: "Peticiones"
+  - id: peticiones
+    label: Peticiones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/e-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/e-peticiones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/e-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/e-peticiones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre peticiones?"
+    - ¿Qué debo saber sobre peticiones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "aa6c3c458cd5fa23f6b78b1fb1445db7ed6e5743ff515874205463085bb0eb9a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/e-peticiones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/e-peticiones/
+  contentHash: d0c83747f58a89b0836888af67e570031656426f04a3ebf0cfc5e754da7026d0
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -126,3 +133,7 @@ Si se aceptan las vacaciones, a los primeros días post-vacaciones se le añaden
 ### Eliminar absentismos temporales y horas al aceptar peticiones con la opción sustituir
 
 Si se configura esta opción en SI, cuando se realiza una sustitución en la que el trabajador sustituto tiene planificado un absentismo temporal u horas (normales, complementarias o extras), se le eliminará el absentismo temporal u horas que coincidan con el turno tras la sustitución.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

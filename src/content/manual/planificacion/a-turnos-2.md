@@ -1,45 +1,52 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-a-turnos-2"
-title: "Turnos en aTurnos"
+contentId: planificacion-a-turnos-2
+title: Turnos en aTurnos
 description: "Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas."
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Turnos en aTurnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Turnos en aTurnos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "turnos"
-    label: "Turnos"
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-1-turnos/"
+    - https://manual.aturnos.com/knowledgebase/6-1-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-1-turnos/"
+    - https://manual.aturnos.com/knowledgebase/6-1-turnos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo turnos en aTurnos?"
+    - ¿Cómo puedo turnos en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "85ea98663e699cc144c3e9f7d12128e62cc14f416f55af98bdb9b6082e5b1db9"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-1-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-1-turnos/
+  contentHash: 94d8c756d8dc5968913130df224f671954924b69ff9c221556b45c613c260ade
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -66,3 +73,7 @@ Suma de datos de las variables de absentismos, festivos, horas productivas y hor
 ### Gráfico
 
 Gráfico de barras para representar de una forma más visual, los turnos planificados para cada trabajador. Para diferenciar los tipos de turno de las personas, la herramienta utiliza una distinción por colores, cuya leyenda situada en la parte superior, asocia un color a un tipo de turno.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

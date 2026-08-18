@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-5-4-configuracion-alertas"
-title: "Configuración Alertas"
-description: "Las alertas disponibles son explicadas en el siguiente enlace (ver Alertas )."
+contentId: gestion-de-personal-5-4-configuracion-alertas
+title: Configuración Alertas
+description: Las alertas disponibles son explicadas en el siguiente enlace (ver Alertas ).
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Configuración Alertas"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Configuración Alertas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "alertas"
-    label: "Alertas"
-  - id: "configuracion"
-    label: "Configuracion"
+  - id: alertas
+    label: Alertas
+  - id: configuracion
+    label: Configuracion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-4-configuracion-alertas/"
+    - https://manual.aturnos.com/knowledgebase/5-4-configuracion-alertas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-4-configuracion-alertas/"
+    - https://manual.aturnos.com/knowledgebase/5-4-configuracion-alertas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo configuración Alertas?"
+    - ¿Cómo puedo configuración Alertas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8a92bab42de3d0a2f86c4f50d97b8ce330edeef3548e968033f13a4c299c317f"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-4-configuracion-alertas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-4-configuracion-alertas/
+  contentHash: dba9dfefc0520440cad1ad391fc98a175858ccf984a4a29ab6f7fd230f1f4c3e
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -77,3 +84,7 @@ A través de Control de Presencia → Estadística → Alertas por Trabajador se
 También se puede sacar el mismo reporte pero de varios equipos desde RRHH → Control de Presencia → Control Legal → Alertas por Trabajador se puede generar el mismo informe seleccionando los equipos.
 
 El informe estará disponible para ser descargado en RRHH → Peticiones de Reporte con el nombre “Alertas por trabajador”.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-b-menu-de-acciones"
-title: "Menú de acciones"
-description: "En este menú de acciones, el administrador podrá realizar las siguientes gestiones para modificar o agregar algún dato de la planificación actual."
+contentId: planificacion-b-menu-de-acciones
+title: Menú de acciones
+description: En este menú de acciones, el administrador podrá realizar las siguientes gestiones para modificar o agregar algún dato de la planificación actual.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Menú de acciones"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Menú de acciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "acciones"
-    label: "Acciones"
-  - id: "menu"
-    label: "Menu"
+  - id: acciones
+    label: Acciones
+  - id: menu
+    label: Menu
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/a-menu-de-acciones/"
+    - https://manual.aturnos.com/knowledgebase/a-menu-de-acciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/a-menu-de-acciones/"
+    - https://manual.aturnos.com/knowledgebase/a-menu-de-acciones/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo menú de acciones?"
+    - ¿Cómo puedo menú de acciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e5920845df3f7552fe202c56e126ab5c4b208e276cc2773b8db8ccb2dbb9961f"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/a-menu-de-acciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/a-menu-de-acciones/
+  contentHash: bf3d10e0a5876aebb07a560a0a63bb623c633d5d735e7ea50bc39b3cad6b4dc6
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En este menú de acciones, el administrador podrá realizar las siguientes gestiones para modificar o agregar algún dato de la planificación actual.
 
-## Contenido
-
+## Procedimiento
 - Buscar trabajador para turno: aTurnos presenta un formulario donde el administrador selecciona el tipo de turno que quiere planificar, el día donde insertará ese turno, la localización donde se insertará el mismo turno, especificar si el turno pertenece a una bolsa de trabajo o es un turno fuera de bolsa de trabajo y seleccionar el trabajador de los que aparecen y muestra aTurnos como disponible. Cuando selecciona a un trabajador con un clic sobre él, se insertará en la planificación del cuadrante de localizaciones, con los datos de planificación informado en este formulario.
 
 En el caso de que aTurnos no muestre trabajadores disponibles, o el administrador no seleccione a ninguno de los disponibles, existe una opción dentro de este formulario denominado “Crear oferta de turno”, a partir del cual el administrador ofrece un turno, asociado a una localización y día, con la finalidad de que sean los trabajadores quien se ofrezcan a realizar el turno seleccionado. (Ver más en: Peticiones de oferta de turno ).

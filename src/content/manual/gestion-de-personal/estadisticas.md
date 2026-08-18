@@ -1,52 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-estadisticas"
-title: "Estadisticas"
-description: "Información sobre estadisticas, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-estadisticas
+title: Estadisticas
+description: En el apartado de Recursos Humanos el validador podrá obtener todos los datos sobre la imputación de tareas que han realizado todos los empleados a su cargo, independientemente del equipo en.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Altas y bajas"
-intent: "Estadisticas"
+module: Gestión de personal
+submodule: Altas y bajas
+intent: Estadisticas
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "estadisticas"
-    label: "Estadisticas"
+  - id: estadisticas
+    label: Estadisticas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/9-1-estadisticas/"
+    - https://manual.aturnos.com/knowledgebase/9-1-estadisticas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/9-1-estadisticas/"
+    - https://manual.aturnos.com/knowledgebase/9-1-estadisticas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre estadisticas?"
+    - ¿Qué debo saber sobre estadisticas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "5f599fa9f2abe76a81a4adaa89ceaf2d30e5a5e187f9907094a5f448d44a58c2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/9-1-estadisticas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/9-1-estadisticas/
+  contentHash: a611bfaf6935447b8096c3610e7219eef2e1bab1cf07fb0862e10dd4bebf4eac
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre estadisticas, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En el apartado de Recursos Humanos el validador podrá obtener todos los datos sobre la imputación de tareas que han realizado todos los empleados a su cargo, independientemente del equipo en el que se encuentren estos empleados.
 
 El apartado de RRHH se divide en 2 secciones:

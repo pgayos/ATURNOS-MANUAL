@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-10-tooltip-flotante"
-title: "Tooltip flotante"
-description: "Seleccionando la opción de “tooltip flotante”, podrás moverlo a cualquier parte de la pantalla."
+contentId: gestion-de-personal-10-tooltip-flotante
+title: Tooltip flotante
+description: Seleccionando la opción de “tooltip flotante”, podrás moverlo a cualquier parte de la pantalla.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Tooltip flotante"
+module: Gestión de personal
+submodule: Contratos
+intent: Tooltip flotante
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "flotante"
-    label: "Flotante"
-  - id: "tooltip"
-    label: "Tooltip"
+  - id: flotante
+    label: Flotante
+  - id: tooltip
+    label: Tooltip
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-tooltip-flotante/"
+    - https://manual.aturnos.com/knowledgebase/10-tooltip-flotante/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-tooltip-flotante/"
+    - https://manual.aturnos.com/knowledgebase/10-tooltip-flotante/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo tooltip flotante?"
+    - ¿Cómo puedo tooltip flotante?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,15 +41,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "133e0b17c7d1baa475a39b30e1a09d4aa893987da7e3427f7de77c682cfdad74"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-tooltip-flotante/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-tooltip-flotante/
+  contentHash: 4bd705609c23e19ffdc11f8cca6aaaa7f6c971405eb2875c66f2acf2433db868
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Seleccionando la opción de “tooltip flotante”, podrás moverlo a cualquier parte de la pantalla.
 
-## Contenido
-
+## Procedimiento
 Este tooltip nos muestra la información básica configurada en ‘Visualización’.
 
 De manera visual, para saber si los trabajadores están cumpliendo las horas, a modo de ejemplo con las “Horas por semana”.

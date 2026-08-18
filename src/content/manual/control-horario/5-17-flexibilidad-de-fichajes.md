@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-17-flexibilidad-de-fichajes"
-title: "Flexibilidad de fichajes"
-description: "Información sobre flexibilidad de fichajes, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-17-flexibilidad-de-fichajes
+title: Flexibilidad de fichajes
+description: Los administradores pueden definir que los trabajadores tengan una hora inicio y fin entre la que fichar el turno planificado.
 contentType: concept
-module: "Control horario"
-submodule: "Altas y bajas"
-intent: "Flexibilidad de fichajes"
+module: Control horario
+submodule: Altas y bajas
+intent: Flexibilidad de fichajes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "flexibilidad"
-    label: "Flexibilidad"
+  - id: fichajes
+    label: Fichajes
+  - id: flexibilidad
+    label: Flexibilidad
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-17-flexibilidad-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/5-17-flexibilidad-de-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-17-flexibilidad-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/5-17-flexibilidad-de-fichajes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre flexibilidad de fichajes?"
+    - ¿Qué debo saber sobre flexibilidad de fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "7b3a0bf716fe1a6bbbe800c7ebbf84df362cb69b5fd407ed5f5f7e20768240b4"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-17-flexibilidad-de-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-17-flexibilidad-de-fichajes/
+  contentHash: d92d0a014e3983b4e7e7b503f00f51ae836580d0e21c3ec5cb216d6be6539515
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre flexibilidad de fichajes, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Los administradores pueden definir que los trabajadores tengan una hora inicio y fin entre la que fichar el turno planificado. Permitiendo a los empleados comenzar y terminar su jornada laboral en horas diferentes, siempre y cuando cumplan con el tiempo total requerido en el turno.
 
 Esta flexibilidad se configura en los Turnos, del menú Tipos de turno, dentro de Planificador.

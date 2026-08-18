@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-7-6-recuperar-planificacion"
-title: "Recuperar planificación"
-description: "Un superusuario puede recuperar la planificación de un trabajador desde el menú ‘Acciones’ de RRHH, en la opción ‘ Recuperar Planificación’."
+contentId: planificacion-7-6-recuperar-planificacion
+title: Recuperar planificación
+description: Un superusuario puede recuperar la planificación de un trabajador desde el menú ‘Acciones’ de RRHH, en la opción ‘ Recuperar Planificación’.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Recuperar planificación"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Recuperar planificación
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "planificacion"
-    label: "Planificacion"
-  - id: "recuperar"
-    label: "Recuperar"
+  - id: planificacion
+    label: Planificacion
+  - id: recuperar
+    label: Recuperar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/11-6-recuperar-planificacion/"
+    - https://manual.aturnos.com/knowledgebase/11-6-recuperar-planificacion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/11-6-recuperar-planificacion/"
+    - https://manual.aturnos.com/knowledgebase/11-6-recuperar-planificacion/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre recuperar planificación?"
+    - ¿Qué debo saber sobre recuperar planificación?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "636a730df7e464c74c2fea6c1ef00f6e84ed37e35a45b30436ae3a27630f4afb"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/11-6-recuperar-planificacion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/11-6-recuperar-planificacion/
+  contentHash: ecf9aa56b4e8b6f7b039083bfa6cd6e109491281f24950a84656c9000fd83516
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Un superusuario puede recuperar la planificación de un trabajador desde el menú ‘Acciones’ de RRHH, en la opción ‘ Recuperar Planificación’.
 
-## Contenido
-
+## Qué debes saber
 Para poder recuperar la planificación necesitamos conocer:
 
 - E mail del trabajador, del cual queremos recuperar la planificación.

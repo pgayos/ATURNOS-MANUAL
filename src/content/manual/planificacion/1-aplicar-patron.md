@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-aplicar-patron"
-title: "Aplicar patrón"
-description: "Una vez creado un patrón de turnos, se puede aplicar al cuadrante asignándolo al trabajador correspondiente en el periodo de tiempo que se desee. También se puede aplicar al cuadrante borrador."
+contentId: planificacion-1-aplicar-patron
+title: Aplicar patrón
+description: Una vez creado un patrón de turnos, se puede aplicar al cuadrante asignándolo al trabajador correspondiente en el periodo de tiempo que se desee. También se puede aplicar al cuadrante borrador.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Aplicar patrón"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Aplicar patrón
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "aplicar"
-    label: "Aplicar"
-  - id: "patron"
-    label: "Patron"
+  - id: aplicar
+    label: Aplicar
+  - id: patron
+    label: Patron
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-aplicar-patron/"
+    - https://manual.aturnos.com/knowledgebase/1-aplicar-patron/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-aplicar-patron/"
+    - https://manual.aturnos.com/knowledgebase/1-aplicar-patron/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo aplicar patrón?"
+    - ¿Cómo puedo aplicar patrón?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "19132e86dd4ee82dee4d5814988d57775b6fd3532da136636c93713d26c1cc26"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-aplicar-patron/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-aplicar-patron/
+  contentHash: fbf92a8df6a2edfe6df54ee0a6f7fcf69c13a5622397ae9e60918abb90407fc9
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -148,3 +155,7 @@ En caso contrario, se nos mostrará que se cumplen todas las restricciones.
 ### Insertar patrón
 
 Completados todos los pasos, analizada la propuesta de planificación (turnos en morado) y verificado que se cumplen las restricciones, para terminar de aplicar el patrón se debe hacer clic sobre ‘ Insertar patrón’.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

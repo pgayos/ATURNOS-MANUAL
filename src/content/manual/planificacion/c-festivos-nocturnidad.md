@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-c-festivos-nocturnidad"
-title: "Festivos & Nocturnidad"
+contentId: planificacion-c-festivos-nocturnidad
+title: Festivos & Nocturnidad
 description: "Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas."
 contentType: procedure
-module: "Planificación"
-submodule: "General"
-intent: "Festivos & Nocturnidad"
+module: Planificación
+submodule: General
+intent: Festivos & Nocturnidad
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "festivos"
-    label: "Festivos"
-  - id: "nocturnidad"
-    label: "Nocturnidad"
+  - id: festivos
+    label: Festivos
+  - id: nocturnidad
+    label: Nocturnidad
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-3-festivos-nocturnidad/"
+    - https://manual.aturnos.com/knowledgebase/6-3-festivos-nocturnidad/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-3-festivos-nocturnidad/"
+    - https://manual.aturnos.com/knowledgebase/6-3-festivos-nocturnidad/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo festivos & Nocturnidad?"
+    - ¿Cómo puedo festivos & Nocturnidad?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "2218f38a1164a7245dffbc087c4b53e22e366afced4d3328f013301dbb5ca252"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-3-festivos-nocturnidad/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-3-festivos-nocturnidad/
+  contentHash: 9868fe2be1c05c5db667c7c4b26f28489d83f5674f157105926908377e4dd102
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -82,3 +89,7 @@ En la tabla de Jornadas encontraremos las siguientes variables
 ### Gráfico
 
 Las estadísticas de Festivos y Nocturnidad, se nos representan según los filtros que apliquemos, en un Gráfico circular. Observaremos la cantidad que cada tipo de hora planificada representa dentro del total, los cuales están diferenciados por colores según el tipo de hora. Ya sea normal, festiva, nocturna o haya sido especial, tanto nocturna como festiva.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

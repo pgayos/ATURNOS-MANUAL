@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-7-3-bolsas"
-title: "Bolsas en aTurnos"
-description: "Aprende a bolsas en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-7-3-bolsas
+title: Bolsas en aTurnos
+description: Es una manera rápida y fácil de acceder a un grupo de trabajadores que sabemos que podrán estar disponibles para hacer determinado turno u horas de trabajo, a través de una bolsa de candidat.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Bolsas en aTurnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Bolsas en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "bolsas"
-    label: "Bolsas"
+  - id: bolsas
+    label: Bolsas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-3-bolsas/"
+    - https://manual.aturnos.com/knowledgebase/7-3-bolsas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-3-bolsas/"
+    - https://manual.aturnos.com/knowledgebase/7-3-bolsas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo bolsas en aTurnos?"
+    - ¿Cómo puedo bolsas en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3f8f860720a9c90c99eff1cbee57ec3a43b37c6c65ff76540208be7377d0d1e8"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-3-bolsas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-3-bolsas/
+  contentHash: 546f2aa310fb90242b9648695ae499bd8a32a880ccca7c7865d3029a889adf61
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a bolsas en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Es una manera rápida y fácil de acceder a un grupo de trabajadores que sabemos que podrán estar disponibles para hacer determinado turno u horas de trabajo, a través de una bolsa de candidatos. Este listado de trabajadores es creado y seleccionado por el Administrador.
 
 El sistema, por si solo irá posicionando a los trabajadores según la cantidad total de horas que lleven realizadas en bolsa, entonces, como primera opción de la lista aparecerá el trabajador que tenga menos horas trabajadas en Bolsa.

@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-7-6-localizaciones"
-title: "Localizaciones"
-description: "Información sobre localizaciones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: recursos-y-partes-7-6-localizaciones
+title: Localizaciones
+description: Las localizaciones en un equipo pueden ser consideradas como departamentos, áreas o grupos de una empresa, que facilitan a los administradores para agrupar a trabajadores en los cuadrantes,.
 contentType: concept
-module: "Recursos y partes"
-submodule: "Contratos"
-intent: "Localizaciones"
+module: Recursos y partes
+submodule: Contratos
+intent: Localizaciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "localizaciones"
-    label: "Localizaciones"
+  - id: localizaciones
+    label: Localizaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-6-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/7-6-localizaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-6-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/7-6-localizaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre localizaciones?"
+    - ¿Qué debo saber sobre localizaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "2a97f035cd78614112f3d8fe608ccedeb1737c4f9f69da61ef822fca02371d18"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-6-localizaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-6-localizaciones/
+  contentHash: 81be2e2e25486c6bc5c6d815b3304fc2794cae80326cc2bf11dc025e0431f8d1
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -135,3 +142,7 @@ Se pueden añadir desde ‘Datos personalizados’ creados para ‘Localizacione
 De esta forma, al hacer la consulta de ‘Reportes por localización’, se puede añadir información como el Centro de Coste o un ID, que lo identifica en un sistema integrado con aTurnos.
 
 Para mostrar esta información, también debe estar configurado en la ‘Visualización’.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-guia-solicitar-aprobar-y-gestionar-permisos-bajas-para-administradores"
-title: "Solicitar, aprobar y gestionar permisos, bajas para administradores"
-description: "Aprende a solicitar, aprobar y gestionar permisos, bajas para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-guia-solicitar-aprobar-y-gestionar-permisos-bajas-para-administradores
+title: Solicitar, aprobar y gestionar permisos, bajas para administradores
+description: Gestionar los permisos y bajas de los empleados es esencial para mantener un equipo organizado y una planificación eficiente.
 contentType: procedure
-module: "Peticiones y cambios"
-submodule: "Permisos y bajas"
-intent: "Solicitar, aprobar y gestionar permisos, bajas"
+module: Peticiones y cambios
+submodule: Permisos y bajas
+intent: Solicitar, aprobar y gestionar permisos, bajas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/solicitar-aprobar-y-gestionar-permisos-bajas/"
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/solicitar-aprobar-y-gestionar-permisos-bajas/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo solicitar, aprobar y gestionar permisos, bajas para administradores?"
+    - ¿Cómo puedo solicitar, aprobar y gestionar permisos, bajas para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/solicitar-aprobar-y-gestionar-permisos-bajas/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-permisos-y-absentismos/solicitar-aprobar-y-gestionar-permisos-bajas/
+  contentHash: 55435590aa0f189734d65f098505678b5e55ed0688e800a200ee4895cd2e9ddc
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

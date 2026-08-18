@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-11-anadir-horas"
-title: "Añadir horas"
-description: "Con esta opción se pueden añadir horas, bien sean extra, complementarias o de cualquier otro tipo creado, en Planificador → Tipos de turno → Horas. Cómo planificar horas."
+contentId: planificacion-11-anadir-horas
+title: Añadir horas
+description: Con esta opción se pueden añadir horas, bien sean extra, complementarias o de cualquier otro tipo creado, en Planificador → Tipos de turno → Horas. Cómo planificar horas.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Añadir horas"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Añadir horas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anadir"
-    label: "Anadir"
-  - id: "horas"
-    label: "Horas"
+  - id: anadir
+    label: Anadir
+  - id: horas
+    label: Horas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/j-anadir-horas/"
+    - https://manual.aturnos.com/knowledgebase/j-anadir-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/j-anadir-horas/"
+    - https://manual.aturnos.com/knowledgebase/j-anadir-horas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo añadir horas?"
+    - ¿Cómo puedo añadir horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "5536bc9bcf5b879ce91937974febafcf32fecd900861a5ce06de1690ecf422b3"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/j-anadir-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/j-anadir-horas/
+  contentHash: 7a6f596c96deed058dab46e0afa772327463806b0d5f6910b41035b62adce173
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -56,3 +63,7 @@ Desde este menú “Añadir horas”, en la parte inferior del formulario, es im
 También es importante definir, en el mismo formulario, qué tipo de hora será considerada (extras, normales, etc.) para estas horas de la bolsa de trabajo. Dependiendo de la bolsa que se seleccione, en el listado de trabajadores que ofrece el sistema aTurnos, aparecerán aquellos que pertenecen a dicha bolsa, ordenados atendiendo al número de horas de esta bolsa de trabajo, cuando se haga clic en “Asignar trabajadores” y, a continuación, seleccionará el nombre del trabajador que realizará las mismas.
 
 Las horas asignadas a un trabajador a través de bolsa, se encontrarán planificadas en el cuadrante, destacado con un borde de color rojo y un signo +, al trabajador seleccionado.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

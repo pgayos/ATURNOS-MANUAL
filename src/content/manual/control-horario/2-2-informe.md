@@ -1,52 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-2-2-informe"
-title: "Informe en aTurnos"
-description: "Información sobre informe en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-2-2-informe
+title: Informe en aTurnos
+description: En este informe se detalla toda la información que se necesita presentar ante la inspección laboral debido al obligado cumplimiento del registro de la jornada efectiva de trabajo, de acuerdo.
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Informe en aTurnos"
+module: Control horario
+submodule: Fichajes
+intent: Informe en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "informe"
-    label: "Informe"
+  - id: informe
+    label: Informe
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-2-informe/"
+    - https://manual.aturnos.com/knowledgebase/2-2-informe/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-2-informe/"
+    - https://manual.aturnos.com/knowledgebase/2-2-informe/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre informe en aTurnos?"
+    - ¿Qué debo saber sobre informe en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e98f32a8ca57c9436b5f6f7cbc2cb9f54c3481b75c00ff1b67b5c6b5d7315660"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-2-informe/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-2-informe/
+  contentHash: 6c4e2f551870f36046cc8e9685726e16ee42f221eb662a573ce750c3cd4b9223
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre informe en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En este informe se detalla toda la información que se necesita presentar ante la inspección laboral debido al obligado cumplimiento del registro de la jornada efectiva de trabajo, de acuerdo con lo previsto en el Real Decreto de Ley 8/2019, de medidas urgentes de protección social y de lucha contra la precariedad laboral en la jornada de trabajo.
 
 En la estructura del reporte se informarán los siguientes datos:

@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-sobre-los-tipos-de-turnos-y-absentismos"
-title: "Sobre los tipos de turnos y absentismos"
-description: "Es una de las tres restricciones que se aplica por defecto en todos los equipos."
+contentId: planificacion-1-sobre-los-tipos-de-turnos-y-absentismos
+title: Sobre los tipos de turnos y absentismos
+description: Es una de las tres restricciones que se aplica por defecto en todos los equipos.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Sobre los tipos de turnos y absentismos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Sobre los tipos de turnos y absentismos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
-  - id: "sobre"
-    label: "Sobre"
-  - id: "tipos"
-    label: "Tipos"
-  - id: "turnos"
-    label: "Turnos"
+  - id: absentismos
+    label: Absentismos
+  - id: sobre
+    label: Sobre
+  - id: tipos
+    label: Tipos
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-sobre-los-tipos-de-turnos/"
+    - https://manual.aturnos.com/knowledgebase/1-sobre-los-tipos-de-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-sobre-los-tipos-de-turnos/"
+    - https://manual.aturnos.com/knowledgebase/1-sobre-los-tipos-de-turnos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre sobre los tipos de turnos y absentismos?"
+    - ¿Qué debo saber sobre sobre los tipos de turnos y absentismos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 14
+readingTime: 20
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bc3d380ac36420c2e7d94a96ae376e0c8cfe10c954ba9c3cae03842969926534"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-sobre-los-tipos-de-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-sobre-los-tipos-de-turnos/
+  contentHash: 439a140d24e40f03de85abc0555dbef153306570c0007b6879f45ff4278c565f
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -364,3 +371,7 @@ Esta restricción obliga que el día siguiente se trabaje un turno de la franja 
 ⚙️Configuración: Esta restricción tiene una configuración básica.
 
 Importante: Comprueba que las franjas horarias no se solapen, ya que si una franja horaria termina a las 14:00 y otra empieza a las 14:00, el turno pertenecería a ambas, por lo que es importante tener las franjas horarias configuradas de manera muy diferenciada.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

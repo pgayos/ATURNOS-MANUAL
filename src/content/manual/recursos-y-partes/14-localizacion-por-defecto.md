@@ -1,39 +1,40 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-14-localizacion-por-defecto"
-title: "Localización por defecto"
-description: "En aTurnos, los trabajadores pueden tener una localización por defecto o estar “sin localización”."
+contentId: recursos-y-partes-14-localizacion-por-defecto
+title: Localización por defecto
+description: En aTurnos, los trabajadores pueden tener una localización por defecto o estar “sin localización”.
 contentType: troubleshooting
-module: "Recursos y partes"
-submodule: "Vacaciones y ausencias"
-intent: "Localización por defecto"
+module: Recursos y partes
+submodule: Vacaciones y ausencias
+intent: Localización por defecto
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "defecto"
-    label: "Defecto"
-  - id: "localizacion"
-    label: "Localizacion"
+  - id: defecto
+    label: Defecto
+  - id: localizacion
+    label: Localizacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/14-localizacion-por-defecto/"
+    - https://manual.aturnos.com/knowledgebase/14-localizacion-por-defecto/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/14-localizacion-por-defecto/"
+    - https://manual.aturnos.com/knowledgebase/14-localizacion-por-defecto/
 ai:
   answerableQuestions:
     - "¿Cómo resuelvo el problema: Localización por defecto?"
@@ -44,15 +45,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "d5fd62a91481d12b81040b1d1b1b096316b6c7a081966704c4dd3eecdd558ab2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/14-localizacion-por-defecto/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/14-localizacion-por-defecto/
+  contentHash: 7c218a28040ecbfef95e97a9851453ba10003744c2e86c6748b65972920cd681
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En aTurnos, los trabajadores pueden tener una localización por defecto o estar “sin localización”.
 
-## Contenido
-
+## Diagnóstico y solución
 Esta acción permite cambiar la localización por defecto de un trabajador a partir de una fecha. Sin que se necesite crear un nuevo periodo de contrato.
 
 Por ejemplo, Ana Sánchez tiene asignada la localización por defecto en “Oficina”, y turnos con localización en “Administración”, El administrador podrá cambiar a la trabajadora de la localización “Oficina” a la localización por defecto “Administración”. El sistema preguntará si se quieren cambiar las localizaciones de la planificación a la nueva localización por defecto.

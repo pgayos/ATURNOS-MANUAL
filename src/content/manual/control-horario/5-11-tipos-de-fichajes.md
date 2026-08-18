@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-11-tipos-de-fichajes"
-title: "Tipos de fichajes"
-description: "El sistema funciona por pares, es decir, se necesita un fichaje de entrada y otro fichaje de salida para cerrar el fichaje."
+contentId: control-horario-5-11-tipos-de-fichajes
+title: Tipos de fichajes
+description: El sistema funciona por pares, es decir, se necesita un fichaje de entrada y otro fichaje de salida para cerrar el fichaje.
 contentType: procedure
-module: "Control horario"
-submodule: "Altas y bajas"
-intent: "Tipos de fichajes"
+module: Control horario
+submodule: Altas y bajas
+intent: Tipos de fichajes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "tipos"
-    label: "Tipos"
+  - id: fichajes
+    label: Fichajes
+  - id: tipos
+    label: Tipos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-11-tipos-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/5-11-tipos-de-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-11-tipos-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/5-11-tipos-de-fichajes/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo tipos de fichajes?"
+    - ¿Cómo puedo tipos de fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "62ba53323f05d092cf1753d697ace45bf83edb1809736ba660b2346696b86c1b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-11-tipos-de-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-11-tipos-de-fichajes/
+  contentHash: 0ac6821930f80c15e17a0cd2de7070613b6705d108a11bb40c87d39cb82bf89e
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El sistema funciona por pares, es decir, se necesita un fichaje de entrada y otro fichaje de salida para cerrar el fichaje.
 
-## Contenido
-
+## Procedimiento
 Estos fichajes pueden ser de dos tipos:
 
 - Computables. Se representan con una barra naranja y computan el tiempo trabajado y presencial que se ficha.

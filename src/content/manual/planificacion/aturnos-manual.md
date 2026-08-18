@@ -1,96 +1,97 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-aturnos-manual"
-title: "aTurnos Manual"
-description: "aTurnos is a very useful managing tool. We will introduce you to this tool with a very short overview of the simplest aTurnos features (Standard Plan)."
+contentId: planificacion-aturnos-manual
+title: aTurnos Manual
+description: aTurnos is a very useful managing tool. We will introduce you to this tool with a very short overview of the simplest aTurnos features (Standard Plan).
 contentType: concept
-module: "Planificación"
-submodule: "Turnos y patrones"
-intent: "aTurnos Manual"
+module: Planificación
+submodule: Turnos y patrones
+intent: aTurnos Manual
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "manual"
-    label: "Manual"
+  - id: manual
+    label: Manual
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/documentation/additional-features/"
-    - "https://manual.aturnos.com/documentation/additional-features/time-and-attendance/"
-    - "https://manual.aturnos.com/documentation/additional-features/time-and-attendance/approving-denying-check-in-out-requests/"
-    - "https://manual.aturnos.com/documentation/additional-features/time-and-attendance/time-control/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/managing/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/managing/request-and-changes/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/managing/widgets/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/add-shifts/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/about-weekends/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/changes/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/days-off-and-days-scheduled/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/demands-and-tasks/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit-2/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/holidays-bank-holidays-and-bags-of-hours/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/locations-and-time-control/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/requests/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/shift-and-absences-restrictions/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/shift-calculator/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/shift-patterns/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/reports/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/reports/employees-reports/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/reports/statistics-by-default/"
-    - "https://manual.aturnos.com/documentation/employees-guide/"
-    - "https://manual.aturnos.com/documentation/employees-guide/employee-guide-browser/"
-    - "https://manual.aturnos.com/documentation/employees-guide/homepage-usersprofile/"
-    - "https://manual.aturnos.com/documentation/employees-guide/requests/"
-    - "https://manual.aturnos.com/documentation/employees-guide/shift-swaps/"
-    - "https://manual.aturnos.com/documentation/what-is-aturnos/"
+    - https://manual.aturnos.com/documentation/additional-features/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/approving-denying-check-in-out-requests/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/time-control/
+    - https://manual.aturnos.com/documentation/administrators-guide/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/request-and-changes/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/widgets/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/add-shifts/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/about-weekends/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/changes/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/days-off-and-days-scheduled/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/demands-and-tasks/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit-2/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/holidays-bank-holidays-and-bags-of-hours/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/locations-and-time-control/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/requests/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/shift-and-absences-restrictions/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/shift-calculator/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/shift-patterns/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/employees-reports/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/statistics-by-default/
+    - https://manual.aturnos.com/documentation/employees-guide/
+    - https://manual.aturnos.com/documentation/employees-guide/employee-guide-browser/
+    - https://manual.aturnos.com/documentation/employees-guide/homepage-usersprofile/
+    - https://manual.aturnos.com/documentation/employees-guide/requests/
+    - https://manual.aturnos.com/documentation/employees-guide/shift-swaps/
+    - https://manual.aturnos.com/documentation/what-is-aturnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/documentation/additional-features/"
-    - "https://manual.aturnos.com/documentation/additional-features/time-and-attendance/"
-    - "https://manual.aturnos.com/documentation/additional-features/time-and-attendance/approving-denying-check-in-out-requests/"
-    - "https://manual.aturnos.com/documentation/additional-features/time-and-attendance/time-control/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/managing/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/managing/request-and-changes/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/managing/widgets/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/add-shifts/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/about-weekends/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/changes/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/days-off-and-days-scheduled/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/demands-and-tasks/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit-2/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/holidays-bank-holidays-and-bags-of-hours/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/locations-and-time-control/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/requests/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/shift-and-absences-restrictions/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/shift-calculator/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/planning/shift-patterns/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/reports/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/reports/employees-reports/"
-    - "https://manual.aturnos.com/documentation/administrators-guide/reports/statistics-by-default/"
-    - "https://manual.aturnos.com/documentation/employees-guide/"
-    - "https://manual.aturnos.com/documentation/employees-guide/employee-guide-browser/"
-    - "https://manual.aturnos.com/documentation/employees-guide/homepage-usersprofile/"
-    - "https://manual.aturnos.com/documentation/employees-guide/requests/"
-    - "https://manual.aturnos.com/documentation/employees-guide/shift-swaps/"
-    - "https://manual.aturnos.com/documentation/what-is-aturnos/"
+    - https://manual.aturnos.com/documentation/additional-features/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/approving-denying-check-in-out-requests/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/time-control/
+    - https://manual.aturnos.com/documentation/administrators-guide/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/request-and-changes/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/widgets/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/add-shifts/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/about-weekends/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/changes/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/days-off-and-days-scheduled/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/demands-and-tasks/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit-2/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/holidays-bank-holidays-and-bags-of-hours/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/locations-and-time-control/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/requests/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/shift-and-absences-restrictions/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/shift-calculator/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/shift-patterns/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/employees-reports/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/statistics-by-default/
+    - https://manual.aturnos.com/documentation/employees-guide/
+    - https://manual.aturnos.com/documentation/employees-guide/employee-guide-browser/
+    - https://manual.aturnos.com/documentation/employees-guide/homepage-usersprofile/
+    - https://manual.aturnos.com/documentation/employees-guide/requests/
+    - https://manual.aturnos.com/documentation/employees-guide/shift-swaps/
+    - https://manual.aturnos.com/documentation/what-is-aturnos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre aTurnos Manual?"
+    - ¿Qué debo saber sobre aTurnos Manual?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -98,15 +99,81 @@ readingTime: 2
 featured: false
 migration:
   sourceCount: 32
-  contentHash: "f9d9fb6cf1f45534f23b9c313435fc9f2dc4425b800d5c87c933bf09063f57fa"
+  originUrls:
+    - https://manual.aturnos.com/documentation/additional-features/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/approving-denying-check-in-out-requests/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/time-control/
+    - https://manual.aturnos.com/documentation/administrators-guide/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/request-and-changes/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/widgets/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/add-shifts/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/about-weekends/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/changes/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/days-off-and-days-scheduled/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/demands-and-tasks/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit-2/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/holidays-bank-holidays-and-bags-of-hours/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/locations-and-time-control/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/requests/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/shift-and-absences-restrictions/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/shift-calculator/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/shift-patterns/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/employees-reports/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/statistics-by-default/
+    - https://manual.aturnos.com/documentation/employees-guide/
+    - https://manual.aturnos.com/documentation/employees-guide/employee-guide-browser/
+    - https://manual.aturnos.com/documentation/employees-guide/homepage-usersprofile/
+    - https://manual.aturnos.com/documentation/employees-guide/requests/
+    - https://manual.aturnos.com/documentation/employees-guide/shift-swaps/
+    - https://manual.aturnos.com/documentation/what-is-aturnos/
+  redirectFrom:
+    - https://manual.aturnos.com/documentation/additional-features/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/approving-denying-check-in-out-requests/
+    - https://manual.aturnos.com/documentation/additional-features/time-and-attendance/time-control/
+    - https://manual.aturnos.com/documentation/administrators-guide/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/request-and-changes/
+    - https://manual.aturnos.com/documentation/administrators-guide/managing/widgets/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/add-shifts/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/about-weekends/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/changes/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/days-off-and-days-scheduled/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/demands-and-tasks/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit-2/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/employees-hours-limit/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/holidays-bank-holidays-and-bags-of-hours/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/locations-and-time-control/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/requests/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/restrictions/shift-and-absences-restrictions/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/shift-calculator/
+    - https://manual.aturnos.com/documentation/administrators-guide/planning/shift-patterns/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/employees-reports/
+    - https://manual.aturnos.com/documentation/administrators-guide/reports/statistics-by-default/
+    - https://manual.aturnos.com/documentation/employees-guide/
+    - https://manual.aturnos.com/documentation/employees-guide/employee-guide-browser/
+    - https://manual.aturnos.com/documentation/employees-guide/homepage-usersprofile/
+    - https://manual.aturnos.com/documentation/employees-guide/requests/
+    - https://manual.aturnos.com/documentation/employees-guide/shift-swaps/
+    - https://manual.aturnos.com/documentation/what-is-aturnos/
+  contentHash: 50770714463a782290761e245a01332abf36ed38a371ae3c53bbc3482db4275b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 aTurnos is a very useful managing tool. We will introduce you to this tool with a very short overview of the simplest aTurnos features (Standard Plan).
 
-## Contenido
-
+## Qué debes saber
 1. Home. In this tab you can see all the widgets you have configured. You can have all the crucial information at a glance.
 2. Schedule. Subdivided in different other schedules (draft, annual…), it is the tab where you can plan all your employees. Moreover, in this tab you can manage all the request and changes that your employees may need. e.g: Medical absences, holidays requests… This simplifies considerably the manager-employee communication and saves much time.
 3. Planner. The second most important tab to complete your employees’ planning. Here you can create shifts, shift patterns, use the shift’s calculator and add restrictions.

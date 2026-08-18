@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-1-2-detalle-de-los-fichajes"
-title: "Detalle de los fichajes"
-description: "Los fichajes son todas aquellas líneas rojas que hay en la línea del tiempo de un día o aquellos fichajes cerrados que forman un periodo naranja entre el fichaje de entrada y el de salida."
+contentId: control-horario-1-2-detalle-de-los-fichajes
+title: Detalle de los fichajes
+description: Los fichajes son todas aquellas líneas rojas que hay en la línea del tiempo de un día o aquellos fichajes cerrados que forman un periodo naranja entre el fichaje de entrada y el de salida.
 contentType: concept
-module: "Control horario"
-submodule: "Vacaciones y ausencias"
-intent: "Detalle de los fichajes"
+module: Control horario
+submodule: Vacaciones y ausencias
+intent: Detalle de los fichajes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "detalle"
-    label: "Detalle"
-  - id: "fichajes"
-    label: "Fichajes"
+  - id: detalle
+    label: Detalle
+  - id: fichajes
+    label: Fichajes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-2-detalle-de-los-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/1-2-detalle-de-los-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-2-detalle-de-los-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/1-2-detalle-de-los-fichajes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre detalle de los fichajes?"
+    - ¿Qué debo saber sobre detalle de los fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e392f5e4c06f3c1fed92347b75a4ad049fe552e7050c7ffb02ded057100e7d3c"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-2-detalle-de-los-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-2-detalle-de-los-fichajes/
+  contentHash: e2f3f0025f417b36e3b16888b40ff8069b7ba6d1aa37e2746f45d85422a2fc80
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Los fichajes son todas aquellas líneas rojas que hay en la línea del tiempo de un día o aquellos fichajes cerrados que forman un periodo naranja entre el fichaje de entrada y el de salida.
 
-## Contenido
-
+## Qué debes saber
 Al pasar el cursor sobre un fichaje (línea roja) o un fichaje completado (periodo naranja) se mostrará información sobre el fichaje realizado por el trabajador.
 
 Cada fichaje insertado, puede ser modificable de forma manual, para ello hay más información en ‘ Modificar fichajes’.

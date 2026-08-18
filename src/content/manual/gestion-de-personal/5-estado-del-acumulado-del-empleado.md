@@ -1,51 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-5-estado-del-acumulado-del-empleado"
-title: "Estado del acumulado del empleado"
-description: "Este reporte contiene la misma información que el ‘ Estado del acumulado del empleado ‘ por equipo."
+contentId: gestion-de-personal-5-estado-del-acumulado-del-empleado
+title: Estado del acumulado del empleado
+description: Este reporte contiene la misma información que el ‘ Estado del acumulado del empleado ‘ por equipo.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Estado del acumulado del empleado"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Estado del acumulado del empleado
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "acumulado"
-    label: "Acumulado"
-  - id: "empleado"
-    label: "Empleado"
-  - id: "estado"
-    label: "Estado"
+  - id: acumulado
+    label: Acumulado
+  - id: empleado
+    label: Empleado
+  - id: estado
+    label: Estado
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-estado-del-acumulado-del-empleado/"
+    - https://manual.aturnos.com/knowledgebase/5-estado-del-acumulado-del-empleado/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-estado-del-acumulado-del-empleado/"
+    - https://manual.aturnos.com/knowledgebase/5-estado-del-acumulado-del-empleado/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre estado del acumulado del empleado?"
+    - ¿Qué debo saber sobre estado del acumulado del empleado?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "0ea2cb0e280ccf66462bdb7a5848eededb2bf643d2ac07f483901493306b2223"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-estado-del-acumulado-del-empleado/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-estado-del-acumulado-del-empleado/
+  contentHash: 1f641c52e0d23cdca0094f24d378bb7630954570e355fdb7d954d9d1f96d35a6
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

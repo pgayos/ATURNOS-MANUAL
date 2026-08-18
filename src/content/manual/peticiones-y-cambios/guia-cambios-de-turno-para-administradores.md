@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-guia-cambios-de-turno-para-administradores"
-title: "Cambios de turno para administradores"
-description: "Desde aTurnos, puedes gestionar los cambios de turnos, doblajes y libres de una manera mucho más eficiente. Es importante, antes de gestionar cualquier cambio de turno, configurar cómo queremos que estos se comporten:."
+contentId: peticiones-y-cambios-guia-cambios-de-turno-para-administradores
+title: Cambios de turno para administradores
+description: Desde aTurnos, puedes gestionar los cambios de turnos, doblajes y libres de una manera mucho más eficiente. Es importante, antes de gestionar cualquier cambio de turno, configurar cómo queremos que estos se comporten:.
 contentType: procedure
-module: "Peticiones y cambios"
-submodule: "Autogestión"
-intent: "Cambios de turno"
+module: Peticiones y cambios
+submodule: Autogestión
+intent: Cambios de turno
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/cambios/"
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/cambios/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo cambios de turno para administradores?"
+    - ¿Cómo puedo cambios de turno para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/cambios/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/cambios/
+  contentHash: cfe3f56332cd5ee4f3d771f8b7a9e9b3ab70006818cde8c1c7901a998c5f4de1
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

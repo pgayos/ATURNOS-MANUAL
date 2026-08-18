@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-6-tabla-de-cobertura"
-title: "Tabla de cobertura"
-description: "Información sobre tabla de cobertura, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-6-tabla-de-cobertura
+title: Tabla de cobertura
+description: Las tablas de cobertura en los equipos que tienen activado el módulo de planificación automática permiten controlar de forma ágil cuando estás cubriendo la demanda previamente cargada, ident.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Tabla de cobertura"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Tabla de cobertura
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cobertura"
-    label: "Cobertura"
-  - id: "tabla"
-    label: "Tabla"
+  - id: cobertura
+    label: Cobertura
+  - id: tabla
+    label: Tabla
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-tabla-de-cobertura/"
+    - https://manual.aturnos.com/knowledgebase/5-tabla-de-cobertura/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-tabla-de-cobertura/"
+    - https://manual.aturnos.com/knowledgebase/5-tabla-de-cobertura/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre tabla de cobertura?"
+    - ¿Qué debo saber sobre tabla de cobertura?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 9
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f3eb8f7fe8b17a8e72b28d3217b31179a6dc870f47fce6f487d4ad844162fcbc"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-tabla-de-cobertura/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-tabla-de-cobertura/
+  contentHash: e2601f7258d1bf94b62aa3d0d874e9df305783dd4d566da6ef1f69e2b657ee81
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -165,3 +172,7 @@ No se buscan ni se aceptan turnos alternativos que coincidan en horario, como H 
 Como consecuencia, si hay menos personas con turno M de las necesarias, se mostrará un déficit; y si hay más, se mostrará un exceso (en naranja). Todo esto ocurre sin considerar si otros turnos podrían cubrir ese horario.
 
 Este modo es útil cuando se quiere una planificación estricta y controlada, donde solo se aceptan turnos específicos como válidos para cada tipo de demanda.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

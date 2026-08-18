@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-anadir-patron"
-title: "Añadir patrón"
-description: "El administrador puede insertar un patrón de turnos (una secuencia de turnos) a un trabajador desde el propio cuadrante."
+contentId: planificacion-4-anadir-patron
+title: Añadir patrón
+description: El administrador puede insertar un patrón de turnos (una secuencia de turnos) a un trabajador desde el propio cuadrante.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Añadir patrón"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Añadir patrón
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anadir"
-    label: "Anadir"
-  - id: "patron"
-    label: "Patron"
+  - id: anadir
+    label: Anadir
+  - id: patron
+    label: Patron
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/d-anade-patron/"
+    - https://manual.aturnos.com/knowledgebase/d-anade-patron/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/d-anade-patron/"
+    - https://manual.aturnos.com/knowledgebase/d-anade-patron/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo añadir patrón?"
+    - ¿Cómo puedo añadir patrón?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "34a6a6e22555ba04ac90dd1cd430fc6a04e7a3d5647aa63b81641ed0d1c086e0"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/d-anade-patron/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/d-anade-patron/
+  contentHash: 30e6c557847d6549d166478fe9cbbbef9fcf2c38c7c5430bd1a62a651e3b2280
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El administrador puede insertar un patrón de turnos (una secuencia de turnos) a un trabajador desde el propio cuadrante.
 
-## Contenido
-
+## Procedimiento
 En este menú te aparecen las siguientes opciones:
 
 -Aplicar patrón: Te conduce hasta la opción de aplicar patrón.

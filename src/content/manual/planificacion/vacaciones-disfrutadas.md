@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-vacaciones-disfrutadas"
-title: "Vacaciones disfrutadas"
-description: "Son las vacaciones planificadas en el cuadrante en el periodo de tiempo anterior al día actual y que han sido disfrutadas por el trabajador correspondiente."
+contentId: planificacion-vacaciones-disfrutadas
+title: Vacaciones disfrutadas
+description: Son las vacaciones planificadas en el cuadrante en el periodo de tiempo anterior al día actual y que han sido disfrutadas por el trabajador correspondiente.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Vacaciones disfrutadas"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Vacaciones disfrutadas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "disfrutadas"
-    label: "Disfrutadas"
-  - id: "vacaciones"
-    label: "Vacaciones"
+  - id: disfrutadas
+    label: Disfrutadas
+  - id: vacaciones
+    label: Vacaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/vacaciones-disfrutadas/"
+    - https://manual.aturnos.com/knowledgebase/vacaciones-disfrutadas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/vacaciones-disfrutadas/"
+    - https://manual.aturnos.com/knowledgebase/vacaciones-disfrutadas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre vacaciones disfrutadas?"
+    - ¿Qué debo saber sobre vacaciones disfrutadas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,8 +41,14 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8c80813fe60a1b2e4f4bac441bb66e00a7bacc8ffe2b8f52d7ab144a712c115e"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/vacaciones-disfrutadas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/vacaciones-disfrutadas/
+  contentHash: bc0b1a53a2041bc401a3ee61faa22cda3322569336083ca47fef69487d6b4b9b
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -50,3 +57,7 @@ Son las vacaciones planificadas en el cuadrante en el periodo de tiempo anterior
 ## Revisión requerida
 
 La fuente pública de **Vacaciones disfrutadas** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

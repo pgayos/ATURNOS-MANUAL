@@ -1,62 +1,67 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-1-4-anadir-insertar-modificar-y-cerrar-fichajes"
-title: "Añadir, insertar, modificar y cerrar fichajes"
-description: "Todos los fichajes modificados o insertados por el administrador se guardarán como fichajes manuales. Para poder insertar fichajes debes acceder a Control de Presencia → Detalle o Detalle por trabajador."
+contentId: control-horario-1-4-anadir-insertar-modificar-y-cerrar-fichajes
+title: Añadir, insertar, modificar y cerrar fichajes
+description: Todos los fichajes modificados o insertados por el administrador se guardarán como fichajes manuales. Para poder insertar fichajes debes acceder a Control de Presencia → Detalle o Detalle por trabajador.
 contentType: procedure
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Añadir, insertar, modificar y cerrar fichajes"
+module: Control horario
+submodule: Fichajes
+intent: Añadir, insertar, modificar y cerrar fichajes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anadir"
-    label: "Anadir"
-  - id: "cerrar"
-    label: "Cerrar"
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "insertar"
-    label: "Insertar"
-  - id: "modificar"
-    label: "Modificar"
+  - id: anadir
+    label: Anadir
+  - id: cerrar
+    label: Cerrar
+  - id: fichajes
+    label: Fichajes
+  - id: insertar
+    label: Insertar
+  - id: modificar
+    label: Modificar
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-4-anadir-insertar-modificar-y-cerrar-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/1-4-anadir-insertar-modificar-y-cerrar-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-4-anadir-insertar-modificar-y-cerrar-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/1-4-anadir-insertar-modificar-y-cerrar-fichajes/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo añadir, insertar, modificar y cerrar fichajes?"
+    - ¿Cómo puedo añadir, insertar, modificar y cerrar fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b8b8586259418df97fedc67a924d1939bc208fe5afc053f11c74addbdfc14738"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-4-anadir-insertar-modificar-y-cerrar-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-4-anadir-insertar-modificar-y-cerrar-fichajes/
+  contentHash: 56f808c50a95e637884107297917bd9225e1c66cb75c065afb8ed18a36c0ebba
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Todos los fichajes modificados o insertados por el administrador se guardarán como fichajes manuales. Para poder insertar fichajes debes acceder a Control de Presencia → Detalle o Detalle por trabajador.
 
-## Contenido
-
+## Procedimiento
 Este botón permite al administrador añadir nuevos fichajes de forma manual a un trabajador. Para ello se debe:
 
 - Seleccionar al trabajador.

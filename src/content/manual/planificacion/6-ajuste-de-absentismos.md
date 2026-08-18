@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-6-ajuste-de-absentismos"
-title: "Ajuste de absentismos"
-description: "Corresponde a los ajustes que se generan por absentismos. Por ejemplo, cuando se ha realizado un pago de horas (Descuento de horas) o se hace un abono (Incremento de horas)."
+contentId: planificacion-6-ajuste-de-absentismos
+title: Ajuste de absentismos
+description: Corresponde a los ajustes que se generan por absentismos. Por ejemplo, cuando se ha realizado un pago de horas (Descuento de horas) o se hace un abono (Incremento de horas).
 contentType: reference
-module: "Planificación"
-submodule: "Contratos"
-intent: "Ajuste de absentismos"
+module: Planificación
+submodule: Contratos
+intent: Ajuste de absentismos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
-  - id: "ajuste"
-    label: "Ajuste"
+  - id: absentismos
+    label: Absentismos
+  - id: ajuste
+    label: Ajuste
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-ajuste-de-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/6-ajuste-de-absentismos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-ajuste-de-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/6-ajuste-de-absentismos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre ajuste de absentismos?"
+    - ¿Qué debo saber sobre ajuste de absentismos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "4dfa5a3d1b8abf5de80cfe2b171871767de18fe6c31de952928f8b9915751bfa"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-ajuste-de-absentismos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-ajuste-de-absentismos/
+  contentHash: f8c5ddf634eb32451cb248a555afc1522df6dc5132b5319800c92f818ae8ebd5
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Corresponde a los ajustes que se generan por absentismos. Por ejemplo, cuando se ha realizado un pago de horas (Descuento de horas) o se hace un abono (Incremento de horas).
 
-## Contenido
-
+## Opciones y datos disponibles
 Las horas que generan los absentismos justificados se suman a las horas planificadas como si hubieran sido realizadas por el trabajador. Pero en ciertos casos no hay que contar las horas planificadas del día de absentismo, sino que se hace un cálculo predefinido. Además, esto se puede realizar dependiendo de un mínimo de días de absentismo.
 
 Las opciones son:

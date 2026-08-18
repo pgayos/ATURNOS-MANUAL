@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-7-modifica-las-localizaciones"
-title: "Modifica las localizaciones"
-description: "Aprende a modifica las localizaciones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: recursos-y-partes-7-modifica-las-localizaciones
+title: Modifica las localizaciones
+description: Al gestionar un equipo puede haber cambios completos de un día en un servicio, en un departamento, en un centro de trabajo, con los que en aTurnos se trabaja con las localizaciones.
 contentType: procedure
-module: "Recursos y partes"
-submodule: "Altas y bajas"
-intent: "Modifica las localizaciones"
+module: Recursos y partes
+submodule: Altas y bajas
+intent: Modifica las localizaciones
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "localizaciones"
-    label: "Localizaciones"
-  - id: "modifica"
-    label: "Modifica"
+  - id: localizaciones
+    label: Localizaciones
+  - id: modifica
+    label: Modifica
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-modifica-las-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/7-modifica-las-localizaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-modifica-las-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/7-modifica-las-localizaciones/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo modifica las localizaciones?"
+    - ¿Cómo puedo modifica las localizaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,15 +41,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "a385c9d74eb548691e75373dc68de0e12d675205066d9d99dc753738a0806e54"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-modifica-las-localizaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-modifica-las-localizaciones/
+  contentHash: 2b8924ae828ed9f458ce001ef4aaf7d51056d9bdc7c76998756e64c487c55d03
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a modifica las localizaciones, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Al gestionar un equipo puede haber cambios completos de un día en un servicio, en un departamento, en un centro de trabajo, con los que en aTurnos se trabaja con las localizaciones. Desde esta función, se cambian las localizaciones de los turnos planificados en el día que se seleccione al hacer clic con el ratón.
 
 Para ello, una vez seleccionada la acción “Localización Turno”, se desplegará un menú contextual con todas las localizaciones creadas. Para modificarla, simplemente se debe hacer clic en aquella que se quiere aplicar a todos los turnos de los trabajadores de ese día.

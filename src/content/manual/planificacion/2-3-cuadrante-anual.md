@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-3-cuadrante-anual"
-title: "Cuadrante Anual"
-description: "Información sobre cuadrante Anual, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-2-3-cuadrante-anual
+title: Cuadrante Anual
+description: En el menú Cuadrante anual, el Administrador puede visualizar la planificación asignada durante el año a cualquiera de sus trabajadores.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Cuadrante Anual"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Cuadrante Anual
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anual"
-    label: "Anual"
-  - id: "cuadrante"
-    label: "Cuadrante"
+  - id: anual
+    label: Anual
+  - id: cuadrante
+    label: Cuadrante
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-3-cuadrante-anual/"
+    - https://manual.aturnos.com/knowledgebase/2-3-cuadrante-anual/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-3-cuadrante-anual/"
+    - https://manual.aturnos.com/knowledgebase/2-3-cuadrante-anual/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cuadrante Anual?"
+    - ¿Qué debo saber sobre cuadrante Anual?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8bbf6c098c8774f736ef1e1887a7f3d53399363f0a686c63d97f4274740317d8"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-3-cuadrante-anual/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-3-cuadrante-anual/
+  contentHash: 44a3a69b224c5a718eac88fb8cf3494ecbaa0cd2c03b504bdeb17d930f689ae0
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -154,3 +161,7 @@ El ejercicio o año fiscal de las empresas no siempre corresponde con el períod
 Ejemplo, si el año fiscal de la empresa es del 01/04 al 31/03 (FY= Fiscal Year) los 12 meses que se mostrarán en el cuadrante se informarán iniciando la secuencia con el mes de Abril y así sucesivamente cerrará con el mes de Marzo.
 
 En la barra superior desplegable se selecciona el año fiscal (FY= Fiscal Year) que se quiere consultar o visualizar en el cuadrante anual. De igual forma, todas las estadísticas y datos del cuadrante se ajustarán según el año fiscal informado.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

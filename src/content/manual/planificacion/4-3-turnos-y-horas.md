@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-3-turnos-y-horas"
-title: "Turnos y Horas"
-description: "Desde este registro, se pueden modificar, editar o borrar turnos y horas insertados previamente en el cuadrante."
+contentId: planificacion-4-3-turnos-y-horas
+title: Turnos y Horas
+description: Desde este registro, se pueden modificar, editar o borrar turnos y horas insertados previamente en el cuadrante.
 contentType: concept
-module: "Planificación"
-submodule: "Usuarios y perfiles"
-intent: "Turnos y Horas"
+module: Planificación
+submodule: Usuarios y perfiles
+intent: Turnos y Horas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "horas"
-    label: "Horas"
-  - id: "turnos"
-    label: "Turnos"
+  - id: horas
+    label: Horas
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-3-turnos-y-horas/"
+    - https://manual.aturnos.com/knowledgebase/4-3-turnos-y-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-3-turnos-y-horas/"
+    - https://manual.aturnos.com/knowledgebase/4-3-turnos-y-horas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre turnos y Horas?"
+    - ¿Qué debo saber sobre turnos y Horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "89ee028cf9ced80c25fe8d1bb368d1e6aea378ef409df493b010b0adc0405e36"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-3-turnos-y-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-3-turnos-y-horas/
+  contentHash: 8cd1c865edbe2e07b22479fffa423dcfa9e21f360735c6662ce80c54498aa664
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -74,3 +81,7 @@ Al hacer clic en el botón de expandir se puede dividir el turno (icono de la ti
 En este apartado podrás ver y modificar de manera resumida y sencilla el listado de trabajadores que han realizado horas (adicionales al turno) y que han sido registradas en el cuadrante, se detalla nombre del trabajador que las realizó, la fecha y cantidad de horas.
 
 Al hacer clic en la acción de expandir, es posible cambiar el tipo de las horas: Normal, extra o complementaria (puedes crear más tipos de horas, te explicamos cómo hacerlo en el siguiente enlace (Crear tipos de hora). De igual forma, puede modificar la cantidad de horas (aumentarlas o reducirlas) en caso de considerar que no estén correctas. Asimismo, tienes la opción de dividir en dos o más los tipos de horas y modificar la descripción.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

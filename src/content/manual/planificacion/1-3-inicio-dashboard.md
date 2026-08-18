@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-1-3-inicio-dashboard"
-title: "Inicio (Dashboard)"
-description: "En aTurnos disponemos de los siguientes widgets (la visualización de unos u otros se configura por el administrador)."
+contentId: planificacion-1-3-inicio-dashboard
+title: Inicio (Dashboard)
+description: En aTurnos disponemos de los siguientes widgets (la visualización de unos u otros se configura por el administrador).
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Inicio (Dashboard)"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Inicio (Dashboard)
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "dashboard"
-    label: "Dashboard"
-  - id: "inicio"
-    label: "Inicio"
+  - id: dashboard
+    label: Dashboard
+  - id: inicio
+    label: Inicio
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-3-inicio-dashboard/"
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-dashboard/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-3-inicio-dashboard/"
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-dashboard/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre inicio (Dashboard)?"
+    - ¿Qué debo saber sobre inicio (Dashboard)?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "596f3d4f1b004e78334100787490f9fd7badb3c735b63bc467bcac253da57f53"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-dashboard/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-3-inicio-dashboard/
+  contentHash: b85a32eba7605a97380444559758516ca6898d29158ef4d2a4495fb1669d35f4
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En aTurnos disponemos de los siguientes widgets (la visualización de unos u otros se configura por el administrador).
 
-## Contenido
-
+## Qué debes saber
 Trabajadores
 
 Muestra el número de trabajadores planificado en el momento (día) de acceso con respecto al total del equipo.

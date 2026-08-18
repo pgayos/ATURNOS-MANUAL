@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "documentos-1-crear-tipo-de-documento"
-title: "Crear tipo de documento"
-description: "El administrador del equipo desde la función Tipos, que se encuentra en el menú Documentos, puede crear los tipos de documentos que necesite desde el botón derecho de Acciones en ‘ Añadir Tipo de Documento ’."
+contentId: documentos-1-crear-tipo-de-documento
+title: Crear tipo de documento
+description: El administrador del equipo desde la función Tipos, que se encuentra en el menú Documentos, puede crear los tipos de documentos que necesite desde el botón derecho de Acciones en ‘ Añadir Tipo de Documento ’.
 contentType: concept
-module: "Documentos"
-submodule: "Roles y permisos"
-intent: "Crear tipo de documento"
+module: Documentos
+submodule: Roles y permisos
+intent: Crear tipo de documento
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "crear"
-    label: "Crear"
-  - id: "documento"
-    label: "Documento"
-  - id: "tipo"
-    label: "Tipo"
+  - id: crear
+    label: Crear
+  - id: documento
+    label: Documento
+  - id: tipo
+    label: Tipo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-crear-tipo-de-documento/"
+    - https://manual.aturnos.com/knowledgebase/1-crear-tipo-de-documento/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-crear-tipo-de-documento/"
+    - https://manual.aturnos.com/knowledgebase/1-crear-tipo-de-documento/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre crear tipo de documento?"
+    - ¿Qué debo saber sobre crear tipo de documento?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "fd9fd7e7f2fa9527fcfdf21bcb41e2a804c26ee3f5243a866064de7fc8fc0f67"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-crear-tipo-de-documento/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-crear-tipo-de-documento/
+  contentHash: c954c8acd7599731e4094aa001262430c96673a3b6dbd99fd3f456ca305ae697
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El administrador del equipo desde la función Tipos, que se encuentra en el menú Documentos, puede crear los tipos de documentos que necesite desde el botón derecho de Acciones en ‘ Añadir Tipo de Documento ’.
 
-## Contenido
-
+## Qué debes saber
 Se nos desplegará un menú en el que necesitaremos informar:
 
 - Nombre: para identificar el tipo de documento que queremos generar.

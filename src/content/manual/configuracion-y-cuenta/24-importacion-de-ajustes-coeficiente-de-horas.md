@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-24-importacion-de-ajustes-coeficiente-de-horas"
-title: "Importación de Ajustes-Coeficiente de Horas"
-description: "Aprende a importación de Ajustes-Coeficiente de Horas, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-24-importacion-de-ajustes-coeficiente-de-horas
+title: Importación de Ajustes-Coeficiente de Horas
+description: Si necesitas informar en aTurnos el coeficiente de horas de nocturnidad y festivos a los trabajadores de tu equipo puedes hacerlo a través de la importación de un fichero, tal como te mostra.
 contentType: procedure
-module: "Configuración y cuenta"
-submodule: "Usuarios y perfiles"
-intent: "Importación de Ajustes-Coeficiente de Horas"
+module: Configuración y cuenta
+submodule: Usuarios y perfiles
+intent: Importación de Ajustes-Coeficiente de Horas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "ajustes"
-    label: "Ajustes"
-  - id: "coeficiente"
-    label: "Coeficiente"
-  - id: "horas"
-    label: "Horas"
-  - id: "importacion"
-    label: "Importacion"
+  - id: ajustes
+    label: Ajustes
+  - id: coeficiente
+    label: Coeficiente
+  - id: horas
+    label: Horas
+  - id: importacion
+    label: Importacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/24-importacion-de-ajustes-coeficiente-de-horas/"
+    - https://manual.aturnos.com/knowledgebase/24-importacion-de-ajustes-coeficiente-de-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/24-importacion-de-ajustes-coeficiente-de-horas/"
+    - https://manual.aturnos.com/knowledgebase/24-importacion-de-ajustes-coeficiente-de-horas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo importación de Ajustes-Coeficiente de Horas?"
+    - ¿Cómo puedo importación de Ajustes-Coeficiente de Horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bbc566a92c5f8572dfec0816a6ac61843306692667e4405fa615d803e02bb63b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/24-importacion-de-ajustes-coeficiente-de-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/24-importacion-de-ajustes-coeficiente-de-horas/
+  contentHash: 3568a5cd27521bba4b0c0b5f7f22c1613e8b25695a30f23407ee87b8b2ddc229
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a importación de Ajustes-Coeficiente de Horas, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Si necesitas informar en aTurnos el coeficiente de horas de nocturnidad y festivos a los trabajadores de tu equipo puedes hacerlo a través de la importación de un fichero, tal como te mostraremos a continuación. Para ver mas detalle acerca de Ajustes – Coeficiente de horas entra al siguiente enlace: Ajuste de Coeficientes en nocturnidad y festivos
 
 Debes crear un fichero con los datos que deseas informar, la plantilla debe contener las siguientes columnas:

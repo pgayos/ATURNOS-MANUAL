@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-cuadrante"
-title: "Cuadrante"
-description: "Aprende a cuadrante, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-cuadrante
+title: Cuadrante
+description: El Cuadrante es la herramienta principal de un trabajador dentro de aTurnos.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Cuadrante"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Cuadrante
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cuadrante"
-    label: "Cuadrante"
+  - id: cuadrante
+    label: Cuadrante
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/cuadrante/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/cuadrante/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo cuadrante?"
+    - ¿Cómo puedo cuadrante?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "cdbd9de37e2511053b42d0ef38d710c0f3a1353d291d7616a267859bc9b04bb1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/cuadrante/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/cuadrante/
+  contentHash: 924d5d37195c4749c1f320720ec5d16e2979d37b63763446d07d7deca96a7ea5
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -93,3 +100,7 @@ De esta manera se podrán realizar cambios de 5 maneras diferentes:
 - Intercambio: Cuando un trabajador necesita cambiar un turno en el mismo día, el ejemplo habitual es un trabajador con turno M (de mañana) quiere cambiar el turno por otro trabajador que lo tiene por la tarde (T), de manera que al realizar el intercambio, se modifica la planificación. Al seleccionar la opción “Intercambio“, la aplicación muestra a todos los trabajadores con turno (distinto) del que tiene el trabajador solicitante. El sistema permite un cambio de turno en el mismo día entre tipos de turnos diferentes con el fin de garantizar que la cobertura sea la misma antes del proceso del cambio.
 - Intercambio (día completo): Esta opción es igual que la anterior, pero en el caso de que el trabajador tenga planificados dos turnos diferentes ese mismo día (Mañana y Tarde), se realizará el intercambio con ambos turnos.
 - Doblaje: En este tipo de cambio el trabajador selecciona un turno que tiene planificado con el fin de que ese turno lo realice otro trabajador (con planificación previa). El trabajador puede librar ese día (en el caso que solo tenga 1 turno planificado en ese día) haciendo doblar al compañero que acepta el turno.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

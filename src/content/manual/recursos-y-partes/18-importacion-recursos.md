@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-18-importacion-recursos"
-title: "Importación recursos"
-description: "Información sobre importación recursos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: recursos-y-partes-18-importacion-recursos
+title: Importación recursos
+description: Algunos managers conocen cuál son los recursos generados por sus trabajadores durante su turno de trabajo o en horas predeterminadas.
 contentType: concept
-module: "Recursos y partes"
-submodule: "General"
-intent: "Importación recursos"
+module: Recursos y partes
+submodule: General
+intent: Importación recursos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "importacion"
-    label: "Importacion"
-  - id: "recursos"
-    label: "Recursos"
+  - id: importacion
+    label: Importacion
+  - id: recursos
+    label: Recursos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/18-importacion-recursos/"
+    - https://manual.aturnos.com/knowledgebase/18-importacion-recursos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/18-importacion-recursos/"
+    - https://manual.aturnos.com/knowledgebase/18-importacion-recursos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importación recursos?"
+    - ¿Qué debo saber sobre importación recursos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bd64d2edb6a057bc7e5275ca18a4dced1f51e2424f201c2998f764d6299cbe39"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/18-importacion-recursos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/18-importacion-recursos/
+  contentHash: 4240df19aeb0ebec5106c039a3d3b7e15c4e1b581b00bb6308e6dfdad7bf36db
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre importación recursos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Algunos managers conocen cuál son los recursos generados por sus trabajadores durante su turno de trabajo o en horas predeterminadas. Si necesitas incluir recursos a varios trabajadores de manera rápida y sencilla, podemos importar un importar un fichero Excel donde indiquemos los recursos generados en dichos trabajadores. Para importar este archivo, se debe tener activado el módulo de Recursos
 
 Para poder importar los recursos puedes completar la plantilla de ejemplo que puedes descargar:

@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-trabajador-disponible"
-title: "Trabajador disponible"
-description: "Información sobre trabajador disponible, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-trabajador-disponible
+title: Trabajador disponible
+description: Es el trabajador que tiene la jornada libre. Su planificación está marcada por horas e incluso aquel que tiene un turno diferente al turno que quiere añadir de forma adicional como puede ser.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Trabajador disponible"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Trabajador disponible
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "disponible"
-    label: "Disponible"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: disponible
+    label: Disponible
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/trabajadores-disponibles/"
+    - https://manual.aturnos.com/knowledgebase/trabajadores-disponibles/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/trabajadores-disponibles/"
+    - https://manual.aturnos.com/knowledgebase/trabajadores-disponibles/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre trabajador disponible?"
+    - ¿Qué debo saber sobre trabajador disponible?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,13 +41,22 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "04ac968c06f02badccd52d8cb3447bfe0bed3de2d428732a8dba0f3ffe4b2328"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/trabajadores-disponibles/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/trabajadores-disponibles/
+  contentHash: d18319a7a537676e087476c584ad68341b25f84f2312e9e7b0ff070f31ef09f6
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
 Información sobre trabajador disponible, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Es el trabajador que tiene la jornada libre. Su planificación está marcada por horas e incluso aquel que tiene un turno diferente al turno que quiere añadir de forma adicional como puede ser en un proceso de cambio u oferta de turnos. No se consideran como trabajadores disponibles aquellos que estén de vacaciones o que se encuentren dentro de un período de absentismo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

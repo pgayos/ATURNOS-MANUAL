@@ -1,55 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-7-5-migrar-balance-de-horas-y-vacaciones"
-title: "Migrar balance de horas y vacaciones"
-description: "Información sobre migrar balance de horas y vacaciones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-7-5-migrar-balance-de-horas-y-vacaciones
+title: Migrar balance de horas y vacaciones
+description: Cuando termina un año, los balances de las horas y de las vacaciones se pueden traspasar al año siguiente.
 contentType: concept
-module: "Planificación"
-submodule: "Contratos"
-intent: "Migrar balance de horas y vacaciones"
+module: Planificación
+submodule: Contratos
+intent: Migrar balance de horas y vacaciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "balance"
-    label: "Balance"
-  - id: "horas"
-    label: "Horas"
-  - id: "migrar"
-    label: "Migrar"
-  - id: "vacaciones"
-    label: "Vacaciones"
+  - id: balance
+    label: Balance
+  - id: horas
+    label: Horas
+  - id: migrar
+    label: Migrar
+  - id: vacaciones
+    label: Vacaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre migrar balance de horas y vacaciones?"
+    - ¿Qué debo saber sobre migrar balance de horas y vacaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "77ac0e2e059f1b4fc9c122f0fad3517e2e7055650e56d1227bac5a61514604f2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/
+  contentHash: 26b423f3337a0eef8e5cc363abaf21cd92c6eaa936e5d23d416fb6cf1fda8155
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

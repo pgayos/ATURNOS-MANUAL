@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-3-informe"
-title: "Informe en aTurnos"
-description: "aTurnos pone a disposición de los administradores de los equipos de trabajo de un Informe predefinido para su presentación a la Inspección Laboral."
+contentId: gestion-de-personal-3-informe
+title: Informe en aTurnos
+description: aTurnos pone a disposición de los administradores de los equipos de trabajo de un Informe predefinido para su presentación a la Inspección Laboral.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Informe en aTurnos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Informe en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "informe"
-    label: "Informe"
+  - id: informe
+    label: Informe
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-informe/"
+    - https://manual.aturnos.com/knowledgebase/3-informe/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-informe/"
+    - https://manual.aturnos.com/knowledgebase/3-informe/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo informe en aTurnos?"
+    - ¿Cómo puedo informe en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,20 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "489588cf6d3459f939311c230a7d3305f17fa43157e822fbdf64de824e8d2b37"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-informe/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-informe/
+  contentHash: 2eb7bcb5a16f49d0cca3fd84ce51260e8143d05a8b743e0dd85a4207e8f01bfb
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
 aTurnos pone a disposición de los administradores de los equipos de trabajo de un Informe predefinido para su presentación a la Inspección Laboral.
 
-## Contenido
-
+## Procedimiento
 Desde aquí, se pueden exportar todos los informes de los trabajadores de todos los equipos que se gestionan.
 
 Es necesario definir:
@@ -64,3 +70,7 @@ Al solicitar el Informe, el sistema permite seleccionar qué campos mostrar.
 También permite seleccionar si se quiere exportar en PDF o Excel.
 
 Debido al volumen de datos, se generará una ‘ Petición de reporte ‘ para su descarga.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

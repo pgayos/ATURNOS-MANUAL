@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-b-absentismos"
-title: "Absentismos"
-description: "Información sobre absentismos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-b-absentismos
+title: Absentismos
+description: Un absentismo es una ausencia o abandono del puesto de trabajo durante los turnos y horas planificados en su cuadrante.
 contentType: concept
-module: "Planificación"
-submodule: "Roles y permisos"
-intent: "Absentismos"
+module: Planificación
+submodule: Roles y permisos
+intent: Absentismos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
+  - id: absentismos
+    label: Absentismos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/b-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/b-absentismos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/b-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/b-absentismos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre absentismos?"
+    - ¿Qué debo saber sobre absentismos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ed316121801000f6bab261edff840794e15410f5dbf12714e0da7cd8f9715f24"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/b-absentismos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/b-absentismos/
+  contentHash: 4c681a9fefd36352dc2cd1b1284cb2b8f3fa7bf425792dc276114e8a72b6b848
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre absentismos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Un absentismo es una ausencia o abandono del puesto de trabajo durante los turnos y horas planificados en su cuadrante. Dentro de los absentismos, se pueden crear todos aquellos permisos que tienen por derecho los trabajadores, ya estén recogidos en el Estatuto de los Trabajadores o en su Convenio Colectivo.
 
 Los absentismos pueden afectar al total de los turnos planificados, lo que llamaríamos ‘Absentismo Total’ o bien pueden afectar a un periodo de tiempo del turno planificado, lo que se denomina ‘Absentismo Temporal’.

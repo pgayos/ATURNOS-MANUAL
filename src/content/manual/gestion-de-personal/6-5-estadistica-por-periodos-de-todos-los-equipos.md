@@ -1,60 +1,65 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-6-5-estadistica-por-periodos-de-todos-los-equipos"
-title: "Estadística por periodos de todos los equipos"
-description: "Aprende a estadística por periodos de todos los equipos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-6-5-estadistica-por-periodos-de-todos-los-equipos
+title: Estadística por periodos de todos los equipos
+description: A través de la estadística por periodo de todos los equipos se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calc.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Estadística por periodos de todos los equipos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Estadística por periodos de todos los equipos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "equipos"
-    label: "Equipos"
-  - id: "estadistica"
-    label: "Estadistica"
-  - id: "periodos"
-    label: "Periodos"
-  - id: "todos"
-    label: "Todos"
+  - id: equipos
+    label: Equipos
+  - id: estadistica
+    label: Estadistica
+  - id: periodos
+    label: Periodos
+  - id: todos
+    label: Todos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos/"
+    - https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos/"
+    - https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo estadística por periodos de todos los equipos?"
+    - ¿Cómo puedo estadística por periodos de todos los equipos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e9522bfd00d88d73f0f491fd9aaf8f6be1336f3f44151182dfa2389d030b42ae"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos/
+  contentHash: 138902083a6c950534e1d5b69cd5c8f78568b69b55f6a29231f3c68ae21827ba
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a estadística por periodos de todos los equipos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 A través de la estadística por periodo de todos los equipos se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculados en el período seleccionado).
 
 No es aconsejable el uso de la estadística por periodo si en el cálculo de las variables se utilizan cálculos complejos tanto conceptos que operan entre conceptos como conceptos de comparación, las operaciones que ejecutan (de suma, resta, multiplicación o división, así como las de comparación) se realizan entre las fechas de la ejecución calculando en todo el periodo seleccionado.

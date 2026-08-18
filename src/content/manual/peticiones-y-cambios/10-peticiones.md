@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-10-peticiones"
-title: "Peticiones"
-description: "Información sobre peticiones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-10-peticiones
+title: Peticiones
+description: Como administrador podrás realizar peticiones sobre diferentes aspectos del convenio laboral (vacaciones, permisos, permisos temporales y periodos de absentismos) y de la propia planificació.
 contentType: concept
-module: "Peticiones y cambios"
-submodule: "Vacaciones y ausencias"
-intent: "Peticiones"
+module: Peticiones y cambios
+submodule: Vacaciones y ausencias
+intent: Peticiones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "peticiones"
-    label: "Peticiones"
+  - id: peticiones
+    label: Peticiones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/i-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/i-peticiones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/i-peticiones/"
+    - https://manual.aturnos.com/knowledgebase/i-peticiones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre peticiones?"
+    - ¿Qué debo saber sobre peticiones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,8 +41,13 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b04ac42bf6413ef453bbd6b12254c0e310455c0af0621da9f2dbe87fc51907d1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/i-peticiones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/i-peticiones/
+  contentHash: d87994ba737a9d69f5018288a2d03de02808261793cca14951f83af758381eab
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

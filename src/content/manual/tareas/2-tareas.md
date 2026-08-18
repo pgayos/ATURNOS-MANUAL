@@ -1,50 +1,55 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-2-tareas"
-title: "Tareas en aTurnos"
-description: "Desde el menú de Tareas – Tareas, se van a mostrar el histórico con las tareas o citas que se han creado o solicitadas por servicios."
+contentId: tareas-2-tareas
+title: Tareas en aTurnos
+description: Desde el menú de Tareas – Tareas, se van a mostrar el histórico con las tareas o citas que se han creado o solicitadas por servicios.
 contentType: reference
-module: "Tareas"
-submodule: "General"
-intent: "Tareas en aTurnos"
+module: Tareas
+submodule: General
+intent: Tareas en aTurnos
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "tareas"
-    label: "Tareas"
+  - id: tareas
+    label: Tareas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-tareas/"
+    - https://manual.aturnos.com/knowledgebase/2-tareas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-tareas/"
+    - https://manual.aturnos.com/knowledgebase/2-tareas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre tareas en aTurnos?"
+    - ¿Qué debo saber sobre tareas en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "c98093d4d4496859343b7765860da7d2d97c9f01d21c7490e49e4e1e3c2e6a66"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-tareas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-tareas/
+  contentHash: b2107922c264397f87b071abd57970bd78d7fa82e1a307efba4d90fa91fd9000
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Desde el menú de Tareas – Tareas, se van a mostrar el histórico con las tareas o citas que se han creado o solicitadas por servicios.
 
-## Contenido
-
+## Opciones y datos disponibles
 - Filtro: se puede filtrar la información que deseas visualizar tanto por trabajador que la realiza como por la tarea que hace (por Especialidad o servicio, cliente, entre otros).
 - Acciones: entre las opciones encontrarás:
 

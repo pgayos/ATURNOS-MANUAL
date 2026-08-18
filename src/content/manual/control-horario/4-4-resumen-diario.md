@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-4-4-resumen-diario"
-title: "Resumen diario"
-description: "En definitiva los datos que aparecen en esta tabla son los siguientes:."
+contentId: control-horario-4-4-resumen-diario
+title: Resumen diario
+description: En definitiva los datos que aparecen en esta tabla son los siguientes:.
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Resumen diario"
+module: Control horario
+submodule: Fichajes
+intent: Resumen diario
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "diario"
-    label: "Diario"
-  - id: "resumen"
-    label: "Resumen"
+  - id: diario
+    label: Diario
+  - id: resumen
+    label: Resumen
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-4-resumen-diario/"
+    - https://manual.aturnos.com/knowledgebase/4-4-resumen-diario/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-4-resumen-diario/"
+    - https://manual.aturnos.com/knowledgebase/4-4-resumen-diario/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre resumen diario?"
+    - ¿Qué debo saber sobre resumen diario?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,15 +41,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "193ac52f79e43140392f64651c970a0868e1a01d4ded9e443d383d60b4929860"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-4-resumen-diario/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-4-resumen-diario/
+  contentHash: 31b92379a4788b9a5fb27abd9d3d69c7fe8f9c1fc3a1e56014ca9f50c461325c
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En definitiva los datos que aparecen en esta tabla son los siguientes:.
 
-## Contenido
-
+## Qué debes saber
 - Trabajador: nombre del trabajador.
 - Horas presenciales: las horas que se han marcado por el trabajador desde que fichó al inicio de la jornada hasta que realizó el marcaje de salida.
 - Horas planificadas: el número de horas que tenía el trabajador planificadas en su cuadrante para ese día en concreto.

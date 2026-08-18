@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-c-privacidad"
-title: "Privacidad"
-description: "Información sobre privacidad, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-c-privacidad
+title: Privacidad
+description: Los datos en la gestión de personal son muy sensibles, existen configuraciones más abiertas a mostrar datos y otras más cerradas.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Privacidad"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Privacidad
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "privacidad"
-    label: "Privacidad"
+  - id: privacidad
+    label: Privacidad
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/c-privacidad/"
+    - https://manual.aturnos.com/knowledgebase/c-privacidad/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/c-privacidad/"
+    - https://manual.aturnos.com/knowledgebase/c-privacidad/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre privacidad?"
+    - ¿Qué debo saber sobre privacidad?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 7
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b93fccf5860e3c0637c4318fa3c5eb8a66ceb6f9672fb327bd158a5748bf8606"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/c-privacidad/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/c-privacidad/
+  contentHash: 1a048991b7d69dce46d74f9fcd1e3b92edd1f31bd9f43fdc5a78ec42e4733179
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre privacidad, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Los datos en la gestión de personal son muy sensibles, existen configuraciones más abiertas a mostrar datos y otras más cerradas. En este caso, aTurnos permite configurar un abanico de posibilidades para ser más o menos restrictivos. Existe diferentes opciones de privacidad de datos con respecto a los trabajadores y administradores.
 
 Esta opción permite que el administrador total de un equipo no aparezca en el cuadrante. Es frecuente que los administradores totales tengan accesos a equipos donde no se planifiquen, y por ello se prefiere que no aparezca en el cuadrante. Sin embargo, puede darse el caso contrario, donde el administrador necesita una planifcación y por ello es necesario que aparezca en el cuadrante y ser planificable.

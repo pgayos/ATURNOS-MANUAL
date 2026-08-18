@@ -1,27 +1,28 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-guia-configuracion-general-para-administradores"
-title: "Configuración General para administradores"
-description: "Información sobre configuración General para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: costes-y-nominas-guia-configuracion-general-para-administradores
+title: Configuración General para administradores
+description: La exportación a nóminas permite descargar las variables de nómina (por ejemplo, nocturnidad, festivos, jornadas, etc.) a partir de la planificación registrada en el cuadrante.
 contentType: troubleshooting
-module: "Costes y nóminas"
-submodule: "Nóminas"
-intent: "Configuración General"
+module: Costes y nóminas
+submodule: Nóminas
+intent: Configuración General
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-27
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/configuracion-general/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/configuracion-general/
   redirectsFrom: []
 ai:
   answerableQuestions:
@@ -29,8 +30,18 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/configuracion-general/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/nominas/configuracion-general/
+  contentHash: 80bde22062a23095544fd6e2ab08d258150f14d51e3ad641498f2b8eac1d6edd
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -146,3 +157,7 @@ Variables a definir (4):
 2. Horas mínimas para considerar la jornada en ese día (para turnos nocturnos que cruzan día; por defecto 0).
 3. Límite de horas para considerar una jornada adicional (por defecto 24h).
 4. Horas para considerar jornada nocturna (por defecto 0).
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

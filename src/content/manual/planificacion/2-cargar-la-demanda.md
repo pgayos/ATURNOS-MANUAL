@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-cargar-la-demanda"
-title: "Cargar la demanda"
-description: "Información sobre cargar la demanda, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-2-cargar-la-demanda
+title: Cargar la demanda
+description: La curva de demanda en aTurnos es la cantidad de personal necesario en un período de tiempo establecido para garantizar un servicio con una calidad de servicio definida.
 contentType: concept
-module: "Planificación"
-submodule: "General"
-intent: "Cargar la demanda"
+module: Planificación
+submodule: General
+intent: Cargar la demanda
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cargar"
-    label: "Cargar"
-  - id: "demanda"
-    label: "Demanda"
+  - id: cargar
+    label: Cargar
+  - id: demanda
+    label: Demanda
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-cargar-la-demanda/"
+    - https://manual.aturnos.com/knowledgebase/1-cargar-la-demanda/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-cargar-la-demanda/"
+    - https://manual.aturnos.com/knowledgebase/1-cargar-la-demanda/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cargar la demanda?"
+    - ¿Qué debo saber sobre cargar la demanda?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "5aaf201db1bfff5d89ee169ae851f182264b12b01c4b5d1ce3643878b6bdb192"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-cargar-la-demanda/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-cargar-la-demanda/
+  contentHash: abb1c73d622386ab7c87c87650a1b9b4538d008e478f089057b09a6a57c2c7ee
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -94,3 +101,7 @@ Y por último se procede a “Guardar” la demanda creada.
 Crear la curva por esta vía es muy útil cuando la empresa maneja coberturas con picos de demanda y necesita (por ejemplo) aumentar la cobertura de trabajadores en ciertas horas del día.
 
 Este proceso de carga también se puede hacer mediante la importación de un archivo desde nuestra importación. Se asocian los campos del archivo de carga con cada uno de los campos que existen definido un poco más arriba de este texto en el volcado manual. Esta carga de datos de demanda también se puede realizar desde el API.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

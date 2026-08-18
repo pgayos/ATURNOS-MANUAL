@@ -1,36 +1,37 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-8-cambios"
-title: "Cambios en aTurnos"
-description: "Esta restricción impide que se puedan realizar cambios de turno."
+contentId: planificacion-8-cambios
+title: Cambios en aTurnos
+description: Esta restricción impide que se puedan realizar cambios de turno.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Cambios en aTurnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Cambios en aTurnos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cambios"
-    label: "Cambios"
+  - id: cambios
+    label: Cambios
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/9-cambios/"
+    - https://manual.aturnos.com/knowledgebase/9-cambios/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/9-cambios/"
+    - https://manual.aturnos.com/knowledgebase/9-cambios/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cambios en aTurnos?"
+    - ¿Qué debo saber sobre cambios en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -38,15 +39,19 @@ readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "a498e4aa1a83ddd505fe26930f638ab73ea48dd9df4c911dae4e8d1dbd709ef2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/9-cambios/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/9-cambios/
+  contentHash: 4afc598df025503a54086aa0e3ec31e1687ae11210f709f698b344d7b1b1cb6b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Esta restricción impide que se puedan realizar cambios de turno.
 
-## Contenido
-
+## Opciones y datos disponibles
 ⚙️Configuración: Esta restricción tiene una configuración básica.
 
 Esta restricción impide que se puedan realizar cambios de turno en un día que se tengan también planificadas horas extra o complementarias.

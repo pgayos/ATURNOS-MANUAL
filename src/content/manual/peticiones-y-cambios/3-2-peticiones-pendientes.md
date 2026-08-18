@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-3-2-peticiones-pendientes"
-title: "Peticiones pendientes"
-description: "El listado de peticiones pendientes aparecerán aquellas peticiones de fichajes que los trabajadores del equipo han realizado. Las variables que aparecen en esta tabla son las siguientes:."
+contentId: peticiones-y-cambios-3-2-peticiones-pendientes
+title: Peticiones pendientes
+description: El listado de peticiones pendientes aparecerán aquellas peticiones de fichajes que los trabajadores del equipo han realizado. Las variables que aparecen en esta tabla son las siguientes:.
 contentType: concept
-module: "Peticiones y cambios"
-submodule: "Fichajes"
-intent: "Peticiones pendientes"
+module: Peticiones y cambios
+submodule: Fichajes
+intent: Peticiones pendientes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "pendientes"
-    label: "Pendientes"
-  - id: "peticiones"
-    label: "Peticiones"
+  - id: pendientes
+    label: Pendientes
+  - id: peticiones
+    label: Peticiones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-2-peticiones-pendientes/"
+    - https://manual.aturnos.com/knowledgebase/3-2-peticiones-pendientes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-2-peticiones-pendientes/"
+    - https://manual.aturnos.com/knowledgebase/3-2-peticiones-pendientes/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre peticiones pendientes?"
+    - ¿Qué debo saber sobre peticiones pendientes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b4245206a1ad5a5e2fcfeb67091693aa9c8d55d42dd97c534d7db61bdc2b4e00"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-2-peticiones-pendientes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-2-peticiones-pendientes/
+  contentHash: 05a89a54617ab2f3729eafa896fc021b7747027ab68f5d33bbb66620096610d8
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El listado de peticiones pendientes aparecerán aquellas peticiones de fichajes que los trabajadores del equipo han realizado. Las variables que aparecen en esta tabla son las siguientes:.
 
-## Contenido
-
+## Qué debes saber
 - Trabajador: nombre del trabajador que ha realizado la petición.
 - Fecha de solicitud: día, mes, año y hora de la solicitud.
 - Marcaje solicitado: día, mes, año y hora del marcaje que se pide insertar en el Control de Presencia.

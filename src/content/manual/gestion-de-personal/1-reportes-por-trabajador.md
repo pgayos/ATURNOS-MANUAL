@@ -1,53 +1,62 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-reportes-por-trabajador"
-title: "Reportes por trabajador"
-description: "Con esta función, desde el menú RRHH, el administrador tiene la posibilidad de conseguir un reporte personalizado. Puede consultar los valores de las variables que necesita."
+contentId: gestion-de-personal-1-reportes-por-trabajador
+title: Reportes por trabajador
+description: Con esta función, desde el menú RRHH, el administrador tiene la posibilidad de conseguir un reporte personalizado. Puede consultar los valores de las variables que necesita.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Reportes por trabajador"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Reportes por trabajador
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "reportes"
-    label: "Reportes"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: reportes
+    label: Reportes
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-6-reportes-por-trabajador/"
-    - "https://manual.aturnos.com/knowledgebase/b-reportes-por-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/8-6-reportes-por-trabajador/
+    - https://manual.aturnos.com/knowledgebase/b-reportes-por-trabajador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-6-reportes-por-trabajador/"
-    - "https://manual.aturnos.com/knowledgebase/b-reportes-por-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/8-6-reportes-por-trabajador/
+    - https://manual.aturnos.com/knowledgebase/b-reportes-por-trabajador/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo reportes por trabajador?"
+    - ¿Cómo puedo reportes por trabajador?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 8
+readingTime: 12
 featured: false
 migration:
   sourceCount: 2
-  contentHash: "2852c879210509b7bbe122a7ab21bc01fc2f3a2085212c7062802f9d5265fa06"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-6-reportes-por-trabajador/
+    - https://manual.aturnos.com/knowledgebase/b-reportes-por-trabajador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-6-reportes-por-trabajador/
+    - https://manual.aturnos.com/knowledgebase/b-reportes-por-trabajador/
+  contentHash: c77ab1a2b3286a40ded9959aacd32dec5ef776b2c151b2ffd9ff8a081e63b542
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -141,3 +150,7 @@ Esta petición comenzará a ejecutarse, y dependiendo del volumen de datos a rep
 ¿Dónde puedo consultar el estado de la petición del reporte? ¿Dónde puedo descargar el reporte solicitado?
 
 Pasado unos minutos, el sistema consigue generar el reporte solicitado. El propio sistema mediante un aviso en la pestaña RRHH/PETICIONES REPORTES indica al administrador que esta pendiente de descargar, cliqueando el icono “Descarga” se obtiene el reporte esperado en formato Excel.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

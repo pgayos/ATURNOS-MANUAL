@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-a-opciones-cuadrante"
-title: "Opciones cuadrante"
-description: "El cuadrante cuenta con varias opciones para realizar las siguientes funciones:."
+contentId: planificacion-a-opciones-cuadrante
+title: Opciones cuadrante
+description: El cuadrante cuenta con varias opciones para realizar las siguientes funciones:.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Opciones cuadrante"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Opciones cuadrante
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cuadrante"
-    label: "Cuadrante"
-  - id: "opciones"
-    label: "Opciones"
+  - id: cuadrante
+    label: Cuadrante
+  - id: opciones
+    label: Opciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/a-opciones-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/a-opciones-cuadrante/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/a-opciones-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/a-opciones-cuadrante/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre opciones cuadrante?"
+    - ¿Qué debo saber sobre opciones cuadrante?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "a9ae5a2bcf89e45a6540433b6a14820f5c403d487ffbef80b0e571097c451ac1"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/a-opciones-cuadrante/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/a-opciones-cuadrante/
+  contentHash: 7e39dd1711413bdbac2e3656dd0f7537803e3f7c8f130dd360d75d6eeef28d73
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -106,3 +113,7 @@ Desde esta opción, el Superusuario o Administrador Total (ver Roles de usuario 
 La fecha de último día exportado imposibilita que los conceptos de nómina se descarguen en fecha anterior a la informada.
 
 El dato se informa en el perfil del trabajador.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

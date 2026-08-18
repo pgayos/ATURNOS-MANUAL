@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-3-anadir-horas"
-title: "Añadir horas"
-description: "Los responsables de los equipos de trabajo por necesidades planificación o debido a la realización de horas que sobrepasan la jornada habitual pueden ‘Añadir horas ‘ en el cuadrante de los trabajadores."
+contentId: planificacion-3-anadir-horas
+title: Añadir horas
+description: Los responsables de los equipos de trabajo por necesidades planificación o debido a la realización de horas que sobrepasan la jornada habitual pueden ‘Añadir horas ‘ en el cuadrante de los trabajadores.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Añadir horas"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Añadir horas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anadir"
-    label: "Anadir"
-  - id: "horas"
-    label: "Horas"
+  - id: anadir
+    label: Anadir
+  - id: horas
+    label: Horas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-anadir-horas/"
+    - https://manual.aturnos.com/knowledgebase/3-anadir-horas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-anadir-horas/"
+    - https://manual.aturnos.com/knowledgebase/3-anadir-horas/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo añadir horas?"
+    - ¿Cómo puedo añadir horas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e869e22b342ad5a68b84ed0d917e3f48a032ebf39ccfcf9d0703350fe750ca41"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-anadir-horas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-anadir-horas/
+  contentHash: 3bc0ada68c0d368c1cb81ae779c2c0726f81b661772add8d2d5071c4ea9f6ff0
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Los responsables de los equipos de trabajo por necesidades planificación o debido a la realización de horas que sobrepasan la jornada habitual pueden ‘Añadir horas ‘ en el cuadrante de los trabajadores.
 
-## Contenido
-
+## Procedimiento
 Se insertan y planifican horas a un trabajador o varios. El tipo de hora se elige dentro del formulario, normal, extra o complementaria, así como asignarle una localización.
 
 Por defecto, las horas están “Fuera de bolsa de trabajo” se puede seleccionar para su realización a cualquier trabajador disponible en el día elegido.

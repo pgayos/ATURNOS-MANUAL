@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-3-3-calculadora"
-title: "Calculadora"
-description: "Información sobre calculadora, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-3-3-calculadora
+title: Calculadora
+description: Esta herramienta te ayuda a calcular un patrón en función de los turnos creados, e indicando necesidades como trabajadores que necesitas por turno y día, además de tener en cuenta restriccio.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Calculadora"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Calculadora
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "calculadora"
-    label: "Calculadora"
+  - id: calculadora
+    label: Calculadora
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-3-calculadora/"
+    - https://manual.aturnos.com/knowledgebase/3-3-calculadora/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-3-calculadora/"
+    - https://manual.aturnos.com/knowledgebase/3-3-calculadora/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre calculadora?"
+    - ¿Qué debo saber sobre calculadora?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "2feed463a12f534b836bc5c49eb3f28157b5ab7863574fd1c4949a4567b55813"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-3-calculadora/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-3-calculadora/
+  contentHash: 0c145ab775827639bb8b29426a09b0d2299defac99fc7c563710ae1571cfb87e
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre calculadora, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Esta herramienta te ayuda a calcular un patrón en función de los turnos creados, e indicando necesidades como trabajadores que necesitas por turno y día, además de tener en cuenta restricciones indicadas por el administrador.
 
 En ocasiones, es necesario la búsqueda de un nuevo patrón de turnos para el equipo, esta necesidad puede surgir por diferentes causas, como puede ser por cambio del número de trabajadores en plantilla, aumento de la demanda del servicio, cambios de convenio de los trabajadores o incluso por un nuevo cambio de patrón de turnos que solicita el propio equipo para una mejora en la conciliación de la vida laboral y familiar.

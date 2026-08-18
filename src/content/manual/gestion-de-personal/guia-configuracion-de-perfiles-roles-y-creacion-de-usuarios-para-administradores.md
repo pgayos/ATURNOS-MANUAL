@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-guia-configuracion-de-perfiles-roles-y-creacion-de-usuarios-para-administradores"
-title: "Configuración de perfiles, roles y creación de usuarios para administradores"
-description: "Información sobre configuración de perfiles, roles y creación de usuarios para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-guia-configuracion-de-perfiles-roles-y-creacion-de-usuarios-para-administradores
+title: Configuración de perfiles, roles y creación de usuarios para administradores
+description: Añadir usuarios a tu equipo en aTurnos desde Trabajadores → Listado es el primer paso para aprovechar todas las funcionalidades del software.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Usuarios y roles"
-intent: "Configuración de perfiles, roles y creación de usuarios"
+module: Gestión de personal
+submodule: Usuarios y roles
+intent: Configuración de perfiles, roles y creación de usuarios
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-perfiles-roles-y-creacion-de-usuarios/"
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-perfiles-roles-y-creacion-de-usuarios/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre configuración de perfiles, roles y creación de usuarios para administradores?"
+    - ¿Qué debo saber sobre configuración de perfiles, roles y creación de usuarios para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 8
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-perfiles-roles-y-creacion-de-usuarios/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-perfiles-roles-y-creacion-de-usuarios/
+  contentHash: 2813a9d460b309e0fa8cb915429908a2e2fa8cd75b7b6a13816d0f84f144b0d0
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

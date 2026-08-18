@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-6-5-tootilp-del-trabajador"
-title: "Tootilp del trabajador"
-description: "En el cuadrante existe un texto emergente que muestra un cuadro resumen con diferentes variables que se configuran en los campos identificativos del trabajador en ‘Visualización’."
+contentId: recursos-y-partes-6-5-tootilp-del-trabajador
+title: Tootilp del trabajador
+description: En el cuadrante existe un texto emergente que muestra un cuadro resumen con diferentes variables que se configuran en los campos identificativos del trabajador en ‘Visualización’.
 contentType: procedure
-module: "Recursos y partes"
-submodule: "General"
-intent: "Tootilp del trabajador"
+module: Recursos y partes
+submodule: General
+intent: Tootilp del trabajador
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "tootilp"
-    label: "Tootilp"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: tootilp
+    label: Tootilp
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-5-tootilp-del-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/6-5-tootilp-del-trabajador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-5-tootilp-del-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/6-5-tootilp-del-trabajador/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo tootilp del trabajador?"
+    - ¿Cómo puedo tootilp del trabajador?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,15 +41,24 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f53dc84ee6fbcf3baf8ad879ecd4d50cc73368534e686ef8a85ea25acc8eb6a0"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-5-tootilp-del-trabajador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-5-tootilp-del-trabajador/
+  contentHash: 976091153e2108f216167d0cb57efbb0c850e98bb50f3cc57a5b1e697673a06b
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
 En el cuadrante existe un texto emergente que muestra un cuadro resumen con diferentes variables que se configuran en los campos identificativos del trabajador en ‘Visualización’.
 
-## Contenido
-
+## Procedimiento
 Esta función permite visualizar el mismo resumen pero con vista de reporte.
 
 Para realizar la consulta, se debe seleccionar un intervalo de fechas, el tipo de cuadrante, filtrar la información por trabajador o localización y ejecutar desde el botón ‘Cargar’.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

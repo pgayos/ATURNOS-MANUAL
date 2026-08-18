@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-vacaciones"
-title: "Vacaciones"
-description: "En aTurnos las vacaciones se pueden considerar como tipo absentismo o como tipo de turno. Recomendamos que se creen como tipo de absentismo."
+contentId: planificacion-2-vacaciones
+title: Vacaciones
+description: En aTurnos las vacaciones se pueden considerar como tipo absentismo o como tipo de turno. Recomendamos que se creen como tipo de absentismo.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Vacaciones"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Vacaciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "vacaciones"
-    label: "Vacaciones"
+  - id: vacaciones
+    label: Vacaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/2-vacaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/2-vacaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre vacaciones?"
+    - ¿Qué debo saber sobre vacaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b6b6c82bbb8027c1c2f2709be11fcb8a399789de03d8b95515d5fef99c2df132"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-vacaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-vacaciones/
+  contentHash: 06a996db68c6f4468200cd8e5dab6825768bb4c8cce7f7f40d8efcc6ef3a95dc
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -70,3 +77,7 @@ El administrador del equipo desde Administrar → Ajustes puede configurar, a ni
 - Vacaciones/año: indica el número de días de vacaciones por defecto que se asociará a todos los trabajadores del equipo cuando se encuentren de alta todo el año. Si no estuviera de alta todo el periodo se calcularía automáticamente según la proporción del período de alta que lleva en el año activo. Posteriormente y de manera individual, se puede modificar en el perfil de cada uno de ellos si fuera necesario. Puedes crear una restricción que te ayude a llevar el control y no sobrepasar la cantidad de días permitidos. (Ver restricción: No superar el saldo vacacional anual del trabajador ).
 - Redondeo de vacaciones: se puede decidir entre “Sin redondeo” o “Redondeo entero” en el valor de las vacaciones, para ajustar las vacaciones cuando no sea un número entero. En caso de indicar el redondeo, cuando las vacaciones tienen decimales, el redondeo se comportaría incrementando en una unidad si el primer decimal es igual a 5 ó mayor. Es decir, si se tiene marcado “Redondeo entero” si las vacaciones calculadas son 19,1 se quedarían en 19 y si fueran 19,6 se redondearían a 20.
 - Fin periodo vacacional: Indica la fecha fin del periodo en el que un administrador puede planificar las vacaciones de un trabajador o pueden ser solicitadas por el trabajador. Por ejemplo, si en el año 2019 un trabajador dispone de 22 días de vacaciones y tiene como fecha fin del periodo vacacional el 15 de enero 2020, el administrador puede planificar las vacaciones de 2019 desde el 1 de enero de 2019 hasta el 15 de enero de 2020.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

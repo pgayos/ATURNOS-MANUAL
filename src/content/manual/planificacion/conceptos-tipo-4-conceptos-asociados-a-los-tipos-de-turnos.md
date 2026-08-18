@@ -1,62 +1,67 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos"
+contentId: planificacion-conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos
 title: "Conceptos tipo 4: Conceptos asociados a los tipos de turnos"
-description: "Aprende a conceptos tipo 4: Conceptos asociados a los tipos de turnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+description: Recupera el número de turnos, del turno seleccionado (valga la redundancia), excepto en el caso de que el turno tenga asociado un absentismo total no productivo (como suelen ser las incapaci.
 contentType: procedure
-module: "Planificación"
-submodule: "Roles y permisos"
+module: Planificación
+submodule: Roles y permisos
 intent: "Conceptos tipo 4: Conceptos asociados a los tipos de turnos"
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "asociados"
-    label: "Asociados"
-  - id: "conceptos"
-    label: "Conceptos"
-  - id: "tipo"
-    label: "Tipo"
-  - id: "tipos"
-    label: "Tipos"
-  - id: "turnos"
-    label: "Turnos"
+  - id: asociados
+    label: Asociados
+  - id: conceptos
+    label: Conceptos
+  - id: tipo
+    label: Tipo
+  - id: tipos
+    label: Tipos
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/"
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/
 ai:
   answerableQuestions:
     - "¿Cómo puedo conceptos tipo 4: Conceptos asociados a los tipos de turnos?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "68eb646109ed5b1ddf052a74e06fdc667add09e100621813d46f92e77cc0544c"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/
+  contentHash: 85bd180181889731023cacf4e4235e0d660df567d559409f216e07915120eea6
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a conceptos tipo 4: Conceptos asociados a los tipos de turnos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Recupera el número de turnos, del turno seleccionado (valga la redundancia), excepto en el caso de que el turno tenga asociado un absentismo total no productivo (como suelen ser las incapacidades temporales, permisos establecidos en el convenio, etc.) y/o un absentismo total no justificado (por ejemplo, las faltas de asistencia). No afecta a absentismos temporales.
 
 Este tipo de conceptos suelen utilizarse cuando se debe abonar solo alguno/s de los turnos creados, cuando el trabajador los tenga planificados.

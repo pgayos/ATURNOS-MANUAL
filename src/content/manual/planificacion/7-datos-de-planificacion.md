@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-7-datos-de-planificacion"
-title: "Datos de planificación"
-description: "Información sobre datos de planificación, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-7-datos-de-planificacion
+title: Datos de planificación
+description: Muestra información sobre la planificación que el trabajador tiene asignada, tratándose así mismo de información sobre los datos del patrón que previamente has creado y que le has asignado a.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Datos de planificación"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Datos de planificación
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "datos"
-    label: "Datos"
-  - id: "planificacion"
-    label: "Planificacion"
+  - id: datos
+    label: Datos
+  - id: planificacion
+    label: Planificacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-datos-de-planificacion/"
+    - https://manual.aturnos.com/knowledgebase/7-datos-de-planificacion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-datos-de-planificacion/"
+    - https://manual.aturnos.com/knowledgebase/7-datos-de-planificacion/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre datos de planificación?"
+    - ¿Qué debo saber sobre datos de planificación?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f6aa14c8df4c3615367b171ac942010346f69b19c0acb901379ffc28054bbeb0"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-datos-de-planificacion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-datos-de-planificacion/
+  contentHash: cd89eff4491be7a151c6b8342966106b94f0bfb71d978bdd9d484a240a026d05
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre datos de planificación, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Muestra información sobre la planificación que el trabajador tiene asignada, tratándose así mismo de información sobre los datos del patrón que previamente has creado y que le has asignado al trabajador al que se hace referencia. La información está previamente detallada en dicho patrón. Es muy importante recordarte que, si esta información no la registras al inicio, en los datos de planificación no te aparecerá nada. (Puede visualizar cómo aplicar un patrón de turnos ).
 
 Para que te sea más fácil, se detallará a continuación el significado de la información que contiene cada campo, que son los siguientes:

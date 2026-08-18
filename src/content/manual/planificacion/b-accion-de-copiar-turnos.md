@@ -1,51 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-b-accion-de-copiar-turnos"
-title: "Acción de copiar turnos"
-description: "Seleccionando esta acción se despliegan en la configuración avanzada una serie de configurables para realizar la acción acorde a las preferencias del administrador."
+contentId: planificacion-b-accion-de-copiar-turnos
+title: Acción de copiar turnos
+description: Seleccionando esta acción se despliegan en la configuración avanzada una serie de configurables para realizar la acción acorde a las preferencias del administrador.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Acción de copiar turnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Acción de copiar turnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "accion"
-    label: "Accion"
-  - id: "copiar"
-    label: "Copiar"
-  - id: "turnos"
-    label: "Turnos"
+  - id: accion
+    label: Accion
+  - id: copiar
+    label: Copiar
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/b-accion-de-copiar-turnos/"
+    - https://manual.aturnos.com/knowledgebase/b-accion-de-copiar-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/b-accion-de-copiar-turnos/"
+    - https://manual.aturnos.com/knowledgebase/b-accion-de-copiar-turnos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo acción de copiar turnos?"
+    - ¿Cómo puedo acción de copiar turnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "24ab605418c986039a3c3d5546319862fe82afc26000442a79568739ad04006a"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/b-accion-de-copiar-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/b-accion-de-copiar-turnos/
+  contentHash: dc5eb8326f13f52637976271f999fe938aed8119917ff3cc45e96db5c2109d5d
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

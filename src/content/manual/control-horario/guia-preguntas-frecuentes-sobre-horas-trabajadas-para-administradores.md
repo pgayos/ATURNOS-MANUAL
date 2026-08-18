@@ -1,27 +1,28 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-guia-preguntas-frecuentes-sobre-horas-trabajadas-para-administradores"
-title: "Preguntas frecuentes sobre horas trabajadas para administradores"
-description: "Si tu empresa utiliza una red local, es recomendable usar la IP privada. Si dependes de una IP pública, asegúrate de que sea fija para evitar cambios frecuentes."
+contentId: control-horario-guia-preguntas-frecuentes-sobre-horas-trabajadas-para-administradores
+title: Preguntas frecuentes sobre horas trabajadas para administradores
+description: Si tu empresa utiliza una red local, es recomendable usar la IP privada. Si dependes de una IP pública, asegúrate de que sea fija para evitar cambios frecuentes.
 contentType: troubleshooting
-module: "Control horario"
-submodule: "Horas trabajadas"
-intent: "Preguntas frecuentes"
+module: Control horario
+submodule: Horas trabajadas
+intent: Preguntas frecuentes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/preguntas-frecuentes-7/"
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/preguntas-frecuentes-7/
   redirectsFrom: []
 ai:
   answerableQuestions:
@@ -29,8 +30,18 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/preguntas-frecuentes-7/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/control-de-horas-trabajadas-y-extras/preguntas-frecuentes-7/
+  contentHash: ee296cdcf29dab3b3b0967a2441de2fbba51b2f5e170156ae73229a87f3da6eb
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -105,3 +116,7 @@ Las penalizaciones añaden horas al total del trabajador, disminuyendo su priori
 - ¿Se pueden gestionar varias bolsas al mismo tiempo?
 
 Sí, puedes crear y administrar tantas bolsas como necesites, cada una con sus propias configuraciones y participantes.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-8-control-horario"
-title: "Control Horario"
-description: "Esta pestaña está relacionada directamente con el Módulo adicional de Control Horario, en la cual se podrá configurar a nivel individual:."
+contentId: control-horario-8-control-horario
+title: Control Horario
+description: Esta pestaña está relacionada directamente con el Módulo adicional de Control Horario, en la cual se podrá configurar a nivel individual:.
 contentType: reference
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Control Horario"
+module: Control horario
+submodule: Fichajes
+intent: Control Horario
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "control"
-    label: "Control"
-  - id: "horario"
-    label: "Horario"
+  - id: control
+    label: Control
+  - id: horario
+    label: Horario
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-control-horario/"
+    - https://manual.aturnos.com/knowledgebase/8-control-horario/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-control-horario/"
+    - https://manual.aturnos.com/knowledgebase/8-control-horario/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre control Horario?"
+    - ¿Qué debo saber sobre control Horario?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1645564910572e3e6ba8ce93ca0d58300b99e0d0278aee14ca670a6e767a9760"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-control-horario/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-control-horario/
+  contentHash: a9c4f9808f2604eb01709024e8814bcf9334bbcd9880b96356a96ac3480b42f9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Esta pestaña está relacionada directamente con el Módulo adicional de Control Horario, en la cual se podrá configurar a nivel individual:.
 
-## Contenido
-
+## Opciones y datos disponibles
 - Fichaje sin control Web/IP.
 - Tolerancias.
 - Descanso.

@@ -1,27 +1,28 @@
 ---
 schemaVersion: "1.0"
-contentId: "integraciones-y-api-guia-conexion-con-sistemas-de-nominas-para-administradores"
-title: "Conexión con sistemas de nóminas para administradores"
-description: "Información sobre conexión con sistemas de nóminas para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: integraciones-y-api-guia-conexion-con-sistemas-de-nominas-para-administradores
+title: Conexión con sistemas de nóminas para administradores
+description: La conexión de aTurnos con sistemas de nóminas es un proceso clave para automatizar el cálculo de salarios, bonificaciones, horas extras y otros conceptos relacionados con la gestión del per.
 contentType: troubleshooting
-module: "Integraciones y API"
-submodule: "Sistemas externos"
-intent: "Conexión con sistemas de nóminas"
+module: Integraciones y API
+submodule: Sistemas externos
+intent: Conexión con sistemas de nóminas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-27
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/conexion-con-sistemas-de-nominas/"
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/conexion-con-sistemas-de-nominas/
   redirectsFrom: []
 ai:
   answerableQuestions:
@@ -29,8 +30,18 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/conexion-con-sistemas-de-nominas/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/otros-recursos-disponibles/integracion-con-sistemas-externos/conexion-con-sistemas-de-nominas/
+  contentHash: 5160a8c6ca76751c5310c08ab0f37ef353cf4f40f77352257fd2355a5485ee5d
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -100,3 +111,7 @@ Cifrado de Datos: Encriptación durante la transferencia para proteger la inform
 Control de Acceso: Gestión de permisos para garantizar que solo el personal autorizado tenga acceso a los datos sensibles.
 
 Cumplimiento del RGPD: Asegura la protección de datos personales conforme a la normativa europea de privacidad.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

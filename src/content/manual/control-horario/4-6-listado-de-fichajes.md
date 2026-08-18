@@ -1,52 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-4-6-listado-de-fichajes"
-title: "Listado de fichajes"
-description: "Aprende a listado de fichajes, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-4-6-listado-de-fichajes
+title: Listado de fichajes
+description: "El listado de fichajes se desglosa en dos pestañas: Fichajes y Fichajes automáticos."
 contentType: procedure
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Listado de fichajes"
+module: Control horario
+submodule: Fichajes
+intent: Listado de fichajes
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "listado"
-    label: "Listado"
+  - id: fichajes
+    label: Fichajes
+  - id: listado
+    label: Listado
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-6-listado-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/4-6-listado-de-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-6-listado-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/4-6-listado-de-fichajes/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo listado de fichajes?"
+    - ¿Cómo puedo listado de fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b4bdcdb21775c7167b78ed295f785b6bdae73d784cf085f248892bea45d98e60"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-6-listado-de-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-6-listado-de-fichajes/
+  contentHash: 8d03a0860c2bbcab4e3876ecc9f9f575b50fa127d1724bb924d5a36b230ec5b1
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a listado de fichajes, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 El listado de fichajes se desglosa en dos pestañas: Fichajes y Fichajes automáticos. En este primero se muestra un sencillo resumen de los fichajes que se realizan en el control de presencia en un periodo de tiempo (seleccionable en filtro de fecha en la parte superior de la pestaña). Encontramos la siguiente información en el listado:
 
 - Trabajador: nombre del trabajador que ha realizado el marcaje.

@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-guia-ser-rr-hh-en-aturnos-para-rr-hh"
-title: "Ser RR.HH. en aTurnos para RR. HH."
-description: "Información sobre ser RR.HH. en aTurnos para RR. HH., con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-guia-ser-rr-hh-en-aturnos-para-rr-hh
+title: Ser RR.HH. en aTurnos para RR. HH.
+description: La opción de RR.HH. se habilita en aTurnos cuando tu rol es Superusuario.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Recursos humanos"
-intent: "Ser RR.HH. en aTurnos"
+module: Gestión de personal
+submodule: Recursos humanos
+intent: Ser RR.HH. en aTurnos
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-04-06
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-rr-hh/recursos-humanos-aturnos/usos-de-la-funcion-de-rrhh-en-aturnos/"
+    - https://guias.aturnos.com/guias/guias-rr-hh/recursos-humanos-aturnos/usos-de-la-funcion-de-rrhh-en-aturnos/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre ser RR.HH. en aTurnos para RR. HH?"
+    - ¿Qué debo saber sobre ser RR.HH. en aTurnos para RR. HH?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-rr-hh/recursos-humanos-aturnos/usos-de-la-funcion-de-rrhh-en-aturnos/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-rr-hh/recursos-humanos-aturnos/usos-de-la-funcion-de-rrhh-en-aturnos/
+  contentHash: f8449ec55606914ef5644a713dbace542f63bbc835721294aadb9a8c2afa5074
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

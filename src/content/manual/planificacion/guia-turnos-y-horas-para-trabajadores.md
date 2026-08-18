@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-turnos-y-horas-para-trabajadores"
-title: "Turnos y Horas para trabajadores"
-description: "Aprende a turnos y Horas para trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-turnos-y-horas-para-trabajadores
+title: Turnos y Horas para trabajadores
+description: aTurnos te permite realizar solicitudes de turnos y horas de manera sencilla y organizada, ya sea como un extra a tu jornada habitual o para compensar un balance negativo de horas trabajadas.
 contentType: procedure
-module: "Planificación"
-submodule: "Turnos y horas"
-intent: "Turnos y Horas"
+module: Planificación
+submodule: Turnos y horas
+intent: Turnos y Horas
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-28
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/turnos/"
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/turnos/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo turnos y Horas para trabajadores?"
+    - ¿Cómo puedo turnos y Horas para trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/turnos/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-trabajador/empoderamiento-del-empleado/turnos/
+  contentHash: 9a8010ab87724d00f76886df182ac638d52dc9c8a2672c60cb74f2a106c6224d
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

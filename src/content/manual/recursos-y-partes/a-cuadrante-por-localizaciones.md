@@ -1,51 +1,58 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-a-cuadrante-por-localizaciones"
-title: "Cuadrante por localizaciones"
-description: "Información sobre cuadrante por localizaciones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: recursos-y-partes-a-cuadrante-por-localizaciones
+title: Cuadrante por localizaciones
+description: En aTurnos, el administrador dispone de varias opciones de cuadrante, atendiendo a cómo quiere visualizar la planificación de los turnos del equipo.
 contentType: reference
-module: "Recursos y partes"
-submodule: "Vacaciones y ausencias"
-intent: "Cuadrante por localizaciones"
+module: Recursos y partes
+submodule: Vacaciones y ausencias
+intent: Cuadrante por localizaciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cuadrante"
-    label: "Cuadrante"
-  - id: "localizaciones"
-    label: "Localizaciones"
+  - id: cuadrante
+    label: Cuadrante
+  - id: localizaciones
+    label: Localizaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-4-cuadrante-por-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/2-4-cuadrante-por-localizaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-4-cuadrante-por-localizaciones/"
+    - https://manual.aturnos.com/knowledgebase/2-4-cuadrante-por-localizaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cuadrante por localizaciones?"
+    - ¿Qué debo saber sobre cuadrante por localizaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "203ab0d6bdfb981ca5922c68e1edbe08ca449c4098efca2624dd1f500e612bcd"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-4-cuadrante-por-localizaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-4-cuadrante-por-localizaciones/
+  contentHash: 600292dcaebb5ec1aa9ecc379ad492d9d6ce1110c74c334e14a1cf6465253256
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -101,3 +108,7 @@ Es importante resaltar que todos los cambios o modificaciones que se realicen en
 - Cortar: Esta opción coge el turno que se ha cortado y cuando se pega se elimina del trabajador que lo tenía inicialmente.
 
 Nuevamente resaltamos que las acciones realizadas en el Cuadrante por localización se registran automáticamente en el Cuadrante (Ver Cuadrante)
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

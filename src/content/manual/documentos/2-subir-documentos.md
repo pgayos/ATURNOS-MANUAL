@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "documentos-2-subir-documentos"
-title: "Subir documentos"
-description: "Los administradores y trabajadores de los equipos de trabajo, pueden subir documentos desde la opción ‘Subir’ dentro del menú de Documentos."
+contentId: documentos-2-subir-documentos
+title: Subir documentos
+description: Los administradores y trabajadores de los equipos de trabajo, pueden subir documentos desde la opción ‘Subir’ dentro del menú de Documentos.
 contentType: concept
-module: "Documentos"
-submodule: "Usuarios y perfiles"
-intent: "Subir documentos"
+module: Documentos
+submodule: Usuarios y perfiles
+intent: Subir documentos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "documentos"
-    label: "Documentos"
-  - id: "subir"
-    label: "Subir"
+  - id: documentos
+    label: Documentos
+  - id: subir
+    label: Subir
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-subir-documentos/"
+    - https://manual.aturnos.com/knowledgebase/2-subir-documentos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-subir-documentos/"
+    - https://manual.aturnos.com/knowledgebase/2-subir-documentos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre subir documentos?"
+    - ¿Qué debo saber sobre subir documentos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "86c612d053b65c434957aaccc3436fbc35cdc0a92a90926bd905df80a01373fd"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-subir-documentos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-subir-documentos/
+  contentHash: ab4710220f7b7f41a161beceff6029e04bb7ab2bae09275985529c4e6eb11de7
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Los administradores y trabajadores de los equipos de trabajo, pueden subir documentos desde la opción ‘Subir’ dentro del menú de Documentos.
 
-## Contenido
-
+## Qué debes saber
 El tamaño del archivo o documento a subir, no puede ser superior a 15 MB.
 
 Cada rol de usuario podrá realizar las acciones de subir o no documentos según los permisos otorgados (ver ‘Tipos de documentos’ ).

@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-1-informe-control-legal"
-title: "Informe control legal"
-description: "Este reporte ‘Informe control legal’, recoge todas las incidencias que se producen en algunos de los informes estadísticos de RRHH:."
+contentId: configuracion-y-cuenta-1-informe-control-legal
+title: Informe control legal
+description: Este reporte ‘Informe control legal’, recoge todas las incidencias que se producen en algunos de los informes estadísticos de RRHH:.
 contentType: concept
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Informe control legal"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Informe control legal
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "control"
-    label: "Control"
-  - id: "informe"
-    label: "Informe"
-  - id: "legal"
-    label: "Legal"
+  - id: control
+    label: Control
+  - id: informe
+    label: Informe
+  - id: legal
+    label: Legal
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-informe-control-legal/"
+    - https://manual.aturnos.com/knowledgebase/1-informe-control-legal/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-informe-control-legal/"
+    - https://manual.aturnos.com/knowledgebase/1-informe-control-legal/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre informe control legal?"
+    - ¿Qué debo saber sobre informe control legal?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "365c218cf55e2b90274947a077f5ab2c14d25ac5d32c3384642ecf0c411dda1d"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-informe-control-legal/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-informe-control-legal/
+  contentHash: a7de6131cbf8a700f297635ec79e63951abd9c9bb8eb74ac36b9795334cc1f25
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -98,3 +105,7 @@ Una vez es anulado el descanso, aparecerá en el informe.
 ### → 5 hrs fichadas sin descanso
 
 Esta variable muestra lo mismos datos del informe de ‘ → 5 hrs fichadas sin descanso’.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

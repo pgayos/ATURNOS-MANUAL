@@ -1,34 +1,35 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-turnos"
-title: "Turnos en aTurnos"
-description: "Información sobre turnos en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-turnos
+title: Turnos en aTurnos
+description: La URL pública original de Turnos en aTurnos no devolvió contenido utilizable durante la migración.
 contentType: concept
-module: "Planificación"
-submodule: "General"
-intent: "Turnos en aTurnos"
+module: Planificación
+submodule: General
+intent: Turnos en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities:
-  - id: "turnos"
-    label: "Turnos"
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-1-turnos/"
+    - https://manual.aturnos.com/knowledgebase/1-1-turnos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-1-turnos/"
+    - https://manual.aturnos.com/knowledgebase/1-1-turnos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre turnos en aTurnos?"
+    - ¿Qué debo saber sobre turnos en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -36,8 +37,14 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "afdbe58cbb61994ad4c2de556afabbd1ff1f38563b178d7b8a39774155052cb6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-1-turnos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-1-turnos/
+  contentHash: 24aefde498fe572da618013c6aecac50b640ab72076c1d918d2a50d578157eb2
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Estado de la fuente
 
@@ -46,3 +53,7 @@ La URL pública original de **Turnos en aTurnos** no devolvió contenido utiliza
 ## Revisión requerida
 
 La fuente pública de **Turnos en aTurnos** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

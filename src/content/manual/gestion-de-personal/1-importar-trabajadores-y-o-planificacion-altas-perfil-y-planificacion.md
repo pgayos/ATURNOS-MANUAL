@@ -1,64 +1,69 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion"
+contentId: gestion-de-personal-1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion
 title: "Importar trabajadores y/o planificación: altas, perfil y planificación"
-description: "Crea un documento CSV o descarga una de nuestras plantillas de ejemplo (CSV). En las columnas del documento deben aparecer los siguientes conceptos:."
+description: Crea un documento CSV o descarga una de nuestras plantillas de ejemplo (CSV). En las columnas del documento deben aparecer los siguientes conceptos:.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Contratos"
+module: Gestión de personal
+submodule: Contratos
 intent: "Importar trabajadores y/o planificación: altas, perfil y planificación"
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "altas"
-    label: "Altas"
-  - id: "importar"
-    label: "Importar"
-  - id: "perfil"
-    label: "Perfil"
-  - id: "planificacion"
-    label: "Planificacion"
-  - id: "trabajadores"
-    label: "Trabajadores"
+  - id: altas
+    label: Altas
+  - id: importar
+    label: Importar
+  - id: perfil
+    label: Perfil
+  - id: planificacion
+    label: Planificacion
+  - id: trabajadores
+    label: Trabajadores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-importacion-altas-de-trabajadores-basico/"
+    - https://manual.aturnos.com/knowledgebase/1-importacion-altas-de-trabajadores-basico/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-importacion-altas-de-trabajadores-basico/"
+    - https://manual.aturnos.com/knowledgebase/1-importacion-altas-de-trabajadores-basico/
 ai:
   answerableQuestions:
     - "¿Cómo puedo importar trabajadores y/o planificación: altas, perfil y planificación?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f207f0ebec28dc2202dadd53fe24bb6382e2c323d8ba487e8596a9d1240feb60"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-importacion-altas-de-trabajadores-basico/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-importacion-altas-de-trabajadores-basico/
+  contentHash: fe8d9a0f2a6a7a7f258c7acc9a6c71adddb66768e0bcb3c0badf805e5db3c82f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Crea un documento CSV o descarga una de nuestras plantillas de ejemplo (CSV). En las columnas del documento deben aparecer los siguientes conceptos:.
 
-## Contenido
-
+## Procedimiento
 - Nombre*: Dónde se informa nombre y apellidos del trabajador.
 - Mail*: Correo electrónico del trabajador. El correo es el usuario con el que se accede a la web acompañado de una contraseña de seguridad.
 - Fecha de alta*: El formato debe coincidir con el que está informado en la configuración del equipo (Importar/Exportar → Configuración → Formato de fecha), por defecto es dd/mm/aaaa. En el caso de que no sea relevante la fecha de alta, puedes dejar en blanco este campo e informando una fecha de alta para todo el equipo (no recomendable).

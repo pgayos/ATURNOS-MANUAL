@@ -1,44 +1,45 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-como-informan-los-administradores-los-recursos-a-los-trabajadores"
-title: "¿Cómo informan los administradores los recursos a los trabajadores?"
-description: "Para añadir recursos, el administrador puede:."
+contentId: recursos-y-partes-como-informan-los-administradores-los-recursos-a-los-trabajadores
+title: ¿Cómo informan los administradores los recursos a los trabajadores?
+description: Para añadir recursos, el administrador puede:.
 contentType: faq
-module: "Recursos y partes"
-submodule: "Vacaciones y ausencias"
-intent: "¿Cómo informan los administradores los recursos a los trabajadores?"
+module: Recursos y partes
+submodule: Vacaciones y ausencias
+intent: ¿Cómo informan los administradores los recursos a los trabajadores?
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "administradores"
-    label: "Administradores"
-  - id: "informan"
-    label: "Informan"
-  - id: "recursos"
-    label: "Recursos"
-  - id: "trabajadores"
-    label: "Trabajadores"
+  - id: administradores
+    label: Administradores
+  - id: informan
+    label: Informan
+  - id: recursos
+    label: Recursos
+  - id: trabajadores
+    label: Trabajadores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/funciones-del-administrador/"
+    - https://manual.aturnos.com/knowledgebase/funciones-del-administrador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/funciones-del-administrador/"
+    - https://manual.aturnos.com/knowledgebase/funciones-del-administrador/
 ai:
   answerableQuestions:
-    - "¿Cómo informan los administradores los recursos a los trabajadores?"
+    - ¿Cómo informan los administradores los recursos a los trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -46,15 +47,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "4476870e5fab691970572a78fc3b64b1d4a04ebd2c09cfa99ab26ba9eadd4a39"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/funciones-del-administrador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/funciones-del-administrador/
+  contentHash: fe117b02c5377d33e0cfaaf73f4eeaf80a6d737c2392c0358efb513929c98c49
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Para añadir recursos, el administrador puede:.
 
-## Contenido
-
+## Respuesta
 1.- Informar los recursos trabajador a trabajador y día a día, siguiendo el mismo proceso que el indicado para los trabajadores, consulta el Manual.
 
 2.- Informar los recursos por periodo, es decir, para un trabajador desde una fecha de inicio y una fecha fin, por ejemplo, si cada día con turno / horas planificadas se le abona unas dietas.

@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-3-categoria-contrato"
-title: "Categoría & Contrato"
-description: "Se trata de la información contractual del trabajador. Son los datos más relevantes que vienen reflejados en su contrato de trabajo. Estos datos quedan registradosss en los siguientes aspectos:."
+contentId: gestion-de-personal-3-categoria-contrato
+title: Categoría & Contrato
+description: Se trata de la información contractual del trabajador. Son los datos más relevantes que vienen reflejados en su contrato de trabajo. Estos datos quedan registradossss en los siguientes aspectos:.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Categoría & Contrato"
+module: Gestión de personal
+submodule: Contratos
+intent: Categoría & Contrato
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "categoria"
-    label: "Categoria"
-  - id: "contrato"
-    label: "Contrato"
+  - id: categoria
+    label: Categoria
+  - id: contrato
+    label: Contrato
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/3-categoria-contrato/"
+    - https://manual.aturnos.com/knowledgebase/3-categoria-contrato/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/3-categoria-contrato/"
+    - https://manual.aturnos.com/knowledgebase/3-categoria-contrato/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre categoría & Contrato?"
+    - ¿Qué debo saber sobre categoría & Contrato?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6ff57d30965bb27f0216e49a6fd8255f01746bac0e423bb8e60d9b59339d3946"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/3-categoria-contrato/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/3-categoria-contrato/
+  contentHash: eabebcefbafd11ba8964426bed8c25da60a50bbe42974f237677636fc22585c9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
-Se trata de la información contractual del trabajador. Son los datos más relevantes que vienen reflejados en su contrato de trabajo. Estos datos quedan registradosss en los siguientes aspectos:.
+Se trata de la información contractual del trabajador. Son los datos más relevantes que vienen reflejados en su contrato de trabajo. Estos datos quedan registradossss en los siguientes aspectos:.
 
-## Contenido
-
+## Qué debes saber
 - Fecha de alta: Es el día en el que el trabajador comenzó la prestación laboral en la empresa o en el equipo de aTurnos. Es muy importante informar este dato de forma correcta, ya que afecta directamente a las horas de contrato, vacaciones, saldo de permisos que pueda tener y a la nómina. Igualmente, es importante que sepas que este dato no es la fecha de antigüedad del trabajador en la empresa, sino cuando comenzó en tu equipo de aTurnos. Ejemplo: puede ser que un trabajador lleve 10 años en la empresa, pero en tu equipo comienza hoy, por lo tanto, la fecha de alta del trabajador es el día de hoy.
 - Fecha de baja (Sin baja informada): Es el día que el trabajador deja de estar activo en tu equipo de aTurnos, pasando a formar parte de la lista de trabajadores inactivos. En caso de no tener baja informada, este campo se queda sin rellenar (en blanco). Este dato no se relaciona con la baja del trabajador en la empresa, sino que es cuando pasa a estar en situación de “inactivo” dentro de tu equipo de aTurnos. Ejemplo: un trabajador de tu equipo causa baja contractual, por lo tanto, pasa a situación de “inactivo”, pero lo mantienes en tu equipo en la lista de trabajadores inactivos, ya que posteriormente puede volver a ser contratado, y únicamente tienes que volver a activar al trabajador.
 - Categoría: Es la categoría profesional del trabajador, con el fin de realizar planificaciones más eficientes y conocer la composición del equipo. Para poder informar sobre los datos que componen el perfil, se necesita crear una Categoría, la cual te ayudará para extraer reportes o tener una mejor agrupación de las clases de categorías. (Véase Categorías ).

@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-8-control-de-fichajes"
-title: "Control de fichajes"
-description: "En este reporte se puede consultar de forma simplificada la jornada planificada, los fichajes realizados y las incidencias (absentismos) que puedan producirse a diario."
+contentId: control-horario-8-control-de-fichajes
+title: Control de fichajes
+description: En este reporte se puede consultar de forma simplificada la jornada planificada, los fichajes realizados y las incidencias (absentismos) que puedan producirse a diario.
 contentType: concept
-module: "Control horario"
-submodule: "Usuarios y perfiles"
-intent: "Control de fichajes"
+module: Control horario
+submodule: Usuarios y perfiles
+intent: Control de fichajes
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "control"
-    label: "Control"
-  - id: "fichajes"
-    label: "Fichajes"
+  - id: control
+    label: Control
+  - id: fichajes
+    label: Fichajes
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/8-control-de-fichajes-rrhh/"
+    - https://manual.aturnos.com/knowledgebase/8-control-de-fichajes-rrhh/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/8-control-de-fichajes-rrhh/"
+    - https://manual.aturnos.com/knowledgebase/8-control-de-fichajes-rrhh/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre control de fichajes?"
+    - ¿Qué debo saber sobre control de fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,8 +43,13 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "5ed05550313c5afe7a02abcf2a3f8dbd60cadf02e64ba7596912826a3a9d3d61"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/8-control-de-fichajes-rrhh/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/8-control-de-fichajes-rrhh/
+  contentHash: 697af07458e860f4c393f9d650f257b9c727672e12a76a6e5d68e33691481cc0
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

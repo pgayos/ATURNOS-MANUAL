@@ -1,42 +1,43 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-6-3-cierre-por-empleado"
-title: "Cierre por empleado"
-description: "Aprende a cierre por empleado, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-6-3-cierre-por-empleado
+title: Cierre por empleado
+description: En esta función, el superusuario puede acceder de forma rápida a cada trabajador de los equipos que han sido cargados para cerrar su cuadrante de forma individual, de la misma forma que pued.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Cierre por empleado"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Cierre por empleado
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cierre"
-    label: "Cierre"
-  - id: "empleado"
-    label: "Empleado"
+  - id: cierre
+    label: Cierre
+  - id: empleado
+    label: Empleado
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-4-cierre-por-empleado/"
+    - https://manual.aturnos.com/knowledgebase/10-4-cierre-por-empleado/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-4-cierre-por-empleado/"
+    - https://manual.aturnos.com/knowledgebase/10-4-cierre-por-empleado/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo cierre por empleado?"
+    - ¿Cómo puedo cierre por empleado?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -44,15 +45,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8b17347651387b172b20b5592bb7a1f5fa01edf9c46a91495b0bc8b02962fa2b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-4-cierre-por-empleado/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-4-cierre-por-empleado/
+  contentHash: 10108eeb4751ba8c8b45793b45f532b4963419018cd28907ae90a4884fbbba0e
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a cierre por empleado, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 En esta función, el superusuario puede acceder de forma rápida a cada trabajador de los equipos que han sido cargados para cerrar su cuadrante de forma individual, de la misma forma que puede consultar a qué fecha está cerrado su cuadrante y el último en el que ha sido exportado a nóminas.
 
 Para mostrar los trabajadores de los equipos que se van a cerrar, se tienen que seleccionar los equipos en la barra superior.

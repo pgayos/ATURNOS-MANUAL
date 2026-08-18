@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-7-1-estadistica-diaria"
-title: "Estadística diaria"
-description: "A través de la estadística diaria se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculados diariamente en el período seleccionado)."
+contentId: gestion-de-personal-7-1-estadistica-diaria
+title: Estadística diaria
+description: A través de la estadística diaria se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculados diariamente en el período seleccionado).
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Estadística diaria"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Estadística diaria
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "diaria"
-    label: "Diaria"
-  - id: "estadistica"
-    label: "Estadistica"
+  - id: diaria
+    label: Diaria
+  - id: estadistica
+    label: Estadistica
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/f-estadistica-diaria/"
+    - https://manual.aturnos.com/knowledgebase/f-estadistica-diaria/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/f-estadistica-diaria/"
+    - https://manual.aturnos.com/knowledgebase/f-estadistica-diaria/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo estadística diaria?"
+    - ¿Cómo puedo estadística diaria?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "9b8e2785e0b83f54952f29b32ed0b3d960d85a79bae157b083dbe7887d77139b"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/f-estadistica-diaria/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/f-estadistica-diaria/
+  contentHash: 9e165e43be943a27ec2d5abd401007e7f06a39966942516f5ae6c5fc7a180b95
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 A través de la estadística diaria se visualiza el resultado del cálculo de variables entre las fechas de ejecución (suma de cada uno de los conceptos de nómina calculados diariamente en el período seleccionado).
 
-## Contenido
-
+## Procedimiento
 Veamos un ejemplo, con los conceptos que se han ido desarrollando en este Manual, en este caso, las horas de nocturnidad se calculan en un concepto de nómina si son menores a 10 (concepto 3K00) y si las horas nocturnas son iguales o mayores a 10 (concepto 3000).
 
 En el cuadrante, un trabajador tiene planificados días con turnos en periodo nocturno (el periodo nocturno se define en la configuración general del equipo) en este caso desde las 22:00 hasta las 08:00.

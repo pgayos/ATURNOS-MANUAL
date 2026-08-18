@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-c-periodos-de-absentismo"
-title: "Periodos de absentismo"
-description: "Información sobre periodos de absentismo, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-c-periodos-de-absentismo
+title: Periodos de absentismo
+description: Este registro ayuda al Administrador a visualizar todos los periodos de baja de sus trabajadores, ej.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Periodos de absentismo"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Periodos de absentismo
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismo"
-    label: "Absentismo"
-  - id: "periodos"
-    label: "Periodos"
+  - id: absentismo
+    label: Absentismo
+  - id: periodos
+    label: Periodos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/c-periodos-de-absentismo/"
+    - https://manual.aturnos.com/knowledgebase/c-periodos-de-absentismo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/c-periodos-de-absentismo/"
+    - https://manual.aturnos.com/knowledgebase/c-periodos-de-absentismo/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre periodos de absentismo?"
+    - ¿Qué debo saber sobre periodos de absentismo?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3cc3d10d47d0a41892429261200091bee046f028764dafb40ab40b04c943c8ac"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/c-periodos-de-absentismo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/c-periodos-de-absentismo/
+  contentHash: 365cc6370fec131af89977e2909e9cfa91fdf0b2fe2dfc5fdec3dded8dff1f5e
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre periodos de absentismo, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Este registro ayuda al Administrador a visualizar todos los periodos de baja de sus trabajadores, ej. Baja médica por incapacidad temporal. Es muy útil ya que puede consultar fechas de inicio y fin del absentismo para replanificar tareas o asignar un nuevo trabajador para cubrir la necesidad. (Ver más en: Crear periodo de absentismo desde el cuadrante ).
 
 El listado muestra nombre del trabajador, fecha de inicio y fin del período, tipo de absentismo (aparece la abreviatura) y si el absentismo ha tenido recaída o no, es decir, si el trabajador se vuelve a ausentar por una enfermedad que previamente lo había dado de baja en otro período.

@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-9-1-integracion-nominas"
-title: "Integración nóminas"
-description: "Desde aTurnos contamos con un API que contiene todos los servicios necesarios para poder obtener y actualizar toda la información de aTurnos según las necesidades del cliente."
+contentId: costes-y-nominas-9-1-integracion-nominas
+title: Integración nóminas
+description: Desde aTurnos contamos con un API que contiene todos los servicios necesarios para poder obtener y actualizar toda la información de aTurnos según las necesidades del cliente.
 contentType: concept
-module: "Costes y nóminas"
-submodule: "Usuarios y perfiles"
-intent: "Integración nóminas"
+module: Costes y nóminas
+submodule: Usuarios y perfiles
+intent: Integración nóminas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "integracion"
-    label: "Integracion"
-  - id: "nominas"
-    label: "Nominas"
+  - id: integracion
+    label: Integracion
+  - id: nominas
+    label: Nominas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/9-1-integracion-nominas/"
+    - https://manual.aturnos.com/knowledgebase/9-1-integracion-nominas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/9-1-integracion-nominas/"
+    - https://manual.aturnos.com/knowledgebase/9-1-integracion-nominas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre integración nóminas?"
+    - ¿Qué debo saber sobre integración nóminas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3675494fda4714207b1a962bb82fc3bc63c2302a68d4423b68eff84d1450b655"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/9-1-integracion-nominas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/9-1-integracion-nominas/
+  contentHash: b585c39280694754de9c94a94ae82f021e8643dd0a4e333c371bd5859d7bf99a
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Desde aTurnos contamos con un API que contiene todos los servicios necesarios para poder obtener y actualizar toda la información de aTurnos según las necesidades del cliente.
 
-## Contenido
-
+## Qué debes saber
 Esta funcionalidad solo está disponible para aquellos usuarios que tienen el perfil de Superusuario, si precisas un usuario de este tipo, contacta con soporte@aturnos.com
 
 Aplica para los apartados 6.1. “Estadística por periodo” y 6.5 Estadística por periodo de todos los equipos” en cuanto a lo indicado a la forma de calcular los conceptos, que se realiza entre las fechas de inicio y fin.

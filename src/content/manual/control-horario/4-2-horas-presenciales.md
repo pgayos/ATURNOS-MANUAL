@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-4-2-horas-presenciales"
-title: "Horas presenciales"
-description: "En este apartado estadístico se podrá obtener un reporte resumido de las horas que realiza cada trabajador al fichar en el control de presencia."
+contentId: control-horario-4-2-horas-presenciales
+title: Horas presenciales
+description: En este apartado estadístico se podrá obtener un reporte resumido de las horas que realiza cada trabajador al fichar en el control de presencia.
 contentType: concept
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Horas presenciales"
+module: Control horario
+submodule: Fichajes
+intent: Horas presenciales
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "horas"
-    label: "Horas"
-  - id: "presenciales"
-    label: "Presenciales"
+  - id: horas
+    label: Horas
+  - id: presenciales
+    label: Presenciales
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-2-horas-presenciales/"
+    - https://manual.aturnos.com/knowledgebase/4-2-horas-presenciales/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-2-horas-presenciales/"
+    - https://manual.aturnos.com/knowledgebase/4-2-horas-presenciales/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre horas presenciales?"
+    - ¿Qué debo saber sobre horas presenciales?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f8a1d9ca3666ab00ef49f2fa8bc6ec4e860b0175274e9bcdf3d03dfe2453863f"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-2-horas-presenciales/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-2-horas-presenciales/
+  contentHash: 077eb0fd02ad9e92aa9f774317b383891f376aed29d19d4f8f2d219d7a10b8bf
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En este apartado estadístico se podrá obtener un reporte resumido de las horas que realiza cada trabajador al fichar en el control de presencia.
 
-## Contenido
-
+## Qué debes saber
 Se clasifica en tres variables:
 
 - Horas presenciales: Son el total de horas desde el momento del marcaje de entrada hasta el marcaje de salida que realiza un trabajador.

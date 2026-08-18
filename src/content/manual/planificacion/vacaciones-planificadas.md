@@ -1,38 +1,39 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-vacaciones-planificadas"
-title: "Vacaciones planificadas"
-description: "Total de vacaciones planificadas en el cuadrante. Las vacaciones son tipos de turnos configurados como vacaciones, como por ejemplo “V” de vacaciones."
+contentId: planificacion-vacaciones-planificadas
+title: Vacaciones planificadas
+description: Total de vacaciones planificadas en el cuadrante. Las vacaciones son tipos de turnos configurados como vacaciones, como por ejemplo “V” de vacaciones.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Vacaciones planificadas"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Vacaciones planificadas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "planificadas"
-    label: "Planificadas"
-  - id: "vacaciones"
-    label: "Vacaciones"
+  - id: planificadas
+    label: Planificadas
+  - id: vacaciones
+    label: Vacaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/vacaciones-planificadas/"
+    - https://manual.aturnos.com/knowledgebase/vacaciones-planificadas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/vacaciones-planificadas/"
+    - https://manual.aturnos.com/knowledgebase/vacaciones-planificadas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre vacaciones planificadas?"
+    - ¿Qué debo saber sobre vacaciones planificadas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -40,13 +41,22 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "6460ba2f548c7fa11c6e7480823e5af4162416df94157326f7831235435b8e81"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/vacaciones-planificadas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/vacaciones-planificadas/
+  contentHash: 65eee38ed248672f28ead60ab397c374bfc31d3c29e15edcb28eb9828a200e31
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
 Total de vacaciones planificadas en el cuadrante. Las vacaciones son tipos de turnos configurados como vacaciones, como por ejemplo “V” de vacaciones.
 
-## Contenido
-
+## Qué debes saber
 Son las vacaciones informadas en el cuadrante del trabajador, independientemente de si han sido disfrutadas o se encuentran en estado pendientes de disfrutar.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "tareas-1-tiempo-real"
-title: "Tiempo Real"
-description: "En este punto aparece el listado de tareas que han sido llamadas o que están siendo atendidas en el momento. Con el siguiente detalle:."
+contentId: tareas-1-tiempo-real
+title: Tiempo Real
+description: En este punto aparece el listado de tareas que han sido llamadas o que están siendo atendidas en el momento. Con el siguiente detalle:.
 contentType: procedure
-module: "Tareas"
-submodule: "Usuarios y perfiles"
-intent: "Tiempo Real"
+module: Tareas
+submodule: Usuarios y perfiles
+intent: Tiempo Real
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "real"
-    label: "Real"
-  - id: "tiempo"
-    label: "Tiempo"
+  - id: real
+    label: Real
+  - id: tiempo
+    label: Tiempo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-tiempo-real/"
+    - https://manual.aturnos.com/knowledgebase/1-tiempo-real/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-tiempo-real/"
+    - https://manual.aturnos.com/knowledgebase/1-tiempo-real/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo tiempo Real?"
+    - ¿Cómo puedo tiempo Real?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8ee00a4e657676d0ddd945a6afe7f6772394880b2e0564e9daed35de3a6a47a5"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-tiempo-real/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-tiempo-real/
+  contentHash: d3055acc06eb9713e9ff0d9c20adbb991bfd7251eeda2f746e0c0bcb71941611
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En este punto aparece el listado de tareas que han sido llamadas o que están siendo atendidas en el momento. Con el siguiente detalle:.
 
-## Contenido
-
+## Procedimiento
 1.- Barra superior desplegable
 
 - Icono “i”: muestra la leyenda de lo que significa cada color asignado en la columna del estado de la tarea. El estado en Gris significa que la tarea está Terminada, en AZUL significa que está siendo atendida ACTUALMENTE, en VERDE es que está PENDIENTE por atender y en NARANJA significa que la tarea lleva RETRASO.

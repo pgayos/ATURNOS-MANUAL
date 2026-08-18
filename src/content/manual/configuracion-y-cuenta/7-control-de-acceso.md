@@ -1,52 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-7-control-de-acceso"
-title: "Control De Acceso"
-description: "Información sobre control De Acceso, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-7-control-de-acceso
+title: Control De Acceso
+description: Los mismos sistemas que utilizamos para el control de presencia, podemos administrarlos mediante la configuración de grupos usuarios de acceso o niveles, que pueden estar vinculados a las pu.
 contentType: reference
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Control De Acceso"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Control De Acceso
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities:
-  - id: "acceso"
-    label: "Acceso"
-  - id: "control"
-    label: "Control"
+  - id: acceso
+    label: Acceso
+  - id: control
+    label: Control
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/7-control-de-acceso/"
+    - https://manual.aturnos.com/knowledgebase/7-control-de-acceso/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/7-control-de-acceso/"
+    - https://manual.aturnos.com/knowledgebase/7-control-de-acceso/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre control De Acceso?"
+    - ¿Qué debo saber sobre control De Acceso?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bb971402c6f1ac9568fdb4403939805ecac7cd5a8ba24075d336522df59bb60f"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/7-control-de-acceso/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/7-control-de-acceso/
+  contentHash: 96562223ae7a03ab05233fe8823028fec32e6cbe9b4a3ab94a99f7b07f7893cc
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre control De Acceso, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Los mismos sistemas que utilizamos para el control de presencia, podemos administrarlos mediante la configuración de grupos usuarios de acceso o niveles, que pueden estar vinculados a las puertas para el control de acceso a los centros de trabajo.
 
 La configuración del control de acceso pasa por informar a Biostar2 sobre qué grupos de personas será necesario su control de acceso a un centro de trabajo o incluso a una determinada zona del mismo.

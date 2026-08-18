@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-d-cambios"
-title: "Cambios en aTurnos"
-description: "Aprende a cambios en aTurnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-d-cambios
+title: Cambios en aTurnos
+description: En aTurnos, los trabajadores pueden hacer cambios de turno si en “Ajustes” se tiene habilitada la opción y si el tipo de turno está configurado como “Seleccionable para cambio entre compañer.
 contentType: procedure
-module: "Configuración y cuenta"
-submodule: "Roles y permisos"
-intent: "Cambios en aTurnos"
+module: Configuración y cuenta
+submodule: Roles y permisos
+intent: Cambios en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cambios"
-    label: "Cambios"
+  - id: cambios
+    label: Cambios
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/d-cambios/"
+    - https://manual.aturnos.com/knowledgebase/d-cambios/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/d-cambios/"
+    - https://manual.aturnos.com/knowledgebase/d-cambios/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo cambios en aTurnos?"
+    - ¿Cómo puedo cambios en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 10
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "a1b7713541bc2ee0daab7c709e44646b3837a4e97814539af6eebac10919d444"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/d-cambios/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/d-cambios/
+  contentHash: 70b0ccff142d3216013fe65b752dc2ffeaefcc5a25ae936579f67dfb175af8c4
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -159,3 +166,7 @@ Es importante señalar que cuando el trabajador hace una solicitud de cambios (p
 Dentro de aTurnos las notificaciones llegan a los usuarios a través de un indicador en rojo con un número que le alerta sobre la cantidad de solicitudes que tiene pendientes por aprobar, si hace clic sobre él lo redireccionará al menú de “Peticiones y cambios” de manera que el usuario complete el paso de aprobar o denegar la solicitud (ver Peticiones y cambios )
 
 De igual forma, llegarán notificaciones al correo electrónico de los implicados con el aviso de la solicitud que tiene pendiente. En el caso de los cambios de turno se puede configurar el sistema para NO enviar dichas notificaciones a los correos de los implicados, tal como se explica anteriormente en “Enviar correos a los implicados en un cambio de turno”.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

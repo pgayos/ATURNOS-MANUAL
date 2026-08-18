@@ -1,52 +1,57 @@
 ---
 schemaVersion: "1.0"
-contentId: "configuracion-y-cuenta-10-la-preparacion-de-los-puestos"
-title: "La preparación de los puestos"
-description: "Aprende a la preparación de los puestos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: configuracion-y-cuenta-10-la-preparacion-de-los-puestos
+title: La preparación de los puestos
+description: Explica cómo la preparación de los puestos en aTurnos y qué debes comprobar durante el proceso.
 contentType: procedure
-module: "Configuración y cuenta"
-submodule: "General"
-intent: "La preparación de los puestos"
+module: Configuración y cuenta
+submodule: General
+intent: La preparación de los puestos
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
 entities:
-  - id: "preparacion"
-    label: "Preparacion"
-  - id: "puestos"
-    label: "Puestos"
+  - id: preparacion
+    label: Preparacion
+  - id: puestos
+    label: Puestos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-la-preparacion-de-los-puestos/"
+    - https://manual.aturnos.com/knowledgebase/10-la-preparacion-de-los-puestos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-la-preparacion-de-los-puestos/"
+    - https://manual.aturnos.com/knowledgebase/10-la-preparacion-de-los-puestos/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo la preparación de los puestos?"
+    - ¿Cómo puedo la preparación de los puestos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "98594f21ce8edc5bcf594dcb03e83e56c6121a423f3832cc5d667ffcab41cd40"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-la-preparacion-de-los-puestos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-la-preparacion-de-los-puestos/
+  contentHash: a486a188aaf423b33132d8c0c5b797ed7c3cfb772684c298061af7af6d0ed81c
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a la preparación de los puestos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 1. Cree un acceso directo de Google Chrome y renómbrelo con el nombre de aTurnos. Para ello márquelo con el ratón y accione el botón derecho del ratón, seleccionando la opción “Cambiar nombre”
 2. Abra Google Chrome y escriba la siguiente dirección http://beta-mediamarkt.aturnos.com/login (abra una nueva pestaña y cierre las que abiertas por el Chrome) y al solicitar el email o usuario, informe el puesto al que va a crear el acceso directo. Los puestos de trabajo están asociados a través de la configuración de Filtros con las pantallas.
 

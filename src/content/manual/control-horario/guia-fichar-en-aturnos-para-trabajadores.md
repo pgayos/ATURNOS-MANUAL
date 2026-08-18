@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-guia-fichar-en-aturnos-para-trabajadores"
-title: "Fichar en aTurnos para trabajadores"
-description: "Información sobre fichar en aTurnos para trabajadores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-guia-fichar-en-aturnos-para-trabajadores
+title: Fichar en aTurnos para trabajadores
+description: El sistema de fichaje de aTurnos te permite registrar tus entradas y salidas de manera rápida y segura desde cualquier dispositivo con acceso a internet.
 contentType: reference
-module: "Control horario"
-submodule: "Uso por el trabajador"
-intent: "Fichar en aTurnos"
+module: Control horario
+submodule: Uso por el trabajador
+intent: Fichar en aTurnos
 audience:
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-29
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-trabajador/control-horario/fichar-en-aturnos/"
+    - https://guias.aturnos.com/guias/guias-trabajador/control-horario/fichar-en-aturnos/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre fichar en aTurnos para trabajadores?"
+    - ¿Qué debo saber sobre fichar en aTurnos para trabajadores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-trabajador/control-horario/fichar-en-aturnos/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-trabajador/control-horario/fichar-en-aturnos/
+  contentHash: 251767b3c0154b55368165d2a4f2903d952b6b254b38580175e2b52f05cbe799
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -109,3 +120,7 @@ Si se aprueba, tu registro horario se actualizará automáticamente.
 Si se rechaza, recibirás una notificación con el motivo y podrás corregir el error.
 
 Consejo: Revisa regularmente el estado de tus fichajes y notifica cualquier incidencia con anticipación para evitar problemas con tu registro horario.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-10-importar-posiciones"
-title: "Importar posiciones"
-description: "Información sobre importar posiciones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-10-importar-posiciones
+title: Importar posiciones
+description: El administrador podrá crear las posiciones que posteriormente indique a sus trabajadores a través de la importación sin tener que crearlo uno a uno.
 contentType: concept
-module: "Gestión de personal"
-submodule: "General"
-intent: "Importar posiciones"
+module: Gestión de personal
+submodule: General
+intent: Importar posiciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "importar"
-    label: "Importar"
-  - id: "posiciones"
-    label: "Posiciones"
+  - id: importar
+    label: Importar
+  - id: posiciones
+    label: Posiciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/10-importar-posiciones/"
+    - https://manual.aturnos.com/knowledgebase/10-importar-posiciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/10-importar-posiciones/"
+    - https://manual.aturnos.com/knowledgebase/10-importar-posiciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importar posiciones?"
+    - ¿Qué debo saber sobre importar posiciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "0e67e1249433e16aafb4a671dc781bbf664336146fb4c32b062b061507450bc7"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/10-importar-posiciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/10-importar-posiciones/
+  contentHash: 0811149dfd372d6920df0885cba8eea2d21b12b1b013bea1dfd828ac52c33f38
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre importar posiciones, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 El administrador podrá crear las posiciones que posteriormente indique a sus trabajadores a través de la importación sin tener que crearlo uno a uno. Para importar el archivo debes iniciar creando un documento Excel con formato CSV Importar-posiciones con los siguientes campos:
 
 - Id aTurno

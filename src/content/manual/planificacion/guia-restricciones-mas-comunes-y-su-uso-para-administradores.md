@@ -1,36 +1,47 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-restricciones-mas-comunes-y-su-uso-para-administradores"
-title: "Restricciones más comunes y su uso para administradores"
-description: "Información sobre restricciones más comunes y su uso para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-restricciones-mas-comunes-y-su-uso-para-administradores
+title: Restricciones más comunes y su uso para administradores
+description: Una vez ya has comprendido en el apartado anterior qué son las restricciones, y como se configuran, te dejamos en esta publicación un listado con algunas de las más utilizadas por nuestros c.
 contentType: concept
-module: "Planificación"
-submodule: "Restricciones"
-intent: "Restricciones más comunes y su uso"
+module: Planificación
+submodule: Restricciones
+intent: Restricciones más comunes y su uso
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-09-02
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/restricciones-mas-comunes-y-su-uso/"
+    - https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/restricciones-mas-comunes-y-su-uso/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre restricciones más comunes y su uso para administradores?"
+    - ¿Qué debo saber sobre restricciones más comunes y su uso para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/restricciones-mas-comunes-y-su-uso/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/restricciones-mas-comunes-y-su-uso/restricciones-mas-comunes-y-su-uso/
+  contentHash: 43bf8330b309b8379d1808883a1c8b73c10117bb0bb872fb0b8fa8e3c22ee1a3
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -93,3 +104,7 @@ Ejemplo: En un trimestre, las ausencias por enfermedad deben ser inferiores al 1
 Ejemplo: Un empleado con contrato de 40 horas semanales no puede ser programado para trabajar más de esas horas en una semana.
 
 Ejemplo: Un trabajador a tiempo parcial con un contrato de 20 horas no puede realizar más de 80 horas en un mes.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

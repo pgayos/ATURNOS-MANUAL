@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-periodo-de-absentismo"
-title: "Periodo de absentismo"
-description: "Información sobre periodo de absentismo, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-periodo-de-absentismo
+title: Periodo de absentismo
+description: Periodo de tiempo planificado en el cuadrante, el cual informa, que el trabajador se encuentra ausente en los días que incluyen este periodo, por un determinado tipo de absentismo, como por.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Periodo de absentismo"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Periodo de absentismo
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismo"
-    label: "Absentismo"
-  - id: "periodo"
-    label: "Periodo"
+  - id: absentismo
+    label: Absentismo
+  - id: periodo
+    label: Periodo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/periodo-de-absentismo/"
+    - https://manual.aturnos.com/knowledgebase/periodo-de-absentismo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/periodo-de-absentismo/"
+    - https://manual.aturnos.com/knowledgebase/periodo-de-absentismo/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre periodo de absentismo?"
+    - ¿Qué debo saber sobre periodo de absentismo?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8d2d24f0d2818509c795c0e1830f9becad969c6d433b7a56c3f15fd678f3b788"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/periodo-de-absentismo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/periodo-de-absentismo/
+  contentHash: fdef7769230370ac3a950959255420cdbece7307c0580c60c809c5a902b217ff
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre periodo de absentismo, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Periodo de tiempo planificado en el cuadrante, el cual informa, que el trabajador se encuentra ausente en los días que incluyen este periodo, por un determinado tipo de absentismo, como por ejemplo una baja por maternidad, por incapacidad temporal, permisos de larga duración …
 
 Este periodo tiene una fecha de inicio. La fecha fin se puede informar si ya se conoce, o bien dejar la fecha de fin abierta hasta que se conozca.

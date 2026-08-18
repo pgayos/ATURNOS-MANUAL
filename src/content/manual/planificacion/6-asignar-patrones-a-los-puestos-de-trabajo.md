@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-6-asignar-patrones-a-los-puestos-de-trabajo"
-title: "Asignar patrones a los puestos de trabajo"
-description: "Aprende a asignar patrones a los puestos de trabajo, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-6-asignar-patrones-a-los-puestos-de-trabajo
+title: Asignar patrones a los puestos de trabajo
+description: A la hora de planificar tener en cuenta que al asignar un patrón a un puesto se abre la posibilidad de solicitar tantos tickets como horarios tengamos disponibles.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Asignar patrones a los puestos de trabajo"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Asignar patrones a los puestos de trabajo
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "asignar"
-    label: "Asignar"
-  - id: "patrones"
-    label: "Patrones"
-  - id: "puestos"
-    label: "Puestos"
-  - id: "trabajo"
-    label: "Trabajo"
+  - id: asignar
+    label: Asignar
+  - id: patrones
+    label: Patrones
+  - id: puestos
+    label: Puestos
+  - id: trabajo
+    label: Trabajo
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-asignar-patrones-a-los-puestos-de-trabajo/"
+    - https://manual.aturnos.com/knowledgebase/6-asignar-patrones-a-los-puestos-de-trabajo/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-asignar-patrones-a-los-puestos-de-trabajo/"
+    - https://manual.aturnos.com/knowledgebase/6-asignar-patrones-a-los-puestos-de-trabajo/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo asignar patrones a los puestos de trabajo?"
+    - ¿Cómo puedo asignar patrones a los puestos de trabajo?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "bf88ef413b791e7ad06e502170a91fb8a7a7082331614c551eeefe209e02d870"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-asignar-patrones-a-los-puestos-de-trabajo/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-asignar-patrones-a-los-puestos-de-trabajo/
+  contentHash: 42398762c63c83f8ea93dd083c86a9f8eab309a071bf45d5c4850e95ba786bf5
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a asignar patrones a los puestos de trabajo, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Acceda de nuevo a Cuadrante → Cuadrante.
 
 A la hora de planificar tener en cuenta que al asignar un patrón a un puesto se abre la posibilidad de solicitar tantos tickets como horarios tengamos disponibles.

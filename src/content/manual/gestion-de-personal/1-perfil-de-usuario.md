@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-perfil-de-usuario"
-title: "Perfil de usuario"
-description: "Información sobre perfil de usuario, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-1-perfil-de-usuario
+title: Perfil de usuario
+description: "Foto del trabajador: Si haces clic en el ‘ lapicero ’ podemos subir una foto."
 contentType: reference
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Perfil de usuario"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Perfil de usuario
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "perfil"
-    label: "Perfil"
-  - id: "usuario"
-    label: "Usuario"
+  - id: perfil
+    label: Perfil
+  - id: usuario
+    label: Usuario
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-perfil-de-usuario/"
+    - https://manual.aturnos.com/knowledgebase/1-perfil-de-usuario/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-perfil-de-usuario/"
+    - https://manual.aturnos.com/knowledgebase/1-perfil-de-usuario/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre perfil de usuario?"
+    - ¿Qué debo saber sobre perfil de usuario?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8674c2859aa2837d827ad2345fd382d97fb8a4bce151787db39f712bf7fed493"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-perfil-de-usuario/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-perfil-de-usuario/
+  contentHash: 3f22c6cdc2fc6f020bcd28f228e1365c2eb097f425643e5c84d9922cde3ec783
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre perfil de usuario, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Foto del trabajador: Si haces clic en el ‘ lapicero ’ podemos subir una foto. Si queremos eliminar la foto, únicamente hay que hacer clic en la ‘X’. El espacio de la foto será ocupado por dos iniciales del nombre del trabajador.
 
 Mis datos: El usuario puede modificar datos personales como:

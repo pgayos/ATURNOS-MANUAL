@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-1-computadas-vs-presenciales"
-title: "Computadas VS Presenciales"
-description: "Este reporte de control de presencia muestra de forma sencilla una comparación entre las horas computadas y las horas presenciales (lo que se ha fichado)."
+contentId: planificacion-4-1-computadas-vs-presenciales
+title: Computadas VS Presenciales
+description: Este reporte de control de presencia muestra de forma sencilla una comparación entre las horas computadas y las horas presenciales (lo que se ha fichado).
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Computadas VS Presenciales"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Computadas VS Presenciales
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "computadas"
-    label: "Computadas"
-  - id: "presenciales"
-    label: "Presenciales"
+  - id: computadas
+    label: Computadas
+  - id: presenciales
+    label: Presenciales
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-1-planificadas-vs-presenciales/"
+    - https://manual.aturnos.com/knowledgebase/4-1-planificadas-vs-presenciales/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-1-planificadas-vs-presenciales/"
+    - https://manual.aturnos.com/knowledgebase/4-1-planificadas-vs-presenciales/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre computadas VS Presenciales?"
+    - ¿Qué debo saber sobre computadas VS Presenciales?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "8c662c55b07b0383f0047644a0c558fb3ef89b25441f38c19521026ed034d1d3"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-1-planificadas-vs-presenciales/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-1-planificadas-vs-presenciales/
+  contentHash: 03c2c75e65ca51d519ab32ebb5597788c5f14c0da7e447a6b4a19f45b97c9ea1
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Este reporte de control de presencia muestra de forma sencilla una comparación entre las horas computadas y las horas presenciales (lo que se ha fichado).
 
-## Contenido
-
+## Qué debes saber
 Esta comparación puede ser por días, entre los “Días con horario planificado” y los “Días con horario fichado”, mostrando la diferencia entre ambas variables.
 
 De la misma forma, se comparan la “Horas computadas” y las “Horas presenciales”, junto a un balance con la diferencia entre ambas variables.

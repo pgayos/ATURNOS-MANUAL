@@ -1,47 +1,54 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-2-cuadrante-anual"
-title: "Cuadrante Anual"
-description: "Haciendo clic en Cuadrante → Cuadrante anual, el trabajador puede visualizar su cuadrante anual, mostrando todos los turnos planificados en todos los días de cada mes del año."
+contentId: planificacion-2-2-cuadrante-anual
+title: Cuadrante Anual
+description: Haciendo clic en Cuadrante → Cuadrante anual, el trabajador puede visualizar su cuadrante anual, mostrando todos los turnos planificados en todos los días de cada mes del año.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Cuadrante Anual"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Cuadrante Anual
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anual"
-    label: "Anual"
-  - id: "cuadrante"
-    label: "Cuadrante"
+  - id: anual
+    label: Anual
+  - id: cuadrante
+    label: Cuadrante
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-2-cuadrante-anual/"
+    - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-anual/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-2-cuadrante-anual/"
+    - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-anual/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre cuadrante Anual?"
+    - ¿Qué debo saber sobre cuadrante Anual?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3ca9c3ee224874460f1c3366dc4a7ec10473d697380ed99a0ef581d6f7213a0d"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-anual/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-anual/
+  contentHash: 5df82a9633ced2e8ad39bdab1fbe3419dc42ae7cc66294775b921125bfe2a999
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -63,3 +70,7 @@ Estas opciones permiten personalizar la visualización del cuadrante anual segú
 Por último si la configuración de permisos del equipo lo permite, el trabajador puede acceder a información del cómputo de los turnos planificados.
 
 Así como un balance de horas del año y/o periodo e información de las vacaciones que han sido planificadas y el saldo por disfrutar.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

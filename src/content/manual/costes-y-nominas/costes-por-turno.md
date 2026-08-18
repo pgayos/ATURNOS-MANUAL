@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "costes-y-nominas-costes-por-turno"
-title: "Costes por turno"
-description: "Información sobre costes por turno, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: costes-y-nominas-costes-por-turno
+title: Costes por turno
+description: La configuración de este tipo de costes se recomienda cuando el coste que necesita controlar va al total de horas realizadas en un tipo de turno u horario específico independientemente del t.
 contentType: reference
-module: "Costes y nóminas"
-submodule: "Vacaciones y ausencias"
-intent: "Costes por turno"
+module: Costes y nóminas
+submodule: Vacaciones y ausencias
+intent: Costes por turno
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "costes"
-    label: "Costes"
-  - id: "turno"
-    label: "Turno"
+  - id: costes
+    label: Costes
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/costes-por-turno/"
+    - https://manual.aturnos.com/knowledgebase/costes-por-turno/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/costes-por-turno/"
+    - https://manual.aturnos.com/knowledgebase/costes-por-turno/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre costes por turno?"
+    - ¿Qué debo saber sobre costes por turno?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "94c9ad7dccda40b82baad4f0ff081b7356f889820695c44c0ab595ba4e6f3288"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/costes-por-turno/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/costes-por-turno/
+  contentHash: 9de9c836b4f33bba69bd18fc891b50edead6d9d4caa2d599d2e4edac72c61b9f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre costes por turno, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 La configuración de este tipo de costes se recomienda cuando el coste que necesita controlar va al total de horas realizadas en un tipo de turno u horario específico independientemente del trabajador que lo realice. Se podrá mantener un control de costes según un turno u horario existente en aTurnos, con opción a relacionarlo a una localización también definida, ejemplo Turno M (Mañanas), Turno T (Tardes), Turno N (Noches) (Ver mas en Tipos de Turno ).
 
 Esta configuración de coste de por turno se realiza desde el menú Planificador – Tipos de turno, al crear o entrar a editar un turno:

@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-g-vacaciones"
-title: "Vacaciones"
-description: "Información sobre vacaciones, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-g-vacaciones
+title: Vacaciones
+description: Desde aquí podrás controlar las vacaciones que utilizan y de las que disponen todos los trabajadores de tu equipo.
 contentType: reference
-module: "Planificación"
-submodule: "Contratos"
-intent: "Vacaciones"
+module: Planificación
+submodule: Contratos
+intent: Vacaciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "vacaciones"
-    label: "Vacaciones"
+  - id: vacaciones
+    label: Vacaciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-7-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/6-7-vacaciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-7-vacaciones/"
+    - https://manual.aturnos.com/knowledgebase/6-7-vacaciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre vacaciones?"
+    - ¿Qué debo saber sobre vacaciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "1cafcdb33518e3a6b9ce7e19089448803b6a18a54182c6a64e7c0fa05d13d357"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-7-vacaciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-7-vacaciones/
+  contentHash: b04011f42d5496dbeedfd4c313d1092289ed775b541f25d9705a104674baa8e0
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -75,3 +82,7 @@ Puedes seguir la demostración de la herramienta de filtrar en puntos anteriores
 Podrás variar la posición de las columnas, para ver cómo realizarlo, puedes ver la demostración de cambios por columnas.
 
 Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

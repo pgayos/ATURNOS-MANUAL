@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-13-geolocalizacion"
-title: "Geolocalización"
-description: "Información sobre geolocalización, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-13-geolocalizacion
+title: Geolocalización
+description: Para configurar el fichaje por geolocalización el proceso es simple, el Administrador define las localizaciones determinando en qué radio los trabajadores puede fichar, y si los trabajadores.
 contentType: reference
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Geolocalización"
+module: Control horario
+submodule: Fichajes
+intent: Geolocalización
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "geolocalizacion"
-    label: "Geolocalizacion"
+  - id: geolocalizacion
+    label: Geolocalizacion
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-13-geolocalizacion/"
+    - https://manual.aturnos.com/knowledgebase/5-13-geolocalizacion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-13-geolocalizacion/"
+    - https://manual.aturnos.com/knowledgebase/5-13-geolocalizacion/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre geolocalización?"
+    - ¿Qué debo saber sobre geolocalización?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "e21dbe1dbc2dbd68a86e9d364adb7524125025268473412563c6be80316fa3c6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-13-geolocalizacion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-13-geolocalizacion/
+  contentHash: f073a6603d06a9476fe7077765e358bfa0b12b71c7170d4dedbb5a0e8f0a1b6f
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre geolocalización, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Opciones y datos disponibles
 Para configurar el fichaje por geolocalización el proceso es simple, el Administrador define las localizaciones determinando en qué radio los trabajadores puede fichar, y si los trabajadores se encuentran dentro de la zona determinada, podrán dar inicio y fin a su jornada. Posteriormente el Administrador puede comprobar de forma exacta la localización desde la cual se han producido los fichajes.
 
 Para ello hay que acceder a Administrar → Ajustes → Módulos y activar la siguiente función: “Requerir coordenadas de posición a los usuarios que utilicen la Web” y guardar el cambio.

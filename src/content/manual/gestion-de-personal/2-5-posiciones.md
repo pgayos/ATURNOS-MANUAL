@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-2-5-posiciones"
-title: "Posiciones"
-description: "Las posiciones las utilizamos en las integraciones o importaciones. Se pueden definir con dos variables, lo que hace el trabajador y dónde lo hace."
+contentId: gestion-de-personal-2-5-posiciones
+title: Posiciones
+description: Las posiciones las utilizamos en las integraciones o importaciones. Se pueden definir con dos variables, lo que hace el trabajador y dónde lo hace.
 contentType: concept
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Posiciones"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Posiciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "posiciones"
-    label: "Posiciones"
+  - id: posiciones
+    label: Posiciones
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-5-posiciones/"
+    - https://manual.aturnos.com/knowledgebase/2-5-posiciones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-5-posiciones/"
+    - https://manual.aturnos.com/knowledgebase/2-5-posiciones/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre posiciones?"
+    - ¿Qué debo saber sobre posiciones?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "3705272ef35ab22d4b50fada3bf0cb370b2bc2d322367cfce0f40c50eaa9b242"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-5-posiciones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-5-posiciones/
+  contentHash: 58d8f7ee9aac000382fe4775f1334b7b13d556ebaf54a64c099aab4c2805e176
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Las posiciones las utilizamos en las integraciones o importaciones. Se pueden definir con dos variables, lo que hace el trabajador y dónde lo hace.
 
-## Contenido
-
+## Qué debes saber
 Cuando el maestro de empleado es un software de RRHH, el alta en éste genera automáticamente el alta en aTurnos, por supuesto las prórrogas y/o bajas, pero también tenemos en cuenta otras modificaciones en la relación laboral del trabajador, como son las modificaciones de los porcentajes de jornada y/o los cambios en la categoría profesional.
 
 Para identificar el equipo (puede relacionarse con una estructura organizativa determinada) donde se debe dar de alta al trabajador se asocia la posición a un equipo determinado.

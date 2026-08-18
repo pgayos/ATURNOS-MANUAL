@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-a-anadir-trabajador"
-title: "Añadir trabajador"
-description: "El trabajador es el elemento principal de cualquier equipo de trabajo. El administrador del equipo puede añadir un trabajador y completar sus datos del trabajador accediendo al perfil de trabajador."
+contentId: gestion-de-personal-a-anadir-trabajador
+title: Añadir trabajador
+description: El trabajador es el elemento principal de cualquier equipo de trabajo. El administrador del equipo puede añadir un trabajador y completar sus datos del trabajador accediendo al perfil de trabajador.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Contratos"
-intent: "Añadir trabajador"
+module: Gestión de personal
+submodule: Contratos
+intent: Añadir trabajador
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "anadir"
-    label: "Anadir"
-  - id: "trabajador"
-    label: "Trabajador"
+  - id: anadir
+    label: Anadir
+  - id: trabajador
+    label: Trabajador
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/a-anadir-un-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/a-anadir-un-trabajador/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/a-anadir-un-trabajador/"
+    - https://manual.aturnos.com/knowledgebase/a-anadir-un-trabajador/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre añadir trabajador?"
+    - ¿Qué debo saber sobre añadir trabajador?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f6c5e93d128299c71c4776d11380f67ae1518db94fbdc25e19c62207b2be36fe"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/a-anadir-un-trabajador/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/a-anadir-un-trabajador/
+  contentHash: f34251f344349625ed30a93a7c3555eb1a9899b6140c8ca0b8a5ce73b495aafd
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 El trabajador es el elemento principal de cualquier equipo de trabajo. El administrador del equipo puede añadir un trabajador y completar sus datos del trabajador accediendo al perfil de trabajador.
 
-## Contenido
-
+## Opciones y datos disponibles
 Una vez se ha accedido al menú Listado dentro de Trabajadores, desde el botón ‘Acciones’ se desplegarán las distintas opciones para añadir un nuevo trabajador al equipo de trabajo.
 
 En aTurnos existen tres formas de hacerlo:

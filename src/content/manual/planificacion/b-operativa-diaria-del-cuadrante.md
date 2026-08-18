@@ -1,53 +1,60 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-b-operativa-diaria-del-cuadrante"
-title: "Operativa diaria del cuadrante"
-description: "Información sobre operativa diaria del cuadrante, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-b-operativa-diaria-del-cuadrante
+title: Operativa diaria del cuadrante
+description: Al entrar al cuadrante, nos encontramos con la información de la planificación en un formato de tabla.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Operativa diaria del cuadrante"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Operativa diaria del cuadrante
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "cuadrante"
-    label: "Cuadrante"
-  - id: "diaria"
-    label: "Diaria"
-  - id: "operativa"
-    label: "Operativa"
+  - id: cuadrante
+    label: Cuadrante
+  - id: diaria
+    label: Diaria
+  - id: operativa
+    label: Operativa
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/b-operativa-diaria-del-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/b-operativa-diaria-del-cuadrante/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/b-operativa-diaria-del-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/b-operativa-diaria-del-cuadrante/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre operativa diaria del cuadrante?"
+    - ¿Qué debo saber sobre operativa diaria del cuadrante?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "34fedbda79fdfa54ee6692534db79c10af19e1a191959052c2d37a24a31a8d0d"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/b-operativa-diaria-del-cuadrante/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/b-operativa-diaria-del-cuadrante/
+  contentHash: f42cf5d412d75b0d51b2c72096f4d7b39628104ae92bf402014b8d0fbe24c5e0
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -76,7 +83,7 @@ El cambio de turno es uno de los procesos más usado por los profesionales que t
 
 El cambio de turno implica el movimiento o cesión de turnos de un trabajador a otro trabajador dentro del mismo día. Esto se realiza para el mismo día, así validamos que existen las mismas coberturas que fueron planificadas. Esta acción solo es posible realizarla en un día presente o en un día futuro del cuadrante, nunca a pasado.
 
-Los cambios de turnos, según configuración, pueden ser validados por los trabajadores implicados en el cambio y el administrador del equipo. Todos los cambios de turnos entre trabajadores quedan registradosss en un histórico de cambios, accediendo a ellos para cualquier consulta o seguimiento cuando sea requerido.
+Los cambios de turnos, según configuración, pueden ser validados por los trabajadores implicados en el cambio y el administrador del equipo. Todos los cambios de turnos entre trabajadores quedan registradossss en un histórico de cambios, accediendo a ellos para cualquier consulta o seguimiento cuando sea requerido.
 
 Si necesitas cambiar un turno con un compañero, se manejan varios escenarios en aTurnos, existiendo tres tipos de cambios de turnos: Intercambia r turno en el mismo día, Librar un turno planificado, o doblar turno en el mismo día.
 
@@ -85,3 +92,7 @@ Por lo tanto, para iniciar el cambio tienes que hacer clic en el cuadrante dentr
 - Hacer cambio → Intercambio: Selecciona el turno que quieres intercambiar haciendo clic sobre él y hacer cambio → intercambio, ahora aparecerán las opciones de intercambio que te muestra el sistema. Una vez seleccionado el intercambio, falta la aprobación del compañero y el administrador, una vez aprueben o denieguen el intercambio recibirás un aviso en aTurnos, o en tu correo o móvil (si tienes los permisos activados).
 - Hacer cambio → Libre: Cambiar tu turno por un libre, en este caso puedes tener dos opciones, si el día marcado contiene dos turnos puedes elegir entre solo cambiar un turno por un libre o elegir el día libre completo, es decir, cambiar los dos turnos de ese día por un día libre completo. Para solicitar el cambio por libre tienes que seguir los siguientes pasos: Selecciona la casilla del turno que quieres cambiar. El sistema te muestra los libres disponibles de tus compañeros, selecciona el que quieras. Ahora te mostramos una ventana donde debes informar si quieres “dejar a deber” o “devolver el cambio”. Si seleccionas “Dejar a deber”. El turno quedará guardado registro → debe/haber turnos, y el compañero podrá solicitarlo cuando lo necesite. Si selecciones “Devolver el cambio”. Eliges que turno le devolverás el cambio. Ahora el administrador y tu compañero deben aprobar los cambios.
 - Hacer cambio → Doblaje: Solicita un libre a un compañero que tenga un turno diferente al tuyo y así pueda doblar el turno, por ejemplo, si el trabajador que solicita tiene un turno M(mañanas) y quiere librar ese día, la opción doblaje le dará resultados en el cuadrante de turnos diferentes a M, para que sus compañeros puedan hacer su M y por ejemplo su T (tardes) que ya tenían planificado.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

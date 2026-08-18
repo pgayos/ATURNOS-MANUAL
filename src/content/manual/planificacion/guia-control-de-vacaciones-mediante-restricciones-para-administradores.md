@@ -1,27 +1,28 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-guia-control-de-vacaciones-mediante-restricciones-para-administradores"
-title: "Control de vacaciones mediante restricciones para administradores"
-description: "Información sobre control de vacaciones mediante restricciones para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-guia-control-de-vacaciones-mediante-restricciones-para-administradores
+title: Control de vacaciones mediante restricciones para administradores
+description: En aTurnos, las restricciones de vacaciones están diseñadas para ayudarte a gestionar de manera eficiente las solicitudes de tu equipo, asegurando el cumplimiento de reglas internas y evitan.
 contentType: troubleshooting
-module: "Planificación"
-submodule: "Vacaciones"
-intent: "Control de vacaciones mediante restricciones"
+module: Planificación
+submodule: Vacaciones
+intent: Control de vacaciones mediante restricciones
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2026-01-14
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/restricciones-vac/"
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/restricciones-vac/
   redirectsFrom: []
 ai:
   answerableQuestions:
@@ -29,8 +30,18 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels:
+  - PENDIENTE
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/restricciones-vac/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/gestion-de-vacaciones/restricciones-vac/
+  contentHash: 5f7647a68ed7c46bc94bfad7bf13a667266f67b716b60c5f4c607048fbe9e187
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 
@@ -66,3 +77,7 @@ A continuación, te explicamos cómo funcionan las principales restricciones de 
 
 - Descripción: Permite establecer que las vacaciones siempre comiencen en el primer día de la semana laboral definido en tu configuración.
 - Cómo te ayuda: Facilita la planificación estructurada y alinea las solicitudes con la operativa del negocio.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

@@ -1,49 +1,56 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-inicio"
-title: "Inicio en aTurnos"
-description: "Una vez iniciada sesión en la app, encontrarás todos los equipos a los que pertenece tu usuario logueado:."
+contentId: gestion-de-personal-inicio
+title: Inicio en aTurnos
+description: Una vez iniciada sesión en la app, encontrarás todos los equipos a los que pertenece tu usuario logueado:.
 contentType: procedure
-module: "Gestión de personal"
-submodule: "Usuarios y perfiles"
-intent: "Inicio en aTurnos"
+module: Gestión de personal
+submodule: Usuarios y perfiles
+intent: Inicio en aTurnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "inicio"
-    label: "Inicio"
+  - id: inicio
+    label: Inicio
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/inicio/"
+    - https://manual.aturnos.com/knowledgebase/inicio/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/inicio/"
+    - https://manual.aturnos.com/knowledgebase/inicio/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo inicio en aTurnos?"
+    - ¿Cómo puedo inicio en aTurnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "dc8177128373ac0e7ea81252fabbf918d5aa73537ad80af0618193adf83b29b7"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/inicio/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/inicio/
+  contentHash: 3efeb444df7cbccb5e5f193486845111092f8d09c4ffbbf91c2d984e3413d710
   migratedAt: 2026-08-17
+labels:
+  - PENDIENTE
 ---
 ## Resumen
 
@@ -75,3 +82,7 @@ Cuando se selecciona el equipo deseado, en la pantalla de inicio encontrarás lo
 - Datos de nóminas: podrás ver los datos de tu nómina en un simple vistazo.
 
 Estos widget aparecerán en función de la configuración que se ha realizado previamente desde un administrador, de tal forma que sólo se podrán visualizar aquellos que estén seleccionados como visibles para el trabajador.
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

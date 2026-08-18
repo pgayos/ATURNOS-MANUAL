@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-1-1-filtros-de-fichajes"
-title: "Filtros de fichajes"
-description: "En la barra superior podemos filtrar los fichajes que se quieren visualizar por:."
+contentId: control-horario-1-1-filtros-de-fichajes
+title: Filtros de fichajes
+description: En la barra superior podemos filtrar los fichajes que se quieren visualizar por:.
 contentType: procedure
-module: "Control horario"
-submodule: "Vacaciones y ausencias"
-intent: "Filtros de fichajes"
+module: Control horario
+submodule: Vacaciones y ausencias
+intent: Filtros de fichajes
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "fichajes"
-    label: "Fichajes"
-  - id: "filtros"
-    label: "Filtros"
+  - id: fichajes
+    label: Fichajes
+  - id: filtros
+    label: Filtros
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-1-barra-de-filtros-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/1-1-barra-de-filtros-de-fichajes/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-1-barra-de-filtros-de-fichajes/"
+    - https://manual.aturnos.com/knowledgebase/1-1-barra-de-filtros-de-fichajes/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo filtros de fichajes?"
+    - ¿Cómo puedo filtros de fichajes?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "06c0a669b0699f3262a79affc5cd05b72281b98aba8761850d622b2d2671a1a8"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-1-barra-de-filtros-de-fichajes/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-1-barra-de-filtros-de-fichajes/
+  contentHash: f0a00e678a834fb20a9a0d068a737a6104596edb120ec6341cd7e65579d30523
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En la barra superior podemos filtrar los fichajes que se quieren visualizar por:.
 
-## Contenido
-
+## Procedimiento
 - Fechas: se muestran los fichajes de un día.
 - Fichajes según la acción que se ha realizado.
 - Horas: se muestran los fichajes desde una hora inicio a una hora fin.

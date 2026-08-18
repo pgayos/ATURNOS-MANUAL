@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-2-importacion-turnos-al-trabajador-con-localizacion"
-title: "Importación turnos al trabajador con localización"
-description: "En ocasiones existen empresas o managers que tienen ya una planificación y no desean modificarla, ésta puede ser importada incluyendo la planificación de los turnos con su localización correspondiente."
+contentId: planificacion-2-importacion-turnos-al-trabajador-con-localizacion
+title: Importación turnos al trabajador con localización
+description: En ocasiones existen empresas o managers que tienen ya una planificación y no desean modificarla, ésta puede ser importada incluyendo la planificación de los turnos con su localización correspondiente.
 contentType: reference
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Importación turnos al trabajador con localización"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Importación turnos al trabajador con localización
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "importacion"
-    label: "Importacion"
-  - id: "localizacion"
-    label: "Localizacion"
-  - id: "trabajador"
-    label: "Trabajador"
-  - id: "turnos"
-    label: "Turnos"
+  - id: importacion
+    label: Importacion
+  - id: localizacion
+    label: Localizacion
+  - id: trabajador
+    label: Trabajador
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-importar-turnos-al-trabajador-con-localizacion/"
+    - https://manual.aturnos.com/knowledgebase/2-importar-turnos-al-trabajador-con-localizacion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-importar-turnos-al-trabajador-con-localizacion/"
+    - https://manual.aturnos.com/knowledgebase/2-importar-turnos-al-trabajador-con-localizacion/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre importación turnos al trabajador con localización?"
+    - ¿Qué debo saber sobre importación turnos al trabajador con localización?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "60a6e9deab125b735606cf027cf7a0b317d113b4d1b2af6778c49ca6e25eca3d"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-importar-turnos-al-trabajador-con-localizacion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-importar-turnos-al-trabajador-con-localizacion/
+  contentHash: d13801c54e9cb6721217d06ee89377bec704ea5879ba0333b97db6e0b2435a39
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En ocasiones existen empresas o managers que tienen ya una planificación y no desean modificarla, ésta puede ser importada incluyendo la planificación de los turnos con su localización correspondiente.
 
-## Contenido
-
+## Opciones y datos disponibles
 Para poder importar la planificación puedes completar la plantilla de ejemplo que puedes descargar:
 
 CSV Tipos de turnos

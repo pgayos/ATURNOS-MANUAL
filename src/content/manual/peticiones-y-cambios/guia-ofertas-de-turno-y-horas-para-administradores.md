@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-guia-ofertas-de-turno-y-horas-para-administradores"
-title: "Ofertas de turno y horas para administradores"
-description: "Aprende a ofertas de turno y horas para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-guia-ofertas-de-turno-y-horas-para-administradores
+title: Ofertas de turno y horas para administradores
+description: Las ofertas de turnos y horas en aTurnos son una herramienta práctica para gestionar las necesidades de cobertura de personal de forma rápida y eficiente.
 contentType: procedure
-module: "Peticiones y cambios"
-submodule: "Autogestión"
-intent: "Ofertas de turno y horas"
+module: Peticiones y cambios
+submodule: Autogestión
+intent: Ofertas de turno y horas
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-01-09
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/ofertas-de-turno-y-horas/"
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/ofertas-de-turno-y-horas/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Cómo puedo ofertas de turno y horas para administradores?"
+    - ¿Cómo puedo ofertas de turno y horas para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/ofertas-de-turno-y-horas/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/empoderamiento-del-mando-y-del-trabajador/ofertas-de-turno-y-horas/
+  contentHash: d4bf82c8c91356b0561448178efb4f0257ca0037f6431701110f2f74881d4e9d
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

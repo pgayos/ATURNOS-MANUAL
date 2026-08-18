@@ -1,49 +1,55 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-d-oferta-de-turno"
-title: "Oferta de turno"
-description: "Aprende a oferta de turno, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-d-oferta-de-turno
+title: Oferta de turno
+description: El sistema permite a los administradores ofrecer turnos de trabajo u horas específicas a los empleados, quienes pueden inscribirse si están interesados.
 contentType: procedure
-module: "Peticiones y cambios"
-submodule: "Usuarios y perfiles"
-intent: "Oferta de turno"
+module: Peticiones y cambios
+submodule: Usuarios y perfiles
+intent: Oferta de turno
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "oferta"
-    label: "Oferta"
-  - id: "turno"
-    label: "Turno"
+  - id: oferta
+    label: Oferta
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-5-6-oferta-de-turno/"
+    - https://manual.aturnos.com/knowledgebase/2-5-6-oferta-de-turno/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-5-6-oferta-de-turno/"
+    - https://manual.aturnos.com/knowledgebase/2-5-6-oferta-de-turno/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo oferta de turno?"
+    - ¿Cómo puedo oferta de turno?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "43ac4de62c32a21c3d8611a82e098dda6f85521c9fc0aee93eca2743f29a79fd"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-5-6-oferta-de-turno/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-5-6-oferta-de-turno/
+  contentHash: 40b27e8dcf40f1a45531ab1297ae74c7f36a09bdc5a1b57b7287b98050ed5ce9
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 

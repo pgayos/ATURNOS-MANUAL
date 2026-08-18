@@ -1,56 +1,61 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-6-periodos-de-absentismos"
-title: "Periodos de absentismos"
-description: "Información sobre periodos de absentismos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-6-periodos-de-absentismos
+title: Periodos de absentismos
+description: Se entiende por absentismo (permiso) una ausencia o abandono del puesto de trabajo durante toda la jornada laboral planificada (Absentismo Total), o durante un determinado periodo de tiempo.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Periodos de absentismos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Periodos de absentismos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
-  - id: "periodos"
-    label: "Periodos"
+  - id: absentismos
+    label: Absentismos
+  - id: periodos
+    label: Periodos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/6-periodos-de-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/6-periodos-de-absentismos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/6-periodos-de-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/6-periodos-de-absentismos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre periodos de absentismos?"
+    - ¿Qué debo saber sobre periodos de absentismos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "501bb57dca02f58a57e7718745629cf53767da733ea45cd28ca030d84866e649"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/6-periodos-de-absentismos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/6-periodos-de-absentismos/
+  contentHash: 4184591f87f87e0d3142e579a2eb1a61f9bf9e6cf793b7705b50daed04b85828
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre periodos de absentismos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 Se entiende por absentismo (permiso) una ausencia o abandono del puesto de trabajo durante toda la jornada laboral planificada (Absentismo Total), o durante un determinado periodo de tiempo en la planificación correspondiente a un día laboral ( Absentismo Temporal).Ejemplos de caso de uso:
 
 Caso de absentismo total: Jesús tienen planificado ambos durante un determinado día un turno “M” (8:00-15:00); Jesús no ha podido ir ese día a trabajar puesto que está de baja por prescripción médica durante 24h., por lo tanto, al faltar durante todo el día que se le ha planificado, es un absentismo total.

@@ -1,58 +1,63 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones"
+contentId: planificacion-23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones
 title: "Importar trabajadores y/o planificación: planificación con patrones"
-description: "A la hora de facilitar la aplicación de patrones de forma masiva a un equipo de trabajo, se puede hacer todo de una vez desde una importación de planificación con patrones."
+description: A la hora de facilitar la aplicación de patrones de forma masiva a un equipo de trabajo, se puede hacer todo de una vez desde una importación de planificación con patrones.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
+module: Planificación
+submodule: Vacaciones y ausencias
 intent: "Importar trabajadores y/o planificación: planificación con patrones"
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "importar"
-    label: "Importar"
-  - id: "patrones"
-    label: "Patrones"
-  - id: "planificacion"
-    label: "Planificacion"
-  - id: "trabajadores"
-    label: "Trabajadores"
+  - id: importar
+    label: Importar
+  - id: patrones
+    label: Patrones
+  - id: planificacion
+    label: Planificacion
+  - id: trabajadores
+    label: Trabajadores
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/23-importacion-de-planificacion-con-patrones/"
+    - https://manual.aturnos.com/knowledgebase/23-importacion-de-planificacion-con-patrones/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/23-importacion-de-planificacion-con-patrones/"
+    - https://manual.aturnos.com/knowledgebase/23-importacion-de-planificacion-con-patrones/
 ai:
   answerableQuestions:
     - "¿Qué debo saber sobre importar trabajadores y/o planificación: planificación con patrones?"
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "a86ec19dc682cf21c3f623f45647180aa69e8ae62612fdcf04b85488ec793419"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/23-importacion-de-planificacion-con-patrones/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/23-importacion-de-planificacion-con-patrones/
+  contentHash: 92c16f526fb16ffcbda592f9c5458ad850aab71325f2ec41cf09ed540464194b
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 A la hora de facilitar la aplicación de patrones de forma masiva a un equipo de trabajo, se puede hacer todo de una vez desde una importación de planificación con patrones.
 
-## Contenido
-
+## Qué debes saber
 Esta importación se puede realizar descargando la plantilla de ejemplo donde completar los datos necesarios:
 
 CSV Importar-planificacion-con-patrones

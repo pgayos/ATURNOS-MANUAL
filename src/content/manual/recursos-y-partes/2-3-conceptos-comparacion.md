@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "recursos-y-partes-2-3-conceptos-comparacion"
-title: "Conceptos comparación"
-description: "Estos conceptos permiten realizar operaciones de comparación entre conceptos ya existentes o compararlos con un valor fijo que se define en las plantillas de nómina del punto 4 de este Manual."
+contentId: recursos-y-partes-2-3-conceptos-comparacion
+title: Conceptos comparación
+description: Estos conceptos permiten realizar operaciones de comparación entre conceptos ya existentes o compararlos con un valor fijo que se define en las plantillas de nómina del punto 4 de este Manual.
 contentType: concept
-module: "Recursos y partes"
-submodule: "General"
-intent: "Conceptos comparación"
+module: Recursos y partes
+submodule: General
+intent: Conceptos comparación
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "comparacion"
-    label: "Comparacion"
-  - id: "conceptos"
-    label: "Conceptos"
+  - id: comparacion
+    label: Comparacion
+  - id: conceptos
+    label: Conceptos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-3-conceptos-de-comparacion/"
+    - https://manual.aturnos.com/knowledgebase/2-3-conceptos-de-comparacion/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-3-conceptos-de-comparacion/"
+    - https://manual.aturnos.com/knowledgebase/2-3-conceptos-de-comparacion/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre conceptos comparación?"
+    - ¿Qué debo saber sobre conceptos comparación?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 7
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "b257b6e5530264fdd13f115f6562e05feac45d39cade5b01e4fdbc85a82585ee"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-3-conceptos-de-comparacion/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-3-conceptos-de-comparacion/
+  contentHash: 9237cfbe9639a771624ec01465dbd8ef538bc4c1ce307fb4c250604acdf0aa32
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Estos conceptos permiten realizar operaciones de comparación entre conceptos ya existentes o compararlos con un valor fijo que se define en las plantillas de nómina del punto 4 de este Manual.
 
-## Contenido
-
+## Qué debes saber
 Las acciones de comparación permitidas son:
 
 - Igual que

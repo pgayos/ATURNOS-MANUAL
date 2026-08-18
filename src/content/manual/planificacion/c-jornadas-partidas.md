@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-c-jornadas-partidas"
-title: "Jornadas partidas"
-description: "Información sobre jornadas partidas, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-c-jornadas-partidas
+title: Jornadas partidas
+description: En aTurnos, se considera jornada partida a aquella jornada de trabajo donde se planifica dos o más tipos de turnos en un mismo día en el cuadrante de un trabajador y en la que no se solapan.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Jornadas partidas"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Jornadas partidas
 audience:
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "jornadas"
-    label: "Jornadas"
-  - id: "partidas"
-    label: "Partidas"
+  - id: jornadas
+    label: Jornadas
+  - id: partidas
+    label: Partidas
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/d-jornadas-partidas/"
+    - https://manual.aturnos.com/knowledgebase/d-jornadas-partidas/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/d-jornadas-partidas/"
+    - https://manual.aturnos.com/knowledgebase/d-jornadas-partidas/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre jornadas partidas?"
+    - ¿Qué debo saber sobre jornadas partidas?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "ecc1fa44637fd336ab1e15ecec053b5c2f91aabb105b28d77e4d12e3a46b84e8"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/d-jornadas-partidas/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/d-jornadas-partidas/
+  contentHash: a1b5c1fa57eaa70423956eb61cbe17e6c2da6cd75734217ff8eec8e62873a930
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre jornadas partidas, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En aTurnos, se considera jornada partida a aquella jornada de trabajo donde se planifica dos o más tipos de turnos en un mismo día en el cuadrante de un trabajador y en la que no se solapan sus horarios entre sí. Ejemplos de jornadas partidas:
 
 - Sin descanso entre tipos de turnos y sin solapamiento de horario entre ellos: En una jornada la planificación dispone de un primer turno M1 de 8:00h a 10:00h y un segundo turno M2 de 10:00h a 15:00h.

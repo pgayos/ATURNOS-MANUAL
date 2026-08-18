@@ -1,36 +1,37 @@
 ---
 schemaVersion: "1.0"
-contentId: "peticiones-y-cambios-2-2-cambio-de-turno"
-title: "Cambio de turno"
-description: "Aprende a cambio de turno, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: peticiones-y-cambios-2-2-cambio-de-turno
+title: Cambio de turno
+description: Si cualquier día te surge un imprevisto y quieres cambiar de turno con alguno de tus compañeros, podrás hacerlo mediante una petición de cambio de turno.
 contentType: procedure
-module: "Peticiones y cambios"
-submodule: "General"
-intent: "Cambio de turno"
+module: Peticiones y cambios
+submodule: General
+intent: Cambio de turno
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities:
-  - id: "cambio"
-    label: "Cambio"
-  - id: "turno"
-    label: "Turno"
+  - id: cambio
+    label: Cambio
+  - id: turno
+    label: Turno
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/2-2-cambio-de-turno/"
+    - https://manual.aturnos.com/knowledgebase/2-2-cambio-de-turno/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/2-2-cambio-de-turno/"
+    - https://manual.aturnos.com/knowledgebase/2-2-cambio-de-turno/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo cambio de turno?"
+    - ¿Cómo puedo cambio de turno?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -38,15 +39,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f26a64be3fc0d3b7cbc6e7c22a63422db5b15a34b82f50c3fd355edfe1a35f4e"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/2-2-cambio-de-turno/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/2-2-cambio-de-turno/
+  contentHash: 2070e9a47f6edb983b69d5d82fb4f845232c65581e029df3fddf1933b85166b7
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a cambio de turno, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 Si cualquier día te surge un imprevisto y quieres cambiar de turno con alguno de tus compañeros, podrás hacerlo mediante una petición de cambio de turno. Para ello tendrás que seleccionar el turno del día planificado que quieras cambiar. Una vez que hayas solicitado el cambio, se te buscará automáticamente un compañero que tenga alguna de las siguientes características:
 
 - Turno libre

@@ -1,36 +1,46 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-guia-configuracion-de-estructura-organizativa-para-administradores"
-title: "Configuración de estructura organizativa para administradores"
-description: "Información sobre configuración de estructura organizativa para administradores, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: gestion-de-personal-guia-configuracion-de-estructura-organizativa-para-administradores
+title: Configuración de estructura organizativa para administradores
+description: Las localizaciones en aTurnos son áreas o departamentos donde se organizan trabajadores y turnos, ayudando a estructurar la gestión según la ubicación laboral.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Estructura organizativa"
-intent: "Configuración de estructura organizativa"
+module: Gestión de personal
+submodule: Estructura organizativa
+intent: Configuración de estructura organizativa
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
 entities: []
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-05-22
   reviewDueAt: null
   sourceUrls:
-    - "https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-estructura-organizativa/"
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-estructura-organizativa/
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre configuración de estructura organizativa para administradores?"
+    - ¿Qué debo saber sobre configuración de estructura organizativa para administradores?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
+labels: []
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-estructura-organizativa/
+  redirectFrom:
+    - https://guias.aturnos.com/guias/guias-administrador/configuracion-inicial-del-equipo/configuracion-de-estructura-organizativa/
+  contentHash: 6d5bc38f73ef223fbcd47eff611c66139512c4eb0b1cf58b52d1dca1a6da4503
+  migratedAt: 2026-08-18
 ---
 ## Resumen
 

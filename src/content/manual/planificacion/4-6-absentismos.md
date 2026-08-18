@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-4-6-absentismos"
-title: "Absentismos"
-description: "Información sobre absentismos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-4-6-absentismos
+title: Absentismos
+description: En estas estadísticas se nos mostrará toda la información relacionada con los absentismos totales (cuya duración ocupa el total del turno de trabajo) y los absentismos temporales (su duració.
 contentType: concept
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Absentismos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Absentismos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "absentismos"
-    label: "Absentismos"
+  - id: absentismos
+    label: Absentismos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/4-6-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/4-6-absentismos/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/4-6-absentismos/"
+    - https://manual.aturnos.com/knowledgebase/4-6-absentismos/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre absentismos?"
+    - ¿Qué debo saber sobre absentismos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "40145874c0915210e1240cfeff1486c1e2d941a27d2ab2e76a8719635428fdc6"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/4-6-absentismos/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/4-6-absentismos/
+  contentHash: 38eb2a76e90079a1f657ac0f201bca5bed1cb0850e527cfa06cff69f56a5ad3d
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Información sobre absentismos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Qué debes saber
 En estas estadísticas se nos mostrará toda la información relacionada con los absentismos totales (cuya duración ocupa el total del turno de trabajo) y los absentismos temporales (su duración afecta a parte del turno de trabajo). A su vez estos datos se desglosarán según el tipo de absentismo que ha conllevado cada ausencia, ya sea justificada por un permiso por un día de libre disposición o un periodo de permiso por maternidad. De la misma forma también se contarán aquellos absentismos sin justificar.
 
 – En primer lugar se nos mostrarán los absentismos totales. Las columnas que aparezcan corresponderán al turno en el cual se ha producido el absentismo total. Cada absentismo total se identifica con una abreviatura y el número de veces que ha tenido lugar entre paréntesis.

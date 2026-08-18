@@ -1,54 +1,59 @@
 ---
 schemaVersion: "1.0"
-contentId: "control-horario-5-5-privacidad"
-title: "Privacidad"
-description: "Aprende a privacidad, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: control-horario-5-5-privacidad
+title: Privacidad
+description: En este apartado se puede limitar que los trabajadores tengan acceso a ciertas funciones de Control Horairo, así como la configuración de los niveles del rol de aTurnos que puede acceder a l.
 contentType: procedure
-module: "Control horario"
-submodule: "Fichajes"
-intent: "Privacidad"
+module: Control horario
+submodule: Fichajes
+intent: Privacidad
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "privacidad"
-    label: "Privacidad"
+  - id: privacidad
+    label: Privacidad
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/5-5-privacidad/"
+    - https://manual.aturnos.com/knowledgebase/5-5-privacidad/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/5-5-privacidad/"
+    - https://manual.aturnos.com/knowledgebase/5-5-privacidad/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo privacidad?"
+    - ¿Cómo puedo privacidad?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "303a4d04d8ba8c36d5f384212c44e7c1530f5bd14996f98e94dc254789c062b2"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/5-5-privacidad/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/5-5-privacidad/
+  contentHash: 194b0e8d21b71c77d4b5d6441e03c55ef83635222f0942903edb524ef2d6bb52
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a privacidad, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 En este apartado se puede limitar que los trabajadores tengan acceso a ciertas funciones de Control Horairo, así como la configuración de los niveles del rol de aTurnos que puede acceder a los fichajes de los trabajadores o que puede aprobar peticiones de fichajes.
 
 Al seleccionar esta opción los trabajadores podrán tener acceso a su detalle y a su informe de fichajes (ver Detalle ).

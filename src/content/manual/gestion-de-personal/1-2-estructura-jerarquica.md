@@ -1,40 +1,41 @@
 ---
 schemaVersion: "1.0"
-contentId: "gestion-de-personal-1-2-estructura-jerarquica"
-title: "Estructura jerárquica"
-description: "En aTurnos una estructura jerárquica es un modelo organizativo común en compañías grandes y complejas que pueden definir diferentes niveles de autoridad y/o responsabilidad, dependiendo del nivel en el que se encuentre."
+contentId: gestion-de-personal-1-2-estructura-jerarquica
+title: Estructura jerárquica
+description: En aTurnos una estructura jerárquica es un modelo organizativo común en compañías grandes y complejas que pueden definir diferentes niveles de autoridad y/o responsabilidad, dependiendo del nivel en el que se encuentre.
 contentType: reference
-module: "Gestión de personal"
-submodule: "Altas y bajas"
-intent: "Estructura jerárquica"
+module: Gestión de personal
+submodule: Altas y bajas
+intent: Estructura jerárquica
 audience:
-  - role: "RRHH"
+  - role: RRHH
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
 entities:
-  - id: "estructura"
-    label: "Estructura"
-  - id: "jerarquica"
-    label: "Jerarquica"
+  - id: estructura
+    label: Estructura
+  - id: jerarquica
+    label: Jerarquica
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/1-2-estructura-jerarquica/"
+    - https://manual.aturnos.com/knowledgebase/1-2-estructura-jerarquica/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/1-2-estructura-jerarquica/"
+    - https://manual.aturnos.com/knowledgebase/1-2-estructura-jerarquica/
 ai:
   answerableQuestions:
-    - "¿Qué debo saber sobre estructura jerárquica?"
+    - ¿Qué debo saber sobre estructura jerárquica?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -42,15 +43,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "dd57380fddfbaf6807652d6017809e7a4cb5f9b65c639f3a4bce40bbbc09a603"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/1-2-estructura-jerarquica/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/1-2-estructura-jerarquica/
+  contentHash: f83cb225223dfa86a7880a4c06bc30215e0434523fa5aa47c0d591d02f9adf61
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 En aTurnos una estructura jerárquica es un modelo organizativo común en compañías grandes y complejas que pueden definir diferentes niveles de autoridad y/o responsabilidad, dependiendo del nivel en el que se encuentre.
 
-## Contenido
-
+## Opciones y datos disponibles
 Esta estructura se representa mediante un diagrama en árbol. Su diseño se compone de:
 
 - Equipos que son unidades de negocio que comparten por defecto un convenio, una configuración de permisos, tipos de turnos, absentismos, flujos de aprobación y configuración de privacidad.

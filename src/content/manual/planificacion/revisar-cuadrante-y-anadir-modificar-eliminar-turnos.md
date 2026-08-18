@@ -1,50 +1,51 @@
 ---
 schemaVersion: "1.0"
-contentId: "planificacion-revisar-cuadrante-y-anadir-modificar-eliminar-turnos"
-title: "Revisar cuadrante y añadir/modificar/eliminar turnos"
-description: "Aprende a revisar cuadrante y añadir/modificar/eliminar turnos, con instrucciones y contexto revisables por el equipo de aTurnos."
+contentId: planificacion-revisar-cuadrante-y-anadir-modificar-eliminar-turnos
+title: Revisar cuadrante y añadir/modificar/eliminar turnos
+description: El administrador del equipo podrá visualizar y revisar los cuadrantes de todos los trabajadores de su equipo desde el menú Cuadrante (solo turnos, con horario, con localización o bien con to.
 contentType: procedure
-module: "Planificación"
-submodule: "Vacaciones y ausencias"
-intent: "Revisar cuadrante y añadir/modificar/eliminar turnos"
+module: Planificación
+submodule: Vacaciones y ausencias
+intent: Revisar cuadrante y añadir/modificar/eliminar turnos
 audience:
-  - role: "Administrador"
+  - role: Administrador
     access: applicable
-  - role: "Planificador"
+  - role: Planificador
     access: applicable
-  - role: "Trabajador"
+  - role: Trabajador
     access: applicable
-  - role: "Desarrollador API"
+  - role: Desarrollador API
     access: applicable
 entities:
-  - id: "anadir"
-    label: "Anadir"
-  - id: "cuadrante"
-    label: "Cuadrante"
-  - id: "eliminar"
-    label: "Eliminar"
-  - id: "modificar"
-    label: "Modificar"
-  - id: "revisar"
-    label: "Revisar"
-  - id: "turnos"
-    label: "Turnos"
+  - id: anadir
+    label: Anadir
+  - id: cuadrante
+    label: Cuadrante
+  - id: eliminar
+    label: Eliminar
+  - id: modificar
+    label: Modificar
+  - id: revisar
+    label: Revisar
+  - id: turnos
+    label: Turnos
 synonyms: []
 prerequisites: []
-platforms: [web]
+platforms:
+  - web
 governance:
   status: draft
-  owner: "Equipo de Producto de aTurnos"
+  owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
   sourceUrls:
-    - "https://manual.aturnos.com/knowledgebase/revisar-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/revisar-cuadrante/
   redirectsFrom:
-    - "https://manual.aturnos.com/knowledgebase/revisar-cuadrante/"
+    - https://manual.aturnos.com/knowledgebase/revisar-cuadrante/
 ai:
   answerableQuestions:
-    - "¿Cómo puedo revisar cuadrante y añadir/modificar/eliminar turnos?"
+    - ¿Cómo puedo revisar cuadrante y añadir/modificar/eliminar turnos?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -52,15 +53,19 @@ readingTime: 1
 featured: false
 migration:
   sourceCount: 1
-  contentHash: "f0a6e1d8b74907fc9e4316c75b472c4f2ddfe8d3da39ccfcd135115e88ff0c16"
+  originUrls:
+    - https://manual.aturnos.com/knowledgebase/revisar-cuadrante/
+  redirectFrom:
+    - https://manual.aturnos.com/knowledgebase/revisar-cuadrante/
+  contentHash: 144175e8232204249aec088909d2337097e24c7104655f121a55926ea2a7fb4e
   migratedAt: 2026-08-17
+labels: []
 ---
 ## Resumen
 
 Aprende a revisar cuadrante y añadir/modificar/eliminar turnos, con instrucciones y contexto revisables por el equipo de aTurnos.
 
-## Contenido
-
+## Procedimiento
 El administrador del equipo podrá visualizar y revisar los cuadrantes de todos los trabajadores de su equipo desde el menú Cuadrante (solo turnos, con horario, con localización o bien con todos los detalles). Aparecerán en amarillo las vacaciones, los absentismos en negro y las peticiones en azul:
 
 Además, haciendo clic en un día seleccionado en concreto podrás realizar las siguientes acciones:
