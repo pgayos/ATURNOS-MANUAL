@@ -1,4 +1,99 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="Buscar · Manual de aTurnos"><main class="container search-page"><span class="eyebrow">Buscador</span><h1>¿Qué necesitas hacer?</h1><div class="search-panel"><link href="/pagefind/pagefind-component-ui.css" rel="stylesheet" /><script is:inline src="/pagefind/pagefind-component-ui.js" type="module"></script><pagefind-config lang="es" excerpt-length="24"></pagefind-config><pagefind-input placeholder="Buscar en el manual…"></pagefind-input><pagefind-summary></pagefind-summary><pagefind-results></pagefind-results><noscript>Activa JavaScript para utilizar el buscador.</noscript></div></main></BaseLayout>
+<BaseLayout title="Buscar · Manual de aTurnos">
+  <main class="container search-page">
+    <span class="eyebrow">Buscador</span>
+    <h1>¿Qué necesitas hacer?</h1>
+    <div class="search-panel">
+      <form class="manual-search" id="manual-search" role="search">
+        <label class="sr-only" for="manual-search-input">Buscar en el manual</label>
+        <input id="manual-search-input" name="q" type="search" autocomplete="off" placeholder="Buscar en el manual…" />
+        <button class="button" type="submit">Buscar</button>
+      </form>
+      <p class="profile-filter" id="profile-filter" aria-live="polite"></p>
+      <p class="search-summary" id="search-summary" aria-live="polite">Escribe una consulta para buscar en el manual.</p>
+      <div class="search-results" id="search-results"></div>
+      <noscript>Activa JavaScript para utilizar el buscador.</noscript>
+    </div>
+  </main>
+  <script is:inline type="module">
+    const form = document.querySelector('#manual-search');
+    const input = document.querySelector('#manual-search-input');
+    const summary = document.querySelector('#search-summary');
+    const results = document.querySelector('#search-results');
+    const profileLabel = document.querySelector('#profile-filter');
+    const params = new URLSearchParams(window.location.search);
+    let timer;
+    let searchSequence = 0;
+
+    const selectedProfile = () => localStorage.getItem('manual-profile') || 'general';
+    const filtersForProfile = () => selectedProfile() === 'general' ? {} : { profile: selectedProfile() };
+
+    function updateProfileLabel() {
+      const profile = selectedProfile();
+      profileLabel.textContent = profile === 'general'
+        ? 'Buscando artículos para todos los perfiles.'
+        : `Filtrando automáticamente para el perfil: ${profile}.`;
+    }
+
+    function createResult(data) {
+      const article = document.createElement('article');
+      article.className = 'search-result';
+      const title = document.createElement('h2');
+      const link = document.createElement('a');
+      link.href = data.url;
+      link.textContent = data.meta?.title || data.url;
+      title.appendChild(link);
+      const excerpt = document.createElement('p');
+      excerpt.innerHTML = data.excerpt || '';
+      article.append(title, excerpt);
+      return article;
+    }
+
+    async function runSearch() {
+      const query = input.value.trim();
+      updateProfileLabel();
+      if (!query) {
+        summary.textContent = 'Escribe una consulta para buscar en el manual.';
+        results.replaceChildren();
+        return;
+      }
+
+      const sequence = ++searchSequence;
+      summary.textContent = 'Buscando…';
+      try {
+        const pagefind = await import('/pagefind/pagefind.js');
+        const response = await pagefind.search(query, { filters: filtersForProfile() });
+        if (sequence !== searchSequence) return;
+        const loaded = await Promise.all(response.results.slice(0, 30).map(result => result.data()));
+        if (sequence !== searchSequence) return;
+        results.replaceChildren(...loaded.map(createResult));
+        const profile = selectedProfile();
+        const context = profile === 'general' ? '' : ` para ${profile}`;
+        summary.textContent = `${response.results.length} ${response.results.length === 1 ? 'resultado' : 'resultados'}${context}.`;
+      } catch (error) {
+        console.error(error);
+        summary.textContent = 'No se ha podido completar la búsqueda. Inténtalo de nuevo.';
+        results.replaceChildren();
+      }
+    }
+
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const url = new URL(window.location.href);
+      input.value.trim() ? url.searchParams.set('q', input.value.trim()) : url.searchParams.delete('q');
+      window.history.replaceState({}, '', url);
+      runSearch();
+    });
+    input.addEventListener('input', () => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(runSearch, 180);
+    });
+    window.addEventListener('manual-profile-change', runSearch);
+
+    input.value = params.get('q') || '';
+    updateProfileLabel();
+    if (input.value) runSearch();
+  </script>
+</BaseLayout>

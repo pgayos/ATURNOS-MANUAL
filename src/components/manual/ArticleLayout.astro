@@ -14,7 +14,7 @@ const reviewed=d.governance.reviewedAt ? d.governance.reviewedAt.toLocaleDateStr
     <article data-pagefind-body>
       <header class="article-header">
         <span class="eyebrow">{d.module} · {d.submodule}</span><h1>{d.title}</h1><p class="lead">{d.description}</p>
-        <div class="badges">{d.audience.map(a=><span class="badge" data-role={a.role}>{a.role}</span>)}</div>
+        <div class="badges">{d.audience.map(a=><span class="badge" data-role={a.role} data-pagefind-filter={`profile:${a.role}`}>{a.role}</span>)}</div>
         <div class="article-meta"><span>◷ {d.readingTime} min</span><span>✓ Estado: {d.governance.status}</span><span>↻ Revisado: {reviewed}</span></div>
       </header>
       <div class="article-body"><slot /></div>
