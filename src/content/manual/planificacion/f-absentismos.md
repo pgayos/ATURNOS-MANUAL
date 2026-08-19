@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-6-absentismos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-6-absentismos/
-  contentHash: 35c8194111f9ec83413434922e415dd6ffba27272b01e9ec3793f86ce3a1cf3f
+  contentHash: db6f076cd1e1fb907288d5ec8b96a6afc2e1045c88e2e1e0ac853b1c342f7df6
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -121,3 +121,19 @@ Puedes seguir la demostración de estas herramientas en puntos anteriores, hacie
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![f. Absentismos](/media/manual/f-absentismos-259512c25e.png)
+
+![Resumen](/media/manual/resumen-3835a1188e.png)
+
+![Absentismos totales](/media/manual/absentismos-totales-a4d571a01f.png)
+
+![Gráfico absentismos totales](/media/manual/grafico-absentismos-totales-77d7351c5f.png)
+
+![Gráfico absentismos temporales](/media/manual/grafico-absentismos-temporales-76424a6325.png)
+
+![Absentismos temporales](/media/manual/absentismos-temporales-033530e1a0.png)

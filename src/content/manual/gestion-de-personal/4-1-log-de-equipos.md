@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-log-de-equipos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-log-de-equipos/
-  contentHash: 77e43f8d4b188dea8197674718967dd9c0d340a5686e1c82a167f129b1c96d6e
+  contentHash: 29e09cf82bf3ed26677b4e143e2cb53c41bc44169b37086ebe184b4030eecf21
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -59,3 +59,9 @@ Aquí encuentras el registro de todas las acciones que se han realizado en los e
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.1 Log de equipos](/media/manual/4-1-log-de-equipos-9cec25d983.png)

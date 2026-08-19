@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-menos-de-8-hrs-fichadas-semanales/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-menos-de-8-hrs-fichadas-semanales/
-  contentHash: 0fe89cc8199b4332d1591e59867ddbc6483cd062b8de0573bfdf9cccbcc7d219
+  contentHash: 6a484c68ead6333e431f8f297e01be75b2741dddc95a00678c606e037d0b278d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -75,3 +75,13 @@ El reporte informa:
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
 
 Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7. Menos de 8 Hrs fichadas semanales](/media/manual/7-menos-de-8-hrs-fichadas-semanales-37339d017a.webp)
+
+![7. Menos de 8 Hrs fichadas semanales](/media/manual/7-menos-de-8-hrs-fichadas-semanales-790805e9b6.webp)
+
+![7. Menos de 8 Hrs fichadas semanales](/media/manual/7-menos-de-8-hrs-fichadas-semanales-a26b96efd6.webp)

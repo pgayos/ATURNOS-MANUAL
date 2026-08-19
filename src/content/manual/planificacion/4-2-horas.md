@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-2-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-2-horas/
-  contentHash: ba8dc499d3b370f5a0a424f4e57a73c695b861efcc042368148f03482545bcd6
+  contentHash: 050a218d49cf9f369e04e732ed666be6ec81e8fc6c6a39967ec3fc70fc140484
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -69,3 +69,15 @@ En el resto de columnas se informa de los siguientes datos:
 - Balance año: diferencia entre las horas de contrato y las horas planificadas del año.
 
 También tendrá la posibilidad de ver en una barra gráfica el total de horas:
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.2 Horas](/media/manual/4-2-horas-3eaefa69d4.png)
+
+![4.2 Horas](/media/manual/4-2-horas-bf3bd5e683.png)
+
+![4.2 Horas](/media/manual/4-2-horas-811afd5c2e.png)
+
+![4.2 Horas](/media/manual/4-2-horas-1cd8c724f1.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-tabla-de-cobertura/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-tabla-de-cobertura/
-  contentHash: e2601f7258d1bf94b62aa3d0d874e9df305783dd4d566da6ef1f69e2b657ee81
+  contentHash: 4214ed1f7766d7a2fa27fe7cf76e9aeb441865b9d905d522442eac0db30840b1
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -177,3 +177,25 @@ Este modo es útil cuando se quiere una planificación estricta y controlada, do
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6. Tabla de cobertura](/media/manual/6-tabla-de-cobertura-2ced159f31.png)
+
+![Total por turnos](/media/manual/total-por-turnos-574cce910c.png)
+
+![Total por turnos](/media/manual/total-por-turnos-ee15b17d33.png)
+
+![Presencia en turno](/media/manual/presencia-en-turno-c3fc6e3a5f.webp)
+
+![Presencia en turno por Demanda](/media/manual/presencia-en-turno-por-demanda-0382d787bd.webp)
+
+![Presencia en turno por localización](/media/manual/presencia-en-turno-por-localizacion-3d35f8d056.webp)
+
+![Total por turnos](/media/manual/total-por-turnos-026799df4a.png)
+
+![Gráfico de demandas](/media/manual/grafico-de-demandas-00f074c648.png)
+
+![Total por localización](/media/manual/total-por-localizacion-4bef1c2a81.png)

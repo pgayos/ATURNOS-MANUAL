@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/aceptar-peticiones-de-marcajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/aceptar-peticiones-de-marcajes/
-  contentHash: 0189efd50bf543f8952a13d96c221e27da7dd823dbd7a4f89f5a09697b3336fa
+  contentHash: 712f1a1c0f5edf5b3a2f9b85fe8b9f1b52d4173170b7eaf129264c0ab8088159
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,9 @@ El proceso de aceptar o denegar las peticiones de fichajes es igual al de petici
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Aceptar peticiones de marcajes](/media/manual/aceptar-peticiones-de-marcajes-57c4d51c76.png)

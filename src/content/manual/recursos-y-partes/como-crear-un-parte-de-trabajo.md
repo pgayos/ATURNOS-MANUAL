@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/como-personalizar-el-parte-hoja-de-trabajo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/como-personalizar-el-parte-hoja-de-trabajo/
-  contentHash: 9ae5c6cbbcc9505a74a329f36be84d967930ef715560b1d51f1d5d7f98d45ec9
+  contentHash: 97075525fb255ec03d4107f7a8735382bba05e9eb1c17afc846bcbd717b8e16a
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -78,3 +78,15 @@ Los datos que se precisan para crear un recurso son:
 El administrador del equipo desde el menú acceder a la página de recursos → recurso. En la parte superior derecha en el botón de acciones selecciona la opción ‘ Añadir Clasificación’.
 
 Una clasificación de recurso se crea para agrupar a los recursos. Es obligatorio crear las clasificaciones antes de crear los recursos, para que puedan seleccionarse al crear el recurso. También se puede asignar una clasificación a un recurso ya creado, editando las propiedades.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-d18618ec57.png)
+
+![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-1edb1d9235.png)
+
+![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-463066cfe6.webp)
+
+![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-68bea9f76d.webp)

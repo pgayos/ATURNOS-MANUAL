@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-2-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-2-horas/
-  contentHash: 4a61929f78af6edcc450c4f3e2925582c8d3a557bcf2b237a57beb4f10be9bd4
+  contentHash: 0813977eeedbe3aad815a7ac1d6ea7900621440e0771a1f1a80adfa6f2bc9a73
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -82,3 +82,9 @@ Gráfico de barras, que especifica el total de horas por cada trabajador.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![b. Horas](/media/manual/b-horas-34f7ac0e2a.png)

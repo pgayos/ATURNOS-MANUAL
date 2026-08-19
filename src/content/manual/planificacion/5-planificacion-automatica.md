@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-ajuste-automatico/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-ajuste-automatico/
-  contentHash: e82afff4be2ab5863a12e11a2e0c2d0d0f7af60e0bf19e9e5b74acf263875ccd
+  contentHash: b03c86267f647d852b405e283446262b7b1a9b423453195e788f9ba7d8a3c819
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -108,3 +108,13 @@ Al “Cargar” la propuesta se mostrará la planificación que ha calculado el 
 2.- Mover o cambiar el turno del día de un trabajador por otro. Puedes realizar modificaciones posteriormente sobre la propuesta de planificación para mejorarla o ajustarla mas a lo que deseas, en los turnos con fondo morado, al hacer clic en el que quieres modificar se coloreará en naranja o amarillo y luego hacer clic en el turno con el que deseas cambiarlo. Puedes validar o controlar las coberturas de la demanda en la pestaña de “Tabla Cobertura” que se ubica abajo a la derecha.
 
 3.- Aplicar en Cuadrante: luego de revisar la propuesta generada por el algoritmo y hacer los cambios (en caso de requerirlo) podrás aplicar la propuesta para registrarla directamente en el Cuadrante.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Planificación Automática](/media/manual/5-planificacion-automatica-0a04ba4634.png)
+
+![5. Planificación Automática](/media/manual/5-planificacion-automatica-8b3add20c0.webp)
+
+![5. Planificación Automática](/media/manual/5-planificacion-automatica-00a5822b77.webp)

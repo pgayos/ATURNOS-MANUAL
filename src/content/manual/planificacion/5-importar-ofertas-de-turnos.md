@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-importar-ofertas-de-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-importar-ofertas-de-turnos/
-  contentHash: 0c8c2b3821ddaf7e536311d1bb98ab92311675e2b31eed4b59befcc91a35cc70
+  contentHash: c5c46cb4accac8a9fffe54104ece9fbc7d2ae8b8f735e70fe89dd81728acfcc9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,11 @@ Puedes completar la plantilla de ejemplo, la cual tienes disponible para descarg
 - Valor Experiencia: puntuación mínima de la experiencia indicada previamente para poder apuntarse a la oferta.
 
 Los campos a asociar deben ser los siguientes:
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Importar ofertas de turnos](/media/manual/5-importar-ofertas-de-turnos-af00753746.png)
+
+![5. Importar ofertas de turnos](/media/manual/5-importar-ofertas-de-turnos-854a8acb89.png)

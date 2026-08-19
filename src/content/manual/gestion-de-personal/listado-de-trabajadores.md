@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/listado-de-trabajadores/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/listado-de-trabajadores/
-  contentHash: f6725654be4d86f4f698e6dd27e75ecb4f7a265dcf88088e84d8df8349d70025
+  contentHash: f149d1960fb833cc28a4bfb8c054e5b1047a2295874ccee7865931c9ade58f8f
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -62,3 +62,11 @@ En este apartado, los trabajadores podrán ver el listado de los compañeros que
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Listado de trabajadores](/media/manual/listado-de-trabajadores-d18ff03bcb.webp)
+
+![Listado de trabajadores](/media/manual/listado-de-trabajadores-f24ede0c28.png)

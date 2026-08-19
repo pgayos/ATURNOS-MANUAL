@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/e-peticiones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/e-peticiones/
-  contentHash: d0c83747f58a89b0836888af67e570031656426f04a3ebf0cfc5e754da7026d0
+  contentHash: a6bfc5267331ef7a727652e16ab68aca3638a5167e2bfe3abea8a54cf705546b
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -138,3 +138,13 @@ Si se configura esta opción en SI, cuando se realiza una sustitución en la que
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Flujo de peticiones](/media/manual/flujo-de-peticiones-3fac237132.png)
+
+![Flujo de peticiones](/media/manual/flujo-de-peticiones-4f1916745d.png)
+
+![e. Peticiones](/media/manual/e-peticiones-61b43033e5.png)

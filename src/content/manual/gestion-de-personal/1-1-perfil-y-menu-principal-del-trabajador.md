@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal-2/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal-2/
-  contentHash: a966574d905e1c1f91de62c8a7166e167b91513fc2089a5001642cfb66f21fe3
+  contentHash: 926046209a6475c8607d0d85cb8e99fe3890a1d46c0f4b0ad14b3c09d03ba1c8
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -182,3 +182,43 @@ Las ventanas que puede visualizar un Trabajador sin módulos añadidos son las s
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-a72eae8d34.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-43c103c922.png)
+
+![1.1 Perfil y Menú principal del Trabajador](/media/manual/1-1-perfil-y-menu-principal-del-trabajador-3b3424f7e9.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-80ce2208cb.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-7e9299425f.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-8b13d6cfdb.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-80854e4e7a.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-b1c89c4805.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-9674c41805.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-b5eb3ebe60.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-f1c82aaad1.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-7b7b56cc39.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-8440ec7eda.png)
+
+![Equipos](/media/manual/equipos-c2407b5beb.png)
+
+![Menús de aTurnos](/media/manual/menus-de-aturnos-bc5a8db295.png)
+
+![Notificaciones de peticiones pendientes](/media/manual/notificaciones-de-peticiones-pendientes-0561865f38.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-1248b1cb62.png)
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-6a2c1c886e.png)

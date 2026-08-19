@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-6-localizaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-6-localizaciones/
-  contentHash: 81be2e2e25486c6bc5c6d815b3304fc2794cae80326cc2bf11dc025e0431f8d1
+  contentHash: b28737573d2b839dab930a57e4d756fb7e65e5126a312f63bf70ff4d06b88280
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -147,3 +147,35 @@ Para mostrar esta información, también debe estar configurado en la ‘Visuali
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.6 Localizaciones](/media/manual/7-6-localizaciones-d7310cc31a.png)
+
+![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-2d11c28a31.png)
+
+![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-480e380fad.png)
+
+![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-7da8083b2b.png)
+
+![7.6 Localizaciones](/media/manual/7-6-localizaciones-ff356d8899.png)
+
+![7.6 Localizaciones](/media/manual/7-6-localizaciones-568b84f1b6.png)
+
+![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-538cfd3c48.png)
+
+![Localizaciones](/media/manual/localizaciones-6750d2821d.webp)
+
+![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-b31941bbcc.png)
+
+![Localizaciones](/media/manual/localizaciones-068f4cc8e7.png)
+
+![Localizaciones](/media/manual/localizaciones-eddb2696cd.png)
+
+![Datos personalizados](/media/manual/datos-personalizados-804de72f5b.webp)
+
+![Localizaciones](/media/manual/localizaciones-ff6de9f8a3.png)
+
+![Mapa](/media/manual/mapa-165cff2453.png)

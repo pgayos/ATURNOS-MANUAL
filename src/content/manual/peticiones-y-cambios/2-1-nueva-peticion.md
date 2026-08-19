@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-1-nueva-peticion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-1-nueva-peticion/
-  contentHash: 4fedf5ba0c8b3ff940a69eac347439352b3d7e4c4afd30ab9dac49eaf85b60df
+  contentHash: df63fc5805aa0f876c6a4da6072741ca8b8f209f43e0333424e70a22481a4fd2
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -66,3 +66,9 @@ Como trabajador podrás realizar peticiones sobre diferentes aspectos de tus der
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.1 Nueva petición](/media/manual/2-1-nueva-peticion-ad8a001d66.webp)

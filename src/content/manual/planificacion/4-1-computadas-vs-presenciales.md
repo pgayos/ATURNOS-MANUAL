@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-1-planificadas-vs-presenciales/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-1-planificadas-vs-presenciales/
-  contentHash: 03c2c75e65ca51d519ab32ebb5597788c5f14c0da7e447a6b4a19f45b97c9ea1
+  contentHash: 06f92f1ad8304a1d8edd116ed22d91a2b63a9842206812463bc89d3df8e45cdd
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,15 @@ Las horas presenciales de esta tabla, corresponde a las horas trabajadas de la t
 Se excluyen las horas afectadas por cualquier tipo de absentismos (no justificados y justificados).
 
 Son los datos que se pueden comprobar en el ‘Detalle por trabajador’ del Control de Presencia.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-140e4bd63c.png)
+
+![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-a438c96ab2.png)
+
+![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-5105768fee.png)
+
+![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-bd31fa8836.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-subir-documentos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-subir-documentos/
-  contentHash: ed94706b1a653cebe1fca7676a0ade4f2ba60fe31feebd90f94b6306184ce1b0
+  contentHash: c34f2e052f26663758669f78928677c4b362001e8105051dd5752d46b64e706d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -64,3 +64,13 @@ Se pueden subir los documentos de dos modos:
 - Haciendo clic encima de “drop files here to upload” en la columna del tipo de documento a subir.
 
 - Desde la carpeta de origen del documento en el dispositivo, una vez ha sido seleccionado, arrastrando sin levantar el clic sobre el documento hasta la caja del tipo de documento.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Subir documentos](/media/manual/1-subir-documentos-c7ba9d2442.png)
+
+![1. Subir documentos](/media/manual/1-subir-documentos-11b220c29d.png)
+
+![1. Subir documentos](/media/manual/1-subir-documentos-122e461733.png)

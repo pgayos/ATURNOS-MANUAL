@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-10-dispositivos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-10-dispositivos/
-  contentHash: 56cc38492ccfdc1eca2d5bde1422eda3fdd8cfb2b5b562bd0aba1c8d9bc6cd01
+  contentHash: 473af017f31f3cd1caa7830978bf904ee580964134a89e4364c8da2aa60805cd
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -108,3 +108,17 @@ Entonces:
 
 - Edge → Chrome → ya no tienes la key
 - Nuevo perfil de Edge → storage vacío
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-665365c369.webp)
+
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-bdd5b31d8c.webp)
+
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-be560cbcbe.webp)
+
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-69788b4ca3.webp)
+
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-011929ed77.webp)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/9-importar-tabla-de-coeficiente/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/9-importar-tabla-de-coeficiente/
-  contentHash: cb03fa97201d78f76cb2875c9ae165fd22169891262a6fb463a60b283eb6ff87
+  contentHash: 76071c90683cf9dd1f7241c5140fc6117d5ec866ee3d7b73f38c0b0b13a65a70
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -67,3 +67,11 @@ Es importante destacar que los decimales en el coeficiente deben estar separados
 Por último, antes de realizar la importación, guarda el documento E xcel con formato tipo CSV.
 
 Para importar el archivo puedes consultar los pasos que indicamos en nuestro menú de “Importar “.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![9. Importar tabla de coeficiente](/media/manual/9-importar-tabla-de-coeficiente-fb4271c825.png)
+
+![9. Importar tabla de coeficiente](/media/manual/9-importar-tabla-de-coeficiente-923fe5c605.png)

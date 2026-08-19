@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-2-cierre-por-equipos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-2-cierre-por-equipos/
-  contentHash: a41aa2fba212554ce770e9efa886e71729ab6fe1adeee8a16e0473e2c27859fb
+  contentHash: a736e5e568f1e4013034b84d16f6316956d22b3699331182f7dc1c91ef328acd
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -81,3 +81,13 @@ Por último, para realizar el cierre de cuadrante, se tiene que hacer clic en el
 Por último indicar la fecha de cierre antes de guardar para registrar la fecha de cierre del cuadrante.
 
 En RRHH → Nóminas → Fecha de cierre y exportación visualizas las fechas de ambos procesos por equipo y por trabajador.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.2 Cierre por equipos](/media/manual/6-2-cierre-por-equipos-2a6cf4c5e5.png)
+
+![6.2 Cierre por equipos](/media/manual/6-2-cierre-por-equipos-a4389d5f04.png)
+
+![6.2 Cierre por equipos](/media/manual/6-2-cierre-por-equipos-5a189b72cd.png)

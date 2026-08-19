@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-reemplazar-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-reemplazar-turnos/
-  contentHash: 20ec2e901d2cc749fa6421f4260ec8a08d7f91ce098376db38f1bf5aea905c33
+  contentHash: 249d35b11c3db37e29f1a76e4b10a2d8760a05fecb787df36b5c2dcef60ae31d
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,11 @@ Para realizar el reemplazo de turnos, se debe hacer clic en ‘Guardar’.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Reemplazar turnos](/media/manual/5-reemplazar-turnos-3bb365b051.webp)
+
+![5. Reemplazar turnos](/media/manual/5-reemplazar-turnos-d994dbb401.webp)

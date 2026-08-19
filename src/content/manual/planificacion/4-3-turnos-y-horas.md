@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-3-turnos-y-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-3-turnos-y-horas/
-  contentHash: 8cd1c865edbe2e07b22479fffa423dcfa9e21f360735c6662ce80c54498aa664
+  contentHash: f0651f4c7e73d9cbc1d18c6fc5529ebb31fe9e2567158008dda1d48ca8a0695b
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -86,3 +86,13 @@ Al hacer clic en la acción de expandir, es posible cambiar el tipo de las horas
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.3 Turnos y Horas](/media/manual/4-3-turnos-y-horas-c61cfcaee4.png)
+
+![Turnos](/media/manual/turnos-316635b969.png)
+
+![Horas](/media/manual/horas-b3a294bbfb.png)

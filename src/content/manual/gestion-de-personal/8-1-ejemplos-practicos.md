@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 10
+readingTime: 11
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/8-1-ejemplo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-1-ejemplo/
-  contentHash: 6c14b4f1bca063656e3b2ca2e404241ad28e7fbf5681d5c72a9fbb429244dd2b
+  contentHash: a4e2aadee46976c8d06df73db7a24e88702bc6a8299c81429645b75a58bc963d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -205,3 +205,49 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Operador: las opciones permitidas son: Sumar Restar Multiplicar, en este caso, es la operación seleccionada. Dividir
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “3000 – 3K00 horas nocturnidad en el día de inicio”, añadir como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el concepto 3K00 – las horas de nocturnidad en el día de inicio son menores a 10”, es decir el activador creado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-ced6c359a0.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-213177a2f2.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-77260df33f.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-444810d686.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-db1b195eab.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-aa085fbe0b.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-b507bc8940.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-4ae9077108.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-839bfd8fa9.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-12fe73c628.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-9d57131878.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-7264306c8a.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-c2e1c48110.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-a540c9d0b4.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-090bc4085b.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-d5362d17df.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-cfdb94c83d.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-99f80b6fa3.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-a457d0b1c7.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-9800e16f59.png)
+
+![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-01feee3213.png)

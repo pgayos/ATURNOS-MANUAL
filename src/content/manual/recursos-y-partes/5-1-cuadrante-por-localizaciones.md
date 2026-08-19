@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-cuadrante-por-localizaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-cuadrante-por-localizaciones/
-  contentHash: acb25be3eb0042f73c816bc9265a2cd4575c79851adc999faef4c0504028a0a7
+  contentHash: 98e0ac3db320e1795f5a187ae100be06bf37d114127bb33126350604cb6661be
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,11 @@ Al hacer clic en el botón de las localizaciones de la barra superior, se pueden
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.1 Cuadrante por localizaciones](/media/manual/5-1-cuadrante-por-localizaciones-07f5af0998.png)
+
+![5.1 Cuadrante por localizaciones](/media/manual/5-1-cuadrante-por-localizaciones-6fe25ac4cd.png)

@@ -47,7 +47,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
@@ -55,7 +55,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-importacion-altas-de-trabajadores-basico/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-importacion-altas-de-trabajadores-basico/
-  contentHash: fe8d9a0f2a6a7a7f258c7acc9a6c71adddb66768e0bcb3c0badf805e5db3c82f
+  contentHash: af908e861ca02e805772a05350a8f3b11f459eac394ce76e5d9c5dcdb5486db5
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -90,3 +90,11 @@ CSV Importar_trabajadores
 Finalmente, debe “Guardar” el documento con formato CSV.
 
 Para importar el archivo, debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Importar trabajadores y/o planificación: altas, perfil y planificación](/media/manual/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion-4783168993.png)
+
+![1. Importar trabajadores y/o planificación: altas, perfil y planificación](/media/manual/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion-10c0060933.png)

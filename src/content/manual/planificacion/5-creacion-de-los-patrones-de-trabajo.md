@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-creacion-de-los-patrones-de-trabajo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-creacion-de-los-patrones-de-trabajo/
-  contentHash: 6a54f5c3622822877480e5b1359d2f1afdbd376f9df99863fa2bf6d473336153
+  contentHash: 7f47fd827f9842f6b48d7fa50b23064b59304fd6cb8107b199b9a7bee0196c12
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,9 @@ El patrón es la relación consecutiva de los días de trabajo y/o descanso esta
 7. Elimina el día, en el caso de jornada partida, elimina los dos turnos que lo componen.
 
 IMPORTANTE: En este caso el patrón creado es de lunes a sábado, en el caso de centros que abren todos los domingos, edite el patrón, eliminando el último día e informando el horario del domingo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Creación de los patrones de trabajo](/media/manual/5-creacion-de-los-patrones-de-trabajo-f5badca01e.png)

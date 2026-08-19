@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-fichar/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-fichar/
-  contentHash: 9763b55db331f56294e96cae34a027bfcbddcde8a627bf44867fb78cfff7f7da
+  contentHash: c72fe2ada621ac7f451603693126e420e0300bd69946cde2d45d689cab989b7a
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -76,3 +76,11 @@ La WallAPP de aTurnos es una app en la cual el trabajador para fichar debe tecle
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Desde la web/navegador](/media/manual/desde-la-web-navegador-3c9a5cd8f1.png)
+
+![Desde la web/navegador](/media/manual/desde-la-web-navegador-acef716337.webp)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-buscar-trabajador-para-un-turno/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-buscar-trabajador-para-un-turno/
-  contentHash: 707bf1669eb2bf2dd8d9ea234f6f7df9119905ed1386d02eedf14269adea2439
+  contentHash: 1e5137511887c23a5fe06326204df4bd4869644999fb42b677e67d97363d786e
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -109,3 +109,21 @@ Es de gran utilidad para el administrador definir la Localización de un Turno, 
 Ejemplo 1: Un trabajador que tiene localización por defecto “Traumatología” tiene que cubrir un día el turno de “Urgencias”. Solo se seleccionará la localización al turno, indicando que ese día el turno lo hará en “Urgencias”. Y al revisar la tabla de cobertura se estará contando este trabajador dentro de la localización de “Urgencias”.
 
 Ejemplo 2: Un trabajador que no puede laborar en determinada localización, en este caso, “Consultas” (ver Restricción: No trabajar en determinada localización ). Si el administrador al buscar trabajador para un turno, selecciona en el campo Localización “Consultas” no aparecerá este trabajador disponible para el turno.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-7cfa99a11b.webp)
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-e7f82fd46b.webp)
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-281cb263d9.webp)
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-83a5c08cf5.webp)
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-6c50bec212.webp)
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-1d80c990a9.webp)
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-704554b717.webp)

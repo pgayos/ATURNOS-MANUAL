@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/coste-por-categoria/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/coste-por-categoria/
-  contentHash: 7c100fde538bc17762ac0ac3a8104e9ee35b609e3259f01647b4b347dd88d7a4
+  contentHash: ed07d0b21cd461eb38a277e287570aee2d77a582ae13a8d55d832ae1fd806bd7
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -58,3 +58,11 @@ Este reporte permite obtener información de los costes totales diarios por cada
 Esta visualización se muestra en la pestaña de Tabla por Categoría:
 
 Otra visualización de Coste por Categoría está en la pestaña de “Gráfico por Categoría” con un gráfico de torta. Posicionando el cursor sobre alguna de las Categorías se muestra detalle del valor total de la misma.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Costes por Categoría](/media/manual/costes-por-categoria-bdfb809a19.png)
+
+![Costes por Categoría](/media/manual/costes-por-categoria-aecb9c3184.png)

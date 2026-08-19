@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/cuadrante/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/cuadrante/
-  contentHash: 924d5d37195c4749c1f320720ec5d16e2979d37b63763446d07d7deca96a7ea5
+  contentHash: ad744a384fb8995a8097ce86f3f292cc95427c83b54dd8079945be7c4b05e781
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -105,3 +105,19 @@ De esta manera se podrán realizar cambios de 5 maneras diferentes:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3.2 Realizar petición](/media/manual/3-2-realizar-peticion-981f490812.png)
+
+![3.3 Añadir comentario](/media/manual/3-3-anadir-comentario-fdb33b907e.png)
+
+![3.3 Añadir comentario](/media/manual/3-3-anadir-comentario-19982926f7.png)
+
+![3.4 Realizar cambio de turno](/media/manual/3-4-realizar-cambio-de-turno-b58e859009.png)
+
+![3.1 Vista del cuadrante](/media/manual/3-1-vista-del-cuadrante-9c5f4a1ea0.png)
+
+![3.1 Vista del cuadrante](/media/manual/3-1-vista-del-cuadrante-60082f947f.png)

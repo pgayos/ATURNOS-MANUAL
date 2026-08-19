@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/d-jornadas-partidas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/d-jornadas-partidas/
-  contentHash: a1b5c1fa57eaa70423956eb61cbe17e6c2da6cd75734217ff8eec8e62873a930
+  contentHash: 4456877fefa26213a41917a5c956f5d7098802ad93127f029d4bde0f9670d868
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -72,3 +72,11 @@ Se informan los campos que aparecen en el formulario, los cuales son los siguien
 En nuestro ejemplo anterior, para crear una jornada de 9:00h a 14:00h y de 16:00h a 18:30h, se informa seleccionando en el primer campo el tipo de turno “MP” y en segundo campo se selecciona el tipo de turno “TP”.
 
 Horario: indica el horario de la jornada partida, se controla el solapamiento de los horarios de los turnos a medida que se van seleccionando los tipos de turnos en los campos diseñados para ello. En el caso de solapamiento entre turnos, se genera un aviso y no permite crear la jornada con los tipos de turnos seleccionados.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![c. Jornadas partidas](/media/manual/c-jornadas-partidas-69e4b42938.png)
+
+![c. Jornadas partidas](/media/manual/c-jornadas-partidas-643c7daa5b.png)

@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-6-peticiones-pendientes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-6-peticiones-pendientes/
-  contentHash: 374d2181723d8b575f2ae598f75f92eb9aeb0707987a8f27fd6e8aaa904c2cde
+  contentHash: 8bf7b747ba202c181cf9a703a279a855e7f18e972b853398e78acfc86c4c42ad
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -59,3 +59,9 @@ En este apartado podremos ver y hacer un seguimiento de todas las peticiones que
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.6 Peticiones pendientes](/media/manual/2-6-peticiones-pendientes-4bc03d6a03.webp)

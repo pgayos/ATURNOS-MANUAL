@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-crear-tipo-de-documento/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-crear-tipo-de-documento/
-  contentHash: c954c8acd7599731e4094aa001262430c96673a3b6dbd99fd3f456ca305ae697
+  contentHash: a60a6a82a688a8149af769e8a20ccf906929ee0336abadcb43f5b520c4e53fae
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -75,3 +75,11 @@ A continuación el administrador tiene que configurar los permisos para ver, sub
 Una vez cumplimentado el formulario, haciendo clic en el botón de acción ‘ Guardar’, se crea el tipo de documento
 
 En el siguiente enlace puedes obtener información de cómo subir documentos: ‘Subir documentos’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Crear tipo de documento](/media/manual/1-crear-tipo-de-documento-6f6367cb8c.png)
+
+![1. Crear tipo de documento](/media/manual/1-crear-tipo-de-documento-347cb2c4aa.webp)

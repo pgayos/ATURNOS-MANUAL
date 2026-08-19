@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos-diaria/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos-diaria/
-  contentHash: 7d29a2de8245f3157da26733087ec187181b6d4212af3da49f56cea338ba7670
+  contentHash: ae914f97ff3ef121a6ea13020e8ae9df457cad0543fe2f37471e7c44c95a00c0
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -84,3 +84,15 @@ Al marcar “Cargar”, la aplicación nos muestra un mensaje
 - Una vez que termine la ejecución, en el menú RRHH → PETICIONES DE REPORTE, se visualiza un aviso en verde
 
 - Guardar el fichero descargado
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-ecb64568e6.png)
+
+![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-f1c2823584.png)
+
+![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-547ebc349d.png)
+
+![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-3a91011be8.png)

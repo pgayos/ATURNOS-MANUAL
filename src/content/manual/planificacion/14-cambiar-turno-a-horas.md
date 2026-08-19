@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/l-cambiar-turno-a-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/l-cambiar-turno-a-horas/
-  contentHash: 8225d789739ae1c5d1253a3f228684041b2c782af71d7f2c271453b1fd15fdde
+  contentHash: 61195ce84d1ffd2dfbf08ca72cafa78b1f1fcac9230e203a05f7e16600670581
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -62,3 +62,11 @@ La fuente pública de **Cambiar Turno a Horas** contiene muy poca información t
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![14. Cambiar Turno a Horas](/media/manual/14-cambiar-turno-a-horas-cbd85b4b02.png)
+
+![14. Cambiar Turno a Horas](/media/manual/14-cambiar-turno-a-horas-875d18a9a6.png)

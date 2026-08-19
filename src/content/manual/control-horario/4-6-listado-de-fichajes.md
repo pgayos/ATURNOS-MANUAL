@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-6-listado-de-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-6-listado-de-fichajes/
-  contentHash: 8d03a0860c2bbcab4e3876ecc9f9f575b50fa127d1724bb924d5a36b230ec5b1
+  contentHash: 3993a97397d053d4c32a45026d6d1c0f1523a89b95a882258d6925d8a7085e8e
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -65,3 +65,11 @@ El listado de fichajes se desglosa en dos pestañas: Fichajes y Fichajes automá
 - Borrar: por último encontramos la opción de poder borrar un marcaje que se haya podido realizar por error.
 
 En el listado de fichajes automáticos encontramos las mismas cabeceras, sin embargo, solo aparecerán los fichajes automáticos, es decir, aquellos realizados por el propio trabajado en el momento que comienza o finaliza la jornada (no mediante petición de fichajes).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.6 Listado de fichajes](/media/manual/4-6-listado-de-fichajes-a98db8c800.png)
+
+![4.6 Listado de fichajes](/media/manual/4-6-listado-de-fichajes-069649a052.png)

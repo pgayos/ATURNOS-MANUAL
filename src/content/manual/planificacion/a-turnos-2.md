@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-1-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-1-turnos/
-  contentHash: 94d8c756d8dc5968913130df224f671954924b69ff9c221556b45c613c260ade
+  contentHash: 64116d685fd8fda8608fd445d89d4913d2a4fb402f471756cc530fb154a70486
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -78,3 +78,9 @@ Gráfico de barras para representar de una forma más visual, los turnos planifi
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![a. Turnos](/media/manual/a-turnos-15ef227d16.png)

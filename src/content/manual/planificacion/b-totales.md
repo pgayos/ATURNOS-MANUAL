@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/b-totales/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/b-totales/
-  contentHash: 7857f559ec14c26c101e5ffe7c69f24844b653f276fbb9b7f2fd70541d191059
+  contentHash: 9c9993ba53e0e8bbba0a302012501d2df1d6a7b3cee2ab41ee23beec2cd381c9
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -61,3 +61,9 @@ Desde la columna de acciones puedes utilizar el icono de editar para modificar e
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![b. Totales](/media/manual/b-totales-222d7b6bc0.png)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-7-vacaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-7-vacaciones/
-  contentHash: b04011f42d5496dbeedfd4c313d1092289ed775b541f25d9705a104674baa8e0
+  contentHash: 033f92833258a3c4dcc89ce5c426314e2ce56c74411b76f4564119e6a2bafdd2
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -87,3 +87,9 @@ Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones d
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Estadísticas por defecto de las Vacaciones](/media/manual/estadisticas-por-defecto-de-las-vacaciones-713d891b59.png)

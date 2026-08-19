@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-17-flexibilidad-de-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-17-flexibilidad-de-fichajes/
-  contentHash: d92d0a014e3983b4e7e7b503f00f51ae836580d0e21c3ec5cb216d6be6539515
+  contentHash: d4a83b10cbe171d3656a583731603e6a958816de8fd319d6fc15d53ee72ebb04
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,15 @@ Por ejemplo, si hay un turno planificado de 08:00 a 16:00, la hora inicio puede 
 Si el trabajador ficha antes de esa hora inicio de fichaje, el sistema lo comprueba a partir de la hora inicio de fichaje. Siguiendo el ejemplo, si el fichaje de entrada es a las 06:00 horas, solo empezará a computar desde las 07:00 horas, pese a haber fichado el mismo número de horas, en el estado hay una hora de defecto de horas, al no contarse la hora de 06:00 – 07:00.
 
 Tomando otro ejemplo de un turno con horario 16:00 – 22:00, se puede dar una mayor flexibilidad, con una hora inicio 09:00 y una hora fin 23:00. El trabajador puede fichar desde las 12:00 hasta las 16:00 horas y por razones de conciliación, ficha de 21:00 a 23:00. De esta forma, el empleado ha cumplido con las horas del turno planificado, sin deber horas, aunque no haya estado presencialmente en el horario del turno.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.17 Flexibilidad de fichajes](/media/manual/limitar-horario-de-fichaje-8957539329.webp)
+
+![5.17 Flexibilidad de fichajes](/media/manual/5-17-flexibilidad-de-fichajes-77832f0458.webp)
+
+![5.17 Flexibilidad de fichajes](/media/manual/5-17-flexibilidad-de-fichajes-2386cd2996.webp)
+
+![5.17 Flexibilidad de fichajes](/media/manual/5-17-flexibilidad-de-fichajes-0c4f713954.webp)

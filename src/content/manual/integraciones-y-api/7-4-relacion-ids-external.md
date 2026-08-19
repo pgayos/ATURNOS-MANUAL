@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/11-4-relacion-ids-external/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/11-4-relacion-ids-external/
-  contentHash: 68990c8e215d77441305e586018b59c40d9e8678dfc52e8e2b7c111b24be2d70
+  contentHash: 52f71e649554605e1a0395d2e7900535fbf1cc0c5b5dfba7b0181cd873e91be1
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,13 @@ Desde el botón del filtro podemos buscar el id external de todos aquellos que h
 En acción se añadirá una nueva relación entre el id external de un equipo origen y el id external de un equipo destino.
 
 Una vez han sido añadidas las relaciones, estas se pueden editar o borrar desde los botones de cada relación de ids.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.4 Relación Ids. External](/media/manual/7-4-relacion-ids-external-fcfd42fe93.png)
+
+![7.4 Relación Ids. External](/media/manual/7-4-relacion-ids-external-07b7a50841.png)
+
+![7.4 Relación Ids. External](/media/manual/7-4-relacion-ids-external-53443a5214.png)

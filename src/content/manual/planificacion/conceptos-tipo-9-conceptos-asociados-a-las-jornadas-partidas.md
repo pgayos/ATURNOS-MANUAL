@@ -45,7 +45,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/
-  contentHash: 7d0074f1ba28ae28385b016b72620e6ef8c6dcc9728a9a5df9a83d7ebd7ae6fd
+  contentHash: ebeb60341904efc5056c7aa96c40baf5010f687d41b69b810a0d12c6c50fdde0
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,17 @@ En el caso de uso, solo una de las jornadas partidas va a generar un concepto de
 3.- En el ejemplo el trabajador tiene dos jornadas partidas. Solo la jornada partida del día 8 está definida como concepto de nómina (Ticket Restaurante)
 
 4.- A través de ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA, se visualiza el resultado
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-3533f20e5c.png)
+
+![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-9bcb5923a3.png)
+
+![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-d0199bf52f.png)
+
+![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-1664c1ee49.png)
+
+![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-774fb8a021.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/a-accion-de-intercambio/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/a-accion-de-intercambio/
-  contentHash: ea2b7280a3d49abf5b3fd5aab54ac1375f11e89c73cff6d4b4bed408d195222b
+  contentHash: 07b749eba02932380b881228867a70666ceebc32586677aebc18292531b0ca40
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,13 @@ Se pueden seleccionar estas opciones:
 - No copiar vacaciones. Con la opción en SÍ no copiará las vacaciones, sin embargo, con la opción en NO sí que las copia.
 - Copiar solo turnos con horas. Con la opción en SÍ, copiará solo los turnos con horas, con la opción en NO copiará también los turnos sin horas como el turno por defecto X que es un saliente de turno.
 - No copiar cambios pendientes. Con la opción en SI no copiará los cambios pendientes que tenga solicitados el trabajador a sustituir, si se marca NO, si se copiarán.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![a. Acción de intercambio](/media/manual/a-accion-de-intercambio-e7199eb052.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-bb6e1fec49.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-24c83089db.webp)

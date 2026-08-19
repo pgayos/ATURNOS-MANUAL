@@ -37,7 +37,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-9-fichaje-por-ip/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-9-fichaje-por-ip/
-  contentHash: a57dcc9f04f3add30916bf467a06c5a278737c2153447c7451a7120a0f68420b
+  contentHash: e23cf0838292c6590f5a89b92a13fd7ac585a2e302db28a17c7b782f72a3d2ff
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -110,3 +110,35 @@ Esta extensión es posible descargarla en otros navegadores para que el funciona
 ¡¡¡¡¡IMPORTANTE!!!!
 
 Si existen varios perfiles de usuario registrados en el navegador, la extensión se debe instalar en cada perfil.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-8d34818cd7.png)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-b52512413e.png)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-735b65d888.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-8535e03074.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-bcc4946fac.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-333d8595f6.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-c905e2f560.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-aa6afe3c50.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-b411271571.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-c1df58ac11.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-3be16ccf36.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-6e35d1dbf5.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-6a81ec0ad5.webp)
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-3769f0904a.webp)

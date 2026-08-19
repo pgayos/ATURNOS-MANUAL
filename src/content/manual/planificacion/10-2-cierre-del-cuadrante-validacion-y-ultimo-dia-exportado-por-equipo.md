@@ -59,7 +59,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-2-cierre-por-empresa/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-2-cierre-por-empresa/
-  contentHash: bc0d7e535bfd665745926179fab80199ad162ff60c133e7c459d299663a005c1
+  contentHash: 7fe085b40539eae622ae5fcfa150bc6e66ea3d3f17b1d23a4eecc3b54f99f0fb
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,9 @@ Cuando se precise cerrar el cuadrante y/o validar, así como modificar la fecha 
 Seleccionando la opción (cerrar cuadrante, validar cuadrante o fecha de exportación) aparece un submenú donde informar la nueva fecha.
 
 Los valores de las fechas de cierre, validación y/o último día exportado del trabajador se visualizan en RRHH → NOMINAS → CIERRE POR EMPLEADO, en el punto 10.3. del Manual
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10.2 Cierre del cuadrante, validación y último día exportado (por equipo).](/media/manual/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo-8a1ccba42f.png)

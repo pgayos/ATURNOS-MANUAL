@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-2-cambio-de-turno/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-2-cambio-de-turno/
-  contentHash: 2070e9a47f6edb983b69d5d82fb4f845232c65581e029df3fddf1933b85166b7
+  contentHash: 29d579ac1158f484bc3eb714f8f4dde5ce089749ace91298489f36cd5fb21728
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -62,3 +62,11 @@ Si cualquier día te surge un imprevisto y quieres cambiar de turno con alguno d
 Cabe destacar que el compañero al que se le quiera realizar dicho cambio, se le avisará mediante una notificación en rojo que le saldrá en la parte superior derecha de sus Cambios pendientes. Además podrá aceptar dicho cambio inmediatamente pulsando en la notificación o bien metiéndose en Cambios y Peticiones → Cambios pendientes.
 
 Para más información sobre los cambios de turno, puedes consultar este webinar sobre los tipos de Cambios de turno.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.2 Cambio de turno](/media/manual/2-2-cambio-de-turno-33080a0559.webp)
+
+![2.2 Cambio de turno](/media/manual/2-2-cambio-de-turno-70242c3a50.webp)

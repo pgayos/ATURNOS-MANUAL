@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/11-horas-periodo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/11-horas-periodo/
-  contentHash: 7ed2c2ebe174237e761a2485bc73df37cf795b9e3901ba22ae0fcb32a211df2e
+  contentHash: 113ee719d7f667eb81fef463cc8e53f19ea1684a8a29ef6a11f9801f2835b515
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -64,3 +64,13 @@ Los balances de horas pueden ser traspasados entre periodos (ver ¿Cómo ajustar
 Por otro lado, la opción ‘Vacaciones’ informa del mismo resumen por periodo y equipo de las vacaciones, el balance entre las vacaciones contrato, las planificadas y las disfrutadas, como se puede consultar en ‘Horas de los equipos’ del perfil del trabajador.
 
 Los balances de vacaciones se pueden traspasar o finiquitar.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![11. Horas en los equipos](/media/manual/11-horas-en-los-equipos-b7631b6b20.webp)
+
+![11. Horas en los equipos](/media/manual/11-horas-en-los-equipos-a978ed6d02.webp)
+
+![11. Horas en los equipos](/media/manual/11-horas-en-los-equipos-19e743f71c.webp)

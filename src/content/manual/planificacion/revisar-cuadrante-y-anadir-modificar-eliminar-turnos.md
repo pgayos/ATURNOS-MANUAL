@@ -49,7 +49,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -57,7 +57,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/revisar-cuadrante/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/revisar-cuadrante/
-  contentHash: 144175e8232204249aec088909d2337097e24c7104655f121a55926ea2a7fb4e
+  contentHash: 00adfa0d60d65f5dc47962e70f1c22565ac14972db7c9df6a848747f655027fa
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -77,3 +77,11 @@ Además, haciendo clic en un día seleccionado en concreto podrás realizar las 
 4. Eliminar turno: al igual que en caso anterior, se podrá eliminar el turno con tan sólo un clic.
 5. Añadir absentismo: en este caso, si ya hay un turno planificado previamente, se podrá añadir cualquier tipo de absentismo creado, al igual que el trabajador.
 6. Anadir comentario: esta función al igual que el trabajador podrá realizarla el administrador (ver manual del trabajador para más información).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Revisar cuadrante y añadir/modificar/eliminar turnos](/media/manual/revisar-cuadrante-y-anadir-modificar-eliminar-turnos-2f2815367d.png)
+
+![Revisar cuadrante y añadir/modificar/eliminar turnos](/media/manual/revisar-cuadrante-y-anadir-modificar-eliminar-turnos-2d0b0323e4.png)

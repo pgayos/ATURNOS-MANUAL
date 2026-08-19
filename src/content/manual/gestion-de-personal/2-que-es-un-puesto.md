@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-que-es-un-puesto/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-que-es-un-puesto/
-  contentHash: 189457be1f4911d5f4e3f2d65aa2a9f404e9618fc6b76c79402f6376c18cb86b
+  contentHash: 47d9caaaac3f4a6e0ea92d2ecb3f6da4c713f0e3b2d17710cca927ea15893da7
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,9 @@ Los puestos de trabajo están asociados a:
 Las tareas (o funciones) definidas en las colas están determinadas por las especialidades que se asocian a los puestos determinando las llamadas que pueden realiza.
 
 Es obligatorio informar una especialidad al menos por puesto para que puedan hacer llamadas a los clientes. Accede a Trabajadores → Listado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. ¿Qué es un puesto?](/media/manual/2-que-es-un-puesto-f224b3c807.png)

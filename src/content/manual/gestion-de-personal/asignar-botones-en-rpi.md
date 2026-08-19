@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/asignar-botones-en-rpi/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/asignar-botones-en-rpi/
-  contentHash: 8c3ecc55c99a3523a43e75fb15ace80efec1909051238df0353d4572044c57f6
+  contentHash: 07b8324e67868c7ae2f0fa96d3e7eaf004803c8b2c5613e2c033d0483f1837ac
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -72,3 +72,17 @@ En Buttons le damos a añadir arriba a la derecha y nos pregunta la mac que hemo
 Una vez asignados todos reiniciamos desde la rpi la aplicación, saliendo de “sudo pm2 logs” pulsando CTRL+C y escribiendo con “sudo pm2 restart all” o pm2 restart all en el caso de las nuevas RPI.
 
 Para realizar las pruebas de los botones una vez configurados, además de reiniciar la RPI, también deberíamos reiniciar la pantalla donde se muestran los avisos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-d53c7dd398.png)
+
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-c8b65cc197.png)
+
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-619405fa57.png)
+
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-d320aef73b.png)
+
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-18a5421b74.png)

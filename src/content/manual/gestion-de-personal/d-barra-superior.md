@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/d-barra-superior/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/d-barra-superior/
-  contentHash: 0e7e7e944f08f9e7f1c826c203880d21746024484e32ec886f9d1157277f78e9
+  contentHash: 1508046a386b17933e1ec32ea22ed7e320139bb38625324c5d9d55d377285ab9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -108,3 +108,23 @@ En este caso, se muestran todos los trabajadores de tu equipo en filas (nombre d
 Muestra el listado de trabajadores dados de baja contractualmente (en aTurnos se les denominará “trabajadores inactivos”) (Véase qué es un trabajador inactivo ), no son bajas por algún tipo de incapacidad (IT) o algún tipo de absentismo (permiso).
 
 Los trabajadores que se encuentran ubicados en este listado, tienen en la columna “baja” la fecha fin de la relación laboral en el equipo de trabajo. Esto no significa que dichos trabajadores sean eliminados completamente de aTurnos, sino que se encuentran como “trabajadores inactivos”, pudiendo volver a ingresar a la misma en un futuro y a estar en un escenario de “trabajador activo”. Un trabajador inactivo o de baja no puede acceder a aTurnos, con su mail de acceso y contraseña.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![d. Barra superior](/media/manual/d-barra-superior-b9e366c97e.png)
+
+![d. Barra superior](/media/manual/d-barra-superior-4a1859c7c2.png)
+
+![d. Barra superior](/media/manual/d-barra-superior-8b76fe7df4.png)
+
+![d. Barra superior](/media/manual/d-barra-superior-f0e80f54eb.png)
+
+![d. Barra superior](/media/manual/d-barra-superior-01d7f9feed.png)
+
+![d. Barra superior](/media/manual/d-barra-superior-fc9857e55f.png)
+
+![d. Barra superior](/media/manual/d-barra-superior-644a3d7cb2.png)
+
+![d. Barra superior](/media/manual/d-barra-superior-09ceba9bdd.png)

@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-detalle/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-detalle/
-  contentHash: 7b935f1dbb2edd077c4fcadfd2814c5f6d7107c0604637f4bcf9f4ea0292c5ff
+  contentHash: 4ff19c74b0bbabde4d0aabf667a1764380782a1708a40dde70f79a7a14c68f9e
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -95,3 +95,13 @@ Los datos son los siguientes:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Detalle](/media/manual/3-detalle-1e59babcc5.webp)
+
+![Listado de fichajes](/media/manual/listado-de-fichajes-2db5b90b8d.webp)
+
+![Informe](/media/manual/informe-2774f55fb1.webp)

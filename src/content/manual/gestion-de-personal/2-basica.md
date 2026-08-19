@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-basica/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-basica/
-  contentHash: fb464d560a06e768f5ceb0ab05c2a6fbdff82a384ab924acaefbda9d123a8623
+  contentHash: 5742ddfbb8b0a3e72cb1421b37c17bd22b87f3c7ee77ab1edde7fa5653690b96
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -79,3 +79,11 @@ Cuando el trabajador está activado en el sistema (tiene acceso a aTurnos) algun
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Básica](/media/manual/2-basica-f7a8391000.png)
+
+![Perfil del usuario](/media/manual/perfil-del-usuario-31cb456f88.png)

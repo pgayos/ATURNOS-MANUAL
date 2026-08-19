@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/como-puedo-cambiar-la-contrasena-desde-la-app/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/como-puedo-cambiar-la-contrasena-desde-la-app/
-  contentHash: f86afcabc92a53a261cc19a11af07fdd2e3a3ba3f3848ff9956dfcb4b09abc06
+  contentHash: 904a2f80aedee78aef4118f8d9af4578bd9b6b54f37f68ffa7db4529d2abc19c
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,11 @@ Haciendo clic al icono circular del inicio en la parte superior del menú, apare
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo puedo cambiar la contraseña desde la APP?](/media/manual/como-puedo-cambiar-la-contrasena-desde-la-app-7afcca34cf.png)
+
+![¿Cómo puedo cambiar la contraseña desde la APP?](/media/manual/como-puedo-cambiar-la-contrasena-desde-la-app-72285dd9a7.png)

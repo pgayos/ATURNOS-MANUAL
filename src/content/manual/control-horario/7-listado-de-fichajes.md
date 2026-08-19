@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-listado-de-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-listado-de-fichajes/
-  contentHash: 81b272942af795bf0b0820dcf751d80d97b9d57ae02449bfaa51da467dd4bc49
+  contentHash: 9cf40a28eb5b074959adbce4bd903c9ae5b99e273def520552ab273c6fb77778
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -88,3 +88,25 @@ Encontramos la siguiente información en el listado, además de los campos confi
 - Computable: cuando se crea un Tipo de Marcaje, se informa si éste computa o no en el horario, en el caso de computar, aparecería un ‘Si’, en el caso contrario un ‘No’ (ver más sobre tipos de fichajes).
 - Tipo de marcaje: informa del tipo de marcaje que se ha realizado si hay varios tipos creados: descansos, almuerzo, fumar, etc. (ver más sobre tipos de fichajes).
 - Datos del fichaje: si estos han sido realizado desde un dispositivo registrado, por IP o Geolocalización.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Filtros](/media/manual/filtros-4d4b8752eb.webp)
+
+![Filtros](/media/manual/filtros-96454db7ef.webp)
+
+![Filtros](/media/manual/filtros-a30be1dacc.webp)
+
+![7. Listado de fichajes](/media/manual/7-listado-de-fichajes-a5f15bebfd.png)
+
+![Filtros](/media/manual/filtros-f85868535c.webp)
+
+![Filtros](/media/manual/filtros-35c67597e1.webp)
+
+![Filtros](/media/manual/filtros-319ed66ecc.webp)
+
+![Variables](/media/manual/variables-c24fe3ca2d.webp)
+
+![Filtros](/media/manual/filtros-230c71a09d.webp)

@@ -35,7 +35,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-2-informe/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-2-informe/
-  contentHash: 6c4e2f551870f36046cc8e9685726e16ee42f221eb662a573ce750c3cd4b9223
+  contentHash: 95ee00a70b8356bef140f85b2ee04dff7d61d7cc863b2347be1370455c8dbd81
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,19 @@ Este informe se puede descargar en dos formatos: Excel y PDF. También se puede 
 A la hora de generar el informe, se pueden seleccionar qué campos se quieren o no exportar en el archivo.
 
 En la siguientes imágenes se puede ver un ejemplo de un informe exportado en Excel y otro ejemplo exportado en PDF.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.2 Informe](/media/manual/2-2-informe-a702a41734.png)
+
+![2.2 Informe](/media/manual/2-2-informe-e1dd67f099.png)
+
+![2.2 Informe](/media/manual/2-2-informe-5c4d9e221a.png)
+
+![2.2 Informe](/media/manual/2-2-informe-0bf02f76f6.png)
+
+![2.2 Informe](/media/manual/2-2-informe-78342541d6.png)
+
+![2.2 Informe](/media/manual/2-2-informe-9d95c9d71b.png)

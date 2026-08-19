@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-informe/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-informe/
-  contentHash: 2eb7bcb5a16f49d0cca3fd84ce51260e8143d05a8b743e0dd85a4207e8f01bfb
+  contentHash: 216408942b4794449029a2761072caeda467496e3049358f71331bc51922dcb2
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -75,3 +75,13 @@ Debido al volumen de datos, se generará una ‘ Petición de reporte ‘ para s
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Informe](/media/manual/3-informe-c2eac45696.webp)
+
+![3. Informe](/media/manual/3-informe-38a7cc0039.webp)
+
+![3. Informe](/media/manual/3-informe-bce47ae644.webp)

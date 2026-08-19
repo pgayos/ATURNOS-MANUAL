@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-4-horas-dia-semana/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-4-horas-dia-semana/
-  contentHash: db34a38031b45b799676dd3ecd62833a187dd675360e382e6ab0b75f9e2f6974
+  contentHash: 687cc9d2363856d997a5c94a47d7895760969fc6f64e9d70a8373627e3796144
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -71,3 +71,9 @@ Mientras la tabla describe las horas que realiza cada miembro del equipo en cada
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![d. Horas/día semana](/media/manual/d-horas-dia-semana-7e805e0357.png)

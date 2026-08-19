@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-tooltip-flotante/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-tooltip-flotante/
-  contentHash: 4bd705609c23e19ffdc11f8cca6aaaa7f6c971405eb2875c66f2acf2433db868
+  contentHash: 099472722d55ea5721344a18c4e58634f2d24ca0e881a4b46932a689fde9cac5
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -69,3 +69,13 @@ Para entender si ha trabajado lo que le corresponde, se hace lo siguiente:
 - Verde: si la diferencia es muy pequeña (hasta un 5%). Significa que está cumpliendo bien con las horas.
 - Amarillo: si la diferencia es un poco mayor (entre 5% y 10%). Está cerca, pero un poco por debajo o por encima.
 - Rojo: si la diferencia es grande (más del 10%). Indica que hay bastantes menos o más horas de las que debería.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10. Tooltip flotante](/media/manual/10-tooltip-flotante-35ad493fea.webp)
+
+![10. Tooltip flotante](/media/manual/10-tooltip-flotante-9804472dcc.webp)
+
+![10. Tooltip flotante](/media/manual/10-tooltip-flotante-856cfd4eae.webp)

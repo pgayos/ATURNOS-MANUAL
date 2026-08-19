@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-cuadro-de-mando-operaciones-planificacion-de-personal/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-cuadro-de-mando-operaciones-planificacion-de-personal/
-  contentHash: 5b7a4175f9f39269ee67d753b5808d4a2bb1c48132673c1c0565fc249c61e5d2
+  contentHash: 64eff633702627145fbcceabb1718be1e7bcd61d1674ea39ab43af47c2dcc358
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -98,3 +98,19 @@ Adicionalmente, haciendo clic en el icono de “Tabla de cobertura del equipo”
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Cuadro de mando](/media/manual/cuadro-de-mando-17edbdcd4f.png)
+
+![Cuadro de mando](/media/manual/cuadro-de-mando-bcf3d2af50.png)
+
+![Cuadro de mando](/media/manual/cuadro-de-mando-28ede99b06.png)
+
+![Cuadro de mando](/media/manual/cuadro-de-mando-b85e85de5e.webp)
+
+![Cuadro de mando](/media/manual/cuadro-de-mando-21f2208b04.webp)
+
+![Cuadro de mando](/media/manual/cuadro-de-mando-4459292cf1.webp)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/control-de-presencia/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/control-de-presencia/
-  contentHash: 40198f31698afaf85cd9b5c0503392af4bd335a0ee4525c0033c3db6ca4331a3
+  contentHash: ff3ff48f18804f2be049deef6bdebd047aeb58bd4978a55f601914167c9974d5
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -132,3 +132,37 @@ Además, más abajo aparecerán todos los detalles relacionados con los tiempos 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.2 Mis fichajes](/media/manual/1-2-mis-fichajes-9ea944f7ee.png)
+
+![1.2 Mis fichajes](/media/manual/1-2-mis-fichajes-804a506e32.png)
+
+![1.2 Mis fichajes](/media/manual/1-2-mis-fichajes-2ae084da89.webp)
+
+![1.1 Cómo fichar](/media/manual/1-1-como-fichar-1f5780edd7.webp)
+
+![1.3 Petición de marcajes](/media/manual/1-3-peticion-de-marcajes-ddc1920099.webp)
+
+![1.4 Peticiones pendientes](/media/manual/1-4-peticiones-pendientes-92cab857e5.webp)
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-00c5716836.webp)
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-25697dd8ec.webp)
+
+![1.1 Cómo fichar](/media/manual/1-1-como-fichar-127f5d200e.png)
+
+![1.5 Historial de peticiones de marcajes](/media/manual/1-5-historial-de-peticiones-de-marcajes-e1affd0270.webp)
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-aaf2787f71.webp)
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-e5ff8832e6.webp)
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-74074296c6.webp)
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-b7c8eeba04.webp)
+
+![1.4 Peticiones pendientes](/media/manual/1-4-peticiones-pendientes-698a8f44ee.webp)

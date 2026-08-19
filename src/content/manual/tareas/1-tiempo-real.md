@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-tiempo-real/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-tiempo-real/
-  contentHash: d3055acc06eb9713e9ff0d9c20adbb991bfd7251eeda2f746e0c0bcb71941611
+  contentHash: be1cb315526897c1f3573400f9384fa3581447b77d52b6a789b1cf2d536a93d8
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -98,3 +98,15 @@ En esta tabla se muestran los siguientes conceptos:
 1. Icono de Inicio o fin de Tarea o cita: Muestra la hora en la que empiezas a atender al cliente. Por consiguiente, una vez iniciada, también la puedes finalizar para pasar a la siguiente tarea o cita. Para iniciarla, tendrás que pulsar el botón de “play” (triangulo) y para terminarla debes pulsar “stop” (cuadrado).
 2. Icono de Eliminar (la “X”): se selecciona para cancelar una tarea o cita, por ejemplo cuando el cliente no asiste o no esta puntual a la hora de la cita. (luego se podrá recuperar en caso de que la configuración del servicio lo permita.
 3. Icono de Llamada (la campana): seleccionando este icono se hace la llamada al cliente para atender la cita y se espera que el cliente se acerque para su atención.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Tiempo Real](/media/manual/1-tiempo-real-23ca029887.webp)
+
+![1. Tiempo Real](/media/manual/1-tiempo-real-a89f91edd7.webp)
+
+![1. Tiempo Real](/media/manual/1-tiempo-real-44ae2fdd65.png)
+
+![1. Tiempo Real](/media/manual/1-tiempo-real-e62f01565a.webp)

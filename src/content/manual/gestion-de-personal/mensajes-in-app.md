@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/mensajes-in-app/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/mensajes-in-app/
-  contentHash: 0f8d673538d7e05033c2416167a0041fd27a228537a2d1a1459ca34af00b8390
+  contentHash: d827eb531ba84a7e535f89d0d608fc66d5402e5cd4e495a0f7e5c82c45acfba4
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -77,3 +77,15 @@ Una vez que esté listo el mensaje, se hace clic en “Guardar” y aparecerán 
 Cuando el trabajador inicie sesión en la app con su usuario y contraseña, le aparecerá en pantalla lo siguiente:
 
 Una vez que éste le de a “Aceptar”, el mensaje desaparecerá y no le volverá a aparecer al usuario.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Mensajes in APP](/media/manual/mensajes-in-app-29752c48b2.webp)
+
+![Mensajes in APP](/media/manual/mensajes-in-app-e88d639bfc.webp)
+
+![Mensajes in APP](/media/manual/mensajes-in-app-03a83f6d8b.webp)
+
+![Mensajes in APP](/media/manual/mensajes-in-app-256d582990.webp)

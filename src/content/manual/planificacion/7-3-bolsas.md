@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-3-bolsas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-3-bolsas/
-  contentHash: 546f2aa310fb90242b9648695ae499bd8a32a880ccca7c7865d3029a889adf61
+  contentHash: 1da9ce9a1b3dc5423127ce477fc201422392818fa2fbce6999cc9012eeff03da
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,9 @@ Desde el Cuadrante, el administrador puede asignar un turno y horas de bolsa a u
 1. Planificar un turno desde la bolsa de trabajo
 2. Planificar horas desde la bolsa de trabajo
 3. Planificar horas desde la bolsa de trabajo a un determinado trabajador
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.3 Bolsas](/media/manual/7-3-bolsas-5c548c9efe.png)

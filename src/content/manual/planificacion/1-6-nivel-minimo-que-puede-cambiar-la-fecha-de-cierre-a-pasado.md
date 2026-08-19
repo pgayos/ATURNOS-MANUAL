@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-6-nivel-minimo-que-puede-cambiar-la-fecha-de-cierre-a-pasado/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-6-nivel-minimo-que-puede-cambiar-la-fecha-de-cierre-a-pasado/
-  contentHash: 2f76a2c48f53287f7a63ca8698bc6294fe0dd5726d6a3b3855e0d8c0400202e3
+  contentHash: 05f03ba0f1b7be2995ac36bd5f81f95ce3f91da3978ee7eb352472b1be0b62f5
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -74,3 +74,9 @@ Las opciones permitidas son:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.6 Nivel mínimo que puede cambiar la fecha de cierre a pasado](/media/manual/1-6-nivel-minimo-que-puede-cambiar-la-fecha-de-cierre-a-pasado-71e2339402.png)

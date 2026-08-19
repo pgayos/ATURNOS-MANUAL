@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/14-localizacion-por-defecto/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/14-localizacion-por-defecto/
-  contentHash: 7c218a28040ecbfef95e97a9851453ba10003744c2e86c6748b65972920cd681
+  contentHash: 23e067ac7c0fbb6bd542ebea46572645e7f614e1552cc40b6acaf30304c6192a
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,15 @@ Por ejemplo, Ana Sánchez tiene asignada la localización por defecto en “Ofic
 En este caso, no habría problema puesto que los turnos ya tienen la localización por defecto “Administración”.
 
 La localización de los turnos planificados en origen, suele ser distinta. Al cambiar a una nueva localización por defecto, habrá que indicar a partir de qué fecha se cambiará la localización.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![14. Localización por defecto](/media/manual/14-localizacion-por-defecto-f974b1e985.webp)
+
+![14. Localización por defecto](/media/manual/14-localizacion-por-defecto-700f321e81.webp)
+
+![14. Localización por defecto](/media/manual/14-localizacion-por-defecto-d2d8d0d919.webp)
+
+![14. Localización por defecto](/media/manual/14-localizacion-por-defecto-6c8481c2c5.webp)

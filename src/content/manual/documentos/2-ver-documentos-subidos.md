@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-ver-documentos-subidos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-ver-documentos-subidos/
-  contentHash: c7801417579eb47d4cf9d81a25c51a9044b972e3e64c2260b82a76ea9f77e1de
+  contentHash: 6f36a6535ea9bf66dc80edc0bf4899a68b7f4f8a6d304222937871746ee18b7e
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -62,3 +62,11 @@ El trabajador, según los permisos dados en el equipo por el administrador, pued
 El administrador puede poner a disposición de su equipo un documento para que sea descargado por los trabajadores y subirlo cada uno de forma individual. Por ejemplo en una industria a la hora de pedir la nueva ropa de trabajo, puede solicitar a los trabajadores que les rellene una ficha con sus tallas para tramitar el pedido.
 
 Los documentos subidos y a disposición del trabajador también pueden ser descargados desde Inicio, en el widget de Documentos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Ver documentos subidos](/media/manual/2-ver-documentos-subidos-a1c4a7b84e.png)
+
+![2. Ver documentos subidos](/media/manual/2-ver-documentos-subidos-16d5da8535.png)

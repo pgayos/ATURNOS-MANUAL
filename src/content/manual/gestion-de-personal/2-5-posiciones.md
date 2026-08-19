@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-5-posiciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-5-posiciones/
-  contentHash: 58d8f7ee9aac000382fe4775f1334b7b13d556ebaf54a64c099aab4c2805e176
+  contentHash: 36697484ae27c5bb4f7009f0b83ae3d6bc92e0ae27d1a6af158763036f43ac1f
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -81,3 +81,15 @@ A continuación, te contamos como lo puede hacer un superusuario:
 - 1º Acceder desde Menú/RRHH opción Registros/Posiciones.
 - 2º Buscar, con ayuda del filtro el equipo en la que se quiera borrar las posiciones. El sistema filtra por el equipo informado y mostrará todas las posiciones a modo de tabla tiene asociada el equipo.
 - 3º Dar de baja las posiciones en el equipo, eliminando la posición con el botón borrar de acción.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.5 Posiciones](/media/manual/2-5-posiciones-7b2af55663.png)
+
+![2.5 Posiciones](/media/manual/2-5-posiciones-b0de09906c.png)
+
+![2.5 Posiciones](/media/manual/2-5-posiciones-11ce8644ba.png)
+
+![2.5 Posiciones](/media/manual/2-5-posiciones-15ecd96dd6.webp)

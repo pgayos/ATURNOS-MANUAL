@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/9-10-jornadas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/9-10-jornadas/
-  contentHash: aea222e899652729501c3faa379afd8f2286574d6b465d8c7a23cf88a4ce1029
+  contentHash: bbf6a0ce942ee1a66e2144e2dbf2214961624c705c73d6d5317af12d230e29a7
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -57,3 +57,9 @@ Muestra el número de turnos efectivos, es decir, los turnos planificados menos 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![h. Jornadas](/media/manual/h-jornadas-40f11c65dc.png)

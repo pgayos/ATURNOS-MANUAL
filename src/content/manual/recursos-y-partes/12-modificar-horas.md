@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/k-modificar-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/k-modificar-horas/
-  contentHash: 6bd1dcda253c4e922701ef5c06ec6a5dfe2453991c6734d141ef9a3e77522bba
+  contentHash: 17d1fef71424db36fd7aa5d2fc07234932b9db9be323767d063a21b36c232d16
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -66,3 +66,11 @@ Como siempre, antes de salir, guarda lo cambios realizados.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![12. Modificar horas](/media/manual/12-modificar-horas-59be00eabb.png)
+
+![12. Modificar horas](/media/manual/12-modificar-horas-3997f0166d.png)

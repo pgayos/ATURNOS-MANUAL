@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/25-importacion-turnos-absentismos-vacaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/25-importacion-turnos-absentismos-vacaciones/
-  contentHash: c447b43acdce522460f62f6701343740e1667002cd6537cb96a0eba350f55ee8
+  contentHash: 58adea781e1eb26f7b5d3a8ba3c7ee72363794cd3ddd190a1997192bcb5510c1
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -85,3 +85,15 @@ Existen tres opciones de importación, si se informa en el documento de Excel co
 - Valor 2, se importan tanto en el cuadrante, como en el cuadrante borrador.
 
 Si los trabajadores tienen horarios con tipos de turno asignados a diferentes localizaciones, también se pueden importar, añadiendo a cada tipo de turno, el ID de la localización (por ejemplo: M 84652).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-e4165fe436.png)
+
+![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-3a7ca25975.png)
+
+![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-c3b6af4b33.png)
+
+![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-9219ccfa15.png)

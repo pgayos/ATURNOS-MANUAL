@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-1-favoritos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-1-favoritos/
-  contentHash: 7843ca1b90cef190b5381e0710737e4e0081ce9c0bc56aebf60335937f14c1b1
+  contentHash: a16d6067e1be010c5a170efbaff0296d94d085261dbb313c6430183692a7fdb6
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -63,3 +63,13 @@ Una vez se acceda al Catálogo de tareas, se podrán visualizar todas las tareas
 Una vez añadidas las tareas en Favoritos, podremos verlas listadas en el apartado Favoritos del botón “Añadir tareas” de la página de inicio.
 
 El funcionamiento de imputación sobre tareas en Favoritos es el mismo que sobre las tareas listadas.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Favoritos](/media/manual/3-favoritos-333807c103.webp)
+
+![3. Favoritos](/media/manual/3-favoritos-354e81db02.webp)
+
+![3. Favoritos](/media/manual/3-favoritos-2fa0ed3b1c.webp)

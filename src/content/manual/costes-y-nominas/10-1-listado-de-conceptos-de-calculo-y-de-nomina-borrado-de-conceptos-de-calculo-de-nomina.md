@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/
-  contentHash: b02d665e178c449406d434115b6591f487bc76471969e8005a7baa4af7e390e6
+  contentHash: ee196895b24f5ac568e3c43144de303ac34f697deb486df111450e9cd3a455d2
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -71,3 +71,11 @@ Con el botón descargar se pueden exportar los conceptos a un excel para tener u
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10.1 Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina](/media/manual/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos--dfc57fb87a.png)
+
+![10.1 Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina](/media/manual/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos--dac081525c.png)

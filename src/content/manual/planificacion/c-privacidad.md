@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/c-privacidad/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/c-privacidad/
-  contentHash: 1a048991b7d69dce46d74f9fcd1e3b92edd1f31bd9f43fdc5a78ec42e4733179
+  contentHash: 6a32c03617aca0707523fea5ee6d437f21ee93c54f2962c4fc19a805fa458fea
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -129,3 +129,17 @@ Esta función permite que cuando los trabajadores vean una acción en el ‘ Reg
 - NO, el trabajador podrá ver su propio tooltip flotante.
 
 Los roles de validador y planificador solo pueden realizar peticiones a los trabajadores en aquellas localizaciones que compartan con ellos. Esto significa que, por defecto, solo podrán interactuar con trabajadores asignados a las mismas ubicaciones. En caso de que no exista una localización compartida, el validador o planificador podrá igualmente realizar peticiones si tiene permisos de gestión sobre la localización en cuestión, aunque el trabajador no la tenga asignada.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![c. Privacidad](/media/manual/c-privacidad-4458d3d1da.png)
+
+![c. Privacidad](/media/manual/c-privacidad-7464b3c852.png)
+
+![c. Privacidad](/media/manual/c-privacidad-422fc3fe9f.png)
+
+![c. Privacidad](/media/manual/c-privacidad-f036f4ecce.png)
+
+![c. Privacidad](/media/manual/c-privacidad-1018b74ed2.png)

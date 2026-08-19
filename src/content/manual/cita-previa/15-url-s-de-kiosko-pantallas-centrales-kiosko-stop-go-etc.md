@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/15-urls-de-kiosko-pantallas-centrales-kiosko-stopgo-etc/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/15-urls-de-kiosko-pantallas-centrales-kiosko-stopgo-etc/
-  contentHash: 4de3062802bfe3fc84ee08e4b538adda49c65486b491991891502e0829b17609
+  contentHash: 5d6a91cf027d0f26e8976cf3522879d4bdaf9906efd773a9f6b580e230fe1757
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,9 @@ A continuación os mostramos todas las opciones disponibles, en todos los casos,
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![15. Url´s de kiosko, pantallas centrales, kiosko stop&go, etc.](/media/manual/15-url-s-de-kiosko-pantallas-centrales-kiosko-stop-go-etc-355872ede2.png)

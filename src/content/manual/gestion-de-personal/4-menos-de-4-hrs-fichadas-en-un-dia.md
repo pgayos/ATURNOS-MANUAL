@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-menos-de-4-hrs-fichadas-en-un-dia/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-menos-de-4-hrs-fichadas-en-un-dia/
-  contentHash: a17ca881b31116a366ab4c779d6836deeb1bc57a6b0934b98c4042fca3174018
+  contentHash: c05e2886ca8c87613f2513d3fb8df5be821c47a7fcdabda493ef57c7cab7247c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,13 @@ El reporte informa:
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
 
 Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Menos de 4 Hrs fichadas en un día](/media/manual/4-menos-de-4-hrs-fichadas-en-un-dia-caafdf125b.webp)
+
+![4. Menos de 4 Hrs fichadas en un día](/media/manual/4-menos-de-4-hrs-fichadas-en-un-dia-4c540f537b.webp)
+
+![4. Menos de 4 Hrs fichadas en un día](/media/manual/4-menos-de-4-hrs-fichadas-en-un-dia-038a8fbaee.webp)

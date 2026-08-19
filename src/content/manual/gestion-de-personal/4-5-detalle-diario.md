@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-5-detalle-diario/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-5-detalle-diario/
-  contentHash: 760f942ee26f786a4836d692222357e60ca757a4f40e347a47130fea3a7db4ff
+  contentHash: 7e161525cc7f0289403e46df2332b13e16ab6ce778dad395cd955983edf467f8
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -69,3 +69,9 @@ En esta pestaña por día se pueden ver los siguiente datos:.
 - Estado: restando la tolerancia, nos muestra la cantidad de tiempo de diferencia entre la jornada planificada y la presencial.
 
 Este informe se puede exportar a otros formatos. En la parte superior derecha haciendo clic en el botón “Acciones”, se desplegarán las distintas opciones de exportar esto datos. También puedes ocultar alguna columna sino necesitas que sea reportada en las estadísticas, haciendo clic en el botón Ocultar y seleccionando aquellas que no quieres mostrar.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.5 Detalle diario](/media/manual/4-5-detalle-diario-5ee9f22770.png)

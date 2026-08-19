@@ -43,7 +43,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-volcado-de-trabajadores/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-volcado-de-trabajadores/
-  contentHash: bb39c415260ada5da6873a26a134881804dfffdc6f4a2bf8b9318eb3786bf1f6
+  contentHash: b59223e08745ddcf6ae16495fc4b8b5620548de87cb25c0755a7247f3227216f
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -92,3 +92,27 @@ En el caso de querer que los usuarios fichen sus marcajes en más dispositivos d
 4- Así como a un grupo padre, del que dependen todos los grupos donde se encuentran los dispositivos.
 
 Por ejemplo, Sonia del Grupo de Málaga, ha sido volcada al dispositivo sincronizado en ese grupo, su ID 315992, aparece volcado en el dispositivo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/registrar-tarjeta-a0a935c02f.webp)
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/registrar-tarjeta-3aff733d77.webp)
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-f80613c887.png)
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-9d23d261d9.png)
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-b39be9d7bb.webp)
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-cd575136b8.png)
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-986c9ecc96.png)
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-07e96aadcc.png)
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-df03727086.png)
+
+![4. Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-22e18aa1ee.png)

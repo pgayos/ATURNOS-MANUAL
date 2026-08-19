@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 15
+readingTime: 16
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-calculo-estimado-de-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-calculo-estimado-de-horas/
-  contentHash: 7b1e66bedc09d069a0bb29246298008fc010c26d8922fb9bbf670e854cfcde35
+  contentHash: 24613b7c01f4726a45df3f7f8b1426aca72dedb7f7066ae3e4116114c348c83b
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -380,3 +380,47 @@ Si eres Superusuario, puedes realizar una petición de informe en los específic
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-4512076862.png)
+
+![5. Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-84f5c0f5be.png)
+
+![Ejemplo cálculo sin vacaciones planificadas](/media/manual/ejemplo-calculo-sin-vacaciones-planificadas-2e4cf074e3.png)
+
+![Horas contrato](/media/manual/horas-contrato-b415d677a2.png)
+
+![Horas contrato](/media/manual/horas-contrato-5ef9bf849a.png)
+
+![Ejemplo cálculo sin vacaciones planificadas](/media/manual/ejemplo-calculo-sin-vacaciones-planificadas-28e3f05c5a.png)
+
+![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-56a0b9a818.png)
+
+![Balance mensual / acumulado en el perfil del trabajador con vacaciones planificadas:](/media/manual/balance-mensual-acumulado-en-el-perfil-del-trabajador-con-vacaciones-p-33b6ba9be7.png)
+
+![Balance mensual / acumulado en el perfil del trabajador sin vacaciones planificadas:](/media/manual/balance-mensual-acumulado-en-el-perfil-del-trabajador-sin-vacaciones-p-d5c914511b.png)
+
+![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-7c4bdd467d.png)
+
+![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-9feebe927d.png)
+
+![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-c432c45adb.png)
+
+![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-5c43d79251.png)
+
+![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-e57e40bbf7.png)
+
+![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-6a1bb06054.png)
+
+![Ejemplo horas contrato por defecto enero 2022](/media/manual/ejemplo-horas-contrato-por-defecto-enero-2022-eafacb4a1f.png)
+
+![Ejemplo horas contrato descontando festivos enero 2022](/media/manual/ejemplo-horas-contrato-descontando-festivos-enero-2022-c36f3d65ce.png)
+
+![Ejemplo horas contrato descontando festivos febrero 2022](/media/manual/ejemplo-horas-contrato-descontando-festivos-febrero-2022-d88ee89093.png)
+
+![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-15410b3c6a.png)
+
+![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-f805b3b342.png)

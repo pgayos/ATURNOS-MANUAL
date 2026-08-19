@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-5-5-historial-de-cambios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-5-5-historial-de-cambios/
-  contentHash: d455b856e90fdaf7b90079acc59e5d078f4e75f49adfdb82ecb8f46263fc43a9
+  contentHash: b94d0030af2fce45611e7ca8c168d0b5675e00dde32b625137b9a93e4cde7786
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,9 @@ En esta pestaña aparecen todas las peticiones de cambios que se han solicitado 
 El Administrador desde la columna de acción puede:
 
 - Visualizar la solicitud del cambio haciendo clic en el icono del ojo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![f. Historial de cambios](/media/manual/f-historial-de-cambios-39e9575a45.png)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-3-estado-del-acumulado-del-empleado/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-3-estado-del-acumulado-del-empleado/
-  contentHash: 66266284bc81347472e040be7f9e13e4742e59f45ba4b38e6ad17d87b4fbe75b
+  contentHash: 21e9b7a2e16c6c272e7c3a1e4deb46ba20cf7fa53425fea6cc2878e0e7bebc31
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,13 @@ Si el valor es positivo significa que el trabajador tiene más horas presenciale
 Si el valor es negativo significa que las horas presenciales son menores que las planificadas. Cuando se ajuste el acumulado será de 0, y se añaden horas de absentismo temporal en la planificación del cuadrante.
 
 - Horas computables planificadas más acumulado: total de horas computables planificadas más el acumulado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.3 Estado del acumulado del empleado](/media/manual/4-3-estado-del-acumulado-del-empleado-da73a91e2f.webp)
+
+![4.3 Estado del acumulado del empleado](/media/manual/4-3-estado-del-acumulado-del-empleado-719576ef35.webp)
+
+![4.3 Estado del acumulado del empleado](/media/manual/4-3-estado-del-acumulado-del-empleado-e69eace276.webp)

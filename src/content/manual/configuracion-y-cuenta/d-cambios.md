@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/d-cambios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/d-cambios/
-  contentHash: 70b0ccff142d3216013fe65b752dc2ffeaefcc5a25ae936579f67dfb175af8c4
+  contentHash: 2040ee1921dc26c523e22d4424a443a6dbaf1adeec89ab095b961bab51d4b788
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -171,3 +171,19 @@ De igual forma, llegarán notificaciones al correo electrónico de los implicado
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Permite cambios de libre al mismo empleado](/media/manual/permite-cambios-de-libre-al-mismo-empleado-e104ea7ff6.png)
+
+![Permite cambios de libre al mismo empleado](/media/manual/permite-cambios-de-libre-al-mismo-empleado-16582b9a19.png)
+
+![Flujo de aprobación de cambios de turnos](/media/manual/flujo-de-aprobacion-de-cambios-de-turnos-880297c528.png)
+
+![Al hacer un cambio, requerir que los trabajadores tengan la misma experiencia y especialidad](/media/manual/al-hacer-un-cambio-requerir-que-los-trabajadores-tengan-la-misma-exper-2e337bde9d.png)
+
+![d. Cambios](/media/manual/d-cambios-f2e9bd44af.png)
+
+![Notificaciones](/media/manual/notificaciones-570451769c.png)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/f-anade-absentismos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/f-anade-absentismos/
-  contentHash: fc044ba7b20b1a5b914f8de646d7423ac4002143543f2d9f8ca714fb985ba285
+  contentHash: d3ca5d0a066c69b90439189b99299c85c7ffd44609525c18e62074e89b11d666
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -122,3 +122,35 @@ Para quitar un absentismo total, hay que hacer clic encima del turno afectado po
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7. Añade absentismos](/media/manual/7-anade-absentismos-fc97749f1a.png)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-213b1b15b5.png)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-d1fb2cf062.png)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-8aca24279a.webp)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-f24ca945ee.webp)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-0c47ce587e.webp)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-147d517ce5.webp)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-7535fcb590.webp)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-a1344f1d80.webp)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-d1167bc41e.png)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-c676c7c1e3.png)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-ffa1b00eb1.webp)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-508dac65be.webp)
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-c053ce6f53.png)

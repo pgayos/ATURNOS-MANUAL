@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-8-crear-nueva-oferta/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-8-crear-nueva-oferta/
-  contentHash: c85a9f6380d16f536e9ed6e7cad3d58215bb35f0a2ee7f7ca43f236d97865b14
+  contentHash: 51e3f9b40ac87dded06fbb80c169a201d1efae14e124f84ca2d6a072e699dd1b
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -73,3 +73,13 @@ Los administradores podrán crear ofertas de turnos y horas para los trabajadore
 Una vez seleccionada y completadas las opciones anteriores, se hará clic en solicitar y automáticamente buscar todo el listado de ofertas en el apartado de “ofertas de turno”:
 
 El proceso para inscribirse en dichas ofertas de turnos y horas es igual que el apartado ofertas de turno.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.8 Crear nueva oferta](/media/manual/2-8-crear-nueva-oferta-2dcc93915e.webp)
+
+![2.8 Crear nueva oferta](/media/manual/2-8-crear-nueva-oferta-9311137fe3.webp)
+
+![2.8 Crear nueva oferta](/media/manual/2-8-crear-nueva-oferta-d591787fbe.webp)

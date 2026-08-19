@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/11-1-clonar-datos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/11-1-clonar-datos/
-  contentHash: de9e952d89c5d31e99439d740e1bbde9cc9c66d0f381d57f5d15bd8f4493b12d
+  contentHash: a2e09d25e6e2bb888c32b1b3b60fc55a70767b6b771b6203526572e0dded9b5f
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -102,3 +102,15 @@ En clonar Absentismos:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-af16a0f5b7.png)
+
+![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-2f0f166345.png)
+
+![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-d88ceb24ef.png)
+
+![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-800ff911b2.png)

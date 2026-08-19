@@ -35,7 +35,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-1-imputacion-de-tareas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-1-imputacion-de-tareas/
-  contentHash: 6e69bee710d08c7ddd4ec7a54c75e2957f798d9f4fb812656d91de0a5c7426d0
+  contentHash: 48e039bdbe0adfed04a607c902317297ae788bff0251b5f7791b21e0db228b8d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -62,3 +62,13 @@ Si la tarea tiene una descripción adjunta, ésta se visualizará en el apartado
 Una vez completada la información se debe clicar sobre el botón “Añadir”. Cuando se ha añadido la tarea, ésta se listará en la tabla de la página de inicio.
 
 Si al añadir una tarea, no estamos conformes con la misma o con algún dato introducido, se clica en el icono de papelera () para borrar el registro realizado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Imputación de tareas](/media/manual/2-imputacion-de-tareas-a124b87b3b.webp)
+
+![2. Imputación de tareas](/media/manual/2-imputacion-de-tareas-b18d6b1c6f.webp)
+
+![2. Imputación de tareas](/media/manual/2-imputacion-de-tareas-6725418841.webp)

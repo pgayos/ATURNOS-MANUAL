@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/9-1-integracion-nominas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/9-1-integracion-nominas/
-  contentHash: b585c39280694754de9c94a94ae82f021e8643dd0a4e333c371bd5859d7bf99a
+  contentHash: 9f59e9788a8ed96baf11af3cbaa588274e75fa15c97b7c903f0a5925b0bdf6de
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -94,3 +94,13 @@ Los datos necesarios son:
 A través de ADMINISTRAR → AJUSTES → MODULOS, se visualizan los tres primeros campos indicados
 
 Adjuntamos un pantalla del postman del método indicado
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![9.1 Integración nóminas](/media/manual/9-1-integracion-nominas-c36b37f22c.png)
+
+![9.1 Integración nóminas](/media/manual/9-1-integracion-nominas-faaa391545.png)
+
+![9.1 Integración nóminas](/media/manual/9-1-integracion-nominas-70ce642517.png)

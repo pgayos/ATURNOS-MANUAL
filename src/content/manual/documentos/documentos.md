@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/documentos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/documentos/
-  contentHash: d30f5390a869e730b9e33decf24fcb39d0c0c9146628a409a2064c87b0bd2157
+  contentHash: dc6a41bf0a255b2af8ad873bc6429ab1d894da77675ab82b595fe205cef0ac23
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -72,3 +72,13 @@ Para ello tendrá que hacer clic sobre el icono situado en la parte inferior der
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.2 Subir documentos](/media/manual/6-2-subir-documentos-f01f56d749.webp)
+
+![6.1 Ver y descargar documentos](/media/manual/6-1-ver-y-descargar-documentos-769faea0d3.webp)
+
+![6.2 Subir documentos](/media/manual/6-2-subir-documentos-386d653151.png)

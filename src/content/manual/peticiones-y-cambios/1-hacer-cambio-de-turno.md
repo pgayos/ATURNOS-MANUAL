@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/a-hacer-cambio-2/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/a-hacer-cambio-2/
-  contentHash: 9d5b7111f697ec518be4cc07ef763eb6a0d6b9fe61c7b1a28bf28a7143328413
+  contentHash: 146589f6bf1198fae330da9907244e2a544f8664cc5fecf61f73cc951101c054
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -155,3 +155,33 @@ Más especificaciones sobre la configuración del equipo relacionada con los cam
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-a6556c8b49.png)
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-5c383f9488.png)
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-8a97977ea6.png)
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-1bf25f9a22.png)
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-c8eb8ac171.png)
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-3a95d409fc.png)
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-fa89b4c4a8.png)
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-8ea361702f.png)
+
+![¿Cómo realizar un cambio de turno por un libre un trabajador, a sí mismo?](/media/manual/como-realizar-un-cambio-de-turno-por-un-libre-un-trabajador-a-si-mismo-5893d53b11.png)
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-647baee6d8.png)
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-8b92e25279.png)
+
+![¿Cómo realizar un cambio de turno por un libre un trabajador, a sí mismo?](/media/manual/como-realizar-un-cambio-de-turno-por-un-libre-un-trabajador-a-si-mismo-b5a7706d00.png)
+
+![¿Cómo realizar un cambio de turno por un libre un trabajador, a sí mismo?](/media/manual/como-realizar-un-cambio-de-turno-por-un-libre-un-trabajador-a-si-mismo-88f7038bdb.png)

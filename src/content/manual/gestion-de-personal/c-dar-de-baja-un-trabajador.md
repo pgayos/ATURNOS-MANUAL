@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/c-dar-de-baja-un-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/c-dar-de-baja-un-trabajador/
-  contentHash: bd66a5a892bbebdb8d18ce02293fab638f118510cf0d95ebded85c829df10510
+  contentHash: 47d2b64315421e3c5763aaebfbffe27fdcb1420809f3a5d34963f827f1399977
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -79,3 +79,9 @@ También se va a mostrar a un trabajador en el listado de inactivos cuando se le
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo dar la baja a un trabajador?](/media/manual/como-dar-la-baja-a-un-trabajador-25f3daa8f6.png)

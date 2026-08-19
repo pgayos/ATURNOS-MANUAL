@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/17-importar-clientes-tareas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/17-importar-clientes-tareas/
-  contentHash: 1586fc5d1b2795156d912f90af5ed6d961dea5396f9e7c3fe8c5dd57d95c9e41
+  contentHash: d5c320a2e7d51c7ea674b00a7a62ff4d59a8dc50996518bc2dd59b14bf885129
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,19 @@ Una vez seleccionados dichos campos, se clica en el botón Asociar para que esta
 Si hemos asociado mal los campos, se puede clicar en el botón Eliminar, y realizar la nueva asociación. Una vez estén todos los campos asociados correctamente, se clica en el botón Asociar para realizar la carga. Cuando la carga se haya completado, en la parte inferior de la página aparecerá el resultado de la carga.
 
 *Se recomienda tener en cuenta que, aunque el resultado de la carga sea satisfactorio, hay que confirmar en el catálogo de tareas que lo nuevo aparece listado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-8de302edf3.png)
+
+![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-0ed62b94b1.png)
+
+![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-f9f1779f7e.png)
+
+![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-83e83bfb70.png)
+
+![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-8fe635eee7.png)
+
+![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-dea62044dd.png)

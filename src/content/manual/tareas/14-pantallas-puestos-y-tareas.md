@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/14-pantallas-puestos-y-tareas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/14-pantallas-puestos-y-tareas/
-  contentHash: 453c330306542d7fec8efec02b2b6b1d297038d429b14ac132e63a119c8f81d9
+  contentHash: 332f3df289e5ae22700cf4e914ace9da208a7b7184c2570345e1dbcae7a26c45
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -75,3 +75,9 @@ Las pantallas deben de estar conectadas a internet, verifíquelo, tal y como se 
 3. Servicios, en arrancar por indicar INICIO URL
 4. HOME del mando a distancia y CAMBIAR URL informar la url tal y como se ha indicado, validar e INICIAR EN URL, si la conexión es correcta aparecerá la pantalla de llamada.
 5. A las pantallas centrales hay que incluir a continuación del id_aturno=5598, &tipo=6, por ejemplo del “id_aturno=5598&tipo=6”
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![14. Pantallas, puestos y tareas](/media/manual/14-pantallas-puestos-y-tareas-0f9cc2d117.png)

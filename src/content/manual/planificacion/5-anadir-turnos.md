@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/d-anadir-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/d-anadir-turnos/
-  contentHash: c64b310dec2acb9ed627d0299f2de09744471aedfff7efcb3289494b048a703f
+  contentHash: bba2b5c4b7c342a373eaac317efe6af40097ef6614bb0fe6c3fa61b49daa1118
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,9 @@ En el momento que se haga clic en uno de esos turnos, el sistema lo insertará e
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Añadir turnos](/media/manual/5-anadir-turnos-efbe6552dc.png)

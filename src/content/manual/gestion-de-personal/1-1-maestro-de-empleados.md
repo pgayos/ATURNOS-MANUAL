@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-1-maestro-de-empleados/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-1-maestro-de-empleados/
-  contentHash: 464919383cb9add964dd0b919324377e2c401a0b7ab051d279c7503b60ec579d
+  contentHash: bbf8738fb0de716334cdf348739d1c637cde424fad5f284ad44068cb00225977
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -86,3 +86,13 @@ El superusuario que accede al maestro de empleado puede realizar las siguientes 
 - b. Acceder al perfil del trabajador
 - c Añadir trabajadores a más equipos
 - d. Ver periodos y eliminar trabajador
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Vista de 1 1 maestro de empleados en aTurnos](/media/manual/vista-de-1-1-maestro-de-empleados-en-aturnos-550a2e1fb1.png)
+
+![Vista de 1 1 maestro de empleados en aTurnos](/media/manual/vista-de-1-1-maestro-de-empleados-en-aturnos-f3f9c92063.png)
+
+![Vista de 1 1 maestro de empleados en aTurnos](/media/manual/vista-de-1-1-maestro-de-empleados-en-aturnos-c8d25b0808.png)

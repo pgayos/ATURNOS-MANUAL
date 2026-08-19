@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/j-modulos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/j-modulos/
-  contentHash: 67e3d3dc9d662f844711b77793ac52d698921fbd544020675ea72a07e094aa63
+  contentHash: f07bcb60efb5c3fa0fa167dcf0745abef686a3c0640a2fb5693df3ac503472ba
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -88,3 +88,17 @@ Encontramos tres datos fundamentales de cara a la integración del equipo con ot
 - Token API: es una cadena de texto bien larga, encriptada con una clave.
 
 Para más información, clic en este enlace: Webhooks.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![j. Módulos](/media/manual/j-modulos-216c7eba4a.webp)
+
+![j. Módulos](/media/manual/j-modulos-61049e48e1.webp)
+
+![j. Módulos](/media/manual/j-modulos-a89df842b0.webp)
+
+![j. Módulos](/media/manual/j-modulos-725fa79fab.png)
+
+![j. Módulos](/media/manual/j-modulos-53acf37630.webp)

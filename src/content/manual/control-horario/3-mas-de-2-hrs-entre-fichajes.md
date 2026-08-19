@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-mas-de-2-hrs-entre-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-mas-de-2-hrs-entre-fichajes/
-  contentHash: f479aeb19407e722e86bcefe6787f4fbf8e417fd2960c0da99af7c8b99411d18
+  contentHash: e849660f069624ae80197ab50d936c85dcfa2dd39345314a9b19064f6aaa3f1b
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -78,3 +78,13 @@ El reporte informa:
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
 
 Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Más de 2 Hrs entre fichajes](/media/manual/3-mas-de-2-hrs-entre-fichajes-8f0d0a0a4e.webp)
+
+![3. Más de 2 Hrs entre fichajes](/media/manual/3-mas-de-2-hrs-entre-fichajes-542e99c9ca.webp)
+
+![3. Más de 2 Hrs entre fichajes](/media/manual/3-mas-de-2-hrs-entre-fichajes-4d21b5ea22.webp)

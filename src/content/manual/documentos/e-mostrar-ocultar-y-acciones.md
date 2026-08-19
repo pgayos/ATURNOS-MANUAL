@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/e-mostrar-ocultar-y-acciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/e-mostrar-ocultar-y-acciones/
-  contentHash: 096706216fb2ca11fb060373d198d82831f51524ea77014405a05142171fe6bb
+  contentHash: a10e65dfd1c5240dee42a1444fa268f4650c25456b7df9b1dc29b7e33d0b6ebb
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,11 @@ Haciendo clic sobre el icono “Descargas” situado a la derecha del icono “M
 - Excel: Exportar toda la información de los datos de los trabajadores que aparecen en el listado a un formato “Excel (xls.)
 - PDF: Exporta a un archivo PDF, donde la claridad y lectura del documento es más fácil que en los modelos anteriores. Sobre todo, es de gran utilidad hacerlo en este formato si posteriormente va a ser adjuntado en un informe determinado.
 - PDF A3: Al igual que en el caso anterior, pero un formato mayos tipo A3.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![e. Mostrar/Ocultar y Acciones](/media/manual/e-mostrar-ocultar-y-acciones-0c309fe8fd.png)
+
+![e. Mostrar/Ocultar y Acciones](/media/manual/e-mostrar-ocultar-y-acciones-24ef6c817e.png)

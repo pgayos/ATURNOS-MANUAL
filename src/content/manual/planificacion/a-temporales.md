@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/a-temporales/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/a-temporales/
-  contentHash: 6d1a085ae441ff21a04c39d11df03c68c208cd69d93fd06832b46359b8aadaca
+  contentHash: f678fd1240ef150c369d5e9d9a76d92888741a9de28c5918bd313aed633a1a02
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -58,3 +58,9 @@ Se muestran los absentismos que no ocupan todo el turno del trabajador, es decir
 En el listado se identifica el nombre del trabajador, el día y la hora a la que se inicia el absentismo, las horas de duración de dicha ausencia y la descripción que se informó cuando se creó el “Absentismo temporal” al trabajador en el Cuadrante (ver más en: Absentismo temporal ).
 
 En la columna de acciones, puedes utilizar el icono de editar para modificar el tipo de absentismo informado o el icono de la papelera para borrar el registro de ese absentismo en concreto desapareciendo también en el Cuadrante.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![a. Temporales](/media/manual/a-temporales-1e47540b65.png)

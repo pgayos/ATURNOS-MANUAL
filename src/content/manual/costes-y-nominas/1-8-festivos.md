@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-8-festivos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-8-festivos/
-  contentHash: f90bf23f43ca9a423b99ca830b965aa383728656253cadc7f40b4c11a68f2112
+  contentHash: b2f1514d4e8a1e6fd74784eaea33f41f1b7b5b19f86c64f001ed0365db25cf58
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,11 @@ Las opciones posibles son tres:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.8 Festivos](/media/manual/1-8-festivos-f29c34f412.png)
+
+![1.8 Festivos](/media/manual/1-8-festivos-0057bd32f1.png)

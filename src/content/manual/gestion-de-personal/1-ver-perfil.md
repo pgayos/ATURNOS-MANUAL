@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-ver-perfil/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-ver-perfil/
-  contentHash: e21249880e4eda62098a94b16ee63d1dedf70c87c0b0d22fa8f355114ee2b4ed
+  contentHash: d17fe474ddfd44b5383305b3a12d13d8660f2ddc7827f32c973949a5e3ae97eb
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,9 @@ Se accede a ver perfil del trabajador, donde se encuentra la información Genera
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Ver perfil](/media/manual/1-ver-perfil-1d5ba32e2b.webp)

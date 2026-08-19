@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/8-control-horario/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-control-horario/
-  contentHash: a9c4f9808f2604eb01709024e8814bcf9334bbcd9880b96356a96ac3480b42f9
+  contentHash: f4c11c98bce3f53ff51c089ed13a0f05bf7dd17bb3bb7d0e2ba66f327274627d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -129,3 +129,31 @@ Aparecerá un modal con los siguientes campos:
 Todas las importaciones del estado que se realicen aparecerán listadas en el apartado de “Importaciones de estado”.
 
 Una forma de no tener que realizar todos estos ajustes de forma manual, es mediante una ‘ Importación de trabajadores ‘ con un archivo de Excel, asociando los campos “Estado inicial control horario” y “Fecha estado inicial control horario”.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![8. Control Horario](/media/manual/8-control-horario-ac6a9329fd.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-b79db39675.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-1d7ba20018.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-a8077fffd9.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-4376bc004b.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-3c28f301f6.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-a50e4ce64c.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-9244584050.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-b7de218a74.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-c587550d8d.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-011bbf4bd9.webp)
+
+![8. Control Horario](/media/manual/8-control-horario-d6711be96e.webp)

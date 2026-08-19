@@ -91,7 +91,7 @@ migration:
     - https://manual.aturnos.com/documentation/como-gestionar-las-citas-que-reservan-mis-clientes/
     - https://manual.aturnos.com/documentation/como-gestionar-las-citas-que-reservan-mis-clientes/gestion-de-citas-tareas-desde-la-app/
     - https://manual.aturnos.com/documentation/como-gestionar-las-citas-que-reservan-mis-clientes/gestion-de-citas-tareas-desde-la-version-del-navegador/
-  contentHash: 100520e206b1f23e56b2f4ba18187bd1be52d24a776e9bfa2f2286e594e2b26f
+  contentHash: 6cf171588f97db7891362c0133bdef33c678dbd2761e56485888ea99dbe351cb
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -113,3 +113,11 @@ Ahora bien, este formulario tiene los siguientes datos estándares que tu puedes
 Para personalizar el comportamiento o añadir más servicios, accede al siguiente enlace: ¿Cómo configurar la herramienta de Cita Previa?
 
 Para gestionar las citas (tareas) que se van generando, accede al siguiente enlace: ¿Cómo gestionar las citas reservadas de mis clientes?
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo empezar inmediatamente a utilizar la herramienta de Cita Previa?](/media/manual/como-empezar-inmediatamente-a-utilizar-la-herramienta-de-cita-previa-5de94fc0dd.png)
+
+![¿Cómo empezar inmediatamente a utilizar la herramienta de Cita Previa?](/media/manual/como-empezar-inmediatamente-a-utilizar-la-herramienta-de-cita-previa-5c96620d0f.png)

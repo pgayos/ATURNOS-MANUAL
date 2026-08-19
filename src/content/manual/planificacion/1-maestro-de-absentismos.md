@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-maestro-de-absentismos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-maestro-de-absentismos/
-  contentHash: c0c07c57860e68112390e465bd008706ab328b41ab7624ae3972459c486f5551
+  contentHash: 416ec80d2bee2cc19c23c0803a8649b0923601cb0ce5eb9704b20594e9e89ba3
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -96,3 +96,9 @@ Continuando con el ejemplo 1, si el trabajador tiene 8 horas informadas en su pe
 Horas de absentismos planificadas, son las horas computadas que tiene asociado el periodo de absentismo desde su fecha de inicio.
 
 Horas de absentismos, en la fecha consultada, son las horas computadas que tiene asociado el periodo absentismo en la fecha consultada.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Maestro de absentismos](/media/manual/1-maestro-de-absentismos-e13e9c685e.png)

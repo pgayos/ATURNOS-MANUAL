@@ -51,7 +51,7 @@ migration:
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-5-reportes/
     - https://manual.aturnos.com/knowledgebase/a-reportes-por-equipos/
-  contentHash: adab3c2c203f4980a45ba3ad3899b236308145ca2f7dd75a038d8399d4f4ebe7
+  contentHash: 14b4ae6cd881564c36cabf88cee2c25c5cdd470a06a0c1f7fd1a688f0b6bfb69
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -83,3 +83,13 @@ Si necesitas la información agregada por equipo, desde aquí vas a poder selecc
 - Demandas: número total de demandas insertadas en el/os equipo/os seleccionados.
 
 Ver más información: las variables de reportes.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Reportes por equipos](/media/manual/1-reportes-por-equipos-24fcfce589.png)
+
+![1. Reportes por equipos](/media/manual/1-reportes-por-equipos-d0cdb35529.png)
+
+![1. Reportes por equipos](/media/manual/1-reportes-por-equipos-813227f3f6.png)

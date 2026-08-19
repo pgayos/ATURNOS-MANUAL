@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-rrhh/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-rrhh/
-  contentHash: c85458d44076d8a20f8b142b056dc06c398c7f214b7428f90852e5682d2bee90
+  contentHash: 22e05675f416fcd21176235db6c63b0a8bf1231074f5e139f5988bbc83becc44
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,21 @@ Una vez se haya guardado el reporte, este se generará en el apartado “Petici�
 En el reporte de tareas por periodo y trabajador, se selecciona un periodo de tiempo y el equipo del que quiero listar los trabajadores que tengo a cargo.
 
 Estos mismos pasos se aplican para el reporte de tareas por periodo y equipo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. RRHH](/media/manual/3-rrhh-18e8df0fb8.webp)
+
+![3. RRHH](/media/manual/5-rrhh-e986ca0c35.png)
+
+![3. RRHH](/media/manual/5-rrhh-f1269e27cb.png)
+
+![3. RRHH](/media/manual/5-rrhh-da08b85709.png)
+
+![3. RRHH](/media/manual/5-rrhh-af912cfe88.webp)
+
+![3. RRHH](/media/manual/5-rrhh-63b913720e.webp)
+
+![3. RRHH](/media/manual/3-rrhh-4bcd50ec5b.webp)

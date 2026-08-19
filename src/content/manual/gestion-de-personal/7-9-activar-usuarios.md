@@ -37,7 +37,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-9-activar-usuarios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-9-activar-usuarios/
-  contentHash: 1398a00d088452c91e18f9ee93338ca99dd6437967ea17dd39b91a135c03971d
+  contentHash: ff43a8d2e8b8c7b8e4d0e24cbad2af50fece59977dfb4729b35821ae62ef8cfe
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -62,3 +62,11 @@ Se puede seleccionar a todos o solo a aquellos que necesites. Para facilitar la 
 Al hacer clic en Activar usuarios seleccionados se creará un listado con contraseñas autogeneradas por aTurnos para cada trabajador. Dicho listado se descargará automáticamente, además en la parte superior de la nueva tabla que se muestra, haciendo clic en Acciones se puede descargar dicho archivo en caso de fallar la descarga automática.
 
 ¡IMPORTANTE! La tabla de contraseñas solo se puede consultar una vez, por ello es muy importante descargarse el archivo de contraseñas y asegurarse de que se puede leer correctamente antes de abandonar la página (o antes de que el sistema cierre la sesión automáticamente por inactividad).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.9 Activar usuarios](/media/manual/7-9-activar-usuarios-ca01014998.png)
+
+![7.9 Activar usuarios](/media/manual/7-9-activar-usuarios-963657a40e.png)

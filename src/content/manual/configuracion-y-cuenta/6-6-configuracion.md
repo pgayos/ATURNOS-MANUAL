@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-6-configuracion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-6-configuracion/
-  contentHash: 750bdf634d451f966cdf8d18daeae1d062e1d3e3feff0e1c11abdc9ae4a951b7
+  contentHash: 47da722256782296197f4778c764a82b7fceae83757762a1b344a7b13bc4eb23
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -59,3 +59,9 @@ Los reportes pueden ser configurados para ser exportados en:.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.6 Configuración](/media/manual/6-6-configuracion-1dd3d0acac.webp)

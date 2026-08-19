@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-4-cuadrante-por-localizaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-4-cuadrante-por-localizaciones/
-  contentHash: 600292dcaebb5ec1aa9ecc379ad492d9d6ce1110c74c334e14a1cf6465253256
+  contentHash: a238223e7e17ac3eec51f21af202a97a0af599eaa5773e72b294df8e68d34f85
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -113,3 +113,19 @@ Nuevamente resaltamos que las acciones realizadas en el Cuadrante por localizaci
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Barra superior del cuadrante](/media/manual/barra-superior-del-cuadrante-9dce01bb11.webp)
+
+![Barra superior del cuadrante](/media/manual/barra-superior-del-cuadrante-be0e373e26.webp)
+
+![a. Cuadrante por localizaciones](/media/manual/a-cuadrante-por-localizaciones-3f92d7386f.webp)
+
+![Barra superior del cuadrante](/media/manual/barra-superior-del-cuadrante-83a654bed8.webp)
+
+![Tabla de cobertura](/media/manual/tabla-de-cobertura-f901e8f1cf.webp)
+
+![Acciones en el cuadrante](/media/manual/acciones-en-el-cuadrante-60fea09830.webp)

@@ -45,7 +45,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 7
+readingTime: 8
 featured: false
 migration:
   sourceCount: 1
@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-sobre-vacaciones-y-contingentes-de-permisos-y-festivos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-sobre-vacaciones-y-contingentes-de-permisos-y-festivos/
-  contentHash: 07f34ef44d02b363c4d3a071f1597a540558d7820af50ebb6b5e6bdfb7c04fad
+  contentHash: 3d2d1e088078034487408ef4587abd69470ea34dd80dcece594fb0784c4eac54
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -142,3 +142,11 @@ Esta restricción limita el número de horas de un tipo de absentismo, de forma 
 Esta restricción impide que se puedan solicitar o insertar absentismos en días que se tengan aprobadas unas vacaciones.
 
 ⚙️Configuración: Esta restricción tiene una configuración básica.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Sobre vacaciones, festivos y bolsas de horas](/media/manual/4-sobre-vacaciones-festivos-y-bolsas-de-horas-e7c192b5a2.webp)
+
+![4. Sobre vacaciones, festivos y bolsas de horas](/media/manual/4-sobre-vacaciones-festivos-y-bolsas-de-horas-76edab72e9.webp)

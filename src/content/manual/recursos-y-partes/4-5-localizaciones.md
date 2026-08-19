@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-5-localizaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-5-localizaciones/
-  contentHash: bb49e5700994a521c70b19d3e1663dd07289a14c65ca5dc335f474506160baae
+  contentHash: fa4e406adcf72fd9c252ea3df93467dad72c6cb9ac38bb6ee64d391c62cb6672
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -59,3 +59,11 @@ Puedes ver estas estadísticas en un Gráfico donde aparecen representadas en po
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.5 Localizaciones](/media/manual/4-5-localizaciones-44dbd7b305.png)
+
+![4.5 Localizaciones](/media/manual/4-5-localizaciones-dc6d06d58d.png)

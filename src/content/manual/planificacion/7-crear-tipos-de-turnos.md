@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-crear-tipos-de-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-crear-tipos-de-turnos/
-  contentHash: fe9677d2ea165eac8ef62a9af1933c0888bd95a40483abfb0690f0de3ce5a177
+  contentHash: b8e37cfc80e99a5514009876a4682b962972e3126016e30df230f59b788346b5
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -102,3 +102,9 @@ Para importar el archivo, debe seguir los pasos que indicamos en nuestro menú A
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Nuevo periodo de turno](/media/manual/nuevo-periodo-de-turno-31fe1d7056.png)

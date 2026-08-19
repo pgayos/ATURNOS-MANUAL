@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-monitorizar/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-monitorizar/
-  contentHash: 2b75b3d4913ecea37bc517e9d768b921d0eacde510750ef72e0a5c9411f31372
+  contentHash: b1cb0dab805fe09c6c8e12afa52d321eef5883ccd08b3905dc33cf6bea9cbca7
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -151,3 +151,49 @@ En caso de existir cualquier tipo de alerta e algún dispositivo, se nos mostrar
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Registro Eventos](/media/manual/registro-eventos-a241b4584c.png)
+
+![Registro Eventos](/media/manual/registro-eventos-52b7cc25dd.png)
+
+![Registro Eventos](/media/manual/registro-eventos-32f34ce9d9.webp)
+
+![6. Monitorizar](/media/manual/6-monitorizar-98d8b29f1d.webp)
+
+![Registro Eventos](/media/manual/registro-eventos-303a252bf0.png)
+
+![Registro Eventos](/media/manual/registro-eventos-3a477abd71.png)
+
+![Registro Eventos](/media/manual/registro-eventos-6947fd78a3.png)
+
+![Registro Eventos](/media/manual/registro-eventos-ce85482e3c.png)
+
+![Registro Eventos](/media/manual/registro-eventos-dc8b7c0eb0.png)
+
+![6. Monitorizar](/media/manual/6-monitorizar-3151a49bdd.webp)
+
+![Registro Eventos](/media/manual/registro-eventos-044cbbfc80.png)
+
+![Registro Eventos](/media/manual/registro-eventos-1f746eb2b4.png)
+
+![Registro Eventos](/media/manual/registro-eventos-eba5d049fa.png)
+
+![Registro Eventos](/media/manual/registro-eventos-82abbb113f.png)
+
+![Estado Dispositivo](/media/manual/estado-dispositivo-0750f7a6ac.png)
+
+![Registro Tiempo Real](/media/manual/registro-tiempo-real-255f5590ca.png)
+
+![Estado Dispositivo](/media/manual/estado-dispositivo-5020cabddc.png)
+
+![Estado Dispositivo](/media/manual/estado-dispositivo-b16e8cca12.png)
+
+![Estado Dispositivo](/media/manual/estado-dispositivo-40ac7443ce.png)
+
+![Estado Dispositivo](/media/manual/estado-dispositivo-60473af666.png)
+
+![Estado Dispositivo](/media/manual/estado-dispositivo-5ff116e0f6.png)

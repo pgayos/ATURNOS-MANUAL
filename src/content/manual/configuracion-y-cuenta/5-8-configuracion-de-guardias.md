@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-8-configuracion-de-guardias/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-8-configuracion-de-guardias/
-  contentHash: 55987b62727c3e064c97470b5d139e87282f9f95ed873d528c4ed2447800ee39
+  contentHash: b9f814275f23b1d7a2c409ee235122e3f90f50c3dc7e7446beb0b6eccec4306d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,13 @@ Se selecciona el tipo de hora con el que automáticamente se ajusten aquellos ti
 Al activar esta opción, se automatizan los ajustes de las guardias localizadas.
 
 Se indica el número de días que tienen que pasar para ajustarse automáticamente las guardias localizadas.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.8 Configuración de guardias](/media/manual/5-8-configuracion-de-guardias-0b40732f17.webp)
+
+![5.8 Configuración de guardias](/media/manual/5-8-configuracion-de-guardias-1dd70a00ab.webp)
+
+![5.8 Configuración de guardias](/media/manual/5-8-configuracion-de-guardias-bf8fa91456.webp)

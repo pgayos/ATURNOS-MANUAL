@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/
-  contentHash: 23fcd02558c1b224b193f590b8e9a09a560ec5ee5b71a205135ffa13a5798066
+  contentHash: b3f0617b8a590bb76f90bd5a82236507b0fa798b9c8ad927de6b0cde86d9d4b8
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -77,3 +77,9 @@ Las opciones permitidas son:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.4 Nivel que puede cambiar la fecha de cierre del cuadrante](/media/manual/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante-73587c8b2e.png)

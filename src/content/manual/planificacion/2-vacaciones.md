@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-vacaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-vacaciones/
-  contentHash: 06a996db68c6f4468200cd8e5dab6825768bb4c8cce7f7f40d8efcc6ef3a95dc
+  contentHash: 3ca57c97f059e9a0f25fa3948da553721425e224d4d2a45b873982f8a99f8d71
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -82,3 +82,15 @@ El administrador del equipo desde Administrar → Ajustes puede configurar, a ni
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![.](/media/manual/vista-aturnos-b3fe93b8d1.webp)
+
+![¿Cómo puedo configurar que las Vacaciones sean Naturales o Laborables?](/media/manual/como-puedo-configurar-que-las-vacaciones-sean-naturales-o-laborables-a6c7da649e.webp)
+
+![Las vacaciones como un tipo de turno.](/media/manual/las-vacaciones-como-un-tipo-de-turno-332d125f86.webp)
+
+![.](/media/manual/vista-aturnos-2cc7ea0f3e.webp)

@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 8
+readingTime: 9
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets-2/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets-2/
-  contentHash: 0c0d9cbd5d71a01b7ac6312a7f8945b42c1a1e2fe3021157a908721ed98e8f3c
+  contentHash: ef99731c4df445b9c5b85e581b81b7c4be515c3520fdfa354db776913c5b1df6
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -163,3 +163,91 @@ Identificado como Trabajadores planificados sin fichaje hoy (Administrador total
 Identificado como Porcentaje de fichajes modificados (Administrador Validador).
 
 Para saber más sobre el resto de ‘widgets’, haz clic aquí.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-11a14dd054.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-7fb29c3621.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-0fb4da96b5.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-416cd18078.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-d2c9a23cd8.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-1ac811310b.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-dd3992ae72.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-08ff7783f9.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-36053f4f8a.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-85f1de65f0.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-97aea77621.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-28546fbeb3.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-41b494cdee.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-f3dfd42e84.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-9a5b623d84.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-45c7b9d1d2.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-d8c94b3f72.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-ed1b5248aa.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-635c083528.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-cb8ff96ad1.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-1c2153e0af.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-ba4c8111ba.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-3e209d27a3.webp)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-cb935de723.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-0bc2be4a1f.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-f7b8a65c8c.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-cdae424e34.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-d9e5cb2f89.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-35e69a4f98.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-302cf5bc77.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-49582179e9.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-36b25f6ce4.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-11f0b60c2c.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-7d53dd9105.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-be393aab38.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-2d3ced83b0.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-d14796480f.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-340a6dc985.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-3f6d965928.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-a6ac395a5a.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-053575394c.png)
+
+![1.3. Inicio 2 (Widgets)](/media/manual/1-3-inicio-2-widgets-c357635da0.png)

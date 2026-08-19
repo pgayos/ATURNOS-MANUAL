@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-4-anadir-insertar-modificar-y-cerrar-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-4-anadir-insertar-modificar-y-cerrar-fichajes/
-  contentHash: 56f808c50a95e637884107297917bd9225e1c66cb75c065afb8ed18a36c0ebba
+  contentHash: 871bcee2172de8250c5c1e971ebffb9adf6cc4fa3510f772c8556e288ae85511
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -97,3 +97,19 @@ Cerrar fichajes implica añadir una salida a una entrada, o viceversa. Los ficha
 Estos casos se pueden cerrar manualmente desde la función de ‘Insertar fichajes’.
 
 Si los trabajadores se olvidan de fichar la entrada o la salida, pueden realizar una petición de fichaje, la cual según la configuración del control de presencia (ver Ajustes de configuración ) puede necesitar la validación de un administrador (ver Peticiones de fichajes ).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/anadir-marcajes-6ebb1cda06.png)
+
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/anadir-marcajes-e38ba774a7.png)
+
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/insertar-o-modificar-marcajes-fe79415dd9.png)
+
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-9421c1e966.webp)
+
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-22fe4ecb01.webp)
+
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-46c34063e2.webp)

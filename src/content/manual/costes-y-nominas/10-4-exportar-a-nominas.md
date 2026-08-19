@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-4-exportar-a-nominas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-4-exportar-a-nominas/
-  contentHash: 308a95d772fa472819ced189ba69ce39dce9d461e1b7cbb637c66a9da5fd2116
+  contentHash: f5fbae038ee6bed9b9995ecdd8b381be8af475b041baf8b9b3a5a2f0f80c4650
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -80,3 +80,15 @@ Si para el cálculo de variables no se utilizan conceptos que operan entre ellos
 6.- Descargar el fichero en formato csv
 
 7.- Guarda el fichero generado
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10.4 Exportar a nóminas](/media/manual/10-4-exportar-a-nominas-030041f124.png)
+
+![10.4 Exportar a nóminas](/media/manual/10-4-exportar-a-nominas-60bbd3081b.png)
+
+![10.4 Exportar a nóminas](/media/manual/10-4-exportar-a-nominas-d61a30c3fc.png)
+
+![10.4 Exportar a nóminas](/media/manual/10-4-exportar-a-nominas-f7bc1147f4.png)

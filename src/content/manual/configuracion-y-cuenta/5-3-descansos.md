@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-3-descansos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-3-descansos/
-  contentHash: f02babd6bba904da0f3d158b2da6fb209cbfd4d65d7220224ad3d8e09583ce9c
+  contentHash: 50a6e2e8a67ad5fc8f50c577ba00d2f631f12d6956280e9f45c872323890f8d4
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -163,3 +163,37 @@ En situaciones donde un trabajador tiene un permiso por horas durante su jornada
 Si la opción no está activada, el tiempo que el trabajador fiche antes o después de su absentismo será considerado como tiempo presencial no trabajado, lo que implicará que el trabajador deberá recuperarlo en otro momento.
 
 Este ajuste asegura que los descansos sean correctamente contabilizados, incluso si se toman antes o después de un permiso, respetando siempre los derechos del trabajador.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.3 Descansos](/media/manual/5-3-descansos-d4481bb59b.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-3f63343b91.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-b8f04d2ff3.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-5887a1d51d.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-e17e3fc99c.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-6d2ce4c880.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-793f0a160d.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-0bfb828d74.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-c4a107e065.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-b8b5706853.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-a30f91368f.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-d424f3e0a1.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-c88170935d.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-40236b77cf.webp)
+
+![5.3 Descansos](/media/manual/5-3-descansos-f119a9bb4b.webp)

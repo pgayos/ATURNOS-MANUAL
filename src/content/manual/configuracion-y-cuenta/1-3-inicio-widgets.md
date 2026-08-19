@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 30
+readingTime: 32
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-3-inicio-widgets/
-  contentHash: fafb250b214722724d3c7982c8c21d57329dbb91714fa6c13e75f7e1b2e6f1c5
+  contentHash: 58c05533c5c6840ae8acb8c00cc57dd474f9fb2684ca5e144548a48cd3304354
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -479,3 +479,141 @@ Este widget muestra el balance con el número de horas computadas en el año (se
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b9bf201b55.webp)
+
+![⚙️ ¿Cómo se configuran los widgets?](/media/manual/como-se-configuran-los-widgets-0d4ef4c1e5.webp)
+
+![⚙️ ¿Cómo se configuran los widgets?](/media/manual/como-se-configuran-los-widgets-90286674fa.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-44061a99c4.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-ebd43ce9d2.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a2e2b5d8fa.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-27d1873a08.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-e61d8b0d64.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b1a151c142.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-3d91ff9a0d.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-36e75f1565.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-854d382799.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-0710a2fe49.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-5e7edf3760.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-c9ef9e2f71.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-5d2b456b91.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-8ed5f35840.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-5919adab96.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-eeeda36eb9.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-380d677624.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-e9b2b4b538.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-c5b21079a4.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-f2cacd48e0.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a37a65e250.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-04e5392bad.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-ed0bdb96c8.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-14613c9e65.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-cbdf4ec26b.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-14859887eb.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-029d6051c8.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-fafe3d285a.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b0d66cd2b0.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-91eda9bcb8.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-f8cefd7f48.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-eb98eb8aca.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-da452c9d1b.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-9ddbc70450.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-157e1c7931.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-86c39dde3c.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-6d08158fff.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-0be039b16a.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-0678a7ff48.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-bb2792eaba.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-455d7d21ee.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-df5aa43eee.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a1b1b67ed6.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-614adb0cf7.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-2d6e1e845c.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-726dc75574.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-f09f72c56d.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-59d82a3cb2.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b9b3090911.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-593342633c.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-2186557ddb.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-adeef4407b.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a299d652ea.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-f476308461.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-d2a9385ab1.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-37b0deb419.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-297f220869.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b795b0d879.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-07bc33d6cf.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b0ea6d434f.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-61dc8ab2b9.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-168e66f208.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-5bb31c7361.webp)
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-02cd912f74.webp)

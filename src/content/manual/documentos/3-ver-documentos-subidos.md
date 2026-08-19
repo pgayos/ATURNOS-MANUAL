@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-ver-documentos-subidos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-ver-documentos-subidos/
-  contentHash: 25a624b05d72c75b5933f06f21e70c6eb667f7f9fe359d37fa78a205e64ceaf6
+  contentHash: 5fa123728f09986e0ce0f32746da22f56efd1a1666c65d9e0693567c6f64d72c
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,13 @@ También se puede consultar desde el widget que aparece en la página de inicio.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Ver documentos subidos](/media/manual/3-ver-documentos-subidos-5f2758a3c0.webp)
+
+![3. Ver documentos subidos](/media/manual/3-ver-documentos-subidos-9757e69c91.webp)
+
+![3. Ver documentos subidos](/media/manual/3-ver-documentos-subidos-9fc1604868.webp)

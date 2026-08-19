@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/g-historial-de-ofertas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/g-historial-de-ofertas/
-  contentHash: 9078efb71beb6517db462686513c708e6cc8f657c9dd6c8916d893e4c4e3b682
+  contentHash: bcfb15dc788824060c35c41eb5b760b9ceb53e38f66d4d8f4dc83f3fe7ee114b
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -60,3 +60,9 @@ La fuente pública de **Historial de ofertas** contiene muy poca información te
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![g. Historial de ofertas](/media/manual/g-historial-de-ofertas-1f36b4998a.png)

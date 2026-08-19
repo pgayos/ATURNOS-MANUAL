@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/lanzar-ofertas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/lanzar-ofertas/
-  contentHash: 5d347c44270287f71a3fb5d72912f203b502a69ee9ba1182a17593b7fbc16bb7
+  contentHash: 5f4da54886c47c73bb4d1586adc323e4893323a275814e52028f751b4b0dc42f
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -65,3 +65,11 @@ A su vez podrá ver todos los candidatos que se han apuntado a la oferta y decid
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Lanzar ofertas](/media/manual/lanzar-ofertas-4ad22b72f9.png)
+
+![Lanzar ofertas](/media/manual/lanzar-ofertas-3b6b3ecb91.png)

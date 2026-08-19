@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-5-estado-y-ajustar-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-5-estado-y-ajustar-fichajes/
-  contentHash: 86ba9e874744bae607caa707d343872e1704b8b7a3fc8da8859fb73c8ab0cd96
+  contentHash: 217dd8af7561221142df7539125c096ef94655a84948f2321cd8fba3a155ff78
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -144,3 +144,45 @@ Por ejemplo, una trabajadora tiene un turno de 15:00 a 22:00 horas, pero por raz
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Acciones](/media/manual/ajustar-marcajes-3b8301a0da.png)
+
+![Estado](/media/manual/estado-319a0cd441.webp)
+
+![Estado](/media/manual/estado-f4ad39361b.webp)
+
+![Estado](/media/manual/estado-64d39a1a9f.webp)
+
+![Acciones](/media/manual/acciones-21c2f4720f.png)
+
+![Acciones](/media/manual/acciones-90ff156ead.png)
+
+![Estado](/media/manual/estado-b81df5ca58.webp)
+
+![Acciones](/media/manual/acciones-f460ad8396.png)
+
+![Acciones](/media/manual/acciones-0e92f522f8.png)
+
+![Acciones](/media/manual/acciones-edf7fa31e7.png)
+
+![Acciones](/media/manual/acciones-6801c8a9d7.png)
+
+![Acciones](/media/manual/acciones-d134533823.png)
+
+![Acciones](/media/manual/acciones-910a97ab45.png)
+
+![Acciones](/media/manual/acciones-c961b8291c.png)
+
+![Acciones](/media/manual/acciones-8fda3d2400.png)
+
+![Acciones](/media/manual/acciones-92963624ee.png)
+
+![Acciones](/media/manual/acciones-3a459727cd.png)
+
+![Acciones](/media/manual/acciones-066ec98744.png)
+
+![Acciones](/media/manual/acciones-141b68495f.png)

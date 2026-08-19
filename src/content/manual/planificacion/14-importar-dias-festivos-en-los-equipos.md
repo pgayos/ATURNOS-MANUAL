@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/14-importacion-de-festivos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/14-importacion-de-festivos/
-  contentHash: a505fde9f5e97387c295e50c95e809799679d843df9c60fd0811e75c78c685fe
+  contentHash: 7f5c175149e6ccfade8c4f21c7ca2b5b79ba9ff0df632813b128b4407e4e2a56
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -78,3 +78,11 @@ Guardar tu documento como formato tipo CSV.
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “Importar “.
 
 Termina de configurar la importación, asociando los campos del documento con los campos de aTurnos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![14. Importar días festivos en los equipos](/media/manual/14-importar-dias-festivos-en-los-equipos-26d66f59fa.png)
+
+![14. Importar días festivos en los equipos](/media/manual/14-importar-dias-festivos-en-los-equipos-279d61c5c0.png)

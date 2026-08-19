@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-5-historial-de-cambios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-5-historial-de-cambios/
-  contentHash: c3c36dbf70b6cd8a6d71bd79508cd0452de18ff3377812d5c18c1a60f9b20879
+  contentHash: b336096ef6ac1069d118558904b03468eb11e711effc41d60f4166897a9a4f81
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -60,3 +60,9 @@ La fuente pública de **Historial de cambios** contiene muy poca información te
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.5 Historial de cambios](/media/manual/2-5-historial-de-cambios-772ab672a0.webp)

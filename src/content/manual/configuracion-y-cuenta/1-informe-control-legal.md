@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-informe-control-legal/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-informe-control-legal/
-  contentHash: a7de6131cbf8a700f297635ec79e63951abd9c9bb8eb74ac36b9795334cc1f25
+  contentHash: 030a48f0bdea7216fdb93d4530777316c0e359d5c5ade8396b49eb581ecc8b2e
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -110,3 +110,25 @@ Esta variable muestra lo mismos datos del informe de ‘ → 5 hrs fichadas sin 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![<4 hrs trabajadas sin absentismo](/media/manual/4-hrs-trabajadas-sin-absentismo-4e1273f0db.webp)
+
+![>50 hrs L D](/media/manual/50-hrs-l-d-9b780225e5.webp)
+
+![Entre fichajes <2 hrs](/media/manual/entre-fichajes-2-hrs-b4efb9e53c.webp)
+
+![>6 días seguidos](/media/manual/6-dias-seguidos-59b0ef92b9.webp)
+
+![>9 hrs trabajadas](/media/manual/9-hrs-trabajadas-73cd02a7ee.webp)
+
+![>60 hrs max semana](/media/manual/60-hrs-max-semana-ac06ee144c.webp)
+
+![>7 días seguidos](/media/manual/7-dias-seguidos-af7093ab78.webp)
+
+![Descanso anulado](/media/manual/descanso-anulado-aad8a5f61a.webp)
+
+![>8 hrs trabajadas (nocturnas)](/media/manual/8-hrs-trabajadas-nocturnas-2539389307.webp)

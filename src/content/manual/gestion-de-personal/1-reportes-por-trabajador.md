@@ -53,7 +53,7 @@ migration:
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-6-reportes-por-trabajador/
     - https://manual.aturnos.com/knowledgebase/b-reportes-por-trabajador/
-  contentHash: c77ab1a2b3286a40ded9959aacd32dec5ef776b2c151b2ffd9ff8a081e63b542
+  contentHash: 76b2e543de994c81d0e7970fe9b552e5a6c99308c11cd66e98612df98d1c1fb2
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -155,3 +155,21 @@ Pasado unos minutos, el sistema consigue generar el reporte solicitado. El propi
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Reportes por trabajador](/media/manual/1-reportes-por-trabajador-34cc561628.png)
+
+![1. Reportes por trabajador](/media/manual/1-reportes-por-trabajador-372ac32178.png)
+
+![3.6 Reportes por trabajador](/media/manual/3-6-reportes-por-trabajador-665c8dd08d.png)
+
+![Listado de variables del reporte](/media/manual/listado-de-variables-del-reporte-ea3fb9418a.png)
+
+![3.6 Reportes por trabajador](/media/manual/3-6-reportes-por-trabajador-1d2a00c35a.png)
+
+![Listado de variables del reporte](/media/manual/listado-de-variables-del-reporte-cd6ef3729e.png)
+
+![1. Reportes por trabajador](/media/manual/1-reportes-por-trabajador-e21bb5dad8.png)

@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/l-dividir-turno/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/l-dividir-turno/
-  contentHash: ee2587e0844d07463d23fd2bdad522898d3c065fca8a78bfc7c6fd44e4e1f343
+  contentHash: 7f6e3918a2aa945a163934c8a3dd38f250e58815d9c72afd7f250f76aa9f2c6b
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -60,3 +60,9 @@ La fuente pública de **Dividir turno** contiene muy poca información textual. 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![13. Dividir turno](/media/manual/13-dividir-turno-9d2b058c36.png)

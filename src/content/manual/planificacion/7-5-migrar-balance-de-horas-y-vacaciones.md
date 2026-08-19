@@ -45,7 +45,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 7
 featured: false
 migration:
   sourceCount: 1
@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/
-  contentHash: 26b423f3337a0eef8e5cc363abaf21cd92c6eaa936e5d23d416fb6cf1fda8155
+  contentHash: 96f28bc89d84760bab86b617d0397573f0d48215c6c34996cd49712aa6b527e7
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -135,3 +135,43 @@ Este ajuste se puede ver con más detalle, desde el botón de añadir ajustes.
 Como en los ajustes del año 2024, destino del balance.
 
 Detalle del ajuste en el año destino, desde el botón de añadir ajustes.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Migrar balance de horas](/media/manual/migrar-balance-de-horas-0f0265c455.png)
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-f07f21197b.png)
+
+![Migrar balance de horas](/media/manual/migrar-balance-de-horas-90552a3efa.png)
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-37883e7812.png)
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-217082f59a.png)
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-d1b95582d1.png)
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-616913c342.png)
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-ca5cefff0b.png)
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-dd1bf3af58.png)
+
+![Migrar balance de vacaciones](/media/manual/migrar-balance-de-vacaciones-329adc300f.png)
+
+![Migrar balance de vacaciones](/media/manual/migrar-balance-de-vacaciones-ecec7bc90f.png)
+
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-515b1d78a6.png)
+
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-09d223e9fa.png)
+
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-537e7a8339.png)
+
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-5bc4a0b830.png)
+
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-cd7e53d031.png)
+
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-4b3f280d40.png)
+
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-be3f6365de.png)

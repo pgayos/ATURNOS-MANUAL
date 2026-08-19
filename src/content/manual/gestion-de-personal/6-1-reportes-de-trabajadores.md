@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-1-reportes-por-trabajadores/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-1-reportes-por-trabajadores/
-  contentHash: 0f21e55c453e6be4cb098d055e46c87722cd016c575f67f713997dc07daf2006
+  contentHash: 57780adacf54f24ca322f0c5eb60c806db5ecc0fde2f2050151f2677f4c9a385
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -176,3 +176,25 @@ Variable Calidad del fichaje
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Barra superior](/media/manual/barra-superior-f3bd99340b.webp)
+
+![Barra superior](/media/manual/barra-superior-3d3147d38a.webp)
+
+![Barra superior](/media/manual/barra-superior-ce53fa76c9.webp)
+
+![Barra superior](/media/manual/barra-superior-0f74fb22fc.webp)
+
+![Barra superior](/media/manual/barra-superior-ca91a9f6b1.webp)
+
+![Barra superior](/media/manual/barra-superior-ac9a75a46b.webp)
+
+![Barra superior](/media/manual/barra-superior-2aa5d6d73a.webp)
+
+![Barra superior](/media/manual/barra-superior-61585fbb59.webp)
+
+![Barra superior](/media/manual/barra-superior-df747c21ce.png)

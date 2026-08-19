@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-borrar-patron/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-borrar-patron/
-  contentHash: af96bf43870824ad21f2082ebf6286b0101940e3867750a00046f14c7788dec2
+  contentHash: 30f72286a73ea8d4f26bbd1512918a799a44fc6c586608f324ab10a8deb0f769
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -56,3 +56,9 @@ Por diferentes circunstancias, puedes dejar de usar algún patrón de turnos. Re
 Una vez estés seguro de eliminar el patrón, tienes que hacer clic en el icono borrar “papelera “, el sistema te consulta si realmente deseas eliminar el patrón. Si haces clic en “eliminar”, se borra el patrón del listado. Debes asegurarte al realizar de esta acción, ya que posteriormente, una vez eliminado, no se puede restablecer.
 
 Si dicho patrón ha sido utilizado para planificar turnos en el cuadrante, la planificación del cuadrante no se modifica, es decir, los turnos planificados en el cuadrante son independientes del patrón origen.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Borrar patrón](/media/manual/4-borrar-patron-bd87aa08a6.png)

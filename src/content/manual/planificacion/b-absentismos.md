@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/b-absentismos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/b-absentismos/
-  contentHash: 4c681a9fefd36352dc2cd1b1284cb2b8f3fa7bf425792dc276114e8a72b6b848
+  contentHash: 76cced8e3062552558a7de03e92528587f7163c2d6928173cffd6a762f36f485
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,11 @@ Se mostrará un modal en el cual se debe informar la siguiente información:
 - Petición, para que el absentismo esté disponible para ser solicitado mediante una petición por los trabajadores.
 
 Se pueden crear ‘Nuevos datos’ con nueva fecha de modificación en tipo de absentismo, puede ser que, en el permiso de día de mudanza, la empresa lo consideraba y lo tenía informado como justificado productivo, incluyendo plus de festividad y nocturnidad, y por decisión de la empresa, se cambiará, para que a partir de una determinada fecha sea productivo, pero no incluye plus de festividad y nocturnidad. Será a partir de la fecha informada en ‘Entrada en vigor’ cuando este permiso cambia de tipo de productividad.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![b. Absentismos](/media/manual/b-absentismos-d0cd056ddb.webp)
+
+![b. Absentismos](/media/manual/b-absentismos-1d394f2dcf.png)

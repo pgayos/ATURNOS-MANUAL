@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-anadir-turnos-a-todos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-anadir-turnos-a-todos/
-  contentHash: 3f51137b53780b69ae1a73ea8320ce131f1d534ff0ba0a9beb2e6ea5057f5383
+  contentHash: 5e1d29571efac692227e3d1471adad0f6814274b44529bd439e27573be812d78
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -65,3 +65,11 @@ En los casos donde se necesite planificar a un grupo de trabajadores, se puede u
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Añadir turnos a todos](/media/manual/1-anadir-turnos-a-todos-2e25b330f2.webp)
+
+![1. Añadir turnos a todos](/media/manual/1-anadir-turnos-a-todos-14ae898ee2.webp)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-importar-turnos-al-trabajador-con-localizacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-importar-turnos-al-trabajador-con-localizacion/
-  contentHash: d13801c54e9cb6721217d06ee89377bec704ea5879ba0333b97db6e0b2435a39
+  contentHash: 8dc74b4a442ba93636f3bb60678afebc4c9d1e00722bae1e32ceff7deb7f3a0b
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,11 @@ CSV Tipos de turnos
 Guarda el documento como formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “Importar “.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Importación turnos al trabajador con localización](/media/manual/2-importacion-turnos-al-trabajador-con-localizacion-454da64fd6.png)
+
+![2. Importación turnos al trabajador con localización](/media/manual/2-importacion-turnos-al-trabajador-con-localizacion-673750bb96.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-usuarios-en-biostar2/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-usuarios-en-biostar2/
-  contentHash: 025e9c63b7ecc4d001052aadd3bbedd3f2692a68869321eee89d1943184fa228
+  contentHash: 2beec8f77e141a2866444d4af70a3c4fff2087ed8fa471693408f8570aac4af7
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -196,3 +196,67 @@ Siempre seleccionando la opción “Reemplazar usuarios con información diferen
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Nivel de perfiles y permisos de usuario](/media/manual/instalacion-de-dispositivo-usb-6a7420c885.webp)
+
+![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-f9be4d5bd7.png)
+
+![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-dcf4297964.png)
+
+![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-c2dc29b3f8.png)
+
+![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-058a844a24.png)
+
+![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-9fb323a907.png)
+
+![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-f73b760b50.webp)
+
+![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-f7cf5ac1d9.png)
+
+![Recogida de huellas](/media/manual/recogida-de-huellas-8f7bbdd0a4.webp)
+
+![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-a4889c9c17.webp)
+
+![Recogida de huellas](/media/manual/recogida-de-huellas-58e0195279.webp)
+
+![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-96392212c0.webp)
+
+![Recogida de huellas](/media/manual/recogida-de-huellas-d57ca9f97e.webp)
+
+![Recogida de huellas](/media/manual/recogida-de-huellas-25dc812051.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-ab7395b83b.png)
+
+![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-c3ae737cf3.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-2fa95fd160.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-3713020ca6.png)
+
+![Recogida de huellas](/media/manual/recogida-de-huellas-b99641edaf.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-3c660217da.png)
+
+![Recogida de huellas](/media/manual/recogida-de-huellas-eb275045ff.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-d69aa9c9f3.png)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-e8a27ef195.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-681d24417a.png)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-4574a888b2.webp)
+
+![Recogida de huellas](/media/manual/recogida-de-huellas-7a73e319e0.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-3aff733d77.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-a0a935c02f.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-c8dba9a6d7.webp)
+
+![Registrar tarjeta](/media/manual/registrar-tarjeta-29c6b5e1d3.png)

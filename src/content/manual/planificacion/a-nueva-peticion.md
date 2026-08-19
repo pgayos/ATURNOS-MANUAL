@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-5-1-nueva-peticion-y-filtro/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-5-1-nueva-peticion-y-filtro/
-  contentHash: cd3d1d63e59fcfde4e7842d31fbca79f3bdb854daa658b7443ec588b0f209ad9
+  contentHash: dbcdd45a6e1392e24713c9290fb524264e164c0b5a807d093929d5c8628fa2b2
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -136,3 +136,13 @@ En la barra situada en parte superior derecha, tendremos la opción de filtrar p
 ¿Qué ocurre si se aceptan peticiones de vacaciones tipo laboral y no existe planificación en el cuadrante?
 
 ¿Cómo deshacer una petición ya aprobada?
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo realizar una petición desde aTurnos?](/media/manual/como-realizar-una-peticion-desde-aturnos-9c966e2381.png)
+
+![Más detalles sobre peticiones en aTurnos:](/media/manual/mas-detalles-sobre-peticiones-en-aturnos-9de923a2f8.png)
+
+![¿Cómo puedo filtrar las peticiones?](/media/manual/como-puedo-filtrar-las-peticiones-5c128a7157.png)

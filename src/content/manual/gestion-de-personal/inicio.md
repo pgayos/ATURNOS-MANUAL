@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/inicio/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/inicio/
-  contentHash: 3efeb444df7cbccb5e5f193486845111092f8d09c4ffbbf91c2d984e3413d710
+  contentHash: 3058f8ba0dd38a1a16f4493a2eb562b511cc8fc31c0d1b247db6f19172999c2c
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -87,3 +87,11 @@ Estos widget aparecerán en función de la configuración que se ha realizado pr
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Inicio sesión y equipo](/media/manual/1-inicio-sesion-y-equipo-b24718a11b.png)
+
+![2. Widgets](/media/manual/2-widgets-3c3f347957.png)

@@ -61,7 +61,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-3-cierre-por-empleado/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-3-cierre-por-empleado/
-  contentHash: 1301ed74aed71f74da40b94cf7582b75cf13e5fb3388bfe42fc522324df7ed76
+  contentHash: 6807112e5e21f1522b8769bbcc23cba980254149cca14532244ed4eb2b356c2d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,9 @@ Aprende a cierre por empleado, fecha de validación y último día exportado (po
 Cuando se precise cerrar el cuadrante y/o validar, así como modificar la fecha de exportación de la nómina (en el caso de que sea necesario realizar una nueva descarga), desde RRHH → NOMINAS → CIERRE POR EMPLEADO, se accede al menú, donde seleccionando el equipo o equipos se visualiza las fecha de cierre del cuadrante y la fecha de validación de todos los trabajadores de los equipos seleccionados.
 
 Seleccionando la opción (cerrar cuadrante, validar cuadrante o fecha de exportación) aparece un submenú donde informar la nueva fecha.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10.3 Cierre por empleado, fecha de validación y último día exportado (por trabajador)](/media/manual/10-3-cierre-por-empleado-fecha-de-validacion-y-ultimo-dia-exportado-po-c60ec576ce.png)

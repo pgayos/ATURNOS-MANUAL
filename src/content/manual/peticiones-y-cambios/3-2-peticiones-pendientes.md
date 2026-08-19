@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-2-peticiones-pendientes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-2-peticiones-pendientes/
-  contentHash: 05a89a54617ab2f3729eafa896fc021b7747027ab68f5d33bbb66620096610d8
+  contentHash: ac945f61321f299e719cf9914ceda7b36ba6292e0b2552026d0a7f04fa3799e4
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -72,3 +72,9 @@ Las peticiones de fichajes pueden ser configuradas para ser aprobadas automátic
 Si el administrador quiere aceptar la petición de los fichajes del trabajador, tendrá que hacer clic en el botón de validación.
 
 Si por el contrario lo que quiere es rechazar o denegar la petición, deberá pulsar sobre este botón.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3.2 Peticiones pendientes](/media/manual/3-2-peticiones-pendientes-e126e9329c.png)

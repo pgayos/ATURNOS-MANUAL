@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/22-importar-acumulado-ano-anterior/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/22-importar-acumulado-ano-anterior/
-  contentHash: 8192fba10892df733696df97c1071491a2bd460b39c12633e5c8fdcc841aad4d
+  contentHash: bb513d2689a74a6959ddf273f3dcad59f0c48d38555561e0c87196a9413988b6
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,11 @@ Una vez se ha creado o completado el archivo, guardar tu documento como formato 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
 
 A continuación, se hace la importación del fichero a aTurnos y se asociará los conceptos de las columnas del fichero con los campos existentes en aTurnos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![22. Importar acumulado año anterior (Timecard)](/media/manual/22-importar-acumulado-ano-anterior-timecard-6d5aee1a60.png)
+
+![22. Importar acumulado año anterior (Timecard)](/media/manual/22-importar-acumulado-ano-anterior-timecard-283b74956e.png)

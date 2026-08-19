@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-5-4-cambios-pendientes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-5-4-cambios-pendientes/
-  contentHash: a60ebe8e3611e8212f55576e4368cb59da9f90a426a6aced3b0fdbb620dc2f3b
+  contentHash: 03ad998efbd0ddc82abf50f9a0f282a65d71b4419fd5937a86058e455f4d8277
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -73,3 +73,9 @@ En Administrar → Ajustes → Cambios se pueden definir la configuración de lo
 6. Finalmente, el cambio aceptado se reflejará en el cuadrante, sobre el día y en los trabajadores en cuestión.
 
 ¿Qué es un cambio de turno y cómo hacer un cambio de turno?
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![c. Cambios pendientes](/media/manual/c-cambios-pendientes-61616d06ef.png)

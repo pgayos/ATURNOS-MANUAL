@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-tiempos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-tiempos/
-  contentHash: f8cf787e8e5743bafda5feb2f631a56f8a1a19fe2bfa3b759d9339194e55e28e
+  contentHash: 1e72c834dd8b9444cd819de9e6bd725f20278ad08a7ff7490b76483bf3cfa752
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -163,3 +163,21 @@ Dos formas de acceder al cálculo estimado, en el perfil del trabajador
 o a través del cuadrante
 
 - ¿Cómo se realiza el cálculo estimado?
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Vacaciones](/media/manual/vacaciones-8a8dc1911b.png)
+
+![Horas](/media/manual/horas-b482cb3318.png)
+
+![¿Cómo se realiza un ajuste de horas?](/media/manual/como-se-realiza-un-ajuste-de-horas-bd1e27bc3f.png)
+
+![Horas](/media/manual/horas-a8b4643778.png)
+
+![Horas](/media/manual/horas-69b80ed8b9.png)
+
+![Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-4512076862.png)
+
+![Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-84f5c0f5be.png)

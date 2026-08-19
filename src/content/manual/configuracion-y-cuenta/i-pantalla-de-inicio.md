@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/h-pantalla-de-inicio/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/h-pantalla-de-inicio/
-  contentHash: 47f1b9d77f321333e9811e38b42794328653f860fe2708dbf6185e51e885c249
+  contentHash: 2bab3cd299f0c0613b05cb8efd9c040989f3d8084bdaf1115b8d1fc0a583d44d
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -76,3 +76,11 @@ Cada proceso está descrito de forma breve, indicando qué es, cómo acceder y l
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![i. Pantalla de inicio](/media/manual/i-pantalla-de-inicio-c34b72d6eb.png)
+
+![Guías de inicio](/media/manual/guias-de-inicio-3b0b33a9fa.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-cargar-la-demanda/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-cargar-la-demanda/
-  contentHash: abb1c73d622386ab7c87c87650a1b9b4538d008e478f089057b09a6a57c2c7ee
+  contentHash: 24db1753271aef98b88b08937a125571934a3ff110fffd02ed2e1a420ea1a342
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -106,3 +106,17 @@ Este proceso de carga también se puede hacer mediante la importación de un arc
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-9b820218bc.webp)
+
+![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-a7d5ffe617.png)
+
+![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-652bfe3a96.webp)
+
+![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-a0c21429f5.webp)
+
+![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-575e2794e1.webp)

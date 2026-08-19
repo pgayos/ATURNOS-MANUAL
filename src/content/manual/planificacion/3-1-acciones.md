@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-1-acciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-1-acciones/
-  contentHash: 4afa0d20ab104df094aba124f705fb0de2793b10a9181ab7d433ccfaa29bf641
+  contentHash: bf3dc5b8f8d3d32cbe2015e28e9c88450f1806b0b313a07eb1256783e38f28ca
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -60,3 +60,9 @@ Como trabajador accederá al registro, a modo de tabla, de las acciones en la qu
 Para poder tener la información más ordenada hemos creado ámbitos para buscar más rápido dentro de todas las acciones que pueden existir. Por ejemplo, si afecta al cuadrante, a los marcajes, a la planificación, a cambios de turnos en la que te encuentras implicado como trabajador.
 
 También existe la posibilidad de exportar esta información como archivo CSV o Libro de Excel.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3.1 Acciones](/media/manual/3-1-acciones-ea07f53e9d.png)

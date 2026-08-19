@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-7-estadistica-todos-los-equipos-diaria/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-7-estadistica-todos-los-equipos-diaria/
-  contentHash: 7d2ddf89102b0f1084ad25d24c61d77d8face5108e7be82cc2a42cc95feea052
+  contentHash: f53074ed6861934ffa0ec59135b431013c66f383377c935cd55e1d279095a4d4
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -104,3 +104,17 @@ Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística.
 6.- En el reporte con el tipo de descarga: estadística diaria sin totalizar se visualiza el valor diario de los conceptos 3K00 o 3000 atendiendo al número de horas nocturnas realizadas cada día.
 
 7.- En el reporte con el tipo de descarga: estadística diaria totalizada se visualiza el valor totalizado de los conceptos 3K00 o 3000 atendiendo al número de horas nocturnas realizadas cada día.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.6 Estadística diaria de todos los equipos](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
+![6.6 Estadística diaria de todos los equipos](/media/manual/6-1-estadistica-por-periodo-fee9586091.png)
+
+![6.6 Estadística diaria de todos los equipos](/media/manual/7-1-estadistica-diaria-96c5670b0e.png)
+
+![6.6 Estadística diaria de todos los equipos](/media/manual/7-1-estadistica-diaria-4705cbf9f3.png)
+
+![6.6 Estadística diaria de todos los equipos](/media/manual/6-6-estadistica-diaria-de-todos-los-equipos-5433b7c885.png)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/21-importar-fichajes-control-de-presencia/
-  contentHash: 99e5bb30070e618e5d050dc3f9129407a51aa9239a4fb83ef1f6810310acf71b
+  contentHash: 57ad079b5f9871410e21b1369d54b28cb60b4542309f19001aa30110e7f8c2e1
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,11 @@ Una vez se ha creado o completado el archivo, guardar tu documento como formato 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
 
 A continuación, se hace la importación del fichero a aTurnos y se asociará los conceptos de las columnas del fichero con los campos existentes en aTurnos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![21. Importar fichajes de trabajadores](/media/manual/21-importar-fichajes-de-trabajadores-8cb74dcad3.png)
+
+![21. Importar fichajes de trabajadores](/media/manual/21-importar-fichajes-de-trabajadores-ee91e60971.webp)

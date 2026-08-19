@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-menos-de-12-hrs-entre-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-menos-de-12-hrs-entre-fichajes/
-  contentHash: 19c497a0b13c4fd076d8aa0679bd3bb48c00abd28a1b51bab3883b907e7654ed
+  contentHash: 855b50222f88dbea043e68613483f323603d67a2a098366640178384b5326bce
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -71,3 +71,13 @@ El reporte informa:
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
 
 Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Menos de 12 hrs entre fichajes](/media/manual/2-menos-de-12-hrs-entre-fichajes-69faec4d27.webp)
+
+![2. Menos de 12 hrs entre fichajes](/media/manual/2-menos-de-12-hrs-entre-fichajes-50a37623c4.webp)
+
+![2. Menos de 12 hrs entre fichajes](/media/manual/2-menos-de-12-hrs-entre-fichajes-4ceaa11814.webp)

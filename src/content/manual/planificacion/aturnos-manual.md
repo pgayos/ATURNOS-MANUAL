@@ -165,7 +165,7 @@ migration:
     - https://manual.aturnos.com/documentation/employees-guide/requests/
     - https://manual.aturnos.com/documentation/employees-guide/shift-swaps/
     - https://manual.aturnos.com/documentation/what-is-aturnos/
-  contentHash: 50770714463a782290761e245a01332abf36ed38a371ae3c53bbc3482db4275b
+  contentHash: 217067e952a82e79ae5e1ce8abaa2e4a8c3265436477076e88e132ca4e0a7f2d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -186,3 +186,21 @@ aTurnos is a very useful managing tool. We will introduce you to this tool with 
 9. HH.RR. This is an advance tab, and it is dedicated to HR processes. This tab involves the company’s structure, payrolls, statistics, planning, etc.
 
 We remind you that aTurnos can do much more! You can visit our website to learn more, and if you are interested in hiring aTurnos, write an email to administracion@aturnos.com
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![What is aTurnos?](/media/manual/what-is-aturnos-887fdfbadb.webp)
+
+![What is aTurnos?](/media/manual/what-is-aturnos-1ef785f084.webp)
+
+![What is aTurnos?](/media/manual/what-is-aturnos-60ed3c3904.webp)
+
+![What is aTurnos?](/media/manual/what-is-aturnos-6fb59dc028.webp)
+
+![What is aTurnos?](/media/manual/what-is-aturnos-f9872910d5.webp)
+
+![What is aTurnos?](/media/manual/what-is-aturnos-f3485dbfa4.webp)
+
+![What is aTurnos?](/media/manual/what-is-aturnos-21a59959e2.webp)

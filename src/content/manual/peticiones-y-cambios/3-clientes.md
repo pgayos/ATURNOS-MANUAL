@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-clientes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-clientes/
-  contentHash: 764db46f4c67885011d8759f1bad862e0f307b2e19ce4575f22eb25ef8aae365
+  contentHash: aefe923ea2093ee66323bc81cdd6f60fe152e9e9bb13de842b6c3533d9e6a6a4
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -67,3 +67,13 @@ Puedes también seleccionar la cantidad de Clientes que quieres visualizar en la
 En el Icono de “Ocultar “: podrás ocultar o mostrar nuevamente alguna de las columnas mencionadas previamente.
 
 En el icono de “Acciones”: te permite exportar los datos del listado en un formato PDF, CSV o Excel, así como copiarlo para que luego procedas a pegar los datos en el archivo que desees.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Clientes](/media/manual/3-clientes-93b163d7e5.png)
+
+![3. Clientes](/media/manual/3-clientes-c19b2151ee.webp)
+
+![3. Clientes](/media/manual/3-clientes-991458a624.webp)

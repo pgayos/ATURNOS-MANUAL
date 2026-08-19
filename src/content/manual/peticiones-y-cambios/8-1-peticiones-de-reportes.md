@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/12-peticiones-de-reportes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/12-peticiones-de-reportes/
-  contentHash: 20ef3f0ec98ab87709cfb2579d3d304b04a4e202deeb10fe9291d824dfcf540d
+  contentHash: 1793ff35fa1eb3b977d95a46ae2f010f69f16c9495ab7f73797d037c408017a9
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -61,3 +61,9 @@ En el momento que se genera un reporte solicitado y está pendiente de consultar
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![8.1 Peticiones de reportes](/media/manual/8-1-peticiones-de-reportes-02c4fa2334.png)

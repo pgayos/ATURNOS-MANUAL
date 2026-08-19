@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-11-externos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-11-externos/
-  contentHash: 94ddf249ec47e8882ae7dbd222144c82e0f5847f85e60976f6f67d2ee31acdd8
+  contentHash: 46c0b64e41b9298d76b17e43d57b08246b64a28cd14b9c4fa126a988d26701e7
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -85,3 +85,15 @@ Al acceder un usuario con rol externo a un equipo de trabajadores, tiene permiso
 2. Cuadrante anual: puede visualizar la planificación asignada en el año de cualquier trabajador del equipo.
 3. Trabajadores: puede visualizar el listado de trabajadores del equipo. Opcionalmente, según permisos del equipo, puede tener la información de contacto de los trabajadores (teléfono de contacto y/o mail).
 4. Control de presencia: puede visualizar el listado de marcajes de los trabajadores en el periodo de tiempo que se determine. Consultando el nombre del trabajador, hora de marcaje, si este ha sido una entrada o salida, localización, tipo de marcaje…
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.11 Externos](/media/manual/7-11-externos-f7ea6af3a6.png)
+
+![7.11 Externos](/media/manual/7-11-externos-29c1142e15.png)
+
+![7.11 Externos](/media/manual/7-11-externos-18e10d6a8a.png)
+
+![7.11 Externos](/media/manual/7-11-externos-697c0d3ea4.png)

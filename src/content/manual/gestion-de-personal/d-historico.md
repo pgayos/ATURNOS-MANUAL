@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/d-historico-sustituciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/d-historico-sustituciones/
-  contentHash: ec68fb19de6d35e194d58eaa66fcc9abe065eeca321cd4231672d1fc82f68d2a
+  contentHash: 3f641c5fb2d528b35f30c218c5694ee82f66015c1dd2a96d6e5d4701a339ba79
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -65,3 +65,9 @@ En esta pestaña mostrará el listado mediante los siguientes campos que te expl
 - Desde: muestra la fecha de comienzo del periodo a través del cual se aplicó la sustitución sobre el trabajador.
 - Hasta: muestra la fecha de finalización del periodo en el que se aplicó la sustitución al trabajador.
 - Fecha: indica la fecha en la cual surte efecto la acción de sustitución por parte de un determinado usuario del equipo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![d. Histórico](/media/manual/d-historico-78337536c9.webp)

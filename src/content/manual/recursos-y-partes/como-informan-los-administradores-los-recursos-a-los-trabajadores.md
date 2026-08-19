@@ -43,7 +43,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/funciones-del-administrador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/funciones-del-administrador/
-  contentHash: fe117b02c5377d33e0cfaaf73f4eeaf80a6d737c2392c0358efb513929c98c49
+  contentHash: d5e30ebfeb8b04a6d6a933c92f7a3ceb8f3204fbbda9367e126c0e2897e0b8f3
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -78,3 +78,15 @@ El administrador de aTurnos dispone de herramientas en el cuadrante para “Copi
 Y marca al trabajador y día al que se va a copiar los Recursos
 
 4.- Importar los recursos tal y como se indica en el Manual para la importación de Recursos
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-60f7a7bb80.png)
+
+![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-1d8cf7f225.png)
+
+![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-5f1e6b8438.png)
+
+![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-9245015f47.png)

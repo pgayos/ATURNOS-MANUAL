@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-sustituciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-sustituciones/
-  contentHash: 6607ff41d64769cd2d41b6eca8bd86215a403892fac42a16b186187c0c2d064c
+  contentHash: 2517704a7281be4ca7240b9b60074068ebd8537672ee7058742c95f9b42de393
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,9 @@ Todas las acciones y el funcionamiento, se explican en el siguiente enlace: Sust
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6. Sustituciones](/media/manual/6-sustituciones-5fa700007c.webp)

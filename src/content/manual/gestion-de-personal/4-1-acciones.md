@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-1-acciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-1-acciones/
-  contentHash: 458774f726e704a226dcef30c47fcbac180e88911cb81bff26e3392c5f93a459
+  contentHash: 03e74a7998c1a35c3b19993f8c3b083c728105b870f736c880d833b89dfcc04c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -78,3 +78,9 @@ Desde esta ventana se muestra:
 – Exportar: También existe la posibilidad de descargar (en CSV o Excel) la información deseada para su posterior estudio o tratamiento.
 
 La descripción de las acciones en algunos casos aparece en inglés, debido a que es extraída directamente desde la BBDD de aTurnos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.1 Acciones](/media/manual/4-1-acciones-18e6b53d60.webp)

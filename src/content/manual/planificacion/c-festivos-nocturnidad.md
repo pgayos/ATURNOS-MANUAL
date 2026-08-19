@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-3-festivos-nocturnidad/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-3-festivos-nocturnidad/
-  contentHash: 9868fe2be1c05c5db667c7c4b26f28489d83f5674f157105926908377e4dd102
+  contentHash: c32ef926bdc669484f65a304b9442ce562c20cc6ee9b273347452e1f77e740ce
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -94,3 +94,9 @@ Las estadísticas de Festivos y Nocturnidad, se nos representan según los filtr
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![c. Festivos & Nocturnidad](/media/manual/c-festivos-nocturnidad-74b98adef7.png)

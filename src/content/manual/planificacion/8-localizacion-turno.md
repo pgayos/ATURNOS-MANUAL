@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/g-localizacion-turno/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/g-localizacion-turno/
-  contentHash: 4a8d3950279725f756e3c8068eff1f58e0b937d2de215e61e0e86919143da6dc
+  contentHash: db552b8d3391f06051d037bc09100a496b2a98d4c6ce8d711938352f8e0faeb7
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -64,3 +64,9 @@ La opción de Localización turno se utiliza para insertar una localización en 
 - Asignar localización a un turno: el modal te ofrece la opción de “Buscar” la localización que necesitas y/o debajo de esa opción aparecerán todas las localizaciones que tienes creadas y que podrás asignar al turno, haz clic en la localización que deseas añadir (si ya existe una previa, se borrará y se insertará la nueva automáticamente).
 
 Para crear una localización hay que acceder al menú Administrar → Localizaciones → Añadir.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![8. Localización turno](/media/manual/8-localizacion-turno-6ade4a6e91.png)

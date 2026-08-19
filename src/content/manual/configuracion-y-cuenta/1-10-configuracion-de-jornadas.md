@@ -35,7 +35,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 4
+readingTime: 5
 featured: false
 migration:
   sourceCount: 1
@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-10-jornadas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-10-jornadas/
-  contentHash: 1449a85b3c21aed7cf31594dd840617ded97b956fc98fe8ab4400374de39a886
+  contentHash: 159a10840725f74d5826f90b2d9d107236f4a3bd9efc89d3f1a9dc6753ddf9f3
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -98,3 +98,15 @@ En este ejemplo, se considerará jornada nocturna siempre que se superen los 30 
 - El 15/07/2022 solo tiene 29 minutos en periodo nocturno (tiene un absentismo no justificado desde las 22:00 a las 07:31), el número de jornadas nocturnas es cero.
 
 Los valores se expresan en centesimal no en horas.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-547d1a06f0.png)
+
+![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-84d10ce463.png)
+
+![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-10bad17aee.png)
+
+![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-9a47f2decd.png)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-diario/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-diario/
-  contentHash: e18228a5c2e1821f0cb6a5a0af0d9644e0d17868d0cedb2ebe5d07232033b8f9
+  contentHash: eaf79ca2287d9d49a4f14c200fc3ae96115e3ce81617753b7c255022b8cc3826
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -97,3 +97,19 @@ En ocasiones puede haber errores en el registro de los fichajes del control de p
 Se desplegará un modal con los fichajes de ese día, haciendo clic sobre el día, se puede modificar tanto la fecha, como la hora.
 
 Para realizar la petición, una vez modificada la hora del fichaje, se debe hacer clic en ‘Guardar’. Al igual que con las peticiones de fichajes, éstas pueden necesitar la validación del administrador del equipo para su modificación definitiva.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Diario](/media/manual/2-diario-00844ee25a.png)
+
+![2. Diario](/media/manual/2-diario-f6d1398de5.png)
+
+![2. Diario](/media/manual/2-diario-6095fc343b.png)
+
+![2. Diario](/media/manual/2-diario-f7c6991007.png)
+
+![2. Diario](/media/manual/2-diario-14ce5c5c94.png)
+
+![2. Diario](/media/manual/2-diario-1ec5f6e012.png)

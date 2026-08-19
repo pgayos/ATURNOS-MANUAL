@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-3-conceptos-de-comparacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-3-conceptos-de-comparacion/
-  contentHash: 9237cfbe9639a771624ec01465dbd8ef538bc4c1ce307fb4c250604acdf0aa32
+  contentHash: 334c3d479f431ebd05e9364f5bdb0e8f2272b011e4cb4aa76a34c1627d6a828c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -138,3 +138,19 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el concepto 3K00 – las horas de nocturnidad en el día de inicio son menores a 10”, es decir el activador creado.
 
 En el punto 8 de este Manual se ofrecen más ejemplos para una mayor facilidad en la parametrización
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-a540c9d0b4.png)
+
+![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-090bc4085b.png)
+
+![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-a457d0b1c7.png)
+
+![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-9800e16f59.png)
+
+![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-01feee3213.png)
+
+![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-cfdb94c83d.png)

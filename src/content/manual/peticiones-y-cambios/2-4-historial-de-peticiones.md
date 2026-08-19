@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-4-historial-de-peticiones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-4-historial-de-peticiones/
-  contentHash: 5a9ea1cb4ffbfd6466aac257c2a352fa2968f871a1ebf4428c536f864d6d7b37
+  contentHash: d3ad311cd3798daa018fd6bff1a76493f221978fe357f77a6e3888f99a82b848
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -61,3 +61,13 @@ Aquí dispondremos de un registro histórico de todas las solicitudes que el tra
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.4 Historial de peticiones](/media/manual/2-4-historial-de-peticiones-8f54338e49.webp)
+
+![2.4 Historial de peticiones](/media/manual/2-4-historial-de-peticiones-d7745a2a08.webp)
+
+![2.4 Historial de peticiones](/media/manual/2-4-historial-de-peticiones-b58aba2bc5.png)

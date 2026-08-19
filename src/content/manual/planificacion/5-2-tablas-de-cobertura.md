@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-tablas-de-cobertura/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-tablas-de-cobertura/
-  contentHash: 9e212475b086c68cc48de529740bf8a4cbae413d8913cb2205af3bf0584c7b6d
+  contentHash: 7986b553661dafb91a35a5c8b49b939066c7b59936c26b8318022fff2fc9c6c9
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -60,3 +60,9 @@ La fuente pública de **Tablas de cobertura** contiene muy poca información tex
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.2. Tablas de cobertura](/media/manual/5-2-tablas-de-cobertura-9807141202.png)

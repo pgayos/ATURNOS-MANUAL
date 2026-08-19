@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-control-de-acceso/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-control-de-acceso/
-  contentHash: 96562223ae7a03ab05233fe8823028fec32e6cbe9b4a3ab94a99f7b07f7893cc
+  contentHash: bcb9d181ec79a3b79ab5a6b06f43149f928e176b7ae21076f4c31658f2ebf574
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -85,3 +85,19 @@ De la misma forma, tenemos un botón ‘Añadir Nivel Acceso’ donde crear un n
 Para que se registre el nivel, solo quedaría en pulsar el botón de ‘Aplicar’.
 
 Para configurar el control de acceso, se necesita que estén definidas las puertas de acceso, a continuación explicamos cómo hacerlo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7. Control De Acceso](/media/manual/7-control-de-acceso-784da22d5b.png)
+
+![7. Control De Acceso](/media/manual/7-control-de-acceso-746e6c5a6d.webp)
+
+![7. Control De Acceso](/media/manual/7-control-de-acceso-b5e834c605.png)
+
+![Control de acceso](/media/manual/control-de-acceso-7002af305d.webp)
+
+![7. Control De Acceso](/media/manual/7-control-de-acceso-26f45b0fab.png)
+
+![7. Control De Acceso](/media/manual/7-control-de-acceso-9dfe484b0b.webp)

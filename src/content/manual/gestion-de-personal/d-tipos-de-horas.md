@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/e-tipos-de-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/e-tipos-de-horas/
-  contentHash: e4c014057fed66e06ba962fa0d775be438e97d45af990b7e6d537b3c139f6eba
+  contentHash: e840b139b282f2053ec477ee75fccdbf9ba909f4b16c81aadc804eb66215abdb
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -102,3 +102,11 @@ Una vez cumplimentado el formulario se debe hacer clic en “Guardar”.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![d. Tipos de horas](/media/manual/d-tipos-de-horas-a762b17b8b.webp)
+
+![Normales](/media/manual/normales-dab31a829d.webp)

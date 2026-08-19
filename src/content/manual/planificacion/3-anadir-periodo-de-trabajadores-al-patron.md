@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-anadir-periodo-de-trabajadores-al-patron/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-anadir-periodo-de-trabajadores-al-patron/
-  contentHash: e769f6e5fbb9aba036e0c9064b53ed40a798f27cd1d63ace21d501917414fb6a
+  contentHash: 9729b217dd56531b3c131e49893b2f2b3631f0a6ee6fbceb2b7b7604180cc4ee
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,9 @@ Al crear o editar el patrón de turnos puedes añadir de forma rápida periodos 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Añadir periodo de trabajadores al patrón](/media/manual/3-anadir-periodo-de-trabajadores-al-patron-5bd9aba209.webp)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-absentismo-temporal/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-absentismo-temporal/
-  contentHash: 87cb7afde731a492264b0916d043a0c008add1fb11a60e90c73501fbdbd5c745
+  contentHash: e8fb35d07921015c97e5fb82e40f597d716e39015837c97b02fb6bc05ca16e07
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,11 @@ Al hacer clic en la acción, en el formulario se define el tipo de hora y si se 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Absentismo temporal](/media/manual/5-absentismo-temporal-d4bb342341.png)
+
+![5. Absentismo temporal](/media/manual/5-absentismo-temporal-5a62ba0a81.png)

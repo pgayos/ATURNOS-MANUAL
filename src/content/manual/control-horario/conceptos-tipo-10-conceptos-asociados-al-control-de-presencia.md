@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/
-  contentHash: 744e79565d7815520c57ec1e21608f3194095db859ff070b03f678bdf010f10e
+  contentHash: 8208785b898ef6867c671dafc0faa3518f8bd4ae1f60f3f8595abafc3e076204
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -112,3 +112,29 @@ El día 04/10/2023 tiene dos fichajes del tipo Teletrabajo ( 1 fichaje de entrad
 El día 05/10/2023 no tiene fichajes del tipo Teletrabajo, en la estadística diaria no devuelve valor
 
 El día 06/10/2023 tiene cuatro fichajes del tipo Teletrabajo ( 2 fichajes de entrada y 2 de salida), en la estadística diaria devuelve valor
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-0b9d846a76.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-4c9a7f8d8f.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-78b01b4743.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-aa085dadb5.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-869480c124.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-926e73cb78.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-37ae8ba535.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-2c61c81f0e.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-d44da72ded.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-1170d03b0d.png)
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-c1add6c9c6.png)

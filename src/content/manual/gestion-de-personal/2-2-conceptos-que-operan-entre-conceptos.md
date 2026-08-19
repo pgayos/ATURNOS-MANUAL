@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-2-conceptos-que-operan-entre-conceptos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-2-conceptos-que-operan-entre-conceptos/
-  contentHash: 31d49c79c69764c4319fa1a5f661e540f890a885c0ce2f6fc7e973f77baf8fb9
+  contentHash: 0352db91c5ac242531d37175c0e01a06a0755ea3fbd71f2f2caa82748613e8b9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -137,3 +137,19 @@ Una vez creado el campo fijo y creado el concepto de cálculo que recupera el n�
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, campo fijo “Valor 0,5”, y añadirlo como “concepto seleccionado para operar”
 
 Recordad que para que el concepto creado se visualice en la estadística se debe añadir como concepto de nómina, acceded a ADMINISTRAR → NOMINA → CONCEPTOS DE NÓMINA
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-839bfd8fa9.png)
+
+![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-12fe73c628.png)
+
+![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-c2e1c48110.png)
+
+![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-d5362d17df.png)
+
+![2.2. Conceptos que operan entre conceptos](/media/manual/2-2-conceptos-que-operan-entre-conceptos-63cea46bb2.png)
+
+![2.2. Conceptos que operan entre conceptos](/media/manual/2-2-conceptos-que-operan-entre-conceptos-233c1d7eb7.png)

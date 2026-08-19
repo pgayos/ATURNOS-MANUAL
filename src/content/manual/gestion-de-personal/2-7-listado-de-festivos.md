@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-7-listado-de-festivos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-7-listado-de-festivos/
-  contentHash: 00c7c96ee11fa125e63104d8bd8f5e29bd24c24b8f33b715382ee77d48161742
+  contentHash: db9ecbcae642d96e4aa43519c62576a68b23539a9668a44e085dad339962831f
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,9 @@ La fuente pública de **Listado de festivos** contiene muy poca información tex
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.7 Listado de festivos](/media/manual/2-7-listado-de-festivos-fc2500e94f.png)

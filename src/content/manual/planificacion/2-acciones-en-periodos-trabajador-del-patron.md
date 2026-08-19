@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-acciones-en-periodos-trabajador-del-patron/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-acciones-en-periodos-trabajador-del-patron/
-  contentHash: 031adb6b312d30b720a085951686efe48cd53a5bdec7603cc0d2bcef71c716a2
+  contentHash: 8fee76a0665ab877219406dd790bdd704a9f3f1e1844b4baa1a1ec6a5353fe81
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,9 @@ order: 1
 3.- Flechas para desplazar (arriba/abajo): se mueve el periodo del patrón hacia arriba o hacia abajo, según el orden con el se quiera aplicar los periodos del patrón y de forma cíclica y ordenada, según la posición que ocupa en el patrón de turnos.
 
 4.- B orrar (icono papelera): se elimina el periodo del patrón, de esta forma el patrón disminuye en número la secuencia de tipos de turno.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Acciones en periodos/trabajador del patrón](/media/manual/2-acciones-en-periodos-trabajador-del-patron-d8fdd8f7c7.png)

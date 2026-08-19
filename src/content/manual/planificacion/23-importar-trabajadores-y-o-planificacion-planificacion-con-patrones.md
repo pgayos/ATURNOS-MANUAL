@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/23-importacion-de-planificacion-con-patrones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/23-importacion-de-planificacion-con-patrones/
-  contentHash: 92c16f526fb16ffcbda592f9c5458ad850aab71325f2ec41cf09ed540464194b
+  contentHash: 8a9a5c314163d1c93bc6055dd96804da618b734d482caeeef19a88f6cc1a83c1
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -85,3 +85,11 @@ Guarda tu documento como formato tipo CSV.
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “Importar “.
 
 Después deberás asociar los campos del documento con los que aparecen en el listado para parametrizar la importación.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![23. Importar trabajadores y/o planificación: planificación con patrones](/media/manual/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones-8a19bd8cae.png)
+
+![23. Importar trabajadores y/o planificación: planificación con patrones](/media/manual/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones-3f9e84336d.png)

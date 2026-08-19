@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-barra-superior-del-cuadrante/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-barra-superior-del-cuadrante/
-  contentHash: bdcd80c95f46c6b8e57bcc421185eb2a71b062285eaa2c0bfdd2e84f49fb1b9d
+  contentHash: b752286677a5cfb4036b97ea26759c586962d23a5304e4898624ae9d48edce76
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -127,3 +127,51 @@ Desde este botón se puede activar la función de aplicar patrón a los trabajad
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![b. Barra superior del cuadrante](/media/manual/b-barra-superior-del-cuadrante-40a0cbcb5f.webp)
+
+![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-aa537eaa1b.png)
+
+![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-697e227faa.png)
+
+![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-a46f5df3f8.png)
+
+![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-2be79e8d05.png)
+
+![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-b55dff6605.png)
+
+![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-5edaf84cbb.png)
+
+![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-feda2fad7d.png)
+
+![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-ffc421f539.png)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-de42098150.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-e8f4138e2e.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-b74087a407.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-fdc5f18140.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-4227124772.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-ad70bc152e.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-5db66a3c7a.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-f3810c8a50.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-a88428acb3.png)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-dab645e5e9.png)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-6957d5f948.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-dfd684444e.png)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-0dd2dc9ff8.webp)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/19-importacion-de-demanda-operaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/19-importacion-de-demanda-operaciones/
-  contentHash: 59ecc523ee195447177b0a6e08f3aec568df17d31c87a9f555343d5532eca4f1
+  contentHash: 7a266a7849f949130add8f755cc0026b67e33c73b551907a648b0047d5bf9bb8
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -79,3 +79,11 @@ Es posible por otra parte configurar una propia demanda, creando desde cero un d
 Por último, antes de realizar la importación, guarda el documento en formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “Importar “.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![19. Importación demandas (Planificación automática)](/media/manual/19-importacion-demandas-planificacion-automatica-1bcad70def.webp)
+
+![19. Importación demandas (Planificación automática)](/media/manual/19-importacion-demandas-planificacion-automatica-5221ed8cef.webp)

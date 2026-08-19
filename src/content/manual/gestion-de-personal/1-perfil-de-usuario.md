@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-perfil-de-usuario/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-perfil-de-usuario/
-  contentHash: 3f22c6cdc2fc6f020bcd28f228e1365c2eb097f425643e5c84d9922cde3ec783
+  contentHash: c7db261abf819144ec3b00df3d08a1d2389832d9dc5a093da7c1cdc1c8aed5c0
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,13 @@ Configuración del perfil del usuario: Está limitada según el rol del usuario.
 - Cambiar contraseña (indicando la actual y la nueva).
 - Vincular cuenta de aTurnos con Google Calendar. Más información en Vincular aTurnos con Google Calendar.
 - Notificaciones, de las acciones registradas en ‘ Registro ‘,en todos los equipos con rol administrador total o superusuario con los siguientes ámbitos: Por defecto Acceso Api Apirest Atributos Cambios Especialidades Grupos de Especialidades Festivos Tipo de horas Localización Cerrar cuadrante Patrones de turnos Nóminas Posiciones Control Horario Peticiones Cuadrante Ajustes Turnos Tareas Trabajadores Absentismos Recursos Alertas en control horario Restricciones Medidas Tipos de Documentos
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Perfil de usuario](/media/manual/1-perfil-de-usuario-cc1ae9905c.png)
+
+![1. Perfil de usuario](/media/manual/1-perfil-de-usuario-4106a3904f.png)
+
+![1. Perfil de usuario](/media/manual/1-perfil-de-usuario-20e9b254e5.png)

@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-16-teletrabajo-sin-control-web-ip/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-16-teletrabajo-sin-control-web-ip/
-  contentHash: b4a7a238aafa00dfb7645b7fc493c2af6bf252bfea35d7a2abe2f21147818ea2
+  contentHash: cbdf825c02f20ddafee510d1d9513edee6a9971df52d83f5004385607f7da9fb
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -78,3 +78,21 @@ De esta forma, cuando el trabador fiche, aparecerá que ha sido realizado por ge
 Si la configuración del Control Horario, no tiene habilitada la geolocalización, los fichajes se podrán realizar desde cualquier dispositivo móvil que esté conectado a los datos móvil de cualquier antena de telefonía.
 
 De esta forma cuando se realice el fichaje desde la APP o desde el entorno web, aparecerá la IP a la que se está conectado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.16 Teletrabajo (Sin control Web/IP)](/media/manual/8-control-horario-b79db39675.webp)
+
+![5.16 Teletrabajo (Sin control Web/IP)](/media/manual/5-16-teletrabajo-sin-control-web-ip-d5e18647b7.webp)
+
+![5.16 Teletrabajo (Sin control Web/IP)](/media/manual/5-16-teletrabajo-sin-control-web-ip-4fc1a3a17e.webp)
+
+![5.16 Teletrabajo (Sin control Web/IP)](/media/manual/5-16-teletrabajo-sin-control-web-ip-86c8acb754.webp)
+
+![5.16 Teletrabajo (Sin control Web/IP)](/media/manual/5-16-teletrabajo-sin-control-web-ip-f4a5264c89.webp)
+
+![5.16 Teletrabajo (Sin control Web/IP)](/media/manual/5-16-teletrabajo-sin-control-web-ip-a5421a7818.webp)
+
+![5.16 Teletrabajo (Sin control Web/IP)](/media/manual/5-16-teletrabajo-sin-control-web-ip-15a96997d2.webp)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-2-horas-presenciales/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-2-horas-presenciales/
-  contentHash: 077eb0fd02ad9e92aa9f774317b383891f376aed29d19d4f8f2d219d7a10b8bf
+  contentHash: 2d51f97681514c1eb4eb42b49bb22a34ba81167d7f15a530ba5f99cf26f1484f
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,13 @@ Se clasifica en tres variables:
 Este reporte se puede filtrar entre una fecha inicio y fin, así como ocultar columnas y descargar en Excel o PDF la información.
 
 Por ejemplo, si un trabajador realiza un turno computado de 7 horas, pero presencialmente ha realizado 8 horas y esa hora añadida se inserta como un ajuste de marcaje como una hora extraordinaria, el resultado sería el siguiente.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.2. Horas presenciales](/media/manual/4-2-horas-presenciales-9529eec6d3.webp)
+
+![4.2. Horas presenciales](/media/manual/4-2-horas-presenciales-a99b0dfea4.webp)
+
+![4.2. Horas presenciales](/media/manual/4-2-horas-presenciales-8e9150730e.webp)

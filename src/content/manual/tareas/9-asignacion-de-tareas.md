@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/9-asignacion-de-tareas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/9-asignacion-de-tareas/
-  contentHash: a40ad14792cb0c11b000a5fe4a8f06cd17b9c0160edcf4f24c2ffad6c65f1ec7
+  contentHash: 2761b5251b537e32ad5d0798f241f30953c76ecba2c143ced121490dbcc4c4e4
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,9 @@ IMPORTANTE: Con independencia de que sólo haya un puesto de trabajo con la espe
 9. Acciones permitidas. SIGUIENTE – EMPEZAR – PARAR.
 
 IMPORTANTE: Es desde los puestos donde se hacen las llamadas a los clientes. A través de las acciones permitidas.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![9. Asignación de tareas](/media/manual/9-asignacion-de-tareas-12e39a643c.png)

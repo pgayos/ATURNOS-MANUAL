@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-panel-de-herramientas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-panel-de-herramientas/
-  contentHash: 7494f2606fae6f55eb9a072e886ba717958bb9f40fa1aad8b16b0a3511080b5e
+  contentHash: f4685604df173281aa98e11f9e7e8e92f9664ab29c3d2f6ecf70086d0fc71caf
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -61,3 +61,9 @@ Desde este panel, puedes añadir tipos de turnos a los periodos del patrón de t
 - Insertar por teclado: escribir abreviatura y dar a “Enter”, posteriormente se añade a partir de la última posición.
 - Eliminar último: borrado de turnos a partir de la última posición.
 - Pegar al final: pegado de turnos desde Excel o desde el portapapeles.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7. Panel de herramientas](/media/manual/7-panel-de-herramientas-261941ffdb.png)

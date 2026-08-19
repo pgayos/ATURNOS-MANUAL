@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-periodos-de-absentismos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-periodos-de-absentismos/
-  contentHash: 4184591f87f87e0d3142e579a2eb1a61f9bf9e6cf793b7705b50daed04b85828
+  contentHash: 970adff424455e18d81813d2551bf6bdbad968777526e7406438fba0aa69fe6c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -80,3 +80,15 @@ Para borrar un periodo de absentismo desde aTurnos lo puedes hacer desde el perf
 Para editar un periodo de absentismo desde aTurnos lo puedes hacer desde el perfil del trabajador en la opción periodos de absentismos, con la función editar. Esta acción permite al administrador cambiar el día de inicio o fin del periodo, el tipo de absentismos, identificarlo como recaída o no, así como las horas que se le asociará a la jornada durante el tipo de absentismo.
 
 Cuando se modifique algún campo del formulario de edición es necesario guardar esta acción para conservar los nuevos datos del periodo de absentismo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-0a6aa84599.png)
+
+![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-d7155b7060.webp)
+
+![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-b28a79b0de.png)
+
+![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-64e1e23442.webp)

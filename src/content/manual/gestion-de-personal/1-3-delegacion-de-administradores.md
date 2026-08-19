@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-3-delegacion-de-administradores/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-3-delegacion-de-administradores/
-  contentHash: cf4d336d8920eb2db205354b5e0353ebf4a5d88231198fd37a7b489b6f40fb74
+  contentHash: 2ab3dd6e2bd59a1ea0153a76073712fa00c53ebe85d300b46743b8793645a73d
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -100,3 +100,19 @@ Cuando Luigi vuelva de vacaciones, puede retomar el control, retirando la delega
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo se hace la delegación?](/media/manual/como-se-hace-la-delegacion-b7efb5be22.webp)
+
+![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-3cbcb23710.webp)
+
+![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-f99188056d.webp)
+
+![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-6b61df54b4.webp)
+
+![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-f6bd4e2b75.webp)
+
+![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-b65eeccc1b.webp)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/g-notificaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/g-notificaciones/
-  contentHash: 84ae91ce153bf597b6f074b94e13cf08baf8d434c2fe96c1daf26daeabbed593
+  contentHash: 76e8e9b04ee26a425a6e1172e6ef5c5a7d3a6df8b50cc40f406aced9f2d213e0
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -79,3 +79,9 @@ A modo de ejemplo, si en el flujo de los cambios de turno están indicada que pu
 En el campo “Email envío cuadrante anual” se puede informar un correo para cuando desde el cuadrante anual se utiliza la función “Enviar cuadrante anual por mail” (Ver en el Manual. Cuadrante anual ) envíe una copia al correo aquí informado
 
 Ver más acerca de visualización de notificaciones de Cambios de turno y Peticiones
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![h. Notificaciones](/media/manual/h-notificaciones-e8d7ed8e71.png)

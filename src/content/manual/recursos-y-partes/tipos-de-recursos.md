@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/tipos-de-recursos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/tipos-de-recursos/
-  contentHash: 3284c86a1c6c30211d5883cf071fca49ab0ed6ebda9f3d20dc7f038126c75ce0
+  contentHash: 2323c947b9d1693c9479ab9844320b2a6e91edf2d27d6247501f546e0f98085c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -94,3 +94,17 @@ Además, permite indicar un límite que generará una alarma en el Resumen de lo
 El objetivo de este tipo de recurso es poder asociar un dato con formato horario asociado al turno o a las horas planificadas. Para crear un recurso de este tipo se han de seguir los pasos indicados en ¿Cómo crear un parte de trabajo? y seleccionar el tipo: Hora.
 
 En este ejemplo se crea un recurso llamado: Horas
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Tipos de recursos](/media/manual/tipos-de-recursos-b09e1d4d10.png)
+
+![Tipos de recursos](/media/manual/tipos-de-recursos-28b3eace46.png)
+
+![Tipos de recursos](/media/manual/tipos-de-recursos-5ea9d6b97f.png)
+
+![Tipos de recursos](/media/manual/tipos-de-recursos-677242a821.png)
+
+![Tipos de recursos](/media/manual/tipos-de-recursos-cfc6cac4bb.png)

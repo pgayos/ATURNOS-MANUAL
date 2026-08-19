@@ -37,7 +37,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 7
 featured: false
 migration:
   sourceCount: 1
@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-detalle/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-detalle/
-  contentHash: 6c1d90393189ecc7431dd2d5ee70146208a5098b0ab04a8970952491c222a822
+  contentHash: 3a9a4b88dd15dc82534250e57d03b96d8becff33a9602ecf3aa597be16688c8e
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -119,3 +119,19 @@ Los ajustes también se puede realizar a todos los trabajadores filtrados desde 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Barra de filtros](/media/manual/barra-de-filtros-61c7f27752.png)
+
+![Añadir marcajes](/media/manual/anadir-marcajes-6ebb1cda06.png)
+
+![Barra de filtros](/media/manual/barra-de-filtros-c9dfaefcf5.png)
+
+![Insertar o modificar marcajes](/media/manual/insertar-o-modificar-marcajes-fe79415dd9.png)
+
+![Ajustar marcajes](/media/manual/ajustar-marcajes-3b8301a0da.png)
+
+![Añadir marcajes](/media/manual/anadir-marcajes-e38ba774a7.png)

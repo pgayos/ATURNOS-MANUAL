@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-6-notificaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-6-notificaciones/
-  contentHash: 528fb04913d549243b7fa847932b416b66f9c9db0c373c62634ab7a1d3edb03a
+  contentHash: 940693712b96af86617218d8eb4c298168b7f6837a726cf01d06efd8d424c115
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,15 @@ Existen dos configuraciones:
 Por ejemplo, si se quiere activar que se notifique a los administradores validadores y planificadores cuando un trabajador suyo realiza un fichaje en vacaciones, pero no se quiere notificar al trabajador afectado, tendríamos la siguiente configuración.
 
 Por otro lado, si se quiere notificar a los trabajadores para recordarles de que no han fichado sus horas extra o complementarias planificadas, pero no queremos que sus administradores reciban nada al respecto, tendríamos la siguiente configuración.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.6 Notificaciones](/media/manual/5-6-notificaciones-b09cada2ef.webp)
+
+![5.6 Notificaciones](/media/manual/5-6-notificaciones-8aeec1065a.webp)
+
+![5.6 Notificaciones](/media/manual/5-6-notificaciones-b672240046.webp)
+
+![5.6 Notificaciones](/media/manual/5-6-notificaciones-62f4f9e315.webp)

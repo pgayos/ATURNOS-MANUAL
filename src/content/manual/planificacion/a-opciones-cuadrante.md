@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/a-opciones-cuadrante/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/a-opciones-cuadrante/
-  contentHash: 7e39dd1711413bdbac2e3656dd0f7537803e3f7c8f130dd360d75d6eeef28d73
+  contentHash: babe1bb151ad80d5de93b81e7d5e5a1efe569c70550a732ce21754eba5850e69
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -118,3 +118,31 @@ El dato se informa en el perfil del trabajador.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Extender planificación del cuadrante](/media/manual/extender-planificacion-del-cuadrante-6bbf3230ca.png)
+
+![Extender planificación del cuadrante](/media/manual/extender-planificacion-del-cuadrante-42e0d8d890.webp)
+
+![Añadir trabajadores](/media/manual/anadir-trabajadores-cc54461d89.webp)
+
+![Enviar cuadrante por email a todos](/media/manual/enviar-cuadrante-por-email-a-todos-73d4c5aed5.png)
+
+![Borrar cuadrante](/media/manual/borrar-cuadrante-7e24c11b42.png)
+
+![Borrar cuadrante](/media/manual/borrar-cuadrante-0b5b000b3f.png)
+
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-5d114fa356.png)
+
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-5496cbb287.png)
+
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-1071de8d1d.webp)
+
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-0f03a06105.png)
+
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-670f96728d.png)
+
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-bfdf7f6d0b.png)

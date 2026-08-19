@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-importacion-de-periodos-de-absentismo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-importacion-de-periodos-de-absentismo/
-  contentHash: d4877842429b8c3b0d13b92bf9d99b8dacef4a933d2132e4557e3b34f787ce6f
+  contentHash: 6a1739fdbcff596131e5f48885194828fd9aac21c416134f265c839d475bfd60
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -79,3 +79,11 @@ En caso de querer hacer un fichero propio, te ayudamos a confeccionar un documen
 Una vez se ha creado o completado el archivo, guardar tu documento como formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Insertar periodos de absentismos totales y temporales](/media/manual/4-insertar-periodos-de-absentismos-totales-y-temporales-f1dfd9ef37.png)
+
+![4. Insertar periodos de absentismos totales y temporales](/media/manual/4-insertar-periodos-de-absentismos-totales-y-temporales-438561d6de.png)

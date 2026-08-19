@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-trabajadores-sin-descanso-realizado/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-trabajadores-sin-descanso-realizado/
-  contentHash: 940ca92ba280797d98fdcce98d547c036efd45b61ffc8f5756735e23a77dba27
+  contentHash: 34a2f305bc37c3b5ba5183fb9f8f9f81616077657a0964f5886612cf1bf8b3f9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -71,3 +71,15 @@ El reporte informa:
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
 
 Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-f6011c8116.webp)
+
+![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-fc0d40c600.webp)
+
+![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-c05c1baf57.webp)
+
+![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-84b189e091.webp)

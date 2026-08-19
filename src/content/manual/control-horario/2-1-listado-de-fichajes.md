@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-1-listado-de-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-1-listado-de-fichajes/
-  contentHash: 9de8148a2e4bf113f54e609c19645ec20ac8c04cf690b6d4ac377e540ad6fca2
+  contentHash: b66decdb8aac36bb7c48fce83cf148fe3ef99ef8fba7d56b0c3db82bdcae97cd
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -230,3 +230,83 @@ Esta función no funciona con el ‘Acumulado del estado de horas’.
 Computa el exceso de tiempo o defecto de tiempo, compensando ambos según los estados diarios de todos los fichajes del año hasta la fecha actual.
 
 En el caso de ‘Migrar saldo del acumulado del estado de horas’, si existe defecto o exceso de horas en el saldo, se compensará con el ‘Acumulado del año anterior’. Una vez saldado, el exceso o defecto de tiempo se compensa con el ‘Acumulado anual’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Barra superior](/media/manual/barra-superior-9ccfebe2f7.webp)
+
+![Fecha](/media/manual/fecha-7dec1cd46f.webp)
+
+![2.1 Listado de fichajes](/media/manual/2-1-listado-de-fichajes-173a98ec6c.webp)
+
+![Línea del tiempo](/media/manual/linea-del-tiempo-c8f664d02e.webp)
+
+![Barra superior](/media/manual/barra-superior-f0b3f35bf5.webp)
+
+![Presencia en horario](/media/manual/presencia-en-horario-21178eb9dd.webp)
+
+![Fichadas](/media/manual/fichadas-47490962a9.webp)
+
+![Fichadas no computables](/media/manual/fichadas-no-computables-a2a71ea17b.webp)
+
+![Presenciales](/media/manual/presenciales-d6e68c2d15.webp)
+
+![Trabajadas](/media/manual/trabajadas-a47fd3c4e0.webp)
+
+![Trabajadas](/media/manual/trabajadas-ee8ab18b45.webp)
+
+![Descanso](/media/manual/descanso-9830448c5f.webp)
+
+![Trabajadas](/media/manual/trabajadas-f88b95f6c7.png)
+
+![Computadas](/media/manual/computadas-3ff5913a33.png)
+
+![Descanso](/media/manual/descanso-c24ab567fc.png)
+
+![Puntualidad](/media/manual/puntualidad-e91fca6272.png)
+
+![Estado de horas](/media/manual/estado-de-horas-3ed39141b8.png)
+
+![Estado de horas](/media/manual/estado-de-horas-fecfa415ab.png)
+
+![Acumulado estado de horas](/media/manual/acumulado-estado-de-horas-cb9401efd7.png)
+
+![Presencia fuera del horario](/media/manual/presencia-fuera-del-horario-dad2758fbd.webp)
+
+![Presencia fuera del horario sin tolerancia](/media/manual/presencia-fuera-del-horario-sin-tolerancia-20ca169ed5.webp)
+
+![Ajustar fichajes](/media/manual/ajustar-fichajes-7c2d7be302.png)
+
+![Presencia fuera del horario sin tolerancia](/media/manual/presencia-fuera-del-horario-sin-tolerancia-23a2cb5c99.webp)
+
+![Descanso autorizado](/media/manual/descanso-autorizado-637c567d3f.webp)
+
+![Horas Recuperadas](/media/manual/horas-recuperadas-cb3449e247.webp)
+
+![Incumplimiento](/media/manual/incumplimiento-b2b1b37a4a.webp)
+
+![Absentismos](/media/manual/absentismos-d068faba30.webp)
+
+![Cómputo presencia extra](/media/manual/computo-presencia-extra-f4206eec7b.webp)
+
+![Horas extras/complementarias](/media/manual/horas-extras-complementarias-4d76413805.webp)
+
+![Cómputo presencia](/media/manual/computo-presencia-f128973612.webp)
+
+![Exceso de horas pendientes de aplicar](/media/manual/exceso-de-horas-pendientes-de-aplicar-f076327628.webp)
+
+![Presencia en horario + Horas Recuperadas](/media/manual/presencia-en-horario-horas-recuperadas-4e07254db7.webp)
+
+![Nocturnidad](/media/manual/nocturnidad-d338991a77.webp)
+
+![Absentismos pendientes de aplicar](/media/manual/absentismos-pendientes-de-aplicar-ce6e0fb194.webp)
+
+![Acumulado anual](/media/manual/acumulado-anual-01b3435a1f.webp)
+
+![Acumulado año anterior](/media/manual/acumulado-ano-anterior-fbc5e7a3b1.webp)
+
+![Acumulado anual](/media/manual/acumulado-anual-b8416b6c88.webp)
+
+![Acumulado año anterior](/media/manual/acumulado-ano-anterior-424b276e13.webp)

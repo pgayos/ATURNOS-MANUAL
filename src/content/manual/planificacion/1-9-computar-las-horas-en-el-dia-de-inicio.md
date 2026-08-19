@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-9-computar-las-horas-en-el-dia-de-inicio/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-9-computar-las-horas-en-el-dia-de-inicio/
-  contentHash: cf291763dfe28982fde3b9395dc02c521d7c0581e877a0ca23c6d12eff08ce68
+  contentHash: 9aa54615df7727fd9d5fb487401394e0928252b1dbab60b18d125e566797b018
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -60,3 +60,9 @@ Es muy importante señalar el comportamiento en el pago de las variables del val
 Si el valor informado es SI, todas las horas nocturnas se calcularan en el día de inicio y por el contrario si el valor informado es NO, las horas nocturnas se calcularán en el día en que se realizan.
 
 Es decir, en el caso de un turno de noche de 22:00 a 08:00, en el primer caso, las 10 horas nocturnas las calculará en el día de inicio del turno y en el segundo caso, calculará 2 horas nocturnas en el día de inicio del turno y 8 horas nocturnas en el día final del turno.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.9 Computar las horas en el día de inicio](/media/manual/1-9-computar-las-horas-en-el-dia-de-inicio-e46328d16f.png)

@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-acceso-a-aturnos-2/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-acceso-a-aturnos-2/
-  contentHash: fd2a34bab23ed2effc743faec03aa8e97477b5b670469ac7411dc4007c4a6e15
+  contentHash: d58597f66902b0c62b53165112cb65eadfaf84d3b3764cf06da8a461028e493f
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -57,3 +57,9 @@ Una vez realizado el login en la página inicial de aTurnos, el sistema automát
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Cómo acceder aTurnos](/media/manual/1-acceso-aturnos-c6443e961a.webp)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-5-estadistica-todos-los-equipos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-5-estadistica-todos-los-equipos/
-  contentHash: d6b4468f7158c225b8e3adfcc75844ee2a4a0ca1ca06b46813a0c63ba0bdb2e9
+  contentHash: 5fe8ef2ea4e12184b4c2aa8a9d0e66d457db76b0a04cd72aad2f3c6c10c373f1
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,9 @@ En la estadística la configuración de la plantilla de nómina es irrelevante y
 Accede a RRHH → NOMINAS → ESTADISTICA TODOS LOS EQUIPOS
 
 Nota: En este ejemplo, el único concepto que calcula es el número de horas nocturnas (las de dentro del periodo nocturno) cualquiera que sea el número de las realizadas, que se calcula en el concepto 3000.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10.5 Estadística todos los equipos](/media/manual/10-5-estadistica-todos-los-equipos-2068d77e76.png)

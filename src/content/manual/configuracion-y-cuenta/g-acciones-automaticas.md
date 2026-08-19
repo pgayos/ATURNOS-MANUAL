@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/g-acciones-automaticas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/g-acciones-automaticas/
-  contentHash: edb22808b20391f767912cab618177efbbaea5a7f1a81d5a3f07a52e9388dbd3
+  contentHash: 336719f7c5ec0e4e041241595b866d1bc205354124e0a79cf4cc4f31608779ee
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -179,3 +179,21 @@ Teniendo en cuenta que la fecha de ejecución es cualquier día del mes de mayo 
 Al lanzar la acción automática con margen de días igual a menos sesenta días aprobará todas las peticiones de permisos temporales del tipo PO del mes de julio y solo las de julio.
 
 IMPORTANTE: Tal y como se ha indicado en el punto 6 el campo margen de días admite positivos (días a pasado) y días negativos (días a futuro).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-fd0f55fb01.png)
+
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-402020a3a1.webp)
+
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-5b8eca65c3.png)
+
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-71be9524fb.png)
+
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-31a2b0f6e6.png)
+
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-4f755f5626.png)
+
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-c9b53ac311.png)

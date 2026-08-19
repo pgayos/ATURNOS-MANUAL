@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-subir-documentos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-subir-documentos/
-  contentHash: ab4710220f7b7f41a161beceff6029e04bb7ab2bae09275985529c4e6eb11de7
+  contentHash: 0f39324e8d4c3ef6daec75ebc298c32c6fb955976597cf033c31f2abffff4699
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,17 @@ Al hacer clic, se abre la opción de seleccionar el documento que disponga el te
 También existe la opción de arrastrar desde una carpeta de nuestro explorador del dispositivo, haciendo clic y soltando en el casillero donde se quiera subir el archivo.
 
 Una vez se han subido los documentos, se mostrará el tamaño y el nombre en el casillero que se ha cargado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Subir documentos](/media/manual/2-subir-documentos-74384f6eba.webp)
+
+![2. Subir documentos](/media/manual/2-subir-documentos-c3b0addb33.webp)
+
+![2. Subir documentos](/media/manual/2-subir-documentos-2ee208abd6.webp)
+
+![2. Subir documentos](/media/manual/2-subir-documentos-69a6cfff86.webp)
+
+![2. Subir documentos](/media/manual/2-subir-documentos-107ac55ac1.webp)

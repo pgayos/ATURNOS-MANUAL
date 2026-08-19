@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-extender-planificacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-extender-planificacion/
-  contentHash: f676bf8194f81f0e9ad05429b248d3cc5088bdf500ed72c664a4a310061a3521
+  contentHash: 0c130d7989596ef300ed7344de9b11a40433a24529f13fc38e036783fbd2518c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -108,3 +108,35 @@ Marcar la opción “SÍ” tendrá en cuenta los festivos y vacaciones al exten
 En este apartado hay 2 opciones; una que se inserte el patrón en los días planificados, independientemente del absentismo, o bien que no se inserte el patrón en los días donde haya absentismos totales.
 
 Para revisar los detalles del patrón que tiene aplicado un trabajador antes de extender la planificación, lo puedes consultar en el Perfil del trabajador en la casilla de Datos de planificación, con solo hacer clic en el nombre del trabajador y seleccionando la opción “Ver perfil”.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-f675de1998.png)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-ed1fdf180d.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-674fa91efa.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-9ba1a4941c.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-e6925a5369.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-b96cfe9629.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-354837c43e.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-9a4919a1e8.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-79b8ba3466.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-ebdeb9b543.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-6733ba8cb0.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-fe1e7c5f89.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-6915c32f90.webp)
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-849bb34692.webp)

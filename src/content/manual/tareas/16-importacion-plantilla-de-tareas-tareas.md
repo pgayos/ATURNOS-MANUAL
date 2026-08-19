@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/16-importacion-plantilla-tareas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/16-importacion-plantilla-tareas/
-  contentHash: 20e576e52f60cf3ce365769488700058be3bccf3afa1ca7421c3a29f7bf4b7a8
+  contentHash: b6869f57d070968ccb1187b0d7a4e5681f9f15148a9ebf30da459f59a4e3ed33
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,15 @@ Selecciona el fichero creado y selecciona el tipo de importación “Importar pl
 Para terminar marca “Asociar”.
 
 Accede a TAREAS → PLANTILLA DE TAREAS donde aparecen las plantillas de tareas importadas.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-6ffe59cbbd.webp)
+
+![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-84c80240c2.png)
+
+![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-c286c0f96f.webp)
+
+![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-bfe2765801.webp)

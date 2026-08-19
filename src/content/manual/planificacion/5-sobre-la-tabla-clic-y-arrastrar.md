@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-sobre-la-tabla-clic-y-arrastrar/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-sobre-la-tabla-clic-y-arrastrar/
-  contentHash: dfb949c4a5e1961ecfdfa3406ffb3c3103ab657f53ce48bd26ef0cf6eac1525c
+  contentHash: a6e4763b0113646a173473745219ac685e94f72489133bea4fbe908a03622134
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,9 @@ Si lo que se pretende es realizar un intercambio entre periodos del patrón (ord
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Sobre la tabla, clic y arrastrar](/media/manual/5-sobre-la-tabla-clic-y-arrastrar-d2bc0f2bd4.webp)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-incremento-de-la-jornada-laboral/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-incremento-de-la-jornada-laboral/
-  contentHash: cbb3ab68452a144a649ce69cd44ef35919dbdfe445a1559abf4738cdbb46f6ee
+  contentHash: d59e657f89875eb0b61d26161d9794ec451aef9198fb49a3f154409c81a0d8cc
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -65,3 +65,11 @@ A continuación, puedes visualizar cómo se incrementa la jornada a los trabajad
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Incremento de la jornada laboral](/media/manual/4-incremento-de-la-jornada-laboral-daac7b8a19.png)
+
+![4. Incremento de la jornada laboral](/media/manual/4-incremento-de-la-jornada-laboral-39c4be1f14.png)

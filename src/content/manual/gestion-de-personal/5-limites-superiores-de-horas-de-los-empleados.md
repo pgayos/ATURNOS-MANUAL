@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-limites-superiores-de-horas-de-los-empleados/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-limites-superiores-de-horas-de-los-empleados/
-  contentHash: 17d6ebb3adff60e1f0f67695b814016a5552b757f6b80ccc8046f478b8f93783
+  contentHash: e68c700305c4cdf2dab448217ab203245f0f1945d0d0526e0a99ea66c255cc09
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -178,3 +178,9 @@ Esta restricción impide que se planifiquen más horas de las permitidas en un m
 ⚙️Configuración: Esta restricción, además de la configuración básica, tiene dos campos adicionales.
 
 - Valor de restricción. Indica el número máximo de horas diarias permitido para los tipos de horas seleccionados. Tipo de horas personalizadas. Permite seleccionar uno o varios tipos de horas personalizadas sobre los que se aplicará esta limitación diaria.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Límites superiores de horas de los empleados](/media/manual/5-limites-superiores-de-horas-de-los-empleados-097056c5f6.webp)

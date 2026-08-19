@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-7-visualizacion-de-detalle/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-7-visualizacion-de-detalle/
-  contentHash: 9a64e010db8379f3173ed31736c9e57bf8988cb8d32374adc529d10ed08531a5
+  contentHash: 052f7d0faa77b2546826f5b15e1ad653badf9260d1b757e13f7746ab07c8d61b
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,11 @@ La fuente pública de **Visualización de Detalle** contiene muy poca informaci�
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.7 Visualización de Detalle](/media/manual/5-7-visualizacion-de-detalle-23d7b0a038.webp)
+
+![5.7 Visualización de Detalle](/media/manual/5-7-visualizacion-de-detalle-07d39e050e.webp)

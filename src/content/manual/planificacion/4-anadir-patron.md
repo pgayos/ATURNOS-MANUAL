@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/d-anade-patron/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/d-anade-patron/
-  contentHash: 30e6c557847d6549d166478fe9cbbbef9fcf2c38c7c5430bd1a62a651e3b2280
+  contentHash: 12fcedf0a49f1cdbea665f34f5bd219c8a9029884d75b51a8f795db7b1947216
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -64,3 +64,9 @@ En este menú te aparecen las siguientes opciones:
 -Patrones que ya tienes creados: En el momento que se haga clic en uno de esos patrones, el sistema aplicará en el cuadrante el patrón elegido, insertando toda la secuencia de tipos de turnos que forman parte del patrón. Si ya tienes un patrón aplicado, éste se añadirá al que ya tienes, siempre hasta el día que tienes visualizado en pantalla.
 
 -Añadir patrón: Al seleccionar esta opción, se muestran todos los patrones dados de alta en el equipo. (Para ver cómo crear un patrón, consulte el siguiente enlace del manual: Cómo crear un patrón ).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Añadir patrón](/media/manual/4-anadir-patron-7d3c5432c0.png)
