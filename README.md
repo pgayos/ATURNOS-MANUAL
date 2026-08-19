@@ -37,6 +37,20 @@ npm run build
 
 La compilación valida TypeScript y el esquema de contenido, genera HTML estático y construye el índice de Pagefind.
 
+## Despliegue en AWS Amplify
+
+El repositorio incluye `amplify.yml` con Node.js 22, instalación reproducible mediante `npm ci`, compilación estática y publicación de `dist/`. `customHttp.yml` configura cabeceras de seguridad y caché larga para imágenes y recursos con hash.
+
+Amplify no carga las redirecciones desde Git automáticamente. Antes de cambiar el DNS de `manual.aturnos.com`, genera el archivo compatible:
+
+```bash
+npm run generate:amplify-redirects
+```
+
+Después copia el contenido de `amplify-redirects.json` en **Hosting → Rewrites and redirects → JSON editor**, o aplícalo con AWS CLI como `customRules`. La última regla sirve `/404.html` con estado 404; no debe añadirse una reescritura SPA hacia `/index.html`.
+
+Las compilaciones de ramas distintas de `main` reciben `noindex, nofollow`. El build también comprueba que las rutas y recursos locales referenciados existan.
+
 ## Interfaz inicial
 
 - Portada y navegación por módulos.
