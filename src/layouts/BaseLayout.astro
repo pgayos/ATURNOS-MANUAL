@@ -2,6 +2,8 @@
 import '../styles/global.css';
 interface Props { title?: string; description?: string; }
 const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTurnos con guías claras y respuestas verificadas.' } = Astro.props;
+const deploymentBranch = import.meta.env.PUBLIC_DEPLOYMENT_BRANCH;
+const preventIndexing = Boolean(deploymentBranch && deploymentBranch !== 'main');
 ---
 <!doctype html>
 <html lang="es">
@@ -9,6 +11,7 @@ const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTur
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
+    {preventIndexing && <meta name="robots" content="noindex, nofollow" />}
     <link rel="icon" type="image/svg+xml" href="/brand/aturnos-symbol.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

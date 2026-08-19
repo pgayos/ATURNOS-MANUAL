@@ -10,11 +10,12 @@
     "audit:taxonomy": "python3 scripts/reclassify_manual.py",
     "audit:media": "python3 scripts/audit_media_sources.py",
     "migrate:media": "node scripts/migrate_article_images.mjs",
+    "generate:amplify-redirects": "node scripts/generate_amplify_redirects.mjs",
     "reclassify": "python3 scripts/reclassify_manual.py --apply",
     "integrate:guides": "python3 scripts/integrate_external_guides.py",
     "clean:content": "python3 scripts/clean_editorial_text.py",
     "validate:migration": "python3 scripts/validate_migration.py",
-    "build": "astro check && astro build && pagefind --site dist",
+    "build": "astro check && astro build && pagefind --site dist && node scripts/check_built_links.mjs",
     "preview": "astro preview",
     "check": "astro check"
   },
