@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-2-turnos-y-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-2-turnos-y-horas/
-  contentHash: deb2cf94f2cff36f4c707d42f4b5085ae54b9a9c7e442a1d6c74bca9a54932eb
+  contentHash: 403b42e899d835fe3dd813ff2d033f303d836ec0046e49336d81f1bf8b02bd31
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,17 @@ Más detalle sobre el turno planificado: la abreviatura del turno y la localizac
 Más detalle del tipo de hora planificado. La hora de inicio y fin planificada, la horas de duración, comentario si existiese, la localización y por último la descripción del tipo de hora añadida.
 
 Desde esta función se tiene la opción de descargar el listado con los resultados en Excel o PDF
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-7702e818c7.png)
+
+![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-55b192a12b.png)
+
+![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-c60b88afb6.png)
+
+![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-834460cc08.png)
+
+![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-e80f2ce1d1.png)

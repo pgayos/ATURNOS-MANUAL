@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/e-visualizacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/e-visualizacion/
-  contentHash: 3c5948fd30aded67502b61bf8da06ad5cb78bb06ae7b2420d773e6f21a4460d4
+  contentHash: 950908b6f1387a2c6da5cc62d34cef458848a19da2c83510f2c8eb55c13ca4fd
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -125,3 +125,29 @@ Añadir información de ‘Datos personalizados’, para ser mostrados en los �
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![f. Visualización](/media/manual/f-visualizacion-0d5eb286d8.png)
+
+![Sino le aparecen: L](/media/manual/sino-le-aparecen-l-c2b86fc615.webp)
+
+![Sino le aparecen: L](/media/manual/sino-le-aparecen-l-bc6b8f092d.webp)
+
+![Ordenar trabajadores por localización por defecto](/media/manual/ordenar-trabajadores-por-localizacion-por-defecto-9f447fa3a8.webp)
+
+![Campos identificativos de los trabajadores en el cuadrante](/media/manual/campos-identificativos-de-los-trabajadores-en-el-cuadrante-16a569f470.png)
+
+![Ordenar trabajadores por localización por defecto](/media/manual/ordenar-trabajadores-por-localizacion-por-defecto-71865b4cff.webp)
+
+![Comienzo de semana](/media/manual/comienzo-de-semana-ea0e7399c2.webp)
+
+![Comienzo de semana](/media/manual/comienzo-de-semana-d297f43c7d.webp)
+
+![Campos identificativos del tooltip del trabajador en el cuadrante](/media/manual/campos-identificativos-del-tooltip-del-trabajador-en-el-cuadrante-9add60ab41.png)
+
+![Campos identificativos del tooltip del trabajador en el cuadrante](/media/manual/campos-identificativos-del-tooltip-del-trabajador-en-el-cuadrante-99a327a8ba.webp)
+
+![Campos identificativos en los reportes de localizaciones](/media/manual/campos-identificativos-en-los-reportes-de-localizaciones-3697801bb7.webp)

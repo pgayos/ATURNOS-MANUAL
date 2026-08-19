@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-copiar-pegar-dia/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-copiar-pegar-dia/
-  contentHash: e140393be1596532bce0a67a9118f48f1b0561ba2a53d7954967d6ceef8e5c8e
+  contentHash: 560f9b3c09658dd1f20e19f2f5d1b705bf191fa36c0ede9281585fcf0088f8be
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -65,3 +65,11 @@ De esta manera los días coincidirán en la planificación, permitiendo copiar l
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6. Copiar / Pegar día](/media/manual/6-copiar-pegar-dia-331d6e0104.png)
+
+![6. Copiar / Pegar día](/media/manual/6-copiar-pegar-dia-a14fd69024.png)

@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-tareas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-tareas/
-  contentHash: b2107922c264397f87b071abd57970bd78d7fa82e1a307efba4d90fa91fd9000
+  contentHash: 6666dcd7553cda0d3d61230410d45b96b686fccf6d316cc1e7bb9402193a18a8
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,11 @@ Esta tabla o plantilla indica la siguiente información:
 - Acciones: desde esta columna podrás ver el detalle de la cita (en el icono del ojito). También podrás desasignar la tarea al trabajador que la tiene en el momento, cuando se realiza esta acción aparecerá una nueva opción en esta columna (con el icono de una manito) para asignar nuevamente esa tarea a otro trabajador, y finalmente el icono de la papelera (aparece luego de desasignar una tarea) para eliminar la cita o tarea.
 
 A continuación se muestra un ejemplo de los iconos que aparecen en la columna de Acciones luego de desasignar la tarea a un trabajador:
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Tareas](/media/manual/2-tareas-c85b6f0442.webp)
+
+![2. Tareas](/media/manual/2-tareas-096c69cf28.webp)

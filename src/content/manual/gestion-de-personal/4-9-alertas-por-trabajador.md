@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-9-alertas-por-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-9-alertas-por-trabajador/
-  contentHash: f05d66d322f6e8619b4bf92760c546c9efc95f2de80cb4991ef7ae1f15d9a517
+  contentHash: cc5e91bc789b62a51aeaf051db7455cf257dd7b6699a6e06364dfbd98d6f6cfd
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -62,3 +62,15 @@ Los parámetros que se pueden consultar en este reporte son las siguientes, así
 - Empleado: nombre del trabajador.
 - Alerta: descripción de la incidencia producida.
 - Total: número de alertas que se han producido de ese tipo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.9 Alertas por trabajador](/media/manual/1-6-alertas-warnings-dfa460e35d.webp)
+
+![4.9 Alertas por trabajador](/media/manual/4-9-alertas-por-trabajador-e2e03ef99c.webp)
+
+![4.9 Alertas por trabajador](/media/manual/4-9-alertas-por-trabajador-01c3e7417a.webp)
+
+![4.9 Alertas por trabajador](/media/manual/4-9-alertas-por-trabajador-017373e44f.webp)

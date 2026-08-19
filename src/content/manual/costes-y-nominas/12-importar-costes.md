@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/12-importar-costes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/12-importar-costes/
-  contentHash: 170531ac4676307c541d99a90cd5a9348bd75384e7f40d96cb8a144408638e11
+  contentHash: f0d2eec85c79ac153354571f3774e968cd781e708bf08b4ce60bcc298f0d52f6
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -67,3 +67,11 @@ Para ello puedes completar la plantilla de ejemplo, la cual tienes disponible pa
 - Coste Seguridad Social (%)*: no se debe informar el porcentaje, solo el valor.
 
 Los campos del fichero creado se deben asociar de la siguiente manera en aTurnos. Una vez asociados habrá que seguir los pasos indicados en b. Importar
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![12. Importar costes](/media/manual/12-importar-costes-0e4ce78c96.png)
+
+![12. Importar costes](/media/manual/12-importar-costes-b93258e7bc.png)

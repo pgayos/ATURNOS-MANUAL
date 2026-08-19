@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/j-anadir-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/j-anadir-horas/
-  contentHash: 7a6f596c96deed058dab46e0afa772327463806b0d5f6910b41035b62adce173
+  contentHash: fa035185e005668c42d2611a00536298c6b6fcd7491c1399835de59d9c171e80
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -68,3 +68,9 @@ Las horas asignadas a un trabajador a través de bolsa, se encontrarán planific
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![11. Añadir horas](/media/manual/11-anadir-horas-cfd5486773.png)

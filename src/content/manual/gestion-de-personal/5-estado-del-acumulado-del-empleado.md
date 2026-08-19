@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-estado-del-acumulado-del-empleado/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-estado-del-acumulado-del-empleado/
-  contentHash: 1f641c52e0d23cdca0094f24d378bb7630954570e355fdb7d954d9d1f96d35a6
+  contentHash: 374fba01f37861f65d48dbf7009344da23a19f83cefc77306e3a518f8281ddec
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -93,3 +93,21 @@ Si el valor es negativo significa que las horas presenciales son menores que las
 Por ejemplo, este trabajador tiene este ‘Estado del acumulado del empleado’ en el mes de enero.
 
 El acumulado es resultado de las ‘Horas presenciales’ menos las ‘Horas planificadas’ y las ‘Horas no computables planificadas’
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Estado del acumulado del empleado](/media/manual/5-estado-del-acumulado-del-empleado-5be4a3e15c.webp)
+
+![5. Estado del acumulado del empleado](/media/manual/5-estado-del-acumulado-del-empleado-f3ee7f4f54.webp)
+
+![Filtros](/media/manual/filtros-85e5546128.webp)
+
+![Filtros](/media/manual/filtros-497319d229.webp)
+
+![Variables](/media/manual/variables-3540f96216.webp)
+
+![Filtros](/media/manual/filtros-6178d571fb.webp)
+
+![Variables](/media/manual/variables-879b5a961d.webp)

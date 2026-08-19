@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-sobre-los-descansos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-sobre-los-descansos/
-  contentHash: 37ec428207eccb0f107c292054ba998039c272a2c819671b923b9685de525d6e
+  contentHash: 868ebde237a367fd957fa3336086d0e417b697ced9c0db6d7cfa0f938e0f6ac5
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -260,3 +260,9 @@ Esta restricción funciona como todas las anteriores que establecen un mínimo d
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.18 Limitar los días planificados al mes respecto a los días de trabajo definidos en el cálculo estimado](/media/manual/2-18-limitar-los-dias-planificados-al-mes-respecto-a-los-dias-de-traba-95fce07ba3.webp)

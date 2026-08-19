@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/c-comentarios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/c-comentarios/
-  contentHash: d621f6ebe0aa7e28be073929b3cca63a1685791401c5ff939a012b3278a61557
+  contentHash: 6100c7500e79249c7a16a6a15d9d6d56b79ae3a71dab40d0f78103ec123abade
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -88,3 +88,17 @@ Accediendo al modal de los comentarios, se pueden editar aquellos que han sido r
 De esta forma se desplegará el modal de escribir el comentario para modificar lo escrito en el comentario. Y luego se debe hacer clic en el icono de Modificar para guardar los cambios.
 
 Desde el modal de comentarios, también se puede borrar todo comentario que como administrador se ha realizado en el turno de un día. Para ello hay que hacer clic en el botón de borrar.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Comentarios](/media/manual/3-comentarios-83b0c3a952.png)
+
+![3. Comentarios](/media/manual/3-comentarios-36e2a8d386.png)
+
+![3. Comentarios](/media/manual/3-comentarios-3f727f33eb.png)
+
+![3. Comentarios](/media/manual/3-comentarios-79b46d22c2.png)
+
+![3. Comentarios](/media/manual/3-comentarios-846940e037.png)

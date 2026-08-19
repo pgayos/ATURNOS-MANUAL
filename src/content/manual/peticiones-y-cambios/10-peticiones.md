@@ -37,7 +37,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/i-peticiones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/i-peticiones/
-  contentHash: d87994ba737a9d69f5018288a2d03de02808261793cca14951f83af758381eab
+  contentHash: 693ad346637a44296786facc31316eee0fc042b325464d3905efb54c19eae1b7
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,9 @@ Más detalle en:
 
 - Nueva petición
 - Ejemplo de un caso de uso: ¿Cómo realizar una petición de vacaciones y cómo gestionar la petición de vacaciones?
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo realizar una petición desde el cuadrante?](/media/manual/como-realizar-una-peticion-desde-el-cuadrante-c25e7cccdd.png)

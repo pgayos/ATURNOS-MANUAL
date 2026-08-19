@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-7-totalizada-por-equipo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-7-totalizada-por-equipo/
-  contentHash: 72e55f780893bf2a6795c8f7316fde8e6041d1211f6682cd3024db2179e4a78d
+  contentHash: 48bda8bfc530ffe6539454fa20f3dabc60659f50c917414bd8d257441e77f960
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -81,3 +81,15 @@ La validación produce dos efectos:
 También se puede consultar la fecha de validación desde RRHH → NOMINA → CIERRE POR EMPLEADO (Punto 10.3 del Manual)
 
 NOTA: La función de validación solo está disponible para los usuarios con perfil Superusuario. Envía un correo a soporte@aturnos.com si se desea disponer de esta función.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-dc40ae375f.png)
+
+![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-2a73096ff0.png)
+
+![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-6da71a25dc.png)
+
+![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-8d35144ff9.png)

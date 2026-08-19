@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-5-6-oferta-de-turno/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-5-6-oferta-de-turno/
-  contentHash: 40b27e8dcf40f1a45531ab1297ae74c7f36a09bdc5a1b57b7287b98050ed5ce9
+  contentHash: f255fde5f9f215c53ab0ca61efeb1e9aaf485a9a0447a78c1c6e7bcb6f5636d9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -82,3 +82,17 @@ Nota: Apuntarse no garantiza la asignación; es el administrador quien seleccion
 1. Entra en el menú de Peticiones y cambios. 2. Selecciona el tipo de petición Horas. 3. En el campo del trabajador, selecciona la opción Ofertar Hora.
 
 1. Ve cuadrante 2. Elige la opción Buscar Trabajador para Turno y luego Seleccionar Trabajador para Horas. 3. En el campo del trabajador, selecciona la opción Crear Oferta de Hora.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Gestionar Ofertas de Turnos y Horas](/media/manual/gestionar-ofertas-de-turnos-y-horas-f8e2e37226.png)
+
+![Cómo Ofertar un Turno](/media/manual/como-ofertar-un-turno-1fc58127d1.png)
+
+![Cómo Ofertar Horas](/media/manual/como-ofertar-horas-25c3023771.webp)
+
+![Cómo Ofertar Horas](/media/manual/como-ofertar-horas-3509a6cfb7.webp)
+
+![Cómo Ofertar Horas](/media/manual/como-ofertar-horas-70962a1957.webp)

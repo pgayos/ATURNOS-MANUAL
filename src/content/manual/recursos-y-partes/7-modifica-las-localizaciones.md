@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-modifica-las-localizaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-modifica-las-localizaciones/
-  contentHash: 2b8924ae828ed9f458ce001ef4aaf7d51056d9bdc7c76998756e64c487c55d03
+  contentHash: c08d96277b62e8d58662f8aa7f1660fb0e5e2798920fe8ed805645c86be73d92
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,13 @@ Esta opción elimina la localización que tenga asociado el turno sobre el que h
 Esta opción abre una ventana emergente que te permite modificar durante un periodo de tiempo determinado las localizaciones de los turnos en las fechas configuradas.
 
 El resultado es que después del día 19 de septiembre, vuelve a tener los turnos en la localización Marketing dptment
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7. Modifica las localizaciones](/media/manual/7-modifica-las-localizaciones-8d5decd2b8.webp)
+
+![7. Modifica las localizaciones](/media/manual/7-modifica-las-localizaciones-7587910877.webp)
+
+![7. Modifica las localizaciones](/media/manual/7-modifica-las-localizaciones-7547f47187.webp)

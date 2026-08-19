@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-aplicar-patron/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-aplicar-patron/
-  contentHash: fbf92a8df6a2edfe6df54ee0a6f7fcf69c13a5622397ae9e60918abb90407fc9
+  contentHash: 057720f01cd23369c38ca5f7d7a279df10ce8672e5864a96e45ecd93cbcaa195
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -160,3 +160,81 @@ Completados todos los pasos, analizada la propuesta de planificación (turnos en
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Aplicar patrón](/media/manual/1-aplicar-patron-256682e0f9.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-53a2d2d705.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-885e04fde5.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-6143114185.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-7fbe94a911.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-13dc16f86c.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-da00f4c810.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-556d8b9609.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-f03aa5d75c.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-7b4779cc2e.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-c83441df55.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-ef0deceb18.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-c67ed0037d.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-21e2030506.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-897832b3da.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-ee278b1126.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-2c4ae4f72f.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-b1ff12e5bf.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-dde13bfae3.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-8fb7c0c807.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-2788c7b371.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-32ca6cbdbd.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-52a39f06fa.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-c9049d47c2.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-6cc7aa3842.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-9d38344cf3.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-7ca8a78069.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-22f333c5ff.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-8011bd69ec.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-bcc4f9bf7c.webp)
+
+![Comprobar restricciones](/media/manual/comprobar-restricciones-9df9e43778.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-bacef7680b.webp)
+
+![Aplicar patrón](/media/manual/aplicar-patron-0124b9d5bf.webp)
+
+![Comprobar restricciones](/media/manual/comprobar-restricciones-984c46bf99.png)
+
+![Aplicar patrón](/media/manual/aplicar-patron-7c61290b94.webp)
+
+![Comprobar restricciones](/media/manual/comprobar-restricciones-6bbc9ecbc1.webp)
+
+![Insertar patrón](/media/manual/insertar-patron-5d0556143a.webp)

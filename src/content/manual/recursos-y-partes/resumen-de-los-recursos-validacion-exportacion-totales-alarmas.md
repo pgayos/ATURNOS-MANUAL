@@ -57,7 +57,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/resumen/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/resumen/
-  contentHash: af049ecea28c7c2513272cf8fe36a18a6ea3f3af62adec8a073b39b40d500550
+  contentHash: abdc81d0738e9bca9fa971a8718f61197996dbaf98097465ff1942a496b79ff4
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -106,3 +106,27 @@ En este resumen se refleja:
 - Valor: Suma los valores del recurso.
 - Alarma: Muestra el límite definido en la definición del recurso. Para incluir un límite a un recurso, consulta el Manual.
 - Botón de Acción: Desactiva la alarma, es decir, deja de visualizarse en rojo. No desaparece la alerta, porque el valor del límite aún ha sido superado por el valor total del recurso.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-27aebfb6df.png)
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-eb90074dcc.png)
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-0fd7f407b0.png)
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-cf64584442.png)
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-273f79f22b.png)
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-bf07967800.png)
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-a8ca95c0bb.png)
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-699cabfb18.png)
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-39dcf95d53.png)
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-ebf39b6a1f.png)

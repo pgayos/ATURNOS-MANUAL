@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-5-localizaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-5-localizaciones/
-  contentHash: 0ca44060bf9b6e51ccacfef84674cdb8fb9b805008b33640749a1d0b0b266d84
+  contentHash: f27af5f2b78446db1de68312c1e563cc647109b676d46041863fd56cb10e5c31
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -77,3 +77,9 @@ Se trata de un diagrama, donde se representan las horas de cada localización so
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![e. Localizaciones](/media/manual/e-localizaciones-d1474ac2f6.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-tabla-de-cobertura/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-tabla-de-cobertura/
-  contentHash: 26bc39a7610b92ff7a16693c041795ee0bcb88c0c4b218e1314309661667e09b
+  contentHash: c05de1999a177d60ba72c3b0a93a22111becac8f42bfd82c339f93f370d52969
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -123,3 +123,27 @@ Una vez se elige el equipo, aparece un nuevo botón, el botón “Intercambiar�
 ¡Importante!
 
 Si se intercambia el equipo, la barra de localizaciones cambiará a color lila, esto indica que no se pueden realizar modificaciones sobre ese cuadrante (modo solo visualización). Si se quiere volver al equipo anterior al intercambio se debe volver a la pantalla de “mis equipos”, ya que si se intenta volver desde el botón “Intercambiar” ambos cuadrantes aparecerán de color lila y no se puede modificar.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![F. Tabla de Cobertura](/media/manual/f-tabla-de-cobertura-70d334b792.png)
+
+![F. Tabla de Cobertura](/media/manual/f-tabla-de-cobertura-cfb67d57b4.png)
+
+![Opción Total por turno](/media/manual/opcion-total-por-turno-e501c79684.png)
+
+![Opción Total por localización](/media/manual/opcion-total-por-localizacion-b6737a5213.png)
+
+![Opción. Total por turno descontando peticiones](/media/manual/opcion-total-por-turno-descontando-peticiones-ea4be023d8.png)
+
+![Opción. Total por turno descontando peticiones](/media/manual/opcion-total-por-turno-descontando-peticiones-22b93b09ef.png)
+
+![Opción Ver cuadrante de otro equipo](/media/manual/opcion-ver-cuadrante-de-otro-equipo-0c540b71e7.png)
+
+![Opción Resumen medio Total](/media/manual/opcion-resumen-medio-total-f4a5a5833c.webp)
+
+![Opción Ver cuadrante de otro equipo](/media/manual/opcion-ver-cuadrante-de-otro-equipo-32dff068da.png)
+
+![Vista de f tabla de cobertura en aTurnos](/media/manual/vista-de-f-tabla-de-cobertura-en-aturnos-ed1448ae35.png)

@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/costes-por-hora-general-equipo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/costes-por-hora-general-equipo/
-  contentHash: b4d64b94a534fc99bb211221962633282c111aa08b738dc502142d1eb3947736
+  contentHash: 4d7e207f1c1f6b062d34713a73619c468f464a7c432dac6fb30049db3ed9c868
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,9 @@ Al acceder a esta pantalla se informarán los siguientes campos:
 - Base de cotización máximo: salario bruto anual máximo establecido de ley para los trabajadores dados de alta por nómina. Base máxima de cotización a la Seguridad Social.
 
 Una vez cumplimentados los campos, se debe guardar la información.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Costes por hora general (equipo)](/media/manual/costes-por-hora-general-equipo-d0ebb8697f.webp)

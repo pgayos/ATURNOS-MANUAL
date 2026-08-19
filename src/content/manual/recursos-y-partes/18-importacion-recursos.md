@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/18-importacion-recursos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/18-importacion-recursos/
-  contentHash: 4240df19aeb0ebec5106c039a3d3b7e15c4e1b581b00bb6308e6dfdad7bf36db
+  contentHash: 29854b362638c7467619973d04ffa3f300de151ec5bbc3c8f068f1110c479205
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -80,3 +80,11 @@ Los datos indicados con * son de carácter obligatorio indicarlos en el fichero.
 Por último, antes de realizar la importación, guarda el documento con formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “Importar “.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![18. Importación recursos](/media/manual/18-importacion-recursos-1cee57f428.png)
+
+![18. Importación recursos](/media/manual/18-importacion-recursos-2a28eb53c4.png)

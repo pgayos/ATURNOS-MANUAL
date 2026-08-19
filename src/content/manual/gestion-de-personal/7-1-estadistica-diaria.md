@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/f-estadistica-diaria/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/f-estadistica-diaria/
-  contentHash: 9e165e43be943a27ec2d5abd401007e7f06a39966942516f5ae6c5fc7a180b95
+  contentHash: 38f7dfd470b3928d529e8d4786b770ff8fe24f28d6a698854046f2f5a567eeb9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -96,3 +96,17 @@ Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística.
 6.- En el reporte con el tipo de descarga: estadística diaria sin totalizar se visualiza el valor diario de los conceptos 3K00 o 3000 atendiendo al número de horas nocturnas realizadas cada día.
 
 7.- En el reporte con el tipo de descarga: estadística diaria totalizada se visualiza el valor totalizado de los conceptos 3K00 o 3000 atendiendo al número de horas nocturnas realizadas cada día.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.1 Estadística diaria](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
+![7.1 Estadística diaria](/media/manual/6-1-estadistica-por-periodo-fee9586091.png)
+
+![7.1 Estadística diaria](/media/manual/7-1-estadistica-diaria-4705cbf9f3.png)
+
+![7.1 Estadística diaria](/media/manual/7-1-estadistica-diaria-16cef81545.png)
+
+![7.1 Estadística diaria](/media/manual/7-1-estadistica-diaria-96c5670b0e.png)

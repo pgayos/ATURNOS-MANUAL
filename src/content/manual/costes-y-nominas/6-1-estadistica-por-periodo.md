@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/e-estadisticas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/e-estadisticas/
-  contentHash: c7896dcdf973c442345d3df6055182e7d8b49808eb83cf5c60fdfffefe417801
+  contentHash: f6822c2cf4bf89464e460641e45f1ee4ad2540dce5cf4affc2e49c0a4b72e420
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -91,3 +91,17 @@ Accede a ADMINISTRAR → NOMINAS → ESTADISTICA POR PERIODO
 En el reporte de la estadística por periodo, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el período, es decir, suma las horas nocturnas 9 + 10 + 10 + 1 +1 + 2, hace un total de 33 horas, al superar las 10 horas nocturnas, el concepto que abona es el 3000.
 
 Si para el cálculo de las variables se precisan cálculos complejos, acceded a la Estadística diaria que se trata en el punto 7 de este Manual.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.1 Estadística por periodo](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
+![6.1 Estadística por periodo](/media/manual/6-1-estadistica-por-periodo-175143c67f.png)
+
+![6.1 Estadística por periodo](/media/manual/6-1-estadistica-por-periodo-fee9586091.png)
+
+![6.1 Estadística por periodo](/media/manual/6-1-estadistica-por-periodo-d310a6b6fd.png)
+
+![6.1 Estadística por periodo](/media/manual/6-1-estadistica-por-periodo-ffad9f8b00.png)

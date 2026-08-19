@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-exportacion-a-nominas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-exportacion-a-nominas/
-  contentHash: a757b754f80798735069262e591cb91bc19a5d5261ae27d725992d7721019b4a
+  contentHash: 63a18bf4f2295ffff5286be504778d410eb3a13a7e12bccc30b8a738443c1e2f
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -67,3 +67,11 @@ Con respecto a la nómina, dentro de la configuración del equipo en aTurnos se 
 - Nivel que puede cambiar la fecha de cierre del cuadrante: Las opciones disponible son: administrador validador, planificado, total, superusurio:
 - Nivel que puede cambiar la fecha de cierre de un empleado: Las opciones disponible son: administrador validador, planificado, total, superusurio:
 - Nivel mínimo que puede cambiar la fecha de cierre a pasado, es decir una vez cerrado a una fecha poder cerrarlo a una fecha anterior para su modificación.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Exportación a nóminas](/media/manual/4-exportacion-a-nominas-1f3e349373.png)
+
+![4. Exportación a nóminas](/media/manual/4-exportacion-a-nominas-b6ab8e55d4.png)

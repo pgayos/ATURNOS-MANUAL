@@ -55,7 +55,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/
-  contentHash: 284f05e7ad6cd85b914cc92f3a9210163c24e809761891d678f6dd3ff543ec92
+  contentHash: bafaa9a920b2932d30e2df82b04c7028e4e5ca1debab9a4e2fcb5ef61775d684
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -93,3 +93,15 @@ En el caso de que esté marcado sábados y domingos como festivos en los ajustes
 El trabajador tiene la siguiente planificación, el concepto creado recuperará las horas computadas del turno GP17
 
 Al recuperar las horas de la duración total a través de ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA recupera las 17 horas (el día 7 de agosto) indicadas en el turno creado anteriormente.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-760452fd0f.png)
+
+![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado-18addc5981.png)
+
+![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado-b10c2cdef4.png)
+
+![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado-51341c39fd.png)

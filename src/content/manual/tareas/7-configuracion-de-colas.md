@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-configuracion-de-colas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-configuracion-de-colas/
-  contentHash: b94239637eda367735ac5e32d61258a79628fa2dfec9ede3fcb116a7f1d129b9
+  contentHash: b389d70cc23627160d996a29ac29e0c6df601c9ebc9a60ba98bb6a5219756b5e
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -96,3 +96,19 @@ b) Si está llena la cola no permitir pedir más citas. En este caso el Kiosko n
 15.Cuerpo del correo que recibe en usuario
 
 16.Icono que aparece en el kiosko:
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-d2d4be4a1e.png)
+
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-2cc91819dc.png)
+
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-7d1bc9482e.png)
+
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-48a18ea6c4.png)
+
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-d334401226.png)
+
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-e22a364b40.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-6-absentismos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-6-absentismos/
-  contentHash: 38eb2a76e90079a1f657ac0f201bca5bed1cb0850e527cfa06cff69f56a5ad3d
+  contentHash: 44c2bc8ae1d3145e836cbbf9a3b2f27bc2211fc0ff6c2abe9f0fee7e97ee31f5
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -72,3 +72,15 @@ En la siguiente pestaña se podrá ver en un Gráfico el número de absentismos 
 En la representación del Gráfico veremos el total de horas de absentismos temporales:
 
 – Por último, también está la opción de ver la relación entre el número de horas trabajadas y planificadas, mostrando la diferencia en un porcentaje que sería el de las horas de absentismos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.6 Absentismos](/media/manual/4-6-absentismos-228a97d7e1.png)
+
+![4.6 Absentismos](/media/manual/4-6-absentismos-59739e77d0.png)
+
+![4.6 Absentismos](/media/manual/4-6-absentismos-20267380c5.png)
+
+![4.6 Absentismos](/media/manual/4-6-absentismos-548a3d05de.png)

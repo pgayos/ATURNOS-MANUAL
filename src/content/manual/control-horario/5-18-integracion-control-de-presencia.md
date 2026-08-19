@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-18-integracion-control-de-presencia/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-18-integracion-control-de-presencia/
-  contentHash: c01f2f57f6d2229b51271e8f7e1225fbefe8e27ff39e34849e3570ba06995306
+  contentHash: f673af4b1b33d2950029dc01d0cac494c2e64c9bd6f84519aa54fe1ee73258ce
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -104,3 +104,11 @@ Parámetro
 - Request-Example:
 
 En este enlace ofrecemos toda la documentación sobre los parámetros de Control de Presencia: APIdoc
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.18 Integración Control de Presencia](/media/manual/5-18-integracion-control-de-presencia-40c52af690.webp)
+
+![5.18 Integración Control de Presencia](/media/manual/5-18-integracion-control-de-presencia-3bdee12777.webp)

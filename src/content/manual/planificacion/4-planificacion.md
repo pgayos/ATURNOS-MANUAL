@@ -33,7 +33,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-planificacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-planificacion/
-  contentHash: cd3ce9cc7cf1251fc933f0b7effe5cae9ac089da38cb6b38938f872cb13e1397
+  contentHash: 84eac1f928c317ad630e39973aac7efd80342c6d5231df9d1cfada2e3fc12448
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,9 @@ Para la creación de patrones en primer lugar definiremos la jornada de trabajo 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.1 La creación de turnos](/media/manual/4-1-la-creacion-de-turnos-7d3900fbb3.png)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/crear-y-editar-turnos-absentismos-y-ofertas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/crear-y-editar-turnos-absentismos-y-ofertas/
-  contentHash: 07c7d5483845011f06a9ce50ae9ceb72675b1586c40c856b0fff392aab464d1b
+  contentHash: 81f7aeb664ba8aa23881aecc05692e861663d9ceac8946b4660163472fe5fcd8
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -66,3 +66,17 @@ La fuente pública de **Crear y editar turnos y absentismos** contiene muy poca 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-651e999bcf.png)
+
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-1f49253d1c.png)
+
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-75addc8080.png)
+
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-f7b2f4c210.png)
+
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-301a73bdd8.png)

@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-2-debe-haber-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-2-debe-haber-turnos/
-  contentHash: 82ddfac9a62779b88f101238857c8341b67265e3451a5c118089481e40f1f012
+  contentHash: 4cb167ad3589f58396bec9e3526d0f708c4d9557e1a3d62da5ca138d5a30e6ff
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,11 @@ La función debe/haber ofrece una tabla con información si el trabajador que es
 Estas deudas de cambios pendientes por devolver, se generan cuando se hacen un cambio de turnos entre trabajadores desde el cuadrante ‘Hacer cambios’, en los tipos de cambios por los distintos tipos de cambio: Libres o Doblajes de turno, y siempre que no se “devuelva el cambio”.
 
 Ver registro, ofrece en detalle los cambios que les deben y/o los que deben los trabajadores.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3.2 Debe/Haber turnos](/media/manual/3-2-debe-haber-turnos-da3bc4f529.png)
+
+![3.2 Debe/Haber turnos](/media/manual/3-2-debe-haber-turnos-364e87a4a4.png)

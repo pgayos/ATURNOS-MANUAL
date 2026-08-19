@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-2-reporte-de-localizaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-2-reporte-de-localizaciones/
-  contentHash: 0cb3862e63fd2b8fbac3e66de59808f96733cea2515b61760ac0a50bfd65c780
+  contentHash: 882b79926da3970c8199f15153447bb5016153e1cb14b08800a521a6d2264d47
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -81,3 +81,13 @@ Todos estos datos se generan a lo largo de un periodo, el cual puede abarcar má
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.2 Reporte de localizaciones](/media/manual/6-2-reporte-de-localizaciones-56f06a7bc9.png)
+
+![Barra superior de reportes de localizaciones](/media/manual/barra-superior-de-reportes-de-localizaciones-894f5ad2e9.png)
+
+![Variables de las tabla del reporte de localizaciones](/media/manual/variables-de-las-tabla-del-reporte-de-localizaciones-d030200c3f.png)

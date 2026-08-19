@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-editar-patron/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-editar-patron/
-  contentHash: 2df6084f4638ff0c3cdc950c364107329a5f348c47507d443b427b52effe8246
+  contentHash: 80fdc699e68900be2782d4fa34af72f0145bf1e34357351ea62c92739c317836
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -90,3 +90,13 @@ Planificar con patrones de turnos es una acción habitual que puedes realizar en
 Ya modificados los datos del patrón, se guarda en el botón inferior derecho “Guardar”, salvando con éxito la edición del patrón de turnos.
 
 En el momento de editar un patrón de turnos con más de un periodo, dispones de otras herramientas que te permiten hacer las mismas acciones que a la hora de crear un patrón de turnos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Editar patrón](/media/manual/3-editar-patron-94745471c7.png)
+
+![3. Editar patrón](/media/manual/3-editar-patron-68d0af11ca.png)
+
+![3. Editar patrón](/media/manual/3-editar-patron-63e133eeff.png)

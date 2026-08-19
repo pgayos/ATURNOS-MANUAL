@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-8-totalizada-por-equipo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-8-totalizada-por-equipo/
-  contentHash: 803776cc2f64ad2ec82244922f95d2012fff44eb93975f2bb5a1ce6fa47d4f3e
+  contentHash: 01e4937aadfbb0fc357324435dfc02d8836b89c929023f0862439a644426f4fd
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -69,3 +69,17 @@ Este proceso es obligatorio si en la configuración general del equipo está sel
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-3f168cc404.png)
+
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-765601f689.png)
+
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-c0f25cb730.png)
+
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-71164171d0.png)
+
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-f92942b842.png)

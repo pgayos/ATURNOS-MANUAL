@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-6-estadistica-todos-los-equipos/
-  contentHash: 138902083a6c950534e1d5b69cd5c8f78568b69b55f6a29231f3c68ae21827ba
+  contentHash: a1415290581d1301ceec41d1c3532ebaba6f945d5c6912fdf56f7eca639f8694
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -103,3 +103,15 @@ Accede a RRHH → NOMINAS → ESTADISTICA POR PERIODO DE TODOS LOS EQUIPOS
 En el reporte de la estadística por periodo, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el período, es decir, suma las horas nocturnas 9 + 10 + 10 + 1 +1 + 2, hace un total de 33 horas, al superar las 10 horas nocturnas, el concepto que abona es el 3000.
 
 Si para el cálculo de las variables se precisan cálculos complejos, acceded a la Estadística diaria que se trata en el punto 7 de este Manual.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.5 Estadística por periodos de todos los equipos](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
+![6.5 Estadística por periodos de todos los equipos](/media/manual/6-1-estadistica-por-periodo-fee9586091.png)
+
+![6.5 Estadística por periodos de todos los equipos](/media/manual/6-1-estadistica-por-periodo-ffad9f8b00.png)
+
+![6.5 Estadística por periodos de todos los equipos](/media/manual/6-5-estadistica-por-periodos-de-todos-los-equipos-6cac3bb463.png)

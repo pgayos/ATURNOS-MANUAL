@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/c-categoria/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/c-categoria/
-  contentHash: 4c46d8c075694cd500c2ac61458dae8b24e3d8b0d42e13b24bf6f9fe34d50ca3
+  contentHash: 7205e528b58aec9b7b36e7c37955369def92b7cf27110719df1f6e9860a43826
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -90,3 +90,19 @@ Para eliminar una categoría creada, se puede hacer desde el botón de acción.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![c. Categoría](/media/manual/c-categoria-54bf27c004.webp)
+
+![Nueva categoría](/media/manual/nueva-categoria-27627e72e3.webp)
+
+![Nueva categoría](/media/manual/nueva-categoria-8b26b078da.webp)
+
+![Editar categoría](/media/manual/editar-categoria-35ac8a4b95.webp)
+
+![Editar categoría](/media/manual/editar-categoria-c815c4dee5.webp)
+
+![Borrar categoría](/media/manual/borrar-categoria-437df5cd60.webp)

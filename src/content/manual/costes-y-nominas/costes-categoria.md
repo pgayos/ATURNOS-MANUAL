@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/costes-por-categoria/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/costes-por-categoria/
-  contentHash: 85d33e33bfab3ba043885e9384828f2d9241201afb5eebe54542d3ca65c8aa45
+  contentHash: 92677bfff71abb259432cab0dc61a50a75d33f309880de6f514455d32047d4f2
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -85,3 +85,13 @@ Costos por defecto: valor que se asignará o imputará por cada hora de trabajo 
 5. Puedes relacionar el coste por hora de la categoría a un rango de tiempo, en este caso en el numeral 5, se indica la hora de inicio del coste informado.
 6. En esta casilla se indica la hora fin del coste a imputar.
 7. Finalmente debes hacer clic en el botón de Insertar para que se guarden las variables. Una vez guardada la información se ofrece la opción de Borrar esos datos de ser necesario (icono de la Papelera).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Costes/Categoría](/media/manual/costes-categoria-db6d8eb3b1.webp)
+
+![Costes/Categoría](/media/manual/costes-categoria-e3ff5559ec.webp)
+
+![Costes/Categoría](/media/manual/costes-categoria-fdb07fcc15.png)

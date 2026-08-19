@@ -37,7 +37,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-7-calidad-del-fichaje/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-7-calidad-del-fichaje/
-  contentHash: 8e957b5047b7ba3a50862eeafbd9bf3302e0b67ed6cddf8e3f8bbaa4ae834cf2
+  contentHash: 0ad33e342613c87aefb07b7abca8d7fb9e41bc3be371d42fed07c36f3387535d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -77,3 +77,15 @@ Los parámetros que se pueden consultar en este reporte son las siguientes:
 - Fichajes olvidados este día. Actualizar fichajes sin cerrar: número de fichajes sin completar, es decir, entradas donde falta una salida o salidas donde falta una entrada en el mismo turno planificado. Este es un ejemplo de un marcaje sin cerrar.
 
 - Porcentaje de fichajes no automáticos: número de fichajes que han sido modificados por el administrador o mediante una petición de ‘ Solicitar modificación ‘.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-f0a149ae62.webp)
+
+![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-505a3344ab.webp)
+
+![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-9e00aa480a.webp)
+
+![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-a57c329ed8.webp)

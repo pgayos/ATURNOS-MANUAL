@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/subir-y-descargar-documentos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/subir-y-descargar-documentos/
-  contentHash: 3c955d7f7a2f657d07832baf2658951d68969e65986911c0bb05dda41b0cf5e9
+  contentHash: 563fc2371d668699ad15b4cdb096e46fd0a203015b03623f9305465f28ac6806
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,11 @@ Para ello, hay que hacer clic sobre el icono situado en la parte inferior derech
 2. Ver y descargar documentos
 
 En este caso, el administrador podrá descargar y ver los documentos que los trabajadores suben de forma personal (un parte de baja o trabajo, un justificante médico o de examen, etc.) o bien de forma general. Se podrán configurar los permisos de los trabajadores a la hora de subir o ver y descargar documentos desde la web.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Subir y descargar documentos](/media/manual/subir-y-descargar-documentos-a357568621.png)
+
+![Subir y descargar documentos](/media/manual/subir-y-descargar-documentos-a207746b1f.png)

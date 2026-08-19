@@ -43,7 +43,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/perfil-del-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/perfil-del-trabajador/
-  contentHash: 099fa865e94529489e700ae3cec1c9572a20d0e776996d7fd92db6bbeff6c595
+  contentHash: cf798f1a0b5e2a2ad83c6476108a922f6d222ee432f3836d01e4693cec5cc0c8
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -101,3 +101,17 @@ En este último apartado de la Configuración, podrás realizar las siguientes a
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![8.1 Ver perfil](/media/manual/8-1-ver-perfil-0ad9afbd54.webp)
+
+![8.3 Vacaciones](/media/manual/8-3-vacaciones-4dc2953b67.webp)
+
+![8.2 Contrato](/media/manual/8-2-contrato-a8eadb4b16.webp)
+
+![8.4 Configuración](/media/manual/8-4-configuracion-6acc6653d9.webp)
+
+![8.4 Configuración](/media/manual/8-4-configuracion-51dc557770.webp)

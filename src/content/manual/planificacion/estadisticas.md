@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/estadisticas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/estadisticas/
-  contentHash: 30dd9e93fdfa925f61824f9871622dfaae2d25c289f6226a64dc43c4c54a99ba
+  contentHash: ac06ed26d16fd3286da6614eb304af5e6f8eb4c95a01c5655d45016aebf4f260
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -62,3 +62,11 @@ Por otro lado, en este informe estadístico nos informará del número de horas 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.1 Total de turnos](/media/manual/5-1-total-de-turnos-2759993659.png)
+
+![5.2 Total de horas](/media/manual/5-2-total-de-horas-f65e0be978.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/11-como-se-llama-a-los-clientes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/11-como-se-llama-a-los-clientes/
-  contentHash: adcf49a305c854ca1b682eadaca4ccfebc0fe38a1f92619021e197bffde23543
+  contentHash: 839127245324adbecc20c856d47ba0750631efede302b631b80499a62aea86f0
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -69,3 +69,9 @@ El menú de Tareas → Tiempo Real es el que permite a los puestos llamar a los 
 8. Comienza a computar el Tiempo de la Tarea.
 9. Para terminar la tarea y hacer otra llamada, para la cita
 10. En el caso de que el cliente esté Ausente, se vuelve a marcar “Siguiente tarea”, la cita de este cliente pasa
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![11. ¿Cómo se llama a los clientes?](/media/manual/11-como-se-llama-a-los-clientes-692c97d997.png)

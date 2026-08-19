@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-2-comentarios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-2-comentarios/
-  contentHash: 85a3877e3dd77615f6593b34b2a17e1aba70b874ee25cfbe5cf285beb5476792
+  contentHash: c050fe56800d7c5b2aad5a247d9fb9b6dedad3617691d9e60967431a94b27874
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -65,3 +65,15 @@ Desde esta página también se pueden añadir nuevos comentarios.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.2 Comentarios](/media/manual/4-2-comentarios-fa08ecff96.webp)
+
+![4.2 Comentarios](/media/manual/4-2-comentarios-8f3c573a8e.webp)
+
+![4.2 Comentarios](/media/manual/4-2-comentarios-c2bb06250f.webp)
+
+![4.2 Comentarios](/media/manual/4-2-comentarios-180b9c779a.webp)

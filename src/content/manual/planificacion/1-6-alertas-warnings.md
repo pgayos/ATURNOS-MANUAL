@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-6-alertas-warnings/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-6-alertas-warnings/
-  contentHash: bce7ed41f40c2bc29c1b0f1d06992c0cee323eeeb35fc78562673e98ffec24b7
+  contentHash: 374fe3b6f19a778614fe5ad04afc126dc291b62046c1f6b79a49f2c5ee2fd35a
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -122,3 +122,91 @@ Por ejemplo si el final del turno era a las 14:00 horas, pero se fichó la salid
 Tanto en la tolerancia a nivel de trabajador, como a nivel de equipo, se puede configurar un límite de minutos fichados.
 
 Si el límite de minutos que se ficha es de 480 (8 horas) y el trabajador ficha de 08:00 a 12:00 horas (4 horas) y de 12:30 a 16:31 (4 horas y un minuto), el límite se supera por un minuto, mostrando la alerta.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-3257ba8913.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-dfa460e35d.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-c9abebb17b.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-b93b6b68c6.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-414026d858.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-7c9826ebb5.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-f6ee88f4b7.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-d619c315cd.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-0177be08f1.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-27e2e56fe7.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-b60e878bdd.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-e6f78df50e.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-63bbf2fe02.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-9017ae8836.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-ec0174f069.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-615cd84861.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-680560d211.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-f2c9ced17d.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-f85a3079d6.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-d9a57931f9.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-806fe5e1e5.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-6959006e3a.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-747d6c0ff3.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-fc9ca55f5d.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-191d3cf22f.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-020e81ff7c.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-4fe3c948f2.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-4db3e13e28.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-1b0145e708.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-25f3e03c52.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-7cb2786666.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-696373a500.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-c6c5ddcd4c.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-3580886c68.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-ce568bc9f6.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-a346dbae07.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-139c06de5d.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-636b121564.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-e04a9912bb.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-27f473f2e1.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-d629bc459b.webp)
+
+![1.6 Alertas (Warnings)](/media/manual/1-6-alertas-warnings-e9951c054b.webp)

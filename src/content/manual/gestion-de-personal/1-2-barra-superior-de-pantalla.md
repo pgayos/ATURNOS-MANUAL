@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-2-barra-superior-de-pantalla/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-2-barra-superior-de-pantalla/
-  contentHash: 344a4868cd1816116dd7a87a740fdb0b0c55482891e256454c7e605969c5e1de
+  contentHash: c836d1ff8aab965f4ba05630ab162aeb9564896b652bd4b6da6cba7208600f92
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -74,3 +74,15 @@ El usuario con rol de Trabajador tienen acceso a crear un ticket para reportar i
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.2 Barra superior de pantalla](/media/manual/1-2-barra-superior-de-pantalla-1a86d0edbd.png)
+
+![Contacto](/media/manual/contacto-ba3bad1d47.webp)
+
+![Contacto](/media/manual/contacto-f86d06c000.webp)
+
+![Contacto](/media/manual/contacto-907c36a877.png)

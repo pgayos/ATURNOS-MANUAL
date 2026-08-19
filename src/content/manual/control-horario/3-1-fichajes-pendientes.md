@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-1-fichajes-pendientes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-1-fichajes-pendientes/
-  contentHash: 46d4bac81d958102a6b9f8de8ff3418f350e57fa81a320ead339acb30238fff1
+  contentHash: bd6410c07b58046e17916776de4985e09996465fdf8eea1c60e27e448581b25a
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -85,3 +85,25 @@ Siempre que haya un turno planificado en un día y no se hayan realizado fichaje
 Al hacer clic sobre ‘Solicitar’, automáticamente se carga el modal con el formulario de peticiones de fichajes con la entrada y salida del turno añadidas, únicamente para finalizar el registro de la petición de los fichajes, habría que pulsar sobre ‘Guardar’.
 
 Los fichajes que hayan sido solicitados, pero sigan pendientes de ser aprobados (ver Peticiones pendientes de fichajes ) aparecerán en la columna ‘Fichajes solicitados’ del listado de fichajes pendientes.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-c1d92d3c51.png)
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-b2436369fa.png)
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-4073e12848.png)
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-b6d17133bc.png)
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-bfd5cdbb6a.png)
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-9f7cc3bd44.png)
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-81eac91d97.png)
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-92d9de883a.png)
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-098fae9e54.png)

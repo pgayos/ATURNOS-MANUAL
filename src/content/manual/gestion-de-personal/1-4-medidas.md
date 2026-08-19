@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-4-medidas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-4-medidas/
-  contentHash: 20c4fd72a843d9b1682a8f916ad2312e646392617cf7074dda7768c08b777905
+  contentHash: eb7e9c9fcb2728d7279e4f88a763ab29200c031bb9f3223789d07f43683f80c9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -77,3 +77,11 @@ Al añadir une nueva medida de las enumeradas anteriormente, debemos completar e
 - Ajustar los excesos o defecto de las horas de contrato: si o no.
 - Ajustar los excesos o defecto de las vacaciones: si o no.
 - Contrato sin vacaciones: si o no.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.4. Medidas](/media/manual/1-4-medidas-8897555bad.png)
+
+![1.4. Medidas](/media/manual/1-4-medidas-84cdcead6c.png)

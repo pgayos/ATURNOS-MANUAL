@@ -49,7 +49,8 @@ def main() -> int:
     sources = [r["source"] for r in redirects]
     if len(sources) != len(set(sources)):
         failures.append("duplicate source URL in redirects")
-    media_pattern = re.compile(r"<\s*(?:img|video|audio|iframe|embed|object|picture|Media|Video)\b|!\[[^\]]*\]\([^)]*\)|youtube(?:-nocookie)?\.com|youtu\.be", re.I)
+    forbidden_media_pattern = re.compile(r"<\s*(?:video|audio|iframe|embed|object|Video)\b|youtube(?:-nocookie)?\.com|youtu\.be|\.(?:mp4|webm|mov|m4v)(?:\)|$)", re.I)
+    image_pattern = re.compile(r"!\[([^\]]+)\]\((/media/manual/[^)]+)\)")
     hashes: dict[str, list[str]] = defaultdict(list)
     content_ids: dict[str, list[str]] = defaultdict(list)
     long_paragraphs = 0
@@ -57,6 +58,8 @@ def main() -> int:
     missing_traceability = 0
     generic_descriptions = 0
     pending_labels = 0
+    image_references = 0
+    missing_images = 0
     for path in generated:
         text = path.read_text(encoding="utf-8")
         body = body_of(text)
@@ -69,8 +72,18 @@ def main() -> int:
             pending_labels += 1
             if "## PENDIENTE de validación" not in body:
                 failures.append(f"PENDIENTE label without review section: {path.relative_to(ROOT)}")
-        if media_pattern.search(body):
-            failures.append(f"media reference found: {path.relative_to(ROOT)}")
+        if forbidden_media_pattern.search(body):
+            failures.append(f"forbidden video/audio reference found: {path.relative_to(ROOT)}")
+        for alt, source in image_pattern.findall(body):
+            image_references += 1
+            if not alt.strip():
+                failures.append(f"empty image label: {path.relative_to(ROOT)}")
+            if not (ROOT / "public" / source.lstrip("/")).exists():
+                missing_images += 1
+                failures.append(f"missing local image: {source}")
+        markdown_images = re.findall(r"!\[[^\]]*\]\(([^)]+)\)", body)
+        if any(not source.startswith("/media/manual/") for source in markdown_images):
+            failures.append(f"non-local image reference found: {path.relative_to(ROOT)}")
         if not re.search(r"^##\s+", body, re.M):
             failures.append(f"missing H2: {path.relative_to(ROOT)}")
         if "governance:\n  status: draft" not in text:
@@ -114,7 +127,7 @@ def main() -> int:
     result = {
         "sourceUrls": report["sourceUrls"], "externalGuides": guides_report["created"], "canonicalFiles": len(files), "generatedMarkdown": len(generated),
         "redirects": len(redirects), "duplicateBodies": len(duplicate_bodies), "duplicateContentIds": len(duplicate_ids),
-        "missingRedirectTargets": len(missing_targets), "mediaReferences": sum("media reference" in f for f in failures),
+        "missingRedirectTargets": len(missing_targets), "imageReferences": image_references, "missingImages": missing_images,
         "longParagraphs": long_paragraphs, "veryShortDrafts": tiny_bodies, "pendingReview": pending_labels,
         "missingTraceability": missing_traceability, "genericDescriptions": generic_descriptions, "entryTypes": status_counts,
         "warnings": warnings, "failures": failures,

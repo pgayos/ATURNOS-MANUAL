@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-instalar-dispositivos-usb/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-instalar-dispositivos-usb/
-  contentHash: eede0c23209641455b67526060d2ec97db5ffd9eaf732e2e77fc618dee67551d
+  contentHash: 809058376d0e9eb3d107c560007a0d5ed5ec4d6c4598c3e81ff9b86ec2af4e15
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -117,3 +117,45 @@ Cuando se ha reemplazado el archivo hay que ejecutar nuevamente el programa (pre
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Instalar Dispositivos USB](/media/manual/1-instalar-dispositivos-usb-c2c140e34b.png)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-523ba8e4a0.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-6a7420c885.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-c9be039adc.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-42ed7360c0.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-bef8087c39.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-dabfdaa44a.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-8345ccf678.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-ccc997b4dc.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-39995a28b1.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-139a4d7caa.webp)
+
+![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-9be8c8929d.webp)
+
+![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-d7b0bad5fd.png)
+
+![Localización de Dispositivo USB](/media/manual/localizacion-de-dispositivo-usb-d275214922.webp)
+
+![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-11d4589fa4.png)
+
+![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-742b1d1b8c.png)
+
+![Localización de Dispositivo USB](/media/manual/localizacion-de-dispositivo-usb-80427fd216.webp)
+
+![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-4e9b3a256c.png)
+
+![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-0b6c74c98d.png)

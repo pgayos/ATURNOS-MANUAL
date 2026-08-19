@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/como-puedo-desactivar-las-notificaciones-de-la-app/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/como-puedo-desactivar-las-notificaciones-de-la-app/
-  contentHash: f39cbf60247cdfc9365b75192b9654b0f27dae73043f0e61287655157754074b
+  contentHash: 7adebbf4784dd2a0ac6b63b9f797ac6f5874e4561aa67028dac7c65137f0655b
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -69,3 +69,9 @@ En el caso de que tengas ese permiso hay 2 opciones:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo puedo activar/desactivar las notificaciones de la APP?](/media/manual/como-puedo-activar-desactivar-las-notificaciones-de-la-app-fca31aa265.png)

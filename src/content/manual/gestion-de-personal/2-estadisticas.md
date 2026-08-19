@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-estadisticas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-estadisticas/
-  contentHash: 1bfd56e51877caf4bd95248c18446a7f742bbe792afd5eeb2cf30384c56d4587
+  contentHash: d4d79659f8134cfd317d4ee743362dc4596efd3e61048b2b6742d09bc4c6c524
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,17 @@ Al ejecutar el reporte Balance de tareas, se obtendrá un reporte como el que se
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Estadísticas](/media/manual/4-estadisticas-b5dfb14fa0.png)
+
+![2. Estadísticas](/media/manual/2-estadisticas-b247890beb.webp)
+
+![2. Estadísticas](/media/manual/2-estadisticas-c65181a378.png)
+
+![2. Estadísticas](/media/manual/2-estadisticas-4943489455.webp)
+
+![2. Estadísticas](/media/manual/2-estadisticas-660885fb40.webp)

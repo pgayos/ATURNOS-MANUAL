@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-ajustes-automaticos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-ajustes-automaticos/
-  contentHash: 220f2fd20437158bcf27b203ffc219d02db0dc5ea8304e47053049a3c1278e09
+  contentHash: 53b3c280686839d5fe600dfd15b0b78bf4934e409c51e1a5fd1a0efd5112f83f
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -65,3 +65,13 @@ Cuando esto sucede, puedes a nivel de equipo (ver Configuración general ajustes
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6. Ajustes automáticos](/media/manual/6-ajustes-automaticos-6dd455cadd.png)
+
+![6. Ajustes automáticos](/media/manual/6-ajustes-automaticos-e550af8f54.png)
+
+![6. Ajustes automáticos](/media/manual/6-ajustes-automaticos-3e549de91e.png)

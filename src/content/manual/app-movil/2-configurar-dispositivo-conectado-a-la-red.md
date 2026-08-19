@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-configurar-dispositivo-conectado-a-la-red/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-configurar-dispositivo-conectado-a-la-red/
-  contentHash: 8bd4e098848cf2810fdd39a48daec8e9128a43c68cc2646b88a43a9ba893526d
+  contentHash: c1cfa8dda86a8996c72a072d1231f23cd2a43119c1861a4f5b9adf089f1eecb8
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -64,3 +64,15 @@ En los casos donde se haya conectado un nuevo dispositivo de lectura de huella, 
 - Acceder a BioStar, y en el menú de ‘ Dispositivo ’ se procede a la búsqueda del dispositivo. Para ello, se tiene que pinchar en ‘ Búsqueda avanzada ’ y se informan los datos de IP y puerto configurado en el BioStarConfig.
 
 - Una vez encontrado, se añade el dispositivo, mostrándose en el listado junto al resto.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-6a3aa95974.png)
+
+![2. Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-fb306c698c.webp)
+
+![2. Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-d6040b83a7.webp)
+
+![2. Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-e613188e54.webp)

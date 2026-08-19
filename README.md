@@ -61,6 +61,7 @@ La carpeta `src/content/manual/` contiene la migración del contenido público e
 - 969 redirecciones desde el manual anterior y 160 redirecciones internas por reclasificación.
 - 11 fuentes vacías o inválidas conservadas como borradores señalizados.
 - 160 artículos reclasificados mediante una taxonomía reproducible y revisada.
+- 1.900 imágenes públicas optimizadas y almacenadas localmente, con 1.971 referencias en 428 artículos.
 
 Todos los artículos generados tienen estado `draft` para que Producto los revise. La migración elimina imágenes, vídeos, reproductores y referencias editoriales que dependían exclusivamente de esos medios.
 
@@ -77,10 +78,12 @@ npm run audit:guides
 npm run reclassify
 npm run integrate:guides
 npm run clean:content
+npm run audit:media
+npm run migrate:media
 npm run validate:migration
 npm run build
 ```
 
-`audit:guides` consulta únicamente el sitemap y las páginas públicas de `guias.aturnos.com`; requiere acceso a Internet. Los demás pasos trabajan sobre archivos locales.
+`audit:guides` y `audit:media` consultan únicamente las páginas públicas de la documentación y requieren acceso a Internet. `migrate:media` descarga las imágenes inventariadas, elimina duplicados por contenido y las optimiza para web con un ancho máximo de 1.600 px. No descarga ni referencia vídeos.
 
 Los controles comprueban cobertura y destino de redirecciones, identificadores, correspondencia entre módulo y ruta, duplicados de cuerpo, estructura mínima, párrafos excesivamente largos y ausencia de imágenes o vídeos migrados.

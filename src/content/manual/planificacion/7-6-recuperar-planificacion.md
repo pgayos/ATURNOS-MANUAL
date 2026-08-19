@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/11-6-recuperar-planificacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/11-6-recuperar-planificacion/
-  contentHash: ecf9aa56b4e8b6f7b039083bfa6cd6e109491281f24950a84656c9000fd83516
+  contentHash: 6dd148688d58319fc55627ce40cb125ef152c17f95d7f366f50bd4b2fb1e2c83
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -83,3 +83,13 @@ Para recuperarlos debemos indicar:
 - Recuperar solamente la última planificación borrada de cada día: esta opción permite recuperar la última planificación que se ha borrado dentro de las fechas seleccionadas, de esta forma podemos evitar el solapamiento de planificaciones si se han borrado varias veces dentro de las mismas fechas y con distintos turnos.
 
 El último paso es seleccionar los turnos borrados a recuperar, se pueden seleccionar desde todos a varios. Para completar el proceso hay que hacer clic sobre ‘Recuperar seleccionados’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.6 Recuperar planificación](/media/manual/7-6-recuperar-planificacion-8ac12339fc.webp)
+
+![7.6 Recuperar planificación](/media/manual/7-6-recuperar-planificacion-1cdf681afa.webp)
+
+![7.6 Recuperar planificación](/media/manual/7-6-recuperar-planificacion-e163ddd473.webp)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-3-festivos-nocturnidad/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-3-festivos-nocturnidad/
-  contentHash: 4ca00e6b20897eff8912f0637454bf343ed194e88c907032d5f1e63fa20a69e7
+  contentHash: 928a209c816d87d60a0d6d026049d1a768611fb51f45b9fa0da7fef46eef5324
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -77,3 +77,15 @@ Por último podemos ver representados estos datos en un Gráfico circular, donde
 - Horas festivas.
 - Horas nocturnas.
 - Horas festivas nocturnas.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-e9914da8d5.png)
+
+![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-fccf60cb20.png)
+
+![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-38a5301651.png)
+
+![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-01b6001140.png)

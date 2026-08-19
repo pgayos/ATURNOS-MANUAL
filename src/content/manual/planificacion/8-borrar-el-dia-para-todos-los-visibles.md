@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/8-borrar/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-borrar/
-  contentHash: 995039a15d2a254e8d924eb505cc663b1fb2ef0584b13679620a3ab771a38adf
+  contentHash: cab5139c67fd20e299174d3571d4e0351103b92fed245dbfe1731341494e617d
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -68,3 +68,9 @@ La fuente pública de **Borrar el día para todos los visibles** contiene muy po
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![8. Borrar el día para todos los visibles](/media/manual/8-borrar-el-dia-para-todos-los-visibles-78cbcc3030.png)

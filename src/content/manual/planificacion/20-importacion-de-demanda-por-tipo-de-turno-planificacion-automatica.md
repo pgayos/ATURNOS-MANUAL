@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/20-importacion-de-demanda-por-tipo-de-turno-operaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/20-importacion-de-demanda-por-tipo-de-turno-operaciones/
-  contentHash: 49dc9552b552ef80a3bd180aa9b030fbb137bf48976f80b252ce1aedacb7a769
+  contentHash: 3faad7b32a3c6620fc47a967ff1098be827b7fa85ec53177a1dd08dc2940164f
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -78,3 +78,9 @@ También puedes crear tu propio fichero o archivo desde cero en un documento Exc
 - Total: número de cantidad de demanda requerido por turno y día.
 - Localización: localización asociada a la demanda que se importa, la cual debe estar creada previamente (ver Crear nueva localización ). Informar este campo es opcional, depende de que la demanda esté relacionada directamente a una localización en particular o no.
 - Especialidad: podemos añadir una columna con el nombre de especialidad (e informar el nivel o puntuación requerido de 0 a 5) para calcular la demanda, ésta puede estar creada antes de hacer la importación (ver Especialidades ). Informar este campo es opcional, depende de que la demanda esté relacionada directamente a una Especialidad en particular o no.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![20. Importación de demanda por tipo de turno (Planificación automática)](/media/manual/20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica-adad31fe4d.png)

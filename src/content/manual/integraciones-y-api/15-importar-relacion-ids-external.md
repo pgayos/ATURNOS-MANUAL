@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/15-importar-relacion-ids-external/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/15-importar-relacion-ids-external/
-  contentHash: 93c43377ca036e0f5ceed4ef6f4b763f05b75e4876b1483d2f6e1ad75ff22753
+  contentHash: f7599862cdfaa7084845aa696c613cc7ad5dc8e70917936518bbb65b320f8f42
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -67,3 +67,11 @@ La plantilla del fichero debe contener las siguientes columnas:
 Finalmente, debe “Guardar” el documento con formato CSV.
 
 Para importar el archivo, debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![15. Importar relación Ids External](/media/manual/15-importar-relacion-ids-external-a26f5d28d9.png)
+
+![15. Importar relación Ids External](/media/manual/15-importar-relacion-ids-external-ae92a09459.png)

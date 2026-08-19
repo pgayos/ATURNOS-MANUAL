@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/f-variables-del-listado-de-trabajadores/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/f-variables-del-listado-de-trabajadores/
-  contentHash: dff90d148d5eedf5fc81231d40e054da62f7e49698dcb61cf2c86a18b13e0bda
+  contentHash: 03a2ff2fc9266c57397dc19e112a4f43ce8c12ed0ee8ddcfa654bb69fe75fdce
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -79,3 +79,9 @@ La definición de cada variable que hace referencia en cada trabajador es la sig
 
 1. Editar: es el acceso a visualizar toda la información detallada del trabajador (Veáse ver y editar perfil del trabajador ). Para acceder, tienes que hacer clic en el icono “editar”
 2. Baja: mediante este botón, se procede a eliminar al trabajador de la lista de trabajadores activos, pasando a formar parte de la lista de trabajadores inactivos. (Ver cómo dar de baja a un trabajador ). Para realizar esto, tienes que hacer clic en el icono “baja”
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![f. Variables del listado de trabajadores](/media/manual/f-variables-del-listado-de-trabajadores-4c2bf4cf1a.png)

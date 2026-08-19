@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-2-detalle-de-los-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-2-detalle-de-los-fichajes/
-  contentHash: e2f3f0025f417b36e3b16888b40ff8069b7ba6d1aa37e2746f45d85422a2fc80
+  contentHash: a3be001de0e736985d7c9003239a610f214319257bcec5e32fd4da3f3b2842cc
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -82,3 +82,33 @@ Indica un fichaje no computable que no está cerrado.
 Representa un fichaje no computable cerrado (una entrada con una salida no computable).
 
 Muestra gráficamente un turno sin horas.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.2 Detalle de los fichajes](/media/manual/insertar-o-modificar-marcajes-fe79415dd9.png)
+
+![1.2 Detalle de los fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-22fe4ecb01.webp)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-e1b7422a23.png)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-e49ffd2980.webp)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-c82821aa0a.png)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-80e8c39bea.webp)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-558697faae.png)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-37621d2603.webp)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-3c0af9c10e.png)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-e168c6344e.png)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-499d4cd59f.webp)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-56c9fb6f91.webp)
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-8c774eb72d.webp)

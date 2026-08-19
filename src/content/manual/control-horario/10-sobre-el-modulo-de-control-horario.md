@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-sobre-el-modulo-de-control-de-presencia/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-sobre-el-modulo-de-control-de-presencia/
-  contentHash: 68ad6507e5a9ec92b63c86456a8dad27d04279ee9fd1f6973c54c0fbb42e2a5f
+  contentHash: 0b2f8e69c7f8ffdf9496060596936d273e583ca7a157a25c5fccf095d4c26392
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -97,3 +97,9 @@ Ejemplo de configuración:
 Con esta configuración estaríamos indicando que si el trabajador ha trabajado entre 5 y 7 horas, tiene derecho de disfrutar 30 minutos de descanso, en caso de no cumplir con este mínimo de horas, únicamente podría tomarse 10 minutos de descanso.
 
 El resto de Intervalos es la misma configuración, indicando otros dos rangos de horas trabajadas según las necesidades. Por ejemplo, podríamos indicar que entre 1 y 3 horas puede descansar 10 minutos y si no se llega al mínimo, 5.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10. Sobre el módulo de Control Horario](/media/manual/10-sobre-el-modulo-de-control-horario-96d0d19700.webp)

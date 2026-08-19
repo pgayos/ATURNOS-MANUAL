@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/b-datos-del-equipo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/b-datos-del-equipo/
-  contentHash: 91c47bccd689607c518edd3ed82c4af2d3b3da59405baa2db3157bd77f618c6f
+  contentHash: 81dafa74671890e468cfe63e7243776f69711f44cae9d204db7a8f4bd924fcd0
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -65,3 +65,9 @@ Permite configurar los datos del equipo y cómo se estructura dentro de la empre
 - Zona horaria: se informa a la que pertenezca por su localización geográfica. Esto afecta a aTurnos en procesos como los marcajes, los widgets, las notificaciones o los correos de avisos.
 - Equipo padre: En caso de existir una estructura de equipos, se puede definir una jerarquía que ayuda en la configuración y en la generación de reportes. Desde aquí se puede definir el equipo padre del que se está configurando, es decir, se debe informar el nombre del equipo del que depende o es superior dentro la estructura de la organización.
 - Logo de equipo: inserta, sustituye o borra el logo corporativo de la empresa. El logo se encuentra visible en diferentes puntos del sistema y te ayuda a localizar más rápido la información.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![b. Datos del equipo](/media/manual/b-datos-del-equipo-36fa97e12d.png)

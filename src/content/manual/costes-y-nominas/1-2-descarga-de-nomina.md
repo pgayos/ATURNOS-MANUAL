@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-2-descarga-de-nomina/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-2-descarga-de-nomina/
-  contentHash: 3ccad7545ca6caf950aff0039490aa5cb7b6f84cf27a22faeb4685e5bccb889c
+  contentHash: 21e2bdda1227e570b753faefa90e7689530fa8f5aca15f880a803ca2c0719866
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -75,3 +75,11 @@ En la siguiente pantalla, se visualiza las tres fechas a las que hemos hecho ref
 3. Último día exportado.
 
 Para ver en nuestro Manual cómo se modifica la fecha de cierre del cuadrante, la fecha de validación y el último día exportado en todos los equipos (o los indicados en el filtro de equipos), haz clic aquí.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.2 Descarga de nómina](/media/manual/1-2-descarga-de-nomina-9e7b912d60.png)
+
+![1.2 Descarga de nómina](/media/manual/1-2-descarga-de-nomina-c02d327a98.png)

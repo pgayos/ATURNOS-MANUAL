@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/anadir-comentarios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/anadir-comentarios/
-  contentHash: 95e8fab1f3ac22c29e615b69566650d6e5ad408988cfd114065f2d2e5e7aac1a
+  contentHash: b0d77a79cb6a7693794211b52fde01c22e6fb80e44d875b08c4cf16a4fae2fc9
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -68,3 +68,9 @@ En los días que haya insertado un comentario de cualquier tipo, quedaría visib
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Añadir comentarios](/media/manual/anadir-comentarios-ba5a12a3cc.png)

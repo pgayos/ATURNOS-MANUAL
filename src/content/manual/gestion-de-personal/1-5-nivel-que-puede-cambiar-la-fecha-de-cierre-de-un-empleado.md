@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-5-nivel-que-puede-cambiar-la-fecha-de-cierre-de-un-empleado/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-5-nivel-que-puede-cambiar-la-fecha-de-cierre-de-un-empleado/
-  contentHash: 01ec29273b4755995b9f97e715ded3ebe60d9a803a7323db19f25728abcaa4a8
+  contentHash: 0adf9cb23ae936a025c151b673d081da9e0026ffd406e05833d3ab48c294a03e
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -74,3 +74,9 @@ Las opciones permitidas son:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.5 Nivel que puede cambiar la fecha de cierre de un empleado](/media/manual/1-5-nivel-que-puede-cambiar-la-fecha-de-cierre-de-un-empleado-16ae94f808.png)

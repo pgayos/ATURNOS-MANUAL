@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/
-  contentHash: 76f084bba4aef1f9a5785dc20264bcb2b69b62d4081018133ad1cabf37176813
+  contentHash: 11eacd68f705d632b7e7ad95080dd5c5345e2bce92742af826b1822723fb78f9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,13 @@ En estos casos, si se modifica la planificación del trabajador, se admiten dos 
 - Deseable: Permite la modificación de la planificación. La aplicación emite un aviso en pantalla.
 
 - Obligatoria: No permite la modificación de la planificación.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.3 Comportamiento de aviso de cuadrante cerrado por nómina](/media/manual/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina-5a205457fc.png)
+
+![1.3 Comportamiento de aviso de cuadrante cerrado por nómina](/media/manual/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina-da5b0a995d.png)
+
+![1.3 Comportamiento de aviso de cuadrante cerrado por nómina](/media/manual/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina-6ded7447f5.png)

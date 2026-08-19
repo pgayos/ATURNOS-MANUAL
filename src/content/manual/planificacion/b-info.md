@@ -37,7 +37,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 2
+readingTime: 3
 featured: false
 migration:
   sourceCount: 1
@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/b-info/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/b-info/
-  contentHash: 0fb97ac3bea47ff5a9939a58d2322a1653ba2fbf8b6beeb166d0a98d335be2f8
+  contentHash: f3f5b74567546ae5318a5bfcea9fa8cdb3133672e5ec98ddf9a6c6ac98581f49
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -75,3 +75,13 @@ Identificando los siguientes conceptos:
 - Ver: haciendo clic en este icono se mostrará la secuencia del patrón completo.
 
 Esta visualización es útil cuando, por ejemplo, se necesita saber en qué índice del patrón se encuentra el trabajador para poder aplicar el mismo patrón a un nuevo empleado desde ese día cumpliendo la misma secuencia de turnos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Info](/media/manual/2-info-59bb98d313.png)
+
+![2. Info](/media/manual/2-info-aa70a6c641.png)
+
+![2. Info](/media/manual/2-info-4ea11a9120.webp)

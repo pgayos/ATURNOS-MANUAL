@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-2-acceder-al-perfil-del-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-2-acceder-al-perfil-del-trabajador/
-  contentHash: d7db9f8c60acd552e174773687dac48945e754f28a60ac593afa4310df52d491
+  contentHash: 3683d951f84182a6a5dcf713f7c702d049eb19bd64f0b49e216c891df9f47a26
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,9 @@ Desde el icono “perfil” localizado junto a cada equipo en el que se encuentr
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![b. Acceder al perfil del trabajador](/media/manual/b-acceder-al-perfil-del-trabajador-1f60134cb9.png)

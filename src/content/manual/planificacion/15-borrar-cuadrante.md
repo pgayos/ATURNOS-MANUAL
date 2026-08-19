@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/15-borrar-cuadrante/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/15-borrar-cuadrante/
-  contentHash: 757cf271a0fc1450f2306096b0ce2c34528970bd123501362e1831632918df6c
+  contentHash: 63b3ba4488d1be6279df1bcb4573fb7475db2e220373c904165e714345755170
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,13 @@ Se puede borrar:
 Cada vez que se borre el cuadrante, el sistema preguntará si se quiere actualizar la fecha fin de planificación.
 
 A continuación, se puede ver cómo borrar el cuadrante de un trabajador.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![15. Borrar cuadrante](/media/manual/15-borrar-cuadrante-e48859c3c1.webp)
+
+![15. Borrar cuadrante](/media/manual/15-borrar-cuadrante-5d9a0d1bef.webp)
+
+![15. Borrar cuadrante](/media/manual/15-borrar-cuadrante-095d83b163.webp)

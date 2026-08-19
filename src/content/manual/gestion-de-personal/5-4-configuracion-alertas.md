@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-4-configuracion-alertas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-4-configuracion-alertas/
-  contentHash: dba9dfefc0520440cad1ad391fc98a175858ccf984a4a29ab6f7fd230f1f4c3e
+  contentHash: 07d8a29370e4d8416f4e6a87ee291243179075024930407d52cb35337097583b
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -89,3 +89,23 @@ El informe estará disponible para ser descargado en RRHH → Peticiones de Repo
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Configuración](/media/manual/configuracion-e1ee6a5705.webp)
+
+![Configuración](/media/manual/configuracion-4a9148a96b.webp)
+
+![Información de alertas](/media/manual/informacion-de-alertas-1aaed92fd1.webp)
+
+![Reportes de alertas](/media/manual/reportes-de-alertas-24c247f006.webp)
+
+![Reportes de alertas](/media/manual/reportes-de-alertas-183d78740d.webp)
+
+![Reportes de alertas](/media/manual/reportes-de-alertas-0c84f684fa.webp)
+
+![Información de alertas](/media/manual/informacion-de-alertas-469c9e06dc.webp)
+
+![Reportes de alertas](/media/manual/reportes-de-alertas-2860b637ae.webp)

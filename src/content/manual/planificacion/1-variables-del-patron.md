@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-variables-del-patron/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-variables-del-patron/
-  contentHash: 2eb34601cc4d3fde61b50d81b15df9174b12bd2d754765e12bf6674460a6f435
+  contentHash: d0b276f121c8d8889256cb4113751d31c5c357ed357cb0bc13e2019576c84f24
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -69,3 +69,9 @@ Además, dispones de las siguientes variables de información que se irán actua
 - Número de trabajadores requeridos: Se trata de la cantidad de trabajadores que necesitas para completar la tabla de cobertura en la parte inferior de la pantalla (Ver más).
 - Horas Anuales (Neto): se trata de la suma de horas si aplicaras este patrón desde el 1 de enero hasta el 31 de diciembre del mismo año, descontando los festivos indicados en el equipo (ver más) así cómo la cantidad de vacaciones por convenio indicadas en Administrar → Ajustes (ver más).
 - Horas Anuales (Bruto): Se trata de la suma total de horas si se aplicara el patrón desde 1 de enero a 31 de diciembre del mismo año (descontando vacaciones).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Variables del patrón](/media/manual/1-variables-del-patron-fb2c6b0b32.png)

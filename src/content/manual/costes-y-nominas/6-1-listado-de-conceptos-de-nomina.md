@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-1-listado-de-conceptos-de-nomina/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-1-listado-de-conceptos-de-nomina/
-  contentHash: 1516cb2448773a7ef4a72590caa3e92e713fa41174d4f65a2d65bd877b3e072e
+  contentHash: f0ff98b54c1d19b803f09be37976a5a0de97c90d9f12e2b64dff6f5263e3f7ef
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -64,3 +64,9 @@ En este listado puedes ver y exportar con el botón Acciones, los conceptos de n
 El botón “OCULTAR” se utiliza para ocultar las columnas del informe, si no quieres ver por ejemplo, el Equipo, lo puedes “ocultar” a través de esta opción.
 
 Recuerda que puedes utilizar la opción de Clonar datos, diferenciando la clonación de los conceptos de cálculo (que pueden ser distintos por cada uno de los equipos) de la clonación de los conceptos de nómina que son los que se muestra en los informes.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.1 Listado de conceptos de nómina](/media/manual/6-1-listado-de-conceptos-de-nomina-d4a96a2f07.png)

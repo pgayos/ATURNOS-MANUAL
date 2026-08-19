@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-categoria-contrato/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-categoria-contrato/
-  contentHash: eabebcefbafd11ba8964426bed8c25da60a50bbe42974f237677636fc22585c9
+  contentHash: 4d4a55ddde416bab9dc52fc7f9b89d5787d7437a3ce1ba0746e09174c2a7adff
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,9 @@ Se trata de la información contractual del trabajador. Son los datos más relev
 - Posición: Identifica qué puesto ocupa un trabajador dentro del organigrama de la empresa, es decir, las posiciones que definen la jerarquía y el volumen de puestos necesarios en la organización que deben ser cubiertos por los trabajadores. Véase ¿Qué son y cómo utilizar las posiciones de los trabajadores para gestionar tu equipo?
 - Medida de alta: Las medidas de alta indican cuál es el motivo de contratación de un empleado. Puede ser interesante para un mando que planifica saber si viene de una nueva alta, de cambio de contrato o cualquier otra nueva relación laboral. Los tipos de medidas se crean a nivel de RRHH. Es necesario tener cargado el catálogo de medidas para poder indicar cuál es la que corresponde a cada trabajador y periodo. Es un dato que puede venir por integración.
 - Medida de baja: Las medidas de baja indican cuál es el motivo de cambio/baja de un empleado dentro de aTurnos para un periodo. Por ejemplo, podemos cerrar un periodo en aTurnos porque es baja en la empresa, porque se ha cambiado a otra unidad o porque han cambiado sus condiciones laborales.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Categoría & Contrato](/media/manual/3-categoria-contrato-7ef6cfc143.png)

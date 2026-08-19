@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-5-periodos-de-vacaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-5-periodos-de-vacaciones/
-  contentHash: 3149e9c64e3e5ace56facf551d8422960ab8d5cd8ba0326713c153adcdc752f3
+  contentHash: 59921459d1a1abc87b7a38d9d4809a1082b1e7c08562417f5e40a34a49b49427
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -60,3 +60,9 @@ Información sobre periodos de vacaciones, con instrucciones y contexto revisabl
 Desde esta pestaña podrás ver los distintos periodos de vacaciones de los empleados en las fechas y los equipos que selecciones en la barra superior. Lo que hace el sistema en este caso es identificar días seguidos de vacaciones aplicados en el cuadrante y los organiza en forma de periodos.
 
 Además de esto, puedes visualizar más campos como por ejemplo el ID del empleado realizando la configuración en RRHH → Configuración (ver más). Esto te permite tanto visualizar los datos que necesitas así como exportarlos desde el botón de “Descargar” en la parte superior de esta tabla.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.5 Periodos de vacaciones](/media/manual/2-5-periodos-de-vacaciones-6d1472d1d5.webp)

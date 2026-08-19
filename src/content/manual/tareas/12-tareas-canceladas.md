@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/12-tareas-canceladas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/12-tareas-canceladas/
-  contentHash: 422aa1d6d0d432ecda6491371c3ee4d9d990f132dc6cc82dace04730ee3deb10
+  contentHash: 7ca6b3edb901adb5968798c1c55da819b32422559591cdd106e707d3434d83be
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -60,3 +60,9 @@ La fuente pública de **Tareas canceladas** contiene muy poca información textu
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![12. Tareas canceladas](/media/manual/12-tareas-canceladas-19092c53dc.png)

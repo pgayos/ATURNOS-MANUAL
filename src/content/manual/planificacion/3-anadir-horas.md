@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-anadir-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-anadir-horas/
-  contentHash: 3bc0ada68c0d368c1cb81ae779c2c0726f81b661772add8d2d5071c4ea9f6ff0
+  contentHash: dcb85a2b98299202c4519a4b3288c3d2c259bd41ed450f38282070e704483569
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,19 @@ Se mostrarán los datos de planificación de los trabajadores disponibles de la 
 El administrador pulsando sobre los trabajadores disponibles, les añadirá las horas.
 
 Las horas de bolsa, se encontrarán planificadas en el cuadrante, destacado con un borde de color rojo y un signo +, a los trabajadores seleccionados.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Añadir horas](/media/manual/3-anadir-horas-5ec8e3a6f4.webp)
+
+![3. Añadir horas](/media/manual/3-anadir-horas-d76ebf6c3b.webp)
+
+![3. Añadir horas](/media/manual/3-anadir-horas-ac83bcfa8c.webp)
+
+![3. Añadir horas](/media/manual/3-anadir-horas-277c5a12c9.webp)
+
+![3. Añadir horas](/media/manual/3-anadir-horas-0547e39d29.webp)
+
+![3. Añadir horas](/media/manual/3-anadir-horas-326dbed473.webp)

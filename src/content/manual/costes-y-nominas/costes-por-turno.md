@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/costes-por-turno/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/costes-por-turno/
-  contentHash: 9de9c836b4f33bba69bd18fc891b50edead6d9d4caa2d599d2e4edac72c61b9f
+  contentHash: 8200045903d61b649d52aa78e01fbd03ac2c4bacc43a9a77e56b9e1082e81cd5
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -65,3 +65,9 @@ Al tener activado el módulo de Costes aparecerán las siguientes opciones relac
 
 - Coste por turno: se debe indicar el valor a imputar por el turno planificado, es decir, cada vez que se planifique ese turno en el cuadrante imputará el valor que se indique en el campo.
 - Suplemento: el valor que se indique en este punto se imputará adicionalmente a otros valores de costes que se tengan informados en aTurnos, es decir, si tengo ya informado un coste por categoría e indico un valor al suplemente de un turno, tomará en cuenta ambos valores (por categoría y suplemento del turno) imputando ambos en los informes.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Costes por turno](/media/manual/costes-por-turno-572d6ee5ac.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-4-datos-personalizados-por-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-4-datos-personalizados-por-trabajador/
-  contentHash: 15e955f3a8ea0cca2520080a656130ede95052dfff3e85c93d5551e409813f24
+  contentHash: 854df90dc3c97cfda787242aeeb91f51d4b09844dcaea4817d08c83d55b3516c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -71,3 +71,17 @@ Se muestran los datos personalizados que haya informados en cada trabajador en s
 Se pueden ocultar aquellos campos que no se necesiten para la consulta.
 
 Se puede copiar o exportar el listado en CSV, Excel o PDF.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-ac5e1b6ea2.webp)
+
+![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-621a18fa31.webp)
+
+![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-9104fc5307.webp)
+
+![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-1280af39b2.webp)
+
+![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-729bcb76cc.webp)

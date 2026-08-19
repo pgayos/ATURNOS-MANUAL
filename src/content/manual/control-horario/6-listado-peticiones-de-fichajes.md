@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-listado-peticiones-de-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-listado-peticiones-de-fichajes/
-  contentHash: 6d4cf224aac163b77960a06fbb6b33836d6a362e55fa973853bb66d7b2139761
+  contentHash: 9c45edcc326d9f79d392d532eaeb101198365bfc06dd0dc1f96c2859b9922c9a
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -74,3 +74,17 @@ Una vez validadas, no es posible deshacer la acción.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6. Listado peticiones de fichajes](/media/manual/6-listado-peticiones-de-fichajes-e767a948f9.webp)
+
+![6. Listado peticiones de fichajes](/media/manual/6-listado-peticiones-de-fichajes-0188bcd3ca.webp)
+
+![Filtros](/media/manual/filtros-72e7c63bbb.webp)
+
+![Filtros](/media/manual/filtros-2881c513c8.webp)
+
+![Acciones](/media/manual/acciones-82098cc41e.webp)

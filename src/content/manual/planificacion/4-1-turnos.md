@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-1-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-1-turnos/
-  contentHash: 9be0079e49da3fdae178aac4657757cc69fac7f139d48a909b2d0631f6903b88
+  contentHash: bc965990a59cfb865b3fe503cdd44a03034449c3c45477a5f76170ab2aa5dc60
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,15 @@ En el resto de columnas se mostrarán:
 Estas estadísticas las podemos ver más resumidas por Totales.
 
 También tienes la opción de visualizarlas través de un Gráfico.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.1 Turnos](/media/manual/4-1-turnos-251f7ca374.png)
+
+![4.1 Turnos](/media/manual/4-1-turnos-81f96b5796.png)
+
+![4.1 Turnos](/media/manual/4-1-turnos-7695ff4fdd.png)
+
+![4.1 Turnos](/media/manual/4-1-turnos-8ddfad7e24.png)

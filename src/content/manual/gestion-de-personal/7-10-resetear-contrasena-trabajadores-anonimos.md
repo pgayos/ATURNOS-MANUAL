@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-10-resetear-contrasena-trabajadores-anonimos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-10-resetear-contrasena-trabajadores-anonimos/
-  contentHash: 2007c42dea73b65f06bdb6040c31628588a47d4b804baebe86b9d71b7555958f
+  contentHash: 333abf28645254723fafae1d37f6488e3675c71f790a9b29be732adc87ee660a
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -82,3 +82,19 @@ El sistema preguntará ‘ ¿Desea restaurar contraseña a todos los usuarios? E
 Automáticamente el sistema descargará un archivo Excel con las contraseñas de los trabajadores reseteados.
 
 ¡IMPORTANTE! La tabla de contraseñas solo se puede consultar una vez, por ello es muy importante descargarse el archivo de contraseñas y asegurarse de que se puede leer correctamente antes de abandonar la página (o antes de que el sistema cierre la sesión automáticamente por inactividad).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.10 Resetear contraseña trabajadores anónimos](/media/manual/7-10-resetear-contrasena-trabajadores-anonimos-ce7d36c797.webp)
+
+![7.10 Resetear contraseña trabajadores anónimos](/media/manual/7-10-resetear-contrasena-trabajadores-anonimos-5a0741970f.webp)
+
+![7.10 Resetear contraseña trabajadores anónimos](/media/manual/7-10-resetear-contrasena-trabajadores-anonimos-88d8fd20ea.webp)
+
+![7.10 Resetear contraseña trabajadores anónimos](/media/manual/7-10-resetear-contrasena-trabajadores-anonimos-728c5a242c.webp)
+
+![7.10 Resetear contraseña trabajadores anónimos](/media/manual/7-10-resetear-contrasena-trabajadores-anonimos-c437442670.webp)
+
+![7.10 Resetear contraseña trabajadores anónimos](/media/manual/7-10-resetear-contrasena-trabajadores-anonimos-d68d52c84d.webp)

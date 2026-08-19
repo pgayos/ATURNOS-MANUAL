@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-8-listado-de-comprobacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-8-listado-de-comprobacion/
-  contentHash: 908dbc64bf60c40d2cec379194305a7b10e53ffe15082b5c10524af56563ce82
+  contentHash: d125ce76615694e63d4a413c2b14b266d89d0ca8d6b1e525e4d202d13763e2c7
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,13 @@ Al solicitar, la aplicación genera un reporte
 Que se encuentra disponible una vez termine la ejecución en RRHH → PETICIONES DE REPORTE
 
 Siguiendo el ejemplo, en el listado se visualizan los trabajadores con turno G17 que abona solo el concepto K285
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10.8 Listado de comprobación](/media/manual/10-8-listado-de-comprobacion-5f0a00db04.png)
+
+![10.8 Listado de comprobación](/media/manual/10-8-listado-de-comprobacion-60c0862943.png)
+
+![10.8 Listado de comprobación](/media/manual/10-8-listado-de-comprobacion-bd95cc95d6.png)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-12-ajustes-automaticos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-12-ajustes-automaticos/
-  contentHash: 2f18902c7589b103a9fe8fe5af8c6f5d18d3f6975d6cde8b31e14f5cae895a72
+  contentHash: 845eea5b435a08d192eb4a587cf61090696ba608e7fc75bff9b7f3d4b42a6aaf
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -84,3 +84,19 @@ En el caso de que un trabajador tenga solicitado o planificado un absentismo tem
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Automatizar ajustes](/media/manual/automatizar-ajustes-a12d460d5e.webp)
+
+![Automatizar ajustes](/media/manual/automatizar-ajustes-219de6ba0c.webp)
+
+![Automatizar ajustes](/media/manual/automatizar-ajustes-26a2a40bac.webp)
+
+![Automatizar ajustes](/media/manual/automatizar-ajustes-77dc15b69a.webp)
+
+![Automatizar ajustes](/media/manual/automatizar-ajustes-5473039706.webp)
+
+![Automatizar ajustes](/media/manual/automatizar-ajustes-87be5a1497.webp)

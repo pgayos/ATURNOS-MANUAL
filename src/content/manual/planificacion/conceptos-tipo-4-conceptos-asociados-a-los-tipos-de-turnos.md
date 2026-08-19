@@ -45,7 +45,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/
-  contentHash: 85bd180181889731023cacf4e4235e0d660df567d559409f216e07915120eea6
+  contentHash: 00a21d1a1cf3879a89fdf680ad140df91804d4b5a348bbae4f1c3a2ff3d03802
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -92,3 +92,15 @@ Si el turno tiene informado un absentismo no justificado o un absentismo no prod
 A través de ADMINISTRAR → NOMINAS → ESTADÍSTICA DIARIA, se visualizan los resultados.
 
 En el caso que el convenio establezca un valor distinto a 1 cuando el trabajador tiene el turno planificado, recordad que a través de los conceptos que operan entre conceptos se puede multiplicar por un valor distinto. En este enlace Ejemplo multiplicación por campo fijo, se describe el proceso.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-869f43a352.png)
+
+![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-5f85fdc582.png)
+
+![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-4b1fe49f5b.png)
+
+![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-fbb3b99533.png)

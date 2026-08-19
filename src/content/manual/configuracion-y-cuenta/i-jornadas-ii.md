@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/9-11-jornadas-ii/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/9-11-jornadas-ii/
-  contentHash: f53dd3706e5170b09d0f6dd1218cf42602d3c648369643a8660d1f0c4a2f84da
+  contentHash: bdc26d3248b3580ff74f8adbcd8c69df765af3062350cbf467e0748c45106897
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -57,3 +57,9 @@ Este informe te permite visualizar las jornadas de acuerdo a la configuración d
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![i. Jornadas II](/media/manual/i-jornadas-ii-5bb1990b72.png)

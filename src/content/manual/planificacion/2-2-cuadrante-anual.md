@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-anual/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-2-cuadrante-anual/
-  contentHash: 5df82a9633ced2e8ad39bdab1fbe3419dc42ae7cc66294775b921125bfe2a999
+  contentHash: a02f938aa225ce180f4f6921c73d84178ba877f5247d820335b23762d52ce823
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -75,3 +75,11 @@ Así como un balance de horas del año y/o periodo e información de las vacacio
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-647c766324.webp)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-8b17569f59.webp)

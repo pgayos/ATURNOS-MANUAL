@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/d-perfiles/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/d-perfiles/
-  contentHash: 6ec0f0ecebd7663afa958e894c81f453393fa7a45d18410785bc366a5709c843
+  contentHash: a46a5e434f08183c9460e9e75dfe9e67cf73eedc6276d5b36624a13becb9a4b9
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -87,3 +87,23 @@ Configuradas todas las características del perfil, para registrarlo, únicament
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![d. Perfiles](/media/manual/d-perfiles-ac96952598.webp)
+
+![d. Perfiles](/media/manual/d-perfiles-27f890dd59.webp)
+
+![d. Perfiles](/media/manual/d-perfiles-d5fd909c8c.webp)
+
+![Datos personalizados](/media/manual/datos-personalizados-e79b159608.webp)
+
+![General](/media/manual/general-cd6933f5ee.webp)
+
+![Bloque de datos personalizados](/media/manual/bloque-de-datos-personalizados-d104c502cd.webp)
+
+![Especialidades](/media/manual/especialidades-88b1e30755.webp)
+
+![Bloque de datos personalizados](/media/manual/bloque-de-datos-personalizados-bca4c52ff9.webp)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/8-control-de-fichajes-rrhh/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-control-de-fichajes-rrhh/
-  contentHash: 697af07458e860f4c393f9d650f257b9c727672e12a76a6e5d68e33691481cc0
+  contentHash: 39dfacc9dce49579745ce863f84250aafe28ed5fe1d4b060173e42f179c69a1a
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -82,3 +82,21 @@ Se informan los siguientes campos:
 - Jornada planificada, turno u horas planificadas.
 - Fichajes, marcajes de entrada y salida realizados.
 - Incidencias, absentismos informados.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Filtros](/media/manual/filtros-6eb64be3ce.webp)
+
+![8. Control de fichajes](/media/manual/8-control-de-fichajes-7278954ee5.webp)
+
+![Filtros](/media/manual/filtros-414c8c1b13.webp)
+
+![Filtros](/media/manual/filtros-1a035ddf67.webp)
+
+![Filtros](/media/manual/filtros-0ceb5c179e.webp)
+
+![Variables](/media/manual/variables-1b68070fe3.webp)
+
+![Filtros](/media/manual/filtros-dca427c8f4.webp)

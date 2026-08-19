@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/a-configuracion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/a-configuracion/
-  contentHash: 751b651c1463f29b602ae015cce8b75caa5fd8d81c165f60c51161b4b8fca29f
+  contentHash: 46e44a77c2611c7cb63f2780faa12d0da1f88b73ae561a60b5fbecd4591a0964
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -58,3 +58,9 @@ Para un correcto funcionamiento de la importación y la exportación es necesari
 - Formato de exportación: se trata del separador que se insertará en el archivo csv a la hora de exportarlo. Se puede elegir entre cuatro opciones distintas: Coma (,), Punto y coma (;), Tabulador (t) o Tubería (|).
 - Formato de fecha: para una correcta asociación de campos se puede definir el formato de fecha deseado para la importación y para cualquier tipo de exportación.
 - Asocia los campos para la exportación: desde este apartado, podrás indicar el nombre de la columna que deseas que te aparezca a la hora de exportar esos campos. Por ejemplo, en Nombre del aTurno, puedes indicar que se muestre como: Centro de trabajo, de forma que en el archivo exportado a parecerá dicha columna como: Centro de trabajo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![a. Configuración](/media/manual/a-configuracion-affcfaf6db.png)

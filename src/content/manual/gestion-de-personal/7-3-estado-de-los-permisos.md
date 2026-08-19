@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/11-3-estado-de-los-permisos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/11-3-estado-de-los-permisos/
-  contentHash: 7c3ae27227d4e331c1a60eaef7c923f96dfc54006b6354429a2219e1f36d39a3
+  contentHash: 22dcac749d7f295d3ea05a6ae4f3af403a2561050d0e2aad853c5cce1f66f51a
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -71,3 +71,11 @@ Al cargar los permisos de los equipos se mostrará un listado con la siguiente i
 Este listado se puede descargar desde el botón de “Acciones”.
 
 Recordamos que los permisos únicamente son modificables por el equipo de soporte de aTurnos.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.3 Estado de los permisos](/media/manual/7-3-estado-de-los-permisos-aa3d582355.png)
+
+![7.3 Estado de los permisos](/media/manual/7-3-estado-de-los-permisos-b4ac100719.png)

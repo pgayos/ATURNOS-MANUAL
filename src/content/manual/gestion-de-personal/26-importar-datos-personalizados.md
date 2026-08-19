@@ -43,7 +43,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/26-importar-datos-personalizados/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/26-importar-datos-personalizados/
-  contentHash: 12ca2e16934b7c22078f2062c892dd5ca8c07b722e493e8990a442ce4e5bb499
+  contentHash: b503a569249f7c8fa707219fc2ff0db3902d23b585bca9af6eabd2138e4448ad
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -77,3 +77,15 @@ Una vez creado el fichero, habría que asociar los campos siguiendo las indicaci
 En el caso de las columnas de los Datos personalizados, se asociará cada una de ella al campo “Dato personalizado” tantas veces como columnas de datos personalizados haya.
 
 Los campoS que se asocian de “datos personalizados” aparecen con el nombre del dato personalizado que se han generado previamente en el equipo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-4f17017c95.png)
+
+![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-4547c21ffc.png)
+
+![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-862c390741.png)
+
+![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-cd68874be1.png)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-cargar-demanda-desde-tareas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-cargar-demanda-desde-tareas/
-  contentHash: 6d2d19b63bb567604bfd5e70385cc2084bb504d579ecccd46b5eb187dead3618
+  contentHash: 232534d4d9dde17df8eec278d165a07b7f18c78fd081e8b00cdaa6e4a71caae1
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -76,3 +76,13 @@ Si no es necesario crear tareas, se puede crear una demanda con las plantillas d
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Generación de demanda por tareas existentes](/media/manual/generacion-de-demanda-por-tareas-existentes-31e53bee51.png)
+
+![Generación de demanda desde plantillas de tareas](/media/manual/generacion-de-demanda-desde-plantillas-de-tareas-b084832178.png)
+
+![Generación de demanda por tareas existentes](/media/manual/generacion-de-demanda-por-tareas-existentes-4c0d2bfae3.png)

@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 7
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/9-horas-en-los-equipos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/9-horas-en-los-equipos/
-  contentHash: 155a5ce79d59fad25d298a953c8d6b37729966f41cb68838b287511f0ae54d23
+  contentHash: 9affa1690ce1807ef1fac4c2a6c94d240e391352e01e2b1dfd31704736f74600
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -121,3 +121,33 @@ Existe la opción de saldar a cero el balance de las ‘Vacaciones periodo’ co
 Finiquitaremos las vacaciones no planificadas, ni disfrutadas del periodo, registrando un ajuste de decremento de vacaciones en el periodo. Si había 12 días de vacaciones sin planificar, al realizar el ajuste, el balance se queda a cero.
 
 Al igual que en el traspaso de vacaciones de un periodo a otro, se registra un ajuste que se puede consultar en los ‘Ajustes’ de ‘Tiempos’ del ‘Perfil del trabajador’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-e9deb3cc9c.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-744bda0db3.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-fa128f8ddd.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-c63b103e03.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-ad0ae0a333.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-5587e5a422.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-98c63f82d5.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-f6e6a5942d.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-40bafa7b85.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-57ebbf7044.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-27f3fdcf4d.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-a327d8bdd7.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-78fc4df997.webp)

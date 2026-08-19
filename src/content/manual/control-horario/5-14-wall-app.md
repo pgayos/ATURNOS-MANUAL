@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 7
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-14-wall-app/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-14-wall-app/
-  contentHash: e950b47de9db7bc478358e7c1109ff30deeb7985af4b8ec38af414db3add5229
+  contentHash: f1a414ddd71ca4dd7c43f03ce94a442ff8b747d4b7e72a71facfb7338925786d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -178,3 +178,83 @@ En ocasiones ya ser por caída de la red de conexión wifi de la tablet o porque
 El WallApp, comprobará la conexión de forma constante hasta que se recupere la red y estabilizar el sistema para poder fichar.
 
 Aunque el sistema no obtenga conexión, los fichajes realizados se guardarán en una caché. Cuando la tablet vuelta a tener conexión, estos fichajes se cargarán en orden de llegada.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.14 Wall App](/media/manual/5-14-wall-app-8323a6f511.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-89df1d9176.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-0506c124e7.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-3b4768c0db.png)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-41fc982ad4.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-55c066b252.png)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-8a5b08acb7.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-b599850a26.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-01d4144374.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-99425b96f6.png)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-636c211561.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-9d96fc76bf.png)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-b3aa62db93.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-3305c762b6.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-687d273517.png)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-86dbb54bfd.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-53093afc48.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-47656c648e.png)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-6bb67ed69d.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-c61ce5da4f.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-a68ad5164c.png)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-65299c1f21.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-b4de6134de.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-18d15e56d0.png)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-412eeeede8.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-216f5fc0d9.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-85926641df.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-fa690d8234.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-6fd772d9a8.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-d2c948692d.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-34db150517.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-8ecf9e71c4.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-a6401270e0.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-6be27a442e.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-8f90c0d18e.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-477876bd7f.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-bd4f1f9d95.webp)
+
+![5.14 Wall App](/media/manual/5-14-wall-app-62564d014f.webp)

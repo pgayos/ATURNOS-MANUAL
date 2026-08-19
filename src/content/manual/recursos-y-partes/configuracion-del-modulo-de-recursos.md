@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/configuracion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/configuracion/
-  contentHash: 1281f6de0df3f62e98273c0ca47a5d0904964f097767c8fe2ed58b33393fe6e9
+  contentHash: c5c70b7e4920687dd85a127d0b96d7e084bd77e6e04fea61055e0b454c1393bb
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,17 @@ En este caso, solo los administradores pueden informar los recursos, pero al est
 En este caso, tanto administradores como los trabajadores pueden informar los recursos.
 
 En este caso, los recursos solo pueden ser añadidos por los trabajadores.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Configuración del Módulo de Recursos](/media/manual/configuracion-del-modulo-de-recursos-0f79fdc6e2.png)
+
+![Configuración del Módulo de Recursos](/media/manual/configuracion-del-modulo-de-recursos-62c5bb90de.png)
+
+![Configuración del Módulo de Recursos](/media/manual/configuracion-del-modulo-de-recursos-591b74562a.png)
+
+![Configuración del Módulo de Recursos](/media/manual/configuracion-del-modulo-de-recursos-8ec6895383.png)
+
+![Configuración del Módulo de Recursos](/media/manual/configuracion-del-modulo-de-recursos-8a765b1e86.png)

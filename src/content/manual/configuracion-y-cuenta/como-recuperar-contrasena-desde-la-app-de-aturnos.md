@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/como-recuperar-contrasena-desde-la-app-de-aturnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/como-recuperar-contrasena-desde-la-app-de-aturnos/
-  contentHash: 7fa0c14580ab1f68fde5ee17c5f748f40240c59a2c228aabce51b82feaa47282
+  contentHash: d14ddd7b2f0d53a36e53951f16ddc83f7c6d9a5abeed7ed615094d5ef403feff
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -71,3 +71,9 @@ Para recuperarla, se debe pulsar sobre ¿Olvidaste tu contraseña?
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo recuperar contraseña desde la APP de aTurnos?](/media/manual/como-recuperar-contrasena-desde-la-app-de-aturnos-bcac8b734a.webp)

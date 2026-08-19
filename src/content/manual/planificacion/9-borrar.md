@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/h-borrar/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/h-borrar/
-  contentHash: b8011276e8d9884fbf3862983bfebcdc5b1f855d8116196fa9e80cb63e444b1c
+  contentHash: 38513ff8c7829d87a7b35f4ec01959e3e448beedaff5aa301bd9a147d47ae817
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -61,3 +61,13 @@ Los absentismos totales se borran en la siguiente opción: quitar absentismo.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![9. Borrar](/media/manual/9-borrar-359cb3b155.png)
+
+![9. Borrar](/media/manual/9-borrar-404e8922f9.png)
+
+![9. Borrar](/media/manual/9-borrar-17b28b218d.png)

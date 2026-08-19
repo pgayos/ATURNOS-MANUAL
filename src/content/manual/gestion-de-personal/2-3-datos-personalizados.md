@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-3-datos-personalizados/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-3-datos-personalizados/
-  contentHash: 133121db7814cc62aa060eb4b862971ecc9b82e4f2c96715bb66064a8a60eb54
+  contentHash: c0c8676ea7f943f6fba2426dc03132409d54ea8bc6968952a0eb111b5fd13b30
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -72,3 +72,15 @@ Se puede copiar o exportar el listado en CSV, Excel o PDF.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-7c579640f0.webp)
+
+![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-523053416d.webp)
+
+![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-2e3cc63e83.webp)
+
+![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-dec707cdad.webp)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/e-franjas-horarias/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/e-franjas-horarias/
-  contentHash: 752d318f830d581c78d51e7a447cceefd497141a11588f55fcb6c37d7de7947d
+  contentHash: 1f87601e2ffd3ca255a852c9b148e874812fc42587438d88203e1204a36e6bce
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -93,3 +93,11 @@ Franja horaria: Apertura y preparación
 - Turnos a excluir: Turnos de limpieza nocturna que terminaron antes de esta franja, para evitar duplicidades en el conteo de personal activo.
 
 Explicación de su uso: Durante esta franja, los empleados se encargan de tareas como abastecer estanterías, organizar las cajas registradoras y preparar el espacio para los clientes.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Crear franja horaria](/media/manual/crear-franja-horaria-76efa17cb4.webp)
+
+![e. Franjas horarias](/media/manual/e-franjas-horarias-89f9a2d5ee.webp)

@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 9
+readingTime: 10
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/a-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/a-turnos/
-  contentHash: 5e3ae44c11a7fbc5581e2a4bd3b8728b4c753db6c0f3a9b6985f02cbb9c50c16
+  contentHash: b7d18bee949432f4a88787552b91f67ef47aae8d3c308c676edea3becb8a442f
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -188,3 +188,51 @@ Más información del funcionamiento en ‘Flexibilidad de fichajes’.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![s](/media/manual/s-e075dcfd77.webp)
+
+![s](/media/manual/s-0fbb519d0b.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-b4a51559aa.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-77c2e352db.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-0fa690698a.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-830930c239.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-fa1fba306f.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-580a3fecf8.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-c944e9d9b0.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-b4181537df.webp)
+
+![Turno sin horas](/media/manual/turno-sin-horas-f587d8bb0a.webp)
+
+![Turno sin horas](/media/manual/turno-sin-horas-914d8eb567.webp)
+
+![Turno sin horas](/media/manual/turno-sin-horas-632c854edf.webp)
+
+![Editar un turno](/media/manual/editar-un-turno-451b88e444.webp)
+
+![Borrar un turno](/media/manual/borrar-un-turno-b38d1e0ad3.webp)
+
+![Editar un turno](/media/manual/editar-un-turno-ffb98a054c.webp)
+
+![Editar un turno](/media/manual/editar-un-turno-5b1eaa9dba.webp)
+
+![Recuperar un turno borrado](/media/manual/recuperar-un-turno-borrado-6d35ab1a00.png)
+
+![Recuperar un turno borrado](/media/manual/recuperar-un-turno-borrado-ee9baf2c0e.webp)
+
+![Limitar horario de fichaje](/media/manual/limitar-horario-de-fichaje-1d5e38fe62.webp)
+
+![Limitar horario de fichaje](/media/manual/limitar-horario-de-fichaje-1dd7b34eaa.webp)
+
+![Limitar horario de fichaje](/media/manual/limitar-horario-de-fichaje-8957539329.webp)

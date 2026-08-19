@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-4-calendarios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-4-calendarios/
-  contentHash: cf7067fa3ed9078ef39593bee39a422f19ea7cb1977196d95d64cacd86ef7373
+  contentHash: 7deb24c9c72f0d7aba84db5ec87d32b3b597eda1781218a2ac20b19931441bbc
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,17 @@ A través del perfil del trabajador se informa el Calendario.
 En el cuadrante, solo los trabajadores que tengan el calendario de festivos asignado aparecerán como festivo, en este ejemplo, el día 22 de agosto (creado en el paso anterior) se visualiza en rojo solo al trabajador “Calendario.1”, para el resto de trabajador el 22.
 
 El día 15 al ser festivo nacional está marcado en festivo para todos los trabajadores.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.4 Calendarios](/media/manual/7-4-calendarios-fac4c840bf.png)
+
+![7.4 Calendarios](/media/manual/7-4-calendarios-8d4749a96d.png)
+
+![7.4 Calendarios](/media/manual/7-4-calendarios-e53ca8d4eb.png)
+
+![7.4 Calendarios](/media/manual/7-4-calendarios-edb07b6fd6.png)
+
+![7.4 Calendarios](/media/manual/7-4-calendarios-4210876b9c.png)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/m-pegar-desde-excel/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/m-pegar-desde-excel/
-  contentHash: 3ff53a5785b1f1d857ce982f43e27a0e0e6f33fc1d1b56dff2c092f8f0a0365e
+  contentHash: d17522421c215fc1f6e91b06bc7d576a32d078692f2e36b70811c02fe27e4028
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -68,3 +68,9 @@ Para pegar una secuencia de turnos directamente desde Excel, hay que tener en cu
 Para ver más sobre este proceso, accede al siguiente enlace: ¿Cómo pegar mi planificación de Excel en el cuadrante de aTurnos?
 
 En aTurnos, dispones de otra opción de importación más rápida mediante un fichero CSV, te puedes informar en este enlace: Importación de planificación.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![15. Pegar desde Excel](/media/manual/15-pegar-desde-excel-25457c6946.png)

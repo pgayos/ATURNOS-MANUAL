@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-analisis-semanal/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-analisis-semanal/
-  contentHash: be233bb8ba4dc65a23e34c01d475d85bf16d06b9ba6fe4e696ccf40015ceb60b
+  contentHash: 2c64d894b7341965bc61b0eedd02ba28a7b8c56d46604f4dd4891b7a3caa716b
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -58,3 +58,9 @@ Información sobre análisis semanal, con instrucciones y contexto revisables po
 El análisis semanal es un potente herramienta para analizar tu cobertura media semanal de una demanda. Es decir, puedes coger un año y ver la media semanal de trabajadores planificados por cada hora comparado con la demanda media en esa hora dentro de la semana. Puedes detectar donde tienes defectos y excesos de personal. Es muy util para saber qué tipo de contrato necesitas si puedes fijar algún horario fijo para los contratos.
 
 Por ejemplo, en este caso se aprecia como existe una necesidades media de horas en sábado y domingo de 7 horas y 14 horas respectivamente.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7. Análisis semanal](/media/manual/7-analisis-semanal-21b42a3db2.png)

@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/16-el-dia-a-dia/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/16-el-dia-a-dia/
-  contentHash: 84d368c882ad9e48f7bfd910812a0673efbd293ced3890cbbac121ee2fd51393
+  contentHash: c3de556865ad0a036500c33ade56f297716f649fe13303e744c6c1d446f3283f
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -88,3 +88,9 @@ En estos casos, si le quitamos la función que ha estado desarrollando (le indic
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo se comprueba?](/media/manual/como-se-comprueba-e5bb348319.png)

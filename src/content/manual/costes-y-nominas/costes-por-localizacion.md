@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/costes-por-localizacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/costes-por-localizacion/
-  contentHash: 4f976abc63adeb137e3906bb802cafd282780e0d26912a9be29d424ac04b0ee1
+  contentHash: 7c8217728568c4bf434bd1ebfd91eb35e71fa2dd11e5eab5e3a085d27fdfbf72
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -58,3 +58,11 @@ El menú cuenta con dos tipos de tabla:
 - Tabla por localizaciones: En este reporte se muestran los valores del coste por día de las Localizaciones del equipo, toma en cuenta también los costes “Sin localización” asignada. Los valores que se muestran en la tabla por Localización pueden filtrarse según variables de visualización que requieras (en desplegable superior derecho).
 
 - Tabla total por localización padre: en aTurnos se tiene la posibilidad de establecer un orden de jerarquía por localización o crear estructura de dependencia de una localización sobre otra. En estos casos nos referimos a una “Localización Padre” (tiene localizaciones que dependen de ella). Ver mas en el manual Cambiar Orden. El reporte muestra los valores de costes diarios por cada Localización padre.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Costes por localización](/media/manual/costes-por-localizacion-11391e85a4.png)
+
+![Costes por localización](/media/manual/costes-por-localizacion-4c64c0f897.png)

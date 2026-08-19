@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/e-modificar-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/e-modificar-turnos/
-  contentHash: fcfb8fe37fd5efe00564d4803323cc47cfffbd19977980fa4ba24b40cb9890d3
+  contentHash: d52669078daa5aaacca14786344453495d0782d91b8898d4b1c5c20671b99501
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -60,3 +60,9 @@ La fuente pública de **Modificar turnos** contiene muy poca información textua
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6. Modificar turnos](/media/manual/6-modificar-turnos-e95d97e7c0.png)

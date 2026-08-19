@@ -43,7 +43,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-8-exportar-cuadrante-anual/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-8-exportar-cuadrante-anual/
-  contentHash: 8b23fe364aa2aa2017e0529c26becbff4b673ef3dbf3df840844e5589505a903
+  contentHash: b40ce921491a05f1393bed88aff4819a98d95d258017e62f72240d178f4830e5
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,15 @@ Desde el menú de aTurnos en la función RRHH, al acceder a la opción Registros
 - Incluir la fecha de generación del informe en el propio informe
 
 3. Cuando lo solicita la petición al hacer clic en “OK”, el sistema nos informa que la petición se ha realizado correctamente. El resultado serán los cuadrantes de todos los trabajadores de los equipos seleccionados y año indicado. Se podrá acceder a los informes y descargarlos cuando se haya generado y almacenado en el listado de Peticiones de reporte del menú.(RRHH/Peticiones de reportes).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-7299e1bc09.png)
+
+![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-90fe1c1ed6.png)
+
+![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-e16e5be68d.png)
+
+![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-b605f4f1bc.png)

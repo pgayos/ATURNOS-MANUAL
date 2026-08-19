@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-1-perfil-y-menu-principal/
-  contentHash: 2bb849f85c37037f5886d1382a101e59509fd73d03b1a46b7997229506340001
+  contentHash: f649d6f05b6da40a373648bca8e2e975ca860874c7bce7d477f3d77672a44a8f
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,21 @@ El menú principal de aTurnos te permite acceder y gestionar la información de 
 - Estadísticas: Te permite ver y descargar informes y reportes de todas las opciones en distintos formatos. Encontramos: Reportes de trabajador, Reportes de localizaciones, Estadísticas por defecto y Tooltip del trabajador. (Saber más)
 
 - Administrar: Esta pestaña permite gestionar la configuración del equipo. Encontramos: Ajustes, Festivos, Bolsas, Calendarios, Perfil del trabajador, Localizaciones, Importar/Exportar, Nóminas, Activar usuarios, Resetear contraseña trabajadores anónimos y Externos. (Saber más)
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.1. Menú Principal](/media/manual/1-1-menu-principal-66746e3a51.png)
+
+![1.1. Menú Principal](/media/manual/1-1-menu-principal-5d01dcd79f.png)
+
+![1.1. Menú Principal](/media/manual/1-1-menu-principal-9c397458d0.webp)
+
+![1.1. Menú Principal](/media/manual/1-1-menu-principal-1dcddd1d10.webp)
+
+![1.1. Menú Principal](/media/manual/1-1-menu-principal-d0de4ba579.webp)
+
+![1.1. Menú Principal](/media/manual/1-1-menu-principal-9873d22747.webp)
+
+![1.1. Menú Principal](/media/manual/1-1-menu-principal-229e922858.webp)

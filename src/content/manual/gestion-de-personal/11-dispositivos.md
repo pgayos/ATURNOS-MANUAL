@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/11-dispositivos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/11-dispositivos/
-  contentHash: 55273d58237c664249bc43f08b19ba6d71bd0b32650af7a2f53b3027dfa0c9c9
+  contentHash: 379d1b55a2cbaae606f5c62b4c244052d59d5df48f62e721d41ba40e6f94e683
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,21 @@ También es posible sin necesidad de registrar los dispositivos en cada equipo, 
 Esta opción dota de mayor flexibilidad al sistema de fichajes por WallApp, a través de los dispositivos, pudiendo configurar desde esta opción que dispositivos y con qué tipo de fichaje, en qué equipo y en qué localización, se quiere que puedan fichar los trabajadores.
 
 - Eliminar dispositivo
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![11. Dispositivos](/media/manual/11-dispositivos-1de1c9e76c.webp)
+
+![11. Dispositivos](/media/manual/11-dispositivos-3c261529bc.webp)
+
+![11. Dispositivos](/media/manual/11-dispositivos-f8f61ef76d.webp)
+
+![11. Dispositivos](/media/manual/11-dispositivos-5ee340424b.webp)
+
+![11. Dispositivos](/media/manual/11-dispositivos-3f4e9e8102.webp)
+
+![11. Dispositivos](/media/manual/11-dispositivos-caa6aadf9d.webp)
+
+![11. Dispositivos](/media/manual/11-dispositivos-085f5467f0.webp)

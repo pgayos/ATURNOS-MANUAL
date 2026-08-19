@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-recuperar-ultima-planificacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-recuperar-ultima-planificacion/
-  contentHash: 85f10b83f590b6bdc6e38a7bd161a74a5cd5e313acf5a631e5e5240f4c289f8a
+  contentHash: 1d1b26d248c6e70b4ad8690484a1814ce0004048060a55cd1a7ffc3e42dd3f3e
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,11 @@ La herramienta mostrará una advertencia sobre la última planificación borrada
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Recuperar última planificación](/media/manual/4-recuperar-ultima-planificacion-db32668a48.webp)
+
+![4. Recuperar última planificación](/media/manual/4-recuperar-ultima-planificacion-4f70e810b8.webp)

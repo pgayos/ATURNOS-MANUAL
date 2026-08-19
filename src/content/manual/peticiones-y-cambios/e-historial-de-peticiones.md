@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-5-3-historial-de-peticiones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-5-3-historial-de-peticiones/
-  contentHash: c9d49627e8b0fe23e326bf4a079ed3fa0f8e6d977b2faf81f43939f99984a448
+  contentHash: df6ac97183101f9f66c6577e873b4a3d0c54c31f8716cd018554ed80b89e6ee2
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -72,3 +72,19 @@ En este listado, las peticiones se pueden encontrar en distintos estados de conf
 Si te aparecen peticiones denegadas que no se han confirmado por algún administrador del equipo, consulta el campo de comentario, si aparece Flujo cambiado, se debe a que en Administrar → Ajustes → Peticiones se ha modificado el flujo de aprobación para gestionar las peticiones. Cuando se produce un cambio en el flujo, las peticiones se deniegan automáticamente.
 
 Si por algún motivo, luego de aprobar una petición, el administrador necesita deshacer la petición, lo puede hacer desde el historial de peticiones con la opción “deshacer acción”. Desde esta acción, no solo se eliminan los turnos de la petición (por ejemplo, unas vacaciones), sino que además recupera los turnos anteriores que tenía planificado el cuadrante antes de que se aprobase la petición. Es decir, vuelve la planificación que existía antes de las vacaciones.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-bc67c50926.webp)
+
+![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-ae7515bc38.webp)
+
+![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-36864669ed.webp)
+
+![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-27105af4c1.webp)
+
+![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-434ac5de32.webp)
+
+![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-f1cae065f6.png)

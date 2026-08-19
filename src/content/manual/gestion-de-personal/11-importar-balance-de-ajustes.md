@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/11-importacion-balance-de-ajustes-2/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/11-importacion-balance-de-ajustes-2/
-  contentHash: 9dc243b04570191b075c5ea66b4f7bc039c003a8243e27e3b76bd79f5723445c
+  contentHash: 7c5bf1d93ab4582ac26978ebf4fc4500bdbec50dc3b92998992b91f7cda1e20f
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -80,3 +80,11 @@ CSV Importar balance de ajustes
 Por último, antes de realizar la importación, guarda el documento con formato tipo CSV.
 
 Para importar el archivo puedes consultar los pasos que indicamos en nuestro menú de “Importar “.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![11. Importar balance de ajustes](/media/manual/11-importar-balance-de-ajustes-3dcbb78e25.png)
+
+![11. Importar balance de ajustes](/media/manual/11-importar-balance-de-ajustes-8b5db4bb1a.png)

@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-mis-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-mis-fichajes/
-  contentHash: 5c302cbda8309543ee5e11bf1970debfee04910d381b5c757cf29620ceb6114e
+  contentHash: cb70361f2fa9364e1cad7fe7bfadc2b3fed7135877c0ace17637c652f4d17cce
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -59,3 +59,9 @@ Desde la barra superior, se puede indicar una fecha anterior o posterior para vi
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Mis fichajes](/media/manual/4-mis-fichajes-25b366aa29.webp)

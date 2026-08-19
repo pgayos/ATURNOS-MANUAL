@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/
-  contentHash: a6bfb9fbf87b1aff12136a0ba47ced79ed922753912b7b6c928a7efff47153a1
+  contentHash: f9ae75cd616439246c6c7c99aa8a42e221dcb4a434659a1c21e05f2573042e32
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -152,3 +152,27 @@ La estadística que se visualiza desde ADMINISTRAR → NOMINAS → ESTADISTICA D
 5.6.- Las horas diurnas del tipo “Ejemplo Manual son 4, desde las 08:00 hasta las 09:00 y de las 14:00 a las 17:00.
 
 5.7.- Las horas nocturnas del tipo “Ejemplo Manual son 1, desde las 07:00 hasta las 09:00.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-763013314f.png)
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-54e2facdc8.png)
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-37ecd45992.png)
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-fab59eb79a.png)
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-6c0040db63.png)
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-0b57d1a650.png)
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-b00bf0997a.png)
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-860b4aa03d.png)
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-178f0154c4.png)
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-d046377d1d.png)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-restricciones-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-restricciones-trabajador/
-  contentHash: 72c86ed0690aa764e76422459642a39fa775b0272a2ab618c3c80e201cb9c96a
+  contentHash: 1c3f2ef9999443812d9b8ad606000925c8ccc3841c807b4d4aa9e8def8fe002b
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -83,3 +83,17 @@ En el perfil del trabajador desde la opción “Restricciones” el administrado
 2. El botón de la columna de acción de las restricciones: comprueba el tipo de la restricción seleccionada, en un periodo de tiempo, escogiendo si la comprobación la quiere realizar sobre el cuadrante o sobre el cuadrante borrador, y en el caso de ser una restricción aplicada a todo el equipo nos informará el nombre de los trabajadores que incumplen esta restricción.
 
 El resultado de la búsqueda de comprobación: nos informa el nombre del/los trabajador/es que incumplen esta restricción según los datos de planificación del cuadrante, así como la localización, tipo de turno y fecha de la planificación que incumple la restricción, con el detalle del valor de restricción.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Restricciones trabajador](/media/manual/5-restricciones-trabajador-c5186446a7.png)
+
+![5. Restricciones trabajador](/media/manual/5-restricciones-trabajador-91ec2d153b.png)
+
+![5. Restricciones trabajador](/media/manual/5-restricciones-trabajador-65fce567de.png)
+
+![5. Restricciones trabajador](/media/manual/5-restricciones-trabajador-8c5953492c.png)
+
+![5. Restricciones trabajador](/media/manual/5-restricciones-trabajador-dd09a9edcd.png)

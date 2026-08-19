@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/b-operativa-diaria-del-cuadrante/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/b-operativa-diaria-del-cuadrante/
-  contentHash: f42cf5d412d75b0d51b2c72096f4d7b39628104ae92bf402014b8d0fbe24c5e0
+  contentHash: 73755a320dab184cd16a91b3ceaa3897878627d124917e7ccf0c37508ee106c5
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -97,3 +97,9 @@ Por lo tanto, para iniciar el cambio tienes que hacer clic en el cuadrante dentr
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Qué es una petición?](/media/manual/que-es-una-peticion-0337c5eb96.png)

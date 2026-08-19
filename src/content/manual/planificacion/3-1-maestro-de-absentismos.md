@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/8-1-maestro-de-absentismos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-1-maestro-de-absentismos/
-  contentHash: 0e006ec102208199122b73106d73ddda39adf4fbd9659530d17420bf78e5b893
+  contentHash: 750f11baafa1526ea8d4ff3ca7977e6cda37518e0ad117f4ef01579912dfe455
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -59,3 +59,9 @@ En este informe se recuperan los periodos de absentismos indicando el trabajador
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3.1 Maestro de absentismos](/media/manual/3-1-maestro-de-absentismos-fd07351f17.png)

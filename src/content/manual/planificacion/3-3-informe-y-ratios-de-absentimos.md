@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/8-2-informe-y-ratios-de-absentismos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-2-informe-y-ratios-de-absentismos/
-  contentHash: 431e77dd24acd2ca46324310f4a90260bce73961885fdca63ebea55881677ba1
+  contentHash: a7015917a03f8008983ed2ce72db097f2734cf81fc0389d08d25ee94971d5eb8
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -68,3 +68,13 @@ Ratio de horas planificadas en comparación con las horas trabajadas.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Absentismos temporales](/media/manual/absentismos-temporales-48a7a43759.png)
+
+![Resumen](/media/manual/resumen-883ceaf75c.png)
+
+![Absentismos totales](/media/manual/absentismos-totales-0ce79c7d67.png)

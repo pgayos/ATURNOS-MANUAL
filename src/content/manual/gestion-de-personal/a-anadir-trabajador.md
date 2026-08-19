@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/a-anadir-un-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/a-anadir-un-trabajador/
-  contentHash: f34251f344349625ed30a93a7c3555eb1a9899b6140c8ca0b8a5ce73b495aafd
+  contentHash: 6f377f383157e3f17e29770dbbd160765d610d74f0855c10e6b27487d6a22f2a
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -80,3 +80,17 @@ Una vez el trabajador ha sido añadido y no su usuario no esté activado, se deb
 Desde el perfil de trabajador, el Administrador Total o Superusuario (Ver Roles de usuario ) puede realizar esta acción desde el botón “Enviar correo de activación”, el cual le permitirá acceder a aTurnos mediante el enlace de activación que recibirá en un email en su correo electrónico junto a la contraseña de acceso.
 
 Los trabajadores puedes ser activados de forma masiva desde la función ‘Activar usuarios’ dentro de Administrar.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![a. Añadir trabajador](/media/manual/a-anadir-trabajador-6f42d62aa5.webp)
+
+![a. Añadir trabajador](/media/manual/a-anadir-trabajador-06c22cb43a.webp)
+
+![a. Añadir trabajador](/media/manual/a-anadir-trabajador-60ea3ed8ee.webp)
+
+![a. Añadir trabajador](/media/manual/a-anadir-trabajador-ff507d7761.webp)
+
+![a. Añadir trabajador](/media/manual/a-anadir-trabajador-259763ff66.webp)

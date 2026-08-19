@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-estadisticas-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-estadisticas-trabajador/
-  contentHash: 67cc9b97c711e78e3c8efa3031b94c23ebc33f754006ca2e33ad80a958ba04a8
+  contentHash: 3cbba618b03997c3f12436e85b114d48f558a320b7744eed0ef4281f11b8f369
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -64,3 +64,9 @@ Los gráficos estadísticos que se muestran versan sobre los siguientes aspectos
 - Total de absentismos: Muestra el porcentaje de cada tipo de absentismo que previamente has creado o no (absentismos por defecto) que se le han asignado en la planificación del trabajador sobre el cuadrante. En la parte inferior del gráfico podrás visualizar igualmente el número total de cada tipo de absentismo, los cuales previamente le has asignado al trabajador en su planificación sobre el cuadrante. (Véase qué son los absentismos y cómo puedes crearlos ).
 
 Si lo que deseas es poder visualizar las estadísticas con más detalle, debes acceder a las mismas a través de Menú- → Estadísticas (acceso detallado a Estadísticas).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Estadísticas del trabajador](/media/manual/4-estadisticas-del-trabajador-45c932284f.webp)

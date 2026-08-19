@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/
-  contentHash: e912c7c75c01f13c6e5a95adbe560c5d733cd718281e1fd4439818e40a44f25d
+  contentHash: f1b9bd0245e723df26ead122053dd1c3f7147c6a4eafc59c64325b342e8b4238
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,9 @@ Para ver en nuestro Manual cómo se modifica la fecha de cierre del cuadrante en
 Para ver en nuestro Manual cómo se modifica la fecha de cierre del cuadrante, la fecha de validación y el último día exportado en todos los equipos (o los indicados en el filtro de equipos), haz clic aquí.
 
 NOTA: La función de validación solo está disponible para los usuarios con perfil Superusuario. Envía un correo a soporte@aturnos.com si se desea disponer de esta función. Ver el punto 10.7 del Manual
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.1 Modo de validación para la exportación](/media/manual/1-1-modo-de-validacion-para-la-exportacion-146a199667.png)

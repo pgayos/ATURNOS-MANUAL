@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-3-cargar-reportes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-3-cargar-reportes/
-  contentHash: 9a8140b559b7dcc46a81dadb9f7f13b814935f002cf530113e90f58360755964
+  contentHash: 01bc356506b9368cb5ed212803c8808748618a2da709424e84e2f8070ffffeb0
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,11 @@ La fuente pública de **Cargar reportes** contiene muy poca información textual
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.3 Cargar reportes](/media/manual/6-3-cargar-reportes-ef956b1cc0.webp)
+
+![6.3 Cargar reportes](/media/manual/6-3-cargar-reportes-94f1ed7867.webp)

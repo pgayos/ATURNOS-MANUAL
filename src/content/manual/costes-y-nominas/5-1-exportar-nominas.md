@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/d-exportar-nominas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/d-exportar-nominas/
-  contentHash: f5a393e75fd38803df440718d39c4a6045db363d107eb41c07cdd7a97e6b237d
+  contentHash: 1af88210765ab8f1835c26eb3268eb4f93ad01d4cbe44b271586aa867cc5b53e
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -127,3 +127,37 @@ Informar la fecha de inicio y fin de la exportación
 5.- Campos Fijos: Siguiente
 
 6.- Descargar fichero
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-b83dd0e9cc.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-4d0553f15f.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-77e367a650.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-80ebddde52.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-15cbddc6a8.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-f9cafb5ba2.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-e61b4d508b.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-d4bae844c8.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-f7d9d68652.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-e458e34d40.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-1e1fdecdea.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-2bc3c41623.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-db24badff4.png)
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-a4c008e18f.png)

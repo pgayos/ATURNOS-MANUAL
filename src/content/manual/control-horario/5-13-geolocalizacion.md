@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-13-geolocalizacion/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-13-geolocalizacion/
-  contentHash: f073a6603d06a9476fe7077765e358bfa0b12b71c7170d4dedbb5a0e8f0a1b6f
+  contentHash: e694f5ecdc6a6f67d6525c2b274fa6db4e7e13f5b1bd8b2fb8d1d9a812d88754
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -91,3 +91,11 @@ Es posible que la ubicación GPS de un móvil se quede bloqueada en unas coorden
 5. Desactivar cualquier app de ubicación falsa si se ha usado alguna.
 
 Si después de todo esto el problema persiste, puede ser un fallo más profundo del sistema o hardware del dispositivo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.13 Geolocalización](/media/manual/5-13-geolocalizacion-199ddced50.webp)
+
+![5.13 Geolocalización](/media/manual/5-13-geolocalizacion-d392548cf2.png)

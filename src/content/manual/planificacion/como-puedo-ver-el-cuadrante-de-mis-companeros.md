@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/como-puedo-ver-el-cuadrante-de-mis-companeros/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/como-puedo-ver-el-cuadrante-de-mis-companeros/
-  contentHash: c85fd9642e3c961d94dbeb3ab99764c5179144b7937fd9bf752fb09c7563e4ff
+  contentHash: d2e8383ce5f989a28bc0cb58bd4d42ab3e82bd1ae19ffed7b59e265f7a5fe551
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,9 @@ Información sobre ¿Cómo puedo ver el cuadrante de mis compañeros?, con instr
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo puedo ver el cuadrante de mis compañeros?](/media/manual/como-puedo-ver-el-cuadrante-de-mis-companeros-1d9d3cfde6.png)

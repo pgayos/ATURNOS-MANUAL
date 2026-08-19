@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-importar-posiciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-importar-posiciones/
-  contentHash: 0811149dfd372d6920df0885cba8eea2d21b12b1b013bea1dfd828ac52c33f38
+  contentHash: 5798a025cd83da0ee30eb4a95c2e1547764acfe81eb7c9f943c72951b2606dfd
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,9 @@ El administrador podrá crear las posiciones que posteriormente indique a sus tr
 Finalmente, debe “Guardar” el documento con formato CSV.
 
 Para importar el archivo, debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10. Importar posiciones](/media/manual/10-importar-posiciones-11dcc1a4d7.png)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/a-datos-personalizados/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/a-datos-personalizados/
-  contentHash: e3ed227e590eaf33657b23277f7028cb47916fa5aa0ca6e6bf75e943c7e30534
+  contentHash: 3ce9f8309894e440a8014d687043ab341cedb0fc1e83934a4aaca5e4bd25069c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -81,3 +81,11 @@ Si quieres crear un dato personalizado tienes que hacer clic sobre el botón” 
 - Permisos: Muestra a qué tipo de roles dentro de aTurnos quieres que se le muestre el dato personalizado que estás creando. Puedes hacerlo con el fin de que no todos los trabajadores tengan acceso a dicha información (ver más en roles de usuario ). Además, dichos datos personalizados necesitan validación por un manager de un rol superior al trabajador.
 
 Se trata del nombre con el que se puede identificar un determinado tipo de datos personalizados, con el fin de tenerlos todos agrupados en un mismo género o concepto general. Para añadirlos, únicamente hay que informar de la descripción con la que quieres nombrar a ese determinado tipo de datos personalizados. Ejemplo: nombrar un bloque de datos “EPI’s” para agrupar un determinado tipo de datos “calzado”, “pantalón” y “camiseta”.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![a. Datos personalizados](/media/manual/a-datos-personalizados-13c02725f8.png)
+
+![a. Datos personalizados](/media/manual/a-datos-personalizados-f36edb6ec5.png)

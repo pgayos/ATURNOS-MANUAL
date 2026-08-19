@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-3-cuadrante-anual/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-3-cuadrante-anual/
-  contentHash: 44a3a69b224c5a718eac88fb8cf3494ecbaa0cd2c03b504bdeb17d930f689ae0
+  contentHash: 4cebaa433e4c07cf4a95c02f31df5356ecc2763598578eb0af9fd6e2498bcb21
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -166,3 +166,39 @@ En la barra superior desplegable se selecciona el año fiscal (FY= Fiscal Year) 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-65123740f7.webp)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-803a948ec2.webp)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-236aab397a.webp)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-209e2f1cbc.webp)
+
+![2.3 Cuadrante Anual](/media/manual/2-3-cuadrante-anual-fccb0f4d64.png)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-ac4ae55654.webp)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-2ab15e3c63.webp)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-8d1b1eb66d.webp)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-714c3f545d.webp)
+
+![Estadísticas y datos del cuadrante anual](/media/manual/estadisticas-y-datos-del-cuadrante-anual-801cbff85d.png)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-1eebb3f42b.webp)
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-b7a03d40ae.webp)
+
+![Estadísticas y datos del cuadrante anual](/media/manual/estadisticas-y-datos-del-cuadrante-anual-037e052cc2.png)
+
+![Estadísticas y datos del cuadrante anual](/media/manual/estadisticas-y-datos-del-cuadrante-anual-3de3067dc6.png)
+
+![Cuadrante anual según año fiscal](/media/manual/cuadrante-anual-segun-ano-fiscal-f7b62e10ba.webp)
+
+![Acciones dentro del cuadrante anual](/media/manual/acciones-dentro-del-cuadrante-anual-a5fb1835f2.png)

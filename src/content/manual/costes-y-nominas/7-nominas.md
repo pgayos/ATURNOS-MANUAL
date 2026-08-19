@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-nominas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-nominas/
-  contentHash: 6977943aebd62c7781d2b776180d9744c259d4a63d9c8b60ac0d282776435176
+  contentHash: 9bef3461ba591092428f7989acdb49fa08182abcde9431db5628f96fb78bb547
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -72,3 +72,9 @@ En la pestaña de nómina del trabajador se puede visualizar:.
 4.- Las fechas de las descargas realizadas a un trabajador siempre y cuando se ejecute el proceso de exportación de nóminas desde cualquiera de las 3 opciones disponibles del punto anterior.
 
 También se visualiza la fecha y hora de la exportación, el periodo descargado así como el usuario que ha realizado la descarga de nómina.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7. Nóminas](/media/manual/7-nominas-186be33955.png)

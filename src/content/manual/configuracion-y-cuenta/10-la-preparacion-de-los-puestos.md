@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-la-preparacion-de-los-puestos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-la-preparacion-de-los-puestos/
-  contentHash: a486a188aaf423b33132d8c0c5b797ed7c3cfb772684c298061af7af6d0ed81c
+  contentHash: 6ec0bd7fd7fe41a4a3edbee52b6229470ca445d764e7986b032b89fad08fc960
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -65,3 +65,13 @@ Aprende a la preparación de los puestos, con instrucciones y contexto revisable
 7. Aplicar y Aceptar.
 8. Entramos utilizando el acceso directo.
 9. Si se han seguido todos los pasos deberán entrar en el menú de Tareas → Tiempo Real, comprobando si el puesto es el que le corresponde.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![10. La preparación de los puestos](/media/manual/10-la-preparacion-de-los-puestos-e4cd73f3e0.png)
+
+![10. La preparación de los puestos](/media/manual/10-la-preparacion-de-los-puestos-b1fe5844b4.png)
+
+![10. La preparación de los puestos](/media/manual/10-la-preparacion-de-los-puestos-879c365c2b.png)

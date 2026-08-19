@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-3-calculadora/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-3-calculadora/
-  contentHash: 0c145ab775827639bb8b29426a09b0d2299defac99fc7c563710ae1571cfb87e
+  contentHash: 64217ea0ce49ecc33ced186a80e500c12000dc7e2136f29f2983ed52489a6615
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -95,3 +95,19 @@ Cuando se parte o divide la propuesta por Especialidad se muestra también la ca
 1.- Tabla de cobertura: desde la Tabla de cobertura del equipo se valida si el patrón está cubriendo realmente la necesidad solicitada. Se muestra, en resumen, la cantidad de trabajadores asignados día a día y por turnos para cubrir la demanda.
 
 2.- Gráfico de la demanda: Por último, puedes visualizar fácilmente la cobertura del patrón propuesto a través del gráfico que refleja la Cobertura cubierta vs. Cobertura demandada.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3.3 Calculadora](/media/manual/3-3-calculadora-94619a5d76.png)
+
+![3.3 Calculadora](/media/manual/3-3-calculadora-6b31fc3c82.png)
+
+![3.3 Calculadora](/media/manual/3-3-calculadora-e8d51cc861.png)
+
+![3.3 Calculadora](/media/manual/3-3-calculadora-29bee9646e.png)
+
+![3.3 Calculadora](/media/manual/3-3-calculadora-bc23d3dce4.png)
+
+![3.3 Calculadora](/media/manual/3-3-calculadora-8ed7187e1c.png)

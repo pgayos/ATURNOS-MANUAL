@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-listado-de-peticiones-pendientes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-listado-de-peticiones-pendientes/
-  contentHash: 7b3d815f70691faa2162a0190782a3d91c759e22123dc7c1068ad2174ce455cc
+  contentHash: dd48d12eba9d04d4af539d197478cf7c44d85f0c14831bbe241014f658594244
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -63,3 +63,9 @@ En la primera columna aparece el nombre del equipo de las peticiones de permisos
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.9 Listado de peticiones pendientes](/media/manual/2-9-listado-de-peticiones-pendientes-3113664974.png)

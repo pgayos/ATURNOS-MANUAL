@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-1-servicios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-1-servicios/
-  contentHash: 8ab9c5837fcba0d5b40dfe000b6753a1727039f4c201be462bea2d615b700bdc
+  contentHash: 60282ae7e0c0fdfdff4bcd4336b27287d765e8073b3e3d0e34ef694db8e977f3
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -92,3 +92,15 @@ Opciones avanzadas
 6. Orde n
 
 Para guardar, haz clic en Guardar cambios.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Servicios](/media/manual/4-servicios-c52f9d52f3.webp)
+
+![4. Servicios](/media/manual/4-servicios-9d4ad36db9.webp)
+
+![4. Servicios](/media/manual/4-servicios-76134a7302.webp)
+
+![4. Servicios](/media/manual/4-servicios-595dddfbca.webp)

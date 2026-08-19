@@ -47,7 +47,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
@@ -55,7 +55,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/
-  contentHash: a5ae804078d42b87b7f8a67f5e4305314e2f81430eb64bf984883bd3063fd517
+  contentHash: 1f6085bc3df801c80361c12fb34edb9893854717aaa7a373f48df493241496e0
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -93,3 +93,17 @@ En el caso de que esté marcado sábados y domingos como festivos en los ajustes
 El trabajador tiene la siguiente planificación, el concepto creado recuperará las horas computadas del turno GN12
 
 Al recuperar las horas de la duración computada a través de ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA recupera las 16 horas (el día 11 de julio) indicadas en el turno creado anteriormente.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-f04a2a8dbe.png)
+
+![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-760452fd0f.png)
+
+![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-d16dfbc0ad.png)
+
+![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-a895dec43a.png)
+
+![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-10691740f3.png)

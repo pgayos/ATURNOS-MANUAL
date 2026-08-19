@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/13-importacion-de-localizaciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/13-importacion-de-localizaciones/
-  contentHash: fc5a10778189f7aa89907b4da0ee54c79edfa0c799d8e4a4d227d9076979a0ab
+  contentHash: 0549472e5360d4b89864a649c40e85deb1162ce088aae5b7cc657d5a94bcfcf4
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -71,3 +71,11 @@ También es posible crearla desde un archivo de Excel, teniendo que contener los
 Antes de iniciar la importación guarda tu documento como formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “Importar “.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![13. Crear localizaciones y localizaciones padres](/media/manual/13-crear-localizaciones-y-localizaciones-padres-96b9e1f647.png)
+
+![13. Crear localizaciones y localizaciones padres](/media/manual/13-crear-localizaciones-y-localizaciones-padres-ba6243efed.png)

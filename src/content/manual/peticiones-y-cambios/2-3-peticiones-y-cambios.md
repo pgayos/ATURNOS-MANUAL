@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 7
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-3-peticiones-y-cambios/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-3-peticiones-y-cambios/
-  contentHash: 5f4a74947bcc3f853f28238140737b01707c2adba9858cb64778476bc6df129f
+  contentHash: 61c5ac896530df02fed7e3351e5454cbd6d77ef03b64ae58e53cbb76156937c5
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -152,3 +152,29 @@ Aún no está planificado. Será el administrador quien decida, a quién planifi
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Acción de nueva petición y filtros](/media/manual/accion-de-nueva-peticion-y-filtros-cc461c3b62.png)
+
+![Peticiones pendientes](/media/manual/peticiones-pendientes-cb7055d467.webp)
+
+![Peticiones pendientes](/media/manual/peticiones-pendientes-907ede8cd2.png)
+
+![Peticiones pendientes](/media/manual/peticiones-pendientes-21c9ed80fb.webp)
+
+![Acción de nueva petición y filtros](/media/manual/accion-de-nueva-peticion-y-filtros-c3c2841252.png)
+
+![Historial de peticiones](/media/manual/historial-de-peticiones-a700246a8b.png)
+
+![Historial de cambios](/media/manual/historial-de-cambios-e54a932695.png)
+
+![Cambios pendientes](/media/manual/cambios-pendientes-d6f926fb9d.png)
+
+![Historial de cambios](/media/manual/historial-de-cambios-f1a9291f3a.png)
+
+![Peticiones pendientes](/media/manual/peticiones-pendientes-851dee13b5.png)
+
+![Historial de cambios](/media/manual/historial-de-cambios-5d09407e9c.png)

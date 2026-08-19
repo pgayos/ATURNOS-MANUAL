@@ -45,7 +45,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 3
+readingTime: 4
 featured: false
 migration:
   sourceCount: 1
@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-4-ver-periodos-y-eliminar-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-4-ver-periodos-y-eliminar-trabajador/
-  contentHash: 0d26a182bea28419e49d302dfe5dbf3b1483b7e03c83626db29a4734860902e2
+  contentHash: 0535139e581568e891d828bcdfa463b130dde8b6918834bd7eb14a4c5349fdd1
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -93,3 +93,13 @@ A continuación te explicamos cómo hacerlo:
 1. Accede desde el menú de aTurnos a RRHH → Maestro de empleado.
 2. Accede a los periodos del trabajador.
 3. Eliminar el periodo desde la acción borrar. Antes de ser borrado el periodo de contrato del trabajador en el equipo seleccionado, el sistema avisa de que se borrará la planificación del trabajador y no se podrá recuperar posteriormente.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![d. Ver periodos y eliminar trabajador](/media/manual/d-ver-periodos-y-eliminar-trabajador-f24de64f78.png)
+
+![d. Ver periodos y eliminar trabajador](/media/manual/d-ver-periodos-y-eliminar-trabajador-de8de834b2.png)
+
+![d. Ver periodos y eliminar trabajador](/media/manual/d-ver-periodos-y-eliminar-trabajador-d50e018d05.png)

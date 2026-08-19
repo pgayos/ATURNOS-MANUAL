@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/6-importar-ofertas-de-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/6-importar-ofertas-de-horas/
-  contentHash: e1431c364e6a401de577f5b06d5b128639a6f5908193a1b09f30ab8a8de951b5
+  contentHash: 88188ea8310f8333334bc35b0ef75a726971b30173bd852fa70d5e0936aedc1a
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,11 @@ Puedes completar la plantilla de ejemplo, la cual tienes disponible para descarg
 - Valor Experiencia: puntuación mínima de la experiencia indicada previamente para poder apuntarse a la oferta.
 
 Una vez creado el fichero, habría que asociar los campos siguiendo las indicaciones mencionadas en b. Importar
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6. Importar ofertas de horas](/media/manual/6-importar-ofertas-de-horas-d44de42280.png)
+
+![6. Importar ofertas de horas](/media/manual/6-importar-ofertas-de-horas-7bfd9337a4.png)

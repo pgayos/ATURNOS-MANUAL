@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-3-inicio-dashboard/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-3-inicio-dashboard/
-  contentHash: b85a32eba7605a97380444559758516ca6898d29158ef4d2a4495fb1669d35f4
+  contentHash: 4d184cd8625477b1537b8a2906e83fc1014e7d7c94e0d5f3ad20d25c20735c91
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -104,3 +104,9 @@ Indica gráficamente el número de horas anuales planificadas con respecto al to
 Vacaciones
 
 Muestra el número de días de vacaciones planificadas con respecto al número de vacaciones totales.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.3 Inicio (Dashboard)](/media/manual/1-3-inicio-dashboard-35f648dd33.png)

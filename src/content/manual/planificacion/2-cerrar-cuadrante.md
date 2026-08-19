@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-cerrar-cuadrante/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-cerrar-cuadrante/
-  contentHash: a4ceba982731c6a4850d8d7cba5608e95ccd631b0ed9f8c5430e6f1c5d1e0045
+  contentHash: bc52bc579759fd103fefcc52ea6d9fd35e90c9e28cc2284c389320f7e2d7a5a7
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,13 @@ Esta fecha también puede variar cuando se produce la exportación a Nóminas po
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Cerrar cuadrante](/media/manual/2-cerrar-cuadrante-54437e1d35.webp)
+
+![2. Cerrar cuadrante](/media/manual/2-cerrar-cuadrante-0061802a9e.webp)
+
+![2. Cerrar cuadrante](/media/manual/2-cerrar-cuadrante-0931d64c59.webp)

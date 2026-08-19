@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/a-menu-de-acciones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/a-menu-de-acciones/
-  contentHash: bf3d10e0a5876aebb07a560a0a63bb623c633d5d735e7ea50bc39b3cad6b4dc6
+  contentHash: b3da490f5dc21ff48cb12dd67b29ed490eb7ca2d534c9dbf61a1669b85df9a54
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,19 @@ En el caso de que aTurnos no muestre trabajadores disponibles, o el administrado
 - Borrar: te permite borrar o eliminar un turno o cualquier otra variable (ej. vacación o absentismo), que exista en una celda/día y que no debería estar asignado a esa localización. (Ver más en: Borrar ).
 
 Es importante resaltar que las modificaciones realizadas en la planificación de este cuadrante de localizaciones se registrarán automáticamente en el “Cuadrante” (Ver más en: Cuadrante ).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![b. Menú de acciones](/media/manual/b-menu-de-acciones-cfa7e21d05.png)
+
+![b. Menú de acciones](/media/manual/b-menu-de-acciones-3c7ca64a03.png)
+
+![b. Menú de acciones](/media/manual/b-menu-de-acciones-96f6ba7f5a.png)
+
+![b. Menú de acciones](/media/manual/b-menu-de-acciones-5bfa325331.png)
+
+![b. Menú de acciones](/media/manual/b-menu-de-acciones-18eda3112a.png)
+
+![b. Menú de acciones](/media/manual/b-menu-de-acciones-502cf3b523.png)

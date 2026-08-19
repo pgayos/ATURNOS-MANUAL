@@ -53,7 +53,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-3-anadir-el-trabajador-a-mas-equipos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-3-anadir-el-trabajador-a-mas-equipos/
-  contentHash: 2019be5f107126e754ac2091e58a7aa4ecdda68b4cd4f377fdabe0aba07d254d
+  contentHash: 93a3287d493153c5421eb331bdb56e2752b3b3e739a3972a927221042c285878
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -73,3 +73,11 @@ Si la necesidad es añadir a un trabajador en otro equipo, el cual ya está dado
 6. La fecha indicará el día en que el trabajador estará activo en el nuevo equipo. La fecha fin (hasta) no es necesaria informarla en el caso de que se desconozca la fecha fin de actividad del trabajador en este equipo.
 7. Clonar especialidades y datos personalizados: si tiene un periodo anterior en otro equipo, clonaría los datos personales de su perfil (Id empleado, posición, etc.)., asi como datos personalizados y especialidad que tenga informada de ese equipo.
 8. Guardar, haciendo clic en este botón de acción se actualizará aTurnos, en base a la información cumplimentada en los pasos anteriores.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![c Añadir trabajadores a más equipos](/media/manual/c-anadir-trabajadores-a-mas-equipos-1fec87fdf1.png)
+
+![c Añadir trabajadores a más equipos](/media/manual/c-anadir-trabajadores-a-mas-equipos-41c88538ba.png)

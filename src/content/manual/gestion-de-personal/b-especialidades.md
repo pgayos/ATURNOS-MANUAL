@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/b-especialidades/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/b-especialidades/
-  contentHash: 67c36f073d64e533771e9f34eac42f019d0499955a4aeacb0a90860c132aa439
+  contentHash: 9a6a7f11209721c15a7e77510e27c33f417b7ebf2e5385bb6ff6a26c83b5ab28
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -75,3 +75,15 @@ Si quieres añadir una determinada especialidad, sólo tienes que hacer clic en 
 Se trata del nombre con el que se puede identificar a un determinado tipo de especialidades, con el fin de tenerlas todas agrupadas en un mismo departamento. Para añadirlos, tienes que hacer clic en “Acciones- → Nuevo grupo” y únicamente hay que informar de la descripción con la que quieres nombrar a ese determinado tipo de especialidades.
 
 En esta pestaña aparecerá el listado de todos los trabajadores de tu equipo, a los cuales, dependiendo de las especialidades que anteriormente has creado, se le puede otorgar una puntuación (con un intervalo de 0-5). Para tener mejor identificados a aquellos trabajadores a los cuales realizan mejor una determinada especialidad, les puedes conceder un valor próximo a “5” o si, por el contrario, en otra determinada especialidad no destaca especialmente, le puedes conceder un valor próximo a “0”.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![b. Especialidades](/media/manual/b-especialidades-114507266d.png)
+
+![b. Especialidades](/media/manual/b-especialidades-b9b7cb260b.png)
+
+![b. Especialidades](/media/manual/b-especialidades-9f255d2c30.png)
+
+![b. Especialidades](/media/manual/b-especialidades-bb07a75070.png)

@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-4-cierre-por-empleado/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-4-cierre-por-empleado/
-  contentHash: 10108eeb4751ba8c8b45793b45f532b4963419018cd28907ae90a4884fbbba0e
+  contentHash: 7bbe79fd0f7553f3b03861b77abf39091c51f536dcff3342cd9ad8315127c18d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -73,3 +73,15 @@ Una vez se ha mostrado la información de los trabajadores a los cuales se les v
 2. Acceder al perfil del trabajador para indicar manualmente la fecha de cierre de cuadrante.
 
 Una vez ha sido modificada la fecha, para cerrar el cuadrante del trabajador, se deben guardar los cambios realizados en su perfil.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-ef70cf4b32.png)
+
+![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-de8a2ed9ea.png)
+
+![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-e8efc66344.png)
+
+![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-404a9686e1.png)

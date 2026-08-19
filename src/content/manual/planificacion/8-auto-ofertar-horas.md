@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-auto-ofertar-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-auto-ofertar-horas/
-  contentHash: 749401c2f98a79a4d46ab1682acad2a2f97eebc443e89a53a09e0701fada78ea
+  contentHash: 7137278c7bf9d37759f3027f3b89a45a5c4aa525433b693aa56a57f0065e38fe
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -66,3 +66,11 @@ Y por otro lado, estos cambios se realizan sobre las planificaciones ya comparti
 La herramienta de auto ofertar horas se encarga de buscar los gaps de cobertura, es decir, donde falta personal para publicarlo como oferta y que los trabajadores se apunten para poder cubrir esa necesidad mediante este turno abierto. En este ejemplo muestra dos tramos de horas que se van a publicar como oferta de horas.
 
 Además, antes de publicar la oferta de horas, te permite indicar para que tipo de horas quieres realizar la oferta. Puede ser que la quieras publicar como normales dentro de su jornada o de forma extraordinaria.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![8. Auto ofertar horas](/media/manual/8-auto-ofertar-horas-d52841d9c1.png)
+
+![8. Auto ofertar horas](/media/manual/8-auto-ofertar-horas-c26078d738.png)

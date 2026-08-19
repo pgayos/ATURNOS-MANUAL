@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/10-5-exportar-nominas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/10-5-exportar-nominas/
-  contentHash: d6650416266e6edeb2dae118eccf2d4d0b43f9b7e2bbe744a6fd56d7f1827358
+  contentHash: 750f2b363ebb219e7c615ed3bad1bc72ef4e8a8b4c9d4207bdeaa2021da88104
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -91,3 +91,19 @@ Los días son:
 En el caso del export de nómina y/o la estadística por periodo, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el período, es decir, suma las horas nocturnas 9 + 10 + 10 + 1 +1 + 2, hace un total de 33 horas, al superar las 10 horas nocturnas, el concepto que abona es el 3000
 
 En el caso de la estadística diaria, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el día, es decir, comprueba si las 9 horas nocturnas del día 9 son menores a 10, como es menor, devuelve valor el concepto 3K00, pasa al día 10 y comprueba si las horas nocturnas son mayores o iguales que 10, de forma que devuelve valor ell concepto 3000.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![6.4 Exportar nóminas](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
+![6.4 Exportar nóminas](/media/manual/5-1-exportar-nominas-77e367a650.png)
+
+![6.4 Exportar nóminas](/media/manual/5-1-exportar-nominas-a4c008e18f.png)
+
+![6.4 Exportar nóminas](/media/manual/6-4-exportar-nominas-8f03d4350a.png)
+
+![6.4 Exportar nóminas](/media/manual/6-4-exportar-nominas-e67517dc3f.png)
+
+![6.4 Exportar nóminas](/media/manual/6-4-exportar-nominas-9c6c183565.png)

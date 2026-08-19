@@ -55,7 +55,7 @@ migration:
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-8-configuracion-reportes-rrhh/
     - https://manual.aturnos.com/knowledgebase/f-configuracion-reportes-rrhh/
-  contentHash: bf59fa9fad7aeea36174931d815481d4299a1833da2e9ba53ee1e9e3ce2e30c4
+  contentHash: 4d88c9bbc5b07b587840dad569cb0990645fb3eb4af1304919d65d2467f6c7fe
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -83,3 +83,9 @@ A nivel de trabajadores se pueden añadir los siguientes campos identificativos:
 Dato personalizado del empleado: en este campo se puede seleccionar uno o varios Datos personalizados para que aparezcan en la plantilla del reporte solicitado. En caso de requerir que aparezcan en el informe varios datos personalizados es necesario registrar en el campo cada uno deparado por “,” y un espacio, ejemplo: Centro de costes, Area
 
 Dependiendo de los campos que se quieran observar en los reportes del superusuario se debe añadir estos campos disponibles desde el botón de acción “añadir” y guardarlos con el botón de acción que “Guardar”.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Configuración Reportes RRHH](/media/manual/1-configuracion-reportes-rrhh-a6331a45cf.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/13-listado-de-tareas-informes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/13-listado-de-tareas-informes/
-  contentHash: a5dcbe62501dd9d07d00ec425dc11bb4aff64b7da0e63aee20b86b161e6e595c
+  contentHash: 42d30dad82e5b15d07356666f7ede9e58f18427614f1ab498f5087b3d0fac6c6
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -70,3 +70,15 @@ Tiempos de respuesta pudiendo filtrar también por la especialidad o rol
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Tareas por colas](/media/manual/tareas-por-colas-5777fbcd87.png)
+
+![Tiempos de respuesta](/media/manual/tiempos-de-respuesta-a64a50897a.png)
+
+![Franjas horarias](/media/manual/franjas-horarias-6beffe4f0a.png)
+
+![Listado de tareas](/media/manual/listado-de-tareas-3bb6f13dcb.png)

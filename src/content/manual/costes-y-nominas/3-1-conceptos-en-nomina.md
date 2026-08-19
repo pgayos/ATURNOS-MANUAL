@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/b-conceptos-en-nomina/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/b-conceptos-en-nomina/
-  contentHash: 6ea2ca63adff9db79684284a53a684ba983ec4abf9b2d59f6b6f96a32206cc47
+  contentHash: 111b2c523f6d3ffffb45115b0821a99cd312f22b2c305dd868b8d0d6d2341e78
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -62,3 +62,11 @@ Continuando con el ejemplo indicado en el punto 2, los conceptos a seleccionar s
 - Concepto 3000. Recupera el número de horas nocturnas cuando son mayores o iguales a 10.
 - Concepto 3K00. Recupera el número de horas nocturnas cuando menores a 10.
 - Concepto K285. Recupera el número de horas de guardia presencial
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3.1 Conceptos en nómina](/media/manual/3-1-conceptos-en-nomina-5e0bc05597.png)
+
+![3.1 Conceptos en nómina](/media/manual/3-1-conceptos-en-nomina-399ec4fc0c.png)

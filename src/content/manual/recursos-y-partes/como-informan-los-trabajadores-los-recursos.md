@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/casos-de-uso-de-trabajadores/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/casos-de-uso-de-trabajadores/
-  contentHash: bc0abf9e56bf390855e4a9803faaf15cbfb98fc32628b602bcdcad2cacac1314
+  contentHash: 74f1ee5441c4316571629acfbaaf4390bdc9195742c39d97c8e77a681858c4b9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -98,3 +98,21 @@ La acciones que tiene que realizar el trabajador en este caso son las siguientes
 3.- Por último hacer clic en Cerrar.
 
 4.- En el resumen de los recursos, se visualiza con un 1 en el caso de que este marcado el check, en este ejemplo los recursos “Revisión del estado del agua de la piscina” y “Revisión de los extintores de la comunidad”
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-4d96dfd160.png)
+
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-0e94669a2c.png)
+
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-a2d8c00dc6.png)
+
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-a73c15b042.png)
+
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-ace07f5733.png)
+
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-869e78f717.png)
+
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-8a057412d9.png)

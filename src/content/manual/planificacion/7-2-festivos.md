@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-2-festivos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-2-festivos/
-  contentHash: ffd37a00c5b8da4fb43b7bdb2b8c64be3058830ce34098eb72ea5069e83049b9
+  contentHash: 9ad283916d2fd6c5d71b269d7b9926d42c0f869fa7707c7f713969b67e73e6cc
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -78,3 +78,15 @@ Al hacer clic sobre el botón de la acción “Añadir”, se creará un día fe
 Completando el formulario con el código postal de la localidad del equipo (por defecto aparece el indicado en los Datos del equipo ) y el año de los festivos a importar. Automáticamente, se importarán y se mostrarán en la planificación del cuadrante. Se importarán festivos nacionales y autonómicos, los locales deben informarse manualmente a través de la opción “Añadir” del punto anterior.
 
 Los festivos también se pueden añadir mediante la importación de un fichero CSV (ver Importación de festivos mediante un Excel ).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![7.2 Festivos](/media/manual/7-2-festivos-7d6768d15e.png)
+
+![7.2 Festivos](/media/manual/7-2-festivos-75e255a5a9.webp)
+
+![7.2 Festivos](/media/manual/7-2-festivos-323d78b6d2.png)
+
+![7.2 Festivos](/media/manual/7-2-festivos-10b6b6a8d4.png)

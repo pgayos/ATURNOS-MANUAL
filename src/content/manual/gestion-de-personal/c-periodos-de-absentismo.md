@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/c-periodos-de-absentismo/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/c-periodos-de-absentismo/
-  contentHash: 365cc6370fec131af89977e2909e9cfa91fdf0b2fe2dfc5fdec3dded8dff1f5e
+  contentHash: c27fc16553dfa819354975486823edca176c11ddba6b8c6bad1e3f8584d2d780
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -64,3 +64,9 @@ El listado muestra nombre del trabajador, fecha de inicio y fin del período, ti
 Cabe resaltar que este registro en particular no permite modificar datos del Periodo de absentismo de los trabajadores. Si el Administrador del equipo desea modificarlo debe entrar al perfil del trabajador y hacerlo desde la pestaña de Periodos de absentismos. (Ver más en: Periodos de absentismo en el perfil del trabajador ).
 
 En el icono de “Ocultar” puedes quitar y agregar nuevamente alguna de las columnas que se muestran en el informe o tabla, así como, exportar el listado a un archivo CSV, Excel, PDF, entre otros, dese el icono de “Acciones”.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![c. Periodos de absentismo](/media/manual/c-periodos-de-absentismo-25ff8e9747.png)

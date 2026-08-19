@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-11-tipos-de-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-11-tipos-de-fichajes/
-  contentHash: 0ac6821930f80c15e17a0cd2de7070613b6705d108a11bb40c87d39cb82bf89e
+  contentHash: b0b1ab764088ced980143f5de60f30dc992a2d15439858b86e8c85aec3e4ef81
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -88,3 +88,23 @@ La fusión de tipos de fichaje se puede realizar entre fichajes que ambos comput
 A continuación, os mostramos con imágenes un caso de uso: Eliminar el tipo de fichaje computable tipo 3, el cual se fusionará en el tipo de fichaje computable tipo 1.
 
 Se hará clic en el icono de la papelera del tipo fichaje tipo 3, se abre un formulario donde se debe elegir el tipo de fichaje, en el que se quiere fusionar el tipo de fichaje 3, en nuestro ejemplo, seleccionamos el fichaje tipo 1. Cuando se fusione, al hacer clic en el botón “Migrar”, todos los fichajes que se registraron como tipo 3, pasarán a identificarse en tipo 1. A su vez, el fichaje tipo 3, dejará de estar disponible en el listado y, por tanto, los trabajadores no pueden fichar con el fichaje tipo 3.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-ae1d5128b7.webp)
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-0d5bb020c2.png)
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-f80c1c8ebe.png)
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-1fa9015c7f.webp)
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-82ae22d7e2.png)
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-4f85446b79.png)
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-1cb1c889b0.png)
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-4c8a985cd8.png)

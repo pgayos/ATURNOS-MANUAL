@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/n-turnos-por-teclado/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/n-turnos-por-teclado/
-  contentHash: 4ff751dd9217fba6e5846f08e35d636a029724fda6d98061eaff0a18f9e00da8
+  contentHash: a00165db87db49c32848e5cda29e34da4dfbd0e7b062cd58fd1e49eaf3ee7495
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -59,3 +59,9 @@ Esta opción permite ir insertando turnos tecleando la secuencia sin necesidad d
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![16. Turnos por teclado](/media/manual/16-turnos-por-teclado-063318a92d.png)

@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-1-barra-de-filtros-de-fichajes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-1-barra-de-filtros-de-fichajes/
-  contentHash: f0a00e678a834fb20a9a0d068a737a6104596edb120ec6341cd7e65579d30523
+  contentHash: 389ac7fcabc7aed5c72040cf91afcd1c955ed732c9eab29f1a5085747d0fcee8
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -142,3 +142,73 @@ Todos aquellos trabajadores que cumplan estos requisitos, aparecerán filtrados.
 Son los trabajadores que en el momento de hacer la consulta están en tiempo de trabajo y han fichado.
 
 Se muestran los trabajadores que en el momento de hacer la consulta, no están en tiempo de trabajo, tienen informado un absentismo en el cuadrante (ver añadir absentismo en el cuadrante ) o no han fichado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-db4452ebca.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-6aad6b6edb.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-f2a8304c6a.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-963c5f895a.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-d75e55c7d1.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-8cc731031e.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-530e069c78.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-144de52860.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-c3844eb6f6.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-c6357463f8.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-a32fafa476.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-4faaa786f8.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-7dc2d1bfb0.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-f5e3b9616b.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-b6d22b6e57.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5002e33971.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-e527bb7dde.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-801d7f78d2.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-3e4c374f0b.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-0c2fdfd826.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-18ec994730.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-3a8df331d2.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-b2cdc72614.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5e1d223050.webp)
+
+![1.1 Filtros de fichajes](/media/manual/barra-de-filtros-61c7f27752.png)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5726503f13.webp)
+
+![1.1 Filtros de fichajes](/media/manual/barra-de-filtros-c9dfaefcf5.png)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-ef282c620b.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-e454495bca.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-3ccbc7ec51.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-ff968ddda7.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5314db2a70.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-8ffb33a56a.webp)

@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-3-opciones-por-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-3-opciones-por-trabajador/
-  contentHash: 83fa02832cb9e64e98f5c2cd8941cdc2d59449267eff1d9e8aca4c7b2dd875f7
+  contentHash: ed9160a520d4ad8a64470187260cfa65a9c25bdc55001964de64b10b787cfe6b
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -65,3 +65,11 @@ La fuente pública de **Opciones por trabajador** contiene muy poca información
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.3 Opciones por trabajador](/media/manual/1-3-opciones-por-trabajador-b9ef541a3d.webp)
+
+![1.3 Opciones por trabajador](/media/manual/1-3-opciones-por-trabajador-b234ff2e2a.webp)

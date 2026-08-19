@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 5
+readingTime: 6
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/c-plantilla-de-nomina/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/c-plantilla-de-nomina/
-  contentHash: bbf810e2eac5e728fd577d7a1a08e4e6aa6a73eb7de850cfae0e77551e970c20
+  contentHash: 648bb04de3eebf2c3e6bdf56a70b6b7b838bf08f52c01e48625edc50c536ccb4
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -130,3 +130,23 @@ Para crear un Campo Fijo, marca Añadir
 El separador en el caso de decimales es el punto, no la coma.
 
 Una vez creados los campos necesarios se seleccionan los campos necesarios con el (+), una vez incluidos todos los campos, recuerda que se debe guardar
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-bae42438ea.png)
+
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-852b07c1a9.png)
+
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-9551ee7edb.png)
+
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-fd4fc13f16.png)
+
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-13d38f1867.png)
+
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-9a7e32b069.png)
+
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-6129b9b9a7.png)
+
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-55efa5d87c.png)

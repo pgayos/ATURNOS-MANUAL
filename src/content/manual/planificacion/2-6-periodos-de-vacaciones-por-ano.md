@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-6-periodos-de-vacaciones-por-ano/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-6-periodos-de-vacaciones-por-ano/
-  contentHash: 6ab91c5d0dc67d1025e28517c1b8c87bd70ef0931757eabb6d138abf9f7e5b7b
+  contentHash: 1f78a8d01e145f7e49b4fa070fc6e780496bf0eba0933463bb65dccb8b3e974c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -69,3 +69,13 @@ En la barra superior se puede seleccionar:
 Seleccionadas las variables para consultar los periodos, se necesita hacer clic en “Cargar”
 
 Cargada la información, se mostrará un calendario anual con todos los meses por trabajador y su saldo de vacaciones (vacaciones restantes frente a las vacaciones por contrato o periodo contractual).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.6 Periodos de vacaciones por año](/media/manual/2-6-periodos-de-vacaciones-por-ano-3972681d34.png)
+
+![2.6 Periodos de vacaciones por año](/media/manual/2-6-periodos-de-vacaciones-por-ano-e43eee35c6.png)
+
+![2.6 Periodos de vacaciones por año](/media/manual/2-6-periodos-de-vacaciones-por-ano-402fb78eed.webp)

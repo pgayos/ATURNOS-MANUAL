@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-ajuste-de-noctunidad-y-festivos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-ajuste-de-noctunidad-y-festivos/
-  contentHash: f3134995fb563f0f64fe1104005757a0c2e2c7a3c2f5990aec25ea72a622b729
+  contentHash: 0d7f375873bd9c27cb63fe2722379a9247b0ad4fbf953e99b717aba85799b513
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -63,3 +63,9 @@ Existen ajustes en las horas realizadas que no se corresponden con una planifica
 
 - Calcular mediante tabla de coeficientes: Se pueden cargar por tabla, donde por cada hora de noche o festiva realizada se corresponde un incremento en las horas planificadas específicas. Esto se realiza cuando no existe una relación directa porcentual entre las horas realizadas por el trabajador y el conteo de las horas (nocturnas y/o festivas). Esta tabla se carga desde la importación.
 - Horas nocturnas, Horas festivas, Horas festivas nocturnas, etc.: Cuando no se carga por tabla, se deben informar los coeficientes en cada tipo de horas de nocturnidad, si es festiva, festiva extraordinaria, etc. para multiplicar por ese porcentaje e incrementar el conteo de las horas del ajuste cuando se planifiquen horas con esas características.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Ajuste de coeficientes en nocturnidad y festivos](/media/manual/5-ajuste-de-coeficientes-en-nocturnidad-y-festivos-8f75ccc340.png)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-importacion-de-catalogos-de-tareas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-importacion-de-catalogos-de-tareas/
-  contentHash: 2ba76060800cdc06bba2cefd1afd128399d73ef6665a0303237c3ef9f73ac1fc
+  contentHash: b994146479e305d993c521541706b36fdea0ac532b92b487cd89f0ea70cd213d
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -76,3 +76,19 @@ Una vez seleccionados dichos campos, se clica en el botón Asociar para que esta
 Si hemos asociado mal los campos, se puede clicar en el botón Eliminar, y realizar la nueva asociación. Una vez estén todos los campos asociados correctamente, se clica en el botón Asociar para realizar la carga. Cuando la carga se haya completado, en la parte inferior de la página aparecerá el resultado de la carga.
 
 *Se recomienda tener en cuenta que, aunque el resultado de la carga sea satisfactorio, hay que confirmar en el catálogo de tareas que lo nuevo aparece listado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Importación de catálogos de tareas](/media/manual/4-importacion-de-catalogos-de-tareas-f9f1779f7e.png)
+
+![4. Importación de catálogos de tareas](/media/manual/4-importacion-de-catalogos-de-tareas-8fe635eee7.png)
+
+![4. Importación de catálogos de tareas](/media/manual/4-importacion-de-catalogos-de-tareas-8de302edf3.png)
+
+![4. Importación de catálogos de tareas](/media/manual/4-importacion-de-catalogos-de-tareas-0ed62b94b1.png)
+
+![4. Importación de catálogos de tareas](/media/manual/4-importacion-de-catalogos-de-tareas-83e83bfb70.png)
+
+![4. Importación de catálogos de tareas](/media/manual/4-importacion-de-catalogos-de-tareas-dea62044dd.png)

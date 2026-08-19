@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-2-estructura-jerarquica/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-2-estructura-jerarquica/
-  contentHash: f83cb225223dfa86a7880a4c06bc30215e0434523fa5aa47c0d591d02f9adf61
+  contentHash: 6a5ba684e74fad33dfb921793b37b85deab11201d928b49bc897fbf6f6aa42f3
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,15 @@ La dependencia jerárquica puede constar de:
 La jerarquía de equipos se puede diseñar seleccionando el equipo padre de un equipo en la configuración de ‘Datos del equipo’.
 
 De la misma forma, una localización, puede tener una localización padre según la configuración o también se pueden jerarquizar cambiando el orden.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-4cffc0b25c.webp)
+
+![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-f38f9f91a1.webp)
+
+![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-a94a4cf6eb.webp)
+
+![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-d9ed9c576b.webp)

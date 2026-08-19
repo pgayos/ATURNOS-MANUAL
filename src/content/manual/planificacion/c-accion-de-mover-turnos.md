@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/c-accion-de-mover-turnos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/c-accion-de-mover-turnos/
-  contentHash: 1efcb73dbb585178d6a1557602ddcd756692706f28f26b799810aa26f77e6e49
+  contentHash: 09896976cfa7cbb17b3b73d6b9ce3dca38bebeae049b976e4495a747dc34aae9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,17 @@ Se pueden seleccionar estas opciones:
 - Copiar datos de planificación. Con la opción en SÍ, copiaría estos datos, y con la opción en NO, no los copiaría. Estos datos aparecen en el perfil del trabajador, es la última opción de la pestaña General.
 
 - Copiar pre-peticiones: Con la opción en Sí te permitirá aplicar los turnos planificados que tenía el trabajador a sustituir al trabajador sustituto, antes de que le hayan aceptado las peticiones de permisos al trabajador a sustituir. Con la opción en NO, no los aplicará.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-bb6e1fec49.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-c2f3164d5e.webp)
+
+![c. Acción de mover turnos](/media/manual/c-accion-de-mover-turnos-d3b43f31d9.webp)
+
+![c. Acción de mover turnos](/media/manual/c-accion-de-mover-turnos-3e8a8b22c8.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-8d0d430d6e.webp)

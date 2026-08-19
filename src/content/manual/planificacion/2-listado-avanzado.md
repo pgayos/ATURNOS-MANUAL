@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-listado-avanzado/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-listado-avanzado/
-  contentHash: ca4919c547a1d103e52423e842ee6ce5861435ed4435027505bd49a27b11e936
+  contentHash: c20a74798b45bc878591feadd71444ccd37dbd57ab4771a21a1d5863b3317986
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -97,3 +97,23 @@ En el reporte obtendremos la siguiente información por defecto (se pueden añad
 - Fichadas, devuelve la cantidad de horas que se computan en la variable ‘ Horas fichadas ‘.
 
 También puedes consultar el siguiente post relacionado: ¿Cómo saber qué trabajadores fichan dentro de su planificación de turnos?
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2. Listado avanzado](/media/manual/2-listado-avanzado-50162675c4.webp)
+
+![2. Listado avanzado](/media/manual/2-listado-avanzado-6d280c6583.webp)
+
+![Filtros](/media/manual/filtros-b929762737.webp)
+
+![Filtros](/media/manual/filtros-55039f2cf4.webp)
+
+![Filtros](/media/manual/filtros-03472d26cb.webp)
+
+![Filtros](/media/manual/filtros-de18f9a126.webp)
+
+![Filtros](/media/manual/filtros-f4643a358f.webp)
+
+![Filtros](/media/manual/filtros-854cec03fa.webp)

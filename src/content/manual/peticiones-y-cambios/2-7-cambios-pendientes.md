@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-7-cambios-pendientes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-7-cambios-pendientes/
-  contentHash: 972c71d60223b8f0766e0cc4e740350e5a74009fabc0a325914e0e8d16ebfa72
+  contentHash: 1ef613b09fa7be2f923496808b741413ea18f022c2d5edbb5e445de04b0b58e4
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -61,3 +61,11 @@ Y si desactivas el “Ver todos los cambios” podrás seleccionar una fecha det
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.7 Cambios pendientes](/media/manual/2-7-cambios-pendientes-d72621f8ab.webp)
+
+![2.7 Cambios pendientes](/media/manual/2-7-cambios-pendientes-8f9afa1872.webp)

@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/8-enviar-cuadrante-por-email/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/8-enviar-cuadrante-por-email/
-  contentHash: d8a726892de0bab86028201da07955cc6be33d18e5677ef57c9d9ee14e2c1718
+  contentHash: 482a57b3d870947dba4bc89f91a634ec604a3cfdb9d1856788e57aa48f893beb
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -67,3 +67,11 @@ El trabajador recibió la planificación del periodo que está visualizando el a
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![8. Enviar cuadrante por Email](/media/manual/8-enviar-cuadrante-por-email-f3cf2f56e3.webp)
+
+![8. Enviar cuadrante por Email](/media/manual/8-enviar-cuadrante-por-email-2cd14324c9.webp)

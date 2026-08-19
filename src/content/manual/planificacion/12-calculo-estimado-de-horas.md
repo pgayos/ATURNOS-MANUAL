@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/12-calculo-estimado-de-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/12-calculo-estimado-de-horas/
-  contentHash: dfbee723895461357fa4ac2dd652df20d14e119059adf4808607337f3cfaa9ee
+  contentHash: 79b6812cc0eda878eb1bca7c7bfd96fdd321e7c60461b8516a96f4b02d92c153
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -62,3 +62,11 @@ La fuente pública de **Cálculo estimado de horas** contiene muy poca informaci
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![12. Cálculo estimado de horas](/media/manual/12-calculo-estimado-de-horas-e5e280a0ae.webp)
+
+![12. Cálculo estimado de horas](/media/manual/12-calculo-estimado-de-horas-bf387f5c1e.webp)

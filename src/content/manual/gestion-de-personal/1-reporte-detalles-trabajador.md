@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/e-reporte-detalles-trabajador/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/e-reporte-detalles-trabajador/
-  contentHash: 08dbca2cf6f96a06af93068fe3ebebbff95f9deb69d5203ee39bd50213fc895d
+  contentHash: 7ac2c46b86aafd69dab23f3973dedf9a8dd193876b137fad98c2d2e33e85782c
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -153,3 +153,17 @@ Pasado unos minutos, el sistema consigue generar el reporte solicitado. El propi
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1. Reporte detalles trabajador](/media/manual/1-reportes-por-trabajador-34cc561628.png)
+
+![1. Reporte detalles trabajador](/media/manual/1-reportes-por-trabajador-372ac32178.png)
+
+![Listado de variables del reporte](/media/manual/listado-de-variables-del-reporte-ea3fb9418a.png)
+
+![Listado de variables del reporte](/media/manual/listado-de-variables-del-reporte-cd6ef3729e.png)
+
+![1. Reporte detalles trabajador](/media/manual/1-reportes-por-trabajador-e21bb5dad8.png)

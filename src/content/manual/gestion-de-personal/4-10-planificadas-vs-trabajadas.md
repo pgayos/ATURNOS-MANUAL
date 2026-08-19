@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-10-planificadas-vs-trabajadas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-10-planificadas-vs-trabajadas/
-  contentHash: 62817ffca9102ab846ff4109fdc4ef44d9ade4fd21f74d2325dc1daf2422bee1
+  contentHash: f43afcfb5d0b3758f9c6517b32ca718ce6ea6c5bd0dbdeaf9874de12b7e91c59
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,25 @@ El reporte se puede cargar:
 - Horas de un trabajador filtrando por su nombre, email o ID empleado.
 
 Como cualquier otra gráfica de los reportes de aTurnos, esta se puede ver a pantalla completa, imprimirse directamente o descargarse en un formato que ayude a su documentación por los responsables del equipo.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-1cce9ef630.webp)
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-c9ad04d199.webp)
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-5760c00c62.webp)
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-c517036607.webp)
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-ed754331c8.webp)
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-7d447cd5bb.webp)
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-2bff39edc6.webp)
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-9b4a7c1c4d.webp)
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-bb4e3d1780.webp)

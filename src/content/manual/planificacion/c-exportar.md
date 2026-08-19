@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/c-exportar/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/c-exportar/
-  contentHash: a571eb2a913e29bd475155af3445e06c58209b56904c2f363e78961994d2d6c2
+  contentHash: a59c4fb74b0716d169114292a01533edcf0362cf6c4b847daf3dab09ac6f916b
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -83,3 +83,25 @@ Para una correcta exportación de los datos es necesario:
 - Datos de planificación (datos de los patrones de turnos aplicados ).
 
 Una vez seleccionados los conceptos a exportar, se debe hacer clic en el botón de “Exportar “, y se generará el archivo para su consulta.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![c. Exportar](/media/manual/c-exportar-047887b928.png)
+
+![c. Exportar](/media/manual/c-exportar-886f495549.webp)
+
+![c. Exportar](/media/manual/c-exportar-03ac099a39.webp)
+
+![c. Exportar](/media/manual/c-exportar-c3c1c6eb2e.webp)
+
+![c. Exportar](/media/manual/c-exportar-315d86b1a7.webp)
+
+![c. Exportar](/media/manual/c-exportar-fb39281f1d.webp)
+
+![c. Exportar](/media/manual/c-exportar-29230b7af4.webp)
+
+![c. Exportar](/media/manual/c-exportar-dff9e60432.webp)
+
+![c. Exportar](/media/manual/c-exportar-e45c0c1357.webp)

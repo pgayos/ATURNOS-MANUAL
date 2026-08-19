@@ -55,7 +55,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-importacion-de-horas-normales-extra-y-complementarias/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-importacion-de-horas-normales-extra-y-complementarias/
-  contentHash: 6d57291dcf70ebc1d1aeb4616179dff2ed92f14b58acdc40b37e576243f02028
+  contentHash: d0d2189db76db1200fee6709b10ceef237b7f44862d3888a37c93e12f7ced98e
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -93,3 +93,13 @@ Guardar el documento como formato tipo CSV.
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “Importar “.
 
 Estos serán los campos que se deben asociar.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3. Importar horas al trabajador (normales, extra y complementarias)](/media/manual/3-importar-horas-al-trabajador-normales-extra-y-complementarias-8d666b154a.png)
+
+![3. Importar horas al trabajador (normales, extra y complementarias)](/media/manual/3-importar-horas-al-trabajador-normales-extra-y-complementarias-f6e8a25087.png)
+
+![3. Importar horas al trabajador (normales, extra y complementarias)](/media/manual/3-importar-horas-al-trabajador-normales-extra-y-complementarias-ed0115077a.png)

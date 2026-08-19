@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-1-cuadrante-2/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-1-cuadrante-2/
-  contentHash: 7764cc3e685446de973953cf2116a823d7ed114c84ef9fe611da77232db63a69
+  contentHash: 528413d5dfc9709c0608f41f02e73dd52d0075209c0086e92b70e3aa71691f19
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -70,3 +70,15 @@ La ventana del Cuadrante dispone de diferentes menús a través de los cuales ac
 A) Barra superior del cuadrante
 
 B) Operativa diaria del cuadrante
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-4a18358a37.png)
+
+![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-80f7accbb9.webp)
+
+![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-2bc52d97ff.webp)
+
+![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-bf50d5742e.webp)

@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 6
+readingTime: 7
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-1-ajustes-del-control-horario/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-1-ajustes-del-control-horario/
-  contentHash: 25a6da3be8457508d81a9d83f2820a87a0265c4841fc00f0764a4de1c4e8595f
+  contentHash: d76f02b0d114584fddc0b06a23e81eb773e7f9d71336ed52a660877aa5000130
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -122,3 +122,43 @@ En ocasiones los trabajadores puede tener errores a la hora de realizar su ficha
 Es posible que el trabajador crea que no ha fichado, por lo que realice varios fichajes con su huella dactilar, lo que puede provocar una distorsión en el Control horario, ya que cada fichaje puede indicar una entrada y el siguiente una salida.
 
 Para evitar estos errores, se puede poner un tiempo mínimo en el cual el Control horario, no insertará ningún nuevo fichaje después de haber realizado un primer fichaje. Si por ejemplo, se configura con el valor de 5 minutos, si el trabajador entra a las 8:00 de la mañana, fichando a las 07.59 pero al cree que no ha fichado, fiche una segunda vez en el mismo minuto o en el siguiente, el sistema no insertará ese fichaje, deberán pasar al menos 5 minutos para que se pueda realizar un nuevo fichaje que se inserte.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-7ed3b40a3c.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-1646af1a51.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-563c37c833.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-51a2b949b3.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-57dc320304.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-459e62d8a8.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-cf4a41ba98.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-3cf0fb06e6.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-3c91a82f54.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-3295de3192.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-6f1e6a2974.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-e4e2766e01.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-32672a956b.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-1bb1db7dd1.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-26e3fed1b6.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-1dfbcb9940.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-24ee1f3077.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-76995fc9b9.webp)

@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-5-2-peticiones-pendientes/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-5-2-peticiones-pendientes/
-  contentHash: 5f03e5ef0e2b192b73497aeac055a2ec224248271341b501091b30217a42efc8
+  contentHash: e17c00bb19d430dbcd72b960cab1f018dd61d3fb821213cb8d0ce75f1ec0b714
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -118,3 +118,13 @@ Más información sobre peticiones en aTurnos:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![b. Peticiones Pendientes](/media/manual/b-peticiones-pendientes-981772187d.png)
+
+![¿Cómo se deniegan las peticiones?](/media/manual/como-se-deniegan-las-peticiones-5a93d91da0.webp)
+
+![¿Cómo se aprueban las peticiones?](/media/manual/como-se-aprueban-las-peticiones-d4e383add4.png)

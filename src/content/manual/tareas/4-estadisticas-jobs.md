@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/4-estadisticas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/4-estadisticas/
-  contentHash: 687f6070afa6992f5cf16dcd1f35342bc230989e7a39655441ebb492c9a42b51
+  contentHash: 2aaa43124f3c7514bb4deea28e08dc20a4ca9bf0bd1f2677343ace3bd864f4bc
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -58,3 +58,13 @@ El submódulo Estadísticas, se encuentra en la parte izquierda.
 Las estadísticas disponibles corresponden al balance de tareas realizadas en un periodo de tiempo y, a las tareas diarias realizadas. Con estos dos reportes se podrá controlar si se ha realizado bien las imputaciones o falta algo por imputar.
 
 Para saber si faltan horas por imputar en un día determinado, se podrá saber porque el día que falta tiempo por imputar el reporte lo mostrará en número negativo, por ejemplo el día 01 de Octubre 2021 falta por imputar 7h.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![4. Estadísticas jobs](/media/manual/4-estadisticas-jobs-3b0c4d7505.webp)
+
+![4. Estadísticas jobs](/media/manual/4-estadisticas-jobs-55c83ba94a.webp)
+
+![4. Estadísticas jobs](/media/manual/4-estadisticas-jobs-6053d7df47.webp)

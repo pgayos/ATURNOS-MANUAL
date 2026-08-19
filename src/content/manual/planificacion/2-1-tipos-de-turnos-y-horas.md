@@ -39,7 +39,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/7-1-tipos-de-turnos-y-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/7-1-tipos-de-turnos-y-horas/
-  contentHash: e012b9bb915d4f00d524bc6353ea064086f591dc90f272bafd0f3426897c375a
+  contentHash: 954a974a1b5846eeb0bd3edb7864a44e06948eb5a530d3a463301a5d79807419
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -74,3 +74,19 @@ Los resultados mostrados se pueden delimitar en varias páginas, según el núme
 Desde esta función de “Ocultar” se pueden dejar de mostrar columnas que no se necesitan descargar.
 
 A través de “Acciones”, se tiene la opción de copiar o descargar el listado con los resultados en Excel o PDF.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![2.1 Tipos de turnos y horas](/media/manual/2-1-tipos-de-turnos-y-horas-7d4d93aed0.png)
+
+![2.1 Tipos de turnos y horas](/media/manual/2-1-tipos-de-turnos-y-horas-7dcaea12e7.png)
+
+![2.1 Tipos de turnos y horas](/media/manual/2-1-tipos-de-turnos-y-horas-f803f225a6.png)
+
+![2.1 Tipos de turnos y horas](/media/manual/2-1-tipos-de-turnos-y-horas-515ec98f29.png)
+
+![2.1 Tipos de turnos y horas](/media/manual/2-1-tipos-de-turnos-y-horas-aaf0fbdf7f.png)
+
+![2.1 Tipos de turnos y horas](/media/manual/2-1-tipos-de-turnos-y-horas-5384441d2e.png)

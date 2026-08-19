@@ -43,7 +43,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-7-periodo-nocturno/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-7-periodo-nocturno/
-  contentHash: 506de5e81a4b17f811a543599ca037822de8525a3eb9f85becbce00eb7796fe1
+  contentHash: 9281e94007696a62fd7c33cd2956bb398756c36ef490cd1eb85e4dd9705b374e
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -60,3 +60,9 @@ La fuente pública de **Periodo nocturno** contiene muy poca información textua
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.7 Periodo nocturno](/media/manual/1-7-periodo-nocturno-81d2c7d593.png)

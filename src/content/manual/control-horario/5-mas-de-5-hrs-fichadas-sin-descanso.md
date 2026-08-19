@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-mas-de-5-hrs-fichadas-sin-descanso/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-mas-de-5-hrs-fichadas-sin-descanso/
-  contentHash: cdbfa10c13db33631ab9dfb6ec41128f274bf450cf3ad4781dda2125a246b49a
+  contentHash: 1a0706a1d6a6200a72a2f2e83e66a3e7f74eb09f88112ddda03b16d83dee830c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -73,3 +73,13 @@ El reporte informa:
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
 
 Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5. Más de 5 Hrs fichadas sin descanso](/media/manual/5-mas-de-5-hrs-fichadas-sin-descanso-fbeda983a7.webp)
+
+![5. Más de 5 Hrs fichadas sin descanso](/media/manual/5-mas-de-5-hrs-fichadas-sin-descanso-a37fb1b80e.webp)
+
+![5. Más de 5 Hrs fichadas sin descanso](/media/manual/5-mas-de-5-hrs-fichadas-sin-descanso-305fef1f6a.webp)

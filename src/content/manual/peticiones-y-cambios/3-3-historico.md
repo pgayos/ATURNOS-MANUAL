@@ -41,7 +41,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/3-3-historico/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/3-3-historico/
-  contentHash: 742c7c3c1308e6a837875372febe2838836a88a456ab4ab9d240ab660a69d9ec
+  contentHash: 36a2101a73d69933faec9fbb97c861bbaf0d3fdc250fb0863d97b846565ae06f
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -61,3 +61,9 @@ La pestaña de Histórico, muestra el total de peticiones que han sido aceptadas
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![3.3 Histórico](/media/manual/3-3-historico-f43520a404.png)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-5-privacidad/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-5-privacidad/
-  contentHash: 194b0e8d21b71c77d4b5d6441e03c55ef83635222f0942903edb524ef2d6bb52
+  contentHash: 89b9b14a1fa49189864b927482ec4466f9e4bee0940ad76c054e26fcb34b1971
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -85,3 +85,11 @@ Se puede configurar la condición para el cómputo de la opción ‘Limitar peti
 
 - Semana por días naturales.
 - Desde el comienzo de la semana (comprobando siempre desde el lunes).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.5 Privacidad](/media/manual/5-5-privacidad-e703ef80cc.webp)
+
+![5.5 Privacidad](/media/manual/5-5-privacidad-15e2173eea.webp)

@@ -45,7 +45,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/5-2-tolerancia/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/5-2-tolerancia/
-  contentHash: 5a08aa1473d20a836463298d12316f4b7d03b24938d2a5f2205769e504c9176b
+  contentHash: e9926e65fada8f7d1c86e58a0d49f6bd4423f4346a55b88d5b33822bd773b384
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -99,3 +99,23 @@ Es decir, si el trabajador tiene un horario de 9:00 a 14:00 y efectúa el fichaj
 Activando esta función, permite que en el informe del control de presencia que se tenga que presentar ante la inspección laboral, en el estado tenga en cuenta el tiempo de tolerancia configurado.
 
 Es decir, si el trabajador tiene un horario de 9:00 a 14:00 y efectúa el fichaje de entrada a las 9:20 teniendo una tolerancia de 15 minutos, con esta opción activada, el sistema al ajustar el fichaje considera que existe un absentismo de 5 minutos (es decir, resta la tolerancia de los 20 minutos).
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-7e9612fe4b.webp)
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-649340eaad.webp)
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-d796e09b6e.webp)
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-648b261c87.webp)
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-825513ac60.webp)
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-292fbac106.webp)
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-de741b7036.webp)
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-7396f29460.webp)

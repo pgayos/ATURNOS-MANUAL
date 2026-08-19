@@ -55,7 +55,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos/
-  contentHash: 3e85c267663f8f729de9770207b570189831699321e8bed7fcae13cca47fb6fd
+  contentHash: c0f5ff0c7b4d97fd3e27037529d21a7b95960e84ad811155b7e8557e83f778b9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -95,3 +95,29 @@ Solo los recursos con el estado “Validado” se recuperaran en las estadístic
 6.- En la estadística diaria (NOMINAS → ESTADISTICA DIARIA) se visualiza el concepto “Dietas” del día 02%05/2022, solo el recurso validado.
 
 7.- Para “desvalidar” un recurso, en el caso de que se quiera modificar, desde RECURSOS → RESUMEN, se desmarca el check “Validado” y se marca “Validar”.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-d4f9564d26.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-398b1dcf95.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-8e3ed9afa9.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-bd7a22e20d.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-19ec266eaa.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-b664142381.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-c0d85d9973.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-916f9c932d.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-8399ee3f83.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-4df0df8557.png)
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-a4ec7b6565.png)

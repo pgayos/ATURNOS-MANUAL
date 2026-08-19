@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/aceptar-peticiones/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/aceptar-peticiones/
-  contentHash: b61fa57e28838ee808f5e437c0c196884ebe953a110440a26d218bb140caa2f5
+  contentHash: b28844f7d23d634f05c2d7035336fc29c38ea38662ffbb323062db9cb23a54f9
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -62,3 +62,13 @@ Información sobre aceptar o denegar peticiones y cambios, con instrucciones y c
 El administrador del equipo podrá ver las peticiones pendientes desde el menú Peticiones y cambios → Peticiones pendientes (al igual ocurre con los cambios: Peticiones y cambios → Cambios pendientes). Ahí le aparecerá el listado de todas las peticiones (o cambios) que los trabajadores han realizado y están pendientes de aprobar o denegar. Ese listado puede ordenarse por “fecha de solicitud” o por “fecha de petición”.
 
 Después, deslizando hacia la flecha cada petición que aparece en la lista se podrá aceptar o denegar directamente o bien ver los detalles desde el icono del ojo como se indica a continuación:
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Aceptar o denegar peticiones y cambios](/media/manual/aceptar-o-denegar-peticiones-y-cambios-c55d0b37ba.png)
+
+![Aceptar o denegar peticiones y cambios](/media/manual/aceptar-o-denegar-peticiones-y-cambios-0e9f43efbb.png)
+
+![Aceptar o denegar peticiones y cambios](/media/manual/aceptar-o-denegar-peticiones-y-cambios-007da30c89.png)

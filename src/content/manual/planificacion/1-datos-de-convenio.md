@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/1-datos-de-convenio/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/1-datos-de-convenio/
-  contentHash: aabb7e066c55e9afccc8c40c0a028e72def962de406c5e1cffb9a2a9178ecded
+  contentHash: ccbad3cb6d93a4a3722b89f746e8e21fe91c77612069969bd4805e99aca63f0c
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -90,3 +90,11 @@ La definición de estos valores determinan el número de horas a trabajar al mes
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Datos de convenio](/media/manual/datos-de-convenio-3c06864c4e.webp)
+
+![Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-625dbd6998.webp)

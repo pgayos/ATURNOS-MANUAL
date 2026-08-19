@@ -51,7 +51,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/2-conceptos-asociados-a-las-horas-por-turnos-computadas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/2-conceptos-asociados-a-las-horas-por-turnos-computadas/
-  contentHash: 1af55542a875c7328e704b6d8a4f2ec1eeec2e220e0ac093b0af2b4a349828c7
+  contentHash: 9086878ab38c18cf83fc353b49c8bc5caf1d05cb80291a77e2b87d8af6d39d9c
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -193,3 +193,9 @@ Filtros:
 Turnos seguidos de un mismo tipo de turno.
 
 Recupera el número de turnos seguidos desde el día de inicio al fin que se indiquen.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Concepto tipo 1.1: Conceptos relacionados con los turnos](/media/manual/concepto-tipo-1-1-conceptos-relacionados-con-los-turnos-fc97baf987.png)

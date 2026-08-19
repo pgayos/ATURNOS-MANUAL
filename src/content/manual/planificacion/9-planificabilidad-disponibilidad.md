@@ -47,7 +47,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/planificabilidad-disponibilidad/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/planificabilidad-disponibilidad/
-  contentHash: 60d82babf6717e5e0c15395626d58bfdaee649a8a33584cd444c98c1c3db4fe8
+  contentHash: 14febdb69963690ad5a1ac0165631bed95608bc513c76cb73aba82a7b2aaad40
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
@@ -123,3 +123,21 @@ Lo mismo pasa cuando es el weekend el que tiene el turno:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Disponibilidad](/media/manual/disponibilidad-4789d499b7.png)
+
+![Planificabilidad](/media/manual/planificabilidad-2c4c660dd9.png)
+
+![Planificabilidad](/media/manual/planificabilidad-811ca1fa98.png)
+
+![Planificabilidad](/media/manual/planificabilidad-d716787884.png)
+
+![Planificabilidad](/media/manual/planificabilidad-a050ba9a78.png)
+
+![Planificabilidad](/media/manual/planificabilidad-d303003975.png)
+
+![Planificabilidad](/media/manual/planificabilidad-d4100a44ef.png)

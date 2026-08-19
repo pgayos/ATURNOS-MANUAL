@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/mis-equipos/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/mis-equipos/
-  contentHash: 6478e54c36495a0539e6eb166693be1bf52b2bd3f2234b6e1c0e3ef252f14ba4
+  contentHash: 092235e364f054a47721e84ae702311b4eee4954ee80e035efe7d5274629d163
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -85,3 +85,13 @@ Aquellos equipos que solo tengan usuarios no planificables no se mostrará en pa
 
 - Exportar datos del equipo en excel: en el archivo Excel se obtiene los datos relacionados al equipo (nombre del equipo, id aTurno, id externo, fecha cierre del cuadrante, número de usuarios planificables, nombre y mail de los administradores totales y el id del equipo padre).
 - Añadir un equipo: se puede crear un nuevo equipo, siendo administrador del equipo el usuario que se encuentra logueado al ejecutar esta acción.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![1.4 Mis equipos](/media/manual/1-4-mis-equipos-f55cf16f76.png)
+
+![1.4 Mis equipos](/media/manual/1-4-mis-equipos-fedb4f1ec9.png)
+
+![1.4 Mis equipos](/media/manual/1-4-mis-equipos-3aab509453.png)

@@ -8,6 +8,8 @@
     "migrate": "python3 scripts/migrate_manual.py",
     "audit:guides": "python3 scripts/audit_external_guides.py",
     "audit:taxonomy": "python3 scripts/reclassify_manual.py",
+    "audit:media": "python3 scripts/audit_media_sources.py",
+    "migrate:media": "node scripts/migrate_article_images.mjs",
     "reclassify": "python3 scripts/reclassify_manual.py --apply",
     "integrate:guides": "python3 scripts/integrate_external_guides.py",
     "clean:content": "python3 scripts/clean_editorial_text.py",
@@ -23,6 +25,7 @@
   "devDependencies": {
     "@astrojs/check": "latest",
     "pagefind": "1.5.2",
+    "sharp": "0.35.3",
     "typescript": "latest"
   }
 }

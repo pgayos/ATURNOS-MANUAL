@@ -41,7 +41,7 @@ ai:
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
-readingTime: 1
+readingTime: 2
 featured: false
 migration:
   sourceCount: 1
@@ -49,7 +49,7 @@ migration:
     - https://manual.aturnos.com/knowledgebase/migrar-saldos-del-acumulado-del-estado-de-horas/
   redirectFrom:
     - https://manual.aturnos.com/knowledgebase/migrar-saldos-del-acumulado-del-estado-de-horas/
-  contentHash: 3b3afcb46766390a6aa2ebff0d9d8457e052b1a3d4fab1531c147c00d461ff9b
+  contentHash: 9a03db07d647bff661549484779c5887d76edc0e241ae8b6c41d10c2e9b437b6
   migratedAt: 2026-08-17
 labels: []
 order: 1
@@ -72,3 +72,13 @@ Completado el formulario, la siguiente acción es pulsar sobre ‘Ver migración
 Para completar el proceso, se tiene que seleccionar el trabajador y pulsar sobre ‘Migrar’.
 
 Y de esta forma, teniendo habilitada en la configuración, la variable ‘Acumulado año anterior’ (según los permisos de rol de usuario que se habiliten para poder verlo), mostrará el saldo migrado.
+
+## Imágenes de referencia
+
+Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+
+![Migrar saldos del Acumulado del Estado de Horas](/media/manual/acumulado-ano-anterior-fbc5e7a3b1.webp)
+
+![Migrar saldos del Acumulado del Estado de Horas](/media/manual/acumulado-ano-anterior-424b276e13.webp)
+
+![Migrar saldos del Acumulado del Estado de Horas](/media/manual/migrar-saldos-del-acumulado-del-estado-de-horas-8d32fb5dcc.webp)
