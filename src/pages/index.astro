@@ -64,6 +64,26 @@ const modules = [
   })
   .filter((module) => module.name !== "Piloto")
   .sort((a, b) => a.name.localeCompare(b.name, "es"));
+
+const visibleModuleNames = [
+  // "App móvil",
+  "Planificación",
+  "Control horario",
+  // "Cita previa",
+  "Configuración y cuenta",
+  "Costes y nóminas",
+  "Documentos",
+  "General",
+  "Gestión de personal",
+  "Integraciones y API",
+  "Peticiones y cambios",
+  "Recursos y partes",
+  "Tareas",
+  "Pruebas",
+];
+const visibleModules = visibleModuleNames
+  .map((name) => modules.find((module) => module.name === name))
+  .filter((module): module is (typeof modules)[number] => module !== undefined);
 ---
 
 <BaseLayout>
@@ -86,7 +106,7 @@ const modules = [
   <ModuleGrid
     eyebrow="Explora el producto"
     title="Módulos"
-    modules={modules}
+    modules={visibleModules}
     icons={moduleIcons}
     descriptions={moduleDescriptions}
   />
