@@ -1,47 +1,149 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
-const allArticles = await getCollection('manual');
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+const allArticles = await getCollection("manual");
 const articles = allArticles
   .filter(({ data }) => data.featured)
-  .sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title, 'es'));
+  .sort(
+    (a, b) =>
+      a.data.order - b.data.order ||
+      a.data.title.localeCompare(b.data.title, "es"),
+  );
 const moduleDescriptions: Record<string, string> = {
-  'App móvil': 'Uso de aTurnos desde dispositivos móviles y fichaje.',
-  'Cita previa': 'Servicios, reservas y gestión de citas.',
-  'Configuración y cuenta': 'Ajustes generales, permisos, jornadas y cuenta.',
-  'Control horario': 'Fichajes, validaciones, informes y configuración.',
-  'Costes y nóminas': 'Costes, conceptos, plantillas y exportación de nóminas.',
-  'Documentos': 'Documentación, importaciones y gestión de archivos.',
-  'General': 'Conceptos generales y funcionamiento transversal de aTurnos.',
-  'Gestión de personal': 'Trabajadores, contratos, permisos y datos laborales.',
-  'Integraciones y API': 'Integraciones, conectores y uso de la API.',
-  'Peticiones y cambios': 'Solicitudes, cambios y circuitos de aprobación.',
-  'Planificación': 'Cuadrantes, turnos, patrones, vacaciones y coberturas.',
-  'Recursos y partes': 'Recursos, partes de trabajo y asignaciones.',
-  'Tareas': 'Creación, asignación y seguimiento de tareas.'
+  "App móvil": "Uso de aTurnos desde dispositivos móviles y fichaje.",
+  "Cita previa": "Servicios, reservas y gestión de citas.",
+  "Configuración y cuenta": "Ajustes generales, permisos, jornadas y cuenta.",
+  "Control horario": "Fichajes, validaciones, informes y configuración.",
+  "Costes y nóminas": "Costes, conceptos, plantillas y exportación de nóminas.",
+  Documentos: "Documentación, importaciones y gestión de archivos.",
+  General: "Conceptos generales y funcionamiento transversal de aTurnos.",
+  "Gestión de personal": "Trabajadores, contratos, permisos y datos laborales.",
+  "Integraciones y API": "Integraciones, conectores y uso de la API.",
+  "Peticiones y cambios": "Solicitudes, cambios y circuitos de aprobación.",
+  Planificación: "Cuadrantes, turnos, patrones, vacaciones y coberturas.",
+  "Recursos y partes": "Recursos, partes de trabajo y asignaciones.",
+  Tareas: "Creación, asignación y seguimiento de tareas.",
 };
 const moduleIcons: Record<string, string> = {
-  'App móvil': '▣', 'Cita previa': '◷', 'Configuración y cuenta': '⚙',
-  'Control horario': '◴', 'Costes y nóminas': '€', 'Documentos': '▤',
-  'General': '◎', 'Gestión de personal': '♙', 'Integraciones y API': '⌘',
-  'Peticiones y cambios': '⇄', 'Planificación': '▦', 'Recursos y partes': '◇', 'Tareas': '✓'
+  "App móvil": "▣",
+  "Cita previa": "◷",
+  "Configuración y cuenta": "⚙",
+  "Control horario": "◴",
+  "Costes y nóminas": "€",
+  Documentos: "▤",
+  General: "◎",
+  "Gestión de personal": "♙",
+  "Integraciones y API": "⌘",
+  "Peticiones y cambios": "⇄",
+  Planificación: "▦",
+  "Recursos y partes": "◇",
+  Tareas: "✓",
 };
-const modules = [...new Map(allArticles.map(article => {
-  const slug = article.id.split('/')[0];
-  return [article.data.module, { name: article.data.module, slug }];
-})).values()]
-  .map(module => {
-    const moduleArticles = allArticles.filter(a => a.data.module === module.name);
-    const profileCounts = Object.fromEntries(['Trabajador', 'Planificador', 'Administrador', 'RRHH'].map(profile => [profile, moduleArticles.filter(article => article.data.audience.some(item => item.role === profile)).length]));
+const modules = [
+  ...new Map(
+    allArticles.map((article) => {
+      const slug = article.id.split("/")[0];
+      return [article.data.module, { name: article.data.module, slug }];
+    }),
+  ).values(),
+]
+  .map((module) => {
+    const moduleArticles = allArticles.filter(
+      (a) => a.data.module === module.name,
+    );
+    const profileCounts = Object.fromEntries(
+      ["Trabajador", "Planificador", "Administrador", "RRHH"].map((profile) => [
+        profile,
+        moduleArticles.filter((article) =>
+          article.data.audience.some((item) => item.role === profile),
+        ).length,
+      ]),
+    );
     return { ...module, count: moduleArticles.length, profileCounts };
   })
-  .filter(module => module.name !== 'Piloto')
-  .sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  .filter((module) => module.name !== "Piloto")
+  .sort((a, b) => a.name.localeCompare(b.name, "es"));
 ---
+
 <BaseLayout>
-  <section class="hero"><div class="container hero-content"><span class="eyebrow">Centro de ayuda aTurnos</span><h1>Encuentra respuestas.<br /><span>Trabaja con confianza.</span></h1><p class="lead">Guías verificadas, organizadas por módulos y preparadas para ayudarte también mediante IA.</p><form class="hero-search" action="/buscar/"><input name="q" aria-label="Buscar en el manual" placeholder="¿Qué necesitas hacer en aTurnos?" /><button class="button">Buscar</button></form></div></section>
-  <section class="section container" id="modulos"><div class="section-heading"><div><span class="eyebrow">Explora el producto</span><h2>Módulos</h2></div></div><div class="card-grid">
-    {modules.map(module => <a class="card" data-module-profile-counts={JSON.stringify(module.profileCounts)} data-total-count={module.count} href={`/manual/${module.slug}/`}><span class="card-icon">{moduleIcons[module.name] ?? '◆'}</span><h3>{module.name}</h3><p>{moduleDescriptions[module.name] ?? `Consulta las guías de ${module.name}.`}</p><span class="card-count" data-module-count>{module.count} {module.count === 1 ? 'artículo' : 'artículos'}</span></a>)}
-  </div></section>
-  {articles.length > 0 && <section class="section container"><div class="section-heading"><div><span class="eyebrow">Selección</span><h2>Contenido destacado</h2></div></div><div class="card-grid">{articles.map(a=><a class="card" data-profile-card data-profiles={a.data.audience.map(item => item.role).join('|')} href={`/manual/${a.id}/`}><span class="badge">{a.data.contentType}</span><h3>{a.data.title}</h3><p>{a.data.description}</p></a>)}</div></section>}
+  <section class="hero">
+    <div class="container hero-content">
+      <span class="eyebrow">Centro de ayuda aTurnos</span><h1>
+        Encuentra respuestas.<br /><span>Trabaja con confianza.</span>
+      </h1><p class="lead">
+        Guías verificadas, organizadas por módulos y preparadas para ayudarte
+        también mediante IA.
+      </p><form class="hero-search" action="/buscar/">
+        <input
+          name="q"
+          aria-label="Buscar en el manual"
+          placeholder="¿Qué necesitas hacer en aTurnos?"
+        /><button class="button">Buscar</button>
+      </form>
+    </div>
+  </section>
+  <section class="section container" id="modulos">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">Explora el producto</span>
+        <h2>Módulos</h2>
+      </div>
+    </div>
+    <div class="card-grid">
+      {
+        modules.map((module) => (
+          <a
+            class="card"
+            data-module-profile-counts={JSON.stringify(module.profileCounts)}
+            data-total-count={module.count}
+            href={`/manual/${module.slug}/`}
+          >
+            <>
+              <span class="card-icon">{moduleIcons[module.name] ?? "◆"}</span>
+              <h3>{module.name}</h3>
+              <p>
+                {moduleDescriptions[module.name] ??
+                  `Consulta las guías de ${module.name}.`}
+              </p>
+              <span class="card-count" data-module-count>
+                {module.count} {module.count === 1 ? "artículo" : "artículos"}
+              </span>
+            </>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+  {
+    articles.length > 0 && (
+      <section class="section container">
+        <>
+          <div class="section-heading">
+            <div>
+              <>
+                <span class="eyebrow">Selección</span>
+                <h2>Contenido destacado</h2>
+              </>
+            </div>
+          </div>
+          <div class="card-grid">
+            {articles.map((a) => (
+              <a
+                class="card"
+                data-profile-card
+                data-profiles={a.data.audience
+                  .map((item) => item.role)
+                  .join("|")}
+                href={`/manual/${a.id}/`}
+              >
+                <span class="badge">{a.data.contentType}</span>
+                <h3>{a.data.title}</h3>
+                <p>{a.data.description}</p>
+              </a>
+            ))}
+          </div>
+        </>
+      </section>
+    )
+  }
 </BaseLayout>
