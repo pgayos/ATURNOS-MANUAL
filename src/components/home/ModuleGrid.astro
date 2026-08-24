@@ -1,0 +1,49 @@
+---
+interface ModuleCard {
+  name: string;
+  slug: string;
+  count: number;
+  profileCounts: Record<string, number>;
+}
+
+interface Props {
+  eyebrow: string;
+  title: string;
+  modules: ModuleCard[];
+  icons: Record<string, string>;
+  descriptions: Record<string, string>;
+}
+
+const { eyebrow, title, modules, icons, descriptions } = Astro.props;
+---
+
+<section class="section container" id="modulos">
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow">{eyebrow}</span>
+      <h2>{title}</h2>
+    </div>
+  </div>
+  <div class="card-grid">
+    {
+      modules.map((module) => (
+        <a
+          class="card"
+          data-module-profile-counts={JSON.stringify(module.profileCounts)}
+          data-total-count={module.count}
+          href={`/manual/${module.slug}/`}
+        >
+          <span class="card-icon">{icons[module.name] ?? "◆"}</span>
+          <h3>{module.name}</h3>
+          <p>
+            {descriptions[module.name] ??
+              `Consulta las guías de ${module.name}.`}
+          </p>
+          <span class="card-count" data-module-count>
+            {module.count} {module.count === 1 ? "artículo" : "artículos"}
+          </span>
+        </a>
+      ))
+    }
+  </div>
+</section>

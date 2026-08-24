@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ModuleGrid from "../components/home/ModuleGrid.astro";
 import { getCollection } from "astro:content";
 const allArticles = await getCollection("manual");
 const articles = allArticles
@@ -82,38 +83,13 @@ const modules = [
       </form>
     </div>
   </section>
-  <section class="section container" id="modulos">
-    <div class="section-heading">
-      <div>
-        <span class="eyebrow">Explora el producto</span>
-        <h2>Módulos</h2>
-      </div>
-    </div>
-    <div class="card-grid">
-      {
-        modules.map((module) => (
-          <a
-            class="card"
-            data-module-profile-counts={JSON.stringify(module.profileCounts)}
-            data-total-count={module.count}
-            href={`/manual/${module.slug}/`}
-          >
-            <>
-              <span class="card-icon">{moduleIcons[module.name] ?? "◆"}</span>
-              <h3>{module.name}</h3>
-              <p>
-                {moduleDescriptions[module.name] ??
-                  `Consulta las guías de ${module.name}.`}
-              </p>
-              <span class="card-count" data-module-count>
-                {module.count} {module.count === 1 ? "artículo" : "artículos"}
-              </span>
-            </>
-          </a>
-        ))
-      }
-    </div>
-  </section>
+  <ModuleGrid
+    eyebrow="Explora el producto"
+    title="Módulos"
+    modules={modules}
+    icons={moduleIcons}
+    descriptions={moduleDescriptions}
+  />
   {
     articles.length > 0 && (
       <section class="section container">
