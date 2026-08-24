@@ -53,7 +53,7 @@ order: 1
 Para poder calcular el número de Jornadas, Jornadas Nocturnas, Jornadas Festivas, Jornadas Festivas Especiales, etc. se deben establecer en aTurnos cuatro variables, a través ADMINISTRAR → AJUSTES → Configuración.
 
 ## Procedimiento
-Los conceptos que recuperan las jornadas son los conceptos tipo 1.4, accede al Manual para consultar los conceptos de cálculo que hacen referencia a jornadas. Conceptos 1.4.
+Los conceptos que recuperan las jornadas son los conceptos tipo 1.4: accede al Manual para consultar los conceptos de cálculo que hacen referencia a jornadas. Conceptos 1.4.
 
 Las variables son:
 
