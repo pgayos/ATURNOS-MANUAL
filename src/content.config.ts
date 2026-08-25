@@ -20,7 +20,7 @@ const manual = defineCollection({
     entities: z.array(z.object({ id: z.string(), label: z.string() })),
     synonyms: z.array(z.string()).default([]),
     prerequisites: z.array(z.string()).default([]),
-    platforms: z.array(z.literal('web')),
+    platforms: z.array(z.enum(['web', 'app'])),
     labels: z.array(z.enum(['PENDIENTE'])).default([]),
     governance: z.object({
       status: z.enum(['draft', 'functional-review', 'editorial-review', 'approved', 'published', 'deprecated']),

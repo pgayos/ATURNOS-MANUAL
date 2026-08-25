@@ -41,30 +41,41 @@ const moduleIcons: Record<string, string> = {
   "Recursos y partes": "◇",
   Tareas: "✓",
 };
-const modules = [
-  ...new Map(
-    allArticles.map((article) => {
-      const slug = article.id.split("/")[0];
-      return [article.data.module, { name: article.data.module, slug }];
-    }),
-  ).values(),
-]
-  .map((module) => {
-    const moduleArticles = allArticles.filter(
-      (a) => a.data.module === module.name,
-    );
-    const profileCounts = Object.fromEntries(
-      ["Trabajador", "Planificador", "Administrador", "RRHH"].map((profile) => [
-        profile,
-        moduleArticles.filter((article) =>
-          article.data.audience.some((item) => item.role === profile),
-        ).length,
-      ]),
-    );
-    return { ...module, count: moduleArticles.length, profileCounts };
-  })
-  .filter((module) => module.name !== "Piloto")
-  .sort((a, b) => a.name.localeCompare(b.name, "es"));
+function buildModuleCards(source: typeof allArticles) {
+  return [
+    ...new Map(
+      source.map((article) => {
+        const slug = article.id.split("/").slice(0, -1).join("/");
+        return [article.data.module, { name: article.data.module, slug }];
+      }),
+    ).values(),
+  ]
+    .map((module) => {
+      const moduleArticles = source.filter(
+        (a) => a.data.module === module.name,
+      );
+      const profileCounts = Object.fromEntries(
+        ["Trabajador", "Planificador", "Administrador", "RRHH"].map(
+          (profile) => [
+            profile,
+            moduleArticles.filter((article) =>
+              article.data.audience.some((item) => item.role === profile),
+            ).length,
+          ],
+        ),
+      );
+      return { ...module, count: moduleArticles.length, profileCounts };
+    })
+    .sort((a, b) => a.name.localeCompare(b.name, "es"));
+}
+
+const webArticles = allArticles.filter((a) => a.data.platforms.includes("web"));
+const appArticles = allArticles.filter((a) => a.data.platforms.includes("app"));
+
+const modules = buildModuleCards(webArticles).filter(
+  (module) => module.name !== "Piloto",
+);
+const appModules = buildModuleCards(appArticles);
 
 const visibleModuleNames = [
   // "App móvil",
@@ -82,9 +93,15 @@ const visibleModuleNames = [
   "Tareas",
   "Pruebas",
 ];
+
+const visibleAppModuleNames = ["Control horario", "Pruebas"];
 const visibleModules = visibleModuleNames
   .map((name) => modules.find((module) => module.name === name))
   .filter((module): module is (typeof modules)[number] => module !== undefined);
+
+const visibleAppModules = visibleAppModuleNames
+  .map((name) => appModules.find((appModule) => appModule.name === name))
+  .filter((appModule) => appModule !== undefined);
 ---
 
 <BaseLayout>
@@ -105,9 +122,17 @@ const visibleModules = visibleModuleNames
     </div>
   </section>
   <ModuleGrid
+    id="modulos"
     eyebrow="Explora el producto"
     title="Módulos"
     modules={visibleModules}
+    icons={moduleIcons}
+    descriptions={moduleDescriptions}
+  />
+  <ModuleGrid
+    eyebrow="Explora nuestra App"
+    title="App Móvil"
+    modules={visibleAppModules}
     icons={moduleIcons}
     descriptions={moduleDescriptions}
   />

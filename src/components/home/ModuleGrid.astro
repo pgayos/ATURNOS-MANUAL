@@ -7,6 +7,7 @@ interface ModuleCard {
 }
 
 interface Props {
+  id?: string;
   eyebrow: string;
   title: string;
   modules: ModuleCard[];
@@ -14,10 +15,10 @@ interface Props {
   descriptions: Record<string, string>;
 }
 
-const { eyebrow, title, modules, icons, descriptions } = Astro.props;
+const { id, eyebrow, title, modules, icons, descriptions } = Astro.props;
 ---
 
-<section class="section container" id="modulos">
+<section class="section container" id={id}>
   <div class="section-heading">
     <div>
       <span class="eyebrow">{eyebrow}</span>
