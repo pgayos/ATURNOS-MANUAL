@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ModuleGrid from "../components/home/ModuleGrid.astro";
+import FeaturedArticles from "../components/home/FeaturedArticles.astro";
 import { getCollection } from "astro:content";
 const allArticles = await getCollection("manual");
 const articles = allArticles
@@ -110,36 +111,9 @@ const visibleModules = visibleModuleNames
     icons={moduleIcons}
     descriptions={moduleDescriptions}
   />
-  {
-    articles.length > 0 && (
-      <section class="section container">
-        <>
-          <div class="section-heading">
-            <div>
-              <>
-                <span class="eyebrow">Selección</span>
-                <h2>Contenido destacado</h2>
-              </>
-            </div>
-          </div>
-          <div class="card-grid">
-            {articles.map((a) => (
-              <a
-                class="card"
-                data-profile-card
-                data-profiles={a.data.audience
-                  .map((item) => item.role)
-                  .join("|")}
-                href={`/manual/${a.id}/`}
-              >
-                <span class="badge">{a.data.contentType}</span>
-                <h3>{a.data.title}</h3>
-                <p>{a.data.description}</p>
-              </a>
-            ))}
-          </div>
-        </>
-      </section>
-    )
-  }
+  <FeaturedArticles
+    eyebrow="Selección"
+    title="Contenido destacado"
+    articles={articles}
+  />
 </BaseLayout>
