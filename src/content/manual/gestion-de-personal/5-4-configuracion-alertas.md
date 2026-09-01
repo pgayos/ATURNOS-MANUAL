@@ -6,6 +6,7 @@ description: Las alertas disponibles son explicadas en el siguiente enlace (ver 
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Configuración Alertas
 audience:
   - role: Administrador

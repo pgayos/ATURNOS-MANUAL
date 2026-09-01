@@ -6,6 +6,7 @@ description: En este punto aparece el listado de tareas que han sido llamadas o 
 contentType: procedure
 module: Tareas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Tiempo Real
 audience:
   - role: Trabajador

@@ -6,6 +6,7 @@ description: El administrador puede insertar un patrón de turnos (una secuencia
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Añadir patrón
 audience:
   - role: Administrador

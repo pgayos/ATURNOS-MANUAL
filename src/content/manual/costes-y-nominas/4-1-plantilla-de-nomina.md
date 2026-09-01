@@ -6,6 +6,7 @@ description: Una vez creados los conceptos de nómina, se tiene que definir el f
 contentType: reference
 module: Costes y nóminas
 submodule: General
+subtopic: ""
 intent: Plantilla de nómina
 audience:
   - role: RRHH

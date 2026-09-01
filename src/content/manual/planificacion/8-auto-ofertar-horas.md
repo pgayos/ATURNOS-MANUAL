@@ -6,6 +6,7 @@ description: Una vez realizada la planificación correctamente, existen muchas v
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Auto-ofertar horas
 audience:
   - role: Planificador

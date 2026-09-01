@@ -6,6 +6,7 @@ description: La fuente pública de Control legal contiene muy poca información 
 contentType: concept
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Control legal
 audience:
   - role: Administrador

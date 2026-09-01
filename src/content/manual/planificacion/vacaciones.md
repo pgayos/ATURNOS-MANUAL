@@ -6,6 +6,7 @@ description: Son aquellos turnos que corresponden con descansos legales del empl
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Vacaciones
 audience:
   - role: Administrador

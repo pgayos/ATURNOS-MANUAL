@@ -6,6 +6,7 @@ description: Hablamos de perfiles como el conjunto de características comunes q
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Perfiles
 audience:
   - role: Trabajador

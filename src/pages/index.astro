@@ -94,7 +94,7 @@ const visibleModuleNames = [
   "Pruebas",
 ];
 
-const visibleAppModuleNames = ["Control horario", "Pruebas"];
+const visibleAppModuleNames = ["Control horario", "Pruebas", "App móvil"];
 const visibleModules = visibleModuleNames
   .map((name) => modules.find((module) => module.name === name))
   .filter((module): module is (typeof modules)[number] => module !== undefined);

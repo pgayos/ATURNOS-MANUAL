@@ -6,6 +6,7 @@ description: En este apartado, te mostrará cómo puedes visualizar los datos de
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Barra superior
 audience:
   - role: Planificador

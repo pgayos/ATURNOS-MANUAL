@@ -6,6 +6,7 @@ description: Los usuarios no recibirán notificaciones sobre las acciones config
 contentType: reference
 module: Configuración y cuenta
 submodule: Comunicación y notificaciones
+subtopic: ""
 intent: Preguntas frecuentes
 audience:
   - role: Administrador

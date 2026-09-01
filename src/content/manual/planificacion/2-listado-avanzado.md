@@ -6,6 +6,7 @@ description: Este reporte informa de todos los fichajes que se están realizando
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Listado avanzado
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: El módulo de Control Horario no solo registra la asistencia de los
 contentType: concept
 module: Control horario
 submodule: Horas trabajadas
+subtopic: ""
 intent: Informes sobre cumplimiento de horarios y horas acumuladas
 audience:
   - role: Administrador

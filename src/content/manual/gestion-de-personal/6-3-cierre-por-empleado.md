@@ -6,6 +6,7 @@ description: En esta función, el superusuario puede acceder de forma rápida a 
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Cierre por empleado
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Este apartado de ofertar turno consiste en que el administrador ofr
 contentType: procedure
 module: Peticiones y cambios
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Oferta de turno
 audience:
   - role: Administrador

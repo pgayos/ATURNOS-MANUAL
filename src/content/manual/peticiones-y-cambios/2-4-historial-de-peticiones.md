@@ -6,6 +6,7 @@ description: Aquí dispondremos de un registro histórico de todas las solicitud
 contentType: concept
 module: Peticiones y cambios
 submodule: Altas y bajas
+subtopic: ""
 intent: Historial de peticiones
 audience:
   - role: Administrador

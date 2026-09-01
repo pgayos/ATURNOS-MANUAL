@@ -6,6 +6,7 @@ description: Los trabajadores pueden tener un patrón aplicado (ver aplicar Patr
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Extender planificación
 audience:
   - role: Administrador

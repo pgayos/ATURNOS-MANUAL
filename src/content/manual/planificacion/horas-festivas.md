@@ -6,6 +6,7 @@ description: "Son las horas planificadas en días festivos del cuadrante, están
 contentType: reference
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Horas festivas
 audience:
   - role: RRHH

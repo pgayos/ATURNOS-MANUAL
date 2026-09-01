@@ -6,6 +6,7 @@ description: En aTurnos existen distintas formas de exportar los datos, tanto de
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Exportar
 audience:
   - role: RRHH

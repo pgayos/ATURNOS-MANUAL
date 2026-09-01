@@ -6,6 +6,7 @@ description: El administrador puede realizar ofertas de turnos de manera masiva 
 contentType: reference
 module: Planificación
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Importar ofertas de turnos
 audience:
   - role: Administrador

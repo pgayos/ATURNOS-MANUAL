@@ -6,6 +6,7 @@ description: Un absentismo es una ausencia o abandono del puesto de trabajo dura
 contentType: concept
 module: Planificación
 submodule: Roles y permisos
+subtopic: ""
 intent: Absentismos
 audience:
   - role: Administrador

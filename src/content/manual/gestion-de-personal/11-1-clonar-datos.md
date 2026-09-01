@@ -6,6 +6,7 @@ description: Una vez configurados los conceptos de cálculo, los conceptos en n�
 contentType: procedure
 module: Gestión de personal
 submodule: General
+subtopic: ""
 intent: Clonar datos
 audience:
   - role: RRHH

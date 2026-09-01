@@ -6,6 +6,7 @@ description: Este concepto se encuentra dentro del widget de Control Horario, y 
 contentType: concept
 module: Control horario
 submodule: General
+subtopic: ""
 intent: Trabajador presencial (Control Horario)
 audience:
   - role: Trabajador

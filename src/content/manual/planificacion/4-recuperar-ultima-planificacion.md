@@ -6,6 +6,7 @@ description: Los administradores de los equipos de trabajo pueden haber eliminad
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Recuperar última planificación
 audience:
   - role: Administrador

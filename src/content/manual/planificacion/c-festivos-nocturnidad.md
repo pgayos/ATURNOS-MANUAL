@@ -6,6 +6,7 @@ description: "Para ver más sobre las funciones de filtrado, ocultar columnas y 
 contentType: procedure
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Festivos & Nocturnidad
 audience:
   - role: Administrador

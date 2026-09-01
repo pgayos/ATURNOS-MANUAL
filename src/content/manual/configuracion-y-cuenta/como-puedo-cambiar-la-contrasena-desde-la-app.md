@@ -6,6 +6,7 @@ description: Haciendo clic al icono circular del inicio en la parte superior del
 contentType: faq
 module: Configuración y cuenta
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: ¿Cómo puedo cambiar la contraseña desde la APP?
 audience:
   - role: Administrador

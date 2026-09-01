@@ -6,6 +6,7 @@ description: En este informe se reportarán todas aquellas alertas o incidencias
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Alertas por localización
 audience:
   - role: Trabajador

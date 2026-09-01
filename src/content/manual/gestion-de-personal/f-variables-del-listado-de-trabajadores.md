@@ -6,6 +6,7 @@ description: El listado de trabajadores se muestra a modo de tabla, por defecto 
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Variables del listado de trabajadores
 audience:
   - role: Administrador

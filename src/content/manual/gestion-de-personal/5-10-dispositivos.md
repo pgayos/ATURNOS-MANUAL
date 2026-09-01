@@ -6,6 +6,7 @@ description: Este sistema de fichaje permite que cualquier dispositivo que se re
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Dispositivos
 audience:
   - role: Administrador

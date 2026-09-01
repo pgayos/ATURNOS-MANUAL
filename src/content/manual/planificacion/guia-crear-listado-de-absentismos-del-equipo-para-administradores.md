@@ -6,6 +6,7 @@ description: Una correcta gestión de permisos y ausencias es esencial para que 
 contentType: procedure
 module: Planificación
 submodule: Permisos y absentismos
+subtopic: ""
 intent: Crear listado de absentismos del equipo
 audience:
   - role: Administrador

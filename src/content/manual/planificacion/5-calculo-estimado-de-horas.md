@@ -6,6 +6,7 @@ description: El cálculo estimado de horas es la forma que tenemos en aTurnos de
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cálculo estimado de horas
 audience:
   - role: RRHH

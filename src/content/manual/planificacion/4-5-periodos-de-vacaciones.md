@@ -6,6 +6,7 @@ description: Este registro, en forma de tabla, informa por cada mes del año con
 contentType: procedure
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Periodos de vacaciones
 audience:
   - role: RRHH

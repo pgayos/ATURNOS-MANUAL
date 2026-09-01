@@ -6,6 +6,7 @@ description: Si ha seguido todos los pasos, ya puede solicitar citas a través d
 contentType: faq
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: ¿Está todo configurado?
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: El superusuario, desde la opción RRHH → ESTADISTICAS → CONFIGU
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Configuración Reportes RRHH
 audience:
   - role: Administrador

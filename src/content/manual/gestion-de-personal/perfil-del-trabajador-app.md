@@ -6,6 +6,7 @@ description: Esta sección se encuentra en la parte inferior derecha con el sigu
 contentType: reference
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Perfil del Trabajador (APP)
 audience:
   - role: RRHH

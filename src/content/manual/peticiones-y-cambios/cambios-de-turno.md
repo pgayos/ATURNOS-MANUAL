@@ -6,6 +6,7 @@ description: En este webinar de aproximadamente unos 25 minutos, queremos contar
 contentType: concept
 module: Peticiones y cambios
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cambios de turno
 audience:
   - role: Administrador

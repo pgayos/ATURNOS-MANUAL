@@ -6,6 +6,7 @@ description: Al entrar por menú Tareas – Clientes, se muestra el listado de c
 contentType: procedure
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Clientes
 audience:
   - role: Desarrollador API

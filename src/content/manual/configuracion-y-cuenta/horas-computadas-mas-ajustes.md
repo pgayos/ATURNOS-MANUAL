@@ -6,6 +6,7 @@ description: Total de las horas computadas más las horas computadas del ajuste 
 contentType: reference
 module: Configuración y cuenta
 submodule: Altas y bajas
+subtopic: ""
 intent: Horas computadas más ajustes
 audience:
   - role: Administrador

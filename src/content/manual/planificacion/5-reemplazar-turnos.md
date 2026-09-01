@@ -6,6 +6,7 @@ description: La acción de ‘Reemplazar turnos’ permite cambiar un mismo turn
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Reemplazar turnos
 audience:
   - role: Planificador

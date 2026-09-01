@@ -6,6 +6,7 @@ description: La atención al cliente depende de que los puestos estén planifica
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Planificación
 audience:
   - role: Planificador

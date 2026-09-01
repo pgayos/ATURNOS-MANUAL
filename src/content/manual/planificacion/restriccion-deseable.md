@@ -6,6 +6,7 @@ description: Es un tipo de restricción que se entiende como una petición del e
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Restricción deseable
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Este reporte de control de presencia muestra de forma sencilla una 
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Computadas VS Presenciales
 audience:
   - role: RRHH

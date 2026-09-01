@@ -6,6 +6,7 @@ description: Es el nivel mínimo de aTurnos para un usuario y únicamente tiene 
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Usuario Externo
 audience:
   - role: Planificador

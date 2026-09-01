@@ -6,6 +6,7 @@ description: ¿Quieres utilizar la herramienta de Cita Previa de aTurnos y no sa
 contentType: concept
 module: Cita previa
 submodule: General
+subtopic: ""
 intent: Herramienta de Cita previa
 audience:
   - role: Administrador

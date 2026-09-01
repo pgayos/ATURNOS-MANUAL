@@ -6,6 +6,7 @@ description: En esta pestaña, puedes visualizar el listado histórico del total
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Histórico
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: Son los perfiles que diferencian a los usuarios de aTurnos.
 contentType: procedure
 module: Configuración y cuenta
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Roles de usuarios
 audience:
   - role: Administrador

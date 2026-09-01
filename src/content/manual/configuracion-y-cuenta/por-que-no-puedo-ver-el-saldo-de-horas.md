@@ -6,6 +6,7 @@ description: El saldo de horas en muchas ocasiones los trabajadores puede no vis
 contentType: faq
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: ¿Por qué no puedo ver el saldo de horas?
 audience:
   - role: Administrador

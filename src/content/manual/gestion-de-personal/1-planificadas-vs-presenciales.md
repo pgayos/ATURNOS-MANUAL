@@ -6,6 +6,7 @@ description: En este listado se puede ver la comparación de las horas planifica
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Planificadas VS Presenciales
 audience:
   - role: RRHH

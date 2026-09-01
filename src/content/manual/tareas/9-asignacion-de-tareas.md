@@ -6,6 +6,7 @@ description: Conforme los clientes van pidiendo citas a través del Kiosko, el s
 contentType: reference
 module: Tareas
 submodule: Turnos y patrones
+subtopic: ""
 intent: Asignación de tareas
 audience:
   - role: Planificador

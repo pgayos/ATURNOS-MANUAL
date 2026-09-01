@@ -6,6 +6,7 @@ description: Esta pestaña está relacionada directamente con el Módulo adicion
 contentType: reference
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Control Horario
 audience:
   - role: Administrador

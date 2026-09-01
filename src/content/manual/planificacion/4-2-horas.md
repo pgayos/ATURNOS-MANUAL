@@ -6,6 +6,7 @@ description: En esta tabla de estadísticas se hablará siempre en número de ho
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas en aTurnos
 audience:
   - role: RRHH

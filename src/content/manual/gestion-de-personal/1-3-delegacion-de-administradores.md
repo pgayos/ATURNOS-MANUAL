@@ -6,6 +6,7 @@ description: En equipos con varias sedes o departamentos (lo que llamamos locali
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Delegación de administradores
 audience:
   - role: Administrador

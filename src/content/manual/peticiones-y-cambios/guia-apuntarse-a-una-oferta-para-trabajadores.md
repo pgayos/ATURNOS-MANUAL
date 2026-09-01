@@ -6,6 +6,7 @@ description: En ocasiones, existen días en los que la cobertura es insuficiente
 contentType: procedure
 module: Peticiones y cambios
 submodule: Autogestión del trabajador
+subtopic: ""
 intent: Apuntarse a una oferta
 audience:
   - role: Trabajador

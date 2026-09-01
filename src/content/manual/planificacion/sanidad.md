@@ -6,6 +6,7 @@ description: En este Webinar queremos contaros en no más de una hora como podem
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Sanidad en aTurnos
 audience:
   - role: RRHH

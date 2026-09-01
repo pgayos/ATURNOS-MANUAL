@@ -6,6 +6,7 @@ description: En aTurnos las vacaciones se pueden considerar como tipo absentismo
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Vacaciones
 audience:
   - role: Administrador

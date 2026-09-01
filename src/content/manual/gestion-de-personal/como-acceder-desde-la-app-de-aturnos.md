@@ -6,6 +6,7 @@ description: A la hora de entrar a la app de aTurnos, hay varias opciones para h
 contentType: faq
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: ¿Cómo acceder desde la APP de aTurnos?
 audience:
   - role: Administrador

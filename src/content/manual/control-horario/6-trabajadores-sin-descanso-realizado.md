@@ -6,6 +6,7 @@ description: Los trabajadores que tengan descansos programados a nivel de equipo
 contentType: procedure
 module: Control horario
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Trabajadores sin descanso realizado
 audience:
   - role: Trabajador

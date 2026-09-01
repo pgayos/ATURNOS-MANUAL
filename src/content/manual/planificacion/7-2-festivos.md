@@ -6,6 +6,7 @@ description: En resumen, para hacer una planificación precisa en un calendario,
 contentType: reference
 module: Planificación
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Festivos
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Es el balance de la resta entre las horas contrato menos las horas 
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Balance presencial/contrato
 audience:
   - role: RRHH

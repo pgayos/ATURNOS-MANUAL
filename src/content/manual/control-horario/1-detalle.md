@@ -6,6 +6,7 @@ description: Este submenú permite al administrador visualizar, en un determinad
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Detalle en aTurnos
 audience:
   - role: Administrador

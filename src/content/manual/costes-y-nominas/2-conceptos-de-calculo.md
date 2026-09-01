@@ -6,6 +6,7 @@ description: La fuente pública de Conceptos de cálculo contiene muy poca infor
 contentType: concept
 module: Costes y nóminas
 submodule: General
+subtopic: ""
 intent: Conceptos de cálculo
 audience:
   - role: Administrador

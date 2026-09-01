@@ -6,6 +6,7 @@ description: Los lugares físicos de trabajo donde existe un gran número de tra
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Sistemas biométricos
 audience:
   - role: Planificador

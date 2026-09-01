@@ -6,6 +6,7 @@ description: La fuente pública de Horas en los equipos contiene muy poca inform
 contentType: concept
 module: Gestión de personal
 submodule: General
+subtopic: ""
 intent: Horas en los equipos
 audience:
   - role: Administrador

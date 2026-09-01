@@ -6,6 +6,7 @@ description: Se define como Estadísticas aquellas clasificaciones o conjunto de
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Estadísticas del trabajador
 audience:
   - role: Planificador

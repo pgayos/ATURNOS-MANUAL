@@ -6,6 +6,7 @@ description: En este reporte se puede consultar de forma simplificada la jornada
 contentType: concept
 module: Control horario
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Control de fichajes
 audience:
   - role: RRHH

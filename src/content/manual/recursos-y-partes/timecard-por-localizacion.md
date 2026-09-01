@@ -6,6 +6,7 @@ description: La fuente pública de Timecard por localización contiene muy poca 
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Timecard por localización
 audience:
   - role: Administrador

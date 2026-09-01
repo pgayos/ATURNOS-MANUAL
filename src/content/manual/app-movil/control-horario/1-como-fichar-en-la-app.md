@@ -6,6 +6,7 @@ description: Artículo de prueba para validar que el módulo "Control horario" p
 contentType: procedure
 module: Control horario
 submodule: General
+subtopic: ""
 intent: Fichar desde la app móvil
 audience:
   - role: Trabajador

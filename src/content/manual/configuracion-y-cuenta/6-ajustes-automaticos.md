@@ -6,6 +6,7 @@ description: En aTurnos tienes la posibilidad de informar un tanto por ciento de
 contentType: reference
 module: Configuración y cuenta
 submodule: Equipo y centros
+subtopic: ""
 intent: Ajustes automáticos
 audience:
   - role: Administrador

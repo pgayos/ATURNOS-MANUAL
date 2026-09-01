@@ -6,6 +6,7 @@ description: Haciendo clic en Cuadrante → Cuadrante anual, el trabajador puede
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cuadrante Anual
 audience:
   - role: Planificador

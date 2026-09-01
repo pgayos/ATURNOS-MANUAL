@@ -6,6 +6,7 @@ description: Estadísticamente es el tiempo de descanso realizado en toda la jor
 contentType: reference
 module: Control horario
 submodule: Configuración
+subtopic: ""
 intent: Descanso realizado
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: En aTurnos, los administradores disponen de un registro de todas la
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Acciones
 audience:
   - role: Administrador

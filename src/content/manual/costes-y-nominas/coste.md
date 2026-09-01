@@ -6,6 +6,7 @@ description: Muestra el coste de la planificación durante el periodo selecciona
 contentType: procedure
 module: Costes y nóminas
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Coste en aTurnos
 audience:
   - role: Planificador

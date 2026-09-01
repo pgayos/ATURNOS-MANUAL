@@ -6,6 +6,7 @@ description: Limitación tanto a nivel de equipo como a nivel de empleado para l
 contentType: concept
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Restricción
 audience:
   - role: RRHH

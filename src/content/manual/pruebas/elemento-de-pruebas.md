@@ -6,6 +6,7 @@ description: Estos conceptos permiten realizar operaciones de comparación entre
 contentType: concept
 module: Pruebas
 submodule: General
+subtopic: ""
 intent: Elemento de pruebas
 audience:
   - role: RRHH

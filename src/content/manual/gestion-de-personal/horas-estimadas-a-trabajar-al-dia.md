@@ -6,6 +6,7 @@ description: Son las horas contrato aplicando el porcentaje de jornada al año, 
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Horas estimadas a trabajar al día
 audience:
   - role: RRHH

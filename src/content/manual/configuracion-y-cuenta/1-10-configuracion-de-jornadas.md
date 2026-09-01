@@ -6,6 +6,7 @@ description: Para poder calcular el número de Jornadas, Jornadas Nocturnas, Jor
 contentType: procedure
 module: Configuración y cuenta
 submodule: General
+subtopic: ""
 intent: Configuración de jornadas
 audience:
   - role: Planificador

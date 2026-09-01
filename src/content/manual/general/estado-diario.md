@@ -6,6 +6,7 @@ description: Diferencia en horas entre las horas planificadas menos las horas de
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Estado diario
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Las ofertas de turnos y horas en aTurnos son una herramienta práct
 contentType: procedure
 module: Peticiones y cambios
 submodule: Autogestión
+subtopic: ""
 intent: Ofertas de turno y horas
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Indica el nivel del usuario para modificar la fecha de cierre de cu
 contentType: procedure
 module: Planificación
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Nivel que puede cambiar la fecha de cierre del cuadrante
 audience:
   - role: Administrador

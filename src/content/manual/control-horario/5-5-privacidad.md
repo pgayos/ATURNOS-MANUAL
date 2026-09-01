@@ -6,6 +6,7 @@ description: En este apartado se puede limitar que los trabajadores tengan acces
 contentType: procedure
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Privacidad
 audience:
   - role: Administrador

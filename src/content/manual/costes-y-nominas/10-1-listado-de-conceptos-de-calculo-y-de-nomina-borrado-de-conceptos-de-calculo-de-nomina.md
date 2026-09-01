@@ -6,6 +6,7 @@ description: Desde RRHH → NOMINA → LISTADO DE NOMINA, se pueden ver tanto lo
 contentType: procedure
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina
 audience:
   - role: Administrador

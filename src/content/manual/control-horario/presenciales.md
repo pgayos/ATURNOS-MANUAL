@@ -6,6 +6,7 @@ description: Total de horas que contabiliza los fichajes, desde la acción del f
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Presenciales
 audience:
   - role: Planificador

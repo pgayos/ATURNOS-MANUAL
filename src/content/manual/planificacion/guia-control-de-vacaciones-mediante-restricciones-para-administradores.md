@@ -6,6 +6,7 @@ description: En aTurnos, las restricciones de vacaciones están diseñadas para 
 contentType: troubleshooting
 module: Planificación
 submodule: Vacaciones
+subtopic: ""
 intent: Control de vacaciones mediante restricciones
 audience:
   - role: Administrador

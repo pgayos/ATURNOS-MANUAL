@@ -6,6 +6,7 @@ description: Como trabajador podrás realizar peticiones sobre diferentes aspect
 contentType: concept
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Nueva petición
 audience:
   - role: Planificador

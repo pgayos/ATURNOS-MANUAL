@@ -6,6 +6,7 @@ description: En esta pestaña aparecen todas las solicitudes de cambios que se h
 contentType: concept
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Historial de cambios
 audience:
   - role: Administrador

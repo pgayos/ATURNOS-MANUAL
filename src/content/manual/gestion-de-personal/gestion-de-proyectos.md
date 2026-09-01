@@ -6,6 +6,7 @@ description: Con miras a la satisfacción de nuestros clientes somos versátiles
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Gestión de Proyectos
 audience:
   - role: Administrador

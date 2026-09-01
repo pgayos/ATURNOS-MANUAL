@@ -6,6 +6,7 @@ description: Principalmente, esta página muestra datos técnicos del equipo (Da
 contentType: concept
 module: Integraciones y API
 submodule: General
+subtopic: ""
 intent: Módulos en aTurnos
 audience:
   - role: Administrador

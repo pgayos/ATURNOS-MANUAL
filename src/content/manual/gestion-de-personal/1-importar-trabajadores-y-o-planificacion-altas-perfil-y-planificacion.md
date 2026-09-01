@@ -6,6 +6,7 @@ description: Crea un documento CSV o descarga una de nuestras plantillas de ejem
 contentType: procedure
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: "Importar trabajadores y/o planificación: altas, perfil y planificación"
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Esta función permite ver los ‘Datos personalizados’ de cada tr
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Datos personalizados por trabajador
 audience:
   - role: Trabajador

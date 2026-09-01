@@ -6,6 +6,7 @@ description: Los administradores y trabajadores de los equipos de trabajo, puede
 contentType: concept
 module: Documentos
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Subir documentos
 audience:
   - role: Administrador

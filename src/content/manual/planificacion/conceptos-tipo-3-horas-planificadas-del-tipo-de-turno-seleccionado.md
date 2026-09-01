@@ -6,6 +6,7 @@ description: Recupera el número de horas por la duración total de un determina
 contentType: procedure
 module: Planificación
 submodule: General
+subtopic: ""
 intent: "Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado"
 audience:
   - role: RRHH

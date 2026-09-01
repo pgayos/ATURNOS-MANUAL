@@ -6,6 +6,7 @@ description: En el proceso de cierre de cuadrante se informa en el perfil de tod
 contentType: concept
 module: Costes y nóminas
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Comportamiento de aviso de cuadrante cerrado por nómina
 audience:
   - role: RRHH

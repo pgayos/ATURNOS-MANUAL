@@ -6,6 +6,7 @@ description: En esta pestaña le aparecerán todos aquellos cambios pendientes d
 contentType: procedure
 module: Peticiones y cambios
 submodule: Altas y bajas
+subtopic: ""
 intent: Cambios pendientes
 audience:
   - role: Trabajador

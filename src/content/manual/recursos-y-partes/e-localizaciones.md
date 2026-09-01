@@ -6,6 +6,7 @@ description: "Para ver más sobre las funciones de filtrado, ocultar columnas y 
 contentType: procedure
 module: Recursos y partes
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Localizaciones
 audience:
   - role: Planificador

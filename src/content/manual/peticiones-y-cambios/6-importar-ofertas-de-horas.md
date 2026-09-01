@@ -6,6 +6,7 @@ description: El administrador puede realizar ofertas de horas de manera masiva s
 contentType: reference
 module: Peticiones y cambios
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Importar ofertas de horas
 audience:
   - role: Administrador

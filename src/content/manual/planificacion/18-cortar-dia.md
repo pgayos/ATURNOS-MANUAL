@@ -6,6 +6,7 @@ description: Desde aquí puedes cortar la planificación de un día entero, pudi
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Cortar Día
 audience:
   - role: Planificador

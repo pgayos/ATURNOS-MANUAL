@@ -6,6 +6,7 @@ description: Esta restricción impide que el trabajador pueda superar su saldo d
 contentType: reference
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Sobre vacaciones, festivos y bolsas de horas
 audience:
   - role: RRHH

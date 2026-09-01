@@ -6,6 +6,7 @@ description: En este apartado dispones del acceso a diferentes páginas de aTurn
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Perfil y Menú principal del Trabajador
 audience:
   - role: Administrador

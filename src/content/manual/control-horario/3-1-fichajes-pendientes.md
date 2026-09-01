@@ -6,6 +6,7 @@ description: En ocasiones es posible que, por razones de configuración, técnic
 contentType: reference
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Fichajes pendientes
 audience:
   - role: Administrador

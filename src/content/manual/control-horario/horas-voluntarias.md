@@ -6,6 +6,7 @@ description: Son las horas presenciales de más con respecto a las horas computa
 contentType: concept
 module: Control horario
 submodule: General
+subtopic: ""
 intent: Horas voluntarias
 audience:
   - role: Planificador

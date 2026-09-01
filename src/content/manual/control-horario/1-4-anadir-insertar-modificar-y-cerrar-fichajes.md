@@ -6,6 +6,7 @@ description: Todos los fichajes modificados o insertados por el administrador se
 contentType: procedure
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Añadir, insertar, modificar y cerrar fichajes
 audience:
   - role: Administrador

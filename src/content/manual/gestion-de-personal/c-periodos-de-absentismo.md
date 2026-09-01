@@ -6,6 +6,7 @@ description: Este registro ayuda al Administrador a visualizar todos los periodo
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Periodos de absentismo
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Comprende el total de absentismo por turno y tipo, ya sean absentis
 contentType: concept
 module: Planificación
 submodule: Altas y bajas
+subtopic: ""
 intent: Informe y ratios de absentimos
 audience:
   - role: Trabajador

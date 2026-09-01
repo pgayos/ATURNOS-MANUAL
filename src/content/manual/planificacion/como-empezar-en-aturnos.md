@@ -6,6 +6,7 @@ description: aTurnos es una herramienta de gestión que mejora la planificación
 contentType: faq
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cómo empezar en aTurnos
 audience:
   - role: Planificador

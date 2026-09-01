@@ -6,6 +6,7 @@ description: Te permite descargar el listado de turnos en un formato CSV.
 contentType: procedure
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Exportar y cambiar orden
 audience:
   - role: Administrador

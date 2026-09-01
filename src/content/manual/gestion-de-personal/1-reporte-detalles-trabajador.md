@@ -6,6 +6,7 @@ description: Con esta función, desde el menú RRHH, el administrador tiene la p
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Reporte detalles trabajador
 audience:
   - role: Administrador

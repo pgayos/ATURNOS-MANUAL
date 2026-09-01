@@ -6,6 +6,7 @@ description: Esta función sólo estará disponible en el caso de que tengas dis
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Aceptar peticiones de marcajes
 audience:
   - role: Administrador

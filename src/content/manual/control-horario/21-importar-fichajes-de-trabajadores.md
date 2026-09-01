@@ -6,6 +6,7 @@ description: Es posible que si has utilizado otro sistema de registro de jornada
 contentType: reference
 module: Control horario
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Importar fichajes de trabajadores
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: Esta opción permite modificar un turno por otro, sin necesidad de 
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Modificar turnos
 audience:
   - role: Planificador

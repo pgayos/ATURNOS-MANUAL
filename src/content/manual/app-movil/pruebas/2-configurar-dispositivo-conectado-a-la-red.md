@@ -6,6 +6,7 @@ description: En los casos donde se haya conectado un nuevo dispositivo de lectur
 contentType: procedure
 module: App móvil
 submodule: Pruebas
+subtopic: ""
 intent: Configurar dispositivo conectado a la red
 audience:
   - role: Administrador

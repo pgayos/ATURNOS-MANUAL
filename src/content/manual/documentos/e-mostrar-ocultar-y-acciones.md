@@ -6,6 +6,7 @@ description: La tabla del listado de trabajadores se puede personalizar mostrand
 contentType: concept
 module: Documentos
 submodule: General
+subtopic: ""
 intent: Mostrar/Ocultar y Acciones
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: El administrador puede entrar en detalle y saber si los cambios han
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Cambios a deber
 audience:
   - role: Administrador

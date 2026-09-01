@@ -6,6 +6,7 @@ description: Si necesitamos hacer una carga de varios clientes a la vez con la i
 contentType: concept
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Importar clientes (Tareas)
 audience:
   - role: Planificador

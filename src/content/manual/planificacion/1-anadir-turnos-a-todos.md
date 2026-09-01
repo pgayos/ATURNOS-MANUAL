@@ -6,6 +6,7 @@ description: “Añadir turnos a todos” permite a los administradores insertar
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Añadir turnos a todos
 audience:
   - role: Administrador

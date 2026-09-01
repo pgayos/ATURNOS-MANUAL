@@ -6,6 +6,7 @@ description: Un equipo en aTurnos es un grupo de usuarios que comparten un mismo
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Mis equipos
 audience:
   - role: Administrador

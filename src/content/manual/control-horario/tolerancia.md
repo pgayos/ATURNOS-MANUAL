@@ -6,6 +6,7 @@ description: Dentro del control de presencia, la tolerancia define el lapso de t
 contentType: reference
 module: Control horario
 submodule: Informes y validación
+subtopic: ""
 intent: Tolerancia
 audience:
   - role: Administrador

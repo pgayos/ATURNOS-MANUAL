@@ -6,6 +6,7 @@ description: Es la diferencia entre las vacaciones planificadas con las vacacion
 contentType: reference
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Balance vacaciones anual
 audience:
   - role: RRHH

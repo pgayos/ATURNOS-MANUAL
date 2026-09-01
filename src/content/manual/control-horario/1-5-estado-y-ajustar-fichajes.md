@@ -6,6 +6,7 @@ description: Todos los fichajes modificados o insertados por el administrador se
 contentType: concept
 module: Control horario
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Estado y ajustar fichajes
 audience:
   - role: Administrador

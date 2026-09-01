@@ -6,6 +6,7 @@ description: Desde Tareas → Tareas Canceladas puede recuperar tareas cancelada
 contentType: concept
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Tareas canceladas
 audience:
   - role: Administrador

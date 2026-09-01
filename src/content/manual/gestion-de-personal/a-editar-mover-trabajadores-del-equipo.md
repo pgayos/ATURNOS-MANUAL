@@ -6,6 +6,7 @@ description: "Desde el icono del “lapicero” se podrán hacer dos acciones: e
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Editar/Mover trabajadores del equipo
 audience:
   - role: RRHH

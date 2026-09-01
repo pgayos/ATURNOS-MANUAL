@@ -6,6 +6,7 @@ description: Muestra información sobre la planificación que el trabajador tien
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Datos de planificación
 audience:
   - role: Planificador

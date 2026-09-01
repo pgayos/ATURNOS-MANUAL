@@ -6,6 +6,7 @@ description: En aTurnos, los trabajadores pueden hacer cambios de turno si en ‚Ä
 contentType: procedure
 module: Configuraci√≥n y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Cambios en aTurnos
 audience:
   - role: Administrador

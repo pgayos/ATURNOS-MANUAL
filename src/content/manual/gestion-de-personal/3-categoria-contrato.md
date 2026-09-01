@@ -6,6 +6,7 @@ description: Se trata de la información contractual del trabajador. Son los dat
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Categoría & Contrato
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: Es el balance de horas entre las horas planificadas y las horas pre
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Balance presencial/planificadas
 audience:
   - role: Planificador

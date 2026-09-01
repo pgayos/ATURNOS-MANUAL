@@ -6,6 +6,7 @@ description: ¿Cuánto trabajas cada día de la semana? Consultando estas estad�
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas/días semana
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: El administrador del equipo podrá visualizar y revisar los cuadran
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Revisar cuadrante y añadir/modificar/eliminar turnos
 audience:
   - role: Administrador

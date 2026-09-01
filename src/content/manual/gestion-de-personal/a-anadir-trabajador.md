@@ -6,6 +6,7 @@ description: El trabajador es el elemento principal de cualquier equipo de traba
 contentType: reference
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Añadir trabajador
 audience:
   - role: Administrador

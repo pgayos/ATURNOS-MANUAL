@@ -6,6 +6,7 @@ description: "Para ver más sobre las funciones de filtrado, ocultar columnas y 
 contentType: procedure
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Horas/día semana
 audience:
   - role: Trabajador

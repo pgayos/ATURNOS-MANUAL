@@ -6,6 +6,7 @@ description: Una vez logueado el usuario administrador y seleccionadoel equipo d
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Widgets en aTurnos
 audience:
   - role: Administrador

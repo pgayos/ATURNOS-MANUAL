@@ -6,6 +6,7 @@ description: Es el tipo de trabajador que tiene en su cuadrante una planificaci√
 contentType: concept
 module: Planificaci√≥n
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Trabajador planificado
 audience:
   - role: Planificador

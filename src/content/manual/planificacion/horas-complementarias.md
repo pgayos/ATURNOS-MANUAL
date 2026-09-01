@@ -6,6 +6,7 @@ description: Estadísticamente es el total de las horas complementarias más las
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Horas complementarias
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: Estadísticamente son el total de días presenciales que tiene el t
 contentType: procedure
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Días presenciales
 audience:
   - role: Trabajador

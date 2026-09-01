@@ -6,6 +6,7 @@ description: Cómo el administrador del equipo puede revisar, aceptar o denegar 
 contentType: procedure
 module: Pruebas
 submodule: General
+subtopic: ""
 intent: Aceptar o denegar peticiones y cambios desde la app
 audience:
   - role: Administrador

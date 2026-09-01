@@ -6,6 +6,7 @@ description: El superusuario puede acceder y exportar todos los días festivos q
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Listado de festivos
 audience:
   - role: Administrador

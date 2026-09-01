@@ -6,6 +6,7 @@ description: Una vez creada la Curva de necesidad o demanda (Véase como crear c
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: "Cuadro de mando: Operaciones planificación de personal"
 audience:
   - role: RRHH

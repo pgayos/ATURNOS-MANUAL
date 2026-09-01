@@ -1,38 +1,212 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { slugify } from '../../../lib/slug';
 
-interface Props {
-  moduleName: string;
-  articles: CollectionEntry<'manual'>[];
+type Article = CollectionEntry<'manual'>;
+
+interface CardInfo {
+  name: string;
+  slug: string;
+  count: number;
+  profileCounts: Record<string, number>;
 }
 
+interface ModuleProps {
+  level: 'module';
+  moduleName: string;
+  moduleSlug: string;
+  submodules: CardInfo[];
+}
+
+interface SubmoduleProps {
+  level: 'submodule';
+  moduleName: string;
+  moduleSlug: string;
+  submoduleName: string;
+  submoduleSlug: string;
+  subtopics: CardInfo[];
+  looseArticles: Article[];
+}
+
+interface SubtopicProps {
+  level: 'subtopic';
+  moduleName: string;
+  moduleSlug: string;
+  submoduleName: string;
+  submoduleSlug: string;
+  subtopicName: string;
+  articles: Article[];
+}
+
+type Props = ModuleProps | SubmoduleProps | SubtopicProps;
+
 export async function getStaticPaths() {
+  const profileRoles = ['Trabajador', 'Planificador', 'Administrador', 'RRHH'] as const;
+
+  const sortArticles = (list: Article[]) =>
+    [...list].sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title, 'es'));
+
+  const profileCountsFor = (list: Article[]) =>
+    Object.fromEntries(
+      profileRoles.map((role) => [role, list.filter((article) => article.data.audience.some((item) => item.role === role)).length])
+    );
+
   const entries = await getCollection('manual');
-  const groups = new Map<string, CollectionEntry<'manual'>[]>();
+  const moduleGroups = new Map<string, Article[]>();
 
   for (const entry of entries) {
     const moduleSlug = entry.id.split('/').slice(0, -1).join('/');
-    const group = groups.get(moduleSlug) ?? [];
+    const group = moduleGroups.get(moduleSlug) ?? [];
     group.push(entry);
-    groups.set(moduleSlug, group);
+    moduleGroups.set(moduleSlug, group);
   }
 
-  return [...groups.entries()].map(([module, articles]) => ({
-    params: { module },
-    props: {
-      moduleName: articles[0].data.module,
-      articles: articles.sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title, 'es'))
+  const modulePaths: { params: { module: string }; props: ModuleProps }[] = [];
+  const submodulePaths: { params: { module: string }; props: SubmoduleProps }[] = [];
+  const subtopicPaths: { params: { module: string }; props: SubtopicProps }[] = [];
+
+  for (const [moduleSlug, articles] of moduleGroups) {
+    const bySubmodule = new Map<string, Article[]>();
+    for (const article of articles) {
+      const list = bySubmodule.get(article.data.submodule) ?? [];
+      list.push(article);
+      bySubmodule.set(article.data.submodule, list);
     }
-  }));
+
+    const submodules: CardInfo[] = [];
+    for (const [submodule, submoduleArticles] of bySubmodule) {
+      const submoduleSlug = slugify(submodule);
+      submodules.push({
+        name: submodule,
+        slug: submoduleSlug,
+        count: submoduleArticles.length,
+        profileCounts: profileCountsFor(submoduleArticles)
+      });
+
+      const bySubtopic = new Map<string, Article[]>();
+      const looseArticles: Article[] = [];
+      for (const article of submoduleArticles) {
+        if (!article.data.subtopic) {
+          looseArticles.push(article);
+          continue;
+        }
+        const list = bySubtopic.get(article.data.subtopic) ?? [];
+        list.push(article);
+        bySubtopic.set(article.data.subtopic, list);
+      }
+
+      const subtopics: CardInfo[] = [];
+      for (const [subtopic, subtopicArticles] of bySubtopic) {
+        const subtopicSlug = slugify(subtopic);
+        subtopics.push({
+          name: subtopic,
+          slug: subtopicSlug,
+          count: subtopicArticles.length,
+          profileCounts: profileCountsFor(subtopicArticles)
+        });
+        subtopicPaths.push({
+          params: { module: `${moduleSlug}/${submoduleSlug}/${subtopicSlug}` },
+          props: {
+            level: 'subtopic' as const,
+            moduleName: subtopicArticles[0].data.module,
+            moduleSlug,
+            submoduleName: submodule,
+            submoduleSlug,
+            subtopicName: subtopic,
+            articles: sortArticles(subtopicArticles)
+          }
+        });
+      }
+      subtopics.sort((a, b) => a.name.localeCompare(b.name, 'es'));
+
+      submodulePaths.push({
+        params: { module: `${moduleSlug}/${submoduleSlug}` },
+        props: {
+          level: 'submodule' as const,
+          moduleName: submoduleArticles[0].data.module,
+          moduleSlug,
+          submoduleName: submodule,
+          submoduleSlug,
+          subtopics,
+          looseArticles: sortArticles(looseArticles)
+        }
+      });
+    }
+    submodules.sort((a, b) => a.name.localeCompare(b.name, 'es'));
+
+    modulePaths.push({
+      params: { module: moduleSlug },
+      props: {
+        level: 'module' as const,
+        moduleName: articles[0].data.module,
+        moduleSlug,
+        submodules
+      }
+    });
+  }
+
+  return [...modulePaths, ...submodulePaths, ...subtopicPaths];
 }
 
-const { moduleName, articles } = Astro.props;
-const submodules = [...new Set(articles.map(article => article.data.submodule))];
+const props = Astro.props;
+
+const totalArticles = props.level === 'module' ? props.submodules.reduce((sum, sub) => sum + sub.count, 0) : 0;
+const submoduleTotal =
+  props.level === 'submodule' ? props.subtopics.reduce((sum, sub) => sum + sub.count, 0) + props.looseArticles.length : 0;
 ---
-<BaseLayout title={`${moduleName} · Manual de aTurnos`} description={`Guías y documentación del módulo ${moduleName} de aTurnos.`}>
-  <section class="hero"><div class="container"><span class="eyebrow">Módulo</span><h1>{moduleName}</h1><p class="lead">Consulta <span data-profile-visible-count>{articles.length}</span> artículos organizados en <span data-profile-area-count>{submodules.length}</span> áreas para el perfil seleccionado.</p></div></section>
-  <section class="section container"><div class="card-grid" data-profile-list>{articles.map(article => <a class="card" data-profile-card data-profiles={article.data.audience.map(item => item.role).join('|')} data-submodule={article.data.submodule} href={`/manual/${article.id}/`}><span class="badge">{article.data.submodule}</span><h3>{article.data.title}</h3><p>{article.data.description}</p></a>)}</div>
-    <p class="profile-empty" data-profile-empty hidden>No hay artículos de este módulo asignados al perfil seleccionado.</p>
-  </section>
-</BaseLayout>
+{props.level === 'module' && (
+  <BaseLayout title={`${props.moduleName} · Manual de aTurnos`} description={`Guías y documentación del módulo ${props.moduleName} de aTurnos.`}>
+    <div class="container breadcrumbs"><a href="/">Inicio</a> / {props.moduleName}</div>
+    <section class="hero"><div class="container"><span class="eyebrow">Módulo</span><h1>{props.moduleName}</h1><p class="lead">Consulta {totalArticles} artículos organizados en {props.submodules.length} áreas.</p></div></section>
+    <section class="section container">
+      <div class="card-grid">
+        {props.submodules.map(sub => (
+          <a class="card" data-module-profile-counts={JSON.stringify(sub.profileCounts)} data-total-count={sub.count} href={`/manual/${props.moduleSlug}/${sub.slug}/`}>
+            <h3>{sub.name}</h3>
+            <p>Consulta los artículos de {sub.name}.</p>
+            <span class="card-count" data-module-count>{sub.count} {sub.count === 1 ? 'artículo' : 'artículos'}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  </BaseLayout>
+)}
+{props.level === 'submodule' && (
+  <BaseLayout title={`${props.submoduleName} · ${props.moduleName} · Manual de aTurnos`} description={`Guías y documentación de ${props.submoduleName} dentro del módulo ${props.moduleName} de aTurnos.`}>
+    <div class="container breadcrumbs"><a href="/">Inicio</a> / <a href={`/manual/${props.moduleSlug}/`}>{props.moduleName}</a> / {props.submoduleName}</div>
+    <section class="hero"><div class="container"><span class="eyebrow">{props.moduleName}</span><h1>{props.submoduleName}</h1><p class="lead">Consulta {submoduleTotal} artículos{props.subtopics.length > 0 && <> organizados en {props.subtopics.length} temas</>}.</p></div></section>
+    <section class="section container">
+      {props.subtopics.length > 0 && (
+        <div class="card-group">
+          <h2 class="card-group-title">Temas</h2>
+          <div class="card-grid">
+            {props.subtopics.map(sub => (
+              <a class="card" data-module-profile-counts={JSON.stringify(sub.profileCounts)} data-total-count={sub.count} href={`/manual/${props.moduleSlug}/${props.submoduleSlug}/${sub.slug}/`}>
+                <h3>{sub.name}</h3>
+                <p>Consulta los artículos de {sub.name}.</p>
+                <span class="card-count" data-module-count>{sub.count} {sub.count === 1 ? 'artículo' : 'artículos'}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+      {props.looseArticles.length > 0 && (
+        <div class="card-group">
+          {props.subtopics.length > 0 && <h2 class="card-group-title">Otros artículos</h2>}
+          <div class="card-grid" data-profile-list>{props.looseArticles.map(article => <a class="card" data-profile-card data-profiles={article.data.audience.map(item => item.role).join('|')} href={`/manual/${article.id}/`}><h3>{article.data.title}</h3><p>{article.data.description}</p></a>)}</div>
+        </div>
+      )}
+    </section>
+  </BaseLayout>
+)}
+{props.level === 'subtopic' && (
+  <BaseLayout title={`${props.subtopicName} · ${props.submoduleName} · Manual de aTurnos`} description={`Guías y documentación de ${props.subtopicName} dentro de ${props.submoduleName} en el módulo ${props.moduleName} de aTurnos.`}>
+    <div class="container breadcrumbs"><a href="/">Inicio</a> / <a href={`/manual/${props.moduleSlug}/`}>{props.moduleName}</a> / <a href={`/manual/${props.moduleSlug}/${props.submoduleSlug}/`}>{props.submoduleName}</a> / {props.subtopicName}</div>
+    <section class="hero"><div class="container"><span class="eyebrow">{props.moduleName} · {props.submoduleName}</span><h1>{props.subtopicName}</h1><p class="lead">Consulta <span data-profile-visible-count>{props.articles.length}</span> artículos para el perfil seleccionado.</p></div></section>
+    <section class="section container" data-profile-list>
+      <div class="card-grid">{props.articles.map(article => <a class="card" data-profile-card data-profiles={article.data.audience.map(item => item.role).join('|')} href={`/manual/${article.id}/`}><h3>{article.data.title}</h3><p>{article.data.description}</p></a>)}</div>
+      <p class="profile-empty" data-profile-empty hidden>No hay artículos de este tema asignados al perfil seleccionado.</p>
+    </section>
+  </BaseLayout>
+)}

@@ -6,6 +6,7 @@ description: Son el total de las horas presenciales dentro de turnos que no comp
 contentType: concept
 module: Control horario
 submodule: Turnos y patrones
+subtopic: ""
 intent: Horas presenciales en turno no computable
 audience:
   - role: Planificador

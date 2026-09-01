@@ -6,6 +6,7 @@ description: A través de ADMINISTRAR → CALENDARIOS → CALENDARIOS se pueden 
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Calendarios
 audience:
   - role: Administrador

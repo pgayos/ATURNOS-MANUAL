@@ -6,6 +6,7 @@ description: La función de comentarios en aTurnos permite compartir informació
 contentType: procedure
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Comentarios en el cuadrante
 audience:
   - role: Administrador

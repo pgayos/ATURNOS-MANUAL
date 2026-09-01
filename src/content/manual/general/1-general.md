@@ -6,6 +6,7 @@ description: La fuente pública de General en aTurnos contiene muy poca informac
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: General en aTurnos
 audience:
   - role: Administrador

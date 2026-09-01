@@ -6,6 +6,7 @@ description: Se denominan trabajadores anónimos, todos aquellos que se han crea
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Resetear contraseña trabajadores anónimos
 audience:
   - role: RRHH

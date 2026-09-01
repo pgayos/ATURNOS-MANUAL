@@ -6,6 +6,7 @@ description: En este informe se recuperan los periodos de absentismos indicando 
 contentType: concept
 module: Planificación
 submodule: Altas y bajas
+subtopic: ""
 intent: Maestro de absentismos
 audience:
   - role: Trabajador

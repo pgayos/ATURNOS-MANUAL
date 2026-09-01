@@ -6,6 +6,7 @@ description: Encontramos distintos informes a los que se acceden a través de Ta
 contentType: concept
 module: Tareas
 submodule: Roles y permisos
+subtopic: ""
 intent: Listado de tareas. Informes
 audience:
   - role: Administrador

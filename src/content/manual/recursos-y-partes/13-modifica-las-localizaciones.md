@@ -6,6 +6,7 @@ description: El administrador del equipo desde modifica las localizaciones, pued
 contentType: concept
 module: Recursos y partes
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Modifica las localizaciones
 audience:
   - role: Administrador

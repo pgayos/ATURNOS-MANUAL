@@ -6,6 +6,7 @@ description: El módulo de tareas de aTurnos permite la asignación de tareas po
 contentType: concept
 module: Tareas
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Descripción y consideraciones previas
 audience:
   - role: Planificador

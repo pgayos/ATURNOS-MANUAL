@@ -6,6 +6,7 @@ description: La fuente pública de Perfil del trabajador contiene muy poca infor
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Perfil del trabajador
 audience:
   - role: Trabajador

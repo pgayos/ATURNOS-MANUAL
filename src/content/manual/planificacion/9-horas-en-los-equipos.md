@@ -6,6 +6,7 @@ description: Este apartado es útil para un administrador, porque ofrece una tab
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas en los equipos
 audience:
   - role: Administrador

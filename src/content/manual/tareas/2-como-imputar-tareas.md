@@ -6,6 +6,7 @@ description: Una vez que te has logueado en el sistema y has accedido a la panta
 contentType: faq
 module: Tareas
 submodule: Altas y bajas
+subtopic: ""
 intent: Cómo imputar tareas
 audience:
   - role: Planificador

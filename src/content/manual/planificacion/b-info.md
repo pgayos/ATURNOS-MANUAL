@@ -6,6 +6,7 @@ description: En este apartado se muestra información a detalle del evento que e
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: info en aTurnos
 audience:
   - role: Administrador

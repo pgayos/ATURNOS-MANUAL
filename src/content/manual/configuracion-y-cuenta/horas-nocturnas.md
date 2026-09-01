@@ -6,6 +6,7 @@ description: Estadísticamente es el total de las horas planificadas en periodo 
 contentType: reference
 module: Configuración y cuenta
 submodule: Equipo y centros
+subtopic: ""
 intent: Horas nocturnas
 audience:
   - role: Administrador

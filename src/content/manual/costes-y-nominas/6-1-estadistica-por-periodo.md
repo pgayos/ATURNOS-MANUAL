@@ -6,6 +6,7 @@ description: A través de la estadística por periodo se visualiza el resultado 
 contentType: procedure
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Estadística por periodo
 audience:
   - role: RRHH

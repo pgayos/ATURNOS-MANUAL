@@ -6,6 +6,7 @@ description: Los Ajustes que se realizan para saldar horas se pueden registrar e
 contentType: procedure
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Importar balance de ajustes
 audience:
   - role: RRHH

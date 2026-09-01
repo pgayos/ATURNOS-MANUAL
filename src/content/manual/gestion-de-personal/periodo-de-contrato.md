@@ -6,6 +6,7 @@ description: Es un espacio de tiempo con fecha de alta y fecha de baja definido 
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Periodo de contrato
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: Compara las horas contrato mes con las horas computadas del trabaja
 contentType: reference
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Balance mensual
 audience:
   - role: RRHH

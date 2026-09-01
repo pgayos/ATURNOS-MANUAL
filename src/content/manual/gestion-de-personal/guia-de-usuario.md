@@ -6,6 +6,7 @@ description: En esta guía te contamos todos los detalles respecto al funcionami
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Guía de usuario
 audience:
   - role: RRHH

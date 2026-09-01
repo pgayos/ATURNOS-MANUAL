@@ -6,6 +6,7 @@ description: La conexión de aTurnos con sistemas de nóminas es un proceso clav
 contentType: troubleshooting
 module: Integraciones y API
 submodule: Sistemas externos
+subtopic: ""
 intent: Conexión con sistemas de nóminas
 audience:
   - role: Administrador

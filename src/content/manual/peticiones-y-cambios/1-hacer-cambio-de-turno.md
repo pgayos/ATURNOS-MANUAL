@@ -6,6 +6,7 @@ description: Los cambios de turno solo pueden realizarse en el presente o en fec
 contentType: reference
 module: Peticiones y cambios
 submodule: Roles y permisos
+subtopic: ""
 intent: Hacer Cambio de Turno
 audience:
   - role: Administrador

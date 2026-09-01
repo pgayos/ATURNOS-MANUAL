@@ -6,6 +6,7 @@ description: Las localizaciones en aTurnos son áreas o departamentos donde se o
 contentType: reference
 module: Gestión de personal
 submodule: Estructura organizativa
+subtopic: ""
 intent: Configuración de estructura organizativa
 audience:
   - role: Administrador

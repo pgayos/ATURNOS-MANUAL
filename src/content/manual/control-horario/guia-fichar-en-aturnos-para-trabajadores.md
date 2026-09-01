@@ -6,6 +6,7 @@ description: El sistema de fichaje de aTurnos te permite registrar tus entradas 
 contentType: reference
 module: Control horario
 submodule: Uso por el trabajador
+subtopic: ""
 intent: Fichar en aTurnos
 audience:
   - role: Trabajador

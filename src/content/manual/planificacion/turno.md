@@ -6,6 +6,7 @@ description: Es la unidad mínima de trabajo de planificación en aTurnos. Cada 
 contentType: procedure
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Turno en aTurnos
 audience:
   - role: Planificador

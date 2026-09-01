@@ -6,6 +6,7 @@ description: La funcionalidad para solicitar días libres en aTurnos permite a l
 contentType: reference
 module: Peticiones y cambios
 submodule: Autogestión del trabajador
+subtopic: ""
 intent: Libre
 audience:
   - role: Trabajador

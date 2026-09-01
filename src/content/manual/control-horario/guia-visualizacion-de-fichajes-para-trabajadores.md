@@ -6,6 +6,7 @@ description: Si necesitas revisar tus fichajes y asegurarte de que todo está co
 contentType: reference
 module: Control horario
 submodule: Uso por el trabajador
+subtopic: ""
 intent: Visualización de Fichajes
 audience:
   - role: Trabajador

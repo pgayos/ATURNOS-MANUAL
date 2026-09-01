@@ -6,6 +6,7 @@ description: A través del módulo de Recursos se pueden informar variables que 
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: "Conceptos tipo 8: Conceptos asociados al módulo de recursos"
 audience:
   - role: Administrador

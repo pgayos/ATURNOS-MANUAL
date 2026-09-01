@@ -6,6 +6,7 @@ description: aTurnos pone a disposición de los administradores de los equipos d
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Informe en aTurnos
 audience:
   - role: Administrador

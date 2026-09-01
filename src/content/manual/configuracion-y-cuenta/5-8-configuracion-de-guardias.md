@@ -6,6 +6,7 @@ description: En este apartado se desarrolla cómo se realiza la configuración d
 contentType: reference
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Configuración de guardias
 audience:
   - role: Administrador

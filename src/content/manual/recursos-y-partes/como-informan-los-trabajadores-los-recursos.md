@@ -6,6 +6,7 @@ description: Solo se pueden asignarse recursos si se tienen turno y/u horas plan
 contentType: faq
 module: Recursos y partes
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: ¿Cómo informan los trabajadores los recursos?
 audience:
   - role: Administrador

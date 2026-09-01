@@ -6,6 +6,7 @@ description: Con esta opción se puede copiar un día y pegarlo en otro día dis
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Copiar día
 audience:
   - role: Administrador

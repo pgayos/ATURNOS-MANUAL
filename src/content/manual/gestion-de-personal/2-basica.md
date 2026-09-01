@@ -6,6 +6,7 @@ description: En este apartado se registran los datos básicos que identifican al
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Básica en aTurnos
 audience:
   - role: Administrador

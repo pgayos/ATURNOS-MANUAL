@@ -6,6 +6,7 @@ description: A través de los Datos de Convenio vas a poder configurar el conven
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Datos de convenio
 audience:
   - role: Administrador

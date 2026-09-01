@@ -6,6 +6,7 @@ description: Este informe te permite visualizar las jornadas de acuerdo a la con
 contentType: reference
 module: Configuración y cuenta
 submodule: General
+subtopic: ""
 intent: Jornadas II
 audience:
   - role: Administrador

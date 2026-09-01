@@ -6,6 +6,7 @@ description: ¿Qué sucede si no configuro el tipo de absentismo correctamente?.
 contentType: reference
 module: Planificación
 submodule: Permisos y absentismos
+subtopic: ""
 intent: Preguntas frecuentes
 audience:
   - role: Administrador

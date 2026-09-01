@@ -6,6 +6,7 @@ description: El sistema de planificación de turnos de aTurnos permite realizar 
 contentType: reference
 module: Peticiones y cambios
 submodule: Autogestión del trabajador
+subtopic: ""
 intent: Solicitar cambios de turno
 audience:
   - role: Trabajador

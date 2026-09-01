@@ -6,6 +6,7 @@ description: Esta restricción establece una duración mínima que debe tener un
 contentType: reference
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Límites inferiores de horas de los empleados
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: Este reporte muestra las alertas o incidencias que se produzcan en 
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Alertas por trabajador
 audience:
   - role: Trabajador

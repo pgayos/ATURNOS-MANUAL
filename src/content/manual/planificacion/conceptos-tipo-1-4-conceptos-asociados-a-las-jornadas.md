@@ -6,6 +6,7 @@ description: Contabilizan el número de jornadas en los que trabajador tiene tur
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: "Conceptos tipo 1.4: Conceptos asociados a las jornadas"
 audience:
   - role: Administrador

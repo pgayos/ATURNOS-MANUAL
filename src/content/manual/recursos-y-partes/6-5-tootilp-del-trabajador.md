@@ -6,6 +6,7 @@ description: En el cuadrante existe un texto emergente que muestra un cuadro res
 contentType: procedure
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Tootilp del trabajador
 audience:
   - role: Planificador

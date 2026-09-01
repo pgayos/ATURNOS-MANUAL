@@ -6,6 +6,7 @@ description: La fuente pública de Alertas por trabajador contiene muy poca info
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Alertas por trabajador
 audience:
   - role: Trabajador

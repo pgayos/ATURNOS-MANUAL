@@ -6,6 +6,7 @@ description: En ADMINISTRAR → FESTIVOS se deben crear los festivos locales, po
 contentType: reference
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Festivos
 audience:
   - role: RRHH

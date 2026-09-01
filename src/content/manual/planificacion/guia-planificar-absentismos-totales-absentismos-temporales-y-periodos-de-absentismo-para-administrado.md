@@ -6,6 +6,7 @@ description: En el día a día de cualquier equipo, gestionar correctamente las 
 contentType: troubleshooting
 module: Planificación
 submodule: Permisos y absentismos
+subtopic: ""
 intent: Planificar absentismos totales, absentismos temporales y periodos de absentismo
 audience:
   - role: Administrador

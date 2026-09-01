@@ -6,6 +6,7 @@ description: Se trata de notificaciones que va a poder lanzar el administrador d
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Mensajes in-APP
 audience:
   - role: Administrador

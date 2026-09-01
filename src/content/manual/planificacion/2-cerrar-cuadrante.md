@@ -6,6 +6,7 @@ description: La acción de ‘Cerrar cuadrante’ permite bloquear el cuadrante 
 contentType: concept
 module: Planificación
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Cerrar cuadrante
 audience:
   - role: RRHH

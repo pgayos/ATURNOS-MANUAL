@@ -6,6 +6,7 @@ description: Explica cómo la preparación de los puestos en aTurnos y qué debe
 contentType: procedure
 module: Configuración y cuenta
 submodule: General
+subtopic: ""
 intent: La preparación de los puestos
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: Son las horas computadas que coinciden con las horas presenciales d
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Horas computadas presenciales
 audience:
   - role: Trabajador

@@ -6,6 +6,7 @@ description: Recupera el número de turnos, del turno seleccionado (valga la red
 contentType: procedure
 module: Planificación
 submodule: Roles y permisos
+subtopic: ""
 intent: "Conceptos tipo 4: Conceptos asociados a los tipos de turnos"
 audience:
   - role: RRHH

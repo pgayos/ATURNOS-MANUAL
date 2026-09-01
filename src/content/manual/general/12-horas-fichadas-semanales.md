@@ -6,6 +6,7 @@ description: La fuente pública de Horas fichadas semanales contiene muy poca in
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Horas fichadas semanales
 audience:
   - role: Administrador

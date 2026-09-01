@@ -6,6 +6,7 @@ description: La tabla de cobertura es una herramienta clave de aTurnos diseñada
 contentType: troubleshooting
 module: Planificación
 submodule: Permisos y absentismos
+subtopic: ""
 intent: Impacto de las ausencias
 audience:
   - role: Administrador

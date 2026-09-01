@@ -6,6 +6,7 @@ description: Al iniciar sesión y acceder a un equipo, la primera pantalla que v
 contentType: procedure
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Pantalla de inicio
 audience:
   - role: Administrador

@@ -15,6 +15,7 @@ const manual = defineCollection({
     contentType: z.enum(['procedure', 'concept', 'reference', 'faq', 'troubleshooting']),
     module: z.string(),
     submodule: z.string(),
+    subtopic: z.string().optional(),
     intent: z.string(),
     audience: z.array(z.object({ role, access: z.enum(['required', 'recommended', 'applicable']) })),
     entities: z.array(z.object({ id: z.string(), label: z.string() })),

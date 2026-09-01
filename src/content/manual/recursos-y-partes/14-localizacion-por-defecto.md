@@ -6,6 +6,7 @@ description: En aTurnos, los trabajadores pueden tener una localización por def
 contentType: troubleshooting
 module: Recursos y partes
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Localización por defecto
 audience:
   - role: Administrador

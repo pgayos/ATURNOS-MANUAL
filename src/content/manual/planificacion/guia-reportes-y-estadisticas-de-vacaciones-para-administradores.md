@@ -6,6 +6,7 @@ description: aTurnos facilita la gestión y visualización de las vacaciones par
 contentType: reference
 module: Planificación
 submodule: Vacaciones
+subtopic: ""
 intent: Reportes y estadísticas de vacaciones
 audience:
   - role: Administrador

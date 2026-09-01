@@ -6,6 +6,7 @@ description: Definimos como usuario en el programa de Biostar2, tanto a los trab
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Usuarios en Biostar2
 audience:
   - role: Administrador

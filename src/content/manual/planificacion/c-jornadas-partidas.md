@@ -6,6 +6,7 @@ description: En aTurnos, se considera jornada partida a aquella jornada de traba
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Jornadas partidas
 audience:
   - role: Planificador

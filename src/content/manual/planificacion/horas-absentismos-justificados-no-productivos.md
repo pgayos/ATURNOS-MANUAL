@@ -6,6 +6,7 @@ description: Estadísticamente es el total de horas de absentismo justificado (N
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas absentismos justificados no productivos
 audience:
   - role: Trabajador

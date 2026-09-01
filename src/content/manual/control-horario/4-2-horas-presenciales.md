@@ -6,6 +6,7 @@ description: En este apartado estadístico se podrá obtener un reporte resumido
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Horas presenciales
 audience:
   - role: RRHH

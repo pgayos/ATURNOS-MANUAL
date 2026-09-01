@@ -6,6 +6,7 @@ description: Estadísticamente es el tiempo descanso que le corresponde al traba
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Descanso programado
 audience:
   - role: Planificador

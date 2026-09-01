@@ -6,6 +6,7 @@ description: Son un tipo de peticiones de turnos que los administradores ofrece 
 contentType: procedure
 module: Peticiones y cambios
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Oferta de turno
 audience:
   - role: Administrador

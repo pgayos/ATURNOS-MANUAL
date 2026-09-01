@@ -6,6 +6,7 @@ description: Total de las horas computadas menos las horas de los turnos y horas
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Horas computadas menos absentismos justificados
 audience:
   - role: Planificador

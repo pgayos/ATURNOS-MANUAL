@@ -6,6 +6,7 @@ description: El cuadrante de planificación es una herramienta versátil diseña
 contentType: reference
 module: Planificación
 submodule: Turnos y cuadrantes
+subtopic: ""
 intent: Uso avanzado del cuadrante
 audience:
   - role: Administrador

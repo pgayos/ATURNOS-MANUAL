@@ -6,6 +6,7 @@ description: En el caso de que no te deje fichar en la APP como trabajador, pued
 contentType: faq
 module: Control horario
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: ¿Por qué no puedo fichar desde la APP?
 audience:
   - role: Administrador

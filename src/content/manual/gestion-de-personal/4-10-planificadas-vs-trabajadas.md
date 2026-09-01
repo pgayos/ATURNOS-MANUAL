@@ -6,6 +6,7 @@ description: Este reporte gráfico muestra mensualmente las horas computadas de 
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Planificadas vs Trabajadas
 audience:
   - role: RRHH

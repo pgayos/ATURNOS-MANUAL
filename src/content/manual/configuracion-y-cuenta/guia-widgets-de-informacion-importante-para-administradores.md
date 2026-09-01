@@ -6,6 +6,7 @@ description: Los widgets de aTurnos son pequeñas ventanas informativas que mues
 contentType: reference
 module: Configuración y cuenta
 submodule: Comunicación y notificaciones
+subtopic: ""
 intent: Widgets de información importante
 audience:
   - role: Administrador

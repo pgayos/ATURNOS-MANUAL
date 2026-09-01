@@ -6,6 +6,7 @@ description: El cuadrante es la herramienta principal de un trabajador dentro de
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cuadrante Trabajador
 audience:
   - role: Administrador

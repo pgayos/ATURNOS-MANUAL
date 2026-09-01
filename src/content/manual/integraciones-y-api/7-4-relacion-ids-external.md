@@ -6,6 +6,7 @@ description: Desde esta herramienta de Acciones, los superusuarios podrán relac
 contentType: procedure
 module: Integraciones y API
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Relación Ids. External
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: El sistema permite a los administradores ofrecer turnos de trabajo 
 contentType: procedure
 module: Peticiones y cambios
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Oferta de turno
 audience:
   - role: Administrador

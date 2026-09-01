@@ -6,6 +6,7 @@ description: Aquí se puede configurar la visualización de los datos que se nec
 contentType: procedure
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Visualización
 audience:
   - role: Administrador

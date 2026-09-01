@@ -6,6 +6,7 @@ description: Los administradores pueden definir que los trabajadores tengan una 
 contentType: concept
 module: Control horario
 submodule: Altas y bajas
+subtopic: ""
 intent: Flexibilidad de fichajes
 audience:
   - role: Administrador

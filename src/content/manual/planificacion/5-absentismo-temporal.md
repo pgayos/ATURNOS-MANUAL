@@ -6,6 +6,7 @@ description: El administrador tiene a su disposición una herramienta para añad
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Absentismo temporal
 audience:
   - role: Administrador

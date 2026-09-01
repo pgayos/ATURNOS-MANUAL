@@ -6,6 +6,7 @@ description: Son las horas de incremento o decremento que se añaden a un trabaj
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Horas por ajuste
 audience:
   - role: RRHH

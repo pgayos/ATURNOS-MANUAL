@@ -6,6 +6,7 @@ description: El administrador puede insertar en la planificación de los trabaja
 contentType: reference
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Importar horas al trabajador (normales, extra y complementarias)
 audience:
   - role: Administrador

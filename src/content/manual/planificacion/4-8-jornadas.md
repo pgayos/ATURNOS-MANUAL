@@ -6,6 +6,7 @@ description: Este bloque nos muestra el número de jornadas que se realizan por 
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Jornadas
 audience:
   - role: Planificador

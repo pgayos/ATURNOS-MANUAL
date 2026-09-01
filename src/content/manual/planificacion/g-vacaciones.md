@@ -6,6 +6,7 @@ description: Desde aquí podrás controlar las vacaciones que utilizan y de las 
 contentType: reference
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Vacaciones
 audience:
   - role: Administrador

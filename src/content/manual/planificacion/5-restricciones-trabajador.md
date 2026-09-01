@@ -6,6 +6,7 @@ description: Se entiende como restricciones aquellas limitaciones legales o pers
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Restricciones trabajador
 audience:
   - role: Administrador

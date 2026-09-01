@@ -6,6 +6,7 @@ description: Esta restricción establece un horario de tiempo determinado para u
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Sobre los descansos y días planificados
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: El administrador borra los turnos planificados en el día de todos 
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Borrar el día para todos los visibles
 audience:
   - role: Administrador

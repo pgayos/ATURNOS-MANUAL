@@ -6,6 +6,7 @@ description: En la pestaña de nómina del trabajador se puede visualizar:.
 contentType: procedure
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Nóminas en aTurnos
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: En la parte superior del cuadrante se encuentra una barra de herram
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Barra superior del cuadrante
 audience:
   - role: Administrador

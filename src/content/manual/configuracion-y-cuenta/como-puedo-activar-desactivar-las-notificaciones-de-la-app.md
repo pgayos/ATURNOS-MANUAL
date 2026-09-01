@@ -6,6 +6,7 @@ description: Puede que la empresa te tenga la opción bloqueada y no puedas desa
 contentType: faq
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: ¿Cómo puedo activar/desactivar las notificaciones de la APP?
 audience:
   - role: Administrador

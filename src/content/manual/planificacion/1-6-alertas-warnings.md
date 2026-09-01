@@ -6,6 +6,7 @@ description: El sistema de control de presencia avisa tanto en el ‘ Diario ‘
 contentType: troubleshooting
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Alertas (Warnings)
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: "En esta pantalla se visualiza el listado los absentismos totales, 
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Totales en aTurnos
 audience:
   - role: Planificador

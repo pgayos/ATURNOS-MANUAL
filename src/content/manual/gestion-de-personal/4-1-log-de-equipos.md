@@ -6,6 +6,7 @@ description: Aquí encuentras el registro de todas las acciones que se han reali
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Log de equipos
 audience:
   - role: Administrador

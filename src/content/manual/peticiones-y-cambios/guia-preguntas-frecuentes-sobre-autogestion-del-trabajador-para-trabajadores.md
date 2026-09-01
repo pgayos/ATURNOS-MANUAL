@@ -6,6 +6,7 @@ description: Puedes deshacerla desde el apartado Cuadrante → Peticiones y camb
 contentType: concept
 module: Peticiones y cambios
 submodule: Autogestión del trabajador
+subtopic: ""
 intent: Preguntas Frecuentes
 audience:
   - role: Trabajador

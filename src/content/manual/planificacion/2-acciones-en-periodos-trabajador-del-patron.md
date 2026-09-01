@@ -6,6 +6,7 @@ description: "1.- Acciones: haciendo clic en este icono se despliegan las funcio
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Acciones en periodos/trabajador del patrón
 audience:
   - role: Administrador

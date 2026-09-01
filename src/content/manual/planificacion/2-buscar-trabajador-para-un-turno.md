@@ -6,6 +6,7 @@ description: El administrador, como consecuencia de la planificación del cuadra
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Buscar trabajador para un turno
 audience:
   - role: Administrador

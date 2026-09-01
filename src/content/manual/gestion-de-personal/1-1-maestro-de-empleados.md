@@ -6,6 +6,7 @@ description: El maestro de empleados es una de las herramientas más interesante
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Maestro de empleados
 audience:
   - role: Administrador

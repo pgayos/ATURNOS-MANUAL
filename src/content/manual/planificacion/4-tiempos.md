@@ -6,6 +6,7 @@ description: El administrador, en el perfil del trabajador, puede consultar info
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Tiempos en aTurnos
 audience:
   - role: Administrador

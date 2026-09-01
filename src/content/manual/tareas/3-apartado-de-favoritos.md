@@ -6,6 +6,7 @@ description: En aTurnos hay una nueva sección denominada Favoritos que tiene co
 contentType: procedure
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Apartado de favoritos
 audience:
   - role: RRHH

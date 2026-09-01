@@ -6,6 +6,7 @@ description: En el apartado de Recursos Humanos el validador podrá obtener todo
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Estadisticas
 audience:
   - role: RRHH

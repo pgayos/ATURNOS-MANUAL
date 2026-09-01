@@ -6,6 +6,7 @@ description: Para crear un equipo en aTurnos, debes acceder al siguiente enlace.
 contentType: procedure
 module: Configuración y cuenta
 submodule: Configuración inicial
+subtopic: ""
 intent: Crear un equipo
 audience:
   - role: Administrador

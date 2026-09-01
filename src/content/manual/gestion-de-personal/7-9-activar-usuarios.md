@@ -6,6 +6,7 @@ description: En este listado, aparecen los trabajadores no activados, es decir, 
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Activar usuarios
 audience:
   - role: Planificador

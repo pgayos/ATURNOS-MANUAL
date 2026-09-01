@@ -6,6 +6,7 @@ description: aTurnos ofrece una herramienta avanzada de generación de reportes 
 contentType: concept
 module: General
 submodule: Informes y estadísticas
+subtopic: ""
 intent: Crear y compartir informes
 audience:
   - role: Administrador

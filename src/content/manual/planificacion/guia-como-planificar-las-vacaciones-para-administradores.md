@@ -6,6 +6,7 @@ description: "aTurnos te ofrece dos formas principales de gestionar las vacacion
 contentType: faq
 module: Planificación
 submodule: Vacaciones
+subtopic: ""
 intent: Como planificar las vacaciones
 audience:
   - role: Administrador

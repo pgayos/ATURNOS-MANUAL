@@ -6,6 +6,7 @@ description: El listado de peticiones pendientes aparecerán aquellas peticiones
 contentType: concept
 module: Peticiones y cambios
 submodule: Fichajes
+subtopic: ""
 intent: Peticiones pendientes
 audience:
   - role: Administrador

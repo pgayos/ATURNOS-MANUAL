@@ -6,6 +6,7 @@ description: "Es la estimación de los días de trabajo al mes, se calcula con l
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Días estimados a trabajar en el mes
 audience:
   - role: Planificador

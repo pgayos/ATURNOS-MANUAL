@@ -6,6 +6,7 @@ description: Esta barra de herramientas se mantendrá fija mientras navegas por 
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Barra superior de pantalla
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: A través ADMINISTRAR → AJUSTES → NOTIFICACIONES se accede al m
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Notificaciones
 audience:
   - role: Administrador

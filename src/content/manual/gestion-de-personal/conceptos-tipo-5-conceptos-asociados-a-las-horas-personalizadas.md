@@ -6,6 +6,7 @@ description: Los conceptos tipo 5 recuperan la información de las “horas pers
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: "Conceptos tipo 5.: Conceptos asociados a las horas personalizadas"
 audience:
   - role: Planificador

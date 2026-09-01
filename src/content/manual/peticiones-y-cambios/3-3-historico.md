@@ -6,6 +6,7 @@ description: Para acceder a este informe debes acceder a Control de Presencia ‚Ü
 contentType: concept
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Hist√≥rico
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Este reporte permite obtener información de los costes totales dia
 contentType: procedure
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Costes Detalle
 audience:
   - role: Trabajador

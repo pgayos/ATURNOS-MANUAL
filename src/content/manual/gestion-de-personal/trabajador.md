@@ -6,6 +6,7 @@ description: Es el rol de aTurnos que se corresponde con la mayoría de usuarios
 contentType: reference
 module: Gestión de personal
 submodule: Roles y permisos
+subtopic: ""
 intent: Trabajador
 audience:
   - role: Administrador

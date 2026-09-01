@@ -6,6 +6,7 @@ description: Una vez iniciada sesión en la app, encontrarás todos los equipos 
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Inicio en aTurnos
 audience:
   - role: Administrador

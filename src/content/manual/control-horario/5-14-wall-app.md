@@ -6,6 +6,7 @@ description: Este sistema permite realizar el fichaje desde una APP que se puede
 contentType: reference
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Wall App
 audience:
   - role: Administrador

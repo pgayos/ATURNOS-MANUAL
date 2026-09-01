@@ -6,6 +6,7 @@ description: Este coste por hora es aquel que se define cuando todos los trabaja
 contentType: reference
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Costes por hora general (equipo)
 audience:
   - role: RRHH

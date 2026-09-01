@@ -6,6 +6,7 @@ description: En este registro se pueden consultar todos los ‘Datos personaliza
 contentType: procedure
 module: Gestión de personal
 submodule: General
+subtopic: ""
 intent: Datos Personalizados
 audience:
   - role: Administrador

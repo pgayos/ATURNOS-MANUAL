@@ -6,6 +6,7 @@ description: Se identifica como Datos Personalizados aquella información que se
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Datos personalizados del trabajador
 audience:
   - role: Trabajador

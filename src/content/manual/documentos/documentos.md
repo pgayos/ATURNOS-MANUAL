@@ -6,6 +6,7 @@ description: En este apartado se encuentran todos aquellos documentos subidos po
 contentType: concept
 module: Documentos
 submodule: Altas y bajas
+subtopic: ""
 intent: Documentos
 audience:
   - role: Administrador

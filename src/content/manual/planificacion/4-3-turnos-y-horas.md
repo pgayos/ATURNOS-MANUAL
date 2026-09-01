@@ -6,6 +6,7 @@ description: Desde este registro, se pueden modificar, editar o borrar turnos y 
 contentType: concept
 module: Planificación
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Turnos y Horas
 audience:
   - role: Administrador

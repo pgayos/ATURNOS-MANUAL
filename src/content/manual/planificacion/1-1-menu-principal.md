@@ -6,6 +6,7 @@ description: El menú principal de aTurnos te permite acceder y gestionar la inf
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Menú Principal
 audience:
   - role: Administrador

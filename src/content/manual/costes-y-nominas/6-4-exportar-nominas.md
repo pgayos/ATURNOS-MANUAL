@@ -6,6 +6,7 @@ description: La exportación a nómina genera un fichero csv que recupera los va
 contentType: procedure
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Exportar nóminas
 audience:
   - role: RRHH

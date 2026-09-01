@@ -6,6 +6,7 @@ description: Las jornadas en aTurnos se utilizan para identificar si un trabajad
 contentType: procedure
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Jornadas planificadas
 audience:
   - role: Planificador

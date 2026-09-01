@@ -6,6 +6,7 @@ description: El administrador o los administradores del equipo tendr√°n la opci√
 contentType: concept
 module: Documentos
 submodule: Altas y bajas
+subtopic: ""
 intent: Subir y descargar documentos
 audience:
   - role: Administrador

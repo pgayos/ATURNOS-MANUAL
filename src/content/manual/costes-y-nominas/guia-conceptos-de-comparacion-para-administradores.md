@@ -6,6 +6,7 @@ description: Estos conceptos sirven para comparar un concepto ya calculado (por 
 contentType: concept
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Conceptos de comparación
 audience:
   - role: Administrador

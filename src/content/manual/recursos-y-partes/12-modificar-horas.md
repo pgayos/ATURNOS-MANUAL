@@ -6,6 +6,7 @@ description: Con esta opción se pueden modificar las horas añadidas, bien sean
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Modificar horas
 audience:
   - role: Planificador

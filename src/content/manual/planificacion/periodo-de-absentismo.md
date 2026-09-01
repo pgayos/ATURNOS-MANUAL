@@ -6,6 +6,7 @@ description: Periodo de tiempo planificado en el cuadrante, el cual informa, que
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Periodo de absentismo
 audience:
   - role: Planificador

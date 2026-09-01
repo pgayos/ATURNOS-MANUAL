@@ -6,6 +6,7 @@ description: Se muestran los absentismos que no ocupan todo el turno del trabaja
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Temporales
 audience:
   - role: Planificador

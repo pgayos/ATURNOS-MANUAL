@@ -6,6 +6,7 @@ description: La URL pública original de Introduccion no devolvió contenido uti
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Introduccion
 audience:
   - role: Administrador

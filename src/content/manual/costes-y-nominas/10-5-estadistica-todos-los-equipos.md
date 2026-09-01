@@ -6,6 +6,7 @@ description: A través de la estadística todos los equipos se visualiza el resu
 contentType: concept
 module: Costes y nóminas
 submodule: Roles y permisos
+subtopic: ""
 intent: Estadística todos los equipos
 audience:
   - role: RRHH

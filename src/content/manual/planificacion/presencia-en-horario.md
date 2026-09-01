@@ -6,6 +6,7 @@ description: Total de horas presenciales dentro del tiempo planificado. Es el ti
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Presencia en horario
 audience:
   - role: Trabajador

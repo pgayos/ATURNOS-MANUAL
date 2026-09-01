@@ -6,6 +6,7 @@ description: Total de días sin planificación (sin turnos ni horas) en el perio
 contentType: procedure
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Días libres
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: Indica el nivel del usuario para modificar la fecha de cierre de cu
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Nivel que puede cambiar la fecha de cierre de un empleado
 audience:
   - role: Administrador

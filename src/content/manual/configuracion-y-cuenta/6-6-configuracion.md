@@ -6,6 +6,7 @@ description: Los reportes pueden ser configurados para ser exportados en:.
 contentType: reference
 module: Configuración y cuenta
 submodule: General
+subtopic: ""
 intent: Configuración
 audience:
   - role: Administrador

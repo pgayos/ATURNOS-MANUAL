@@ -6,6 +6,7 @@ description: Es una manera rápida y fácil de acceder a un grupo de trabajadore
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Bolsas en aTurnos
 audience:
   - role: Administrador

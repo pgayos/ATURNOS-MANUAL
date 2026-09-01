@@ -6,6 +6,7 @@ description: Hace referencia a cuando un usuario de turnos, bien administrador o
 contentType: concept
 module: Peticiones y cambios
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Petición
 audience:
   - role: Administrador

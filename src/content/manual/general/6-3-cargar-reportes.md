@@ -6,6 +6,7 @@ description: Esta función permite cargar cualquier reporte que haya sido guarda
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Cargar reportes
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Esta restricción asegura que los turnos planificados incluyan el t
 contentType: reference
 module: Control horario
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Sobre el módulo de Control Horario
 audience:
   - role: Administrador

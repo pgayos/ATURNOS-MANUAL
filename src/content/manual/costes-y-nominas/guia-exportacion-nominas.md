@@ -6,6 +6,7 @@ description: El objetivo de la guía de conceptos de nómina es optimizar el pro
 contentType: troubleshooting
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Guía exportación nóminas
 audience:
   - role: RRHH

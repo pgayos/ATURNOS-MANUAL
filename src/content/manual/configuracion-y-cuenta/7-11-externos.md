@@ -6,6 +6,7 @@ description: El usuario externo en aTurnos tiene un rol de consultor, puede acce
 contentType: procedure
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Externos
 audience:
   - role: Administrador

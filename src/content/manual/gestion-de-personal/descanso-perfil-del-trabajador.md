@@ -6,6 +6,7 @@ description: Es el descanso individualizado e informado en el perfil de cada tra
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Descanso perfil del trabajador
 audience:
   - role: Trabajador

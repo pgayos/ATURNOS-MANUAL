@@ -6,6 +6,7 @@ description: Registrar un comentario en el cuadrante de turnos es una acción fr
 contentType: troubleshooting
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Comentarios
 audience:
   - role: Administrador

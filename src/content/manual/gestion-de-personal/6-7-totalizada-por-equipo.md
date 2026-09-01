@@ -6,6 +6,7 @@ description: Recuperamos los valores de los conceptos de nómina totalizado por 
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Totalizada por equipo
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: Como administrador, puedes crear y modificar los días del periodo 
 contentType: procedure
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Sobre la tabla, al hacer clic en casilla
 audience:
   - role: Administrador

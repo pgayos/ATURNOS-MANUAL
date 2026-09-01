@@ -6,6 +6,7 @@ description: Son el total de las horas presenciales menos el tiempo de descanso 
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas trabajadas
 audience:
   - role: Trabajador

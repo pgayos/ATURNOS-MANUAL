@@ -6,6 +6,7 @@ description: Todos los documentos subidos a los que se tiene acceso según los p
 contentType: concept
 module: Documentos
 submodule: General
+subtopic: ""
 intent: Ver documentos subidos
 audience:
   - role: Administrador

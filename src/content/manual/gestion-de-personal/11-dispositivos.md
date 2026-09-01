@@ -6,6 +6,7 @@ description: En este listado se muestran los dispositivos registrados en el Wall
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Dispositivos
 audience:
   - role: Administrador

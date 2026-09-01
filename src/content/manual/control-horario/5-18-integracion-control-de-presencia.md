@@ -6,6 +6,7 @@ description: aTurnos pone a disposición de sus clientes el fichaje a través de
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Integración Control de Presencia
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: aTurnos permite gestionar fácilmente las solicitudes de vacaciones
 contentType: concept
 module: Planificación
 submodule: Vacaciones
+subtopic: ""
 intent: Vacaciones
 audience:
   - role: Trabajador

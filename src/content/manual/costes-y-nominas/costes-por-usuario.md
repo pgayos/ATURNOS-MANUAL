@@ -6,6 +6,7 @@ description: Al contar con el Módulo de Costes entre las funcionalidades de aTu
 contentType: procedure
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Costes por usuario
 audience:
   - role: Administrador

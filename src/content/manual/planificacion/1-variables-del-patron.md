@@ -6,6 +6,7 @@ description: Al crear un patrón de turnos es necesario informar en primer lugar
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Variables del patrón
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: La fuente pública de Estadísticas de absentismos temporales conti
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Estadísticas de absentismos temporales
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Desde el menú Planificador – Patrones de turnos se tiene la opci
 contentType: reference
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Exportar patrones de turno
 audience:
   - role: Planificador

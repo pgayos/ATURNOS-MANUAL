@@ -6,6 +6,7 @@ description: Para configurar el fichaje por geolocalización el proceso es simpl
 contentType: reference
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Geolocalización
 audience:
   - role: Administrador

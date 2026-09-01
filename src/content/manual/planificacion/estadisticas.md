@@ -6,6 +6,7 @@ description: En este informe estadístico nos informará del número de tipos de
 contentType: concept
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Estadísticas
 audience:
   - role: Planificador

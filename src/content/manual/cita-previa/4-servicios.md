@@ -6,6 +6,7 @@ description: Al seleccionar el icono de añadir, se mostrarán las opciones (en 
 contentType: procedure
 module: Cita previa
 submodule: General
+subtopic: ""
 intent: Servicios
 audience:
   - role: Administrador

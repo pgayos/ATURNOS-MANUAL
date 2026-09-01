@@ -6,6 +6,7 @@ description: Un superusuario puede recuperar la planificación de un trabajador 
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Recuperar planificación
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Cabe destacar que esta opción SOLO podrá realizarla los ADMINISTR
 contentType: concept
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Crear nueva oferta
 audience:
   - role: Administrador

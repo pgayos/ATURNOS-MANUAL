@@ -6,6 +6,7 @@ description: Suma de horas de las horas tipo extraordinaria y complementarias m√
 contentType: concept
 module: Planificaci√≥n
 submodule: Turnos y patrones
+subtopic: ""
 intent: Horas no computadas planificadas
 audience:
   - role: Planificador

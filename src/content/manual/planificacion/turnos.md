@@ -6,6 +6,7 @@ description: La URL pública original de Turnos en aTurnos no devolvió contenid
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Turnos en aTurnos
 audience:
   - role: Administrador

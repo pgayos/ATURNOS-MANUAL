@@ -6,6 +6,7 @@ description: La fuente pública de Listado de absentismos temporales contiene mu
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Listado de absentismos temporales
 audience:
   - role: Administrador

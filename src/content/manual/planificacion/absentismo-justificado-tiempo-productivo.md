@@ -6,6 +6,7 @@ description: Absentismo que computa las horas de los turnos y horas a las que af
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Absentismo justificado (Tiempo productivo)
 audience:
   - role: Planificador

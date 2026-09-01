@@ -6,6 +6,7 @@ description: A la hora de planificar tener en cuenta que al asignar un patrón a
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Asignar patrones a los puestos de trabajo
 audience:
   - role: Planificador

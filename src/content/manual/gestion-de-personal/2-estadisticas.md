@@ -6,6 +6,7 @@ description: Para acceder a las estadísticas, se debe acceder al menú lateral 
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Estadísticas
 audience:
   - role: Administrador

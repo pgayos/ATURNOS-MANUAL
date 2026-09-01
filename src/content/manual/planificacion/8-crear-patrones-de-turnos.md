@@ -6,6 +6,7 @@ description: Los manager o supervisores de los equipos de trabajo, pueden tener 
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Crear patrones de turnos
 audience:
   - role: Planificador

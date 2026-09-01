@@ -6,6 +6,7 @@ description: La fuente pública de Timecard Totalizado contiene muy poca informa
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Timecard Totalizado
 audience:
   - role: Administrador

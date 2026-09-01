@@ -6,6 +6,7 @@ description: En ADMINISTRAR → AJUSTES → Exportación a nóminas se debe indi
 contentType: reference
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Periodo nocturno
 audience:
   - role: RRHH

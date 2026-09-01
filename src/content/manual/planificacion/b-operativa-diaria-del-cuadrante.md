@@ -6,6 +6,7 @@ description: Al entrar al cuadrante, nos encontramos con la información de la p
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Operativa diaria del cuadrante
 audience:
   - role: Administrador

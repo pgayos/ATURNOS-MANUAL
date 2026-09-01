@@ -6,6 +6,7 @@ description: Si tu empresa utiliza una red local, es recomendable usar la IP pri
 contentType: troubleshooting
 module: Control horario
 submodule: Horas trabajadas
+subtopic: ""
 intent: Preguntas frecuentes
 audience:
   - role: Administrador

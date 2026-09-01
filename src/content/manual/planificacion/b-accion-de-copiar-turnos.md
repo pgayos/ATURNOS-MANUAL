@@ -6,6 +6,7 @@ description: Seleccionando esta acción se despliegan en la configuración avanz
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Acción de copiar turnos
 audience:
   - role: Administrador

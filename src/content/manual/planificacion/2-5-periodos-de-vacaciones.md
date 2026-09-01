@@ -6,6 +6,7 @@ description: Desde esta pestaña podrás ver los distintos periodos de vacacione
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Periodos de vacaciones
 audience:
   - role: RRHH

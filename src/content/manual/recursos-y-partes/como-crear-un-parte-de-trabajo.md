@@ -6,6 +6,7 @@ description: El primer paso que tiene que realizar un administrador es crear los
 contentType: faq
 module: Recursos y partes
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: ¿Cómo crear un parte de trabajo?
 audience:
   - role: Administrador

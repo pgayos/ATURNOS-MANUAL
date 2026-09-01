@@ -6,6 +6,7 @@ description: El administrador puede tener definido previamente un horario de tra
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Crear tipos de turnos
 audience:
   - role: Administrador

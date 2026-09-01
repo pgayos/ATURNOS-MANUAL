@@ -6,6 +6,7 @@ description: No todo tiene que ser turnos, en aTurnos puedes crear tipos de hora
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Tipos de horas
 audience:
   - role: Administrador

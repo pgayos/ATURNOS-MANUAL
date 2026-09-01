@@ -6,6 +6,7 @@ description: Esta restricción establece un número mínimo de fines de semana l
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Sobre los fines de semana
 audience:
   - role: RRHH

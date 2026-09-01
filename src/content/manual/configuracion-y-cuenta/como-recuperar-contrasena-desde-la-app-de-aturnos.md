@@ -6,6 +6,7 @@ description: A la hora de entrar a la app de aTurnos, se puede haber olvidado la
 contentType: faq
 module: Configuración y cuenta
 submodule: Turnos y patrones
+subtopic: ""
 intent: ¿Cómo recuperar contraseña desde la APP de aTurnos?
 audience:
   - role: Planificador

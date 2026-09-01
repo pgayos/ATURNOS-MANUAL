@@ -6,6 +6,7 @@ description: El usuario se encuentra visible en el cuadrante pero no es visible 
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Usuario Planificable oculto
 audience:
   - role: Administrador

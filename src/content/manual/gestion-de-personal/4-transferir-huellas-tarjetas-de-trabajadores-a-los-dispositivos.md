@@ -6,6 +6,7 @@ description: Tenemos nuestros dispositivos y las huellas dactilares de nuestros 
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Transferir huellas/tarjetas de trabajadores a los dispositivos
 audience:
   - role: Administrador

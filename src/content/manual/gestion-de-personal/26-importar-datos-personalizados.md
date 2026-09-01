@@ -6,6 +6,7 @@ description: Un administrador puede informar los datos personalizados de los tra
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Importar datos personalizados
 audience:
   - role: Administrador

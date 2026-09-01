@@ -6,6 +6,7 @@ description: Se nos muestra una lista con todos los fichajes de un trabajador en
 contentType: procedure
 module: Control horario
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Listado de fichajes
 audience:
   - role: Planificador

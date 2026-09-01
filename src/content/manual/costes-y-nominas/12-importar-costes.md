@@ -6,6 +6,7 @@ description: El administrador puede indicar el coste bruto anual, coste por noct
 contentType: concept
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Importar costes
 audience:
   - role: Administrador

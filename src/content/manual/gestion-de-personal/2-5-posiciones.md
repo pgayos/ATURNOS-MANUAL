@@ -6,6 +6,7 @@ description: Las posiciones las utilizamos en las integraciones o importaciones.
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Posiciones
 audience:
   - role: Administrador

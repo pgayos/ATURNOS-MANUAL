@@ -6,6 +6,7 @@ description: La URL pública original de Que valor indica y para que sirve el st
 contentType: concept
 module: Control horario
 submodule: General
+subtopic: ""
 intent: Que valor indica y para que sirve el status presencia horas contrato
 audience:
   - role: Administrador

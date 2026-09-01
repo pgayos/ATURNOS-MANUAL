@@ -6,6 +6,7 @@ description: "Foto del trabajador: Si haces clic en el ‘ lapicero ’ podemos 
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Perfil de usuario
 audience:
   - role: Administrador

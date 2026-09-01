@@ -6,6 +6,7 @@ description: El cuadrante cuenta con varias opciones para realizar las siguiente
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Opciones cuadrante
 audience:
   - role: Planificador

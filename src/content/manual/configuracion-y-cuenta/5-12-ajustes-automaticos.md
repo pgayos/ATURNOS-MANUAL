@@ -6,6 +6,7 @@ description: Indicando ‘SI’ en esta función, los ajustes se automatizan sig
 contentType: reference
 module: Configuración y cuenta
 submodule: Equipo y centros
+subtopic: ""
 intent: Ajustes automáticos
 audience:
   - role: Administrador

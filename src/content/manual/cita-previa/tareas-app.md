@@ -6,6 +6,7 @@ description: Este apartado se creó para poder visualizar todas las solicitudes 
 contentType: concept
 module: Cita previa
 submodule: General
+subtopic: ""
 intent: Tareas APP
 audience:
   - role: Administrador

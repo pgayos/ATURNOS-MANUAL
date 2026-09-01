@@ -6,6 +6,7 @@ description: Una vez definidas las variables, como lo son curvas de necesidades 
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Planificación Automática
 audience:
   - role: Planificador

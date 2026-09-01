@@ -6,6 +6,7 @@ description: Como superusuario puede fusionar dos usuarios/cuentas en un solo us
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Fusionar usuarios
 audience:
   - role: Administrador

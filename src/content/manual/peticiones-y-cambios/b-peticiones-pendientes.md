@@ -6,6 +6,7 @@ description: Para acceder a esta pestaña debes ir al Menú → Cuadrante → Pe
 contentType: procedure
 module: Peticiones y cambios
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Peticiones Pendientes
 audience:
   - role: Administrador

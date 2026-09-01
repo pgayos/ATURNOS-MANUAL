@@ -6,6 +6,7 @@ description: Si necesitas informar en aTurnos el coeficiente de horas de nocturn
 contentType: procedure
 module: Configuración y cuenta
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Importación de Ajustes-Coeficiente de Horas
 audience:
   - role: Planificador

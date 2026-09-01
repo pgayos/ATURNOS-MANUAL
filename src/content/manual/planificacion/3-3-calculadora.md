@@ -6,6 +6,7 @@ description: Esta herramienta te ayuda a calcular un patrón en función de los 
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Calculadora
 audience:
   - role: Administrador

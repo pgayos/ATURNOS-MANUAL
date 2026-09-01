@@ -6,6 +6,7 @@ description: Este apartado tan sólo estará disponible en el caso de tener acti
 contentType: concept
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Crear, empezar y finalizar tareas
 audience:
   - role: Trabajador

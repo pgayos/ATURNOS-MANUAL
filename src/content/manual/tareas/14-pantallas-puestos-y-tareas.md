@@ -6,6 +6,7 @@ description: A cada una de las pantallas se le informa una url conectada a su ve
 contentType: procedure
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Pantallas, puestos y tareas
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: A la hora de facilitar la aplicación de patrones de forma masiva a
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: "Importar trabajadores y/o planificación: planificación con patrones"
 audience:
   - role: Planificador

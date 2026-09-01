@@ -6,6 +6,7 @@ description: La URL pública original de Menu del trabajador no devolvió conten
 contentType: concept
 module: Gestión de personal
 submodule: General
+subtopic: ""
 intent: Menu del trabajador
 audience:
   - role: Administrador

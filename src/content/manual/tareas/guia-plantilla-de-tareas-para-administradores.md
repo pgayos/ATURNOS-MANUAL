@@ -6,6 +6,7 @@ description: Cuando se necesita crear varias tareas similares al mismo tiempo, e
 contentType: procedure
 module: Tareas
 submodule: Gestión de tareas
+subtopic: ""
 intent: Plantilla de tareas
 audience:
   - role: Administrador

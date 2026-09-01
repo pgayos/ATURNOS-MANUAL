@@ -6,6 +6,7 @@ description: A través de la estadística diaria de todos los equipos se visuali
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Estadística diaria de todos los equipos
 audience:
   - role: RRHH

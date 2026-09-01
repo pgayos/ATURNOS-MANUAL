@@ -6,6 +6,7 @@ description: El patrón es la relación consecutiva de los días de trabajo y/o 
 contentType: procedure
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Creación de los patrones de trabajo
 audience:
   - role: Planificador

@@ -6,6 +6,7 @@ description: Gestionar los permisos y bajas de los empleados es esencial para ma
 contentType: procedure
 module: Peticiones y cambios
 submodule: Permisos y bajas
+subtopic: ""
 intent: Solicitar, aprobar y gestionar permisos, bajas
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Todas las acciones que se realizan en los dispositivos o aquellas i
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Monitorizar
 audience:
   - role: Administrador

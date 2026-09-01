@@ -6,6 +6,7 @@ description: El trabajador puede tener acceso a sus fichajes para ver gráficame
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Detalle en aTurnos
 audience:
   - role: Planificador

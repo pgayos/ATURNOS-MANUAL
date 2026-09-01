@@ -6,6 +6,7 @@ description: Una vez ya tienes creados los tipos de turnos, ya está todo prepar
 contentType: procedure
 module: Planificación
 submodule: Turnos y cuadrantes
+subtopic: ""
 intent: Métodos para asignar turnos a los trabajadores
 audience:
   - role: Administrador

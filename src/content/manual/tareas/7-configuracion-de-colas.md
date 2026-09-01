@@ -6,6 +6,7 @@ description: Una vez dadas de alta las Especialidades se crean las Colas, acceda
 contentType: procedure
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Configuración de colas
 audience:
   - role: Administrador

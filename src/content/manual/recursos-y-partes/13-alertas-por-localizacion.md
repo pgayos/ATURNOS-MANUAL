@@ -6,6 +6,7 @@ description: La fuente pública de Alertas por localización contiene muy poca i
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Alertas por localización
 audience:
   - role: Administrador

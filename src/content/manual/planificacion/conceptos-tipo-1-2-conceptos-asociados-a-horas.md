@@ -6,6 +6,7 @@ description: Contabilizan el número de horas que el trabajador tiene planificad
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: "Conceptos tipo 1.2: Conceptos asociados a horas"
 audience:
   - role: Administrador

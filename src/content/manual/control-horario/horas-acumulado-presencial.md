@@ -6,6 +6,7 @@ description: Hace referencia al total de horas sin ajustar del estado de horas d
 contentType: concept
 module: Control horario
 submodule: Configuración
+subtopic: ""
 intent: Horas acumulado presencial
 audience:
   - role: RRHH

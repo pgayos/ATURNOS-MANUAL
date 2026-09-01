@@ -6,6 +6,7 @@ description: Estadísticamente es el total de horas presenciales dentro de la pl
 contentType: concept
 module: Control horario
 submodule: Turnos y patrones
+subtopic: ""
 intent: Horas presenciales dentro de turno
 audience:
   - role: Planificador

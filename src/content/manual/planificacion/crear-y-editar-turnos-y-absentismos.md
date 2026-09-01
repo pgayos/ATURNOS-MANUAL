@@ -6,6 +6,7 @@ description: Los administradores pueden crear tipos de turno y absentismos desde
 contentType: reference
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Crear y editar turnos y absentismos
 audience:
   - role: Administrador

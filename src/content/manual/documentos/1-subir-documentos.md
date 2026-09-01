@@ -6,6 +6,7 @@ description: El trabajador puede tener el permiso de subir documentos que sean d
 contentType: concept
 module: Documentos
 submodule: Altas y bajas
+subtopic: ""
 intent: Subir documentos
 audience:
   - role: Administrador

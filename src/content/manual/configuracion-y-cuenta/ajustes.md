@@ -6,6 +6,7 @@ description: La fuente pública de Ajustes en aTurnos contiene muy poca informac
 contentType: reference
 module: Configuración y cuenta
 submodule: General
+subtopic: ""
 intent: Ajustes en aTurnos
 audience:
   - role: Administrador

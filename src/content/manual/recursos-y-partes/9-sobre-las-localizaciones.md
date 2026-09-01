@@ -6,6 +6,7 @@ description: Esta restricción impide planificar a los trabajadores de una deter
 contentType: procedure
 module: Recursos y partes
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Sobre las localizaciones
 audience:
   - role: Planificador

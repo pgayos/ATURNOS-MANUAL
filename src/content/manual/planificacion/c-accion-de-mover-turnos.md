@@ -6,6 +6,7 @@ description: La particularidad de esta opción es que los turnos que tenga plani
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Acción de mover turnos
 audience:
   - role: Planificador

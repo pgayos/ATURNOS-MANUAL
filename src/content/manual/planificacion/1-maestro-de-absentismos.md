@@ -6,6 +6,7 @@ description: El maestro de absentismo genera un reporte informando diferentes co
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Maestro de absentismos
 audience:
   - role: Administrador

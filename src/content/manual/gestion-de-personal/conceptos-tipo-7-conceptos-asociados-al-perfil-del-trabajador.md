@@ -6,6 +6,7 @@ description: Recuperan valores de algunos datos relativos al trabajador:.
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: "Conceptos tipo 7: Conceptos asociados al perfil del trabajador"
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: La fuente pública de Configuración general contiene muy poca info
 contentType: reference
 module: Configuración y cuenta
 submodule: General
+subtopic: ""
 intent: Configuración general
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Por diferentes circunstancias, puedes dejar de usar algún patrón 
 contentType: concept
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Borrar patrón
 audience:
   - role: Planificador

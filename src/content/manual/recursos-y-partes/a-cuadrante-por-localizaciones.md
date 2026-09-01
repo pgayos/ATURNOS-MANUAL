@@ -6,6 +6,7 @@ description: En aTurnos, el administrador dispone de varias opciones de cuadrant
 contentType: reference
 module: Recursos y partes
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cuadrante por localizaciones
 audience:
   - role: Administrador

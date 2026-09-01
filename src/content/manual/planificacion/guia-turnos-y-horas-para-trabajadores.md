@@ -6,6 +6,7 @@ description: aTurnos te permite realizar solicitudes de turnos y horas de manera
 contentType: procedure
 module: Planificación
 submodule: Turnos y horas
+subtopic: ""
 intent: Turnos y Horas
 audience:
   - role: Trabajador

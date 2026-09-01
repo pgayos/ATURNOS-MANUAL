@@ -6,6 +6,7 @@ description: En aTurnos, los conceptos de nómina convierten la planificación (
 contentType: reference
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Conceptos de cálculo
 audience:
   - role: Administrador

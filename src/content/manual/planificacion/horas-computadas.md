@@ -6,6 +6,7 @@ description: Total de las horas computadas de los turnos y horas informadas en c
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas computadas
 audience:
   - role: RRHH
