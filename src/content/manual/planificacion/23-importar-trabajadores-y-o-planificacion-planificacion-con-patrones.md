@@ -9,7 +9,7 @@ submodule: Vacaciones y ausencias
 subtopic: ""
 intent: "Importar trabajadores y/o planificación: planificación con patrones"
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

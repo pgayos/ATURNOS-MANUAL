@@ -9,7 +9,7 @@ submodule: Cuadrante
 subtopic: ""
 intent: Horas normales (fuera de turno)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: fuera

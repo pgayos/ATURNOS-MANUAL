@@ -9,7 +9,7 @@ submodule: Usuarios y perfiles
 subtopic: ""
 intent: Detalle diario
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -11,8 +11,6 @@ intent: "Conceptos tipo 1.4: Conceptos asociados a las jornadas"
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

@@ -9,7 +9,7 @@ submodule: Altas y bajas
 subtopic: ""
 intent: "Conceptos tipo 5.: Conceptos asociados a las horas personalizadas"
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

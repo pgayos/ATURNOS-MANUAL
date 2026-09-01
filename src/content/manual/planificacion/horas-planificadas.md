@@ -9,7 +9,7 @@ submodule: Cuadrante
 subtopic: ""
 intent: Horas planificadas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: horas

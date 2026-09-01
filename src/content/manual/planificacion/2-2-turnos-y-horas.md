@@ -11,8 +11,6 @@ intent: Turnos y horas
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

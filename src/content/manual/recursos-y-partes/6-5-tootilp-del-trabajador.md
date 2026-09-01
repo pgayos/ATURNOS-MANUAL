@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Tootilp del trabajador
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

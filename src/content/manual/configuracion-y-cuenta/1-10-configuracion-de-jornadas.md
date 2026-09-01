@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Configuración de jornadas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: configuracion

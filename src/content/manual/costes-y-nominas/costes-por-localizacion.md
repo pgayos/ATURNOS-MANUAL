@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Costes por localización
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: costes

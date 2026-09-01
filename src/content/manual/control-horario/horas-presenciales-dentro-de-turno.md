@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Horas presenciales dentro de turno
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: dentro

@@ -11,8 +11,6 @@ intent: Crear y editar turnos y absentismos
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: absentismos
     label: Absentismos

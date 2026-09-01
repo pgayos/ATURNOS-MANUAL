@@ -9,7 +9,7 @@ submodule: Fichajes
 subtopic: ""
 intent: Ajustes del control horario
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

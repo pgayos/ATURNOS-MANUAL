@@ -11,8 +11,6 @@ intent: "Conceptos tipo 1.3: Conceptos asociados a los días"
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: asociados
     label: Asociados

@@ -9,7 +9,7 @@ submodule: Vacaciones y ausencias
 subtopic: ""
 intent: Jornadas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: jornadas

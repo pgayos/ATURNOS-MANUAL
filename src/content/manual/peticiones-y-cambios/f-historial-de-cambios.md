@@ -11,8 +11,6 @@ intent: Historial de cambios
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

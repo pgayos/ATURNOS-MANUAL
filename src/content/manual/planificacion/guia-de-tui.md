@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Guía de TUI
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: guia

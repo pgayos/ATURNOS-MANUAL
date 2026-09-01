@@ -55,7 +55,7 @@ function buildModuleCards(source: typeof allArticles) {
         (a) => a.data.module === module.name,
       );
       const profileCounts = Object.fromEntries(
-        ["Trabajador", "Planificador", "Administrador", "RRHH"].map(
+        ["Trabajador", "Administrador", "RRHH"].map(
           (profile) => [
             profile,
             moduleArticles.filter((article) =>

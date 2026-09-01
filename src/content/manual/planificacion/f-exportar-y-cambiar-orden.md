@@ -13,8 +13,6 @@ audience:
     access: applicable
   - role: RRHH
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Desarrollador API
     access: applicable
 entities:

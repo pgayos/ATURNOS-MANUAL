@@ -9,7 +9,7 @@ submodule: Vacaciones y ausencias
 subtopic: ""
 intent: Añadir horas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

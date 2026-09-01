@@ -42,7 +42,7 @@ interface SubtopicProps {
 type Props = ModuleProps | SubmoduleProps | SubtopicProps;
 
 export async function getStaticPaths() {
-  const profileRoles = ['Trabajador', 'Planificador', 'Administrador', 'RRHH'] as const;
+  const profileRoles = ['Trabajador', 'Administrador', 'RRHH'] as const;
 
   const sortArticles = (list: Article[]) =>
     [...list].sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title, 'es'));

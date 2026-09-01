@@ -11,8 +11,6 @@ intent: Nivel mínimo que puede cambiar la fecha de cierre a pasado
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: cambiar
     label: Cambiar

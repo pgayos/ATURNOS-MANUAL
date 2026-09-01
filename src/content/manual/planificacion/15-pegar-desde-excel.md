@@ -9,7 +9,7 @@ submodule: Vacaciones y ausencias
 subtopic: ""
 intent: Pegar desde Excel
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

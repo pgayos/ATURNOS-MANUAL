@@ -11,8 +11,6 @@ intent: Revisar cuadrante y añadir/modificar/eliminar turnos
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
   - role: Desarrollador API

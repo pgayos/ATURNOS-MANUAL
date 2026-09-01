@@ -9,7 +9,7 @@ submodule: Usuarios y perfiles
 subtopic: ""
 intent: Usuario Ficticio
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

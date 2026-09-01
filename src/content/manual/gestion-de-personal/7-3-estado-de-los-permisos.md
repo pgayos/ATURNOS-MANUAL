@@ -11,8 +11,6 @@ intent: Estado de los permisos
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

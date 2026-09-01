@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Funciones principales
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: funciones

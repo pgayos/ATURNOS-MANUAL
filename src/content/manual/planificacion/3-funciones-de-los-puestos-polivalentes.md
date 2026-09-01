@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: "Funciones de los puestos: polivalentes"
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: funciones

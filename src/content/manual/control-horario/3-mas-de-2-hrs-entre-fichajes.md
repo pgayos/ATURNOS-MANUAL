@@ -9,7 +9,7 @@ submodule: Altas y bajas
 subtopic: ""
 intent: Más de 2 Hrs entre fichajes
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

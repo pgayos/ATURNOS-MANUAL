@@ -11,8 +11,6 @@ intent: ¿Cómo se llama a los clientes?
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: clientes
     label: Clientes

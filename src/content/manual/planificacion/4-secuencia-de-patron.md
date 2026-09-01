@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Secuencia de patrón
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: patron

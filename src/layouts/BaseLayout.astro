@@ -1,10 +1,19 @@
 ---
-import '../styles/global.css';
-interface Props { title?: string; description?: string; }
-const { title='Centro de ayuda de aTurnos', description='Aprende a utilizar aTurnos con guías claras y respuestas verificadas.' } = Astro.props;
+import "../styles/global.css";
+interface Props {
+  title?: string;
+  description?: string;
+}
+const {
+  title = "Centro de ayuda de aTurnos",
+  description = "Aprende a utilizar aTurnos con guías claras y respuestas verificadas.",
+} = Astro.props;
 const deploymentBranch = import.meta.env.PUBLIC_DEPLOYMENT_BRANCH;
-const preventIndexing = Boolean(deploymentBranch && deploymentBranch !== 'main');
+const preventIndexing = Boolean(
+  deploymentBranch && deploymentBranch !== "main",
+);
 ---
+
 <!doctype html>
 <html lang="es">
   <head>
@@ -15,13 +24,24 @@ const preventIndexing = Boolean(deploymentBranch && deploymentBranch !== 'main')
     <link rel="icon" type="image/svg+xml" href="/brand/aturnos-symbol.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>{title}</title>
   </head>
   <body>
-    <div class="profile-loader" id="profile-loader" role="status" aria-live="polite" hidden>
+    <div
+      class="profile-loader"
+      id="profile-loader"
+      role="status"
+      aria-live="polite"
+      hidden
+    >
       <div class="profile-loader-card">
-        <span class="profile-loader-mark" aria-hidden="true"><img src="/brand/aturnos-logo.svg" alt="" /></span>
+        <span class="profile-loader-mark" aria-hidden="true"
+          ><img src="/brand/aturnos-logo.svg" alt="" /></span
+        >
         <strong>Adaptando el manual a tu perfil</strong>
         <span>Estamos filtrando los artículos más relevantes.</span>
       </div>
@@ -29,64 +49,113 @@ const preventIndexing = Boolean(deploymentBranch && deploymentBranch !== 'main')
     <header class="site-header">
       <nav class="container nav" aria-label="Navegación principal">
         <a class="logo" href="/" aria-label="aTurnos · Centro de ayuda">
-          <img src="/brand/aturnos-logo.svg" width="147" height="38" alt="aTurnos" />
+          <img
+            src="/brand/aturnos-logo.svg"
+            width="147"
+            height="38"
+            alt="aTurnos"
+          />
           <span class="logo-divider" aria-hidden="true"></span>
           <span>Centro de ayuda</span>
         </a>
         <div class="nav-links">
-          <a href="/#modulos">Módulos</a><a class="search-link" href="/buscar/"><span aria-hidden="true">⌕</span> Buscar</a>
+          <a href="/#modulos">Módulos</a><a class="search-link" href="/buscar/"
+            ><span aria-hidden="true">⌕</span> Buscar</a
+          >
         </div>
-        <select class="profile-picker" id="profile-picker" aria-label="Seleccionar mi perfil">
-          <option value="general">Mi perfil</option><option>Trabajador</option><option>Planificador</option><option>Administrador</option><option>RRHH</option>
+        <select
+          class="profile-picker"
+          id="profile-picker"
+          aria-label="Seleccionar mi perfil"
+        >
+          <option value="general">Mi perfil</option><option>Trabajador</option
+          ><option>Administrador</option><option>RRHH</option>
         </select>
       </nav>
     </header>
     <slot />
-    <footer class="site-footer"><div class="container footer-inner"><img src="/brand/aturnos-logo.svg" width="126" height="32" alt="aTurnos" /><span>Centro de ayuda · Contenido público sujeto a revisión editorial.</span><a href="https://aturnos.com/" rel="external">Ir a aTurnos.com</a></div></footer>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <img
+          src="/brand/aturnos-logo.svg"
+          width="126"
+          height="32"
+          alt="aTurnos"
+        /><span
+          >Centro de ayuda · Contenido público sujeto a revisión editorial.</span
+        ><a href="https://aturnos.com/" rel="external">Ir a aTurnos.com</a>
+      </div>
+    </footer>
     <script is:inline>
-      const picker = document.querySelector('#profile-picker');
-      const profileLoader = document.querySelector('#profile-loader');
+      const picker = document.querySelector("#profile-picker");
+      const profileLoader = document.querySelector("#profile-loader");
       if (picker) {
-        picker.value = localStorage.getItem('manual-profile') || 'general';
+        picker.value = localStorage.getItem("manual-profile") || "general";
         document.documentElement.dataset.profile = picker.value;
 
-        const applyProfileFilter = profile => {
-          document.querySelectorAll('[data-profile-card]').forEach(card => {
-            const profiles = (card.dataset.profiles || '').split('|').filter(Boolean);
-            card.hidden = profile !== 'general' && !profiles.includes(profile);
+        const applyProfileFilter = (profile) => {
+          document.querySelectorAll("[data-profile-card]").forEach((card) => {
+            const profiles = (card.dataset.profiles || "")
+              .split("|")
+              .filter(Boolean);
+            card.hidden = profile !== "general" && !profiles.includes(profile);
           });
 
-          document.querySelectorAll('[data-module-profile-counts]').forEach(card => {
-            const counts = JSON.parse(card.dataset.moduleProfileCounts || '{}');
-            const count = profile === 'general' ? Number(card.dataset.totalCount || 0) : Number(counts[profile] || 0);
-            card.hidden = profile !== 'general' && count === 0;
-            const label = card.querySelector('[data-module-count]');
-            if (label) label.textContent = `${count} ${count === 1 ? 'artículo' : 'artículos'}`;
-          });
+          document
+            .querySelectorAll("[data-module-profile-counts]")
+            .forEach((card) => {
+              const counts = JSON.parse(
+                card.dataset.moduleProfileCounts || "{}",
+              );
+              const count =
+                profile === "general"
+                  ? Number(card.dataset.totalCount || 0)
+                  : Number(counts[profile] || 0);
+              card.hidden = profile !== "general" && count === 0;
+              const label = card.querySelector("[data-module-count]");
+              if (label)
+                label.textContent = `${count} ${count === 1 ? "artículo" : "artículos"}`;
+            });
 
-          const visibleCards = [...document.querySelectorAll('[data-profile-list] [data-profile-card]:not([hidden])')];
-          document.querySelectorAll('[data-profile-visible-count]').forEach(label => {
-            label.textContent = String(visibleCards.length);
-          });
-          const areas = new Set(visibleCards.map(card => card.dataset.submodule).filter(Boolean));
-          document.querySelectorAll('[data-profile-area-count]').forEach(label => {
-            label.textContent = String(areas.size);
-          });
-          document.querySelectorAll('[data-profile-empty]').forEach(message => {
-            message.hidden = visibleCards.length !== 0;
-          });
+          const visibleCards = [
+            ...document.querySelectorAll(
+              "[data-profile-list] [data-profile-card]:not([hidden])",
+            ),
+          ];
+          document
+            .querySelectorAll("[data-profile-visible-count]")
+            .forEach((label) => {
+              label.textContent = String(visibleCards.length);
+            });
+          const areas = new Set(
+            visibleCards.map((card) => card.dataset.submodule).filter(Boolean),
+          );
+          document
+            .querySelectorAll("[data-profile-area-count]")
+            .forEach((label) => {
+              label.textContent = String(areas.size);
+            });
+          document
+            .querySelectorAll("[data-profile-empty]")
+            .forEach((message) => {
+              message.hidden = visibleCards.length !== 0;
+            });
         };
 
         applyProfileFilter(picker.value);
-        picker.addEventListener('change', () => {
+        picker.addEventListener("change", () => {
           profileLoader.hidden = false;
-          profileLoader.dataset.busy = 'profile';
-          localStorage.setItem('manual-profile', picker.value);
+          profileLoader.dataset.busy = "profile";
+          localStorage.setItem("manual-profile", picker.value);
           document.documentElement.dataset.profile = picker.value;
           applyProfileFilter(picker.value);
-          window.dispatchEvent(new CustomEvent('manual-profile-change', { detail: { profile: picker.value } }));
+          window.dispatchEvent(
+            new CustomEvent("manual-profile-change", {
+              detail: { profile: picker.value },
+            }),
+          );
           window.setTimeout(() => {
-            if (profileLoader.dataset.busy === 'profile') {
+            if (profileLoader.dataset.busy === "profile") {
               delete profileLoader.dataset.busy;
               profileLoader.hidden = true;
             }

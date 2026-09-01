@@ -11,8 +11,6 @@ intent: Detalle de los fichajes
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

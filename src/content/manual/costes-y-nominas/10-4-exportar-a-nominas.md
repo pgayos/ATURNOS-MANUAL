@@ -11,7 +11,7 @@ intent: Exportar a nóminas
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: exportar

@@ -9,7 +9,7 @@ submodule: Fichajes
 subtopic: ""
 intent: Resumen diario
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

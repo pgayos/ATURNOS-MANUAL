@@ -9,7 +9,7 @@ submodule: Cuadrante
 subtopic: ""
 intent: Estadísticas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: estadisticas

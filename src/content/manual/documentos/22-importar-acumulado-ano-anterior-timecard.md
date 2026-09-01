@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Importar acumulado año anterior (Timecard)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

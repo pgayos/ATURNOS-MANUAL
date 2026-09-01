@@ -9,7 +9,7 @@ submodule: Vacaciones y ausencias
 subtopic: ""
 intent: Crear patrones de turnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: crear

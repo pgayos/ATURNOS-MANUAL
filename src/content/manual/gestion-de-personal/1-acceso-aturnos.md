@@ -9,7 +9,7 @@ submodule: Usuarios y perfiles
 subtopic: ""
 intent: Acceso aTurnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: acceso

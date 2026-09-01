@@ -11,7 +11,7 @@ intent: Límites superiores de horas de los empleados
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

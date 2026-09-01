@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Absentismo justificado (No productivo, no incluye plus festivos ni nocturnidad)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: absentismo

@@ -11,7 +11,7 @@ intent: "Conceptos tipo 4: Conceptos asociados a los tipos de turnos"
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

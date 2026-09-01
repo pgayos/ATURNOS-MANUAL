@@ -9,7 +9,7 @@ submodule: Fichajes
 subtopic: ""
 intent: Integración Control de Presencia
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Desarrollador API
     access: applicable

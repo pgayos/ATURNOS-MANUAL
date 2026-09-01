@@ -9,7 +9,7 @@ submodule: Altas y bajas
 subtopic: ""
 intent: Jornadas absentismos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

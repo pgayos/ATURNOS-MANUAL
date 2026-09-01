@@ -9,7 +9,7 @@ submodule: Cuadrante
 subtopic: ""
 intent: Borrar patrón
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: borrar

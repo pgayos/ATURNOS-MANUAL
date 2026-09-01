@@ -11,8 +11,6 @@ intent: ¿Cómo puedo ver el cuadrante de mis compañeros?
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

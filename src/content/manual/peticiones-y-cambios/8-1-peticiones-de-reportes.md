@@ -11,7 +11,7 @@ intent: Peticiones de reportes
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: peticiones

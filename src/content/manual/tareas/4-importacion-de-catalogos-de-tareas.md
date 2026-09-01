@@ -11,8 +11,6 @@ intent: Importación de catálogos de tareas
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: catalogos
     label: Catalogos

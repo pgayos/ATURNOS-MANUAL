@@ -11,7 +11,7 @@ intent: Apartado de favoritos
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

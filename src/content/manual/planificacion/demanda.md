@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Demanda en aTurnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: demanda

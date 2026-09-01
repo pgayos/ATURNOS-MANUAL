@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Horas presenciales en turno no computable
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: computable

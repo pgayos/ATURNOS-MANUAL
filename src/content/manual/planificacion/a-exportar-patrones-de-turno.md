@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Exportar patrones de turno
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: exportar

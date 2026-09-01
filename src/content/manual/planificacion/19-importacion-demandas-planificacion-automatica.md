@@ -11,8 +11,6 @@ intent: Importación demandas (Planificación automática)
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: automatica
     label: Automatica

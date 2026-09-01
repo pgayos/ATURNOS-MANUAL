@@ -9,7 +9,7 @@ submodule: Fichajes
 subtopic: ""
 intent: Sistemas biométricos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

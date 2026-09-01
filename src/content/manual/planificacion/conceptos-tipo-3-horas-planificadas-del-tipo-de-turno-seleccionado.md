@@ -11,7 +11,7 @@ intent: "Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado"
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

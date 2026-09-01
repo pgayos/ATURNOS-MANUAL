@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Horas no computadas planificadas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: computadas

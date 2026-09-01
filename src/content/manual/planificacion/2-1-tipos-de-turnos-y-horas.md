@@ -11,8 +11,6 @@ intent: Tipos de turnos y horas
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: horas
     label: Horas

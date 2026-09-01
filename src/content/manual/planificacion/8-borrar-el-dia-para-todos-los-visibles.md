@@ -11,8 +11,6 @@ intent: Borrar el día para todos los visibles
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

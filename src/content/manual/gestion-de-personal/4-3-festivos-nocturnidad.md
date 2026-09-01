@@ -9,7 +9,7 @@ submodule: Altas y bajas
 subtopic: ""
 intent: Festivos & Nocturnidad
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

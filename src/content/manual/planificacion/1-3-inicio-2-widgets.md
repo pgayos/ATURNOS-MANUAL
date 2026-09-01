@@ -13,8 +13,6 @@ audience:
     access: applicable
   - role: RRHH
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Creación de los patrones de trabajo
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: creacion

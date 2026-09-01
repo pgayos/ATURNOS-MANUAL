@@ -11,8 +11,6 @@ intent: Importar días festivos en los equipos
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: dias
     label: Dias

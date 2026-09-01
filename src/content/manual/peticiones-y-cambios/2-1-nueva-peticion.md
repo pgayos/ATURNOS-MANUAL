@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Nueva petición
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

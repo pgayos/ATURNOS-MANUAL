@@ -11,8 +11,6 @@ intent: Sobre la tabla, al hacer clic en casilla
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: casilla
     label: Casilla

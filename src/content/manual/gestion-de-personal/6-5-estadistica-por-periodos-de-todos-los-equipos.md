@@ -11,7 +11,7 @@ intent: Estadística por periodos de todos los equipos
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

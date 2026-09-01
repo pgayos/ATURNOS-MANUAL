@@ -9,7 +9,7 @@ submodule: Cuadrante
 subtopic: ""
 intent: El día a día
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: dia

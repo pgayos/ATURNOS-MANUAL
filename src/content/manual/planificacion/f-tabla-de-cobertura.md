@@ -11,8 +11,6 @@ intent: Tabla de Cobertura
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: cobertura
     label: Cobertura

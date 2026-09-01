@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Días libres
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: dias

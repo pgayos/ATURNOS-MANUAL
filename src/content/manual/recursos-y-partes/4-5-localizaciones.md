@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Localizaciones
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

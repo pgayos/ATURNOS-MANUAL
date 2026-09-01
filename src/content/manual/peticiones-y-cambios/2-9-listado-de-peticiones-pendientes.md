@@ -11,8 +11,6 @@ intent: Listado de peticiones pendientes
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: listado
     label: Listado

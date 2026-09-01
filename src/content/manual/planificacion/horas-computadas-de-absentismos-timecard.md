@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Horas computadas de absentismos (Timecard)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: absentismos

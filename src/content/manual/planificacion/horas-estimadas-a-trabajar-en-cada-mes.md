@@ -9,7 +9,7 @@ submodule: Vacaciones y ausencias
 subtopic: ""
 intent: Horas estimadas a trabajar en cada mes
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: cada

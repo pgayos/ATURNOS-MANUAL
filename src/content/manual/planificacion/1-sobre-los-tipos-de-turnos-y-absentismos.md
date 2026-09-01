@@ -11,7 +11,7 @@ intent: Sobre los tipos de turnos y absentismos
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: absentismos

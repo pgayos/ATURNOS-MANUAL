@@ -9,7 +9,7 @@ submodule: Cuadrante
 subtopic: ""
 intent: Turno en aTurnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: turno

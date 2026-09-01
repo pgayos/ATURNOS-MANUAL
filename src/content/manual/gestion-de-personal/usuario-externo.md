@@ -9,7 +9,7 @@ submodule: Usuarios y perfiles
 subtopic: ""
 intent: Usuario Externo
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: externo

@@ -11,8 +11,6 @@ intent: Configuración
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: configuracion
     label: Configuracion

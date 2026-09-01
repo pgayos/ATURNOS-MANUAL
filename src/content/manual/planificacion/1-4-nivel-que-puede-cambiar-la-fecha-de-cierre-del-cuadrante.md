@@ -11,8 +11,6 @@ intent: Nivel que puede cambiar la fecha de cierre del cuadrante
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

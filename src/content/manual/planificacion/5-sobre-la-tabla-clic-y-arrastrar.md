@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Sobre la tabla, clic y arrastrar
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: arrastrar

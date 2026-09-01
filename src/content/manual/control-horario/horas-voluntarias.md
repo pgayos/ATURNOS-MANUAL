@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Horas voluntarias
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: horas

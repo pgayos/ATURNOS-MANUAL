@@ -9,7 +9,7 @@ submodule: Cuadrante
 subtopic: ""
 intent: Turnos por teclado
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: teclado

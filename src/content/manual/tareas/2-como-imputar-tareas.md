@@ -9,7 +9,7 @@ submodule: Altas y bajas
 subtopic: ""
 intent: Cómo imputar tareas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -2,7 +2,7 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
-const role = z.enum(['Trabajador', 'Planificador', 'Administrador', 'RRHH', 'Nóminas', 'Desarrollador API']);
+const role = z.enum(['Trabajador', 'Administrador', 'RRHH', 'Nóminas', 'Desarrollador API']);
 
 const manual = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/manual' }),

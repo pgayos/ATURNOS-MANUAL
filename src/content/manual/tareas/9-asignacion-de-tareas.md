@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Asignación de tareas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

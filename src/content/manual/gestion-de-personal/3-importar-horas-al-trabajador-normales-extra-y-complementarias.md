@@ -11,8 +11,6 @@ intent: Importar horas al trabajador (normales, extra y complementarias)
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

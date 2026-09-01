@@ -11,7 +11,7 @@ intent: "Conceptos tipo 9: Conceptos asociados a las jornadas partidas"
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

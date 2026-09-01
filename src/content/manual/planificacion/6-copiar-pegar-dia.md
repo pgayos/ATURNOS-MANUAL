@@ -11,8 +11,6 @@ intent: Copiar / Pegar día
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: copiar
     label: Copiar

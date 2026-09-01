@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Cargar la demanda
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

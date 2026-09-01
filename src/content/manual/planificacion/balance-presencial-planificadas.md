@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Balance presencial/planificadas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: balance

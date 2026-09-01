@@ -11,8 +11,6 @@ intent: Aprobar solicitudes de vacaciones
 audience:
   - role: Administrador
     access: required
-  - role: Planificador
-    access: applicable
 entities:
   - id: vacaciones
     label: Vacaciones

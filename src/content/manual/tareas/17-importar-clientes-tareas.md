@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: Importar clientes (Tareas)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: clientes

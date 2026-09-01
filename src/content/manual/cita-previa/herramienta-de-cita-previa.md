@@ -11,8 +11,6 @@ intent: Herramienta de Cita previa
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: cita
     label: Cita

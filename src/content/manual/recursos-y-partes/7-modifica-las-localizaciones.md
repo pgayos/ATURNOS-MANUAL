@@ -9,7 +9,7 @@ submodule: Altas y bajas
 subtopic: ""
 intent: Modifica las localizaciones
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

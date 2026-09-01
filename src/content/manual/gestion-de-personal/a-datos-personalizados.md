@@ -11,8 +11,6 @@ intent: Datos personalizados
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
   - role: Desarrollador API

@@ -11,8 +11,6 @@ intent: Añadir turnos
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: anadir
     label: Anadir

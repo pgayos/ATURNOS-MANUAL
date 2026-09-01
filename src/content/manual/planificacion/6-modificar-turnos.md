@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Modificar turnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: modificar

@@ -11,8 +11,6 @@ intent: ¿Cómo puedo activar/desactivar las notificaciones de la APP?
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: activar
     label: Activar

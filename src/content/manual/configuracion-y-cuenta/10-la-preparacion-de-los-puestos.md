@@ -9,7 +9,7 @@ submodule: General
 subtopic: ""
 intent: La preparación de los puestos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: preparacion

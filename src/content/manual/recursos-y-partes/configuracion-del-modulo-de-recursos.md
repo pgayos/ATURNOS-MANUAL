@@ -11,8 +11,6 @@ intent: Configuración del Módulo de Recursos
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
   - role: Trabajador
     access: applicable
 entities:

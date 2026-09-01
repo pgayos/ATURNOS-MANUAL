@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Cargar demanda desde tareas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Desarrollador API
     access: applicable

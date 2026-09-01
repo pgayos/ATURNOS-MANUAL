@@ -11,8 +11,6 @@ intent: Tolerancia
 audience:
   - role: Administrador
     access: applicable
-  - role: Planificador
-    access: applicable
 entities:
   - id: tolerancia
     label: Tolerancia

@@ -9,7 +9,7 @@ submodule: Turnos y patrones
 subtopic: ""
 intent: Descanso del turno
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: descanso
