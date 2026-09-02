@@ -9,7 +9,7 @@ const manual = defineCollection({
   schema: z.object({
     schemaVersion: z.literal('1.0'),
     contentId: z.string().min(3),
-    title: z.string().min(8),
+    title: z.string().min(5),
     order: z.number().int().positive().default(1),
     description: z.string().min(30),
     contentType: z.enum(['procedure', 'concept', 'reference', 'faq', 'troubleshooting']),
