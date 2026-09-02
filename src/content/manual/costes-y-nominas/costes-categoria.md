@@ -6,11 +6,10 @@ description: Este tipo de coste se recomienda para aquellas empresas que deben d
 contentType: reference
 module: Costes y nóminas
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Costes/Categoría
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

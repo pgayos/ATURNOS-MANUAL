@@ -6,6 +6,7 @@ description: Planifica a tus trabajadores mediante clics en el cuadrante.
 contentType: concept
 module: Planificación
 submodule: Ejercicios prácticos
+subtopic: ""
 intent: Actividad 3. Planifica a tus trabajadores
 audience:
   - role: Administrador

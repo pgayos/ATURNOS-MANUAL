@@ -6,9 +6,10 @@ description: aTurnos dispone de un panel de herramientas para insertar los tipos
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Panel de herramientas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: herramientas

@@ -6,6 +6,7 @@ description: Las Restricciones en aTurnos permiten verificar automáticamente el
 contentType: troubleshooting
 module: Planificación
 submodule: Restricciones
+subtopic: ""
 intent: Las restricciones en aTurnos
 audience:
   - role: Administrador

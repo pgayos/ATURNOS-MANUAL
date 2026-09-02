@@ -6,6 +6,7 @@ description: La URL pública original de Barra superior del cuadrante no devolvi
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Barra superior del cuadrante
 audience:
   - role: Administrador

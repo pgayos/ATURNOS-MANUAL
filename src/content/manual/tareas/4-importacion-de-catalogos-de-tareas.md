@@ -6,11 +6,10 @@ description: Para realizar cualquiera de las acciones que se explican a continua
 contentType: concept
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Importación de catálogos de tareas
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: catalogos

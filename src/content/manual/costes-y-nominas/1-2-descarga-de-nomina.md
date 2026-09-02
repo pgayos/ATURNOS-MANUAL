@@ -6,11 +6,12 @@ description: Se precisa indicar si se permite descargar de nuevo los conceptos d
 contentType: reference
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Descarga de nómina
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

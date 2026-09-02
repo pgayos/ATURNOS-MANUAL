@@ -6,9 +6,10 @@ description: Al crear o editar el patrón de turnos puedes añadir de forma ráp
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Añadir periodo de trabajadores al patrón
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

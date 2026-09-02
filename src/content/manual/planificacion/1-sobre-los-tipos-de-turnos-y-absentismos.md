@@ -6,11 +6,12 @@ description: Es una de las tres restricciones que se aplica por defecto en todos
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Sobre los tipos de turnos y absentismos
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: absentismos

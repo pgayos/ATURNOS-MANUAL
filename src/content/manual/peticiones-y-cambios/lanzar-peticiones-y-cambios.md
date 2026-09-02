@@ -6,11 +6,10 @@ description: A parte de que el trabajador pueda lanzar peticiones y cambios en c
 contentType: concept
 module: Peticiones y cambios
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Lanzar peticiones y cambios
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

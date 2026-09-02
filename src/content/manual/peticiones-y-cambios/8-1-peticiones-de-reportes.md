@@ -6,11 +6,12 @@ description: Algunos de los reportes que solicitas precisan un poco más de tiem
 contentType: concept
 module: Peticiones y cambios
 submodule: Turnos y patrones
+subtopic: ""
 intent: Peticiones de reportes
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: peticiones

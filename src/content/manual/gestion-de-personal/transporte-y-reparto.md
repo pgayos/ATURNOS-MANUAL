@@ -6,9 +6,10 @@ description: Lo primero es conocer nuestro equipo y los datos que necesitemos pa
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Transporte y Reparto
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,6 +6,7 @@ description: La funcionalidad de Asignación Automática de Tareas permite distr
 contentType: concept
 module: Tareas
 submodule: Gestión de tareas
+subtopic: ""
 intent: Asignar tareas de manera automática
 audience:
   - role: Administrador

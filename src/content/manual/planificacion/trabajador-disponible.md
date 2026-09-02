@@ -6,9 +6,10 @@ description: Es el trabajador que tiene la jornada libre. Su planificación est�
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Trabajador disponible
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,6 +6,7 @@ description: Es el total de horas no ajustadas del estado de horas en un periodo
 contentType: procedure
 module: Control horario
 submodule: General
+subtopic: ""
 intent: Acumulado estado de horas
 audience:
   - role: Administrador

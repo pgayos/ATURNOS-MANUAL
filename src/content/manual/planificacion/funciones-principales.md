@@ -6,9 +6,10 @@ description: Haz clic aquí para ver las principales funciones de la APP de aTur
 contentType: procedure
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Funciones principales
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: funciones

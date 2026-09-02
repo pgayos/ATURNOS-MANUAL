@@ -6,11 +6,10 @@ description: Los datos personalizados definen qué información o campos podemos
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Datos personalizados
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

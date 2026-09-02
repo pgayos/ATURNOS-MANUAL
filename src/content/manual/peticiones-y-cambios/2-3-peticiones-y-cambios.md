@@ -6,13 +6,12 @@ description: En esta pestaña el trabajador puede visualizar tanto las peticione
 contentType: concept
 module: Peticiones y cambios
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Peticiones y cambios
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

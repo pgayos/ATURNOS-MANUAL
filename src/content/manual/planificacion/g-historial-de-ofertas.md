@@ -6,6 +6,7 @@ description: En esta pestaña podrá consultar el historial de ofertas de turno 
 contentType: procedure
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Historial de ofertas
 audience:
   - role: Administrador

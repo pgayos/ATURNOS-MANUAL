@@ -6,11 +6,10 @@ description: Algunos managers de operaciones conocen cuál es la demanda que nec
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Importación demandas (Planificación automática)
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: automatica

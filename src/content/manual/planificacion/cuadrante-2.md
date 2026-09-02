@@ -6,6 +6,7 @@ description: La URL pública original de Cuadrante no devolvió contenido utiliz
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Cuadrante
 audience:
   - role: Administrador

@@ -6,11 +6,12 @@ description: Uno de los campos que se informan cuando se crea un recurso es el t
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Tipos de recursos
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

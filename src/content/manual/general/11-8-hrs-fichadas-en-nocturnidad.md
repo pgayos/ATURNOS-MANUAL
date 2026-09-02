@@ -6,6 +6,7 @@ description: La fuente pública de → 8 Hrs fichadas en nocturnidad contiene mu
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: → 8 Hrs fichadas en nocturnidad
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Muestra el cumplimiento (en verde), el exceso (en naranja) y el def
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Tablas de cobertura
 audience:
   - role: Administrador

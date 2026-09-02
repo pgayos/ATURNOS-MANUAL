@@ -6,6 +6,7 @@ description: "Esta opción sirve para crear un concepto “final” a partir de 
 contentType: procedure
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Conceptos que operan entre conceptos
 audience:
   - role: Administrador

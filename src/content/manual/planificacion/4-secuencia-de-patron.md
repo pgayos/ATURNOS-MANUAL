@@ -6,9 +6,10 @@ description: Para establecer cómo va a ser la sucesión de turnos y los días e
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Secuencia de patrón
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: patron

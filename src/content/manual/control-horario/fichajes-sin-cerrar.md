@@ -6,6 +6,7 @@ description: Total de fichajes sin cerrar del trabajador en el periodo seleccion
 contentType: procedure
 module: Control horario
 submodule: Altas y bajas
+subtopic: ""
 intent: Fichajes sin cerrar
 audience:
   - role: Trabajador

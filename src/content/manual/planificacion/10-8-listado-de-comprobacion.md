@@ -6,11 +6,12 @@ description: A través de RRHH → NOMINA → LISTADO DE COMPROBACION se si la p
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Listado de comprobación
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

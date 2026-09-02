@@ -6,13 +6,12 @@ description: Es el tipo de evento básico de planificación en aTurnos. Cada tur
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Turnos en aTurnos
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

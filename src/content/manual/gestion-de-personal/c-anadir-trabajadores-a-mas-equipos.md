@@ -6,13 +6,12 @@ description: Si la necesidad es añadir a un trabajador en otro equipo, el cual 
 contentType: procedure
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Añadir trabajadores a más equipos
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

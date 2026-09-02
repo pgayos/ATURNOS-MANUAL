@@ -6,6 +6,7 @@ description: Esta opción consiste en transformar automáticamente todo el turno
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Cambiar Turno a Horas
 audience:
   - role: Administrador

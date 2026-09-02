@@ -6,6 +6,7 @@ description: Para poder acceder a la gestión documental de aTurnos, es necesari
 contentType: procedure
 module: Documentos
 submodule: Gestión documental
+subtopic: ""
 intent: Gestión documental
 audience:
   - role: Administrador

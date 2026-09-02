@@ -6,6 +6,7 @@ description: Tiempo de menos marcado en la entrada del control de presencia con 
 contentType: reference
 module: Control horario
 submodule: Roles y permisos
+subtopic: ""
 intent: Puntualidad
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: El análisis semanal es un potente herramienta para analizar tu cob
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Análisis semanal
 audience:
   - role: RRHH

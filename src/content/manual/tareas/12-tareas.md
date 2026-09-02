@@ -6,6 +6,7 @@ description: Esta restricción limita el número máximo de horas diarias que qu
 contentType: reference
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Tareas en aTurnos
 audience:
   - role: Trabajador

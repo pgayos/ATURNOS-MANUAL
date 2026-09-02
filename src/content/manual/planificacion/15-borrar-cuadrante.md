@@ -6,11 +6,10 @@ description: La opción ‘Borrar cuadrante’ permite al administrador borrar l
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Borrar cuadrante
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

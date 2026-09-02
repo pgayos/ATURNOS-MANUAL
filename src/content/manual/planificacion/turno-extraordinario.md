@@ -6,11 +6,12 @@ description: Tipo de turno que tiene un computo de 0 horas, pero si tiene duraci
 contentType: concept
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Turno extraordinario
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

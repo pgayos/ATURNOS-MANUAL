@@ -6,11 +6,10 @@ description: Indica el nivel del usuario para modificar la fecha de cierre de cu
 contentType: procedure
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Nivel mínimo que puede cambiar la fecha de cierre a pasado
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: cambiar

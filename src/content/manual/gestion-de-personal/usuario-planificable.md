@@ -6,11 +6,10 @@ description: El usuario se encuentra visible en el cuadrante para el resto de tr
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Usuario Planificable
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,9 +6,10 @@ description: Si un trabajador ha fichado en una semana menos de 8 horas, se most
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Menos de 8 Hrs fichadas semanales
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,11 +6,10 @@ description: Este sistema de fichaje permite que los trabajadores realicen sus f
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Fichaje por IP
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

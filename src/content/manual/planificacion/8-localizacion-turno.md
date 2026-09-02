@@ -6,9 +6,10 @@ description: Las localizaciones se pueden emplear para organizar un equipo en di
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Localización turno
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

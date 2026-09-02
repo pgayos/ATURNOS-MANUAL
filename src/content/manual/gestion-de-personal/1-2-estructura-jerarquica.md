@@ -6,11 +6,12 @@ description: En aTurnos una estructura jerárquica es un modelo organizativo com
 contentType: reference
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Estructura jerárquica
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

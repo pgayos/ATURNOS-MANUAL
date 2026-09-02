@@ -6,11 +6,10 @@ description: Contabilizan el número de días según el criterio de cada concept
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: "Conceptos tipo 1.3: Conceptos asociados a los días"
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: asociados

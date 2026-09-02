@@ -6,6 +6,7 @@ description: aTurnos te permite gestionar de forma sencilla tus ausencias labora
 contentType: concept
 module: Planificación
 submodule: Absentismos
+subtopic: ""
 intent: Absentismos
 audience:
   - role: Trabajador

@@ -6,9 +6,10 @@ description: Es posible que si has utilizado otro sistema de registro de jornada
 contentType: procedure
 module: Documentos
 submodule: General
+subtopic: ""
 intent: Importar acumulado año anterior (Timecard)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

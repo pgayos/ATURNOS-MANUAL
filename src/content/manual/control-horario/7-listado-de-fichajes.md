@@ -6,11 +6,12 @@ description: En esta consulta se informan todos los fichajes resumidos en un lis
 contentType: concept
 module: Control horario
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Listado de fichajes
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

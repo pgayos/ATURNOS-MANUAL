@@ -6,9 +6,10 @@ description: Existen ajustes en las horas realizadas que no se corresponden con 
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Ajuste de coeficientes en nocturnidad y festivos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

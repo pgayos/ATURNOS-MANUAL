@@ -6,11 +6,10 @@ description: Para un correcto funcionamiento de la importación y la exportació
 contentType: reference
 module: Configuración y cuenta
 submodule: Equipo y centros
+subtopic: ""
 intent: Configuración
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: configuracion

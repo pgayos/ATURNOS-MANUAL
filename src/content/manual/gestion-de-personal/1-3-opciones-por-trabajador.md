@@ -6,6 +6,7 @@ description: Haciendo clic en el nombre del trabajador se puede acceder directam
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Opciones por trabajador
 audience:
   - role: Trabajador

@@ -6,6 +6,7 @@ description: La fuente pública de Estadísticas contiene muy poca información 
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Estadísticas
 audience:
   - role: Administrador

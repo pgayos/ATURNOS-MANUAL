@@ -6,9 +6,10 @@ description: La curva de demanda en aTurnos es la cantidad de personal necesario
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Cargar la demanda
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

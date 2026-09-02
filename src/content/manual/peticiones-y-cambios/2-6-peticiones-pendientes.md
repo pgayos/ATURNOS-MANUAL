@@ -6,6 +6,7 @@ description: En este apartado podremos ver y hacer un seguimiento de todas las p
 contentType: concept
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Peticiones pendientes
 audience:
   - role: Administrador

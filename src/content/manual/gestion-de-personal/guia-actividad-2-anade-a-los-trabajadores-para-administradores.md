@@ -6,6 +6,7 @@ description: "Usuarios Reales: Añade a los siguientes empleados con la informac
 contentType: concept
 module: Gestión de personal
 submodule: Alta de trabajadores
+subtopic: ""
 intent: Actividad 2. Añade a los trabajadores
 audience:
   - role: Administrador

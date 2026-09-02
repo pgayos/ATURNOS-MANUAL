@@ -6,6 +6,7 @@ description: Diferencia en horas entre las horas planificadas y horas de absenti
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Estado detalle diario
 audience:
   - role: Administrador

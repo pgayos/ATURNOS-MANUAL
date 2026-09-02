@@ -6,11 +6,10 @@ description: Contar con el Módulo de Costes entre las funcionalidades de aTurno
 contentType: reference
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Costes en aTurnos
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

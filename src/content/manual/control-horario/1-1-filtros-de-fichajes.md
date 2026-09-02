@@ -6,11 +6,10 @@ description: En la barra superior podemos filtrar los fichajes que se quieren vi
 contentType: procedure
 module: Control horario
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Filtros de fichajes
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable
@@ -40,7 +39,7 @@ ai:
   sensitivity: public
   chunking: by-section
 readingTime: 6
-featured: false
+featured: true
 migration:
   sourceCount: 1
   originUrls:
@@ -52,11 +51,13 @@ migration:
 labels: []
 order: 1
 ---
+
 ## Resumen
 
 En la barra superior podemos filtrar los fichajes que se quieren visualizar por:.
 
 ## Procedimiento
+
 - Fechas: se muestran los fichajes de un día.
 - Fichajes según la acción que se ha realizado.
 - Horas: se muestran los fichajes desde una hora inicio a una hora fin.

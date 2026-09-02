@@ -6,11 +6,12 @@ description: Un absentismo es una ausencia en el puesto de trabajo durante los t
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Absentismo
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

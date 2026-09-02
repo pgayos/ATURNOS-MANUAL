@@ -6,6 +6,7 @@ description: La integración de aTurnos con otras herramientas de Recursos Human
 contentType: concept
 module: Integraciones y API
 submodule: Sistemas externos
+subtopic: ""
 intent: Integración con herramientas RRHH y ERP
 audience:
   - role: Administrador

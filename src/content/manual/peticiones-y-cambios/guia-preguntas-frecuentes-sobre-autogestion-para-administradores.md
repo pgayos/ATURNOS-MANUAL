@@ -6,6 +6,7 @@ description: Sí, siempre que sean de tipos diferentes (por ejemplo, una solicit
 contentType: concept
 module: Peticiones y cambios
 submodule: Autogestión
+subtopic: ""
 intent: Preguntas frecuentes
 audience:
   - role: Administrador

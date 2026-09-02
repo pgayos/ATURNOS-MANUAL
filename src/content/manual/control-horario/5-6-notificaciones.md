@@ -6,11 +6,10 @@ description: Los trabajadores o administradores pueden ser notificados en dos ca
 contentType: reference
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Notificaciones
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

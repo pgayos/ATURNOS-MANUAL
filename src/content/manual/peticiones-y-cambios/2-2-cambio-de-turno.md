@@ -6,6 +6,7 @@ description: Si cualquier día te surge un imprevisto y quieres cambiar de turno
 contentType: procedure
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Cambio de turno
 audience:
   - role: Administrador

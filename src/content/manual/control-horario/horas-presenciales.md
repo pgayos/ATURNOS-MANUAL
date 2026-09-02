@@ -6,6 +6,7 @@ description: Son el total de horas desde el momento de la acción del fichaje de
 contentType: procedure
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Horas presenciales
 audience:
   - role: Administrador

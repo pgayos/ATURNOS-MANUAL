@@ -6,9 +6,10 @@ description: La forma de fichar en aTurnos variará según el sistema que utilic
 contentType: faq
 module: Control horario
 submodule: General
+subtopic: ""
 intent: Cómo fichar
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

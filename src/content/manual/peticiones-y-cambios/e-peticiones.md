@@ -6,11 +6,10 @@ description: En ajustes, existe una configuración avanzada dedicada a las petic
 contentType: reference
 module: Peticiones y cambios
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Peticiones
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

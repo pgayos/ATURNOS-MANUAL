@@ -6,6 +6,7 @@ description: Este tipo de restricción resulta ser de obligado compromiso que no
 contentType: concept
 module: Planificación
 submodule: Altas y bajas
+subtopic: ""
 intent: Restricción obligatoria
 audience:
   - role: Administrador

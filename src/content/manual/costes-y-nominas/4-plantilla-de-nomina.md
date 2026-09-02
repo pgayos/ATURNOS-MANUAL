@@ -6,6 +6,7 @@ description: La fuente pública de Plantilla de nómina contiene muy poca inform
 contentType: concept
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Plantilla de nómina
 audience:
   - role: RRHH

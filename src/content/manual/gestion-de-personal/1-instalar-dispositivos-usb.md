@@ -6,11 +6,10 @@ description: Este es el dispositivo con el que tendrá que realizar la lectura d
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Instalar Dispositivos USB
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,6 +6,7 @@ description: Una vez ya has comprendido en el apartado anterior qué son las res
 contentType: concept
 module: Planificación
 submodule: Restricciones
+subtopic: ""
 intent: Restricciones más comunes y su uso
 audience:
   - role: Administrador

@@ -6,9 +6,10 @@ description: En este listado recuperas todos los ajustes de horas y vacaciones i
 contentType: procedure
 module: Configuración y cuenta
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Ajustes en aTurnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

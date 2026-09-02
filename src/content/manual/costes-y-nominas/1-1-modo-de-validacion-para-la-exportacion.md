@@ -6,13 +6,12 @@ description: Se precisa indicar el estado en el que se debe encontrar el cuadran
 contentType: reference
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Modo de validación para la exportación
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: exportacion

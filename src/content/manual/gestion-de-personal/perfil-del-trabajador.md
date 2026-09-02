@@ -6,9 +6,10 @@ description: El perfil del trabajador es el entorno donde se detalla los datos p
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Perfil del trabajador
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

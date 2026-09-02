@@ -6,6 +6,7 @@ description: La URL pública original de Hacer cambio no devolvió contenido uti
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Hacer cambio
 audience:
   - role: Administrador

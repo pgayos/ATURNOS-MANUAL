@@ -6,11 +6,10 @@ description: En el menú Cuadrante anual, el Administrador puede visualizar la p
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cuadrante Anual
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

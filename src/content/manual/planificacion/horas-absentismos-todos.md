@@ -6,6 +6,7 @@ description: Estadísticamente es el total de horas asociadas a cualquier tipo d
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas absentismos (Todos)
 audience:
   - role: Trabajador

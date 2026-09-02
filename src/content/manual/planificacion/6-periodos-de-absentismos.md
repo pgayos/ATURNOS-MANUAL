@@ -6,11 +6,10 @@ description: Se entiende por absentismo (permiso) una ausencia o abandono del pu
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Periodos de absentismos
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

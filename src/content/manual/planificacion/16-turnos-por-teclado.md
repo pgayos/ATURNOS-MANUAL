@@ -6,9 +6,10 @@ description: Esta opción permite ir insertando turnos tecleando la secuencia si
 contentType: concept
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Turnos por teclado
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: teclado

@@ -6,9 +6,10 @@ description: Horas presenciales dentro del tiempo planificado.
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Día presencial
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

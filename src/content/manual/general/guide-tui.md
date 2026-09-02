@@ -6,6 +6,7 @@ description: "In this guide, we will explain the main parts of our software: Pla
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Guide TUI
 audience:
   - role: Administrador

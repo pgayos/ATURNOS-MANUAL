@@ -6,9 +6,10 @@ description: Una vez creado un patrón de turnos, se puede aplicar al cuadrante 
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Aplicar patrón
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

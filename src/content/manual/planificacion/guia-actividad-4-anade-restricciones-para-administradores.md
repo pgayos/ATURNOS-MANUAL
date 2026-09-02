@@ -6,6 +6,7 @@ description: Para garantizar tanto el cumplimiento de la normativa laboral como 
 contentType: concept
 module: Planificación
 submodule: Ejercicios prácticos
+subtopic: ""
 intent: Actividad 4. Añade restricciones
 audience:
   - role: Administrador

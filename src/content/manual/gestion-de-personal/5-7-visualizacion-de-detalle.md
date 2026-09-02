@@ -6,6 +6,7 @@ description: El menú del ‘Detalle’ contiene diferente información sobre lo
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Visualización de Detalle
 audience:
   - role: Trabajador

@@ -6,6 +6,7 @@ description: "Las medidas de personal de Gestión de Personal sirven para regist
 contentType: reference
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Medidas en aTurnos
 audience:
   - role: Administrador

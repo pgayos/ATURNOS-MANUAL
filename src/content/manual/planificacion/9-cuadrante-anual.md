@@ -6,9 +6,10 @@ description: Acceso directo al cuadrante anual del trabajador.
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cuadrante anual
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

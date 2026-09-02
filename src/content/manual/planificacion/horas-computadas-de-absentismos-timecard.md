@@ -6,9 +6,10 @@ description: Total de horas de absentismo que corresponden con turnos que comput
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Horas computadas de absentismos (Timecard)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: absentismos

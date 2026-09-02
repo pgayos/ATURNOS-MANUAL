@@ -6,6 +6,7 @@ description: Gestiono una gran empresa, ¿aTurnos puede ayudarme?.
 contentType: reference
 module: Configuración y cuenta
 submodule: Configuración inicial
+subtopic: ""
 intent: Preguntas frecuentes
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: En este informe se detalla toda la información que se necesita pre
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Informe en aTurnos
 audience:
   - role: Administrador

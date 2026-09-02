@@ -6,11 +6,10 @@ description: Con esta función el administrador del equipo puede copiar los turn
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Copiar y pegar cuadrante
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,9 +6,10 @@ description: Explica costes por localización y su aplicación en aTurnos.
 contentType: concept
 module: Costes y nóminas
 submodule: General
+subtopic: ""
 intent: Costes por localización
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: costes

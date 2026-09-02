@@ -6,6 +6,7 @@ description: Las jornadas se utilizan para identificar si un trabajador ha reali
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cálculo de jornadas
 audience:
   - role: RRHH

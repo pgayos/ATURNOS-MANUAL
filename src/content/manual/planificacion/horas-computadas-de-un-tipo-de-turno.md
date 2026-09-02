@@ -6,6 +6,7 @@ description: Cuando se crea un tipo de turno se define una duración computada q
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas computadas de un tipo de turno
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: Desde el menú de Tareas – Tareas, se van a mostrar el histórico
 contentType: reference
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Tareas en aTurnos
 audience:
   - role: Trabajador

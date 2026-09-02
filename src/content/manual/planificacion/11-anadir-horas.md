@@ -6,9 +6,10 @@ description: Con esta opción se pueden añadir horas, bien sean extra, compleme
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Añadir horas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,11 +6,12 @@ description: Son las horas que tiene que realizar un trabajador por cada uno de 
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Horas contrato
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

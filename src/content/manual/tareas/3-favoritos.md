@@ -6,9 +6,10 @@ description: En aTurnos existe la funcionalidad Favoritos, tiene como objetivo f
 contentType: procedure
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Favoritos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

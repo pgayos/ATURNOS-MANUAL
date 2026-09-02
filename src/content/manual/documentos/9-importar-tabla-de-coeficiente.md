@@ -6,6 +6,7 @@ description: Si necesitas modificar la tabla de coeficiente indicada en Administ
 contentType: reference
 module: Documentos
 submodule: General
+subtopic: ""
 intent: Importar tabla de coeficiente
 audience:
   - role: Administrador

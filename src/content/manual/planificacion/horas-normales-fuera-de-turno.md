@@ -6,9 +6,10 @@ description: Estadísticamente es el total de las horas normales (fuera de turno
 contentType: concept
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Horas normales (fuera de turno)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: fuera

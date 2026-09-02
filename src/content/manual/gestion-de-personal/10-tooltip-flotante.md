@@ -6,6 +6,7 @@ description: Seleccionando la opción de “tooltip flotante”, podrás moverlo
 contentType: procedure
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Tooltip flotante
 audience:
   - role: RRHH

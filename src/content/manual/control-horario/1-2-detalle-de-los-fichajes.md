@@ -6,11 +6,10 @@ description: Los fichajes son todas aquellas líneas rojas que hay en la línea 
 contentType: concept
 module: Control horario
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Detalle de los fichajes
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

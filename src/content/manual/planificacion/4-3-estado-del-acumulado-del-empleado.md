@@ -6,9 +6,10 @@ description: Es un reporte que ofrece las horas del estado acumuladas al compara
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Estado del acumulado del empleado
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

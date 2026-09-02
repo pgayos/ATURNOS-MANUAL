@@ -6,6 +6,7 @@ description: "Recuperan el valor de los datos personalizados que previamente se 
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: "Conceptos tipo 6: Conceptos asociados a los datos personalizados"
 audience:
   - role: RRHH

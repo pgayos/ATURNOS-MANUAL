@@ -6,11 +6,10 @@ description: En el Debe/Haber de aTurnos se visualizan las “deudas” de turno
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Debe/Haber turnos
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

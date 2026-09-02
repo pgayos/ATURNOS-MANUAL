@@ -6,6 +6,7 @@ description: "El listado de fichajes se desglosa en dos pestañas: Fichajes y Fi
 contentType: procedure
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Listado de fichajes
 audience:
   - role: Trabajador

@@ -6,11 +6,10 @@ description: En aTurnos se pueden crear todos los tipos de patrones de turnos qu
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Editar patrón
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

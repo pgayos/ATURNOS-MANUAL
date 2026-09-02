@@ -6,6 +6,7 @@ description: Este reporte ‘Informe control legal’, recoge todas las incidenc
 contentType: concept
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Informe control legal
 audience:
   - role: RRHH

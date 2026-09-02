@@ -6,11 +6,10 @@ description: El administrador del equipo desde la función Tipos, que se encuent
 contentType: concept
 module: Documentos
 submodule: Roles y permisos
+subtopic: ""
 intent: Crear tipo de documento
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

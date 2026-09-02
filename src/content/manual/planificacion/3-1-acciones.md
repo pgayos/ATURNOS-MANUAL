@@ -6,9 +6,10 @@ description: En Acciones quedan registradossss todo lo que ocurren en aTurnos, q
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Acciones
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

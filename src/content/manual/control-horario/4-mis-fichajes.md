@@ -6,6 +6,7 @@ description: Todos aquellos fichajes que el trabajador ha realizado en los disti
 contentType: concept
 module: Control horario
 submodule: Altas y bajas
+subtopic: ""
 intent: Mis fichajes
 audience:
   - role: Trabajador

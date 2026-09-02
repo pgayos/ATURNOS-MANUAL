@@ -6,6 +6,7 @@ description: Este reporte, permite consultar de forma resumida todos los fichaje
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Calidad del fichaje
 audience:
   - role: Administrador

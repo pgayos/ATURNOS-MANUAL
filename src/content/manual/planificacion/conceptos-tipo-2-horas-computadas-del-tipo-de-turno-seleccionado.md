@@ -6,11 +6,12 @@ description: Recupera el número de horas por la duración computada de un deter
 contentType: procedure
 module: Planificación
 submodule: Roles y permisos
+subtopic: ""
 intent: "Conceptos tipo 2: Horas computadas del tipo de turno seleccionado"
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

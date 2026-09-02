@@ -6,6 +6,7 @@ description: El ‘Estado de horas’ mide en cada día cuánto tiempo por exces
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Migrar saldos del Acumulado del Estado de Horas
 audience:
   - role: Trabajador

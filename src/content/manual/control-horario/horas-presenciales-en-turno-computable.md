@@ -6,6 +6,7 @@ description: Son el total de horas presenciales que coinciden con el horario pla
 contentType: concept
 module: Control horario
 submodule: Turnos y patrones
+subtopic: ""
 intent: Horas presenciales en turno computable
 audience:
   - role: Administrador

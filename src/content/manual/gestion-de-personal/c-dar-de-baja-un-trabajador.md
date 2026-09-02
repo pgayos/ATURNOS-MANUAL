@@ -6,11 +6,12 @@ description: En aTurnos el significado de dar de baja a un trabajador no signifi
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Dar de baja un trabajador
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

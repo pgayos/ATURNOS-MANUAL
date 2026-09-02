@@ -6,9 +6,10 @@ description: Muestra el número de turnos efectivos, es decir, los turnos planif
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Jornadas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: jornadas

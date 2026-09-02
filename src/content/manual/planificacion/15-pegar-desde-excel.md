@@ -6,9 +6,10 @@ description: Al seleccionar esta opción, se abrirá la siguiente ventana, donde
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Pegar desde Excel
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

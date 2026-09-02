@@ -6,11 +6,10 @@ description: Se define como Especialidad a la experiencia que define el perfil d
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Especialidades del trabajador
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

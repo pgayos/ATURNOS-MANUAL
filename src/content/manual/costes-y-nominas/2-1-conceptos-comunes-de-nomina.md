@@ -6,6 +6,7 @@ description: La fuente pública de Conceptos comunes de nómina contiene muy poc
 contentType: concept
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Conceptos comunes de nómina
 audience:
   - role: RRHH

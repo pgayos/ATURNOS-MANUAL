@@ -6,6 +6,7 @@ description: La URL pública original de Borrar conceptos en nominas no devolvi�
 contentType: concept
 module: Costes y nóminas
 submodule: General
+subtopic: ""
 intent: Borrar conceptos en nominas
 audience:
   - role: Administrador

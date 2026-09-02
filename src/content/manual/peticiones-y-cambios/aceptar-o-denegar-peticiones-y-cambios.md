@@ -6,6 +6,7 @@ description: "El administrador del equipo podrá ver las peticiones pendientes d
 contentType: concept
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Aceptar o denegar peticiones y cambios
 audience:
   - role: Administrador

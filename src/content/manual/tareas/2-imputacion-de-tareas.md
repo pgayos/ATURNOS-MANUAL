@@ -6,6 +6,7 @@ description: Una vez logeado en el sistema, se accede a la ventana de inicio vis
 contentType: procedure
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Imputación de tareas
 audience:
   - role: Trabajador

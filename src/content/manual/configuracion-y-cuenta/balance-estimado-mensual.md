@@ -6,6 +6,7 @@ description: Es el balance de horas por meses en el periodo seleccionado.
 contentType: procedure
 module: Configuración y cuenta
 submodule: General
+subtopic: ""
 intent: Balance estimado mensual
 audience:
   - role: Administrador

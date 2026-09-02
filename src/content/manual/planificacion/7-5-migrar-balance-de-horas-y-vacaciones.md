@@ -6,13 +6,12 @@ description: Cuando termina un año, los balances de las horas y de las vacacion
 contentType: concept
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Migrar balance de horas y vacaciones
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

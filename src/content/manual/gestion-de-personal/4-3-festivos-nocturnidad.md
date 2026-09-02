@@ -6,9 +6,10 @@ description: Desde las siguientes estadísticas tendremos la opción de ver toda
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Festivos & Nocturnidad
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -1,19 +1,25 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { slugify } from '../../lib/slug';
 import type { CollectionEntry } from 'astro:content';
 interface Props { entry: CollectionEntry<'manual'>; headings: { depth: number; slug: string; text: string }[]; }
 const { entry, headings } = Astro.props;
 const d=entry.data;
-const moduleSlug=entry.id.split('/')[0];
+const moduleSlug=entry.id.split('/').slice(0, -1).join('/');
+// Glosario no tiene páginas de submódulo/subtopic (es un listado único A-Z), así
+// que su breadcrumb y eyebrow no muestran la letra usada solo para agrupar.
+const isGlossary=d.module === 'Glosario';
+const submoduleSlug=slugify(d.submodule);
+const subtopicSlug=d.subtopic ? slugify(d.subtopic) : null;
 const reviewed=d.governance.reviewedAt ? d.governance.reviewedAt.toLocaleDateString('es-ES') : 'Pendiente de revisión';
 ---
 <BaseLayout title={`${d.title} · aTurnos`} description={d.description}>
-  <div class="container breadcrumbs"><a href="/">Inicio</a> / <a href={`/manual/${moduleSlug}/`}>{d.module}</a> / {d.submodule}</div>
+  <div class="container breadcrumbs"><a href="/">Inicio</a> / {isGlossary ? d.module : (<><a href={`/manual/${moduleSlug}/`}>{d.module}</a> / <a href={`/manual/${moduleSlug}/${submoduleSlug}/`}>{d.submodule}</a>{subtopicSlug && <> / <a href={`/manual/${moduleSlug}/${submoduleSlug}/${subtopicSlug}/`}>{d.subtopic}</a></>}</>)}</div>
   <main class="container article-shell">
     <aside class="sidebar" aria-label="Índice del artículo"><strong>En esta página</strong>{headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}</aside>
     <article data-pagefind-body>
       <header class="article-header">
-        <span class="eyebrow">{d.module} · {d.submodule}</span><h1>{d.title}</h1><p class="lead">{d.description}</p>
+        <span class="eyebrow">{isGlossary ? d.module : `${d.module} · ${d.submodule}`}</span><h1>{d.title}</h1><p class="lead">{d.description}</p>
         <div class="badges">{d.audience.map(a=><span class="badge" data-role={a.role} data-pagefind-filter={`profile:${a.role}`}>{a.role}</span>)}</div>
         <div class="article-meta"><span>◷ {d.readingTime} min</span><span>✓ Estado: {d.governance.status}</span><span>↻ Revisado: {reviewed}</span></div>
       </header>

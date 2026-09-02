@@ -6,6 +6,7 @@ description: La fuente pública de Fines de semana fichados contiene muy poca in
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Fines de semana fichados
 audience:
   - role: Administrador

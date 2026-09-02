@@ -6,13 +6,12 @@ description: Con respecto a la nómina, dentro de la configuración del equipo e
 contentType: reference
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Exportación a nóminas
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

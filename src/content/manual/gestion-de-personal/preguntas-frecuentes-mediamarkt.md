@@ -6,6 +6,7 @@ description: Si la pantalla del kiosko no muestra nada o está en blanco, debes 
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Preguntas frecuentes Mediamarkt
 audience:
   - role: Trabajador

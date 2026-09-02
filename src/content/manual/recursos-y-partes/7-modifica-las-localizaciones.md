@@ -6,9 +6,10 @@ description: Al gestionar un equipo puede haber cambios completos de un día en 
 contentType: procedure
 module: Recursos y partes
 submodule: Altas y bajas
+subtopic: ""
 intent: Modifica las localizaciones
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,6 +6,7 @@ description: Esta opción permite dividir o partir un turno y convertirlo en hor
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Dividir turno
 audience:
   - role: Administrador

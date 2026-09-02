@@ -6,6 +6,7 @@ description: Con esta opción, se permite borrar un turno seleccionado dentro de
 contentType: procedure
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Borrar en aTurnos
 audience:
   - role: Administrador

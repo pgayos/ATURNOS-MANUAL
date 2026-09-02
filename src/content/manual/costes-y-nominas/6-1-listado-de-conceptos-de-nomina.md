@@ -6,6 +6,7 @@ description: En este listado puedes ver y exportar con el botón Acciones, los c
 contentType: concept
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Listado de conceptos de nómina
 audience:
   - role: Administrador

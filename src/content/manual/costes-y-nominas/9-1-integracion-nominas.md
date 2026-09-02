@@ -6,13 +6,12 @@ description: Desde aTurnos contamos con un API que contiene todos los servicios 
 contentType: concept
 module: Costes y nóminas
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Integración nóminas
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

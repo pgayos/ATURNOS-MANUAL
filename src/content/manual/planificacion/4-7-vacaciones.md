@@ -6,11 +6,12 @@ description: El trabajador podrá comprobar sus estadísticas de vacaciones.
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Vacaciones
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

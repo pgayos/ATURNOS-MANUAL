@@ -6,9 +6,10 @@ description: Nuevo usuario de aTurnos, que está marcado como pendiente de asign
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Usuario Ficticio
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

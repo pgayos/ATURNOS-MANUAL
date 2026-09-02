@@ -6,6 +6,7 @@ description: En un entorno empresarial cada vez más orientado a la digitalizaci
 contentType: concept
 module: Integraciones y API
 submodule: Sistemas externos
+subtopic: ""
 intent: Integración con APIRest y Webhooks
 audience:
   - role: Administrador

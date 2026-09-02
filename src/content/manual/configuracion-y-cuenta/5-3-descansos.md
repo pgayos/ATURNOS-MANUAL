@@ -6,11 +6,10 @@ description: Esta función permite configurar los descansos a nivel de equipo, a
 contentType: reference
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Descansos
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

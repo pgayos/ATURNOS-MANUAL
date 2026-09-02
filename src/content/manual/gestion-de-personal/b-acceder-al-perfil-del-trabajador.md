@@ -6,6 +6,7 @@ description: Desde el icono “perfil” localizado junto a cada equipo en el qu
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Acceder al perfil del trabajador
 audience:
   - role: Administrador

@@ -6,11 +6,10 @@ description: En este listado podremos visualizar todos aquellos tipos de turnos,
 contentType: procedure
 module: Planificación
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Tipos de turnos y horas
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: horas

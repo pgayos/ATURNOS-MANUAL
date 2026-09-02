@@ -6,6 +6,7 @@ description: La fuente pública de Estadísticas de absentismos totales contiene
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Estadísticas de absentismos totales
 audience:
   - role: Administrador

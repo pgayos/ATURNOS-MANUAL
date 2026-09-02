@@ -6,6 +6,7 @@ description: El módulo de Tareas está diseñado para organizar y asignar activ
 contentType: procedure
 module: Tareas
 submodule: Gestión de tareas
+subtopic: ""
 intent: Crear tareas
 audience:
   - role: Administrador

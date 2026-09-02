@@ -6,6 +6,7 @@ description: Los trabajadores que tienen un descanso programado a nivel de equip
 contentType: procedure
 module: Control horario
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Más de 5 Hrs fichadas sin descanso
 audience:
   - role: Trabajador

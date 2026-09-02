@@ -6,9 +6,10 @@ description: Las tablas de cobertura en los equipos que tienen activado el módu
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Tabla de cobertura
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

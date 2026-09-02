@@ -6,11 +6,10 @@ description: Para fichar desde la app de aTurnos (iOS y Android), acceda a Contr
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Control Horario (APP)
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

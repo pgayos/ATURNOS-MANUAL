@@ -6,11 +6,10 @@ description: Los administradores y trabajadores pueden realizar comentarios en e
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Comentarios
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

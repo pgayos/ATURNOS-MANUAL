@@ -6,11 +6,12 @@ description: Esta restricción impide que las horas planificadas en el cuadrante
 contentType: reference
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Límites superiores de horas de los empleados
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

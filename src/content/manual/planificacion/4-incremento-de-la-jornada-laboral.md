@@ -6,9 +6,10 @@ description: Complementaría a la función de “Añadir horas “, existe la po
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Incremento de la jornada laboral
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

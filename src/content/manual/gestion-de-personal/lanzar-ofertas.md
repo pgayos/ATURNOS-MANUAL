@@ -6,11 +6,10 @@ description: Desde el menú de Cambios y peticiones → Crear nueva oferta, el a
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Lanzar ofertas
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

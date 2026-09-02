@@ -6,9 +6,10 @@ description: Total de horas computadas de los turnos (tomando su duración compu
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Horas computadas (Timecard)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: computadas

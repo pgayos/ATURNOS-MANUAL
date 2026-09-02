@@ -6,11 +6,10 @@ description: "Para ver más sobre las funciones de filtrado, ocultar columnas y 
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Absentismos
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

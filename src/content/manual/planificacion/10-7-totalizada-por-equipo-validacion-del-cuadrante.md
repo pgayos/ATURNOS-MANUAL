@@ -6,13 +6,12 @@ description: Desde aquí se valida el cuadrante siempre que en el equipo esté s
 contentType: procedure
 module: Planificación
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Totalizada por equipo. Validación del cuadrante
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

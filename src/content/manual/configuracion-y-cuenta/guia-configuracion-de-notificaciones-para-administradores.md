@@ -6,6 +6,7 @@ description: aTurnos permite personalizar las notificaciones para que cada usuar
 contentType: procedure
 module: Configuración y cuenta
 submodule: Comunicación y notificaciones
+subtopic: ""
 intent: Configuración de notificaciones
 audience:
   - role: Administrador

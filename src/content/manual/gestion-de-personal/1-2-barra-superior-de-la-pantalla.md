@@ -6,11 +6,10 @@ description: Esta barra de herramientas se mantendrá fija mientras navegas por 
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Barra superior de la pantalla
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

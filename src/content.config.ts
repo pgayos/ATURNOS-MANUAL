@@ -2,7 +2,7 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
-const role = z.enum(['Trabajador', 'Planificador', 'Administrador', 'RRHH', 'Nóminas', 'Desarrollador API']);
+const role = z.enum(['Trabajador', 'Administrador', 'RRHH', 'Nóminas', 'Desarrollador API']);
 
 const manual = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/manual' }),
@@ -15,12 +15,13 @@ const manual = defineCollection({
     contentType: z.enum(['procedure', 'concept', 'reference', 'faq', 'troubleshooting']),
     module: z.string(),
     submodule: z.string(),
+    subtopic: z.string().optional(),
     intent: z.string(),
     audience: z.array(z.object({ role, access: z.enum(['required', 'recommended', 'applicable']) })),
     entities: z.array(z.object({ id: z.string(), label: z.string() })),
     synonyms: z.array(z.string()).default([]),
     prerequisites: z.array(z.string()).default([]),
-    platforms: z.array(z.literal('web')),
+    platforms: z.array(z.enum(['web', 'app'])),
     labels: z.array(z.enum(['PENDIENTE'])).default([]),
     governance: z.object({
       status: z.enum(['draft', 'functional-review', 'editorial-review', 'approved', 'published', 'deprecated']),

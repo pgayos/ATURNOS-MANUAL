@@ -6,9 +6,10 @@ description: Algunos managers conocen cuál son los recursos generados por sus t
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Importación recursos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

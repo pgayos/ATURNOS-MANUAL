@@ -6,9 +6,10 @@ description: En muchos casos los managers de operaciones necesitan planificar su
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Importación de demanda por tipo de turno (Planificación automática)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: automatica

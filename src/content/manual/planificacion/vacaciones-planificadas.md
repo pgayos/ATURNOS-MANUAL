@@ -6,9 +6,10 @@ description: Total de vacaciones planificadas en el cuadrante. Las vacaciones so
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Vacaciones planificadas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,9 +6,10 @@ description: Se trata del informe estadístico del total de horas planificadas e
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Localizaciones
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

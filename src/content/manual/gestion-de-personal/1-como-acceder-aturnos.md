@@ -6,9 +6,10 @@ description: Una vez accedido a la URL de aTurnos, se pedirá un usuario y una c
 contentType: faq
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Cómo acceder aTurnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: acceder

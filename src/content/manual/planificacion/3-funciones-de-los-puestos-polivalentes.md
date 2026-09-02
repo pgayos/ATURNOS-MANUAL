@@ -6,9 +6,10 @@ description: Las especialidades o funciones se valoran desde el 1 (no tiene asoc
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: "Funciones de los puestos: polivalentes"
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: funciones

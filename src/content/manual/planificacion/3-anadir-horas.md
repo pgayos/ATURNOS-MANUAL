@@ -6,11 +6,10 @@ description: Los responsables de los equipos de trabajo por necesidades planific
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Añadir horas
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

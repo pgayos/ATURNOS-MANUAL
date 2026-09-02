@@ -6,6 +6,7 @@ description: Es la comparación entre las horas planificadas y las horas presenc
 contentType: reference
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Estado de horas
 audience:
   - role: Administrador

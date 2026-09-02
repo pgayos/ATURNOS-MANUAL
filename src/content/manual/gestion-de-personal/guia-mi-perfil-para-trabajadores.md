@@ -6,6 +6,7 @@ description: Como trabajador, desde tu perfil en aTurnos, puedes gestionar tu in
 contentType: procedure
 module: Gestión de personal
 submodule: Perfil del trabajador
+subtopic: ""
 intent: Mi perfil
 audience:
   - role: Trabajador

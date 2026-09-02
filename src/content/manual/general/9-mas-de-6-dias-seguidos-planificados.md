@@ -6,6 +6,7 @@ description: La fuente pública de Más de 6 días seguidos planificados contien
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Más de 6 días seguidos planificados
 audience:
   - role: Administrador

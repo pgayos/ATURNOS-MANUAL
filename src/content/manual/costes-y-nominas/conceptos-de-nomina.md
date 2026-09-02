@@ -6,11 +6,12 @@ description: "Hace referencia a los distintos conceptos que se calculan en aTurn
 contentType: concept
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Conceptos de nómina
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: conceptos

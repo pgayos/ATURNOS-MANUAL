@@ -6,9 +6,10 @@ description: Este concepto se encuentra dentro del widget de Control de Presenci
 contentType: concept
 module: Control horario
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Trabajador planificado (Control de Presencia)
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,6 +6,7 @@ description: Los mismos sistemas que utilizamos para el control de presencia, po
 contentType: reference
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Control De Acceso
 audience:
   - role: Administrador

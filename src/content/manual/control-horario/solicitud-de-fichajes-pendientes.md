@@ -6,6 +6,7 @@ description: Total de solicitudes de fichajes pendientes por gestionar el admini
 contentType: procedure
 module: Control horario
 submodule: General
+subtopic: ""
 intent: Solicitud de fichajes pendientes
 audience:
   - role: Administrador

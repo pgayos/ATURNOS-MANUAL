@@ -6,6 +6,7 @@ description: La URL pública original de Preguntas frecuentes mediamarkt no devo
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Preguntas frecuentes mediamarkt
 audience:
   - role: Administrador

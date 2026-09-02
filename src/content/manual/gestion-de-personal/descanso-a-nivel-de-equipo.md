@@ -6,6 +6,7 @@ description: Es el descanso generalizado para todos los trabajadores de un equip
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Descanso a nivel de equipo
 audience:
   - role: Trabajador

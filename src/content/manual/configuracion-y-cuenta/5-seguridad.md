@@ -6,6 +6,7 @@ description: La fuente pública de Seguridad contiene muy poca información text
 contentType: concept
 module: Configuración y cuenta
 submodule: General
+subtopic: ""
 intent: Seguridad
 audience:
   - role: Administrador

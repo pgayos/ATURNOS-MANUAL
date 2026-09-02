@@ -6,13 +6,12 @@ description: Para que los recursos informados por el trabajador (consulta en el 
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Resumen de los Recursos. Validación. Exportación. Totales. Alarmas
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

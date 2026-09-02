@@ -6,11 +6,10 @@ description: Para añadir recursos, el administrador puede:.
 contentType: faq
 module: Recursos y partes
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: ¿Cómo informan los administradores los recursos a los trabajadores?
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

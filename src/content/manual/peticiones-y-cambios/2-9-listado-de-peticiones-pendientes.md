@@ -6,11 +6,10 @@ description: Aquí encuentras todas las peticiones pendientes por aprobar en los
 contentType: procedure
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Listado de peticiones pendientes
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: listado

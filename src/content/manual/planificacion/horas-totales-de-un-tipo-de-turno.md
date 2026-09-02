@@ -6,6 +6,7 @@ description: Cuando se crea un tipo de turno se define una duración total, que 
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas totales de un tipo de turno
 audience:
   - role: Trabajador

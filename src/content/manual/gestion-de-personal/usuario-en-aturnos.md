@@ -6,9 +6,10 @@ description: En aTurnos consideramos a un usuario a todos los perfiles que entra
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Usuario en aTurnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: usuario

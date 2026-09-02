@@ -6,13 +6,12 @@ description: Para obtener la variables de un trabajador para realizar el finiqui
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Ejemplos Prácticos
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

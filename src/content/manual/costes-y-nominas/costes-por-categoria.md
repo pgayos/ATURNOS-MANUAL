@@ -6,6 +6,7 @@ description: Este reporte permite obtener información de los costes totales dia
 contentType: concept
 module: Costes y nóminas
 submodule: General
+subtopic: ""
 intent: Costes por Categoría
 audience:
   - role: Administrador

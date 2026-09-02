@@ -6,6 +6,7 @@ description: Desde aTurnos puedes crear reportes personalizados y visualizarlos 
 contentType: procedure
 module: Integraciones y API
 submodule: Sistemas externos
+subtopic: ""
 intent: Link con PowerBI
 audience:
   - role: Administrador

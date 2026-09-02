@@ -6,6 +6,7 @@ description: El sistema de control de presencia está diseñado para garantizar 
 contentType: troubleshooting
 module: Control horario
 submodule: Alertas
+subtopic: ""
 intent: Alertas de control horario
 audience:
   - role: Administrador

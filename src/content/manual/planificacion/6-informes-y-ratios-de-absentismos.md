@@ -6,6 +6,7 @@ description: La fuente pública de Informes y ratios de absentismos contiene muy
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Informes y ratios de absentismos
 audience:
   - role: Administrador

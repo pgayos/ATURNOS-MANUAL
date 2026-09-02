@@ -6,9 +6,10 @@ description: Son las vacaciones planificadas en el cuadrante en el periodo de ti
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Vacaciones disfrutadas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

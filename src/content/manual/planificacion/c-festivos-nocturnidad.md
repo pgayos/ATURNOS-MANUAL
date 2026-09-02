@@ -6,13 +6,12 @@ description: "Para ver más sobre las funciones de filtrado, ocultar columnas y 
 contentType: procedure
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Festivos & Nocturnidad
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

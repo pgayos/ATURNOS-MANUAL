@@ -6,6 +6,7 @@ description: En la parte inferior podrás consultar la tabla de cobertura del eq
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Tabla de cobertura de patrón
 audience:
   - role: Trabajador

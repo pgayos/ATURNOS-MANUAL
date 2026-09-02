@@ -6,11 +6,10 @@ description: Los datos en la gestión de personal son muy sensibles, existen con
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Privacidad
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

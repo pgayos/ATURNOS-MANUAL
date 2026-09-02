@@ -6,9 +6,10 @@ description: Si un trabajador realiza un fichaje de salida y el siguiente fichaj
 contentType: concept
 module: Control horario
 submodule: Altas y bajas
+subtopic: ""
 intent: Más de 2 Hrs entre fichajes
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

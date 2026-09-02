@@ -6,6 +6,7 @@ description: La opción de RR.HH. se habilita en aTurnos cuando tu rol es Superu
 contentType: concept
 module: Gestión de personal
 submodule: Recursos humanos
+subtopic: ""
 intent: Ser RR.HH. en aTurnos
 audience:
   - role: RRHH

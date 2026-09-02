@@ -6,13 +6,12 @@ description: En esta función tendremos la opción de visualizar todos los perio
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Ver periodos y eliminar trabajador
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

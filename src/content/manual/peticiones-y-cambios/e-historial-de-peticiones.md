@@ -6,11 +6,10 @@ description: Desde esta pestaña se puede consultar todo el registro de peticion
 contentType: concept
 module: Peticiones y cambios
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Historial de peticiones
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

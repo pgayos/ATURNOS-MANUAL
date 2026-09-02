@@ -6,11 +6,10 @@ description: Los permisos determinan qué puede ver y/o hacer un usuario dentro 
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Estado de los permisos
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

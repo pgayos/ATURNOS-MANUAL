@@ -6,6 +6,7 @@ description: La exportación a nóminas permite descargar las variables de nómi
 contentType: troubleshooting
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Configuración General
 audience:
   - role: Administrador

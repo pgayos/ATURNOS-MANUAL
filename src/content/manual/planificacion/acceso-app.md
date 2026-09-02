@@ -6,9 +6,10 @@ description: Es el número total de accesos a la app de aTurnos del trabajador.
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Acceso app
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,9 +6,10 @@ description: El funcionamiento del control horario se basa en la configuración 
 contentType: reference
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Ajustes del control horario
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,6 +6,7 @@ description: "Añade los siguientes turnos a una jornada partida: Turno1(JP1) y 
 contentType: concept
 module: Planificación
 submodule: Ejercicios prácticos
+subtopic: ""
 intent: Actividad 1. Practica la planificación
 audience:
   - role: Administrador

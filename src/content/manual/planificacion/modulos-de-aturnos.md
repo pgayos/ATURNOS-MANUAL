@@ -6,9 +6,10 @@ description: Son las distintas modalidades en las que se divide aTurnos y es el 
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Módulos de aTurnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: modulos

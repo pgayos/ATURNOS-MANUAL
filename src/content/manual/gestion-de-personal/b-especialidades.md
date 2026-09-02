@@ -6,13 +6,12 @@ description: Las especialidades en aTurnos son aquellas capacidades o habilidade
 contentType: concept
 module: Gestión de personal
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Especialidades
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,13 +6,12 @@ description: Las localizaciones en un equipo pueden ser consideradas como depart
 contentType: concept
 module: Recursos y partes
 submodule: Contratos
+subtopic: ""
 intent: Localizaciones
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

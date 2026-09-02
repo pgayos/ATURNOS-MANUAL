@@ -6,6 +6,7 @@ description: "Ejemplo de documento: CSV import_plantilla-tareas."
 contentType: concept
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Importación plantilla de tareas (Tareas)
 audience:
   - role: Administrador

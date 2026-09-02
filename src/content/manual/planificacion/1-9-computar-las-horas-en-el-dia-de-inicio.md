@@ -6,6 +6,7 @@ description: "Es muy importante señalar el comportamiento en el pago de las var
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Computar las horas en el día de inicio
 audience:
   - role: Administrador

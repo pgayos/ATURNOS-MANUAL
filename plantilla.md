@@ -3,15 +3,13 @@ schemaVersion: "1.0"
 contentId: planificacion-guia-como-crear-turnos-y-tipos-de-horas
 title: Cómo crear tipos de turnos de trabajo y tipos de horas
 description: Una vez has añadido a tus trabajadores al equipo, el siguiente paso es el de crear turnos y tipos de horas que les planificarás posteriormente.
-contentType: faq/articulo
+contentType: faq
 module: Planificación (tipos de turnos y tipos de horas, patrones, tablas de cobertura ), Gestión (Absentismos, peticiones), Control horario, Planificación automática, Costes, Documentos, Tareas, IA, APP, Integraciones, Administrar o configuración, Estadisticas o Reportes
 submodule: Turnos y cuadrantes
 intent: Cómo crear turnos y tipos de horas
 Keywords:
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable
@@ -23,7 +21,7 @@ prerequisites: []
 platforms:
   - web
 governance:
-  status: draft, published
+  status: draft
   owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: 2025-05-22

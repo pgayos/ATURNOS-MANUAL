@@ -6,6 +6,7 @@ description: La Calculadora de Patrones de Turnos de aTurnos es una herramienta 
 contentType: concept
 module: Planificación
 submodule: Turnos y cuadrantes
+subtopic: ""
 intent: Uso de calculadora de patrones de turnos
 audience:
   - role: Administrador

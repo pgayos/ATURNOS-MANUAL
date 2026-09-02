@@ -6,6 +6,7 @@ description: El administrador podrá relacionar los id external de un equipo a o
 contentType: concept
 module: Integraciones y API
 submodule: General
+subtopic: ""
 intent: Importar relación Ids External
 audience:
   - role: Administrador

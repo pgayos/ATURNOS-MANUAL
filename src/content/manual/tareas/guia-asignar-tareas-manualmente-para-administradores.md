@@ -6,6 +6,7 @@ description: Tal como su nombre indica, la asignación manual permite asignar la
 contentType: concept
 module: Tareas
 submodule: Gestión de tareas
+subtopic: ""
 intent: Asignar tareas manualmente
 audience:
   - role: Administrador

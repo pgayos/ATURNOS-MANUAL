@@ -6,11 +6,10 @@ description: Los puestos siempre tienen que tener abierta la aplicación de turn
 contentType: faq
 module: Tareas
 submodule: General
+subtopic: ""
 intent: ¿Cómo se llama a los clientes?
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: clientes

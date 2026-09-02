@@ -6,9 +6,10 @@ description: Un puesto dentro de aTurnos es un Trabajador (utilizando la termino
 contentType: faq
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: ¿Qué es un puesto?
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

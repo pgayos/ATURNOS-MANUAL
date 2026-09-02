@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { firstLetter } from '../../../lib/slug';
+import { glossaryEntries } from '../../../data/glossary';
+
+// Cada término del glosario apunta a un artículo que ya existe en su módulo
+// real (ver src/data/glossary.ts) — el glosario es un índice A-Z, no contenido
+// propio. Resolvemos el título y la URL reales de cada artículo acá.
+const allArticles = await getCollection('manual');
+const articlesById = new Map<string, CollectionEntry<'manual'>>(
+  allArticles.map((entry: CollectionEntry<'manual'>) => [entry.id, entry])
+);
+
+const resolved = glossaryEntries
+  .map(({ term, articleId }) => {
+    const article = articlesById.get(articleId);
+    return article ? { term, href: `/manual/${article.id}/` } : null;
+  })
+  .filter((entry): entry is { term: string; href: string } => entry !== null)
+  .sort((a, b) => a.term.localeCompare(b.term, 'es'));
+
+const groups: { letter: string; terms: typeof resolved }[] = [];
+for (const entry of resolved) {
+  const letter = firstLetter(entry.term);
+  const lastGroup = groups[groups.length - 1];
+  if (lastGroup && lastGroup.letter === letter) {
+    lastGroup.terms.push(entry);
+  } else {
+    groups.push({ letter, terms: [entry] });
+  }
+}
+---
+
+<BaseLayout title="Glosario · Manual de aTurnos" description="Todos los términos del glosario de aTurnos, ordenados alfabéticamente.">
+  <div class="container breadcrumbs"><a href="/">Inicio</a> / Glosario</div>
+  <section class="hero"><div class="container"><span class="eyebrow">Módulo</span><h1>Glosario</h1><p class="lead">Consulta los {resolved.length} términos del glosario de aTurnos, ordenados de la A a la Z.</p></div></section>
+  <section class="section container">
+    <div class="glossary-list">
+      {groups.map(group => (
+        <Fragment>
+          <span class="glossary-letter">{group.letter}</span>
+          <ul class="glossary-terms">
+            {group.terms.map(entry => <li><a href={entry.href}>{entry.term}</a></li>)}
+          </ul>
+        </Fragment>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

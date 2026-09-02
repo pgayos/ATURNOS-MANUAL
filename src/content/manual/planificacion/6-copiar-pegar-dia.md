@@ -6,11 +6,10 @@ description: En busca de facilitar la labor del administrador, desde esta funci�
 contentType: concept
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Copiar / Pegar día
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: copiar

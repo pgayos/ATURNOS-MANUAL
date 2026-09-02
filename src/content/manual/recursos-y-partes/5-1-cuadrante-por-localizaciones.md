@@ -6,11 +6,10 @@ description: Por medio de este cuadrante, puedes visualizar por localizaciones, 
 contentType: procedure
 module: Recursos y partes
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Cuadrante por localizaciones
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

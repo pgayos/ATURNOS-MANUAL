@@ -6,11 +6,10 @@ description: Se puede obtener información de los turnos y de los diferentes tip
 contentType: procedure
 module: Planificación
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Turnos y horas
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

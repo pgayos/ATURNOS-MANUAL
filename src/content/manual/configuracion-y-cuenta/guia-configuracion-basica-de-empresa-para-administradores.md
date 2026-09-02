@@ -6,6 +6,7 @@ description: Una vez iniciada la sesión, el rol que se te asigna por defecto es
 contentType: procedure
 module: Configuración y cuenta
 submodule: Configuración inicial
+subtopic: ""
 intent: Configuración básica de empresa
 audience:
   - role: Administrador

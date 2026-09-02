@@ -6,6 +6,7 @@ description: Esta restricción establece un mínimo de horas de adelanto para po
 contentType: reference
 module: Peticiones y cambios
 submodule: Roles y permisos
+subtopic: ""
 intent: Peticiones
 audience:
   - role: Trabajador

@@ -6,6 +6,7 @@ description: En este apartado, el validador podrá obtener información de las i
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Estadísticas
 audience:
   - role: Trabajador

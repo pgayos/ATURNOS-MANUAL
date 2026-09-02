@@ -6,6 +6,7 @@ description: Los trabajadores que hayan realizado un fichaje con duración infer
 contentType: procedure
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Menos de 4 Hrs fichadas en un día
 audience:
   - role: Trabajador

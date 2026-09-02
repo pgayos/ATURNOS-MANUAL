@@ -6,13 +6,12 @@ description: Como administrador podrás realizar peticiones sobre diferentes asp
 contentType: concept
 module: Peticiones y cambios
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Peticiones
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: peticiones

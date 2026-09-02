@@ -6,11 +6,10 @@ description: Desde el cuadrante, haciendo clic en un día en concreto, hemos añ
 contentType: reference
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Añadir comentarios
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,11 +6,12 @@ description: En muchas ocasiones la gran dimensión de alguna empresas hace comp
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Crear localizaciones y localizaciones padres
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: crear

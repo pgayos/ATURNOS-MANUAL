@@ -6,6 +6,7 @@ description: Es el estado de horas menos los absentismos no justificados.
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Incumplimiento
 audience:
   - role: Administrador

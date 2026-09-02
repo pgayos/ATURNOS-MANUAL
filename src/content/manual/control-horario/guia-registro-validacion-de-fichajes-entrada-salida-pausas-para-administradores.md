@@ -6,6 +6,7 @@ description: El sistema de fichaje por IP de aTurnos permite a los trabajadores 
 contentType: reference
 module: Control horario
 submodule: Horas trabajadas
+subtopic: ""
 intent: Registro, validación de fichajes (entrada, salida, pausas).
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: En aTurnos, la gestión eficiente de los días de vacaciones pendie
 contentType: procedure
 module: Planificación
 submodule: Vacaciones
+subtopic: ""
 intent: Gestión de vacaciones de años anteriores
 audience:
   - role: Administrador

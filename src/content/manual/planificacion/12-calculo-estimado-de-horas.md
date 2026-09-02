@@ -6,6 +6,7 @@ description: Muestra la información del cálculo estimado de horas del perfil d
 contentType: concept
 module: Planificación
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Cálculo estimado de horas
 audience:
   - role: Trabajador

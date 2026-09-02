@@ -6,13 +6,12 @@ description: La acción de clonación permite añadir, modificar o clonar los da
 contentType: procedure
 module: Gestión de personal
 submodule: Datos laborales
+subtopic: ""
 intent: Clonación de datos
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: clonacion

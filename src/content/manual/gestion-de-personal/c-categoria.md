@@ -6,6 +6,7 @@ description: La categoría de un trabajador lo clasifica según el puesto de tra
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Categoría
 audience:
   - role: Administrador

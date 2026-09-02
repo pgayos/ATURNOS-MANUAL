@@ -6,13 +6,12 @@ description: Cuando se precise cerrar el cuadrante y/o validar, así como modifi
 contentType: procedure
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Cierre por empleado, fecha de validación y último día exportado (por trabajador)
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

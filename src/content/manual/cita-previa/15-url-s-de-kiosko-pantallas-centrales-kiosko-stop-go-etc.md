@@ -6,6 +6,7 @@ description: La visualización del las llamadas, tanto para el cliente, como las
 contentType: reference
 module: Cita previa
 submodule: General
+subtopic: ""
 intent: Url´s de kiosko, pantallas centrales, kiosko stop&go, etc
 audience:
   - role: Administrador

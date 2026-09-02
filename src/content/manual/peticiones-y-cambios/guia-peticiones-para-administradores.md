@@ -6,6 +6,7 @@ description: La función de Peticiones en aTurnos está diseñada para facilitar
 contentType: concept
 module: Peticiones y cambios
 submodule: Autogestión
+subtopic: ""
 intent: Peticiones
 audience:
   - role: Administrador

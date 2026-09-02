@@ -6,6 +6,7 @@ description: Los trabajadores que hayan fichado en menos de 12 horas entre un fi
 contentType: procedure
 module: Control horario
 submodule: Altas y bajas
+subtopic: ""
 intent: Menos de 12 hrs entre fichajes
 audience:
   - role: Trabajador

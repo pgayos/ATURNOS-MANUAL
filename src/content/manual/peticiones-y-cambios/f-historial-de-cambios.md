@@ -6,11 +6,10 @@ description: En esta pestaña aparecen todas las peticiones de cambios que se ha
 contentType: reference
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Historial de cambios
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

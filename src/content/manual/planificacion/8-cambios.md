@@ -6,9 +6,10 @@ description: Esta restricción impide que se puedan realizar cambios de turno.
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Cambios en aTurnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,9 +6,10 @@ description: En esta pestaña por día se pueden ver los siguiente datos:.
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Detalle diario
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

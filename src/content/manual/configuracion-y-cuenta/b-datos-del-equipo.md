@@ -6,13 +6,12 @@ description: Permite configurar los datos del equipo y cómo se estructura dentr
 contentType: concept
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Datos del equipo
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: datos

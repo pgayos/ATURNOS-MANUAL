@@ -6,9 +6,10 @@ description: En ocasiones existen empresas o managers que tienen ya una planific
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Importar planificación con turnos, absentismos, vacaciones y/o localizaciones
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

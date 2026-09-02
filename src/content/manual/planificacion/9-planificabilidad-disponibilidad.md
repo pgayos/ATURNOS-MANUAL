@@ -6,11 +6,12 @@ description: La planificabilidad mide la adecuación de un trabajador para reali
 contentType: concept
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Planificabilidad & Disponibilidad
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

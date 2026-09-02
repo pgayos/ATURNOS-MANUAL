@@ -6,11 +6,12 @@ description: Estadísticamente es el total de las horas extras más las subtipos
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Horas extra
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: extra

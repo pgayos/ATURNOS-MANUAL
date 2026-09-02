@@ -6,11 +6,10 @@ description: Las franjas horarias son divisiones del tiempo en intervalos defini
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Franjas horarias
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

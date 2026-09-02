@@ -6,6 +6,7 @@ description: En aTurnos, la gestión de horas extras y complementarias se realiz
 contentType: reference
 module: Control horario
 submodule: Horas trabajadas
+subtopic: ""
 intent: Configuración de políticas de horas extras y complementarias.
 audience:
   - role: Administrador

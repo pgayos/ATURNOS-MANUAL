@@ -6,6 +6,7 @@ description: Añadir usuarios a tu equipo en aTurnos desde Trabajadores → List
 contentType: reference
 module: Gestión de personal
 submodule: Usuarios y roles
+subtopic: ""
 intent: Configuración de perfiles, roles y creación de usuarios
 audience:
   - role: Administrador

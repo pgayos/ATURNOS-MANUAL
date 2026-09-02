@@ -6,9 +6,10 @@ description: La configuración de este tipo de costes se recomienda cuando el co
 contentType: reference
 module: Costes y nóminas
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Costes por turno
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

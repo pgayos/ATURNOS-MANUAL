@@ -6,6 +6,7 @@ description: aTurnos facilita la gestión masiva de información de tu equipo me
 contentType: reference
 module: Integraciones y API
 submodule: Sistemas externos
+subtopic: ""
 intent: Importación / Exportación de datos
 audience:
   - role: Administrador

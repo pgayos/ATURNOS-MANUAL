@@ -6,9 +6,10 @@ description: No todos los turnos tienen descanso, depende de la configuración d
 contentType: reference
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Descanso del turno
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: descanso

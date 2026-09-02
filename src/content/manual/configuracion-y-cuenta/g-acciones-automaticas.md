@@ -6,13 +6,12 @@ description: Las acciones en aTurnos son procesos que se configuran en el sistem
 contentType: concept
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Acciones Automáticas
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

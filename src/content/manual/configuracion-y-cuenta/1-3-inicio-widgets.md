@@ -6,11 +6,10 @@ description: En la Pantalla de inicio de aTurnos puedes ver diferentes widgets. 
 contentType: reference
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Inicio (Widgets)
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

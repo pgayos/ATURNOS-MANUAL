@@ -6,9 +6,10 @@ description: Entre los distintos tipos de importaciones disponibles en aTurnos, 
 contentType: concept
 module: Peticiones y cambios
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Importar peticiones
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

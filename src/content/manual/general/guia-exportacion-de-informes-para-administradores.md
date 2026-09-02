@@ -6,6 +6,7 @@ description: En aTurnos, la descarga de reportes es una funcionalidad que te per
 contentType: procedure
 module: General
 submodule: Informes y estadísticas
+subtopic: ""
 intent: Exportación de informes
 audience:
   - role: Administrador

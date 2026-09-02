@@ -6,6 +6,7 @@ description: En el apartado de Recursos Humanos el administrador total podrá ob
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Rrhh en aTurnos
 audience:
   - role: Administrador

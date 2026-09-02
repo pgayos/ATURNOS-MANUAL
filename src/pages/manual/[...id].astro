@@ -1,7 +1,17 @@
 ---
-import { getCollection, render } from 'astro:content';
-import ArticleLayout from '../../components/manual/ArticleLayout.astro';
-export async function getStaticPaths(){ const entries=await getCollection('manual'); return entries.map(entry=>({params:{id:entry.id},props:{entry}})); }
-const { entry }=Astro.props; const { Content, headings }=await render(entry);
+import { getCollection, render } from "astro:content";
+import ArticleLayout from "../../components/manual/ArticleLayout.astro";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("manual");
+  return entries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
 ---
+
 <ArticleLayout entry={entry} headings={headings}><Content /></ArticleLayout>

@@ -6,11 +6,10 @@ description: El trabajador puede tener acceso rápido a sus fichaje día a día,
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Diario en aTurnos
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

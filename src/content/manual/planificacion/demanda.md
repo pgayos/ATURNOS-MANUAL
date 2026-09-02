@@ -6,9 +6,10 @@ description: Son las necesidades de personal que se pueden generar desde el Mód
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Demanda en aTurnos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: demanda

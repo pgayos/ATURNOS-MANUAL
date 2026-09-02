@@ -6,6 +6,7 @@ description: La fuente pública de Absentismos contiene muy poca información te
 contentType: concept
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Absentismos
 audience:
   - role: Administrador

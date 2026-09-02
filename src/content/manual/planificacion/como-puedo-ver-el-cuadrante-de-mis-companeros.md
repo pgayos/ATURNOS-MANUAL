@@ -6,11 +6,10 @@ description: Explica ¿Cómo puedo ver el cuadrante de mis compañeros? y su apl
 contentType: faq
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: ¿Cómo puedo ver el cuadrante de mis compañeros?
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

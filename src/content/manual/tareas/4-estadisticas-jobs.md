@@ -6,6 +6,7 @@ description: Una vez realizadas las imputaciones de tareas, se puede acceder a l
 contentType: concept
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Estadísticas jobs
 audience:
   - role: Administrador

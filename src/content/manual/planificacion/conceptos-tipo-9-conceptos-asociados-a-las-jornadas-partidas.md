@@ -6,11 +6,12 @@ description: Contabilizan el número de jornadas partidas que estén definidas e
 contentType: concept
 module: Planificación
 submodule: Altas y bajas
+subtopic: ""
 intent: "Conceptos tipo 9: Conceptos asociados a las jornadas partidas"
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

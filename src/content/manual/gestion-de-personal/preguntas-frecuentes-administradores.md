@@ -6,13 +6,12 @@ description: En este primer apartado aparecerán las preguntas más generales co
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Preguntas frecuentes Administradores
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

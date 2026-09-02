@@ -6,6 +6,7 @@ description: El trabajador, según los permisos dados en el equipo por el admini
 contentType: concept
 module: Documentos
 submodule: Altas y bajas
+subtopic: ""
 intent: Ver documentos subidos
 audience:
   - role: Administrador

@@ -6,9 +6,10 @@ description: Una vez configurada la RPI, y asignada a un equipo, la introducimos
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Asignar botones en RPI
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

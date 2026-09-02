@@ -6,6 +6,7 @@ description: Incremento o decremento de horas que se realiza en un día determin
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Ajuste de horas computadas
 audience:
   - role: RRHH

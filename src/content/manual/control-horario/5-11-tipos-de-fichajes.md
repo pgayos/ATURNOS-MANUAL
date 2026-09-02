@@ -6,11 +6,10 @@ description: El sistema funciona por pares, es decir, se necesita un fichaje de 
 contentType: procedure
 module: Control horario
 submodule: Altas y bajas
+subtopic: ""
 intent: Tipos de fichajes
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

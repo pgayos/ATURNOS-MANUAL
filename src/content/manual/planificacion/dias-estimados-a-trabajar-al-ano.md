@@ -6,9 +6,10 @@ description: "Es la estimación de los días de trabajo al año, se calcula con 
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Días estimados a trabajar al año
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

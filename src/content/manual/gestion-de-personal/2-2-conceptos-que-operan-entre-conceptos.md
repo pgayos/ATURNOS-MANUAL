@@ -6,11 +6,12 @@ description: Estos conceptos permiten realizar operaciones de suma, resta, multi
 contentType: concept
 module: Gestión de personal
 submodule: Altas y bajas
+subtopic: ""
 intent: Conceptos que operan entre conceptos
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

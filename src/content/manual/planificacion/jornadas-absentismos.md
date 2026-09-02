@@ -6,9 +6,10 @@ description: Estadísticamente es el total de las jornadas planificadas con turn
 contentType: procedure
 module: Planificación
 submodule: Altas y bajas
+subtopic: ""
 intent: Jornadas absentismos
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

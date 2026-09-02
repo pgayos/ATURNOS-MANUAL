@@ -6,11 +6,10 @@ description: El módulo permite cuatro configuraciones, accede a ADMINISTRAR →
 contentType: procedure
 module: Recursos y partes
 submodule: Roles y permisos
+subtopic: ""
 intent: Configuración del Módulo de Recursos
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

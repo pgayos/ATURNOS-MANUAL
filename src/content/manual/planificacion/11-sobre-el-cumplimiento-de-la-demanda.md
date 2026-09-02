@@ -6,11 +6,10 @@ description: Esta restricción asegura que la planificación cubra al menos el n
 contentType: reference
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Sobre el cumplimiento de la demanda
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

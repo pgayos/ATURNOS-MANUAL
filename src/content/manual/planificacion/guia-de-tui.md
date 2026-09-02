@@ -6,9 +6,10 @@ description: En esta guía se explicarán las distintas partes de Planificación
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Guía de TUI
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: guia

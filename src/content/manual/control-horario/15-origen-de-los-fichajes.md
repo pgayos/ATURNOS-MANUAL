@@ -6,6 +6,7 @@ description: La fuente pública de Origen de los fichajes contiene muy poca info
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Origen de los fichajes
 audience:
   - role: Administrador

@@ -6,6 +6,7 @@ description: Desde aTurnos, puedes gestionar los cambios de turnos, doblajes y l
 contentType: procedure
 module: Peticiones y cambios
 submodule: Autogestión
+subtopic: ""
 intent: Cambios de turno
 audience:
   - role: Administrador

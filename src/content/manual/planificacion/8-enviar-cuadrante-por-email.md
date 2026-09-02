@@ -6,11 +6,10 @@ description: Desde esta función, el administrador podrá enviar el cuadrante po
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Enviar cuadrante por Email
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

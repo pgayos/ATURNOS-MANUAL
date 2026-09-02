@@ -6,13 +6,12 @@ description: En la pantalla de Inicio de aTurnos se pueden visualizar los “Wid
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Inicio 2 (Widgets)
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

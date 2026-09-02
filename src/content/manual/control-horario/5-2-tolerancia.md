@@ -6,11 +6,10 @@ description: La tolerancia es el lapso de tiempo que se permite al trabajador pa
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Tolerancia
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,9 +6,10 @@ description: En esta base de preguntas frecuentes del trabajador encontrarás to
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Preguntas frecuentes del Trabajador
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

@@ -6,11 +6,12 @@ description: Antes de realizar los Ajustes de Turnos para generar la Propuesta d
 contentType: reference
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Configuración de convenios
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

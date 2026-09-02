@@ -6,6 +6,7 @@ description: Compara las horas computadas con las horas contrato año del trabaj
 contentType: reference
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Balance anual
 audience:
   - role: RRHH

@@ -6,6 +6,7 @@ description: Un asignación de horas dentro de un turno de trabajo a un proyecto
 contentType: concept
 module: Tareas
 submodule: General
+subtopic: ""
 intent: Tareas en aTurnos
 audience:
   - role: Administrador

@@ -6,11 +6,12 @@ description: Corresponde a los ajustes que se generan por absentismos. Por ejemp
 contentType: reference
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Ajuste de absentismos
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

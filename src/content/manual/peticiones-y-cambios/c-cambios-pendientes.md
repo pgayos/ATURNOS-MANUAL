@@ -6,11 +6,10 @@ description: En Administrar → Ajustes → Cambios se pueden definir la configu
 contentType: reference
 module: Peticiones y cambios
 submodule: General
+subtopic: ""
 intent: Cambios pendientes
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

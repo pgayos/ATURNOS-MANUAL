@@ -6,9 +6,10 @@ description: Resultado de multiplicar los días estimados a trabajar en ese mes 
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Horas estimadas a trabajar en cada mes
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: cada

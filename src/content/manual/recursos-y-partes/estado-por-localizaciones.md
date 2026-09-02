@@ -6,6 +6,7 @@ description: La fuente pública de Estado por localizaciones contiene muy poca i
 contentType: concept
 module: Recursos y partes
 submodule: General
+subtopic: ""
 intent: Estado por localizaciones
 audience:
   - role: Administrador

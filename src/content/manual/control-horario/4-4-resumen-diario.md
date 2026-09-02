@@ -6,9 +6,10 @@ description: En definitiva los datos que aparecen en esta tabla son los siguient
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Resumen diario
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

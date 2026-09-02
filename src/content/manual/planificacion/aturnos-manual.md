@@ -6,9 +6,10 @@ description: aTurnos is a very useful managing tool. We will introduce you to th
 contentType: concept
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: aTurnos Manual
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: manual

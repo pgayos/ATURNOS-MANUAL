@@ -6,6 +6,7 @@ description: La fuente pública de Hrs fichadas superior a Hrs contrato día con
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Hrs fichadas superior a Hrs contrato día
 audience:
   - role: RRHH

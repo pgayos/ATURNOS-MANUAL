@@ -6,13 +6,12 @@ description: En aTurnos disponemos de los siguientes widgets (la visualización 
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Inicio (Dashboard)
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

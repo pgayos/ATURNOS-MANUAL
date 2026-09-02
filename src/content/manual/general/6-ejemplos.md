@@ -6,6 +6,7 @@ description: La fuente pública de Ejemplos contiene muy poca información textu
 contentType: concept
 module: General
 submodule: General
+subtopic: ""
 intent: Ejemplos
 audience:
   - role: Administrador

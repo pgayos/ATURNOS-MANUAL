@@ -6,6 +6,7 @@ description: Los administradores con rol de Superusuario o acceso a este menú, 
 contentType: concept
 module: Configuración y cuenta
 submodule: Roles y permisos
+subtopic: ""
 intent: Ajustar guardias localizadas
 audience:
   - role: Administrador

@@ -6,9 +6,10 @@ description: Descarga el número de turnos entrantes en el día seleccionado, es
 contentType: procedure
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: "Concepto tipo 1.1: Conceptos relacionados con los turnos"
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

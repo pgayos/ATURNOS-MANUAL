@@ -6,6 +6,7 @@ description: Este reporte permite visualizar todas las ‘ Peticiones de fichaje
 contentType: concept
 module: Control horario
 submodule: General
+subtopic: ""
 intent: Listado peticiones de fichajes
 audience:
   - role: Administrador

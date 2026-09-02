@@ -6,9 +6,10 @@ description: El patrón creado te permite realizar cambios en la rotación de tu
 contentType: procedure
 module: Planificación
 submodule: Turnos y patrones
+subtopic: ""
 intent: Sobre la tabla, clic y arrastrar
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: arrastrar

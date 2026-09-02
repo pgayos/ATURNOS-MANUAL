@@ -6,6 +6,7 @@ description: Una vez has añadido a tus trabajadores al equipo, el siguiente pas
 contentType: faq
 module: Planificación
 submodule: Turnos y cuadrantes
+subtopic: ""
 intent: Cómo crear turnos y tipos de horas
 audience:
   - role: Administrador

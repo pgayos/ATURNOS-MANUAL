@@ -6,9 +6,10 @@ description: Al no poder reservar on-line a más de 15 días, se debe comprobar 
 contentType: procedure
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: El día a día
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: dia

@@ -6,6 +6,7 @@ description: "El módulo de Control de Presencia activa el concepto de cálculo:
 contentType: concept
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: "Conceptos tipo 10: Conceptos asociados al control de presencia"
 audience:
   - role: RRHH

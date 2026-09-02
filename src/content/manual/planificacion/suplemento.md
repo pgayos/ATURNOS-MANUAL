@@ -6,9 +6,10 @@ description: Muestra el coste solo de los suplementos de los turnos respecto de 
 contentType: concept
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Suplemento
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: suplemento

@@ -6,11 +6,10 @@ description: Si por error u olvido no se han registrado los fichajes de entrada 
 contentType: troubleshooting
 module: Control horario
 submodule: Fichajes
+subtopic: ""
 intent: Peticiones de fichajes
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

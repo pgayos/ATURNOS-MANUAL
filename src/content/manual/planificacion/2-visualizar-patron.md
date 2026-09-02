@@ -6,9 +6,10 @@ description: Una de las acciones que puedes realizar desde el listado de patrone
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Visualizar patrón
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

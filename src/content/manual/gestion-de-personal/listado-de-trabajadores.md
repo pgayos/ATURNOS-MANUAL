@@ -6,6 +6,7 @@ description: En este apartado, los trabajadores podrán ver el listado de los co
 contentType: concept
 module: Gestión de personal
 submodule: Roles y permisos
+subtopic: ""
 intent: Listado de trabajadores
 audience:
   - role: Trabajador

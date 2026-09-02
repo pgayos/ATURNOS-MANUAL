@@ -6,11 +6,12 @@ description: A través de la estadística por periodo de todos los equipos se vi
 contentType: procedure
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Estadística por periodos de todos los equipos
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

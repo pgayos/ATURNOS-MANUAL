@@ -6,11 +6,10 @@ description: El proceso de crear los festivos del cuadrante (ver Festivos ) pued
 contentType: reference
 module: Planificación
 submodule: General
+subtopic: ""
 intent: Importar días festivos en los equipos
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: dias

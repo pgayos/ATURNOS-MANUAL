@@ -6,9 +6,10 @@ description: Todas las horas de los turnos y horas informadas en el cuadrante.
 contentType: concept
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Horas planificadas
 audience:
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: horas

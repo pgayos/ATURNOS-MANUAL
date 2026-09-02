@@ -6,11 +6,10 @@ description: El administrador podrá crear las posiciones que posteriormente ind
 contentType: concept
 module: Gestión de personal
 submodule: General
+subtopic: ""
 intent: Importar posiciones
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

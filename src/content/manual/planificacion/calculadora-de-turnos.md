@@ -6,13 +6,12 @@ description: Es la herramienta de aTurnos que genera patrones de turnos que cubr
 contentType: concept
 module: Planificación
 submodule: Vacaciones y ausencias
+subtopic: ""
 intent: Calculadora de turnos
 audience:
   - role: Administrador
     access: applicable
   - role: RRHH
-    access: applicable
-  - role: Planificador
     access: applicable
   - role: Trabajador
     access: applicable

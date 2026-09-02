@@ -6,6 +6,7 @@ description: Se trata de una función que permite al administrador planificar si
 contentType: concept
 module: Gestión de personal
 submodule: Contratos
+subtopic: ""
 intent: Horas en los equipos
 audience:
   - role: Administrador

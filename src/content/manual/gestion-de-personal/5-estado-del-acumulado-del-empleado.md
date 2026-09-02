@@ -6,11 +6,12 @@ description: Este reporte contiene la misma información que el ‘ Estado del a
 contentType: concept
 module: Gestión de personal
 submodule: Usuarios y perfiles
+subtopic: ""
 intent: Estado del acumulado del empleado
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
   - role: Trabajador
     access: applicable

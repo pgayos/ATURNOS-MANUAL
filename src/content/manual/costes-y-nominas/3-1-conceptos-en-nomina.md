@@ -6,11 +6,12 @@ description: De todos los conceptos creados conforme al punto 2 de este Manual (
 contentType: procedure
 module: Costes y nóminas
 submodule: Nóminas
+subtopic: ""
 intent: Conceptos en nómina
 audience:
   - role: RRHH
     access: applicable
-  - role: Planificador
+  - role: Administrador
     access: applicable
 entities:
   - id: conceptos

@@ -6,11 +6,10 @@ description: La tabla de cobertura es una solución que aTurnos ofrece a los adm
 contentType: reference
 module: Planificación
 submodule: Cuadrante
+subtopic: ""
 intent: Tabla de Cobertura
 audience:
   - role: Administrador
-    access: applicable
-  - role: Planificador
     access: applicable
 entities:
   - id: cobertura

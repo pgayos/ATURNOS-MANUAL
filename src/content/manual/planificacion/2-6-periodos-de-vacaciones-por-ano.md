@@ -6,6 +6,7 @@ description: En este menú tendremos acceso a los periodos de vacaciones de los 
 contentType: procedure
 module: Planificación
 submodule: Contratos
+subtopic: ""
 intent: Periodos de vacaciones por año
 audience:
   - role: RRHH
