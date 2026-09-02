@@ -67,6 +67,10 @@ export async function getStaticPaths() {
   const subtopicPaths: { params: { module: string }; props: SubtopicProps }[] = [];
 
   for (const [moduleSlug, articles] of moduleGroups) {
+    // El módulo Glosario tiene su propia página dedicada (listado A-Z, sin
+    // cards de submódulo/subtopic) en src/pages/manual/glosario/index.astro.
+    if (moduleSlug === 'glosario') continue;
+
     const bySubmodule = new Map<string, Article[]>();
     for (const article of articles) {
       const list = bySubmodule.get(article.data.submodule) ?? [];
