@@ -13,12 +13,69 @@
   --mint: #eaf8f0;
   --warning: #fff4da;
   --danger: #fff0ee;
+  --bg: #f8fafc;
   --shadow: 0 18px 45px rgba(53, 73, 102, 0.1);
   font-family:
     "Source Sans 3", SourceSansPro, ui-sans-serif, system-ui, sans-serif;
   color: var(--ink);
-  background: #f8fafc;
+  background: var(--bg);
   font-synthesis: none;
+}
+:root[data-theme="dark"] {
+  --ink: #c9d4e2;
+  --heading: #e7edf5;
+  --muted: #92a2b8;
+  --line: #2b3542;
+  --paper: #171d26;
+  --brand: #ff3fae;
+  --brand-dark: #ff77c4;
+  --blue: #4b9bf0;
+  --cyan: #33bcd6;
+  --soft: #2a1922;
+  --blue-soft: #16212e;
+  --mint: #16261d;
+  --warning: #2c2512;
+  --danger: #2c1a17;
+  --bg: #0f141a;
+  --shadow: 0 18px 45px rgba(0, 0, 0, 0.5);
+}
+:root[data-theme="dark"] .hero {
+  background:
+    radial-gradient(
+      circle at 83% 35%,
+      rgba(18, 122, 235, 0.16) 0,
+      transparent 29%
+    ),
+    radial-gradient(
+      circle at 92% 83%,
+      rgba(0, 169, 199, 0.14) 0,
+      transparent 22%
+    ),
+    linear-gradient(135deg, #141b24 0%, #1b1420 53%, #121a24 100%);
+}
+:root[data-theme="dark"] .profile-loader {
+  background: rgba(15, 20, 26, 0.88);
+}
+/* La clase se añade solo durante el cambio de tema (ver BaseLayout), así la
+   transición no dispara al cargar la página ni interfiere con los hover. */
+.theme-transition,
+.theme-transition *,
+.theme-transition *::before,
+.theme-transition *::after {
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease,
+    fill 0.3s ease !important;
+  transition-delay: 0s !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .theme-transition,
+  .theme-transition *,
+  .theme-transition *::before,
+  .theme-transition *::after {
+    transition: none !important;
+  }
 }
 * {
   box-sizing: border-box;
@@ -48,7 +105,7 @@ select {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(255, 255, 255, 0.97);
+  background: var(--paper);
   border-bottom: 1px solid var(--line);
   box-shadow: 0 4px 20px rgba(53, 73, 102, 0.05);
   backdrop-filter: blur(14px);
@@ -103,11 +160,40 @@ select {
   box-shadow: 0 7px 18px rgba(232, 0, 145, 0.18);
 }
 .profile-picker {
-  border: 1px solid #cfd9e5;
-  background: white;
+  border: 1px solid var(--line);
+  background: var(--paper);
   padding: 9px 12px;
   border-radius: 4px;
   color: var(--ink);
+}
+.theme-toggle {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 4px;
+  color: var(--muted);
+  line-height: 1;
+  cursor: pointer;
+}
+.theme-toggle:hover {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+.theme-toggle-icon {
+  display: none;
+}
+.theme-toggle-moon {
+  display: block;
+}
+:root[data-theme="dark"] .theme-toggle-moon {
+  display: none;
+}
+:root[data-theme="dark"] .theme-toggle-sun {
+  display: block;
 }
 .hero {
   position: relative;
@@ -197,7 +283,7 @@ h3 {
   padding: 8px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: white;
+  background: var(--paper);
   box-shadow: var(--shadow);
 }
 .hero-search input {
@@ -206,6 +292,8 @@ h3 {
   border: 0;
   padding: 10px 12px;
   outline: none;
+  background: transparent;
+  color: var(--ink);
 }
 .button {
   border: 0;
@@ -248,7 +336,7 @@ h3 {
   text-decoration: none;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: white;
+  background: var(--paper);
   box-shadow: 0 8px 24px rgba(53, 73, 102, 0.055);
   transition:
     transform 0.2s,
@@ -423,7 +511,7 @@ h3 {
 }
 .article-body p,
 .article-body li {
-  color: #2c4057;
+  color: var(--ink);
 }
 .article-body img {
   max-width: 100%;
@@ -461,7 +549,7 @@ h3 {
   padding: 22px 22px 22px 68px;
   border: 1px solid var(--line);
   border-radius: 16px;
-  background: white;
+  background: var(--paper);
 }
 .step::before {
   counter-increment: step;
@@ -486,7 +574,7 @@ h3 {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 18px;
-  background: #eef6fb;
+  background: var(--blue-soft);
 }
 .media-card img {
   display: block;
@@ -499,7 +587,7 @@ h3 {
   padding: 12px 16px;
   color: var(--muted);
   font-size: 0.9rem;
-  background: white;
+  background: var(--paper);
 }
 .video {
   aspect-ratio: 16/9;
@@ -516,7 +604,7 @@ h3 {
   padding: 17px;
   border: 1px solid var(--line);
   border-radius: 14px;
-  background: white;
+  background: var(--paper);
 }
 .mini-card h3 {
   margin: 0 0 8px;
@@ -545,8 +633,9 @@ h3 {
   background: var(--soft);
 }
 .feedback button {
-  border: 1px solid #9cc7ed;
-  background: white;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
   border-radius: 9px;
   padding: 8px 13px;
   cursor: pointer;
@@ -555,7 +644,7 @@ h3 {
   border-top: 1px solid var(--line);
   padding: 34px 0;
   color: var(--muted);
-  background: white;
+  background: var(--paper);
 }
 .footer-inner {
   display: flex;
@@ -582,7 +671,7 @@ h3 {
   min-height: 190px;
   padding: 28px;
   overflow: hidden;
-  background: white;
+  background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 18px;
   box-shadow: var(--shadow);
@@ -607,7 +696,7 @@ h3 {
   padding: 28px 34px;
   text-align: center;
   color: var(--muted);
-  background: white;
+  background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 14px;
   box-shadow: var(--shadow);
@@ -654,7 +743,7 @@ h3 {
   width: 94px;
   height: auto;
   padding: 7px;
-  background: white;
+  background: var(--paper);
   border-radius: 4px;
 }
 @keyframes profile-loader-spin {
@@ -691,7 +780,7 @@ h3 {
   padding: 7px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: white;
+  background: var(--paper);
 }
 .manual-search:focus-within {
   border-color: var(--brand);
@@ -747,7 +836,7 @@ h3 {
   color: var(--muted);
   border: 1px dashed var(--line);
   border-radius: 10px;
-  background: white;
+  background: var(--paper);
 }
 @media (max-width: 980px) {
   .article-shell {
@@ -762,7 +851,7 @@ h3 {
     padding: 14px;
     border: 1px solid var(--line);
     border-radius: 12px;
-    background: white;
+    background: var(--paper);
   }
   .right-panel {
     grid-template-columns: 1fr 1fr;

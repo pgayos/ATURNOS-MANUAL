@@ -1,14 +1,35 @@
+# Cómo agregar un término nuevo al glosario
+
+Sigue estos 3 pasos. No hace falta tocar ningún otro archivo del proyecto —
+con crear el `.md` en el lugar correcto, el término aparece solo en
+`/manual/glosario/`, en su letra correspondiente.
+
+## Paso 1 — Crea el archivo
+
+En la carpeta `src/content/manual/glosario/`, crea un archivo nuevo. El
+nombre define la dirección web del término, así que usa minúsculas, sin
+tildes ni espacios, separado por guiones. Ejemplos:
+
+- Término "Turno" → `turno.md`
+- Término "Balance de horas" → `balance-de-horas.md`
+
+## Paso 2 — Copia esta plantilla completa
+
+Las líneas marcadas con 👉 son las que tienes que cambiar. **Todo lo demás
+se deja exactamente igual**, aunque no entiendas para qué sirve — son
+datos internos que necesita el sistema, no afectan lo que se ve en la web.
+
+```yaml
 ---
 schemaVersion: "1.0"
-contentId: glosario-<slug-del-termino> # único, ej: glosario-absentismo
-title: <Nombre del término> # mínimo 8 caracteres
+contentId: glosario-turno                       # 👉 "glosario-" + el mismo nombre que le has puesto al archivo (sin .md)
+title: Turno                                    # 👉 el nombre del término
 order: 1
-description: <Definición breve, mínimo 30 caracteres>
-contentType: concept # o procedure/reference/faq/troubleshooting según aplique
-module: Glosario # fijo, siempre "Glosario"
-submodule: Glosario # obligatorio, pero decorativo (no se usa)
-# subtopic:                                      # opcional, se omite si no aplica
-intent: <qué busca alguien al leer esto>
+description: Bloque de horas planificado para un trabajador dentro del cuadrante.  # 👉 la definición, en una frase (mínimo 30 caracteres)
+contentType: concept
+module: Glosario
+submodule: Glosario
+intent: Turno                                   # 👉 pon lo mismo que en "title"
 audience:
   - role: Trabajador
     access: applicable
@@ -17,7 +38,7 @@ audience:
   - role: RRHH
     access: applicable
 entities: []
-synonyms: [] # otros nombres del mismo término, si los hay
+synonyms: []                                    # 👉 si el término tiene otros nombres, añádelos aquí (ver ejemplo más abajo). Si no, déjalo así.
 prerequisites: []
 platforms:
   - web
@@ -27,12 +48,11 @@ governance:
   reviewer: null
   reviewedAt: null
   reviewDueAt: null
-  sourceUrls:
-    - https://manual.aturnos.com/knowledgebase/<slug-original>/
+  sourceUrls: []
   redirectsFrom: []
 ai:
   answerableQuestions:
-    - ¿Qué es <término>?
+    - ¿Qué es Turno?                            # 👉 cambia "Turno" por el nombre del término
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -41,32 +61,42 @@ featured: false
 migration:
   sourceCount: 1
   originUrls:
-    - https://manual.aturnos.com/knowledgebase/<slug-original>/
+    - https://manual.aturnos.com/glosario/
   redirectFrom:
-    - https://manual.aturnos.com/knowledgebase/<slug-original>/
-  contentHash: <sha256, 64 caracteres>
-  migratedAt: 2026-09-02
-labels: []
+    - https://manual.aturnos.com/glosario/
+  contentHash: "0000000000000000000000000000000000000000000000000000000000000000"
+  migratedAt: 2026-09-02                        # 👉 la fecha de hoy, formato AAAA-MM-DD
+labels:
+  - PENDIENTE
 ---
 
 ## Resumen
 
-<Definición del término>
-
+Turno: bloque de horas planificado para un trabajador dentro del cuadrante.  <!-- 👉 escribe aquí la definición completa del término -->
 ```
 
-## 6. Pasos
+### Si el término tiene otros nombres (sinónimos)
 
-1. Copiar la plantilla de arriba.
-2. Completar `contentId`, `title`, `description`, `intent`, `sourceUrls`/`originUrls`/
-   `redirectFrom` y `contentHash` (si el término viene de una fuente real), y el cuerpo.
-3. Guardarlo como `src/content/manual/glosario/<slug-del-termino>.md`.
-4. Verificar con `npm run dev` (o `npm run build`) que aparece en `/manual/glosario/`,
-   en la letra correcta, y que `/manual/glosario/<slug-del-termino>/` carga bien.
+Por ejemplo, si "Turno" también se conoce como "Tipo de turno":
 
-## Lo mínimo que hay que decidir por término
-
-`contentId`, `title`, `description`, `intent`, la fuente (`sourceUrls`/`originUrls`/
-`redirectFrom`/`contentHash`) y el cuerpo con la definición. Todo lo demás es
-boilerplate repetible.
+```yaml
+synonyms:
+  - Tipo de turno
 ```
+
+Cada nombre en `synonyms` aparecerá como una entrada más en el índice A-Z,
+en su propia letra, pero llevando a este mismo término.
+
+## Paso 3 — Guarda y comprueba
+
+Guarda el archivo. Si el sitio está corriendo (`npm run dev`), entra en
+`/manual/glosario/` y busca el término en su letra — debería aparecer
+solo, sin necesidad de avisar a nada más.
+
+---
+
+### Lo único que realmente cambia de un término a otro
+
+`contentId`, `title`, `description`, `intent`, `ai.answerableQuestions`,
+`migratedAt` y el texto de `## Resumen`. Todo lo demás de la plantilla es
+igual siempre — cópialo tal cual.

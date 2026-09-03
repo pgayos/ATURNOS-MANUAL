@@ -45,11 +45,13 @@ const reviewed = d.governance.reviewedAt
   </div>
   <main class="container article-shell">
     <aside class="sidebar" aria-label="Índice del artículo">
-      <strong>En esta página</strong>{
+      <strong>En esta página</strong>
+      {
         headings
           .filter((h) => h.depth === 2)
           .map((h) => <a href={`#${h.slug}`}>{h.text}</a>)
       }
+      <strong>Conceptos</strong>
     </aside>
     <article data-pagefind-body>
       <header class="article-header">
@@ -62,7 +64,7 @@ const reviewed = d.governance.reviewedAt
           d.synonyms.length > 0 && (
             <div class="synonyms">
               <h4>Sinónimos:</h4>
-              <p>{d.synonyms.join(', ')}</p>
+              <p>{d.synonyms.join(", ")}</p>
             </div>
           )
         }

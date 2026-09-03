@@ -18,7 +18,7 @@ const manual = defineCollection({
     subtopic: z.string().optional(),
     intent: z.string(),
     audience: z.array(z.object({ role, access: z.enum(['required', 'recommended', 'applicable']) })),
-    entities: z.array(z.object({ id: z.string(), label: z.string() })),
+    entities: z.array(z.object({ id: z.string(), label: z.string() })).default([]),
     synonyms: z.array(z.string()).default([]),
     prerequisites: z.array(z.string()).default([]),
     platforms: z.array(z.enum(['web', 'app'])),

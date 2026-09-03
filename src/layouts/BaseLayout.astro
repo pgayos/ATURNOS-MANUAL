@@ -19,6 +19,18 @@ const preventIndexing = Boolean(
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <script is:inline>
+      // Se ejecuta antes de pintar para evitar el parpadeo claro→oscuro.
+      (() => {
+        const stored = localStorage.getItem("manual-theme");
+        const theme =
+          stored ||
+          (window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
     <meta name="description" content={description} />
     {preventIndexing && <meta name="robots" content="noindex, nofollow" />}
     <link rel="icon" type="image/svg+xml" href="/brand/aturnos-symbol.svg" />
@@ -72,9 +84,53 @@ const preventIndexing = Boolean(
           id="profile-picker"
           aria-label="Seleccionar mi perfil"
         >
-          <option value="general">Mi perfil</option><option>Trabajador</option
-          ><option>Administrador</option><option>RRHH</option>
+          <option value="general">Rol usuario</option>
+          <option>Trabajador</option><option>Administrador</option><option
+            >RRHH</option
+          >
         </select>
+        <!-- <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Alternar tema oscuro"
+        >
+          <svg
+            class="theme-toggle-icon theme-toggle-moon"
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            aria-hidden="true"
+          >
+            <path
+              d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linejoin="round"></path>
+          </svg>
+          <svg
+            class="theme-toggle-icon theme-toggle-sun"
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            aria-hidden="true"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="3.6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"></circle>
+            <path
+              d="M12 2.5v2.6M12 18.9v2.6M4.4 4.4l1.9 1.9M17.7 17.7l1.9 1.9M2.5 12h2.6M18.9 12h2.6M4.4 19.6l1.9-1.9M17.7 6.3l1.9-1.9"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"></path>
+          </svg>
+        </button> -->
       </nav>
     </header>
     <slot />
@@ -164,6 +220,27 @@ const preventIndexing = Boolean(
               profileLoader.hidden = true;
             }
           }, 450);
+        });
+      }
+
+      const themeToggle = document.querySelector("#theme-toggle");
+      if (themeToggle) {
+        const syncThemeState = () => {
+          const dark = document.documentElement.dataset.theme === "dark";
+          themeToggle.setAttribute("aria-pressed", String(dark));
+        };
+        syncThemeState();
+        themeToggle.addEventListener("click", () => {
+          const root = document.documentElement;
+          const next = root.dataset.theme === "dark" ? "light" : "dark";
+          root.classList.add("theme-transition");
+          root.dataset.theme = next;
+          localStorage.setItem("manual-theme", next);
+          syncThemeState();
+          window.setTimeout(
+            () => root.classList.remove("theme-transition"),
+            320,
+          );
         });
       }
     </script>
