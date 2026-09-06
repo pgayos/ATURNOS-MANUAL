@@ -23,7 +23,7 @@ prerequisites: []
 platforms:
   - web
 governance:
-  status: draft
+  status: published
   owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
@@ -52,6 +52,7 @@ labels:
   - PENDIENTE
 order: 1
 ---
+
 ## Resumen
 
 Un absentismo es una ausencia en el puesto de trabajo durante los turnos y horas planificados en su cuadrante.

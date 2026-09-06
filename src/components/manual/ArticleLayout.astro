@@ -82,18 +82,20 @@ const reviewed = d.governance.reviewedAt
           }
         </div>
         <div class="article-meta">
-          <span>◷ {d.readingTime} min</span><span
+          <span>◷ Tiempo de lectura: {d.readingTime} min</span>
+          <!-- <span
             >✓ Estado: {d.governance.status}</span
-          ><span>↻ Revisado: {reviewed}</span>
+          > -->
+          <span>↻ Última Actualización: {reviewed}</span>
         </div>
       </header>
       <div class="article-body"><slot /></div>
-      <div class="feedback">
+      <!-- <div class="feedback">
         <strong>¿Te ha resultado útil este artículo?</strong><div>
           <button type="button">Sí</button>
           <button type="button">No</button>
         </div>
-      </div>
+      </div> -->
     </article>
     <aside class="right-panel">
       <div class="mini-card ai-box">
@@ -102,14 +104,19 @@ const reviewed = d.governance.reviewedAt
           citas.
         </p><a class="button" href="/asistente/">Abrir asistente</a>
       </div>
-      <div class="mini-card">
+      <!-- <div class="mini-card">
         <h3>Para tu perfil</h3><p>
           Selecciona tu perfil en la cabecera para destacar requisitos y pasos
           relevantes.
         </p>
+      </div> -->
+      <div class="mini-card">
+        <h3>Autor</h3><p>{d.governance.owner}<br />Revisión anual</p>
       </div>
       <div class="mini-card">
-        <h3>Responsable</h3><p>{d.governance.owner}<br />Revisión anual</p>
+        <h3>¿Mas dudas?</h3><a target="_blank" href="https://www.aturnos.com"
+          >Contacta con Soporte</a
+        >
       </div>
     </aside>
   </main>
