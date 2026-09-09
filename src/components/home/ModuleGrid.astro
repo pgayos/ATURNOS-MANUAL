@@ -26,25 +26,22 @@ const { id, eyebrow, title, modules, icons, descriptions } = Astro.props;
     </div>
   </div>
   <div class="card-grid">
-    {
-      modules.map((module) => (
-        <a
-          class="card"
-          data-module-profile-counts={JSON.stringify(module.profileCounts)}
-          data-total-count={module.count}
-          href={`/manual/${module.slug}/`}
-        >
-          <span class="card-icon">{icons[module.name] ?? "◆"}</span>
-          <h3>{module.name}</h3>
-          <p>
-            {descriptions[module.name] ??
-              `Consulta las guías de ${module.name}.`}
-          </p>
-          <span class="card-count" data-module-count>
-            {module.count} {module.count === 1 ? "artículo" : "artículos"}
-          </span>
-        </a>
-      ))
-    }
+    {modules.map((module) => (
+      <a
+        class="card"
+        data-module-profile-counts={JSON.stringify(module.profileCounts)}
+        data-total-count={module.count}
+        href={`/manual/${module.slug}/`}
+      >
+        <span class="card-icon">{icons[module.name] ?? "◆"}</span>
+        <h3>{module.name}</h3>
+        <p>
+          {descriptions[module.name] ?? `Consulta las guías de ${module.name}.`}
+        </p>
+        <span class="card-count" data-module-count>
+          {module.count} {module.count === 1 ? "artículo" : "artículos"}
+        </span>
+      </a>
+    ))}
   </div>
 </section>

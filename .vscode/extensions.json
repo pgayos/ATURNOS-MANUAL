@@ -2,6 +2,7 @@
   "recommendations": [
     "astro-build.astro-vscode",
     "unifiedjs.vscode-mdx",
-    "ms-python.python"
+    "ms-python.python",
+    "esbenp.prettier-vscode"
   ]
 }

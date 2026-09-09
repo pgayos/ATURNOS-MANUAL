@@ -35,8 +35,7 @@ const currentId = entry.id;
 
 // En un módulo "guía" con submódulo aplanado, el tema hace de submódulo: el nivel
 // del submódulo envoltorio no se muestra en breadcrumb ni en el eyebrow.
-const isFlattened =
-  isGuide && isFlattenedSubmodule(moduleSlug, d.submodule);
+const isFlattened = isGuide && isFlattenedSubmodule(moduleSlug, d.submodule);
 // Artículo de portada del módulo guía (la "Introducción"): breadcrumb y eyebrow
 // se quedan solo con el nombre del módulo.
 const isGuideOverview = Boolean(
@@ -47,7 +46,10 @@ const eyebrowText =
   isGlossary || isGuideOverview || !eyebrowSection
     ? d.module
     : `${d.module} · ${eyebrowSection}`;
-const subHasCurrent = (sub: { overviewId?: string; articles: { id: string }[] }) =>
+const subHasCurrent = (sub: {
+  overviewId?: string;
+  articles: { id: string }[];
+}) =>
   sub.overviewId === currentId || sub.articles.some((a) => a.id === currentId);
 const groupHasCurrent = (group: {
   overviewId?: string;
@@ -66,44 +68,39 @@ const chevronSvg =
 
 <BaseLayout title={`${d.title} · aTurnos`} description={d.description}>
   <div class="container breadcrumbs">
-    <a href="/">Inicio</a> / {
-      isGlossary ? (
-        d.module
-      ) : isGuideOverview ? (
-        d.module
-      ) : isFlattened ? (
-        <>
-          <a href={`/manual/${moduleSlug}/`}>{d.module}</a>
-          {subtopicSlug && (
-            <>
-              {" "}
-              /{" "}
-              <a
-                href={`/manual/${moduleSlug}/${submoduleSlug}/${subtopicSlug}/`}
-              >
-                {d.subtopic}
-              </a>
-            </>
-          )}
-        </>
-      ) : (
-        <>
-          <a href={`/manual/${moduleSlug}/`}>{d.module}</a> /{" "}
-          <a href={`/manual/${moduleSlug}/${submoduleSlug}/`}>{d.submodule}</a>
-          {subtopicSlug && (
-            <>
-              {" "}
-              /{" "}
-              <a
-                href={`/manual/${moduleSlug}/${submoduleSlug}/${subtopicSlug}/`}
-              >
-                {d.subtopic}
-              </a>
-            </>
-          )}
-        </>
-      )
-    }
+    <a href="/">Inicio</a> /{" "}
+    {isGlossary ? (
+      d.module
+    ) : isGuideOverview ? (
+      d.module
+    ) : isFlattened ? (
+      <>
+        <a href={`/manual/${moduleSlug}/`}>{d.module}</a>
+        {subtopicSlug && (
+          <>
+            {" "}
+            /{" "}
+            <a href={`/manual/${moduleSlug}/${submoduleSlug}/${subtopicSlug}/`}>
+              {d.subtopic}
+            </a>
+          </>
+        )}
+      </>
+    ) : (
+      <>
+        <a href={`/manual/${moduleSlug}/`}>{d.module}</a> /{" "}
+        <a href={`/manual/${moduleSlug}/${submoduleSlug}/`}>{d.submodule}</a>
+        {subtopicSlug && (
+          <>
+            {" "}
+            /{" "}
+            <a href={`/manual/${moduleSlug}/${submoduleSlug}/${subtopicSlug}/`}>
+              {d.subtopic}
+            </a>
+          </>
+        )}
+      </>
+    )}
   </div>
   <main
     class:list={[
@@ -113,182 +110,174 @@ const chevronSvg =
     ]}
   >
     <aside class="sidebar" aria-label="Contenido del módulo">
-      {
-        isGuide && guideNav && (
-          <nav
-            class="guide-nav"
-            data-guide-nav
-            aria-label={`Contenido de ${guideNav.moduleName}`}
+      {isGuide && guideNav && (
+        <nav
+          class="guide-nav"
+          data-guide-nav
+          aria-label={`Contenido de ${guideNav.moduleName}`}
+        >
+          <a
+            class:list={[
+              "guide-nav-title",
+              { active: guideNav.firstArticleId === currentId },
+            ]}
+            href={`/manual/${guideNav.firstArticleId}/`}
+            aria-current={
+              guideNav.firstArticleId === currentId ? "page" : undefined
+            }
           >
-            <a
-              class:list={[
-                "guide-nav-title",
-                { active: guideNav.firstArticleId === currentId },
-              ]}
-              href={`/manual/${guideNav.firstArticleId}/`}
-              aria-current={
-                guideNav.firstArticleId === currentId ? "page" : undefined
-              }
-            >
-              {guideNav.moduleName}
-            </a>
-            <ul class="guide-nav-list">
-              {guideNav.groups.map((group, index) => {
-                const groupOpen =
-                  groupHasCurrent(group) ||
-                  (index === 0 &&
-                    !guideNav.groups.some((g) => groupHasCurrent(g)));
-                const groupChildren =
-                  group.looseArticles.length > 0 || group.subtopics.length > 0;
-                return (
-                  <li
-                    class:list={["guide-nav-node", { open: groupOpen }]}
-                    data-node={groupChildren ? "" : undefined}
-                  >
-                    {group.overviewId ? (
-                      <a
-                        class:list={[
-                          "guide-nav-head-link",
-                          { active: group.overviewId === currentId },
-                        ]}
-                        href={`/manual/${group.overviewId}/`}
-                        aria-current={
-                          group.overviewId === currentId ? "page" : undefined
-                        }
-                      >
-                        {group.name}
-                      </a>
-                    ) : (
-                      <span class="guide-nav-head-link">{group.name}</span>
-                    )}
-                    {groupChildren && (
-                      <button
-                        type="button"
-                        class="guide-nav-toggle"
-                        aria-expanded={groupOpen ? "true" : "false"}
-                        aria-label={`Mostrar u ocultar ${group.name}`}
-                        set:html={chevronSvg}
-                      />
-                    )}
-                    {groupChildren && (
-                      <ul class="guide-nav-sublist">
-                        {group.looseArticles.map((a) => (
-                          <li>
-                            <a
-                              class:list={[
-                                "guide-nav-link",
-                                { active: a.id === currentId },
-                              ]}
-                              href={`/manual/${a.id}/`}
-                              aria-current={
-                                a.id === currentId ? "page" : undefined
-                              }
-                            >
-                              {a.title}
-                            </a>
+            {guideNav.moduleName}
+          </a>
+          <ul class="guide-nav-list">
+            {guideNav.groups.map((group, index) => {
+              const groupOpen =
+                groupHasCurrent(group) ||
+                (index === 0 &&
+                  !guideNav.groups.some((g) => groupHasCurrent(g)));
+              const groupChildren =
+                group.looseArticles.length > 0 || group.subtopics.length > 0;
+              return (
+                <li
+                  class:list={["guide-nav-node", { open: groupOpen }]}
+                  data-node={groupChildren ? "" : undefined}
+                >
+                  {group.overviewId ? (
+                    <a
+                      class:list={[
+                        "guide-nav-head-link",
+                        { active: group.overviewId === currentId },
+                      ]}
+                      href={`/manual/${group.overviewId}/`}
+                      aria-current={
+                        group.overviewId === currentId ? "page" : undefined
+                      }
+                    >
+                      {group.name}
+                    </a>
+                  ) : (
+                    <span class="guide-nav-head-link">{group.name}</span>
+                  )}
+                  {groupChildren && (
+                    <button
+                      type="button"
+                      class="guide-nav-toggle"
+                      aria-expanded={groupOpen ? "true" : "false"}
+                      aria-label={`Mostrar u ocultar ${group.name}`}
+                      set:html={chevronSvg}
+                    />
+                  )}
+                  {groupChildren && (
+                    <ul class="guide-nav-sublist">
+                      {group.looseArticles.map((a) => (
+                        <li>
+                          <a
+                            class:list={[
+                              "guide-nav-link",
+                              { active: a.id === currentId },
+                            ]}
+                            href={`/manual/${a.id}/`}
+                            aria-current={
+                              a.id === currentId ? "page" : undefined
+                            }
+                          >
+                            {a.title}
+                          </a>
+                        </li>
+                      ))}
+                      {group.subtopics.map((sub) => {
+                        const subOpen = subHasCurrent(sub);
+                        const subChildren = sub.articles.length > 0;
+                        return (
+                          <li
+                            class:list={[
+                              "guide-nav-node",
+                              "guide-nav-node--sub",
+                              { open: subOpen },
+                            ]}
+                            data-node={subChildren ? "" : undefined}
+                          >
+                            {sub.overviewId ? (
+                              <a
+                                class:list={[
+                                  "guide-nav-head-link",
+                                  { active: sub.overviewId === currentId },
+                                ]}
+                                href={`/manual/${sub.overviewId}/`}
+                                aria-current={
+                                  sub.overviewId === currentId
+                                    ? "page"
+                                    : undefined
+                                }
+                              >
+                                {sub.name}
+                              </a>
+                            ) : (
+                              <span class="guide-nav-head-link">
+                                {sub.name}
+                              </span>
+                            )}
+                            {subChildren && (
+                              <button
+                                type="button"
+                                class="guide-nav-toggle"
+                                aria-expanded={subOpen ? "true" : "false"}
+                                aria-label={`Mostrar u ocultar ${sub.name}`}
+                                set:html={chevronSvg}
+                              />
+                            )}
+                            {subChildren && (
+                              <ul class="guide-nav-sublist">
+                                {sub.articles.map((a) => (
+                                  <li>
+                                    <a
+                                      class:list={[
+                                        "guide-nav-link",
+                                        { active: a.id === currentId },
+                                      ]}
+                                      href={`/manual/${a.id}/`}
+                                      aria-current={
+                                        a.id === currentId ? "page" : undefined
+                                      }
+                                    >
+                                      {a.title}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
                           </li>
-                        ))}
-                        {group.subtopics.map((sub) => {
-                          const subOpen = subHasCurrent(sub);
-                          const subChildren = sub.articles.length > 0;
-                          return (
-                            <li
-                              class:list={[
-                                "guide-nav-node",
-                                "guide-nav-node--sub",
-                                { open: subOpen },
-                              ]}
-                              data-node={subChildren ? "" : undefined}
-                            >
-                              {sub.overviewId ? (
-                                <a
-                                  class:list={[
-                                    "guide-nav-head-link",
-                                    { active: sub.overviewId === currentId },
-                                  ]}
-                                  href={`/manual/${sub.overviewId}/`}
-                                  aria-current={
-                                    sub.overviewId === currentId
-                                      ? "page"
-                                      : undefined
-                                  }
-                                >
-                                  {sub.name}
-                                </a>
-                              ) : (
-                                <span class="guide-nav-head-link">
-                                  {sub.name}
-                                </span>
-                              )}
-                              {subChildren && (
-                                <button
-                                  type="button"
-                                  class="guide-nav-toggle"
-                                  aria-expanded={subOpen ? "true" : "false"}
-                                  aria-label={`Mostrar u ocultar ${sub.name}`}
-                                  set:html={chevronSvg}
-                                />
-                              )}
-                              {subChildren && (
-                                <ul class="guide-nav-sublist">
-                                  {sub.articles.map((a) => (
-                                    <li>
-                                      <a
-                                        class:list={[
-                                          "guide-nav-link",
-                                          { active: a.id === currentId },
-                                        ]}
-                                        href={`/manual/${a.id}/`}
-                                        aria-current={
-                                          a.id === currentId
-                                            ? "page"
-                                            : undefined
-                                        }
-                                      >
-                                        {a.title}
-                                      </a>
-                                    </li>
-                                  ))}
-                                </ul>
-                              )}
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    )}
-                  </li>
-                );
-              })}
-            </ul>
-          </nav>
-        )
-      }
+                        );
+                      })}
+                    </ul>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+      )}
     </aside>
     <article data-pagefind-body>
       <header class="article-header">
         <span class="eyebrow">{eyebrowText}</span>
         <h1>{d.title}</h1>
         <p class="lead">{d.description}</p>
-        {
-          d.synonyms.length > 0 && (
-            <div class="synonyms">
-              <h4>Sinónimos:</h4>
-              <p>{d.synonyms.join(", ")}</p>
-            </div>
-          )
-        }
+        {d.synonyms.length > 0 && (
+          <div class="synonyms">
+            <h4>Sinónimos:</h4>
+            <p>{d.synonyms.join(", ")}</p>
+          </div>
+        )}
         <div class="badges">
-          {
-            d.audience.map((a) => (
-              <span
-                class="badge"
-                data-role={a.role}
-                data-pagefind-filter={`profile:${a.role}`}
-              >
-                {a.role}
-              </span>
-            ))
-          }
+          {d.audience.map((a) => (
+            <span
+              class="badge"
+              data-role={a.role}
+              data-pagefind-filter={`profile:${a.role}`}
+            >
+              {a.role}
+            </span>
+          ))}
         </div>
         <div class="article-meta">
           <span>◷ Tiempo de lectura: {d.readingTime} min</span>
@@ -298,7 +287,9 @@ const chevronSvg =
           <span>↻ Última Actualización: {reviewed}</span>
         </div>
       </header>
-      <div class="article-body"><slot /></div>
+      <div class="article-body">
+        <slot />
+      </div>
       <!-- <div class="feedback">
         <strong>¿Te ha resultado útil este artículo?</strong><div>
           <button type="button">Sí</button>
@@ -309,29 +300,29 @@ const chevronSvg =
     <aside class="right-panel">
       <nav class="panel-index" aria-label="Índice del artículo">
         <strong>En esta página</strong>
-        {
-          pageHeadings.length > 0 ? (
-            pageHeadings.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)
-          ) : (
-            <span class="panel-index-empty">Sin secciones</span>
-          )
-        }
+        {pageHeadings.length > 0 ? (
+          pageHeadings.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)
+        ) : (
+          <span class="panel-index-empty">Sin secciones</span>
+        )}
         <strong>Conceptos</strong>
-        {
-          d.entities.length > 0 ? (
-            d.entities.map((concept) => (
-              <span class="panel-index-concept">{concept.label}</span>
-            ))
-          ) : (
-            <span class="panel-index-empty">Sin conceptos</span>
-          )
-        }
+        {d.entities.length > 0 ? (
+          d.entities.map((concept) => (
+            <span class="panel-index-concept">{concept.label}</span>
+          ))
+        ) : (
+          <span class="panel-index-empty">Sin conceptos</span>
+        )}
       </nav>
       <div class="mini-card ai-box">
-        <h3>Pregunta a la IA</h3><p>
+        <h3>Pregunta a la IA</h3>
+        <p>
           Obtén una respuesta basada únicamente en contenido aprobado y con
           citas.
-        </p><a class="button" href="/asistente/">Abrir asistente</a>
+        </p>
+        <a class="button" href="/asistente/">
+          Abrir asistente
+        </a>
       </div>
       <!-- <div class="mini-card">
         <h3>Para tu perfil</h3><p>
@@ -340,12 +331,18 @@ const chevronSvg =
         </p>
       </div> -->
       <div class="mini-card">
-        <h3>Autor</h3><p>{d.governance.owner}<br />Revisión anual</p>
+        <h3>Autor</h3>
+        <p>
+          {d.governance.owner}
+          <br />
+          Revisión anual
+        </p>
       </div>
       <div class="mini-card">
-        <h3>¿Mas dudas?</h3><a target="_blank" href="https://www.aturnos.com"
-          >Contacta con Soporte</a
-        >
+        <h3>¿Mas dudas?</h3>
+        <a target="_blank" href="https://www.aturnos.com">
+          Contacta con Soporte
+        </a>
       </div>
     </aside>
   </main>
@@ -370,7 +367,8 @@ const chevronSvg =
 
     const ancestors = (node: HTMLElement) => {
       const chain: HTMLElement[] = [];
-      let parent = node.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
+      let parent =
+        node.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
       while (parent) {
         chain.push(parent);
         parent =
