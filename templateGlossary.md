@@ -1,87 +1,102 @@
-# Plantilla de término de glosario
+# Cómo agregar un término nuevo al glosario
 
-Este archivo es solo de referencia — NO vive dentro de `src/content/manual/`,
-así que Astro nunca lo lee, valida ni renderiza (el loader de la colección
-solo mira `./src/content/manual`, ver `content.config.ts`). Sirve para
-copiar el bloque de abajo al crear un término real en
-`src/content/manual/glosario/<slug-del-termino>.md`.
+Sigue estos 3 pasos. No hace falta tocar ningún otro archivo del proyecto —
+con crear el `.md` en el lugar correcto, el término aparece solo en
+`/manual/glosario/`, en su letra correspondiente.
 
----
+## Paso 1 — Crea el archivo
+
+En la carpeta `src/content/manual/glosario/`, crea un archivo nuevo. El
+nombre define la dirección web del término, así que usa minúsculas, sin
+tildes ni espacios, separado por guiones. Ejemplos:
+
+- Término "Turno" → `turno.md`
+- Término "Balance de horas" → `balance-de-horas.md`
+
+## Paso 2 — Copia esta plantilla completa
+
+Las líneas marcadas con 👉 son las que tienes que cambiar. **Todo lo demás
+se deja exactamente igual**, aunque no entiendas para qué sirve — son
+datos internos que necesita el sistema, no afectan lo que se ve en la web.
 
 ```yaml
 ---
-schemaVersion: "1.0"                     # Obligatorio. Fijo, siempre "1.0".
-contentId: glosario-<slug-del-termino>   # Obligatorio, único. Ej: glosario-absentismo
-title: <Nombre del término>              # Obligatorio, mínimo 8 caracteres.
-order: 1                                 # Opcional (default: 1). No afecta el orden del glosario:
-                                          # la página siempre ordena por `title`, así que este campo
-                                          # es irrelevante acá, pero hay que dejarlo igual.
-description: <definición breve>          # Obligatorio, PERO sin mínimo de 30 caracteres para
-                                          # contentType: glossary (ver el superRefine en
-                                          # content.config.ts). Puede ser tan corta como sea
-                                          # la definición real.
-contentType: glossary                    # Obligatorio. Este valor es el que activa la excepción
-                                          # del mínimo de `description`.
-module: Glosario                         # Obligatorio. Fijo, siempre "Glosario" — es lo que hace
-                                          # que el término entre a /manual/glosario/ en vez de al
-                                          # sistema módulo→submódulo→subtopic normal.
-submodule: <cualquier texto>             # Obligatorio POR SCHEMA (no puede faltar), pero DECORATIVO
-                                          # para el glosario: la letra real de agrupación se calcula
-                                          # sola desde `title` (src/lib/slug.ts → firstLetter). Este
-                                          # valor no se lee en ningún lado — no hace falta que coincida.
-# subtopic:                              # NO SE USA. Es opcional en el schema, así que se omite
-                                          # directamente (el glosario no tiene tercer nivel).
-intent: <qué busca alguien al leer esto> # Obligatorio, igual que en cualquier artículo.
-audience:                                # Obligatorio, al menos 1 entrada.
-  - role: Trabajador                     # El glosario no distingue por rol en el original, así que
-    access: applicable                   # lo razonable es marcarlo aplicable a todos los roles.
+schemaVersion: "1.0"
+contentId: glosario-turno                       # 👉 "glosario-" + el mismo nombre que le has puesto al archivo (sin .md)
+title: Turno                                    # 👉 el nombre del término
+order: 1
+description: Bloque de horas planificado para un trabajador dentro del cuadrante.  # 👉 la definición, en una frase (mínimo 30 caracteres)
+contentType: concept
+module: Glosario
+submodule: Glosario
+intent: Turno                                   # 👉 pon lo mismo que en "title"
+audience:
+  - role: Trabajador
+    access: applicable
   - role: Administrador
     access: applicable
   - role: RRHH
     access: applicable
-entities: []                             # Obligatorio (el array en sí), pero puede ir vacío.
-                                          # Útil si querés mapear acá los "Related Articles" del
-                                          # glosario original.
-synonyms: []                             # Opcional (default: []).
-prerequisites: []                        # Opcional (default: []). El glosario normalmente no tiene.
-platforms:                               # Obligatorio.
+entities: []
+synonyms: []                                    # 👉 si el término tiene otros nombres, añádelos aquí (ver ejemplo más abajo). Si no, déjalo así.
+prerequisites: []
+platforms:
   - web
-governance:                              # Obligatorio, objeto completo.
-  status: draft                          # Obligatorio.
-  owner: Equipo de Producto de aTurnos   # Obligatorio.
-  reviewer: null                         # Obligatorio (puede ser null).
-  reviewedAt: null                       # Obligatorio (puede ser null).
-  reviewDueAt: null                      # Obligatorio (puede ser null).
-  sourceUrls:                            # Obligatorio, la URL real del término en el glosario viejo.
-    - https://manual.aturnos.com/glosario/<slug-original>/
-  redirectsFrom: []                      # Opcional (default: []).
-ai:                                      # Obligatorio, objeto completo.
-  answerableQuestions:                   # Obligatorio (array, puede tener 0+ preguntas).
-    - ¿Qué es <término>?
-  excludedQuestions: []                  # Obligatorio (el array en sí).
-  sensitivity: public                    # Obligatorio.
-  chunking: by-section                   # Obligatorio. Fijo, siempre "by-section".
-readingTime: 1                           # Obligatorio. Las definiciones son cortas, casi siempre 1.
-featured: false                          # Opcional (default: false).
-migration:                               # Obligatorio, objeto completo.
-  sourceCount: 1                         # Obligatorio.
-  originUrls:                            # Obligatorio, mínimo 1 URL.
-    - https://manual.aturnos.com/glosario/<slug-original>/
-  redirectFrom:                          # Obligatorio, mínimo 1 URL.
-    - https://manual.aturnos.com/glosario/<slug-original>/
-  contentHash: <sha256, 64 caracteres>   # Obligatorio, exactamente 64 caracteres.
-  migratedAt: 2026-09-02                 # Obligatorio.
-labels: []                               # Opcional (default: []). Usar ["PENDIENTE"] si el término
-                                          # necesita revisión editorial antes de publicarse.
+governance:
+  status: draft
+  owner: Equipo de Producto de aTurnos
+  reviewer: null
+  reviewedAt: null
+  reviewDueAt: null
+  sourceUrls: []
+  redirectsFrom: []
+ai:
+  answerableQuestions:
+    - ¿Qué es Turno?                            # 👉 cambia "Turno" por el nombre del término
+  excludedQuestions: []
+  sensitivity: public
+  chunking: by-section
+readingTime: 1
+featured: false
+migration:
+  sourceCount: 1
+  originUrls:
+    - https://manual.aturnos.com/glosario/
+  redirectFrom:
+    - https://manual.aturnos.com/glosario/
+  contentHash: "0000000000000000000000000000000000000000000000000000000000000000"
+  migratedAt: 2026-09-02                        # 👉 la fecha de hoy, formato AAAA-MM-DD
+labels:
+  - PENDIENTE
 ---
 
 ## Resumen
 
-<Definición del término, tal como aparece en la fuente>
+Turno: bloque de horas planificado para un trabajador dentro del cuadrante.  <!-- 👉 escribe aquí la definición completa del término -->
 ```
 
-## Lo mínimo que hay que decidir por término
+### Si el término tiene otros nombres (sinónimos)
 
-Todo lo demás de arriba es boilerplate repetible entre términos. Lo que realmente cambia
-cada vez es: `contentId`, `title`, `description`, `intent`, `sourceUrls`/`originUrls`/
-`redirectFrom` (la URL del término original), `contentHash`, y el cuerpo con la definición.
+Por ejemplo, si "Turno" también se conoce como "Tipo de turno":
+
+```yaml
+synonyms:
+  - Tipo de turno
+```
+
+Cada nombre en `synonyms` aparecerá como una entrada más en el índice A-Z,
+en su propia letra, pero llevando a este mismo término.
+
+## Paso 3 — Guarda y comprueba
+
+Guarda el archivo. Si el sitio está corriendo (`npm run dev`), entra en
+`/manual/glosario/` y busca el término en su letra — debería aparecer
+solo, sin necesidad de avisar a nada más.
+
+---
+
+### Lo único que realmente cambia de un término a otro
+
+`contentId`, `title`, `description`, `intent`, `ai.answerableQuestions`,
+`migratedAt` y el texto de `## Resumen`. Todo lo demás de la plantilla es
+igual siempre — cópialo tal cual.

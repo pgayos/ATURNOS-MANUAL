@@ -12,6 +12,7 @@ const articles = allArticles
       a.data.title.localeCompare(b.data.title, "es"),
   );
 const moduleDescriptions: Record<string, string> = {
+  "Empezar en aTurnos": "Guía de implantación: primeros pasos para configurar el equipo y empezar a planificar.",
   "App móvil": "Uso de aTurnos desde dispositivos móviles y fichaje.",
   "Cita previa": "Servicios, reservas y gestión de citas.",
   "Configuración y cuenta": "Ajustes generales, permisos, jornadas y cuenta.",
@@ -27,6 +28,7 @@ const moduleDescriptions: Record<string, string> = {
   Tareas: "Creación, asignación y seguimiento de tareas.",
 };
 const moduleIcons: Record<string, string> = {
+  "Empezar en aTurnos": "◉",
   "App móvil": "▣",
   "Cita previa": "◷",
   "Configuración y cuenta": "⚙",
@@ -79,6 +81,7 @@ const appModules = buildModuleCards(appArticles);
 
 const visibleModuleNames = [
   // "App móvil",
+  "Empezar en aTurnos",
   "Planificación",
   "Control horario",
   // "Cita previa",

@@ -9,7 +9,7 @@ const manual = defineCollection({
   schema: z.object({
     schemaVersion: z.literal('1.0'),
     contentId: z.string().min(3),
-    title: z.string().min(8),
+    title: z.string().min(5),
     order: z.number().int().positive().default(1),
     description: z.string().min(30),
     contentType: z.enum(['procedure', 'concept', 'reference', 'faq', 'troubleshooting']),
@@ -18,7 +18,7 @@ const manual = defineCollection({
     subtopic: z.string().optional(),
     intent: z.string(),
     audience: z.array(z.object({ role, access: z.enum(['required', 'recommended', 'applicable']) })),
-    entities: z.array(z.object({ id: z.string(), label: z.string() })),
+    entities: z.array(z.object({ id: z.string(), label: z.string() })).default([]),
     synonyms: z.array(z.string()).default([]),
     prerequisites: z.array(z.string()).default([]),
     platforms: z.array(z.enum(['web', 'app'])),

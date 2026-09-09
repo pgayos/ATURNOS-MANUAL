@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import { buildGuideNav } from '../../../lib/guideNav';
+
+// Módulo "guía": no tiene página de cards. Al entrar se salta directamente al
+// primer artículo, que ya trae el índice completo del módulo en su lateral.
+const entries = await getCollection('manual');
+const { firstArticleId } = buildGuideNav(entries, 'empezar-en-aturnos');
+const target = `/manual/${firstArticleId}/`;
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Empezar en aTurnos</title>
+  </head>
+  <body>
+    <p>Redirigiendo a <a href={target}>Empezar en aTurnos</a>…</p>
+    <script is:inline set:html={`location.replace(${JSON.stringify(target)});`} />
+  </body>
+</html>
