@@ -635,6 +635,18 @@ a.guide-nav-head-link:hover,
 .card-group + .card-group {
   margin-top: 44px;
 }
+.glossary-list {
+  display: grid;
+  gap: 34px;
+}
+.glossary-group[hidden] {
+  display: none;
+}
+/* `.card` fija display:block y gana al [hidden] del user-agent: hay que
+   ocultar las cards filtradas de forma explícita. */
+.glossary-card[hidden] {
+  display: none;
+}
 .glossary-letter {
   display: block;
   width: 34px;
@@ -645,30 +657,44 @@ a.guide-nav-head-link:hover,
   background: var(--soft);
   color: var(--brand-dark);
   font-weight: 700;
-  margin: 32px 0 10px;
+  margin: 0 0 14px;
 }
-.glossary-letter:first-child {
-  margin-top: 0;
-}
-.glossary-terms {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* Controles del glosario: buscador (solo glosario) + filtro por categoría */
+.glossary-controls {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4px 24px;
+  gap: 14px;
+  margin-bottom: 28px;
 }
-.glossary-terms li {
-  border-bottom: 1px solid var(--line);
+.glossary-controls .manual-search {
+  max-width: 520px;
 }
-.glossary-terms a {
-  display: block;
-  padding: 8px 0;
-  color: var(--ink);
-  text-decoration: none;
+.glossary-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
-.glossary-terms a:hover {
+.glossary-cat {
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.glossary-cat:hover {
   color: var(--brand);
+  border-color: var(--brand);
+}
+.glossary-cat.is-active {
+  color: #fff;
+  background: var(--brand);
+  border-color: var(--brand);
+}
+.glossary-empty {
+  padding: 24px 0;
+  color: var(--muted);
 }
 .article-meta {
   display: flex;

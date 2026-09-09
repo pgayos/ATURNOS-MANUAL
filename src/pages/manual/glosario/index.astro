@@ -3,44 +3,152 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { firstLetter } from '../../../lib/slug';
 
-// Los términos de glosario viven físicamente en src/content/manual/glosario/
-// (module: Glosario), así que sus URLs son /manual/glosario/<término>/.
+const norm = (value: string) =>
+  value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+// Los términos del glosario viven en src/content/manual/glosario/ (module:
+// Glosario), así que sus URLs son /manual/glosario/<término>/.
 const entries = await getCollection('manual', (entry) => entry.data.module === 'Glosario');
 
-// Un mismo artículo puede tener más de un nombre en el glosario original (ver
-// `synonyms`) — cada nombre aparece como su propia entrada en el índice A-Z,
-// todas apuntando al mismo artículo.
-const displayEntries = entries.flatMap((entry) => [
-  { text: entry.data.title, href: `/manual/${entry.id}/` },
-  ...entry.data.synonyms.map((synonym) => ({ text: synonym, href: `/manual/${entry.id}/` }))
-]);
-const sorted = displayEntries.sort((a, b) => a.text.localeCompare(b.text, 'es'));
+// Una card por término. Los sinónimos no generan card propia: solo alimentan el
+// buscador (que solo busca dentro del glosario, en título + sinónimos).
+const terms = entries
+  .map((entry) => ({
+    title: entry.data.title,
+    description: entry.data.description,
+    category: entry.data.submodule,
+    href: `/manual/${entry.id}/`,
+    letter: firstLetter(entry.data.title),
+    haystack: norm([entry.data.title, ...entry.data.synonyms].join(' ')),
+  }))
+  .sort((a, b) => a.title.localeCompare(b.title, 'es'));
 
-const groups: { letter: string; terms: typeof sorted }[] = [];
-for (const term of sorted) {
-  const letter = firstLetter(term.text);
-  const lastGroup = groups[groups.length - 1];
-  if (lastGroup && lastGroup.letter === letter) {
-    lastGroup.terms.push(term);
-  } else {
-    groups.push({ letter, terms: [term] });
-  }
+// Categorías = submódulos presentes en el glosario.
+const categories = [...new Set(terms.map((t) => t.category))].sort((a, b) =>
+  a.localeCompare(b, 'es'),
+);
+
+// Separación por inicial del término.
+const groups: { letter: string; terms: typeof terms }[] = [];
+for (const term of terms) {
+  const last = groups[groups.length - 1];
+  if (last && last.letter === term.letter) last.terms.push(term);
+  else groups.push({ letter: term.letter, terms: [term] });
 }
 ---
 
-<BaseLayout title="Glosario · Manual de aTurnos" description="Todos los términos del glosario de aTurnos, ordenados alfabéticamente.">
+<BaseLayout
+  title="Glosario · Manual de aTurnos"
+  description="Busca y filtra los términos del glosario de aTurnos por categoría e inicial."
+>
   <div class="container breadcrumbs"><a href="/">Inicio</a> / Glosario</div>
-  <section class="hero"><div class="container"><span class="eyebrow">Módulo</span><h1>Glosario</h1><p class="lead">Consulta los {sorted.length} términos del glosario de aTurnos, ordenados de la A a la Z.</p></div></section>
-  <section class="section container">
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">Módulo</span>
+      <h1>Glosario</h1>
+      <p class="lead">
+        Busca entre los {terms.length} términos del glosario de aTurnos o fíltralos por categoría.
+      </p>
+    </div>
+  </section>
+
+  <section class="section container" data-glossary>
+    <div class="glossary-controls">
+      <div class="manual-search">
+        <label class="sr-only" for="glossary-search">Buscar término o sinónimo</label>
+        <input
+          id="glossary-search"
+          type="search"
+          autocomplete="off"
+          placeholder="Buscar término o sinónimo…"
+          data-glossary-search
+        />
+      </div>
+      <div class="glossary-categories" role="group" aria-label="Filtrar por categoría">
+        <button type="button" class="glossary-cat is-active" data-glossary-cat="" aria-pressed="true">
+          Todas las categorías
+        </button>
+        {categories.map((category) => (
+          <button type="button" class="glossary-cat" data-glossary-cat={category} aria-pressed="false">
+            {category}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <p class="glossary-empty" data-glossary-empty hidden>
+      No hay términos que coincidan con la búsqueda.
+    </p>
+
     <div class="glossary-list">
-      {groups.map(group => (
-        <Fragment>
+      {groups.map((group) => (
+        <section class="glossary-group">
           <span class="glossary-letter">{group.letter}</span>
-          <ul class="glossary-terms">
-            {group.terms.map(term => <li><a href={term.href}>{term.text}</a></li>)}
-          </ul>
-        </Fragment>
+          <div class="card-grid">
+            {group.terms.map((term) => (
+              <a
+                class="card glossary-card"
+                href={term.href}
+                data-term
+                data-cat={term.category}
+                data-search={term.haystack}
+              >
+                <span class="badge">{term.category}</span>
+                <h3>{term.title}</h3>
+                <p>{term.description}</p>
+              </a>
+            ))}
+          </div>
+        </section>
       ))}
     </div>
   </section>
+
+  <script>
+    const root = document.querySelector<HTMLElement>('[data-glossary]');
+    if (root) {
+      const search = root.querySelector<HTMLInputElement>('[data-glossary-search]');
+      const catButtons = Array.from(
+        root.querySelectorAll<HTMLButtonElement>('[data-glossary-cat]'),
+      );
+      const cards = Array.from(root.querySelectorAll<HTMLElement>('[data-term]'));
+      const groups = Array.from(
+        root.querySelectorAll<HTMLElement>('.glossary-group'),
+      );
+      const empty = root.querySelector<HTMLElement>('[data-glossary-empty]');
+      const norm = (value: string) =>
+        value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+      let activeCat = '';
+
+      const apply = () => {
+        const query = norm((search?.value ?? '').trim());
+        let visible = 0;
+        for (const card of cards) {
+          const matchCat = !activeCat || card.dataset.cat === activeCat;
+          const matchText = !query || (card.dataset.search ?? '').includes(query);
+          const show = matchCat && matchText;
+          card.hidden = !show;
+          if (show) visible += 1;
+        }
+        for (const group of groups) {
+          group.hidden = !group.querySelector('[data-term]:not([hidden])');
+        }
+        if (empty) empty.hidden = visible !== 0;
+      };
+
+      search?.addEventListener('input', apply);
+      for (const button of catButtons) {
+        button.addEventListener('click', () => {
+          activeCat = button.dataset.glossaryCat ?? '';
+          for (const other of catButtons) {
+            const on = other === button;
+            other.classList.toggle('is-active', on);
+            other.setAttribute('aria-pressed', String(on));
+          }
+          apply();
+        });
+      }
+    }
+  </script>
 </BaseLayout>
