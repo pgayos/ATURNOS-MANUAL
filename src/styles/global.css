@@ -261,6 +261,7 @@ h1 {
 h2 {
   margin-top: 2.3em;
   font-size: clamp(1.45rem, 3vw, 2rem);
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.02em;
   scroll-margin-top: 100px;
@@ -386,14 +387,25 @@ h3 {
 }
 .article-shell {
   display: grid;
-  grid-template-columns: 230px minmax(0, 760px) 230px;
+  grid-template-columns: minmax(0, 760px) 240px;
   gap: 38px;
   align-items: start;
   padding: 30px 0 80px;
 }
+/* Sin índice de módulo (artículo normal): 2 columnas, sin hueco a la izquierda. */
+.article-shell:not(.with-guide-nav) > .sidebar {
+  display: none;
+}
+/* Módulo "guía": 3 columnas con el índice completo del módulo a la izquierda. */
+.article-shell.with-guide-nav {
+  grid-template-columns: 240px minmax(0, 760px) 240px;
+}
 .sidebar {
   position: sticky;
   top: 102px;
+  max-height: calc(100vh - 128px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   font-size: 0.92rem;
 }
 .sidebar strong {
@@ -409,6 +421,164 @@ h3 {
 .sidebar a:hover {
   color: var(--brand);
 }
+
+/* Índice de módulo "guía" (lateral izquierdo) */
+.guide-nav-title {
+  display: block;
+  font-family: Poppins, "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 0.98rem;
+  color: var(--heading);
+  text-decoration: none;
+  padding-bottom: 10px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--line);
+}
+.guide-nav-title:hover,
+.guide-nav-title.active {
+  color: var(--brand);
+}
+
+/* Listas semánticas: nav > ul.guide-nav-list > li.guide-nav-node > a + ul */
+.guide-nav-list,
+.guide-nav-sublist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Sangría de los hijos respecto a su cabecera (se acumula al anidar) */
+.guide-nav-sublist {
+  padding-left: 14px;
+}
+
+/* Nodo (submódulo o tema): cabecera en una fila, hijos debajo */
+.guide-nav-node {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.guide-nav-node > .guide-nav-sublist {
+  grid-column: 1 / -1;
+}
+.guide-nav-list > .guide-nav-node + .guide-nav-node {
+  margin-top: 2px;
+}
+.guide-nav-sublist > .guide-nav-node--sub {
+  margin-top: 4px;
+}
+
+.guide-nav-head-link {
+  min-width: 0;
+  display: block;
+  padding: 6px 0;
+  text-decoration: none;
+  line-height: 1.3;
+}
+/* Cabecera de submódulo (primer nivel) */
+.guide-nav-list{
+  margin-top: 8px;
+}
+.guide-nav-list > .guide-nav-node > .guide-nav-head-link {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+/* Cabecera de tema (nivel anidado) */
+.guide-nav-node--sub > .guide-nav-head-link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+a.guide-nav-head-link:hover,
+.guide-nav-head-link.active {
+  color: var(--brand);
+}
+
+.guide-nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.guide-nav-toggle:hover {
+  color: var(--brand);
+  background: var(--soft);
+}
+.guide-nav-toggle svg {
+  width: 12px;
+  height: 12px;
+  transition: transform 0.18s ease;
+}
+.guide-nav-node.open > .guide-nav-toggle svg {
+  transform: rotate(90deg);
+}
+.guide-nav-node[data-node]:not(.open) > .guide-nav-sublist {
+  display: none;
+}
+
+.guide-nav-link {
+  display: block;
+  padding: 5px 8px;
+  border-left: 2px solid transparent;
+  color: var(--muted);
+  text-decoration: none;
+  line-height: 1.35;
+}
+.guide-nav-link:hover {
+  color: var(--brand);
+}
+.guide-nav-link.active {
+  color: var(--brand);
+  font-weight: 600;
+  border-left-color: var(--brand);
+}
+
+/* "En esta página" / "Conceptos" movidos al panel derecho: mismo aspecto que
+   tenían en el lateral izquierdo (enlaces sobrios, no links rosados). */
+.panel-index {
+  font-size: 0.92rem;
+}
+.panel-index strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink);
+}
+.panel-index > strong:nth-of-type(2) {
+  margin-top: 18px;
+}
+.panel-index a {
+  display: block;
+  padding: 6px 0;
+  color: var(--muted);
+  text-decoration: none;
+  line-height: 1.35;
+}
+.panel-index a:hover {
+  color: var(--brand);
+}
+.panel-index-concept {
+  display: block;
+  padding: 4px 0;
+  color: var(--ink);
+}
+.panel-index-empty {
+  display: block;
+  padding: 4px 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-style: italic;
+}
 .breadcrumbs {
   padding-top: 28px;
   color: var(--muted);
@@ -422,7 +592,9 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 .article-header h1 {
-  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 500;
+  line-height: 1.4;
 }
 .synonyms {
   display: flex;
@@ -512,6 +684,14 @@ h3 {
 .article-body p,
 .article-body li {
   color: var(--ink);
+}
+/* Titulares del contenido a peso medio (coherente con h1 y h2). */
+.article-body h2,
+.article-body h3,
+.article-body h4,
+.article-body h5,
+.article-body h6 {
+  font-weight: 500;
 }
 .article-body img {
   max-width: 100%;
@@ -814,6 +994,7 @@ h3 {
 .search-result h2 {
   margin: 0 0 7px;
   font-size: 1.18rem;
+  font-weight: 500;
 }
 .search-result h2 a {
   color: var(--heading);
@@ -839,12 +1020,15 @@ h3 {
   background: var(--paper);
 }
 @media (max-width: 980px) {
-  .article-shell {
+  .article-shell,
+  .article-shell.with-guide-nav {
     grid-template-columns: minmax(0, 1fr);
   }
   .sidebar,
   .right-panel {
     position: static;
+    max-height: none;
+    overflow: visible;
   }
   .sidebar {
     order: -1;
@@ -855,6 +1039,9 @@ h3 {
   }
   .right-panel {
     grid-template-columns: 1fr 1fr;
+  }
+  .panel-index {
+    grid-column: 1 / -1;
   }
   .card-grid {
     grid-template-columns: 1fr 1fr;

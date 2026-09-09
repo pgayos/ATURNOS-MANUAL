@@ -1,6 +1,12 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
 import { slugify } from "../../lib/slug";
+import {
+  isGuideModule,
+  isFlattenedSubmodule,
+  buildGuideNav,
+} from "../../lib/guideNav";
 import type { CollectionEntry } from "astro:content";
 interface Props {
   entry: CollectionEntry<"manual">;
@@ -17,6 +23,45 @@ const subtopicSlug = d.subtopic ? slugify(d.subtopic) : null;
 const reviewed = d.governance.reviewedAt
   ? d.governance.reviewedAt.toLocaleDateString("es-ES")
   : "Pendiente de revisión";
+
+// Módulos "guía" (p. ej. "Empezar en aTurnos"): el lateral izquierdo muestra el
+// índice completo del módulo, agrupado por submódulo y tema, en acordeón, con la
+// sección del artículo actual abierta.
+const isGuide = isGuideModule(moduleSlug);
+const guideNav = isGuide
+  ? buildGuideNav(await getCollection("manual"), moduleSlug)
+  : null;
+const currentId = entry.id;
+
+// En un módulo "guía" con submódulo aplanado, el tema hace de submódulo: el nivel
+// del submódulo envoltorio no se muestra en breadcrumb ni en el eyebrow.
+const isFlattened =
+  isGuide && isFlattenedSubmodule(moduleSlug, d.submodule);
+// Artículo de portada del módulo guía (la "Introducción"): breadcrumb y eyebrow
+// se quedan solo con el nombre del módulo.
+const isGuideOverview = Boolean(
+  guideNav && guideNav.firstArticleId === currentId,
+);
+const eyebrowSection = isFlattened ? d.subtopic || null : d.submodule;
+const eyebrowText =
+  isGlossary || isGuideOverview || !eyebrowSection
+    ? d.module
+    : `${d.module} · ${eyebrowSection}`;
+const subHasCurrent = (sub: { overviewId?: string; articles: { id: string }[] }) =>
+  sub.overviewId === currentId || sub.articles.some((a) => a.id === currentId);
+const groupHasCurrent = (group: {
+  overviewId?: string;
+  looseArticles: { id: string }[];
+  subtopics: { overviewId?: string; articles: { id: string }[] }[];
+}) =>
+  group.overviewId === currentId ||
+  group.looseArticles.some((a) => a.id === currentId) ||
+  group.subtopics.some(subHasCurrent);
+
+const pageHeadings = headings.filter((h) => h.depth === 2);
+
+const chevronSvg =
+  '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 ---
 
 <BaseLayout title={`${d.title} · aTurnos`} description={d.description}>
@@ -24,6 +69,23 @@ const reviewed = d.governance.reviewedAt
     <a href="/">Inicio</a> / {
       isGlossary ? (
         d.module
+      ) : isGuideOverview ? (
+        d.module
+      ) : isFlattened ? (
+        <>
+          <a href={`/manual/${moduleSlug}/`}>{d.module}</a>
+          {subtopicSlug && (
+            <>
+              {" "}
+              /{" "}
+              <a
+                href={`/manual/${moduleSlug}/${submoduleSlug}/${subtopicSlug}/`}
+              >
+                {d.subtopic}
+              </a>
+            </>
+          )}
+        </>
       ) : (
         <>
           <a href={`/manual/${moduleSlug}/`}>{d.module}</a> /{" "}
@@ -43,21 +105,168 @@ const reviewed = d.governance.reviewedAt
       )
     }
   </div>
-  <main class="container article-shell">
-    <aside class="sidebar" aria-label="Índice del artículo">
-      <strong>En esta página</strong>
+  <main
+    class:list={[
+      "container",
+      "article-shell",
+      { "with-guide-nav": isGuide && guideNav },
+    ]}
+  >
+    <aside class="sidebar" aria-label="Contenido del módulo">
       {
-        headings
-          .filter((h) => h.depth === 2)
-          .map((h) => <a href={`#${h.slug}`}>{h.text}</a>)
+        isGuide && guideNav && (
+          <nav
+            class="guide-nav"
+            data-guide-nav
+            aria-label={`Contenido de ${guideNav.moduleName}`}
+          >
+            <a
+              class:list={[
+                "guide-nav-title",
+                { active: guideNav.firstArticleId === currentId },
+              ]}
+              href={`/manual/${guideNav.firstArticleId}/`}
+              aria-current={
+                guideNav.firstArticleId === currentId ? "page" : undefined
+              }
+            >
+              {guideNav.moduleName}
+            </a>
+            <ul class="guide-nav-list">
+              {guideNav.groups.map((group, index) => {
+                const groupOpen =
+                  groupHasCurrent(group) ||
+                  (index === 0 &&
+                    !guideNav.groups.some((g) => groupHasCurrent(g)));
+                const groupChildren =
+                  group.looseArticles.length > 0 || group.subtopics.length > 0;
+                return (
+                  <li
+                    class:list={["guide-nav-node", { open: groupOpen }]}
+                    data-node={groupChildren ? "" : undefined}
+                  >
+                    {group.overviewId ? (
+                      <a
+                        class:list={[
+                          "guide-nav-head-link",
+                          { active: group.overviewId === currentId },
+                        ]}
+                        href={`/manual/${group.overviewId}/`}
+                        aria-current={
+                          group.overviewId === currentId ? "page" : undefined
+                        }
+                      >
+                        {group.name}
+                      </a>
+                    ) : (
+                      <span class="guide-nav-head-link">{group.name}</span>
+                    )}
+                    {groupChildren && (
+                      <button
+                        type="button"
+                        class="guide-nav-toggle"
+                        aria-expanded={groupOpen ? "true" : "false"}
+                        aria-label={`Mostrar u ocultar ${group.name}`}
+                        set:html={chevronSvg}
+                      />
+                    )}
+                    {groupChildren && (
+                      <ul class="guide-nav-sublist">
+                        {group.looseArticles.map((a) => (
+                          <li>
+                            <a
+                              class:list={[
+                                "guide-nav-link",
+                                { active: a.id === currentId },
+                              ]}
+                              href={`/manual/${a.id}/`}
+                              aria-current={
+                                a.id === currentId ? "page" : undefined
+                              }
+                            >
+                              {a.title}
+                            </a>
+                          </li>
+                        ))}
+                        {group.subtopics.map((sub) => {
+                          const subOpen = subHasCurrent(sub);
+                          const subChildren = sub.articles.length > 0;
+                          return (
+                            <li
+                              class:list={[
+                                "guide-nav-node",
+                                "guide-nav-node--sub",
+                                { open: subOpen },
+                              ]}
+                              data-node={subChildren ? "" : undefined}
+                            >
+                              {sub.overviewId ? (
+                                <a
+                                  class:list={[
+                                    "guide-nav-head-link",
+                                    { active: sub.overviewId === currentId },
+                                  ]}
+                                  href={`/manual/${sub.overviewId}/`}
+                                  aria-current={
+                                    sub.overviewId === currentId
+                                      ? "page"
+                                      : undefined
+                                  }
+                                >
+                                  {sub.name}
+                                </a>
+                              ) : (
+                                <span class="guide-nav-head-link">
+                                  {sub.name}
+                                </span>
+                              )}
+                              {subChildren && (
+                                <button
+                                  type="button"
+                                  class="guide-nav-toggle"
+                                  aria-expanded={subOpen ? "true" : "false"}
+                                  aria-label={`Mostrar u ocultar ${sub.name}`}
+                                  set:html={chevronSvg}
+                                />
+                              )}
+                              {subChildren && (
+                                <ul class="guide-nav-sublist">
+                                  {sub.articles.map((a) => (
+                                    <li>
+                                      <a
+                                        class:list={[
+                                          "guide-nav-link",
+                                          { active: a.id === currentId },
+                                        ]}
+                                        href={`/manual/${a.id}/`}
+                                        aria-current={
+                                          a.id === currentId
+                                            ? "page"
+                                            : undefined
+                                        }
+                                      >
+                                        {a.title}
+                                      </a>
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+        )
       }
-      <strong>Conceptos</strong>
     </aside>
     <article data-pagefind-body>
       <header class="article-header">
-        <span class="eyebrow"
-          >{isGlossary ? d.module : `${d.module} · ${d.submodule}`}</span
-        >
+        <span class="eyebrow">{eyebrowText}</span>
         <h1>{d.title}</h1>
         <p class="lead">{d.description}</p>
         {
@@ -98,6 +307,26 @@ const reviewed = d.governance.reviewedAt
       </div> -->
     </article>
     <aside class="right-panel">
+      <nav class="panel-index" aria-label="Índice del artículo">
+        <strong>En esta página</strong>
+        {
+          pageHeadings.length > 0 ? (
+            pageHeadings.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)
+          ) : (
+            <span class="panel-index-empty">Sin secciones</span>
+          )
+        }
+        <strong>Conceptos</strong>
+        {
+          d.entities.length > 0 ? (
+            d.entities.map((concept) => (
+              <span class="panel-index-concept">{concept.label}</span>
+            ))
+          ) : (
+            <span class="panel-index-empty">Sin conceptos</span>
+          )
+        }
+      </nav>
       <div class="mini-card ai-box">
         <h3>Pregunta a la IA</h3><p>
           Obtén una respuesta basada únicamente en contenido aprobado y con
@@ -121,3 +350,52 @@ const reviewed = d.governance.reviewedAt
     </aside>
   </main>
 </BaseLayout>
+
+<script>
+  // Acordeón del índice de módulo "guía": al abrir una sección se cierran las
+  // demás (a cualquier nivel), pero se mantienen abiertos los antecesores de la
+  // sección recién abierta para que quede visible.
+  const nav = document.querySelector<HTMLElement>("[data-guide-nav]");
+  if (nav) {
+    const nodes = () =>
+      Array.from(nav.querySelectorAll<HTMLElement>("[data-node]"));
+
+    const setOpen = (node: HTMLElement, open: boolean) => {
+      node.classList.toggle("open", open);
+      const toggle = node.querySelector<HTMLElement>(
+        ":scope > .guide-nav-toggle",
+      );
+      toggle?.setAttribute("aria-expanded", String(open));
+    };
+
+    const ancestors = (node: HTMLElement) => {
+      const chain: HTMLElement[] = [];
+      let parent = node.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
+      while (parent) {
+        chain.push(parent);
+        parent =
+          parent.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
+      }
+      return chain;
+    };
+
+    nav.addEventListener("click", (event) => {
+      const toggle = (event.target as HTMLElement).closest<HTMLElement>(
+        ".guide-nav-toggle",
+      );
+      if (!toggle || !nav.contains(toggle)) return;
+      const node = toggle.closest<HTMLElement>("[data-node]");
+      if (!node) return;
+
+      const willOpen = !node.classList.contains("open");
+      if (willOpen) {
+        const keep = new Set<HTMLElement>([node, ...ancestors(node)]);
+        nodes().forEach((other) => {
+          if (!keep.has(other)) setOpen(other, false);
+        });
+        ancestors(node).forEach((a) => setOpen(a, true));
+      }
+      setOpen(node, willOpen);
+    });
+  }
+</script>
