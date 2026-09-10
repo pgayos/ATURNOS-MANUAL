@@ -26,6 +26,8 @@
   "devDependencies": {
     "@astrojs/check": "latest",
     "pagefind": "1.5.2",
+    "prettier": "^3.9.6",
+    "prettier-plugin-astro": "^1.0.0",
     "sharp": "0.35.3",
     "typescript": "latest"
   }
