@@ -18,6 +18,25 @@ const moduleSlug = entry.id.split("/").slice(0, -1).join("/");
 // Glosario no tiene páginas de submódulo/subtopic (es un listado único A-Z), así
 // que su breadcrumb y eyebrow no muestran la letra usada solo para agrupar.
 const isGlossary = d.module === "Glosario";
+
+// "Conceptos" del glosario: cada relatedTerms se linkea al término del
+// glosario cuyo título coincide (comparando por slug, sin tildes/mayúsculas);
+// si no hay un término con ese nombre, se muestra como texto plano.
+const relatedGlossaryTerms = isGlossary
+  ? await (async () => {
+      const glossaryEntries = await getCollection(
+        "manual",
+        (e) => e.data.module === "Glosario",
+      );
+      const bySlug = new Map(
+        glossaryEntries.map((e) => [slugify(e.data.title), e]),
+      );
+      return d.relatedTerms.map((term) => {
+        const match = bySlug.get(slugify(term));
+        return { term, href: match ? `/manual/${match.id}/` : null };
+      });
+    })()
+  : [];
 const submoduleSlug = slugify(d.submodule);
 const subtopicSlug = d.subtopic ? slugify(d.subtopic) : null;
 const reviewed = d.governance.reviewedAt
@@ -305,13 +324,26 @@ const chevronSvg =
         ) : (
           <span class="panel-index-empty">Sin secciones</span>
         )}
-        <strong>Conceptos</strong>
-        {d.entities.length > 0 ? (
-          d.entities.map((concept) => (
-            <span class="panel-index-concept">{concept.label}</span>
-          ))
-        ) : (
-          <span class="panel-index-empty">Sin conceptos</span>
+
+        {(isGlossary
+          ? relatedGlossaryTerms.length > 0
+          : d.entities.length > 0) && (
+          <>
+            <strong>Conceptos</strong>
+            {isGlossary
+              ? relatedGlossaryTerms.map(({ term, href }) =>
+                  href ? (
+                    <a class="panel-index-concept" href={href}>
+                      {term}
+                    </a>
+                  ) : (
+                    <span class="panel-index-concept">{term}</span>
+                  ),
+                )
+              : d.entities.map((concept) => (
+                  <span class="panel-index-concept">{concept.label}</span>
+                ))}
+          </>
         )}
       </nav>
       <div class="mini-card ai-box">

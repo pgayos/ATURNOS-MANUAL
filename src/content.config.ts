@@ -20,6 +20,7 @@ const manual = defineCollection({
     audience: z.array(z.object({ role, access: z.enum(['required', 'recommended', 'applicable']) })),
     entities: z.array(z.object({ id: z.string(), label: z.string() })).default([]),
     synonyms: z.array(z.string()).default([]),
+    relatedTerms: z.array(z.string()).default([]),
     prerequisites: z.array(z.string()).default([]),
     platforms: z.array(z.enum(['web', 'app'])),
     labels: z.array(z.enum(['PENDIENTE'])).default([]),

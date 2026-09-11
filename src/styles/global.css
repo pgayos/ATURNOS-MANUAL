@@ -559,7 +559,7 @@ a.guide-nav-head-link:hover,
 }
 .panel-index a {
   display: block;
-  padding: 6px 0;
+  padding: 6px 0 6px 8px;
   color: var(--muted);
   text-decoration: none;
   line-height: 1.35;
@@ -569,12 +569,12 @@ a.guide-nav-head-link:hover,
 }
 .panel-index-concept {
   display: block;
-  padding: 4px 0;
+  padding: 4px 0 4px 8px;
   color: var(--ink);
 }
 .panel-index-empty {
   display: block;
-  padding: 4px 0;
+  padding: 4px 0 4px 8px;
   color: var(--muted);
   font-size: 0.85rem;
   font-style: italic;
