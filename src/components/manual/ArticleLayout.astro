@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import Video from "./Video.astro";
 import { getCollection } from "astro:content";
 import { slugify } from "../../lib/slug";
 import {
@@ -306,6 +307,7 @@ const chevronSvg =
           <span>↻ Última Actualización: {reviewed}</span>
         </div>
       </header>
+      {d.video && <Video src={d.video} title={d.title} />}
       <div class="article-body">
         <slot />
       </div>
