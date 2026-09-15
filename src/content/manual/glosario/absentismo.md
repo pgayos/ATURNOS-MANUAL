@@ -18,7 +18,8 @@ audience:
 entities:
   - id: absentismo
     label: Absentismo
-synonyms: []
+synonyms:
+  - test
 prerequisites: []
 platforms:
   - web

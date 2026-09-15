@@ -38,8 +38,6 @@ const relatedGlossaryTerms = isGlossary
       });
     })()
   : [];
-const submoduleSlug = slugify(d.submodule);
-const subtopicSlug = d.subtopic ? slugify(d.subtopic) : null;
 const reviewed = d.governance.reviewedAt
   ? d.governance.reviewedAt.toLocaleDateString("es-ES")
   : "Pendiente de revisión";
@@ -82,41 +80,41 @@ const groupHasCurrent = (group: {
 
 const pageHeadings = headings.filter((h) => h.depth === 2);
 
+// El selector de rol filtra contenido real en Documentación y App Móvil
+// (cualquier módulo guía salvo "Empezar en aTurnos", que es contenido de
+// implantación igual para todos los roles).
+const showProfilePicker = isGuide && moduleSlug !== "empezar-en-aturnos";
+const articleAudience = d.audience.map((a) => a.role).join("|");
+
 const chevronSvg =
   '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 ---
 
-<BaseLayout title={`${d.title} · aTurnos`} description={d.description}>
+<BaseLayout
+  title={`${d.title} · aTurnos`}
+  description={d.description}
+  showProfilePicker={showProfilePicker}
+>
   <div class="container breadcrumbs">
     <a href="/">Inicio</a> /{" "}
     {isGlossary ? (
       d.module
     ) : isGuideOverview ? (
       d.module
-    ) : isFlattened ? (
+    ) : (
+      // Todo módulo (salvo Glosario) es un módulo "guía": no hay página propia
+      // de submódulo/tema a la que enlazar, así que solo el módulo es
+      // clickable (redirige al primer artículo); submódulo/tema quedan como
+      // texto de ubicación, no como links.
       <>
         <a href={`/manual/${moduleSlug}/`}>{d.module}</a>
-        {subtopicSlug && (
+        {isFlattened ? (
+          d.subtopic && <> / {d.subtopic}</>
+        ) : (
           <>
             {" "}
-            /{" "}
-            <a href={`/manual/${moduleSlug}/${submoduleSlug}/${subtopicSlug}/`}>
-              {d.subtopic}
-            </a>
-          </>
-        )}
-      </>
-    ) : (
-      <>
-        <a href={`/manual/${moduleSlug}/`}>{d.module}</a> /{" "}
-        <a href={`/manual/${moduleSlug}/${submoduleSlug}/`}>{d.submodule}</a>
-        {subtopicSlug && (
-          <>
-            {" "}
-            /{" "}
-            <a href={`/manual/${moduleSlug}/${submoduleSlug}/${subtopicSlug}/`}>
-              {d.subtopic}
-            </a>
+            / {d.submodule}
+            {d.subtopic && <> / {d.subtopic}</>}
           </>
         )}
       </>
@@ -168,6 +166,7 @@ const chevronSvg =
                         { active: group.overviewId === currentId },
                       ]}
                       href={`/manual/${group.overviewId}/`}
+                      data-profiles={(group.overviewAudience ?? []).join("|")}
                       aria-current={
                         group.overviewId === currentId ? "page" : undefined
                       }
@@ -196,6 +195,7 @@ const chevronSvg =
                               { active: a.id === currentId },
                             ]}
                             href={`/manual/${a.id}/`}
+                            data-profiles={a.audience.join("|")}
                             aria-current={
                               a.id === currentId ? "page" : undefined
                             }
@@ -223,6 +223,9 @@ const chevronSvg =
                                   { active: sub.overviewId === currentId },
                                 ]}
                                 href={`/manual/${sub.overviewId}/`}
+                                data-profiles={(
+                                  sub.overviewAudience ?? []
+                                ).join("|")}
                                 aria-current={
                                   sub.overviewId === currentId
                                     ? "page"
@@ -255,6 +258,7 @@ const chevronSvg =
                                         { active: a.id === currentId },
                                       ]}
                                       href={`/manual/${a.id}/`}
+                                      data-profiles={a.audience.join("|")}
                                       aria-current={
                                         a.id === currentId ? "page" : undefined
                                       }
@@ -282,23 +286,26 @@ const chevronSvg =
         <span class="eyebrow">{eyebrowText}</span>
         <h1>{d.title}</h1>
         <p class="lead">{d.description}</p>
-        {d.synonyms.length > 0 && (
+        {isGlossary && d.synonyms.length > 0 && (
           <div class="synonyms">
             <h4>Sinónimos:</h4>
             <p>{d.synonyms.join(", ")}</p>
           </div>
         )}
-        <div class="badges">
-          {d.audience.map((a) => (
-            <span
-              class="badge"
-              data-role={a.role}
-              data-pagefind-filter={`profile:${a.role}`}
-            >
-              {a.role}
-            </span>
-          ))}
-        </div>
+
+        {!isGlossary && (
+          <div class="badges">
+            {d.audience.map((a) => (
+              <span
+                class="badge"
+                data-role={a.role}
+                data-pagefind-filter={`profile:${a.role}`}
+              >
+                {a.role}
+              </span>
+            ))}
+          </div>
+        )}
         <div class="article-meta">
           <span>◷ Tiempo de lectura: {d.readingTime} min</span>
           <!-- <span
@@ -307,10 +314,19 @@ const chevronSvg =
           <span>↻ Última Actualización: {reviewed}</span>
         </div>
       </header>
-      {d.video && <Video src={d.video} title={d.title} />}
-      <div class="article-body">
-        <slot />
+      <div
+        class="article-content"
+        data-profile-gate
+        data-profiles={articleAudience}
+      >
+        {d.video && <Video src={d.video} title={d.title} />}
+        <div class="article-body">
+          <slot />
+        </div>
       </div>
+      <p class="profile-unavailable" data-profile-unavailable hidden>
+        Lo sentimos, el contenido no está disponible para tu rol seleccionado.
+      </p>
       <!-- <div class="feedback">
         <strong>¿Te ha resultado útil este artículo?</strong><div>
           <button type="button">Sí</button>

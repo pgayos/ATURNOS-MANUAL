@@ -385,6 +385,27 @@ h3 {
   font-size: 0.85rem;
   font-weight: 700;
 }
+.card.is-disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+.card.is-disabled:hover {
+  transform: none;
+  border-color: var(--line);
+  box-shadow: 0 8px 24px rgba(53, 73, 102, 0.055);
+}
+.card.is-disabled:hover::before {
+  opacity: 0;
+}
+.card-soon {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
 .article-shell {
   display: grid;
   grid-template-columns: minmax(0, 760px) 240px;
@@ -542,6 +563,20 @@ a.guide-nav-head-link:hover,
   color: var(--brand);
   font-weight: 600;
   border-left-color: var(--brand);
+}
+.guide-nav .is-role-unavailable {
+  color: var(--muted);
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.profile-unavailable {
+  margin: 28px 0;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--soft);
+  color: var(--muted);
 }
 
 /* "En esta página" / "Conceptos" movidos al panel derecho: mismo aspecto que

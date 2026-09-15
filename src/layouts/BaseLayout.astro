@@ -3,10 +3,12 @@ import "../styles/global.css";
 interface Props {
   title?: string;
   description?: string;
+  showProfilePicker?: boolean;
 }
 const {
   title = "Centro de ayuda de aTurnos",
   description = "Aprende a utilizar aTurnos con guías claras y respuestas verificadas.",
+  showProfilePicker = false,
 } = Astro.props;
 const deploymentBranch = import.meta.env.PUBLIC_DEPLOYMENT_BRANCH;
 const preventIndexing = Boolean(
@@ -71,7 +73,7 @@ const preventIndexing = Boolean(
           <span>Centro de ayuda</span>
         </a>
         <ul class="nav-links">
-          <li><a href="/#modulos">Módulos</a></li>
+          <li><a href="/manual/">Manual</a></li>
           <li><a href="/manual/glosario/">Glosario</a></li>
           <li>
             <a class="search-link" href="/buscar/"
@@ -79,16 +81,20 @@ const preventIndexing = Boolean(
             >
           </li>
         </ul>
-        <select
-          class="profile-picker"
-          id="profile-picker"
-          aria-label="Seleccionar mi perfil"
-        >
-          <option value="general">Rol usuario</option>
-          <option>Trabajador</option><option>Administrador</option><option
-            >RRHH</option
-          >
-        </select>
+        {
+          showProfilePicker && (
+            <select
+              class="profile-picker"
+              id="profile-picker"
+              aria-label="Seleccionar mi perfil"
+            >
+              <option value="general">Rol usuario</option>
+              <option>Trabajador</option>
+              <option>Administrador</option>
+              <option>RRHH</option>
+            </select>
+          )
+        }
         <button
           class="theme-toggle"
           id="theme-toggle"
@@ -200,9 +206,47 @@ const preventIndexing = Boolean(
             .forEach((message) => {
               message.hidden = visibleCards.length !== 0;
             });
+
+          // Sidebar de módulo (guide-nav): los enlaces que no aplican al rol
+          // seleccionado quedan visibles pero deshabilitados, no ocultos.
+          document
+            .querySelectorAll(".guide-nav [data-profiles]")
+            .forEach((link) => {
+              const profiles = (link.dataset.profiles || "")
+                .split("|")
+                .filter(Boolean);
+              const unavailable =
+                profile !== "general" &&
+                profiles.length > 0 &&
+                !profiles.includes(profile);
+              link.classList.toggle("is-role-unavailable", unavailable);
+              link.setAttribute("aria-disabled", String(unavailable));
+            });
+
+          // Artículo actual: si no aplica al rol seleccionado, se oculta el
+          // contenido (y el video) y se muestra el aviso en su lugar.
+          const gate = document.querySelector("[data-profile-gate]");
+          const unavailableNotice = document.querySelector(
+            "[data-profile-unavailable]",
+          );
+          if (gate && unavailableNotice) {
+            const profiles = (gate.dataset.profiles || "")
+              .split("|")
+              .filter(Boolean);
+            const unavailable =
+              profile !== "general" &&
+              profiles.length > 0 &&
+              !profiles.includes(profile);
+            gate.hidden = unavailable;
+            unavailableNotice.hidden = !unavailable;
+          }
         };
 
         applyProfileFilter(picker.value);
+        document.addEventListener("click", (event) => {
+          const link = event.target.closest(".is-role-unavailable");
+          if (link) event.preventDefault();
+        });
         picker.addEventListener("change", () => {
           profileLoader.hidden = false;
           profileLoader.dataset.busy = "profile";

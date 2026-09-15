@@ -4,12 +4,16 @@ import { slugify } from './slug';
 type Article = CollectionEntry<'manual'>;
 
 /**
- * Módulos "guía": se leen de principio a fin como un manual único.
- * En lugar de la página de cards, al entrar se salta al primer artículo, y
- * cada artículo muestra a la izquierda el índice completo del módulo
- * (submódulos → temas → artículos) en su orden real de lectura.
+ * Todo módulo (excepto Glosario, que tiene su propio listado A-Z) se lee de
+ * principio a fin como un manual único: en lugar de páginas de cards por
+ * submódulo/tema, al entrar al módulo se salta al primer artículo, y cada
+ * artículo muestra a la izquierda el índice completo del módulo (submódulos →
+ * temas → artículos) en su orden real de lectura.
  *
- * `submoduleOrder` fija el orden de los submódulos (no es alfabético).
+ * Por defecto, submódulos y temas se ordenan alfabéticamente. `GUIDE_MODULES`
+ * es solo para personalizar ese orden a mano en un módulo puntual (como se
+ * hizo con "Empezar en aTurnos") o para "aplanar" un submódulo — no hace
+ * falta agregar una entrada aquí para que un módulo tenga sidebar.
  */
 interface GuideModuleConfig {
   submoduleOrder: string[];
@@ -34,8 +38,10 @@ export const GUIDE_MODULES: Record<string, GuideModuleConfig> = {
   },
 };
 
+// Glosario es el único módulo con formato distinto (listado A-Z con
+// buscador); cualquier otro módulo usa la navegación de sidebar.
 export function isGuideModule(moduleSlug: string): boolean {
-  return Object.prototype.hasOwnProperty.call(GUIDE_MODULES, moduleSlug);
+  return moduleSlug !== 'glosario';
 }
 
 export function isFlattenedSubmodule(moduleSlug: string, submodule: string): boolean {
@@ -46,6 +52,10 @@ export interface GuideNavArticle {
   id: string;
   title: string;
   order: number;
+  /** Roles de audience del artículo (p. ej. ["Trabajador", "Administrador"]),
+   *  para poder atenuar en el sidebar los artículos que no aplican al rol
+   *  seleccionado por el visitante. */
+  audience: string[];
 }
 
 export interface GuideNavSubtopic {
@@ -54,6 +64,7 @@ export interface GuideNavSubtopic {
   /** artículo de portada del tema (su título coincide con el nombre del tema);
    *  se muestra como enlace en la cabecera, no como un ítem repetido. */
   overviewId?: string;
+  overviewAudience?: string[];
   articles: GuideNavArticle[];
 }
 
@@ -62,6 +73,7 @@ export interface GuideNavGroup {
   slug: string;
   /** artículo de portada del submódulo (mismo criterio que en los temas). */
   overviewId?: string;
+  overviewAudience?: string[];
   looseArticles: GuideNavArticle[];
   subtopics: GuideNavSubtopic[];
 }
@@ -83,6 +95,7 @@ const toNavArticle = (a: Article): GuideNavArticle => ({
   id: a.id,
   title: a.data.title,
   order: a.data.order,
+  audience: a.data.audience.map((item) => item.role),
 });
 
 /** ¿El título del artículo es el de la sección (mismo texto o "<sección> …")? */
@@ -93,13 +106,14 @@ const isSectionOverview = (articleTitle: string, sectionName: string) => {
 };
 
 /** Si el primer artículo es la portada de la sección, lo saca de la lista y
- *  devuelve su id para usarlo como enlace de cabecera. */
+ *  devuelve su id (y audience) para usarlo como enlace de cabecera. */
 const extractOverview = (
   articles: GuideNavArticle[],
   sectionName: string,
-): string | undefined => {
+): { id: string; audience: string[] } | undefined => {
   if (articles[0] && isSectionOverview(articles[0].title, sectionName)) {
-    return articles.shift()!.id;
+    const overview = articles.shift()!;
+    return { id: overview.id, audience: overview.audience };
   }
   return undefined;
 };
@@ -133,7 +147,7 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
         .filter((a) => !a.data.subtopic)
         .sort(byOrder)
         .map(toNavArticle);
-      const overviewId = extractOverview(looseArticles, name);
+      const overview = extractOverview(looseArticles, name);
 
       const subtopics: GuideNavSubtopic[] = [
         ...groupBy(
@@ -143,11 +157,12 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
       ]
         .map(([subName, subArticles]) => {
           const subArts = subArticles.sort(byOrder).map(toNavArticle);
-          const subOverviewId = extractOverview(subArts, subName);
+          const subOverview = extractOverview(subArts, subName);
           return {
             name: subName,
             slug: slugify(subName),
-            overviewId: subOverviewId,
+            overviewId: subOverview?.id,
+            overviewAudience: subOverview?.audience,
             articles: subArts,
           };
         })
@@ -157,7 +172,14 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
             x.name.localeCompare(y.name, 'es'),
         );
 
-      return { name, slug: slugify(name), overviewId, looseArticles, subtopics };
+      return {
+        name,
+        slug: slugify(name),
+        overviewId: overview?.id,
+        overviewAudience: overview?.audience,
+        looseArticles,
+        subtopics,
+      };
     });
 
   const firstGroup = groups[0];
