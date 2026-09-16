@@ -4,7 +4,7 @@ contentId: app-movil-aceptar-peticiones
 title: Aceptar o denegar peticiones y cambios
 description: Cómo el administrador del equipo puede revisar, aceptar o denegar las peticiones y cambios pendientes que los trabajadores envían desde la aplicación móvil de aTurnos.
 contentType: procedure
-module: Pruebas
+module: App móvil
 submodule: General
 subtopic: ""
 intent: Aceptar o denegar peticiones y cambios desde la app

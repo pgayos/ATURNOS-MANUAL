@@ -101,6 +101,12 @@ select {
   width: min(1180px, calc(100% - 32px));
   margin-inline: auto;
 }
+:root {
+  --header-height: 78px;
+  --site-nav-width: 280px;
+}
+/* El header ocupa todo el ancho de la ventana (no un contenedor centrado):
+   solo su CONTENIDO lleva un padding, para aprovechar toda la pantalla. */
 .site-header {
   position: sticky;
   top: 0;
@@ -111,10 +117,23 @@ select {
   backdrop-filter: blur(14px);
 }
 .nav {
-  min-height: 78px;
+  min-height: var(--header-height);
   display: flex;
   align-items: center;
   gap: 28px;
+  padding-inline: 24px;
+}
+
+/* Shell de toda la web: menú persistente pegado al borde izquierdo + resto
+   del contenido a la derecha. El sidebar no vive dentro de `.container`, así
+   que arranca en el borde real de la ventana, no en el de un bloque centrado. */
+.app-shell {
+  display: flex;
+  align-items: flex-start;
+}
+.app-main {
+  flex: 1;
+  min-width: 0;
 }
 .logo {
   display: flex;
@@ -406,6 +425,8 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
+/* Un artículo siempre son 2 columnas (contenido + panel derecho): el menú de
+   navegación ya no vive aquí, es el `.site-nav` persistente de BaseLayout. */
 .article-shell {
   display: grid;
   grid-template-columns: minmax(0, 760px) 240px;
@@ -413,51 +434,106 @@ h3 {
   align-items: start;
   padding: 30px 0 80px;
 }
-/* Sin índice de módulo (artículo normal): 2 columnas, sin hueco a la izquierda. */
-.article-shell:not(.with-guide-nav) > .sidebar {
-  display: none;
-}
-/* Módulo "guía": 3 columnas con el índice completo del módulo a la izquierda. */
-.article-shell.with-guide-nav {
-  grid-template-columns: 240px minmax(0, 760px) 240px;
-}
-.sidebar {
+
+/* Menú persistente (lateral izquierdo, en todo el sitio) */
+.site-nav {
   position: sticky;
-  top: 102px;
-  max-height: calc(100vh - 128px);
+  top: var(--header-height);
+  flex: none;
+  width: var(--site-nav-width);
+  height: calc(100dvh - var(--header-height));
   overflow-y: auto;
   overscroll-behavior: contain;
+  padding: 20px 16px;
+  border-right: 1px solid var(--line);
+  background: var(--paper);
   font-size: 0.92rem;
 }
-.sidebar strong {
-  display: block;
-  margin-bottom: 10px;
+.site-nav-pills {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 6px;
+  margin-bottom: 16px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 12px;
 }
-.sidebar a {
-  display: block;
-  padding: 6px 0;
+.site-nav-pill-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+.site-nav-pill {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 8px;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.site-nav-pill:hover {
+  background: var(--soft);
+  color: var(--brand);
+}
+.site-nav-pill.is-active {
+  background: var(--soft);
+  color: var(--brand-dark);
+}
+.site-nav-pill-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  font-size: 1rem;
+}
+.site-nav-pill.is-disabled {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  color: var(--muted);
+  cursor: default;
+}
+.site-nav-pill-soon {
+  margin-left: auto;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--soft);
+  color: var(--brand-dark);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.site-nav-pill-extra {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
   color: var(--muted);
   text-decoration: none;
 }
-.sidebar a:hover {
+.site-nav-pill-extra:hover {
+  background: var(--soft);
   color: var(--brand);
 }
-
-/* Índice de módulo "guía" (lateral izquierdo) */
-.guide-nav-title {
-  display: block;
-  font-family: Poppins, "Source Sans 3", sans-serif;
-  font-weight: 600;
-  font-size: 0.98rem;
-  color: var(--heading);
-  text-decoration: none;
-  padding-bottom: 10px;
-  margin-bottom: 4px;
-  border-bottom: 1px solid var(--line);
+.site-nav-pill-extra svg {
+  width: 12px;
+  height: 12px;
 }
-.guide-nav-title:hover,
-.guide-nav-title.active {
-  color: var(--brand);
+.site-nav-panel[hidden] {
+  display: none;
 }
 
 /* Listas semánticas: nav > ul.guide-nav-list > li.guide-nav-node > a + ul */
@@ -474,12 +550,13 @@ h3 {
 
 /* Nodo (submódulo o tema): cabecera en una fila, hijos debajo */
 .guide-nav-node {
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .guide-nav-node > .guide-nav-sublist {
-  grid-column: 1 / -1;
+  flex-basis: 100%;
+  width: 100%;
 }
 .guide-nav-list > .guide-nav-node + .guide-nav-node {
   margin-top: 2px;
@@ -489,9 +566,11 @@ h3 {
 }
 
 .guide-nav-head-link {
+  flex: 1;
   min-width: 0;
   display: block;
-  padding: 6px 0;
+  padding: 6px 8px;
+  border-radius: 6px;
   text-decoration: none;
   line-height: 1.3;
 }
@@ -514,13 +593,18 @@ h3 {
   letter-spacing: 0;
   color: var(--ink);
 }
-a.guide-nav-head-link:hover,
+a.guide-nav-head-link:hover {
+  background: var(--soft);
+  color: var(--brand);
+}
 .guide-nav-head-link.active {
+  background: var(--soft);
   color: var(--brand);
 }
 
 .guide-nav-toggle {
   display: inline-flex;
+  flex: none;
   align-items: center;
   justify-content: center;
   width: 22px;
@@ -550,16 +634,20 @@ a.guide-nav-head-link:hover,
 
 .guide-nav-link {
   display: block;
+  width: 100%;
   padding: 5px 8px;
+  border-radius: 6px;
   border-left: 2px solid transparent;
   color: var(--muted);
   text-decoration: none;
   line-height: 1.35;
 }
 .guide-nav-link:hover {
+  background: var(--soft);
   color: var(--brand);
 }
 .guide-nav-link.active {
+  background: var(--soft);
   color: var(--brand);
   font-weight: 600;
   border-left-color: var(--brand);
@@ -1081,24 +1169,24 @@ a.guide-nav-head-link:hover,
   background: var(--paper);
 }
 @media (max-width: 980px) {
-  .article-shell,
-  .article-shell.with-guide-nav {
+  .article-shell {
     grid-template-columns: minmax(0, 1fr);
   }
-  .sidebar,
+  .app-shell {
+    display: block;
+  }
+  .site-nav {
+    position: static;
+    width: auto;
+    height: auto;
+    max-height: 70vh;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
   .right-panel {
     position: static;
     max-height: none;
     overflow: visible;
-  }
-  .sidebar {
-    order: -1;
-    padding: 14px;
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    background: var(--paper);
-  }
-  .right-panel {
     grid-template-columns: 1fr 1fr;
   }
   .panel-index {
@@ -1112,7 +1200,7 @@ a.guide-nav-head-link:hover,
   .nav {
     flex-wrap: wrap;
     gap: 12px;
-    padding: 12px 0;
+    padding-block: 12px;
   }
   .logo img {
     width: 118px;

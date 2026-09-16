@@ -207,3 +207,21 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
 
   return { moduleName, moduleSlug, groups: displayGroups, firstArticleId };
 }
+
+/** ¿El artículo `currentId` está en algún punto del árbol de este módulo? Sirve
+ *  para decidir si el módulo debe aparecer abierto en un directorio (p. ej. el
+ *  panel "Documentación" del menú persistente, que agrupa varios módulos). */
+export function guideNavContains(nav: GuideNav, currentId: string | undefined): boolean {
+  if (!currentId) return false;
+  const subHasCurrent = (sub: GuideNavSubtopic) =>
+    sub.overviewId === currentId || sub.articles.some((a) => a.id === currentId);
+  return (
+    nav.firstArticleId === currentId ||
+    nav.groups.some(
+      (group) =>
+        group.overviewId === currentId ||
+        group.looseArticles.some((a) => a.id === currentId) ||
+        group.subtopics.some(subHasCurrent),
+    )
+  );
+}

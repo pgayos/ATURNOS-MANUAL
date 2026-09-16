@@ -1,19 +1,35 @@
 ---
 import "../styles/global.css";
+import { getCollection } from "astro:content";
+import SiteNav from "../components/manual/SiteNav.astro";
+import { buildSiteNav, activeSiteNavSectionFor } from "../lib/siteNav";
+
 interface Props {
   title?: string;
   description?: string;
   showProfilePicker?: boolean;
+  /** id del artículo actual (p. ej. "planificacion/1-1-menu-principal"), para
+   *  resaltar y abrir su rama en el menú persistente. Las páginas que no son
+   *  un artículo (home, buscar, hub de módulos…) lo omiten. */
+  currentId?: string;
 }
 const {
   title = "Centro de ayuda de aTurnos",
   description = "Aprende a utilizar aTurnos con guías claras y respuestas verificadas.",
   showProfilePicker = false,
+  currentId,
 } = Astro.props;
 const deploymentBranch = import.meta.env.PUBLIC_DEPLOYMENT_BRANCH;
 const preventIndexing = Boolean(
   deploymentBranch && deploymentBranch !== "main",
 );
+
+// Menú persistente: se construye en cada página (home, buscar, artículos…)
+// para que el mismo árbol completo esté siempre visible, se entre por donde
+// se entre.
+const entries = await getCollection("manual");
+const siteNav = buildSiteNav(entries);
+const activeSection = activeSiteNavSectionFor(Astro.url.pathname);
 ---
 
 <!doctype html>
@@ -61,7 +77,7 @@ const preventIndexing = Boolean(
       </div>
     </div>
     <header class="site-header">
-      <nav class="container nav" aria-label="Navegación principal">
+      <nav class="nav" aria-label="Navegación principal">
         <a class="logo" href="/" aria-label="aTurnos · Centro de ayuda">
           <img
             src="/brand/aturnos-logo.svg"
@@ -73,8 +89,6 @@ const preventIndexing = Boolean(
           <span>Centro de ayuda</span>
         </a>
         <ul class="nav-links">
-          <li><a href="/manual/">Manual</a></li>
-          <li><a href="/manual/glosario/">Glosario</a></li>
           <li>
             <a class="search-link" href="/buscar/"
               ><span aria-hidden="true">⌕</span> Buscar</a
@@ -139,19 +153,24 @@ const preventIndexing = Boolean(
         </button>
       </nav>
     </header>
-    <slot />
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <img
-          src="/brand/aturnos-logo.svg"
-          width="126"
-          height="32"
-          alt="aTurnos"
-        /><span
-          >Centro de ayuda · Contenido público sujeto a revisión editorial.</span
-        ><a href="https://aturnos.com/" rel="external">Ir a aTurnos.com</a>
+    <div class="app-shell">
+      <SiteNav sections={siteNav} activeSection={activeSection} currentId={currentId} />
+      <div class="app-main">
+        <slot />
+        <footer class="site-footer">
+          <div class="container footer-inner">
+            <img
+              src="/brand/aturnos-logo.svg"
+              width="126"
+              height="32"
+              alt="aTurnos"
+            /><span
+              >Centro de ayuda · Contenido público sujeto a revisión editorial.</span
+            ><a href="https://aturnos.com/" rel="external">Ir a aTurnos.com</a>
+          </div>
+        </footer>
       </div>
-    </footer>
+    </div>
     <script is:inline>
       const picker = document.querySelector("#profile-picker");
       const profileLoader = document.querySelector("#profile-loader");
