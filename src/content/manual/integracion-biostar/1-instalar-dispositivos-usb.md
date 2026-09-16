@@ -1,11 +1,11 @@
 ---
 schemaVersion: "1.0"
-contentId: gestion-de-personal-1-instalar-dispositivos-usb
+contentId: integracion-biostar-1-instalar-dispositivos-usb
 title: Instalar Dispositivos USB
 description: Este es el dispositivo con el que tendrá que realizar la lectura de las huellas dactilares de los empleados que será proporcionado por aTurnos.
 contentType: reference
-module: Gestión de personal
-submodule: Usuarios y perfiles
+module: Integración con Biostar
+submodule: Manual de dispositivos Biostar
 subtopic: ""
 intent: Instalar Dispositivos USB
 audience:

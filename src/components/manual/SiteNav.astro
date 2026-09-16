@@ -16,6 +16,9 @@ const { sections, activeSection, currentId } = Astro.props;
 
 const chevronSvg =
   '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+// Flecha de "enlace externo" (sale del sitio, no cambia el árbol de abajo).
+const externalLinkSvg =
+  '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.5 4h5.5v5.5M12 4 4 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 ---
 
 <nav class="site-nav" data-site-nav aria-label="Navegación del manual">
@@ -40,6 +43,11 @@ const chevronSvg =
                 {section.icon}
               </span>
               {section.label}
+              <span
+                class="site-nav-pill-external"
+                aria-hidden="true"
+                set:html={externalLinkSvg}
+              />
             </a>
           );
         }

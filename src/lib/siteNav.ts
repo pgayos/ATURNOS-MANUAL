@@ -98,6 +98,8 @@ export function buildSiteNav(entries: Article[]): SiteNavSection[] {
 
   const empezarNav = buildGuideNav(entries, 'empezar-en-aturnos');
   const appMovilNav = buildGuideNav(entries, 'app-movil');
+  const proyectosNav = buildGuideNav(entries, 'gestion-de-proyectos');
+  const biostarNav = buildGuideNav(entries, 'integracion-biostar');
 
   return [
     {
@@ -124,8 +126,22 @@ export function buildSiteNav(entries: Article[]): SiteNavSection[] {
       href: `/manual/${appMovilNav.firstArticleId}/`,
       nav: appMovilNav,
     },
-    { id: 'proyectos', label: 'Gestión de proyectos', icon: '▦', kind: 'disabled' },
-    { id: 'biostar', label: 'Integración con Biostar', icon: '⇄', kind: 'disabled' },
+    {
+      id: 'proyectos',
+      label: 'Gestión de proyectos',
+      icon: '▦',
+      kind: 'guide',
+      href: `/manual/${proyectosNav.firstArticleId}/`,
+      nav: proyectosNav,
+    },
+    {
+      id: 'biostar',
+      label: 'Integración con Biostar',
+      icon: '⇄',
+      kind: 'guide',
+      href: `/manual/${biostarNav.firstArticleId}/`,
+      nav: biostarNav,
+    },
     {
       id: 'glosario',
       label: 'Glosario',
@@ -143,6 +159,8 @@ export function buildSiteNav(entries: Article[]): SiteNavSection[] {
 export function activeSiteNavSectionFor(pathname: string): SiteNavSectionId | null {
   if (pathname.startsWith('/manual/empezar-en-aturnos/')) return 'empezar-en-aturnos';
   if (pathname.startsWith('/manual/app-movil/')) return 'app-movil';
+  if (pathname.startsWith('/manual/gestion-de-proyectos/')) return 'proyectos';
+  if (pathname.startsWith('/manual/integracion-biostar/')) return 'biostar';
   if (pathname.startsWith('/manual/glosario/')) return 'glosario';
   if (pathname.startsWith('/manual/')) return 'modulos';
   return null;

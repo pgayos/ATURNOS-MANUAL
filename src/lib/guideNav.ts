@@ -36,6 +36,18 @@ export const GUIDE_MODULES: Record<string, GuideModuleConfig> = {
     ],
     flattenSubmodules: ['Comienza en aTurnos'],
   },
+  'gestion-de-proyectos': {
+    submoduleOrder: [
+      'Introducción',
+      'Análisis Funcional',
+      'Proceso de Implantación',
+      'Fin de fase de Implantación',
+      'Plan de Formación para la Implantación',
+    ],
+  },
+  'integracion-biostar': {
+    submoduleOrder: ['Introducción', 'Manual de dispositivos Biostar'],
+  },
 };
 
 // Glosario es el único módulo con formato distinto (listado A-Z con

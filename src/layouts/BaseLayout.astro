@@ -88,13 +88,19 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname);
           <span class="logo-divider" aria-hidden="true"></span>
           <span>Centro de ayuda</span>
         </a>
-        <ul class="nav-links">
-          <li>
-            <a class="search-link" href="/buscar/"
-              ><span aria-hidden="true">⌕</span> Buscar</a
-            >
-          </li>
-        </ul>
+        <form class="header-search" action="/buscar/" role="search">
+          <span class="header-search-icon" aria-hidden="true">⌕</span>
+          <label class="sr-only" for="header-search-input"
+            >Buscar en el manual</label
+          >
+          <input
+            id="header-search-input"
+            name="q"
+            type="search"
+            autocomplete="off"
+            placeholder="Buscar…"
+          />
+        </form>
         {
           showProfilePicker && (
             <select
