@@ -81,7 +81,7 @@ const DOCUMENTATION_MODULE_NAMES = [
 // integraciones-y-hardware/). Cada uno es un módulo independiente, con su
 // propio `module` de frontmatter — para añadir uno nuevo (p. ej. "SPEC"),
 // crea su carpeta ahí dentro y agrega aquí el nombre exacto de su `module`.
-const INTEGRATIONS_MODULE_NAMES = ['Integración con Biostar', 'SPEC'];
+const INTEGRATIONS_MODULE_NAMES = ['Integración con Biostar', 'SPEC', 'Wall App'];
 
 const moduleSlugOf = (entry: Article) => routeIdOf(entry.id).split('/').slice(0, -1).join('/');
 
