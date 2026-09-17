@@ -7,6 +7,8 @@ import {
   isGuideModule,
   isFlattenedSubmodule,
   buildGuideNav,
+  topLevelModuleSlugOf,
+  routeIdOf,
 } from "../../lib/guideNav";
 import type { CollectionEntry } from "astro:content";
 interface Props {
@@ -15,15 +17,19 @@ interface Props {
 }
 const { entry, headings } = Astro.props;
 const d = entry.data;
-const moduleSlug = entry.id.split("/").slice(0, -1).join("/");
+// El módulo "contenedor" es el primer segmento de la ruta, no "todo menos el
+// último": un artículo en app-movil/<módulo-web>/archivo.md pertenece al
+// contenedor "app-movil" aunque tenga un segmento extra de carpeta.
+const moduleSlug = topLevelModuleSlugOf(entry.id);
 // Glosario no tiene páginas de submódulo/subtopic (es un listado único A-Z), así
 // que su breadcrumb y eyebrow no muestran la letra usada solo para agrupar.
 const isGlossary = d.module === "Glosario";
 
-// "Conceptos" del glosario: cada relatedTerms se linkea al término del
-// glosario cuyo título coincide (comparando por slug, sin tildes/mayúsculas);
-// si no hay un término con ese nombre, se muestra como texto plano.
-const relatedGlossaryTerms = isGlossary
+// "Conceptos": cada relatedTerms (de cualquier artículo, no solo del
+// glosario) se linkea al término del glosario cuyo título coincide
+// (comparando por slug, sin tildes/mayúsculas); si no hay un término con ese
+// nombre, se muestra como texto plano.
+const relatedGlossaryTerms = d.relatedTerms.length
   ? await (async () => {
       const glossaryEntries = await getCollection(
         "manual",
@@ -34,7 +40,7 @@ const relatedGlossaryTerms = isGlossary
       );
       return d.relatedTerms.map((term) => {
         const match = bySlug.get(slugify(term));
-        return { term, href: match ? `/manual/${match.id}/` : null };
+        return { term, href: match ? `/manual/${routeIdOf(match.id)}/` : null };
       });
     })()
   : [];
@@ -49,7 +55,7 @@ const isGuide = isGuideModule(moduleSlug);
 const guideNav = isGuide
   ? buildGuideNav(await getCollection("manual"), moduleSlug)
   : null;
-const currentId = entry.id;
+const currentId = routeIdOf(entry.id);
 
 // En un módulo "guía" con submódulo aplanado, el tema hace de submódulo: el nivel
 // del submódulo envoltorio no se muestra en breadcrumb ni en el eyebrow.
@@ -167,24 +173,18 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
           <span class="panel-index-empty">Sin secciones</span>
         )}
 
-        {(isGlossary
-          ? relatedGlossaryTerms.length > 0
-          : d.entities.length > 0) && (
+        {relatedGlossaryTerms.length > 0 && (
           <>
             <strong>Conceptos</strong>
-            {isGlossary
-              ? relatedGlossaryTerms.map(({ term, href }) =>
-                  href ? (
-                    <a class="panel-index-concept" href={href}>
-                      {term}
-                    </a>
-                  ) : (
-                    <span class="panel-index-concept">{term}</span>
-                  ),
-                )
-              : d.entities.map((concept) => (
-                  <span class="panel-index-concept">{concept.label}</span>
-                ))}
+            {relatedGlossaryTerms.map(({ term, href }) =>
+              href ? (
+                <a class="panel-index-concept" href={href}>
+                  {term}
+                </a>
+              ) : (
+                <span class="panel-index-concept">{term}</span>
+              ),
+            )}
           </>
         )}
       </nav>

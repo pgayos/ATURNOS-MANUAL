@@ -54,19 +54,23 @@ const chevronSvg =
               data-profiles={(group.overviewAudience ?? []).join("|")}
               aria-current={group.overviewId === currentId ? "page" : undefined}
             >
-              {group.name}
+              <span class="guide-nav-head-text">{group.name}</span>
+              {groupChildren && (
+                <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+              )}
             </a>
           ) : (
-            <span class="guide-nav-head-link">{group.name}</span>
-          )}
-          {groupChildren && (
             <button
               type="button"
-              class="guide-nav-toggle"
-              aria-expanded={groupOpen ? "true" : "false"}
+              class="guide-nav-head-link"
+              aria-expanded={groupChildren ? (groupOpen ? "true" : "false") : undefined}
               aria-label={`Mostrar u ocultar ${group.name}`}
-              set:html={chevronSvg}
-            />
+            >
+              <span class="guide-nav-head-text">{group.name}</span>
+              {groupChildren && (
+                <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+              )}
+            </button>
           )}
           {groupChildren && (
             <ul class="guide-nav-sublist">
@@ -104,19 +108,23 @@ const chevronSvg =
                         data-profiles={(sub.overviewAudience ?? []).join("|")}
                         aria-current={sub.overviewId === currentId ? "page" : undefined}
                       >
-                        {sub.name}
+                        <span class="guide-nav-head-text">{sub.name}</span>
+                        {subChildren && (
+                          <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+                        )}
                       </a>
                     ) : (
-                      <span class="guide-nav-head-link">{sub.name}</span>
-                    )}
-                    {subChildren && (
                       <button
                         type="button"
-                        class="guide-nav-toggle"
-                        aria-expanded={subOpen ? "true" : "false"}
+                        class="guide-nav-head-link"
+                        aria-expanded={subChildren ? (subOpen ? "true" : "false") : undefined}
                         aria-label={`Mostrar u ocultar ${sub.name}`}
-                        set:html={chevronSvg}
-                      />
+                      >
+                        <span class="guide-nav-head-text">{sub.name}</span>
+                        {subChildren && (
+                          <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+                        )}
+                      </button>
                     )}
                     {subChildren && (
                       <ul class="guide-nav-sublist">

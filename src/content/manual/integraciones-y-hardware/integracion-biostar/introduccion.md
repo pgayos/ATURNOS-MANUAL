@@ -2,7 +2,7 @@
 schemaVersion: "1.0"
 contentId: integracion-biostar-introduccion
 title: "Introducción"
-description: "Cómo instalar y configurar los dispositivos Biostar para el control de presencia por huella dactilar o tarjeta, y cómo mantenerlos en el día a día."
+description: "Integraciones de aTurnos con sistemas y dispositivos externos: control de presencia biométrico con Biostar y, en el futuro, otras integraciones de hardware o de terceros."
 contentType: concept
 module: "Integración con Biostar"
 submodule: "Introducción"
@@ -27,6 +27,7 @@ governance:
     - https://manual.aturnos.com/kb/manual-uso-dispositivo-usb-toma-de-huellas/1-manual-dispostivios-biostar/
 ai:
   answerableQuestions:
+    - "¿Qué integraciones de hardware tiene aTurnos?"
     - "¿Qué cubre el manual de integración con Biostar?"
     - "¿Cómo empiezo a configurar un dispositivo Biostar para fichar por huella?"
   excludedQuestions: []
@@ -49,9 +50,11 @@ order: 1
 
 ## Resumen
 
-**Integración con Biostar** reúne el manual de los dispositivos biométricos (lector USB de huella o dispositivos en red) que se usan para fichar en aTurnos: cómo instalarlos, dar de alta a los trabajadores y sus huellas o tarjetas, controlar el acceso a las instalaciones y supervisar que todo funciona correctamente.
+**Integraciones y Hardware** reúne la documentación de las conexiones de aTurnos con sistemas y dispositivos externos, empezando por **Biostar**, el sistema de control de presencia biométrico (lector USB de huella o dispositivos en red).
 
 ## Qué encontrarás en esta sección
+
+### Integración con Biostar
 
 - **Instalación y configuración** — instalar el dispositivo USB o darlo de alta cuando está conectado a la red.
 - **Usuarios y credenciales** — crear los usuarios en Biostar2 y transferir sus huellas o tarjetas a los dispositivos.
@@ -60,4 +63,4 @@ order: 1
 
 ## Por dónde empezar
 
-Si vas a poner en marcha un dispositivo nuevo, empieza por [Instalar Dispositivos USB](/manual/integracion-biostar/1-instalar-dispositivos-usb/).
+Si vas a poner en marcha un dispositivo Biostar nuevo, empieza por [Instalar Dispositivos USB](/manual/integracion-biostar/1-instalar-dispositivos-usb/).

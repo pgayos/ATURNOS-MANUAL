@@ -52,30 +52,38 @@ const externalLinkSvg =
           );
         }
         const isActive = section.id === activeSection;
-        return (
-          <div class:list={["site-nav-pill-row", { "has-extra": section.kind === "glossary" }]}>
+        // Glosario navega directo a su página (buscador + filtros): toda la
+        // fila es un único <a>, sin un botón aparte al lado — el panel A-Z
+        // sigue apareciendo igual una vez ahí, vía el mismo <BaseLayout>.
+        // Los demás pills solo cambian de panel (interceptados más abajo).
+        if (section.kind === "glossary") {
+          return (
             <a
               class:list={["site-nav-pill", { "is-active": isActive }]}
               href={section.href}
-              data-section={section.id}
-              role="tab"
-              aria-selected={isActive ? "true" : "false"}
+              aria-current={isActive ? "page" : undefined}
             >
               <span class="site-nav-pill-icon" aria-hidden="true">
                 {section.icon}
               </span>
               {section.label}
+              <span class="site-nav-pill-arrow" aria-hidden="true" set:html={chevronSvg} />
             </a>
-            {section.kind === "glossary" && (
-              <a
-                class="site-nav-pill-extra"
-                href={section.extraAction.href}
-                aria-label={section.extraAction.label}
-                title={section.extraAction.label}
-                set:html={chevronSvg}
-              />
-            )}
-          </div>
+          );
+        }
+        return (
+          <a
+            class:list={["site-nav-pill", { "is-active": isActive }]}
+            href={section.href}
+            data-section={section.id}
+            role="tab"
+            aria-selected={isActive ? "true" : "false"}
+          >
+            <span class="site-nav-pill-icon" aria-hidden="true">
+              {section.icon}
+            </span>
+            {section.label}
+          </a>
         );
       })
     }
@@ -108,15 +116,9 @@ const externalLinkSvg =
                         ]}
                         href={`/manual/${moduleNav.firstArticleId}/`}
                       >
-                        {moduleNav.moduleName}
+                        <span class="guide-nav-head-text">{moduleNav.moduleName}</span>
+                        <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
                       </a>
-                      <button
-                        type="button"
-                        class="guide-nav-toggle"
-                        aria-expanded={open ? "true" : "false"}
-                        aria-label={`Mostrar u ocultar ${moduleNav.moduleName}`}
-                        set:html={chevronSvg}
-                      />
                       <GuideNavTree
                         groups={moduleNav.groups}
                         currentId={currentId}
@@ -177,8 +179,10 @@ const externalLinkSvg =
     // antecesores de la que se acaba de abrir. ---
     const setOpen = (node: HTMLElement, open: boolean) => {
       node.classList.toggle("open", open);
+      // Solo el header sin portada es un <button> con aria-expanded propio;
+      // el header con portada es un <a> (navega, no despliega) y no lo lleva.
       node
-        .querySelector<HTMLElement>(":scope > .guide-nav-toggle")
+        .querySelector<HTMLElement>(":scope > button.guide-nav-head-link")
         ?.setAttribute("aria-expanded", String(open));
     };
     const ancestors = (node: HTMLElement) => {
@@ -192,13 +196,17 @@ const externalLinkSvg =
     };
 
     nav.addEventListener("click", (event) => {
-      const toggle = (event.target as HTMLElement).closest<HTMLElement>(".guide-nav-toggle");
-      if (!toggle || !nav.contains(toggle)) return;
-      const node = toggle.closest<HTMLElement>("[data-node]");
+      const target = event.target as HTMLElement;
+      // La fila entera (palabra + ícono) es un solo elemento: un <button>
+      // cuando no hay portada (despliega/colapsa) o un <a> cuando sí la hay
+      // (navega, sin interceptar — el ícono ahí es solo decorativo).
+      const trigger = target.closest<HTMLElement>("button.guide-nav-head-link");
+      if (!trigger || !nav.contains(trigger)) return;
+      const node = trigger.closest<HTMLElement>("[data-node]");
       if (!node) return;
       // El acordeón se limita al panel de la categoría activa; los demás
       // paneles están ocultos y su estado no importa hasta que se muestren.
-      const scope = toggle.closest<HTMLElement>("[data-panel]") ?? nav;
+      const scope = trigger.closest<HTMLElement>("[data-panel]") ?? nav;
       const nodes = Array.from(scope.querySelectorAll<HTMLElement>("[data-node]"));
 
       const willOpen = !node.classList.contains("open");

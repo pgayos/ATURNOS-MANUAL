@@ -1,11 +1,12 @@
 ---
 import { getCollection, render } from "astro:content";
 import ArticleLayout from "../../components/manual/ArticleLayout.astro";
+import { routeIdOf } from "../../lib/guideNav";
 
 export async function getStaticPaths() {
   const entries = await getCollection("manual");
   return entries.map((entry) => ({
-    params: { id: entry.id },
+    params: { id: routeIdOf(entry.id) },
     props: { entry },
   }));
 }

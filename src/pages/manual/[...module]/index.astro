@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { buildGuideNav, isGuideModule } from '../../../lib/guideNav';
+import { buildGuideNav, isGuideModule, topLevelModuleSlugOf } from '../../../lib/guideNav';
 
 // Todo módulo (salvo Glosario) usa navegación de sidebar: no hay página de
 // cards de módulo/submódulo/tema, así que entrar a /manual/<módulo>/ salta
@@ -8,9 +8,13 @@ import { buildGuideNav, isGuideModule } from '../../../lib/guideNav';
 export async function getStaticPaths() {
   const entries = await getCollection('manual');
 
+  // Por módulo "contenedor" (primer segmento de carpeta), no por
+  // "todo menos el último": si no, un módulo con subcarpetas como
+  // app-movil/<módulo-web>/ generaría una página de redirección por cada
+  // subcarpeta en vez de una sola para /manual/app-movil/.
   const moduleSlugs = new Set(
     entries
-      .map((entry) => entry.id.split('/').slice(0, -1).join('/'))
+      .map((entry) => topLevelModuleSlugOf(entry.id))
       .filter((moduleSlug) => isGuideModule(moduleSlug)),
   );
 

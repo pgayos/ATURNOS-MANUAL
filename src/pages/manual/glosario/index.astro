@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { firstLetter } from '../../../lib/slug';
+import { routeIdOf } from '../../../lib/guideNav';
 
 const norm = (value: string) =>
   value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -17,7 +18,7 @@ const terms = entries
     title: entry.data.title,
     description: entry.data.description,
     category: entry.data.submodule,
-    href: `/manual/${entry.id}/`,
+    href: `/manual/${routeIdOf(entry.id)}/`,
     letter: firstLetter(entry.data.title),
     haystack: norm([entry.data.title, ...entry.data.synonyms].join(' ')),
   }))

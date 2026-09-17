@@ -1,5 +1,5 @@
 import type { CollectionEntry } from 'astro:content';
-import { buildGuideNav, type GuideNav } from './guideNav';
+import { buildGuideNav, routeIdOf, type GuideNav } from './guideNav';
 
 type Article = CollectionEntry<'manual'>;
 
@@ -17,7 +17,7 @@ export type SiteNavSectionId =
   | 'modulos'
   | 'app-movil'
   | 'proyectos'
-  | 'biostar'
+  | 'integracion-hardware'
   | 'glosario'
   | 'apirest';
 
@@ -41,11 +41,10 @@ export interface SiteNavDirectorySection extends SiteNavBase {
 
 export interface SiteNavGlossarySection extends SiteNavBase {
   kind: 'glossary';
+  /** El pill entero navega aquí (página completa: buscador + filtro por
+   *  categoría + cards) — no solo cambia de panel como los demás pills. */
   href: string;
   terms: { id: string; title: string; href: string }[];
-  /** El botón extra junto al pill: lleva a la página completa del glosario
-   *  (buscador + filtro por categoría + cards), no al árbol A-Z de aquí. */
-  extraAction: { label: string; href: string };
 }
 
 export interface SiteNavPlainSection extends SiteNavBase {
@@ -75,9 +74,16 @@ const DOCUMENTATION_MODULE_NAMES = [
   'Recursos y partes',
   'Tareas',
   'Pruebas',
+  'Cita previa',
 ];
 
-const moduleSlugOf = (entry: Article) => entry.id.split('/').slice(0, -1).join('/');
+// Módulos del directorio "Integración y Hardware" (carpeta física
+// integraciones-y-hardware/). Cada uno es un módulo independiente, con su
+// propio `module` de frontmatter — para añadir uno nuevo (p. ej. "SPEC"),
+// crea su carpeta ahí dentro y agrega aquí el nombre exacto de su `module`.
+const INTEGRATIONS_MODULE_NAMES = ['Integración con Biostar', 'SPEC'];
+
+const moduleSlugOf = (entry: Article) => routeIdOf(entry.id).split('/').slice(0, -1).join('/');
 
 export function buildSiteNav(entries: Article[]): SiteNavSection[] {
   const slugByModuleName = new Map<string, string>();
@@ -91,15 +97,18 @@ export function buildSiteNav(entries: Article[]): SiteNavSection[] {
     .filter((slug): slug is string => Boolean(slug))
     .map((slug) => buildGuideNav(entries, slug));
 
+  const integrationModules = INTEGRATIONS_MODULE_NAMES.map((name) => slugByModuleName.get(name))
+    .filter((slug): slug is string => Boolean(slug))
+    .map((slug) => buildGuideNav(entries, slug));
+
   const glossaryTerms = entries
     .filter((e) => e.data.module === 'Glosario')
-    .map((e) => ({ id: e.id, title: e.data.title, href: `/manual/${e.id}/` }))
+    .map((e) => ({ id: routeIdOf(e.id), title: e.data.title, href: `/manual/${routeIdOf(e.id)}/` }))
     .sort((a, b) => a.title.localeCompare(b.title, 'es'));
 
   const empezarNav = buildGuideNav(entries, 'empezar-en-aturnos');
   const appMovilNav = buildGuideNav(entries, 'app-movil');
   const proyectosNav = buildGuideNav(entries, 'gestion-de-proyectos');
-  const biostarNav = buildGuideNav(entries, 'integracion-biostar');
 
   return [
     {
@@ -135,12 +144,12 @@ export function buildSiteNav(entries: Article[]): SiteNavSection[] {
       nav: proyectosNav,
     },
     {
-      id: 'biostar',
-      label: 'Integración con Biostar',
+      id: 'integracion-hardware',
+      label: 'Integración y Hardware',
       icon: '⇄',
-      kind: 'guide',
-      href: `/manual/${biostarNav.firstArticleId}/`,
-      nav: biostarNav,
+      kind: 'directory',
+      href: `/manual/${integrationModules[0]?.firstArticleId ?? 'integracion-biostar'}/`,
+      modules: integrationModules,
     },
     {
       id: 'glosario',
@@ -149,19 +158,38 @@ export function buildSiteNav(entries: Article[]): SiteNavSection[] {
       kind: 'glossary',
       href: '/manual/glosario/',
       terms: glossaryTerms,
-      extraAction: { label: 'Ver todo el glosario', href: '/manual/glosario/' },
     },
     { id: 'apirest', label: 'ApiRest', icon: '⌘', kind: 'external', href: 'https://api.aturnos.com/' },
   ];
 }
 
-/** A qué categoría pertenece la página actual, a partir de su ruta. */
-export function activeSiteNavSectionFor(pathname: string): SiteNavSectionId | null {
-  if (pathname.startsWith('/manual/empezar-en-aturnos/')) return 'empezar-en-aturnos';
-  if (pathname.startsWith('/manual/app-movil/')) return 'app-movil';
-  if (pathname.startsWith('/manual/gestion-de-proyectos/')) return 'proyectos';
-  if (pathname.startsWith('/manual/integracion-biostar/')) return 'biostar';
-  if (pathname.startsWith('/manual/glosario/')) return 'glosario';
-  if (pathname.startsWith('/manual/')) return 'modulos';
-  return null;
+/**
+ * A qué categoría pertenece la página actual, a partir de su ruta. Se deriva
+ * de los módulos ya construidos (no de rutas escritas a mano) para que un
+ * cambio de slug o un módulo nuevo no requiera venir a actualizar esto
+ * también — es justo lo que se desincronizó la última vez que se renombró
+ * una sección.
+ */
+export function activeSiteNavSectionFor(
+  pathname: string,
+  sections: SiteNavSection[],
+): SiteNavSectionId | null {
+  for (const section of sections) {
+    if (section.kind === 'guide' && pathname.startsWith(`/manual/${section.nav.moduleSlug}/`)) {
+      return section.id;
+    }
+    if (
+      section.kind === 'directory' &&
+      section.id !== 'modulos' &&
+      section.modules.some((m) => pathname.startsWith(`/manual/${m.moduleSlug}/`))
+    ) {
+      return section.id;
+    }
+    if (section.kind === 'glossary' && pathname.startsWith('/manual/glosario/')) {
+      return section.id;
+    }
+  }
+  // "Documentación" ('modulos') es el directorio general: cualquier ruta de
+  // /manual/ que no haya matcheado una categoría más específica cae aquí.
+  return pathname.startsWith('/manual/') ? 'modulos' : null;
 }

@@ -29,7 +29,7 @@ const preventIndexing = Boolean(
 // se entre.
 const entries = await getCollection("manual");
 const siteNav = buildSiteNav(entries);
-const activeSection = activeSiteNavSectionFor(Astro.url.pathname);
+const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
 ---
 
 <!doctype html>

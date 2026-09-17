@@ -140,6 +140,7 @@ select {
   flex-direction: column;
   flex: 1;
   min-width: 0;
+
 }
 .logo {
   display: flex;
@@ -443,9 +444,9 @@ h3 {
 .article-shell {
   display: grid;
   grid-template-columns: minmax(0, 760px) 240px;
-  gap: 38px;
+  gap: 3rem;
   align-items: start;
-  padding: 30px 0 80px;
+  padding: 2rem 0 5rem 2rem;
 }
 
 /* Menú persistente (lateral izquierdo, en todo el sitio) */
@@ -471,12 +472,6 @@ h3 {
   background: var(--bg);
   border: 1px solid var(--line);
   border-radius: 12px;
-}
-.site-nav-pill-row {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  width: 100%;
 }
 .site-nav-pill {
   display: flex;
@@ -543,23 +538,23 @@ h3 {
 .site-nav-pill:hover .site-nav-pill-external {
   color: var(--brand);
 }
-.site-nav-pill-extra {
+/* Flecha decorativa dentro del pill de Glosario (toda la fila es un único
+   <a>, misma idea que .site-nav-pill-external pero sin implicar salida). */
+.site-nav-pill-arrow {
   flex: none;
   display: grid;
   place-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 8px;
+  width: 16px;
+  height: 16px;
+  margin-left: auto;
   color: var(--muted);
-  text-decoration: none;
 }
-.site-nav-pill-extra:hover {
-  background: var(--soft);
-  color: var(--brand);
-}
-.site-nav-pill-extra svg {
+.site-nav-pill-arrow svg {
   width: 12px;
   height: 12px;
+}
+.site-nav-pill:hover .site-nav-pill-arrow {
+  color: var(--brand);
 }
 .site-nav-panel[hidden] {
   display: none;
@@ -595,23 +590,37 @@ h3 {
 }
 
 /* Mismo aspecto que .site-nav-pill (tamaño, peso, padding, radio) para que
-   las cabeceras del árbol no se vean más comprimidas que las categorías. */
+   las cabeceras del árbol no se vean más comprimidas que las categorías.
+   La fila (palabra + ícono) es un único elemento clickable: <a> cuando hay
+   portada a la que navegar, <button> cuando solo despliega/colapsa — nunca
+   dos controles separados con comportamientos distintos. */
 .guide-nav-head-link {
   flex: 1;
   min-width: 0;
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 6px;
   padding: 9px 10px;
+  border: 0;
   border-radius: 8px;
+  background: none;
   color: var(--ink);
+  font: inherit;
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 1.3;
+  text-align: left;
   text-decoration: none;
+  cursor: pointer;
+}
+.guide-nav-head-text {
+  flex: 1;
+  min-width: 0;
 }
 .guide-nav-list {
   margin-top: 8px;
 }
-a.guide-nav-head-link:hover {
+.guide-nav-head-link:hover {
   background: var(--soft);
   color: var(--brand);
 }
@@ -620,30 +629,21 @@ a.guide-nav-head-link:hover {
   color: var(--brand-dark);
 }
 
-.guide-nav-toggle {
+.guide-nav-toggle-icon {
   display: inline-flex;
   flex: none;
   align-items: center;
   justify-content: center;
   width: 22px;
   height: 22px;
-  padding: 0;
-  border: 0;
-  border-radius: 6px;
-  background: none;
   color: var(--muted);
-  cursor: pointer;
 }
-.guide-nav-toggle:hover {
-  color: var(--brand);
-  background: var(--soft);
-}
-.guide-nav-toggle svg {
+.guide-nav-toggle-icon svg {
   width: 12px;
   height: 12px;
   transition: transform 0.18s ease;
 }
-.guide-nav-node.open > .guide-nav-toggle svg {
+.guide-nav-node.open > .guide-nav-head-link .guide-nav-toggle-icon svg {
   transform: rotate(90deg);
 }
 .guide-nav-node[data-node]:not(.open) > .guide-nav-sublist {
@@ -669,7 +669,7 @@ a.guide-nav-head-link:hover {
   color: var(--brand);
   font-weight: 600;
   border-left-color: var(--brand);
-  border-radius: 0 2px 2px 0;
+  border-radius: 0 6px 6px 0;
 }
 .guide-nav .is-role-unavailable {
   color: var(--muted);

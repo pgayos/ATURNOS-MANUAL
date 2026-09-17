@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ModuleGrid from "../../components/home/ModuleGrid.astro";
 import { getCollection } from "astro:content";
+import { topLevelModuleSlugOf } from "../../lib/guideNav";
 
 const allArticles = await getCollection("manual");
 
@@ -38,7 +39,7 @@ function buildModuleCards(source: typeof allArticles) {
   return [
     ...new Map(
       source.map((article) => {
-        const slug = article.id.split("/").slice(0, -1).join("/");
+        const slug = topLevelModuleSlugOf(article.id);
         return [article.data.module, { name: article.data.module, slug }];
       }),
     ).values(),
@@ -80,6 +81,7 @@ const visibleModuleNames = [
   "Recursos y partes",
   "Tareas",
   "Pruebas",
+  "Cita previa",
 ];
 
 const visibleModules = visibleModuleNames

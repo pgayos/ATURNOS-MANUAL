@@ -98,13 +98,42 @@ export interface GuideNav {
   firstArticleId: string;
 }
 
-const moduleSlugOf = (entry: Article) => entry.id.split('/').slice(0, -1).join('/');
+/**
+ * Carpetas puramente organizativas: agrupan módulos en disco para que sean
+ * fáciles de ubicar (p. ej. `manual/planificacion/...`), pero no significan
+ * nada para la navegación ni deben aparecer en la URL. `routeIdOf` las quita
+ * del id antes de usarlo para construir rutas, comparar artículos o agrupar
+ * por módulo — a partir de aquí, todo el código trata el resultado como "el
+ * id real" del artículo. Si se crea una carpeta contenedora nueva, solo hace
+ * falta añadirla aquí.
+ */
+const NON_ROUTING_WRAPPERS = ['manual', 'integraciones-y-hardware'];
+
+export function routeIdOf(rawId: string): string {
+  const [first, ...rest] = rawId.split('/');
+  return NON_ROUTING_WRAPPERS.includes(first) && rest.length > 0 ? rest.join('/') : rawId;
+}
+
+const moduleSlugOf = (entry: Article) => routeIdOf(entry.id).split('/').slice(0, -1).join('/');
+
+/**
+ * A qué módulo "contenedor" pertenece un artículo por su ruta efectiva (ya
+ * sin carpetas contenedoras puramente organizativas): siempre el primer
+ * segmento. Para la inmensa mayoría de artículos coincide con `moduleSlugOf`
+ * (no hay subcarpetas reales), pero en el caso de
+ * app-movil/<módulo-web>/archivo.md (ver "El caso de App" en
+ * templateManual.md) el módulo contenedor sigue siendo "app-movil", aunque
+ * `moduleSlugOf` para ese artículo dé "app-movil/<módulo-web>". Esto es lo que
+ * deben usar las páginas que parten de un artículo concreto (breadcrumb,
+ * sidebar) para saber a qué pill/índice de navegación pertenece.
+ */
+export const topLevelModuleSlugOf = (entryId: string) => routeIdOf(entryId).split('/')[0];
 
 const byOrder = (a: Article, b: Article) =>
   a.data.order - b.data.order || a.data.title.localeCompare(b.data.title, 'es');
 
 const toNavArticle = (a: Article): GuideNavArticle => ({
-  id: a.id,
+  id: routeIdOf(a.id),
   title: a.data.title,
   order: a.data.order,
   audience: a.data.audience.map((item) => item.role),
@@ -149,22 +178,41 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
     return index === -1 ? Number.MAX_SAFE_INTEGER : index;
   };
 
-  const inModule = entries.filter((entry) => moduleSlugOf(entry) === moduleSlug);
-  const moduleName = inModule[0]?.data.module ?? moduleSlug;
+  // Un módulo puede tener contenido en subcarpetas propias (p. ej.
+  // app-movil/control-horario/, ver "El caso de App" en templateManual.md):
+  // esos artículos también pertenecen al módulo aunque su ruta tenga un
+  // segmento extra, así que se incluyen por prefijo, no solo por igualdad.
+  const inModule = entries.filter((entry) => {
+    const entrySlug = moduleSlugOf(entry);
+    return entrySlug === moduleSlug || entrySlug.startsWith(`${moduleSlug}/`);
+  });
+  const moduleName =
+    inModule.find((entry) => moduleSlugOf(entry) === moduleSlug)?.data.module ??
+    inModule[0]?.data.module ??
+    moduleSlug;
 
-  const groups: GuideNavGroup[] = [...groupBy(inModule, (a) => a.data.submodule).entries()]
+  // Para un artículo en subcarpeta, su "submodule" real (p. ej. "General" de
+  // Control horario) no es el nivel que corresponde en este árbol: aquí lo
+  // que agrupa es el módulo web al que pertenece (su `module`, p. ej.
+  // "Control horario"), y su propio submodule pasa a hacer de tema/subtopic.
+  const groupKeyOf = (entry: Article) =>
+    moduleSlugOf(entry) === moduleSlug ? entry.data.submodule : entry.data.module;
+  const subtopicKeyOf = (entry: Article): string | undefined =>
+    moduleSlugOf(entry) === moduleSlug ? entry.data.subtopic : entry.data.submodule;
+
+  const groups: GuideNavGroup[] = [...groupBy(inModule, groupKeyOf).entries()]
     .sort(([a], [b]) => orderOf(a) - orderOf(b) || a.localeCompare(b, 'es'))
     .map(([name, articles]) => {
       const looseArticles = articles
-        .filter((a) => !a.data.subtopic)
+        .filter((a) => !subtopicKeyOf(a))
         .sort(byOrder)
         .map(toNavArticle);
       const overview = extractOverview(looseArticles, name);
 
       const subtopics: GuideNavSubtopic[] = [
         ...groupBy(
-          articles.filter((a) => a.data.subtopic),
-          (a) => a.data.subtopic as string,
+          articles.filter((a) => subtopicKeyOf(a)),
+          (a) => subtopicKeyOf(a) as string,
         ).entries(),
       ]
         .map(([subName, subArticles]) => {
@@ -195,12 +243,13 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
     });
 
   const firstGroup = groups[0];
+  const fallbackArticle = inModule.slice().sort(byOrder)[0];
   const firstArticleId =
     firstGroup?.overviewId ??
     firstGroup?.looseArticles[0]?.id ??
     firstGroup?.subtopics[0]?.overviewId ??
     firstGroup?.subtopics[0]?.articles[0]?.id ??
-    inModule.slice().sort(byOrder)[0]?.id ??
+    (fallbackArticle && routeIdOf(fallbackArticle.id)) ??
     moduleSlug;
 
   // Aplana los submódulos marcados: cada tema pasa a ser un submódulo de primer
