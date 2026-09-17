@@ -84,6 +84,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
   margin: 0;
   line-height: 1.6;
 }
@@ -129,9 +132,12 @@ select {
    que arranca en el borde real de la ventana, no en el de un bloque centrado. */
 .app-shell {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
+  flex: 1;
 }
 .app-main {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   min-width: 0;
 }
@@ -588,33 +594,22 @@ h3 {
   margin-top: 4px;
 }
 
+/* Mismo aspecto que .site-nav-pill (tamaño, peso, padding, radio) para que
+   las cabeceras del árbol no se vean más comprimidas que las categorías. */
 .guide-nav-head-link {
   flex: 1;
   min-width: 0;
   display: block;
-  padding: 6px 8px;
-  border-radius: 6px;
-  text-decoration: none;
-  line-height: 1.3;
-}
-/* Cabecera de submódulo (primer nivel) */
-.guide-nav-list{
-  margin-top: 8px;
-}
-.guide-nav-list > .guide-nav-node > .guide-nav-head-link {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--muted);
-}
-/* Cabecera de tema (nivel anidado) */
-.guide-nav-node--sub > .guide-nav-head-link {
-  font-size: 0.82rem;
-  font-weight: 600;
-  text-transform: none;
-  letter-spacing: 0;
+  padding: 9px 10px;
+  border-radius: 8px;
   color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+}
+.guide-nav-list {
+  margin-top: 8px;
 }
 a.guide-nav-head-link:hover {
   background: var(--soft);
@@ -622,7 +617,7 @@ a.guide-nav-head-link:hover {
 }
 .guide-nav-head-link.active {
   background: var(--soft);
-  color: var(--brand);
+  color: var(--brand-dark);
 }
 
 .guide-nav-toggle {
@@ -994,6 +989,7 @@ a.guide-nav-head-link:hover {
   cursor: pointer;
 }
 .site-footer {
+  margin-top: auto;
   border-top: 1px solid var(--line);
   padding: 34px 0;
   color: var(--muted);
@@ -1198,6 +1194,7 @@ a.guide-nav-head-link:hover {
   }
   .app-shell {
     display: block;
+    flex: none;
   }
   .site-nav {
     position: static;
