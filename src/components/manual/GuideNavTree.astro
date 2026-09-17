@@ -1,0 +1,157 @@
+---
+// Árbol de navegación de un módulo (submódulos → temas → artículos), en
+// ul > li > a semántico con acordeón. Lo usa tanto SiteNav (una vez por
+// categoría "guía") como el panel "Documentación" (una vez por cada módulo,
+// anidado dentro de su propio nodo colapsable).
+import type { GuideNavGroup, GuideNavSubtopic } from "../../lib/guideNav";
+
+interface Props {
+  groups: GuideNavGroup[];
+  currentId?: string;
+  wrapperClass?: string;
+  /** Si nada coincide con currentId, abre el primer grupo (para cuando se
+   *  aterriza en la portada del módulo). No se usa en listas anidadas. */
+  openFirstIfNoMatch?: boolean;
+}
+
+const {
+  groups,
+  currentId,
+  wrapperClass = "guide-nav-list",
+  openFirstIfNoMatch = false,
+} = Astro.props;
+
+const subHasCurrent = (sub: GuideNavSubtopic) =>
+  sub.overviewId === currentId || sub.articles.some((a) => a.id === currentId);
+const groupHasCurrent = (group: GuideNavGroup) =>
+  group.overviewId === currentId ||
+  group.looseArticles.some((a) => a.id === currentId) ||
+  group.subtopics.some(subHasCurrent);
+const anyMatch = groups.some(groupHasCurrent);
+
+const chevronSvg =
+  '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+---
+
+<ul class={wrapperClass}>
+  {
+    groups.map((group, index) => {
+      const groupOpen =
+        groupHasCurrent(group) || (openFirstIfNoMatch && index === 0 && !anyMatch);
+      const groupChildren = group.looseArticles.length > 0 || group.subtopics.length > 0;
+      return (
+        <li
+          class:list={["guide-nav-node", { open: groupOpen }]}
+          data-node={groupChildren ? "" : undefined}
+        >
+          {group.overviewId ? (
+            <a
+              class:list={[
+                "guide-nav-head-link",
+                { active: group.overviewId === currentId },
+              ]}
+              href={`/manual/${group.overviewId}/`}
+              data-profiles={(group.overviewAudience ?? []).join("|")}
+              aria-current={group.overviewId === currentId ? "page" : undefined}
+            >
+              <span class="guide-nav-head-text">{group.name}</span>
+              {groupChildren && (
+                <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+              )}
+            </a>
+          ) : (
+            <button
+              type="button"
+              class="guide-nav-head-link"
+              aria-expanded={groupChildren ? (groupOpen ? "true" : "false") : undefined}
+              aria-label={`Mostrar u ocultar ${group.name}`}
+            >
+              <span class="guide-nav-head-text">{group.name}</span>
+              {groupChildren && (
+                <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+              )}
+            </button>
+          )}
+          {groupChildren && (
+            <ul class="guide-nav-sublist">
+              {group.looseArticles.map((a) => (
+                <li>
+                  <a
+                    class:list={["guide-nav-link", { active: a.id === currentId }]}
+                    href={`/manual/${a.id}/`}
+                    data-profiles={a.audience.join("|")}
+                    aria-current={a.id === currentId ? "page" : undefined}
+                  >
+                    {a.title}
+                  </a>
+                </li>
+              ))}
+              {group.subtopics.map((sub) => {
+                const subOpen = subHasCurrent(sub);
+                const subChildren = sub.articles.length > 0;
+                return (
+                  <li
+                    class:list={[
+                      "guide-nav-node",
+                      "guide-nav-node--sub",
+                      { open: subOpen },
+                    ]}
+                    data-node={subChildren ? "" : undefined}
+                  >
+                    {sub.overviewId ? (
+                      <a
+                        class:list={[
+                          "guide-nav-head-link",
+                          { active: sub.overviewId === currentId },
+                        ]}
+                        href={`/manual/${sub.overviewId}/`}
+                        data-profiles={(sub.overviewAudience ?? []).join("|")}
+                        aria-current={sub.overviewId === currentId ? "page" : undefined}
+                      >
+                        <span class="guide-nav-head-text">{sub.name}</span>
+                        {subChildren && (
+                          <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+                        )}
+                      </a>
+                    ) : (
+                      <button
+                        type="button"
+                        class="guide-nav-head-link"
+                        aria-expanded={subChildren ? (subOpen ? "true" : "false") : undefined}
+                        aria-label={`Mostrar u ocultar ${sub.name}`}
+                      >
+                        <span class="guide-nav-head-text">{sub.name}</span>
+                        {subChildren && (
+                          <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+                        )}
+                      </button>
+                    )}
+                    {subChildren && (
+                      <ul class="guide-nav-sublist">
+                        {sub.articles.map((a) => (
+                          <li>
+                            <a
+                              class:list={[
+                                "guide-nav-link",
+                                { active: a.id === currentId },
+                              ]}
+                              href={`/manual/${a.id}/`}
+                              data-profiles={a.audience.join("|")}
+                              aria-current={a.id === currentId ? "page" : undefined}
+                            >
+                              {a.title}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+        </li>
+      );
+    })
+  }
+</ul>

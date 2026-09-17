@@ -1,5 +1,37 @@
 ---
-interface Props { videoId: string; title: string; transcript?: string; }
-const { videoId, title, transcript } = Astro.props;
+interface Props {
+  src: string;
+  title?: string;
+  transcript?: string;
+}
+const { src, title, transcript } = Astro.props;
+
+// Acepta youtube.com/watch?v=, youtube.com/embed/ y youtu.be/. Cualquier otra
+// URL u origen (p. ej. /media/manual/mi-video.mp4) se trata como archivo de
+// video directo.
+const youtubeId = src.match(
+  /(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([a-zA-Z0-9_-]{6,})/,
+)?.[1];
 ---
-<section class="media-card"><iframe class="video" src={`https://www.youtube-nocookie.com/embed/${videoId}`} title={title} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{transcript && <div class="media-caption"><a href={transcript}>Leer la transcripción del vídeo</a></div>}</section>
+
+<section class="media-card">
+  {
+    youtubeId ? (
+      <iframe
+        class="video"
+        src={`https://www.youtube-nocookie.com/embed/${youtubeId}`}
+        title={title}
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      />
+    ) : (
+      <video class="video" controls src={src} title={title} />
+    )
+  }
+  {transcript && (
+    <div class="media-caption">
+      <a href={transcript}>Leer la transcripción del vídeo</a>
+    </div>
+  )}
+</section>

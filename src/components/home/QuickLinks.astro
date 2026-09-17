@@ -1,0 +1,49 @@
+---
+interface QuickLink {
+  name: string;
+  description: string;
+  icon: string;
+  href?: string;
+  external?: boolean;
+  disabled?: boolean;
+}
+interface Props {
+  eyebrow: string;
+  title: string;
+  links: QuickLink[];
+}
+const { eyebrow, title, links } = Astro.props;
+---
+
+<section class="section container">
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow">{eyebrow}</span>
+      <h2>{title}</h2>
+    </div>
+  </div>
+  <div class="card-grid">
+    {
+      links.map((link) =>
+        link.disabled ? (
+          <div class="card is-disabled" aria-disabled="true">
+            <span class="card-icon">{link.icon}</span>
+            <h3>{link.name}</h3>
+            <p>{link.description}</p>
+            <span class="card-soon">Próximamente</span>
+          </div>
+        ) : (
+          <a
+            class="card"
+            href={link.href}
+            rel={link.external ? "external" : undefined}
+          >
+            <span class="card-icon">{link.icon}</span>
+            <h3>{link.name}</h3>
+            <p>{link.description}</p>
+          </a>
+        ),
+      )
+    }
+  </div>
+</section>

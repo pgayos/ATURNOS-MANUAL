@@ -1,17 +1,35 @@
 ---
 import "../styles/global.css";
+import { getCollection } from "astro:content";
+import SiteNav from "../components/manual/SiteNav.astro";
+import { buildSiteNav, activeSiteNavSectionFor } from "../lib/siteNav";
+
 interface Props {
   title?: string;
   description?: string;
+  showProfilePicker?: boolean;
+  /** id del artículo actual (p. ej. "planificacion/1-1-menu-principal"), para
+   *  resaltar y abrir su rama en el menú persistente. Las páginas que no son
+   *  un artículo (home, buscar, hub de módulos…) lo omiten. */
+  currentId?: string;
 }
 const {
   title = "Centro de ayuda de aTurnos",
   description = "Aprende a utilizar aTurnos con guías claras y respuestas verificadas.",
+  showProfilePicker = false,
+  currentId,
 } = Astro.props;
 const deploymentBranch = import.meta.env.PUBLIC_DEPLOYMENT_BRANCH;
 const preventIndexing = Boolean(
   deploymentBranch && deploymentBranch !== "main",
 );
+
+// Menú persistente: se construye en cada página (home, buscar, artículos…)
+// para que el mismo árbol completo esté siempre visible, se entre por donde
+// se entre.
+const entries = await getCollection("manual");
+const siteNav = buildSiteNav(entries);
+const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
 ---
 
 <!doctype html>
@@ -59,7 +77,7 @@ const preventIndexing = Boolean(
       </div>
     </div>
     <header class="site-header">
-      <nav class="container nav" aria-label="Navegación principal">
+      <nav class="nav" aria-label="Navegación principal">
         <a class="logo" href="/" aria-label="aTurnos · Centro de ayuda">
           <img
             src="/brand/aturnos-logo.svg"
@@ -70,25 +88,33 @@ const preventIndexing = Boolean(
           <span class="logo-divider" aria-hidden="true"></span>
           <span>Centro de ayuda</span>
         </a>
-        <ul class="nav-links">
-          <li><a href="/#modulos">Módulos</a></li>
-          <li><a href="/manual/glosario/">Glosario</a></li>
-          <li>
-            <a class="search-link" href="/buscar/"
-              ><span aria-hidden="true">⌕</span> Buscar</a
-            >
-          </li>
-        </ul>
-        <select
-          class="profile-picker"
-          id="profile-picker"
-          aria-label="Seleccionar mi perfil"
-        >
-          <option value="general">Rol usuario</option>
-          <option>Trabajador</option><option>Administrador</option><option
-            >RRHH</option
+        <form class="header-search" action="/buscar/" role="search">
+          <span class="header-search-icon" aria-hidden="true">⌕</span>
+          <label class="sr-only" for="header-search-input"
+            >Buscar en el manual</label
           >
-        </select>
+          <input
+            id="header-search-input"
+            name="q"
+            type="search"
+            autocomplete="off"
+            placeholder="Buscar…"
+          />
+        </form>
+        {
+          showProfilePicker && (
+            <select
+              class="profile-picker"
+              id="profile-picker"
+              aria-label="Seleccionar mi perfil"
+            >
+              <option value="general">Rol usuario</option>
+              <option>Trabajador</option>
+              <option>Administrador</option>
+              <option>RRHH</option>
+            </select>
+          )
+        }
         <button
           class="theme-toggle"
           id="theme-toggle"
@@ -133,19 +159,24 @@ const preventIndexing = Boolean(
         </button>
       </nav>
     </header>
-    <slot />
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <img
-          src="/brand/aturnos-logo.svg"
-          width="126"
-          height="32"
-          alt="aTurnos"
-        /><span
-          >Centro de ayuda · Contenido público sujeto a revisión editorial.</span
-        ><a href="https://aturnos.com/" rel="external">Ir a aTurnos.com</a>
+    <div class="app-shell">
+      <SiteNav sections={siteNav} activeSection={activeSection} currentId={currentId} />
+      <div class="app-main">
+        <slot />
+        <footer class="site-footer">
+          <div class="container footer-inner">
+            <img
+              src="/brand/aturnos-logo.svg"
+              width="126"
+              height="32"
+              alt="aTurnos"
+            /><span
+              >Centro de ayuda · Contenido público sujeto a revisión editorial.</span
+            ><a href="https://aturnos.com/" rel="external">Ir a aTurnos.com</a>
+          </div>
+        </footer>
       </div>
-    </footer>
+    </div>
     <script is:inline>
       const picker = document.querySelector("#profile-picker");
       const profileLoader = document.querySelector("#profile-loader");
@@ -200,9 +231,47 @@ const preventIndexing = Boolean(
             .forEach((message) => {
               message.hidden = visibleCards.length !== 0;
             });
+
+          // Sidebar de módulo (guide-nav): los enlaces que no aplican al rol
+          // seleccionado quedan visibles pero deshabilitados, no ocultos.
+          document
+            .querySelectorAll(".guide-nav [data-profiles]")
+            .forEach((link) => {
+              const profiles = (link.dataset.profiles || "")
+                .split("|")
+                .filter(Boolean);
+              const unavailable =
+                profile !== "general" &&
+                profiles.length > 0 &&
+                !profiles.includes(profile);
+              link.classList.toggle("is-role-unavailable", unavailable);
+              link.setAttribute("aria-disabled", String(unavailable));
+            });
+
+          // Artículo actual: si no aplica al rol seleccionado, se oculta el
+          // contenido (y el video) y se muestra el aviso en su lugar.
+          const gate = document.querySelector("[data-profile-gate]");
+          const unavailableNotice = document.querySelector(
+            "[data-profile-unavailable]",
+          );
+          if (gate && unavailableNotice) {
+            const profiles = (gate.dataset.profiles || "")
+              .split("|")
+              .filter(Boolean);
+            const unavailable =
+              profile !== "general" &&
+              profiles.length > 0 &&
+              !profiles.includes(profile);
+            gate.hidden = unavailable;
+            unavailableNotice.hidden = !unavailable;
+          }
         };
 
         applyProfileFilter(picker.value);
+        document.addEventListener("click", (event) => {
+          const link = event.target.closest(".is-role-unavailable");
+          if (link) event.preventDefault();
+        });
         picker.addEventListener("change", () => {
           profileLoader.hidden = false;
           profileLoader.dataset.busy = "profile";

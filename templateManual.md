@@ -7,25 +7,83 @@ módulo → submódulo → tema.
 No hace falta tocar ningún otro archivo del proyecto — con crear el `.md`
 en el lugar correcto, el artículo aparece solo en su módulo.
 
+## Los 4 campos que deciden cómo se ve un artículo
+
+Todos los `.md` del manual usan la misma plantilla — por eso puede parecer
+que "todo es lo mismo". La diferencia está en 4 campos del frontmatter, no
+en el archivo en sí:
+
+| Campo         | Qué controla                                                                 |
+|---------------|-------------------------------------------------------------------------------|
+| `module`      | El nombre visible del módulo (el pill/eyebrow). Debe ser **idéntico, carácter a carácter**, en todos los artículos de un mismo módulo. |
+| `submodule`   | El primer nivel del índice lateral dentro del módulo.                        |
+| `subtopic`    | (Opcional) Un segundo nivel, agrupa varios artículos bajo un mismo submódulo. |
+| `order`       | El orden dentro de su submódulo/tema. Sin esto, dos artículos del mismo grupo se ordenan por título. |
+
+**La carpeta física, en cambio, solo decide la URL** (y, salvo el caso de
+App móvil de más abajo, cuál es "su" módulo a efectos de navegación) — no
+decide el nombre del módulo ni el agrupamiento. Esto es justo lo que puede
+generar confusión: si dos artículos de la misma carpeta usan un `module:`
+distinto (por un typo, o por copiar mal la plantilla), aparecerán en dos
+sitios distintos del menú aunque estén en la misma carpeta; si uno de ellos
+tiene un `module:` que no coincide con ningún otro artículo, puede quedar
+huérfano o generar una entrada de menú duplicada/rota. Ya nos pasó dos veces
+en este proyecto (un artículo de App móvil con `module: Pruebas` en vez de
+`module: App móvil`, y varios artículos de Biostar con `module` de otros 3
+módulos distintos) — por eso conviene revisar esto al cargar contenido, no
+solo copiar y pegar.
+
+**Regla práctica al cargar un artículo nuevo:** copia el `module`/`submodule`
+exactos de otro artículo ya existente de ese módulo (no los escribas de
+memoria), y no dejes valores de plantilla sin rellenar (`title: "Nombre del
+artículo"`, `subtopic: "Elemento de pruebas"`, etc.) en un archivo que vaya
+a quedar publicado — si es una prueba, bórralo antes de hacer commit.
+
 ## Paso 1 — Elige dónde va el archivo
 
-La carpeta que elijas determina la URL final y el módulo al que pertenece.
-
-**Contenido normal (web):**
+Dentro de `src/content/manual/` hay 5 carpetas principales, una por cada
+acceso del menú de arriba del sitio:
 
 ```
-src/content/manual/<carpeta-del-modulo>/<archivo>.md
+src/content/manual/
+├── empezar-en-aturnos/        → pill "Cómo empezar en aTurnos"
+├── manual/                    → pill "Documentación" (los módulos "normales")
+│   └── <carpeta-del-módulo>/
+├── app-movil/                 → pill "App móvil"
+├── gestion-de-proyectos/      → pill "Gestión de proyectos"
+├── integraciones-y-hardware/  → agrupa integraciones (hoy: Biostar)
+│   └── <carpeta-del-módulo>/
+└── glosario/                  → pill "Glosario" (ver templateGlossary.md)
 ```
 
-Por ejemplo, un artículo de "Control horario" va en
-`src/content/manual/control-horario/mi-articulo.md`, y queda en
-`/manual/control-horario/mi-articulo/`.
+`manual/` e `integraciones-y-hardware/` son **carpetas contenedoras
+puramente organizativas**: agrupan en disco los módulos que quedan bajo esos
+accesos del menú, pero no forman parte de la URL ni de la lógica de
+navegación — el código las quita automáticamente (`routeIdOf` en
+[guideNav.ts](src/lib/guideNav.ts)). Así que un artículo de "Control
+horario" (que vive bajo el pill "Documentación") va en:
+
+```
+src/content/manual/manual/control-horario/mi-articulo.md
+```
+
+y su URL sigue siendo `/manual/control-horario/mi-articulo/` (sin el
+segmento `manual/` repetido). Lo mismo con Biostar: vive en
+`src/content/manual/integraciones-y-hardware/integracion-biostar/…` pero su
+URL sigue siendo `/manual/integracion-biostar/…`.
 
 **Contenido específico de la app móvil:** ver la sección "El caso de App"
 más abajo — es un poco distinto.
 
 El **nombre del archivo** también define la URL, así que usa minúsculas,
 sin tildes ni espacios, separado por guiones.
+
+Si necesitas crear un módulo nuevo: si va a vivir bajo "Documentación",
+créale su carpeta dentro de `manual/`; si es una integración/hardware
+nuevo, dentro de `integraciones-y-hardware/`; si es otra cosa completamente
+distinta (un nuevo acceso propio en el menú, como pasó con "Gestión de
+proyectos"), habla primero de cómo debe verse en el menú antes de crear la
+carpeta — eso sí requiere tocar código (`siteNav.ts`).
 
 ## Paso 2 — Copia esta plantilla
 
@@ -91,9 +149,12 @@ Texto de introducción del artículo.  <!-- 👉 -->
 
 ## Qué se genera solo (no lo toques a mano)
 
-- La página del módulo (`/manual/<módulo>/`) con las cards de sus submódulos.
-- La página del submódulo (`/manual/<módulo>/<submódulo>/`), con sus temas
-  (si usaste `subtopic`) y sus artículos sueltos.
+- El menú lateral persistente (visible en todo el sitio): tu artículo
+  aparece dentro de su módulo, agrupado por `submodule` y, si lo usaste,
+  por `subtopic` — en el orden real de lectura (según `order`).
+- `/manual/<módulo>/` no es una página de cards: redirige directo al primer
+  artículo del módulo (por eso no hace falta crear una "portada" a mano,
+  salvo el artículo de introducción que ya exista).
 - El breadcrumb y el índice de búsqueda.
 
 ## El caso de App
@@ -134,14 +195,54 @@ platforms:
   - app
 ```
 
-Esto hace que el artículo aparezca en `/manual/app-movil/control-horario/`
-(su propia sección dentro de App móvil) y en el bloque "App móvil" de la
-página de inicio, mientras que la versión web de "Control horario" sigue
-intacta y separada.
+Esto hace que el artículo viva en
+`/manual/app-movil/control-horario/como-fichar-en-la-app/` y aparezca en el
+menú del pill "App móvil" bajo un grupo con el nombre real del módulo web
+("Control horario"), con su `submodule` como tema dentro de ese grupo —
+mientras que la versión web de "Control horario" sigue intacta y separada
+en su propio pill/módulo.
 
-**Regla simple**: la carpeta física decide la URL; `module`/`submodule`
-deciden qué nombre se muestra y en qué grupo cae. `platforms: [app]` es lo
-que hace que Astro lo trate como contenido de la app, no de la web.
+**Regla simple**: la carpeta física decide la URL (y, en el caso de App
+móvil, si el artículo cuelga del pill "App móvil"); `module`/`submodule`
+deciden qué nombre se muestra y en qué grupo cae dentro de ese pill.
+`platforms: [app]` es lo que hace que Astro lo trate como contenido de la
+app, no de la web.
+
+**Importante:** dentro de `app-movil/`, cualquier archivo suelto en la raíz
+(caso A) o en una subcarpeta (caso B) es válido — pero no dejes archivos de
+prueba o carpetas vacías ahí; cada subcarpeta debe corresponder a un módulo
+web real que exista en `src/content/manual/`.
+
+## Carpetas actuales
+
+```
+src/content/manual/
+├── empezar-en-aturnos/
+├── manual/
+│   ├── cita-previa/
+│   ├── configuracion-y-cuenta/
+│   ├── control-horario/
+│   ├── costes-y-nominas/
+│   ├── documentos/
+│   ├── general/
+│   ├── gestion-de-personal/
+│   ├── integraciones-y-api/
+│   ├── peticiones-y-cambios/
+│   ├── planificacion/
+│   ├── pruebas/
+│   ├── recursos-y-partes/
+│   └── tareas/
+├── app-movil/                (ver "El caso de App" — puede tener subcarpetas)
+├── gestion-de-proyectos/
+├── integraciones-y-hardware/
+│   └── integracion-biostar/
+└── glosario/                 (ver templateGlossary.md — formato distinto)
+```
+
+Si vas a cargar contenido de un módulo de "Documentación" que no está en
+esta lista, créale su carpeta dentro de `manual/` — nunca suelta al mismo
+nivel que `manual/` ni dentro de otra carpeta de módulo existente (la única
+excepción real es `app-movil/`, por el caso B explicado arriba).
 
 ## Paso 3 — Guarda y comprueba
 

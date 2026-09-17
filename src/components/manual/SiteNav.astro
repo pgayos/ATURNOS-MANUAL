@@ -1,0 +1,223 @@
+---
+// Menú persistente de todo el sitio: arriba las categorías (los mismos
+// accesos de la home), debajo el árbol de la categoría seleccionada. Vive en
+// BaseLayout, así que aparece en cualquier página, no solo en los artículos.
+import GuideNavTree from "./GuideNavTree.astro";
+import { guideNavContains, type GuideNav } from "../../lib/guideNav";
+import type { SiteNavSection, SiteNavSectionId } from "../../lib/siteNav";
+
+interface Props {
+  sections: SiteNavSection[];
+  activeSection: SiteNavSectionId | null;
+  currentId?: string;
+}
+
+const { sections, activeSection, currentId } = Astro.props;
+
+const chevronSvg =
+  '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+// Flecha de "enlace externo" (sale del sitio, no cambia el árbol de abajo).
+const externalLinkSvg =
+  '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.5 4h5.5v5.5M12 4 4 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+---
+
+<nav class="site-nav" data-site-nav aria-label="Navegación del manual">
+  <div class="site-nav-pills" role="tablist" aria-label="Secciones del manual">
+    {
+      sections.map((section) => {
+        if (section.kind === "disabled") {
+          return (
+            <span class="site-nav-pill is-disabled" aria-disabled="true">
+              <span class="site-nav-pill-icon" aria-hidden="true">
+                {section.icon}
+              </span>
+              {section.label}
+              <span class="site-nav-pill-soon">Próximamente</span>
+            </span>
+          );
+        }
+        if (section.kind === "external") {
+          return (
+            <a class="site-nav-pill" href={section.href} target="_blank" rel="external">
+              <span class="site-nav-pill-icon" aria-hidden="true">
+                {section.icon}
+              </span>
+              {section.label}
+              <span
+                class="site-nav-pill-external"
+                aria-hidden="true"
+                set:html={externalLinkSvg}
+              />
+            </a>
+          );
+        }
+        const isActive = section.id === activeSection;
+        // Glosario navega directo a su página (buscador + filtros): toda la
+        // fila es un único <a>, sin un botón aparte al lado — el panel A-Z
+        // sigue apareciendo igual una vez ahí, vía el mismo <BaseLayout>.
+        // Los demás pills solo cambian de panel (interceptados más abajo).
+        if (section.kind === "glossary") {
+          return (
+            <a
+              class:list={["site-nav-pill", { "is-active": isActive }]}
+              href={section.href}
+              aria-current={isActive ? "page" : undefined}
+            >
+              <span class="site-nav-pill-icon" aria-hidden="true">
+                {section.icon}
+              </span>
+              {section.label}
+              <span class="site-nav-pill-arrow" aria-hidden="true" set:html={chevronSvg} />
+            </a>
+          );
+        }
+        return (
+          <a
+            class:list={["site-nav-pill", { "is-active": isActive }]}
+            href={section.href}
+            data-section={section.id}
+            role="tab"
+            aria-selected={isActive ? "true" : "false"}
+          >
+            <span class="site-nav-pill-icon" aria-hidden="true">
+              {section.icon}
+            </span>
+            {section.label}
+          </a>
+        );
+      })
+    }
+  </div>
+
+  <div class="site-nav-panels">
+    {
+      sections.map((section) => {
+        if (section.kind === "disabled" || section.kind === "external") return null;
+        const isActive = section.id === activeSection;
+        return (
+          <div class="site-nav-panel" data-panel={section.id} hidden={!isActive}>
+            {section.kind === "guide" && (
+              <GuideNavTree
+                groups={section.nav.groups}
+                currentId={currentId}
+                openFirstIfNoMatch={isActive}
+              />
+            )}
+            {section.kind === "directory" && (
+              <ul class="guide-nav-list">
+                {section.modules.map((moduleNav: GuideNav) => {
+                  const open = guideNavContains(moduleNav, currentId);
+                  return (
+                    <li class:list={["guide-nav-node", { open }]} data-node>
+                      <a
+                        class:list={[
+                          "guide-nav-head-link",
+                          { active: moduleNav.firstArticleId === currentId },
+                        ]}
+                        href={`/manual/${moduleNav.firstArticleId}/`}
+                      >
+                        <span class="guide-nav-head-text">{moduleNav.moduleName}</span>
+                        <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+                      </a>
+                      <GuideNavTree
+                        groups={moduleNav.groups}
+                        currentId={currentId}
+                        wrapperClass="guide-nav-sublist"
+                      />
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+            {section.kind === "glossary" && (
+              <ul class="guide-nav-sublist site-nav-glossary-list">
+                {section.terms.map((term) => (
+                  <li>
+                    <a
+                      class:list={["guide-nav-link", { active: term.id === currentId }]}
+                      href={term.href}
+                      aria-current={term.id === currentId ? "page" : undefined}
+                    >
+                      {term.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        );
+      })
+    }
+  </div>
+</nav>
+
+<script>
+  const nav = document.querySelector<HTMLElement>("[data-site-nav]");
+  if (nav) {
+    // --- Selector de categoría (pills): cambia qué panel se ve, sin recargar
+    // la página (todos los árboles ya están en el DOM). ---
+    const pillsRow = nav.querySelector<HTMLElement>(".site-nav-pills");
+    const pills = Array.from(nav.querySelectorAll<HTMLAnchorElement>("[data-section]"));
+    const panels = Array.from(nav.querySelectorAll<HTMLElement>("[data-panel]"));
+    pillsRow?.addEventListener("click", (event) => {
+      const pill = (event.target as HTMLElement).closest<HTMLAnchorElement>("[data-section]");
+      if (!pill) return;
+      event.preventDefault();
+      const id = pill.dataset.section;
+      panels.forEach((panel) => {
+        panel.hidden = panel.dataset.panel !== id;
+      });
+      pills.forEach((p) => {
+        const active = p === pill;
+        p.classList.toggle("is-active", active);
+        p.setAttribute("aria-selected", String(active));
+      });
+    });
+
+    // --- Acordeón de cada árbol: al abrir una sección se cierran las demás
+    // dentro del mismo panel (a cualquier nivel), manteniendo abiertos los
+    // antecesores de la que se acaba de abrir. ---
+    const setOpen = (node: HTMLElement, open: boolean) => {
+      node.classList.toggle("open", open);
+      // Solo el header sin portada es un <button> con aria-expanded propio;
+      // el header con portada es un <a> (navega, no despliega) y no lo lleva.
+      node
+        .querySelector<HTMLElement>(":scope > button.guide-nav-head-link")
+        ?.setAttribute("aria-expanded", String(open));
+    };
+    const ancestors = (node: HTMLElement) => {
+      const chain: HTMLElement[] = [];
+      let parent = node.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
+      while (parent) {
+        chain.push(parent);
+        parent = parent.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
+      }
+      return chain;
+    };
+
+    nav.addEventListener("click", (event) => {
+      const target = event.target as HTMLElement;
+      // La fila entera (palabra + ícono) es un solo elemento: un <button>
+      // cuando no hay portada (despliega/colapsa) o un <a> cuando sí la hay
+      // (navega, sin interceptar — el ícono ahí es solo decorativo).
+      const trigger = target.closest<HTMLElement>("button.guide-nav-head-link");
+      if (!trigger || !nav.contains(trigger)) return;
+      const node = trigger.closest<HTMLElement>("[data-node]");
+      if (!node) return;
+      // El acordeón se limita al panel de la categoría activa; los demás
+      // paneles están ocultos y su estado no importa hasta que se muestren.
+      const scope = trigger.closest<HTMLElement>("[data-panel]") ?? nav;
+      const nodes = Array.from(scope.querySelectorAll<HTMLElement>("[data-node]"));
+
+      const willOpen = !node.classList.contains("open");
+      if (willOpen) {
+        const keep = new Set<HTMLElement>([node, ...ancestors(node)]);
+        nodes.forEach((other) => {
+          if (!keep.has(other)) setOpen(other, false);
+        });
+        ancestors(node).forEach((a) => setOpen(a, true));
+      }
+      setOpen(node, willOpen);
+    });
+  }
+</script>

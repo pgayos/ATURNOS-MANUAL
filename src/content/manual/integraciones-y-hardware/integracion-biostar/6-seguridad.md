@@ -1,11 +1,11 @@
 ---
 schemaVersion: "1.0"
-contentId: configuracion-y-cuenta-5-seguridad
+contentId: integracion-biostar-6-seguridad
 title: Seguridad
-description: La fuente pública de Seguridad contiene muy poca información textual.
+description: Aspectos de seguridad a tener en cuenta en la gestión de los dispositivos y usuarios de Biostar (contenido pendiente de ampliar por el equipo de Producto).
 contentType: concept
-module: Configuración y cuenta
-submodule: General
+module: Integración con Biostar
+submodule: Manual de dispositivos Biostar
 subtopic: ""
 intent: Seguridad
 audience:
@@ -30,7 +30,7 @@ governance:
     - https://manual.aturnos.com/knowledgebase/5-seguridad/
 ai:
   answerableQuestions:
-    - ¿Qué debo saber sobre seguridad?
+    - ¿Qué debo saber sobre seguridad en Biostar?
   excludedQuestions: []
   sensitivity: public
   chunking: by-section
@@ -46,11 +46,11 @@ migration:
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
-order: 1
+order: 6
 ---
 ## Resumen
 
-Información sobre seguridad, con instrucciones y contexto revisables por el equipo de aTurnos.
+Información sobre seguridad en la gestión de dispositivos y usuarios de Biostar.
 
 ## Revisión requerida
 
