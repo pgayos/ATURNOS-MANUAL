@@ -5,6 +5,7 @@
 import GuideNavTree from "./GuideNavTree.astro";
 import { guideNavContains, type GuideNav } from "../../lib/guideNav";
 import type { SiteNavSection, SiteNavSectionId } from "../../lib/siteNav";
+import SoporteCard from "../SoporteCard.astro";
 
 interface Props {
   sections: SiteNavSection[];
@@ -174,18 +175,7 @@ const externalLinkSvg =
       })}
     </div>
   </div>
-  <div class="mini-card contact-support-pill">
-    <h4>¿Necesitas ayuda?</h4>
-    <p>Contacta con el equipo de Soporte de aTurnos.</p>
-    <a target="_blank" href="https://www.aturnos.com">
-      <span class="card-cta">
-        Contacta con Soporte
-        <span class="card-cta-arrow" aria-hidden="true">
-          →
-        </span>
-      </span>
-    </a>
-  </div>
+  <SoporteCard />
 </nav>
 
 <script>

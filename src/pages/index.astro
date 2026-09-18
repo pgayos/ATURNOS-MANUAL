@@ -72,21 +72,25 @@ const modules = [
     description:
       "Conexión con terminales biométricos Biostar, tótems de entrada y fichaje por tablet con Wall App.",
     icon: "⇄",
-    badge: "Hardware & Wall",
+    badge: "Integración y Hardware",
     cta: "Configuración y agentes",
     href: "/manual/integracion-biostar/",
   },
-  {
-    name: "Glosario & API REST",
-    description:
-      "Definición formal de términos laborales, conceptos salariales y documentación técnica para desarrolladores.",
-    icon: "◇",
-    badge: "Técnico & RRHH",
-    links: [
-      { label: "Glosario", href: "/manual/glosario/" },
-      { label: "Swagger API", href: "https://api.aturnos.com/", external: true },
-    ],
-  },
+  // {
+  //   name: "Glosario & API REST",
+  //   description:
+  //     "Definición formal de términos laborales, conceptos salariales y documentación técnica para desarrolladores.",
+  //   icon: "◇",
+  //   badge: "Técnico & RRHH",
+  //   links: [
+  //     { label: "Glosario", href: "/manual/glosario/" },
+  //     {
+  //       label: "Swagger API",
+  //       href: "https://api.aturnos.com/",
+  //       external: true,
+  //     },
+  //   ],
+  // },
 ];
 ---
 
@@ -95,20 +99,21 @@ const modules = [
     <div class="container hero-content">
       <span class="hero-badge">
         <span class="hero-badge-dot" aria-hidden="true"></span>
-        Centro de ayuda aTurnos · Con asistente IA
+        Centro de ayuda aTurnosDocs
       </span>
       <h1>
-        Encuentra respuestas.
+        aTurnosDocs
         <br />
         <span>Trabaja con confianza.</span>
       </h1>
       <p class="lead">
-        Guías oficiales paso a paso, manuales interactivos y asistencia
-        técnica para optimizar cuadrantes, fichajes y normativas de tu
-        empresa.
+        Guías oficiales paso a paso, manuales interactivos y asistencia técnica
+        para optimizar cuadrantes, fichajes y normativas de tu empresa.
       </p>
       <form class="hero-search" action="/buscar/">
-        <span class="hero-search-icon" aria-hidden="true">⌕</span>
+        <span class="hero-search-icon" aria-hidden="true">
+          ⌕
+        </span>
         <input
           name="q"
           aria-label="Buscar en el manual"
@@ -121,14 +126,12 @@ const modules = [
       </form>
       <div class="hero-tags">
         <span class="hero-tags-label">Populares:</span>
-        {
-          popularTags.map((tag) => (
-            <a class="hero-tag" href={tag.href}>
-              <span aria-hidden="true">{tag.icon}</span>
-              {tag.label}
-            </a>
-          ))
-        }
+        {popularTags.map((tag) => (
+          <a class="hero-tag" href={tag.href}>
+            <span aria-hidden="true">{tag.icon}</span>
+            {tag.label}
+          </a>
+        ))}
       </div>
     </div>
   </section>
