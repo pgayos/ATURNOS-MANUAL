@@ -1,0 +1,119 @@
+---
+interface ModuleStep {
+  title: string;
+  description: string;
+}
+interface ModuleLink {
+  label: string;
+  href: string;
+  external?: boolean;
+}
+interface ModuleCard {
+  name: string;
+  description: string;
+  icon: string;
+  badge: string;
+  recommended?: boolean;
+  featured?: boolean;
+  readingTime?: string;
+  steps?: ModuleStep[];
+  cta?: string;
+  href?: string;
+  links?: ModuleLink[];
+}
+interface Props {
+  eyebrow: string;
+  title: string;
+  syncLabel?: string;
+  modules: ModuleCard[];
+}
+const { eyebrow, title, syncLabel, modules } = Astro.props;
+---
+
+<section class="section container">
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow">{eyebrow}</span>
+      <h2>{title}</h2>
+    </div>
+    {
+      syncLabel && (
+        <span class="sync-indicator">
+          <span class="sync-dot" aria-hidden="true" />
+          {syncLabel}
+        </span>
+      )
+    }
+  </div>
+  <div class="module-grid">
+    {
+      modules.map((module) => {
+        // La tarjeta de Glosario/API tiene dos destinos propios (no uno solo
+        // para toda la tarjeta), así que ese wrapper es un <div>, no un <a>
+        // — evita anidar enlaces dentro de otro enlace.
+        const Wrapper = module.links ? "div" : "a";
+        return (
+        <Wrapper
+          class:list={["card", { "module-card-featured": module.featured }]}
+          href={module.href}
+        >
+          <div class="card-top">
+            <span class="card-icon">{module.icon}</span>
+            <span class="card-badge">{module.badge}</span>
+          </div>
+          <h3>
+            {module.name}
+            {module.recommended && (
+              <span class="card-recommended">Recomendado</span>
+            )}
+          </h3>
+          <p>{module.description}</p>
+          {module.steps && (
+            <div class="module-steps">
+              {module.steps.map((step, index) => (
+                <div class="module-step">
+                  <span class="module-step-number">{index + 1}</span>
+                  <strong>{step.title}</strong>
+                  <span>{step.description}</span>
+                </div>
+              ))}
+            </div>
+          )}
+          <div class="module-card-footer">
+            {module.readingTime && (
+              <span class="module-reading-time">{module.readingTime}</span>
+            )}
+            {module.links ? (
+              <span class="module-links">
+                {module.links.map((link) => (
+                  <a
+                    class="module-link"
+                    href={link.href}
+                    rel={link.external ? "external" : undefined}
+                  >
+                    {link.label}
+                    {link.external && (
+                      <span aria-hidden="true" class="module-link-external">
+                        ↗
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </span>
+            ) : (
+              module.cta && (
+                <span class="card-cta">
+                  {module.cta}
+                  <span class="card-cta-arrow" aria-hidden="true">
+                    →
+                  </span>
+                </span>
+              )
+            )}
+          </div>
+        </Wrapper>
+        );
+      })
+    }
+  </div>
+</section>

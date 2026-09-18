@@ -1,68 +1,91 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import QuickLinks from "../components/home/QuickLinks.astro";
+import ModuleShowcase from "../components/home/ModuleShowcase.astro";
+import AturnosBanner from "../components/home/AturnosBanner.astro";
+import StatusBar from "../components/home/StatusBar.astro";
 
-const quickLinks = [
+const popularTags = [
+  { icon: "◴", label: "Control Horario", href: "/manual/control-horario/" },
+  { icon: "▦", label: "Cuadrante", href: "/buscar/?q=cuadrante" },
+  { icon: "☼", label: "Vacaciones", href: "/buscar/?q=vacaciones" },
+  { icon: "€", label: "Nóminas", href: "/manual/costes-y-nominas/" },
+  { icon: "▣", label: "App Móvil", href: "/manual/app-movil/" },
+  { icon: "⇄", label: "Biostar", href: "/manual/integracion-biostar/" },
+];
+
+const modules = [
   {
     name: "Cómo empezar en aTurnos",
     description:
-      "Guía de implantación: primeros pasos para configurar el equipo y empezar a planificar.",
+      "Guía completa de adopción: primeros pasos para configurar el equipo y empezar a planificar.",
     icon: "◉",
     badge: "Guía inicial",
-    cta: "Ver guía inicial",
+    recommended: true,
+    featured: true,
+    readingTime: "Lectura estimada: 10 minutos",
+    steps: [
+      {
+        title: "Crear equipo",
+        description: "Carga de trabajadores y convenios",
+      },
+      {
+        title: "Planificar cuadrante",
+        description: "Patrones, rotaciones y turnos",
+      },
+      {
+        title: "Fichar y auditar",
+        description: "Control horario y absentismos",
+      },
+    ],
+    cta: "Comenzar ahora el onboarding",
     href: "/manual/empezar-en-aturnos/",
   },
   {
-    name: "Documentación",
+    name: "Documentación completa",
     description:
-      "Explora todos los módulos del manual de aTurnos, organizados por área.",
+      "Catálogo íntegro con todos los módulos: patrones, absentismos, estadísticas, horas y exportaciones.",
     icon: "▤",
-    badge: "10+ módulos",
-    cta: "Explorar manual íntegro",
+    badge: "700+ artículos",
+    cta: "Explorar catálogo",
     href: "/manual/",
   },
   {
     name: "App móvil",
-    description: "Uso de aTurnos desde dispositivos móviles y fichaje.",
+    description:
+      "Fichaje con geolocalización, petición de cambios de turno entre compañeros y consulta de saldo de horas.",
     icon: "▣",
     badge: "iOS & Android",
-    cta: "Descarga y manual app",
+    cta: "Manual app móvil",
     href: "/manual/app-movil/",
   },
   {
-    name: "Gestión de proyectos",
+    name: "Gestión de proyectos & implantación",
     description:
-      "Conoce cómo nuestros consultores trabajan en adaptar aTurnos para ti.",
+      "Metodología de puesta en marcha, análisis previo, pilotos y acompañamiento con un consultor dedicado.",
     icon: "▦",
     badge: "Consultoría",
     cta: "Fases de implantación",
     href: "/manual/gestion-de-proyectos/",
   },
   {
-    name: "Integración con Biostar",
+    name: "Control horario & Biostar",
     description:
-      "Conecta aTurnos con tu sistema de control de accesos Biostar.",
+      "Conexión con terminales biométricos Biostar, tótems de entrada y fichaje por tablet con Wall App.",
     icon: "⇄",
-    badge: "Hardware",
-    cta: "Configurar terminales",
+    badge: "Hardware & Wall",
+    cta: "Configuración y agentes",
     href: "/manual/integracion-biostar/",
   },
   {
-    name: "Glosario",
-    description: "Consulta el significado de los términos usados en aTurnos.",
+    name: "Glosario & API REST",
+    description:
+      "Definición formal de términos laborales, conceptos salariales y documentación técnica para desarrolladores.",
     icon: "◇",
-    badge: "A-Z Glosario",
-    cta: "Ver definiciones",
-    href: "/manual/glosario/",
-  },
-  {
-    name: "ApiRest",
-    description: "Documentación técnica de la API REST de aTurnos.",
-    icon: "⌘",
-    badge: "Desarrolladores",
-    cta: "Ver documentación de la API",
-    href: "https://api.aturnos.com/",
-    external: true,
+    badge: "Técnico & RRHH",
+    links: [
+      { label: "Glosario", href: "/manual/glosario/" },
+      { label: "Swagger API", href: "https://api.aturnos.com/", external: true },
+    ],
   },
 ];
 ---
@@ -70,29 +93,51 @@ const quickLinks = [
 <BaseLayout>
   <section class="hero">
     <div class="container hero-content">
-      <span class="eyebrow">Centro de ayuda aTurnos</span>
+      <span class="hero-badge">
+        <span class="hero-badge-dot" aria-hidden="true"></span>
+        Centro de ayuda aTurnos · Con asistente IA
+      </span>
       <h1>
         Encuentra respuestas.
         <br />
         <span>Trabaja con confianza.</span>
       </h1>
       <p class="lead">
-        Guías verificadas, organizadas por módulos y preparadas para ayudarte
-        también mediante IA.
+        Guías oficiales paso a paso, manuales interactivos y asistencia
+        técnica para optimizar cuadrantes, fichajes y normativas de tu
+        empresa.
       </p>
       <form class="hero-search" action="/buscar/">
+        <span class="hero-search-icon" aria-hidden="true">⌕</span>
         <input
           name="q"
           aria-label="Buscar en el manual"
-          placeholder="¿Qué necesitas hacer en aTurnos?"
+          placeholder="¿Qué necesitas resolver? (ej. cuadrante, fichaje biométrico, vacaciones…)"
         />
-        <button class="button">Buscar</button>
+        <button class="button">
+          Buscar
+          <span aria-hidden="true">→</span>
+        </button>
       </form>
+      <div class="hero-tags">
+        <span class="hero-tags-label">Populares:</span>
+        {
+          popularTags.map((tag) => (
+            <a class="hero-tag" href={tag.href}>
+              <span aria-hidden="true">{tag.icon}</span>
+              {tag.label}
+            </a>
+          ))
+        }
+      </div>
     </div>
   </section>
-  <QuickLinks
-    eyebrow="Explora el producto"
-    title="Accesos directos"
-    links={quickLinks}
+  <ModuleShowcase
+    eyebrow="▦ Módulos principales"
+    title="Explora la documentación por sección"
+    syncLabel="Índice sincronizado"
+    modules={modules}
   />
+  <AturnosBanner />
+  <StatusBar />
 </BaseLayout>
