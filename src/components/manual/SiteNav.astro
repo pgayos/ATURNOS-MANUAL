@@ -22,9 +22,13 @@ const externalLinkSvg =
 ---
 
 <nav class="site-nav" data-site-nav aria-label="Navegación del manual">
-  <div class="site-nav-pills" role="tablist" aria-label="Secciones del manual">
-    {
-      sections.map((section) => {
+  <div class="site-nav-scroll">
+    <div
+      class="site-nav-pills"
+      role="tablist"
+      aria-label="Secciones del manual"
+    >
+      {sections.map((section) => {
         if (section.kind === "disabled") {
           return (
             <span class="site-nav-pill is-disabled" aria-disabled="true">
@@ -38,7 +42,12 @@ const externalLinkSvg =
         }
         if (section.kind === "external") {
           return (
-            <a class="site-nav-pill" href={section.href} target="_blank" rel="external">
+            <a
+              class="site-nav-pill"
+              href={section.href}
+              target="_blank"
+              rel="external"
+            >
               <span class="site-nav-pill-icon" aria-hidden="true">
                 {section.icon}
               </span>
@@ -67,7 +76,11 @@ const externalLinkSvg =
                 {section.icon}
               </span>
               {section.label}
-              <span class="site-nav-pill-arrow" aria-hidden="true" set:html={chevronSvg} />
+              <span
+                class="site-nav-pill-arrow"
+                aria-hidden="true"
+                set:html={chevronSvg}
+              />
             </a>
           );
         }
@@ -85,17 +98,20 @@ const externalLinkSvg =
             {section.label}
           </a>
         );
-      })
-    }
-  </div>
+      })}
+    </div>
 
-  <div class="site-nav-panels">
-    {
-      sections.map((section) => {
-        if (section.kind === "disabled" || section.kind === "external") return null;
+    <div class="site-nav-panels">
+      {sections.map((section) => {
+        if (section.kind === "disabled" || section.kind === "external")
+          return null;
         const isActive = section.id === activeSection;
         return (
-          <div class="site-nav-panel" data-panel={section.id} hidden={!isActive}>
+          <div
+            class="site-nav-panel"
+            data-panel={section.id}
+            hidden={!isActive}
+          >
             {section.kind === "guide" && (
               <GuideNavTree
                 groups={section.nav.groups}
@@ -116,8 +132,14 @@ const externalLinkSvg =
                         ]}
                         href={`/manual/${moduleNav.firstArticleId}/`}
                       >
-                        <span class="guide-nav-head-text">{moduleNav.moduleName}</span>
-                        <span class="guide-nav-toggle-icon" aria-hidden="true" set:html={chevronSvg} />
+                        <span class="guide-nav-head-text">
+                          {moduleNav.moduleName}
+                        </span>
+                        <span
+                          class="guide-nav-toggle-icon"
+                          aria-hidden="true"
+                          set:html={chevronSvg}
+                        />
                       </a>
                       <GuideNavTree
                         groups={moduleNav.groups}
@@ -134,7 +156,10 @@ const externalLinkSvg =
                 {section.terms.map((term) => (
                   <li>
                     <a
-                      class:list={["guide-nav-link", { active: term.id === currentId }]}
+                      class:list={[
+                        "guide-nav-link",
+                        { active: term.id === currentId },
+                      ]}
                       href={term.href}
                       aria-current={term.id === currentId ? "page" : undefined}
                     >
@@ -146,8 +171,20 @@ const externalLinkSvg =
             )}
           </div>
         );
-      })
-    }
+      })}
+    </div>
+  </div>
+  <div class="mini-card contact-support-pill">
+    <h4>¿Necesitas ayuda?</h4>
+    <p>Contacta con el equipo de Soporte de aTurnos.</p>
+    <a target="_blank" href="https://www.aturnos.com">
+      <span class="card-cta">
+        Contacta con Soporte
+        <span class="card-cta-arrow" aria-hidden="true">
+          →
+        </span>
+      </span>
+    </a>
   </div>
 </nav>
 
@@ -157,10 +194,16 @@ const externalLinkSvg =
     // --- Selector de categoría (pills): cambia qué panel se ve, sin recargar
     // la página (todos los árboles ya están en el DOM). ---
     const pillsRow = nav.querySelector<HTMLElement>(".site-nav-pills");
-    const pills = Array.from(nav.querySelectorAll<HTMLAnchorElement>("[data-section]"));
-    const panels = Array.from(nav.querySelectorAll<HTMLElement>("[data-panel]"));
+    const pills = Array.from(
+      nav.querySelectorAll<HTMLAnchorElement>("[data-section]"),
+    );
+    const panels = Array.from(
+      nav.querySelectorAll<HTMLElement>("[data-panel]"),
+    );
     pillsRow?.addEventListener("click", (event) => {
-      const pill = (event.target as HTMLElement).closest<HTMLAnchorElement>("[data-section]");
+      const pill = (event.target as HTMLElement).closest<HTMLAnchorElement>(
+        "[data-section]",
+      );
       if (!pill) return;
       event.preventDefault();
       const id = pill.dataset.section;
@@ -187,10 +230,12 @@ const externalLinkSvg =
     };
     const ancestors = (node: HTMLElement) => {
       const chain: HTMLElement[] = [];
-      let parent = node.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
+      let parent =
+        node.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
       while (parent) {
         chain.push(parent);
-        parent = parent.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
+        parent =
+          parent.parentElement?.closest<HTMLElement>("[data-node]") ?? null;
       }
       return chain;
     };
@@ -207,7 +252,9 @@ const externalLinkSvg =
       // El acordeón se limita al panel de la categoría activa; los demás
       // paneles están ocultos y su estado no importa hasta que se muestren.
       const scope = trigger.closest<HTMLElement>("[data-panel]") ?? nav;
-      const nodes = Array.from(scope.querySelectorAll<HTMLElement>("[data-node]"));
+      const nodes = Array.from(
+        scope.querySelectorAll<HTMLElement>("[data-node]"),
+      );
 
       const willOpen = !node.classList.contains("open");
       if (willOpen) {
