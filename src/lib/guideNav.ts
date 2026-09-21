@@ -33,6 +33,7 @@ export const GUIDE_MODULES: Record<string, GuideModuleConfig> = {
       'Vacaciones y permisos (absentismos)',
       'El Cuadrante',
       'Control horario',
+      'Guías por rol',
     ],
     flattenSubmodules: ['Comienza en aTurnos'],
   },
