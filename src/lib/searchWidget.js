@@ -57,7 +57,7 @@ const MAX_SUGGESTIONS = 6;
 const MIN_DROPDOWN_WIDTH = 320;
 
 /**
- * @param {{ form: HTMLFormElement, input: HTMLInputElement, suggestions: HTMLElement, backdrop?: HTMLElement | null }} config
+ * @param {{ form: HTMLFormElement | null, input: HTMLInputElement | null, suggestions: HTMLElement | null, backdrop?: HTMLElement | null }} config
  */
 export function initSearchWidget({ form, input, suggestions, backdrop }) {
   if (!form || !input || !suggestions) return;
