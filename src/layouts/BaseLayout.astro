@@ -16,7 +16,7 @@ interface Props {
 const {
   title = "Centro de ayuda de aTurnos",
   description = "Aprende a utilizar aTurnos con guías claras y respuestas verificadas.",
-  showProfilePicker = false,
+  showProfilePicker = true,
   currentId,
 } = Astro.props;
 const deploymentBranch = import.meta.env.PUBLIC_DEPLOYMENT_BRANCH;
@@ -69,9 +69,9 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
       hidden
     >
       <div class="profile-loader-card">
-        <span class="profile-loader-mark" aria-hidden="true"
-          ><img src="/brand/aturnos-logo.svg" alt="" /></span
-        >
+        <span class="profile-loader-mark" aria-hidden="true">
+          <img src="/brand/aturnos-logo.svg" alt="" />
+        </span>
         <strong>Adaptando el manual a tu perfil</strong>
         <span>Estamos filtrando los artículos más relevantes.</span>
       </div>
@@ -89,10 +89,12 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
           <span>Centro de ayuda</span>
         </a>
         <form class="header-search" action="/buscar/" role="search">
-          <span class="header-search-icon" aria-hidden="true">⌕</span>
-          <label class="sr-only" for="header-search-input"
-            >Buscar en el manual</label
-          >
+          <span class="header-search-icon" aria-hidden="true">
+            ⌕
+          </span>
+          <label class="sr-only" for="header-search-input">
+            Buscar en el manual
+          </label>
           <input
             id="header-search-input"
             name="q"
@@ -101,21 +103,23 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
             placeholder="Buscar…"
           />
         </form>
-        {
-          showProfilePicker && (
-            <select
-              class="profile-picker"
-              id="profile-picker"
-              aria-label="Seleccionar mi perfil"
-            >
-              <option value="general">Rol usuario</option>
-              <option>Trabajador</option>
-              <option>Administrador</option>
-              <option>RRHH</option>
-            </select>
-          )
-        }
-        <a class="header-site-link" href="https://www.aturnos.com" rel="external">
+        {showProfilePicker && (
+          <select
+            class="profile-picker"
+            id="profile-picker"
+            aria-label="Seleccionar mi perfil"
+          >
+            <option value="general">Rol usuario</option>
+            <option>Trabajador</option>
+            <option>Administrador</option>
+            <option>RRHH</option>
+          </select>
+        )}
+        <a
+          class="header-site-link"
+          href="https://www.aturnos.com"
+          rel="external"
+        >
           <span aria-hidden="true">⌂</span>
           aTurnos.com
         </a>
@@ -137,7 +141,8 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
               fill="none"
               stroke="currentColor"
               stroke-width="1.6"
-              stroke-linejoin="round"></path>
+              stroke-linejoin="round"
+            ></path>
           </svg>
           <svg
             class="theme-toggle-icon theme-toggle-sun"
@@ -152,19 +157,25 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
               r="3.6"
               fill="none"
               stroke="currentColor"
-              stroke-width="1.6"></circle>
+              stroke-width="1.6"
+            ></circle>
             <path
               d="M12 2.5v2.6M12 18.9v2.6M4.4 4.4l1.9 1.9M17.7 17.7l1.9 1.9M2.5 12h2.6M18.9 12h2.6M4.4 19.6l1.9-1.9M17.7 6.3l1.9-1.9"
               fill="none"
               stroke="currentColor"
               stroke-width="1.6"
-              stroke-linecap="round"></path>
+              stroke-linecap="round"
+            ></path>
           </svg>
         </button>
       </nav>
     </header>
     <div class="app-shell">
-      <SiteNav sections={siteNav} activeSection={activeSection} currentId={currentId} />
+      <SiteNav
+        sections={siteNav}
+        activeSection={activeSection}
+        currentId={currentId}
+      />
       <div class="app-main">
         <slot />
         <footer class="site-footer">
@@ -176,10 +187,12 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
               height="32"
               alt="aTurnos"
             />
-            <span
-              >Centro de ayuda · Contenido público sujeto a revisión editorial.</span
-            >
-            <a href="https://aturnos.com/" rel="external">Ir a aTurnos.com</a>
+            <span>
+              Centro de ayuda · Contenido público sujeto a revisión editorial.
+            </span>
+            <a href="https://aturnos.com/" rel="external">
+              Ir a aTurnos.com
+            </a>
           </div>
         </footer>
       </div>
@@ -187,98 +200,149 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
     <script is:inline>
       const picker = document.querySelector("#profile-picker");
       const profileLoader = document.querySelector("#profile-loader");
-      if (picker) {
-        picker.value = localStorage.getItem("manual-profile") || "general";
-        document.documentElement.dataset.profile = picker.value;
 
-        const applyProfileFilter = (profile) => {
-          document.querySelectorAll("[data-profile-card]").forEach((card) => {
-            const profiles = (card.dataset.profiles || "")
-              .split("|")
-              .filter(Boolean);
-            card.hidden = profile !== "general" && !profiles.includes(profile);
+      // Jerarquía de roles: cada rol ve lo suyo y lo de los roles inferiores.
+      // Trabajador = 1 (solo lo de trabajador), Administrador = 2 (trabajador +
+      // administrador), RRHH = 3 (todo). Cualquier otro rol de un artículo
+      // (Nóminas, Desarrollador API…) se trata como nivel RRHH.
+      const ROLE_RANK = { Trabajador: 1, Administrador: 2, RRHH: 3 };
+      const canSee = (profile, rawRoles) => {
+        if (!profile || profile === "general") return true;
+        const roles = (rawRoles || "").split("|").filter(Boolean);
+        if (roles.length === 0) return true;
+        const lowest = Math.min(...roles.map((r) => ROLE_RANK[r] ?? 3));
+        return lowest <= (ROLE_RANK[profile] ?? 3);
+      };
+
+      const applyProfileFilter = (profile) => {
+        document.querySelectorAll("[data-profile-card]").forEach((card) => {
+          card.hidden = !canSee(profile, card.dataset.profiles);
+        });
+
+        document
+          .querySelectorAll("[data-module-profile-counts]")
+          .forEach((card) => {
+            const counts = JSON.parse(card.dataset.moduleProfileCounts || "{}");
+            const count =
+              profile === "general"
+                ? Number(card.dataset.totalCount || 0)
+                : Number(counts[profile] || 0);
+            card.hidden = profile !== "general" && count === 0;
+            const label = card.querySelector("[data-module-count]");
+            if (label)
+              label.textContent = `${count} ${count === 1 ? "artículo" : "artículos"}`;
           });
 
-          document
-            .querySelectorAll("[data-module-profile-counts]")
-            .forEach((card) => {
-              const counts = JSON.parse(
-                card.dataset.moduleProfileCounts || "{}",
-              );
-              const count =
-                profile === "general"
-                  ? Number(card.dataset.totalCount || 0)
-                  : Number(counts[profile] || 0);
-              card.hidden = profile !== "general" && count === 0;
-              const label = card.querySelector("[data-module-count]");
-              if (label)
-                label.textContent = `${count} ${count === 1 ? "artículo" : "artículos"}`;
-            });
-
-          const visibleCards = [
-            ...document.querySelectorAll(
-              "[data-profile-list] [data-profile-card]:not([hidden])",
-            ),
-          ];
-          document
-            .querySelectorAll("[data-profile-visible-count]")
-            .forEach((label) => {
-              label.textContent = String(visibleCards.length);
-            });
-          const areas = new Set(
-            visibleCards.map((card) => card.dataset.submodule).filter(Boolean),
-          );
-          document
-            .querySelectorAll("[data-profile-area-count]")
-            .forEach((label) => {
-              label.textContent = String(areas.size);
-            });
-          document
-            .querySelectorAll("[data-profile-empty]")
-            .forEach((message) => {
-              message.hidden = visibleCards.length !== 0;
-            });
-
-          // Sidebar de módulo (guide-nav): los enlaces que no aplican al rol
-          // seleccionado quedan visibles pero deshabilitados, no ocultos.
-          document
-            .querySelectorAll(".guide-nav [data-profiles]")
-            .forEach((link) => {
-              const profiles = (link.dataset.profiles || "")
-                .split("|")
-                .filter(Boolean);
-              const unavailable =
-                profile !== "general" &&
-                profiles.length > 0 &&
-                !profiles.includes(profile);
-              link.classList.toggle("is-role-unavailable", unavailable);
-              link.setAttribute("aria-disabled", String(unavailable));
-            });
-
-          // Artículo actual: si no aplica al rol seleccionado, se oculta el
-          // contenido (y el video) y se muestra el aviso en su lugar.
-          const gate = document.querySelector("[data-profile-gate]");
-          const unavailableNotice = document.querySelector(
-            "[data-profile-unavailable]",
-          );
-          if (gate && unavailableNotice) {
-            const profiles = (gate.dataset.profiles || "")
-              .split("|")
-              .filter(Boolean);
-            const unavailable =
-              profile !== "general" &&
-              profiles.length > 0 &&
-              !profiles.includes(profile);
-            gate.hidden = unavailable;
-            unavailableNotice.hidden = !unavailable;
-          }
-        };
-
-        applyProfileFilter(picker.value);
-        document.addEventListener("click", (event) => {
-          const link = event.target.closest(".is-role-unavailable");
-          if (link) event.preventDefault();
+        const visibleCards = [
+          ...document.querySelectorAll(
+            "[data-profile-list] [data-profile-card]:not([hidden])",
+          ),
+        ];
+        document
+          .querySelectorAll("[data-profile-visible-count]")
+          .forEach((label) => {
+            label.textContent = String(visibleCards.length);
+          });
+        const areas = new Set(
+          visibleCards.map((card) => card.dataset.submodule).filter(Boolean),
+        );
+        document
+          .querySelectorAll("[data-profile-area-count]")
+          .forEach((label) => {
+            label.textContent = String(areas.size);
+          });
+        document.querySelectorAll("[data-profile-empty]").forEach((message) => {
+          message.hidden = visibleCards.length !== 0;
         });
+
+        // Menú lateral: lo que no puede ver el rol se OCULTA (artículos, grupos
+        // que se quedan sin nada y categorías enteras).
+        const nav = document.querySelector("[data-site-nav]");
+        if (nav) {
+          nav
+            .querySelectorAll("li[hidden]")
+            .forEach((li) => (li.hidden = false));
+          nav.querySelectorAll("a[data-profiles]").forEach((a) => {
+            const ok = canSee(profile, a.dataset.profiles);
+            if (a.classList.contains("guide-nav-link")) {
+              const li = a.closest("li");
+              if (li) li.hidden = !ok;
+            } else {
+              a.toggleAttribute("data-role-hidden", !ok);
+            }
+          });
+          // ¿El enlace está realmente visible dentro de `scope`?
+          const shown = (el, scope) => {
+            for (let e = el; e && e !== scope; e = e.parentElement)
+              if (e.hidden) return false;
+            return !el.hasAttribute("data-role-hidden");
+          };
+          [...nav.querySelectorAll("li.guide-nav-node")]
+            .reverse()
+            .forEach((node) => {
+              const leaf = [...node.querySelectorAll("a.guide-nav-link")].some(
+                (a) => shown(a, node),
+              );
+              const head = node.querySelector(
+                ":scope > a.guide-nav-head-link[data-profiles]",
+              );
+              const headOk = Boolean(
+                head &&
+                head.dataset.profiles &&
+                !head.hasAttribute("data-role-hidden"),
+              );
+              node.hidden = !(leaf || headOk);
+            });
+          const pills = [
+            ...nav.querySelectorAll("a.site-nav-pill[data-section]"),
+          ];
+          pills.forEach((pill) => {
+            const panel = nav.querySelector(
+              `[data-panel="${pill.dataset.section}"]`,
+            );
+            if (!panel || !panel.querySelector("[data-profiles]")) {
+              pill.hidden = false;
+              return;
+            }
+            const any = [
+              ...panel.querySelectorAll(
+                "a.guide-nav-link, a.guide-nav-head-link[data-profiles]",
+              ),
+            ].some((a) => shown(a, panel));
+            pill.hidden = !any;
+          });
+          // Si la categoría activa se quedó sin contenido, pasa a la primera visible.
+          const active = pills.find((p) => p.classList.contains("is-active"));
+          const first = pills.find((p) => !p.hidden);
+          if (active && active.hidden && first) {
+            pills.forEach((p) => {
+              const on = p === first;
+              p.classList.toggle("is-active", on);
+              p.setAttribute("aria-selected", String(on));
+            });
+            nav.querySelectorAll("[data-panel]").forEach((panel) => {
+              panel.hidden = panel.dataset.panel !== first.dataset.section;
+            });
+          }
+        }
+
+        // Artículo abierto: si su rol no lo ve, se oculta el contenido y se
+        // muestra el aviso.
+        const gate = document.querySelector("[data-profile-gate]");
+        const notice = document.querySelector("[data-profile-unavailable]");
+        if (gate && notice) {
+          const ok = canSee(profile, gate.dataset.profiles);
+          gate.hidden = !ok;
+          notice.hidden = ok;
+        }
+      };
+
+      const storedProfile = localStorage.getItem("manual-profile") || "general";
+      document.documentElement.dataset.profile = storedProfile;
+      if (picker) picker.value = storedProfile;
+      applyProfileFilter(storedProfile);
+
+      if (picker) {
         picker.addEventListener("change", () => {
           profileLoader.hidden = false;
           profileLoader.dataset.busy = "profile";

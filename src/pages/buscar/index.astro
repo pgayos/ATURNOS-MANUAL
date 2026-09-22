@@ -30,13 +30,19 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     let loaderSequence = 0;
 
     const selectedProfile = () => localStorage.getItem('manual-profile') || 'general';
-    const filtersForProfile = () => selectedProfile() === 'general' ? {} : { profile: selectedProfile() };
+    // Jerarquía: Trabajador ve lo de Trabajador; Administrador, Trabajador + Administrador;
+    // RRHH lo ve todo (sin filtro), igual que 'general'.
+    const VISIBLE_ROLES = { Trabajador: ['Trabajador'], Administrador: ['Trabajador', 'Administrador'] };
+    const filtersForProfile = () => {
+      const roles = VISIBLE_ROLES[selectedProfile()];
+      return roles ? { profile: { any: roles } } : {};
+    };
 
     function updateProfileLabel() {
       const profile = selectedProfile();
       profileLabel.textContent = profile === 'general'
         ? 'Buscando artículos para todos los perfiles.'
-        : `Filtrando automáticamente para el perfil: ${profile}.`;
+        : `Mostrando lo que puede ver el perfil: ${profile}.`;
     }
 
     function createResult(data) {

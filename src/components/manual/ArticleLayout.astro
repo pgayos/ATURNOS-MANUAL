@@ -75,7 +75,7 @@ const pageHeadings = headings.filter((h) => h.depth === 2);
 // El selector de rol filtra contenido real en Documentación y App Móvil
 // (cualquier módulo guía salvo "Empezar en aTurnos", que es contenido de
 // implantación igual para todos los roles).
-const showProfilePicker = isGuide && moduleSlug !== "empezar-en-aturnos";
+const showProfilePicker = true;
 const articleAudience = d.audience.map((a) => a.role).join("|");
 ---
 
@@ -212,12 +212,12 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
           Revisión anual
         </p>
       </div>
-      <div class="mini-card">
+      <!-- <div class="mini-card">
         <h3>¿Mas dudas?</h3>
-        <a target="_blank" href="https://www.aturnos.com">
+        <a class="card-cta" target="_blank" href="https://www.aturnos.com">
           Contacta con Soporte
         </a>
-      </div>
+      </div> -->
     </aside>
   </main>
 </BaseLayout>

@@ -48,12 +48,17 @@ function buildModuleCards(source: typeof allArticles) {
       const moduleArticles = source.filter(
         (a) => a.data.module === module.name,
       );
+      // Jerarquía: Trabajador ⊂ Administrador ⊂ RRHH. Un artículo cuenta para
+      // un rol si alguno de sus roles es de ese nivel o inferior.
+      const rank = { Trabajador: 1, Administrador: 2, RRHH: 3 } as const;
+      const lowest = (article: (typeof moduleArticles)[number]) =>
+        article.data.audience.length
+          ? Math.min(...article.data.audience.map((item) => rank[item.role as keyof typeof rank] ?? 3))
+          : 1;
       const profileCounts = Object.fromEntries(
-        ["Trabajador", "Administrador", "RRHH"].map((profile) => [
-          profile,
-          moduleArticles.filter((article) =>
-            article.data.audience.some((item) => item.role === profile),
-          ).length,
+        (["Trabajador", "Administrador", "RRHH"] as const).map((role) => [
+          role,
+          moduleArticles.filter((article) => lowest(article) <= rank[role]).length,
         ]),
       );
       return { ...module, count: moduleArticles.length, profileCounts };
