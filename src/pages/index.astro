@@ -110,20 +110,45 @@ const modules = [
         Guías oficiales paso a paso, manuales interactivos y asistencia técnica
         para optimizar cuadrantes, fichajes y normativas de tu empresa.
       </p>
-      <form class="hero-search" action="/buscar/">
-        <span class="hero-search-icon" aria-hidden="true">
-          ⌕
-        </span>
-        <input
-          name="q"
-          aria-label="Buscar en el manual"
-          placeholder="¿Qué necesitas resolver? (ej. cuadrante, fichaje biométrico, vacaciones…)"
-        />
-        <button class="button">
-          Buscar
-          <span aria-hidden="true">→</span>
-        </button>
-      </form>
+      <div
+        class="hero-search-backdrop"
+        id="hero-search-backdrop"
+        aria-hidden="true"
+      ></div>
+      <div class="hero-search-wrap">
+        <form
+          class="hero-search"
+          id="hero-search"
+          action="/buscar/"
+          autocomplete="off"
+        >
+          <span class="hero-search-icon" aria-hidden="true">
+            ⌕
+          </span>
+          <input
+            id="hero-search-input"
+            name="q"
+            type="search"
+            autocomplete="off"
+            aria-label="Buscar en el manual"
+            aria-expanded="false"
+            aria-controls="hero-search-suggestions"
+            role="combobox"
+            aria-autocomplete="list"
+            placeholder="¿Qué buscas? (ej. cuadrante, fichaje biométrico, vacaciones…)"
+          />
+          <button class="button">
+            Buscar
+            <span aria-hidden="true">→</span>
+          </button>
+        </form>
+        <div
+          class="hero-search-suggestions"
+          id="hero-search-suggestions"
+          role="listbox"
+          hidden
+        ></div>
+      </div>
       <div class="hero-tags">
         <span class="hero-tags-label">Populares:</span>
         {popularTags.map((tag) => (
@@ -143,4 +168,13 @@ const modules = [
   />
   <AturnosBanner />
   <StatusBar />
+  <script>
+    import { initSearchWidget } from "../lib/searchWidget.js";
+    initSearchWidget({
+      form: document.querySelector("#hero-search"),
+      input: document.querySelector("#hero-search-input"),
+      suggestions: document.querySelector("#hero-search-suggestions"),
+      backdrop: document.querySelector("#hero-search-backdrop"),
+    });
+  </script>
 </BaseLayout>

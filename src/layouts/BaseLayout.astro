@@ -88,7 +88,13 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
           <span class="logo-divider" aria-hidden="true"></span>
           <span>Centro de ayuda</span>
         </a>
-        <form class="header-search" action="/buscar/" role="search">
+        <form
+          class="header-search"
+          id="header-search"
+          action="/buscar/"
+          role="search"
+          autocomplete="off"
+        >
           <span class="header-search-icon" aria-hidden="true">
             ⌕
           </span>
@@ -100,9 +106,20 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
             name="q"
             type="search"
             autocomplete="off"
+            aria-expanded="false"
+            aria-controls="header-search-suggestions"
+            role="combobox"
+            aria-autocomplete="list"
             placeholder="Buscar…"
           />
         </form>
+        <div
+          class="hero-search-suggestions"
+          id="header-search-suggestions"
+          role="listbox"
+          hidden
+        >
+        </div>
         {showProfilePicker && (
           <select
             class="profile-picker"
@@ -170,6 +187,12 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
         </button>
       </nav>
     </header>
+    <div
+      class="header-search-backdrop"
+      id="header-search-backdrop"
+      aria-hidden="true"
+    >
+    </div>
     <div class="app-shell">
       <SiteNav
         sections={siteNav}
@@ -383,6 +406,15 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
           );
         });
       }
+    </script>
+    <script>
+      import { initSearchWidget } from "../lib/searchWidget.js";
+      initSearchWidget({
+        form: document.querySelector("#header-search"),
+        input: document.querySelector("#header-search-input"),
+        suggestions: document.querySelector("#header-search-suggestions"),
+        backdrop: document.querySelector("#header-search-backdrop"),
+      });
     </script>
   </body>
 </html>

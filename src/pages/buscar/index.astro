@@ -1,38 +1,55 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
+
 <BaseLayout title="Buscar · Manual de aTurnos">
   <main class="container search-page">
-    <span class="eyebrow">Buscador</span>
-    <h1>¿Qué necesitas hacer?</h1>
+    <!-- <span class="eyebrow">Buscador</span> -->
+    <h1>Resultados de la búsqueda</h1>
     <div class="search-panel">
       <form class="manual-search" id="manual-search" role="search">
-        <label class="sr-only" for="manual-search-input">Buscar en el manual</label>
-        <input id="manual-search-input" name="q" type="search" autocomplete="off" placeholder="Buscar en el manual…" />
-        <button class="button" type="submit">Buscar</button>
+        <label class="sr-only" for="manual-search-input">
+          Buscar en el manual
+        </label>
+        <input
+          id="manual-search-input"
+          name="q"
+          type="search"
+          autocomplete="off"
+          placeholder="Buscar en el manual…"
+        />
+        <button class="button" type="submit">
+          Buscar
+        </button>
       </form>
       <p class="profile-filter" id="profile-filter" aria-live="polite"></p>
-      <p class="search-summary" id="search-summary" aria-live="polite">Escribe una consulta para buscar en el manual.</p>
+      <p class="search-summary" id="search-summary" aria-live="polite">
+        Escribe una consulta para buscar en el manual.
+      </p>
       <div class="search-results" id="search-results"></div>
       <noscript>Activa JavaScript para utilizar el buscador.</noscript>
     </div>
   </main>
   <script is:inline type="module">
-    const form = document.querySelector('#manual-search');
-    const input = document.querySelector('#manual-search-input');
-    const summary = document.querySelector('#search-summary');
-    const results = document.querySelector('#search-results');
-    const profileLabel = document.querySelector('#profile-filter');
-    const loader = document.querySelector('#profile-loader');
+    const form = document.querySelector("#manual-search");
+    const input = document.querySelector("#manual-search-input");
+    const summary = document.querySelector("#search-summary");
+    const results = document.querySelector("#search-results");
+    const profileLabel = document.querySelector("#profile-filter");
+    const loader = document.querySelector("#profile-loader");
     const params = new URLSearchParams(window.location.search);
     let timer;
     let searchSequence = 0;
     let loaderSequence = 0;
 
-    const selectedProfile = () => localStorage.getItem('manual-profile') || 'general';
+    const selectedProfile = () =>
+      localStorage.getItem("manual-profile") || "general";
     // Jerarquía: Trabajador ve lo de Trabajador; Administrador, Trabajador + Administrador;
     // RRHH lo ve todo (sin filtro), igual que 'general'.
-    const VISIBLE_ROLES = { Trabajador: ['Trabajador'], Administrador: ['Trabajador', 'Administrador'] };
+    const VISIBLE_ROLES = {
+      Trabajador: ["Trabajador"],
+      Administrador: ["Trabajador", "Administrador"],
+    };
     const filtersForProfile = () => {
       const roles = VISIBLE_ROLES[selectedProfile()];
       return roles ? { profile: { any: roles } } : {};
@@ -40,62 +57,200 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
     function updateProfileLabel() {
       const profile = selectedProfile();
-      profileLabel.textContent = profile === 'general'
-        ? 'Buscando artículos para todos los perfiles.'
-        : `Mostrando lo que puede ver el perfil: ${profile}.`;
+      profileLabel.textContent =
+        profile === "general"
+          ? "Buscando artículos para todos los perfiles."
+          : `Mostrando lo que puede ver el perfil: ${profile}.`;
     }
 
-    function createResult(data) {
-      const article = document.createElement('article');
-      article.className = 'search-result';
-      const title = document.createElement('h2');
-      const link = document.createElement('a');
-      link.href = data.url;
-      link.textContent = data.meta?.title || data.url;
-      title.appendChild(link);
-      const excerpt = document.createElement('p');
-      excerpt.innerHTML = data.excerpt || '';
-      article.append(title, excerpt);
+    // Misma categorización que usa el dropdown de sugerencias de la home, a
+    // partir del primer segmento de la URL del artículo (/manual/<módulo>/…).
+    const CATEGORY_LABELS = {
+      "empezar-en-aturnos": "Cómo empezar",
+      "app-movil": "App móvil",
+      "integracion-biostar": "Hardware",
+      "integraciones-y-hardware": "Hardware",
+      "gestion-de-proyectos": "Implantación",
+      glosario: "Glosario",
+    };
+    const categoryFor = (url) =>
+      CATEGORY_LABELS[url.split("/").filter(Boolean)[1] || ""] ||
+      "Documentación";
+
+    // Mismo orden de prioridad que el dropdown de la home.
+    const CATEGORY_ORDER = [
+      "Cómo empezar",
+      "Documentación",
+      "App móvil",
+      "Implantación",
+      "Hardware",
+      "Glosario",
+    ];
+    const categoryRank = (category) => {
+      const rank = CATEGORY_ORDER.indexOf(category);
+      return rank === -1 ? CATEGORY_ORDER.length : rank;
+    };
+
+    function createResult({ url, title, excerptHtml }) {
+      const article = document.createElement("article");
+      article.className = "search-result";
+      const heading = document.createElement("h3");
+      const link = document.createElement("a");
+      link.href = url;
+      link.textContent = title || url;
+      heading.appendChild(link);
+      const excerpt = document.createElement("p");
+      excerpt.innerHTML = excerptHtml || "";
+      article.append(heading, excerpt);
       return article;
+    }
+
+    function renderResults(items) {
+      results.replaceChildren();
+      const groups = new Map();
+      for (const item of items) {
+        if (!groups.has(item.category)) groups.set(item.category, []);
+        groups.get(item.category).push(item);
+      }
+      const orderedGroups = [...groups.entries()].sort(
+        (a, b) => categoryRank(a[0]) - categoryRank(b[0]),
+      );
+      for (const [category, group] of orderedGroups) {
+        const heading = document.createElement("h2");
+        heading.className = "search-group-heading";
+        heading.textContent = category;
+        results.append(heading, ...group.map(createResult));
+      }
+    }
+
+    // Índice ligero generado desde las Content Collections (título,
+    // descripción, categoría, sinónimos y roles), usado como respaldo cuando
+    // Pagefind no está disponible: su índice solo se genera en `npm run
+    // build`, así que en `astro dev` la importación de /pagefind/pagefind.js
+    // siempre falla y este es el único buscador que funciona.
+    let cachedIndex;
+    const loadIndex = () => {
+      if (!cachedIndex)
+        cachedIndex = fetch("/search-index.json").then((res) => res.json());
+      return cachedIndex;
+    };
+
+    const normalize = (str) =>
+      (str || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+    const escapeHtml = (str) =>
+      str.replace(
+        /[&<>"']/g,
+        (c) =>
+          ({
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;",
+          })[c],
+      );
+
+    function highlight(text, query) {
+      const escaped = escapeHtml(text || "");
+      const pattern = query.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      return pattern
+        ? escaped.replace(new RegExp(`(${pattern})`, "ig"), "<mark>$1</mark>")
+        : escaped;
+    }
+
+    function isVisibleForProfile(item) {
+      const roles = VISIBLE_ROLES[selectedProfile()];
+      return !roles || (item.roles || []).some((role) => roles.includes(role));
+    }
+
+    async function searchIndexFallback(query) {
+      const items = await loadIndex();
+      const q = normalize(query);
+      const scored = [];
+      for (const item of items) {
+        if (!isVisibleForProfile(item)) continue;
+        const title = normalize(item.title);
+        const category = normalize(item.category);
+        const synonyms = normalize((item.synonyms || []).join(" "));
+        const description = normalize(item.description);
+        let score = 0;
+        if (title.startsWith(q)) score = 5;
+        else if (title.includes(q)) score = 4;
+        else if (category.includes(q)) score = 3;
+        else if (synonyms.includes(q)) score = 2;
+        else if (description.includes(q)) score = 1;
+        if (score) scored.push({ item, score });
+      }
+      scored.sort((a, b) => b.score - a.score);
+      return scored.map(({ item }) => ({
+        url: item.url,
+        title: item.title,
+        excerptHtml: highlight(item.description, query),
+        category: item.category,
+      }));
     }
 
     async function runSearch() {
       const query = input.value.trim();
       updateProfileLabel();
       if (!query) {
-        summary.textContent = 'Escribe una consulta para buscar en el manual.';
+        summary.textContent = "Escribe una consulta para buscar en el manual.";
         results.replaceChildren();
         return;
       }
 
       const sequence = ++searchSequence;
-      summary.textContent = 'Buscando…';
+      summary.textContent = "Buscando…";
+      let loaded;
+      let total;
       try {
-        const pagefind = await import('/pagefind/pagefind.js');
-        const response = await pagefind.search(query, { filters: filtersForProfile() });
+        const pagefind = await import("/pagefind/pagefind.js");
+        const response = await pagefind.search(query, {
+          filters: filtersForProfile(),
+        });
         if (sequence !== searchSequence) return;
-        const loaded = await Promise.all(response.results.slice(0, 30).map(result => result.data()));
+        const data = await Promise.all(
+          response.results.slice(0, 30).map((result) => result.data()),
+        );
         if (sequence !== searchSequence) return;
-        results.replaceChildren(...loaded.map(createResult));
-        const profile = selectedProfile();
-        const context = profile === 'general' ? '' : ` para ${profile}`;
-        summary.textContent = `${response.results.length} ${response.results.length === 1 ? 'resultado' : 'resultados'}${context}.`;
+        loaded = data.map((d) => ({
+          url: d.url,
+          title: d.meta?.title || d.url,
+          excerptHtml: d.excerpt || "",
+          category: categoryFor(d.url),
+        }));
+        total = response.results.length;
       } catch (error) {
-        console.error(error);
-        summary.textContent = 'No se ha podido completar la búsqueda. Inténtalo de nuevo.';
-        results.replaceChildren();
+        try {
+          const fallback = await searchIndexFallback(query);
+          if (sequence !== searchSequence) return;
+          loaded = fallback.slice(0, 30);
+          total = fallback.length;
+        } catch (fallbackError) {
+          console.error(fallbackError);
+          summary.textContent =
+            "No se ha podido completar la búsqueda. Inténtalo de nuevo.";
+          results.replaceChildren();
+          return;
+        }
       }
+      renderResults(loaded);
+      const profile = selectedProfile();
+      const context = profile === "general" ? "" : ` para ${profile}`;
+      summary.textContent = `${total} ${total === 1 ? "resultado" : "resultados"}${context}.`;
     }
 
     async function filterForSelectedProfile() {
       const sequence = ++loaderSequence;
       const startedAt = Date.now();
       loader.hidden = false;
-      loader.dataset.busy = 'search';
+      loader.dataset.busy = "search";
       try {
         await runSearch();
         const remaining = Math.max(0, 450 - (Date.now() - startedAt));
-        if (remaining) await new Promise(resolve => window.setTimeout(resolve, remaining));
+        if (remaining)
+          await new Promise((resolve) => window.setTimeout(resolve, remaining));
       } finally {
         if (sequence === loaderSequence) {
           delete loader.dataset.busy;
@@ -104,20 +259,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       }
     }
 
-    form.addEventListener('submit', event => {
+    form.addEventListener("submit", (event) => {
       event.preventDefault();
       const url = new URL(window.location.href);
-      input.value.trim() ? url.searchParams.set('q', input.value.trim()) : url.searchParams.delete('q');
-      window.history.replaceState({}, '', url);
+      input.value.trim()
+        ? url.searchParams.set("q", input.value.trim())
+        : url.searchParams.delete("q");
+      window.history.replaceState({}, "", url);
       runSearch();
     });
-    input.addEventListener('input', () => {
+    input.addEventListener("input", () => {
       window.clearTimeout(timer);
       timer = window.setTimeout(runSearch, 180);
     });
-    window.addEventListener('manual-profile-change', filterForSelectedProfile);
+    window.addEventListener("manual-profile-change", filterForSelectedProfile);
 
-    input.value = params.get('q') || '';
+    input.value = params.get("q") || "";
     updateProfileLabel();
     if (input.value) runSearch();
   </script>

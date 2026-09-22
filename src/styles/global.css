@@ -162,6 +162,8 @@ select {
   background: var(--line);
 }
 .header-search {
+  position: relative;
+  z-index: 15;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -172,6 +174,24 @@ select {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--bg);
+}
+.header-search-backdrop {
+  position: fixed;
+  inset: 0;
+  /* Por debajo del header (z-index:20, que necesita quedar por encima para
+     que el buscador y su dropdown sigan siendo interactivos) pero por
+     encima de cualquier otro contenido de la página. */
+  z-index: 18;
+  background: rgba(16, 22, 32, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+.header-search-backdrop.is-active {
+  opacity: 1;
+  pointer-events: auto;
 }
 .header-search:focus-within {
   border-color: var(--brand);
@@ -346,11 +366,30 @@ h3 {
   font-size: 1.18rem;
   max-width: 720px;
 }
+.hero-search-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(16, 22, 32, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+.hero-search-backdrop.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.hero-search-wrap {
+  position: relative;
+  z-index: 50;
+  max-width: 670px;
+  margin-top: 30px;
+}
 .hero-search {
   display: flex;
   gap: 10px;
-  max-width: 670px;
-  margin-top: 30px;
   padding: 8px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -372,6 +411,59 @@ h3 {
   outline: none;
   background: transparent;
   color: var(--ink);
+}
+.hero-search-suggestions[hidden] {
+  display: none;
+}
+.hero-search-suggestions {
+  position: fixed;
+  z-index: 60;
+  display: grid;
+  align-content: start;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+.hero-suggestion-group {
+  padding: 10px 16px 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--brand-dark);
+  border-top: 1px solid var(--line);
+}
+.hero-suggestion-group:first-child {
+  border-top: 0;
+}
+.hero-suggestion {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: var(--heading);
+  font-size: 0.95rem;
+}
+.hero-suggestion:hover,
+.hero-suggestion:focus-visible {
+  background: var(--soft);
+}
+.hero-suggestion-more {
+  display: block;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--brand-dark);
+  background: var(--soft);
+  border-top: 1px solid var(--line);
+}
+.hero-suggestion-more:hover,
+.hero-suggestion-more:focus-visible {
+  text-decoration: underline;
 }
 .hero-tags {
   display: flex;
@@ -504,6 +596,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  justify-self: flex-end;
   gap: 12px;
   margin-top: 16px;
 }
@@ -542,7 +635,8 @@ h3 {
 .card {
   position: relative;
   overflow: hidden;
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 25px;
   color: var(--ink);
   text-decoration: none;
@@ -1322,7 +1416,7 @@ h3 {
 .site-footer {
   margin-top: auto;
   border-top: 1px solid var(--line);
-  padding: 34px 0;
+  padding: 1.2rem 0;
   color: var(--muted);
   background: var(--paper);
 }
@@ -1475,6 +1569,7 @@ h3 {
   padding: 10px 12px;
   border: 0;
   outline: 0;
+  background: transparent;
   color: var(--ink);
 }
 .profile-filter {
@@ -1490,20 +1585,36 @@ h3 {
   display: grid;
   gap: 12px;
 }
+.search-group-heading {
+  margin: 22px 0 0;
+  padding-bottom: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brand-dark);
+  border-bottom: 1px solid var(--line);
+}
+.search-group-heading:first-child {
+  margin-top: 0;
+}
 .search-result {
   padding: 18px 0;
   border-top: 1px solid var(--line);
 }
-.search-result h2 {
+.search-group-heading + .search-result {
+  border-top: 0;
+}
+.search-result h3 {
   margin: 0 0 7px;
   font-size: 1.18rem;
   font-weight: 500;
 }
-.search-result h2 a {
+.search-result h3 a {
   color: var(--heading);
   text-decoration: none;
 }
-.search-result h2 a:hover {
+.search-result h3 a:hover {
   color: var(--brand);
 }
 .search-result p {
