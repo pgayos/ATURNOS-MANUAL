@@ -1,6 +1,6 @@
 :root {
   --ink: #3e526e;
-  --heading: #64748b;
+  --heading: #354966;
   --muted: #667890;
   --line: #e1e8f0;
   --paper: #fff;
@@ -270,7 +270,7 @@ select {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 86px 0 76px;
+  padding: 8rem 0;
   background:
     radial-gradient(
       circle at 83% 35%,
@@ -335,10 +335,11 @@ h3 {
   color: var(--heading);
   font-family: Poppins, "Source Sans 3", sans-serif;
   font-weight: 600;
+  margin:0;
 }
 h1 {
-  margin: 0.15em 0 0.32em;
-  font-size: clamp(2.25rem, 5vw, 4.25rem);
+  margin: 1rem 0;
+  font-size: clamp(2rem, 5vw, 3.85rem);
   line-height: 1.08;
   letter-spacing: -0.035em;
 }
@@ -1166,6 +1167,7 @@ h3 {
 }
 .article-body {
   font-size: 1.04rem;
+  padding: 3rem 0;
 }
 .article-body p,
 .article-body li {
@@ -1292,7 +1294,7 @@ h3 {
   position: relative;
   padding: 48px;
   border-radius: 18px;
-  background: linear-gradient(150deg, #536a8d, #354966);
+  background: linear-gradient(150deg,#354966  ,#127aeb );
   color: white;
   overflow: hidden;
 }
@@ -1704,9 +1706,7 @@ h3 {
   .profile-picker {
     max-width: 155px;
   }
-  .hero {
-    padding: 54px 0;
-  }
+ 
   .hero::after {
     right: -120px;
     top: 25px;
