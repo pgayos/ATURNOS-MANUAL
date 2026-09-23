@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import { getCollection } from "astro:content";
 import SiteNav from "../components/manual/SiteNav.astro";
+import MobileTabBar from "../components/MobileTabBar.astro";
 import { buildSiteNav, activeSiteNavSectionFor } from "../lib/siteNav";
 
 interface Props {
@@ -78,6 +79,24 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
     </div>
     <header class="site-header">
       <nav class="nav" aria-label="Navegación principal">
+        <button
+          class="nav-menu-toggle"
+          id="nav-menu-toggle"
+          type="button"
+          aria-label="Abrir menú de navegación"
+          aria-controls="site-nav"
+          aria-expanded="false"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path
+              d="M4 6h16M4 12h16M4 18h16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            ></path>
+          </svg>
+        </button>
         <a class="logo" href="/" aria-label="aTurnos · Centro de ayuda">
           <img
             src="/brand/aturnos-logo.svg"
@@ -193,6 +212,15 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
       aria-hidden="true"
     >
     </div>
+    <div class="site-nav-backdrop" id="site-nav-backdrop" aria-hidden="true">
+    </div>
+    <div
+      class="hero-search-suggestions"
+      id="drawer-search-suggestions"
+      role="listbox"
+      hidden
+    >
+    </div>
     <div class="app-shell">
       <SiteNav
         sections={siteNav}
@@ -220,6 +248,7 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
         </footer>
       </div>
     </div>
+    <MobileTabBar currentPath={Astro.url.pathname} />
     <script is:inline>
       const picker = document.querySelector("#profile-picker");
       const profileLoader = document.querySelector("#profile-loader");
@@ -386,6 +415,35 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
         });
       }
 
+      const navMenuToggle = document.querySelector("#nav-menu-toggle");
+      const siteNavEl = document.querySelector("#site-nav");
+      const siteNavBackdrop = document.querySelector("#site-nav-backdrop");
+      const siteNavClose = document.querySelector("#site-nav-close");
+
+      const openSiteNav = () => {
+        siteNavEl?.classList.add("is-open");
+        siteNavBackdrop?.classList.add("is-active");
+        navMenuToggle?.setAttribute("aria-expanded", "true");
+      };
+      const closeSiteNav = () => {
+        siteNavEl?.classList.remove("is-open");
+        siteNavBackdrop?.classList.remove("is-active");
+        navMenuToggle?.setAttribute("aria-expanded", "false");
+      };
+
+      navMenuToggle?.addEventListener("click", () => {
+        if (siteNavEl?.classList.contains("is-open")) closeSiteNav();
+        else openSiteNav();
+      });
+      siteNavBackdrop?.addEventListener("click", closeSiteNav);
+      siteNavClose?.addEventListener("click", closeSiteNav);
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") closeSiteNav();
+      });
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 980) closeSiteNav();
+      });
+
       const themeToggle = document.querySelector("#theme-toggle");
       if (themeToggle) {
         const syncThemeState = () => {
@@ -414,6 +472,12 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
         input: document.querySelector("#header-search-input"),
         suggestions: document.querySelector("#header-search-suggestions"),
         backdrop: document.querySelector("#header-search-backdrop"),
+      });
+      initSearchWidget({
+        form: document.querySelector("#drawer-search"),
+        input: document.querySelector("#drawer-search-input"),
+        suggestions: document.querySelector("#drawer-search-suggestions"),
+        minWidth: 0,
       });
     </script>
   </body>

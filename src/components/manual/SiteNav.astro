@@ -22,7 +22,54 @@ const externalLinkSvg =
   '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.5 4h5.5v5.5M12 4 4 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 ---
 
-<nav class="site-nav" data-site-nav aria-label="Navegación del manual">
+<nav
+  class="site-nav"
+  id="site-nav"
+  data-site-nav
+  aria-label="Navegación del manual"
+>
+  <div class="site-nav-mobile-header">
+    <span class="site-nav-mobile-title">aTurnosDocs</span>
+    <button
+      class="site-nav-close"
+      id="site-nav-close"
+      type="button"
+      aria-label="Cerrar menú"
+    >
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+        <path
+          d="M6 6l12 12M18 6L6 18"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+        ></path>
+      </svg>
+    </button>
+  </div>
+  <form
+    class="site-nav-mobile-search"
+    id="drawer-search"
+    action="/buscar/"
+    role="search"
+    autocomplete="off"
+  >
+    <span class="header-search-icon" aria-hidden="true">⌕</span>
+    <label class="sr-only" for="drawer-search-input">
+      Buscar en el manual
+    </label>
+    <input
+      id="drawer-search-input"
+      name="q"
+      type="search"
+      autocomplete="off"
+      aria-expanded="false"
+      aria-controls="drawer-search-suggestions"
+      role="combobox"
+      aria-autocomplete="list"
+      placeholder="Buscar…"
+    />
+  </form>
   <div class="site-nav-scroll">
     <div
       class="site-nav-pills"
