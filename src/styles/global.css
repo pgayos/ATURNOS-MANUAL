@@ -194,6 +194,21 @@ select {
   opacity: 1;
   pointer-events: auto;
 }
+.site-nav-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 35;
+  background: rgba(16, 22, 32, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+.site-nav-backdrop.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
 .header-search:focus-within {
   border-color: var(--brand);
   box-shadow: 0 0 0 3px rgba(232, 0, 145, 0.1);
@@ -218,6 +233,23 @@ select {
   padding: 9px 12px;
   border-radius: 10px;
   color: var(--ink);
+}
+.nav-menu-toggle {
+  display: none;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 10px;
+  color: var(--muted);
+  line-height: 1;
+  cursor: pointer;
+}
+.nav-menu-toggle:hover {
+  color: var(--brand);
+  border-color: var(--brand);
 }
 .theme-toggle {
   display: grid;
@@ -285,7 +317,7 @@ select {
     linear-gradient(135deg, #fff 0%, #fff8fc 53%, #f4faff 100%);
   border-bottom: 1px solid var(--line);
 }
-.hero::after {
+/* .hero::after {
   content: "";
   position: absolute;
   right: max(4vw, 30px);
@@ -298,7 +330,7 @@ select {
     inset 0 0 0 38px rgba(232, 0, 145, 0.025),
     inset 0 0 0 76px rgba(0, 169, 199, 0.025);
   pointer-events: none;
-}
+} */
 .hero-content {
   position: relative;
   z-index: 1;
@@ -781,6 +813,12 @@ h3 {
 /* Todo lo que puede crecer (pills + árbol) scrollea acá adentro; la tarjeta
    de ayuda queda fuera de este bloque para poder anclarse abajo siempre
    visible, sin desaparecer al hacer scroll del árbol. */
+.site-nav-mobile-header {
+  display: none;
+}
+.site-nav-mobile-search {
+  display: none;
+}
 .site-nav-scroll {
   flex: 1;
   min-height: 0;
@@ -1403,6 +1441,10 @@ h3 {
   .aturnos-banner {
     padding: 32px 24px;
   }
+  .aturnos-banner .button {
+    justify-content: center;
+    width: 100%;
+  }
   .aturnos-banner::after {
     display: none;
   }
@@ -1449,6 +1491,29 @@ h3 {
   color: var(--brand);
   font-weight: 600;
   text-decoration: none;
+}
+.mobile-tabbar {
+  display: none;
+}
+.mobile-tab {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+.mobile-tab-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+.mobile-tab.is-active {
+  color: var(--brand-dark);
 }
 .search-page {
   min-height: 65vh;
@@ -1663,13 +1728,99 @@ h3 {
     display: block;
     flex: none;
   }
+  .nav-menu-toggle {
+    display: grid;
+    order: 5;
+  }
+  .profile-picker {
+    order: 3;
+    margin-left: auto;
+  }
+  .theme-toggle {
+    order: 4;
+  }
+  .header-site-link {
+    display: none;
+  }
+  .header-search {
+    display: none;
+  }
+  .module-grid {
+    grid-template-columns: 1fr 1fr;
+  }
   .site-nav {
-    position: static;
-    width: auto;
-    height: auto;
-    max-height: 70vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    z-index: 40;
+    width: min(320px, 86vw);
+    height: 100dvh;
+    max-height: none;
+    border-left: 1px solid var(--line);
     border-right: 0;
+    border-bottom: 0;
+    box-shadow: var(--shadow);
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+  }
+  .site-nav.is-open {
+    transform: translateX(0);
+  }
+  .site-nav-mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: none;
+    padding-bottom: 12px;
+    margin-bottom: 4px;
     border-bottom: 1px solid var(--line);
+  }
+  .site-nav-mobile-title {
+    color: var(--heading);
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+  .site-nav-mobile-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: none;
+    padding: 8px 14px;
+    margin-bottom: 12px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--bg);
+  }
+  .site-nav-mobile-search:focus-within {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px rgba(232, 0, 145, 0.1);
+  }
+  .site-nav-mobile-search input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: var(--ink);
+    font-size: 0.9rem;
+  }
+  .site-nav-close {
+    display: grid;
+    place-items: center;
+    flex: none;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--paper);
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .site-nav-close:hover {
+    color: var(--brand);
+    border-color: var(--brand);
   }
   .right-panel {
     position: static;
@@ -1685,6 +1836,9 @@ h3 {
   }
 }
 @media (max-width: 680px) {
+  .hero {
+    padding: 2rem 0;
+  }
   .nav {
     flex-wrap: wrap;
     gap: 12px;
@@ -1697,28 +1851,53 @@ h3 {
   .logo > span:last-child {
     display: none;
   }
-  .header-search {
-    order: 3;
-    width: 100%;
-    max-width: none;
-    margin-left: 0;
-  }
   .profile-picker {
     max-width: 155px;
   }
- 
-  .hero::after {
+
+  /* .hero::after {
     right: -120px;
     top: 25px;
     width: 320px;
-  }
+  } */
   .card-grid,
-  .right-panel {
+  .right-panel,
+  .module-grid {
     grid-template-columns: 1fr;
   }
-  .hero-search,
+  .mobile-tabbar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 25;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 4px calc(8px + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--line);
+    background: var(--paper);
+    box-shadow: 0 -4px 20px rgba(53, 73, 102, 0.08);
+  }
+  .app-main {
+    padding-bottom: 64px;
+  }
   .manual-search {
     display: grid;
+  }
+  .hero-search {
+    flex-wrap: wrap;
+  }
+  .hero-search-icon {
+    order: 1;
+  }
+  .hero-search input {
+    order: 2;
+  }
+  .hero-search .button {
+    order: 3;
+    flex: 1 1 100%;
+    justify-content: center;
   }
   .feedback {
     align-items: start;

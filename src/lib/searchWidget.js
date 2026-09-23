@@ -57,9 +57,9 @@ const MAX_SUGGESTIONS = 6;
 const MIN_DROPDOWN_WIDTH = 320;
 
 /**
- * @param {{ form: HTMLFormElement | null, input: HTMLInputElement | null, suggestions: HTMLElement | null, backdrop?: HTMLElement | null }} config
+ * @param {{ form: HTMLFormElement | null, input: HTMLInputElement | null, suggestions: HTMLElement | null, backdrop?: HTMLElement | null, minWidth?: number }} config
  */
-export function initSearchWidget({ form, input, suggestions, backdrop }) {
+export function initSearchWidget({ form, input, suggestions, backdrop, minWidth = MIN_DROPDOWN_WIDTH }) {
   if (!form || !input || !suggestions) return;
   let timer;
 
@@ -69,7 +69,7 @@ export function initSearchWidget({ form, input, suggestions, backdrop }) {
   const positionSuggestions = () => {
     const rect = form.getBoundingClientRect();
     const top = rect.bottom + 8;
-    const width = Math.max(rect.width, MIN_DROPDOWN_WIDTH);
+    const width = Math.max(rect.width, minWidth);
     let left = rect.left;
     if (left + width > window.innerWidth - 16) left = window.innerWidth - 16 - width;
     if (left < 16) left = 16;

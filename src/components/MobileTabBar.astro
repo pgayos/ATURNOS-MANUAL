@@ -1,0 +1,45 @@
+---
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+
+const activeTab = currentPath === "/"
+  ? "inicio"
+  : currentPath.startsWith("/manual/app-movil/")
+    ? "app-movil"
+    : currentPath.startsWith("/manual/") ||
+        currentPath.startsWith("/buscar/") ||
+        currentPath.startsWith("/glosario/")
+      ? "documentacion"
+      : null;
+
+const tabs = [
+  { id: "inicio", icon: "⌂", label: "Inicio", href: "/" },
+  { id: "documentacion", icon: "▤", label: "Documentación", href: "/manual/" },
+  { id: "app-movil", icon: "▣", label: "App móvil", href: "/manual/app-movil/" },
+  {
+    id: "soporte",
+    icon: "☎",
+    label: "Soporte",
+    href: "https://aturnos.atlassian.net/servicedesk/customer/portal/1/group/6/create/18",
+    external: true,
+  },
+];
+---
+
+<nav class="mobile-tabbar" aria-label="Navegación rápida">
+  {tabs.map((tab) => (
+    <a
+      class:list={["mobile-tab", { "is-active": tab.id === activeTab }]}
+      href={tab.href}
+      target={tab.external ? "_blank" : undefined}
+      rel={tab.external ? "external" : undefined}
+      aria-current={tab.id === activeTab ? "page" : undefined}
+    >
+      <span class="mobile-tab-icon" aria-hidden="true">{tab.icon}</span>
+      {tab.label}
+    </a>
+  ))}
+</nav>
