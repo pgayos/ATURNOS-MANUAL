@@ -82,15 +82,14 @@ const modules = [
 <BaseLayout>
   <section class="hero">
     <div class="container hero-content">
-      <span class="hero-badge">
+      <!-- <span class="hero-badge">
         <span class="hero-badge-dot" aria-hidden="true"></span>
         Centro de ayuda aTurnosDocs
-      </span>
-      <h1>
-        aTurnosDocs
-        <br />
-        <span>Trabaja con confianza.</span>
-      </h1>
+      </span> -->
+      <h2>
+        <span>aTurnosDocs</span>
+      </h2>
+      <h1>Manual y Documentación Oficial de aTurnos</h1>
       <p class="lead">
         Guías oficiales paso a paso, manuales interactivos y asistencia técnica
         para optimizar cuadrantes, fichajes y normativas de tu empresa.
@@ -107,9 +106,7 @@ const modules = [
           action="/buscar/"
           autocomplete="off"
         >
-          <span class="hero-search-icon" aria-hidden="true">
-            ⌕
-          </span>
+          
           <input
             id="hero-search-input"
             name="q"
@@ -122,6 +119,9 @@ const modules = [
             aria-autocomplete="list"
             placeholder="¿Qué buscas? (ej. cuadrante, fichaje biométrico, vacaciones…)"
           />
+          <span class="hero-search-icon" aria-hidden="true">
+            ⌕
+          </span>
           <button class="button">
             Buscar
             <span aria-hidden="true">→</span>

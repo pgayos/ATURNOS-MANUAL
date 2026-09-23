@@ -1,10 +1,11 @@
 :root {
   --ink: #3e526e;
-  --heading: #354966;
+  --heading: #64748b;
   --muted: #667890;
   --line: #e1e8f0;
   --paper: #fff;
-  --brand: #e80091;
+  --brand: #e10075;
+  /* --brand: #e80091; */
   --brand-dark: #c5007b;
   --blue: #127aeb;
   --cyan: #00a9c7;
@@ -172,7 +173,7 @@ select {
   margin-left: auto;
   padding: 8px 14px;
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 10px;
   background: var(--bg);
 }
 .header-search-backdrop {
@@ -215,7 +216,7 @@ select {
   border: 1px solid var(--line);
   background: var(--paper);
   padding: 9px 12px;
-  border-radius: 4px;
+  border-radius: 10px;
   color: var(--ink);
 }
 .theme-toggle {
@@ -226,7 +227,7 @@ select {
   padding: 0;
   border: 1px solid var(--line);
   background: var(--paper);
-  border-radius: 4px;
+  border-radius: 10px;
   color: var(--muted);
   line-height: 1;
   cursor: pointer;
@@ -243,7 +244,7 @@ select {
   padding: 0 16px;
   border: 0;
   background: var(--brand);
-  border-radius: 4px;
+  border-radius: 10px;
   color: white;
   font-weight: 700;
   font-size: 0.88rem;
@@ -343,13 +344,13 @@ h1 {
 }
 .hero h1 {
   max-width: 780px;
-  color: var(--brand);
-}
-.hero h1 span {
   color: var(--heading);
 }
+.hero h2 span {
+  color: var(--brand);
+}
 h2 {
-  margin-top: 2.3em;
+  /* margin-top: 2.3em; */
   font-size: clamp(1.45rem, 3vw, 2rem);
   font-weight: 500;
   line-height: 1.2;
@@ -392,16 +393,21 @@ h3 {
   gap: 10px;
   padding: 8px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 10px;
   background: var(--paper);
   box-shadow: var(--shadow);
 }
+.hero-search .button {
+  border-radius: 10px;
+}
 .hero-search-icon {
+  width: 32px;
   flex: none;
   display: grid;
   place-items: center;
   padding-left: 6px;
   color: var(--muted);
+  font-size: 2rem;
 }
 .hero-search input {
   flex: 1;
@@ -1080,6 +1086,7 @@ h3 {
   color: var(--brand-dark);
   font-size: 0.82rem;
   font-weight: 700;
+  width:fit-content
 }
 .card-group-title {
   font-size: 1.05rem;
@@ -1288,6 +1295,9 @@ h3 {
   background: linear-gradient(150deg, #536a8d, #354966);
   color: white;
   overflow: hidden;
+}
+.aturnos-banner-title{
+  text-wrap:balance;
 }
 .aturnos-banner::after {
   content: "";
@@ -1556,7 +1566,7 @@ h3 {
   gap: 10px;
   padding: 7px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 10px;
   background: var(--paper);
 }
 .manual-search:focus-within {
