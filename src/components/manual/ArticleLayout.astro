@@ -143,6 +143,42 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
           > -->
           <span>↻ Última Actualización: {reviewed}</span>
         </div>
+        <div class="callout profile-context-note" data-profile-context hidden>
+          <strong>Adaptando el manual a tu perfil</strong>
+          <p>
+            Mostrando reglas aplicables para el rol{" "}
+            <strong data-profile-context-role>Administrador</strong>. Cambia
+            de rol en el selector superior para ver el contenido de otro
+            perfil.
+          </p>
+        </div>
+        <details class="panel-index panel-index-mobile" open>
+          <summary>
+            En esta página
+            {pageHeadings.length > 0 && (
+              <span class="panel-index-count">{pageHeadings.length}</span>
+            )}
+          </summary>
+          {pageHeadings.length > 0 ? (
+            pageHeadings.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)
+          ) : (
+            <span class="panel-index-empty">Sin secciones</span>
+          )}
+          {relatedGlossaryTerms.length > 0 && (
+            <>
+              <strong>Conceptos</strong>
+              {relatedGlossaryTerms.map(({ term, href }) =>
+                href ? (
+                  <a class="panel-index-concept" href={href}>
+                    {term}
+                  </a>
+                ) : (
+                  <span class="panel-index-concept">{term}</span>
+                ),
+              )}
+            </>
+          )}
+        </details>
       </header>
       <div
         class="article-content"
@@ -165,7 +201,10 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
       </div> -->
     </article>
     <aside class="right-panel">
-      <nav class="panel-index" aria-label="Índice del artículo">
+      <nav
+        class="panel-index panel-index-desktop"
+        aria-label="Índice del artículo"
+      >
         <strong>En esta página</strong>
         {pageHeadings.length > 0 ? (
           pageHeadings.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)
@@ -220,4 +259,20 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
       </div> -->
     </aside>
   </main>
+  <script is:inline>
+    (() => {
+      const note = document.querySelector("[data-profile-context]");
+      const roleLabel = document.querySelector("[data-profile-context-role]");
+      if (!note || !roleLabel) return;
+      const update = (profile) => {
+        const show = Boolean(profile && profile !== "general");
+        note.hidden = !show;
+        if (show) roleLabel.textContent = profile;
+      };
+      update(document.documentElement.dataset.profile);
+      window.addEventListener("manual-profile-change", (event) =>
+        update(event.detail.profile),
+      );
+    })();
+  </script>
 </BaseLayout>
