@@ -1895,18 +1895,31 @@ h3 {
   }
   .nav {
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
     padding-block: 12px;
+    padding-inline: 16px;
+  }
+  .logo {
+    gap: 0;
+    min-width: 0;
   }
   .logo img {
-    width: 118px;
+    width: 88px;
   }
   .logo-divider,
   .logo > span:last-child {
     display: none;
   }
   .profile-picker {
-    max-width: 155px;
+    max-width: 108px;
+    padding: 9px 8px;
+    font-size: 0.85rem;
+  }
+  .nav-menu-toggle,
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+    flex: none;
   }
 
   /* .hero::after {
