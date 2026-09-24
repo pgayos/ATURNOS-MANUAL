@@ -145,7 +145,7 @@ select {
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   color: var(--heading);
   text-decoration: none;
   font-weight: 600;
@@ -367,7 +367,7 @@ h3 {
   color: var(--heading);
   font-family: Poppins, "Source Sans 3", sans-serif;
   font-weight: 600;
-  margin:0;
+  margin: 0;
 }
 h1 {
   margin: 1rem 0;
@@ -1125,7 +1125,7 @@ h3 {
   color: var(--brand-dark);
   font-size: 0.82rem;
   font-weight: 700;
-  width:fit-content
+  width: fit-content;
 }
 .card-group-title {
   font-size: 1.05rem;
@@ -1332,12 +1332,12 @@ h3 {
   position: relative;
   padding: 48px;
   border-radius: 18px;
-  background: linear-gradient(150deg,#354966  ,#127aeb );
+  background: linear-gradient(150deg, #354966, #127aeb);
   color: white;
   overflow: hidden;
 }
-.aturnos-banner-title{
-  text-wrap:balance;
+.aturnos-banner-title {
+  text-wrap: balance;
 }
 .aturnos-banner::after {
   content: "";
@@ -1735,7 +1735,9 @@ h3 {
   .profile-picker {
     order: 3;
     margin-left: auto;
+    /* padding: 6px; */
   }
+
   .theme-toggle {
     order: 4;
   }
@@ -1841,18 +1843,18 @@ h3 {
   }
   .nav {
     flex-wrap: wrap;
-    gap: 12px;
-    padding-block: 12px;
+    gap: 10px;
+    padding: 10px;
   }
   .logo img {
-    width: 118px;
+    width: 100px;
   }
   .logo-divider,
   .logo > span:last-child {
     display: none;
   }
   .profile-picker {
-    max-width: 155px;
+    max-width: 140px;
   }
 
   /* .hero::after {
