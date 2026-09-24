@@ -137,8 +137,7 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
           id="header-search-suggestions"
           role="listbox"
           hidden
-        >
-        </div>
+        ></div>
         {showProfilePicker && (
           <select
             class="profile-picker"
@@ -210,17 +209,18 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
       class="header-search-backdrop"
       id="header-search-backdrop"
       aria-hidden="true"
-    >
-    </div>
-    <div class="site-nav-backdrop" id="site-nav-backdrop" aria-hidden="true">
-    </div>
+    ></div>
+    <div
+      class="site-nav-backdrop"
+      id="site-nav-backdrop"
+      aria-hidden="true"
+    ></div>
     <div
       class="hero-search-suggestions"
       id="drawer-search-suggestions"
       role="listbox"
       hidden
-    >
-    </div>
+    ></div>
     <div class="app-shell">
       <SiteNav
         sections={siteNav}
@@ -233,7 +233,7 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
           <div class="footer-inner">
             <img
               class="footer-logo"
-              src="/brand/aturnos-logo.svg"
+              src="/brand/logo_gris.svg"
               width="126"
               height="32"
               alt="aTurnos"

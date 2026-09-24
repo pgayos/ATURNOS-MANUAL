@@ -165,8 +165,8 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
       </div> -->
     </article>
     <aside class="right-panel">
-      <nav class="panel-index" aria-label="Índice del artículo">
-        <strong>En esta página</strong>
+      <nav class="panel-index mini-card" aria-label="Índice del artículo">
+        <h3>En esta página</h3>
         {pageHeadings.length > 0 ? (
           pageHeadings.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)
         ) : (
@@ -188,8 +188,8 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
           </>
         )}
       </nav>
-      <div class="mini-card ai-box">
-        <h3>Pregunta a la IA</h3>
+      <!-- <div class="mini-card ai-box">
+        <h3>Autor</h3>
         <p>
           Obtén una respuesta basada únicamente en contenido aprobado y con
           citas.
@@ -197,20 +197,19 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
         <a class="button" href="/asistente/">
           Abrir asistente
         </a>
-      </div>
+      </div> -->
       <!-- <div class="mini-card">
         <h3>Para tu perfil</h3><p>
           Selecciona tu perfil en la cabecera para destacar requisitos y pasos
           relevantes.
         </p>
       </div> -->
-      <div class="mini-card">
+      <div class="mini-card ai-box">
         <h3>Autor</h3>
-        <p>
-          {d.governance.owner}
-          <br />
-          Revisión anual
-        </p>
+        <p>{d.governance.owner}</p>
+        <a class="button" href="/asistente/">
+          Conoce al autor
+        </a>
       </div>
       <!-- <div class="mini-card">
         <h3>¿Mas dudas?</h3>

@@ -790,9 +790,9 @@ h3 {
 .article-shell {
   display: grid;
   grid-template-columns: minmax(0, 760px) 240px;
-  gap: 3rem;
+  gap: 1rem;
   align-items: start;
-  padding: 2rem 0 5rem 2rem;
+  padding: 2rem 0 2rem 2rem;
 }
 
 /* Menú persistente (lateral izquierdo, en todo el sitio) */
@@ -1082,6 +1082,10 @@ h3 {
   color: var(--muted);
   font-size: 0.9rem;
 }
+.hero .breadcrumbs {
+  padding-top: 0;
+  margin-bottom: 18px;
+}
 .breadcrumbs a {
   color: var(--muted);
 }
@@ -1205,7 +1209,7 @@ h3 {
 }
 .article-body {
   font-size: 1.04rem;
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 .article-body p,
 .article-body li {
@@ -1322,17 +1326,29 @@ h3 {
   font-size: 0.9rem;
 }
 .ai-box {
-  background: linear-gradient(150deg, #536a8d, #354966);
+  background: linear-gradient(150deg, var(--heading), var(--blue));
   color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-box h3 {
+  color: #fff;
 }
 .ai-box p {
   color: #e7f3ff;
+}
+
+.ai-box .button {
+  margin-top: 10px;
+  width: fit-content;
+  border-radius: 10px;
 }
 .aturnos-banner {
   position: relative;
   padding: 48px;
   border-radius: 18px;
-  background: linear-gradient(150deg, #354966, #127aeb);
+  background: linear-gradient(150deg, var(--heading), var(--blue));
   color: white;
   overflow: hidden;
 }
@@ -1482,10 +1498,8 @@ h3 {
   padding-inline: 24px;
 }
 .footer-logo {
-  width: 126px;
+  width: 80px;
   height: auto;
-  filter: grayscale(1);
-  opacity: 0.55;
 }
 .footer-inner a {
   color: var(--brand);
@@ -1721,8 +1735,28 @@ h3 {
   margin-bottom: 1rem;
 }
 @media (max-width: 980px) {
+  /* En móvil, el artículo pasa a columna única y se "aplanan" tanto el
+     <article> como el <aside> (display: contents, sin caja propia) para que
+     header, "En esta página", cuerpo y autor puedan reordenarse con `order`
+     como si fueran hermanos directos. El padding-left fijo de 2rem (pensado
+     para el hueco del sidebar en escritorio) se quita aquí: en móvil no hay
+     sidebar y generaba un margen izquierdo asimétrico respecto al breadcrumb. */
   .article-shell {
-    grid-template-columns: minmax(0, 1fr);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 10px;
+  }
+  article[data-pagefind-body] {
+    display: contents;
+  }
+  .article-header {
+    order: 1;
+  }
+  .article-content {
+    order: 3;
+  }
+  .profile-unavailable {
+    order: 4;
   }
   .app-shell {
     display: block;
@@ -1825,13 +1859,17 @@ h3 {
     border-color: var(--brand);
   }
   .right-panel {
-    position: static;
-    max-height: none;
-    overflow: visible;
-    grid-template-columns: 1fr 1fr;
+    display: contents;
   }
   .panel-index {
-    grid-column: 1 / -1;
+    width: 100%;
+    order: 2;
+    margin-bottom: 24px;
+  }
+  .ai-box {
+    width: 100%;
+    order: 5;
+    margin-bottom: 2rem;
   }
   .card-grid {
     grid-template-columns: 1fr 1fr;
