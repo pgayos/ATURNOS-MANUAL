@@ -5,3 +5,6 @@ dist/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Archivos temporales de Office (bloqueo al tener el archivo abierto)
+~$*
