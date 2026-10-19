@@ -953,9 +953,9 @@ h3 {
 
 /* Mismo aspecto que .site-nav-pill (tamaño, peso, padding, radio) para que
    las cabeceras del árbol no se vean más comprimidas que las categorías.
-   La fila (palabra + ícono) es un único elemento clickable: <a> cuando hay
-   portada a la que navegar, <button> cuando solo despliega/colapsa — nunca
-   dos controles separados con comportamientos distintos. */
+   Sin portada, la fila (palabra + ícono) es un único <button> que
+   despliega/colapsa. Con portada, el texto es un <a> que navega y la flecha
+   es un <button class="guide-nav-toggle"> aparte que despliega/colapsa. */
 .guide-nav-head-link {
   flex: 1;
   min-width: 0;
@@ -1005,7 +1005,28 @@ h3 {
   height: 12px;
   transition: transform 0.18s ease;
 }
-.guide-nav-node.open > .guide-nav-head-link .guide-nav-toggle-icon svg {
+/* Flecha independiente junto a un header con portada (<a>): el texto navega
+   y la flecha despliega/colapsa. */
+.guide-nav-toggle {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+  padding: 6px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  cursor: pointer;
+}
+.guide-nav-toggle:hover {
+  background: var(--soft);
+}
+.guide-nav-toggle:hover .guide-nav-toggle-icon {
+  color: var(--brand);
+}
+.guide-nav-node.open > .guide-nav-head-link .guide-nav-toggle-icon svg,
+.guide-nav-node.open > .guide-nav-toggle .guide-nav-toggle-icon svg {
   transform: rotate(90deg);
 }
 .guide-nav-node[data-node]:not(.open) > .guide-nav-sublist {

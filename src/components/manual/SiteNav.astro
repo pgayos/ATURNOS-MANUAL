@@ -183,12 +183,19 @@ const externalLinkSvg =
                         <span class="guide-nav-head-text">
                           {moduleNav.moduleName}
                         </span>
+                      </a>
+                      <button
+                        type="button"
+                        class="guide-nav-toggle"
+                        aria-expanded={open ? "true" : "false"}
+                        aria-label={`Mostrar u ocultar ${moduleNav.moduleName}`}
+                      >
                         <span
                           class="guide-nav-toggle-icon"
                           aria-hidden="true"
                           set:html={chevronSvg}
                         />
-                      </a>
+                      </button>
                       <GuideNavTree
                         groups={moduleNav.groups}
                         currentId={currentId}
@@ -259,11 +266,13 @@ const externalLinkSvg =
     // antecesores de la que se acaba de abrir. ---
     const setOpen = (node: HTMLElement, open: boolean) => {
       node.classList.toggle("open", open);
-      // Solo el header sin portada es un <button> con aria-expanded propio;
-      // el header con portada es un <a> (navega, no despliega) y no lo lleva.
+      // El control que despliega es el header <button> (sin portada) o, si el
+      // header es un <a> con portada, el botón de flecha que va a su lado.
       node
-        .querySelector<HTMLElement>(":scope > button.guide-nav-head-link")
-        ?.setAttribute("aria-expanded", String(open));
+        .querySelectorAll<HTMLElement>(
+          ":scope > button.guide-nav-head-link, :scope > button.guide-nav-toggle",
+        )
+        .forEach((control) => control.setAttribute("aria-expanded", String(open)));
     };
     const ancestors = (node: HTMLElement) => {
       const chain: HTMLElement[] = [];
@@ -279,10 +288,12 @@ const externalLinkSvg =
 
     nav.addEventListener("click", (event) => {
       const target = event.target as HTMLElement;
-      // La fila entera (palabra + ícono) es un solo elemento: un <button>
-      // cuando no hay portada (despliega/colapsa) o un <a> cuando sí la hay
-      // (navega, sin interceptar — el ícono ahí es solo decorativo).
-      const trigger = target.closest<HTMLElement>("button.guide-nav-head-link");
+      // Sin portada, la fila entera es un <button> que despliega/colapsa. Con
+      // portada, el texto es un <a> que navega y la flecha es un <button>
+      // aparte (.guide-nav-toggle) que despliega/colapsa.
+      const trigger = target.closest<HTMLElement>(
+        "button.guide-nav-head-link, button.guide-nav-toggle",
+      );
       if (!trigger || !nav.contains(trigger)) return;
       const node = trigger.closest<HTMLElement>("[data-node]");
       if (!node) return;
