@@ -4,9 +4,9 @@ contentId: planificacion-5-anadir-turnos
 title: Añadir turnos
 description: El administrador puede insertar un turno desde el propio cuadrante.
 contentType: procedure
-module: Planificación
-submodule: Cuadrante
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Añadir turnos
 audience:
   - role: Administrador

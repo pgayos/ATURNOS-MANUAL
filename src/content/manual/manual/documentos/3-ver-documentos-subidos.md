@@ -4,8 +4,8 @@ contentId: documentos-3-ver-documentos-subidos
 title: Ver documentos subidos
 description: Todos los documentos subidos a los que se tiene acceso según los permisos dados en los tipos de documento creados, se pueden visualizar en la opción de ‘Documentos’.
 contentType: concept
-module: Documentos
-submodule: General
+module: "Documentos"
+submodule: "Documentos"
 subtopic: ""
 intent: Ver documentos subidos
 audience:

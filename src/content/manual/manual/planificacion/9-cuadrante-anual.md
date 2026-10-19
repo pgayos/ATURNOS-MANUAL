@@ -4,9 +4,9 @@ contentId: planificacion-9-cuadrante-anual
 title: Cuadrante anual
 description: Acceso directo al cuadrante anual del trabajador.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Anual"
 intent: Cuadrante anual
 audience:
   - role: Administrador

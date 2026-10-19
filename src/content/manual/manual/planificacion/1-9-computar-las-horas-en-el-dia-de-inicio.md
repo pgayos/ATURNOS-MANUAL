@@ -4,8 +4,8 @@ contentId: planificacion-1-9-computar-las-horas-en-el-dia-de-inicio
 title: Computar las horas en el día de inicio
 description: "Es muy importante señalar el comportamiento en el pago de las variables del valor que se indica en el campo: “Computar las horas en el día de inicio”."
 contentType: concept
-module: Planificación
-submodule: Turnos y patrones
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Computar las horas en el día de inicio
 audience:

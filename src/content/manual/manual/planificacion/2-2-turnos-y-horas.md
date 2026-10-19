@@ -4,8 +4,8 @@ contentId: planificacion-2-2-turnos-y-horas
 title: Turnos y horas
 description: Se puede obtener información de los turnos y de los diferentes tipos de horas de manera detallada o resumida (Ej.
 contentType: procedure
-module: Planificación
-submodule: Usuarios y perfiles
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Turnos y horas
 audience:

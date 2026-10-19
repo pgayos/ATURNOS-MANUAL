@@ -4,8 +4,8 @@ contentId: planificacion-4-anadir-patron
 title: Añadir patrón
 description: El administrador puede insertar un patrón de turnos (una secuencia de turnos) a un trabajador desde el propio cuadrante.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Añadir patrón
 audience:

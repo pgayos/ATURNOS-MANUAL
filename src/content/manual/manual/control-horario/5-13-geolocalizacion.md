@@ -4,8 +4,8 @@ contentId: control-horario-5-13-geolocalizacion
 title: Geolocalización
 description: Para configurar el fichaje por geolocalización el proceso es simple, el Administrador define las localizaciones determinando en qué radio los trabajadores puede fichar, y si los trabajadores.
 contentType: reference
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Geolocalización
 audience:

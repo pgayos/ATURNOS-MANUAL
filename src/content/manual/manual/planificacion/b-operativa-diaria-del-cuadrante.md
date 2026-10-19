@@ -4,9 +4,9 @@ contentId: planificacion-b-operativa-diaria-del-cuadrante
 title: Operativa diaria del cuadrante
 description: Al entrar al cuadrante, nos encontramos con la información de la planificación en un formato de tabla.
 contentType: reference
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Operativa diaria del cuadrante
 audience:
   - role: Administrador

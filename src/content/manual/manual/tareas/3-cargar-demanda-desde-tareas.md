@@ -4,8 +4,8 @@ contentId: tareas-3-cargar-demanda-desde-tareas
 title: Cargar demanda desde tareas
 description: Hemos visto que la demanda se puede cargar como una necesidad de turnos o una carga manual que puede llegar añadiendo los datos en el backoffice o puede llegar por la carga de un archivo o por el API.
 contentType: concept
-module: Tareas
-submodule: Turnos y patrones
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Cargar demanda desde tareas
 audience:

@@ -4,8 +4,8 @@ contentId: planificacion-4-secuencia-de-patron
 title: Secuencia de patrón
 description: Para establecer cómo va a ser la sucesión de turnos y los días en los que aplicará ese patrón de rotación, es importante tener claro que el Día 1 (de la secuencia del patrón), no se refiere.
 contentType: concept
-module: Planificación
-submodule: Turnos y patrones
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Secuencia de patrón
 audience:

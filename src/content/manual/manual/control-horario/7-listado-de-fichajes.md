@@ -4,8 +4,8 @@ contentId: control-horario-7-listado-de-fichajes
 title: Listado de fichajes
 description: En esta consulta se informan todos los fichajes resumidos en un listado con los campos configurados en RRHH.
 contentType: concept
-module: Control horario
-submodule: Usuarios y perfiles
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Listado de fichajes
 audience:

@@ -4,8 +4,8 @@ contentId: control-horario-5-15-sistemas-biometricos
 title: Sistemas biométricos
 description: Los lugares físicos de trabajo donde existe un gran número de trabajadores planificados pueden realizar los fichajes entrada y salida por equipos biométricos, que ya existan en la empresa o.
 contentType: concept
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Sistemas biométricos
 audience:

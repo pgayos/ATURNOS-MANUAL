@@ -4,9 +4,9 @@ contentId: planificacion-7-copiar-y-pegar-cuadrante
 title: Copiar y pegar cuadrante
 description: Con esta función el administrador del equipo puede copiar los turnos planificados del cuadrante de un trabajador a otro en el período que está visible en el cuadrante.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Copiar y pegar cuadrante
 audience:
   - role: Administrador

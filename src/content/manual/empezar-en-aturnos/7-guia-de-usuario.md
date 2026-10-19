@@ -52,22 +52,22 @@ Esta guía reúne lo que necesita un trabajador para consultar su cuadrante, fic
 
 ## Inicio
 
-- [Perfil y Menú principal del Trabajador](/manual/gestion-de-personal/1-1-perfil-y-menu-principal-del-trabajador/)
+- [Perfil y Menú principal del Trabajador](/manual/trabajadores/1-1-perfil-y-menu-principal-del-trabajador/)
 - [Barra superior de pantalla](/manual/gestion-de-personal/1-2-barra-superior-de-pantalla/)
-- [Inicio (Dashboard)](/manual/planificacion/1-3-inicio-dashboard/)
+- [Inicio (Dashboard)](/manual/configuracion-de-equipos/1-3-inicio-dashboard/)
 
 ## Cuadrante
 
 - [Cuadrante Trabajador](/manual/planificacion/2-1-cuadrante-trabajador/)
 - [Cuadrante Anual](/manual/planificacion/2-2-cuadrante-anual/)
-- [Peticiones y cambios](/manual/peticiones-y-cambios/2-3-peticiones-y-cambios/)
+- [Peticiones y cambios](/manual/planificacion/2-3-peticiones-y-cambios/)
 - [Barra superior del cuadrante](/manual/planificacion/a-barra-superior-del-cuadrante/)
 - [Operativa diaria del cuadrante](/manual/planificacion/b-operativa-diaria-del-cuadrante/)
 
 ## Registro
 
-- [Acciones](/manual/planificacion/3-1-acciones/)
-- [Debe/Haber turnos](/manual/planificacion/3-2-debe-haber-turnos/)
+- [Acciones](/manual/registros/3-1-acciones/)
+- [Debe/Haber turnos](/manual/registros/3-2-debe-haber-turnos/)
 
 ## Estadísticas
 

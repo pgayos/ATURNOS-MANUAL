@@ -4,8 +4,8 @@ contentId: control-horario-5-17-flexibilidad-de-fichajes
 title: Flexibilidad de fichajes
 description: Los administradores pueden definir que los trabajadores tengan una hora inicio y fin entre la que fichar el turno planificado.
 contentType: concept
-module: Control horario
-submodule: Altas y bajas
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Flexibilidad de fichajes
 audience:

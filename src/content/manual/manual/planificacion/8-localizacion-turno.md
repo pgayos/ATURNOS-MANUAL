@@ -4,9 +4,9 @@ contentId: planificacion-8-localizacion-turno
 title: Localización turno
 description: Las localizaciones se pueden emplear para organizar un equipo en diferentes departamentos o localizaciones físicas, por ejemplo, diferentes puntos de venta o trabajadores que realizan la misma tarea.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Por localización"
 intent: Localización turno
 audience:
   - role: Administrador

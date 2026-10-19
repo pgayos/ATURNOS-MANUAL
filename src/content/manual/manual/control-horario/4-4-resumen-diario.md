@@ -4,8 +4,8 @@ contentId: control-horario-4-4-resumen-diario
 title: Resumen diario
 description: En definitiva los datos que aparecen en esta tabla son los siguientes:.
 contentType: concept
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Diario"
 subtopic: ""
 intent: Resumen diario
 audience:

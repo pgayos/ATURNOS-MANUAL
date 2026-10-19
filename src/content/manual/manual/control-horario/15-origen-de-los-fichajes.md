@@ -4,8 +4,8 @@ contentId: control-horario-15-origen-de-los-fichajes
 title: Origen de los fichajes
 description: La fuente pública de Origen de los fichajes contiene muy poca información textual.
 contentType: concept
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Origen de los fichajes
 audience:

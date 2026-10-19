@@ -4,8 +4,8 @@ contentId: tareas-3-favoritos
 title: Favoritos
 description: En aTurnos existe la funcionalidad Favoritos, tiene como objetivo facilitar la imputación de las tareas más frecuentes realizadas por el empleado.
 contentType: procedure
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Favoritos
 audience:

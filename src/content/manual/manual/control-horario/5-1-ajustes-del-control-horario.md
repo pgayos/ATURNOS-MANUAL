@@ -4,8 +4,8 @@ contentId: control-horario-5-1-ajustes-del-control-horario
 title: Ajustes del control horario
 description: El funcionamiento del control horario se basa en la configuración de los ajustes que se explican a continuación, así como de la privacidad del acceso a la información de los fichajes por par.
 contentType: reference
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Ajustes del control horario
 audience:

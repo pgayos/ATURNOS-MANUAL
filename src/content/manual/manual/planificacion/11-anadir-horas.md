@@ -4,9 +4,9 @@ contentId: planificacion-11-anadir-horas
 title: Añadir horas
 description: Con esta opción se pueden añadir horas, bien sean extra, complementarias o de cualquier otro tipo creado, en Planificador → Tipos de turno → Horas. Cómo planificar horas.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Añadir horas
 audience:
   - role: Administrador

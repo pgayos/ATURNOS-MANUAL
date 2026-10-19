@@ -236,13 +236,13 @@
   {
     "source": "/documentation/1-intercambio-de-turno/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/cambios-de-turno/",
+    "target": "/manual/planificacion/cambios-de-turno/",
     "condition": null
   },
   {
     "source": "/documentation/1-introduccion-2/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/guia-exportacion-nominas/",
+    "target": "/manual/nominas/guia-exportacion-nominas/",
     "condition": null
   },
   {
@@ -434,13 +434,13 @@
   {
     "source": "/documentation/2-cambio-por-libre-dejando-a-deber/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/cambios-de-turno/",
+    "target": "/manual/planificacion/cambios-de-turno/",
     "condition": null
   },
   {
     "source": "/documentation/2-configuracion-general-de-la-exportacion-a-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/guia-exportacion-nominas/",
+    "target": "/manual/nominas/guia-exportacion-nominas/",
     "condition": null
   },
   {
@@ -890,7 +890,7 @@
   {
     "source": "/documentation/3-cambio-por-libre-devolviendo-el-cambio/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/cambios-de-turno/",
+    "target": "/manual/planificacion/cambios-de-turno/",
     "condition": null
   },
   {
@@ -1088,7 +1088,7 @@
   {
     "source": "/documentation/3-proceso-de-exportacion-a-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/guia-exportacion-nominas/",
+    "target": "/manual/nominas/guia-exportacion-nominas/",
     "condition": null
   },
   {
@@ -1268,7 +1268,7 @@
   {
     "source": "/documentation/4-doblaje-de-turno/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/cambios-de-turno/",
+    "target": "/manual/planificacion/cambios-de-turno/",
     "condition": null
   },
   {
@@ -1352,7 +1352,7 @@
   {
     "source": "/documentation/4-tipos-de-conceptos-en-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/guia-exportacion-nominas/",
+    "target": "/manual/nominas/guia-exportacion-nominas/",
     "condition": null
   },
   {
@@ -1382,7 +1382,7 @@
   {
     "source": "/documentation/5-estadisticas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/guia-exportacion-nominas/",
+    "target": "/manual/nominas/guia-exportacion-nominas/",
     "condition": null
   },
   {
@@ -1418,7 +1418,7 @@
   {
     "source": "/documentation/6-ejemplo-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/guia-exportacion-nominas/",
+    "target": "/manual/nominas/guia-exportacion-nominas/",
     "condition": null
   },
   {
@@ -2060,7 +2060,7 @@
   {
     "source": "/documentation/introduccion-3/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/cambios-de-turno/",
+    "target": "/manual/planificacion/cambios-de-turno/",
     "condition": null
   },
   {
@@ -2222,25 +2222,25 @@
   {
     "source": "/knowledgebase/1-1-maestro-de-empleados/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-1-maestro-de-empleados/",
+    "target": "/manual/gestion-de-rrhh/1-1-maestro-de-empleados/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-1-modo-de-validacion-para-la-exportacion/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/1-1-modo-de-validacion-para-la-exportacion/",
+    "target": "/manual/nominas/1-1-modo-de-validacion-para-la-exportacion/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-1-mover-o-anadir-el-trabajador-a-otro-equipo/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/a-editar-mover-trabajadores-del-equipo/",
+    "target": "/manual/trabajadores/a-editar-mover-trabajadores-del-equipo/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-1-perfil-y-menu-principal-2/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-1-perfil-y-menu-principal-del-trabajador/",
+    "target": "/manual/trabajadores/1-1-perfil-y-menu-principal-del-trabajador/",
     "condition": null
   },
   {
@@ -2258,13 +2258,13 @@
   {
     "source": "/knowledgebase/1-10-jornadas/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/1-10-configuracion-de-jornadas/",
+    "target": "/manual/planificacion/1-10-configuracion-de-jornadas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-2-acceder-al-perfil-del-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/b-acceder-al-perfil-del-trabajador/",
+    "target": "/manual/trabajadores/b-acceder-al-perfil-del-trabajador/",
     "condition": null
   },
   {
@@ -2282,7 +2282,7 @@
   {
     "source": "/knowledgebase/1-2-descarga-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/1-2-descarga-de-nomina/",
+    "target": "/manual/nominas/1-2-descarga-de-nomina/",
     "condition": null
   },
   {
@@ -2300,13 +2300,13 @@
   {
     "source": "/knowledgebase/1-3-anadir-el-trabajador-a-mas-equipos/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/c-anadir-trabajadores-a-mas-equipos/",
+    "target": "/manual/trabajadores/c-anadir-trabajadores-a-mas-equipos/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
+    "target": "/manual/nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
     "condition": null
   },
   {
@@ -2318,25 +2318,25 @@
   {
     "source": "/knowledgebase/1-3-inicio-dashboard/",
     "status": "301",
-    "target": "/manual/planificacion/1-3-inicio-dashboard/",
+    "target": "/manual/configuracion-de-equipos/1-3-inicio-dashboard/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-3-inicio-widgets-2/",
     "status": "301",
-    "target": "/manual/planificacion/1-3-inicio-2-widgets/",
+    "target": "/manual/configuracion-de-equipos/1-3-inicio-2-widgets/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-3-inicio-widgets/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/1-3-inicio-widgets/",
+    "target": "/manual/configuracion-de-equipos/1-3-inicio-widgets/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-3-opciones-por-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-3-opciones-por-trabajador/",
+    "target": "/manual/trabajadores/1-3-opciones-por-trabajador/",
     "condition": null
   },
   {
@@ -2354,13 +2354,13 @@
   {
     "source": "/knowledgebase/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
     "status": "301",
-    "target": "/manual/planificacion/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
+    "target": "/manual/nominas/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-4-ver-periodos-y-eliminar-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/d-ver-periodos-y-eliminar-trabajador/",
+    "target": "/manual/trabajadores/d-ver-periodos-y-eliminar-trabajador/",
     "condition": null
   },
   {
@@ -2432,13 +2432,13 @@
   {
     "source": "/knowledgebase/1-cargar-la-demanda/",
     "status": "301",
-    "target": "/manual/planificacion/2-cargar-la-demanda/",
+    "target": "/manual/planificacion-avanzada/2-cargar-la-demanda/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-configuracion/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/1-configuracion-general/",
+    "target": "/manual/configuracion-de-equipos/1-configuracion-general/",
     "condition": null
   },
   {
@@ -2480,13 +2480,13 @@
   {
     "source": "/knowledgebase/1-hacer-cambio/",
     "status": "301",
-    "target": "/manual/general/hacer-cambio/",
+    "target": "/manual/planificacion/hacer-cambio/",
     "condition": null
   },
   {
     "source": "/knowledgebase/1-importacion-altas-de-trabajadores-basico/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion/",
+    "target": "/manual/gestion-de-rrhh/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion/",
     "condition": null
   },
   {
@@ -2510,7 +2510,7 @@
   {
     "source": "/knowledgebase/1-perfil-de-usuario/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-perfil-de-usuario/",
+    "target": "/manual/trabajadores/1-perfil-de-usuario/",
     "condition": null
   },
   {
@@ -2546,37 +2546,37 @@
   {
     "source": "/knowledgebase/1-ver-perfil/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-ver-perfil/",
+    "target": "/manual/trabajadores/1-ver-perfil/",
     "condition": null
   },
   {
     "source": "/knowledgebase/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
+    "target": "/manual/nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
     "condition": null
   },
   {
     "source": "/knowledgebase/10-1-listado-de-conceptos-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/6-1-listado-de-conceptos-de-nomina/",
+    "target": "/manual/nominas/6-1-listado-de-conceptos-de-nomina/",
     "condition": null
   },
   {
     "source": "/knowledgebase/10-2-cierre-por-empresa/",
     "status": "301",
-    "target": "/manual/planificacion/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/",
+    "target": "/manual/nominas/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/",
     "condition": null
   },
   {
     "source": "/knowledgebase/10-2-cierre-por-equipos/",
     "status": "301",
-    "target": "/manual/planificacion/6-2-cierre-por-equipos/",
+    "target": "/manual/nominas/6-2-cierre-por-equipos/",
     "condition": null
   },
   {
     "source": "/knowledgebase/10-3-borrar-concpetos-en-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/borrar-concpetos-en-nominas/",
+    "target": "/manual/nominas/borrar-concpetos-en-nominas/",
     "condition": null
   },
   {
@@ -2594,13 +2594,13 @@
   {
     "source": "/knowledgebase/10-4-exportar-a-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/10-4-exportar-a-nominas/",
+    "target": "/manual/nominas/10-4-exportar-a-nominas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/10-5-estadistica-todos-los-equipos/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/10-5-estadistica-todos-los-equipos/",
+    "target": "/manual/nominas/10-5-estadistica-todos-los-equipos/",
     "condition": null
   },
   {
@@ -2618,7 +2618,7 @@
   {
     "source": "/knowledgebase/10-6-estadistica-todos-los-equipos/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/6-5-estadistica-por-periodos-de-todos-los-equipos/",
+    "target": "/manual/nominas/6-5-estadistica-por-periodos-de-todos-los-equipos/",
     "condition": null
   },
   {
@@ -2630,19 +2630,19 @@
   {
     "source": "/knowledgebase/10-7-totalizada-por-equipo/",
     "status": "301",
-    "target": "/manual/planificacion/10-7-totalizada-por-equipo-validacion-del-cuadrante/",
+    "target": "/manual/nominas/10-7-totalizada-por-equipo-validacion-del-cuadrante/",
     "condition": null
   },
   {
     "source": "/knowledgebase/10-8-listado-de-comprobacion/",
     "status": "301",
-    "target": "/manual/planificacion/10-8-listado-de-comprobacion/",
+    "target": "/manual/nominas/10-8-listado-de-comprobacion/",
     "condition": null
   },
   {
     "source": "/knowledgebase/10-8-totalizada-por-equipo/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/6-7-totalizada-por-equipo/",
+    "target": "/manual/nominas/6-7-totalizada-por-equipo/",
     "condition": null
   },
   {
@@ -2660,7 +2660,7 @@
   {
     "source": "/knowledgebase/10-importar-posiciones/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/10-importar-posiciones/",
+    "target": "/manual/gestion-de-rrhh/10-importar-posiciones/",
     "condition": null
   },
   {
@@ -2690,25 +2690,25 @@
   {
     "source": "/knowledgebase/11-1-clonar-datos-2/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/11-1-clonar-datos/",
+    "target": "/manual/gestion-de-rrhh/11-1-clonar-datos/",
     "condition": null
   },
   {
     "source": "/knowledgebase/11-1-clonar-datos/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/7-1-clonacion-de-datos/",
+    "target": "/manual/gestion-de-rrhh/7-1-clonacion-de-datos/",
     "condition": null
   },
   {
     "source": "/knowledgebase/11-2-fusionar-usuarios/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/7-2-fusionar-usuarios/",
+    "target": "/manual/gestion-de-rrhh/7-2-fusionar-usuarios/",
     "condition": null
   },
   {
     "source": "/knowledgebase/11-3-estado-de-los-permisos/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/7-3-estado-de-los-permisos/",
+    "target": "/manual/planificacion/7-3-estado-de-los-permisos/",
     "condition": null
   },
   {
@@ -2720,7 +2720,7 @@
   {
     "source": "/knowledgebase/11-5-migrar-saldos-de-horas-y-vacaciones/",
     "status": "301",
-    "target": "/manual/planificacion/7-5-migrar-balance-de-horas-y-vacaciones/",
+    "target": "/manual/gestion-de-rrhh/7-5-migrar-balance-de-horas-y-vacaciones/",
     "condition": null
   },
   {
@@ -2756,7 +2756,7 @@
   {
     "source": "/knowledgebase/11-importacion-balance-de-ajustes-2/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/11-importar-balance-de-ajustes/",
+    "target": "/manual/gestion-de-rrhh/11-importar-balance-de-ajustes/",
     "condition": null
   },
   {
@@ -2780,7 +2780,7 @@
   {
     "source": "/knowledgebase/12-peticiones-de-reportes/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/8-1-peticiones-de-reportes/",
+    "target": "/manual/gestion-de-rrhh/8-1-peticiones-de-reportes/",
     "condition": null
   },
   {
@@ -2792,7 +2792,7 @@
   {
     "source": "/knowledgebase/13-alertas-por-localizacion/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/13-alertas-por-localizacion/",
+    "target": "/manual/reportes-estadisticos/13-alertas-por-localizacion/",
     "condition": null
   },
   {
@@ -2816,13 +2816,13 @@
   {
     "source": "/knowledgebase/14-alertas-por-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/14-alertas-por-trabajador/",
+    "target": "/manual/reportes-estadisticos/14-alertas-por-trabajador/",
     "condition": null
   },
   {
     "source": "/knowledgebase/14-importacion-de-festivos/",
     "status": "301",
-    "target": "/manual/planificacion/14-importar-dias-festivos-en-los-equipos/",
+    "target": "/manual/gestion-de-rrhh/14-importar-dias-festivos-en-los-equipos/",
     "condition": null
   },
   {
@@ -2900,7 +2900,7 @@
   {
     "source": "/knowledgebase/19-importacion-de-demanda-operaciones/",
     "status": "301",
-    "target": "/manual/planificacion/19-importacion-demandas-planificacion-automatica/",
+    "target": "/manual/planificacion-avanzada/19-importacion-demandas-planificacion-automatica/",
     "condition": null
   },
   {
@@ -2912,31 +2912,31 @@
   {
     "source": "/knowledgebase/2-1-2-conceptos-asociados-a-las-horas-personalizadas/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-1-2-conceptos-asociados-a-horas/",
+    "target": "/manual/nominas/conceptos-tipo-1-2-conceptos-asociados-a-horas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/2-1-3-conceptos-asociados-a-los-diashoras-por-turnos-planificadas/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/conceptos-tipo-1-3-conceptos-asociados-a-los-dias/",
+    "target": "/manual/nominas/conceptos-tipo-1-3-conceptos-asociados-a-los-dias/",
     "condition": null
   },
   {
     "source": "/knowledgebase/2-1-3-menu-del-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/menu-del-trabajador/",
+    "target": "/manual/trabajadores/menu-del-trabajador/",
     "condition": null
   },
   {
     "source": "/knowledgebase/2-1-4-conceptos-asociados-a-las-jornadas/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-1-4-conceptos-asociados-a-las-jornadas/",
+    "target": "/manual/nominas/conceptos-tipo-1-4-conceptos-asociados-a-las-jornadas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/2-1-conceptos-comunes-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/2-1-conceptos-comunes-de-nomina/",
+    "target": "/manual/nominas/2-1-conceptos-comunes-de-nomina/",
     "condition": null
   },
   {
@@ -2972,7 +2972,7 @@
   {
     "source": "/knowledgebase/2-2-conceptos-que-operan-entre-conceptos/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/2-2-conceptos-que-operan-entre-conceptos/",
+    "target": "/manual/nominas/2-2-conceptos-que-operan-entre-conceptos/",
     "condition": null
   },
   {
@@ -2996,7 +2996,7 @@
   {
     "source": "/knowledgebase/2-3-conceptos-de-comparacion/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/2-3-conceptos-comparacion/",
+    "target": "/manual/nominas/2-3-conceptos-comparacion/",
     "condition": null
   },
   {
@@ -3008,7 +3008,7 @@
   {
     "source": "/knowledgebase/2-3-datos-personalizados/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/2-3-datos-personalizados/",
+    "target": "/manual/trabajadores/2-3-datos-personalizados/",
     "condition": null
   },
   {
@@ -3020,19 +3020,19 @@
   {
     "source": "/knowledgebase/2-3-peticiones-y-cambios/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/2-3-peticiones-y-cambios/",
+    "target": "/manual/planificacion/2-3-peticiones-y-cambios/",
     "condition": null
   },
   {
     "source": "/knowledgebase/2-4-cuadrante-por-localizaciones/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/a-cuadrante-por-localizaciones/",
+    "target": "/manual/planificacion/a-cuadrante-por-localizaciones/",
     "condition": null
   },
   {
     "source": "/knowledgebase/2-4-datos-personalizados-por-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/2-4-datos-personalizados-por-trabajador/",
+    "target": "/manual/trabajadores/2-4-datos-personalizados-por-trabajador/",
     "condition": null
   },
   {
@@ -3104,7 +3104,7 @@
   {
     "source": "/knowledgebase/2-8-crear-nueva-oferta/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/2-8-crear-nueva-oferta/",
+    "target": "/manual/planificacion/2-8-crear-nueva-oferta/",
     "condition": null
   },
   {
@@ -3140,19 +3140,19 @@
   {
     "source": "/knowledgebase/2-cerrar-cuadrante/",
     "status": "301",
-    "target": "/manual/planificacion/2-cerrar-cuadrante/",
+    "target": "/manual/nominas/2-cerrar-cuadrante/",
     "condition": null
   },
   {
     "source": "/knowledgebase/2-conceptos-asociados-a-las-horas-por-turnos-computadas/",
     "status": "301",
-    "target": "/manual/planificacion/concepto-tipo-1-1-conceptos-relacionados-con-los-turnos/",
+    "target": "/manual/nominas/concepto-tipo-1-1-conceptos-relacionados-con-los-turnos/",
     "condition": null
   },
   {
     "source": "/knowledgebase/2-conceptos-de-calculo/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/2-conceptos-de-calculo/",
+    "target": "/manual/nominas/2-conceptos-de-calculo/",
     "condition": null
   },
   {
@@ -3170,13 +3170,13 @@
   {
     "source": "/knowledgebase/2-especialidades-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/2-especialidades-del-trabajador/",
+    "target": "/manual/trabajadores/2-especialidades-del-trabajador/",
     "condition": null
   },
   {
     "source": "/knowledgebase/2-estadisticas-de-absentismos-totales/",
     "status": "301",
-    "target": "/manual/planificacion/2-estadisticas-de-absentismos-totales/",
+    "target": "/manual/registros/2-estadisticas-de-absentismos-totales/",
     "condition": null
   },
   {
@@ -3260,7 +3260,7 @@
   {
     "source": "/knowledgebase/20-importacion-de-demanda-por-tipo-de-turno-operaciones/",
     "status": "301",
-    "target": "/manual/planificacion/20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica/",
+    "target": "/manual/planificacion-avanzada/20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica/",
     "condition": null
   },
   {
@@ -3272,43 +3272,43 @@
   {
     "source": "/knowledgebase/22-importar-acumulado-ano-anterior/",
     "status": "301",
-    "target": "/manual/documentos/22-importar-acumulado-ano-anterior-timecard/",
+    "target": "/manual/gestion-de-rrhh/22-importar-acumulado-ano-anterior-timecard/",
     "condition": null
   },
   {
     "source": "/knowledgebase/23-importacion-de-planificacion-con-patrones/",
     "status": "301",
-    "target": "/manual/planificacion/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones/",
+    "target": "/manual/gestion-de-rrhh/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones/",
     "condition": null
   },
   {
     "source": "/knowledgebase/24-importacion-de-ajustes-coeficiente-de-horas/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/24-importacion-de-ajustes-coeficiente-de-horas/",
+    "target": "/manual/gestion-de-rrhh/24-importacion-de-ajustes-coeficiente-de-horas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/25-importacion-turnos-absentismos-vacaciones/",
     "status": "301",
-    "target": "/manual/planificacion/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-localizaciones/",
+    "target": "/manual/gestion-de-rrhh/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-localizaciones/",
     "condition": null
   },
   {
     "source": "/knowledgebase/26-importar-datos-personalizados/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/26-importar-datos-personalizados/",
+    "target": "/manual/gestion-de-rrhh/26-importar-datos-personalizados/",
     "condition": null
   },
   {
     "source": "/knowledgebase/27-importar-peticiones/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/27-importar-peticiones/",
+    "target": "/manual/planificacion/27-importar-peticiones/",
     "condition": null
   },
   {
     "source": "/knowledgebase/3-1-acciones/",
     "status": "301",
-    "target": "/manual/planificacion/3-1-acciones/",
+    "target": "/manual/registros/3-1-acciones/",
     "condition": null
   },
   {
@@ -3320,7 +3320,7 @@
   {
     "source": "/knowledgebase/3-2-debe-haber-turnos/",
     "status": "301",
-    "target": "/manual/planificacion/3-2-debe-haber-turnos/",
+    "target": "/manual/registros/3-2-debe-haber-turnos/",
     "condition": null
   },
   {
@@ -3338,7 +3338,7 @@
   {
     "source": "/knowledgebase/3-3-calculadora/",
     "status": "301",
-    "target": "/manual/planificacion/3-3-calculadora/",
+    "target": "/manual/planificacion-avanzada/3-3-calculadora/",
     "condition": null
   },
   {
@@ -3368,7 +3368,7 @@
   {
     "source": "/knowledgebase/3-categoria-contrato/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/3-categoria-contrato/",
+    "target": "/manual/trabajadores/3-categoria-contrato/",
     "condition": null
   },
   {
@@ -3392,7 +3392,7 @@
   {
     "source": "/knowledgebase/3-datos-personalizados-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/3-datos-personalizados-del-trabajador/",
+    "target": "/manual/trabajadores/3-datos-personalizados-del-trabajador/",
     "condition": null
   },
   {
@@ -3410,7 +3410,7 @@
   {
     "source": "/knowledgebase/3-estadisticas-de-absentismos-temporales/",
     "status": "301",
-    "target": "/manual/planificacion/3-estadisticas-de-absentismos-temporales/",
+    "target": "/manual/registros/3-estadisticas-de-absentismos-temporales/",
     "condition": null
   },
   {
@@ -3428,7 +3428,7 @@
   {
     "source": "/knowledgebase/3-importacion-de-horas-normales-extra-y-complementarias/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/3-importar-horas-al-trabajador-normales-extra-y-complementarias/",
+    "target": "/manual/gestion-de-rrhh/3-importar-horas-al-trabajador-normales-extra-y-complementarias/",
     "condition": null
   },
   {
@@ -3452,7 +3452,7 @@
   {
     "source": "/knowledgebase/3-sobre-el-cumplimiento-de-la-demanda/",
     "status": "301",
-    "target": "/manual/planificacion/11-sobre-el-cumplimiento-de-la-demanda/",
+    "target": "/manual/planificacion-avanzada/11-sobre-el-cumplimiento-de-la-demanda/",
     "condition": null
   },
   {
@@ -3464,7 +3464,7 @@
   {
     "source": "/knowledgebase/3-tablas-de-cobertura/",
     "status": "301",
-    "target": "/manual/planificacion/5-2-tablas-de-cobertura/",
+    "target": "/manual/planificacion-avanzada/5-2-tablas-de-cobertura/",
     "condition": null
   },
   {
@@ -3482,7 +3482,7 @@
   {
     "source": "/knowledgebase/4-1-acciones/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/4-1-acciones/",
+    "target": "/manual/registros/4-1-acciones/",
     "condition": null
   },
   {
@@ -3584,7 +3584,7 @@
   {
     "source": "/knowledgebase/4-6-debe-haber-turnos/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/4-6-cambios-a-deber/",
+    "target": "/manual/registros/4-6-cambios-a-deber/",
     "condition": null
   },
   {
@@ -3626,7 +3626,7 @@
   {
     "source": "/knowledgebase/4-ajustar-guardias-localizadas/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/4-ajustar-guardias-localizadas/",
+    "target": "/manual/control-horario/4-ajustar-guardias-localizadas/",
     "condition": null
   },
   {
@@ -3644,7 +3644,7 @@
   {
     "source": "/knowledgebase/4-estadisticas-trabajador/",
     "status": "301",
-    "target": "/manual/planificacion/4-estadisticas-del-trabajador/",
+    "target": "/manual/reportes-estadisticos/4-estadisticas-del-trabajador/",
     "condition": null
   },
   {
@@ -3656,7 +3656,7 @@
   {
     "source": "/knowledgebase/4-exportacion-a-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/4-exportacion-a-nominas/",
+    "target": "/manual/nominas/4-exportacion-a-nominas/",
     "condition": null
   },
   {
@@ -3680,7 +3680,7 @@
   {
     "source": "/knowledgebase/4-listado-de-peticiones-pendientes/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/2-9-listado-de-peticiones-pendientes/",
+    "target": "/manual/planificacion/2-9-listado-de-peticiones-pendientes/",
     "condition": null
   },
   {
@@ -3704,7 +3704,7 @@
   {
     "source": "/knowledgebase/4-plantilla-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/4-plantilla-de-nomina/",
+    "target": "/manual/nominas/4-plantilla-de-nomina/",
     "condition": null
   },
   {
@@ -3716,7 +3716,7 @@
   {
     "source": "/knowledgebase/4-resumen-estadisticas-de-absentismos/",
     "status": "301",
-    "target": "/manual/planificacion/4-resumen-estadisticas-de-absentismos/",
+    "target": "/manual/registros/4-resumen-estadisticas-de-absentismos/",
     "condition": null
   },
   {
@@ -3770,7 +3770,7 @@
   {
     "source": "/knowledgebase/5-12-ajustes-automaticos/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/5-12-ajustes-automaticos/",
+    "target": "/manual/configuracion-de-equipos/5-12-ajustes-automaticos/",
     "condition": null
   },
   {
@@ -3830,25 +3830,25 @@
   {
     "source": "/knowledgebase/5-5-privacidad/",
     "status": "301",
-    "target": "/manual/control-horario/5-5-privacidad/",
+    "target": "/manual/configuracion-de-equipos/5-5-privacidad/",
     "condition": null
   },
   {
     "source": "/knowledgebase/5-6-notificaciones/",
     "status": "301",
-    "target": "/manual/control-horario/5-6-notificaciones/",
+    "target": "/manual/configuracion-de-equipos/5-6-notificaciones/",
     "condition": null
   },
   {
     "source": "/knowledgebase/5-7-visualizacion-de-detalle/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/5-7-visualizacion-de-detalle/",
+    "target": "/manual/configuracion-de-equipos/5-7-visualizacion-de-detalle/",
     "condition": null
   },
   {
     "source": "/knowledgebase/5-8-configuracion-de-guardias/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/5-8-configuracion-de-guardias/",
+    "target": "/manual/control-horario/5-8-configuracion-de-guardias/",
     "condition": null
   },
   {
@@ -3884,7 +3884,7 @@
   {
     "source": "/knowledgebase/5-cuadrante-por-localizaciones/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/5-1-cuadrante-por-localizaciones/",
+    "target": "/manual/planificacion/5-1-cuadrante-por-localizaciones/",
     "condition": null
   },
   {
@@ -3914,13 +3914,13 @@
   {
     "source": "/knowledgebase/5-listado-de-absentismos-temporales/",
     "status": "301",
-    "target": "/manual/planificacion/5-listado-de-absentismos-temporales/",
+    "target": "/manual/registros/5-listado-de-absentismos-temporales/",
     "condition": null
   },
   {
     "source": "/knowledgebase/5-log-de-equipos/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/4-1-log-de-equipos/",
+    "target": "/manual/gestion-de-rrhh/4-1-log-de-equipos/",
     "condition": null
   },
   {
@@ -3962,7 +3962,7 @@
   {
     "source": "/knowledgebase/5-tabla-de-cobertura/",
     "status": "301",
-    "target": "/manual/planificacion/6-tabla-de-cobertura/",
+    "target": "/manual/planificacion-avanzada/6-tabla-de-cobertura/",
     "condition": null
   },
   {
@@ -3974,7 +3974,7 @@
   {
     "source": "/knowledgebase/6-1-reportes-por-trabajadores/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/6-1-reportes-de-trabajadores/",
+    "target": "/manual/reportes-estadisticos/6-1-reportes-de-trabajadores/",
     "condition": null
   },
   {
@@ -3992,7 +3992,7 @@
   {
     "source": "/knowledgebase/6-2-reporte-de-localizaciones/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/6-2-reporte-de-localizaciones/",
+    "target": "/manual/reportes-estadisticos/6-2-reporte-de-localizaciones/",
     "condition": null
   },
   {
@@ -4034,7 +4034,7 @@
   {
     "source": "/knowledgebase/6-6-configuracion/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/6-6-configuracion/",
+    "target": "/manual/configuracion-de-equipos/6-6-configuracion/",
     "condition": null
   },
   {
@@ -4058,7 +4058,7 @@
   {
     "source": "/knowledgebase/6-analisis-semanal/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/7-analisis-semanal/",
+    "target": "/manual/reportes-estadisticos/7-analisis-semanal/",
     "condition": null
   },
   {
@@ -4082,13 +4082,13 @@
   {
     "source": "/knowledgebase/6-importar-ofertas-de-horas/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/6-importar-ofertas-de-horas/",
+    "target": "/manual/planificacion/6-importar-ofertas-de-horas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/6-informes-y-ratios-de-absentismos/",
     "status": "301",
-    "target": "/manual/planificacion/6-informes-y-ratios-de-absentismos/",
+    "target": "/manual/registros/6-informes-y-ratios-de-absentismos/",
     "condition": null
   },
   {
@@ -4112,7 +4112,7 @@
   {
     "source": "/knowledgebase/6-periodos-de-absentismos/",
     "status": "301",
-    "target": "/manual/planificacion/6-periodos-de-absentismos/",
+    "target": "/manual/registros/6-periodos-de-absentismos/",
     "condition": null
   },
   {
@@ -4124,13 +4124,13 @@
   {
     "source": "/knowledgebase/6-sustituciones/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/6-sustituciones/",
+    "target": "/manual/trabajadores/6-sustituciones/",
     "condition": null
   },
   {
     "source": "/knowledgebase/6-tabla-de-cobertura/",
     "status": "301",
-    "target": "/manual/planificacion/f-tabla-de-cobertura/",
+    "target": "/manual/planificacion-avanzada/f-tabla-de-cobertura/",
     "condition": null
   },
   {
@@ -4202,7 +4202,7 @@
   {
     "source": "/knowledgebase/7-5-periodos-de-vacaciones/",
     "status": "301",
-    "target": "/manual/planificacion/2-5-periodos-de-vacaciones/",
+    "target": "/manual/registros/2-5-periodos-de-vacaciones/",
     "condition": null
   },
   {
@@ -4214,7 +4214,7 @@
   {
     "source": "/knowledgebase/7-6-periodos-de-vacaciones-por-ano/",
     "status": "301",
-    "target": "/manual/planificacion/2-6-periodos-de-vacaciones-por-ano/",
+    "target": "/manual/registros/2-6-periodos-de-vacaciones-por-ano/",
     "condition": null
   },
   {
@@ -4226,13 +4226,13 @@
   {
     "source": "/knowledgebase/7-8-exportar-cuadrante-anual/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/2-8-exportar-cuadrante-anual/",
+    "target": "/manual/planificacion/2-8-exportar-cuadrante-anual/",
     "condition": null
   },
   {
     "source": "/knowledgebase/7-9-activar-usuarios/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/7-9-activar-usuarios/",
+    "target": "/manual/trabajadores/7-9-activar-usuarios/",
     "condition": null
   },
   {
@@ -4334,7 +4334,7 @@
   {
     "source": "/knowledgebase/8-2-informe-y-ratios-de-absentismos/",
     "status": "301",
-    "target": "/manual/planificacion/3-3-informe-y-ratios-de-absentimos/",
+    "target": "/manual/registros/3-3-informe-y-ratios-de-absentimos/",
     "condition": null
   },
   {
@@ -4346,13 +4346,13 @@
   {
     "source": "/knowledgebase/8-6-reportes-por-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-reportes-por-trabajador/",
+    "target": "/manual/reportes-estadisticos/1-reportes-por-trabajador/",
     "condition": null
   },
   {
     "source": "/knowledgebase/8-8-configuracion-reportes-rrhh/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-configuracion-reportes-rrhh/",
+    "target": "/manual/reportes-estadisticos/1-configuracion-reportes-rrhh/",
     "condition": null
   },
   {
@@ -4400,7 +4400,7 @@
   {
     "source": "/knowledgebase/8-informacion-y-tabla-de-cobertura-de-patron/",
     "status": "301",
-    "target": "/manual/planificacion/8-tabla-de-cobertura-de-patron/",
+    "target": "/manual/planificacion-avanzada/8-tabla-de-cobertura-de-patron/",
     "condition": null
   },
   {
@@ -4412,7 +4412,7 @@
   {
     "source": "/knowledgebase/8-peticiones/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/7-peticiones/",
+    "target": "/manual/planificacion/7-peticiones/",
     "condition": null
   },
   {
@@ -4424,7 +4424,7 @@
   {
     "source": "/knowledgebase/9-1-integracion-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/9-1-integracion-nominas/",
+    "target": "/manual/nominas/9-1-integracion-nominas/",
     "condition": null
   },
   {
@@ -4436,7 +4436,7 @@
   {
     "source": "/knowledgebase/9-11-jornadas-ii/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/i-jornadas-ii/",
+    "target": "/manual/planificacion/i-jornadas-ii/",
     "condition": null
   },
   {
@@ -4466,7 +4466,7 @@
   {
     "source": "/knowledgebase/9-importar-tabla-de-coeficiente/",
     "status": "301",
-    "target": "/manual/documentos/9-importar-tabla-de-coeficiente/",
+    "target": "/manual/gestion-de-rrhh/9-importar-tabla-de-coeficiente/",
     "condition": null
   },
   {
@@ -4484,7 +4484,7 @@
   {
     "source": "/knowledgebase/a-anadir-un-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/a-anadir-trabajador/",
+    "target": "/manual/trabajadores/a-anadir-trabajador/",
     "condition": null
   },
   {
@@ -4496,13 +4496,13 @@
   {
     "source": "/knowledgebase/a-configuracion/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/a-configuracion/",
+    "target": "/manual/configuracion-de-equipos/a-configuracion/",
     "condition": null
   },
   {
     "source": "/knowledgebase/a-datos-personalizados/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/a-datos-personalizados/",
+    "target": "/manual/trabajadores/a-datos-personalizados/",
     "condition": null
   },
   {
@@ -4514,7 +4514,7 @@
   {
     "source": "/knowledgebase/a-hacer-cambio-2/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/1-hacer-cambio-de-turno/",
+    "target": "/manual/planificacion/1-hacer-cambio-de-turno/",
     "condition": null
   },
   {
@@ -4646,19 +4646,19 @@
   {
     "source": "/knowledgebase/b-conceptos-en-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/3-1-conceptos-en-nomina/",
+    "target": "/manual/nominas/3-1-conceptos-en-nomina/",
     "condition": null
   },
   {
     "source": "/knowledgebase/b-datos-del-equipo/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/b-datos-del-equipo/",
+    "target": "/manual/configuracion-de-equipos/b-datos-del-equipo/",
     "condition": null
   },
   {
     "source": "/knowledgebase/b-especialidades/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/b-especialidades/",
+    "target": "/manual/trabajadores/b-especialidades/",
     "condition": null
   },
   {
@@ -4676,7 +4676,7 @@
   {
     "source": "/knowledgebase/b-reportes-por-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-reportes-por-trabajador/",
+    "target": "/manual/reportes-estadisticos/1-reportes-por-trabajador/",
     "condition": null
   },
   {
@@ -4730,7 +4730,7 @@
   {
     "source": "/knowledgebase/c-categoria/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/c-categoria/",
+    "target": "/manual/trabajadores/c-categoria/",
     "condition": null
   },
   {
@@ -4742,7 +4742,7 @@
   {
     "source": "/knowledgebase/c-dar-de-baja-un-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/c-dar-de-baja-un-trabajador/",
+    "target": "/manual/trabajadores/c-dar-de-baja-un-trabajador/",
     "condition": null
   },
   {
@@ -4754,19 +4754,19 @@
   {
     "source": "/knowledgebase/c-periodos-de-absentismo/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/c-periodos-de-absentismo/",
+    "target": "/manual/registros/c-periodos-de-absentismo/",
     "condition": null
   },
   {
     "source": "/knowledgebase/c-plantilla-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/4-1-plantilla-de-nomina/",
+    "target": "/manual/nominas/4-1-plantilla-de-nomina/",
     "condition": null
   },
   {
     "source": "/knowledgebase/c-privacidad/",
     "status": "301",
-    "target": "/manual/planificacion/c-privacidad/",
+    "target": "/manual/configuracion-de-equipos/c-privacidad/",
     "condition": null
   },
   {
@@ -4820,43 +4820,43 @@
   {
     "source": "/knowledgebase/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/",
     "status": "301",
-    "target": "/manual/control-horario/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/",
+    "target": "/manual/nominas/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/",
     "condition": null
   },
   {
     "source": "/knowledgebase/conceptos-tipo-2-conceptos-asociados-a-las-horas-de-la-duracion-computada-de-los-turnos/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/",
+    "target": "/manual/nominas/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/",
     "condition": null
   },
   {
     "source": "/knowledgebase/conceptos-tipo-3-conceptos-asociados-a-las-horas-de-la-duracion-total-de-los-turnos/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/",
+    "target": "/manual/nominas/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/",
     "condition": null
   },
   {
     "source": "/knowledgebase/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
+    "target": "/manual/nominas/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
     "condition": null
   },
   {
     "source": "/knowledgebase/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/",
+    "target": "/manual/nominas/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/conceptos-tipo-6-conceptos-asociados-a-los-datos-personalizados/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/conceptos-tipo-6-conceptos-asociados-a-los-datos-personalizados/",
+    "target": "/manual/nominas/conceptos-tipo-6-conceptos-asociados-a-los-datos-personalizados/",
     "condition": null
   },
   {
     "source": "/knowledgebase/conceptos-tipo-7-conceptos-asociados-al-perfil-del-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/conceptos-tipo-7-conceptos-asociados-al-perfil-del-trabajador/",
+    "target": "/manual/nominas/conceptos-tipo-7-conceptos-asociados-al-perfil-del-trabajador/",
     "condition": null
   },
   {
@@ -4868,7 +4868,7 @@
   {
     "source": "/knowledgebase/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
+    "target": "/manual/nominas/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
     "condition": null
   },
   {
@@ -4982,7 +4982,7 @@
   {
     "source": "/knowledgebase/d-horas-en-los-equipos/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-horas-en-los-equipos/",
+    "target": "/manual/planificacion/1-horas-en-los-equipos/",
     "condition": null
   },
   {
@@ -4994,7 +4994,7 @@
   {
     "source": "/knowledgebase/d-perfiles/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/d-perfiles/",
+    "target": "/manual/trabajadores/d-perfiles/",
     "condition": null
   },
   {
@@ -5072,7 +5072,7 @@
   {
     "source": "/knowledgebase/e-estadisticas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/6-1-estadistica-por-periodo/",
+    "target": "/manual/nominas/6-1-estadistica-por-periodo/",
     "condition": null
   },
   {
@@ -5096,25 +5096,25 @@
   {
     "source": "/knowledgebase/e-peticiones/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/e-peticiones/",
+    "target": "/manual/planificacion/e-peticiones/",
     "condition": null
   },
   {
     "source": "/knowledgebase/e-reporte-detalles-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-reporte-detalles-trabajador/",
+    "target": "/manual/reportes-estadisticos/1-reporte-detalles-trabajador/",
     "condition": null
   },
   {
     "source": "/knowledgebase/e-tipos-de-horas/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/d-tipos-de-horas/",
+    "target": "/manual/planificacion/d-tipos-de-horas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/e-visualizacion/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/f-visualizacion/",
+    "target": "/manual/configuracion-de-equipos/f-visualizacion/",
     "condition": null
   },
   {
@@ -5150,7 +5150,7 @@
   {
     "source": "/knowledgebase/estado-por-localizaciones/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/estado-por-localizaciones/",
+    "target": "/manual/reportes-estadisticos/estado-por-localizaciones/",
     "condition": null
   },
   {
@@ -5168,7 +5168,7 @@
   {
     "source": "/knowledgebase/f-configuracion-reportes-rrhh/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-configuracion-reportes-rrhh/",
+    "target": "/manual/reportes-estadisticos/1-configuracion-reportes-rrhh/",
     "condition": null
   },
   {
@@ -5186,7 +5186,7 @@
   {
     "source": "/knowledgebase/f-variables-del-listado-de-trabajadores/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/f-variables-del-listado-de-trabajadores/",
+    "target": "/manual/trabajadores/f-variables-del-listado-de-trabajadores/",
     "condition": null
   },
   {
@@ -5210,7 +5210,7 @@
   {
     "source": "/knowledgebase/g-acciones-automaticas/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/g-acciones-automaticas/",
+    "target": "/manual/configuracion-de-equipos/g-acciones-automaticas/",
     "condition": null
   },
   {
@@ -5228,7 +5228,7 @@
   {
     "source": "/knowledgebase/g-notificaciones/",
     "status": "301",
-    "target": "/manual/planificacion/h-notificaciones/",
+    "target": "/manual/configuracion-de-equipos/h-notificaciones/",
     "condition": null
   },
   {
@@ -5240,7 +5240,7 @@
   {
     "source": "/knowledgebase/h-pantalla-de-inicio/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/i-pantalla-de-inicio/",
+    "target": "/manual/configuracion-de-equipos/i-pantalla-de-inicio/",
     "condition": null
   },
   {
@@ -5420,7 +5420,7 @@
   {
     "source": "/knowledgebase/i-peticiones/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/10-peticiones/",
+    "target": "/manual/planificacion/10-peticiones/",
     "condition": null
   },
   {
@@ -5486,19 +5486,19 @@
   {
     "source": "/knowledgebase/lanzar-ofertas/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/lanzar-ofertas/",
+    "target": "/manual/planificacion/lanzar-ofertas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/lanzar-peticiones-y-cambios/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/lanzar-peticiones-y-cambios/",
+    "target": "/manual/planificacion/lanzar-peticiones-y-cambios/",
     "condition": null
   },
   {
     "source": "/knowledgebase/listado-de-trabajadores/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/listado-de-trabajadores/",
+    "target": "/manual/trabajadores/listado-de-trabajadores/",
     "condition": null
   },
   {
@@ -5522,13 +5522,13 @@
   {
     "source": "/knowledgebase/migrar-saldos-del-acumulado-del-estado-de-horas/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/migrar-saldos-del-acumulado-del-estado-de-horas/",
+    "target": "/manual/gestion-de-rrhh/migrar-saldos-del-acumulado-del-estado-de-horas/",
     "condition": null
   },
   {
     "source": "/knowledgebase/mis-equipos/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/1-4-mis-equipos/",
+    "target": "/manual/trabajadores/1-4-mis-equipos/",
     "condition": null
   },
   {
@@ -5546,7 +5546,7 @@
   {
     "source": "/knowledgebase/o-copiar-dia/",
     "status": "301",
-    "target": "/manual/general/17-copiar-dia/",
+    "target": "/manual/planificacion/17-copiar-dia/",
     "condition": null
   },
   {
@@ -5690,13 +5690,13 @@
   {
     "source": "/knowledgebase/timecard-por-localizacion/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/timecard-por-localizacion/",
+    "target": "/manual/nominas/timecard-por-localizacion/",
     "condition": null
   },
   {
     "source": "/knowledgebase/timecard-totalizado/",
     "status": "301",
-    "target": "/manual/general/timecard-totalizado/",
+    "target": "/manual/nominas/timecard-totalizado/",
     "condition": null
   },
   {
@@ -5822,7 +5822,25 @@
   {
     "source": "/manual/app-movil/6-informes-y-ratios-de-absentismos/",
     "status": "301",
-    "target": "/manual/planificacion/6-informes-y-ratios-de-absentismos/",
+    "target": "/manual/registros/6-informes-y-ratios-de-absentismos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/1-10-configuracion-de-jornadas/",
+    "status": "301",
+    "target": "/manual/planificacion/1-10-configuracion-de-jornadas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/1-3-inicio-widgets/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/1-3-inicio-widgets/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/1-configuracion-general/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/1-configuracion-general/",
     "condition": null
   },
   {
@@ -5834,13 +5852,13 @@
   {
     "source": "/manual/configuracion-y-cuenta/1-hacer-cambio-de-turno/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/1-hacer-cambio-de-turno/",
+    "target": "/manual/planificacion/1-hacer-cambio-de-turno/",
     "condition": null
   },
   {
     "source": "/manual/configuracion-y-cuenta/10-5-estadistica-todos-los-equipos/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/10-5-estadistica-todos-los-equipos/",
+    "target": "/manual/nominas/10-5-estadistica-todos-los-equipos/",
     "condition": null
   },
   {
@@ -5856,15 +5874,57 @@
     "condition": null
   },
   {
+    "source": "/manual/configuracion-y-cuenta/24-importacion-de-ajustes-coeficiente-de-horas/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/24-importacion-de-ajustes-coeficiente-de-horas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/4-ajustar-guardias-localizadas/",
+    "status": "301",
+    "target": "/manual/control-horario/4-ajustar-guardias-localizadas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/5-12-ajustes-automaticos/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/5-12-ajustes-automaticos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/5-8-configuracion-de-guardias/",
+    "status": "301",
+    "target": "/manual/control-horario/5-8-configuracion-de-guardias/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/6-6-configuracion/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/6-6-configuracion/",
+    "condition": null
+  },
+  {
     "source": "/manual/configuracion-y-cuenta/7-peticiones/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/7-peticiones/",
+    "target": "/manual/planificacion/7-peticiones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/a-configuracion/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/a-configuracion/",
     "condition": null
   },
   {
     "source": "/manual/configuracion-y-cuenta/b-absentismos/",
     "status": "301",
     "target": "/manual/planificacion/b-absentismos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/b-datos-del-equipo/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/b-datos-del-equipo/",
     "condition": null
   },
   {
@@ -5876,13 +5936,13 @@
   {
     "source": "/manual/configuracion-y-cuenta/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/",
+    "target": "/manual/nominas/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/",
     "condition": null
   },
   {
     "source": "/manual/configuracion-y-cuenta/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
+    "target": "/manual/nominas/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
     "condition": null
   },
   {
@@ -5892,9 +5952,27 @@
     "condition": null
   },
   {
+    "source": "/manual/configuracion-y-cuenta/g-acciones-automaticas/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/g-acciones-automaticas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/i-jornadas-ii/",
+    "status": "301",
+    "target": "/manual/planificacion/i-jornadas-ii/",
+    "condition": null
+  },
+  {
+    "source": "/manual/configuracion-y-cuenta/i-pantalla-de-inicio/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/i-pantalla-de-inicio/",
+    "condition": null
+  },
+  {
     "source": "/manual/configuracion-y-cuenta/listado-de-trabajadores/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/listado-de-trabajadores/",
+    "target": "/manual/trabajadores/listado-de-trabajadores/",
     "condition": null
   },
   {
@@ -5916,9 +5994,141 @@
     "condition": null
   },
   {
+    "source": "/manual/control-horario/5-5-privacidad/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/5-5-privacidad/",
+    "condition": null
+  },
+  {
+    "source": "/manual/control-horario/5-6-notificaciones/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/5-6-notificaciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/control-horario/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/",
+    "condition": null
+  },
+  {
+    "source": "/manual/control-horario/prueba-subtopic-aprobar-vacaciones/",
+    "status": "301",
+    "target": "/manual/planificacion/prueba-subtopic-aprobar-vacaciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/control-horario/prueba-subtopic-solicitar-vacaciones/",
+    "status": "301",
+    "target": "/manual/planificacion/prueba-subtopic-solicitar-vacaciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/1-1-modo-de-validacion-para-la-exportacion/",
+    "status": "301",
+    "target": "/manual/nominas/1-1-modo-de-validacion-para-la-exportacion/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/1-2-descarga-de-nomina/",
+    "status": "301",
+    "target": "/manual/nominas/1-2-descarga-de-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
+    "status": "301",
+    "target": "/manual/nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
+    "status": "301",
+    "target": "/manual/nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/10-4-exportar-a-nominas/",
+    "status": "301",
+    "target": "/manual/nominas/10-4-exportar-a-nominas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/10-5-estadistica-todos-los-equipos/",
+    "status": "301",
+    "target": "/manual/nominas/10-5-estadistica-todos-los-equipos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/2-1-conceptos-comunes-de-nomina/",
+    "status": "301",
+    "target": "/manual/nominas/2-1-conceptos-comunes-de-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/2-conceptos-de-calculo/",
+    "status": "301",
+    "target": "/manual/nominas/2-conceptos-de-calculo/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/3-1-conceptos-en-nomina/",
+    "status": "301",
+    "target": "/manual/nominas/3-1-conceptos-en-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/4-1-plantilla-de-nomina/",
+    "status": "301",
+    "target": "/manual/nominas/4-1-plantilla-de-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/4-exportacion-a-nominas/",
+    "status": "301",
+    "target": "/manual/nominas/4-exportacion-a-nominas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/4-plantilla-de-nomina/",
+    "status": "301",
+    "target": "/manual/nominas/4-plantilla-de-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/6-1-estadistica-por-periodo/",
+    "status": "301",
+    "target": "/manual/nominas/6-1-estadistica-por-periodo/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/6-1-listado-de-conceptos-de-nomina/",
+    "status": "301",
+    "target": "/manual/nominas/6-1-listado-de-conceptos-de-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/9-1-integracion-nominas/",
+    "status": "301",
+    "target": "/manual/nominas/9-1-integracion-nominas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/borrar-concpetos-en-nominas/",
+    "status": "301",
+    "target": "/manual/nominas/borrar-concpetos-en-nominas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/costes-y-nominas/guia-exportacion-nominas/",
+    "status": "301",
+    "target": "/manual/nominas/guia-exportacion-nominas/",
+    "condition": null
+  },
+  {
     "source": "/manual/documentos/10-importar-posiciones/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/10-importar-posiciones/",
+    "target": "/manual/gestion-de-rrhh/10-importar-posiciones/",
     "condition": null
   },
   {
@@ -5930,7 +6140,7 @@
   {
     "source": "/manual/documentos/14-importar-dias-festivos-en-los-equipos/",
     "status": "301",
-    "target": "/manual/planificacion/14-importar-dias-festivos-en-los-equipos/",
+    "target": "/manual/gestion-de-rrhh/14-importar-dias-festivos-en-los-equipos/",
     "condition": null
   },
   {
@@ -5952,21 +6162,39 @@
     "condition": null
   },
   {
+    "source": "/manual/documentos/22-importar-acumulado-ano-anterior-timecard/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/22-importar-acumulado-ano-anterior-timecard/",
+    "condition": null
+  },
+  {
     "source": "/manual/documentos/4-importacion-de-catalogos-de-tareas/",
     "status": "301",
     "target": "/manual/tareas/4-importacion-de-catalogos-de-tareas/",
     "condition": null
   },
   {
+    "source": "/manual/documentos/9-importar-tabla-de-coeficiente/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/9-importar-tabla-de-coeficiente/",
+    "condition": null
+  },
+  {
+    "source": "/manual/general/17-copiar-dia/",
+    "status": "301",
+    "target": "/manual/planificacion/17-copiar-dia/",
+    "condition": null
+  },
+  {
     "source": "/manual/general/2-conceptos-de-calculo/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/2-conceptos-de-calculo/",
+    "target": "/manual/nominas/2-conceptos-de-calculo/",
     "condition": null
   },
   {
     "source": "/manual/general/2-estadisticas-de-absentismos-totales/",
     "status": "301",
-    "target": "/manual/planificacion/2-estadisticas-de-absentismos-totales/",
+    "target": "/manual/registros/2-estadisticas-de-absentismos-totales/",
     "condition": null
   },
   {
@@ -5978,19 +6206,19 @@
   {
     "source": "/manual/general/3-estadisticas-de-absentismos-temporales/",
     "status": "301",
-    "target": "/manual/planificacion/3-estadisticas-de-absentismos-temporales/",
+    "target": "/manual/registros/3-estadisticas-de-absentismos-temporales/",
     "condition": null
   },
   {
     "source": "/manual/general/4-resumen-estadisticas-de-absentismos/",
     "status": "301",
-    "target": "/manual/planificacion/4-resumen-estadisticas-de-absentismos/",
+    "target": "/manual/registros/4-resumen-estadisticas-de-absentismos/",
     "condition": null
   },
   {
     "source": "/manual/general/5-listado-de-absentismos-temporales/",
     "status": "301",
-    "target": "/manual/planificacion/5-listado-de-absentismos-temporales/",
+    "target": "/manual/registros/5-listado-de-absentismos-temporales/",
     "condition": null
   },
   {
@@ -6008,7 +6236,7 @@
   {
     "source": "/manual/general/borrar-concpetos-en-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/borrar-concpetos-en-nominas/",
+    "target": "/manual/nominas/borrar-concpetos-en-nominas/",
     "condition": null
   },
   {
@@ -6018,9 +6246,15 @@
     "condition": null
   },
   {
+    "source": "/manual/general/hacer-cambio/",
+    "status": "301",
+    "target": "/manual/planificacion/hacer-cambio/",
+    "condition": null
+  },
+  {
     "source": "/manual/general/menu-del-trabajador/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/menu-del-trabajador/",
+    "target": "/manual/trabajadores/menu-del-trabajador/",
     "condition": null
   },
   {
@@ -6030,27 +6264,93 @@
     "condition": null
   },
   {
+    "source": "/manual/general/timecard-totalizado/",
+    "status": "301",
+    "target": "/manual/nominas/timecard-totalizado/",
+    "condition": null
+  },
+  {
     "source": "/manual/general/turnos/",
     "status": "301",
     "target": "/manual/planificacion/turnos/",
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/1-1-maestro-de-empleados/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/1-1-maestro-de-empleados/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/1-1-modo-de-validacion-para-la-exportacion/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/1-1-modo-de-validacion-para-la-exportacion/",
+    "target": "/manual/nominas/1-1-modo-de-validacion-para-la-exportacion/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/1-1-perfil-y-menu-principal-del-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/1-1-perfil-y-menu-principal-del-trabajador/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/1-2-descarga-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/1-2-descarga-de-nomina/",
+    "target": "/manual/nominas/1-2-descarga-de-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/1-3-opciones-por-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/1-3-opciones-por-trabajador/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/1-4-mis-equipos/",
+    "status": "301",
+    "target": "/manual/trabajadores/1-4-mis-equipos/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
     "status": "301",
-    "target": "/manual/planificacion/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
+    "target": "/manual/nominas/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/1-configuracion-reportes-rrhh/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/1-configuracion-reportes-rrhh/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/1-horas-en-los-equipos/",
+    "status": "301",
+    "target": "/manual/planificacion/1-horas-en-los-equipos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/1-perfil-de-usuario/",
+    "status": "301",
+    "target": "/manual/trabajadores/1-perfil-de-usuario/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/1-reporte-detalles-trabajador/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/1-reporte-detalles-trabajador/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/1-reportes-por-trabajador/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/1-reportes-por-trabajador/",
     "condition": null
   },
   {
@@ -6066,27 +6366,51 @@
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/1-ver-perfil/",
+    "status": "301",
+    "target": "/manual/trabajadores/1-ver-perfil/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
+    "target": "/manual/nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/",
     "status": "301",
-    "target": "/manual/planificacion/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/",
+    "target": "/manual/nominas/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/10-7-totalizada-por-equipo-validacion-del-cuadrante/",
     "status": "301",
-    "target": "/manual/planificacion/10-7-totalizada-por-equipo-validacion-del-cuadrante/",
+    "target": "/manual/nominas/10-7-totalizada-por-equipo-validacion-del-cuadrante/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/10-costes/",
     "status": "301",
     "target": "/manual/costes-y-nominas/10-costes/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/10-importar-posiciones/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/10-importar-posiciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/11-1-clonar-datos/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/11-1-clonar-datos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/11-importar-balance-de-ajustes/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/11-importar-balance-de-ajustes/",
     "condition": null
   },
   {
@@ -6102,15 +6426,39 @@
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/14-alertas-por-trabajador/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/14-alertas-por-trabajador/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/2-1-tipos-de-turnos-y-horas/",
     "status": "301",
     "target": "/manual/planificacion/2-1-tipos-de-turnos-y-horas/",
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/2-2-conceptos-que-operan-entre-conceptos/",
+    "status": "301",
+    "target": "/manual/nominas/2-2-conceptos-que-operan-entre-conceptos/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/2-2-turnos-y-horas/",
     "status": "301",
     "target": "/manual/planificacion/2-2-turnos-y-horas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/2-3-datos-personalizados/",
+    "status": "301",
+    "target": "/manual/trabajadores/2-3-datos-personalizados/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/2-4-datos-personalizados-por-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/2-4-datos-personalizados-por-trabajador/",
     "condition": null
   },
   {
@@ -6122,7 +6470,7 @@
   {
     "source": "/manual/gestion-de-personal/2-6-periodos-de-vacaciones-por-ano/",
     "status": "301",
-    "target": "/manual/planificacion/2-6-periodos-de-vacaciones-por-ano/",
+    "target": "/manual/registros/2-6-periodos-de-vacaciones-por-ano/",
     "condition": null
   },
   {
@@ -6132,15 +6480,27 @@
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/2-8-exportar-cuadrante-anual/",
+    "status": "301",
+    "target": "/manual/planificacion/2-8-exportar-cuadrante-anual/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/2-cerrar-cuadrante/",
     "status": "301",
-    "target": "/manual/planificacion/2-cerrar-cuadrante/",
+    "target": "/manual/nominas/2-cerrar-cuadrante/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/2-como-imputar-tareas/",
     "status": "301",
     "target": "/manual/tareas/2-como-imputar-tareas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/2-especialidades-del-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/2-especialidades-del-trabajador/",
     "condition": null
   },
   {
@@ -6176,13 +6536,19 @@
   {
     "source": "/manual/gestion-de-personal/24-importacion-de-ajustes-coeficiente-de-horas/",
     "status": "301",
-    "target": "/manual/configuracion-y-cuenta/24-importacion-de-ajustes-coeficiente-de-horas/",
+    "target": "/manual/gestion-de-rrhh/24-importacion-de-ajustes-coeficiente-de-horas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/26-importar-datos-personalizados/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/26-importar-datos-personalizados/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/27-importar-peticiones/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/27-importar-peticiones/",
+    "target": "/manual/planificacion/27-importar-peticiones/",
     "condition": null
   },
   {
@@ -6194,13 +6560,43 @@
   {
     "source": "/manual/gestion-de-personal/3-3-informe-y-ratios-de-absentimos/",
     "status": "301",
-    "target": "/manual/planificacion/3-3-informe-y-ratios-de-absentimos/",
+    "target": "/manual/registros/3-3-informe-y-ratios-de-absentimos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/3-categoria-contrato/",
+    "status": "301",
+    "target": "/manual/trabajadores/3-categoria-contrato/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/3-datos-personalizados-del-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/3-datos-personalizados-del-trabajador/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/3-importar-horas-al-trabajador-normales-extra-y-complementarias/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/3-importar-horas-al-trabajador-normales-extra-y-complementarias/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/3-mas-de-2-hrs-entre-fichajes/",
     "status": "301",
     "target": "/manual/control-horario/3-mas-de-2-hrs-entre-fichajes/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/4-1-acciones/",
+    "status": "301",
+    "target": "/manual/registros/4-1-acciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/4-1-log-de-equipos/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/4-1-log-de-equipos/",
     "condition": null
   },
   {
@@ -6216,9 +6612,15 @@
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/4-6-cambios-a-deber/",
+    "status": "301",
+    "target": "/manual/registros/4-6-cambios-a-deber/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/4-exportacion-a-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/4-exportacion-a-nominas/",
+    "target": "/manual/nominas/4-exportacion-a-nominas/",
     "condition": null
   },
   {
@@ -6242,7 +6644,7 @@
   {
     "source": "/manual/gestion-de-personal/5-1-cuadrante-por-localizaciones/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/5-1-cuadrante-por-localizaciones/",
+    "target": "/manual/planificacion/5-1-cuadrante-por-localizaciones/",
     "condition": null
   },
   {
@@ -6264,6 +6666,12 @@
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/5-7-visualizacion-de-detalle/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/5-7-visualizacion-de-detalle/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/5-importar-ofertas-de-turnos/",
     "status": "301",
     "target": "/manual/planificacion/5-importar-ofertas-de-turnos/",
@@ -6272,25 +6680,43 @@
   {
     "source": "/manual/gestion-de-personal/6-1-estadistica-por-periodo/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/6-1-estadistica-por-periodo/",
+    "target": "/manual/nominas/6-1-estadistica-por-periodo/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/6-1-listado-de-conceptos-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/6-1-listado-de-conceptos-de-nomina/",
+    "target": "/manual/nominas/6-1-listado-de-conceptos-de-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/6-1-reportes-de-trabajadores/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/6-1-reportes-de-trabajadores/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/6-2-reporte-de-localizaciones/",
     "status": "301",
-    "target": "/manual/recursos-y-partes/6-2-reporte-de-localizaciones/",
+    "target": "/manual/reportes-estadisticos/6-2-reporte-de-localizaciones/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/6-4-exportar-nominas/",
     "status": "301",
     "target": "/manual/costes-y-nominas/6-4-exportar-nominas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/6-5-estadistica-por-periodos-de-todos-los-equipos/",
+    "status": "301",
+    "target": "/manual/nominas/6-5-estadistica-por-periodos-de-todos-los-equipos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/6-7-totalizada-por-equipo/",
+    "status": "301",
+    "target": "/manual/nominas/6-7-totalizada-por-equipo/",
     "condition": null
   },
   {
@@ -6302,13 +6728,37 @@
   {
     "source": "/manual/gestion-de-personal/6-importar-ofertas-de-horas/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/6-importar-ofertas-de-horas/",
+    "target": "/manual/planificacion/6-importar-ofertas-de-horas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/6-sustituciones/",
+    "status": "301",
+    "target": "/manual/trabajadores/6-sustituciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/7-1-clonacion-de-datos/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/7-1-clonacion-de-datos/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/7-2-festivos/",
     "status": "301",
     "target": "/manual/planificacion/7-2-festivos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/7-2-fusionar-usuarios/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/7-2-fusionar-usuarios/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/7-3-estado-de-los-permisos/",
+    "status": "301",
+    "target": "/manual/planificacion/7-3-estado-de-los-permisos/",
     "condition": null
   },
   {
@@ -6320,13 +6770,25 @@
   {
     "source": "/manual/gestion-de-personal/7-5-migrar-balance-de-horas-y-vacaciones/",
     "status": "301",
-    "target": "/manual/planificacion/7-5-migrar-balance-de-horas-y-vacaciones/",
+    "target": "/manual/gestion-de-rrhh/7-5-migrar-balance-de-horas-y-vacaciones/",
     "condition": null
   },
   {
     "source": "/manual/gestion-de-personal/7-6-localizaciones/",
     "status": "301",
     "target": "/manual/recursos-y-partes/7-6-localizaciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/7-9-activar-usuarios/",
+    "status": "301",
+    "target": "/manual/trabajadores/7-9-activar-usuarios/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/7-analisis-semanal/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/7-analisis-semanal/",
     "condition": null
   },
   {
@@ -6356,7 +6818,7 @@
   {
     "source": "/manual/gestion-de-personal/9-1-integracion-nominas/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/9-1-integracion-nominas/",
+    "target": "/manual/nominas/9-1-integracion-nominas/",
     "condition": null
   },
   {
@@ -6366,9 +6828,63 @@
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/a-anadir-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/a-anadir-trabajador/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/a-datos-personalizados/",
+    "status": "301",
+    "target": "/manual/trabajadores/a-datos-personalizados/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/a-editar-mover-trabajadores-del-equipo/",
+    "status": "301",
+    "target": "/manual/trabajadores/a-editar-mover-trabajadores-del-equipo/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/b-acceder-al-perfil-del-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/b-acceder-al-perfil-del-trabajador/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/b-especialidades/",
+    "status": "301",
+    "target": "/manual/trabajadores/b-especialidades/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/balance-vacaciones-anual/",
     "status": "301",
     "target": "/manual/planificacion/balance-vacaciones-anual/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/c-anadir-trabajadores-a-mas-equipos/",
+    "status": "301",
+    "target": "/manual/trabajadores/c-anadir-trabajadores-a-mas-equipos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/c-categoria/",
+    "status": "301",
+    "target": "/manual/trabajadores/c-categoria/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/c-dar-de-baja-un-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/c-dar-de-baja-un-trabajador/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/c-periodos-de-absentismo/",
+    "status": "301",
+    "target": "/manual/registros/c-periodos-de-absentismo/",
     "condition": null
   },
   {
@@ -6384,9 +6900,27 @@
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/conceptos-tipo-6-conceptos-asociados-a-los-datos-personalizados/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-6-conceptos-asociados-a-los-datos-personalizados/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/conceptos-tipo-7-conceptos-asociados-al-perfil-del-trabajador/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-7-conceptos-asociados-al-perfil-del-trabajador/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
+    "target": "/manual/nominas/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
     "condition": null
   },
   {
@@ -6408,6 +6942,24 @@
     "condition": null
   },
   {
+    "source": "/manual/gestion-de-personal/d-perfiles/",
+    "status": "301",
+    "target": "/manual/trabajadores/d-perfiles/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/d-tipos-de-horas/",
+    "status": "301",
+    "target": "/manual/planificacion/d-tipos-de-horas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/d-ver-periodos-y-eliminar-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/d-ver-periodos-y-eliminar-trabajador/",
+    "condition": null
+  },
+  {
     "source": "/manual/gestion-de-personal/documentos/",
     "status": "301",
     "target": "/manual/documentos/documentos/",
@@ -6422,7 +6974,19 @@
   {
     "source": "/manual/gestion-de-personal/e-peticiones/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/e-peticiones/",
+    "target": "/manual/planificacion/e-peticiones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/f-variables-del-listado-de-trabajadores/",
+    "status": "301",
+    "target": "/manual/trabajadores/f-variables-del-listado-de-trabajadores/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/f-visualizacion/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/f-visualizacion/",
     "condition": null
   },
   {
@@ -6447,6 +7011,30 @@
     "source": "/manual/gestion-de-personal/jornadas-absentismos/",
     "status": "301",
     "target": "/manual/planificacion/jornadas-absentismos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/lanzar-ofertas/",
+    "status": "301",
+    "target": "/manual/planificacion/lanzar-ofertas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/listado-de-trabajadores/",
+    "status": "301",
+    "target": "/manual/trabajadores/listado-de-trabajadores/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/menu-del-trabajador/",
+    "status": "301",
+    "target": "/manual/trabajadores/menu-del-trabajador/",
+    "condition": null
+  },
+  {
+    "source": "/manual/gestion-de-personal/migrar-saldos-del-acumulado-del-estado-de-horas/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/migrar-saldos-del-acumulado-del-estado-de-horas/",
     "condition": null
   },
   {
@@ -6488,13 +7076,85 @@
   {
     "source": "/manual/integraciones-y-api/4-1-plantilla-de-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/4-1-plantilla-de-nomina/",
+    "target": "/manual/nominas/4-1-plantilla-de-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/1-hacer-cambio-de-turno/",
+    "status": "301",
+    "target": "/manual/planificacion/1-hacer-cambio-de-turno/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/10-peticiones/",
+    "status": "301",
+    "target": "/manual/planificacion/10-peticiones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/2-3-peticiones-y-cambios/",
+    "status": "301",
+    "target": "/manual/planificacion/2-3-peticiones-y-cambios/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/2-8-crear-nueva-oferta/",
+    "status": "301",
+    "target": "/manual/planificacion/2-8-crear-nueva-oferta/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/2-9-listado-de-peticiones-pendientes/",
+    "status": "301",
+    "target": "/manual/planificacion/2-9-listado-de-peticiones-pendientes/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/27-importar-peticiones/",
+    "status": "301",
+    "target": "/manual/planificacion/27-importar-peticiones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/6-importar-ofertas-de-horas/",
+    "status": "301",
+    "target": "/manual/planificacion/6-importar-ofertas-de-horas/",
     "condition": null
   },
   {
     "source": "/manual/peticiones-y-cambios/6-listado-peticiones-de-fichajes/",
     "status": "301",
     "target": "/manual/control-horario/6-listado-peticiones-de-fichajes/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/7-peticiones/",
+    "status": "301",
+    "target": "/manual/planificacion/7-peticiones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/8-1-peticiones-de-reportes/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/8-1-peticiones-de-reportes/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/cambios-de-turno/",
+    "status": "301",
+    "target": "/manual/planificacion/cambios-de-turno/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/e-peticiones/",
+    "status": "301",
+    "target": "/manual/planificacion/e-peticiones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/peticiones-y-cambios/lanzar-peticiones-y-cambios/",
+    "status": "301",
+    "target": "/manual/planificacion/lanzar-peticiones-y-cambios/",
     "condition": null
   },
   {
@@ -6518,7 +7178,25 @@
   {
     "source": "/manual/planificacion/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
+    "target": "/manual/nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/1-3-inicio-2-widgets/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/1-3-inicio-2-widgets/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/1-3-inicio-dashboard/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/1-3-inicio-dashboard/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
+    "status": "301",
+    "target": "/manual/nominas/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/",
     "condition": null
   },
   {
@@ -6534,15 +7212,27 @@
     "condition": null
   },
   {
-    "source": "/manual/planificacion/10-4-exportar-a-nominas/",
+    "source": "/manual/planificacion/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/",
     "status": "301",
-    "target": "/manual/costes-y-nominas/10-4-exportar-a-nominas/",
+    "target": "/manual/nominas/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/",
     "condition": null
   },
   {
-    "source": "/manual/planificacion/10-peticiones/",
+    "source": "/manual/planificacion/10-4-exportar-a-nominas/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/10-peticiones/",
+    "target": "/manual/nominas/10-4-exportar-a-nominas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/10-7-totalizada-por-equipo-validacion-del-cuadrante/",
+    "status": "301",
+    "target": "/manual/nominas/10-7-totalizada-por-equipo-validacion-del-cuadrante/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/10-8-listado-de-comprobacion/",
+    "status": "301",
+    "target": "/manual/nominas/10-8-listado-de-comprobacion/",
     "condition": null
   },
   {
@@ -6552,15 +7242,33 @@
     "condition": null
   },
   {
+    "source": "/manual/planificacion/11-sobre-el-cumplimiento-de-la-demanda/",
+    "status": "301",
+    "target": "/manual/planificacion-avanzada/11-sobre-el-cumplimiento-de-la-demanda/",
+    "condition": null
+  },
+  {
     "source": "/manual/planificacion/13-modifica-las-localizaciones/",
     "status": "301",
     "target": "/manual/recursos-y-partes/13-modifica-las-localizaciones/",
     "condition": null
   },
   {
+    "source": "/manual/planificacion/14-importar-dias-festivos-en-los-equipos/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/14-importar-dias-festivos-en-los-equipos/",
+    "condition": null
+  },
+  {
     "source": "/manual/planificacion/14-localizacion-por-defecto/",
     "status": "301",
     "target": "/manual/recursos-y-partes/14-localizacion-por-defecto/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/19-importacion-demandas-planificacion-automatica/",
+    "status": "301",
+    "target": "/manual/planificacion-avanzada/19-importacion-demandas-planificacion-automatica/",
     "condition": null
   },
   {
@@ -6576,9 +7284,9 @@
     "condition": null
   },
   {
-    "source": "/manual/planificacion/2-3-peticiones-y-cambios/",
+    "source": "/manual/planificacion/2-5-periodos-de-vacaciones/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/2-3-peticiones-y-cambios/",
+    "target": "/manual/registros/2-5-periodos-de-vacaciones/",
     "condition": null
   },
   {
@@ -6588,9 +7296,105 @@
     "condition": null
   },
   {
+    "source": "/manual/planificacion/2-6-periodos-de-vacaciones-por-ano/",
+    "status": "301",
+    "target": "/manual/registros/2-6-periodos-de-vacaciones-por-ano/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/2-cargar-la-demanda/",
+    "status": "301",
+    "target": "/manual/planificacion-avanzada/2-cargar-la-demanda/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/2-cerrar-cuadrante/",
+    "status": "301",
+    "target": "/manual/nominas/2-cerrar-cuadrante/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/2-estadisticas-de-absentismos-totales/",
+    "status": "301",
+    "target": "/manual/registros/2-estadisticas-de-absentismos-totales/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica/",
+    "status": "301",
+    "target": "/manual/planificacion-avanzada/20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-localizaciones/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-localizaciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/3-1-acciones/",
+    "status": "301",
+    "target": "/manual/registros/3-1-acciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/3-2-debe-haber-turnos/",
+    "status": "301",
+    "target": "/manual/registros/3-2-debe-haber-turnos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/3-3-calculadora/",
+    "status": "301",
+    "target": "/manual/planificacion-avanzada/3-3-calculadora/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/3-3-informe-y-ratios-de-absentimos/",
+    "status": "301",
+    "target": "/manual/registros/3-3-informe-y-ratios-de-absentimos/",
+    "condition": null
+  },
+  {
     "source": "/manual/planificacion/3-cargar-demanda-desde-tareas/",
     "status": "301",
     "target": "/manual/tareas/3-cargar-demanda-desde-tareas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/3-estadisticas-de-absentismos-temporales/",
+    "status": "301",
+    "target": "/manual/registros/3-estadisticas-de-absentismos-temporales/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/4-estadisticas-del-trabajador/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/4-estadisticas-del-trabajador/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/4-resumen-estadisticas-de-absentismos/",
+    "status": "301",
+    "target": "/manual/registros/4-resumen-estadisticas-de-absentismos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/5-2-tablas-de-cobertura/",
+    "status": "301",
+    "target": "/manual/planificacion-avanzada/5-2-tablas-de-cobertura/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/5-listado-de-absentismos-temporales/",
+    "status": "301",
+    "target": "/manual/registros/5-listado-de-absentismos-temporales/",
     "condition": null
   },
   {
@@ -6600,15 +7404,51 @@
     "condition": null
   },
   {
+    "source": "/manual/planificacion/6-2-cierre-por-equipos/",
+    "status": "301",
+    "target": "/manual/nominas/6-2-cierre-por-equipos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/6-informes-y-ratios-de-absentismos/",
+    "status": "301",
+    "target": "/manual/registros/6-informes-y-ratios-de-absentismos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/6-periodos-de-absentismos/",
+    "status": "301",
+    "target": "/manual/registros/6-periodos-de-absentismos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/6-tabla-de-cobertura/",
+    "status": "301",
+    "target": "/manual/planificacion-avanzada/6-tabla-de-cobertura/",
+    "condition": null
+  },
+  {
     "source": "/manual/planificacion/6-trabajadores-sin-descanso-realizado/",
     "status": "301",
     "target": "/manual/control-horario/6-trabajadores-sin-descanso-realizado/",
     "condition": null
   },
   {
+    "source": "/manual/planificacion/7-5-migrar-balance-de-horas-y-vacaciones/",
+    "status": "301",
+    "target": "/manual/gestion-de-rrhh/7-5-migrar-balance-de-horas-y-vacaciones/",
+    "condition": null
+  },
+  {
     "source": "/manual/planificacion/8-1-peticiones-de-reportes/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/8-1-peticiones-de-reportes/",
+    "target": "/manual/gestion-de-rrhh/8-1-peticiones-de-reportes/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/8-tabla-de-cobertura-de-patron/",
+    "status": "301",
+    "target": "/manual/planificacion-avanzada/8-tabla-de-cobertura-de-patron/",
     "condition": null
   },
   {
@@ -6624,15 +7464,9 @@
     "condition": null
   },
   {
-    "source": "/manual/planificacion/a-cuadrante-por-localizaciones/",
-    "status": "301",
-    "target": "/manual/recursos-y-partes/a-cuadrante-por-localizaciones/",
-    "condition": null
-  },
-  {
     "source": "/manual/planificacion/b-especialidades/",
     "status": "301",
-    "target": "/manual/gestion-de-personal/b-especialidades/",
+    "target": "/manual/trabajadores/b-especialidades/",
     "condition": null
   },
   {
@@ -6642,9 +7476,9 @@
     "condition": null
   },
   {
-    "source": "/manual/planificacion/cambios-de-turno/",
+    "source": "/manual/planificacion/c-privacidad/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/cambios-de-turno/",
+    "target": "/manual/configuracion-de-equipos/c-privacidad/",
     "condition": null
   },
   {
@@ -6663,6 +7497,48 @@
     "source": "/manual/planificacion/como-recuperar-contrasena-desde-la-app-de-aturnos/",
     "status": "301",
     "target": "/manual/configuracion-y-cuenta/como-recuperar-contrasena-desde-la-app-de-aturnos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/concepto-tipo-1-1-conceptos-relacionados-con-los-turnos/",
+    "status": "301",
+    "target": "/manual/nominas/concepto-tipo-1-1-conceptos-relacionados-con-los-turnos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/conceptos-tipo-1-2-conceptos-asociados-a-horas/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-1-2-conceptos-asociados-a-horas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/conceptos-tipo-1-4-conceptos-asociados-a-las-jornadas/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-1-4-conceptos-asociados-a-las-jornadas/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas/",
     "condition": null
   },
   {
@@ -6690,6 +7566,18 @@
     "condition": null
   },
   {
+    "source": "/manual/planificacion/f-tabla-de-cobertura/",
+    "status": "301",
+    "target": "/manual/planificacion-avanzada/f-tabla-de-cobertura/",
+    "condition": null
+  },
+  {
+    "source": "/manual/planificacion/h-notificaciones/",
+    "status": "301",
+    "target": "/manual/configuracion-de-equipos/h-notificaciones/",
+    "condition": null
+  },
+  {
     "source": "/manual/planificacion/horas-presenciales-dentro-de-turno/",
     "status": "301",
     "target": "/manual/control-horario/horas-presenciales-dentro-de-turno/",
@@ -6705,12 +7593,6 @@
     "source": "/manual/planificacion/horas-presenciales-en-turno-no-computable/",
     "status": "301",
     "target": "/manual/control-horario/horas-presenciales-en-turno-no-computable/",
-    "condition": null
-  },
-  {
-    "source": "/manual/planificacion/lanzar-peticiones-y-cambios/",
-    "status": "301",
-    "target": "/manual/peticiones-y-cambios/lanzar-peticiones-y-cambios/",
     "condition": null
   },
   {
@@ -6738,27 +7620,63 @@
     "condition": null
   },
   {
+    "source": "/manual/recursos-y-partes/13-alertas-por-localizacion/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/13-alertas-por-localizacion/",
+    "condition": null
+  },
+  {
     "source": "/manual/recursos-y-partes/2-1-nueva-peticion/",
     "status": "301",
     "target": "/manual/peticiones-y-cambios/2-1-nueva-peticion/",
     "condition": null
   },
   {
+    "source": "/manual/recursos-y-partes/2-3-conceptos-comparacion/",
+    "status": "301",
+    "target": "/manual/nominas/2-3-conceptos-comparacion/",
+    "condition": null
+  },
+  {
     "source": "/manual/recursos-y-partes/2-8-crear-nueva-oferta/",
     "status": "301",
-    "target": "/manual/peticiones-y-cambios/2-8-crear-nueva-oferta/",
+    "target": "/manual/planificacion/2-8-crear-nueva-oferta/",
     "condition": null
   },
   {
     "source": "/manual/recursos-y-partes/2-cargar-la-demanda/",
     "status": "301",
-    "target": "/manual/planificacion/2-cargar-la-demanda/",
+    "target": "/manual/planificacion-avanzada/2-cargar-la-demanda/",
+    "condition": null
+  },
+  {
+    "source": "/manual/recursos-y-partes/5-1-cuadrante-por-localizaciones/",
+    "status": "301",
+    "target": "/manual/planificacion/5-1-cuadrante-por-localizaciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/recursos-y-partes/6-2-reporte-de-localizaciones/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/6-2-reporte-de-localizaciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/recursos-y-partes/a-cuadrante-por-localizaciones/",
+    "status": "301",
+    "target": "/manual/planificacion/a-cuadrante-por-localizaciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/recursos-y-partes/conceptos-tipo-1-3-conceptos-asociados-a-los-dias/",
+    "status": "301",
+    "target": "/manual/nominas/conceptos-tipo-1-3-conceptos-asociados-a-los-dias/",
     "condition": null
   },
   {
     "source": "/manual/recursos-y-partes/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/",
     "status": "301",
-    "target": "/manual/planificacion/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/",
+    "target": "/manual/nominas/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/",
     "condition": null
   },
   {
@@ -6771,6 +7689,18 @@
     "source": "/manual/recursos-y-partes/costes-por-localizacion/",
     "status": "301",
     "target": "/manual/costes-y-nominas/costes-por-localizacion/",
+    "condition": null
+  },
+  {
+    "source": "/manual/recursos-y-partes/estado-por-localizaciones/",
+    "status": "301",
+    "target": "/manual/reportes-estadisticos/estado-por-localizaciones/",
+    "condition": null
+  },
+  {
+    "source": "/manual/recursos-y-partes/timecard-por-localizacion/",
+    "status": "301",
+    "target": "/manual/nominas/timecard-por-localizacion/",
     "condition": null
   },
   {

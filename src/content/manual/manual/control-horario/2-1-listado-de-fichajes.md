@@ -4,8 +4,8 @@ contentId: control-horario-2-1-listado-de-fichajes
 title: Listado de fichajes
 description: Se nos muestra una lista con todos los fichajes de un trabajador entre las fechas indicadas en la barra superior de filtro, por defecto siempre aparecerá la del mes actual.
 contentType: procedure
-module: Control horario
-submodule: Vacaciones y ausencias
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Listado de fichajes
 audience:

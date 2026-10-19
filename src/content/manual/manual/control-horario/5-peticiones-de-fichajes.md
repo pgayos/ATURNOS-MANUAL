@@ -4,8 +4,8 @@ contentId: control-horario-5-peticiones-de-fichajes
 title: Peticiones de fichajes
 description: Si por error u olvido no se han registrado los fichajes de entrada o salida en el control de presencia, tienes la opción de solicitar a los administradores del equipo la petición de cerrar e.
 contentType: troubleshooting
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Petición de fichajes"
 subtopic: ""
 intent: Peticiones de fichajes
 audience:

@@ -4,9 +4,9 @@ contentId: planificacion-6-sobre-la-tabla-al-hacer-clic-en-casilla
 title: Sobre la tabla, al hacer clic en casilla
 description: Como administrador, puedes crear y modificar los días del periodo del patrón con un menú de acciones del cual vas a disponer al hacer clic en el día/celda del periodo a modificar. Cuentas con las siguientes acciones:.
 contentType: procedure
-module: Planificación
-submodule: Turnos y patrones
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Sobre la tabla, al hacer clic en casilla
 audience:
   - role: Administrador

@@ -17,6 +17,8 @@ type Article = CollectionEntry<'manual'>;
  */
 interface GuideModuleConfig {
   submoduleOrder: string[];
+  /** Orden manual de temas (subtopics); los no listados conservan el orden por defecto. */
+  subtopicOrder?: string[];
   /**
    * Submódulos que se "aplanan": sus temas suben a submódulo de primer nivel y
    * el envoltorio desaparece del índice. Su artículo de portada, si lo tiene,
@@ -49,7 +51,141 @@ export const GUIDE_MODULES: Record<string, GuideModuleConfig> = {
   'integracion-biostar': {
     submoduleOrder: ['Introducción', 'Manual de dispositivos Biostar'],
   },
+  // Estructura del manual por módulos (orden definido por producto).
+  planificacion: {
+    submoduleOrder: [
+      'Cuadrantes',
+      'Tipos de turnos, tipos de horas y Patrones',
+      'Restricciones',
+      'Cambios de turnos',
+      'Peticiones',
+    ],
+    subtopicOrder: [
+      'Cuadrante',
+      'Borrador',
+      'Anual',
+      'Por localización',
+      'Gestión de Absentismos',
+      'Gestión de vacaciones',
+      'Ofertas de turnos',
+    ],
+  },
+  trabajadores: {
+    submoduleOrder: ['Listado', 'Sustituciones', 'Datos del trabajador'],
+    subtopicOrder: ['Datos personalizados', 'Especialidades', 'Categorías', 'Perfiles'],
+  },
+  'configuracion-de-equipos': {
+    submoduleOrder: [
+      'General',
+      'Datos del equipo',
+      'Privacidad',
+      'Cambios',
+      'Peticiones',
+      'Visualización',
+      'Acciones automáticas',
+      'Notificaciones',
+      'Inicio',
+      'Módulos',
+    ],
+  },
+  'reportes-estadisticos': {
+    submoduleOrder: [
+      'Por trabajador',
+      'Por localizaciones',
+      'Por defecto',
+      'Configuración de reportes',
+      'Reportes guardados',
+      'Carpeta de reportes',
+    ],
+  },
+  registros: {
+    submoduleOrder: [
+      'De acciones',
+      'De comentarios',
+      'De turnos y horas',
+      'De Absentismos',
+      'Periodos de vacaciones',
+      'Cambios de turnos a deber',
+    ],
+  },
+  'gestion-de-rrhh': {
+    submoduleOrder: [
+      'Gestión de personal (Maestro de empleado)',
+      'Registros',
+      'Reportes de varios equipos',
+      'Logs, API y ejecuciones pendientes',
+      'Planificación de equipos',
+      'Control horario de equipos',
+      'Acciones y modificaciones de datos en bloque',
+      'Peticiones de reportes',
+    ],
+  },
+  'planificacion-avanzada': {
+    submoduleOrder: [
+      'Calculadora de patrones y demandas de turnos',
+      'Demandas',
+      'Tabla de cobertura',
+      'Asistente de planificación automática',
+    ],
+  },
+  'control-horario': {
+    submoduleOrder: [
+      'Configuración del control horario',
+      'Diario',
+      'Detalle del control horario',
+      'Petición de fichajes',
+      'Guardias localizadas',
+      'Fichajes Forzados',
+      'Tarjeta trabajador (QR)',
+      'Informes del control horario',
+    ],
+    subtopicOrder: ['Peticiones de fichaje pendiente', 'Peticiones de fichajes históricas'],
+  },
+  documentos: {
+    submoduleOrder: ['Documentos', 'Tipos de documentos', 'Subir documentos'],
+  },
+  tareas: {
+    submoduleOrder: [
+      'Tareas',
+      'Tiempo Ordinario',
+      'Horas de tareas por trabajador',
+      'Horas de tareas por equipo',
+      'Horas de tareas por actividad',
+      'Tareas minimal',
+    ],
+  },
+  nominas: {
+    submoduleOrder: [
+      'Conceptos de nóminas',
+      'Borrar conceptos',
+      'Cierre por equipo',
+      'Exportar nóminas',
+      'Estadísticas por periodos de varios equipos',
+      'Estadísticas por días de varios equipos',
+      'Totalizada por equipos',
+      'Nómina por localización',
+      'Atrasos de nóminas',
+      'Listado de comprobación',
+      'Listado de atrasos',
+    ],
+  },
+  // Módulo sin submódulos: cualquier artículo de la carpeta es válido.
+  'integracion-y-api': { submoduleOrder: [] },
 };
+
+/**
+ * Artículos de la documentación (carpeta `manual/`) que aún no encajan en la
+ * estructura nueva: su carpeta no tiene entrada en `GUIDE_MODULES` o su
+ * submódulo no está en `submoduleOrder`. Siguen publicados en su URL, pero no
+ * aparecen en menús ni en el recuento de módulos hasta que se reclasifiquen
+ * (ver reclasificacion/reclasificacion-manual.xlsx).
+ */
+export function isPendingReclassification(entry: Article): boolean {
+  if (!entry.id.startsWith('manual/')) return false;
+  const config = GUIDE_MODULES[moduleSlugOf(entry)];
+  if (!config) return true;
+  return config.submoduleOrder.length > 0 && !config.submoduleOrder.includes(entry.data.submodule);
+}
 
 // Glosario es el único módulo con formato distinto (listado A-Z con
 // buscador); cualquier otro módulo usa la navegación de sidebar.
@@ -178,6 +314,11 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
     const index = submoduleOrder.indexOf(name);
     return index === -1 ? Number.MAX_SAFE_INTEGER : index;
   };
+  const subtopicOrder = config?.subtopicOrder ?? [];
+  const subtopicOrderOf = (name: string) => {
+    const index = subtopicOrder.indexOf(name);
+    return index === -1 ? Number.MAX_SAFE_INTEGER : index;
+  };
 
   // Un módulo puede tener contenido en subcarpetas propias (p. ej.
   // app-movil/control-horario/, ver "El caso de App" en templateManual.md):
@@ -201,7 +342,8 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
   const subtopicKeyOf = (entry: Article): string | undefined =>
     moduleSlugOf(entry) === moduleSlug ? entry.data.subtopic : entry.data.submodule;
 
-  const groups: GuideNavGroup[] = [...groupBy(inModule, groupKeyOf).entries()]
+  const visible = inModule.filter((entry) => !isPendingReclassification(entry));
+  const groups: GuideNavGroup[] = [...groupBy(visible, groupKeyOf).entries()]
     .sort(([a], [b]) => orderOf(a) - orderOf(b) || a.localeCompare(b, 'es'))
     .map(([name, articles]) => {
       const looseArticles = articles
@@ -229,6 +371,7 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
         })
         .sort(
           (x, y) =>
+            subtopicOrderOf(x.name) - subtopicOrderOf(y.name) ||
             (x.articles[0]?.order ?? 0) - (y.articles[0]?.order ?? 0) ||
             x.name.localeCompare(y.name, 'es'),
         );

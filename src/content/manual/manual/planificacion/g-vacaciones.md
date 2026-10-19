@@ -4,9 +4,9 @@ contentId: planificacion-g-vacaciones
 title: Vacaciones
 description: Desde aquí podrás controlar las vacaciones que utilizan y de las que disponen todos los trabajadores de tu equipo.
 contentType: reference
-module: Planificación
-submodule: Contratos
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de vacaciones"
 intent: Vacaciones
 audience:
   - role: Administrador

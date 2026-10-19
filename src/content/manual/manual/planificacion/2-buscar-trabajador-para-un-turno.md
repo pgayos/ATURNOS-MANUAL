@@ -4,9 +4,9 @@ contentId: planificacion-2-buscar-trabajador-para-un-turno
 title: Buscar trabajador para un turno
 description: El administrador, como consecuencia de la planificación del cuadrante, puede ‘Buscar trabajador para turno’ para cubrir un turno con un trabajador más.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Buscar trabajador para un turno
 audience:
   - role: Administrador

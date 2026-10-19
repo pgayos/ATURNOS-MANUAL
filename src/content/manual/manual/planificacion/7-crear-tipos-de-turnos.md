@@ -4,8 +4,8 @@ contentId: planificacion-7-crear-tipos-de-turnos
 title: Crear tipos de turnos
 description: El administrador puede tener definido previamente un horario de trabajo, lo que en aTurnos llamamos ‘ Tipos de turno ’.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Crear tipos de turnos
 audience:

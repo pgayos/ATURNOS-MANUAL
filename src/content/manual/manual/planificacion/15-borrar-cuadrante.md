@@ -4,9 +4,9 @@ contentId: planificacion-15-borrar-cuadrante
 title: Borrar cuadrante
 description: La opción ‘Borrar cuadrante’ permite al administrador borrar la planificación de turnos que tenga el trabajador.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Borrar cuadrante
 audience:
   - role: Administrador

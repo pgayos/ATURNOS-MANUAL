@@ -4,9 +4,9 @@ contentId: control-horario-3-1-fichajes-pendientes
 title: Fichajes pendientes
 description: En ocasiones es posible que, por razones de configuración, técnicas u olvido del trabajador, algunos fichajes no sean realizados por los trabajadores al inicio o fin de su turno de trabajo.
 contentType: reference
-module: Control horario
-submodule: Fichajes
-subtopic: ""
+module: "Control horario"
+submodule: "Petición de fichajes"
+subtopic: "Peticiones de fichaje pendiente"
 intent: Fichajes pendientes
 audience:
   - role: Administrador

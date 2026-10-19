@@ -4,9 +4,9 @@ contentId: planificacion-4-7-vacaciones
 title: Vacaciones
 description: El trabajador podrá comprobar sus estadísticas de vacaciones.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de vacaciones"
 intent: Vacaciones
 audience:
   - role: RRHH

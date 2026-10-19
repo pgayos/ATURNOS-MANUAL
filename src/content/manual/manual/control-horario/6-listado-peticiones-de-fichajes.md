@@ -4,8 +4,8 @@ contentId: control-horario-6-listado-peticiones-de-fichajes
 title: Listado peticiones de fichajes
 description: Este reporte permite visualizar todas las ‘ Peticiones de fichajes ‘ pendientes de ser aprobadas por los administradores de los equipos consultados.
 contentType: concept
-module: Control horario
-submodule: General
+module: "Control horario"
+submodule: "Petición de fichajes"
 subtopic: ""
 intent: Listado peticiones de fichajes
 audience:

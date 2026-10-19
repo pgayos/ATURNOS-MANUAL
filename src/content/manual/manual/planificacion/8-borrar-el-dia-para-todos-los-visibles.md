@@ -4,9 +4,9 @@ contentId: planificacion-8-borrar-el-dia-para-todos-los-visibles
 title: Borrar el día para todos los visibles
 description: El administrador borra los turnos planificados en el día de todos los trabajadores visibles en el cuadrante, sin la posibilidad de recuperarlos.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Borrar el día para todos los visibles
 audience:
   - role: Administrador

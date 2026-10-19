@@ -4,9 +4,9 @@ contentId: planificacion-cuadrante-2
 title: Cuadrante
 description: La URL pública original de Cuadrante no devolvió contenido utilizable durante la migración.
 contentType: concept
-module: Planificación
-submodule: General
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Cuadrante
 audience:
   - role: Administrador

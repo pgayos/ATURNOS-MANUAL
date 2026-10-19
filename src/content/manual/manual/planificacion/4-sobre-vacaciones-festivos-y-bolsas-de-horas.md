@@ -4,9 +4,9 @@ contentId: planificacion-4-sobre-vacaciones-festivos-y-bolsas-de-horas
 title: Sobre vacaciones, festivos y bolsas de horas
 description: Esta restricción impide que el trabajador pueda superar su saldo de vacaciones anual.
 contentType: reference
-module: Planificación
-submodule: Contratos
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de vacaciones"
 intent: Sobre vacaciones, festivos y bolsas de horas
 audience:
   - role: RRHH

@@ -4,9 +4,9 @@ contentId: planificacion-16-el-dia-a-dia
 title: El día a día
 description: Al no poder reservar on-line a más de 15 días, se debe comprobar en el cuadrante si los turnos de trabajo asignados se corresponden con los días de apertura.
 contentType: procedure
-module: Planificación
-submodule: Cuadrante
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: El día a día
 audience:
   - role: Administrador

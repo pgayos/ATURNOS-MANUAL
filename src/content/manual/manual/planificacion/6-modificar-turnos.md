@@ -4,9 +4,9 @@ contentId: planificacion-6-modificar-turnos
 title: Modificar turnos
 description: Esta opción permite modificar un turno por otro, sin necesidad de borrar y volver a añadir.
 contentType: concept
-module: Planificación
-submodule: Turnos y patrones
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Modificar turnos
 audience:
   - role: Administrador

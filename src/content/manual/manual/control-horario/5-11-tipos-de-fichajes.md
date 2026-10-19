@@ -4,8 +4,8 @@ contentId: control-horario-5-11-tipos-de-fichajes
 title: Tipos de fichajes
 description: El sistema funciona por pares, es decir, se necesita un fichaje de entrada y otro fichaje de salida para cerrar el fichaje.
 contentType: procedure
-module: Control horario
-submodule: Altas y bajas
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Tipos de fichajes
 audience:

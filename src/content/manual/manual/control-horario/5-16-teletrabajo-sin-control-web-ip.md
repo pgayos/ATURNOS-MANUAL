@@ -4,8 +4,8 @@ contentId: control-horario-5-16-teletrabajo-sin-control-web-ip
 title: Teletrabajo (Sin control Web/IP)
 description: En los últimos años, las formas de trabajar han variado y ahora es posible realizar algunos trabajos desde casa, así como debido a la movilidad en otras actividades laborales que no se reali.
 contentType: concept
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Teletrabajo (Sin control Web/IP)
 audience:

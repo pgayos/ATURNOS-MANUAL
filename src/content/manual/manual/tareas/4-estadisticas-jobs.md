@@ -4,8 +4,8 @@ contentId: tareas-4-estadisticas-jobs
 title: Estadísticas jobs
 description: Una vez realizadas las imputaciones de tareas, se puede acceder a las estadísticas de tareas. En dichas estadísticas se podrá obtener un conjunto de datos sobre las tareas imputadas que permitirá un análisis de estas.
 contentType: concept
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Estadísticas jobs
 audience:

@@ -4,9 +4,9 @@ contentId: planificacion-3-3-absentismos
 title: Absentismos
 description: La fuente pública de Absentismos contiene muy poca información textual.
 contentType: concept
-module: Planificación
-submodule: General
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de Absentismos"
 intent: Absentismos
 audience:
   - role: Administrador

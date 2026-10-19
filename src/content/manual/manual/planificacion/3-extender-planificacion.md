@@ -4,9 +4,9 @@ contentId: planificacion-3-extender-planificacion
 title: Extender planificación
 description: Los trabajadores pueden tener un patrón aplicado (ver aplicar Patrón de turnos ) hasta una fecha, es posible extender planificación hasta otra fecha futura.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Extender planificación
 audience:
   - role: Administrador

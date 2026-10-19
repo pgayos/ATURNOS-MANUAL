@@ -4,8 +4,8 @@ contentId: control-horario-4-6-listado-de-fichajes
 title: Listado de fichajes
 description: "El listado de fichajes se desglosa en dos pestañas: Fichajes y Fichajes automáticos."
 contentType: procedure
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Listado de fichajes
 audience:

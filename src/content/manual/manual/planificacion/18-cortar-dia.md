@@ -4,9 +4,9 @@ contentId: planificacion-18-cortar-dia
 title: Cortar Día
 description: Desde aquí puedes cortar la planificación de un día entero, pudiendo incluir 2 o más turnos y/o localizaciones, para posteriormente copiarlas en otro día.
 contentType: concept
-module: Planificación
-submodule: Turnos y patrones
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Cortar Día
 audience:
   - role: Administrador

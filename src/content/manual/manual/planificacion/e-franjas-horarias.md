@@ -4,8 +4,8 @@ contentId: planificacion-e-franjas-horarias
 title: Franjas horarias
 description: Las franjas horarias son divisiones del tiempo en intervalos definidos dentro de un día o período específico.
 contentType: reference
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Franjas horarias
 audience:

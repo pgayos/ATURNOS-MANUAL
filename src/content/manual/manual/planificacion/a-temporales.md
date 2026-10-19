@@ -4,9 +4,9 @@ contentId: planificacion-a-temporales
 title: Temporales
 description: Se muestran los absentismos que no ocupan todo el turno del trabajador, es decir, normalmente corresponde a ausencias por algunas horas dentro de su jornada habitual de trabajo.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de Absentismos"
 intent: Temporales
 audience:
   - role: Administrador

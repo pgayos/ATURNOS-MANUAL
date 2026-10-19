@@ -4,9 +4,9 @@ contentId: planificacion-8-auto-ofertar-horas
 title: Auto-ofertar horas
 description: Una vez realizada la planificación correctamente, existen muchas variables que obligan a replanificar.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Ofertas de turnos"
 intent: Auto-ofertar horas
 audience:
   - role: Administrador

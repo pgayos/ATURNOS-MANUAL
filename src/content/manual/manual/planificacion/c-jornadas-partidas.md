@@ -4,8 +4,8 @@ contentId: planificacion-c-jornadas-partidas
 title: Jornadas partidas
 description: En aTurnos, se considera jornada partida a aquella jornada de trabajo donde se planifica dos o más tipos de turnos en un mismo día en el cuadrante de un trabajador y en la que no se solapan.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Jornadas partidas
 audience:

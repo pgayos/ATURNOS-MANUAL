@@ -4,8 +4,8 @@ contentId: control-horario-1-5-estado-y-ajustar-fichajes
 title: Estado y ajustar fichajes
 description: Todos los fichajes modificados o insertados por el administrador se guardarán como fichajes manuales. Para poder ajustar fichajes se puede hacer desde ‘ Diario ‘ o ‘ Detalle ‘.
 contentType: concept
-module: Control horario
-submodule: Vacaciones y ausencias
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Estado y ajustar fichajes
 audience:

@@ -4,9 +4,9 @@ contentId: planificacion-1-anadir-turnos-a-todos
 title: Añadir turnos a todos
 description: “Añadir turnos a todos” permite a los administradores insertar un mismo turno a todos los trabajadores en un mismo día. Para ello, se debe seleccionar un turno.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Añadir turnos a todos
 audience:
   - role: Administrador

@@ -4,8 +4,8 @@ contentId: planificacion-1-variables-del-patron
 title: Variables del patrón
 description: Al crear un patrón de turnos es necesario informar en primer lugar los siguientes campos o variables que definirán el patrón:.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Variables del patrón
 audience:

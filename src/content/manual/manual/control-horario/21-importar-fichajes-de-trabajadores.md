@@ -4,8 +4,8 @@ contentId: control-horario-21-importar-fichajes-de-trabajadores
 title: Importar fichajes de trabajadores
 description: Es posible que si has utilizado otro sistema de registro de jornada, los marcajes hechos en dispositivos puedas trasladarlos al sistema de aTurnos.
 contentType: reference
-module: Control horario
-submodule: Usuarios y perfiles
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Importar fichajes de trabajadores
 audience:

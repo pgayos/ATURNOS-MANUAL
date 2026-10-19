@@ -4,8 +4,8 @@ contentId: tareas-16-importacion-plantilla-de-tareas-tareas
 title: Importación plantilla de tareas (Tareas)
 description: "Ejemplo de documento: CSV import_plantilla-tareas."
 contentType: concept
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Importación plantilla de tareas (Tareas)
 audience:

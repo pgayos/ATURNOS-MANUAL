@@ -4,8 +4,8 @@ contentId: control-horario-1-4-anadir-insertar-modificar-y-cerrar-fichajes
 title: Añadir, insertar, modificar y cerrar fichajes
 description: Todos los fichajes modificados o insertados por el administrador se guardarán como fichajes manuales. Para poder insertar fichajes debes acceder a Control de Presencia → Detalle o Detalle por trabajador.
 contentType: procedure
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Añadir, insertar, modificar y cerrar fichajes
 audience:

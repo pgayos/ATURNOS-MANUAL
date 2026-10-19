@@ -4,8 +4,8 @@ contentId: documentos-e-mostrar-ocultar-y-acciones
 title: Mostrar/Ocultar y Acciones
 description: La tabla del listado de trabajadores se puede personalizar mostrando u ocultando las diferentes columnas de los datos de los trabajadores.
 contentType: concept
-module: Documentos
-submodule: General
+module: "Documentos"
+submodule: "Documentos"
 subtopic: ""
 intent: Mostrar/Ocultar y Acciones
 audience:

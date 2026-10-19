@@ -4,8 +4,8 @@ contentId: tareas-2-como-imputar-tareas
 title: Cómo imputar tareas
 description: Una vez que te has logueado en el sistema y has accedido a la pantalla de inicio de aTurnos,, se puede visualizar la tabla de tareas, así como diversas opciones a las que se tiene acceso sit.
 contentType: faq
-module: Tareas
-submodule: Altas y bajas
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Cómo imputar tareas
 audience:

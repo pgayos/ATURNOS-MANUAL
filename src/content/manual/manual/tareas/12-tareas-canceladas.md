@@ -4,8 +4,8 @@ contentId: tareas-12-tareas-canceladas
 title: Tareas canceladas
 description: Desde Tareas → Tareas Canceladas puede recuperar tareas canceladas hasta 60 minutos tal y como se definió al CONFIGURAR las COLAS.
 contentType: concept
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Tareas canceladas
 audience:

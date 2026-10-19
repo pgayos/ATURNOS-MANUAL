@@ -4,9 +4,9 @@ contentId: planificacion-7-panel-de-herramientas
 title: Panel de herramientas
 description: aTurnos dispone de un panel de herramientas para insertar los tipos de turnos en los diferentes periodos del patrón.
 contentType: concept
-module: Planificación
-submodule: Turnos y patrones
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Panel de herramientas
 audience:
   - role: Administrador

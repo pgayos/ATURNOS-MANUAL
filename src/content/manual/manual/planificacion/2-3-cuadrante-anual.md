@@ -4,9 +4,9 @@ contentId: planificacion-2-3-cuadrante-anual
 title: Cuadrante Anual
 description: En el menú Cuadrante anual, el Administrador puede visualizar la planificación asignada durante el año a cualquiera de sus trabajadores.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Anual"
 intent: Cuadrante Anual
 audience:
   - role: Administrador

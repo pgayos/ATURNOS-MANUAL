@@ -4,9 +4,9 @@ contentId: planificacion-b-barra-superior-del-cuadrante
 title: Barra superior del cuadrante
 description: En la parte superior del cuadrante se encuentra una barra de herramientas desde la que se pueden realizar diferentes acciones.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Barra superior del cuadrante
 audience:
   - role: Administrador

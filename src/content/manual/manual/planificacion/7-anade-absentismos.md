@@ -4,9 +4,9 @@ contentId: planificacion-7-anade-absentismos
 title: Añade absentismos
 description: Un absentismo es una ausencia del trabajador al no estar ejerciendo sus funciones y deberes de su puesto de trabajo en un horario planificado.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de Absentismos"
 intent: Añade absentismos
 audience:
   - role: RRHH

@@ -4,8 +4,8 @@ contentId: planificacion-5-creacion-de-los-patrones-de-trabajo
 title: Creación de los patrones de trabajo
 description: El patrón es la relación consecutiva de los días de trabajo y/o descanso establecidos.
 contentType: procedure
-module: Planificación
-submodule: Turnos y patrones
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Creación de los patrones de trabajo
 audience:

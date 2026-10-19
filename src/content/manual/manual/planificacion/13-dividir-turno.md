@@ -4,9 +4,9 @@ contentId: planificacion-13-dividir-turno
 title: Dividir turno
 description: Esta opción permite dividir o partir un turno y convertirlo en horas, del tipo y localizaciones que se desee.
 contentType: concept
-module: Planificación
-submodule: Turnos y patrones
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Dividir turno
 audience:
   - role: Administrador

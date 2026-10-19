@@ -56,8 +56,8 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 
 - [Opciones cuadrante](/manual/planificacion/a-opciones-cuadrante/)
 - [Barra superior del cuadrante](/manual/planificacion/b-barra-superior-del-cuadrante/)
-- [Ver perfil](/manual/gestion-de-personal/1-ver-perfil/)
-- [Cerrar cuadrante](/manual/planificacion/2-cerrar-cuadrante/)
+- [Ver perfil](/manual/trabajadores/1-ver-perfil/)
+- [Cerrar cuadrante](/manual/nominas/2-cerrar-cuadrante/)
 - [Extender planificación](/manual/planificacion/3-extender-planificacion/)
 - [Recuperar última planificación](/manual/planificacion/4-recuperar-ultima-planificacion/)
 - [Reemplazar turnos](/manual/planificacion/5-reemplazar-turnos/)
@@ -67,7 +67,7 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 - [Modifica las localizaciones](/manual/recursos-y-partes/13-modifica-las-localizaciones/)
 - [Localización por defecto](/manual/recursos-y-partes/14-localizacion-por-defecto/)
 - [Borrar cuadrante](/manual/planificacion/15-borrar-cuadrante/)
-- [Sustituciones](/manual/gestion-de-personal/6-sustituciones/)
+- [Sustituciones](/manual/trabajadores/6-sustituciones/)
 - [Copiar y pegar cuadrante](/manual/planificacion/7-copiar-y-pegar-cuadrante/)
 - [Enviar cuadrante por Email](/manual/planificacion/8-enviar-cuadrante-por-email/)
 - [Cuadrante anual](/manual/planificacion/9-cuadrante-anual/)
@@ -79,7 +79,7 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 - [Copiar / Pegar día](/manual/planificacion/6-copiar-pegar-dia/)
 - [Modifica las localizaciones](/manual/recursos-y-partes/7-modifica-las-localizaciones/)
 - [Borrar el día para todos los visibles](/manual/planificacion/8-borrar-el-dia-para-todos-los-visibles/)
-- [Hacer Cambio de Turno](/manual/peticiones-y-cambios/1-hacer-cambio-de-turno/)
+- [Hacer Cambio de Turno](/manual/planificacion/1-hacer-cambio-de-turno/)
 - [info en aTurnos](/manual/planificacion/b-info/)
 - [Comentarios](/manual/gestion-de-personal/3-comentarios/)
 - [Añadir patrón](/manual/planificacion/4-anadir-patron/)
@@ -89,18 +89,18 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 - [Añade absentismos](/manual/planificacion/7-anade-absentismos/)
 - [Localización turno](/manual/planificacion/8-localizacion-turno/)
 - [Borrar en aTurnos](/manual/planificacion/9-borrar/)
-- [Peticiones](/manual/peticiones-y-cambios/10-peticiones/)
+- [Peticiones](/manual/planificacion/10-peticiones/)
 - [Añadir horas](/manual/planificacion/11-anadir-horas/)
 - [Modificar horas](/manual/recursos-y-partes/12-modificar-horas/)
 - [Cambiar Turno a Horas](/manual/planificacion/14-cambiar-turno-a-horas/)
 - [Dividir turno](/manual/planificacion/13-dividir-turno/)
 - [Pegar desde Excel](/manual/planificacion/15-pegar-desde-excel/)
 - [Turnos por teclado](/manual/planificacion/16-turnos-por-teclado/)
-- [Copiar día](/manual/general/17-copiar-dia/)
+- [Copiar día](/manual/planificacion/17-copiar-dia/)
 - [Localizaciones](/manual/recursos-y-partes/7-6-localizaciones/)
-- [Tabla de Cobertura](/manual/planificacion/f-tabla-de-cobertura/)
-- [Tabla de cobertura](/manual/planificacion/6-tabla-de-cobertura/)
-- [Mis equipos](/manual/gestion-de-personal/1-4-mis-equipos/)
+- [Tabla de Cobertura](/manual/planificacion-avanzada/f-tabla-de-cobertura/)
+- [Tabla de cobertura](/manual/planificacion-avanzada/6-tabla-de-cobertura/)
+- [Mis equipos](/manual/trabajadores/1-4-mis-equipos/)
 
 ### Cuadrante Anual
 
@@ -108,7 +108,7 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 
 ### Cuadrante por Localizaciones
 
-- [Cuadrante por localizaciones](/manual/recursos-y-partes/a-cuadrante-por-localizaciones/)
+- [Cuadrante por localizaciones](/manual/planificacion/a-cuadrante-por-localizaciones/)
 - [Menú de acciones](/manual/planificacion/b-menu-de-acciones/)
 
 ### Peticiones y Cambios
@@ -130,7 +130,7 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 - [Jornadas partidas](/manual/planificacion/c-jornadas-partidas/)
 - [Franjas horarias](/manual/planificacion/e-franjas-horarias/)
 - [Exportar y cambiar orden](/manual/planificacion/f-exportar-y-cambiar-orden/)
-- [Tipos de horas](/manual/gestion-de-personal/d-tipos-de-horas/)
+- [Tipos de horas](/manual/planificacion/d-tipos-de-horas/)
 
 ### Patrones de turno
 
@@ -142,7 +142,7 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 - [Sobre la tabla, clic y arrastrar](/manual/planificacion/5-sobre-la-tabla-clic-y-arrastrar/)
 - [Sobre la tabla, al hacer clic en casilla](/manual/planificacion/6-sobre-la-tabla-al-hacer-clic-en-casilla/)
 - [Panel de herramientas](/manual/planificacion/7-panel-de-herramientas/)
-- [Tabla de cobertura de patrón](/manual/planificacion/8-tabla-de-cobertura-de-patron/)
+- [Tabla de cobertura de patrón](/manual/planificacion-avanzada/8-tabla-de-cobertura-de-patron/)
 - [Aplicar patrón](/manual/planificacion/1-aplicar-patron/)
 - [Visualizar patrón](/manual/planificacion/2-visualizar-patron/)
 - [Editar patrón](/manual/planificacion/3-editar-patron/)
@@ -150,7 +150,7 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 
 ### Calculadora
 
-- [Calculadora](/manual/planificacion/3-3-calculadora/)
+- [Calculadora](/manual/planificacion-avanzada/3-3-calculadora/)
 
 ### Restricciones
 
@@ -162,16 +162,16 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 - [Sobre los tipos de turnos y absentismos](/manual/planificacion/1-sobre-los-tipos-de-turnos-y-absentismos/)
 - [Sobre el módulo de Control Horario](/manual/control-horario/10-sobre-el-modulo-de-control-horario/)
 - [Tareas en aTurnos](/manual/tareas/12-tareas/)
-- [Sobre el cumplimiento de la demanda](/manual/planificacion/11-sobre-el-cumplimiento-de-la-demanda/)
+- [Sobre el cumplimiento de la demanda](/manual/planificacion-avanzada/11-sobre-el-cumplimiento-de-la-demanda/)
 - [Sobre las localizaciones](/manual/recursos-y-partes/9-sobre-las-localizaciones/)
-- [Peticiones](/manual/peticiones-y-cambios/7-peticiones/)
+- [Peticiones](/manual/planificacion/7-peticiones/)
 - [Cambios en aTurnos](/manual/planificacion/8-cambios/)
 
 ## Registro
 
 ### Acciones
 
-- [Acciones](/manual/gestion-de-personal/4-1-acciones/)
+- [Acciones](/manual/registros/4-1-acciones/)
 
 ### Comentarios
 
@@ -185,7 +185,7 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 
 - [Temporales](/manual/planificacion/a-temporales/)
 - [Totales en aTurnos](/manual/planificacion/b-totales/)
-- [Periodos de absentismo](/manual/gestion-de-personal/c-periodos-de-absentismo/)
+- [Periodos de absentismo](/manual/registros/c-periodos-de-absentismo/)
 
 ### Periodo de vacaciones
 
@@ -193,34 +193,34 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 
 ### Cambios a deber
 
-- [Cambios a deber](/manual/gestion-de-personal/4-6-cambios-a-deber/)
+- [Cambios a deber](/manual/registros/4-6-cambios-a-deber/)
 
 ## Trabajadores
 
 ### Listado de Trabajadores
 
-- [Perfil de usuario](/manual/gestion-de-personal/1-perfil-de-usuario/)
+- [Perfil de usuario](/manual/trabajadores/1-perfil-de-usuario/)
 - [Básica en aTurnos](/manual/gestion-de-personal/2-basica/)
-- [Categoría & Contrato](/manual/gestion-de-personal/3-categoria-contrato/)
+- [Categoría & Contrato](/manual/trabajadores/3-categoria-contrato/)
 - [Tiempos en aTurnos](/manual/planificacion/4-tiempos/)
 - [Cálculo estimado de horas](/manual/planificacion/5-calculo-estimado-de-horas/)
 - [Ajustes automáticos](/manual/configuracion-y-cuenta/6-ajustes-automaticos/)
 - [Datos de planificación](/manual/planificacion/7-datos-de-planificacion/)
-- [Añadir trabajador](/manual/gestion-de-personal/a-anadir-trabajador/)
-- [Especialidades del trabajador](/manual/gestion-de-personal/2-especialidades-del-trabajador/)
-- [Datos personalizados del trabajador](/manual/gestion-de-personal/3-datos-personalizados-del-trabajador/)
-- [Estadísticas del trabajador](/manual/planificacion/4-estadisticas-del-trabajador/)
+- [Añadir trabajador](/manual/trabajadores/a-anadir-trabajador/)
+- [Especialidades del trabajador](/manual/trabajadores/2-especialidades-del-trabajador/)
+- [Datos personalizados del trabajador](/manual/trabajadores/3-datos-personalizados-del-trabajador/)
+- [Estadísticas del trabajador](/manual/reportes-estadisticos/4-estadisticas-del-trabajador/)
 - [Restricciones trabajador](/manual/planificacion/5-restricciones-trabajador/)
-- [Periodos de absentismos](/manual/planificacion/6-periodos-de-absentismos/)
+- [Periodos de absentismos](/manual/registros/6-periodos-de-absentismos/)
 - [Nóminas en aTurnos](/manual/costes-y-nominas/7-nominas/)
 - [General en aTurnos](/manual/general/1-general/)
 - [Costes en aTurnos](/manual/costes-y-nominas/10-costes/)
 - [Control Horario](/manual/control-horario/8-control-horario/)
 - [Horas en los equipos](/manual/planificacion/9-horas-en-los-equipos/)
-- [Dar de baja un trabajador](/manual/gestion-de-personal/c-dar-de-baja-un-trabajador/)
+- [Dar de baja un trabajador](/manual/trabajadores/c-dar-de-baja-un-trabajador/)
 - [Barra superior](/manual/gestion-de-personal/d-barra-superior/)
 - [Mostrar/Ocultar y Acciones](/manual/documentos/e-mostrar-ocultar-y-acciones/)
-- [Variables del listado de trabajadores](/manual/gestion-de-personal/f-variables-del-listado-de-trabajadores/)
+- [Variables del listado de trabajadores](/manual/trabajadores/f-variables-del-listado-de-trabajadores/)
 
 ### Sustituciones
 
@@ -231,20 +231,20 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 
 ### Datos del trabajador
 
-- [Datos personalizados](/manual/gestion-de-personal/a-datos-personalizados/)
-- [Especialidades](/manual/gestion-de-personal/b-especialidades/)
-- [Categoría](/manual/gestion-de-personal/c-categoria/)
-- [Perfiles](/manual/gestion-de-personal/d-perfiles/)
+- [Datos personalizados](/manual/trabajadores/a-datos-personalizados/)
+- [Especialidades](/manual/trabajadores/b-especialidades/)
+- [Categoría](/manual/trabajadores/c-categoria/)
+- [Perfiles](/manual/trabajadores/d-perfiles/)
 
 ## Estadísticas
 
 ### General
 
-- [Reportes de trabajadores](/manual/gestion-de-personal/6-1-reportes-de-trabajadores/)
-- [Reporte de localizaciones](/manual/recursos-y-partes/6-2-reporte-de-localizaciones/)
+- [Reportes de trabajadores](/manual/reportes-estadisticos/6-1-reportes-de-trabajadores/)
+- [Reporte de localizaciones](/manual/reportes-estadisticos/6-2-reporte-de-localizaciones/)
 - [Cargar reportes](/manual/general/6-3-cargar-reportes/)
 - [Tootilp del trabajador](/manual/recursos-y-partes/6-5-tootilp-del-trabajador/)
-- [Configuración](/manual/configuracion-y-cuenta/6-6-configuracion/)
+- [Configuración](/manual/configuracion-de-equipos/6-6-configuracion/)
 
 ### Estadísticas por defecto
 
@@ -256,7 +256,7 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 - [Absentismos](/manual/planificacion/f-absentismos/)
 - [Vacaciones](/manual/planificacion/g-vacaciones/)
 - [Jornadas](/manual/planificacion/h-jornadas/)
-- [Jornadas II](/manual/configuracion-y-cuenta/i-jornadas-ii/)
+- [Jornadas II](/manual/planificacion/i-jornadas-ii/)
 
 ## Administrar
 
@@ -265,18 +265,18 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 - [Datos de convenio](/manual/planificacion/1-datos-de-convenio/)
 - [Vacaciones](/manual/planificacion/2-vacaciones/)
 - [Cálculo de jornadas](/manual/planificacion/3-calculo-de-jornadas/)
-- [Exportación a nóminas](/manual/costes-y-nominas/4-exportacion-a-nominas/)
+- [Exportación a nóminas](/manual/nominas/4-exportacion-a-nominas/)
 - [Ajuste de coeficientes en nocturnidad y festivos](/manual/planificacion/5-ajuste-de-coeficientes-en-nocturnidad-y-festivos/)
 - [Ajuste de absentismos](/manual/planificacion/6-ajuste-de-absentismos/)
-- [Datos del equipo](/manual/configuracion-y-cuenta/b-datos-del-equipo/)
-- [Privacidad](/manual/planificacion/c-privacidad/)
+- [Datos del equipo](/manual/configuracion-de-equipos/b-datos-del-equipo/)
+- [Privacidad](/manual/configuracion-de-equipos/c-privacidad/)
 - [Delegación de administradores](/manual/gestion-de-personal/1-3-delegacion-de-administradores/)
 - [Cambios en aTurnos](/manual/configuracion-y-cuenta/d-cambios/)
-- [Peticiones](/manual/peticiones-y-cambios/e-peticiones/)
-- [Visualización](/manual/gestion-de-personal/f-visualizacion/)
-- [Acciones Automáticas](/manual/configuracion-y-cuenta/g-acciones-automaticas/)
-- [Notificaciones](/manual/planificacion/h-notificaciones/)
-- [Pantalla de inicio](/manual/configuracion-y-cuenta/i-pantalla-de-inicio/)
+- [Peticiones](/manual/planificacion/e-peticiones/)
+- [Visualización](/manual/configuracion-de-equipos/f-visualizacion/)
+- [Acciones Automáticas](/manual/configuracion-de-equipos/g-acciones-automaticas/)
+- [Notificaciones](/manual/configuracion-de-equipos/h-notificaciones/)
+- [Pantalla de inicio](/manual/configuracion-de-equipos/i-pantalla-de-inicio/)
 - [Módulos en aTurnos](/manual/integraciones-y-api/j-modulos/)
 
 ### Festivos
@@ -293,34 +293,34 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 
 ### Importar/Exportar
 
-- [Configuración](/manual/configuracion-y-cuenta/a-configuracion/)
-- [Importar trabajadores y/o planificación: altas, perfil y planificación](/manual/gestion-de-personal/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion/)
+- [Configuración](/manual/configuracion-de-equipos/a-configuracion/)
+- [Importar trabajadores y/o planificación: altas, perfil y planificación](/manual/gestion-de-rrhh/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion/)
 - [Importación turnos al trabajador con localización](/manual/planificacion/2-importacion-turnos-al-trabajador-con-localizacion/)
-- [Importar horas al trabajador (normales, extra y complementarias)](/manual/gestion-de-personal/3-importar-horas-al-trabajador-normales-extra-y-complementarias/)
+- [Importar horas al trabajador (normales, extra y complementarias)](/manual/gestion-de-rrhh/3-importar-horas-al-trabajador-normales-extra-y-complementarias/)
 - [Insertar periodos de absentismos totales y temporales](/manual/planificacion/4-insertar-periodos-de-absentismos-totales-y-temporales/)
 - [Importar ofertas de turnos](/manual/planificacion/5-importar-ofertas-de-turnos/)
-- [Importar posiciones](/manual/gestion-de-personal/10-importar-posiciones/)
-- [Importar balance de ajustes](/manual/gestion-de-personal/11-importar-balance-de-ajustes/)
+- [Importar posiciones](/manual/gestion-de-rrhh/10-importar-posiciones/)
+- [Importar balance de ajustes](/manual/gestion-de-rrhh/11-importar-balance-de-ajustes/)
 - [Importar costes](/manual/costes-y-nominas/12-importar-costes/)
 - [Crear localizaciones y localizaciones padres](/manual/recursos-y-partes/13-crear-localizaciones-y-localizaciones-padres/)
-- [Importar días festivos en los equipos](/manual/planificacion/14-importar-dias-festivos-en-los-equipos/)
+- [Importar días festivos en los equipos](/manual/gestion-de-rrhh/14-importar-dias-festivos-en-los-equipos/)
 - [Importar relación Ids External](/manual/integraciones-y-api/15-importar-relacion-ids-external/)
 - [Importación plantilla de tareas (Tareas)](/manual/tareas/16-importacion-plantilla-de-tareas-tareas/)
 - [Importar clientes (Tareas)](/manual/tareas/17-importar-clientes-tareas/)
 - [Importación recursos](/manual/recursos-y-partes/18-importacion-recursos/)
-- [Importación demandas (Planificación automática)](/manual/planificacion/19-importacion-demandas-planificacion-automatica/)
-- [Importación de demanda por tipo de turno (Planificación automática)](/manual/planificacion/20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica/)
+- [Importación demandas (Planificación automática)](/manual/planificacion-avanzada/19-importacion-demandas-planificacion-automatica/)
+- [Importación de demanda por tipo de turno (Planificación automática)](/manual/planificacion-avanzada/20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica/)
 - [Importar fichajes de trabajadores](/manual/control-horario/21-importar-fichajes-de-trabajadores/)
-- [Importar acumulado año anterior (Timecard)](/manual/documentos/22-importar-acumulado-ano-anterior-timecard/)
-- [Importar trabajadores y/o planificación: planificación con patrones](/manual/planificacion/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones/)
-- [Importación de Ajustes-Coeficiente de Horas](/manual/configuracion-y-cuenta/24-importacion-de-ajustes-coeficiente-de-horas/)
-- [Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/manual/planificacion/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-localizaciones/)
-- [Importar datos personalizados](/manual/gestion-de-personal/26-importar-datos-personalizados/)
-- [Importar peticiones](/manual/peticiones-y-cambios/27-importar-peticiones/)
-- [Importar ofertas de horas](/manual/peticiones-y-cambios/6-importar-ofertas-de-horas/)
+- [Importar acumulado año anterior (Timecard)](/manual/gestion-de-rrhh/22-importar-acumulado-ano-anterior-timecard/)
+- [Importar trabajadores y/o planificación: planificación con patrones](/manual/gestion-de-rrhh/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones/)
+- [Importación de Ajustes-Coeficiente de Horas](/manual/gestion-de-rrhh/24-importacion-de-ajustes-coeficiente-de-horas/)
+- [Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/manual/gestion-de-rrhh/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-localizaciones/)
+- [Importar datos personalizados](/manual/gestion-de-rrhh/26-importar-datos-personalizados/)
+- [Importar peticiones](/manual/planificacion/27-importar-peticiones/)
+- [Importar ofertas de horas](/manual/planificacion/6-importar-ofertas-de-horas/)
 - [Crear tipos de turnos](/manual/planificacion/7-crear-tipos-de-turnos/)
 - [Crear patrones de turnos](/manual/planificacion/8-crear-patrones-de-turnos/)
-- [Importar tabla de coeficiente](/manual/documentos/9-importar-tabla-de-coeficiente/)
+- [Importar tabla de coeficiente](/manual/gestion-de-rrhh/9-importar-tabla-de-coeficiente/)
 - [Exportar](/manual/planificacion/c-exportar/)
 
 ### Perfil del trabajador
@@ -329,47 +329,47 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 
 ### Nóminas
 
-- [Configuración de jornadas](/manual/configuracion-y-cuenta/1-10-configuracion-de-jornadas/)
+- [Configuración de jornadas](/manual/planificacion/1-10-configuracion-de-jornadas/)
 - [Nivel mínimo que puede cambiar la fecha de cierre a pasado](/manual/planificacion/1-6-nivel-minimo-que-puede-cambiar-la-fecha-de-cierre-a-pasado/)
 - [Periodo nocturno](/manual/planificacion/1-7-periodo-nocturno/)
 - [Festivos](/manual/costes-y-nominas/1-8-festivos/)
 - [Computar las horas en el día de inicio](/manual/planificacion/1-9-computar-las-horas-en-el-dia-de-inicio/)
-- [Modo de validación para la exportación](/manual/costes-y-nominas/1-1-modo-de-validacion-para-la-exportacion/)
-- [Descarga de nómina](/manual/costes-y-nominas/1-2-descarga-de-nomina/)
-- [Comportamiento de aviso de cuadrante cerrado por nómina](/manual/costes-y-nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/)
-- [Nivel que puede cambiar la fecha de cierre del cuadrante](/manual/planificacion/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/)
+- [Modo de validación para la exportación](/manual/nominas/1-1-modo-de-validacion-para-la-exportacion/)
+- [Descarga de nómina](/manual/nominas/1-2-descarga-de-nomina/)
+- [Comportamiento de aviso de cuadrante cerrado por nómina](/manual/nominas/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina/)
+- [Nivel que puede cambiar la fecha de cierre del cuadrante](/manual/nominas/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante/)
 - [Nivel que puede cambiar la fecha de cierre de un empleado](/manual/gestion-de-personal/1-5-nivel-que-puede-cambiar-la-fecha-de-cierre-de-un-empleado/)
-- [Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/manual/planificacion/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/)
-- [Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/manual/gestion-de-personal/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/)
-- [Conceptos tipo 6: Conceptos asociados a los datos personalizados](/manual/gestion-de-personal/conceptos-tipo-6-conceptos-asociados-a-los-datos-personalizados/)
-- [Conceptos tipo 7: Conceptos asociados al perfil del trabajador](/manual/gestion-de-personal/conceptos-tipo-7-conceptos-asociados-al-perfil-del-trabajador/)
-- [Conceptos tipo 1.2: Conceptos asociados a horas](/manual/planificacion/conceptos-tipo-1-2-conceptos-asociados-a-horas/)
-- [Conceptos tipo 1.3: Conceptos asociados a los días](/manual/recursos-y-partes/conceptos-tipo-1-3-conceptos-asociados-a-los-dias/)
-- [Conceptos tipo 1.4: Conceptos asociados a las jornadas](/manual/planificacion/conceptos-tipo-1-4-conceptos-asociados-a-las-jornadas/)
-- [Concepto tipo 1.1: Conceptos relacionados con los turnos](/manual/planificacion/concepto-tipo-1-1-conceptos-relacionados-con-los-turnos/)
-- [Conceptos tipo 10: Conceptos asociados al control de presencia](/manual/control-horario/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/)
-- [Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/manual/planificacion/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/)
-- [Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/manual/planificacion/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/)
-- [Conceptos que operan entre conceptos](/manual/gestion-de-personal/2-2-conceptos-que-operan-entre-conceptos/)
+- [Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/manual/nominas/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos/)
+- [Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/manual/nominas/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas/)
+- [Conceptos tipo 6: Conceptos asociados a los datos personalizados](/manual/nominas/conceptos-tipo-6-conceptos-asociados-a-los-datos-personalizados/)
+- [Conceptos tipo 7: Conceptos asociados al perfil del trabajador](/manual/nominas/conceptos-tipo-7-conceptos-asociados-al-perfil-del-trabajador/)
+- [Conceptos tipo 1.2: Conceptos asociados a horas](/manual/nominas/conceptos-tipo-1-2-conceptos-asociados-a-horas/)
+- [Conceptos tipo 1.3: Conceptos asociados a los días](/manual/nominas/conceptos-tipo-1-3-conceptos-asociados-a-los-dias/)
+- [Conceptos tipo 1.4: Conceptos asociados a las jornadas](/manual/nominas/conceptos-tipo-1-4-conceptos-asociados-a-las-jornadas/)
+- [Concepto tipo 1.1: Conceptos relacionados con los turnos](/manual/nominas/concepto-tipo-1-1-conceptos-relacionados-con-los-turnos/)
+- [Conceptos tipo 10: Conceptos asociados al control de presencia](/manual/nominas/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia/)
+- [Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/manual/nominas/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado/)
+- [Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/manual/nominas/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado/)
+- [Conceptos que operan entre conceptos](/manual/nominas/2-2-conceptos-que-operan-entre-conceptos/)
 - [Elemento de pruebas](/manual/pruebas/elemento-de-pruebas/)
-- [Conceptos comunes de nómina](/manual/costes-y-nominas/2-1-conceptos-comunes-de-nomina/)
-- [Conceptos en nómina](/manual/costes-y-nominas/3-1-conceptos-en-nomina/)
-- [Plantilla de nómina](/manual/costes-y-nominas/4-1-plantilla-de-nomina/)
+- [Conceptos comunes de nómina](/manual/nominas/2-1-conceptos-comunes-de-nomina/)
+- [Conceptos en nómina](/manual/nominas/3-1-conceptos-en-nomina/)
+- [Plantilla de nómina](/manual/nominas/4-1-plantilla-de-nomina/)
 - [Exportar nóminas](/manual/costes-y-nominas/5-1-exportar-nominas/)
-- [Estadística por periodo](/manual/costes-y-nominas/6-1-estadistica-por-periodo/)
+- [Estadística por periodo](/manual/nominas/6-1-estadistica-por-periodo/)
 - [Estadística diaria](/manual/gestion-de-personal/7-1-estadistica-diaria/)
 - [Conceptos tipo 8: Conceptos asociados al módulo de recursos](/manual/recursos-y-partes/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos/)
 - [Ejemplos Prácticos](/manual/gestion-de-personal/8-1-ejemplos-practicos/)
-- [Integración nóminas](/manual/costes-y-nominas/9-1-integracion-nominas/)
-- [Exportar a nóminas](/manual/costes-y-nominas/10-4-exportar-a-nominas/)
-- [Estadística todos los equipos](/manual/costes-y-nominas/10-5-estadistica-todos-los-equipos/)
+- [Integración nóminas](/manual/nominas/9-1-integracion-nominas/)
+- [Exportar a nóminas](/manual/nominas/10-4-exportar-a-nominas/)
+- [Estadística todos los equipos](/manual/nominas/10-5-estadistica-todos-los-equipos/)
 - [Estadística diaria de todos los equipos](/manual/gestion-de-personal/10-6-estadistica-diaria-de-todos-los-equipos/)
-- [Totalizada por equipo. Validación del cuadrante](/manual/planificacion/10-7-totalizada-por-equipo-validacion-del-cuadrante/)
-- [Listado de comprobación](/manual/planificacion/10-8-listado-de-comprobacion/)
-- [Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina](/manual/costes-y-nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/)
-- [Cierre del cuadrante, validación y último día exportado (por equipo)](/manual/planificacion/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/)
+- [Totalizada por equipo. Validación del cuadrante](/manual/nominas/10-7-totalizada-por-equipo-validacion-del-cuadrante/)
+- [Listado de comprobación](/manual/nominas/10-8-listado-de-comprobacion/)
+- [Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina](/manual/nominas/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos-de-calculo-de-nomina/)
+- [Cierre del cuadrante, validación y último día exportado (por equipo)](/manual/nominas/10-2-cierre-del-cuadrante-validacion-y-ultimo-dia-exportado-por-equipo/)
 - [Cierre por empleado, fecha de validación y último día exportado (por trabajador)](/manual/gestion-de-personal/10-3-cierre-por-empleado-fecha-de-validacion-y-ultimo-dia-exportado-por-trabajador/)
-- [Clonar datos](/manual/gestion-de-personal/11-1-clonar-datos/)
+- [Clonar datos](/manual/gestion-de-rrhh/11-1-clonar-datos/)
 
 ### Resetear contraseñas trabajadores anónimos
 
@@ -377,7 +377,7 @@ Esta guía reúne, ordenadas por área, las pantallas y procedimientos que neces
 
 ### Activar usuarios
 
-- [Activar usuarios](/manual/gestion-de-personal/7-9-activar-usuarios/)
+- [Activar usuarios](/manual/trabajadores/7-9-activar-usuarios/)
 
 ### Externos
 

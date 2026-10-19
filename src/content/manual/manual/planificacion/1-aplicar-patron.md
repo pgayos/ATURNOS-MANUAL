@@ -4,8 +4,8 @@ contentId: planificacion-1-aplicar-patron
 title: Aplicar patrón
 description: Una vez creado un patrón de turnos, se puede aplicar al cuadrante asignándolo al trabajador correspondiente en el periodo de tiempo que se desee. También se puede aplicar al cuadrante borrador.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Aplicar patrón
 audience:

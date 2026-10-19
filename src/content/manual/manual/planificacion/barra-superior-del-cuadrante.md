@@ -4,9 +4,9 @@ contentId: planificacion-barra-superior-del-cuadrante
 title: Barra superior del cuadrante
 description: La URL pública original de Barra superior del cuadrante no devolvió contenido utilizable durante la migración.
 contentType: concept
-module: Planificación
-submodule: General
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Barra superior del cuadrante
 audience:
   - role: Administrador

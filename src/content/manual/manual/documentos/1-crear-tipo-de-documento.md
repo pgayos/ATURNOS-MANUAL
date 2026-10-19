@@ -4,8 +4,8 @@ contentId: documentos-1-crear-tipo-de-documento
 title: Crear tipo de documento
 description: El administrador del equipo desde la función Tipos, que se encuentra en el menú Documentos, puede crear los tipos de documentos que necesite desde el botón derecho de Acciones en ‘ Añadir Tipo de Documento ’.
 contentType: concept
-module: Documentos
-submodule: Roles y permisos
+module: "Documentos"
+submodule: "Tipos de documentos"
 subtopic: ""
 intent: Crear tipo de documento
 audience:

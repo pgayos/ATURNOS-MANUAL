@@ -4,8 +4,8 @@ contentId: control-horario-1-como-fichar
 title: Cómo fichar
 description: La forma de fichar en aTurnos variará según el sistema que utilice tu empresa.
 contentType: faq
-module: Control horario
-submodule: General
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Cómo fichar
 audience:

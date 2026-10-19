@@ -4,9 +4,9 @@ contentId: planificacion-6-ajuste-de-absentismos
 title: Ajuste de absentismos
 description: Corresponde a los ajustes que se generan por absentismos. Por ejemplo, cuando se ha realizado un pago de horas (Descuento de horas) o se hace un abono (Incremento de horas).
 contentType: reference
-module: Planificación
-submodule: Contratos
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de Absentismos"
 intent: Ajuste de absentismos
 audience:
   - role: RRHH

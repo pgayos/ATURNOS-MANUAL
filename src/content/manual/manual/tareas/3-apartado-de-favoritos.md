@@ -4,8 +4,8 @@ contentId: tareas-3-apartado-de-favoritos
 title: Apartado de favoritos
 description: En aTurnos hay una nueva sección denominada Favoritos que tiene como objetivo facilitar la imputación de las tareas más frecuentes realizadas por el trabajador.
 contentType: procedure
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Apartado de favoritos
 audience:

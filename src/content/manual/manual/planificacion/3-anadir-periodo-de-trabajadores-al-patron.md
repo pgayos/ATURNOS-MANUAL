@@ -4,8 +4,8 @@ contentId: planificacion-3-anadir-periodo-de-trabajadores-al-patron
 title: Añadir periodo de trabajadores al patrón
 description: Al crear o editar el patrón de turnos puedes añadir de forma rápida periodos al patrón, los cuales se añaden con turno libre por defecto.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Añadir periodo de trabajadores al patrón
 audience:

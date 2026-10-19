@@ -4,8 +4,8 @@ contentId: planificacion-8-crear-patrones-de-turnos
 title: Crear patrones de turnos
 description: Los manager o supervisores de los equipos de trabajo, pueden tener una secuencia de trabajo habitual, a lo que en aTurnos llamamos Patrones de turnos.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Crear patrones de turnos
 audience:

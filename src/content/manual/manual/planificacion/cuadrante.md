@@ -4,9 +4,9 @@ contentId: planificacion-cuadrante
 title: Cuadrante
 description: El Cuadrante es la herramienta principal de un trabajador dentro de aTurnos.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Cuadrante
 audience:
   - role: Administrador

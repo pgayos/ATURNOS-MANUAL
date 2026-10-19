@@ -4,9 +4,9 @@ contentId: planificacion-4-6-absentismos
 title: Absentismos
 description: En estas estadísticas se nos mostrará toda la información relacionada con los absentismos totales (cuya duración ocupa el total del turno de trabajo) y los absentismos temporales (su duració.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de Absentismos"
 intent: Absentismos
 audience:
   - role: Administrador

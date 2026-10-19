@@ -4,8 +4,8 @@ contentId: documentos-2-subir-documentos
 title: Subir documentos
 description: Los administradores y trabajadores de los equipos de trabajo, pueden subir documentos desde la opción ‘Subir’ dentro del menú de Documentos.
 contentType: concept
-module: Documentos
-submodule: Usuarios y perfiles
+module: "Documentos"
+submodule: "Subir documentos"
 subtopic: ""
 intent: Subir documentos
 audience:

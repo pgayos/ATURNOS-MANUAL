@@ -4,9 +4,9 @@ contentId: planificacion-5-absentismo-temporal
 title: Absentismo temporal
 description: El administrador tiene a su disposición una herramienta para añadir tipos de absentismos temporales a todos los trabajadores en un día concreto.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de Absentismos"
 intent: Absentismo temporal
 audience:
   - role: Administrador

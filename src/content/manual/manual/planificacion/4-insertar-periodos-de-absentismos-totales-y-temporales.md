@@ -4,9 +4,9 @@ contentId: planificacion-4-insertar-periodos-de-absentismos-totales-y-temporales
 title: Insertar periodos de absentismos totales y temporales
 description: El administrador puede insertar periodos de absentismos (ver Nuevo periodo de absentismo ) o absentismos temporales a través de un fichero Excel en el cuadrante de aTurnos.
 contentType: concept
-module: Planificación
-submodule: Altas y bajas
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de Absentismos"
 intent: Insertar periodos de absentismos totales y temporales
 audience:
   - role: Administrador

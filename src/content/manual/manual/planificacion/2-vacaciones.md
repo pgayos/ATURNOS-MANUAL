@@ -4,9 +4,9 @@ contentId: planificacion-2-vacaciones
 title: Vacaciones
 description: En aTurnos las vacaciones se pueden considerar como tipo absentismo o como tipo de turno. Recomendamos que se creen como tipo de absentismo.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de vacaciones"
 intent: Vacaciones
 audience:
   - role: Administrador

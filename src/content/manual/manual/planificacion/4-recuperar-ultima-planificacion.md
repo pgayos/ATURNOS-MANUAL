@@ -4,9 +4,9 @@ contentId: planificacion-4-recuperar-ultima-planificacion
 title: Recuperar última planificación
 description: Los administradores de los equipos de trabajo pueden haber eliminado la planificación de turnos y/o tipos de hora del cuadrante.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Recuperar última planificación
 audience:
   - role: Administrador

@@ -4,9 +4,9 @@ contentId: planificacion-2-importacion-turnos-al-trabajador-con-localizacion
 title: Importación turnos al trabajador con localización
 description: En ocasiones existen empresas o managers que tienen ya una planificación y no desean modificarla, ésta puede ser importada incluyendo la planificación de los turnos con su localización correspondiente.
 contentType: reference
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Por localización"
 intent: Importación turnos al trabajador con localización
 audience:
   - role: Administrador

@@ -4,8 +4,8 @@ contentId: tareas-17-importar-clientes-tareas
 title: Importar clientes (Tareas)
 description: Si necesitamos hacer una carga de varios clientes a la vez con la importación de clientes a través del módulo de Tareas se podría realizar.
 contentType: concept
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Importar clientes (Tareas)
 audience:

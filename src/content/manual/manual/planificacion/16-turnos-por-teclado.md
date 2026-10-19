@@ -4,9 +4,9 @@ contentId: planificacion-16-turnos-por-teclado
 title: Turnos por teclado
 description: Esta opción permite ir insertando turnos tecleando la secuencia sin necesidad de crear un patrón primero o un Excel previo.
 contentType: concept
-module: Planificación
-submodule: Cuadrante
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Turnos por teclado
 audience:
   - role: Administrador

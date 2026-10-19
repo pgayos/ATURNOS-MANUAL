@@ -4,9 +4,9 @@ contentId: planificacion-1-maestro-de-absentismos
 title: Maestro de absentismos
 description: El maestro de absentismo genera un reporte informando diferentes conceptos e información sobre los absentismos, incluyendo los periodos de absentismos, absentismos de días completos y horas.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de Absentismos"
 intent: Maestro de absentismos
 audience:
   - role: Administrador

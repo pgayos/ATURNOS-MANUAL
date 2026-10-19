@@ -4,9 +4,9 @@ contentId: planificacion-c-accion-de-mover-turnos
 title: Acción de mover turnos
 description: La particularidad de esta opción es que los turnos que tenga planificado el trabajador a sustituir en las fechas seleccionadas, se le pasan al trabajador sustituto quedándose el trabajador a.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Acción de mover turnos
 audience:
   - role: Administrador

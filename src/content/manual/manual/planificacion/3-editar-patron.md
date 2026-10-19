@@ -4,8 +4,8 @@ contentId: planificacion-3-editar-patron
 title: Editar patrón
 description: En aTurnos se pueden crear todos los tipos de patrones de turnos que sean necesarios.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Editar patrón
 audience:

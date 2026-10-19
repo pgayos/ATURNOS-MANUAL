@@ -4,8 +4,8 @@ contentId: planificacion-2-visualizar-patron
 title: Visualizar patrón
 description: Una de las acciones que puedes realizar desde el listado de patrones de turnos es visualizarlo. Con esta opción, se puede visualizar la secuencia de tipos de turnos que componen los diferentes periodos del patrón.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Visualizar patrón
 audience:

@@ -4,8 +4,8 @@ contentId: control-horario-4-7-calidad-del-fichaje
 title: Calidad del fichaje
 description: Este reporte, permite consultar de forma resumida todos los fichajes realizados por cada trabajador, indicando:.
 contentType: concept
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Calidad del fichaje
 audience:

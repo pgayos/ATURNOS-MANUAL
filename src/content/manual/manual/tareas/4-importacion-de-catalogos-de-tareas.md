@@ -4,8 +4,8 @@ contentId: tareas-4-importacion-de-catalogos-de-tareas
 title: Importación de catálogos de tareas
 description: Para realizar cualquiera de las acciones que se explican a continuación, es necesario acceder al sistema con el rol superusuario.
 contentType: concept
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Importación de catálogos de tareas
 audience:

@@ -4,8 +4,8 @@ contentId: planificacion-2-acciones-en-periodos-trabajador-del-patron
 title: Acciones en periodos/trabajador del patrón
 description: "1.- Acciones: haciendo clic en este icono se despliegan las funciones descritas a continuación."
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Acciones en periodos/trabajador del patrón
 audience:

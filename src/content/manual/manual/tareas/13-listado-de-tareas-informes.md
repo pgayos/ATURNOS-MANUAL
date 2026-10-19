@@ -4,8 +4,8 @@ contentId: tareas-13-listado-de-tareas-informes
 title: Listado de tareas. Informes
 description: Encontramos distintos informes a los que se acceden a través de Tareas → Estadísticas.
 contentType: concept
-module: Tareas
-submodule: Roles y permisos
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Listado de tareas. Informes
 audience:

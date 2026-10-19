@@ -4,8 +4,8 @@ contentId: control-horario-5-2-tolerancia
 title: Tolerancia
 description: La tolerancia es el lapso de tiempo que se permite al trabajador para poder realizar un fichaje de entrada o salida de su turno de trabajo planificado, sin que se cuantifique como defecto o.
 contentType: concept
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Tolerancia
 audience:

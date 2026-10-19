@@ -61,18 +61,28 @@ export type SiteNavSection =
 // Módulos del directorio "Documentación", en el mismo orden que
 // src/pages/manual/index.astro. No incluye Empezar en aTurnos / App móvil /
 // Glosario porque esos ya tienen su propia categoría arriba.
+// Primero, la estructura nueva del manual; después, los módulos antiguos que
+// aún conservan artículos pendientes de reclasificar (ver reclasificacion/).
 const DOCUMENTATION_MODULE_NAMES = [
   'Planificación',
+  'Trabajadores',
+  'Configuración de Equipos',
+  'Reportes estadísticos',
+  'Registros',
+  'Gestión de RR.HH.',
+  'Planificación Avanzada/Automática',
   'Control horario',
+  'Documentos',
+  'Tareas',
+  'Nóminas',
+  'Integración y API',
   'Configuración y cuenta',
   'Costes y nóminas',
-  'Documentos',
   'General',
   'Gestión de personal',
   'Integraciones y API',
   'Peticiones y cambios',
   'Recursos y partes',
-  'Tareas',
   'Pruebas',
   'Cita previa',
 ];
@@ -95,7 +105,10 @@ export function buildSiteNav(entries: Article[]): SiteNavSection[] {
 
   const documentationModules = DOCUMENTATION_MODULE_NAMES.map((name) => slugByModuleName.get(name))
     .filter((slug): slug is string => Boolean(slug))
-    .map((slug) => buildGuideNav(entries, slug));
+    .map((slug) => buildGuideNav(entries, slug))
+    // Los módulos antiguos cuyos artículos están todos pendientes de
+    // reclasificar quedan vacíos: no se muestran.
+    .filter((nav) => nav.groups.length > 0);
 
   const integrationModules = INTEGRATIONS_MODULE_NAMES.map((name) => slugByModuleName.get(name))
     .filter((slug): slug is string => Boolean(slug))

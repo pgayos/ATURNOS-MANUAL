@@ -4,8 +4,8 @@ contentId: tareas-9-asignacion-de-tareas
 title: Asignación de tareas
 description: Conforme los clientes van pidiendo citas a través del Kiosko, el sistema reserva slots de tiempo (de acuerdo a la configuración de la cola) al puesto que tiene asignada la función (o especialidad) de la cita.
 contentType: reference
-module: Tareas
-submodule: Turnos y patrones
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Asignación de tareas
 audience:

@@ -4,9 +4,9 @@ contentId: planificacion-6-copiar-pegar-dia
 title: Copiar / Pegar día
 description: En busca de facilitar la labor del administrador, desde esta función se pueden copiar los turnos del cuadrante visible, haciendo clic en la columna del día que se necesite.
 contentType: concept
-module: Planificación
-submodule: Cuadrante
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Copiar / Pegar día
 audience:
   - role: Administrador

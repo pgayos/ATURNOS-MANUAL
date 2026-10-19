@@ -4,9 +4,9 @@ contentId: planificacion-a-accion-de-intercambio
 title: Acción de intercambio
 description: Esta opción permite intercambiar la planificación de dos trabajadores en un periodo de tiempo determinado.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Acción de intercambio
 audience:
   - role: Administrador

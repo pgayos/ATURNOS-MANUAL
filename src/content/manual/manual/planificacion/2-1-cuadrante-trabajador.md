@@ -4,9 +4,9 @@ contentId: planificacion-2-1-cuadrante-trabajador
 title: Cuadrante Trabajador
 description: El cuadrante es la herramienta principal de un trabajador dentro de aTurnos.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Cuadrante Trabajador
 audience:
   - role: Administrador

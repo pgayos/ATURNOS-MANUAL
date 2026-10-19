@@ -4,8 +4,8 @@ contentId: planificacion-4-borrar-patron
 title: Borrar patrón
 description: Por diferentes circunstancias, puedes dejar de usar algún patrón de turnos. Recomendamos que aquellos patrones que no te sean válidos para futuras planificaciones del equipo, optes posteriormente por borrarlos.
 contentType: concept
-module: Planificación
-submodule: Cuadrante
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Borrar patrón
 audience:

@@ -4,9 +4,9 @@ contentId: planificacion-5-sobre-la-tabla-clic-y-arrastrar
 title: Sobre la tabla, clic y arrastrar
 description: El patrón creado te permite realizar cambios en la rotación de turnos ya creada, si seleccionas un turno y lo arrastras de una posición a otra, se intercambiarán los turnos asignados en esos dos días.
 contentType: procedure
-module: Planificación
-submodule: Turnos y patrones
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Sobre la tabla, clic y arrastrar
 audience:
   - role: Administrador

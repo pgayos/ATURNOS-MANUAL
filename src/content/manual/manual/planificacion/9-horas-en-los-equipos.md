@@ -4,9 +4,9 @@ contentId: planificacion-9-horas-en-los-equipos
 title: Horas en los equipos
 description: Este apartado es útil para un administrador, porque ofrece una tabla donde podrá visualizar, de una forma rápida y sencilla, datos importantes de la planificación de un trabajador en los dif.
 contentType: reference
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Horas en los equipos
 audience:
   - role: Administrador

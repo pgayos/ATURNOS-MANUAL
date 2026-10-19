@@ -4,9 +4,9 @@ contentId: planificacion-7-6-recuperar-planificacion
 title: Recuperar planificación
 description: Un superusuario puede recuperar la planificación de un trabajador desde el menú ‘Acciones’ de RRHH, en la opción ‘ Recuperar Planificación’.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Recuperar planificación
 audience:
   - role: Administrador

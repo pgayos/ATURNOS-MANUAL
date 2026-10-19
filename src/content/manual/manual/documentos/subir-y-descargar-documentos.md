@@ -4,8 +4,8 @@ contentId: documentos-subir-y-descargar-documentos
 title: Subir y descargar documentos
 description: El administrador o los administradores del equipo tendrán la opción de subir todo tipo de documentos para un trabajador en concreto o bien para todo el equipo.
 contentType: concept
-module: Documentos
-submodule: Altas y bajas
+module: "Documentos"
+submodule: "Subir documentos"
 subtopic: ""
 intent: Subir y descargar documentos
 audience:

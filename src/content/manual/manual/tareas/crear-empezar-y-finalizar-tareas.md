@@ -4,8 +4,8 @@ contentId: tareas-crear-empezar-y-finalizar-tareas
 title: Crear, empezar y finalizar tareas
 description: Este apartado tan sólo estará disponible en el caso de tener activado el Módulo de Tareas.
 contentType: concept
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Crear, empezar y finalizar tareas
 audience:

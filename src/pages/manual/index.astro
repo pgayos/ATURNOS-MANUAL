@@ -2,7 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ModuleGrid from "../../components/home/ModuleGrid.astro";
 import { getCollection } from "astro:content";
-import { topLevelModuleSlugOf } from "../../lib/guideNav";
+import { isPendingReclassification, topLevelModuleSlugOf } from "../../lib/guideNav";
 
 const allArticles = await getCollection("manual");
 
@@ -19,6 +19,14 @@ const moduleDescriptions: Record<string, string> = {
   Planificación: "Cuadrantes, turnos, patrones, vacaciones y coberturas.",
   "Recursos y partes": "Recursos, partes de trabajo y asignaciones.",
   Tareas: "Creación, asignación y seguimiento de tareas.",
+  Trabajadores: "Listado, sustituciones y datos de cada trabajador.",
+  "Configuración de Equipos": "Datos del equipo, privacidad, cambios, notificaciones y módulos.",
+  "Reportes estadísticos": "Reportes por trabajador, por localización y reportes guardados.",
+  Registros: "Acciones, comentarios, absentismos, vacaciones y cambios a deber.",
+  "Gestión de RR.HH.": "Maestro de empleados, acciones en bloque y reportes de varios equipos.",
+  "Planificación Avanzada/Automática": "Demandas, tablas de cobertura y planificación automática.",
+  Nóminas: "Conceptos, cierre, exportación y estadísticas de nóminas.",
+  "Integración y API": "Integraciones con sistemas externos y uso de la API.",
 };
 const moduleIcons: Record<string, string> = {
   "Cita previa": "◷",
@@ -33,6 +41,14 @@ const moduleIcons: Record<string, string> = {
   Planificación: "▦",
   "Recursos y partes": "◇",
   Tareas: "✓",
+  Trabajadores: "♙",
+  "Configuración de Equipos": "⚙",
+  "Reportes estadísticos": "▥",
+  Registros: "☰",
+  "Gestión de RR.HH.": "♜",
+  "Planificación Avanzada/Automática": "◆",
+  Nóminas: "€",
+  "Integración y API": "⌘",
 };
 
 function buildModuleCards(source: typeof allArticles) {
@@ -66,7 +82,9 @@ function buildModuleCards(source: typeof allArticles) {
     .sort((a, b) => a.name.localeCompare(b.name, "es"));
 }
 
-const webArticles = allArticles.filter((a) => a.data.platforms.includes("web"));
+const webArticles = allArticles.filter(
+  (a) => a.data.platforms.includes("web") && !isPendingReclassification(a),
+);
 const modules = buildModuleCards(webArticles).filter(
   (module) => module.name !== "Piloto",
 );
@@ -75,16 +93,25 @@ const modules = buildModuleCards(webArticles).filter(
 // directo desde el inicio, así que no se repiten en este listado general.
 const visibleModuleNames = [
   "Planificación",
+  "Trabajadores",
+  "Configuración de Equipos",
+  "Reportes estadísticos",
+  "Registros",
+  "Gestión de RR.HH.",
+  "Planificación Avanzada/Automática",
   "Control horario",
+  "Documentos",
+  "Tareas",
+  "Nóminas",
+  "Integración y API",
+  // Módulos antiguos con artículos pendientes de reclasificar.
   "Configuración y cuenta",
   "Costes y nóminas",
-  "Documentos",
   "General",
   "Gestión de personal",
   "Integraciones y API",
   "Peticiones y cambios",
   "Recursos y partes",
-  "Tareas",
   "Pruebas",
   "Cita previa",
 ];

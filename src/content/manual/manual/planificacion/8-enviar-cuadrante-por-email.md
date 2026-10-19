@@ -4,9 +4,9 @@ contentId: planificacion-8-enviar-cuadrante-por-email
 title: Enviar cuadrante por Email
 description: Desde esta función, el administrador podrá enviar el cuadrante por correo electrónico al trabajador seleccionado de manera sencilla (para un envío masivo a todos los trabajadores ver la func.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Enviar cuadrante por Email
 audience:
   - role: Administrador

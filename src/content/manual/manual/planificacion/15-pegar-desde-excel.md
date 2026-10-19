@@ -4,9 +4,9 @@ contentId: planificacion-15-pegar-desde-excel
 title: Pegar desde Excel
 description: Al seleccionar esta opción, se abrirá la siguiente ventana, donde te indicará que pegues los turnos que has copiado desde tu excel, éstos se crearan a partir del día seleccionado en el cuadrante.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Pegar desde Excel
 audience:
   - role: Administrador

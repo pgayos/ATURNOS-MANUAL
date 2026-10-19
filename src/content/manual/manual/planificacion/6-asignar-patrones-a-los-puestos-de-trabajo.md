@@ -4,8 +4,8 @@ contentId: planificacion-6-asignar-patrones-a-los-puestos-de-trabajo
 title: Asignar patrones a los puestos de trabajo
 description: A la hora de planificar tener en cuenta que al asignar un patrón a un puesto se abre la posibilidad de solicitar tantos tickets como horarios tengamos disponibles.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Asignar patrones a los puestos de trabajo
 audience:

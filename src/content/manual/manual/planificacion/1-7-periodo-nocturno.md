@@ -4,8 +4,8 @@ contentId: planificacion-1-7-periodo-nocturno
 title: Periodo nocturno
 description: En ADMINISTRAR → AJUSTES → Exportación a nóminas se debe indicar a partir de que hora se inicia el periodo nocturno y la hora de fin.
 contentType: reference
-module: Planificación
-submodule: Turnos y patrones
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Periodo nocturno
 audience:

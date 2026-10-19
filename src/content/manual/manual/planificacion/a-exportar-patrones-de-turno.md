@@ -4,8 +4,8 @@ contentId: planificacion-a-exportar-patrones-de-turno
 title: Exportar patrones de turno
 description: Desde el menú Planificador – Patrones de turnos se tiene la opción de exportar el listado de patrones que existan en el equipo.
 contentType: reference
-module: Planificación
-submodule: Turnos y patrones
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Exportar patrones de turno
 audience:

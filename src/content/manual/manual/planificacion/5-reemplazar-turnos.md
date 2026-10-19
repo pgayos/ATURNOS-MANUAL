@@ -4,9 +4,9 @@ contentId: planificacion-5-reemplazar-turnos
 title: Reemplazar turnos
 description: La acción de ‘Reemplazar turnos’ permite cambiar un mismo turno por otro a un trabajador entre dos fechas.
 contentType: concept
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Reemplazar turnos
 audience:
   - role: Administrador

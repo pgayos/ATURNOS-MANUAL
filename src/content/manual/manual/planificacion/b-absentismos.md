@@ -4,9 +4,9 @@ contentId: planificacion-b-absentismos
 title: Absentismos
 description: Un absentismo es una ausencia o abandono del puesto de trabajo durante los turnos y horas planificados en su cuadrante.
 contentType: concept
-module: Planificación
-submodule: Roles y permisos
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Gestión de Absentismos"
 intent: Absentismos
 audience:
   - role: Administrador

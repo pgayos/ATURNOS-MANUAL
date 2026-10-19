@@ -4,8 +4,8 @@ contentId: control-horario-1-2-detalle-de-los-fichajes
 title: Detalle de los fichajes
 description: Los fichajes son todas aquellas líneas rojas que hay en la línea del tiempo de un día o aquellos fichajes cerrados que forman un periodo naranja entre el fichaje de entrada y el de salida.
 contentType: concept
-module: Control horario
-submodule: Vacaciones y ausencias
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Detalle de los fichajes
 audience:

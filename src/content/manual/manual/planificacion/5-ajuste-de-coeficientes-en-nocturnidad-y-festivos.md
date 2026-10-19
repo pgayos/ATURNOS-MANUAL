@@ -4,8 +4,8 @@ contentId: planificacion-5-ajuste-de-coeficientes-en-nocturnidad-y-festivos
 title: Ajuste de coeficientes en nocturnidad y festivos
 description: Existen ajustes en las horas realizadas que no se corresponden con una planificación de turnos asignada a un trabajador pero que se deben tener en cuenta dentro del contaje de horas de su jo.
 contentType: reference
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Ajuste de coeficientes en nocturnidad y festivos
 audience:

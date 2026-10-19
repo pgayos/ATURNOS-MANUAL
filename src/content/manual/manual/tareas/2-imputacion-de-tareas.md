@@ -4,8 +4,8 @@ contentId: tareas-2-imputacion-de-tareas
 title: Imputación de tareas
 description: Una vez logeado en el sistema, se accede a la ventana de inicio visualizando la tabla de tareas, así como diversas opciones a las que se tendrá acceso en el menú lateral izquierdo.
 contentType: procedure
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Imputación de tareas
 audience:

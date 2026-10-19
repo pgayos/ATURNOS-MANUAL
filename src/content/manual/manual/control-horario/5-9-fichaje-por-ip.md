@@ -4,8 +4,8 @@ contentId: control-horario-5-9-fichaje-por-ip
 title: Fichaje por IP
 description: Este sistema de fichaje permite que los trabajadores realicen sus fichajes de entrada y salida desde el terminal con el que se conectan a internet (ordenador o dispositivo móvil conectado a.
 contentType: concept
-module: Control horario
-submodule: Fichajes
+module: "Control horario"
+submodule: "Configuración del control horario"
 subtopic: ""
 intent: Fichaje por IP
 audience:

@@ -4,8 +4,8 @@ contentId: planificacion-4-3-turnos-y-horas
 title: Turnos y Horas
 description: Desde este registro, se pueden modificar, editar o borrar turnos y horas insertados previamente en el cuadrante.
 contentType: concept
-module: Planificación
-submodule: Usuarios y perfiles
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Turnos y Horas
 audience:

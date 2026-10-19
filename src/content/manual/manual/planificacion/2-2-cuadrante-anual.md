@@ -4,9 +4,9 @@ contentId: planificacion-2-2-cuadrante-anual
 title: Cuadrante Anual
 description: Haciendo clic en Cuadrante → Cuadrante anual, el trabajador puede visualizar su cuadrante anual, mostrando todos los turnos planificados en todos los días de cada mes del año.
 contentType: reference
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Anual"
 intent: Cuadrante Anual
 audience:
   - role: Administrador

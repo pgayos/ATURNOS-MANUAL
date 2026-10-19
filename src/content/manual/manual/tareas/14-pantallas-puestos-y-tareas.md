@@ -4,8 +4,8 @@ contentId: tareas-14-pantallas-puestos-y-tareas
 title: Pantallas, puestos y tareas
 description: A cada una de las pantallas se le informa una url conectada a su vez con el puesto que llama a los clientes.
 contentType: procedure
-module: Tareas
-submodule: General
+module: "Tareas"
+submodule: "Tareas"
 subtopic: ""
 intent: Pantallas, puestos y tareas
 audience:

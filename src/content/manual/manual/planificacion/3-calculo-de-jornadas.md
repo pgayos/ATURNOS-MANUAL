@@ -4,8 +4,8 @@ contentId: planificacion-3-calculo-de-jornadas
 title: Cálculo de jornadas
 description: Las jornadas se utilizan para identificar si un trabajador ha realizado una unidad completa de trabajo en un día, realizando un mínimo y un máximo de horas, según la configuración.
 contentType: reference
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Cálculo de jornadas
 audience:

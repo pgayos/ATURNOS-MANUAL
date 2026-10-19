@@ -4,9 +4,9 @@ contentId: planificacion-14-cambiar-turno-a-horas
 title: Cambiar Turno a Horas
 description: Esta opción consiste en transformar automáticamente todo el turno a horas.
 contentType: concept
-module: Planificación
-submodule: Turnos y patrones
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Cambiar Turno a Horas
 audience:
   - role: Administrador

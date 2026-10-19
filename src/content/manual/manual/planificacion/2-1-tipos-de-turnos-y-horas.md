@@ -4,8 +4,8 @@ contentId: planificacion-2-1-tipos-de-turnos-y-horas
 title: Tipos de turnos y horas
 description: En este listado podremos visualizar todos aquellos tipos de turnos, absentismos y tipos de horas de los equipos que se gestionan como superusuario.
 contentType: procedure
-module: Planificación
-submodule: Usuarios y perfiles
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Tipos de turnos y horas
 audience:

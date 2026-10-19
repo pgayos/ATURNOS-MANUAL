@@ -4,9 +4,9 @@ contentId: planificacion-g-historial-de-ofertas
 title: Historial de ofertas
 description: En esta pestaña podrá consultar el historial de ofertas de turno que se han lanzado por el Administrador en este equipo dentro del periodo seleccionado en el filtro de fechas de la parte superior de la pantalla.
 contentType: procedure
-module: Planificación
-submodule: Turnos y patrones
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Ofertas de turnos"
 intent: Historial de ofertas
 audience:
   - role: Administrador

@@ -4,8 +4,8 @@ contentId: documentos-2-ver-documentos-subidos
 title: Ver documentos subidos
 description: El trabajador, según los permisos dados en el equipo por el administrador, puede acceder al menú “Documentos”, del módulo de Documentos, donde se encuentran todos aquellos documentos subidos.
 contentType: concept
-module: Documentos
-submodule: Altas y bajas
+module: "Documentos"
+submodule: "Documentos"
 subtopic: ""
 intent: Ver documentos subidos
 audience:

@@ -4,9 +4,9 @@ contentId: planificacion-a-opciones-cuadrante
 title: Opciones cuadrante
 description: El cuadrante cuenta con varias opciones para realizar las siguientes funciones:.
 contentType: reference
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Opciones cuadrante
 audience:
   - role: Administrador

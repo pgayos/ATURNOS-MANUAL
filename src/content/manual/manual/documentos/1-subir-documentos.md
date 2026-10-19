@@ -4,8 +4,8 @@ contentId: documentos-1-subir-documentos
 title: Subir documentos
 description: El trabajador puede tener el permiso de subir documentos que sean de importancia o relevancia para los administradores del equipo (un parte de baja o trabajo, un justificante médico o de exa.
 contentType: concept
-module: Documentos
-submodule: Altas y bajas
+module: "Documentos"
+submodule: "Subir documentos"
 subtopic: ""
 intent: Subir documentos
 audience:

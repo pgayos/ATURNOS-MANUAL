@@ -4,9 +4,9 @@ contentId: planificacion-b-accion-de-copiar-turnos
 title: Acción de copiar turnos
 description: Seleccionando esta acción se despliegan en la configuración avanzada una serie de configurables para realizar la acción acorde a las preferencias del administrador.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Acción de copiar turnos
 audience:
   - role: Administrador

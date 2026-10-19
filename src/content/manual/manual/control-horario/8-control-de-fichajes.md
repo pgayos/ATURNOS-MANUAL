@@ -4,8 +4,8 @@ contentId: control-horario-8-control-de-fichajes
 title: Control de fichajes
 description: En este reporte se puede consultar de forma simplificada la jornada planificada, los fichajes realizados y las incidencias (absentismos) que puedan producirse a diario.
 contentType: concept
-module: Control horario
-submodule: Usuarios y perfiles
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Control de fichajes
 audience:

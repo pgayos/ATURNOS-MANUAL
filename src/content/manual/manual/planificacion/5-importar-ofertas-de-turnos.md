@@ -4,9 +4,9 @@ contentId: planificacion-5-importar-ofertas-de-turnos
 title: Importar ofertas de turnos
 description: El administrador puede realizar ofertas de turnos de manera masiva sin tener que ir una a una a través de la herramienta. Este proceso se realiza a través de la importación de ofertas de turnos.
 contentType: reference
-module: Planificación
-submodule: Usuarios y perfiles
-subtopic: ""
+module: "Planificación"
+submodule: "Peticiones"
+subtopic: "Ofertas de turnos"
 intent: Importar ofertas de turnos
 audience:
   - role: Administrador

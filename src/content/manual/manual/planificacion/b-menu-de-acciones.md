@@ -4,9 +4,9 @@ contentId: planificacion-b-menu-de-acciones
 title: Menú de acciones
 description: En este menú de acciones, el administrador podrá realizar las siguientes gestiones para modificar o agregar algún dato de la planificación actual.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: Menú de acciones
 audience:
   - role: Administrador

@@ -4,9 +4,9 @@ contentId: planificacion-como-puedo-ver-el-cuadrante-de-mis-companeros
 title: ¿Cómo puedo ver el cuadrante de mis compañeros?
 description: Explica ¿Cómo puedo ver el cuadrante de mis compañeros? y su aplicación en aTurnos.
 contentType: faq
-module: Planificación
-submodule: Vacaciones y ausencias
-subtopic: ""
+module: "Planificación"
+submodule: "Cuadrantes"
+subtopic: "Cuadrante"
 intent: ¿Cómo puedo ver el cuadrante de mis compañeros?
 audience:
   - role: Administrador

@@ -4,8 +4,8 @@ contentId: documentos-documentos
 title: Documentos
 description: En este apartado se encuentran todos aquellos documentos subidos por el trabajador o que han sido compartidos por otros trabajadores o el administrador, a la totalidad del equipo.
 contentType: concept
-module: Documentos
-submodule: Altas y bajas
+module: "Documentos"
+submodule: "Documentos"
 subtopic: ""
 intent: Documentos
 audience:

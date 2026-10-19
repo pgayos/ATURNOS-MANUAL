@@ -4,8 +4,8 @@ contentId: planificacion-4-8-jornadas
 title: Jornadas
 description: Este bloque nos muestra el número de jornadas que se realizan por cada día, dentro del intervalo seleccionado en la barra superior.
 contentType: procedure
-module: Planificación
-submodule: Vacaciones y ausencias
+module: "Planificación"
+submodule: "Tipos de turnos, tipos de horas y Patrones"
 subtopic: ""
 intent: Jornadas
 audience:

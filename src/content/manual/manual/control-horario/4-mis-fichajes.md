@@ -4,8 +4,8 @@ contentId: control-horario-4-mis-fichajes
 title: Mis fichajes
 description: Todos aquellos fichajes que el trabajador ha realizado en los distintos sistemas para registrar su jornada diaria, se cargarán en este listado.
 contentType: concept
-module: Control horario
-submodule: Altas y bajas
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Mis fichajes
 audience:

@@ -4,8 +4,8 @@ contentId: control-horario-1-1-filtros-de-fichajes
 title: Filtros de fichajes
 description: En la barra superior podemos filtrar los fichajes que se quieren visualizar por:.
 contentType: procedure
-module: Control horario
-submodule: Vacaciones y ausencias
+module: "Control horario"
+submodule: "Detalle del control horario"
 subtopic: ""
 intent: Filtros de fichajes
 audience:
