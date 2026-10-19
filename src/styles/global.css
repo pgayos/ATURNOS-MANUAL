@@ -154,8 +154,16 @@ select {
 }
 .logo img {
   display: block;
-  width: 147px;
+  width: 107px;
   height: auto;
+}
+/* Logo aTurnosDocs: en modo oscuro se usa la variante con "Docs" en rosa. */
+.logo img.logo-dark,
+:root[data-theme="dark"] .logo img.logo-light {
+  display: none;
+}
+:root[data-theme="dark"] .logo img.logo-dark {
+  display: block;
 }
 .logo-divider {
   width: 1px;
