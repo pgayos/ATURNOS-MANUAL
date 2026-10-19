@@ -6,6 +6,7 @@ import GuideNavTree from "./GuideNavTree.astro";
 import { guideNavContains, type GuideNav } from "../../lib/guideNav";
 import type { SiteNavSection, SiteNavSectionId } from "../../lib/siteNav";
 import SoporteCard from "../SoporteCard.astro";
+import CopyComponent from "../CopyComponent.astro";
 
 interface Props {
   sections: SiteNavSection[];
@@ -54,7 +55,9 @@ const externalLinkSvg =
     role="search"
     autocomplete="off"
   >
-    <span class="header-search-icon" aria-hidden="true">⌕</span>
+    <span class="header-search-icon" aria-hidden="true">
+      ⌕
+    </span>
     <label class="sr-only" for="drawer-search-input">
       Buscar en el manual
     </label>
@@ -229,7 +232,8 @@ const externalLinkSvg =
       })}
     </div>
   </div>
-  <SoporteCard />
+  <!-- <SoporteCard /> -->
+  <CopyComponent />
 </nav>
 
 <script>
@@ -272,7 +276,9 @@ const externalLinkSvg =
         .querySelectorAll<HTMLElement>(
           ":scope > button.guide-nav-head-link, :scope > button.guide-nav-toggle",
         )
-        .forEach((control) => control.setAttribute("aria-expanded", String(open)));
+        .forEach((control) =>
+          control.setAttribute("aria-expanded", String(open)),
+        );
     };
     const ancestors = (node: HTMLElement) => {
       const chain: HTMLElement[] = [];

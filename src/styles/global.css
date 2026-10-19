@@ -124,7 +124,7 @@ select {
   min-height: var(--header-height);
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 1rem;
   padding-inline: 24px;
 }
 
@@ -272,9 +272,28 @@ select {
   line-height: 1;
   cursor: pointer;
 }
-.theme-toggle:hover {
+.theme-toggle:hover,
+.header-support-toggle[aria-expanded="true"] {
   color: var(--brand);
   border-color: var(--brand);
+}
+/* Botón de Soporte (mismo estilo que .theme-toggle) y su tarjeta desplegable */
+.header-support {
+  position: relative;
+}
+.header-support-panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 40;
+  width: 280px;
+  max-width: calc(100vw - 24px);
+  border-radius: 14px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+.header-support-panel[hidden] {
+  display: none;
 }
 .header-site-link {
   display: flex;
@@ -544,7 +563,7 @@ h3 {
 .button {
   border: 0;
   padding: 11px 20px;
-  border-radius: 4px;
+  border-radius: 10px;
   background: var(--brand);
   color: white;
   font-weight: 700;
@@ -1763,6 +1782,16 @@ h3 {
   margin: 0;
   margin-bottom: 1rem;
 }
+/* Copyright (CopyComponent): pegado al final del contenedor, como la
+   tarjeta de Soporte a la que sustituye. */
+.copyright-note {
+  flex: none;
+  margin: auto 0 0;
+  padding: 12px 4px 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
 @media (max-width: 980px) {
   /* En móvil, el artículo pasa a columna única y se "aplanan" tanto el
      <article> como el <aside> (display: contents, sin caja propia) para que
@@ -1801,7 +1830,8 @@ h3 {
     /* padding: 6px; */
   }
 
-  .theme-toggle {
+  .theme-toggle,
+  .header-support {
     order: 4;
   }
   .header-site-link {
