@@ -7704,6 +7704,18 @@
     "condition": null
   },
   {
+    "source": "/manual/spec/",
+    "status": "301",
+    "target": "/manual/integracion-spec/1-instalacion/",
+    "condition": null
+  },
+  {
+    "source": "/manual/spec/1-instalacion/",
+    "status": "301",
+    "target": "/manual/integracion-spec/1-instalacion/",
+    "condition": null
+  },
+  {
     "source": "/<*>",
     "status": "404",
     "target": "/404.html",
