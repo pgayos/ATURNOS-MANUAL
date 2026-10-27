@@ -1,10 +1,16 @@
 ---
+import '../../../styles/global.css';
 import { getCollection } from 'astro:content';
 import { buildGuideNav, isGuideModule, topLevelModuleSlugOf } from '../../../lib/guideNav';
+import BaseHead from '../../../components/layout/BaseHead.astro';
+import ProfileLoader from '../../../components/layout/ProfileLoader.astro';
 
 // Todo módulo (salvo Glosario) usa navegación de sidebar: no hay página de
 // cards de módulo/submódulo/tema, así que entrar a /manual/<módulo>/ salta
 // directo al primer artículo, que ya trae el índice completo en su lateral.
+// Los enlaces internos ya apuntan al artículo (moduleEntryHref); esta página
+// solo la ven enlaces antiguos o externos, y muestra el loader del sitio
+// (con su tema) mientras salta, en vez de una página en blanco.
 export async function getStaticPaths() {
   const entries = await getCollection('manual');
 
@@ -33,14 +39,21 @@ const { target } = Astro.props;
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="utf-8" />
+    <BaseHead
+      title="Abriendo el manual… · aTurnos"
+      description="Abriendo el primer artículo del módulo."
+    />
     <meta name="robots" content="noindex" />
     <meta http-equiv="refresh" content={`0; url=${target}`} />
     <link rel="canonical" href={target} />
-    <title>Redirigiendo…</title>
   </head>
   <body>
-    <p>Redirigiendo a <a href={target}>{target}</a>…</p>
+    <ProfileLoader
+      visible
+      title="Abriendo el manual"
+      message="Te llevamos al primer artículo del módulo."
+    />
+    <noscript><p><a href={target}>Continuar al artículo</a></p></noscript>
     <script is:inline set:html={`location.replace(${JSON.stringify(target)});`} />
   </body>
 </html>

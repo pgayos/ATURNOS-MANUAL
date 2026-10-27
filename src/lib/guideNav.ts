@@ -413,6 +413,24 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
   return { moduleName, moduleSlug, groups: displayGroups, firstArticleId };
 }
 
+const entryHrefCache = new WeakMap<Article[], Map<string, string>>();
+
+/** URL a la que debe enlazar "entrar en el módulo". Los módulos guía no tienen
+ *  portada propia: se enlaza directo a su primer artículo (el mismo destino al
+ *  que redirige /manual/<módulo>/), así el clic no pasa por la página puente.
+ *  Glosario sí tiene portada (listado A-Z). */
+export function moduleEntryHref(entries: Article[], moduleSlug: string): string {
+  if (!isGuideModule(moduleSlug)) return `/manual/${moduleSlug}/`;
+  let cache = entryHrefCache.get(entries);
+  if (!cache) entryHrefCache.set(entries, (cache = new Map()));
+  let href = cache.get(moduleSlug);
+  if (!href) {
+    href = `/manual/${buildGuideNav(entries, moduleSlug).firstArticleId}/`;
+    cache.set(moduleSlug, href);
+  }
+  return href;
+}
+
 /** ¿El artículo `currentId` está en algún punto del árbol de este módulo? Sirve
  *  para decidir si el módulo debe aparecer abierto en un directorio (p. ej. el
  *  panel "Documentación" del menú persistente, que agrupa varios módulos). */

@@ -3,14 +3,21 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ModuleShowcase from "../components/home/ModuleShowcase.astro";
 import AturnosBanner from "../components/home/AturnosBanner.astro";
 import StatusBar from "../components/home/StatusBar.astro";
+import { getCollection } from "astro:content";
+import { moduleEntryHref } from "../lib/guideNav";
+
+// Los módulos enlazan directo a su primer artículo (sin pasar por la página
+// puente /manual/<módulo>/).
+const entries = await getCollection("manual");
+const moduleHref = (slug: string) => moduleEntryHref(entries, slug);
 
 const popularTags = [
-  { icon: "◴", label: "Control Horario", href: "/manual/control-horario/" },
+  { icon: "◴", label: "Control Horario", href: moduleHref("control-horario") },
   { icon: "▦", label: "Cuadrante", href: "/buscar/?q=cuadrante" },
   { icon: "☼", label: "Vacaciones", href: "/buscar/?q=vacaciones" },
-  { icon: "€", label: "Nóminas", href: "/manual/nominas/" },
-  { icon: "▣", label: "App Móvil", href: "/manual/app-movil/" },
-  { icon: "⇄", label: "Biostar", href: "/manual/integracion-biostar/" },
+  { icon: "€", label: "Nóminas", href: moduleHref("nominas") },
+  { icon: "▣", label: "App Móvil", href: moduleHref("app-movil") },
+  { icon: "⇄", label: "Biostar", href: moduleHref("integracion-biostar") },
 ];
 
 const modules = [
@@ -38,7 +45,7 @@ const modules = [
       },
     ],
     cta: "Comenzar ahora el onboarding",
-    href: "/manual/empezar-en-aturnos/",
+    href: moduleHref("empezar-en-aturnos"),
   },
   {
     name: "Documentación completa",
@@ -56,7 +63,7 @@ const modules = [
     icon: "▣",
     badge: "iOS & Android",
     cta: "Manual app móvil",
-    href: "/manual/app-movil/",
+    href: moduleHref("app-movil"),
   },
   {
     name: "Gestión de proyectos e implantación",
@@ -65,7 +72,7 @@ const modules = [
     icon: "▦",
     badge: "Consultoría",
     cta: "Fases de implantación",
-    href: "/manual/gestion-de-proyectos/",
+    href: moduleHref("gestion-de-proyectos"),
   },
   {
     name: "Control horario & Biostar",
@@ -74,7 +81,7 @@ const modules = [
     icon: "⇄",
     badge: "Integración y Hardware",
     cta: "Configuración y agentes",
-    href: "/manual/integracion-biostar/",
+    href: moduleHref("integracion-biostar"),
   },
 ];
 ---

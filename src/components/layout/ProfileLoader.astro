@@ -1,6 +1,19 @@
 ---
 // Capa que se muestra mientras se aplica el filtro por perfil (rol).
 // La abre y cierra el filtro por rol (layout/ProfileFilter.astro).
+// También la usa la página puente /manual/<módulo>/ (visible, con otro texto)
+// mientras redirige al primer artículo.
+interface Props {
+  title?: string;
+  message?: string;
+  /** Visible desde el primer pintado (por defecto oculta). */
+  visible?: boolean;
+}
+const {
+  title = "Adaptando el manual a tu perfil",
+  message = "Estamos filtrando los artículos más relevantes.",
+  visible = false,
+} = Astro.props;
 ---
 
 <div
@@ -8,13 +21,13 @@
   id="profile-loader"
   role="status"
   aria-live="polite"
-  hidden
+  hidden={!visible}
 >
   <div class="profile-loader-card">
     <span class="profile-loader-mark" aria-hidden="true">
       <img src="/brand/aturnos-logo.svg" alt="" />
     </span>
-    <strong>Adaptando el manual a tu perfil</strong>
-    <span>Estamos filtrando los artículos más relevantes.</span>
+    <strong>{title}</strong>
+    <span>{message}</span>
   </div>
 </div>

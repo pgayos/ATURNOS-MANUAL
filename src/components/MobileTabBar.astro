@@ -1,9 +1,13 @@
 ---
+import { getCollection } from "astro:content";
+import { moduleEntryHref } from "../lib/guideNav";
+
 interface Props {
   currentPath: string;
 }
 
 const { currentPath } = Astro.props;
+const entries = await getCollection("manual");
 
 const activeTab = currentPath === "/"
   ? "inicio"
@@ -18,7 +22,7 @@ const activeTab = currentPath === "/"
 const tabs = [
   { id: "inicio", icon: "⌂", label: "Inicio", href: "/" },
   { id: "documentacion", icon: "▤", label: "Documentación", href: "/manual/" },
-  { id: "app-movil", icon: "▣", label: "App móvil", href: "/manual/app-movil/" },
+  { id: "app-movil", icon: "▣", label: "App móvil", href: moduleEntryHref(entries, "app-movil") },
   {
     id: "soporte",
     icon: "☎",

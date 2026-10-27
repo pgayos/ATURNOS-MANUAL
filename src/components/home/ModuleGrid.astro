@@ -2,6 +2,8 @@
 interface ModuleCard {
   name: string;
   slug: string;
+  /** Destino del clic: el primer artículo del módulo (ver moduleEntryHref). */
+  href: string;
   count: number;
   profileCounts: Record<string, number>;
 }
@@ -31,7 +33,7 @@ const { id, eyebrow, title, modules, icons, descriptions } = Astro.props;
         class="card"
         data-module-profile-counts={JSON.stringify(module.profileCounts)}
         data-total-count={module.count}
-        href={`/manual/${module.slug}/`}
+        href={module.href}
       >
         <span class="card-icon">{icons[module.name] ?? "◆"}</span>
         <h3>{module.name}</h3>

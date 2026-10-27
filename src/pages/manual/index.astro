@@ -2,7 +2,11 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ModuleGrid from "../../components/home/ModuleGrid.astro";
 import { getCollection } from "astro:content";
-import { isPendingReclassification, topLevelModuleSlugOf } from "../../lib/guideNav";
+import {
+  isPendingReclassification,
+  moduleEntryHref,
+  topLevelModuleSlugOf,
+} from "../../lib/guideNav";
 
 const allArticles = await getCollection("manual");
 
@@ -56,7 +60,14 @@ function buildModuleCards(source: typeof allArticles) {
     ...new Map(
       source.map((article) => {
         const slug = topLevelModuleSlugOf(article.id);
-        return [article.data.module, { name: article.data.module, slug }];
+        return [
+          article.data.module,
+          {
+            name: article.data.module,
+            slug,
+            href: moduleEntryHref(allArticles, slug),
+          },
+        ];
       }),
     ).values(),
   ]

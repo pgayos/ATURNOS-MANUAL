@@ -94,10 +94,10 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
     ) : (
       // Todo módulo (salvo Glosario) es un módulo "guía": no hay página propia
       // de submódulo/tema a la que enlazar, así que solo el módulo es
-      // clickable (redirige al primer artículo); submódulo/tema quedan como
-      // texto de ubicación, no como links.
+      // clickable (va directo a su primer artículo); submódulo/tema quedan
+      // como texto de ubicación, no como links.
       <>
-        <a href={`/manual/${moduleSlug}/`}>{d.module}</a>
+        <a href={`/manual/${guideNav ? guideNav.firstArticleId : moduleSlug}/`}>{d.module}</a>
         {isFlattened ? (
           d.subtopic && <> / {d.subtopic}</>
         ) : (
