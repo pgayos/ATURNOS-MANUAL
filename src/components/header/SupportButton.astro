@@ -1,0 +1,37 @@
+---
+// Botón de Soporte (cascos) con la tarjeta de contacto desplegable.
+// Usa el mismo estilo que el botón de tema (.theme-toggle); la apertura y el
+// cierre los gestiona el script de BaseLayout (#header-support).
+import SoporteCard from "../SoporteCard.astro";
+---
+
+<div class="header-support" id="header-support">
+  <button
+    class="theme-toggle header-support-toggle"
+    id="header-support-toggle"
+    type="button"
+    aria-label="Contactar con Soporte"
+    aria-expanded="false"
+    aria-controls="header-support-panel"
+  >
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <path
+        d="M4 15v-3a8 8 0 0 1 16 0v3"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.6"
+        stroke-linecap="round"
+      ></path>
+      <path
+        d="M4 14h2.5A1.5 1.5 0 0 1 8 15.5v3A1.5 1.5 0 0 1 6.5 20H5a1 1 0 0 1-1-1v-5ZM20 14h-2.5a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5H19a1 1 0 0 0 1-1v-5Z"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.6"
+        stroke-linejoin="round"
+      ></path>
+    </svg>
+  </button>
+  <div class="header-support-panel" id="header-support-panel" hidden>
+    <SoporteCard />
+  </div>
+</div>
