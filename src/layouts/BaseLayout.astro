@@ -5,6 +5,7 @@ import SiteNav from "../components/manual/SiteNav.astro";
 import MobileTabBar from "../components/MobileTabBar.astro";
 import SoporteCard from "../components/SoporteCard.astro";
 import ProfileLoader from "../components/layout/ProfileLoader.astro";
+import SiteFooter from "../components/layout/SiteFooter.astro";
 import { buildSiteNav, activeSiteNavSectionFor } from "../lib/siteNav";
 
 interface Props {
@@ -255,23 +256,7 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
       />
       <div class="app-main">
         <slot />
-        <footer class="site-footer">
-          <div class="footer-inner">
-            <img
-              class="footer-logo"
-              src="/brand/logo_gris.svg"
-              width="126"
-              height="32"
-              alt="aTurnos"
-            />
-            <span>
-              Centro de ayuda · Contenido público sujeto a revisión editorial.
-            </span>
-            <a href="https://aturnos.com/" rel="external">
-              Ir a aTurnos.com
-            </a>
-          </div>
-        </footer>
+        <SiteFooter />
       </div>
     </div>
     <MobileTabBar currentPath={Astro.url.pathname} />
