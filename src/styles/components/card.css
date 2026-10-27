@@ -1,0 +1,115 @@
+/* Tarjeta .card */
+.card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  color: var(--ink);
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  box-shadow: 0 8px 24px rgba(53, 73, 102, 0.055);
+  transition:
+    transform 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+  background: linear-gradient(var(--brand), var(--blue));
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.card:hover {
+  transform: translateY(-3px);
+  border-color: #f2afd8;
+  box-shadow: 0 14px 32px rgba(53, 73, 102, 0.1);
+}
+.card:hover::before {
+  opacity: 1;
+}
+.card-icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background: var(--soft);
+  color: var(--brand);
+  font-size: 1.3rem;
+}
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--brand);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: right;
+}
+.card-badge-external {
+  font-size: 0.8rem;
+}
+.card h3 {
+  margin: 18px 0 7px;
+}
+.card p {
+  margin: 0;
+  color: var(--muted);
+}
+.card-count {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--brand);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  color: var(--brand);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.card-cta-arrow {
+  transition: transform 0.2s;
+}
+.card:hover .card-cta-arrow {
+  transform: translateX(3px);
+}
+.card.is-disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+.card.is-disabled:hover {
+  transform: none;
+  border-color: var(--line);
+  box-shadow: 0 8px 24px rgba(53, 73, 102, 0.055);
+}
+.card.is-disabled:hover::before {
+  opacity: 0;
+}
+.card-soon {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}

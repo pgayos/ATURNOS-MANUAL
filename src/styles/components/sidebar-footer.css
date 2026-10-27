@@ -1,0 +1,20 @@
+/* Tarjeta de soporte y copyright al pie del menú */
+.contact-support-pill {
+  flex: none;
+  margin-top: auto;
+}
+
+.contact-support-pill h4 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+/* Copyright (CopyComponent): pegado al final del contenedor, como la
+   tarjeta de Soporte a la que sustituye. */
+.copyright-note {
+  flex: none;
+  margin: auto 0 0;
+  padding: 12px 4px 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}

@@ -1,0 +1,185 @@
+/* Logo, buscador, selector de rol, botones de tema/soporte/menú */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--heading);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+.logo img {
+  display: block;
+  width: 107px;
+  height: auto;
+}
+/* Logo aTurnosDocs: en modo oscuro se usa la variante con "Docs" en rosa. */
+.logo img.logo-dark,
+:root[data-theme="dark"] .logo img.logo-light {
+  display: none;
+}
+:root[data-theme="dark"] .logo img.logo-dark {
+  display: block;
+}
+.logo-divider {
+  width: 1px;
+  height: 27px;
+  background: var(--line);
+}
+.header-search {
+  position: relative;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 280px;
+  margin-left: auto;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+}
+.header-search-backdrop {
+  position: fixed;
+  inset: 0;
+  /* Por debajo del header (z-index:20, que necesita quedar por encima para
+     que el buscador y su dropdown sigan siendo interactivos) pero por
+     encima de cualquier otro contenido de la página. */
+  z-index: 18;
+  background: rgba(16, 22, 32, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+.header-search-backdrop.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.site-nav-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 35;
+  background: rgba(16, 22, 32, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+.site-nav-backdrop.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.header-search:focus-within {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px rgba(232, 0, 145, 0.1);
+}
+.header-search-icon {
+  flex: none;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.header-search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+.profile-picker {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  padding: 9px 12px;
+  border-radius: 10px;
+  color: var(--ink);
+}
+.nav-menu-toggle {
+  display: none;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 10px;
+  color: var(--muted);
+  line-height: 1;
+  cursor: pointer;
+}
+.nav-menu-toggle:hover {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+.theme-toggle {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 10px;
+  color: var(--muted);
+  line-height: 1;
+  cursor: pointer;
+}
+.theme-toggle:hover,
+.header-support-toggle[aria-expanded="true"] {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+/* Botón de Soporte (mismo estilo que .theme-toggle) y su tarjeta desplegable */
+.header-support {
+  position: relative;
+}
+.header-support-panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 40;
+  width: 280px;
+  max-width: calc(100vw - 24px);
+  border-radius: 14px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+.header-support-panel[hidden] {
+  display: none;
+}
+.header-site-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 40px;
+  padding: 0 16px;
+  border: 0;
+  background: var(--brand);
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.88rem;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 7px 18px rgba(232, 0, 145, 0.18);
+}
+.header-site-link:hover {
+  background: var(--brand-dark);
+}
+.theme-toggle-icon {
+  display: none;
+}
+.theme-toggle-moon {
+  display: block;
+}
+:root[data-theme="dark"] .theme-toggle-moon {
+  display: none;
+}
+:root[data-theme="dark"] .theme-toggle-sun {
+  display: block;
+}

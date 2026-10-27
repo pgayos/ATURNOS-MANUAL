@@ -1,0 +1,260 @@
+/* Menú lateral persistente y árbol de navegación */
+/* Menú persistente (lateral izquierdo, en todo el sitio) */
+.site-nav {
+  position: sticky;
+  top: var(--header-height);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: none;
+  width: var(--site-nav-width);
+  height: calc(100dvh - var(--header-height));
+  padding: 20px 16px;
+  border-right: 1px solid var(--line);
+  background: var(--paper);
+  font-size: 0.92rem;
+}
+/* Todo lo que puede crecer (pills + árbol) scrollea acá adentro; la tarjeta
+   de ayuda queda fuera de este bloque para poder anclarse abajo siempre
+   visible, sin desaparecer al hacer scroll del árbol. */
+.site-nav-mobile-header {
+  display: none;
+}
+.site-nav-mobile-search {
+  display: none;
+}
+.site-nav-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.site-nav-pills {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 6px;
+  margin-bottom: 16px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.site-nav-pill {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 8px;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.site-nav-pill:hover {
+  background: var(--soft);
+  color: var(--brand);
+}
+.site-nav-pill.is-active {
+  background: var(--soft);
+  color: var(--brand-dark);
+}
+.site-nav-pill-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  font-size: 1rem;
+}
+.site-nav-pill.is-disabled {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  color: var(--muted);
+  cursor: default;
+}
+.site-nav-pill-soon {
+  margin-left: auto;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--soft);
+  color: var(--brand-dark);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.site-nav-pill-external {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  margin-left: auto;
+  color: var(--muted);
+}
+.site-nav-pill-external svg {
+  width: 12px;
+  height: 12px;
+}
+.site-nav-pill:hover .site-nav-pill-external {
+  color: var(--brand);
+}
+/* Flecha decorativa dentro del pill de Glosario (toda la fila es un único
+   <a>, misma idea que .site-nav-pill-external pero sin implicar salida). */
+.site-nav-pill-arrow {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  margin-left: auto;
+  color: var(--muted);
+}
+.site-nav-pill-arrow svg {
+  width: 12px;
+  height: 12px;
+}
+.site-nav-pill:hover .site-nav-pill-arrow {
+  color: var(--brand);
+}
+.site-nav-panel[hidden] {
+  display: none;
+}
+
+/* Listas semánticas: nav > ul.guide-nav-list > li.guide-nav-node > a + ul */
+.guide-nav-list,
+.guide-nav-sublist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Sangría de los hijos respecto a su cabecera (se acumula al anidar) */
+.guide-nav-sublist {
+  padding-left: 14px;
+}
+
+/* Nodo (submódulo o tema): cabecera en una fila, hijos debajo */
+.guide-nav-node {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.guide-nav-node > .guide-nav-sublist {
+  flex-basis: 100%;
+  width: 100%;
+}
+.guide-nav-list > .guide-nav-node + .guide-nav-node {
+  margin-top: 2px;
+}
+.guide-nav-sublist > .guide-nav-node--sub {
+  margin-top: 4px;
+}
+
+/* Mismo aspecto que .site-nav-pill (tamaño, peso, padding, radio) para que
+   las cabeceras del árbol no se vean más comprimidas que las categorías.
+   Sin portada, la fila (palabra + ícono) es un único <button> que
+   despliega/colapsa. Con portada, el texto es un <a> que navega y la flecha
+   es un <button class="guide-nav-toggle"> aparte que despliega/colapsa. */
+.guide-nav-head-link {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 10px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.guide-nav-head-text {
+  flex: 1;
+  min-width: 0;
+}
+.guide-nav-list {
+  margin-top: 8px;
+}
+.guide-nav-head-link:hover {
+  background: var(--soft);
+  color: var(--brand);
+}
+.guide-nav-head-link.active {
+  background: var(--soft);
+  color: var(--brand-dark);
+}
+
+.guide-nav-toggle-icon {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  color: var(--muted);
+}
+.guide-nav-toggle-icon svg {
+  width: 12px;
+  height: 12px;
+  transition: transform 0.18s ease;
+}
+/* Flecha independiente junto a un header con portada (<a>): el texto navega
+   y la flecha despliega/colapsa. */
+.guide-nav-toggle {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+  padding: 6px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  cursor: pointer;
+}
+.guide-nav-toggle:hover {
+  background: var(--soft);
+}
+.guide-nav-toggle:hover .guide-nav-toggle-icon {
+  color: var(--brand);
+}
+.guide-nav-node.open > .guide-nav-head-link .guide-nav-toggle-icon svg,
+.guide-nav-node.open > .guide-nav-toggle .guide-nav-toggle-icon svg {
+  transform: rotate(90deg);
+}
+.guide-nav-node[data-node]:not(.open) > .guide-nav-sublist {
+  display: none;
+}
+
+.guide-nav-link {
+  display: block;
+  width: 100%;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border-left: 2px solid transparent;
+  color: var(--muted);
+  text-decoration: none;
+  line-height: 1.35;
+}
+.guide-nav-link:hover {
+  background: var(--soft);
+  color: var(--brand);
+}
+.guide-nav-link.active {
+  background: var(--soft);
+  color: var(--brand);
+  font-weight: 600;
+  border-left-color: var(--brand);
+  border-radius: 0 6px 6px 0;
+}

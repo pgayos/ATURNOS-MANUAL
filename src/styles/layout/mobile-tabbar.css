@@ -1,0 +1,24 @@
+/* Barra inferior en móvil */
+.mobile-tabbar {
+  display: none;
+}
+.mobile-tab {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+.mobile-tab-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+.mobile-tab.is-active {
+  color: var(--brand-dark);
+}

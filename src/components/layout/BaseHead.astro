@@ -1,0 +1,39 @@
+---
+// Contenido común del <head>: metadatos, tema inicial, favicon y fuentes.
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+
+// Fuera de producción (main) no se indexa: evita que Google publique ramas de prueba.
+const deploymentBranch = import.meta.env.PUBLIC_DEPLOYMENT_BRANCH;
+const preventIndexing = Boolean(
+  deploymentBranch && deploymentBranch !== "main",
+);
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<script is:inline>
+  // Se ejecuta antes de pintar para evitar el parpadeo claro→oscuro.
+  (() => {
+    const stored = localStorage.getItem("manual-theme");
+    const theme =
+      stored ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light");
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
+<meta name="description" content={description} />
+{preventIndexing && <meta name="robots" content="noindex, nofollow" />}
+<link rel="icon" type="image/svg+xml" href="/brand/aturnos-symbol.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+<title>{title}</title>

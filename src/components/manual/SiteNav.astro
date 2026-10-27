@@ -2,6 +2,8 @@
 // Menú persistente de todo el sitio: arriba las categorías (los mismos
 // accesos de la home), debajo el árbol de la categoría seleccionada. Vive en
 // BaseLayout, así que aparece en cualquier página, no solo en los artículos.
+// En móvil es un panel lateral: lo abre la hamburguesa de la cabecera y lo
+// cierran la X, el fondo oscuro o Escape (script inline tras el <nav>).
 import GuideNavTree from "./GuideNavTree.astro";
 import { guideNavContains, type GuideNav } from "../../lib/guideNav";
 import type { SiteNavSection, SiteNavSectionId } from "../../lib/siteNav";
@@ -235,6 +237,37 @@ const externalLinkSvg =
   <!-- <SoporteCard /> -->
   <CopyComponent />
 </nav>
+
+<script is:inline>
+  const navMenuToggle = document.querySelector("#nav-menu-toggle");
+  const siteNavEl = document.querySelector("#site-nav");
+  const siteNavBackdrop = document.querySelector("#site-nav-backdrop");
+  const siteNavClose = document.querySelector("#site-nav-close");
+
+  const openSiteNav = () => {
+    siteNavEl?.classList.add("is-open");
+    siteNavBackdrop?.classList.add("is-active");
+    navMenuToggle?.setAttribute("aria-expanded", "true");
+  };
+  const closeSiteNav = () => {
+    siteNavEl?.classList.remove("is-open");
+    siteNavBackdrop?.classList.remove("is-active");
+    navMenuToggle?.setAttribute("aria-expanded", "false");
+  };
+
+  navMenuToggle?.addEventListener("click", () => {
+    if (siteNavEl?.classList.contains("is-open")) closeSiteNav();
+    else openSiteNav();
+  });
+  siteNavBackdrop?.addEventListener("click", closeSiteNav);
+  siteNavClose?.addEventListener("click", closeSiteNav);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeSiteNav();
+  });
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 980) closeSiteNav();
+  });
+</script>
 
 <script>
   const nav = document.querySelector<HTMLElement>("[data-site-nav]");

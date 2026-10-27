@@ -1,0 +1,15 @@
+/* Shell de la web: menú lateral + contenido */
+/* Shell de toda la web: menú persistente pegado al borde izquierdo + resto
+   del contenido a la derecha. El sidebar no vive dentro de `.container`, así
+   que arranca en el borde real de la ventana, no en el de un bloque centrado. */
+.app-shell {
+  display: flex;
+  align-items: stretch;
+  flex: 1;
+}
+.app-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}

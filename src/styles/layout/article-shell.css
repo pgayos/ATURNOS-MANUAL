@@ -1,0 +1,10 @@
+/* Rejilla del artículo (contenido + panel derecho) */
+/* Un artículo siempre son 2 columnas (contenido + panel derecho): el menú de
+   navegación ya no vive aquí, es el `.site-nav` persistente de BaseLayout. */
+.article-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 760px) 240px;
+  gap: 1rem;
+  align-items: start;
+  padding: 2rem 0 2rem 2rem;
+}

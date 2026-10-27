@@ -1,0 +1,83 @@
+/* Buscador del manual y resultados */
+.manual-search {
+  display: flex;
+  gap: 10px;
+  padding: 7px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+}
+.manual-search:focus-within {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px rgba(232, 0, 145, 0.1);
+}
+.manual-search input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+}
+.profile-filter {
+  margin: 18px 0 4px;
+  color: var(--brand-dark);
+  font-weight: 600;
+}
+.search-summary {
+  margin: 4px 0 18px;
+  color: var(--muted);
+}
+.search-results {
+  display: grid;
+  gap: 12px;
+}
+.search-group-heading {
+  margin: 22px 0 0;
+  padding-bottom: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brand-dark);
+  border-bottom: 1px solid var(--line);
+}
+.search-group-heading:first-child {
+  margin-top: 0;
+}
+.search-result {
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+}
+.search-group-heading + .search-result {
+  border-top: 0;
+}
+.search-result h3 {
+  margin: 0 0 7px;
+  font-size: 1.18rem;
+  font-weight: 500;
+}
+.search-result h3 a {
+  color: var(--heading);
+  text-decoration: none;
+}
+.search-result h3 a:hover {
+  color: var(--brand);
+}
+.search-result p {
+  margin: 0;
+  color: var(--muted);
+}
+.search-result mark {
+  color: var(--brand-dark);
+  background: var(--soft);
+}
+.profile-empty {
+  padding: 28px;
+  text-align: center;
+  color: var(--muted);
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+}

@@ -1,0 +1,16 @@
+/* Página de búsqueda */
+.search-page {
+  min-height: 65vh;
+  padding: 55px 0;
+}
+.search-panel {
+  position: relative;
+  max-width: 800px;
+  min-height: 190px;
+  padding: 28px;
+  overflow: hidden;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
