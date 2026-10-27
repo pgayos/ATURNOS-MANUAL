@@ -1,3 +1,17 @@
+.mini-card.ai-box {
+  /* Misma caja en claro y oscuro: fija los valores del tema claro (tokens.css)
+     para ella y su botón, así el modo oscuro no los cambia. Doble clase para
+     ganar a .mini-card (background) aunque esté escrita antes. */
+  --heading: #354966;
+  --blue: #127aeb;
+  --line: #e1e8f0;
+  --brand: #e10075;
+  --brand-dark: #c5007b;
+  background: linear-gradient(150deg, var(--heading), var(--blue));
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
 /* Tarjetas pequeñas (.mini-card, .ai-box) */
 .mini-card {
   padding: 17px;
@@ -13,12 +27,6 @@
   margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
-}
-.ai-box {
-  background: linear-gradient(150deg, var(--heading), var(--blue));
-  color: white;
-  display: flex;
-  flex-direction: column;
 }
 
 .ai-box h3 {
