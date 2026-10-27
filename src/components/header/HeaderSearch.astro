@@ -1,0 +1,36 @@
+---
+// Buscador de la cabecera y su lista de sugerencias. Lo inicializa
+// initSearchWidget (src/lib/searchWidget.js) desde BaseLayout.
+---
+
+<form
+  class="header-search"
+  id="header-search"
+  action="/buscar/"
+  role="search"
+  autocomplete="off"
+>
+  <span class="header-search-icon" aria-hidden="true">
+    ⌕
+  </span>
+  <label class="sr-only" for="header-search-input">
+    Buscar en el manual
+  </label>
+  <input
+    id="header-search-input"
+    name="q"
+    type="search"
+    autocomplete="off"
+    aria-expanded="false"
+    aria-controls="header-search-suggestions"
+    role="combobox"
+    aria-autocomplete="list"
+    placeholder="Buscar…"
+  />
+</form>
+<div
+  class="hero-search-suggestions"
+  id="header-search-suggestions"
+  role="listbox"
+  hidden
+></div>

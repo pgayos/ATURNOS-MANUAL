@@ -1,0 +1,34 @@
+---
+// Cabecera fija del sitio: compone las piezas de src/components/header/.
+import NavMenuToggle from "../header/NavMenuToggle.astro";
+import SiteLogo from "../header/SiteLogo.astro";
+import HeaderSearch from "../header/HeaderSearch.astro";
+import ProfilePicker from "../header/ProfilePicker.astro";
+import ThemeToggle from "../header/ThemeToggle.astro";
+import SupportButton from "../header/SupportButton.astro";
+
+interface Props {
+  /** Muestra el selector de perfil (rol). */
+  showProfilePicker?: boolean;
+}
+const { showProfilePicker = true } = Astro.props;
+---
+
+<header class="site-header">
+  <nav class="nav" aria-label="Navegación principal">
+    <NavMenuToggle />
+    <SiteLogo />
+    <HeaderSearch />
+    {showProfilePicker && <ProfilePicker />}
+    <ThemeToggle />
+    <SupportButton />
+    <a
+      class="header-site-link"
+      href="https://www.aturnos.com"
+      rel="external"
+    >
+      <!-- <span aria-hidden="true">⌂</span> -->
+      Visitar aTurnos
+    </a>
+  </nav>
+</header>
