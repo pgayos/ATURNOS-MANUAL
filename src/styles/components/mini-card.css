@@ -4,7 +4,7 @@
      ganar a .mini-card (background) aunque esté escrita antes. */
   --heading: #354966;
   --blue: #127aeb;
-  --line: #e1e8f0;
+  --line: #2b3542;
   --brand: #e10075;
   --brand-dark: #c5007b;
   background: linear-gradient(150deg, var(--heading), var(--blue));
