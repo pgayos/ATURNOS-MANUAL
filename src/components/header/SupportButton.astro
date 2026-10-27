@@ -1,7 +1,7 @@
 ---
 // Botón de Soporte (cascos) con la tarjeta de contacto desplegable.
 // Usa el mismo estilo que el botón de tema (.theme-toggle); la apertura y el
-// cierre los gestiona el script de BaseLayout (#header-support).
+// cierre los gestiona el script de abajo.
 import SoporteCard from "../SoporteCard.astro";
 ---
 
@@ -35,3 +35,29 @@ import SoporteCard from "../SoporteCard.astro";
     <SoporteCard />
   </div>
 </div>
+<script is:inline>
+  // Botón de Soporte (cascos): abre/cierra la tarjeta de contacto bajo él.
+  const support = document.querySelector("#header-support");
+  const supportToggle = document.querySelector("#header-support-toggle");
+  const supportPanel = document.querySelector("#header-support-panel");
+  if (support && supportToggle && supportPanel) {
+    const setSupportOpen = (open) => {
+      supportPanel.hidden = !open;
+      supportToggle.setAttribute("aria-expanded", String(open));
+    };
+    supportToggle.addEventListener("click", () =>
+      setSupportOpen(supportPanel.hidden),
+    );
+    document.addEventListener("click", (event) => {
+      if (!supportPanel.hidden && !support.contains(event.target)) {
+        setSupportOpen(false);
+      }
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !supportPanel.hidden) {
+        setSupportOpen(false);
+        supportToggle.focus();
+      }
+    });
+  }
+</script>

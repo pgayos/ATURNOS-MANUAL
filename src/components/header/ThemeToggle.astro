@@ -1,7 +1,7 @@
 ---
 // Botón de modo claro/oscuro. Muestra la luna en claro y el sol en oscuro
-// (ver .theme-toggle-* en components/header-controls.css); el cambio de tema
-// lo hace el script de BaseLayout (#theme-toggle).
+// (ver .theme-toggle-* en components/header-controls.css). El tema inicial lo
+// fija BaseHead antes de pintar; el script de abajo hace el cambio al pulsar.
 ---
 
 <button
@@ -49,3 +49,25 @@
     ></path>
   </svg>
 </button>
+<script is:inline>
+  const themeToggle = document.querySelector("#theme-toggle");
+  if (themeToggle) {
+    const syncThemeState = () => {
+      const dark = document.documentElement.dataset.theme === "dark";
+      themeToggle.setAttribute("aria-pressed", String(dark));
+    };
+    syncThemeState();
+    themeToggle.addEventListener("click", () => {
+      const root = document.documentElement;
+      const next = root.dataset.theme === "dark" ? "light" : "dark";
+      root.classList.add("theme-transition");
+      root.dataset.theme = next;
+      localStorage.setItem("manual-theme", next);
+      syncThemeState();
+      window.setTimeout(
+        () => root.classList.remove("theme-transition"),
+        320,
+      );
+    });
+  }
+</script>
