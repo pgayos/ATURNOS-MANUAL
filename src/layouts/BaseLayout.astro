@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 import SiteNav from "../components/manual/SiteNav.astro";
 import MobileTabBar from "../components/MobileTabBar.astro";
 import SoporteCard from "../components/SoporteCard.astro";
+import ProfileLoader from "../components/layout/ProfileLoader.astro";
 import { buildSiteNav, activeSiteNavSectionFor } from "../lib/siteNav";
 
 interface Props {
@@ -63,21 +64,7 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
     <title>{title}</title>
   </head>
   <body>
-    <div
-      class="profile-loader"
-      id="profile-loader"
-      role="status"
-      aria-live="polite"
-      hidden
-    >
-      <div class="profile-loader-card">
-        <span class="profile-loader-mark" aria-hidden="true">
-          <img src="/brand/aturnos-logo.svg" alt="" />
-        </span>
-        <strong>Adaptando el manual a tu perfil</strong>
-        <span>Estamos filtrando los artículos más relevantes.</span>
-      </div>
-    </div>
+    <ProfileLoader />
     <header class="site-header">
       <nav class="nav" aria-label="Navegación principal">
         <button
