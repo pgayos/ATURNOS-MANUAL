@@ -1,0 +1,19 @@
+/* Cabecera fija (.site-header) y barra .nav */
+/* El header ocupa todo el ancho de la ventana (no un contenedor centrado):
+   solo su CONTENIDO lleva un padding, para aprovechar toda la pantalla. */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 4px 20px rgba(53, 73, 102, 0.05);
+  backdrop-filter: blur(14px);
+}
+.nav {
+  min-height: var(--header-height);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-inline: 24px;
+}

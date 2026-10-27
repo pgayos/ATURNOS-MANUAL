@@ -1,0 +1,10 @@
+/* Filtro por rol en el menú lateral */
+/* Filtro por rol: lo que el rol no puede ver se oculta del todo. */
+.site-nav [hidden],
+.site-nav-pill[hidden] {
+  display: none !important;
+}
+.guide-nav-head-link[data-role-hidden] {
+  pointer-events: none;
+  cursor: default;
+}

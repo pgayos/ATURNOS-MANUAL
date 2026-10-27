@@ -1,0 +1,106 @@
+/* Cabecera del artículo, índice lateral, breadcrumbs, badges */
+.profile-unavailable {
+  margin: 28px 0;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--soft);
+  color: var(--muted);
+}
+
+/* "En esta página" / "Conceptos" movidos al panel derecho: mismo aspecto que
+   tenían en el lateral izquierdo (enlaces sobrios, no links rosados). */
+.panel-index {
+  font-size: 0.92rem;
+}
+.panel-index strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink);
+}
+.panel-index > strong:nth-of-type(2) {
+  margin-top: 18px;
+}
+.panel-index a {
+  display: block;
+  padding: 6px 0 6px 8px;
+  color: var(--muted);
+  text-decoration: none;
+  line-height: 1.35;
+}
+.panel-index a:hover {
+  color: var(--brand);
+}
+.panel-index-concept {
+  display: block;
+  padding: 4px 0 4px 8px;
+  color: var(--ink);
+}
+.panel-index-empty {
+  display: block;
+  padding: 4px 0 4px 8px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+.breadcrumbs {
+  padding-top: 28px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.hero .breadcrumbs {
+  padding-top: 0;
+  margin-bottom: 18px;
+}
+.breadcrumbs a {
+  color: var(--muted);
+}
+.article-header {
+  padding: 18px 0 28px;
+  border-bottom: 1px solid var(--line);
+}
+.article-header h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 500;
+  line-height: 1.4;
+}
+.synonyms {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  margin-top: 14px;
+}
+.synonyms h4 {
+  margin: 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.synonyms p {
+  margin: 0;
+  color: var(--ink);
+}
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.badge {
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--soft);
+  color: var(--brand-dark);
+  font-size: 0.82rem;
+  font-weight: 700;
+  width: fit-content;
+}
+.card-group-title {
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+}
+.card-group + .card-group {
+  margin-top: 44px;
+}

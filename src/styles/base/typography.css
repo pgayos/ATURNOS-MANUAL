@@ -1,0 +1,40 @@
+/* Titulares h1-h3 y .lead */
+h1,
+h2,
+h3 {
+  color: var(--heading);
+  font-family: Poppins, "Source Sans 3", sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+h1 {
+  margin: 1rem 0;
+  font-size: clamp(2rem, 5vw, 3.85rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+.hero h1 {
+  max-width: 780px;
+  color: var(--heading);
+}
+.hero h2 span {
+  color: var(--brand);
+}
+h2 {
+  /* margin-top: 2.3em; */
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  scroll-margin-top: 100px;
+}
+h3 {
+  margin-top: 1.7em;
+  line-height: 1.25;
+  scroll-margin-top: 100px;
+}
+.lead {
+  color: var(--muted);
+  font-size: 1.18rem;
+  max-width: 720px;
+}

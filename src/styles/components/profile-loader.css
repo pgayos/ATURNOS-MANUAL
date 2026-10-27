@@ -1,0 +1,88 @@
+/* Cargador al cambiar de perfil */
+.profile-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(5px);
+}
+.profile-loader[hidden] {
+  display: none;
+}
+.profile-loader-card {
+  display: grid;
+  justify-items: center;
+  max-width: 380px;
+  padding: 28px 34px;
+  text-align: center;
+  color: var(--muted);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.profile-loader-card strong {
+  margin-top: 18px;
+  color: var(--heading);
+  font-family: Poppins, "Source Sans 3", sans-serif;
+  font-size: 1.05rem;
+}
+.profile-loader-card > span:last-child {
+  margin-top: 4px;
+}
+.profile-loader-mark {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 104px;
+  height: 64px;
+}
+.profile-loader-mark::before,
+.profile-loader-mark::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+.profile-loader-mark::before {
+  width: 58px;
+  height: 58px;
+  border: 3px solid rgba(18, 122, 235, 0.14);
+  border-top-color: var(--brand);
+  border-right-color: var(--cyan);
+  animation: profile-loader-spin 0.85s linear infinite;
+}
+.profile-loader-mark::after {
+  width: 45px;
+  height: 45px;
+  background: rgba(232, 0, 145, 0.055);
+  animation: profile-loader-pulse 1.1s ease-in-out infinite alternate;
+}
+.profile-loader-mark img {
+  position: relative;
+  z-index: 1;
+  width: 94px;
+  height: auto;
+  padding: 7px;
+  background: var(--paper);
+  border-radius: 4px;
+}
+@keyframes profile-loader-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes profile-loader-pulse {
+  to {
+    transform: scale(1.18);
+    opacity: 0.35;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .profile-loader-mark::before,
+  .profile-loader-mark::after {
+    animation: none;
+  }
+}

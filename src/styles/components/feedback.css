@@ -1,0 +1,19 @@
+/* Bloque de valoración del artículo */
+.feedback {
+  margin-top: 45px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-radius: 16px;
+  background: var(--soft);
+}
+.feedback button {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 9px;
+  padding: 8px 13px;
+  cursor: pointer;
+}

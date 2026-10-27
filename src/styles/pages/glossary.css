@@ -1,0 +1,62 @@
+/* Glosario: listado, letras y filtros */
+.glossary-list {
+  display: grid;
+  gap: 34px;
+}
+.glossary-group[hidden] {
+  display: none;
+}
+/* `.card` fija display:block y gana al [hidden] del user-agent: hay que
+   ocultar las cards filtradas de forma explícita. */
+.glossary-card[hidden] {
+  display: none;
+}
+.glossary-letter {
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 999px;
+  background: var(--soft);
+  color: var(--brand-dark);
+  font-weight: 700;
+  margin: 0 0 14px;
+}
+/* Controles del glosario: buscador (solo glosario) + filtro por categoría */
+.glossary-controls {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+.glossary-controls .manual-search {
+  max-width: 520px;
+}
+.glossary-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.glossary-cat {
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.glossary-cat:hover {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+.glossary-cat.is-active {
+  color: #fff;
+  background: var(--brand);
+  border-color: var(--brand);
+}
+.glossary-empty {
+  padding: 24px 0;
+  color: var(--muted);
+}

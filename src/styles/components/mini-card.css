@@ -1,0 +1,35 @@
+/* Tarjetas pequeñas (.mini-card, .ai-box) */
+.mini-card {
+  padding: 17px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+}
+.mini-card h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+.mini-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.ai-box {
+  background: linear-gradient(150deg, var(--heading), var(--blue));
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-box h3 {
+  color: #fff;
+}
+.ai-box p {
+  color: #e7f3ff;
+}
+
+.ai-box .button {
+  margin-top: 10px;
+  width: fit-content;
+  border-radius: 10px;
+}

@@ -1,0 +1,63 @@
+/* Hero de la home (fondo, eyebrow, badge) */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 8rem 0;
+  background:
+    radial-gradient(
+      circle at 83% 35%,
+      rgba(18, 122, 235, 0.13) 0,
+      transparent 29%
+    ),
+    radial-gradient(
+      circle at 92% 83%,
+      rgba(0, 169, 199, 0.12) 0,
+      transparent 22%
+    ),
+    linear-gradient(135deg, #fff 0%, #fff8fc 53%, #f4faff 100%);
+  border-bottom: 1px solid var(--line);
+}
+/* .hero::after {
+  content: "";
+  position: absolute;
+  right: max(4vw, 30px);
+  top: 38px;
+  width: min(32vw, 390px);
+  aspect-ratio: 1;
+  border: 1px solid rgba(18, 122, 235, 0.12);
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 0 38px rgba(232, 0, 145, 0.025),
+    inset 0 0 0 76px rgba(0, 169, 199, 0.025);
+  pointer-events: none;
+} */
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+.eyebrow {
+  color: var(--brand);
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.hero-badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--brand);
+}

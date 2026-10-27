@@ -1,0 +1,134 @@
+/* Buscador del hero y sugerencias */
+.hero-search-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(16, 22, 32, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+.hero-search-backdrop.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.hero-search-wrap {
+  position: relative;
+  z-index: 50;
+  max-width: 670px;
+  margin-top: 30px;
+}
+.hero-search {
+  display: flex;
+  gap: 10px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+.hero-search .button {
+  border-radius: 10px;
+}
+.hero-search-icon {
+  width: 32px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  padding-left: 6px;
+  color: var(--muted);
+  font-size: 2rem;
+}
+.hero-search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  padding: 10px 12px;
+  outline: none;
+  background: transparent;
+  color: var(--ink);
+}
+.hero-search-suggestions[hidden] {
+  display: none;
+}
+.hero-search-suggestions {
+  position: fixed;
+  z-index: 60;
+  display: grid;
+  align-content: start;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+.hero-suggestion-group {
+  padding: 10px 16px 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--brand-dark);
+  border-top: 1px solid var(--line);
+}
+.hero-suggestion-group:first-child {
+  border-top: 0;
+}
+.hero-suggestion {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: var(--heading);
+  font-size: 0.95rem;
+}
+.hero-suggestion:hover,
+.hero-suggestion:focus-visible {
+  background: var(--soft);
+}
+.hero-suggestion-more {
+  display: block;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--brand-dark);
+  background: var(--soft);
+  border-top: 1px solid var(--line);
+}
+.hero-suggestion-more:hover,
+.hero-suggestion-more:focus-visible {
+  text-decoration: underline;
+}
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+.hero-tags-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.hero-tag:hover {
+  color: var(--brand);
+  border-color: var(--brand);
+}

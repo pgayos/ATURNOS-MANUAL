@@ -1,0 +1,112 @@
+/* Cuerpo del artículo, callouts, pasos, medios, panel derecho */
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.article-body {
+  font-size: 1.04rem;
+  padding: 1rem 0;
+}
+.article-body p,
+.article-body li {
+  color: var(--ink);
+}
+/* Titulares del contenido a peso medio (coherente con h1 y h2). */
+.article-body h2,
+.article-body h3,
+.article-body h4,
+.article-body h5,
+.article-body h6 {
+  font-weight: 500;
+}
+.article-body img {
+  max-width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.callout {
+  margin: 24px 0;
+  padding: 18px 20px;
+  border-left: 4px solid var(--brand);
+  border-radius: 10px;
+  background: var(--soft);
+}
+.callout.warning {
+  background: var(--warning);
+  border-color: #d78b00;
+}
+.callout.success {
+  background: var(--mint);
+  border-color: #16864b;
+}
+.callout strong {
+  display: block;
+  margin-bottom: 4px;
+}
+.steps {
+  counter-reset: step;
+  display: grid;
+  gap: 18px;
+  margin: 24px 0;
+}
+.step {
+  position: relative;
+  padding: 22px 22px 22px 68px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--paper);
+}
+.step::before {
+  counter-increment: step;
+  content: counter(step);
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--brand);
+  color: white;
+  font-weight: 800;
+}
+.step h3 {
+  margin: 0 0 8px;
+}
+.media-card {
+  margin: 28px 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--blue-soft);
+}
+.media-card img {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.media-caption {
+  padding: 12px 16px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  background: var(--paper);
+}
+.video {
+  aspect-ratio: 16/9;
+  width: 100%;
+  border: 0;
+}
+.right-panel {
+  position: sticky;
+  top: 102px;
+  display: grid;
+  gap: 14px;
+}
