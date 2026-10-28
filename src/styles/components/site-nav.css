@@ -258,3 +258,22 @@
   border-left-color: var(--brand);
   border-radius: 0 6px 6px 0;
 }
+
+/* Badge "Revisar" de los artículos con la etiqueta PENDIENTE (solo fuera de
+   producción, ver PendingBadge.astro). */
+.nav-pending-badge {
+  display: inline-block;
+  flex: none;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border: 1px solid var(--pending-line);
+  border-radius: 999px;
+  background: var(--warning);
+  color: var(--pending-ink);
+  font-size: 0.66rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  vertical-align: 1px;
+}

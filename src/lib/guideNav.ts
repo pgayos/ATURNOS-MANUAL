@@ -205,6 +205,8 @@ export interface GuideNavArticle {
    *  para poder atenuar en el sidebar los artículos que no aplican al rol
    *  seleccionado por el visitante. */
   audience: string[];
+  /** Marcado para revisar (ver `isPendingReview`). */
+  pending: boolean;
 }
 
 export interface GuideNavSubtopic {
@@ -214,6 +216,7 @@ export interface GuideNavSubtopic {
    *  se muestra como enlace en la cabecera, no como un ítem repetido. */
   overviewId?: string;
   overviewAudience?: string[];
+  overviewPending?: boolean;
   articles: GuideNavArticle[];
 }
 
@@ -223,6 +226,7 @@ export interface GuideNavGroup {
   /** artículo de portada del submódulo (mismo criterio que en los temas). */
   overviewId?: string;
   overviewAudience?: string[];
+  overviewPending?: boolean;
   looseArticles: GuideNavArticle[];
   subtopics: GuideNavSubtopic[];
 }
@@ -269,11 +273,20 @@ export const topLevelModuleSlugOf = (entryId: string) => routeIdOf(entryId).spli
 const byOrder = (a: Article, b: Article) =>
   a.data.order - b.data.order || a.data.title.localeCompare(b.data.title, 'es');
 
+// El badge "Revisar" es una ayuda para el equipo editorial: se ve en local y
+// en las vistas previas de ramas, nunca en producción (rama main).
+const SHOW_PENDING_REVIEW = import.meta.env?.PUBLIC_DEPLOYMENT_BRANCH !== 'main';
+
+/** ¿El artículo lleva la etiqueta PENDIENTE y debe marcarse en el menú? */
+export const isPendingReview = (a: Article): boolean =>
+  SHOW_PENDING_REVIEW && a.data.labels.includes('PENDIENTE');
+
 const toNavArticle = (a: Article): GuideNavArticle => ({
   id: routeIdOf(a.id),
   title: a.data.title,
   order: a.data.order,
   audience: a.data.audience.map((item) => item.role),
+  pending: isPendingReview(a),
 });
 
 /** ¿El título del artículo es el de la sección (mismo texto o "<sección> …")? */
@@ -288,10 +301,10 @@ const isSectionOverview = (articleTitle: string, sectionName: string) => {
 const extractOverview = (
   articles: GuideNavArticle[],
   sectionName: string,
-): { id: string; audience: string[] } | undefined => {
+): { id: string; audience: string[]; pending: boolean } | undefined => {
   if (articles[0] && isSectionOverview(articles[0].title, sectionName)) {
     const overview = articles.shift()!;
-    return { id: overview.id, audience: overview.audience };
+    return { id: overview.id, audience: overview.audience, pending: overview.pending };
   }
   return undefined;
 };
@@ -366,6 +379,7 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
             slug: slugify(subName),
             overviewId: subOverview?.id,
             overviewAudience: subOverview?.audience,
+            overviewPending: subOverview?.pending,
             articles: subArts,
           };
         })
@@ -381,6 +395,7 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
         slug: slugify(name),
         overviewId: overview?.id,
         overviewAudience: overview?.audience,
+        overviewPending: overview?.pending,
         looseArticles,
         subtopics,
       };
@@ -405,6 +420,7 @@ export function buildGuideNav(entries: Article[], moduleSlug: string): GuideNav 
       name: sub.name,
       slug: sub.slug,
       overviewId: sub.overviewId,
+      overviewPending: sub.overviewPending,
       looseArticles: sub.articles,
       subtopics: [],
     }));

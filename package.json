@@ -14,6 +14,7 @@
     "audit:media": "python3 scripts/audit_media_sources.py",
     "migrate:media": "node scripts/migrate_article_images.mjs",
     "generate:amplify-redirects": "node scripts/generate_amplify_redirects.mjs",
+    "generate:cms": "node scripts/generate_cms_config.mjs",
     "reclassify": "python3 scripts/reclassify_manual.py --apply",
     "integrate:guides": "python3 scripts/integrate_external_guides.py",
     "clean:content": "python3 scripts/clean_editorial_text.py",
@@ -32,6 +33,7 @@
     "prettier": "^3.9.6",
     "prettier-plugin-astro": "^1.0.0",
     "sharp": "0.35.3",
-    "typescript": "6.0.3"
+    "typescript": "6.0.3",
+    "yaml": "2.9.0"
   }
 }

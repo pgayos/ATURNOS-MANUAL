@@ -4,6 +4,7 @@
 // categoría "guía") como el panel "Documentación" (una vez por cada módulo,
 // anidado dentro de su propio nodo colapsable).
 import type { GuideNavGroup, GuideNavSubtopic } from "../../lib/guideNav";
+import PendingBadge from "./PendingBadge.astro";
 
 interface Props {
   groups: GuideNavGroup[];
@@ -55,6 +56,7 @@ const chevronSvg =
               aria-current={group.overviewId === currentId ? "page" : undefined}
             >
               <span class="guide-nav-head-text">{group.name}</span>
+              {group.overviewPending && <PendingBadge />}
             </a>
           ) : (
             <button
@@ -90,6 +92,7 @@ const chevronSvg =
                     aria-current={a.id === currentId ? "page" : undefined}
                   >
                     {a.title}
+                    {a.pending && <PendingBadge />}
                   </a>
                 </li>
               ))}
@@ -116,6 +119,7 @@ const chevronSvg =
                         aria-current={sub.overviewId === currentId ? "page" : undefined}
                       >
                         <span class="guide-nav-head-text">{sub.name}</span>
+                        {sub.overviewPending && <PendingBadge />}
                       </a>
                     ) : (
                       <button
@@ -154,6 +158,7 @@ const chevronSvg =
                               aria-current={a.id === currentId ? "page" : undefined}
                             >
                               {a.title}
+                              {a.pending && <PendingBadge />}
                             </a>
                           </li>
                         ))}

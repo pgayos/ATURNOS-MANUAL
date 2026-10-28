@@ -1,0 +1,3529 @@
+# GENERADO por scripts/generate_cms_config.mjs — no editar a mano.
+# Para cambiarlo: edita el script (o GUIDE_MODULES en src/lib/guideNav.ts) y
+# ejecuta "npm run generate:cms".
+#
+# Panel de contenido (Sveltia CMS) servido en /admin. Una colección por
+# sección/módulo del menú, cada una con su formulario.
+# Pendiente (producción): backend.base_url del Sveltia CMS Authenticator para
+# iniciar sesión con GitHub. Mientras tanto: "Trabajar con repositorio local"
+# (Chrome/Edge) o un token personal de GitHub.
+backend:
+  name: github
+  repo: pgayos/ATURNOS-MANUAL
+  branch: main
+publish_mode: editorial_workflow
+site_url: https://manual.aturnos.com
+media_folder: public/media/manual
+public_folder: /media/manual
+slug:
+  encoding: ascii
+  clean_accents: true
+output:
+  yaml:
+    indent_sequences: true
+    quote: none
+collections:
+  - name: empezar-en-aturnos
+    label: Cómo empezar
+    label_singular: artículo
+    icon: rocket_launch
+    description: "Empezar en aTurnos. URL: /manual/empezar-en-aturnos/<nombre-del-archivo>/"
+    folder: src/content/manual/empezar-en-aturnos
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{subtopic}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/empezar-en-aturnos/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: empezar-en-aturnos-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Empezar en aTurnos
+      - name: submodule
+        label: "Pertenece a: submódulo de Empezar en aTurnos"
+        widget: select
+        options:
+          - Introducción
+          - Comienza en aTurnos
+          - Vacaciones y permisos (absentismos)
+          - El Cuadrante
+          - Control horario
+          - Guías por rol
+        hint: "Dónde aparece en el menú: Empezar en aTurnos › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: subtopic
+        label: "Pertenece a: tema dentro del submódulo"
+        widget: relation
+        required: false
+        collection: estructura
+        value_field: subtopic
+        display_fields:
+          - subtopic
+        search_fields:
+          - subtopic
+        filters:
+          - field: module
+            values:
+              - Empezar en aTurnos
+          - field: submodule
+            values:
+              - "{{fields.submodule}}"
+        hint: "Opcional: solo si el submódulo agrupa sus artículos por temas. Elige primero el submódulo."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - divider: true
+  - name: planificacion
+    label: Planificación
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Planificación. URL: /manual/planificacion/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/planificacion
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{subtopic}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/planificacion/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: planificacion-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Planificación
+      - name: submodule
+        label: "Pertenece a: submódulo de Planificación"
+        widget: select
+        options:
+          - Cuadrantes
+          - Tipos de turnos, tipos de horas y Patrones
+          - Restricciones
+          - Cambios de turnos
+          - Peticiones
+        hint: "Dónde aparece en el menú: Planificación › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: subtopic
+        label: "Pertenece a: tema dentro del submódulo"
+        widget: relation
+        required: false
+        collection: estructura
+        value_field: subtopic
+        display_fields:
+          - subtopic
+        search_fields:
+          - subtopic
+        filters:
+          - field: module
+            values:
+              - Planificación
+          - field: submodule
+            values:
+              - "{{fields.submodule}}"
+        hint: "Opcional: solo si el submódulo agrupa sus artículos por temas. Elige primero el submódulo."
+      - name: intent
+        label: Intención
+        widget: string
+        hint: Qué quiere conseguir el usuario con este artículo. Normalmente igual que el título.
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: trabajadores
+    label: Trabajadores
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Trabajadores. URL: /manual/trabajadores/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/trabajadores
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{subtopic}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/trabajadores/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: trabajadores-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Trabajadores
+      - name: submodule
+        label: "Pertenece a: submódulo de Trabajadores"
+        widget: select
+        options:
+          - Listado
+          - Sustituciones
+          - Datos del trabajador
+        hint: "Dónde aparece en el menú: Trabajadores › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: subtopic
+        label: "Pertenece a: tema dentro del submódulo"
+        widget: relation
+        required: false
+        collection: estructura
+        value_field: subtopic
+        display_fields:
+          - subtopic
+        search_fields:
+          - subtopic
+        filters:
+          - field: module
+            values:
+              - Trabajadores
+          - field: submodule
+            values:
+              - "{{fields.submodule}}"
+        hint: "Opcional: solo si el submódulo agrupa sus artículos por temas. Elige primero el submódulo."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: configuracion-de-equipos
+    label: Configuración de Equipos
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Configuración de Equipos. URL: /manual/configuracion-de-equipos/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/configuracion-de-equipos
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/configuracion-de-equipos/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: configuracion-de-equipos-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Configuración de Equipos
+      - name: submodule
+        label: "Pertenece a: submódulo de Configuración de Equipos"
+        widget: select
+        options:
+          - General
+          - Datos del equipo
+          - Privacidad
+          - Cambios
+          - Peticiones
+          - Visualización
+          - Acciones automáticas
+          - Notificaciones
+          - Inicio
+          - Módulos
+        hint: "Dónde aparece en el menú: Configuración de Equipos › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: reportes-estadisticos
+    label: Reportes estadísticos
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Reportes estadísticos. URL: /manual/reportes-estadisticos/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/reportes-estadisticos
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/reportes-estadisticos/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: reportes-estadisticos-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Reportes estadísticos
+      - name: submodule
+        label: "Pertenece a: submódulo de Reportes estadísticos"
+        widget: select
+        options:
+          - Por trabajador
+          - Por localizaciones
+          - Por defecto
+          - Configuración de reportes
+          - Reportes guardados
+          - Carpeta de reportes
+        hint: "Dónde aparece en el menú: Reportes estadísticos › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: registros
+    label: Registros
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Registros. URL: /manual/registros/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/registros
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/registros/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: registros-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Registros
+      - name: submodule
+        label: "Pertenece a: submódulo de Registros"
+        widget: select
+        options:
+          - De acciones
+          - De comentarios
+          - De turnos y horas
+          - De Absentismos
+          - Periodos de vacaciones
+          - Cambios de turnos a deber
+        hint: "Dónde aparece en el menú: Registros › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: gestion-de-rrhh
+    label: Gestión de RR.HH.
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Gestión de RR.HH.. URL: /manual/gestion-de-rrhh/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/gestion-de-rrhh
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/gestion-de-rrhh/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: gestion-de-rrhh-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Gestión de RR.HH.
+      - name: submodule
+        label: "Pertenece a: submódulo de Gestión de RR.HH."
+        widget: select
+        options:
+          - Gestión de personal (Maestro de empleado)
+          - Registros
+          - Reportes de varios equipos
+          - Logs, API y ejecuciones pendientes
+          - Planificación de equipos
+          - Control horario de equipos
+          - Acciones y modificaciones de datos en bloque
+          - Peticiones de reportes
+        hint: "Dónde aparece en el menú: Gestión de RR.HH. › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: planificacion-avanzada
+    label: Planificación Avanzada/Automática
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Planificación Avanzada/Automática. URL: /manual/planificacion-avanzada/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/planificacion-avanzada
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/planificacion-avanzada/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: planificacion-avanzada-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Planificación Avanzada/Automática
+      - name: submodule
+        label: "Pertenece a: submódulo de Planificación Avanzada/Automática"
+        widget: select
+        options:
+          - Calculadora de patrones y demandas de turnos
+          - Demandas
+          - Tabla de cobertura
+          - Asistente de planificación automática
+        hint: "Dónde aparece en el menú: Planificación Avanzada/Automática › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: control-horario
+    label: Control horario
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Control horario. URL: /manual/control-horario/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/control-horario
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{subtopic}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/control-horario/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: control-horario-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Control horario
+      - name: submodule
+        label: "Pertenece a: submódulo de Control horario"
+        widget: select
+        options:
+          - Configuración del control horario
+          - Diario
+          - Detalle del control horario
+          - Petición de fichajes
+          - Guardias localizadas
+          - Fichajes Forzados
+          - Tarjeta trabajador (QR)
+          - Informes del control horario
+        hint: "Dónde aparece en el menú: Control horario › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: subtopic
+        label: "Pertenece a: tema dentro del submódulo"
+        widget: relation
+        required: false
+        collection: estructura
+        value_field: subtopic
+        display_fields:
+          - subtopic
+        search_fields:
+          - subtopic
+        filters:
+          - field: module
+            values:
+              - Control horario
+          - field: submodule
+            values:
+              - "{{fields.submodule}}"
+        hint: "Opcional: solo si el submódulo agrupa sus artículos por temas. Elige primero el submódulo."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: documentos
+    label: Documentos
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Documentos. URL: /manual/documentos/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/documentos
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/documentos/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: documentos-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Documentos
+      - name: submodule
+        label: "Pertenece a: submódulo de Documentos"
+        widget: select
+        options:
+          - Documentos
+          - Tipos de documentos
+          - Subir documentos
+        hint: "Dónde aparece en el menú: Documentos › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: tareas
+    label: Tareas
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Tareas. URL: /manual/tareas/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/tareas
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/tareas/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: tareas-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Tareas
+      - name: submodule
+        label: "Pertenece a: submódulo de Tareas"
+        widget: select
+        options:
+          - Tareas
+          - Tiempo Ordinario
+          - Horas de tareas por trabajador
+          - Horas de tareas por equipo
+          - Horas de tareas por actividad
+          - Tareas minimal
+        hint: "Dónde aparece en el menú: Tareas › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: nominas
+    label: Nóminas
+    label_singular: artículo
+    icon: description
+    description: "Documentación › Nóminas. URL: /manual/nominas/<nombre-del-archivo>/"
+    folder: src/content/manual/manual/nominas
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/nominas/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: nominas-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Nóminas
+      - name: submodule
+        label: "Pertenece a: submódulo de Nóminas"
+        widget: select
+        options:
+          - Conceptos de nóminas
+          - Borrar conceptos
+          - Cierre por equipo
+          - Exportar nóminas
+          - Estadísticas por periodos de varios equipos
+          - Estadísticas por días de varios equipos
+          - Totalizada por equipos
+          - Nómina por localización
+          - Atrasos de nóminas
+          - Listado de comprobación
+          - Listado de atrasos
+        hint: "Dónde aparece en el menú: Nóminas › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - divider: true
+  - name: app-movil
+    label: App móvil
+    label_singular: artículo
+    icon: smartphone
+    description: "App móvil. URL: /manual/app-movil/<nombre-del-archivo>/"
+    folder: src/content/manual/app-movil
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{subtopic}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/app-movil/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: app-movil-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: App móvil
+      - name: submodule
+        label: "Pertenece a: submódulo de App móvil"
+        widget: select
+        options:
+          - Administrador
+          - Preguntas frecuentes
+          - Trabajador
+        hint: "Dónde aparece en el menú: App móvil › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: subtopic
+        label: "Pertenece a: tema dentro del submódulo"
+        widget: relation
+        required: false
+        collection: estructura
+        value_field: subtopic
+        display_fields:
+          - subtopic
+        search_fields:
+          - subtopic
+        filters:
+          - field: module
+            values:
+              - App móvil
+          - field: submodule
+            values:
+              - "{{fields.submodule}}"
+        hint: "Opcional: solo si el submódulo agrupa sus artículos por temas. Elige primero el submódulo."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - app
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - divider: true
+  - name: gestion-de-proyectos
+    label: Proyectos
+    label_singular: artículo
+    icon: assignment
+    description: "Gestión de proyectos. URL: /manual/gestion-de-proyectos/<nombre-del-archivo>/"
+    folder: src/content/manual/gestion-de-proyectos
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/gestion-de-proyectos/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: gestion-de-proyectos-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Gestión de proyectos
+      - name: submodule
+        label: "Pertenece a: submódulo de Gestión de proyectos"
+        widget: select
+        options:
+          - Introducción
+          - Análisis Funcional
+          - Proceso de Implantación
+          - Fin de fase de Implantación
+          - Plan de Formación para la Implantación
+        hint: "Dónde aparece en el menú: Gestión de proyectos › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - divider: true
+  - name: integracion-biostar
+    label: Integración con Biostar
+    label_singular: artículo
+    icon: router
+    description: "Integración y Hardware › Integración con Biostar. URL: /manual/integracion-biostar/<nombre-del-archivo>/"
+    folder: src/content/manual/integraciones-y-hardware/integracion-biostar
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/integracion-biostar/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: integracion-biostar-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Integración con Biostar
+      - name: submodule
+        label: "Pertenece a: submódulo de Integración con Biostar"
+        widget: select
+        options:
+          - Introducción
+          - Manual de dispositivos Biostar
+        hint: "Dónde aparece en el menú: Integración con Biostar › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: integracion-spec
+    label: SPEC
+    label_singular: artículo
+    icon: router
+    description: "Integración y Hardware › SPEC. URL: /manual/integracion-spec/<nombre-del-archivo>/"
+    folder: src/content/manual/integraciones-y-hardware/integracion-spec
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/integracion-spec/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: integracion-spec-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: SPEC
+      - name: submodule
+        label: "Pertenece a: submódulo de SPEC"
+        widget: select
+        options:
+          - Instalación
+        hint: "Dónde aparece en el menú: SPEC › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        label: Intención
+        widget: string
+        hint: Qué quiere conseguir el usuario con este artículo. Normalmente igual que el título.
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - name: wall-app
+    label: Wall App
+    label_singular: artículo
+    icon: router
+    description: "Integración y Hardware › Wall App. URL: /manual/wall-app/<nombre-del-archivo>/"
+    folder: src/content/manual/integraciones-y-hardware/wall-app
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{submodule}} › {{title}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Submódulo
+        field: submodule
+    preview_path: manual/wall-app/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: wall-app-{{uuid_short}}
+      - name: title
+        label: Título
+        widget: string
+        minlength: 5
+        hint: Lo que verá el usuario en el menú y en la cabecera del artículo.
+      - name: order
+        widget: hidden
+        default: 99
+      - name: description
+        label: Descripción
+        widget: text
+        minlength: 30
+        hint: Resumen de una frase (mínimo 30 caracteres). Aparece en buscadores y listados.
+      - name: contentType
+        widget: hidden
+        default: procedure
+      - name: module
+        widget: hidden
+        default: Wall App
+      - name: submodule
+        label: "Pertenece a: submódulo de Wall App"
+        widget: select
+        options:
+          - Introducción
+          - Manual de Wall App
+        hint: "Dónde aparece en el menú: Wall App › este submódulo. Si falta uno, hay que añadirlo a la estructura del manual (no se crea desde aquí)."
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        label: Roles
+        label_singular: rol
+        widget: list
+        min: 1
+        summary: "{{fields.role}}"
+        hint: Quién necesita este artículo. Cada rol ve lo suyo y lo de los roles inferiores (Trabajador < Administrador < RRHH).
+        fields:
+          - name: role
+            label: Rol
+            widget: select
+            options:
+              - Trabajador
+              - Administrador
+              - RRHH
+              - Nóminas
+              - Desarrollador API
+          - name: access
+            widget: hidden
+            default: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        widget: hidden
+        default: []
+      - name: relatedTerms
+        widget: hidden
+        default: []
+      - name: prerequisites
+        label: Requisitos previos
+        widget: list
+        required: false
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: video
+        label: Vídeo
+        widget: file
+        required: false
+        accept: video/*
+        choose_url: true
+        hint: "Opcional: sube un vídeo o pega la URL de YouTube. Se muestra al inicio del artículo."
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Escríbelas como las haría un usuario, p. ej. "¿Cómo creo un cuadrante borrador?". La IA las usará para saber cuándo recomendar este artículo.
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        label: Tiempo de lectura (min)
+        widget: number
+        value_type: int
+        min: 1
+        default: 2
+      - name: featured
+        label: Destacado
+        widget: boolean
+        default: false
+        hint: Aparece en "Contenido destacado" de la home.
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Contenido
+        widget: markdown
+        hint: 'Usa encabezados "##" (Resumen, Procedimiento…). Para añadir capturas o archivos usa el botón de imagen/archivo de la barra: se suben a "Imágenes y archivos del manual".'
+  - divider: true
+  - name: glosario
+    label: Glosario
+    label_singular: término
+    icon: sort_by_alpha
+    description: Términos del glosario (índice A-Z en /manual/glosario/).
+    folder: src/content/manual/glosario
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{title}}"
+    identifier_field: title
+    summary: "{{title}} · {{submodule}}"
+    sortable_fields:
+      - title
+      - submodule
+    view_groups:
+      - label: Categoría
+        field: submodule
+    preview_path: manual/glosario/{{slug}}/
+    fields:
+      - name: schemaVersion
+        widget: hidden
+        default: "1.0"
+      - name: contentId
+        widget: hidden
+        default: glosario-{{uuid_short}}
+      - name: title
+        label: Término
+        widget: string
+        minlength: 5
+        hint: El nombre del término, tal como aparecerá en el índice A-Z.
+      - name: order
+        widget: hidden
+        default: 1
+      - name: description
+        label: Definición corta
+        widget: text
+        minlength: 30
+        hint: La definición en una frase (mínimo 30 caracteres).
+      - name: contentType
+        widget: hidden
+        default: concept
+      - name: module
+        widget: hidden
+        default: Glosario
+      - name: submodule
+        label: Categoría
+        widget: select
+        options:
+          - Altas y bajas
+          - Configuración
+          - Contratos
+          - Cuadrante
+          - Equipo y centros
+          - Fichajes
+          - General
+          - Informes y validación
+          - Nóminas
+          - Roles y permisos
+          - Turnos y patrones
+          - Usuarios y perfiles
+          - Vacaciones y ausencias
+        hint: Categoría del filtro del glosario.
+      - name: intent
+        widget: compute
+        value: "{{fields.title}}"
+      - name: audience
+        widget: hidden
+        default:
+          - role: Trabajador
+            access: applicable
+          - role: Administrador
+            access: applicable
+          - role: RRHH
+            access: applicable
+      - name: entities
+        widget: hidden
+        default: []
+      - name: synonyms
+        label: Sinónimos
+        widget: list
+        required: false
+        hint: Otros nombres del término. Cada uno aparece en el índice A-Z llevando a este mismo término.
+      - name: relatedTerms
+        label: Términos relacionados
+        widget: list
+        required: false
+      - name: prerequisites
+        widget: hidden
+        default: []
+      - name: platforms
+        widget: hidden
+        default:
+          - web
+      - name: governance
+        label: Gestión editorial
+        widget: object
+        collapsed: true
+        fields:
+          - name: status
+            label: Estado
+            widget: select
+            default: draft
+            options:
+              - label: Borrador
+                value: draft
+              - label: En revisión
+                value: functional-review
+              - label: Publicado
+                value: published
+              - label: Obsoleto
+                value: deprecated
+          - name: owner
+            label: Autor
+            widget: string
+            default: Equipo de Producto de aTurnos
+            hint: Aparece en la tarjeta "Autor" del artículo.
+          - name: reviewer
+            widget: hidden
+            default: null
+          - name: reviewedAt
+            widget: hidden
+            default: null
+          - name: reviewDueAt
+            widget: hidden
+            default: null
+          - name: sourceUrls
+            label: Fuentes
+            widget: list
+            required: false
+            hint: URLs completas (https://…) de donde sale la información.
+          - name: redirectsFrom
+            widget: hidden
+            default: []
+      - name: ai
+        label: Inteligencia artificial (opcional)
+        widget: object
+        collapsed: true
+        hint: "Aún no se usa en el sitio: prepara el artículo para el futuro asistente con IA del manual."
+        fields:
+          - name: answerableQuestions
+            label: Preguntas que responde este artículo
+            widget: list
+            required: false
+            hint: Opcional. Cómo preguntaría un usuario por este término, p. ej. "¿Qué es Turno?".
+          - name: excludedQuestions
+            widget: hidden
+            default: []
+          - name: sensitivity
+            widget: hidden
+            default: public
+          - name: chunking
+            widget: hidden
+            default: by-section
+      - name: readingTime
+        widget: hidden
+        default: 1
+      - name: featured
+        widget: hidden
+        default: false
+      - name: migration
+        widget: hidden
+      - name: labels
+        label: Etiquetas
+        widget: select
+        multiple: true
+        required: false
+        default: []
+        options:
+          - label: Pendiente
+            value: PENDIENTE
+      - name: body
+        label: Definición completa
+        widget: markdown
+        hint: Empieza con "## Resumen" y la definición completa del término.
+  - divider: true
+  - name: estructura
+    label: Estructura del manual
+    icon: account_tree
+    description: 'Solo lectura: temas de cada submódulo. Se genera con "npm run generate:cms" a partir del contenido.'
+    folder: cms/estructura
+    extension: yml
+    format: yaml
+    create: false
+    delete: false
+    readonly: true
+    identifier_field: subtopic
+    summary: "{{module}} › {{submodule}} › {{subtopic}}"
+    view_groups:
+      - label: Módulo
+        field: module
+    fields:
+      - name: module
+        label: Módulo
+        widget: string
+      - name: submodule
+        label: Submódulo
+        widget: string
+      - name: subtopic
+        label: Tema
+        widget: string
+asset_collections:
+  - name: medios
+    label: Imágenes y archivos del manual
+    icon: photo_library
+    media_folder: public/media/manual
+    public_folder: /media/manual
