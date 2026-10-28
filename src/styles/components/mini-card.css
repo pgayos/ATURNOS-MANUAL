@@ -15,7 +15,7 @@
   font-size: 0.9rem;
 }
 .ai-box {
-  background: linear-gradient(150deg, var(--heading), var(--blue));
+  background: var(--gradient-brand);
   color: white;
   display: flex;
   flex-direction: column;

@@ -27,7 +27,7 @@ const externalLinkSvg =
 ---
 
 <nav
-  class="site-nav"
+  class="site-nav is-booting"
   id="site-nav"
   data-site-nav
   aria-label="Navegación del manual"
@@ -269,6 +269,49 @@ const externalLinkSvg =
   window.addEventListener("resize", () => {
     if (window.innerWidth > 980) closeSiteNav();
   });
+
+  // Cada artículo es una página nueva y el menú se vuelve a pintar: se guarda
+  // el scroll del árbol al salir y se restaura aquí, antes del primer pintado,
+  // para que el menú se quede donde estaba en vez de saltar.
+  (() => {
+    const scrollBox = siteNavEl?.querySelector(".site-nav-scroll");
+    if (!scrollBox) return;
+    const KEY = "site-nav-scroll";
+    const activePanel = () =>
+      siteNavEl.querySelector("[data-panel]:not([hidden])")?.dataset.panel ??
+      "";
+    try {
+      const saved = JSON.parse(sessionStorage.getItem(KEY) ?? "null");
+      if (saved && saved.panel === activePanel()) {
+        scrollBox.scrollTop = saved.top;
+      }
+    } catch {}
+    // Si el artículo actual queda fuera de la vista (p. ej. se llegó desde
+    // otra categoría o desde la home), se centra sin animación.
+    const current = siteNavEl.querySelector(
+      "[data-panel]:not([hidden]) .active",
+    );
+    if (current) {
+      const box = scrollBox.getBoundingClientRect();
+      const r = current.getBoundingClientRect();
+      if (r.top < box.top || r.bottom > box.bottom) {
+        scrollBox.scrollTop +=
+          r.top - box.top - (box.height - r.height) / 2;
+      }
+    }
+    window.addEventListener("pagehide", () => {
+      try {
+        sessionStorage.setItem(
+          KEY,
+          JSON.stringify({ panel: activePanel(), top: scrollBox.scrollTop }),
+        );
+      } catch {}
+    });
+    // Las animaciones del menú solo para lo que hace el usuario, no al cargar.
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => siteNavEl.classList.remove("is-booting")),
+    );
+  })();
 </script>
 
 <script>
@@ -290,6 +333,7 @@ const externalLinkSvg =
       if (!pill) return;
       event.preventDefault();
       const id = pill.dataset.section;
+      const alreadyActive = pill.classList.contains("is-active");
       panels.forEach((panel) => {
         panel.hidden = panel.dataset.panel !== id;
       });
@@ -298,7 +342,37 @@ const externalLinkSvg =
         p.classList.toggle("is-active", active);
         p.setAttribute("aria-selected", String(active));
       });
+      const panel = panels.find((p) => p.dataset.panel === id);
+      if (panel && !alreadyActive) revealPanel(panel);
     });
+
+    // Animación de entrada del panel recién mostrado y, si su inicio queda
+    // fuera de la vista (pantallas pequeñas), scroll suave hasta él para que
+    // se note que el menú se ha desplegado.
+    const scrollBox = nav.querySelector<HTMLElement>(".site-nav-scroll");
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const revealPanel = (panel: HTMLElement) => {
+      panel
+        .querySelectorAll<HTMLElement>(":scope > ul > li")
+        .forEach((item, index) => {
+          item.style.setProperty("--i", String(Math.min(index, 12)));
+        });
+      panel.classList.remove("is-entering");
+      void panel.offsetWidth; // reinicia la animación si ya estaba aplicada
+      panel.classList.add("is-entering");
+      window.setTimeout(() => panel.classList.remove("is-entering"), 900);
+
+      if (!scrollBox) return;
+      const box = scrollBox.getBoundingClientRect();
+      const top = panel.getBoundingClientRect().top;
+      // Hace falta scroll si quedan menos de ~120px del panel a la vista.
+      if (top > box.bottom - 120) {
+        scrollBox.scrollTo({
+          top: scrollBox.scrollTop + (top - box.top) - 12,
+          behavior: reduceMotion.matches ? "auto" : "smooth",
+        });
+      }
+    };
 
     // --- Acordeón de cada árbol: al abrir una sección se cierran las demás
     // dentro del mismo panel (a cualquier nivel), manteniendo abiertos los
