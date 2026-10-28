@@ -3,7 +3,7 @@
   position: relative;
   padding: 48px;
   border-radius: 18px;
-  background: linear-gradient(150deg, var(--heading), var(--blue));
+  background: var(--gradient-brand);
   color: white;
   overflow: hidden;
 }

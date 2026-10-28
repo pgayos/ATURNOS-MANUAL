@@ -28,6 +28,22 @@
   min-height: 0;
   overflow-y: auto;
   overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+/* Fallback para navegadores sin scrollbar-color (Safari antiguo) */
+.site-nav-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.site-nav-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.site-nav-scroll::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--scrollbar-thumb);
+}
+.site-nav-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
 }
 .site-nav-pills {
   display: flex;
@@ -124,6 +140,28 @@
 }
 .site-nav-panel[hidden] {
   display: none;
+}
+/* Al cambiar de categoría (pill), los elementos del panel entran en cascada:
+   suaviza el cambio y deja claro que el árbol de abajo se ha actualizado.
+   --i (índice, máx. 12) lo pone el script de SiteNav.astro. */
+.site-nav-panel.is-entering > ul > li {
+  animation: site-nav-item-in 280ms ease-out both;
+  animation-delay: calc(var(--i, 0) * 35ms);
+}
+@keyframes site-nav-item-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-nav-panel.is-entering > ul > li {
+    animation: none;
+  }
 }
 
 /* Listas semánticas: nav > ul.guide-nav-list > li.guide-nav-node > a + ul */
@@ -235,6 +273,44 @@
 }
 .guide-nav-node[data-node]:not(.open) > .guide-nav-sublist {
   display: none;
+}
+
+/* Sección de primer nivel desplegada: se enmarca en una caja (mismo estilo
+   que la caja de categorías) para separarla del resto del árbol. El contorno
+   es un box-shadow y no un border: no ocupa espacio (el menú no "salta") y
+   no destella en los nodos cerrados mientras carga la página, como pasaba con
+   un border transparente con transición. */
+.site-nav-panel > ul > .guide-nav-node[data-node] {
+  border-radius: 12px;
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.site-nav-panel > ul > .guide-nav-node[data-node].open {
+  margin-block: 6px;
+  background: var(--bg);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.site-nav-panel > ul > .guide-nav-node[data-node].open > .guide-nav-sublist {
+  padding-bottom: 8px;
+}
+/* Los hijos aparecen con un fundido suave al desplegar cualquier nivel */
+.guide-nav-node[data-node].open > .guide-nav-sublist {
+  animation: site-nav-item-in 220ms ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .guide-nav-node[data-node].open > .guide-nav-sublist {
+    animation: none;
+  }
+}
+/* Mientras carga la página el menú se pinta ya en su estado final, sin
+   animaciones ni transiciones (SiteNav.astro quita .is-booting tras el
+   primer pintado). */
+.site-nav.is-booting *,
+.site-nav.is-booting *::before,
+.site-nav.is-booting *::after {
+  animation: none !important;
+  transition: none !important;
 }
 
 .guide-nav-link {
