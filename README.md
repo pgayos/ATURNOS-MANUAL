@@ -51,6 +51,49 @@ Después copia el contenido de `amplify-redirects.json` en **Hosting → Rewrite
 
 Las compilaciones de ramas distintas de `main` reciben `noindex, nofollow`. El build también comprueba que las rutas y recursos locales referenciados existan.
 
+## Panel de contenido (Sveltia CMS)
+
+`/admin` sirve un panel con formularios para que el equipo cree y edite artículos sin tocar código. Cada cambio guardado abre un pull request en GitHub (`publish_mode: editorial_workflow`); al fusionarlo en `main`, Amplify despliega la web.
+
+- `public/admin/index.html` carga Sveltia CMS desde unpkg con versión fija.
+- `public/admin/config.yml` se genera con `npm run generate:cms` a partir del contenido y de `GUIDE_MODULES` (`src/lib/guideNav.ts`); no se edita a mano. Vuelve a generarlo cuando cambien módulos, submódulos o temas.
+- `cms/estructura/` contiene los temas de cada submódulo que usa el desplegable «Tema». También se genera.
+
+### Seguridad (CSP)
+
+`customHttp.yml` tiene una CSP específica para `/admin/**`, colocada después de la general (`**`) para sustituirla solo en el panel. Sveltia necesita:
+
+- `script-src` / `worker-src`: `unpkg.com` (script principal y módulos que carga bajo demanda: pegado con formato, resaltado de código, imágenes HEIC…).
+- `font-src`: `cdn.jsdelivr.net` (fuentes e iconos del panel).
+- `connect-src`: `api.github.com` (leer y escribir el repo), `www.githubstatus.com`, `unpkg.com`, `data:` y `blob:` (imágenes pegadas o subidas).
+- `img-src`: `avatars.githubusercontent.com`, `blob:`; `manifest-src`: `blob:`.
+
+No se aloja Sveltia en el repo: carga igualmente sus módulos desde unpkg y habría que copiar todo su paquete.
+
+### Probar el panel en local con la CSP de producción
+
+`astro dev` no aplica `customHttp.yml`. Para probarlo:
+
+```bash
+npx astro build
+npm run preview:headers   # http://localhost:4329/admin/
+```
+
+Inicia sesión con un token clásico de GitHub (scope `repo`, caducidad corta) o con «Trabajar con un repositorio local» (Chrome/Edge). Edita un artículo sin guardar, pega texto con formato e inserta una imagen, y revisa en la consola que no aparezca ningún error «Content Security Policy». Guardar crea una rama y un PR reales; si ocurre por error, elimínalo desde «Flujo editorial».
+
+### Actualizar Sveltia CMS
+
+Cambia la versión en `public/admin/index.html`, prueba en local como se indica arriba y, si aparecen bloqueos nuevos, amplía la CSP de `/admin/**`.
+
+### Pendiente para producción
+
+1. ~~CSP de `/admin`~~ (hecho).
+2. Inicio de sesión con GitHub: OAuth App en GitHub + [Sveltia CMS Authenticator](https://github.com/sveltia/sveltia-cms-auth) en Cloudflare Workers, y `backend.base_url` en `scripts/generate_cms_config.mjs` (regenerar con `npm run generate:cms`).
+3. Comprobar el build en Amplify.
+4. PR a `main` y prueba en producción, incluida la confirmación de que Amplify aplica la CSP de `/admin/**` en lugar de la general.
+
+Para que otras personas usen el panel necesitan permiso de escritura en `pgayos/ATURNOS-MANUAL`, y conviene proteger `main`.
+
 ## Interfaz inicial
 
 - Portada y navegación por módulos.
