@@ -1,12 +1,13 @@
 ---
-schemaVersion: "1.0"
+schemaVersion: '1.0'
 contentId: planificacion-a-accion-de-intercambio
 title: Acción de intercambio
+order: 1
 description: Esta opción permite intercambiar la planificación de dos trabajadores en un periodo de tiempo determinado.
 contentType: procedure
-module: "Planificación"
-submodule: "Cuadrantes"
-subtopic: "Cuadrante"
+module: Planificación
+submodule: Cuadrantes
+subtopic: Cuadrante
 intent: Acción de intercambio
 audience:
   - role: Administrador
@@ -19,9 +20,11 @@ entities:
   - id: intercambio
     label: Intercambio
 synonyms: []
+relatedTerms: []
 prerequisites: []
 platforms:
   - web
+video: ''
 governance:
   status: draft
   owner: Equipo de Producto de aTurnos
@@ -49,8 +52,8 @@ migration:
   contentHash: 07b749eba02932380b881228867a70666ceebc32586677aebc18292531b0ca40
   migratedAt: 2026-08-17
 labels: []
-order: 1
 ---
+
 ## Resumen
 
 Aprende a acción de intercambio, con instrucciones y contexto revisables por el equipo de aTurnos.
@@ -60,6 +63,9 @@ Esta opción permite intercambiar la planificación de dos trabajadores en un pe
 ¡Importante! Los absentismos no se intercambian. También es importante saber que esta opción solo te deja seleccionar un único trabajador sustituto. Ya que el intercambio se realiza entre 2 personas.
 
 ¡OJO! No se debe confundir esta opción de intercambio con el intercambio de turno que se puede realizar entre trabajadores desde el cuadrante. La diferencia con respecto a la opción de intercambio del cuadrante radica en que el intercambio desde el cuadrante es únicamente un intercambio de turno en un único día, mientras que desde la opción Intercambio desde sustituciones es toda la planificación durante el periodo de tiempo que se desee.
+
+![a. Acción de intercambio](/media/manual/a-accion-de-intercambio-e7199eb052.webp)
+
 
 ## Configuración avanzada
 
@@ -74,7 +80,6 @@ Se pueden seleccionar estas opciones:
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![a. Acción de intercambio](/media/manual/a-accion-de-intercambio-e7199eb052.webp)
 
 ![Configuración avanzada](/media/manual/configuracion-avanzada-bb6e1fec49.webp)
 
