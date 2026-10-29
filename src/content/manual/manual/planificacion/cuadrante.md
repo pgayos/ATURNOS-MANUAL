@@ -1,12 +1,13 @@
 ---
-schemaVersion: "1.0"
+schemaVersion: '1.0'
 contentId: planificacion-cuadrante
-title: Cuadrante
+title: Cuadrante APP
+order: 1
 description: El Cuadrante es la herramienta principal de un trabajador dentro de aTurnos.
 contentType: procedure
-module: "Planificación"
-submodule: "Cuadrantes"
-subtopic: "Cuadrante"
+module: Planificación
+submodule: Cuadrantes
+subtopic: Cuadrante
 intent: Cuadrante
 audience:
   - role: Administrador
@@ -17,9 +18,11 @@ entities:
   - id: cuadrante
     label: Cuadrante
 synonyms: []
+relatedTerms: []
 prerequisites: []
 platforms:
   - web
+video: ''
 governance:
   status: draft
   owner: Equipo de Producto de aTurnos
@@ -48,8 +51,8 @@ migration:
   migratedAt: 2026-08-17
 labels:
   - PENDIENTE
-order: 1
 ---
+
 ## Resumen
 
 Aprende a cuadrante, con instrucciones y contexto revisables por el equipo de aTurnos.
