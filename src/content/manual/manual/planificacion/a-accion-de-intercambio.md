@@ -26,7 +26,7 @@ platforms:
   - web
 video: ''
 governance:
-  status: draft
+  status: published
   owner: Equipo de Producto de aTurnos
   reviewer: null
   reviewedAt: null
