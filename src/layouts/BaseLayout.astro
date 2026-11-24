@@ -59,6 +59,12 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
     <ProfileFilter />
     <script>
       import { initSearchWidget } from "../lib/searchWidget.js";
+      import { initSearchShortcut } from "../lib/searchShortcut.js";
+      initSearchShortcut({
+        input: document.querySelector("#header-search-input"),
+        drawerInput: document.querySelector("#drawer-search-input"),
+        menuToggle: document.querySelector("#nav-menu-toggle"),
+      });
       initSearchWidget({
         form: document.querySelector("#header-search"),
         input: document.querySelector("#header-search-input"),

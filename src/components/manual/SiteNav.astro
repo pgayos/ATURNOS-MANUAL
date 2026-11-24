@@ -9,6 +9,7 @@ import { guideNavContains, type GuideNav } from "../../lib/guideNav";
 import type { SiteNavSection, SiteNavSectionId } from "../../lib/siteNav";
 import SoporteCard from "../SoporteCard.astro";
 import CopyComponent from "../CopyComponent.astro";
+import PendingBadge from "./PendingBadge.astro";
 
 interface Props {
   sections: SiteNavSection[];
@@ -224,6 +225,7 @@ const externalLinkSvg =
                       aria-current={term.id === currentId ? "page" : undefined}
                     >
                       {term.title}
+                      {term.pending && <PendingBadge />}
                     </a>
                   </li>
                 ))}

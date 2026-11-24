@@ -1,5 +1,5 @@
 import type { CollectionEntry } from 'astro:content';
-import { buildGuideNav, routeIdOf, type GuideNav } from './guideNav';
+import { buildGuideNav, isPendingReview, routeIdOf, type GuideNav } from './guideNav';
 
 type Article = CollectionEntry<'manual'>;
 
@@ -44,7 +44,7 @@ export interface SiteNavGlossarySection extends SiteNavBase {
   /** El pill entero navega aquí (página completa: buscador + filtro por
    *  categoría + cards) — no solo cambia de panel como los demás pills. */
   href: string;
-  terms: { id: string; title: string; href: string }[];
+  terms: { id: string; title: string; href: string; pending: boolean }[];
 }
 
 export interface SiteNavPlainSection extends SiteNavBase {
@@ -116,7 +116,12 @@ export function buildSiteNav(entries: Article[]): SiteNavSection[] {
 
   const glossaryTerms = entries
     .filter((e) => e.data.module === 'Glosario')
-    .map((e) => ({ id: routeIdOf(e.id), title: e.data.title, href: `/manual/${routeIdOf(e.id)}/` }))
+    .map((e) => ({
+      id: routeIdOf(e.id),
+      title: e.data.title,
+      href: `/manual/${routeIdOf(e.id)}/`,
+      pending: isPendingReview(e),
+    }))
     .sort((a, b) => a.title.localeCompare(b.title, 'es'));
 
   const empezarNav = buildGuideNav(entries, 'empezar-en-aturnos');

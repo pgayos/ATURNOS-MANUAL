@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Video from "./Video.astro";
+import RelatedCard from "./RelatedCard.astro";
+import { getRelatedContent } from "../../lib/related";
 import { getCollection } from "astro:content";
 import { slugify } from "../../lib/slug";
 import {
@@ -71,6 +73,9 @@ const eyebrowText =
     ? d.module
     : `${d.module} · ${eyebrowSection}`;
 const pageHeadings = headings.filter((h) => h.depth === 2);
+
+// Panel derecho «Sigue leyendo»: siguiente artículo del índice y relacionados.
+const relatedContent = getRelatedContent(entry, await getCollection("manual"));
 
 // El selector de rol filtra contenido real en Documentación y App Móvil
 // (cualquier módulo guía salvo "Empezar en aTurnos", que es contenido de
@@ -204,13 +209,7 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
           relevantes.
         </p>
       </div> -->
-      <div class="mini-card ai-box">
-        <h3>Autor</h3>
-        <p>{d.governance.owner}</p>
-        <a class="button" href="/asistente/">
-          Conoce al autor
-        </a>
-      </div>
+      <RelatedCard content={relatedContent} />
       <!-- <div class="mini-card">
         <h3>¿Mas dudas?</h3>
         <a class="card-cta" target="_blank" href="https://www.aturnos.com">

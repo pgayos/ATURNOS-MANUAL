@@ -92,6 +92,31 @@
   color: var(--ink);
   font-size: 0.9rem;
 }
+/* Pista del atajo ⌘K / Ctrl+K: se oculta al escribir o con el foco dentro,
+   y en pantallas táctiles (sin teclado físico). */
+.header-search-kbd {
+  flex: none;
+  padding: 1px 6px;
+  border: 1px solid var(--line);
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.header-search-kbd[hidden],
+.header-search:focus-within .header-search-kbd,
+.header-search input:not(:placeholder-shown) ~ .header-search-kbd {
+  display: none;
+}
+@media (hover: none) {
+  .header-search-kbd {
+    display: none;
+  }
+}
 .profile-picker {
   border: 1px solid var(--line);
   background: var(--paper);

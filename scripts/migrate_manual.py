@@ -373,9 +373,10 @@ def main():
     pages = parse_pages(args.crawl)
     groups, _ = deduplicate(pages)
     # Preserve the hand-crafted pilot and rebuild every generated file.
-    pilot = args.output / "planificacion" / "cuadrante-borrador.mdx"
+    pilot = args.output / "planificacion" / "cuadrante-borrador.md"
     for path in args.output.rglob("*.md"):
-        path.unlink()
+        if path != pilot:
+            path.unlink()
     used_paths: set[str] = {"planificacion/cuadrante-borrador"}
     redirects: list[tuple[str, str, int]] = []
     report_entries = []

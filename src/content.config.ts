@@ -21,6 +21,9 @@ const manual = defineCollection({
     entities: z.array(z.object({ id: z.string(), label: z.string() })).default([]),
     synonyms: z.array(z.string()).default([]),
     relatedTerms: z.array(z.string()).default([]),
+    // Artículos relacionados elegidos a mano (por `contentId`). Se muestran
+    // primero en «Sigue leyendo»; el cálculo automático completa el resto.
+    related: z.array(z.string()).default([]),
     video: z.string().optional(), // URL (YouTube) o ruta local (/media/manual/…)
     prerequisites: z.array(z.string()).default([]),
     platforms: z.array(z.enum(['web', 'app'])),
@@ -31,22 +34,24 @@ const manual = defineCollection({
       reviewer: z.string().nullable(),
       reviewedAt: z.coerce.date().nullable(),
       reviewDueAt: z.coerce.date().nullable(),
-      sourceUrls: z.array(z.url()),
+      sourceUrls: z.array(z.url()).default([]),
       redirectsFrom: z.array(z.url()).default([])
     }),
     ai: z.object({
-      answerableQuestions: z.array(z.string()),
-      excludedQuestions: z.array(z.string()),
-      sensitivity: z.enum(['public', 'authenticated', 'restricted']),
-      chunking: z.literal('by-section')
+      answerableQuestions: z.array(z.string()).default([]),
+      excludedQuestions: z.array(z.string()).default([]),
+      sensitivity: z.enum(['public', 'authenticated', 'restricted']).default('public'),
+      chunking: z.literal('by-section').default('by-section')
     }),
+    // Solo lo tienen los artículos migrados del manual antiguo; los creados
+    // desde el CMS (/admin) no lo llevan.
     migration: z.object({
       sourceCount: z.number().int().positive(),
       originUrls: z.array(z.url()).min(1),
       redirectFrom: z.array(z.url()).min(1),
       contentHash: z.string().length(64),
       migratedAt: z.coerce.date()
-    }),
+    }).nullish(),
     readingTime: z.number().positive(),
     featured: z.boolean().default(false)
   })

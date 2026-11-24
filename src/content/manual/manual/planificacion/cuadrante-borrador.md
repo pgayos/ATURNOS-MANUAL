@@ -61,17 +61,11 @@ migration:
   migratedAt: 2026-08-18
 order: 1
 ---
-import Callout from '../../../../components/manual/Callout.astro';
-import Steps from '../../../../components/manual/Steps.astro';
-import Step from '../../../../components/manual/Step.astro';
-
 ## Resumen
 
 El cuadrante borrador permite preparar cambios en la planificación sin modificar inmediatamente el cuadrante que utiliza el equipo. Puedes copiar la planificación existente, realizar cambios y aplicarlos cuando hayan sido revisados.
 
-<Callout type="warning" title="Antes de aplicar el borrador">
-  Comprueba el periodo seleccionado y revisa qué trabajadores y turnos se verán afectados. La operación definitiva debe validarse funcionalmente antes de publicar este artículo.
-</Callout>
+> **Antes de aplicar el borrador:** comprueba el periodo seleccionado y revisa qué trabajadores y turnos se verán afectados. La operación definitiva debe validarse funcionalmente antes de publicar este artículo.
 
 ## Cuándo utilizar esta función
 
@@ -86,20 +80,10 @@ Utilízala para preparar una planificación, probar cambios sin alterar el cuadr
 
 ## Procedimiento
 
-<Steps>
-  <Step title="Abrir el cuadrante borrador">
-    Accede a **Planificación**, abre el menú del cuadrante y selecciona **Cuadrante borrador**. Comprueba las fechas antes de continuar.
-  </Step>
-  <Step title="Copiar la planificación actual">
-    Selecciona la opción para importar el cuadrante principal, indica el periodo y confirma. Verifica que aparecen los turnos esperados.
-  </Step>
-  <Step title="Modificar y revisar el borrador">
-    Añade o modifica los turnos necesarios. Revisa trabajadores, jornadas, descansos, cobertura y avisos antes de aplicar los cambios.
-  </Step>
-  <Step title="Aplicar el cuadrante borrador">
-    Revisa el resumen, confirma la operación y abre el cuadrante principal para comprobar el resultado.
-  </Step>
-</Steps>
+1. **Abrir el cuadrante borrador.** Accede a **Planificación**, abre el menú del cuadrante y selecciona **Cuadrante borrador**. Comprueba las fechas antes de continuar.
+2. **Copiar la planificación actual.** Selecciona la opción para importar el cuadrante principal, indica el periodo y confirma. Verifica que aparecen los turnos esperados.
+3. **Modificar y revisar el borrador.** Añade o modifica los turnos necesarios. Revisa trabajadores, jornadas, descansos, cobertura y avisos antes de aplicar los cambios.
+4. **Aplicar el cuadrante borrador.** Revisa el resumen, confirma la operación y abre el cuadrante principal para comprobar el resultado.
 
 ## Resultado esperado
 
