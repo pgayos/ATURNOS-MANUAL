@@ -21,6 +21,9 @@ const manual = defineCollection({
     entities: z.array(z.object({ id: z.string(), label: z.string() })).default([]),
     synonyms: z.array(z.string()).default([]),
     relatedTerms: z.array(z.string()).default([]),
+    // Artículos relacionados elegidos a mano (por `contentId`). Se muestran
+    // primero en «Sigue leyendo»; el cálculo automático completa el resto.
+    related: z.array(z.string()).default([]),
     video: z.string().optional(), // URL (YouTube) o ruta local (/media/manual/…)
     prerequisites: z.array(z.string()).default([]),
     platforms: z.array(z.enum(['web', 'app'])),

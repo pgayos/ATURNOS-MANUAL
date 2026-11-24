@@ -27,6 +27,15 @@
       card.hidden = !canSee(profile, card.dataset.profiles);
     });
 
+    // Tarjeta «Sigue leyendo»: oculta los bloques (y la tarjeta) que se
+    // quedan sin enlaces visibles para el rol.
+    document.querySelectorAll("[data-related-card]").forEach((card) => {
+      card.querySelectorAll(".related-group").forEach((group) => {
+        group.hidden = !group.querySelector("[data-profile-card]:not([hidden])");
+      });
+      card.hidden = !card.querySelector("[data-profile-card]:not([hidden])");
+    });
+
     document
       .querySelectorAll("[data-module-profile-counts]")
       .forEach((card) => {

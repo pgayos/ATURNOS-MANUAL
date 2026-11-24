@@ -39,6 +39,11 @@ const OUTPUT = path.join(ROOT, 'public/admin/config.yml');
 // solo lo lee el panel, no forma parte del sitio.
 const STRUCTURE_DIR = 'cms/estructura';
 const STRUCTURE_COLLECTION = 'estructura';
+// Un .yml por artículo publicado (contentId, título, ubicación): es la fuente
+// del selector «Artículos relacionados». Igual que la estructura, solo lo lee
+// el panel.
+const ARTICLES_DIR = 'cms/articulos';
+const ARTICLES_COLLECTION = 'articulos';
 // Los artículos nuevos se añaden al final de su submódulo/tema.
 const NEW_ARTICLE_ORDER = 99;
 
@@ -228,6 +233,18 @@ function buildFields(section, info) {
     glossary
       ? { name: 'relatedTerms', label: 'Términos relacionados', widget: 'list', required: false }
       : hidden('relatedTerms', []),
+    {
+      name: 'related',
+      label: 'Artículos relacionados',
+      widget: 'relation',
+      required: false,
+      multiple: true,
+      collection: ARTICLES_COLLECTION,
+      value_field: 'contentId',
+      display_fields: ['title', 'location'],
+      search_fields: ['title', 'location'],
+      hint: 'Opcional. Se muestran primero en «Sigue leyendo», en este orden; el resto lo completa el manual automáticamente.',
+    },
     glossary ? hidden('prerequisites', []) : { name: 'prerequisites', label: 'Requisitos previos', widget: 'list', required: false },
     // La plataforma la decide la sección ("nunca se mezclan" web y app).
     hidden('platforms', [section.platform]),
@@ -451,6 +468,48 @@ const structureCollection = {
   ],
 };
 
+// Índice de todos los artículos (cualquier carpeta, también .mdx) para el
+// selector «Artículos relacionados», ordenado por ubicación y título.
+const listContent = (dir) =>
+  fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) return listContent(full);
+    return /\.mdx?$/.test(entry.name) ? [full] : [];
+  });
+const articleRows = listContent(CONTENT)
+  .map((file) => YAML.parse(fs.readFileSync(file, 'utf8').split(/^---$/m)[1]))
+  .filter((d) => d?.contentId && d.governance?.status !== 'deprecated' && !IGNORED_OPTIONS.has(d.submodule))
+  .map((d) => ({
+    contentId: d.contentId,
+    title: d.title,
+    location: [d.module, d.submodule, d.subtopic].filter(Boolean).join(' › '),
+  }))
+  .sort((a, b) => byName(a.location, b.location) || byName(a.title, b.title));
+fs.rmSync(path.join(ROOT, ARTICLES_DIR), { recursive: true, force: true });
+fs.mkdirSync(path.join(ROOT, ARTICLES_DIR), { recursive: true });
+for (const row of articleRows) {
+  fs.writeFileSync(path.join(ROOT, ARTICLES_DIR, `${slugify(row.contentId)}.yml`), YAML.stringify(row));
+}
+const articlesCollection = {
+  name: ARTICLES_COLLECTION,
+  label: 'Índice de artículos',
+  description: 'Solo lectura: alimenta el selector «Artículos relacionados». Se genera con "npm run generate:cms".',
+  folder: ARTICLES_DIR,
+  extension: 'yml',
+  format: 'yaml',
+  hide: true,
+  create: false,
+  delete: false,
+  readonly: true,
+  identifier_field: 'title',
+  summary: '{{title}} · {{location}}',
+  fields: [
+    { name: 'contentId', label: 'Id', widget: 'string' },
+    { name: 'title', label: 'Título', widget: 'string' },
+    { name: 'location', label: 'Ubicación', widget: 'string' },
+  ],
+};
+
 const config = {
   backend: {
     name: 'github',
@@ -463,7 +522,7 @@ const config = {
   public_folder: '/media/manual',
   slug: { encoding: 'ascii', clean_accents: true },
   output: { yaml: { indent_sequences: true, quote: 'none' } },
-  collections: [...contentCollections, { divider: true }, structureCollection],
+  collections: [...contentCollections, { divider: true }, structureCollection, articlesCollection],
   // Sección propia para subir, ver y reutilizar capturas, vídeos y archivos.
   asset_collections: [
     {
@@ -489,7 +548,9 @@ const header = `# GENERADO por scripts/generate_cms_config.mjs — no editar a m
 
 fs.writeFileSync(OUTPUT, header + YAML.stringify(config, { lineWidth: 0, aliasDuplicateObjects: false }));
 const collections = contentCollections.filter((c) => !c.divider);
-console.log(`${path.relative(ROOT, OUTPUT)}: ${collections.length} secciones, ${structureRows.length} temas en ${STRUCTURE_DIR}/`);
+console.log(
+  `${path.relative(ROOT, OUTPUT)}: ${collections.length} secciones, ${structureRows.length} temas en ${STRUCTURE_DIR}/, ${articleRows.length} artículos en ${ARTICLES_DIR}/`,
+);
 for (const c of collections) {
   const module = c.fields.find((f) => f.name === 'module').default;
   const sub = c.fields.find((f) => f.name === 'submodule').options.length;

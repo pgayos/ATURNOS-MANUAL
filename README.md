@@ -58,6 +58,11 @@ Las compilaciones de ramas distintas de `main` reciben `noindex, nofollow`. El b
 - `public/admin/index.html` carga Sveltia CMS desde unpkg con versión fija.
 - `public/admin/config.yml` se genera con `npm run generate:cms` a partir del contenido y de `GUIDE_MODULES` (`src/lib/guideNav.ts`); no se edita a mano. Vuelve a generarlo cuando cambien módulos, submódulos o temas.
 - `cms/estructura/` contiene los temas de cada submódulo que usa el desplegable «Tema». También se genera.
+- `cms/articulos/` es el índice de artículos que usa el selector «Artículos relacionados». También se genera: un artículo nuevo no aparece en el selector hasta volver a ejecutar `npm run generate:cms`.
+
+### Tarjeta «Sigue leyendo»
+
+El panel derecho de cada artículo muestra el siguiente artículo del índice y hasta 3 relacionados (`src/lib/related.ts`). Los elegidos a mano en `related` (lista de `contentId`) van primero y en su orden; el cálculo automático completa los huecos sin repetir artículo ni título. Un `contentId` inexistente u obsoleto se ignora con un aviso en el build.
 
 ### Seguridad (CSP)
 

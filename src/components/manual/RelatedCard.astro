@@ -1,0 +1,50 @@
+---
+// Tarjeta «Sigue leyendo» del panel derecho del artículo: siguiente artículo
+// del índice + artículos relacionados (en el glosario: «Aparece en»). Cada
+// enlace lleva data-profile-card/data-profiles para que el selector de rol
+// oculte lo que no aplica; si no queda nada visible, se oculta la tarjeta.
+import type { RelatedContent } from "../../lib/related";
+
+interface Props {
+  content: RelatedContent;
+}
+
+const { next, heading, related } = Astro.props.content;
+---
+
+{
+  (next || related.length > 0) && (
+    <nav class="mini-card related-card" aria-label="Sigue leyendo" data-related-card>
+      <h3>Sigue leyendo</h3>
+      {next && (
+        <a
+          class="related-next"
+          href={next.href}
+          data-profile-card
+          data-profiles={next.profiles}
+        >
+          <span class="related-next-label">Siguiente</span>
+          <span class="related-next-title">{next.title}</span>
+          <span class="related-next-arrow" aria-hidden="true">
+            →
+          </span>
+        </a>
+      )}
+      {related.length > 0 && (
+        <div class="related-group">
+          <strong class="related-heading">{heading}</strong>
+          <ul class="related-list">
+            {related.map((r) => (
+              <li data-profile-card data-profiles={r.profiles}>
+                <a href={r.href}>
+                  <span class="related-title">{r.title}</span>
+                  <span class="related-context">{r.context}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </nav>
+  )
+}
