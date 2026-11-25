@@ -1,0 +1,50 @@
+---
+// Paginador «Anterior / Siguiente» al final del artículo, en el orden del
+// índice lateral del módulo. Cada enlace lleva data-profile-card para que el
+// selector de rol lo oculte si el artículo no aplica al rol elegido.
+// Atajos de teclado ← / → en articleEnhancements.js (initPagerShortcuts); las
+// flechas del rótulo se ven como teclas para que el atajo se descubra solo.
+import type { RelatedLink } from "../../lib/related";
+
+interface Props {
+  prev: RelatedLink | null;
+  next: RelatedLink | null;
+}
+
+const { prev, next } = Astro.props;
+---
+
+{
+  (prev || next) && (
+    <nav class="article-pager" aria-label="Artículos anterior y siguiente" data-pagefind-ignore>
+      {prev && (
+        <a
+          class="article-pager-link is-prev"
+          href={prev.href}
+          rel="prev"
+          aria-keyshortcuts="ArrowLeft"
+          title="Atajo: tecla ←"
+          data-profile-card
+          data-profiles={prev.profiles}
+        >
+          <span class="article-pager-label"><kbd class="article-pager-kbd" aria-hidden="true">←</kbd> Anterior</span>
+          <span class="article-pager-title">{prev.title}</span>
+        </a>
+      )}
+      {next && (
+        <a
+          class="article-pager-link is-next"
+          href={next.href}
+          rel="next"
+          aria-keyshortcuts="ArrowRight"
+          title="Atajo: tecla →"
+          data-profile-card
+          data-profiles={next.profiles}
+        >
+          <span class="article-pager-label">Siguiente <kbd class="article-pager-kbd" aria-hidden="true">→</kbd></span>
+          <span class="article-pager-title">{next.title}</span>
+        </a>
+      )}
+    </nav>
+  )
+}

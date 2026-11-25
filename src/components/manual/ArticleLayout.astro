@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Video from "./Video.astro";
 import RelatedCard from "./RelatedCard.astro";
+import ArticlePager from "./ArticlePager.astro";
 import { getRelatedContent } from "../../lib/related";
 import { getCollection } from "astro:content";
 import { slugify } from "../../lib/slug";
@@ -115,6 +116,7 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
       </>
     )}
   </div>
+  <div class="reading-progress" data-reading-progress hidden aria-hidden="true"></div>
   <main class="container article-shell">
     <article data-pagefind-body>
       <header class="article-header">
@@ -162,6 +164,7 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
       <p class="profile-unavailable" data-profile-unavailable hidden>
         Lo sentimos, el contenido no está disponible para tu rol seleccionado.
       </p>
+      <ArticlePager prev={relatedContent.prev} next={relatedContent.next} />
       <!-- <div class="feedback">
         <strong>¿Te ha resultado útil este artículo?</strong><div>
           <button type="button">Sí</button>
@@ -218,4 +221,15 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
       </div> -->
     </aside>
   </main>
+  <dialog class="image-zoom" data-image-zoom aria-label="Imagen ampliada">
+    <figure>
+      <img alt="" />
+      <figcaption></figcaption>
+    </figure>
+    <button type="button" class="image-zoom-close" aria-label="Cerrar">×</button>
+  </dialog>
+  <script>
+    import { initArticleEnhancements } from "../../lib/articleEnhancements.js";
+    initArticleEnhancements();
+  </script>
 </BaseLayout>

@@ -15,6 +15,7 @@ export interface RelatedLink {
 
 /** Resultado del cálculo automático, antes de mezclarlo con `related`. */
 interface AutoRelated {
+  prev: RelatedLink | null;
   next: RelatedLink | null;
   heading: string;
   related: Article[];
@@ -22,6 +23,8 @@ interface AutoRelated {
 }
 
 export interface RelatedContent {
+  /** Artículo anterior en el orden del índice del módulo. */
+  prev: RelatedLink | null;
   /** Siguiente artículo en el orden del índice del módulo. */
   next: RelatedLink | null;
   /** Título del bloque de enlaces («Relacionados», «Aparece en»…). */
@@ -53,7 +56,8 @@ const toLink = (a: Article): RelatedLink => ({
  * artículo ni título, ni el que ya aparece como «Siguiente».
  *
  * Documentación:
- * - `next`: el artículo que viene después en el índice lateral del módulo.
+ * - `prev`/`next`: los artículos de antes y después en el índice lateral del
+ *   módulo (paginador al final del artículo y «Siguiente» de la tarjeta).
  * - Relacionados: puntuación por cercanía en la estructura (mismo tema >
  *   mismo submódulo > mismo módulo) más las `entities` compartidas, ponderadas
  *   por rareza (IDF) para que entidades genéricas como «horas» pesen poco.
@@ -74,7 +78,7 @@ export function getRelatedContent(entry: Article, all: Article[]): RelatedConten
   const filled = uniqueByTitle([...manual, ...auto.related], Math.max(auto.max, picked.length), exclude);
   // Si lo automático no aporta nada (respaldo «Más en…»/«Otros términos»), el
   // título genérico deja de tener sentido: todo es «Relacionados».
-  return { next: auto.next, heading: auto.heading === 'Aparece en' ? auto.heading : 'Relacionados', related: filled };
+  return { prev: auto.prev, next: auto.next, heading: auto.heading === 'Aparece en' ? auto.heading : 'Relacionados', related: filled };
 }
 
 const warned = new Set<string>();
@@ -121,12 +125,12 @@ function glossaryRelated(entry: Article, all: Article[]): AutoRelated {
     .filter((x) => x.score > 0)
     .sort((x, y) => y.score - x.score || x.a.data.title.length - y.a.data.title.length)
     .map((x) => x.a);
-  if (usedIn.length > 0) return { next: null, heading: 'Aparece en', related: usedIn, max: MAX_GLOSSARY };
+  if (usedIn.length > 0) return { prev: null, next: null, heading: 'Aparece en', related: usedIn, max: MAX_GLOSSARY };
 
   const siblings = all
     .filter((a) => isGlossary(a) && a.id !== entry.id && a.data.submodule === entry.data.submodule)
     .sort((x, y) => x.data.title.localeCompare(y.data.title, 'es'));
-  return { next: null, heading: 'Otros términos', related: siblings, max: MAX_GLOSSARY };
+  return { prev: null, next: null, heading: 'Otros términos', related: siblings, max: MAX_GLOSSARY };
 }
 
 function articleRelated(entry: Article, all: Article[]): AutoRelated {
@@ -138,6 +142,8 @@ function articleRelated(entry: Article, all: Article[]): AutoRelated {
   const index = order.indexOf(currentId);
   const nextEntry = index >= 0 ? byRouteId.get(order[index + 1] ?? '') : undefined;
   const next = nextEntry ? toLink(nextEntry) : null;
+  const prevEntry = index > 0 ? byRouteId.get(order[index - 1]) : undefined;
+  const prev = prevEntry ? toLink(prevEntry) : null;
 
   const candidates = all.filter((a) => isListable(a) && routeIdOf(a.id) !== currentId);
 
@@ -169,13 +175,13 @@ function articleRelated(entry: Article, all: Article[]): AutoRelated {
         x.a.data.title.localeCompare(y.a.data.title, 'es'),
     )
     .map((x) => x.a);
-  if (scored.length > 0) return { next, heading: 'Relacionados', related: scored, max: MAX_RELATED };
+  if (scored.length > 0) return { prev, next, heading: 'Relacionados', related: scored, max: MAX_RELATED };
 
   const moduleStart = order
     .filter((id) => id !== currentId && `/manual/${id}/` !== next?.href)
     .map((id) => byRouteId.get(id))
     .filter((a): a is Article => Boolean(a));
-  return { next, heading: `Más en ${d.module}`, related: moduleStart, max: MAX_RELATED };
+  return { prev, next, heading: `Más en ${d.module}`, related: moduleStart, max: MAX_RELATED };
 }
 
 /** Ids de artículo en el mismo orden en que aparecen en el índice lateral. */
