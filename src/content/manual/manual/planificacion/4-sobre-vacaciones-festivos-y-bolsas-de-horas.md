@@ -114,6 +114,8 @@ Por ejemplo, si la restricción tiene informado como valor “1”, el trabajado
 
 Esta restricción limita el número máximo de festivos especiales planificados al año. Para ello se debe configurar los festivos como “Especiales”.
 
+![4. Sobre vacaciones, festivos y bolsas de horas](/media/manual/4-sobre-vacaciones-festivos-y-bolsas-de-horas-e7c192b5a2.webp)
+
 ⚙️ Configuración: Esta restricción, además de la configuración básica tiene tres campos adicionales.
 
 - Valor de la restricción: Indica el número máximo de festivos especiales que se pueden planificar. Tener en cuenta turnos de cero horas: Indica si considerar o no los turnos de cero horas. Tipo de año: Indica si aplica al año natural o fiscal.
@@ -127,6 +129,8 @@ Esta restricción limita el número de absentismos permitidos en función de los
 ⚙️Configuración: Esta restricción, además de la configuración básica, tiene dos campos adicionales.
 
 - Tipo de absentismo. Indica qué tipo de absentismo está condicionado a los festivos no trabajados. Fecha límite de disfrute. Define hasta qué fecha del año siguiente el trabajador puede disfrutar del absentismo relacionado con los festivos no trabajados del año anterior.
+
+  ![4. Sobre vacaciones, festivos y bolsas de horas](/media/manual/4-sobre-vacaciones-festivos-y-bolsas-de-horas-76edab72e9.webp)
 
 Esta restricción limita el número de horas de un tipo de absentismo, comprobando que no excedan las horas planificadas de uno o varios tipos de turno dentro de un periodo específico. Se utiliza para compensar las horas trabajadas en determinados turnos. Por ejemplo, en festivos con horas de absentismo posteriores. Así, si un trabajador ha realizado un turno de 8 horas en una fecha determinada, podrá disfrutar de hasta 8 horas de absentismo vinculado, en otro momento, siempre que no supere el total acumulado.
 
@@ -143,11 +147,3 @@ Esta restricción limita el número de horas de un tipo de absentismo, de forma 
 Esta restricción impide que se puedan solicitar o insertar absentismos en días que se tengan aprobadas unas vacaciones.
 
 ⚙️Configuración: Esta restricción tiene una configuración básica.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4. Sobre vacaciones, festivos y bolsas de horas](/media/manual/4-sobre-vacaciones-festivos-y-bolsas-de-horas-e7c192b5a2.webp)
-
-![4. Sobre vacaciones, festivos y bolsas de horas](/media/manual/4-sobre-vacaciones-festivos-y-bolsas-de-horas-76edab72e9.webp)

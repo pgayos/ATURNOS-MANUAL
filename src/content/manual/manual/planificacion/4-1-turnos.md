@@ -56,6 +56,8 @@ Información sobre turnos en aTurnos, con instrucciones y contexto revisables po
 ## Qué debes saber
 En este informe estadístico nos informará del número de tipos de turno que tenemos planificados en nuestro cuadrante en un periodo de tiempo. Cada tipo de turno estará ubicado en una columna, indicando la cantidad de veces que se realiza ese turno en concreto.
 
+![4.1 Turnos](/media/manual/4-1-turnos-251f7ca374.png)
+
 En el resto de columnas se mostrarán:
 
 – Horas: contabiliza el número de horas añadidas (normales, extras y complementarias.
@@ -68,18 +70,12 @@ En el resto de columnas se mostrarán:
 
 – Total: suma el número de total de todos los tipos de turnos en jornadas normales y en festivos, productivos y no productivos.
 
+![4.1 Turnos](/media/manual/4-1-turnos-8ddfad7e24.png)
+
 Estas estadísticas las podemos ver más resumidas por Totales.
-
-También tienes la opción de visualizarlas través de un Gráfico.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.1 Turnos](/media/manual/4-1-turnos-251f7ca374.png)
-
-![4.1 Turnos](/media/manual/4-1-turnos-81f96b5796.png)
 
 ![4.1 Turnos](/media/manual/4-1-turnos-7695ff4fdd.png)
 
-![4.1 Turnos](/media/manual/4-1-turnos-8ddfad7e24.png)
+También tienes la opción de visualizarlas través de un Gráfico.
+
+![4.1 Turnos](/media/manual/4-1-turnos-81f96b5796.png)

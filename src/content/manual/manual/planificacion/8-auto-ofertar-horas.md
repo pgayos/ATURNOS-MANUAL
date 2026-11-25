@@ -66,12 +66,8 @@ Y por otro lado, estos cambios se realizan sobre las planificaciones ya comparti
 
 La herramienta de auto ofertar horas se encarga de buscar los gaps de cobertura, es decir, donde falta personal para publicarlo como oferta y que los trabajadores se apunten para poder cubrir esa necesidad mediante este turno abierto. En este ejemplo muestra dos tramos de horas que se van a publicar como oferta de horas.
 
-Además, antes de publicar la oferta de horas, te permite indicar para que tipo de horas quieres realizar la oferta. Puede ser que la quieras publicar como normales dentro de su jornada o de forma extraordinaria.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![8. Auto ofertar horas](/media/manual/8-auto-ofertar-horas-d52841d9c1.png)
+
+Además, antes de publicar la oferta de horas, te permite indicar para que tipo de horas quieres realizar la oferta. Puede ser que la quieras publicar como normales dentro de su jornada o de forma extraordinaria.
 
 ![8. Auto ofertar horas](/media/manual/8-auto-ofertar-horas-c26078d738.png)

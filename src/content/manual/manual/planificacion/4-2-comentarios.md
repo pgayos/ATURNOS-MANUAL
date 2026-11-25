@@ -54,25 +54,21 @@ order: 1
 
 Los administradores y trabajadores pueden realizar comentarios en el cuadrante.
 
+![4.2 Comentarios](/media/manual/4-2-comentarios-8f3c573a8e.webp)
+
 ## Qué debes saber
 Los comentarios se pueden visualizar también desde la opción del menú de operativa del turno de ‘Comentarios’.
 
+![4.2 Comentarios](/media/manual/4-2-comentarios-fa08ecff96.webp)
+
 Este registro ofrece un listado con todos los comentarios, a excepción de aquellos configurados “Solo visible para mi” por los usuarios, tan solo el propio usuario que tiene configurado un comentario con esta opción, puede verlo en el registro.
 
+![4.2 Comentarios](/media/manual/4-2-comentarios-180b9c779a.webp)
+
 Desde esta página también se pueden añadir nuevos comentarios.
+
+![4.2 Comentarios](/media/manual/4-2-comentarios-c2bb06250f.webp)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.2 Comentarios](/media/manual/4-2-comentarios-fa08ecff96.webp)
-
-![4.2 Comentarios](/media/manual/4-2-comentarios-8f3c573a8e.webp)
-
-![4.2 Comentarios](/media/manual/4-2-comentarios-c2bb06250f.webp)
-
-![4.2 Comentarios](/media/manual/4-2-comentarios-180b9c779a.webp)

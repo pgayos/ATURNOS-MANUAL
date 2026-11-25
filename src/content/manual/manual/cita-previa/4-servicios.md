@@ -58,6 +58,8 @@ Al seleccionar el icono de añadir, se mostrarán las opciones (en el recuadro d
 ## Procedimiento
 Las experiencias o Especialidades deben crearse previamente para poder añadir la cola. Ver más detalle en ¿Cómo indicar qué servicio puede atender cada trabajador?
 
+![4. Servicios](/media/manual/4-servicios-9d4ad36db9.webp)
+
 Una vez creados los servicios, aparecerán listados en una tabla con los siguientes conceptos:
 
 Experiencia: se muestra el servicio que se ofrecerá al cliente y que realizará el trabajador el trabajador que tenga asignada esa especialidad.
@@ -73,6 +75,8 @@ Acción: muestra dos opciones:
 
 Opciones básicas
 
+![4. Servicios](/media/manual/4-servicios-76134a7302.webp)
+
 1. La abreviatura: consiste en el identificativo de la reserva que irá junto al número, por ejemplo, “Reparación de pantallas” puede tener la siguiente abreviatura “RP” para distinguirla de otros servicios (por ejemplo, “Instalación de programas” con abreviatura “IP”).
 2. Minutos/tarea. Esta opción te permite indicar cuánto dura cada servicio. Es decir, si para la “Reparación de pantallas” se necesitan 10 minutos, si un cliente hace una reserva a las 10:00, la siguiente reserva se podrá realizar a las 10:10 (10 minutos más tarde).
 3. Minutos tras los cuales no se puede recuperar una tarea cancelada. Es decir, si cancelas una tarea, transcurridos 60 minutos (según lo indicado en el campo), no podrás recuperarla.
@@ -84,6 +88,8 @@ Opciones básicas
 Para guardar, haz clic en Guardar cambios.
 
 Opciones avanzadas
+
+![4. Servicios](/media/manual/4-servicios-595dddfbca.webp)
 
 1. Privada: para determinar si la tarea solo se podrá asignar desde la tienda o por el contrario se podrá asignar desde cualquier lugar online.
 2. Número máximo de ticket: indicará hasta qué número se emitirán los tickets para luego iniciar nuevamente el conteo. Es decir, si mi número máximo de tickets es de 200 al llegar a este último iniciará nuevamente la rueda desde el Nro. 01.
@@ -99,9 +105,3 @@ Para guardar, haz clic en Guardar cambios.
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![4. Servicios](/media/manual/4-servicios-c52f9d52f3.webp)
-
-![4. Servicios](/media/manual/4-servicios-9d4ad36db9.webp)
-
-![4. Servicios](/media/manual/4-servicios-76134a7302.webp)
-
-![4. Servicios](/media/manual/4-servicios-595dddfbca.webp)

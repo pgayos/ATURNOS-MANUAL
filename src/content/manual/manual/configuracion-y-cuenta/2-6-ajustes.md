@@ -53,6 +53,8 @@ order: 1
 
 En este listado recuperas todos los ajustes de horas y vacaciones informados en cada trabajador de los equipos seleccionados.
 
+![2.6 Ajustes](/media/manual/2-6-ajustes-aa466491f7.webp)
+
 ## Procedimiento
 Los ajustes se informan, habitualmente para saldar las horas y vacaciones de los trabajadores, hay distintos tipos de ajuste:
 
@@ -60,6 +62,8 @@ Los ajustes se informan, habitualmente para saldar las horas y vacaciones de los
 - Migración de saldos de horas y vacaciones.
 
 Al igual que en otros registros, lo primero que se necesita es cargar la información de los ajustes que se hayan realizado en los trabajadores de los equipos que se hayan seleccionado. Seleccionados los equipos, hay que hacer clic en ‘Cargar’.
+
+![2.6 Ajustes](/media/manual/2-6-ajustes-8f4412840a.webp)
 
 Una vez se ha cargado la información del registro, se muestran todos los ajustes de horas y/o vacaciones que se han realizado en cada trabajador con la siguiente información:
 
@@ -70,20 +74,12 @@ Una vez se ha cargado la información del registro, se muestran todos los ajuste
 - Valor, cantidad de horas o días de vacaciones que se han ajustado.
 - Fecha en la cual afecta el ajuste.
 
+  ![2.6 Ajustes](/media/manual/2-6-ajustes-834ad569fa.webp)
+
 Como en todos los reportes, mediante la acción de ocultar, se pueden quitar aquellos campos que no se desea visualizar.
 
-Se puede copiar o exportar el listado en CSV, Excel o PDF.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.6 Ajustes](/media/manual/2-6-ajustes-aa466491f7.webp)
-
-![2.6 Ajustes](/media/manual/2-6-ajustes-8f4412840a.webp)
-
-![2.6 Ajustes](/media/manual/2-6-ajustes-834ad569fa.webp)
-
 ![2.6 Ajustes](/media/manual/2-6-ajustes-bd573b4995.webp)
+
+Se puede copiar o exportar el listado en CSV, Excel o PDF.
 
 ![2.6 Ajustes](/media/manual/2-6-ajustes-77df967872.webp)

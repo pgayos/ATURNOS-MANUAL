@@ -55,33 +55,29 @@ order: 1
 
 Los responsables de los equipos de trabajo por necesidades planificación o debido a la realización de horas que sobrepasan la jornada habitual pueden ‘Añadir horas ‘ en el cuadrante de los trabajadores.
 
+![3. Añadir horas](/media/manual/3-anadir-horas-d76ebf6c3b.webp)
+
 ## Procedimiento
 Se insertan y planifican horas a un trabajador o varios. El tipo de hora se elige dentro del formulario, normal, extra o complementaria, así como asignarle una localización.
 
 Por defecto, las horas están “Fuera de bolsa de trabajo” se puede seleccionar para su realización a cualquier trabajador disponible en el día elegido.
 
+![3. Añadir horas](/media/manual/3-anadir-horas-5ec8e3a6f4.webp)
+
 El administrador tiene la posibilidad de gestionar las horas mediante las bolsas de trabajo creadas. De esta forma se añaden horas a los trabajadores que formen parte de cada bolsa de trabajo.
+
+![3. Añadir horas](/media/manual/3-anadir-horas-ac83bcfa8c.webp)
 
 Al seleccionarla y hacer clic a “Asignar trabajadores” nos aparece la opción de poder asignar las horas a los trabajadores disponibles de la bolsa.
 
+![3. Añadir horas](/media/manual/3-anadir-horas-0547e39d29.webp)
+
 Se mostrarán los datos de planificación de los trabajadores disponibles de la bolsa y las horas disponibles.
+
+![3. Añadir horas](/media/manual/3-anadir-horas-326dbed473.webp)
 
 El administrador pulsando sobre los trabajadores disponibles, les añadirá las horas.
 
 Las horas de bolsa, se encontrarán planificadas en el cuadrante, destacado con un borde de color rojo y un signo +, a los trabajadores seleccionados.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Añadir horas](/media/manual/3-anadir-horas-5ec8e3a6f4.webp)
-
-![3. Añadir horas](/media/manual/3-anadir-horas-d76ebf6c3b.webp)
-
-![3. Añadir horas](/media/manual/3-anadir-horas-ac83bcfa8c.webp)
-
 ![3. Añadir horas](/media/manual/3-anadir-horas-277c5a12c9.webp)
-
-![3. Añadir horas](/media/manual/3-anadir-horas-0547e39d29.webp)
-
-![3. Añadir horas](/media/manual/3-anadir-horas-326dbed473.webp)

@@ -57,6 +57,8 @@ order: 1
 
 En aTurnos hay una nueva sección denominada Favoritos que tiene como objetivo facilitar la imputación de las tareas más frecuentes realizadas por el trabajador.
 
+![3. Apartado de favoritos](/media/manual/3-favoritos-333807c103.webp)
+
 ## Procedimiento
 Para poder seleccionar y determinar las tareas que forman parte de la funcionalidad Favoritos, se debe acceder al Catálogo de tareas. El acceso a este catálogo se puede realizar mediante dos vías:
 
@@ -65,16 +67,10 @@ Para poder seleccionar y determinar las tareas que forman parte de la funcionali
 
 Una vez que se accede al Catálogo de tareas, se podrán visualizar todas las tareas correspondientes a cada uno de los empleados.
 
-Una vez añadidas las tareas correspondientes en el apartado de Favoritos, se pueden ver en forma de lista en la sección de Favoritos del botón “Añadir tareas” que se encuentra en la página de inicio.
-
-En resumen, el funcionamiento de imputar sobre tareas en Favoritos es el mismo que sobre las tareas listadas.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Apartado de favoritos](/media/manual/3-favoritos-333807c103.webp)
-
 ![3. Apartado de favoritos](/media/manual/3-favoritos-2fa0ed3b1c.webp)
 
+Una vez añadidas las tareas correspondientes en el apartado de Favoritos, se pueden ver en forma de lista en la sección de Favoritos del botón “Añadir tareas” que se encuentra en la página de inicio.
+
 ![3. Apartado de favoritos](/media/manual/3-favoritos-354e81db02.webp)
+
+En resumen, el funcionamiento de imputar sobre tareas en Favoritos es el mismo que sobre las tareas listadas.

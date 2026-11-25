@@ -93,12 +93,8 @@ Si SÍ se van a establecer INTERVALOS, la configuración es algo más avanzada:
 
 Ejemplo de configuración:
 
+![10. Sobre el módulo de Control Horario](/media/manual/10-sobre-el-modulo-de-control-horario-96d0d19700.webp)
+
 Con esta configuración estaríamos indicando que si el trabajador ha trabajado entre 5 y 7 horas, tiene derecho de disfrutar 30 minutos de descanso, en caso de no cumplir con este mínimo de horas, únicamente podría tomarse 10 minutos de descanso.
 
 El resto de Intervalos es la misma configuración, indicando otros dos rangos de horas trabajadas según las necesidades. Por ejemplo, podríamos indicar que entre 1 y 3 horas puede descansar 10 minutos y si no se llega al mínimo, 5.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![10. Sobre el módulo de Control Horario](/media/manual/10-sobre-el-modulo-de-control-horario-96d0d19700.webp)

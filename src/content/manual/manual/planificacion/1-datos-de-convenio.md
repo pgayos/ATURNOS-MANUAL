@@ -58,6 +58,8 @@ order: 1
 
 A través de los Datos de Convenio vas a poder configurar el convenio colectivo de aplicación, de forma que en el momento del alta del trabajador se cargarán por defecto en cada uno de ellos. Datos como:.
 
+![Datos de convenio](/media/manual/datos-de-convenio-3c06864c4e.webp)
+
 - Horas año por defecto: número de horas de trabajo anuales en el convenio de aplicación.
 - Inicio Nocturnidad: Indica la hora de inicio del periodo de nocturnidad. Tanto las estadísticas de nocturnidad, como los conceptos de nómina se calcularán con este dato de inicio.
 - Fin nocturnidad: Indica la hora fin del periodo de nocturnidad. Tanto las estadísticas de nocturnidad, como los conceptos de nómina con este dato de fin.
@@ -76,6 +78,8 @@ A través de los Datos de Convenio vas a poder configurar el convenio colectivo 
 
 La definición de estos valores determinan el número de horas a trabajar al mes, atendiendo a:
 
+![Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-625dbd6998.webp)
+
 - El modo de cálculo, es decir, si el cálculo se realiza por los días del mes (los naturales) o los días en nómina (30 días en todo caso)
 - Descontar festivos en el cálculo de contrato. Valor que utilizamos para estimar las horas contrato (Ver glosario). Ej. “Días en nómina”: hará la estimación en base a 360 días/año, y “Días del mes”: en base a 365/366 días según el año.
 - Computar las horas en el día de inicio, es decir, si las horas de los turnos nocturnos de final de mes computan en el mes que terminan o por tramos. Por ejemplo, turno de noche de 22:00 a 08:00 el día 31/12, si se selecciona que computa al SI computa al inicio, las 10 horas computarán en el año en que termina, en caso contrario, 2 horas computaran en el año que terminan y 8 en el que comienza.
@@ -89,11 +93,3 @@ La definición de estos valores determinan el número de horas a trabajar al mes
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Datos de convenio](/media/manual/datos-de-convenio-3c06864c4e.webp)
-
-![Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-625dbd6998.webp)

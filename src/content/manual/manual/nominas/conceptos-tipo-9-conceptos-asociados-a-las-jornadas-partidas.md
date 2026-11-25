@@ -68,26 +68,22 @@ En aTurnos, las jornadas partidas se configuran con dos turnos, es decir, una jo
 
 En este equipo de ejemplo existe dos jornadas partidas creadas
 
+![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-3533f20e5c.png)
+
 En el caso de uso, solo una de las jornadas partidas va a generar un concepto de nómina, como el Ticket Restaurante, cuando el trabajador tenga planificada la Jornada partida con la descripción “Partida-1”
 
 1.- A través de NOMINAS → CONCEPTOS DE CALCULO, se selecciona la jornada partida
 
+![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-d0199bf52f.png)
+
 2.- A través de NOMINAS → CONCEPTOS EN NOMINA, seleccionar el concepto
-
-3.- En el ejemplo el trabajador tiene dos jornadas partidas. Solo la jornada partida del día 8 está definida como concepto de nómina (Ticket Restaurante)
-
-4.- A través de ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA, se visualiza el resultado
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-3533f20e5c.png)
 
 ![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-9bcb5923a3.png)
 
-![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-d0199bf52f.png)
-
-![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-1664c1ee49.png)
+3.- En el ejemplo el trabajador tiene dos jornadas partidas. Solo la jornada partida del día 8 está definida como concepto de nómina (Ticket Restaurante)
 
 ![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-774fb8a021.png)
+
+4.- A través de ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA, se visualiza el resultado
+
+![Conceptos tipo 9: Conceptos asociados a las jornadas partidas](/media/manual/conceptos-tipo-9-conceptos-asociados-a-las-jornadas-partidas-1664c1ee49.png)

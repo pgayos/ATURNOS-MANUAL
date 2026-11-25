@@ -62,11 +62,17 @@ La exportación a nómina genera un fichero csv que recupera los valores calcula
 ## Procedimiento
 1.- Selecciona los equipos que quieres exportar, si seleccionar las dos flechas se traspasan todos.
 
+![6.4 Exportar nóminas](/media/manual/6-4-exportar-nominas-e67517dc3f.png)
+
 2.- Filtros para la exportación.
 
 - Fecha de inicio Fecha de fin Plantilla de nómina, por defecto la que esté configurada en la Plantilla de nómina (Ver en el Manual), pudiendo seleccionar (abriendo el campo) para cada ejecución si los conceptos se va a exportar por filas o por columnas. Tipo de consulta: Consulta: Recupera el valor de los conceptos de nómina sin tener en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, informados en el perfil del trabajador. Simulación: Recupera el valor de los conceptos de nómina teniendo en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, sin modificar la fecha del último día exportado en el perfil del trabajador. Descarga: Recupera el valor de los conceptos de nómina teniendo en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, modificando la fecha del último día exportado en el perfil del trabajador con la fecha de fin informada. Tipo de descarga: Ver en el Manual (Configuración de nómina) Tipo de descarga: Estadística por periodo: Descarga la suma de cada uno de los conceptos de nómina calculados en el período seleccionado. Estadística diaria sin totalizar. Descarga cada uno de los conceptos de nómina calculados diariamente en el período seleccionado. Si tenemos operaciones o comparadores en nuestra nómina, utilizará los datos diarios de todo el período y nos dará una cantidad para cada día de cada uno de los trabajadores. Estadística diaria totalizada. Descarga la suma de cada uno de los conceptos de nómina calculados diariamente en el período seleccionado. Si tenemos operaciones o comparadores en nuestra nómina, utilizará los datos diarios de todo el período y nos dará una cantidad total, que será la suma de la cantidad diaria para cada uno de los trabajadores.
 
+  ![6.4 Exportar nóminas](/media/manual/6-4-exportar-nominas-8f03d4350a.png)
+
 3.- Haz clic en siguiente para Exportar.
+
+![6.4 Exportar nóminas](/media/manual/6-4-exportar-nominas-9c6c183565.png)
 
 4.- Descarga el fichero, genera un fichero Excel con extensión csv.
 
@@ -89,22 +95,16 @@ Los días son:
 - Día 14/04/2024 tiene un turno de 1 horas, debe recuperar valor el concepto 3K00
 - Día 16/04/2024 tiene un turno de 2 horas, debe recuperar valor el concepto 3K00
 
+  ![6.4 Exportar nóminas](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
 En el caso del export de nómina y/o la estadística por periodo, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el período, es decir, suma las horas nocturnas 9 + 10 + 10 + 1 +1 + 2, hace un total de 33 horas, al superar las 10 horas nocturnas, el concepto que abona es el 3000
 
 En el caso de la estadística diaria, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el día, es decir, comprueba si las 9 horas nocturnas del día 9 son menores a 10, como es menor, devuelve valor el concepto 3K00, pasa al día 10 y comprueba si las horas nocturnas son mayores o iguales que 10, de forma que devuelve valor ell concepto 3000.
+
+![6.4 Exportar nóminas](/media/manual/5-1-exportar-nominas-a4c008e18f.png)
 
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![6.4 Exportar nóminas](/media/manual/5-1-exportar-nominas-9666500d33.png)
-
 ![6.4 Exportar nóminas](/media/manual/5-1-exportar-nominas-77e367a650.png)
-
-![6.4 Exportar nóminas](/media/manual/5-1-exportar-nominas-a4c008e18f.png)
-
-![6.4 Exportar nóminas](/media/manual/6-4-exportar-nominas-8f03d4350a.png)
-
-![6.4 Exportar nóminas](/media/manual/6-4-exportar-nominas-e67517dc3f.png)
-
-![6.4 Exportar nóminas](/media/manual/6-4-exportar-nominas-9c6c183565.png)

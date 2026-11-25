@@ -70,9 +70,15 @@ Si está dado de alta en varios equipos, al iniciar sesión deberá seleccionar 
 
 ¡Importante! La visualización de equipos está limitada a 40. Si no encuentras el equipo que estás buscando, utiliza el campo de búsqueda.
 
+![1.4 Mis equipos](/media/manual/1-4-mis-equipos-fedb4f1ec9.png)
+
 Una vez que ya se encuentra dentro de uno de los equipos, se puede navegar entre los equipos en los que se encuentra dado de alta.
 
+![1.4 Mis equipos](/media/manual/1-4-mis-equipos-f55cf16f76.png)
+
 Para ello, tiene que hacer clic sobre el nombre del equipo donde se encuentra logueado y seleccionar el equipo desde el despegable que le aparece en el menú. Si en lugar de seleccionar un equipo determinado, selecciona “Mis equipos” vuelve a la pantalla inicial donde aparecen todos los equipos a los que tiene acceso.
+
+![1.4 Mis equipos](/media/manual/1-4-mis-equipos-3aab509453.png)
 
 En esta pantalla de “Mis equipos” puede realizar las siguientes acciones:
 
@@ -84,13 +90,3 @@ Aquellos equipos que solo tengan usuarios no planificables no se mostrará en pa
 
 - Exportar datos del equipo en excel: en el archivo Excel se obtiene los datos relacionados al equipo (nombre del equipo, id aTurno, id externo, fecha cierre del cuadrante, número de usuarios planificables, nombre y mail de los administradores totales y el id del equipo padre).
 - Añadir un equipo: se puede crear un nuevo equipo, siendo administrador del equipo el usuario que se encuentra logueado al ejecutar esta acción.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.4 Mis equipos](/media/manual/1-4-mis-equipos-f55cf16f76.png)
-
-![1.4 Mis equipos](/media/manual/1-4-mis-equipos-fedb4f1ec9.png)
-
-![1.4 Mis equipos](/media/manual/1-4-mis-equipos-3aab509453.png)

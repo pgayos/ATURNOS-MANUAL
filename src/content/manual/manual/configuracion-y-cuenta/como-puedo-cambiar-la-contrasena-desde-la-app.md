@@ -61,14 +61,10 @@ Información sobre ¿Cómo puedo cambiar la contraseña desde la APP?, con instr
 ## Respuesta
 Haciendo clic al icono circular del inicio en la parte superior del menú, aparecerá toda la información acerca del perfil. En este caso, desde el apartado de “contraseña “, se desplegará la siguiente pantalla donde tendrás que indicar la contraseña actual y la nueva. Una vez hecho esto, se hará clic en “Cambiar contraseña” y el proceso se habrá completado.
 
-## PENDIENTE de validación
-
-El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
+![¿Cómo puedo cambiar la contraseña desde la APP?](/media/manual/como-puedo-cambiar-la-contrasena-desde-la-app-72285dd9a7.png)
 
 ![¿Cómo puedo cambiar la contraseña desde la APP?](/media/manual/como-puedo-cambiar-la-contrasena-desde-la-app-7afcca34cf.png)
 
-![¿Cómo puedo cambiar la contraseña desde la APP?](/media/manual/como-puedo-cambiar-la-contrasena-desde-la-app-72285dd9a7.png)
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

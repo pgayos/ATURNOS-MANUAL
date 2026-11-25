@@ -70,9 +70,15 @@ Este botón permite al administrador añadir nuevos fichajes de forma manual a u
 - Localización del fichaje si existe (ver Localizaciones ).
 - Tipo de fichaje si existen varios (ver Tipos de fichaje ).
 
+  ![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/anadir-marcajes-6ebb1cda06.png)
+
 Cuando se añade un fichaje, aparece reflejado con una línea roja en la línea del tiempo.
 
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/anadir-marcajes-e38ba774a7.png)
+
 Existen varias formas para insertar fichajes dependiendo de si lo que se desea insertar es un único fichaje (por ejemplo, para cerrar fichajes no cerrados como una entrada cuya salida no se ha fichado) o varios fichajes a la vez (por ejemplo, en el caso de una jornada partida, cuatro fichajes, dos de entrada (a las 9:00 y a las 15:00) y dos de salida (a las 14:00 y a las 18:00)).
+
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-9421c1e966.webp)
 
 Desde el botón de ‘Ajustar’, se despliegan dos opciones desde las cuales insertar fichajes:
 
@@ -87,28 +93,18 @@ Por ejemplo, si un trabajador ficha 15 minutos más tarde de su hora de inicio, 
 
 Todas las líneas rojas que hay en la línea del tiempo de un día o aquellos fichajes cerrados que forman un periodo naranja entre el fichaje de entrada y el de salida, pueden ser modificables de forma manual.
 
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/insertar-o-modificar-marcajes-fe79415dd9.png)
+
 Para modificar un fichaje, hay que hacer clic sobre el fichaje o el periodo naranja de un fichaje cerrado
+
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-22fe4ecb01.webp)
 
 Todos los fichajes modificados o insertados por el administrador se guardarán como fichajes manuales. Para poder cerrar fichajes debes acceder a Control de Presencia → Detalle o Detalle por trabajador
 
 Cerrar fichajes implica añadir una salida a una entrada, o viceversa. Los fichajes cerrados (entrada y salida) suman una cantidad de tiempo, si solo existe la entrada o la salida, el sistema no puede calcular el tiempo total trabajado en un día porque el fichaje está incompleto.
 
+![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-46c34063e2.webp)
+
 Estos casos se pueden cerrar manualmente desde la función de ‘Insertar fichajes’.
 
 Si los trabajadores se olvidan de fichar la entrada o la salida, pueden realizar una petición de fichaje, la cual según la configuración del control de presencia (ver Ajustes de configuración ) puede necesitar la validación de un administrador (ver Peticiones de fichajes ).
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/anadir-marcajes-6ebb1cda06.png)
-
-![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/anadir-marcajes-e38ba774a7.png)
-
-![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/insertar-o-modificar-marcajes-fe79415dd9.png)
-
-![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-9421c1e966.webp)
-
-![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-22fe4ecb01.webp)
-
-![1.4 Añadir, insertar, modificar y cerrar fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-46c34063e2.webp)

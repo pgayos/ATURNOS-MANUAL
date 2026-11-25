@@ -60,6 +60,8 @@ order: 1
 
 Esta barra de herramientas se mantendrá fija mientras navegas por las distintas pestañas de aTurnos. Las funciones que la componen son las siguientes:.
 
+![1.2 Barra superior de pantalla](/media/manual/1-2-barra-superior-de-pantalla-1a86d0edbd.png)
+
 1. Ocultar/Mostrar: puedes ocultar o mostrar el Menú Principal que se encuentra a la izquierda de la pantalla. Esto te ayudará a visualizar más contenido si tu pantalla es pequeña. Recomendamos utilizar esta función sobre todo en el cuadrante, para visualizar más turnos y eventos.
 2. Marcaje de presencia: este ítem aparece en aquellos equipos que tienen activado el Módulo de Control de Presencia. Presionando este botón el usuario registrará el inicio y fin de la jornada de trabajo.
 3. Contacto: ofrece una vía de comunicación directa con el área de soporte aTurnos, desde donde plantear tus dudas, sugerencias o comentarios con respecto a la plataforma. Una vez hayas creado un asunto por el cual tienes una duda, se asignará un ticket de seguimiento de la incidencia, a través del cual podrás saber su estado y la respuesta al mismo. Para ver cómo llevar a cabo el seguimiento de tus tickets, haz clic en el siguiente enlace: Gestión de incidencias por tickets.
@@ -72,6 +74,8 @@ Se hace especial mención de este punto debido a la importancia que tiene para l
 
 El usuario con rol de Trabajador tienen acceso a crear un ticket para reportar incidencias o realizar alguna consulta sobre el sistema, desde el icono del sobre que se encuentra en la barra superior de la pantalla.
 
+![Contacto](/media/manual/contacto-ba3bad1d47.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
@@ -79,10 +83,6 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.2 Barra superior de pantalla](/media/manual/1-2-barra-superior-de-pantalla-1a86d0edbd.png)
-
-![Contacto](/media/manual/contacto-ba3bad1d47.webp)
 
 ![Contacto](/media/manual/contacto-f86d06c000.webp)
 

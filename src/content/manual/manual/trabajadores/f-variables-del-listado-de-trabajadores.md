@@ -64,6 +64,8 @@ El listado de trabajadores se muestra a modo de tabla, por defecto (Ver Vista Ta
 
 El nombre de estas variables, va acompañado de un tooltip informativo, donde se describe el concepto propio de la variable.
 
+![f. Variables del listado de trabajadores](/media/manual/f-variables-del-listado-de-trabajadores-4c2bf4cf1a.png)
+
 La definición de cada variable que hace referencia en cada trabajador es la siguiente:
 
 - Nombre: Es el nombre (y en su caso, apellidos) de cada trabajador que está incluido dentro de tu equipo. Recuerda que es el nombre que tiene dentro de aTurnos, no se le puede identificar de otra manera.
@@ -78,9 +80,3 @@ La definición de cada variable que hace referencia en cada trabajador es la sig
 
 1. Editar: es el acceso a visualizar toda la información detallada del trabajador (Veáse ver y editar perfil del trabajador ). Para acceder, tienes que hacer clic en el icono “editar”
 2. Baja: mediante este botón, se procede a eliminar al trabajador de la lista de trabajadores activos, pasando a formar parte de la lista de trabajadores inactivos. (Ver cómo dar de baja a un trabajador ). Para realizar esto, tienes que hacer clic en el icono “baja”
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![f. Variables del listado de trabajadores](/media/manual/f-variables-del-listado-de-trabajadores-4c2bf4cf1a.png)

@@ -70,6 +70,8 @@ Crea un archivo de Excel en formato CSV o completa la plantilla de ejemplo para 
 - Email
 - Minutos de saldo: saldo de minutos acumulado
 
+  ![22. Importar acumulado año anterior (Timecard)](/media/manual/22-importar-acumulado-ano-anterior-timecard-6d5aee1a60.png)
+
 Plantilla ejemplo, para descargarla, haz clic en el enlace: CSV Importar acumulado año anterior
 
 Una vez se ha creado o completado el archivo, guardar tu documento como formato tipo CSV.
@@ -77,11 +79,5 @@ Una vez se ha creado o completado el archivo, guardar tu documento como formato 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
 
 A continuación, se hace la importación del fichero a aTurnos y se asociará los conceptos de las columnas del fichero con los campos existentes en aTurnos.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![22. Importar acumulado año anterior (Timecard)](/media/manual/22-importar-acumulado-ano-anterior-timecard-6d5aee1a60.png)
 
 ![22. Importar acumulado año anterior (Timecard)](/media/manual/22-importar-acumulado-ano-anterior-timecard-283b74956e.png)

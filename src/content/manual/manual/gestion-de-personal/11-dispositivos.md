@@ -55,12 +55,20 @@ order: 1
 
 En este listado se muestran los dispositivos registrados en el WallApp por Compañía.
 
+![11. Dispositivos](/media/manual/11-dispositivos-1de1c9e76c.webp)
+
 ## Procedimiento
 Se pueden cargar, seleccionando la Compañía.
 
+![11. Dispositivos](/media/manual/11-dispositivos-3c261529bc.webp)
+
 También se puede ‘Añadir dispositivo’ que no esté dentro de una Compañía.
 
+![11. Dispositivos](/media/manual/11-dispositivos-5ee340424b.webp)
+
 Con el objetivo de ayudar a la integración de dispositivos con aTurnos y otras aplicaciones, se pueden generar un token del dispositivo.
+
+![11. Dispositivos](/media/manual/11-dispositivos-f8f61ef76d.webp)
 
 Para visualizar el Token, el superusuario tendrá que indicar su contraseña.
 
@@ -68,28 +76,16 @@ Por último, existen tres acciones posibles:
 
 - Modificar dispositivo, editar la Compañía o el nombre que describe al dispositivo.
 
+  ![11. Dispositivos](/media/manual/11-dispositivos-3f4e9e8102.webp)
+
 También es posible sin necesidad de registrar los dispositivos en cada equipo, que teniendo los equipos dentro de una Compañía, con la opción ‘Incluir todos los equipos de la compañía para poder realizar marcajes’, que desde ese dispositivo se pueda fichar en cualquier equipo.
 
 - Personalización de tipos de fichajes, equipos y localización en dispositivos
 
 Esta opción dota de mayor flexibilidad al sistema de fichajes por WallApp, a través de los dispositivos, pudiendo configurar desde esta opción que dispositivos y con qué tipo de fichaje, en qué equipo y en qué localización, se quiere que puedan fichar los trabajadores.
 
-- Eliminar dispositivo
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![11. Dispositivos](/media/manual/11-dispositivos-1de1c9e76c.webp)
-
-![11. Dispositivos](/media/manual/11-dispositivos-3c261529bc.webp)
-
-![11. Dispositivos](/media/manual/11-dispositivos-f8f61ef76d.webp)
-
-![11. Dispositivos](/media/manual/11-dispositivos-5ee340424b.webp)
-
-![11. Dispositivos](/media/manual/11-dispositivos-3f4e9e8102.webp)
-
 ![11. Dispositivos](/media/manual/11-dispositivos-caa6aadf9d.webp)
 
 ![11. Dispositivos](/media/manual/11-dispositivos-085f5467f0.webp)
+
+- Eliminar dispositivo

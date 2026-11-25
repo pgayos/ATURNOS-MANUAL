@@ -69,14 +69,10 @@ También es posible crearla desde un archivo de Excel, teniendo que contener los
 - Descripción: nombre de la localización que se importará al equipo de aTurnos. Ejemplo: Planta 1.
 - Localización padre: informar en la celda de la columna, si la localización corresponde o depende de una localización superior (localización padre).
 
+  ![13. Crear localizaciones y localizaciones padres](/media/manual/13-crear-localizaciones-y-localizaciones-padres-96b9e1f647.png)
+
 Antes de iniciar la importación guarda tu documento como formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “Importar “.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![13. Crear localizaciones y localizaciones padres](/media/manual/13-crear-localizaciones-y-localizaciones-padres-96b9e1f647.png)
 
 ![13. Crear localizaciones y localizaciones padres](/media/manual/13-crear-localizaciones-y-localizaciones-padres-ba6243efed.png)

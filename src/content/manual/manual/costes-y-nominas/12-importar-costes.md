@@ -65,12 +65,8 @@ Para ello puedes completar la plantilla de ejemplo, la cual tienes disponible pa
 - Coste por nocturnidad (%)*: no se debe informar el porcentaje, solo el valor.
 - Coste Seguridad Social (%)*: no se debe informar el porcentaje, solo el valor.
 
+  ![12. Importar costes](/media/manual/12-importar-costes-0e4ce78c96.png)
+
 Los campos del fichero creado se deben asociar de la siguiente manera en aTurnos. Una vez asociados habrá que seguir los pasos indicados en b. Importar
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![12. Importar costes](/media/manual/12-importar-costes-0e4ce78c96.png)
 
 ![12. Importar costes](/media/manual/12-importar-costes-b93258e7bc.png)

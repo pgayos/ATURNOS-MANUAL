@@ -62,6 +62,8 @@ El ‘Estado de horas’ mide en cada día cuánto tiempo por exceso o defecto s
 ## Procedimiento
 Este saldo se va compensando en el ‘Acumulado anual’, pero al final del año sin los estados no han sido ajustados, este acumulado puede tener un balance de exceso de horas trabajadas por el trabajador (horas que le debe la empresa) o un balance por defecto de horas trabajadas (horas que debe el trabajador a la empresa), teniendo la opción de migrar este saldo al año siguiente para compensar ese exceso o defecto de horas.
 
+![Migrar saldos del Acumulado del Estado de Horas](/media/manual/migrar-saldos-del-acumulado-del-estado-de-horas-8d32fb5dcc.webp)
+
 Para realizar la migración se tiene que informar:
 
 - Equipos, seleccionando los equipos de trabajo en los que se quiere realizar la acción.
@@ -70,16 +72,10 @@ Para realizar la migración se tiene que informar:
 
 Completado el formulario, la siguiente acción es pulsar sobre ‘Ver migración’ para que se muestren los saldos del año origen.
 
+![Migrar saldos del Acumulado del Estado de Horas](/media/manual/acumulado-ano-anterior-fbc5e7a3b1.webp)
+
 Para completar el proceso, se tiene que seleccionar el trabajador y pulsar sobre ‘Migrar’.
 
 Y de esta forma, teniendo habilitada en la configuración, la variable ‘Acumulado año anterior’ (según los permisos de rol de usuario que se habiliten para poder verlo), mostrará el saldo migrado.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Migrar saldos del Acumulado del Estado de Horas](/media/manual/acumulado-ano-anterior-fbc5e7a3b1.webp)
-
 ![Migrar saldos del Acumulado del Estado de Horas](/media/manual/acumulado-ano-anterior-424b276e13.webp)
-
-![Migrar saldos del Acumulado del Estado de Horas](/media/manual/migrar-saldos-del-acumulado-del-estado-de-horas-8d32fb5dcc.webp)

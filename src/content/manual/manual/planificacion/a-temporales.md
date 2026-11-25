@@ -56,12 +56,8 @@ Aprende a temporales, con instrucciones y contexto revisables por el equipo de a
 ## Procedimiento
 Se muestran los absentismos que no ocupan todo el turno del trabajador, es decir, normalmente corresponde a ausencias por algunas horas dentro de su jornada habitual de trabajo. (Ver más en: Crear absentismos temporales ).
 
+![a. Temporales](/media/manual/a-temporales-1e47540b65.png)
+
 En el listado se identifica el nombre del trabajador, el día y la hora a la que se inicia el absentismo, las horas de duración de dicha ausencia y la descripción que se informó cuando se creó el “Absentismo temporal” al trabajador en el Cuadrante (ver más en: Absentismo temporal ).
 
 En la columna de acciones, puedes utilizar el icono de editar para modificar el tipo de absentismo informado o el icono de la papelera para borrar el registro de ese absentismo en concreto desapareciendo también en el Cuadrante.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![a. Temporales](/media/manual/a-temporales-1e47540b65.png)

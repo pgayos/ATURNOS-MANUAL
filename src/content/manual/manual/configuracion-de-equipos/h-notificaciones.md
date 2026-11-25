@@ -66,6 +66,8 @@ Para ello dividimos los procesos de aTurnos donde ha existido actividad notifica
 - COMENTARIOS EN EL CUADRANTE: Se notifican los comentarios realizados en el cuadrante.
 - DOCUMENTOS: Se notifica cuando hay un nuevo documento disponible para el trabajador.
 
+  ![h. Notificaciones](/media/manual/h-notificaciones-e8d7ed8e71.png)
+
 Las notificaciones se gradúan en 4 grupos, de forma que para cada uno de los procesos se pueda seleccionar el momento en el que aTurnos va a enviar la notificación.
 
 - Alta: Enviamos las notificaciones a los pocos minutos de la acción realizada. Tened cuidado con no saturar con correos constantes las bandejas de entrada de los usuarios.
@@ -78,9 +80,3 @@ A modo de ejemplo, si en el flujo de los cambios de turno están indicada que pu
 En el campo “Email envío cuadrante anual” se puede informar un correo para cuando desde el cuadrante anual se utiliza la función “Enviar cuadrante anual por mail” (Ver en el Manual. Cuadrante anual ) envíe una copia al correo aquí informado
 
 Ver más acerca de visualización de notificaciones de Cambios de turno y Peticiones
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![h. Notificaciones](/media/manual/h-notificaciones-e8d7ed8e71.png)

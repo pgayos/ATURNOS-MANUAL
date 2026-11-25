@@ -57,6 +57,8 @@ order: 1
 
 Con respecto a la nómina, dentro de la configuración del equipo en aTurnos se define.
 
+![4. Exportación a nóminas](/media/manual/4-exportacion-a-nominas-1f3e349373.png)
+
 ## Opciones y datos disponibles
 - Modo de validación para la exportación, hace referencia al estado del cuadrante. Las opciones permitidas elegir son: No se necesita validación: La exportación de nóminas se puede realizar siempre, no está sujeto a ningún control. El cuadrante debe estar cerrado: El cuadrante debe estar cerrado de forma que no se pueda modificar, añadir o borrar turnos y horas a la fecha de cierre de cuadrante. Si el cuadrante no está cerrado, no se exportaran los datos. Implica la acción de “cerrar el cuadrante” para todos los trabajadores a la vez (ver Cerrar cuadrante ) o se puede editar en el perfil para algún trabajador (ver Perfil del trabajador/Nóminas ). Cerrar el cuadrante a un trabajador es un proceso normal cuando se realizan finiquitos, es decir, para descargar solo los datos de este empleado. El resto de trabajadores tendrían un cierre de cuadrante en conjunto dentro de un proceso normal para sus nóminas del mes. El cuadrante debe estar cerrado y validado. El cuadrante tiene que estar primero cerrado y después validado, sino no se podrían exportar los conceptos de nómina. Es un proceso de doble validación, la validación la tiene que realizar un rol Superusuario dentro de las estadísticas de nóminas totalizadas (ver Totalizada por equipos ).
 
@@ -70,7 +72,5 @@ Con respecto a la nómina, dentro de la configuración del equipo en aTurnos se 
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4. Exportación a nóminas](/media/manual/4-exportacion-a-nominas-1f3e349373.png)
 
 ![4. Exportación a nóminas](/media/manual/4-exportacion-a-nominas-b6ab8e55d4.png)

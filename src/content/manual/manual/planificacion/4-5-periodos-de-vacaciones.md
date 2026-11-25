@@ -60,12 +60,8 @@ Este registro, en forma de tabla, informa por cada mes del año consultado, los 
 
 En el siguiente registro de periodos de vacaciones, nos informa que el trabajador Tristán tiene planificadas vacaciones desde el 5 hasta el 15 de febrero y desde el 8 hasta el 17 de julio, siendo su balance anual de 21 días de vacaciones planificados de los 3o días de vacaciones que tiene por contrato, y aún le quedan 9 días de vacaciones por planificar en el año 2024.
 
-Se puede seleccionar el año e incluso filtrar por nombre, email o ID Empleado del trabajador, así como por localizaciones.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![4.5 Periodos de vacaciones](/media/manual/4-5-periodos-de-vacaciones-8d8df1540e.png)
+
+Se puede seleccionar el año e incluso filtrar por nombre, email o ID Empleado del trabajador, así como por localizaciones.
 
 ![4.5 Periodos de vacaciones](/media/manual/4-5-periodos-de-vacaciones-2ead88a175.webp)

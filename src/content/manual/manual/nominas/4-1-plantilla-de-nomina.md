@@ -66,6 +66,8 @@ El campo “Tipo de descarga” solo aplica a la estadística diaria donde se pu
 
 A través de ADMINISTRAR → NOMINAS → PLANTILLAS DE NOMINA se accede a la parametrización
 
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-9551ee7edb.png)
+
 1.- Indicar el formato de fechas, las opciones disponibles son:
 
 - d/m/Y – (10/02/2015)
@@ -79,11 +81,17 @@ A través de ADMINISTRAR → NOMINAS → PLANTILLAS DE NOMINA se accede a la par
 
 - Conceptos en filas. El fichero no tiene cabeceras. Es el aconsejado cuando se ejecuta la estadística diaria. Ver en el Manual (Estadística diaria). Es el que se suele utilizar en la integración con el api. Ver en el Manual la integración (integración_api)
 
+  ![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-13d38f1867.png)
+
 - Conceptos en columnas. El fichero tiene cabeceras en las columnas. Es el que se suele utilizar a través de ADMINISTRAR → NÓMINAS → EXPORTAR NOMINAS. Ver en el Manual (Exportar nóminas)
+
+  ![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-6129b9b9a7.png)
 
 3.- Tipo de descarga en estadística diaria, aplica cuando se ejecuta desde ADMINISTRAR → NÓMINAS → ESTADISTICA DIARIA, las opciones disponibles son:
 
 - Estadística diaria sin totalizar. Devuelve una fila por empleado, concepto, cantidad y día. Es la que se suele utilizar en las integraciones con el software de gestión de nómina que recupera a través de un api los valores de los empleados. En este ejemplo, se visualiza la estadística diaria de un trabajador, por filas, por trabajador, concepto, día y cantidad.
+
+  ![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-55efa5d87c.png)
 
 - Estadística diaria totalizada. Devuelve una fila por empleado, concepto y cantidad con la suma de todos los días. En este ejemplo se visualiza el valor por filas, por trabajador, concepto y cantidad total entre las fechas de ejecución de la estadística.
 
@@ -124,30 +132,18 @@ Definición de los campos necesarios del fichero de importación de variables de
 
 También se pueden seleccionar los valores de los datos personalizados como campos en el formato de importación del fichero de variables incorporarlos (no suelen utilizarse ya que como en el ejemplo indicado en el concepto 2.2 el dato personalizado se utiliza como activador)
 
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-fd4fc13f16.png)
+
 Los Campos fijos suelen utilizarse para multiplicar o comparar, además también se pueden seleccionar los valores de los campos fijos (en este caso el valor sería el mismo para todos los trabajadores (no suelen utilizarse ya que como en el ejemplo indicado en los valores que se crean en los campos fijos suelen utilizarse con conceptos de comparación de los concepto 2.3).
 
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-bae42438ea.png)
+
 Para crear un Campo Fijo, marca Añadir
+
+![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-852b07c1a9.png)
 
 El separador en el caso de decimales es el punto, no la coma.
 
 Una vez creados los campos necesarios se seleccionan los campos necesarios con el (+), una vez incluidos todos los campos, recuerda que se debe guardar
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-bae42438ea.png)
-
-![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-852b07c1a9.png)
-
-![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-9551ee7edb.png)
-
-![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-fd4fc13f16.png)
-
-![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-13d38f1867.png)
-
 ![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-9a7e32b069.png)
-
-![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-6129b9b9a7.png)
-
-![4.1 Plantilla de nómina](/media/manual/4-1-plantilla-de-nomina-55efa5d87c.png)

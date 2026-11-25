@@ -67,6 +67,8 @@ desde el widget de peticiones
 
 desde la opción del menú “Peticiones y Cambios”, haciendo clic en el botón de “Acciones” del que se desplegará “Nueva petición”.
 
+![¿Cómo realizar una petición desde aTurnos?](/media/manual/como-realizar-una-peticion-desde-aturnos-9c966e2381.png)
+
 En cualquiera de los lugares que se elija se deben informar los siguientes campos:
 
 ## Tipo de peticiones
@@ -126,6 +128,8 @@ El administrador para gestionar las peticiones pendientes puede hacerlo desde el
 
 En la barra situada en parte superior derecha, tendremos la opción de filtrar por un período de tiempo en concreto, las peticiones o cambios según la fecha establecida. Además, se puede filtrar por trabajador haciendo clic en el símbolo del embudo.
 
+![¿Cómo puedo filtrar las peticiones?](/media/manual/como-puedo-filtrar-las-peticiones-5c128a7157.png)
+
 ## Más detalles sobre peticiones en aTurnos:
 
 ¿Cómo realizar una petición de vacaciones y cómo gestionar la petición de vacaciones?
@@ -136,12 +140,4 @@ En la barra situada en parte superior derecha, tendremos la opción de filtrar p
 
 ¿Cómo deshacer una petición ya aprobada?
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo realizar una petición desde aTurnos?](/media/manual/como-realizar-una-peticion-desde-aturnos-9c966e2381.png)
-
 ![Más detalles sobre peticiones en aTurnos:](/media/manual/mas-detalles-sobre-peticiones-en-aturnos-9de923a2f8.png)
-
-![¿Cómo puedo filtrar las peticiones?](/media/manual/como-puedo-filtrar-las-peticiones-5c128a7157.png)

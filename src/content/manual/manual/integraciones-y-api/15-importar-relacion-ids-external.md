@@ -65,6 +65,8 @@ La plantilla del fichero debe contener las siguientes columnas:
 - Id. External Origen
 - Id. External Destino
 
+  ![15. Importar relación Ids External](/media/manual/15-importar-relacion-ids-external-a26f5d28d9.png)
+
 Finalmente, debe “Guardar” el documento con formato CSV.
 
 Para importar el archivo, debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
@@ -72,7 +74,5 @@ Para importar el archivo, debe seguir los pasos que indicamos en nuestro menú A
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![15. Importar relación Ids External](/media/manual/15-importar-relacion-ids-external-a26f5d28d9.png)
 
 ![15. Importar relación Ids External](/media/manual/15-importar-relacion-ids-external-ae92a09459.png)

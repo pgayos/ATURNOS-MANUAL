@@ -72,16 +72,12 @@ Te contamos los pasos, si lo que prefieres es crear un documento Excel propio co
 - Descripción, identificación con el que queremos conocer el festivo.
 - Localización, campo opcional, se informa con el nombre exacto de la localización en la que queremos añadir el festivo. Se asocia con el campo “Localización” en el proceso de importación.
 
+  ![14. Importar días festivos en los equipos](/media/manual/14-importar-dias-festivos-en-los-equipos-26d66f59fa.png)
+
 Guardar tu documento como formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “Importar “.
 
 Termina de configurar la importación, asociando los campos del documento con los campos de aTurnos.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![14. Importar días festivos en los equipos](/media/manual/14-importar-dias-festivos-en-los-equipos-26d66f59fa.png)
 
 ![14. Importar días festivos en los equipos](/media/manual/14-importar-dias-festivos-en-los-equipos-279d61c5c0.png)

@@ -63,6 +63,10 @@ El Cuadrante es la herramienta principal de un trabajador dentro de aTurnos. Si 
 
 Para empezar, podrás ver tu cuadrante y tus turnos planificados, así como las vacaciones (amarillo), cambios de turno (gris) o permisos (negro) de 2 maneras distintas:
 
+![3.1 Vista del cuadrante](/media/manual/3-1-vista-del-cuadrante-60082f947f.png)
+
+![3.1 Vista del cuadrante](/media/manual/3-1-vista-del-cuadrante-9c5f4a1ea0.png)
+
 - Cuadrícula
 
 - Listado
@@ -81,20 +85,28 @@ Si quieres realizar cualquier tipo de petición, ya sean vacaciones, permisos, t
 - Comentarios: las peticiones pueden llevar adjunto un comentario.
 - Adjuntar archivo: en el caso de que se requiera o necesite adjuntar un documento al realizar la petición.
 
+  ![3.2 Realizar petición](/media/manual/3-2-realizar-peticion-981f490812.png)
+
 ### 3.3 Añadir comentario
 
 Como opción nueva hemos agregado la de añadir comentarios en el día seleccionado, la cual podrá realizarse teniendo un turno planificado o bien sin tenerlo previamente.
+
+![3.3 Añadir comentario](/media/manual/3-3-anadir-comentario-fdb33b907e.png)
 
 A la hora de añadir un comentario hay dos opciones:
 
 - Que sea visible para mi únicamente (el trabajador que lo escribe)
 - Que sea visible para el trabajador y los administradores del equipo.
 
+  ![3.3 Añadir comentario](/media/manual/3-3-anadir-comentario-19982926f7.png)
+
 En los días que haya insertado un comentario de cualquier tipo, quedaría visible de la siguiente manera:
 
 ### 3.4 Realizar cambio de turno
 
 Además de las dos actividades anteriores, en el caso de que en el día que hagamos clic ya tengamos un turno planificado, se podrá realizar un cambio de turno con otro compañero. En este caso, se abrirá la siguiente pantalla:
+
+![3.4 Realizar cambio de turno](/media/manual/3-4-realizar-cambio-de-turno-b58e859009.png)
 
 De esta manera se podrán realizar cambios de 5 maneras diferentes:
 
@@ -107,19 +119,3 @@ De esta manera se podrán realizar cambios de 5 maneras diferentes:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3.2 Realizar petición](/media/manual/3-2-realizar-peticion-981f490812.png)
-
-![3.3 Añadir comentario](/media/manual/3-3-anadir-comentario-fdb33b907e.png)
-
-![3.3 Añadir comentario](/media/manual/3-3-anadir-comentario-19982926f7.png)
-
-![3.4 Realizar cambio de turno](/media/manual/3-4-realizar-cambio-de-turno-b58e859009.png)
-
-![3.1 Vista del cuadrante](/media/manual/3-1-vista-del-cuadrante-9c5f4a1ea0.png)
-
-![3.1 Vista del cuadrante](/media/manual/3-1-vista-del-cuadrante-60082f947f.png)

@@ -58,17 +58,13 @@ order: 1
 
 “Añadir turnos a todos” permite a los administradores insertar un mismo turno a todos los trabajadores en un mismo día. Para ello, se debe seleccionar un turno.
 
+![1. Añadir turnos a todos](/media/manual/1-anadir-turnos-a-todos-14ae898ee2.webp)
+
 ## Procedimiento
 En los casos donde se necesite planificar a un grupo de trabajadores, se puede utilizar el filtro de la barra superior del cuadrante para filtrarlos por nombre, localización, categoría o especialidad.
+
+![1. Añadir turnos a todos](/media/manual/1-anadir-turnos-a-todos-2e25b330f2.webp)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1. Añadir turnos a todos](/media/manual/1-anadir-turnos-a-todos-2e25b330f2.webp)
-
-![1. Añadir turnos a todos](/media/manual/1-anadir-turnos-a-todos-14ae898ee2.webp)

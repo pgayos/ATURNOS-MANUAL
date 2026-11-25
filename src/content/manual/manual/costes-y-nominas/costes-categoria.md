@@ -62,13 +62,19 @@ Este tipo de coste se recomienda para aquellas empresas que deben diferenciar el
 
 La configuración del coste por categoría se realiza desde el menú Trabajadores – Datos del Trabajador – Categorías, y editar la categoría (en el icono del lapicero de las Acciones), tal como te mostramos a continuación:
 
+![Costes/Categoría](/media/manual/costes-categoria-db6d8eb3b1.webp)
+
 Al entrar a la categoría para editarla se mostrarán los siguientes campos que deberás cumplimentar:
+
+![Costes/Categoría](/media/manual/costes-categoria-e3ff5559ec.webp)
 
 Nombre: Por defecto aparece el nombre de la categoría
 
 Añadir horas automáticamente al exceder un tiempo mínimo de trabajo continuo: permite configurar parámetros para que el sistema añada horas automáticamente tras exceder una cantidad de tiempo mínima de trabajo continuo a los usuarios con dicha categoría.
 
 Es importante resaltar que al seleccionar la opción “Si” esta configuración NO tiene efecto retroactivo en el cuadrante, es decir, solo aplicará a los turnos (planificación) que se asignan nuevos a partir de la configuración (si el trabajador tiene planificación ya registrado en el cuadrante del año antes de hacer la configuración no les añadirá las horas al exceder el tiempo mínimo de trabajado).
+
+![Costes/Categoría](/media/manual/costes-categoria-fdb07fcc15.png)
 
 - Tiempo mínimo continuado: cantidad mínima de horas de trabajo que servirá de referencia para imputar horas automáticamente de excesos. Es decir, si se informa en ese campo 7 horas y el trabajador realiza 8.
 - Tiempo a añadir: Cantidad de horas que se van a añadir automáticamente al superar el tiempo mínimo continuado.
@@ -84,13 +90,3 @@ Costos por defecto: valor que se asignará o imputará por cada hora de trabajo 
 5. Puedes relacionar el coste por hora de la categoría a un rango de tiempo, en este caso en el numeral 5, se indica la hora de inicio del coste informado.
 6. En esta casilla se indica la hora fin del coste a imputar.
 7. Finalmente debes hacer clic en el botón de Insertar para que se guarden las variables. Una vez guardada la información se ofrece la opción de Borrar esos datos de ser necesario (icono de la Papelera).
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Costes/Categoría](/media/manual/costes-categoria-db6d8eb3b1.webp)
-
-![Costes/Categoría](/media/manual/costes-categoria-e3ff5559ec.webp)
-
-![Costes/Categoría](/media/manual/costes-categoria-fdb07fcc15.png)

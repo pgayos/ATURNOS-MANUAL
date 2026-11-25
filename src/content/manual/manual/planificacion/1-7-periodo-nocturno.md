@@ -54,6 +54,8 @@ order: 1
 
 En ADMINISTRAR → AJUSTES → Exportación a nóminas se debe indicar a partir de que hora se inicia el periodo nocturno y la hora de fin.
 
+![1.7 Periodo nocturno](/media/manual/1-7-periodo-nocturno-81d2c7d593.png)
+
 ## Revisión requerida
 
 La fuente pública de **Periodo nocturno** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
@@ -61,9 +63,3 @@ La fuente pública de **Periodo nocturno** contiene muy poca información textua
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.7 Periodo nocturno](/media/manual/1-7-periodo-nocturno-81d2c7d593.png)

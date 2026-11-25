@@ -77,6 +77,8 @@ La parametrización en la aplicación debe ser la siguiente:
 
 Para hacerlo se debe acceder ADMINISTRAR → NOMINAS → PLANTILLA DE NOMINA → CAMPO FIJO → Añadir
 
+![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-a540c9d0b4.png)
+
 Importante: Los decimales en el campo valor se indican con un punto (no con una coma). Ejemplo Valor 0.142
 
 Una vez creado el campo fijo con el valor de comparación se crea:
@@ -89,6 +91,8 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Localización (del turno/horas planificadas): “Todas las localizaciones”.
 - Localización por defecto del trabajador: “Todas las localizaciones”.
 - Categoría: “Todas las categorías”.
+
+  ![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-090bc4085b.png)
 
 3.- El concepto de comparación que comprueba si las horas de nocturnidad en el día de inicio son mayores o iguales a 10 horas nocturnas, es el activador cuando las horas nocturnas son mayores o iguales a 10.
 
@@ -103,6 +107,8 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Valor Verdadero, en este caso valor 1, es decir, si las horas de nocturnidad en el día de inicio son mayores o iguales al valor indicado, devuelve un 1.
 - Valor Falso, en este caso valor 0, es decir, si las horas de nocturnidad en el día de inicio son menores o no iguales al valor indicado, devuelve un 0.
 
+  ![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-a457d0b1c7.png)
+
 4.- El concepto que comprueba si las horas de nocturnidad en el día de inicio son menores a 10 horas nocturnas, es el activador cuando las horas nocturnas son menores a 10.
 
 - Concepto: Indicando en este caso, el concepto “3K00 – las horas de nocturnidad en el día de inicio son menores a 10”. Es obligatorio informar este campo.
@@ -116,6 +122,8 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Valor Verdadero, en este caso valor 1, es decir, si las horas de nocturnidad en el día de inicio son menores al valor indicado, es decir al valor 10, devuelve un 1.
 - Valor Falso, en este caso valor 0, es decir, si las horas de nocturnidad en el día de inicio son mayores o no iguales al valor indicado, devuelve un 0.
 
+  ![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-9800e16f59.png)
+
 5.- Para el concepto 3000 (horas nocturnas mayores o iguales a 10), el concepto que opera entre conceptos multiplicará el concepto “3000 – 3K00 horas de nocturnidad en el día de inicio” x “3000 – las horas de nocturnidad en el día de inicio son mayores a 10”, es decir multiplica por el activador creado en el punto 3.
 
 - Concepto: Indicando en este caso, el concepto “3000”, que coincide con el código del software de nómina que realiza el cálculo. Es obligatorio informar este campo.
@@ -126,6 +134,8 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Operador: las opciones permitidas son: Sumar Restar Multiplicar, en este caso, es la operación seleccionada. Dividir
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “3000 – 3K00 horas nocturnidad en el día de inicio”, añadir como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el concepto 3000 – las horas de nocturnidad en el día de inicio son mayores a 10”, es decir el activador creado.
+
+  ![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-01feee3213.png)
 
 6.- Para el concepto 3K00 (horas nocturnas menores a 10), el concepto que opera entre conceptos multiplicará el concepto “3000 – 3K00 horas de nocturnidad en el día de inicio” x “3K00 – las horas de nocturnidad en el día de inicio son menores a 10””, es decir multiplica por el activador creado en el punto 4.
 
@@ -138,20 +148,6 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “3000 – 3K00 horas nocturnidad en el día de inicio”, añadir como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el concepto 3K00 – las horas de nocturnidad en el día de inicio son menores a 10”, es decir el activador creado.
 
+  ![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-cfdb94c83d.png)
+
 En el punto 8 de este Manual se ofrecen más ejemplos para una mayor facilidad en la parametrización
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-a540c9d0b4.png)
-
-![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-090bc4085b.png)
-
-![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-a457d0b1c7.png)
-
-![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-9800e16f59.png)
-
-![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-01feee3213.png)
-
-![2.3. Conceptos comparación](/media/manual/2-3-conceptos-comparacion-cfdb94c83d.png)

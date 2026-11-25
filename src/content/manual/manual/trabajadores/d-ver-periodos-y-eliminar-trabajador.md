@@ -64,7 +64,11 @@ Información sobre ver periodos y eliminar trabajador, con instrucciones y conte
 ## Qué debes saber
 En esta función tendremos la opción de visualizar todos los periodos de contratación de un trabajador en un mismo equipo o en diferentes equipos. Se muestran tanto los periodos pasados, como el actual y en caso de estar informados, los futuros.
 
+![d. Ver periodos y eliminar trabajador](/media/manual/d-ver-periodos-y-eliminar-trabajador-f24de64f78.png)
+
 Llamamos periodos a cada intervalo de tiempo que tenga una fecha de alta, la cual puede tener una fecha de baja (contrato temporal con fecha fin de contrato) o no tener una fecha fin (contrato indefinido).
+
+![d. Ver periodos y eliminar trabajador](/media/manual/d-ver-periodos-y-eliminar-trabajador-d50e018d05.png)
 
 La tabla de los periodos informa de los siguientes campos de interés:
 
@@ -93,12 +97,4 @@ A continuación te explicamos cómo hacerlo:
 2. Accede a los periodos del trabajador.
 3. Eliminar el periodo desde la acción borrar. Antes de ser borrado el periodo de contrato del trabajador en el equipo seleccionado, el sistema avisa de que se borrará la planificación del trabajador y no se podrá recuperar posteriormente.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![d. Ver periodos y eliminar trabajador](/media/manual/d-ver-periodos-y-eliminar-trabajador-f24de64f78.png)
-
-![d. Ver periodos y eliminar trabajador](/media/manual/d-ver-periodos-y-eliminar-trabajador-de8de834b2.png)
-
-![d. Ver periodos y eliminar trabajador](/media/manual/d-ver-periodos-y-eliminar-trabajador-d50e018d05.png)
+   ![d. Ver periodos y eliminar trabajador](/media/manual/d-ver-periodos-y-eliminar-trabajador-de8de834b2.png)

@@ -57,10 +57,14 @@ order: 1
 
 El administrador, como consecuencia de la planificación del cuadrante, puede ‘Buscar trabajador para turno’ para cubrir un turno con un trabajador más.
 
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-7cfa99a11b.webp)
+
 ## Qué debes saber
 Se inserta y planifica un turno a un trabajador o varios que estén disponibles (es decir, que no tengan un turno insertado con anterioridad) y que no incumpla ninguna restricción.
 
 Los administradores pueden buscar a un trabajador para cualquier turno con una localización determinada. El filtro también permite buscar trabajadores de una localización, una categoría o especialidad, en concreto.
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-e7f82fd46b.webp)
 
 Ejemplo 1: En muchos casos, un trabajador que tiene localización por defecto “Traumatología” y va a cubrir un día el turno de “Urgencias”, no se le va a modificar la localización al trabajador, en este caso solo se seleccionará (en el campo correspondiente) la localización al turno, de esta forma se indicará que ese día el turno lo hará en “Urgencias”. Y al revisar la tabla de cobertura se estará contando este trabajador dentro de la localización de “Urgencias”.
 
@@ -69,6 +73,8 @@ Ejemplo 2: Un trabajador que no puede trabajar en determinada localización, en 
 El administrador tiene varias opciones:
 
 Cuando se selecciona un turno del listado, aparece un menú contextual donde buscar qué trabajador puede hacer el turno que se quiere cubrir.
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-281cb263d9.webp)
 
 Automáticamente el sistema descarta a los trabajadores planificados dentro del mismo horario del turno que se quiere cubrir.
 
@@ -80,15 +86,23 @@ El sistema permite computar estos turnos en una Bolsas de trabajo.
 
 Los administradores podrán seleccionar a qué bolsa imputar esas horas del turno que se quiere cubrir.
 
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-83a5c08cf5.webp)
+
 Automáticamente, el sistema muestra los trabajadores de la bolsa con horas disponibles y que no están planificados en ese día.
 
 Los turnos que han sido asignados por bolsa, se encontrarán planificados en el Cuadrante, destacando el día con un borde de color rojo a los trabajadores que lo tengan asignados.
 
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-6c50bec212.webp)
+
 La tercera opción para buscar trabajador para un turno, es creando una oferta de turno.
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-1d80c990a9.webp)
 
 En la parte inferior del menú, después de todos los trabajadores disponibles, se muestra la opción “Crear oferta de turno”.
 
 Al hacer clic sobre esta opción, se nos muestra el siguiente modal, donde debemos informar:
+
+![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-704554b717.webp)
 
 - Visible solo para la localización: se puede elegir una o más localizaciones. Las ofertas de los turnos solo estarán visibles y disponibles para inscribirse a los trabajadores que tengan por defecto las localizaciones seleccionadas en este apartado.
 - Especialidad: indicando una especialidad, solo recibirán la oferta de turnos aquellos trabajadores que tenga dicha especialidad.
@@ -108,21 +122,3 @@ Es de gran utilidad para el administrador definir la Localización de un Turno, 
 Ejemplo 1: Un trabajador que tiene localización por defecto “Traumatología” tiene que cubrir un día el turno de “Urgencias”. Solo se seleccionará la localización al turno, indicando que ese día el turno lo hará en “Urgencias”. Y al revisar la tabla de cobertura se estará contando este trabajador dentro de la localización de “Urgencias”.
 
 Ejemplo 2: Un trabajador que no puede laborar en determinada localización, en este caso, “Consultas” (ver Restricción: No trabajar en determinada localización ). Si el administrador al buscar trabajador para un turno, selecciona en el campo Localización “Consultas” no aparecerá este trabajador disponible para el turno.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-7cfa99a11b.webp)
-
-![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-e7f82fd46b.webp)
-
-![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-281cb263d9.webp)
-
-![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-83a5c08cf5.webp)
-
-![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-6c50bec212.webp)
-
-![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-1d80c990a9.webp)
-
-![2. Buscar trabajador para un turno](/media/manual/2-buscar-trabajador-para-un-turno-704554b717.webp)

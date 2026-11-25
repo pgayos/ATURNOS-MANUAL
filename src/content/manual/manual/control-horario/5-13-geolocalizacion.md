@@ -60,6 +60,8 @@ Para ello hay que acceder a Administrar → Ajustes → Módulos y activar la si
 
 En este paso hay que acceder a Administrar → Localizaciones y en Acciones se pueden crear las localizaciones necesarias, o si ya están creadas se pueden editar accediendo al modo de edición de cada localización.
 
+![5.13 Geolocalización](/media/manual/5-13-geolocalizacion-199ddced50.webp)
+
 Para definir la localización primero hay que introducir la dirección y posteriormente el radio de distancia. Si la dirección es exacta, por ejemplo, una oficina, el radio será más reducido a si la localización es una ciudad completa y lo que interesa es controlar los diferentes puntos desde los cuales los trabajadores tienen que fichar.
 
 El penúltimo paso es la realización del fichaje por parte de cada empleado. Para ello, el empleado tiene que acceder a su sesión de aTurnos mediante la App o en la Web, y hacer clic en Iniciar Jornada. Para finalizar la jornada el proceso es el mismo, pero en vez de aparecer el botón de Iniciar aparecerá el de Finalizar.
@@ -67,6 +69,8 @@ El penúltimo paso es la realización del fichaje por parte de cada empleado. Pa
 El fichaje por geolocalización funciona en la web (https://www.aturnos.com/login-ad) con aquellos dispositivos con GPS. En el caso de no tener GPS, se recogerá la ubicación que nos dé el dispositivo con respecto a su conexión a internet. El navegador solicitará el permiso para acceder a dicha ubicación.
 
 Desde la APP de aTurnos solamente será necesario tener acceso a la ubicación del dispositivo, la APP solicitará el permiso para acceder a dicha ubicación.
+
+![5.13 Geolocalización](/media/manual/5-13-geolocalizacion-d392548cf2.png)
 
 Es posible que la ubicación GPS de un móvil se quede bloqueada en unas coordenadas incorrectas o lejanas a la ubicación real. Algunas razones por las que esto puede suceder incluyen:
 
@@ -90,11 +94,3 @@ Es posible que la ubicación GPS de un móvil se quede bloqueada en unas coorden
 5. Desactivar cualquier app de ubicación falsa si se ha usado alguna.
 
 Si después de todo esto el problema persiste, puede ser un fallo más profundo del sistema o hardware del dispositivo.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.13 Geolocalización](/media/manual/5-13-geolocalizacion-199ddced50.webp)
-
-![5.13 Geolocalización](/media/manual/5-13-geolocalizacion-d392548cf2.png)

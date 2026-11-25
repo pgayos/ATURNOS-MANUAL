@@ -60,9 +60,15 @@ Información sobre estado del acumulado del empleado, con instrucciones y contex
 ## Opciones y datos disponibles
 Es un reporte que ofrece las horas del estado acumuladas al comparar las horas planificadas y presenciales del trabajador. Teniendo en cuenta las horas planificadas computables, las horas planificadas no computables y el acumulado de horas (horas presenciales menos planificadas).
 
+![4.3 Estado del acumulado del empleado](/media/manual/4-3-estado-del-acumulado-del-empleado-719576ef35.webp)
+
 Desde la barra superior se pueden filtrar los datos entre dos fechas, así como buscar mediante el botón de filtro.
 
+![4.3 Estado del acumulado del empleado](/media/manual/4-3-estado-del-acumulado-del-empleado-da73a91e2f.webp)
+
 Para acotar la consulta, se puede filtrar buscando uno o más trabajadores, por una o varias localizaciones, así como por la especialidad y en el nivel de la misma del trabajador.
+
+![4.3 Estado del acumulado del empleado](/media/manual/4-3-estado-del-acumulado-del-empleado-e69eace276.webp)
 
 Los parámetros que se pueden consultar en este reporte son los siguientes:
 
@@ -77,13 +83,3 @@ Si el valor es positivo significa que el trabajador tiene más horas presenciale
 Si el valor es negativo significa que las horas presenciales son menores que las planificadas. Cuando se ajuste el acumulado será de 0, y se añaden horas de absentismo temporal en la planificación del cuadrante.
 
 - Horas computables planificadas más acumulado: total de horas computables planificadas más el acumulado.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.3 Estado del acumulado del empleado](/media/manual/4-3-estado-del-acumulado-del-empleado-da73a91e2f.webp)
-
-![4.3 Estado del acumulado del empleado](/media/manual/4-3-estado-del-acumulado-del-empleado-719576ef35.webp)
-
-![4.3 Estado del acumulado del empleado](/media/manual/4-3-estado-del-acumulado-del-empleado-e69eace276.webp)

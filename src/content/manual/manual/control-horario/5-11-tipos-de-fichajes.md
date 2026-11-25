@@ -60,11 +60,17 @@ Estos fichajes pueden ser de dos tipos:
 
 - Computables. Se representan con una barra naranja y computan el tiempo trabajado y presencial que se ficha.
 
+  ![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-ae1d5128b7.webp)
+
 - No computables. Se representan con una barra gris y no afectan al cómputo del tiempo trabajado o presencial.
+
+  ![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-1fa9015c7f.webp)
 
 Los trabajadores pueden seleccionar qué tipo de fichaje están realizando, por defecto en todos los equipos existe “Checkin/out” que computa las horas trabajadas y presenciales de la jornada.
 
 Se pueden crear tipos de fichajes desde el botón ‘Acciones’ y ‘Añadir tipo de fichaje’.
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-f80c1c8ebe.png)
 
 Al crear un nuevo tipo de fichaje se necesita informar:
 
@@ -76,7 +82,11 @@ Al crear un nuevo tipo de fichaje se necesita informar:
 - Disponibilidad, el tipo de fichaje puede estar disponible solo para App, ó Web y App
 - Orden, dependiendo del número informado, de menor a mayor, se ordenará el listado de los tipos de fichajes.
 
+  ![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-0d5bb020c2.png)
+
 Todos aquellos tipos de fichajes creados, pueden ser editados y eliminados, desde los botones de acciones del listado.
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-82ae22d7e2.png)
 
 Los fichajes no computables se pueden visualizar tanto en el Diario como en el Detalle. De forma estadística, estos fichajes se pueden consultar en el Listado de fichajes.
 
@@ -88,22 +98,8 @@ A continuación, os mostramos con imágenes un caso de uso: Eliminar el tipo de 
 
 Se hará clic en el icono de la papelera del tipo fichaje tipo 3, se abre un formulario donde se debe elegir el tipo de fichaje, en el que se quiere fusionar el tipo de fichaje 3, en nuestro ejemplo, seleccionamos el fichaje tipo 1. Cuando se fusione, al hacer clic en el botón “Migrar”, todos los fichajes que se registraron como tipo 3, pasarán a identificarse en tipo 1. A su vez, el fichaje tipo 3, dejará de estar disponible en el listado y, por tanto, los trabajadores no pueden fichar con el fichaje tipo 3.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-ae1d5128b7.webp)
-
-![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-0d5bb020c2.png)
-
-![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-f80c1c8ebe.png)
-
-![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-1fa9015c7f.webp)
-
-![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-82ae22d7e2.png)
-
 ![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-4f85446b79.png)
 
-![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-1cb1c889b0.png)
-
 ![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-4c8a985cd8.png)
+
+![5.11 Tipos de fichajes](/media/manual/5-11-tipos-de-fichajes-1cb1c889b0.png)

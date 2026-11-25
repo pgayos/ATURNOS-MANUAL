@@ -55,20 +55,16 @@ Aprende a borrar en aTurnos, con instrucciones y contexto revisables por el equi
 ## Procedimiento
 Con esta opción, se permite borrar un turno seleccionado dentro del día o todo lo que exista planificado en ese día. En el caso de que en un día haya planificado más de un turno, puedes borrar solo el turno seleccionado o todo lo que haya planificado ese día.
 
+![9. Borrar](/media/manual/9-borrar-359cb3b155.png)
+
 Los absentismos temporales se borran también en la misma opción.
 
+![9. Borrar](/media/manual/9-borrar-404e8922f9.png)
+
 Los absentismos totales se borran en la siguiente opción: quitar absentismo.
+
+![9. Borrar](/media/manual/9-borrar-17b28b218d.png)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![9. Borrar](/media/manual/9-borrar-359cb3b155.png)
-
-![9. Borrar](/media/manual/9-borrar-404e8922f9.png)
-
-![9. Borrar](/media/manual/9-borrar-17b28b218d.png)

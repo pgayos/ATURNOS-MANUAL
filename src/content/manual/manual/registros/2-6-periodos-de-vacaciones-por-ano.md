@@ -60,6 +60,8 @@ Aprende a periodos de vacaciones por año, con instrucciones y contexto revisabl
 ## Procedimiento
 En este menú tendremos acceso a los periodos de vacaciones de los trabajadores de los equipos que se carguen en el año que se indique. A modo de resumen se muestran por meses los días de vacaciones o periodos (en el caso de haber más de un día, desde el día de inicio y el día fin de vacaciones). También informa del saldo de vacaciones del trabajador en el equipo en el año consultado.
 
+![2.6 Periodos de vacaciones por año](/media/manual/2-6-periodos-de-vacaciones-por-ano-e43eee35c6.png)
+
 En la barra superior se puede seleccionar:
 
 - Año a consultar.
@@ -69,14 +71,8 @@ En la barra superior se puede seleccionar:
 
 Seleccionadas las variables para consultar los periodos, se necesita hacer clic en “Cargar”
 
+![2.6 Periodos de vacaciones por año](/media/manual/2-6-periodos-de-vacaciones-por-ano-402fb78eed.webp)
+
 Cargada la información, se mostrará un calendario anual con todos los meses por trabajador y su saldo de vacaciones (vacaciones restantes frente a las vacaciones por contrato o periodo contractual).
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![2.6 Periodos de vacaciones por año](/media/manual/2-6-periodos-de-vacaciones-por-ano-3972681d34.png)
-
-![2.6 Periodos de vacaciones por año](/media/manual/2-6-periodos-de-vacaciones-por-ano-e43eee35c6.png)
-
-![2.6 Periodos de vacaciones por año](/media/manual/2-6-periodos-de-vacaciones-por-ano-402fb78eed.webp)

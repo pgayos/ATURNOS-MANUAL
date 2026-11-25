@@ -64,6 +64,8 @@ En equipos con varias sedes o departamentos (lo que llamamos localizaciones ), e
 
 Ejemplo: Luigi es planificador en la localización Consultoría. José Miguel pertenece a IT, pero tiene un turno el 10/12/2021 en Consultoría. Gracias a esta configuración, Luigi podrá ver ese turno de José Miguel, aunque su localización principal (Localización por defecto) sea IT.
 
+![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-f99188056d.webp)
+
 ### ¿Qué pasa si un planificador se va de vacaciones?
 
 Cuando un responsable no está disponible, puedes delegar su localización a otro administrador, para que pueda gestionar los turnos de ese equipo.
@@ -74,19 +76,29 @@ Luigi (planificador en Consultoría) se va de vacaciones. Desde Recursos Humanos
 
 ### ¿Cómo se hace la delegación?
 
+![¿Cómo se hace la delegación?](/media/manual/como-se-hace-la-delegacion-b7efb5be22.webp)
+
 1. Ve a RR.HH. → Estructura → Delegación de administradores.
 2. Haz clic en el botón Delegar.
 3. En la ventana emergente, selecciona:
 
 - La localización que deseas delegar (por ejemplo, Consultoría). El administrador al que quieres delegarla (por ejemplo, José Miguel).
 
+  ![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-3cbcb23710.webp)
+
 4. Guarda los cambios.
 
 Una vez delegado, en la página se mostrará un nuevo listado con los administradores delegados.
 
+![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-6b61df54b4.webp)
+
 A partir de ese momento, José Miguel podrá ver y gestionar tanto su localización principal (IT) como la delegada (Consultoría).
 
+![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-b65eeccc1b.webp)
+
 Nota: Una localización se puede delegar a más de un administrador, si es necesario.
+
+![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-f6bd4e2b75.webp)
 
 ### ¿Y si el administrador original regresa?
 
@@ -99,19 +111,3 @@ Cuando Luigi vuelva de vacaciones, puede retomar el control, retirando la delega
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo se hace la delegación?](/media/manual/como-se-hace-la-delegacion-b7efb5be22.webp)
-
-![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-3cbcb23710.webp)
-
-![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-f99188056d.webp)
-
-![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-6b61df54b4.webp)
-
-![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-f6bd4e2b75.webp)
-
-![1.3 Delegación de administradores](/media/manual/1-3-delegacion-de-administradores-b65eeccc1b.webp)

@@ -54,11 +54,15 @@ order: 1
 
 Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas.
 
+![f. Absentismos](/media/manual/f-absentismos-259512c25e.png)
+
 Este informe ofrece las estadísticas de los Absentismos, en el que se contabilizan las ausencias y su comparación con los turnos planificados. Todos estos datos se pueden desglosar según el tipo de absentismo, además de diferenciarlo entre productivos y no productivos. Los Tipos de Absentismos se tienen que crear o importar por el administrador del equipo para que se puedan colocar en el cuadrante, o se contabilicen a la hora de realizar los ajustes en el Control de Presencia (ver más).
 
 En los siguientes puntos se expone de forma sencilla las utilidades incluidas en este informe estadístico de los absentismos:
 
 A través de esta pestaña, observarás toda la información sintetizada que compara por cada trabajador las Horas Trabajadas respecto de las Horas Planificadas, indicando el porcentaje de absentismo. Te mostrará una vista sobre el informe, en la cual destacan los siguientes campos:
+
+![Resumen](/media/manual/resumen-3835a1188e.png)
 
 - Trabajadores: se refiere a cada uno de los trabajadores registrados en el listado del equipo.
 - Horas trabajadas: se trata del número de horas trabajadas por cada trabajador en un periodo concreto.
@@ -68,6 +72,8 @@ A través de esta pestaña, observarás toda la información sintetizada que com
 ### Absentismos totales
 
 Se trata de la pestaña que sale por defecto en aTurnos al acceder al informe por absentismos. Esta tabla, detalla, por turno y trabajador, cada Tipo de Absentismo que se ha ocasionado. Para ello, alerta en último lugar, el número total de jornadas que se han visto afectadas por los absentismos. En aTurnos se define por absentismos totales aquellos cuya ausencia se produce durante toda la jornada laboral planificada. Podrás visualizar una vista sobre el informe, en la cuál se detallan los siguientes campos:
+
+![Absentismos totales](/media/manual/absentismos-totales-a4d571a01f.png)
 
 - Trabajadores: hace referencia a cada uno de los trabajadores registrados en el listado del equipo.
 - Turnos: en esta columna se indica el tipo de absentismo dentro de cada turno, y para ello muestra entre paréntesis el número de turnos afectados.
@@ -80,11 +86,15 @@ Existe la opción de visualizar el informe referente a los absentismos totales p
 
 La visualización de dicho gráfico se muestra de la siguiente forma:
 
+![Gráfico absentismos totales](/media/manual/grafico-absentismos-totales-77d7351c5f.png)
+
 ### Absentismos temporales
 
 En esta pestaña podrás visualizar aquellos absentismos que no afecten a la totalidad de los turnos planificados, sino solo a un tiempo determinado, a lo que llamamos Absentismos Temporales. Estos se definen a la hora de crearse, así como si están justificados o no. En aTurnos se definen como aquellas ausencias dentro de la jornada por un trabajador en un periodo de tiempo inferior a la totalidad de la jornada laboral planificada de un determinado día.
 
 Podrás visualizar una vista sobre el informe, en la cuál se detallan los siguientes campos:
+
+![Absentismos temporales](/media/manual/absentismos-temporales-033530e1a0.png)
 
 - Trabajadores: son aquellos trabajadores que tienes registrados en el listado de tu equipo.
 - Tipo de absentismos: se representa cada tipo de absentismo, indicando por cada trabajador el número de absentismos temporales en un intervalo acotado entre dos fechas.
@@ -97,6 +107,8 @@ Podrás visualizar una vista sobre el informe, en la cuál se detallan los sigui
 ### Gráfico absentismos temporales
 
 Existe la opción de visualizar el informe referente a los absentismos temporales por medio de un diagrama de barras. Cada barra indica el número de horas de absentismos temporales por que tiene cada trabajador. La visualización de dicho gráfico se muestra de la siguiente manera:
+
+![Gráfico absentismos temporales](/media/manual/grafico-absentismos-temporales-76424a6325.png)
 
 ### Barra superior del informe
 
@@ -120,19 +132,3 @@ Puedes seguir la demostración de estas herramientas en puntos anteriores, hacie
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![f. Absentismos](/media/manual/f-absentismos-259512c25e.png)
-
-![Resumen](/media/manual/resumen-3835a1188e.png)
-
-![Absentismos totales](/media/manual/absentismos-totales-a4d571a01f.png)
-
-![Gráfico absentismos totales](/media/manual/grafico-absentismos-totales-77d7351c5f.png)
-
-![Gráfico absentismos temporales](/media/manual/grafico-absentismos-temporales-76424a6325.png)
-
-![Absentismos temporales](/media/manual/absentismos-temporales-033530e1a0.png)

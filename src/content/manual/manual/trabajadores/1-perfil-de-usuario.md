@@ -68,6 +68,8 @@ Mis datos: El usuario puede modificar datos personales como:
 
 Igualmente se puede descargar los datos de la cuenta o ver tu registro de acciones (accesos, marcajes, modificaciones, etc.)
 
+![1. Perfil de usuario](/media/manual/1-perfil-de-usuario-4106a3904f.png)
+
 Configuración del perfil del usuario: Está limitada según el rol del usuario. Para consultar los cambios que puede realizar un usuario con rol trabajador por defecto, accede a la siguiente Guía de usuario. En aTurnos disponemos de permisos para poder personalizar las necesidades de las empresas para este tipo de configuración según roles de usuario.
 
 - Idioma (Castellano, inglés y portugués).
@@ -81,7 +83,5 @@ Configuración del perfil del usuario: Está limitada según el rol del usuario.
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![1. Perfil de usuario](/media/manual/1-perfil-de-usuario-cc1ae9905c.png)
-
-![1. Perfil de usuario](/media/manual/1-perfil-de-usuario-4106a3904f.png)
 
 ![1. Perfil de usuario](/media/manual/1-perfil-de-usuario-20e9b254e5.png)

@@ -69,7 +69,11 @@ A través de RRHH → NÓMINAS → TOTALIZADA POR EQUIPOS, seleccionando:
 - Todos los equipos o solo los equipos con el cuadrante sin cerrar o solo los equipos con el cuadrante cerrado
 - Al cargar, se recupera el importe de los conceptos totalizados.
 
+  ![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-6da71a25dc.png)
+
 Al marcar el check, se valida el cuadrante
+
+![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-dc40ae375f.png)
 
 La validación produce dos efectos:
 
@@ -77,18 +81,10 @@ La validación produce dos efectos:
 
 2.- Actualiza en el perfil del trabajador la fecha de validación.
 
-También se puede consultar la fecha de validación desde RRHH → NOMINA → CIERRE POR EMPLEADO (Punto 10.3 del Manual)
-
-NOTA: La función de validación solo está disponible para los usuarios con perfil Superusuario. Envía un correo a soporte@aturnos.com si se desea disponer de esta función.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-dc40ae375f.png)
-
 ![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-2a73096ff0.png)
 
-![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-6da71a25dc.png)
+También se puede consultar la fecha de validación desde RRHH → NOMINA → CIERRE POR EMPLEADO (Punto 10.3 del Manual)
 
 ![10.7 Totalizada por equipo. Validación del cuadrante](/media/manual/10-7-totalizada-por-equipo-validacion-del-cuadrante-8d35144ff9.png)
+
+NOTA: La función de validación solo está disponible para los usuarios con perfil Superusuario. Envía un correo a soporte@aturnos.com si se desea disponer de esta función.

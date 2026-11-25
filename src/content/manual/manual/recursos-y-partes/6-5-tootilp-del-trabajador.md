@@ -61,12 +61,8 @@ Esta función permite visualizar el mismo resumen pero con vista de reporte.
 
 Para realizar la consulta, se debe seleccionar un intervalo de fechas, el tipo de cuadrante, filtrar la información por trabajador o localización y ejecutar desde el botón ‘Cargar’.
 
+![6.5 Tootilp del trabajador](/media/manual/6-5-tootilp-del-trabajador-00d37f9c0f.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6.5 Tootilp del trabajador](/media/manual/6-5-tootilp-del-trabajador-00d37f9c0f.webp)

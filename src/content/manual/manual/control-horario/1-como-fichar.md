@@ -58,7 +58,11 @@ La forma de fichar en aTurnos variará según el sistema que utilice tu empresa.
 
 ### Desde la web/navegador
 
+![Desde la web/navegador](/media/manual/desde-la-web-navegador-3c9a5cd8f1.png)
+
 A través del ordenador o por el acceso web con un dispositivo móvil. Una vez accedes a aTurnos con tu correo y contraseña, en la parte superior de la pantalla de Inicio, puedes ver un botón con el icono ‘Play’ que sirve para realizar el fichaje de entrada del control de presencia. Al hacer clic se desplegará un menú donde puedes rellenar los siguientes datos:
+
+![Desde la web/navegador](/media/manual/desde-la-web-navegador-acef716337.webp)
 
 - Localización: en este campo elegiremos aquella localización en la cual vayamos a realizar nuestro fichajes, ya que se puede empezar la jornada en un lugar distinto respecto a donde se vaya a finalizar.
 - Tipo de fichaje: seleccionamos el tipo de entrada o salida que se va a realizar, por defecto en todos los equipos existe el tipo ‘COMPUTABLE’, que se tiene en cuenta en el cómputo de horas de la jornada realizada por el trabajador. En caso de realizar otro tipo de fichaje, deberás seleccionar aquel por el cual se va a realizar la acción (fumar, bocadillo, salida comercial, etc.).
@@ -77,11 +81,3 @@ La WallAPP de aTurnos es una app en la cual el trabajador para fichar debe tecle
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Desde la web/navegador](/media/manual/desde-la-web-navegador-3c9a5cd8f1.png)
-
-![Desde la web/navegador](/media/manual/desde-la-web-navegador-acef716337.webp)

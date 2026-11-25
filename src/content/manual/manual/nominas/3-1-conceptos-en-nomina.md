@@ -58,16 +58,12 @@ Aprende a conceptos en nómina, con instrucciones y contexto revisables por el e
 ## Procedimiento
 De todos los conceptos creados conforme al punto 2 de este Manual (Conceptos de cálculo) solo algunos de ellos son los que devuelven el dato buscado, de forma que dentro de la aplicación, a través de ADMINISTRAR → NOMINAS → CONCEPTOS EN NOMINA, se han de seleccionar exclusivamente los que se precisan en el informe.
 
+![3.1 Conceptos en nómina](/media/manual/3-1-conceptos-en-nomina-399ec4fc0c.png)
+
 Continuando con el ejemplo indicado en el punto 2, los conceptos a seleccionar serían los que después de las operaciones entre conceptos y/o conceptos de comparación ofrecen el dato buscado:
 
 - Concepto 3000. Recupera el número de horas nocturnas cuando son mayores o iguales a 10.
 - Concepto 3K00. Recupera el número de horas nocturnas cuando menores a 10.
 - Concepto K285. Recupera el número de horas de guardia presencial
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3.1 Conceptos en nómina](/media/manual/3-1-conceptos-en-nomina-5e0bc05597.png)
-
-![3.1 Conceptos en nómina](/media/manual/3-1-conceptos-en-nomina-399ec4fc0c.png)
+  ![3.1 Conceptos en nómina](/media/manual/3-1-conceptos-en-nomina-5e0bc05597.png)

@@ -52,8 +52,12 @@ order: 1
 
 En ADMINISTRAR → FESTIVOS se deben crear los festivos locales, por CCAA y estatales, indicando si tienen la consideración de festivos especiales a efectos de nómina.
 
+![1.8 Festivos](/media/manual/1-8-festivos-f29c34f412.png)
+
 ## Opciones y datos disponibles
 Por otro lado en ADMINISTRAR → AJUSTES → Consideración de festivos según convenio, se indica los días de la semana que van a tener la consideración de festivos.
+
+![1.8 Festivos](/media/manual/1-8-festivos-0057bd32f1.png)
 
 Las opciones posibles son tres:
 
@@ -64,11 +68,3 @@ Las opciones posibles son tres:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.8 Festivos](/media/manual/1-8-festivos-f29c34f412.png)
-
-![1.8 Festivos](/media/manual/1-8-festivos-0057bd32f1.png)

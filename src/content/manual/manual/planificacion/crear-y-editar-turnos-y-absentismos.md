@@ -58,6 +58,16 @@ order: 1
 
 Los administradores pueden crear tipos de turno y absentismos desde el Menú de Ajustes haciendo clic en el icono de “+”, así como modificarlos en cualquier momento en el icono verde una vez creados:.
 
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-651e999bcf.png)
+
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-1f49253d1c.png)
+
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-75addc8080.png)
+
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-301a73bdd8.png)
+
+![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-f7b2f4c210.png)
+
 ## Revisión requerida
 
 La fuente pública de **Crear y editar turnos y absentismos** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
@@ -65,17 +75,3 @@ La fuente pública de **Crear y editar turnos y absentismos** contiene muy poca 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-651e999bcf.png)
-
-![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-1f49253d1c.png)
-
-![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-75addc8080.png)
-
-![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-f7b2f4c210.png)
-
-![Crear y editar turnos y absentismos](/media/manual/crear-y-editar-turnos-y-absentismos-301a73bdd8.png)

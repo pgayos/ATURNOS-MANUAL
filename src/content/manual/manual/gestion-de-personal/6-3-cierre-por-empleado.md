@@ -62,25 +62,21 @@ En esta función, el superusuario puede acceder de forma rápida a cada trabajad
 
 Para mostrar los trabajadores de los equipos que se van a cerrar, se tienen que seleccionar los equipos en la barra superior.
 
+![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-ef70cf4b32.png)
+
 Antes de cargar los datos, también se puede filtrar por aquellos trabajadores a los que se quiera cerrar el cuadrante de forma individual, indicando su nombre al hacer clic en el botón del filtro.
+
+![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-e8efc66344.png)
 
 Definidos los equipos y los trabajadores a mostrar, se debe hacer clic en “Cargar”.
 
 Una vez se ha mostrado la información de los trabajadores a los cuales se les va cerrar el cuadrante, existen dos acciones sobre ellos.
 
+![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-de8a2ed9ea.png)
+
 1. Acceder a la estadística diaria del trabajador.
 2. Acceder al perfil del trabajador para indicar manualmente la fecha de cierre de cuadrante.
 
+   ![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-404a9686e1.png)
+
 Una vez ha sido modificada la fecha, para cerrar el cuadrante del trabajador, se deben guardar los cambios realizados en su perfil.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-ef70cf4b32.png)
-
-![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-de8a2ed9ea.png)
-
-![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-e8efc66344.png)
-
-![6.3 Cierre por empleado](/media/manual/6-3-cierre-por-empleado-404a9686e1.png)

@@ -82,6 +82,8 @@ Además, se pueden añadir otras columnas para informar datos adicionales creand
 - Datos contrato: Horas por convenio o contrato. Horas mensuales, semanales y/o al día. Porcentaje de la jornada: indicando el número entero. Por ejemplo si esta al 100% de su jornada en la celda del documento indicaremos 100. Porcentaje de horas complementarias: realizadas al año como adición a las horas ordinarias pactadas en el contrato a tiempo parcial. Horas extra anuales: horas de trabajo al año que se permiten realizar sobre la duración máxima de la jornada ordinaria de trabajo (de forma extraordinaria). Vacaciones: número de días de vacaciones por convenio o contrato. Tipo de vacaciones: si son días naturales (indicar valor 1 ) o laborales (indicar valor 2 ), o se dejar a elegir (no indicar valores).
 - Otros datos: Categoría: clasificación del puesto de trabajo a desempeñar (ver Categorías ). El mismo proceso de alta crea la categoría. Especialidades: capacidad o habilidad que tiene el trabajador, con la cual se pueden diferenciar o agrupar con el resto de trabajadores (ver Especialidades ). El propio proceso de alta añade tantas especialidades como así se indiquen en las columnas en el documento de Excel. En cada especialidad se indicar la valoración (del 1 al 5) de la habilidad o capacidad. Teléfono. Datos personalizados: hacen referencia al perfil del trabajador (no son obligatorios), pero precisan haberse creado previamente (ver Datos personalizados ). Para asociarlos se deberá indicar el nombre del dato personalizado con la columna “Dato Personalizado”. El trabajador puede fichar en cualquier lugar (ver Configuración Control de Presencia en perfil del trabajador): indicando valor 1 en este campo, activaremos para que los trabajadores fichen desde cualquier lugar en remoto. De la misma forma indicando el valor 0, desactivaremos la opción.
 
+  ![1. Importar trabajadores y/o planificación: altas, perfil y planificación](/media/manual/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion-4783168993.png)
+
 Ejemplo de documento
 
 CSV Importar_trabajadores
@@ -93,7 +95,5 @@ Para importar el archivo, debe seguir los pasos que indicamos en nuestro menú A
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1. Importar trabajadores y/o planificación: altas, perfil y planificación](/media/manual/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion-4783168993.png)
 
 ![1. Importar trabajadores y/o planificación: altas, perfil y planificación](/media/manual/1-importar-trabajadores-y-o-planificacion-altas-perfil-y-planificacion-10c0060933.png)

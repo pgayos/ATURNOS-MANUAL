@@ -57,8 +57,12 @@ order: 1
 
 Las acciones en aTurnos son procesos que se configuran en el sistema para que sean ejecutados de manera automática tomando en cuenta la frecuencia y parámetros requeridos.
 
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-402020a3a1.webp)
+
 ## Qué debes saber
 Al “Añadir” se pueden configurar las siguientes acciones:
+
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-fd0f55fb01.png)
 
 Esta acción automática sirve para denegar cambios de turno solicitados por los usuarios que no se hayan aprobado todavía por todas las partes involucradas en el periodo de tiempo configurado. Por ejemplo, se puede configurar que al final de cada mes se borren aquellas solicitudes de cambios de turno no gestionadas para tener los cuadrantes lo más actualizados posible.
 
@@ -113,6 +117,8 @@ En este ejemplo vamos a reflejar una parametrización en un cliente que nos soli
 
 Desde ADMINISTRAR → AJUSTES → ACCIONES AUTOMÁTICAS
 
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-31a2b0f6e6.png)
+
 1.- Acción: Aceptar todas las peticiones pendientes.
 
 2.- Tipo: Permiso temporal
@@ -133,6 +139,8 @@ Y sucesivamente habrá que crear tantas acciones automáticas como días hacía 
 
 7.- Rango de acción: Mes completo
 
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-5b8eca65c3.png)
+
 Siguiendo con el ejemplo, en el equipo están creadas 4 acciones automáticas.
 
 1.- Con valor cero aprobará las peticiones pendientes del mes de ejecución, si el día de ejecución es mayo de 2024 aprobará las peticiones pendientes de este mes
@@ -143,9 +151,13 @@ Siguiendo con el ejemplo, en el equipo están creadas 4 acciones automáticas.
 
 4.- Con valor -90, las pendientes de agosto de 2024
 
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-71be9524fb.png)
+
 Es decir, se aprobarían las peticiones de permisos temporales del tipo PO de los 3 meses siguientes al día de la ejecución.
 
 Una vez creadas las acciones automáticas se pueden ejecutar para probar el comportamiento
+
+![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-c9b53ac311.png)
 
 El trabajador tiene el mes de mayo de 2024 las siguientes peticiones:
 
@@ -154,6 +166,8 @@ El trabajador tiene el mes de mayo de 2024 las siguientes peticiones:
 - Día 11/05/2024, una petición de un permiso de día del tipo PO
 - Día 15/05/2024, una petición de vacaciones
 - Día 21/05/2024, una petición de día libre
+
+  ![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-4f755f5626.png)
 
 El trabajador de la pantalla tiene el mes de junio de 2024 las siguientes peticiones:
 
@@ -178,21 +192,3 @@ Teniendo en cuenta que la fecha de ejecución es cualquier día del mes de mayo 
 Al lanzar la acción automática con margen de días igual a menos sesenta días aprobará todas las peticiones de permisos temporales del tipo PO del mes de julio y solo las de julio.
 
 IMPORTANTE: Tal y como se ha indicado en el punto 6 el campo margen de días admite positivos (días a pasado) y días negativos (días a futuro).
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-fd0f55fb01.png)
-
-![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-402020a3a1.webp)
-
-![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-5b8eca65c3.png)
-
-![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-71be9524fb.png)
-
-![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-31a2b0f6e6.png)
-
-![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-4f755f5626.png)
-
-![g. Acciones Automáticas](/media/manual/g-acciones-automaticas-c9b53ac311.png)

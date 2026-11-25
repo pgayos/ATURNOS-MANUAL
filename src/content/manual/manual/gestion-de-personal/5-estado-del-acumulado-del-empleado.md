@@ -63,17 +63,27 @@ Muestra las horas del estado acumuladas al comparar las horas planificadas y pre
 
 Al igual que otros reportes, dependiendo del volumen de datos se puede consultar por pantalla.
 
+![5. Estado del acumulado del empleado](/media/manual/5-estado-del-acumulado-del-empleado-f3ee7f4f54.webp)
+
 Y en el caso de superar ese volumen, generar una ‘ Petición de reporte ‘ para su descarga en un Excel.
+
+![5. Estado del acumulado del empleado](/media/manual/5-estado-del-acumulado-del-empleado-5be4a3e15c.webp)
 
 ## Filtros
 
 En la consulta del reporte se puede definir:
+
+![Filtros](/media/manual/filtros-85e5546128.webp)
+
+![Filtros](/media/manual/filtros-6178d571fb.webp)
 
 - Fechas.
 
 - Equipos.
 
 - Trabajadores, filtrando por Nombre, Email o ID Empleado.
+
+  ![Filtros](/media/manual/filtros-497319d229.webp)
 
 ## Variables
 
@@ -93,22 +103,8 @@ Si el valor es negativo significa que las horas presenciales son menores que las
 
 Por ejemplo, este trabajador tiene este ‘Estado del acumulado del empleado’ en el mes de enero.
 
-El acumulado es resultado de las ‘Horas presenciales’ menos las ‘Horas planificadas’ y las ‘Horas no computables planificadas’
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5. Estado del acumulado del empleado](/media/manual/5-estado-del-acumulado-del-empleado-5be4a3e15c.webp)
-
-![5. Estado del acumulado del empleado](/media/manual/5-estado-del-acumulado-del-empleado-f3ee7f4f54.webp)
-
-![Filtros](/media/manual/filtros-85e5546128.webp)
-
-![Filtros](/media/manual/filtros-497319d229.webp)
-
 ![Variables](/media/manual/variables-3540f96216.webp)
 
-![Filtros](/media/manual/filtros-6178d571fb.webp)
+El acumulado es resultado de las ‘Horas presenciales’ menos las ‘Horas planificadas’ y las ‘Horas no computables planificadas’
 
 ![Variables](/media/manual/variables-879b5a961d.webp)

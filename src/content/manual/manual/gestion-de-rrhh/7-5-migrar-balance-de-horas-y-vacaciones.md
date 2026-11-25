@@ -71,9 +71,13 @@ Balance con exceso de horas: Es el caso en las horas computadas de un trabajador
 
 En este ejemplo de exceso de horas, el comportamiento de la migración del balance de horas es que en 2021 se le aplicará un decremento de horas computadas en la planificación de (-73 horas) en el año 2021 al trabajador y un incremento de horas computadas en la planificación de (73) horas de 2022.
 
+![Migrar balance de horas](/media/manual/migrar-balance-de-horas-0f0265c455.png)
+
 Balance con defecto de horas:Es el caso en las horas computadas de un trabajador es menor a las horas de contrato. Por ejemplo, 1761 un trabajador que tiene planificada 1673 horas computadas en 2021 cuando su contrato es de 1800, es el trabajador quien debe 39 horas a la empresa.
 
 En este ejemplo de defecto de horas, el comportamiento de la migración del balance de horas es que en 2021 se le aplicará un incremento de horas computadas en la planificación de (39 horas computadas) en el año 2021 al trabajador y un decremento de horas computadas en la planificación de (-39 horas computadas) en el año 2022.
+
+![Migrar balance de horas](/media/manual/migrar-balance-de-horas-90552a3efa.png)
 
 ### ¿Cómo migrar el balance de horas de un año a otro?
 
@@ -84,9 +88,13 @@ El administrador desde el menú RRHH accede a la acción “migrar balance de ho
 - Seleccionar el año origen y el año destino.
 - Check Horas: Con la opción SI, se migrarán las horas del balance del año origen al balance del año destino. Con la opción No, las horas no migran al siguiente año, no se ejecuta ninguna acción.
 
+  ![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-f07f21197b.png)
+
 Antes de realizar la migración de balances, podemos ver en un listado todos los detalles del balance de horas. Se detalla las horas computadas que se van a incrementar o decrementar en el primer año (año origen) y en el año siguiente (año destino) de cada trabajador, para ello se debe pulsar el botón “Ver migración”.
 
 En este listado aparecerán todos los balances de horas que quedan por cerrarse en el año origen de cada trabajador
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-37883e7812.png)
 
 En el ejemplo de exceso de horas del trabajador (Ana): informará que realizará un ajuste de 73 horas en el año 2021 de “Decremento de horas computadas” para dejar el balance a cero y, por el contrario, se aplicará un ajuste de 73 horas en el año 2022 de “Incremento de horas computadas” para que el trabajador disminuya el balance en 2022 para compensar las horas trabajadas de más en 2021.
 
@@ -94,15 +102,29 @@ En el ejemplo de defecto de horas del trabajador (Tomás): informará que realiz
 
 El último paso será realizar la migración, una vez se han seleccionado a los trabajadores a los cuales se quieren ajustar los balances, para ello hay que hacer clic en el botón “Migrar”.
 
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-d1b95582d1.png)
+
 El ajuste aparece en perfil del trabajador. En la tabla horas computadas del año consultado.
 
 Ajuste del balance de horas 2021:
 
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-217082f59a.png)
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-616913c342.png)
+
 Ajuste del balance de horas 2022:
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-dd1bf3af58.png)
+
+![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-ca5cefff0b.png)
 
 ## Migrar balance de vacaciones
 
 Por ejemplo, si un trabajador tiene por convenio 30 días de vacaciones anuales, y en el 2023 ha disfrutado de 27 días, en el año 2024 tendrá 33 días de vacaciones, equivalentes a los 30 días de convenio más 3 días del año anterior, que no fueron planificados en 2023.
+
+![Migrar balance de vacaciones](/media/manual/migrar-balance-de-vacaciones-329adc300f.png)
+
+![Migrar balance de vacaciones](/media/manual/migrar-balance-de-vacaciones-ecec7bc90f.png)
 
 ### ¿Cómo migrar el balance de vacaciones de un año a otro?
 
@@ -117,60 +139,34 @@ En la función de “Migrar balance de horas y vacaciones”, para trasladar sol
 - Seleccionar el año origen y el año destino.
 - Check Vacaciones: Con la opción Si, se migrará el balance de vacaciones del año origen al año destino. Con la opción No, esta función no modifica ni migra los balances de vacaciones.
 
+  ![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-515b1d78a6.png)
+
 Antes de realizar la migración de balances, podemos ver en un listado todos aquellos desajustes vacaciones, para ello se debe pulsar el botón “Ver migración”.
 
 En este listado aparecerán todos los balances que quedan por cerrarse en el año origen de cada trabajador de días de vacaciones.
+
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-09d223e9fa.png)
 
 Se nos informará que realizará un ajuste en el año 2021 de “Decremento balance de vacaciones” para dejar el balance a cero y, por el contrario, se aplicará un ajuste en el año 2023 de “Incremento balance de vacaciones” para que el trabajador pueda disfrutar de esos 3 días restantes en el año 2024, computando un total de 33 días.
 
 El último paso será realizar la migración, una vez se han seleccionado a los trabajadores a los cuales se quieren saldar, para ello hay que hacer clic en el botón “Migrar”.
 
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-cd7e53d031.png)
+
 El ajuste aparece en perfil del trabajador.
 
 Tanto en el año 2023, origen del ajuste del balance.
 
-Este ajuste se puede ver con más detalle, desde el botón de añadir ajustes.
-
-Como en los ajustes del año 2024, destino del balance.
-
-Detalle del ajuste en el año destino, desde el botón de añadir ajustes.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Migrar balance de horas](/media/manual/migrar-balance-de-horas-0f0265c455.png)
-
-![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-f07f21197b.png)
-
-![Migrar balance de horas](/media/manual/migrar-balance-de-horas-90552a3efa.png)
-
-![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-37883e7812.png)
-
-![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-217082f59a.png)
-
-![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-d1b95582d1.png)
-
-![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-616913c342.png)
-
-![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-ca5cefff0b.png)
-
-![¿Cómo migrar el balance de horas de un año a otro?](/media/manual/como-migrar-el-balance-de-horas-de-un-ano-a-otro-dd1bf3af58.png)
-
-![Migrar balance de vacaciones](/media/manual/migrar-balance-de-vacaciones-329adc300f.png)
-
-![Migrar balance de vacaciones](/media/manual/migrar-balance-de-vacaciones-ecec7bc90f.png)
-
-![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-515b1d78a6.png)
-
-![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-09d223e9fa.png)
-
 ![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-537e7a8339.png)
+
+Este ajuste se puede ver con más detalle, desde el botón de añadir ajustes.
 
 ![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-5bc4a0b830.png)
 
-![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-cd7e53d031.png)
-
-![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-4b3f280d40.png)
+Como en los ajustes del año 2024, destino del balance.
 
 ![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-be3f6365de.png)
+
+Detalle del ajuste en el año destino, desde el botón de añadir ajustes.
+
+![¿Cómo migrar el balance de vacaciones de un año a otro?](/media/manual/como-migrar-el-balance-de-vacaciones-de-un-ano-a-otro-4b3f280d40.png)

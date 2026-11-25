@@ -58,8 +58,4 @@ Una vez estés seguro de eliminar el patrón, tienes que hacer clic en el icono 
 
 Si dicho patrón ha sido utilizado para planificar turnos en el cuadrante, la planificación del cuadrante no se modifica, es decir, los turnos planificados en el cuadrante son independientes del patrón origen.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![4. Borrar patrón](/media/manual/4-borrar-patron-bd87aa08a6.png)

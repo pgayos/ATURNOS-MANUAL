@@ -69,8 +69,4 @@ El administrador puede ordenar los tipos de turnos, para que en el resto de herr
 3. Por orden alfabético de la ‘A’ a la ‘Z’ y viceversa, atendiendo a las letras de las abreviaturas del tipo de turno. Para ello, se hace clic en la fecha que aparece en los enunciados de la columna denominada Abreviatura y descripción. Es necesario hacer clic en el botón “Cambiar orden” para que se guarde el nuevo orden de los turnos.
 4. Por orden de hora de inicio de turno, al hacer clic en la flecha que aparece en las columnas de Inicio u Horario, los turnos se ordenan atendiendo a la hora de inicio del mismo. Es necesario hacer clic en el botón “Guardar orden” (parte superior derecha) para que se guarde el nuevo orden de los turnos.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![f. Exportar y cambiar orden](/media/manual/f-exportar-y-cambiar-orden-ea08d227b4.png)
+   ![f. Exportar y cambiar orden](/media/manual/f-exportar-y-cambiar-orden-ea08d227b4.png)

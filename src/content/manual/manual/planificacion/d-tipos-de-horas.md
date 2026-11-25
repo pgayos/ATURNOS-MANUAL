@@ -60,6 +60,8 @@ Información sobre tipos de horas, con instrucciones y contexto revisables por e
 
 No todo tiene que ser turnos, en aTurnos puedes crear tipos de horas. Estas horas posteriormente las puedes planificar o añadir como extensión de jornada donde existan turnos. Es interesante planificar con horas si existe una gran cantidad de turnos y no quieres crear tantos tipos de turnos distinto. Tenemos clientes como call-centers donde al entrar cada 15 minutos la cantidad de tipos de turnos es elevada.
 
+![d. Tipos de horas](/media/manual/d-tipos-de-horas-a762b17b8b.webp)
+
 Al planificar las horas se pueden definir el tipo de horas, las horas de inicio y de fin a un trabajador en un día o entre días. Por defecto, se diferencian 3 tipos de horas:
 
 ### Extras
@@ -90,6 +92,8 @@ Es interesante que puedas generar nuevos tipos de horas para que puedas agruparl
 
 Esto es muy útil cuando quieres que se pidan absentismos justificado por horas de más que realizaron de una tipología definida. Se informan los siguientes campos del formulario:
 
+![Normales](/media/manual/normales-dab31a829d.webp)
+
 - Nombre: nombre identificativo del tipo de hora.
 - Coeficiente: se trata de un multiplicador, de manera que ese subtipo de horas se contabilizará de forma multiplicada, por defecto el valor es 1. Un ejemplo suele ocurrir en servicios especiales o guardias de trabajadores, como puede ser en un servicio quirúrgico en la que por cualquier incidencia se prolonga la jornada, y si consideran que el valor de la hora de prolongación de jornada extraordinaria es doble, se tiene que informar en este campo con 2.
 - Tipo: Se trata del tipo de hora y cómputo que tendrán dichas horas normales (dentro del saldo anual de horas), complementarias (en caso de contratos a un porcentaje de jornada menor al 100%) o extraordinarias.
@@ -101,11 +105,3 @@ Una vez cumplimentado el formulario se debe hacer clic en “Guardar”.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![d. Tipos de horas](/media/manual/d-tipos-de-horas-a762b17b8b.webp)
-
-![Normales](/media/manual/normales-dab31a829d.webp)

@@ -66,6 +66,8 @@ Ese orden o posicionamiento de los trabajadores es sensible a penalizaciones de 
 2. Una vez creado, configure la bolsa desde el botón Editar (icono del lápiz) de la columna acciones. Al editar, aparece un listado a modo de tabla con los siguientes encabezados: Nombre: muestra el nombre del trabajador. Participa: desde esta columna el administrador selecciona los candidatos que participarán y serán los disponibles para asignar tipos de turnos u horas gestionadas para esa bolsa. Tiene la opción de seleccionar a TODOS los trabajadores desde este encabezado. Horas iniciales: el administrador puede añadir horas que el trabajador ya tenía acumuladas en bolsa previamente pero que no estaban registradas en aTurnos. Penalización: son horas que añade el administrador, por el motivo que considere, con el fin de descender la posición del trabajador. Estas horas se sumarán al Total de horas haciendo que baje de posición en la tabla. Última llamada: fecha en la que se le asignó al trabajador el ultimo evento en la bolsa. Total: muestra el total de horas (independientemente de su tipo: Normal, extra, etc.) realizadas en bolsa, sumando incluso las horas de penalización.
 3. Una vez editada, Guarda la modificación que se han realizado.
 
+   ![7.3 Bolsas](/media/manual/7-3-bolsas-5c548c9efe.png)
+
 Una vez creada la bolsa, puedes insertar tanto turnos como horas para computar estas horas a al bolsa creada, en los siguientes enlace te contamos como hacerlo: Insertar horas en bolsa.
 
 Desde el Cuadrante, el administrador puede asignar un turno y horas de bolsa a uno o varios trabajadores. Según la acción que desee realizar tiene tres opciones:
@@ -73,9 +75,3 @@ Desde el Cuadrante, el administrador puede asignar un turno y horas de bolsa a u
 1. Planificar un turno desde la bolsa de trabajo
 2. Planificar horas desde la bolsa de trabajo
 3. Planificar horas desde la bolsa de trabajo a un determinado trabajador
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7.3 Bolsas](/media/manual/7-3-bolsas-5c548c9efe.png)

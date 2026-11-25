@@ -62,18 +62,14 @@ Desde esta herramienta de Acciones, los superusuarios podrán relacionar los tra
 
 Por ejemplo, un trabajador está siendo enviado a la unidad organizativa con id external 00005456, pero se necesita que esos trabajadores vuelquen en el equipo con el id external 00001258. Relacionando el id origen y el id destino, al volcar la información se insertará en el equipo con el id external 00001258.
 
+![7.4 Relación Ids. External](/media/manual/7-4-relacion-ids-external-07b7a50841.png)
+
 Desde el botón del filtro podemos buscar el id external de todos aquellos que haya en el listado.
 
 En acción se añadirá una nueva relación entre el id external de un equipo origen y el id external de un equipo destino.
 
-Una vez han sido añadidas las relaciones, estas se pueden editar o borrar desde los botones de cada relación de ids.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![7.4 Relación Ids. External](/media/manual/7-4-relacion-ids-external-fcfd42fe93.png)
 
-![7.4 Relación Ids. External](/media/manual/7-4-relacion-ids-external-07b7a50841.png)
+Una vez han sido añadidas las relaciones, estas se pueden editar o borrar desde los botones de cada relación de ids.
 
 ![7.4 Relación Ids. External](/media/manual/7-4-relacion-ids-external-53443a5214.png)

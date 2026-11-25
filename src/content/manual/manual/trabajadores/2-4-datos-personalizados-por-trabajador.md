@@ -55,8 +55,12 @@ order: 1
 
 Esta función permite ver los ‘Datos personalizados’ de cada trabajador.
 
+![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-ac5e1b6ea2.webp)
+
 ## Procedimiento
 En primer lugar se deben seleccionar en la barra superior los equipos de los cuales se quiere consultar los datos personalizados de cada trabajador.
+
+![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-621a18fa31.webp)
 
 Una vez seleccionados los equipos, haciendo clic en ‘Cargar’ para que se muestren los resultados.
 
@@ -67,22 +71,14 @@ Se muestran los datos personalizados que haya informados en cada trabajador en s
 - ID Empleado
 - Descripción del dato personalizado
 - Tipo de cambio
+
+  ![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-9104fc5307.webp)
 - Valor
 
 Se pueden ocultar aquellos campos que no se necesiten para la consulta.
 
-Se puede copiar o exportar el listado en CSV, Excel o PDF.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-ac5e1b6ea2.webp)
-
-![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-621a18fa31.webp)
-
-![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-9104fc5307.webp)
-
 ![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-1280af39b2.webp)
+
+Se puede copiar o exportar el listado en CSV, Excel o PDF.
 
 ![2.4 Datos personalizados por trabajador](/media/manual/2-4-datos-personalizados-por-trabajador-729bcb76cc.webp)

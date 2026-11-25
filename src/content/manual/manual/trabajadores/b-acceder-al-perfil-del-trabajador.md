@@ -61,12 +61,8 @@ Aprende a acceder al perfil del trabajador, con instrucciones y contexto revisab
 ## Procedimiento
 Desde el icono “perfil” localizado junto a cada equipo en el que se encuentra asignado el trabajador, al hacer clic en este icono, el superusuario accede al perfil y detalle del trabajador en ese equipo, donde puede consultar y/o modificar datos del trabajador (ver más).
 
+![b. Acceder al perfil del trabajador](/media/manual/b-acceder-al-perfil-del-trabajador-1f60134cb9.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![b. Acceder al perfil del trabajador](/media/manual/b-acceder-al-perfil-del-trabajador-1f60134cb9.png)

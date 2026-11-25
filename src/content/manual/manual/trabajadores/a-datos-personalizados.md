@@ -70,6 +70,8 @@ Como hemos expuesto anteriormente, son aquellos datos o campos personalizados qu
 
 Si quieres crear un dato personalizado tienes que hacer clic sobre el botón” Acciones” (esquina superior derecha), posteriormente en “Añadir D ato Personalizado “, donde aparece un formulario con los siguientes campos:
 
+![a. Datos personalizados](/media/manual/a-datos-personalizados-13c02725f8.png)
+
 - Descripción: Es el nombre con el que se identifica el concepto que se va a crear (es el que será visible en aTurnos).
 - Descripción corta (integración): Es el nombre que puedes indicar para utilizar en la API de integración. (https://api.aturnos.com/). Para su uso correcto, no debe llevar caracteres como tildes, “ñ”, etc. Por otro lado, si no necesitas utilizar este campo en la integración, no es obligatorio informarlo.
 - Bloque de datos: Elige si va a estar asociado a un grupo de datos previamente creado.
@@ -80,11 +82,5 @@ Si quieres crear un dato personalizado tienes que hacer clic sobre el botón” 
 - Permisos: Muestra a qué tipo de roles dentro de aTurnos quieres que se le muestre el dato personalizado que estás creando. Puedes hacerlo con el fin de que no todos los trabajadores tengan acceso a dicha información (ver más en roles de usuario ). Además, dichos datos personalizados necesitan validación por un manager de un rol superior al trabajador.
 
 Se trata del nombre con el que se puede identificar un determinado tipo de datos personalizados, con el fin de tenerlos todos agrupados en un mismo género o concepto general. Para añadirlos, únicamente hay que informar de la descripción con la que quieres nombrar a ese determinado tipo de datos personalizados. Ejemplo: nombrar un bloque de datos “EPI’s” para agrupar un determinado tipo de datos “calzado”, “pantalón” y “camiseta”.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![a. Datos personalizados](/media/manual/a-datos-personalizados-13c02725f8.png)
 
 ![a. Datos personalizados](/media/manual/a-datos-personalizados-f36edb6ec5.png)

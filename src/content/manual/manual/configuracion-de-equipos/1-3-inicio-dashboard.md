@@ -57,6 +57,8 @@ order: 1
 
 En aTurnos disponemos de los siguientes widgets (la visualización de unos u otros se configura por el administrador).
 
+![1.3 Inicio (Dashboard)](/media/manual/1-3-inicio-dashboard-35f648dd33.png)
+
 ## Qué debes saber
 Trabajadores
 
@@ -103,9 +105,3 @@ Indica gráficamente el número de horas anuales planificadas con respecto al to
 Vacaciones
 
 Muestra el número de días de vacaciones planificadas con respecto al número de vacaciones totales.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.3 Inicio (Dashboard)](/media/manual/1-3-inicio-dashboard-35f648dd33.png)

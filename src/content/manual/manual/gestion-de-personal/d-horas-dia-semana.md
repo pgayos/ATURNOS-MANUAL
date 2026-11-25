@@ -56,6 +56,8 @@ order: 1
 
 Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas.
 
+![d. Horas/día semana](/media/manual/d-horas-dia-semana-7e805e0357.png)
+
 En las estadísticas de horas/día semana encontramos dos pestañas:
 
 ### Tabla
@@ -72,9 +74,3 @@ Mientras la tabla describe las horas que realiza cada miembro del equipo en cada
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![d. Horas/día semana](/media/manual/d-horas-dia-semana-7e805e0357.png)

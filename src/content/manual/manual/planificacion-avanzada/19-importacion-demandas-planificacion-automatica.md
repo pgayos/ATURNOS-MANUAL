@@ -75,6 +75,8 @@ Es posible por otra parte configurar una propia demanda, creando desde cero un d
 - Especialidad: podemos añadir un nivel de especialidad para calcular la demanda, ésta puede estar creada antes de hacer la importación (ver Especialidades ).
 - Modificar: valor 0, aumenta el valor informado en el campo “Incremento” de la demanda ya creada a modificar. Valor 1, modificar el valor informado en la demanda ya creada por el informado en la importación del campo “Incremento “.
 
+  ![19. Importación demandas (Planificación automática)](/media/manual/19-importacion-demandas-planificacion-automatica-1bcad70def.webp)
+
 Por último, antes de realizar la importación, guarda el documento en formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “Importar “.
@@ -82,7 +84,5 @@ Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![19. Importación demandas (Planificación automática)](/media/manual/19-importacion-demandas-planificacion-automatica-1bcad70def.webp)
 
 ![19. Importación demandas (Planificación automática)](/media/manual/19-importacion-demandas-planificacion-automatica-5221ed8cef.webp)

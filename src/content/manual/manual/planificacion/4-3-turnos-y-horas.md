@@ -60,6 +60,8 @@ Desde este registro, se pueden modificar, editar o borrar turnos y horas inserta
 
 Esto es muy útil ya que, en muchas ocasiones, los Administradores insertan una gran cantidad de turnos y horas, que prefieren revisar o realizar su tratamiento posteriormente. Pueden obtener información de los turnos y de los diferentes tipos de horas de manera detallada o resumida (Ej. en un período de tiempo, de un trabajador en específico) y hacer algún cambio en caso de requerirlo.
 
+![4.3 Turnos y Horas](/media/manual/4-3-turnos-y-horas-c61cfcaee4.png)
+
 Para acceder más rápido al registro deseado, en la parte superior de la pantalla se puede definir un periodo de tiempo entre fechas que se quiera visualizar y/o hacer uso del filtro para ver solo las características que necesite, como: nombre del trabajador, una localización, un tipo de turno o tipo de hora en específico. Además, se puede exportar dicho listado haciendo clic en el botón de Exportar en la parte superior de la tabla.
 
 Las opciones para utilizar el Filtro y ayudarte a ubicar los datos de turnos y horas en sus respectivos listados, son los siguientes:
@@ -74,24 +76,18 @@ Las opciones para utilizar el Filtro y ayudarte a ubicar los datos de turnos y h
 
 En esta pantalla se muestra el listado de turnos que tienen asignados los trabajadores en el cuadrante, reflejando nombre del trabajador con detalle de fecha y cantidad de horas que tiene cada turno (duración computada).
 
+![Turnos](/media/manual/turnos-316635b969.png)
+
 Al hacer clic en el botón de expandir se puede dividir el turno (icono de la tijera) transformándolo en horas, indicando: el inicio y fin, el tipo de horas, así como, si se consideran dentro de alguna localización o no, de esta manera la información pasaría a reflejarse en el listado de horas. Con la segunda acción (icono de herramienta) se pueden añadir recursos (es necesario tener activo el Módulo de Recursos).
 
 ### Horas
 
 En este apartado podrás ver y modificar de manera resumida y sencilla el listado de trabajadores que han realizado horas (adicionales al turno) y que han sido registradas en el cuadrante, se detalla nombre del trabajador que las realizó, la fecha y cantidad de horas.
 
+![Horas](/media/manual/horas-b3a294bbfb.png)
+
 Al hacer clic en la acción de expandir, es posible cambiar el tipo de las horas: Normal, extra o complementaria (puedes crear más tipos de horas, te explicamos cómo hacerlo en el siguiente enlace (Crear tipos de hora). De igual forma, puede modificar la cantidad de horas (aumentarlas o reducirlas) en caso de considerar que no estén correctas. Asimismo, tienes la opción de dividir en dos o más los tipos de horas y modificar la descripción.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.3 Turnos y Horas](/media/manual/4-3-turnos-y-horas-c61cfcaee4.png)
-
-![Turnos](/media/manual/turnos-316635b969.png)
-
-![Horas](/media/manual/horas-b3a294bbfb.png)

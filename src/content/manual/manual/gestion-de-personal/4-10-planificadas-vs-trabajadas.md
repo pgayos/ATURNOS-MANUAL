@@ -57,43 +57,39 @@ order: 1
 
 Este reporte gráfico muestra mensualmente las horas computadas de cada día y su comparación con las horas trabajadas según se haya filtrado.
 
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-1cce9ef630.webp)
+
 ## Qué debes saber
 La barra vertical azul informa de las horas computadas de los turnos y horas planificados.
 
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-c517036607.webp)
+
 La gráfica lineal de color negro, indica las horas trabajadas (las que se han fichado).
+
+![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-c9ad04d199.webp)
 
 El reporte se puede cargar:
 
 - Las horas de todo el equipo sin filtrar nada.
 
+  ![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-5760c00c62.webp)
+
 - Las horas al filtrar por una localización.
+
+  ![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-ed754331c8.webp)
 
 - Horas de trabajadores con ID empleado informado en su perfil.
 
+  ![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-7d447cd5bb.webp)
+
 - Horas filtrando por trabajadores con el Cuadrante Cerrado, Validado o Descargado de nóminas (ver Nóminas ).
+
+  ![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-2bff39edc6.webp)
 
 - Horas de un trabajador filtrando por su nombre, email o ID empleado.
 
+  ![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-9b4a7c1c4d.webp)
+
 Como cualquier otra gráfica de los reportes de aTurnos, esta se puede ver a pantalla completa, imprimirse directamente o descargarse en un formato que ayude a su documentación por los responsables del equipo.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-1cce9ef630.webp)
-
-![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-c9ad04d199.webp)
-
-![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-5760c00c62.webp)
-
-![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-c517036607.webp)
-
-![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-ed754331c8.webp)
-
-![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-7d447cd5bb.webp)
-
-![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-2bff39edc6.webp)
-
-![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-9b4a7c1c4d.webp)
 
 ![4.10 Planificadas vs Trabajadas](/media/manual/4-10-planificadas-vs-trabajadas-bb4e3d1780.webp)

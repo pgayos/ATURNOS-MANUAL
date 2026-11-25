@@ -58,19 +58,15 @@ order: 1
 
 Complementaría a la función de “Añadir horas “, existe la posibilidad de incrementar la jornada en horas al inicio o al fin de la misma. Este incremento se realiza en base a los tipos de horas creados.
 
+![4. Incremento de la jornada laboral](/media/manual/4-incremento-de-la-jornada-laboral-39c4be1f14.png)
+
 ## Procedimiento
 Incrementa el número de horas de la jornada de los trabajadores visualizados en el cuadrante o filtrados en el día seleccionado. En el formulario, se define el tipo de hora y si se encuentra asociada o no a una localización y una descripción del motivo del incremento de la jornada.
+
+![4. Incremento de la jornada laboral](/media/manual/4-incremento-de-la-jornada-laboral-daac7b8a19.png)
 
 A continuación, puedes visualizar cómo se incrementa la jornada a los trabajadores del cuadrante en un día concreto
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4. Incremento de la jornada laboral](/media/manual/4-incremento-de-la-jornada-laboral-daac7b8a19.png)
-
-![4. Incremento de la jornada laboral](/media/manual/4-incremento-de-la-jornada-laboral-39c4be1f14.png)

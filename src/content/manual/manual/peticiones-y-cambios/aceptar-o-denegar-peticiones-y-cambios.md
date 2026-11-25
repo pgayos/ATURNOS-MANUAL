@@ -64,10 +64,6 @@ El administrador del equipo podrá ver las peticiones pendientes desde el menú 
 
 Después, deslizando hacia la flecha cada petición que aparece en la lista se podrá aceptar o denegar directamente o bien ver los detalles desde el icono del ojo como se indica a continuación:
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![Aceptar o denegar peticiones y cambios](/media/manual/aceptar-o-denegar-peticiones-y-cambios-c55d0b37ba.png)
 
 ![Aceptar o denegar peticiones y cambios](/media/manual/aceptar-o-denegar-peticiones-y-cambios-0e9f43efbb.png)

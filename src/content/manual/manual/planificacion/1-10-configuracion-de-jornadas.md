@@ -53,6 +53,8 @@ order: 1
 
 Para poder calcular el número de Jornadas, Jornadas Nocturnas, Jornadas Festivas, Jornadas Festivas Especiales, etc. se deben establecer en aTurnos cuatro variables, a través ADMINISTRAR → AJUSTES → Configuración.
 
+![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-547d1a06f0.png)
+
 ## Procedimiento
 Los conceptos que recuperan las jornadas son los conceptos tipo 1.4: accede al Manual para consultar los conceptos de cálculo que hacen referencia a jornadas. Conceptos 1.4.
 
@@ -61,6 +63,8 @@ Las variables son:
 1.- Un número de horas al día de trabajo efectivo para que se pueda considerar una jornada, es decir, se debe establecer el número de horas a partir de las que se considerará una jornada. Por defecto el valor de este campo es cero
 
 En este ejemplo, las horas para considerar una jornada en un día es 1 hora:
+
+![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-84d10ce463.png)
 
 - El 03/07/2022 con turno planificado de 7 horas de duración total, el número de jornadas que devuelve es 1, al ser las horas del turno planificadas mayor o igual a 1 hora.
 - El 05/07/2022 con 7 horas de tipo normal, el número de jornadas que devuelve es 1, al ser las horas del turno planificadas mayor o igual a 1 hora.
@@ -76,6 +80,8 @@ En este ejemplo, las horas para considerar una jornada en un día es 1 hora:
 
 En este ejemplo, las horas mínimas para considerar la jornada en ese día es 1 hora y 30 minutos:
 
+![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-9a47f2decd.png)
+
 - El 01/07/2022 con 1 hora y 29 minutos, el número de jornadas que devuelve es 0. Las horas el día 1 son menores a 1 hora 30 minutos.
 - El 02/07/2022 con 8 hora y 31 minutos, el número de jornadas que devuelve es 1. Las horas el día 1 son mayores a 1 hora 30 minutos.
 - El 03/07/2022 con 1 hora y 31 minutos, el número de jornadas que devuelve es 1. Las horas el día 1 son mayores a 1 hora 30 minutos.
@@ -84,6 +90,8 @@ En este ejemplo, las horas mínimas para considerar la jornada en ese día es 1 
 3.- Se debe indicar el limite de horas para considerar una jornada más, aplica cuando las horas planificadas supera el limite indicado. Por defecto el valor de este campo es 24 horas
 
 En este ejemplo, el límite de horas es de 24 horas
+
+![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-10bad17aee.png)
 
 - El 27/07/2022 con un turno de 25 horas (desde las 09:00 hasta las 10:00 del día siguiente), el número de jornadas que devuelve es 2.
 - El 29/07/2022 con un turno de 8 horas más horas desde las 15:00 hasta las 08:00 del día siguiente, el número de jornadas que devuelve es 2.
@@ -99,15 +107,3 @@ En este ejemplo, se considerará jornada nocturna siempre que se superen los 30 
 - El 15/07/2022 solo tiene 29 minutos en periodo nocturno (tiene un absentismo no justificado desde las 22:00 a las 07:31), el número de jornadas nocturnas es cero.
 
 Los valores se expresan en centesimal no en horas.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-547d1a06f0.png)
-
-![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-84d10ce463.png)
-
-![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-10bad17aee.png)
-
-![1.10 Configuración de jornadas.](/media/manual/1-10-configuracion-de-jornadas-9a47f2decd.png)

@@ -54,6 +54,8 @@ order: 1
 
 Con esta opción se pueden modificar las horas añadidas, bien sean extra, complementarias o de cualquier otro tipo creado, en Planificador → Tipos de turno → Horas. Cómo planificar horas.
 
+![12. Modificar horas](/media/manual/12-modificar-horas-59be00eabb.png)
+
 ## Qué debes saber
 Se puede modificar:
 
@@ -62,16 +64,10 @@ Se puede modificar:
 - Tipo de hora: el tipo de hora que se ha realizado, ya sea normales, extras, complementarias o de un tipo creado de forma personalizada.
 - Localización: en qué localización se realizaron las horas.
 
+  ![12. Modificar horas](/media/manual/12-modificar-horas-3997f0166d.png)
+
 Como siempre, antes de salir, guarda lo cambios realizados.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![12. Modificar horas](/media/manual/12-modificar-horas-59be00eabb.png)
-
-![12. Modificar horas](/media/manual/12-modificar-horas-3997f0166d.png)

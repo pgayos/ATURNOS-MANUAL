@@ -54,6 +54,8 @@ order: 1
 
 En este apartado se registran los datos básicos que identifican al trabajador.
 
+![2. Básica](/media/manual/2-basica-f7a8391000.png)
+
 Estos datos son los siguientes:
 
 - Nombre del Usuario: Define el nombre (y en su caso, los apellidos) del trabajador, el cual será visible en aTurnos.
@@ -67,6 +69,8 @@ Estos datos son los siguientes:
 
 El administrador del equipo puede optar por tres opciones para que un trabajador o administrador sea planificable, o no planificable, en el cuadrante de turnos, en el listado de trabajadores, en los reportes de estadísticas e informes, en el proceso de cambios de turnos, procesos de control horario,…
 
+![Perfil del usuario](/media/manual/perfil-del-usuario-31cb456f88.png)
+
 Además de las tres opciones de planificabilidad que se describen a continuación, existen otras opciones de privacidad a nivel de equipo que pueden afectar a los trabajadores y/0 administradores (ver Privacidad ).
 
 1. Planificable: El usuario se encuentra visible en el cuadrante para el resto de trabajadores, se encuentra incluido en los procesos de planificación, procesos del control horario, reportes, … (dependiendo de la configuración de privacidad del equipo). El administrador puede visualizarlo en el cuadrante, cuadrante anual, estadísticas y detalles del control horario.
@@ -78,11 +82,3 @@ Cuando el trabajador está activado en el sistema (tiene acceso a aTurnos) algun
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Básica](/media/manual/2-basica-f7a8391000.png)
-
-![Perfil del usuario](/media/manual/perfil-del-usuario-31cb456f88.png)

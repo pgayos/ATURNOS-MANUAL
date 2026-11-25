@@ -60,6 +60,8 @@ La gestión de descansos tiene tres niveles:
 - A nivel del trabajador.
 - En el equipo.
 
+  ![5.3 Descansos](/media/manual/5-3-descansos-3f63343b91.webp)
+
 Esta función permite configurar los descansos a nivel de equipo, aplicándose automáticamente a los trabajadores que no tengan un descanso individual configurado o cuyo tipo de turno no especifique un tiempo de descanso.
 
 La jerarquía de aplicación de los descansos es la siguiente:
@@ -70,7 +72,11 @@ La jerarquía de aplicación de los descansos es la siguiente:
 
 Para configurar un descanso a nivel de equipo, simplemente haz clic en el botón “Gestionar descanso” y añade los nuevos parámetros de configuración.
 
+![5.3 Descansos](/media/manual/5-3-descansos-d4481bb59b.webp)
+
 Al configurar los nuevos datos, se nos mostrarán una serie de campos a completar en el formulario:
+
+![5.3 Descansos](/media/manual/5-3-descansos-b8f04d2ff3.webp)
 
 1. Entrada en vigor: Fecha a partir de la cual se aplicará el tiempo de descanso configurado.
 2. Válido hasta: Fecha límite hasta la que será válido el descanso establecido.
@@ -85,7 +91,11 @@ Acciones disponibles:
 
 Una vez guardado, el descanso configurado aparecerá registrado en el apartado de Descansos dentro de los ajustes de control horario.
 
+![5.3 Descansos](/media/manual/5-3-descansos-f119a9bb4b.webp)
+
 Los descansos que se vayan gestionando a lo largo del tiempo y ya no sea válidos, se recogerán en la pestaña ‘Histórico’ de la ‘Gestión descanso’.
+
+![5.3 Descansos](/media/manual/5-3-descansos-5887a1d51d.webp)
 
 Además existen cuatro modos de funcionamiento de la gestión de descansos que se completan con cinco opciones de configuración.
 
@@ -95,6 +105,8 @@ Si esta opción está activada, las salidas y entradas registradas dentro del tu
 
 Ejemplo: En un turno de 7:00 a 15:00, si un trabajador registra una salida a las 12:00 y una entrada a las 12:15, esos 15 minutos se contabilizarán como absentismo.
 
+![5.3 Descansos](/media/manual/5-3-descansos-e17e3fc99c.webp)
+
 Si se elige esta opción, el tiempo registrado entre una salida y una nueva entrada dentro del horario planificado del turno se computará como descanso, siempre que no exceda el tiempo permitido para descansos.
 
 Ejemplo:
@@ -102,11 +114,15 @@ Ejemplo:
 - Turno de 7:00 a 15:00, con una duración computada de 7 horas y 45 minutos.
 - Un trabajador registra una salida a las 12:00 y una entrada a las 12:15. Esos 15 minutos se computan como tiempo de descanso.
 
+  ![5.3 Descansos](/media/manual/5-3-descansos-793f0a160d.webp)
+
 Si el tiempo excede el permitido y el trabajador no completa la duración computada del turno, el exceso será considerado absentismo.
 
 Al activar esta opción, el sistema calcula automáticamente el tiempo de descanso como la diferencia entre la duración total del turno y la duración computada (configurable en los turnos ). Esto significa que no será necesario registrar fichajes adicionales para los descansos durante el horario planificado del turno.
 
 Ejemplo práctico: Para un turno de 08:00 a 15:00 con una duración total de 7 horas, si la duración computada es de 6 horas y 30 minutos, el sistema considerará automáticamente los 30 minutos restantes como tiempo de descanso. En el detalle del trabajador, aparecerá reflejado que esos 30 minutos corresponden a su tiempo de descanso.
+
+![5.3 Descansos](/media/manual/5-3-descansos-6d2ce4c880.webp)
 
 Esta funcionalidad permite que los descansos se calculen y descuenten de manera automática cuando no se registran mediante fichajes, siempre que se cumplan las condiciones configuradas. El sistema considera tres niveles para aplicar esta lógica:
 
@@ -118,7 +134,11 @@ Ejemplos prácticos:
 
 - Si un trabajador tiene configurado un descanso de 30 minutos cuando trabaja más de 7 horas y no registra su descanso, el sistema descontará automáticamente este tiempo del total fichado. Por ejemplo, si el fichaje es de 7 horas, el sistema contabilizará 6:30 horas trabajadas.
 
+  ![5.3 Descansos](/media/manual/5-3-descansos-0bfb828d74.webp)
+
 - En un turno de 08:00 a 15:00 (7 horas) con un descanso programado de 20 minutos, el sistema aplicará automáticamente este descuento. El Detalle por trabajador reflejará 6:40 horas trabajadas.
+
+  ![5.3 Descansos](/media/manual/5-3-descansos-c4a107e065.webp)
 
 Este método asegura que los descansos se gestionen de manera precisa y automática, respetando las configuraciones establecidas sin necesidad de fichajes adicionales.
 
@@ -138,6 +158,8 @@ Por ejemplo:
 - Si el turno es de 08:00 a 15:00 (7 horas) y el descanso configurado es de 30 minutos, el tiempo esperado de trabajo efectivo sería 6:30 horas.
 - Si el trabajador ficha un descanso de solo 20 minutos, el sistema reflejará 6:40 horas trabajadas y 10 minutos como tiempo no descansado.
 
+  ![5.3 Descansos](/media/manual/5-3-descansos-b8b5706853.webp)
+
 Este ajuste automático asegura que las discrepancias en los descansos queden claramente documentadas sin necesidad de intervención manual.
 
 En los casos en que el tipo de turno no tenga un descanso configurado, cualquier tiempo fichado como descanso se descontará del estado del trabajador y se reflejará como un valor negativo.
@@ -145,6 +167,8 @@ En los casos en que el tipo de turno no tenga un descanso configurado, cualquier
 Ejemplo práctico: Si un turno planificado no incluye descanso y el trabajador registra un descanso de 30 minutos, este tiempo se restará del estado, mostrando una discrepancia negativa de -30 minutos. Esto indicará que el descanso tomado no estaba contemplado en la planificación del turno.
 
 Esta funcionalidad permite un control claro y preciso, destacando los descansos realizados cuando no están previstos en la configuración del turno.
+
+![5.3 Descansos](/media/manual/5-3-descansos-40236b77cf.webp)
 
 Esta configuración es especialmente útil en casos como las jornadas partidas, donde el tiempo entre un fichaje de salida y el siguiente fichaje de entrada no se considera un descanso, sino el fin de un turno y el inicio de otro. Con esta opción, se asegura que solo los intervalos que cumplan con los criterios establecidos (ya sea a nivel del trabajador o del tipo de turno configurado) se contabilicen como descansos en el ‘Detalle’ y el ‘ Detalle por trabajador ‘.
 
@@ -155,7 +179,11 @@ Ejemplo práctico:
 
 En cualquier caso, el sistema calculará el total del tiempo de descanso registrado y, si corresponde, informará claramente el tiempo fichado de más o de menos en comparación con la configuración establecida. Esto asegura un control preciso de los descansos y su impacto en las horas trabajadas.
 
+![5.3 Descansos](/media/manual/5-3-descansos-d424f3e0a1.webp)
+
 Si existe jornada partida, no se contabiliza el tiempo entre un fichaje de salida y una nueva entrada como descanso.
+
+![5.3 Descansos](/media/manual/5-3-descansos-c88170935d.webp)
 
 En situaciones donde un trabajador tiene un permiso por horas durante su jornada laboral, puede ser necesario fichar antes o después de haber disfrutado de ese tiempo de absentismo. Al activar esta opción, el sistema permite que, aunque no se hayan cumplido las horas mínimas para contabilizar el descanso, si el trabajador inicia su descanso porque tiene derecho a ello, este tiempo se registrará como descanso.
 
@@ -167,32 +195,4 @@ Este ajuste asegura que los descansos sean correctamente contabilizados, incluso
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![5.3 Descansos](/media/manual/5-3-descansos-d4481bb59b.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-3f63343b91.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-b8f04d2ff3.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-5887a1d51d.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-e17e3fc99c.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-6d2ce4c880.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-793f0a160d.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-0bfb828d74.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-c4a107e065.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-b8b5706853.webp)
-
 ![5.3 Descansos](/media/manual/5-3-descansos-a30f91368f.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-d424f3e0a1.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-c88170935d.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-40236b77cf.webp)
-
-![5.3 Descansos](/media/manual/5-3-descansos-f119a9bb4b.webp)

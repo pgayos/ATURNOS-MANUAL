@@ -58,6 +58,8 @@ Aprende a barra superior, con instrucciones y contexto revisables por el equipo 
 ## Procedimiento
 En este apartado, te mostrará cómo puedes visualizar los datos de los diferentes trabajadores de tu equipo. En la esquina superior derecha del listado de trabajadores, tienes diferentes funcionalidades y a través del cual, te mostrará diferentes formas de buscar y acceder a los datos de los trabajadores. Se compone de los siguientes campos a modo de barra horizontal, que puede estar presente o guardada, según preferencias del usuario:
 
+![d. Barra superior](/media/manual/d-barra-superior-b9e366c97e.png)
+
 Se trata de la fecha exacta en la que quieres visualizar el listado de trabajadores. Para indicarla, tienes que hacer clic y seleccionar el día del mes en el año correspondiente en el cual pretendes que te muestre la información. Para ello, una vez haces dicho clic, se abre un sencillo calendario donde puedes elegir el día en concreto del mes en el año de referencia en el que quieres visualizar la información pertinente.
 
 Esta opción permite ordenar los trabajadores en el Listado, lo que a su vez afectará al orden de los trabajadores en el Cuadrante. Para ello, tienes que hacer clic en el botón “Cambiar orden”.
@@ -67,11 +69,17 @@ Existen dos fórmulas para poder cambiar el orden:
 1. Por arrastre: con ayuda del cursor puedes arrastrar las filas de la tabla del listado, donde aparecen el nombre del trabajador que quieres cambiarle la posición. Una vez arrastradas las columnas y tener el orden del listado de los trabajadores que desees, es necesario clicar en el botón“cambiar orden”
 2. Por enumeración: en la última columna de la tabla se indica con valor numérico el orden de la posición que van a ocupar en el listado los diferentes trabajadores. El orden dependerá del valor numérico, cuanto menor sea el número más alto se encontrará el trabajador en el listado.
 
+   ![d. Barra superior](/media/manual/d-barra-superior-01d7f9feed.png)
+
 Además del Cuadrante, también afectará a la ordenación vista en los reportes de Estadísticas.
 
 El filtro es una herramienta que facilita la búsqueda de los trabajadores en cualquier tabla. En la barra superior, esta función se representa con el siguiente símbolo:
 
+![d. Barra superior](/media/manual/d-barra-superior-8b76fe7df4.png)
+
 Esta pestaña, sobre todo, es de gran utilidad si tu equipo de trabajo se compone de un elevado número de trabajadores. Permite optimizar tu búsqueda, filtrando sobre aquellos datos del trabajador en cuestión, los cuales te servirán para identificarlo de forma más eficiente. Accederás a ella a través del icono “Filtr o”.
+
+![d. Barra superior](/media/manual/d-barra-superior-f0e80f54eb.png)
 
 Puedes realizar el filtro del trabajador que quieres buscar mediante los siguientes campos:
 
@@ -85,11 +93,15 @@ Realizando correctamente esta técnica mediante el filtro de los diferentes dato
 
 Puedes visualizar todos los datos más destacados de los trabajadores de tu equipo mediante dos formas distintas. Según qué vista te aporte más información y te sea más sencilla la identificación, puedes elegir entre las siguientes:
 
+![d. Barra superior](/media/manual/d-barra-superior-09ceba9bdd.png)
+
 Esta opción te permitirá visualizar el listado de trabajadores mediante una vista “por cajas”, es decir, cada trabajador de tu equipo será una caja. En esta caja se mostrarán los datos más relevantes sobre cada uno de ellos (nombre y apellidos, rol de usuario dentro de aTurnos, localización en la que preste su trabajo, si se le ha añadido previamente, email en aTurnos, número de teléfono en el caso de haberlo introducido en el sistema, fecha de alta contractual, etc.).
 
 Permite que, de un simple vistazo, veas todos los datos de los trabajadores de tu equipo. Para que te muestre esto, tienes que acceder haciendo clic en el icono de la barra de herramientas “V ista Grid”.
 
 Es el modo de visualización que aTurnos te mostrará por defecto. Aun así, si te encontraras sobre “Vista Grid” pero quieres que el sistema te muestre de nuevo la visualización como tabla, simplemente tienes que hacer clic sobre el icono “Vista Tabla”.
+
+![d. Barra superior](/media/manual/d-barra-superior-fc9857e55f.png)
 
 En este caso, se muestran todos los trabajadores de tu equipo en filas (nombre del trabajador con cada uno de los datos de referencia). Dicha información de referencia que aparece en cada trabajador es la siguiente:
 
@@ -108,24 +120,12 @@ En este caso, se muestran todos los trabajadores de tu equipo en filas (nombre d
 
 Muestra el listado de trabajadores dados de baja contractualmente (en aTurnos se les denominará “trabajadores inactivos”) (Véase qué es un trabajador inactivo ), no son bajas por algún tipo de incapacidad (IT) o algún tipo de absentismo (permiso).
 
+![d. Barra superior](/media/manual/d-barra-superior-644a3d7cb2.png)
+
 Los trabajadores que se encuentran ubicados en este listado, tienen en la columna “baja” la fecha fin de la relación laboral en el equipo de trabajo. Esto no significa que dichos trabajadores sean eliminados completamente de aTurnos, sino que se encuentran como “trabajadores inactivos”, pudiendo volver a ingresar a la misma en un futuro y a estar en un escenario de “trabajador activo”. Un trabajador inactivo o de baja no puede acceder a aTurnos, con su mail de acceso y contraseña.
 
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![d. Barra superior](/media/manual/d-barra-superior-b9e366c97e.png)
-
 ![d. Barra superior](/media/manual/d-barra-superior-4a1859c7c2.png)
-
-![d. Barra superior](/media/manual/d-barra-superior-8b76fe7df4.png)
-
-![d. Barra superior](/media/manual/d-barra-superior-f0e80f54eb.png)
-
-![d. Barra superior](/media/manual/d-barra-superior-01d7f9feed.png)
-
-![d. Barra superior](/media/manual/d-barra-superior-fc9857e55f.png)
-
-![d. Barra superior](/media/manual/d-barra-superior-644a3d7cb2.png)
-
-![d. Barra superior](/media/manual/d-barra-superior-09ceba9bdd.png)

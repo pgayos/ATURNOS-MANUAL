@@ -68,7 +68,11 @@ Aprende a revisar cuadrante y añadir/modificar/eliminar turnos, con instruccion
 ## Procedimiento
 El administrador del equipo podrá visualizar y revisar los cuadrantes de todos los trabajadores de su equipo desde el menú Cuadrante (solo turnos, con horario, con localización o bien con todos los detalles). Aparecerán en amarillo las vacaciones, los absentismos en negro y las peticiones en azul:
 
+![Revisar cuadrante y añadir/modificar/eliminar turnos](/media/manual/revisar-cuadrante-y-anadir-modificar-eliminar-turnos-2f2815367d.png)
+
 Además, haciendo clic en un día seleccionado en concreto podrás realizar las siguientes acciones:
+
+![Revisar cuadrante y añadir/modificar/eliminar turnos](/media/manual/revisar-cuadrante-y-anadir-modificar-eliminar-turnos-2d0b0323e4.png)
 
 1. Realizar petición: en este caso, al igual que el trabajador, los administradores podrán realizar peticiones. En este caso, serán ellos mismos los que las acepten o denieguen.
 2. Añadir turno: podrán añadir turnos tanto a ellos mismos como a los trabajadores, seleccionando previamente el trabajador en la parte arriba del cuadrante.
@@ -76,11 +80,3 @@ Además, haciendo clic en un día seleccionado en concreto podrás realizar las 
 4. Eliminar turno: al igual que en caso anterior, se podrá eliminar el turno con tan sólo un clic.
 5. Añadir absentismo: en este caso, si ya hay un turno planificado previamente, se podrá añadir cualquier tipo de absentismo creado, al igual que el trabajador.
 6. Anadir comentario: esta función al igual que el trabajador podrá realizarla el administrador (ver manual del trabajador para más información).
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Revisar cuadrante y añadir/modificar/eliminar turnos](/media/manual/revisar-cuadrante-y-anadir-modificar-eliminar-turnos-2f2815367d.png)
-
-![Revisar cuadrante y añadir/modificar/eliminar turnos](/media/manual/revisar-cuadrante-y-anadir-modificar-eliminar-turnos-2d0b0323e4.png)

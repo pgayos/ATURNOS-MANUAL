@@ -54,6 +54,8 @@ order: 1
 
 Esta opción permite modificar un turno por otro, sin necesidad de borrar y volver a añadir.
 
+![6. Modificar turnos](/media/manual/6-modificar-turnos-e95d97e7c0.png)
+
 ## Revisión requerida
 
 La fuente pública de **Modificar turnos** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
@@ -61,9 +63,3 @@ La fuente pública de **Modificar turnos** contiene muy poca información textua
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6. Modificar turnos](/media/manual/6-modificar-turnos-e95d97e7c0.png)

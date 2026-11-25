@@ -86,7 +86,11 @@ En este apartado aparecerán todos aquellos descansos que se quieran añadir, ya
 
 Haciendo clic sobre el botón “Gestionar descansos”, se mostrará el siguiente modal.
 
+![8. Control Horario](/media/manual/8-control-horario-ac6a9329fd.webp)
+
 Para añadir una nueva gestión de descanso, se tiene que hacer clic sobre “Nuevos datos”. Cada vez que se añada una nueva gestión de descanso, se registrará en el “Histórico”. En “Configuración” aparecerá la gestión de descanso aplicada en el momento actual.
+
+![8. Control Horario](/media/manual/8-control-horario-a8077fffd9.webp)
 
 Para definir una nueva gestión de descanso, hay que indicar:
 
@@ -95,13 +99,19 @@ Para definir una nueva gestión de descanso, hay que indicar:
 - Mínimo de horas trabajadas en turno: Para aplicarse el tiempo de descanso, debe tener planificado al menos un tipo de turno u horas añadidas que sean iguales o superiores, ya que las horas fichadas entre el inicio y fin antes del descanso, deben ser como mínimo, este valor. Como se puede ver en el detalle por trabajador, en el caso de que se hayan configurado 5 horas, el fichaje previo al descanso debe se de al menos 5 horas.
 - Descanso en minutos: Duración del descanso.
 
+  ![8. Control Horario](/media/manual/8-control-horario-4376bc004b.webp)
+
 El tiempo de descanso que se indique, será el que aparecerá como máximo en el campo “Descanso” en el detalle por trabajador, siempre y cuando esté configurado en el Control de Presencia que los descansos se contabilizan (ver Contabilizar descansos ).
 
 Estos ajustes aumentan o decrementan el ajuste que ya existe en el “Estado de horas” de ‘Detalle por trabajador’.
 
+![8. Control Horario](/media/manual/8-control-horario-1d7ba20018.webp)
+
 Una de las funciones, es que permite ajustar el tiempo de los descansos que no han sido disfrutados (no fichados) durante el turno de trabajo que se tiene planificado.
 
 Se pueden añadir nuevos ajustes desde el botón ‘Añadir’.
+
+![8. Control Horario](/media/manual/8-control-horario-3c28f301f6.webp)
 
 Se mostrará un modal con los siguientes campos a completar:
 
@@ -109,21 +119,33 @@ Se mostrará un modal con los siguientes campos a completar:
 - Ajuste (en minutos): En positivo para aumentar el ajuste, en negativo para decrementar el ajuste.
 - Descripción: La razón por la cual se añade el ajuste.
 
+  ![8. Control Horario](/media/manual/8-control-horario-a50e4ce64c.webp)
+
 Estos ajustes quedarán registrados en un listado en cada perfil del trabajador.
+
+![8. Control Horario](/media/manual/8-control-horario-9244584050.webp)
 
 Estos ajustes pueden ser importados mediante un archivo de Excel, asociando los campos “Ajuste control horario” y “Fecha ajuste control horario” en una ‘ Importación de trabajadores ‘.
 
 Esta función permite forzar el “Estado de horas” de ‘Detalle por trabajador’ para casos como aquellos trabajadores que arrastran un estado de horas anterior al uso del Control Horario de aTurnos y que por tanto no tienen fichajes. Una vez se ha planificado el turno, ese tiempo aparecerá como un estado de horas negativo, ya que no hay tiempo presencial.
 
+![8. Control Horario](/media/manual/8-control-horario-b7de218a74.webp)
+
 De esta manera los trabajadores no empiezan con un saldo negativo de estado de horas y su acumulado es cero horas, ya que se fuerza el tiempo que no se ha fichado sin importar los fichajes (ver Importación de marcajes ).
 
+![8. Control Horario](/media/manual/8-control-horario-011bbf4bd9.webp)
+
 Esta importación de estado se puede realizar indicando un nuevo ajuste desde el botón ‘Añadir’.
+
+![8. Control Horario](/media/manual/8-control-horario-c587550d8d.webp)
 
 Aparecerá un modal con los siguientes campos:
 
 - Fecha: El día al que se aplicará la importación del estado.
 - Estado (en minutos): En positivo para un estado de horas realizadas, en negativo para un estado de horas que no se han realizado.
 - Descripción: La razón por la cual se añade la importación del estado.
+
+  ![8. Control Horario](/media/manual/8-control-horario-d6711be96e.webp)
 
 Todas las importaciones del estado que se realicen aparecerán listadas en el apartado de “Importaciones de estado”.
 
@@ -133,26 +155,4 @@ Una forma de no tener que realizar todos estos ajustes de forma manual, es media
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![8. Control Horario](/media/manual/8-control-horario-ac6a9329fd.webp)
-
 ![8. Control Horario](/media/manual/8-control-horario-b79db39675.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-1d7ba20018.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-a8077fffd9.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-4376bc004b.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-3c28f301f6.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-a50e4ce64c.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-9244584050.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-b7de218a74.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-c587550d8d.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-011bbf4bd9.webp)
-
-![8. Control Horario](/media/manual/8-control-horario-d6711be96e.webp)

@@ -53,6 +53,8 @@ order: 1
 
 En este apartado se muestra información a detalle del evento que está registrado en el cuadrante el día seleccionado.
 
+![2. Info](/media/manual/2-info-59bb98d313.png)
+
 ## Procedimiento
 En ocasiones el trabajador puede estar planificado en más cuadrante de otros equipos. En el caso de que tenga planificación en otros cuadrantes el sistema informa la planificación de la semana de todos los equipos en el que se encuentra dado de alta.
 
@@ -60,9 +62,13 @@ Cuando en el día se encuentra registrada una “Petición” del trabajador (ya
 
 Se muestra también la opción de Deshacer acción que es muy útil si por algún motivo, luego de aprobar una petición (de vacaciones, un turno, horas, etc.), necesitas deshacerla o cancelarla. Desde aquí tendrás la opción de hacerlo y recuperar los eventos que tenia registrados el trabajador antes de hacer la petición.
 
+![2. Info](/media/manual/2-info-aa70a6c641.png)
+
 Para ver mas detalles de cómo deshacer la acción puedes revisar el siguiente enlace: Peticiones y Cambios – ¿Cómo deshacer la acción?
 
 Otra de las vistas (de las mas comunes) que se pueden obtener al hacer clic en la opción de “Info” se presenta cuando el trabajador tiene datos de planificación (se le ha aplicado un patrón de turnos). En este caso el modal que se muestra es el siguiente:
+
+![2. Info](/media/manual/2-info-4ea11a9120.webp)
 
 Identificando los siguientes conceptos:
 
@@ -74,13 +80,3 @@ Identificando los siguientes conceptos:
 - Ver: haciendo clic en este icono se mostrará la secuencia del patrón completo.
 
 Esta visualización es útil cuando, por ejemplo, se necesita saber en qué índice del patrón se encuentra el trabajador para poder aplicar el mismo patrón a un nuevo empleado desde ese día cumpliendo la misma secuencia de turnos.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Info](/media/manual/2-info-59bb98d313.png)
-
-![2. Info](/media/manual/2-info-aa70a6c641.png)
-
-![2. Info](/media/manual/2-info-4ea11a9120.webp)

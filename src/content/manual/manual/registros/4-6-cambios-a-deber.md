@@ -62,12 +62,8 @@ Estas deudas de cambios pendientes por devolver, se generan cuando se solicita u
 
 El administrador, a través de esta pantalla, puede obtener todos los detalles de los cambios a deber de todos los trabajadores del equipo. Para ello, es necesario que en esta pantalla, a la que se accede desde Registro → Cambios a deber, se haga clic sobre el icono del “ojo”.
 
+![4.6 Cambios a deber](/media/manual/4-6-cambios-a-deber-259c2ea01d.png)
+
 Desde icono de “ver” también se puede saber si el cambio de turno ha sido devuelto por el trabajador que le debía un turno a otro trabajador: indicando qué día es el que devuelve y cuándo se realizó esta devolución. Además, si el administrador no está de acuerdo o quisiera deshacer el cambio a deber, podría hacerlo haciendo clic en el botón “Devolver cambio” el cual revertiría el Libre o doblaje a deber.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![4.6 Cambios a deber](/media/manual/4-6-cambios-a-deber-060043423b.webp)
-
-![4.6 Cambios a deber](/media/manual/4-6-cambios-a-deber-259c2ea01d.png)

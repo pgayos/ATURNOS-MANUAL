@@ -66,6 +66,8 @@ Podrás crear reportes desglosados por trabajadores y agrupándolo por el period
 
 Una vez has procedido a acceder a la herramienta de Reportes, te aparecerá la tabla donde debes seleccionar que variables y filtros quieres obtener. Los campos a definir son los siguientes:
 
+![Barra superior](/media/manual/barra-superior-ac9a75a46b.webp)
+
 1. Desde/hasta: Elige el período a consultar.
 2. Variable: Haciendo clic en el campo en blanco se desplegaran todas las opciones o variables que tiene la tabla de reportes. Elige la(s) variable(s) que deseas ver o comparar, una, dos o más, según requieras.
 3. Período: Este campo despliega opciones para seleccionar cómo quieres que aparezca la información en el reporte, entre las que están: Periodo: Si quieres que el reporte estadístico te muestre el mismo período que colocaste en el campo Desde/hasta. Día: Te muestra la información comparativa día a día según el período reflejado en Desde/hasta. Mes: Muestra los datos comparativos por mes o meses contenidos dentro del período solicitado. Año: Muestra la información comparativa anual según el período reflejado en Desde/hasta.
@@ -76,23 +78,39 @@ Una vez has procedido a acceder a la herramienta de Reportes, te aparecerá la t
 
 Además de poder guardar el reporte, se puede configurar para que se genere automáticamente y se envíe un enlace de descarga por correo, a través de la opción de ‘Envío automático’.
 
+![Barra superior](/media/manual/barra-superior-f3bd99340b.webp)
+
 Para generar automáticamente el reporte, se debe indicar:
 
 - Frecuencia. Si se quiere enviar el reporte cada: Día. Semana. Mes. Desfase. Este dato nos informa si queremos consultar el informe a pasado, presente o futuro. Se tiene en cuenta la vista con la cual se ha guardado el reporte, tanto de la fecha, como la unidad de tiempo (día, mes, periodo y año).
+
+  ![Barra superior](/media/manual/barra-superior-3d3147d38a.webp)
 
 Si se indica un valor negativo, consultará desde la fecha de envío hasta la unidad de tiempo con la que se guardó hacia atrás. Si el envío es en abril y se indica -1, se generará un reporte de marzo. Si se indica 0, consultará desde la fecha de envío hasta la unidad de tiempo con la que se guardó. Si es en abril, se generará abril. Si se indica un valor positivo, consultará desde la fecha de envío hasta la unidad de tiempo con la que se guardó hacia adelante.
 
 Si el envío es en abril y se indica 1, se generará un reporte de mayo.
 
+![Barra superior](/media/manual/barra-superior-ce53fa76c9.webp)
+
 - Fecha de inicio. A partir de qué fecha se necesitan que se generen y envíen los reportes para su descarga.
+
+  ![Barra superior](/media/manual/barra-superior-0f74fb22fc.webp)
 
 Todos los reportes guardados, desde la opción de ‘ Cargar ‘, pueden ser consultados, pero también configurados para enviarlos automáticamente, así como editar la configuración de los que ya se envían.
 
+![Barra superior](/media/manual/barra-superior-2aa5d6d73a.webp)
+
 Cuando un reporte se envía automáticamente, el administrador que lo genera, recibirá un email con un enlace de descarga. El reporte se descargará en un archivo Excel (XLSX) o CSV, según la configuración de los reportes.
+
+![Barra superior](/media/manual/barra-superior-ca91a9f6b1.webp)
 
 1. Cargar: consulta los datos solicitados, mostrando un resultado según las variables, periodo, fechas, filtro y cuadrante.
 
+   ![Barra superior](/media/manual/barra-superior-61585fbb59.webp)
+
 Cada reporte puede tener una representación gráfica. Por ejemplo, muestra los datos de días libres de los trabajadores, dentro de un mes agrupado por días y la tabla muestra el detalle de dos meses agrupado por meses.
+
+![Barra superior](/media/manual/barra-superior-df747c21ce.png)
 
 ### Ocultar y acciones en la tabla
 
@@ -177,25 +195,3 @@ Variable Calidad del fichaje
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Barra superior](/media/manual/barra-superior-f3bd99340b.webp)
-
-![Barra superior](/media/manual/barra-superior-3d3147d38a.webp)
-
-![Barra superior](/media/manual/barra-superior-ce53fa76c9.webp)
-
-![Barra superior](/media/manual/barra-superior-0f74fb22fc.webp)
-
-![Barra superior](/media/manual/barra-superior-ca91a9f6b1.webp)
-
-![Barra superior](/media/manual/barra-superior-ac9a75a46b.webp)
-
-![Barra superior](/media/manual/barra-superior-2aa5d6d73a.webp)
-
-![Barra superior](/media/manual/barra-superior-61585fbb59.webp)
-
-![Barra superior](/media/manual/barra-superior-df747c21ce.png)

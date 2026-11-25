@@ -58,6 +58,8 @@ Información sobre cambios pendientes, con instrucciones y contexto revisables p
 ## Opciones y datos disponibles
 En Administrar → Ajustes → Cambios se pueden definir la configuración de los cambios de turno entre trabajadores. Si se escoge que el Administrador tiene que aceptar las peticiones de cambios de turno entre compañeros, el administrador desde el menú peticiones y cambios → Pendientes → Cambios pendientes puede acceder a todos los cambios de turnos pendientes que tienen que pasar por su gestión:
 
+![c. Cambios pendientes](/media/manual/c-cambios-pendientes-61616d06ef.png)
+
 - Solicitado por: persona que realiza el cambio y da comienzo al proceso del cambio de turno. Por lo general es un trabajador, pero también puede ser habitual que el proceso del cambio lo inicie el propio administrador del equipo.
 - Día cambiado: día donde se va a realizar la modificación de la planificación de los trabajadores implicados en el cambio, en el caso de que sea aceptado por el administrador
 - Fecha de solicitud: día cuando se realiza el proceso o petición del cambio de turno por el autor del cambio.
@@ -72,9 +74,3 @@ En Administrar → Ajustes → Cambios se pueden definir la configuración de lo
 6. Finalmente, el cambio aceptado se reflejará en el cuadrante, sobre el día y en los trabajadores en cuestión.
 
 ¿Qué es un cambio de turno y cómo hacer un cambio de turno?
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![c. Cambios pendientes](/media/manual/c-cambios-pendientes-61616d06ef.png)

@@ -54,18 +54,14 @@ En este apartado, el validador podrá obtener información de las imputaciones d
 ## Qué debes saber
 Para acceder a las estadísticas, se debe acceder al menú lateral izquierdo.
 
+![4. Estadísticas](/media/manual/4-estadisticas-c9bcf70b72.png)
+
 Los reportes a los que tiene acceso en el módulo de Estadísticas son:
 
 1. Reportes por trabajador: en este informe el validador podrá ver a los usuarios que tiene a cargo en el equipo en el que se encuentra, el balance de tareas o las horas de tareas que han imputado los empleados en un periodo de tiempo.
 
+   ![4. Estadísticas](/media/manual/4-estadisticas-a886109f8b.png)
+
 De la misma forma, puede obtener el reporte de balance de tareas o horas diarias en el apartado Cargar reportes.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4. Estadísticas](/media/manual/4-estadisticas-c9bcf70b72.png)
-
 ![4. Estadísticas](/media/manual/4-estadisticas-b5dfb14fa0.png)
-
-![4. Estadísticas](/media/manual/4-estadisticas-a886109f8b.png)

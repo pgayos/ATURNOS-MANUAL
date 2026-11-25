@@ -55,6 +55,8 @@ order: 1
 
 Permite configurar los datos del equipo y cómo se estructura dentro de la empresa. Puedes agregar o modificar las siguientes casillas:.
 
+![b. Datos del equipo](/media/manual/b-datos-del-equipo-36fa97e12d.png)
+
 ## Qué debes saber
 - Descripción: dispone de texto para añadir más información descriptiva que ayude a diferenciarlo de los otros equipos a los que pertenece un mismo administrador/empresa.
 - Código Postal: es un código que asigna a distintas zonas o lugares de un país. Generalmente es una serie de dígitos, aunque en algunos países incluyen letras. Es muy útil a la hora de realizar la importación de los festivos para recuperarlos automáticamente.
@@ -64,9 +66,3 @@ Permite configurar los datos del equipo y cómo se estructura dentro de la empre
 - Zona horaria: se informa a la que pertenezca por su localización geográfica. Esto afecta a aTurnos en procesos como los marcajes, los widgets, las notificaciones o los correos de avisos.
 - Equipo padre: En caso de existir una estructura de equipos, se puede definir una jerarquía que ayuda en la configuración y en la generación de reportes. Desde aquí se puede definir el equipo padre del que se está configurando, es decir, se debe informar el nombre del equipo del que depende o es superior dentro la estructura de la organización.
 - Logo de equipo: inserta, sustituye o borra el logo corporativo de la empresa. El logo se encuentra visible en diferentes puntos del sistema y te ayuda a localizar más rápido la información.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![b. Datos del equipo](/media/manual/b-datos-del-equipo-36fa97e12d.png)

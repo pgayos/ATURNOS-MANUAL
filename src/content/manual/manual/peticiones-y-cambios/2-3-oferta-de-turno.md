@@ -65,14 +65,10 @@ Este apartado de ofertar turno consiste en que el administrador ofrece un turno 
 
 Para apuntarte a un turno ofertado, sólo tienes que pulsar el botón de acción deslizando la oferta hacia la izquierda:
 
+![¿Cómo coge el turno ofertado un trabajador?](/media/manual/como-coge-el-turno-ofertado-un-trabajador-baf0ad8fcc.png)
+
 Será el administrador quien decida, a quien planificar el turno, entre todos los trabajadores que han realizado la acción de “inscribirse en la oferta”. Por otro lado en el icono del ojo podrá ver las condiciones de dicha oferta de turno.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo coge el turno ofertado un trabajador?](/media/manual/como-coge-el-turno-ofertado-un-trabajador-baf0ad8fcc.png)

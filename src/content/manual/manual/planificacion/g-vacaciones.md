@@ -62,6 +62,8 @@ Desde aquí podrás controlar las vacaciones que utilizan y de las que disponen 
 
 En el encabezado de la tabla del informe por Vacaciones, se describen en cada columna las siguientes variables:
 
+![Estadísticas por defecto de las Vacaciones](/media/manual/estadisticas-por-defecto-de-las-vacaciones-713d891b59.png)
+
 - Trabajadores: Son los trabajadores que tienes registrado en tu equipo
 - Disfrutadas: Número de días de Vacaciones (V) planificadas que se han hecho efectivas, es decir, se han utilizado en el año consultado. Estas vacaciones son las planificadas en día presente y días anteriores.
 - Vacaciones planificadas en el periodo vacacional: Número de días de vacaciones que han sido planificados por el administrador en el cuadrante en el periodo vacacional del año consultado.
@@ -86,9 +88,3 @@ Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones d
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Estadísticas por defecto de las Vacaciones](/media/manual/estadisticas-por-defecto-de-las-vacaciones-713d891b59.png)

@@ -62,12 +62,8 @@ El trabajador, según los permisos dados en el equipo por el administrador, pued
 
 El administrador puede poner a disposición de su equipo un documento para que sea descargado por los trabajadores y subirlo cada uno de forma individual. Por ejemplo en una industria a la hora de pedir la nueva ropa de trabajo, puede solicitar a los trabajadores que les rellene una ficha con sus tallas para tramitar el pedido.
 
-Los documentos subidos y a disposición del trabajador también pueden ser descargados desde Inicio, en el widget de Documentos.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![2. Ver documentos subidos](/media/manual/2-ver-documentos-subidos-a1c4a7b84e.png)
+
+Los documentos subidos y a disposición del trabajador también pueden ser descargados desde Inicio, en el widget de Documentos.
 
 ![2. Ver documentos subidos](/media/manual/2-ver-documentos-subidos-16d5da8535.png)

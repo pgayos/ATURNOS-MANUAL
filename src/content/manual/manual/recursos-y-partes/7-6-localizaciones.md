@@ -60,11 +60,17 @@ Las localizaciones en un equipo pueden ser consideradas como departamentos, áre
 
 Una localización puede ser asociada al trabajador y/o a los turnos, horas y absentismos planificados en un cuadrante. A los trabajadores se les puede atribuir una localización por defecto. A su vez esta será la misma localización que tienen configurada en su perfil del trabajador (ver Categoría & Contrato ).
 
+![7.6 Localizaciones](/media/manual/7-6-localizaciones-d7310cc31a.png)
+
 También se puede asociar localizaciones a los turnos planificados, de esta manera define la zona donde el trabajador realiza su jornada laboral.
+
+![7.6 Localizaciones](/media/manual/7-6-localizaciones-ff356d8899.png)
 
 El uso de las localizaciones es importante por ejemplo, al momento de clasificar una búsqueda de los trabajadores o turnos que tengan asignados localizaciones (ver Tipos de turno ), por medio del filtro de localizaciones en cuadrantes, estadísticas y otros reportes, para visualizar solo los trabajadores y/o turnos de una localización en particular.
 
 En la tabla de cobertura del cuadrante, se obtiene gran información de las localizaciones, al existir la opción de visualizar en detalle la demanda y cobertura real de los turnos por localizaciones.
+
+![7.6 Localizaciones](/media/manual/7-6-localizaciones-568b84f1b6.png)
 
 El administrador podrá configurar la privacidad de visualizar las localizaciones de un mismo equipo donde se encuentran distribuidos los trabajadores, es decir, en los ajustes se puede delimitar para que los trabajadores, administradores validadores y administradores planificadores, solo vean los turnos de su localización por defecto, no teniendo acceso a ver en el cuadrante trabajadores de otras localizaciones (ver Visualizar turnos y compañeros de su misma localización ).
 
@@ -76,7 +82,11 @@ así como definir la estructura de las mismas, es decir, existen localizaciones 
 
 En la barra superior existen estas tres funciones sobre el menú de Localizaciones.
 
+![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-2d11c28a31.png)
+
 Se despliegan dos opciones desde el botón de ‘Añadir’: Nueva localización y Localizaciones borradas.
+
+![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-480e380fad.png)
 
 Para crear una nueva localización es necesario darle un nombre, para ello indicarlo en el campo del formulario descripción (nombre de la localización) que debe ser único (no se pueden repetir dos localizaciones con el mismo nombre).
 
@@ -85,6 +95,8 @@ Las localizaciones puede ser editadas y/0 planificables por todos los administra
 Finalmente para registrarla y crearla, hay que hacer clic en ‘ Guardar ‘.
 
 Aparece un listado de localizaciones que se encuentran deshabilitadas al haber sido borradas del listado principal de localizaciones. Existen tres opciones con tres botones para estas localizaciones:
+
+![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-538cfd3c48.png)
 
 - Seleccionarla: botón de selección de la localización.
 - Deshacer: reestablece o recupera la localización en el listado de localizaciones.
@@ -95,6 +107,8 @@ Por medio del botón (flechas) se puede cambiar el orden en el que se muestran l
 También se puede establecer un orden por jerarquías, arrastrando una localización e incluirla dentro del recuadro de otra (Localización padre).
 
 Para guardar los cambios realizados, hay que hacer clic en el icono “Cambiar Orden”. Si por el contrario no quiere guardar los cambios, se debe hacer clic en el icono de “Volver”.
+
+![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-b31941bbcc.png)
 
 Esta opción permite descargar el listado de localizaciones en formato CSV.
 
@@ -109,6 +123,8 @@ Por último, desde los botones de este listado, se puede:
 - Editar una localización.
 - Seleccionarla para borrarla.
 
+  ![Localizaciones](/media/manual/localizaciones-6750d2821d.webp)
+
 A continuación se explican ambas acciones.
 
 Al hacer clic en Editar (icono del lápiz), se pueden modificar datos como:
@@ -118,15 +134,23 @@ Al hacer clic en Editar (icono del lápiz), se pueden modificar datos como:
 - Orden: también se puede configurar el orden de aparición en el listado.
 - Beacon: necesario para un tipo de fichaje del control de presencia, a través de sistemas con dispositivos bluetooth.
 
+  ![Localizaciones](/media/manual/localizaciones-068f4cc8e7.png)
+
 Existen dos variables que no se pueden editar y que están relacionadas con el menú de Geolocalización.
 
+![Localizaciones](/media/manual/localizaciones-eddb2696cd.png)
+
 Esta función nos permitirá configurar el radio de acción dentro del cual se podrá fichar mediante el control de presencia por Geolocalización (ver Fichar por geolocalización ).
+
+![Localizaciones](/media/manual/localizaciones-ff6de9f8a3.png)
 
 Desde el botón de ‘ Borrar seleccionada’ (papelera) se pueden eliminar las localizaciones que se hayan seleccionado. Una vez realizada la acción, esta se puede deshacer desde el ‘ Localizaciones borradas ‘.
 
 ### Mapa
 
 Al editar una localización, se le puede asignar una dirección física, apareciendo geolocalizada en el mapa.
+
+![Mapa](/media/manual/mapa-165cff2453.png)
 
 ### Acciones de la tabla
 
@@ -138,6 +162,8 @@ Al editar una localización, se le puede asignar una dirección física, apareci
 Las localizaciones pueden contener mayor información para realizar estadísticas.
 
 Se pueden añadir desde ‘Datos personalizados’ creados para ‘Localizaciones’.
+
+![Datos personalizados](/media/manual/datos-personalizados-804de72f5b.webp)
 
 De esta forma, al hacer la consulta de ‘Reportes por localización’, se puede añadir información como el Centro de Coste o un ID, que lo identifica en un sistema integrado con aTurnos.
 
@@ -151,30 +177,4 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![7.6 Localizaciones](/media/manual/7-6-localizaciones-d7310cc31a.png)
-
-![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-2d11c28a31.png)
-
-![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-480e380fad.png)
-
 ![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-7da8083b2b.png)
-
-![7.6 Localizaciones](/media/manual/7-6-localizaciones-ff356d8899.png)
-
-![7.6 Localizaciones](/media/manual/7-6-localizaciones-568b84f1b6.png)
-
-![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-538cfd3c48.png)
-
-![Localizaciones](/media/manual/localizaciones-6750d2821d.webp)
-
-![Añadir, Cambiar orden y Acciones](/media/manual/anadir-cambiar-orden-y-acciones-b31941bbcc.png)
-
-![Localizaciones](/media/manual/localizaciones-068f4cc8e7.png)
-
-![Localizaciones](/media/manual/localizaciones-eddb2696cd.png)
-
-![Datos personalizados](/media/manual/datos-personalizados-804de72f5b.webp)
-
-![Localizaciones](/media/manual/localizaciones-ff6de9f8a3.png)
-
-![Mapa](/media/manual/mapa-165cff2453.png)

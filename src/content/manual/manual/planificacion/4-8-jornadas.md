@@ -54,17 +54,13 @@ order: 1
 
 Este bloque nos muestra el número de jornadas que se realizan por cada día, dentro del intervalo seleccionado en la barra superior.
 
+![4.8 Jornadas](/media/manual/4-8-jornadas-feafdf215c.png)
+
 ## Procedimiento
 Los datos se pueden ver representados en un Gráfico de barras, indicando el total de jornadas planificadas en un periodo.
+
+![4.8 Jornadas](/media/manual/4-8-jornadas-2baea7d905.png)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.8 Jornadas](/media/manual/4-8-jornadas-2baea7d905.png)
-
-![4.8 Jornadas](/media/manual/4-8-jornadas-feafdf215c.png)

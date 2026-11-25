@@ -62,12 +62,18 @@ Este reporte, permite consultar de forma resumida todos los fichajes realizados 
 - Cuáles quedan por cerrarse.
 - Y el porcentaje de fichajes modificados.
 
+  ![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-505a3344ab.webp)
+
 Los datos de este reporte se pueden filtrar.
 
 - Entre dos fechas
 - Para buscar trabajadores en concreto.
 
+  ![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-f0a149ae62.webp)
+
 También se puede filtrar por las localizaciones que se seleccionen.
+
+![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-9e00aa480a.webp)
 
 Los parámetros que se pueden consultar en este reporte son las siguientes:
 
@@ -77,16 +83,6 @@ Los parámetros que se pueden consultar en este reporte son las siguientes:
 - Total fichajes manuales: número de fichajes que han sido insertados manualmente por el administrador.
 - Fichajes olvidados este día. Actualizar fichajes sin cerrar: número de fichajes sin completar, es decir, entradas donde falta una salida o salidas donde falta una entrada en el mismo turno planificado. Este es un ejemplo de un marcaje sin cerrar.
 
+  ![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-a57c329ed8.webp)
+
 - Porcentaje de fichajes no automáticos: número de fichajes que han sido modificados por el administrador o mediante una petición de ‘ Solicitar modificación ‘.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-f0a149ae62.webp)
-
-![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-505a3344ab.webp)
-
-![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-9e00aa480a.webp)
-
-![4.7 Calidad del fichaje](/media/manual/4-7-calidad-del-fichaje-a57c329ed8.webp)

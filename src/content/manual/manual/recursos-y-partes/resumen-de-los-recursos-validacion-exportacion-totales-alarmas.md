@@ -74,17 +74,29 @@ Para que los recursos informados por el trabajador (consulta en el Manual ) y/o 
 
 2.- Cualquiera que sea la forma de marcar el check la columna “Validado” (puntos 1.1. y 1.2 anteriores), marcar la opción “Guardar”.
 
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-ebf39b6a1f.png)
+
 3.- Una vez se marque la opción “Guardar”, se debe “Aceptar”
 
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-27aebfb6df.png)
+
 4.- Una vez se acepta, se visualiza en la columna “Validado por” el nombre del administrador que ha validado el recurso.
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-0fd7f407b0.png)
 
 5.- Solo los recursos validados pueden exportarse como variable de nómina, por esta razón el efecto que produce es la imposibilidad de modificarlo por parte del trabajador.
 
 Al acceder al recurso desde el cuadrante, los recursos “Dietas” y “Kilómetros a pagar” del 07/05/2024 no pueden modificarse.
 
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-eb90074dcc.png)
+
 6.- Para “desvalidar un recurso” se debe desmarcar el check de la columna “Validado” y marcar la opción “Guardar”. En este ejemplo, se desmarca el recurso “Kilómetros a pagar”.
 
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-cf64584442.png)
+
 7.- Se disponen de filtros específicos tanto por el nombre del recurso como el estado del recurso (sin validar, validado o exportado).
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-273f79f22b.png)
 
 Como ya se ha indicado en varias ocasiones en este Manual, uno de los principales uso del módulo de Recursos es el abono de variables como las dietas y/o el kilometraje.
 
@@ -93,6 +105,8 @@ En este enlace del Manual de Nóminas se explica el proceso completo de parametr
 El efecto de la exportación a nómina solo si se realiza a través de ADMINISTRAR → NÓMINAS → EXPORTAR NÓMINAS (Manual Exportar Nóminas) es el marcado con el check en la columna “Exportado”.
 
 En este ejemplo, tanto los recursos “Dietas” como “Kilómetros a pagar” validados del día 07/05/2024 tienen el check en la columna “Exportado”.
+
+![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-39dcf95d53.png)
 
 Totales
 
@@ -106,26 +120,12 @@ En este resumen se refleja:
 - Alarma: Muestra el límite definido en la definición del recurso. Para incluir un límite a un recurso, consulta el Manual.
 - Botón de Acción: Desactiva la alarma, es decir, deja de visualizarse en rojo. No desaparece la alerta, porque el valor del límite aún ha sido superado por el valor total del recurso.
 
+  ![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-bf07967800.png)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-27aebfb6df.png)
-
-![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-eb90074dcc.png)
-
-![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-0fd7f407b0.png)
-
-![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-cf64584442.png)
-
-![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-273f79f22b.png)
-
-![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-bf07967800.png)
-
 ![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-a8ca95c0bb.png)
 
 ![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-699cabfb18.png)
-
-![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-39dcf95d53.png)
-
-![Resumen de los Recursos. Validación. Exportación. Totales. Alarmas](/media/manual/resumen-de-los-recursos-validacion-exportacion-totales-alarmas-ebf39b6a1f.png)

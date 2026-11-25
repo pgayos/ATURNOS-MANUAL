@@ -66,14 +66,10 @@ El administrador o los administradores del equipo tendrán la opción de subir t
 
 Para ello, hay que hacer clic sobre el icono situado en la parte inferior derecha:
 
+![Subir y descargar documentos](/media/manual/subir-y-descargar-documentos-a357568621.png)
+
 2. Ver y descargar documentos
 
 En este caso, el administrador podrá descargar y ver los documentos que los trabajadores suben de forma personal (un parte de baja o trabajo, un justificante médico o de examen, etc.) o bien de forma general. Se podrán configurar los permisos de los trabajadores a la hora de subir o ver y descargar documentos desde la web.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Subir y descargar documentos](/media/manual/subir-y-descargar-documentos-a357568621.png)
 
 ![Subir y descargar documentos](/media/manual/subir-y-descargar-documentos-a207746b1f.png)

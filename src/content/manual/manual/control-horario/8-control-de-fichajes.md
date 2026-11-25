@@ -57,6 +57,8 @@ order: 1
 
 En este reporte se puede consultar de forma simplificada la jornada planificada, los fichajes realizados y las incidencias (absentismos) que puedan producirse a diario.
 
+![8. Control de fichajes](/media/manual/8-control-de-fichajes-7278954ee5.webp)
+
 El listado se puede ver por pantalla o generar una ‘ Petición de reporte ‘ para su descarga cuando el volumen de datos se sobrepasa.
 
 ## Filtros
@@ -89,8 +91,6 @@ Se informan los siguientes campos:
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![Filtros](/media/manual/filtros-6eb64be3ce.webp)
-
-![8. Control de fichajes](/media/manual/8-control-de-fichajes-7278954ee5.webp)
 
 ![Filtros](/media/manual/filtros-414c8c1b13.webp)
 

@@ -56,19 +56,15 @@ order: 1
 
 En busca de facilitar la labor del administrador, desde esta función se pueden copiar los turnos del cuadrante visible, haciendo clic en la columna del día que se necesite.
 
+![6. Copiar / Pegar día](/media/manual/6-copiar-pegar-dia-331d6e0104.png)
+
 ## Qué debes saber
 Una vez es copiado, es posible pegar los turnos planificados en otra columna (otro día) y queden insertados todos los turnos como en el día del que se copió la planificación.
+
+![6. Copiar / Pegar día](/media/manual/6-copiar-pegar-dia-a14fd69024.png)
 
 De esta manera los días coincidirán en la planificación, permitiendo copiar la planificación de un día a otro.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6. Copiar / Pegar día](/media/manual/6-copiar-pegar-dia-331d6e0104.png)
-
-![6. Copiar / Pegar día](/media/manual/6-copiar-pegar-dia-a14fd69024.png)

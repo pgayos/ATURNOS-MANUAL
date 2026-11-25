@@ -71,6 +71,8 @@ El trabajador puede reingresar de nuevo en aTurnos, tantas veces como la empresa
 3. Después aparece un formulario en el que debes de insertar el día en el que se ocasiona la baja del trabajador en cuestión. Para que no aparezca en el listado de trabajadores activos, tienes que insertar una fecha anterior al día actual (ejemplo: si hoy es día 01/04/2020, debes insertar una fecha anterior, como el 31/03/2020), de no ser así, la baja del trabajador se producirá al siguiente día.
 4. Por último, tienes que hacer clic en “guardar”, situado en la esquina inferior derecha del formulario.
 
+   ![¿Cómo dar la baja a un trabajador?](/media/manual/como-dar-la-baja-a-un-trabajador-25f3daa8f6.png)
+
 ### ¿Qué es un trabajador inactivo?
 
 En aTurnos se define como un trabajador inactivo a aquellos trabajadores que han sido dados de baja contractualmente, pero que, para no ser eliminados de aTurnos en referencia a futuras contrataciones (como pueden ser los trabajadores temporales), se encuentran en el listado como trabajadores inactivos. Será inactivo un trabajador una vez que se le elimina por medio de la acción “borrar” (icono papelera).
@@ -80,9 +82,3 @@ También se va a mostrar a un trabajador en el listado de inactivos cuando se le
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo dar la baja a un trabajador?](/media/manual/como-dar-la-baja-a-un-trabajador-25f3daa8f6.png)

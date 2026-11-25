@@ -66,24 +66,24 @@ Ejemplo de documento: CSV import_plantilla-tareas.
 - Flexible o Fija: En el caso de que las tareas sean flexible se informa valor 1, en caso de que las tareas sean fijas se informa cero o en blanco
 - Prioridad de la tarea: Valores de 1 a 5, siendo 5 el valor máximo.
 
+  ![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-6ffe59cbbd.webp)
+
 Finalmente, debe “Guardar” el documento como formato Excel o un fichero tipo CSV.
 
 Una vez creado, accede a Administrar → Importar/Exportar → Importar (ver Importar ).
 
 Selecciona el fichero creado y selecciona el tipo de importación “Importar plantillas de tareas”.
 
+![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-84c80240c2.png)
+
 Para terminar marca “Asociar”.
 
 Accede a TAREAS → PLANTILLA DE TAREAS donde aparecen las plantillas de tareas importadas.
 
+![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-c286c0f96f.webp)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-6ffe59cbbd.webp)
-
-![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-84c80240c2.png)
-
-![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-c286c0f96f.webp)
 
 ![16. Importación plantilla de tareas (Tareas)](/media/manual/16-importacion-plantilla-de-tareas-tareas-bfe2765801.webp)

@@ -58,22 +58,18 @@ Información sobre borrar cuadrante, con instrucciones y contexto revisables por
 ## Qué debes saber
 La opción ‘Borrar cuadrante’ permite al administrador borrar la planificación de turnos que tenga el trabajador. Únicamente se borrarán los turnos visibles en el cuadrante. Si el cuadrante tiene la vista de una semana, solo se eliminará la planificación de esa semana.
 
+![15. Borrar cuadrante](/media/manual/15-borrar-cuadrante-e48859c3c1.webp)
+
 Se puede borrar:
 
 - Planificación: como turnos, horas, absentismos y recursos asociados (este último si el equipo tiene el Módulo de Recursos activado).
 - Vacaciones: borrará las vacaciones planificadas dentro del período visible.
 - Turnos de 0 horas: es aquel que su duración total y computada es de cero horas (turno sin horas), estos turnos se identifican en el cuadrante con el color naranja.
 
+  ![15. Borrar cuadrante](/media/manual/15-borrar-cuadrante-5d9a0d1bef.webp)
+
 Cada vez que se borre el cuadrante, el sistema preguntará si se quiere actualizar la fecha fin de planificación.
 
-A continuación, se puede ver cómo borrar el cuadrante de un trabajador.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![15. Borrar cuadrante](/media/manual/15-borrar-cuadrante-e48859c3c1.webp)
-
-![15. Borrar cuadrante](/media/manual/15-borrar-cuadrante-5d9a0d1bef.webp)
-
 ![15. Borrar cuadrante](/media/manual/15-borrar-cuadrante-095d83b163.webp)
+
+A continuación, se puede ver cómo borrar el cuadrante de un trabajador.

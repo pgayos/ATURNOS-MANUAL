@@ -64,16 +64,12 @@ Se clasifica en tres variables:
 - Horas presenciales computables: Son las horas presenciales que coinciden con las horas de los turnos que computan como horas de contrato y no extraordinarias.
 - Horas presenciales no computables: Son las horas presenciales que coinciden con las horas de los turnos que no computan como horas de contrato.
 
+  ![4.2. Horas presenciales](/media/manual/4-2-horas-presenciales-9529eec6d3.webp)
+
 Este reporte se puede filtrar entre una fecha inicio y fin, así como ocultar columnas y descargar en Excel o PDF la información.
 
-Por ejemplo, si un trabajador realiza un turno computado de 7 horas, pero presencialmente ha realizado 8 horas y esa hora añadida se inserta como un ajuste de marcaje como una hora extraordinaria, el resultado sería el siguiente.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.2. Horas presenciales](/media/manual/4-2-horas-presenciales-9529eec6d3.webp)
-
 ![4.2. Horas presenciales](/media/manual/4-2-horas-presenciales-a99b0dfea4.webp)
+
+Por ejemplo, si un trabajador realiza un turno computado de 7 horas, pero presencialmente ha realizado 8 horas y esa hora añadida se inserta como un ajuste de marcaje como una hora extraordinaria, el resultado sería el siguiente.
 
 ![4.2. Horas presenciales](/media/manual/4-2-horas-presenciales-8e9150730e.webp)

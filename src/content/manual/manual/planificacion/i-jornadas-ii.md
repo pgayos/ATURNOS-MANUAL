@@ -55,12 +55,8 @@ Información sobre jornadas II, con instrucciones y contexto revisables por el e
 ## Opciones y datos disponibles
 Este informe te permite visualizar las jornadas de acuerdo a la configuración de jornadas donde se establecen los parámetros para considerar o contabilizar una jornada (Ver Cálculo de jornadas ), así como el número de jornadas de absentismo diferenciada por el tipo.
 
+![i. Jornadas II](/media/manual/i-jornadas-ii-5bb1990b72.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![i. Jornadas II](/media/manual/i-jornadas-ii-5bb1990b72.png)

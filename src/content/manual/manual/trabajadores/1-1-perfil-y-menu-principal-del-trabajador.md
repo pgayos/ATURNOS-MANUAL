@@ -76,9 +76,13 @@ En primer lugar, veremos:
 - Si quieres ver las opciones y funcionalidades del perfil de usuario en aTurnos accede al siguiente enlace del manual: Mi perfil en aTurnos.
 - Para ver los cambios que puedes realizar en tu perfil como usuario de aTurnos, accede a la siguiente Guía de usuario.
 
+  ![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-a72eae8d34.png)
+
 El usuario tendrá en su perfil diferentes acciones a realizar o información a consultar desde su perfil.
 
 Si haces clic en el ‘ lapicero ’ podremos subir una foto, si queremos eliminar la foto, únicamente hay que hacer clic en la ‘X’.
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-80ce2208cb.png)
 
 Permite modificar datos personales como:
 
@@ -88,11 +92,17 @@ Permite modificar datos personales como:
 
 Así como, descargar los datos de la cuenta o ver tu registro de acciones (accesos, marcajes, modificaciones, etc.).
 
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-43c103c922.png)
+
 - Cambiar el idioma (Castellano, inglés y portugués).
 - Recibir e-mails y notificaciones del sistema.
 - Darte de baja: no está disponible en algunos trabajadores depende de la configuración del administrador de tu equipo. (no se podrá acceder, mientras no recibas un nuevo correo de activación).
 - Modificar tu contraseña (indicando la actual y la nueva).
 - Vincular cuenta de aTurnos con Google Calendar, para que se muestren los turnos y/o absentismos que tiene informados del cuadrante en el Calendario de Google. Ver ¿Cómo vincular mi cuenta de aTurnos con el Google Calendar?
+
+  ![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-7e9299425f.png)
+
+  ![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-8b13d6cfdb.png)
 
 Muestra los siguientes datos:
 
@@ -109,11 +119,15 @@ Indica la cantidad de “Datos personalizados”, completados en el perfil (si n
 
 El trabajador, dependiendo de los permisos que tenga previamente configurado por la empresa, podrá acceder a las siguientes pestañas del menú del perfil del trabajador:
 
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-b1c89c4805.png)
+
 Es la información relevante de cara a las vacaciones del trabajador, así como los datos referentes a las horas del trabajador según su contrato de trabajo.
 
 El trabajador podrá consultar:
 
 El cálculo estimado de horas es la forma que tenemos en aTurnos de estimar las horas a trabajar mensualmente, de forma que al comparar éstas horas estimadas de trabajo mensual con las realmente planificadas, obtenemos un saldo de horas, el trabajador debe horas o la empresa le debe horas.
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-9674c41805.png)
 
 Los ajustes nos permiten cuadrar las horas (dejar el saldo de horas a 0) que hay planificadas en el cuadrante del periodo de un trabajador o en un año completo, respecto a las que están reguladas en un convenio colectivo y/o contrato.. Los administradores de los equipos realizarán estas acciones, mostrando aquí la información de los ajustes realizados por incrementos o decrementos de horas por contrato o planificadas. En esta pantalla se podrá ver:
 
@@ -121,7 +135,11 @@ Los ajustes nos permiten cuadrar las horas (dejar el saldo de horas a 0) que hay
 - Las horas teóricas a trabajar anuales atendiendo a las horas anuales según convenio, la fecha de alta y/o baja, el porcentaje de jornada.
 - Las horas de ajuste, estas horas pueden sumar o restar de las horas planificadas, se utiliza para saldar las horas.
 
+  ![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-80854e4e7a.png)
+
 Si los hubiera, el trabajador podrá revisar aquellos datos personalizados en su perfil.
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-b5eb3ebe60.png)
 
 Se entiende como restricciones aquellas limitaciones legales o personales impuestas por la empresa debido a su contrato o convenio colectivo.
 
@@ -133,13 +151,23 @@ Haciendo clic en el botón “Petición”, el trabajador podrá solicitar cualq
 
 También es posible que se tengan que informar de otras variables, como los tipos de turno que se pueden o no trabajar, permisos, límite de horas o una concreción de horario laboral. Para finalizar la petición, hay que guardar la solicitud de la misma para que pueda ser aprobada por el administrador del equipo de trabajo.
 
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-8440ec7eda.png)
+
 En la parte inferior aparecen las “Peticiones de restricciones” solicitadas, pudiendo saber cuáles han sido aprobadas, denegadas o aún pendientes.
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-7b7b56cc39.png)
 
 En este apartado, el trabajador tiene acceso a todos aquellos periodos de absentismo que ha tenido o tiene planificados en su cuadrante con los datos de los días y horas de baja o permiso.
 
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-6a2c1c886e.png)
+
 Si la empresa a la que se pertenece como trabajador exportar los datos de tu cuadrante para informarse en el sistema de nóminas que utiliza RRHH, aparecerán la fecha a la cual se ha cerrado el cuadrante para su exportación (aparecerá el cuadrante con un candado en la fila superior de los días del cuadrante, quedando deshabilitados esos días para realizar cualquier tipo de petición).
 
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-f1c82aaad1.png)
+
 Cuando se hayan exportado esos datos a nóminas, se mostrará el día en el que se ha realizado la acción, qué fechas se han exportado y el autor de la exportación.
+
+![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-1248b1cb62.png)
 
 En el caso de estar registrado en varios equipos, tendrás la posibilidad de ver información de las horas de contrato en cada equipo, comparando con las que han sido planificadas en cada uno de ellos. Ver esta información también dependerá de los permisos que estén configurados en el equipo.
 
@@ -161,11 +189,15 @@ Aparecerán en la parte superior de tu fotografía de perfil cuando te aprueban 
 
 Con independencia de la notificación, cuando accedes al sistema (tanto app, como a través del web), ves las notificaciones pendientes, similar a las notificaciones de otras apps (whatsapp, facebook, etc.)
 
+![Notificaciones de peticiones pendientes](/media/manual/notificaciones-de-peticiones-pendientes-0561865f38.png)
+
 - Si eres Trabajador puedes ver el proceso de solicitar peticiones (de vacaciones, permisos, etc.) en el siguiente enlace: Nueva petición
 
 ### Equipos
 
 En caso de formar parte de varios equipos, puedes cambiar de equipo haciendo clic en la barra verde (donde aparecerá el nombre del equipo en el que te encuentras actualmente). Para ver todos los equipos en los que estás dado de alta, haz clic en “Mis Equipos”.
+
+![Equipos](/media/manual/equipos-c2407b5beb.png)
 
 ### Menús de aTurnos
 
@@ -178,6 +210,8 @@ Las ventanas que puede visualizar un Trabajador sin módulos añadidos son las s
 5. Estadísticas: Estadísticas
 6. Control de Presencia: Control de presencia
 
+   ![Menús de aTurnos](/media/manual/menus-de-aturnos-bc5a8db295.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
@@ -186,38 +220,4 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-a72eae8d34.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-43c103c922.png)
-
 ![1.1 Perfil y Menú principal del Trabajador](/media/manual/1-1-perfil-y-menu-principal-del-trabajador-3b3424f7e9.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-80ce2208cb.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-7e9299425f.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-8b13d6cfdb.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-80854e4e7a.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-b1c89c4805.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-9674c41805.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-b5eb3ebe60.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-f1c82aaad1.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-7b7b56cc39.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-8440ec7eda.png)
-
-![Equipos](/media/manual/equipos-c2407b5beb.png)
-
-![Menús de aTurnos](/media/manual/menus-de-aturnos-bc5a8db295.png)
-
-![Notificaciones de peticiones pendientes](/media/manual/notificaciones-de-peticiones-pendientes-0561865f38.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-1248b1cb62.png)
-
-![Acceso a tu perfil](/media/manual/acceso-a-tu-perfil-6a2c1c886e.png)

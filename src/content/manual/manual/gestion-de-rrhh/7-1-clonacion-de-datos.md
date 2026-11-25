@@ -74,13 +74,21 @@ Los pasos para realizar la clonación son los siguientes
 
 1. Selecciona el equipo origen, es aquel que tiene la configuración que se quiere clonar a los demás y el equipo o equipos de destino (puedes marcar “Todos”).
 
+   ![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-af16a0f5b7.png)
+
 2. Seleccionar los datos a clonar.
 
 3. Seleccionar el tipo de clonación.
 
+   ![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-800ff911b2.png)
+
 4. Seleccionar los datos que se quieren clonar del tipo.
 
+   ![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-d88ceb24ef.png)
+
 5. Ejecutar la acción de clonar en el botón clonar. El sistema ofrece la información en forma de “Log” listando los datos clonados en los equipos destinos
+
+   ![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-2f0f166345.png)
 
 Otros tipos de clonaciones:
 
@@ -101,15 +109,3 @@ En clonar Absentismos:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-af16a0f5b7.png)
-
-![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-2f0f166345.png)
-
-![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-d88ceb24ef.png)
-
-![¿Cómo realizar una clonación de un equipo origen a otro/os equip0/os destino?](/media/manual/como-realizar-una-clonacion-de-un-equipo-origen-a-otro-os-equip0-os-de-800ff911b2.png)

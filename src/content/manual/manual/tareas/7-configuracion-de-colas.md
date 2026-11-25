@@ -55,8 +55,16 @@ order: 1
 
 Una vez dadas de alta las Especialidades se crean las Colas, acceda a Tareas → Procesos → Colas. Utiliza la opción Crear y selecciona una a una todas las especialidades creadas.
 
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-d2d4be4a1e.png)
+
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-2cc91819dc.png)
+
 ## Procedimiento
 Una vez creada la cola, se edita para configurar correctamente el sistema y le permite modificar los minutos que se asignan a cada tarea (de 5 en 5 minutos), entre otras funcionalidades.
+
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-48a18ea6c4.png)
+
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-d334401226.png)
 
 1.Privada (Solo se pueden asignar tareas por los trabajadores desde la tienda): En caso positivo las tareas en la cola solo pueden ser asignadas en tienda por los trabajadores desde el backoffice. Es decir, no es accesible desde a los clientes desde la Web, el APP o los kioscos. Suele ser NO.
 
@@ -92,24 +100,12 @@ b) Si está llena la cola no permitir pedir más citas. En este caso el Kiosko n
 
 13.Texto que aparece en el kiosko en la solicitud de la cita.
 
+![7. Configuración de colas](/media/manual/7-configuracion-de-colas-e22a364b40.png)
+
 14.Asunto del correo que aparece en el caso de que el usuario solicite una cita on-line.
 
 15.Cuerpo del correo que recibe en usuario
 
 16.Icono que aparece en el kiosko:
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7. Configuración de colas](/media/manual/7-configuracion-de-colas-d2d4be4a1e.png)
-
-![7. Configuración de colas](/media/manual/7-configuracion-de-colas-2cc91819dc.png)
-
 ![7. Configuración de colas](/media/manual/7-configuracion-de-colas-7d1bc9482e.png)
-
-![7. Configuración de colas](/media/manual/7-configuracion-de-colas-48a18ea6c4.png)
-
-![7. Configuración de colas](/media/manual/7-configuracion-de-colas-d334401226.png)
-
-![7. Configuración de colas](/media/manual/7-configuracion-de-colas-e22a364b40.png)

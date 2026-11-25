@@ -62,15 +62,27 @@ Las peticiones de fichajes pueden ser configuradas para ser aprobadas automátic
 
 Los fichajes insertados mediante el proceso de peticiones se registrarán como fichajes insertados por ‘ Petición’ en el listado de fichajes.
 
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-b2436369fa.png)
+
 También se indicará en el informe del trabajador con la abreviatura de la acción de marcaje, en este caso una (P) de petición.
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-c1d92d3c51.png)
 
 El administrador de un equipo que esté planificado en el mismo, puede realizar las solicitudes de petición de marcaje desde el modal de ‘Fichajes pendientes’, ya que le aparecerán todos aquellos fichajes que habiendo turno en ese día, no se han realizado. La visualización de estos fichajes, dependerá de las fechas indicadas en la barra superior.
 
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-4073e12848.png)
+
 Los administradores de los equipos que así lo tengan permitido por configuración (ver Visibilidad del perfil y Privacidad de Control de Presencia ) y tengan planificación, pueden realizar las peticiones de marcaje desde la barra superior, desde el botón ‘Acciones’.
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-b6d17133bc.png)
 
 Lo primero que se debe saber es si el marcaje que se va añadir es una entrada o una salida, haciendo clic en el botón del marcaje que se necesita solicitar como petición.
 
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-bfd5cdbb6a.png)
+
 Al hacer clic sobre los botones ‘Añadir entrada’ y/o ‘Añadir salida’ se despliega el siguiente formulario a completar:
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-81eac91d97.png)
 
 - Fecha/Hora: se indica el día, mes, año y la hora exacta del marcaje no realizado para que sea insertado.
 - Tipo de marcaje: según los tipos de fichajes creados, se elegirá el tipo de fichaje que no se ha registrado.
@@ -81,28 +93,12 @@ Para que se registre la petición, se debe pulsar sobre el botón ‘Guardar’.
 
 Siempre que haya un turno planificado en un día y no se hayan realizado fichajes dentro de la franja horaria del mismo, en el listado de fichajes pendientes, se visualizará el marcaje con inicio y fin del turno planificado que no fue realizado y la opción de ‘Solicitar’ ese marcaje pendiente como una petición.
 
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-9f7cc3bd44.png)
+
 Al hacer clic sobre ‘Solicitar’, automáticamente se carga el modal con el formulario de peticiones de fichajes con la entrada y salida del turno añadidas, únicamente para finalizar el registro de la petición de los fichajes, habría que pulsar sobre ‘Guardar’.
+
+![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-098fae9e54.png)
 
 Los fichajes que hayan sido solicitados, pero sigan pendientes de ser aprobados (ver Peticiones pendientes de fichajes ) aparecerán en la columna ‘Fichajes solicitados’ del listado de fichajes pendientes.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-c1d92d3c51.png)
-
-![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-b2436369fa.png)
-
-![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-4073e12848.png)
-
-![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-b6d17133bc.png)
-
-![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-bfd5cdbb6a.png)
-
-![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-9f7cc3bd44.png)
-
-![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-81eac91d97.png)
-
 ![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-92d9de883a.png)
-
-![3.1 Fichajes pendientes](/media/manual/3-1-fichajes-pendientes-098fae9e54.png)

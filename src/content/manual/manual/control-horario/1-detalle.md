@@ -74,13 +74,21 @@ Desde aquí se puede filtrar por la fecha del día, tipos de marcajes, periodo d
 - Estado positivo: aparecen los trabajadores cuyas horas planificadas son menores que las horas presenciales. Interpretado como saldo o estado negativo
 - Usuarios dentro (fecha actual): son los trabajadores que en el momento de hacer la consulta están en tiempo de trabajo y han fichado.
 
+  ![Barra de filtros](/media/manual/barra-de-filtros-61c7f27752.png)
+
 - Usuarios fuera (fecha actual): se muestran los trabajadores que en el momento de hacer la consulta, no están en tiempo de trabajo, tienen informado un absentismo en el cuadrante (ver añadir absentismo en el cuadrante ) o no han fichado.
+
+  ![Barra de filtros](/media/manual/barra-de-filtros-c9dfaefcf5.png)
 
 ### Añadir marcajes
 
 Este botón permite al administrador insertar marcajes de forma manual a un trabajador que se seleccione, indicando fecha y hora, añadir como entrada o salida, así como la localización del marcaje (ver Localizaciones ) y el tipo de marcaje (ver Tipos de marcaje ).
 
+![Añadir marcajes](/media/manual/anadir-marcajes-6ebb1cda06.png)
+
 Cuando se añade un marcaje, aparece reflejado con una raya roja en el gráfico.
+
+![Añadir marcajes](/media/manual/anadir-marcajes-e38ba774a7.png)
 
 Otra forma de añadir marcajes manualmente, es desde ‘Insertar marcajes’.
 
@@ -93,6 +101,8 @@ Desde el icono de “+” se pueden añadir marcajes al trabajador y por último
 ### Insertar o modificar marcajes
 
 Los marcajes son todas aquellas rayas rojas que hay en el gráfico de la línea temporal de un día o aquellos marcajes cerrados que forman una barra naranja entre el marcaje de entrada y el de salida (ver Interpretación de los gráficos ).
+
+![Insertar o modificar marcajes](/media/manual/insertar-o-modificar-marcajes-fe79415dd9.png)
 
 Al pasar el cursor sobre un marcaje (raya roja) o un marcaje completado (barra naranja) se mostrará información sobre el fichaje realizado por el trabajador. Estos fichajes son modificables al hacer clic sobre ellos.
 
@@ -115,22 +125,8 @@ Además desde ‘Ajustar’ se pueden realizar otras acciones:
 
 Los ajustes también se puede realizar a todos los trabajadores filtrados desde el botón ‘Ajustar todos’, haciendo señalado previamente el botón de selección de todos los trabajadores.
 
+![Ajustar marcajes](/media/manual/ajustar-marcajes-3b8301a0da.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Barra de filtros](/media/manual/barra-de-filtros-61c7f27752.png)
-
-![Añadir marcajes](/media/manual/anadir-marcajes-6ebb1cda06.png)
-
-![Barra de filtros](/media/manual/barra-de-filtros-c9dfaefcf5.png)
-
-![Insertar o modificar marcajes](/media/manual/insertar-o-modificar-marcajes-fe79415dd9.png)
-
-![Ajustar marcajes](/media/manual/ajustar-marcajes-3b8301a0da.png)
-
-![Añadir marcajes](/media/manual/anadir-marcajes-e38ba774a7.png)

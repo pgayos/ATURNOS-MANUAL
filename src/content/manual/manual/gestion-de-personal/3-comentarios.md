@@ -58,7 +58,11 @@ Registrar un comentario en el cuadrante de turnos es una acción frecuente y de 
 
 Desde el propio cuadrante el usuario puede añadir un comentario en cualquier día, el rol administrador puede registrar comentarios en la planificación de cualquier miembro de su equipo. De esta manera puede añadir información se su interés y quedar registrado con fines recordatorio. Esta acción se realiza desde la función ‘Comentario’ que aparece cuando se cliquea en un determinado día dentro del cuadrante.
 
+![3. Comentarios](/media/manual/3-comentarios-83b0c3a952.png)
+
 Se despliega la pantalla con los campos a informar:
+
+![3. Comentarios](/media/manual/3-comentarios-846940e037.png)
 
 1.- Nuevo comentario. En este campo se informa el comentario que se dejará registrado en el día.
 
@@ -72,6 +76,8 @@ Se despliega la pantalla con los campos a informar:
 
 3.- Definida la visibilidad, solo quedaría ‘Añadir’ el comentario para guardar el registro.
 
+![3. Comentarios](/media/manual/3-comentarios-3f727f33eb.png)
+
 Al consultarlo el comentario registrado se detalla:
 
 - Comentario: muestra el contenido del comentario que ha sido informado.
@@ -84,20 +90,10 @@ Una vez realizado el comentario, se registra en el cuadrante siendo visible para
 
 Accediendo al modal de los comentarios, se pueden editar aquellos que han sido realizados por el propio administrador, pulsando sobre el botón de editar.
 
+![3. Comentarios](/media/manual/3-comentarios-36e2a8d386.png)
+
 De esta forma se desplegará el modal de escribir el comentario para modificar lo escrito en el comentario. Y luego se debe hacer clic en el icono de Modificar para guardar los cambios.
 
 Desde el modal de comentarios, también se puede borrar todo comentario que como administrador se ha realizado en el turno de un día. Para ello hay que hacer clic en el botón de borrar.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Comentarios](/media/manual/3-comentarios-83b0c3a952.png)
-
-![3. Comentarios](/media/manual/3-comentarios-36e2a8d386.png)
-
-![3. Comentarios](/media/manual/3-comentarios-3f727f33eb.png)
-
 ![3. Comentarios](/media/manual/3-comentarios-79b46d22c2.png)
-
-![3. Comentarios](/media/manual/3-comentarios-846940e037.png)

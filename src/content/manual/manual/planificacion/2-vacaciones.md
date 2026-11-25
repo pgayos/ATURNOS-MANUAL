@@ -61,7 +61,11 @@ Crear las vacaciones como periodo de absentismo incluye una serie de ventajas qu
 - Se pueden pedir como periodos de absentismo, por lo que quedarían reflejadas en su correspondiente pestaña en el perfil del trabajador.
 - Se puede configurar de una manera más detallada, informando si las horas de estas vacaciones se suman o no.
 
+  ![.](/media/manual/vista-aturnos-b3fe93b8d1.webp)
+
 - Se sombrean en amarillo, además de añadir el marco de color amarillo propio de las vacaciones como tipo de turno.
+
+  ![.](/media/manual/vista-aturnos-2cc7ea0f3e.webp)
 
 ### Las vacaciones como un tipo de turno
 
@@ -69,9 +73,13 @@ Cuando se contrata aTurnos, por defecto las vacaciones aparecen como tipo de tur
 
 En el Cuadrante se muestra con un color amarillo y la abreviatura “V “.
 
+![Las vacaciones como un tipo de turno.](/media/manual/las-vacaciones-como-un-tipo-de-turno-332d125f86.webp)
+
 ### ¿Cómo puedo configurar que las Vacaciones sean Naturales o Laborables?
 
 El administrador del equipo desde Administrar → Ajustes puede configurar, a nivel de equipo el tipo de vacaciones (naturales o laborables), el número de días de vacaciones que dispone en el año, si hay redondeo, y hasta definir cuándo se pueden disfrutar las vacaciones pasadas dentro del año anterior (fin del periodo vacacional). También puede personalizar a nivel individual el tipo de vacaciones a un trabajador dentro del perfil del trabajador.
+
+![¿Cómo puedo configurar que las Vacaciones sean Naturales o Laborables?](/media/manual/como-puedo-configurar-que-las-vacaciones-sean-naturales-o-laborables-a6c7da649e.webp)
 
 - Tipos de vacaciones: Existen dos opciones “Días naturales” o “Solo días laborables”. Se escoge una opción para determinar los diferentes comportamientos del sistema en el momento de gestionar las vacaciones. Las vacaciones naturales se insertan cuando exista o no planificación en el cuadrante del trabajador, por ejemplo, si se solicita una semana, tenga o no turnos, se van a contar para las vacaciones los 7 días de la semana. En el caso de las vacaciones laborales solo contaría las vacaciones en las peticiones cuando tuviera turno y solo se sustituye por vacaciones los días que tiene turno asignado. Aunque pida una semana de vacaciones, solo contaría a su saldo de vacaciones los días planificados (con turnos). ¿Vacaciones naturales o laborables?
 - Vacaciones/año: indica el número de días de vacaciones por defecto que se asociará a todos los trabajadores del equipo cuando se encuentren de alta todo el año. Si no estuviera de alta todo el periodo se calcularía automáticamente según la proporción del período de alta que lleva en el año activo. Posteriormente y de manera individual, se puede modificar en el perfil de cada uno de ellos si fuera necesario. Puedes crear una restricción que te ayude a llevar el control y no sobrepasar la cantidad de días permitidos. (Ver restricción: No superar el saldo vacacional anual del trabajador ).
@@ -81,15 +89,3 @@ El administrador del equipo desde Administrar → Ajustes puede configurar, a ni
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![.](/media/manual/vista-aturnos-b3fe93b8d1.webp)
-
-![¿Cómo puedo configurar que las Vacaciones sean Naturales o Laborables?](/media/manual/como-puedo-configurar-que-las-vacaciones-sean-naturales-o-laborables-a6c7da649e.webp)
-
-![Las vacaciones como un tipo de turno.](/media/manual/las-vacaciones-como-un-tipo-de-turno-332d125f86.webp)
-
-![.](/media/manual/vista-aturnos-2cc7ea0f3e.webp)

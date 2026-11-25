@@ -53,10 +53,16 @@ order: 1
 
 Este reporte muestra las alertas o incidencias que se produzcan en el control de presencia por localización, las cuales se pueden visualizar en el ‘Diario’ o ‘Detalle’.
 
+![4.9 Alertas por trabajador](/media/manual/1-6-alertas-warnings-dfa460e35d.webp)
+
 ## Qué debes saber
 Los datos de este reporte se pueden filtrar entre dos fechas desde el botón de la barra superior.
 
+![4.9 Alertas por trabajador](/media/manual/4-9-alertas-por-trabajador-e2e03ef99c.webp)
+
 Se pueden buscar los fichajes de uno o más trabajadores, así como los de las localizaciones que se seleccionen.
+
+![4.9 Alertas por trabajador](/media/manual/4-9-alertas-por-trabajador-01c3e7417a.webp)
 
 Los parámetros que se pueden consultar en este reporte son las siguientes, así como todos aquellos configurados en ‘Visualización’.
 
@@ -64,14 +70,4 @@ Los parámetros que se pueden consultar en este reporte son las siguientes, así
 - Alerta: descripción de la incidencia producida.
 - Total: número de alertas que se han producido de ese tipo.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.9 Alertas por trabajador](/media/manual/1-6-alertas-warnings-dfa460e35d.webp)
-
-![4.9 Alertas por trabajador](/media/manual/4-9-alertas-por-trabajador-e2e03ef99c.webp)
-
-![4.9 Alertas por trabajador](/media/manual/4-9-alertas-por-trabajador-01c3e7417a.webp)
-
-![4.9 Alertas por trabajador](/media/manual/4-9-alertas-por-trabajador-017373e44f.webp)
+  ![4.9 Alertas por trabajador](/media/manual/4-9-alertas-por-trabajador-017373e44f.webp)

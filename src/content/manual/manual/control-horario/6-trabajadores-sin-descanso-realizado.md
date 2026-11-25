@@ -60,6 +60,10 @@ Aprende a trabajadores sin descanso realizado, con instrucciones y contexto revi
 ## Procedimiento
 Los trabajadores que tengan descansos programados a nivel de equipo, trabajador o turno, que por configuración deban fichar el descanso y se descuente automáticamente, pueden anular ese descanso. En el caso de hacerlo, aparecerán en este reporte.
 
+![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-c05c1baf57.webp)
+
+![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-84b189e091.webp)
+
 El reporte informa:
 
 - Equipo donde sucede el caso.
@@ -69,18 +73,10 @@ El reporte informa:
 - Fecha en la que se produce el caso.
 - Horas trabajadas.
 
+  ![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-f6011c8116.webp)
+
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
-
-Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-f6011c8116.webp)
 
 ![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-fc0d40c600.webp)
 
-![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-c05c1baf57.webp)
-
-![6. Trabajadores sin descanso realizado](/media/manual/6-trabajadores-sin-descanso-realizado-84b189e091.webp)
+Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.

@@ -57,12 +57,16 @@ order: 1
 
 El administrador del equipo desde la función Tipos, que se encuentra en el menú Documentos, puede crear los tipos de documentos que necesite desde el botón derecho de Acciones en ‘ Añadir Tipo de Documento ’.
 
+![1. Crear tipo de documento](/media/manual/1-crear-tipo-de-documento-347cb2c4aa.webp)
+
 ## Qué debes saber
 Se nos desplegará un menú en el que necesitaremos informar:
 
 - Nombre: para identificar el tipo de documento que queremos generar.
 - Descripción: información adicional del tipo de documento.
 - Asociado con: los documentos se pueden asociar a diferentes conceptos, tales como: Petición: Los documentos asociados a las peticiones se adjuntan en el momento de realizar una petición. Por ejemplo, un justificante de una cita médica (previa a la asistencia), la documentación necesaria para solicitar un turno libre o unas vacaciones, así como justificantes para permisos por días, adopciones u otros trámites. También puede adjuntarse cualquier otro documento que justifique la petición realizada. Solicitud personal: Este tipo de documento puede utilizarse para el resto de solicitudes que los trabajadores deseen realizar a los administradores. Documentación personal: Los documentos de este tipo se añaden desde Info al tener planificado un absentismo o un período de absentismo. En esta categoría pueden clasificarse documentos relacionados con la información del trabajador como partes de baja, justificantes médicos. Cuadrante: Este tipo de documento se utiliza durante el proceso de sellado, aprobación y publicación del cuadrante (Ajustes de privacidad). Al finalizar dicho proceso, el sistema genera automáticamente un documento PDF del cuadrante en Documentos → Documentos, conservando el contenido del cuadrante sin alteraciones.
+
+  ![1. Crear tipo de documento](/media/manual/1-crear-tipo-de-documento-6f6367cb8c.png)
 
 - Permisos
 
@@ -74,11 +78,3 @@ A continuación el administrador tiene que configurar los permisos para ver, sub
 Una vez cumplimentado el formulario, haciendo clic en el botón de acción ‘ Guardar’, se crea el tipo de documento
 
 En el siguiente enlace puedes obtener información de cómo subir documentos: ‘Subir documentos’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1. Crear tipo de documento](/media/manual/1-crear-tipo-de-documento-6f6367cb8c.png)
-
-![1. Crear tipo de documento](/media/manual/1-crear-tipo-de-documento-347cb2c4aa.webp)

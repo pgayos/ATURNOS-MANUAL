@@ -54,8 +54,12 @@ order: 1
 
 En este registro se pueden consultar todos los ‘Datos personalizados’ que hay creados en los equipos que se consulten.
 
+![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-7c579640f0.webp)
+
 ## Procedimiento
 Para ello lo primero que se debe realizar, es seleccionar en la barra superior los equipos que se quieren consultar y hacer clic sobre ‘Cargar’.
+
+![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-523053416d.webp)
 
 Cada equipo devuelve los datos personalizados que hay creados, indicando la siguiente información:
 
@@ -68,20 +72,12 @@ Cada equipo devuelve los datos personalizados que hay creados, indicando la sigu
 
 Se pueden ocultar aquellas columnas que no se quieran mostrar o descargar.
 
+![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-dec707cdad.webp)
+
 Se puede copiar o exportar el listado en CSV, Excel o PDF.
+
+![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-2e3cc63e83.webp)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-7c579640f0.webp)
-
-![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-523053416d.webp)
-
-![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-2e3cc63e83.webp)
-
-![2.3 Datos Personalizados](/media/manual/2-3-datos-personalizados-dec707cdad.webp)

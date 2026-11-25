@@ -80,8 +80,4 @@ También puedes crear tu propio fichero o archivo desde cero en un documento Exc
 - Localización: localización asociada a la demanda que se importa, la cual debe estar creada previamente (ver Crear nueva localización ). Informar este campo es opcional, depende de que la demanda esté relacionada directamente a una localización en particular o no.
 - Especialidad: podemos añadir una columna con el nombre de especialidad (e informar el nivel o puntuación requerido de 0 a 5) para calcular la demanda, ésta puede estar creada antes de hacer la importación (ver Especialidades ). Informar este campo es opcional, depende de que la demanda esté relacionada directamente a una Especialidad en particular o no.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![20. Importación de demanda por tipo de turno (Planificación automática)](/media/manual/20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica-adad31fe4d.png)
+  ![20. Importación de demanda por tipo de turno (Planificación automática)](/media/manual/20-importacion-de-demanda-por-tipo-de-turno-planificacion-automatica-adad31fe4d.png)

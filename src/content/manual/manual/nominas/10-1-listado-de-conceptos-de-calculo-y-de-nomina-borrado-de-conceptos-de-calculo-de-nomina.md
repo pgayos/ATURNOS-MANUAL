@@ -67,16 +67,12 @@ En primer lugar hay que seleccionar el equipo o equipos que se deseen, pudiendo 
 
 Desde el botón de acciones se pueden borrar tanto los conceptos de cálculo como los de nómina, importante, los conceptos una vez borrados no se pueden recuperar
 
+![10.1 Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina](/media/manual/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos--dac081525c.png)
+
 Con el botón descargar se pueden exportar los conceptos a un excel para tener una mayor visibilidad
+
+![10.1 Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina](/media/manual/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos--dfc57fb87a.png)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![10.1 Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina](/media/manual/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos--dfc57fb87a.png)
-
-![10.1 Listado de conceptos de cálculo y de nómina. Borrado de conceptos de cálculo de nómina](/media/manual/10-1-listado-de-conceptos-de-calculo-y-de-nomina-borrado-de-conceptos--dac081525c.png)

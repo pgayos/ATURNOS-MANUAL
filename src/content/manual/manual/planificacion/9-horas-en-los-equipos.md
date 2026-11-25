@@ -65,6 +65,8 @@ En la tabla ‘Horas’ podrás consultar los siguientes datos:
 - Equipo: Se visualiza el nombre del equipo o equipos de los que forma parte el trabajador, en cada periodo contratado del año a consultar.
 - Inicio: Fecha de inicio del periodo de contrato. Si la fecha de inicio es anterior al año consultado, el cálculo se realiza a partir del día 1/1 del año consultado.
 
+  ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-e9deb3cc9c.webp)
+
 - Fin: Fecha de fin del periodo de contrato. Si no tiene fecha informada el cálculo se realiza hasta el 31/12 del año consultado.
 - Horas contrato/año: Número de horas de trabajo anuales que debe realizar el trabajador por su convenio, con independencia de la fecha de alta y el porcentaje de jornada.
 - Porcentaje de jornada (%): Indica el % de jornada que realiza el trabajador en el periodo del contrato consultado. Es el valor que se aplica a las horas contrato/año para el cálculo de las horas contrato/periodo. Si realiza una jornada completa el porcentaje será del 100%.
@@ -84,10 +86,16 @@ En el momento que un trabajador acaba un contrato es frecuente que las horas que
 
 1. Desde el perfil del trabajador en “Horas en los equipos” seleccionar la opción Horas.
 
+   ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-744bda0db3.webp)
+
 1. Desde la columna “Balance horas con ajuste” hacer clic en el botón de acción representado por una misma fecha ascendente y descendente.
 2. Al hacer clic en este botón, seleccionar el periodo, de los que se muestran, y donde se quiere pasar las horas. Una vez seleccionado hacer clic en el botón “Guardar”.
 
+   ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-fa128f8ddd.webp)
+
 1. Las horas pasan al periodo seleccionado y el balance se ajusta a “0”.
+
+   ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-c63b103e03.webp)
 
 En la tabla Vacaciones podrás consultar los siguientes datos:
 
@@ -98,6 +106,8 @@ En la tabla Vacaciones podrás consultar los siguientes datos:
 - Balance de Vacaciones: Es el resultado de la diferencia entre las vacaciones contrato menos las vacaciones disfrutadas.
 - Balance de Vacaciones con ajuste: Resultado de la diferencia entre las vacaciones contrato, menos las vacaciones disfrutadas y el ajuste de vacaciones.
 
+  ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-98c63f82d5.webp)
+
 El administrador desde el perfil de trabajador puede ajustar las vacaciones por exceso o defecto que hayan sido disfrutada o no por el trabajador. Este ajuste se realiza de un periodo de contrato a otro desde el propio perfil de trabajador para dejar el periodo finalizado con un balance a “0” en la opción “Horas en los equipos”.
 
 En el momento que un trabajador acaba un contrato, es frecuente que las vacaciones de ese contrato no hayan sido planificadas. Esta diferencia genera un balance en las vacaciones con valor diferente a cero a favor del trabajador. Para que el balance sea igual a cero, es necesario pasar las vacaciones por exceso o defecto del periodo de contrato al siguiente periodo de contrato.
@@ -106,47 +116,33 @@ En el momento que un trabajador acaba un contrato, es frecuente que las vacacion
 
 1. Desde el perfil del trabajador en “Horas en los equipos” seleccionar la opción Vacaciones.
 
+   ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-ad0ae0a333.webp)
+
 1. Desde la columna “Balance” hacer clic en el botón de acción representado por una misma fecha ascendente y descendente.
 2. Al hacer clic en este botón, seleccionar el periodo, de los que se muestran, y donde se quiere pasar las vacaciones. Una vez seleccionado hacer clic en el botón “Guardar”.
 
+   ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-f6e6a5942d.webp)
+
 1. Las vacaciones pasan al periodo seleccionado y el balance se ajusta a “0”.
 
+   ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-5587e5a422.webp)
+
 Este ajuste se queda registrado en los ‘Ajustes’ de ‘Tiempos’ del ‘Perfil del trabajador’.
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-57ebbf7044.webp)
+
+![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-a327d8bdd7.webp)
 
 Hay casos donde un trabajador no va a tener un nuevo periodo de contrato y sus vacaciones no vayan a ser ni planificadas, ni disfrutadas.
 
 Existe la opción de saldar a cero el balance de las ‘Vacaciones periodo’ con el botón ‘Finiquitar vacaciones’.
 
-Finiquitaremos las vacaciones no planificadas, ni disfrutadas del periodo, registrando un ajuste de decremento de vacaciones en el periodo. Si había 12 días de vacaciones sin planificar, al realizar el ajuste, el balance se queda a cero.
-
-Al igual que en el traspaso de vacaciones de un periodo a otro, se registra un ajuste que se puede consultar en los ‘Ajustes’ de ‘Tiempos’ del ‘Perfil del trabajador’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-e9deb3cc9c.webp)
-
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-744bda0db3.webp)
-
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-fa128f8ddd.webp)
-
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-c63b103e03.webp)
-
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-ad0ae0a333.webp)
-
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-5587e5a422.webp)
-
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-98c63f82d5.webp)
-
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-f6e6a5942d.webp)
-
 ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-40bafa7b85.webp)
 
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-57ebbf7044.webp)
+Finiquitaremos las vacaciones no planificadas, ni disfrutadas del periodo, registrando un ajuste de decremento de vacaciones en el periodo. Si había 12 días de vacaciones sin planificar, al realizar el ajuste, el balance se queda a cero.
 
 ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-27f3fdcf4d.webp)
 
-![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-a327d8bdd7.webp)
+Al igual que en el traspaso de vacaciones de un periodo a otro, se registra un ajuste que se puede consultar en los ‘Ajustes’ de ‘Tiempos’ del ‘Perfil del trabajador’.
 
 ![9. Horas en los equipos](/media/manual/9-horas-en-los-equipos-78fc4df997.webp)

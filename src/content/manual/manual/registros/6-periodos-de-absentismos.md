@@ -66,6 +66,10 @@ Un periodo de absentismo está compuesto por absentismo totales. Puede ser de un
 
 El administrador puede añadir un periodo de absentismo desde el cuadrante donde está planificado el trabajador o desde el perfil del trabajador en la opción periodos de absentismos. Se mostrará un formulario donde tienes que rellenar los siguientes datos:
 
+![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-0a6aa84599.png)
+
+![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-d7155b7060.webp)
+
 - Fecha de inicio: día en el que el trabajador inicia el absentismo correspondiente. Se corresponde con el día de efecto en que dicho trabajador comienzo el absentismo, no con el día en que se procede a informar en aTurnos del mismo.
 - Fecha de fin: día en el que el trabajador finaliza el absentismo correspondiente. Al igual que en el caso anterior, se corresponde con el día de finalización en que dicho trabajador finaliza el absentismo.
 - Tipo de absentismo: indica, a partir del desplegable, la tipología de absentismo que quieres introducir. Recuerda, que en aTurnos, hay 3 tipologías diferentes de absentismo por defecto, según si descuenta o no horas sobre el mismo, así como si afecta a la nocturnidad o a los festivos planificados en el trabajador. (Aquí puedes visualizar los diferentes tipos de absentismo ).
@@ -76,18 +80,10 @@ El administrador puede añadir un periodo de absentismo desde el cuadrante donde
 
 Para borrar un periodo de absentismo desde aTurnos lo puedes hacer desde el perfil del trabajador en la opción periodos de absentismos, con la función borrar. Esta acción quitará el periodo de absentismos y se quedará la planificación actual sin los absentismos.
 
+![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-64e1e23442.webp)
+
 Para editar un periodo de absentismo desde aTurnos lo puedes hacer desde el perfil del trabajador en la opción periodos de absentismos, con la función editar. Esta acción permite al administrador cambiar el día de inicio o fin del periodo, el tipo de absentismos, identificarlo como recaída o no, así como las horas que se le asociará a la jornada durante el tipo de absentismo.
 
 Cuando se modifique algún campo del formulario de edición es necesario guardar esta acción para conservar los nuevos datos del periodo de absentismo.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-0a6aa84599.png)
-
-![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-d7155b7060.webp)
-
 ![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-b28a79b0de.png)
-
-![6. Periodos de absentismos](/media/manual/6-periodos-de-absentismos-64e1e23442.webp)

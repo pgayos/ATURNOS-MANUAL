@@ -58,6 +58,8 @@ Los permisos determinan qué puede ver y/o hacer un usuario dentro de aTurnos at
 ## Procedimiento
 Para mostrar los equipos de los cuales se quieren ver los permisos, se tienen que seleccionar en la barra superior y se debe hacer clic en el botón “Cargar”.
 
+![7.3 Estado de los permisos](/media/manual/7-3-estado-de-los-permisos-aa3d582355.png)
+
 Al cargar los permisos de los equipos se mostrará un listado con la siguiente información:
 
 - Nombre del equipo: equipo de aTurnos.
@@ -67,14 +69,8 @@ Al cargar los permisos de los equipos se mostrará un listado con la siguiente i
 - Por defecto: como está configurada por defecto en aTurnos.
 - En el equipo: como está configurada en el equipo cargado.
 
+  ![7.3 Estado de los permisos](/media/manual/7-3-estado-de-los-permisos-b4ac100719.png)
+
 Este listado se puede descargar desde el botón de “Acciones”.
 
 Recordamos que los permisos únicamente son modificables por el equipo de soporte de aTurnos.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7.3 Estado de los permisos](/media/manual/7-3-estado-de-los-permisos-aa3d582355.png)
-
-![7.3 Estado de los permisos](/media/manual/7-3-estado-de-los-permisos-b4ac100719.png)

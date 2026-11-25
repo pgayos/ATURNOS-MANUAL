@@ -66,6 +66,8 @@ Esta opción permite a los Superusuarios abrir o cerrar el cuadrante en la fecha
 
 Para mostrar los equipos que se van a cerrar, se tienen que seleccionar en la barra superior y se debe hacer clic en el botón “Cargar”.
 
+![6.2 Cierre por equipos](/media/manual/6-2-cierre-por-equipos-2a6cf4c5e5.png)
+
 Una vez se carga el listado con los equipos, nos muestra la siguiente información:
 
 - Id aTurno: número de registro del equipo de aTurnos.
@@ -75,18 +77,12 @@ Una vez se carga el listado con los equipos, nos muestra la siguiente informaci�
 - Fecha cierre del cuadrante: fecha a la que está cerrado el cuadrante a todos los trabajadores del equipo.
 - Cerrado por: nombre del administrador que ha cerrado el cuadrante.
 
+  ![6.2 Cierre por equipos](/media/manual/6-2-cierre-por-equipos-a4389d5f04.png)
+
 Por último, para realizar el cierre de cuadrante, se tiene que hacer clic en el botón “Acciones” y posteriormente en la acción “Cerrar cuadrante”.
+
+![6.2 Cierre por equipos](/media/manual/6-2-cierre-por-equipos-5a189b72cd.png)
 
 Por último indicar la fecha de cierre antes de guardar para registrar la fecha de cierre del cuadrante.
 
 En RRHH → Nóminas → Fecha de cierre y exportación visualizas las fechas de ambos procesos por equipo y por trabajador.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6.2 Cierre por equipos](/media/manual/6-2-cierre-por-equipos-2a6cf4c5e5.png)
-
-![6.2 Cierre por equipos](/media/manual/6-2-cierre-por-equipos-a4389d5f04.png)
-
-![6.2 Cierre por equipos](/media/manual/6-2-cierre-por-equipos-5a189b72cd.png)

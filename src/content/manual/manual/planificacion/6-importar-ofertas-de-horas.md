@@ -70,12 +70,8 @@ Puedes completar la plantilla de ejemplo, la cual tienes disponible para descarg
 - Experiencia: nombre de la especialidad que debe tener el usuario para apuntarse a ella.
 - Valor Experiencia: puntuación mínima de la experiencia indicada previamente para poder apuntarse a la oferta.
 
+  ![6. Importar ofertas de horas](/media/manual/6-importar-ofertas-de-horas-d44de42280.png)
+
 Una vez creado el fichero, habría que asociar los campos siguiendo las indicaciones mencionadas en b. Importar
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6. Importar ofertas de horas](/media/manual/6-importar-ofertas-de-horas-d44de42280.png)
 
 ![6. Importar ofertas de horas](/media/manual/6-importar-ofertas-de-horas-7bfd9337a4.png)

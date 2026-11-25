@@ -58,6 +58,8 @@ Información sobre maestro de absentismos, con instrucciones y contexto revisabl
 ## Qué debes saber
 El maestro de absentismo genera un reporte informando diferentes conceptos e información sobre los absentismos, incluyendo los periodos de absentismos, absentismos de días completos y horas de absentismos. El superusuario puede consultar esta información en una fecha y en los equipos que se seleccionen.
 
+![1. Maestro de absentismos](/media/manual/1-maestro-de-absentismos-e13e9c685e.png)
+
 La tabla del maestro de absentismos muestra los siguientes conceptos, por defecto:
 
 Nombre, es el nombre del trabajador.
@@ -95,9 +97,3 @@ Continuando con el ejemplo 1, si el trabajador tiene 8 horas informadas en su pe
 Horas de absentismos planificadas, son las horas computadas que tiene asociado el periodo de absentismo desde su fecha de inicio.
 
 Horas de absentismos, en la fecha consultada, son las horas computadas que tiene asociado el periodo absentismo en la fecha consultada.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1. Maestro de absentismos](/media/manual/1-maestro-de-absentismos-e13e9c685e.png)

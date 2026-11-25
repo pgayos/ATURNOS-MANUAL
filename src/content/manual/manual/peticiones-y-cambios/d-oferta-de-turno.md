@@ -59,12 +59,16 @@ Aprende a oferta de turno, con instrucciones y contexto revisables por el equipo
 
 El sistema permite a los administradores ofrecer turnos de trabajo u horas específicas a los empleados, quienes pueden inscribirse si están interesados. El administrador seleccionará al trabajador más adecuado para el turno, y este será planificado en el cuadrante. A continuación, te explicamos cómo gestionar este proceso paso a paso.
 
+![Gestionar Ofertas de Turnos y Horas](/media/manual/gestionar-ofertas-de-turnos-y-horas-f8e2e37226.png)
+
 ### Cómo Ofertar un Turno
 
 - Ve al menú de Peticiones y Cambios y selecciona la opción nueva petición.
 - Completa el formulario de oferta. Tipo de turno: Define el tipo de turno que deseas ofertar (por ejemplo, mañana, tarde, noche). Trabajador:Selecciona al trabajador específico o, si deseas que la oferta esté disponible para todo el equipo, elige Ofertar Turno. Localización: Indica la localización del turno que se oferta. Visible solo para la localización: (Opcional) Asocia una ubicación al turno para que solo sea visible a empleados con esa localización. Días del turno: Especifica las fechas para la oferta del turno (inicio y fin).
 
 - Finaliza la oferta: Guarda y publica la oferta para que los trabajadores interesados puedan verla y apuntarse.
+
+  ![Cómo Ofertar un Turno](/media/manual/como-ofertar-un-turno-1fc58127d1.png)
 
 ### Cómo Inscribirse en una Oferta de Turno (Trabajador)
 
@@ -80,18 +84,10 @@ Nota: Apuntarse no garantiza la asignación; es el administrador quien seleccion
 
 1. Entra en el menú de Peticiones y cambios. 2. Selecciona el tipo de petición Horas. 3. En el campo del trabajador, selecciona la opción Ofertar Hora.
 
+   ![Cómo Ofertar Horas](/media/manual/como-ofertar-horas-25c3023771.webp)
+
 1. Ve cuadrante 2. Elige la opción Buscar Trabajador para Turno y luego Seleccionar Trabajador para Horas. 3. En el campo del trabajador, selecciona la opción Crear Oferta de Hora.
 
-## Imágenes de referencia
+   ![Cómo Ofertar Horas](/media/manual/como-ofertar-horas-70962a1957.webp)
 
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Gestionar Ofertas de Turnos y Horas](/media/manual/gestionar-ofertas-de-turnos-y-horas-f8e2e37226.png)
-
-![Cómo Ofertar un Turno](/media/manual/como-ofertar-un-turno-1fc58127d1.png)
-
-![Cómo Ofertar Horas](/media/manual/como-ofertar-horas-25c3023771.webp)
-
-![Cómo Ofertar Horas](/media/manual/como-ofertar-horas-3509a6cfb7.webp)
-
-![Cómo Ofertar Horas](/media/manual/como-ofertar-horas-70962a1957.webp)
+   ![Cómo Ofertar Horas](/media/manual/como-ofertar-horas-3509a6cfb7.webp)

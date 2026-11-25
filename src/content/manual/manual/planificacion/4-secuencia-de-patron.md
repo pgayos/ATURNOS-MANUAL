@@ -58,8 +58,4 @@ Para establecer cómo va a ser la sucesión de turnos y los días en los que apl
 
 Observando la última columna de la tabla, te muestra la información del total de horas de cada periodo del patrón. En cada fila te informa la suma de horas computadas de los diferentes turnos que forman parte de cada periodo del patrón. Se actualiza cuando alguna celda/día cambia de planificación (inserta un turno nuevo, se borra, se cambia un turno por otro con diferente número de horas computadas).
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![4. Secuencia de patrón](/media/manual/4-secuencia-de-patron-16f9236dfb.png)

@@ -70,14 +70,10 @@ En un proceso posterior al del cierre de cuadrante, otro usuario (habitualmente 
 
 La validación se realiza por el importe total de cada uno de los conceptos por equipo (más adelante veremos un caso de uso).
 
+![1.1 Modo de validación para la exportación](/media/manual/1-1-modo-de-validacion-para-la-exportacion-146a199667.png)
+
 Para ver en nuestro Manual cómo se modifica la fecha de cierre del cuadrante en un equipo, haz clic aquí.
 
 Para ver en nuestro Manual cómo se modifica la fecha de cierre del cuadrante, la fecha de validación y el último día exportado en todos los equipos (o los indicados en el filtro de equipos), haz clic aquí.
 
 NOTA: La función de validación solo está disponible para los usuarios con perfil Superusuario. Envía un correo a soporte@aturnos.com si se desea disponer de esta función. Ver el punto 10.7 del Manual
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.1 Modo de validación para la exportación](/media/manual/1-1-modo-de-validacion-para-la-exportacion-146a199667.png)

@@ -87,10 +87,10 @@ Para importar el archivo debe seguir los pasos que indicamos en nuestro menú �
 
 Después deberás asociar los campos del documento con los que aparecen en el listado para parametrizar la importación.
 
+![23. Importar trabajadores y/o planificación: planificación con patrones](/media/manual/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones-3f9e84336d.png)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![23. Importar trabajadores y/o planificación: planificación con patrones](/media/manual/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones-8a19bd8cae.png)
-
-![23. Importar trabajadores y/o planificación: planificación con patrones](/media/manual/23-importar-trabajadores-y-o-planificacion-planificacion-con-patrones-3f9e84336d.png)

@@ -68,6 +68,8 @@ Estas tablas de cobertura de turnos no son solo a nivel visual, sino que permite
 - Añadir demanda de turno: Incrementar la demanda de ese turno para ese día.
 - Quitar demanda del turno: Decrementar la demanda en ese turno para ese día.
 
+  ![6. Tabla de cobertura](/media/manual/6-tabla-de-cobertura-2ced159f31.png)
+
 La información que ofrecen estas tablas se adapta a la selección del modo de ver el cuadrante, como puede ser con el uso filtros aplicados en el cuadrante, por el periodo de tiempo en la que se ve el cuadrante (un solo día, semanas o mes). Más detalle en: modo de ver cuadrantes.
 
 En el desplegable de la tabla de cobertura se muestran varios tipos, destacando principalmente:
@@ -91,6 +93,8 @@ Este modo es útil cuando se quiere una planificación estricta y controlada, do
 Contabiliza solo el tipo de turno con el cual se ha generado de la demanda.
 
 Por ejemplo, si la demanda está creada con el valor de 5 turnos de mañana de 7 horas ( M- 8:00/15:00), y solo hay planificado un turno de tipo ( M- 8:00/15:00), a pesar de que haya planificado turnos con el mismo horario ( M7- 8:00/15:00), el resultado será 1/5.
+
+![Total por turnos](/media/manual/total-por-turnos-026799df4a.png)
 
 Cálculo directo desactivado
 
@@ -119,15 +123,21 @@ Resumen comparativo
 
 La tabla de cobertura se subdivide por las localizaciones. Se visualiza las diferentes demandas de cada tipo de turnos, que se han creado dependiendo de la localización. Contabiliza cuantos trabajadores se encuentran planificados por cada tipo de turno que tiene localización, actualizándose el balance de la demanda por localización entre el valor de la demanda y el número turnos con localización.
 
+![Total por localización](/media/manual/total-por-localizacion-4bef1c2a81.png)
+
 ### Presencia en turno
 
 Contabiliza y agrupa todos los turnos y horas que coincidan con el horario del turno de la demanda. Sin tener en cuenta la localización del turno (en el caso de que la tenga asociada). No contabiliza los horarios de las horas y/o turnos completos, que tengan informados cualquier tipo de absentismos (justificado o injustificado).
+
+![Presencia en turno](/media/manual/presencia-en-turno-c3fc6e3a5f.webp)
 
 En este ejemplo se puede ver que se necesitan dos trabajadores planificados para cubrir la demanda de esos turnos, en caso del miércoles 2 al existir un absentismo temporal, aparece que se está cubriendo un 1.33 y por tanto habría que planificar esas horas para cubrir la demanda.
 
 ### Presencia en turno por localización
 
 Muestra el total de trabajadores con turnos de la demanda asignado de una localización en específico (previamente para ello se debió crear la curva de demanda indicando dicha localización, ver mas en Crear curva de demanda ), descontando la horas/jornadas de absentismo tanto justificado como injustificado y contando solo la proporción del turno realmente presencial o trabajado.
+
+![Presencia en turno por localización](/media/manual/presencia-en-turno-por-localizacion-3d35f8d056.webp)
 
 ### Presencia en turno por Demanda
 
@@ -137,9 +147,13 @@ Es recomendable esta tabla cuando se necesita crear dos o mas demandas en una mi
 
 Ejemplo, en la localización hay una necesidad de turnos que se deben cubrir para mantener la calidad del servicio prestado, pero adicionalmente también necesitan controlar que al menos uno de los trabajadores que cubren esos turnos en la misma localización tenga una especialidad (habilidad, conocimiento o destreza) determinada.
 
+![Presencia en turno por Demanda](/media/manual/presencia-en-turno-por-demanda-0382d787bd.webp)
+
 ### Gráfico de demandas
 
 En este caso en un gráfico cada 15 minutos se compara la demanda como la línea de color verde y la cantidad de trabajadores para esa demanda que se corresponde con la barra roja. Al ponerse encima del gráfico se muestra el detalle de cada una de las variables. Es una tabla de cobertura muy visual que es útil en empresas donde existe mucha cantidad de turnos y es necesario ver de forma ágil si se cubren toda la demanda sin estar encorsetado en turnos.
+
+![Gráfico de demandas](/media/manual/grafico-de-demandas-00f074c648.png)
 
 ### Ver cuadrante de otro equipo
 
@@ -183,20 +197,6 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![6. Tabla de cobertura](/media/manual/6-tabla-de-cobertura-2ced159f31.png)
-
 ![Total por turnos](/media/manual/total-por-turnos-574cce910c.png)
 
 ![Total por turnos](/media/manual/total-por-turnos-ee15b17d33.png)
-
-![Presencia en turno](/media/manual/presencia-en-turno-c3fc6e3a5f.webp)
-
-![Presencia en turno por Demanda](/media/manual/presencia-en-turno-por-demanda-0382d787bd.webp)
-
-![Presencia en turno por localización](/media/manual/presencia-en-turno-por-localizacion-3d35f8d056.webp)
-
-![Total por turnos](/media/manual/total-por-turnos-026799df4a.png)
-
-![Gráfico de demandas](/media/manual/grafico-de-demandas-00f074c648.png)
-
-![Total por localización](/media/manual/total-por-localizacion-4bef1c2a81.png)

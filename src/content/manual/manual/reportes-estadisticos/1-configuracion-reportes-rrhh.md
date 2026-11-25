@@ -83,8 +83,4 @@ Dato personalizado del empleado: en este campo se puede seleccionar uno o varios
 
 Dependiendo de los campos que se quieran observar en los reportes del superusuario se debe añadir estos campos disponibles desde el botón de acción “añadir” y guardarlos con el botón de acción que “Guardar”.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![1. Configuración Reportes RRHH](/media/manual/1-configuracion-reportes-rrhh-a6331a45cf.png)

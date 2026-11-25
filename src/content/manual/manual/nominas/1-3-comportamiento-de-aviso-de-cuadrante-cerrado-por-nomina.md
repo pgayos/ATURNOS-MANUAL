@@ -66,18 +66,14 @@ En el proceso de cierre de cuadrante se informa en el perfil de todos los trabaj
 ## Qué debes saber
 Pero no en todas las ocasiones la fecha de cierre de cuadrante es la misma en todos los trabajadores del equipo, como ocurre en los finiquitos, que tendrán una fecha de cierre posterior.
 
+![1.3 Comportamiento de aviso de cuadrante cerrado por nómina](/media/manual/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina-6ded7447f5.png)
+
 En estos casos, si se modifica la planificación del trabajador, se admiten dos comportamientos en cuanto a si permite:
 
 - Deseable: Permite la modificación de la planificación. La aplicación emite un aviso en pantalla.
 
+  ![1.3 Comportamiento de aviso de cuadrante cerrado por nómina](/media/manual/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina-5a205457fc.png)
+
 - Obligatoria: No permite la modificación de la planificación.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.3 Comportamiento de aviso de cuadrante cerrado por nómina](/media/manual/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina-5a205457fc.png)
-
-![1.3 Comportamiento de aviso de cuadrante cerrado por nómina](/media/manual/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina-da5b0a995d.png)
-
-![1.3 Comportamiento de aviso de cuadrante cerrado por nómina](/media/manual/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina-6ded7447f5.png)
+  ![1.3 Comportamiento de aviso de cuadrante cerrado por nómina](/media/manual/1-3-comportamiento-de-aviso-de-cuadrante-cerrado-por-nomina-da5b0a995d.png)

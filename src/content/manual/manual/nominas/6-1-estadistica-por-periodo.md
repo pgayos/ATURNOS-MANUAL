@@ -75,6 +75,8 @@ Los días son:
 - Día 14/04/2024 tiene un turno de 1 horas, debe recuperar valor el concepto 3K00
 - Día 16/04/2024 tiene un turno de 2 horas, debe recuperar valor el concepto 3K00
 
+  ![6.1 Estadística por periodo](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
 Accede a ADMINISTRAR → NOMINAS → ESTADISTICA POR PERIODO
 
 1.- Selecciona las fechas
@@ -85,24 +87,18 @@ Accede a ADMINISTRAR → NOMINAS → ESTADISTICA POR PERIODO
 
 - Consulta: Recupera el valor de los conceptos de nómina sin tener en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, informados en el perfil del trabajador. Simulación: Recupera el valor de los conceptos de nómina teniendo en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, sin modificar la fecha del último día exportado en el perfil del trabajador.
 
+  ![6.1 Estadística por periodo](/media/manual/6-1-estadistica-por-periodo-175143c67f.png)
+
 4.- Al cargar la estadística, salta un aviso para que la aplicación genere un reporte.
-
-5.- El reporte se genera en ADMINISTRAR → PETICIONES DE REPORTE
-
-En el reporte de la estadística por periodo, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el período, es decir, suma las horas nocturnas 9 + 10 + 10 + 1 +1 + 2, hace un total de 33 horas, al superar las 10 horas nocturnas, el concepto que abona es el 3000.
-
-Si para el cálculo de las variables se precisan cálculos complejos, acceded a la Estadística diaria que se trata en el punto 7 de este Manual.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6.1 Estadística por periodo](/media/manual/5-1-exportar-nominas-9666500d33.png)
-
-![6.1 Estadística por periodo](/media/manual/6-1-estadistica-por-periodo-175143c67f.png)
 
 ![6.1 Estadística por periodo](/media/manual/6-1-estadistica-por-periodo-fee9586091.png)
 
+5.- El reporte se genera en ADMINISTRAR → PETICIONES DE REPORTE
+
 ![6.1 Estadística por periodo](/media/manual/6-1-estadistica-por-periodo-d310a6b6fd.png)
 
+En el reporte de la estadística por periodo, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el período, es decir, suma las horas nocturnas 9 + 10 + 10 + 1 +1 + 2, hace un total de 33 horas, al superar las 10 horas nocturnas, el concepto que abona es el 3000.
+
 ![6.1 Estadística por periodo](/media/manual/6-1-estadistica-por-periodo-ffad9f8b00.png)
+
+Si para el cálculo de las variables se precisan cálculos complejos, acceded a la Estadística diaria que se trata en el punto 7 de este Manual.

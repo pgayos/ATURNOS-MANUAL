@@ -62,6 +62,8 @@ Si un trabajador ha fichado en una semana menos de 8 horas, se mostrará en el i
 ## Qué debes saber
 Por ejemplo, Luís tiene 5 turnos planificados entre el 09/01/2023 y el 15/01/2023. En cada día planificado fichó 1 hora y 30 minutos, lo que hace un total de 7 horas y 30 minutos, menos de 8 horas trabajadas.
 
+![7. Menos de 8 Hrs fichadas semanales](/media/manual/7-menos-de-8-hrs-fichadas-semanales-a26b96efd6.webp)
+
 El reporte informa:
 
 - Equipo donde sucede el caso.
@@ -73,16 +75,10 @@ El reporte informa:
 - Absentismo, informando “Si” o “No”, dependiendo de si existe un absentismo planificado en esa semana.
 - Vacaciones, informando “Si” o “No”, dependiendo de si existe un día de vacaciones planificado en esa semana.
 
+  ![7. Menos de 8 Hrs fichadas semanales](/media/manual/7-menos-de-8-hrs-fichadas-semanales-37339d017a.webp)
+
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
-
-Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7. Menos de 8 Hrs fichadas semanales](/media/manual/7-menos-de-8-hrs-fichadas-semanales-37339d017a.webp)
 
 ![7. Menos de 8 Hrs fichadas semanales](/media/manual/7-menos-de-8-hrs-fichadas-semanales-790805e9b6.webp)
 
-![7. Menos de 8 Hrs fichadas semanales](/media/manual/7-menos-de-8-hrs-fichadas-semanales-a26b96efd6.webp)
+Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.

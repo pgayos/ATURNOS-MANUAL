@@ -70,7 +70,11 @@ Solo los recursos con el estado “Validado” se recuperaran en las estadístic
 
 1.- Se deben crear los recursos, a través de RECURSOS → RECURSOS, en este ejemplo, el Recursos “Dietas” que debe ser de tipo “N umérico”.
 
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-d4f9564d26.png)
+
 2.- Asociar el recurso como concepto de nómina, a través de ADMINISTRAR → NÓMINAS → CONCEPTOS DE CALCULO3.- Informar el campo:
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-398b1dcf95.png)
 
 - Concepto, es el valor con el que se va a exportar el dato. Obligatorio
 - Descripción: No obligatorio
@@ -79,44 +83,36 @@ Solo los recursos con el estado “Validado” se recuperaran en las estadístic
 - Localización (por defecto) del trabajador, en su caso.
 - Días de la semana: Lunes, Martes, etc.
 
+  ![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-c0d85d9973.png)
+
 4.- Publicar concepto de nómina en el caso de que no se haya marcado el campo “Incluir como concepto seleccionado para nómina” a SI. La asociación se realiza a través de ADMINISTRAR → NOMINAS → CONCEPTOS DE NÓMINA.
-
-1.- Los recursos se informan en el cuadrante, es obligatorio que el trabajador tenga planificación (turnos, horas) para poder informar el recurso.
-
-2.- Se indica la cantidad, con una descripción si se desea.
-
-3.- Se valida el recurso a través de RECURSOS → RESUMEN. En el ejemplo, solo el recurso Dietas está validado el día 02/05/2022.
-
-4.- Al marcar “Validar”
-
-5.- Se visualiza el usuario que ha validado los recursos
-
-6.- En la estadística diaria (NOMINAS → ESTADISTICA DIARIA) se visualiza el concepto “Dietas” del día 02%05/2022, solo el recurso validado.
-
-7.- Para “desvalidar” un recurso, en el caso de que se quiera modificar, desde RECURSOS → RESUMEN, se desmarca el check “Validado” y se marca “Validar”.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-d4f9564d26.png)
-
-![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-398b1dcf95.png)
 
 ![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-8e3ed9afa9.png)
 
+1.- Los recursos se informan en el cuadrante, es obligatorio que el trabajador tenga planificación (turnos, horas) para poder informar el recurso.
+
 ![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-bd7a22e20d.png)
+
+2.- Se indica la cantidad, con una descripción si se desea.
 
 ![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-19ec266eaa.png)
 
-![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-b664142381.png)
-
-![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-c0d85d9973.png)
+3.- Se valida el recurso a través de RECURSOS → RESUMEN. En el ejemplo, solo el recurso Dietas está validado el día 02/05/2022.
 
 ![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-916f9c932d.png)
 
-![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-8399ee3f83.png)
+4.- Al marcar “Validar”
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-b664142381.png)
+
+5.- Se visualiza el usuario que ha validado los recursos
 
 ![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-4df0df8557.png)
+
+6.- En la estadística diaria (NOMINAS → ESTADISTICA DIARIA) se visualiza el concepto “Dietas” del día 02%05/2022, solo el recurso validado.
+
+![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-8399ee3f83.png)
+
+7.- Para “desvalidar” un recurso, en el caso de que se quiera modificar, desde RECURSOS → RESUMEN, se desmarca el check “Validado” y se marca “Validar”.
 
 ![Conceptos tipo 8: Conceptos asociados al módulo de recursos](/media/manual/conceptos-tipo-8-conceptos-asociados-al-modulo-de-recursos-a4ec7b6565.png)

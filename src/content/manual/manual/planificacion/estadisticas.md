@@ -56,18 +56,14 @@ Información sobre estadísticas, con instrucciones y contexto revisables por el
 
 En este informe estadístico nos informará del número de tipos de turno que tenemos planificados en nuestro Cuadrante en un periodo de tiempo. Cada tipo de turno estará ubicado en una columna con su correspondiente abreviatura (1ª columna), indicando la cantidad de veces que se realiza ese turno en concreto (2ª columna).
 
+![5.1 Total de turnos](/media/manual/5-1-total-de-turnos-2759993659.png)
+
 ### 5.2 Total de horas
 
 Por otro lado, en este informe estadístico nos informará del número de horas que tenemos planificadas en nuestro Cuadrante en un periodo de tiempo determinado que podremos cambiar en la parte superior. Para ello, en la tercera columna aparecerá el total de horas realizadas por cada turno correspondiente.
 
+![5.2 Total de horas](/media/manual/5-2-total-de-horas-f65e0be978.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.1 Total de turnos](/media/manual/5-1-total-de-turnos-2759993659.png)
-
-![5.2 Total de horas](/media/manual/5-2-total-de-horas-f65e0be978.png)

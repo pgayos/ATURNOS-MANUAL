@@ -63,6 +63,8 @@ Las vacaciones se consideran como un tipo de turno. El administrador del equipo 
 
 En el cuadrante destaca con color naranja y la abreviatura “V “. El administrador del equipo puede configurar a nivel de equipo, desde el ajuste general del menú, el tipo de vacaciones (naturales o laborables), la cantidad de días de vacaciones que dispone en el año, un redondeo en caso de no ser entero y hasta definir cuándo se pueden consumir dentro del año siguiente (fin del periodo vacacional). También puede personalizar a nivel individual el número y tipo de vacaciones a un trabajador.
 
+![Vacaciones](/media/manual/vacaciones-8a8dc1911b.png)
+
 - Tipo de vacaciones: En el desplegable puedes elegir si las vacaciones se planifican en el cuadrante en los días naturales o días laborables.
 
 1. Días naturales: Afecta a todos los días, incluye los días planificados y no planificados en el cuadrante.
@@ -111,6 +113,8 @@ Por ejemplo, si el balance de vacaciones de un trabajador es de 20/30 en el año
 
 En este apartado se definen todos los datos en base a los tiempos de trabajo regulados por convenio colectivo o los contratos de los trabajadores, así como los posteriores ajustes respecto a las horas computadas en el cuadrante.
 
+![Horas](/media/manual/horas-b482cb3318.png)
+
 - Horas contrato/año: Son las horas que tiene que realizar un trabajador en el año por su contrato dentro de la empresa. Este valor puede ser modificado por el administrador, este cambio genera un cálculo automático del resto de valores de horas como puede ser el número de horas contrato del periodo, teniendo en cuenta el porcentaje de jornada laboral del trabajador.
 - Porcentaje de jornada: Indica el % de jornada que realiza el trabajador en el periodo de contrato consultado. Es el valor que se aplica a las horas contrato/año para el cálculo de las horas contrato/periodo. Si realiza una jornada completa el porcentaje será del 100%.
 - Horas contrato (periodo): Número de horas de trabajo que le corresponde al trabajador, con el porcentaje de jornada aplicado y proporcional al periodo contratado. Si trabaja todo el año al 100% de la jornada anual marcada en convenio, coincidirá con las “horas contrato/año”.
@@ -121,12 +125,16 @@ En este apartado se definen todos los datos en base a los tiempos de trabajo reg
 
 En el caso de que el trabajador en un mismo año presente más de un periodo de contrato, dependiendo en el periodo que se consulte, el sistema ofrece de manera independiente las horas del trabajador en este periodo. Son las siguientes:
 
+![Horas](/media/manual/horas-69b80ed8b9.png)
+
 - Total horas computadas en el periodo: Total de las horas y turnos que computan del periodo consultado. No se incluyen las horas asociadas a absentismos no justificados (no productivos).
 - Ajuste de horas en el periodo: Incremento o decremento de horas que no se refleja en un día determinado durante el periodo de contrato consultado. Contabiliza estas horas teniendo en cuenta solo las ajustadas en ese periodo.
 - Total horas computadas más ajuste en el periodo: Son las horas computadas más los ajustes de horas. Solo teniendo en cuenta las horas en el periodo consultado.
 - Balance de horas: Diferencia de horas al comparar el total horas computadas (incluido el ajuste de horas) y las horas contrato del periodo consultado. Puede ser con defecto o exceso de horas. Si el resultado es un exceso de horas significa que las horas de contrato tienen un valor menor a las horas computadas más ajuste. Ejemplo: 7.97 (392/384.03) se interpreta como un exceso en 7.97 horas en este periodo de contrato (horas computadas más ajustes/horas totales de los contratos).
 
 En aTurnos es interesante informar las horas estimadas de contrato al día, semana y mes. Así como las horas extras anuales y complementaria que indica los diferentes convenios laborales, con ello nos permite comparar las horas computadas que tiene registrada en el cuadrante el trabajador y las horas estimadas.
+
+![Horas](/media/manual/horas-a8b4643778.png)
 
 - Horas contrato al día: Son las horas de trabajo estimadas de convenio por día. Es un dato que ayuda a planificar y es estimado, aunque por restricciones se puede comprobar mientras realizas la planificación. Puedes crear una restricción para que el trabajador no exceda en la planificación de las horas diarias dictadas por convenio (Véase la restricción “No superar las horas diarias del trabajador “). Ejemplo: para un trabajador cuya jornada anual sea de 1.800h., las horas de contrato estimadas al día son 8h.
 - Horas contrato a la semana: Son las horas de trabajo estimadas de convenio por semana. Es un dato que ayuda a planificar y es estimado, aunque por restricciones se puede comprobar mientras realizas la planificación. Existen empresas donde el control del límite de horas se hace por semanas. Puedes crear una restricción para que el trabajador no exceda en la planificación de las horas semanales dictadas por convenio (Véase la restricción “No superar las horas semanales del trabajador “) Ejemplo: para un trabajador cuya jornada anual sea de 1.800h., las horas de contrato estimadas a la semana serán 40h.
@@ -147,6 +155,8 @@ En caso de finiquito, es posible que existan diferencias entre las horas computa
 
 Caso de uso ¿cómo se realiza un ajuste de horas desde el perfil del trabajador?
 
+![¿Cómo se realiza un ajuste de horas?](/media/manual/como-se-realiza-un-ajuste-de-horas-bd1e27bc3f.png)
+
 - Migrar balance de horas de un año al siguiente
 
 En el caso de no escoger la acción anterior, se pueden ajustar migrando las horas por exceso o por defecto del trabajador de un año al año siguiente. Esta acción se puede aplicar para un solo trabajador, para todos los trabajadores de un equipo o para todos los trabajadores de la empresa.
@@ -159,24 +169,10 @@ A través de este cálculo se dispone de un balance de horas mensual, es decir, 
 
 Dos formas de acceder al cálculo estimado, en el perfil del trabajador
 
-o a través del cuadrante
-
-- ¿Cómo se realiza el cálculo estimado?
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Vacaciones](/media/manual/vacaciones-8a8dc1911b.png)
-
-![Horas](/media/manual/horas-b482cb3318.png)
-
-![¿Cómo se realiza un ajuste de horas?](/media/manual/como-se-realiza-un-ajuste-de-horas-bd1e27bc3f.png)
-
-![Horas](/media/manual/horas-a8b4643778.png)
-
-![Horas](/media/manual/horas-69b80ed8b9.png)
-
 ![Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-4512076862.png)
 
+o a través del cuadrante
+
 ![Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-84f5c0f5be.png)
+
+- ¿Cómo se realiza el cálculo estimado?

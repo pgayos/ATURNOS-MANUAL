@@ -62,6 +62,8 @@ Al iniciar sesión y acceder a un equipo, la primera pantalla que visualiza el u
 
 Para configurar la pantalla de inicio accede a Administrar → Ajustes → Pantalla de Inicio (ver configuración de pantalla de inicio y más widgets). Según el rol, existen diferentes widgets, y éstos tiene que ser seleccionado por un administrador, para saber cuáles serán Widgets disponibles y de éstos, cuales serán los Widgets visibles para los usuarios dependiendo de su rol y perfil (planificable o no planificable).
 
+![i. Pantalla de inicio](/media/manual/i-pantalla-de-inicio-c34b72d6eb.png)
+
 Más detalles de los widgets 👈🏻
 
 ### Guías de inicio
@@ -72,14 +74,8 @@ Son cuatro guías, que indican los primeros pasos para orientar en la planificac
 
 Cada proceso está descrito de forma breve, indicando qué es, cómo acceder y las funciones a poder realizar. Si haces clic en el botón de “X” del widget, éste desaparecerá (para que no se muestre más en tu pantalla de inicio, debes repetir este proceso 3 veces).
 
+![Guías de inicio](/media/manual/guias-de-inicio-3b0b33a9fa.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![i. Pantalla de inicio](/media/manual/i-pantalla-de-inicio-c34b72d6eb.png)
-
-![Guías de inicio](/media/manual/guias-de-inicio-3b0b33a9fa.png)

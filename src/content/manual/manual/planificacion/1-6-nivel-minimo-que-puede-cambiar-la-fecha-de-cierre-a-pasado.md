@@ -62,6 +62,8 @@ order: 1
 
 Indica el nivel del usuario para modificar la fecha de cierre de cuadrante a una fecha anterior a la que el cuadrante está cerrado.
 
+![1.6 Nivel mínimo que puede cambiar la fecha de cierre a pasado](/media/manual/1-6-nivel-minimo-que-puede-cambiar-la-fecha-de-cierre-a-pasado-71e2339402.png)
+
 ## Procedimiento
 Las opciones permitidas son:
 
@@ -73,9 +75,3 @@ Las opciones permitidas son:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.6 Nivel mínimo que puede cambiar la fecha de cierre a pasado](/media/manual/1-6-nivel-minimo-que-puede-cambiar-la-fecha-de-cierre-a-pasado-71e2339402.png)

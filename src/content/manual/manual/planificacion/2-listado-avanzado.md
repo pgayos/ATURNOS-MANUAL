@@ -59,11 +59,19 @@ Este reporte informa de todos los fichajes que se están realizando a través de
 
 El listado se puede ver por pantalla o generar una ‘ Petición de reporte ‘ para su descarga cuando el volumen de datos se sobrepasa.
 
+![2. Listado avanzado](/media/manual/2-listado-avanzado-6d280c6583.webp)
+
 El reporte generado, puede ser descargado en formato Excel.
+
+![2. Listado avanzado](/media/manual/2-listado-avanzado-50162675c4.webp)
 
 ## Filtros
 
 En la consulta del reporte se puede definir:
+
+![Filtros](/media/manual/filtros-f4643a358f.webp)
+
+![Filtros](/media/manual/filtros-55039f2cf4.webp)
 
 - Fechas.
 
@@ -71,9 +79,13 @@ En la consulta del reporte se puede definir:
 
 - Trabajadores, filtrando por Nombre, Email o ID Empleado.
 
+  ![Filtros](/media/manual/filtros-b929762737.webp)
+
 - Fichajes: Sin fichajes realizados. Con fichajes realizados.
 
 - Horario, Desde y Hasta una hora predefinida de la jornada planificada.
+
+  ![Filtros](/media/manual/filtros-de18f9a126.webp)
 
 - Planificados, se pueden filtrar por aquellos trabajadores que tienen alguna planificación de turnos u horas. No está planificado. Está planificado.
 
@@ -103,18 +115,6 @@ También puedes consultar el siguiente post relacionado: ¿Cómo saber qué trab
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![2. Listado avanzado](/media/manual/2-listado-avanzado-50162675c4.webp)
-
-![2. Listado avanzado](/media/manual/2-listado-avanzado-6d280c6583.webp)
-
-![Filtros](/media/manual/filtros-b929762737.webp)
-
-![Filtros](/media/manual/filtros-55039f2cf4.webp)
-
 ![Filtros](/media/manual/filtros-03472d26cb.webp)
-
-![Filtros](/media/manual/filtros-de18f9a126.webp)
-
-![Filtros](/media/manual/filtros-f4643a358f.webp)
 
 ![Filtros](/media/manual/filtros-854cec03fa.webp)

@@ -61,16 +61,12 @@ Aprende a enviar cuadrante por Email, con instrucciones y contexto revisables po
 ## Procedimiento
 Desde esta función, el administrador podrá enviar el cuadrante por correo electrónico al trabajador seleccionado de manera sencilla (para un envío masivo a todos los trabajadores ver la función” Enviar cuadrante por correo electrónico a todos “).
 
+![8. Enviar cuadrante por Email](/media/manual/8-enviar-cuadrante-por-email-2cd14324c9.webp)
+
 El trabajador recibió la planificación del periodo que está visualizando el administrador en el momento de enviar el cuadrante.
+
+![8. Enviar cuadrante por Email](/media/manual/8-enviar-cuadrante-por-email-f3cf2f56e3.webp)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![8. Enviar cuadrante por Email](/media/manual/8-enviar-cuadrante-por-email-f3cf2f56e3.webp)
-
-![8. Enviar cuadrante por Email](/media/manual/8-enviar-cuadrante-por-email-2cd14324c9.webp)

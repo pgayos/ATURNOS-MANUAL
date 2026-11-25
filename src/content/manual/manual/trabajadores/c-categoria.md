@@ -58,17 +58,25 @@ Información sobre categoría, con instrucciones y contexto revisables por el eq
 
 La categoría de un trabajador lo clasifica según el puesto de trabajo y las funciones que tiene que desempeñar. Este concepto aparece en el contrato de trabajo y viene determinado en el Convenio Colectivo de aplicación de la empresa.
 
+![c. Categoría](/media/manual/c-categoria-54bf27c004.webp)
+
 Por medio de la categoría se determina el porcentaje de cotización a la Seguridad Social por parte de la organización, así como el salario bruto que la empresa tiene que abonar al trabajador en su jornada ordinaria.
 
 ### Nueva categoría
 
 En la barra superior, desde el botón ‘Acciones’, se pueden crear tantas categorías se necesiten.
 
+![Nueva categoría](/media/manual/nueva-categoria-27627e72e3.webp)
+
 Para añadir una nueva categoría se necesita informar el nombre de la misma.
+
+![Nueva categoría](/media/manual/nueva-categoria-8b26b078da.webp)
 
 ### Editar categoría
 
 Esta acción permite al administrador modificar la categoría.
+
+![Editar categoría](/media/manual/editar-categoria-c815c4dee5.webp)
 
 El administrador puede editar:
 
@@ -76,6 +84,8 @@ El administrador puede editar:
 - Añadir horas automáticamente al exceder un tiempo mínimo de trabajo continuo
 
 Esta opción permite insertar un tipo de hora extra/complementaria de forma automática cuando se realiza un mínimo de horas de forma continuada.
+
+![Editar categoría](/media/manual/editar-categoria-35ac8a4b95.webp)
 
 Se tiene que configurar:
 
@@ -88,22 +98,8 @@ Se tiene que configurar:
 
 Para eliminar una categoría creada, se puede hacer desde el botón de acción.
 
+![Borrar categoría](/media/manual/borrar-categoria-437df5cd60.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![c. Categoría](/media/manual/c-categoria-54bf27c004.webp)
-
-![Nueva categoría](/media/manual/nueva-categoria-27627e72e3.webp)
-
-![Nueva categoría](/media/manual/nueva-categoria-8b26b078da.webp)
-
-![Editar categoría](/media/manual/editar-categoria-35ac8a4b95.webp)
-
-![Editar categoría](/media/manual/editar-categoria-c815c4dee5.webp)
-
-![Borrar categoría](/media/manual/borrar-categoria-437df5cd60.webp)

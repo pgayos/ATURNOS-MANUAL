@@ -66,18 +66,28 @@ Estos perfiles, son distintos niveles para asignar a cada usuario, como puede se
 
 Los niveles se crean en la Configuración de Biostar2, cuyo acceso encontramos en la mitad izquierda de la parte superior de la ventana.
 
+![Nivel de perfiles y permisos de usuario](/media/manual/instalacion-de-dispositivo-usb-6a7420c885.webp)
+
 Para añadir un nivel de perfil de usuario, contamos con los siguiente pasos:
 
 1. Si queremos crear un nuevo nivel, debemos acceder al menú ‘Cuentas’. Después tendremos dos opciones, añadir un nuevo nivel o editar uno que ya se hubiera creado previamente. Para añadir uno nuevo, tendremos que hacer clic sobre el botón situado en la zona superior izquierda ‘Añadir nivel’.
+
+   ![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-dcf4297964.png)
 
 2. En el siguiente paso, comenzamos a editar la información en el perfil del nivel que estamos creando. Teniendo que informar de:
    - Nombre: identificamos al nivel con un nombre.
    - Descripción: indicando aspectos que faciliten la información de ese nivel.
    - Configuración del elemento: en esta parte asignaremos al nivel a qué grupos de usuarios, dispositivos, puertas (en caso de controlarse la apertura de puertas) o accesos (de existir un control de acceso a una zona determinada) tiene permitido administrar el nivel. Estas clasificaciones, estarían creadas previamente en los menús de Usuarios, Dispositivos, Puerta o Control Acceso.
+
+     ![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-f9be4d5bd7.png)
    - Configuración Menú Admin: en este apartado indicaremos los permisos del nivel, es decir, a qué partes del menú puede acceder como administrador y qué acciones tiene permiso de realizar, si son de ‘Editar’ o de ‘Leer’.
    - Añadir usuario: aunque cuando creemos un nuevo usuario tenemos la opción de informan en la edición, qué nivel va a tener su perfil dentro de Biostar2, desde esta función, podemos asignar automáticamente ese nivel a los usuarios seleccionados.
 
+     ![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-c2dc29b3f8.png)
+
 3. Por último, para que se quede guardado el nivel, tendremos que hacer clic en ‘Aplicar’.
+
+   ![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-c3ae737cf3.webp)
 
 ### Añadir y editar usuario
 
@@ -88,6 +98,8 @@ Aunque previamente los técnico hayan realizado la carga de los trabajadores act
 Para dar de alta a un nuevo usuario de Biostar2:
 
 1. Accede al menú Usuario que aparece en la parte izquierda de Biostar2. En la esquina superior izquierda aparece el botón ‘Añadir Usuario’, haz clic en él.
+
+   ![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-f7cf5ac1d9.png)
 
 2. Se abrirá un formulario donde al menos tendremos que informar de los siguientes campos (esta información se puede obtener en la ficha del empleado de aTurnos; recuerda que esta integración se puede configurar de forma automática para no tener que realizar esta tarea a mano):
    - Nombre completo del trabajador. Recomendamos usar el mismo que tiene en aTurnos.
@@ -149,21 +161,11 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![Nivel de perfiles y permisos de usuario](/media/manual/instalacion-de-dispositivo-usb-6a7420c885.webp)
-
-![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-f9be4d5bd7.png)
-
-![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-dcf4297964.png)
-
-![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-c2dc29b3f8.png)
-
 ![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-058a844a24.png)
 
 ![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-9fb323a907.png)
 
 ![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-f73b760b50.webp)
-
-![Añadir y editar usuario](/media/manual/anadir-y-editar-usuario-f7cf5ac1d9.png)
 
 ![Recogida de huellas](/media/manual/recogida-de-huellas-8f7bbdd0a4.webp)
 
@@ -178,8 +180,6 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 ![Recogida de huellas](/media/manual/recogida-de-huellas-25dc812051.webp)
 
 ![Registrar tarjeta](/media/manual/registrar-tarjeta-ab7395b83b.png)
-
-![Nivel de perfiles y permisos de usuario](/media/manual/nivel-de-perfiles-y-permisos-de-usuario-c3ae737cf3.webp)
 
 ![Registrar tarjeta](/media/manual/registrar-tarjeta-2fa95fd160.webp)
 

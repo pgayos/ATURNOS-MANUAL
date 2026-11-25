@@ -65,6 +65,8 @@ Indica el nivel del usuario para modificar la fecha de cierre de cuadrante, es d
 ## Procedimiento
 Por ejemplo, si el cuadrante está cerrado a 28/02/2022, el trabajador con el rol que se indique puede cerrar el cuadrante a partir de esta fecha (el 31/03/2022, por ejemplo), pero no se le permite modificar la fecha a una anterior a la indicada (el 31/01/2022, por ejemplo).
 
+![1.4 Nivel que puede cambiar la fecha de cierre del cuadrante](/media/manual/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante-73587c8b2e.png)
+
 Las opciones permitidas son:
 
 - Administrador Validador
@@ -76,9 +78,3 @@ Las opciones permitidas son:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.4 Nivel que puede cambiar la fecha de cierre del cuadrante](/media/manual/1-4-nivel-que-puede-cambiar-la-fecha-de-cierre-del-cuadrante-73587c8b2e.png)

@@ -55,6 +55,8 @@ order: 1
 
 En esta pestaña aparecen todas las peticiones de cambios que se han solicitado según la fecha y los filtros establecidos.
 
+![f. Historial de cambios](/media/manual/f-historial-de-cambios-39e9575a45.png)
+
 ## Opciones y datos disponibles
 - Solicitado por: Muestra el usuario que realiza la petición de cambio de turno. El cambio suele hacerlo el trabajador que está implicado en el cambio de turno, aunque según la configuración de los cambios de turno lo puede realizar un administrador o incluso otro trabajador que no esté implicado en el cambio, por ello es importante revisar este registro para saber quién ha solicitado el cambio.
 - Día cambiado: es el día en el que se realiza el cambio de planificación entre los trabajadores implicados.
@@ -65,9 +67,3 @@ En esta pestaña aparecen todas las peticiones de cambios que se han solicitado 
 El Administrador desde la columna de acción puede:
 
 - Visualizar la solicitud del cambio haciendo clic en el icono del ojo.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![f. Historial de cambios](/media/manual/f-historial-de-cambios-39e9575a45.png)

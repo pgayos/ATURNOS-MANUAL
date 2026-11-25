@@ -60,6 +60,8 @@ Tal y como se muestra en la siguiente pantalla que encuentra en Tareas → Asign
 
 IMPORTANTE: Con independencia de que sólo haya un puesto de trabajo con la especialidad de Financiación con turno planificado, el sistema permite a los demás puestos con los que comparte especialidad, estén o no planificados, llamar a clientes que tengan cita en la cola en la que el puesto de trabajo sin planificación (en el ejemplo, el Puesto 1) esté especializado.
 
+![9. Asignación de tareas](/media/manual/9-asignacion-de-tareas-12e39a643c.png)
+
 1. Slots de tiempo reservado al puesto que tiene la especialidad de Financiación.
 2. Número de ticket.
 3. Identificación de la cola.
@@ -71,9 +73,3 @@ IMPORTANTE: Con independencia de que sólo haya un puesto de trabajo con la espe
 9. Acciones permitidas. SIGUIENTE – EMPEZAR – PARAR.
 
 IMPORTANTE: Es desde los puestos donde se hacen las llamadas a los clientes. A través de las acciones permitidas.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![9. Asignación de tareas](/media/manual/9-asignacion-de-tareas-12e39a643c.png)

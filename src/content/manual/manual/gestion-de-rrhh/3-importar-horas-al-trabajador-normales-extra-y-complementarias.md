@@ -70,7 +70,11 @@ Puedes completar la plantilla de ejemplo, la cual tienes disponible para descarg
 
 - Indicando la fecha y hora de inicio en el mismo campo (Fecha) CSV Importación_horas
 
+  ![3. Importar horas al trabajador (normales, extra y complementarias)](/media/manual/3-importar-horas-al-trabajador-normales-extra-y-complementarias-8d666b154a.png)
+
 - Indicando el Día y la Hora de Inicio en dos campos distintos (Fecha y horas) CSV Importación_horas_2
+
+  ![3. Importar horas al trabajador (normales, extra y complementarias)](/media/manual/3-importar-horas-al-trabajador-normales-extra-y-complementarias-f6e8a25087.png)
 
 Te contamos los pasos, si lo que necesitas es confeccionar un documento Excel, utilizando los siguientes campos:
 
@@ -92,13 +96,5 @@ Guardar el documento como formato tipo CSV.
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú “Importar “.
 
 Estos serán los campos que se deben asociar.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Importar horas al trabajador (normales, extra y complementarias)](/media/manual/3-importar-horas-al-trabajador-normales-extra-y-complementarias-8d666b154a.png)
-
-![3. Importar horas al trabajador (normales, extra y complementarias)](/media/manual/3-importar-horas-al-trabajador-normales-extra-y-complementarias-f6e8a25087.png)
 
 ![3. Importar horas al trabajador (normales, extra y complementarias)](/media/manual/3-importar-horas-al-trabajador-normales-extra-y-complementarias-ed0115077a.png)

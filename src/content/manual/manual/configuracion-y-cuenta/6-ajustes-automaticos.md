@@ -59,6 +59,8 @@ En aTurnos tienes la posibilidad de informar un tanto por ciento de incremento e
 ## Opciones y datos disponibles
 Cuando esto sucede, puedes a nivel de equipo (ver Configuración general ajustes por coeficientes de horas ) configurar los incrementos dependiendo si la hora es nocturna, festiva, festiva nocturna, festiva especial y/o festiva nocturna especial. Permitimos también informar distintos incrementos a nivel de cada trabajador.
 
+![6. Ajustes automáticos](/media/manual/6-ajustes-automaticos-6dd455cadd.png)
+
 “Total efectivas” se considera la suma del total de las horas computadas más el total de horas de todos los ajustes (positivos o negativos).
 
 ## PENDIENTE de validación
@@ -68,8 +70,6 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6. Ajustes automáticos](/media/manual/6-ajustes-automaticos-6dd455cadd.png)
 
 ![6. Ajustes automáticos](/media/manual/6-ajustes-automaticos-e550af8f54.png)
 

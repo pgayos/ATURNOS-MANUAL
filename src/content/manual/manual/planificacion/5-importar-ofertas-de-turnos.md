@@ -68,12 +68,8 @@ Puedes completar la plantilla de ejemplo, la cual tienes disponible para descarg
 - Experiencia: nombre de la especialidad que debe tener el usuario para apuntarse a ella.
 - Valor Experiencia: puntuación mínima de la experiencia indicada previamente para poder apuntarse a la oferta.
 
+  ![5. Importar ofertas de turnos](/media/manual/5-importar-ofertas-de-turnos-af00753746.png)
+
 Los campos a asociar deben ser los siguientes:
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5. Importar ofertas de turnos](/media/manual/5-importar-ofertas-de-turnos-af00753746.png)
 
 ![5. Importar ofertas de turnos](/media/manual/5-importar-ofertas-de-turnos-854a8acb89.png)

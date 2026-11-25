@@ -59,6 +59,8 @@ Si por error u olvido no se han registrado los fichajes de entrada o salida en e
 
 Desde ‘Peticiones de fichaje’ dentro del menú de Control de Presencia, aTurnos mostrará un listado con todos los ‘Fichajes pendientes’, es decir, que no se han cerrado con respecto a la planificación. Tanto el total del turno planificado donde no se haya informado ni la entrada ni la salida, como aquellos donde quedó pendiente fichar el inicio de jornada de trabajo o el final de la misma.
 
+![5. Peticiones de fichajes](/media/manual/5-peticiones-de-fichajes-3bcd7789fb.webp)
+
 ## Fichajes pendientes ¿Cómo solicitar una petición de fichajes?
 
 Un trabajador puede solicitar directamente la petición del fichaje sobre el inicio y fin del turno planificado o bien ‘Añadir’ una petición de fichaje con una fecha, hora y dirección (entrada o salida) determinada.
@@ -68,6 +70,10 @@ Un trabajador puede solicitar directamente la petición del fichaje sobre el ini
 Si existe un turno planificado con una hora de inicio y fin, el trabajador puede solicitar el fichaje con esa hora de inicio y fin del turno.
 
 Para ello debe hacer clic sobre el botón ‘Solicitar’ y ‘Guardar’ para registrar la petición que deberá ser autorizada por el administrador del equipo.
+
+![Solicitar una petición de fichaje de un turno predeterminado](/media/manual/solicitar-una-peticion-de-fichaje-de-un-turno-predeterminado-1f879ce9fd.webp)
+
+![Solicitar una petición de fichaje de un turno predeterminado](/media/manual/solicitar-una-peticion-de-fichaje-de-un-turno-predeterminado-471e7ff028.webp)
 
 ### Solicitar una petición de fichaje de un turno predeterminado indicando la hora de inicio y fin
 
@@ -79,9 +85,13 @@ En este caso, se quiere solicitar en la petición de fichaje que se debió ficha
 
 Y la salida, se debió fichar a las 15:10.
 
+![Solicitar una petición de fichaje de un turno predeterminado indicando la hora de inicio y fin](/media/manual/solicitar-una-peticion-de-fichaje-de-un-turno-predeterminado-indicando-42802c871b.webp)
+
 ### Solicitar una petición de fichaje cuando ya existe el fichaje de entrada y falta la salida
 
 En los casos en el que existan fichajes, como por ejemplo el fichaje de entrada al inicio del turno y que lo que no se fichara fuera la salida, en listado de fichajes pendientes se mostrará que existe un ‘Fichaje realizado’, en este caso de ejemplo, a las 07:50.
+
+![Solicitar una petición de fichaje cuando ya existe el fichaje de entrada y falta la salida](/media/manual/solicitar-una-peticion-de-fichaje-cuando-ya-existe-el-fichaje-de-entra-c8de67a33f.webp)
 
 El trabajador únicamente deberá hacer clic sobre el botón ‘Solicitar’ e indicar la hora del fichaje de salida y ‘Guardar’ para registrar el petición.
 
@@ -89,7 +99,11 @@ El trabajador únicamente deberá hacer clic sobre el botón ‘Solicitar’ e i
 
 Si existe un fichaje de salida como por ejemplo a las 14:55, éste aparecerá como ‘Fichaje realizado’ en el listado de fichajes pendientes, faltando la entrada.
 
+![Solicitar una petición de fichaje cuando ya existe el fichaje de salida y falta la entrada](/media/manual/solicitar-una-peticion-de-fichaje-cuando-ya-existe-el-fichaje-de-salid-841c761ed7.webp)
+
 El trabajador únicamente deberá hacer clic sobre el botón ‘Solicitar’ e indicar la hora del fichaje de entrada y ‘Guardar’ para registrar el petición.
+
+![Solicitar una petición de fichaje cuando ya existe el fichaje de salida y falta la entrada](/media/manual/solicitar-una-peticion-de-fichaje-cuando-ya-existe-el-fichaje-de-salid-e02cf1ab64.webp)
 
 ### Añadir una petición de fichaje de entrada y salida
 
@@ -97,9 +111,15 @@ La última opción de petición, es crear directamente en el día y hora la peti
 
 En la parte superior, en la barra se encuentra el botón ‘Acciones’, haciendo clic sobre él se despliega la opción ‘Nueva petición’.
 
+![Añadir una petición de fichaje de entrada y salida](/media/manual/anadir-una-peticion-de-fichaje-de-entrada-y-salida-8fdfa67264.webp)
+
 Aparecerá el modal donde se tienen que añadir los fichajes a solicitar en la petición. Para ello existen los botones de ‘Añadir Entrada’ para un fichaje de inicio del registro de la jornada de trabajo o ‘Añadir salida’ para un fichaje de finalización del turno de trabajo.
 
+![Añadir una petición de fichaje de entrada y salida](/media/manual/anadir-una-peticion-de-fichaje-de-entrada-y-salida-9c33f38630.webp)
+
 Una vez añadidos los fichajes a solicitar, el trabajador debe ‘Guardar’ para registrar la petición.
+
+![Añadir una petición de fichaje de entrada y salida](/media/manual/anadir-una-peticion-de-fichaje-de-entrada-y-salida-a1c2378f6b.webp)
 
 ## Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?
 
@@ -111,27 +131,49 @@ Para ello el trabajador puede realizar una petición de ‘Solicitar modificaci�
 
 Esta solicitud se puede realizar en el ‘Detalle’ o en el ‘Detalle por trabajador’.
 
+![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-86e9d9d520.webp)
+
+![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-87ea38be81.webp)
+
 En este caso, existen dos fichajes que queremos solicitar para que se eliminen.
 
 El fichaje de las 10:05 es erróneo.
 
+![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-aee5e248ee.webp)
+
 También es erróneo el fichaje de las 10:15, de esta forma cuando sean eliminados solo quedaría el fichaje de entrada de las 10:00 horas que es el válido.
+
+![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-7e9a7e1e91.webp)
 
 Se debe hacer clic sobre el botón ‘Solicitar modificación’ y eliminar los fichajes haciendo clic sobre el botón de la papelera.
 
+![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-9043fc4f68.webp)
+
 Una vez son eliminados los fichajes, se debe hacer clic sobre el botón ‘Solicitar’ para registrar la petición de modificación de fichaje, en este caso, para eliminar fichajes incorrectos.
+
+![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-4a7713204c.webp)
 
 Todas aquellas solicitudes que estén todavía por validar por los administradores, se mostrarán dentro de ‘Peticiones de fichajes’, en el listado de ‘Peticiones pendientes’.
 
+![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-b570824b3e.webp)
+
 En este listado de peticiones pendientes se puede ver el detalle de la solicitud realizada, así como tener la opción de eliminar la petición.
 
+![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-f7be168093.webp)
+
 Una vez la petición sea validada por los administradores del equipo, los fichajes incorrectos habrán desaparecido.
+
+![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-9ca5bb0072.webp)
 
 ## Peticiones pendientes
 
 Las peticiones que estén pendientes de ser aceptadas por los administradores del equipo de trabajo, se mostrarán en el listado de la pestaña ‘Peticiones pendientes’.
 
+![Peticiones pendientes](/media/manual/peticiones-pendientes-f70e47bc93.webp)
+
 El trabajador puede saber cuántas peticiones quedan aún pendientes de validar, ya que tanto en el menú como en la pestaña, aparecerá una notificación con un número dentro de un círculo azul indicando la cantidad de peticiones pendientes.
+
+![Peticiones pendientes](/media/manual/peticiones-pendientes-71b97f2b71.webp)
 
 ### Denegar una petición realizada
 
@@ -139,64 +181,18 @@ El trabajador puede haber realizado también una petición de fichaje incorrecta
 
 Para poder eliminarla antes de ser validada, en el listado de ‘Peticiones pendientes’ se muestra un botón de acción para poderla cancelar.
 
+![Denegar una petición realizada](/media/manual/denegar-una-peticion-realizada-f68b0fad57.webp)
+
 Al hacer clic sobre este botón, el sistema alertará preguntando si se desea denegar la petición de fichaje.
+
+![Denegar una petición realizada](/media/manual/denegar-una-peticion-realizada-0a94c8654c.webp)
 
 ## Histórico
 
 Cuando una petición sea aceptada, ya sea de forma automática o necesitando la validación de algún administrador del equipo, así como aquellas que hayan sido canceladas por el trabajador o denegadas por el administrador, se mostrarán en el listado de la pestaña ‘Histórico’ donde se indicará el estado.
 
-El trabajador también podrá comprobar que una petición ha sido aprobada, si al acceder a su ‘Detalle por trabajador’ puede ver pintado el fichaje que solicitó en la petición.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Solicitar una petición de fichaje de un turno predeterminado](/media/manual/solicitar-una-peticion-de-fichaje-de-un-turno-predeterminado-1f879ce9fd.webp)
-
-![5. Peticiones de fichajes](/media/manual/5-peticiones-de-fichajes-3bcd7789fb.webp)
-
-![Solicitar una petición de fichaje cuando ya existe el fichaje de entrada y falta la salida](/media/manual/solicitar-una-peticion-de-fichaje-cuando-ya-existe-el-fichaje-de-entra-c8de67a33f.webp)
-
-![Solicitar una petición de fichaje de un turno predeterminado indicando la hora de inicio y fin](/media/manual/solicitar-una-peticion-de-fichaje-de-un-turno-predeterminado-indicando-42802c871b.webp)
-
-![Solicitar una petición de fichaje cuando ya existe el fichaje de salida y falta la entrada](/media/manual/solicitar-una-peticion-de-fichaje-cuando-ya-existe-el-fichaje-de-salid-841c761ed7.webp)
-
-![Solicitar una petición de fichaje de un turno predeterminado](/media/manual/solicitar-una-peticion-de-fichaje-de-un-turno-predeterminado-471e7ff028.webp)
-
-![Añadir una petición de fichaje de entrada y salida](/media/manual/anadir-una-peticion-de-fichaje-de-entrada-y-salida-8fdfa67264.webp)
-
-![Solicitar una petición de fichaje cuando ya existe el fichaje de salida y falta la entrada](/media/manual/solicitar-una-peticion-de-fichaje-cuando-ya-existe-el-fichaje-de-salid-e02cf1ab64.webp)
-
-![Añadir una petición de fichaje de entrada y salida](/media/manual/anadir-una-peticion-de-fichaje-de-entrada-y-salida-9c33f38630.webp)
-
-![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-86e9d9d520.webp)
-
-![Añadir una petición de fichaje de entrada y salida](/media/manual/anadir-una-peticion-de-fichaje-de-entrada-y-salida-a1c2378f6b.webp)
-
-![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-87ea38be81.webp)
-
-![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-aee5e248ee.webp)
-
-![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-7e9a7e1e91.webp)
-
-![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-9043fc4f68.webp)
-
-![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-b570824b3e.webp)
-
-![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-4a7713204c.webp)
-
-![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-f7be168093.webp)
-
-![Fichajes realizados que se quieren modificar ¿Cómo solicitar una petición de modificación de fichajes?](/media/manual/fichajes-realizados-que-se-quieren-modificar-como-solicitar-una-petici-9ca5bb0072.webp)
-
-![Peticiones pendientes](/media/manual/peticiones-pendientes-f70e47bc93.webp)
-
-![Denegar una petición realizada](/media/manual/denegar-una-peticion-realizada-f68b0fad57.webp)
-
-![Peticiones pendientes](/media/manual/peticiones-pendientes-71b97f2b71.webp)
-
 ![Histórico](/media/manual/historico-ee0fa08abb.webp)
 
-![Denegar una petición realizada](/media/manual/denegar-una-peticion-realizada-0a94c8654c.webp)
+El trabajador también podrá comprobar que una petición ha sido aprobada, si al acceder a su ‘Detalle por trabajador’ puede ver pintado el fichaje que solicitó en la petición.
 
 ![Histórico](/media/manual/historico-c95c699a10.webp)

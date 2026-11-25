@@ -58,6 +58,8 @@ Información sobre funciones de los puestos: polivalentes, con instrucciones y c
 ## Qué debes saber
 Las especialidades o funciones se valoran desde el 1 (no tiene asociada ninguna función) al 5, que determina la función establecida para el puesto. En este ejemplo, el puesto está dedicado a la Financiación. Los puestos pueden tener más de una especialidad, como en el caso de los puestos polivalentes.
 
+![3. Funciones de los puestos: polivalentes](/media/manual/3-funciones-de-los-puestos-polivalentes-ed468b3151.png)
+
 CAMBIOS DE FUNCIÓN: Le permite modificando las especialidades cambiar las funciones del puesto de manera que en el caso de que tuviera muchas peticiones de Devolución, por ejemplo, puede modificar la especialidad del puesto, dando valor 5 a Devolución y pasando del 5 al 1 en Financiación.
 
 No olvide de GUARDAR para que los cambios se hagan efectivos.
@@ -65,9 +67,3 @@ No olvide de GUARDAR para que los cambios se hagan efectivos.
 En el caso de cambiar una función de puesto tenga la precaución de comprobar si el puesto que cambia tiene citas pendientes.
 
 A los puestos se les asignan turnos (el horario de apertura) y cada vez que el cliente pide una cita, se reserva un espacio de tiempo (slot) en el turno que el puesto tenga definido. Es obligatorio crear turnos de trabajo, que agruparemos en patrones para planificar a los puestos de atención.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Funciones de los puestos: polivalentes](/media/manual/3-funciones-de-los-puestos-polivalentes-ed468b3151.png)

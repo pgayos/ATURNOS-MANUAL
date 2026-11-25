@@ -62,7 +62,11 @@ Se trata de notificaciones que va a poder lanzar el administrador del equipo de 
 
 Para crear el mensaje y lanzarlo hay que hacerlo desde el menú RRHH → Acciones → Notificaciones APP → Añadir:
 
+![Mensajes in APP](/media/manual/mensajes-in-app-e88d639bfc.webp)
+
 Haciendo clic en el botón “añadir” se rellenan los siguientes campos:
+
+![Mensajes in APP](/media/manual/mensajes-in-app-29752c48b2.webp)
 
 - Equipos: el equipo donde quiero que aparezca el mensaje
 - Título: se añade el título de la notificación
@@ -73,18 +77,10 @@ Haciendo clic en el botón “añadir” se rellenan los siguientes campos:
 
 Una vez que esté listo el mensaje, se hace clic en “Guardar” y aparecerán todas las notificaciones creadas de la siguiente manera, pudiendo eliminarlas (papelera) y modificarlas (botón de acción verde):
 
+![Mensajes in APP](/media/manual/mensajes-in-app-256d582990.webp)
+
 Cuando el trabajador inicie sesión en la app con su usuario y contraseña, le aparecerá en pantalla lo siguiente:
-
-Una vez que éste le de a “Aceptar”, el mensaje desaparecerá y no le volverá a aparecer al usuario.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Mensajes in APP](/media/manual/mensajes-in-app-29752c48b2.webp)
-
-![Mensajes in APP](/media/manual/mensajes-in-app-e88d639bfc.webp)
 
 ![Mensajes in APP](/media/manual/mensajes-in-app-03a83f6d8b.webp)
 
-![Mensajes in APP](/media/manual/mensajes-in-app-256d582990.webp)
+Una vez que éste le de a “Aceptar”, el mensaje desaparecerá y no le volverá a aparecer al usuario.

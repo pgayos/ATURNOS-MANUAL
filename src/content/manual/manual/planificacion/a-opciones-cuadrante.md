@@ -67,11 +67,17 @@ Para más información sobre las altas de los trabajadores, ver Añadir trabajad
 
 Para realizar diferentes acciones en el cuadrante se pueden realizar al hacer clic en el botón de la rueda de opciones.
 
+![Añadir trabajadores](/media/manual/anadir-trabajadores-cc54461d89.webp)
+
 ### Extender planificación del cuadrante
 
 Esta opción permite extender la planificación del último patrón aplicado a los trabajadores. Es importante que sea la extensión de un patrón ya aplicado, ya que los patrones insertan datos de planificación en el perfil del trabajador. Esta información también se puede conocer desde la función ‘ Info ‘ del menú operativa del tu rno.
 
+![Extender planificación del cuadrante](/media/manual/extender-planificacion-del-cuadrante-42e0d8d890.webp)
+
 Haciendo clic en ‘ Extender planificación’ aparecen las siguientes opciones:
+
+![Extender planificación del cuadrante](/media/manual/extender-planificacion-del-cuadrante-6bbf3230ca.png)
 
 - Comenzar desde el inicio del patrón: Si marcas esta opción, el patrón se aplicará desde su primer período, sin importar cómo terminó la última planificación. Úsala si quieres reiniciar el patrón desde el principio. No la marques si deseas continuar desde donde se quedó en la planificación anterior.
 - Hasta final de mes: Seleccionando esta opción, el patrón se extenderá hasta el último día del mes especificado, en lugar de hasta una fecha concreta.
@@ -86,25 +92,39 @@ Este proceso es posible, siempre que el patrón sea de 31 días y planifiques ha
 
 Al hacer clic en esta opción, se enviará el cuadrante que se está visualizando (ver visualización del cuadrante ) a todos los trabajadores (cada trabajador que haya tenido lugar en su correo electrónico su planificación).
 
+![Enviar cuadrante por email a todos](/media/manual/enviar-cuadrante-por-email-a-todos-73d4c5aed5.png)
+
 Para poder enviar el cuadrante, los trabajadores deben estar activos. Un trabajador está activo cuando el administrador acepta que aTurnos le envíe una solicitud por correo para activar su cuenta, así como una contraseña para tener acceso al sistema. Ver más en: Cómo activar un trabajador.
 
 ### Borrar cuadrante
 
 Esta herramienta te da la opción de borrar el cuadrante, pero puedes seleccionar diferentes opciones para hacerlo:
 
+![Borrar cuadrante](/media/manual/borrar-cuadrante-7e24c11b42.png)
+
 - Puedes seleccionar entre las fechas que quieres borrar.
 - A qué trabajadores quieres borrárselo.
 - Y si quieres borrar también toda la planificación, solo las vacaciones o los turnos con 0 horas.
+
+  ![Borrar cuadrante](/media/manual/borrar-cuadrante-0b5b000b3f.png)
 
 ### Cerrar cuadrante
 
 Desde esta opción, el Superusuario o Administrador Total (ver Roles de usuario ) puede cerrar el cuadrante para que no se pueda añadir ningún evento nuevo al cuadrante, así se evita que pueda haber problemas a la hora de exportar conceptos de nómina que se recogen dentro del cuadrante.
 
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-5496cbb287.png)
+
 Para cerrar el cuadrante deberás indicar una fecha de cierre de cuadrante, lo que indicará que, desde cualquier fecha anterior, no se podrá modificar ningún evento en el cuadrante. Si hubo una fecha anterior de cierre, se indicará cuál fue y qué administrador cerró el cuadrante.
+
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-5d114fa356.png)
 
 Cuando un cuadrante ha sido cerrado, los días del mes aparecerán de color grisáceo y con un icono de candado junto al número del día. Esto indica que la planificación de esos días ya está finalizada y bloqueada para evitar cambios accidentales. No se podrá realizar ningún tipo de cambio en el cuadrante mientras este esté cerrado.
 
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-1071de8d1d.webp)
+
 Si volvemos a realizar la acción del proceso de cierre de cuadrante e indicamos una fecha anterior (a la cual el cuadrante estaba cerrado), nos volverán a aparecer los días desbloqueados para añadir de nuevo eventos en las fechas en los que antes estaba cerrado. Por ejemplo, siguiendo las imágenes, si estaba cerrado el cuadrante a fecha de 31/01/2020, si lo volviéramos a cerrar a fecha de 31/12/2019, el mes de enero de 2020, estaba nuevamente desbloqueado para añadir eventos.
+
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-0f03a06105.png)
 
 Para más información sobre la función de cierre de cuadrante (ver Cerrar cuadrante en RRHH ).
 
@@ -112,38 +132,14 @@ Para más información sobre la función de cierre de cuadrante (ver Cerrar cuad
 
 Desde esta opción, el Superusuario o Administrador Total (ver Roles de usuario ) puede informar/modificar el último día exportado de los trabajadores seleccionados.
 
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-bfdf7f6d0b.png)
+
 La fecha de último día exportado imposibilita que los conceptos de nómina se descarguen en fecha anterior a la informada.
 
 El dato se informa en el perfil del trabajador.
 
+![Cerrar cuadrante](/media/manual/cerrar-cuadrante-670f96728d.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Extender planificación del cuadrante](/media/manual/extender-planificacion-del-cuadrante-6bbf3230ca.png)
-
-![Extender planificación del cuadrante](/media/manual/extender-planificacion-del-cuadrante-42e0d8d890.webp)
-
-![Añadir trabajadores](/media/manual/anadir-trabajadores-cc54461d89.webp)
-
-![Enviar cuadrante por email a todos](/media/manual/enviar-cuadrante-por-email-a-todos-73d4c5aed5.png)
-
-![Borrar cuadrante](/media/manual/borrar-cuadrante-7e24c11b42.png)
-
-![Borrar cuadrante](/media/manual/borrar-cuadrante-0b5b000b3f.png)
-
-![Cerrar cuadrante](/media/manual/cerrar-cuadrante-5d114fa356.png)
-
-![Cerrar cuadrante](/media/manual/cerrar-cuadrante-5496cbb287.png)
-
-![Cerrar cuadrante](/media/manual/cerrar-cuadrante-1071de8d1d.webp)
-
-![Cerrar cuadrante](/media/manual/cerrar-cuadrante-0f03a06105.png)
-
-![Cerrar cuadrante](/media/manual/cerrar-cuadrante-670f96728d.png)
-
-![Cerrar cuadrante](/media/manual/cerrar-cuadrante-bfdf7f6d0b.png)

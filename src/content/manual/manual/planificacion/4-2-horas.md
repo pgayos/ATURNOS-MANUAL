@@ -58,7 +58,11 @@ Aprende a horas en aTurnos, con instrucciones y contexto revisables por el equip
 ## Procedimiento
 En esta tabla de estadísticas se hablará siempre en número de horas entre dos fechas seleccionadas. En primer lugar, veremos las columnas que indican el número de horas por cada tipo de turno que tenemos planificado en el cuadrante.
 
+![4.2 Horas](/media/manual/4-2-horas-3eaefa69d4.png)
+
 A continuación se mostrarán las horas de absentismos (totales y temporales) y las horas añadidas, ya sean de tipo normal, extra, complementarias y de aquellos tipos de horas que hayan sido creados.
+
+![4.2 Horas](/media/manual/4-2-horas-811afd5c2e.png)
 
 En el resto de columnas se informa de los siguientes datos:
 
@@ -69,16 +73,8 @@ En el resto de columnas se informa de los siguientes datos:
 - Ajustes año: información sobre los diferentes ajustes realizados por incremento de horas (por ejemplo pendientes a recuperar del año anterior), decremento de horas (como horas que se compensarán por permisos de descanso en el futuro), abono de nómina (que se han pagado en finiquito y no deben constar como pendientes de completar) o por decremento del saldo de vacaciones (por haber sido también abonadas dentro del finiquito).
 - Balance año: diferencia entre las horas de contrato y las horas planificadas del año.
 
+  ![4.2 Horas](/media/manual/4-2-horas-bf3bd5e683.png)
+
 También tendrá la posibilidad de ver en una barra gráfica el total de horas:
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.2 Horas](/media/manual/4-2-horas-3eaefa69d4.png)
-
-![4.2 Horas](/media/manual/4-2-horas-bf3bd5e683.png)
-
-![4.2 Horas](/media/manual/4-2-horas-811afd5c2e.png)
 
 ![4.2 Horas](/media/manual/4-2-horas-1cd8c724f1.png)

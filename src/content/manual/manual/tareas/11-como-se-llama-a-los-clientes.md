@@ -58,6 +58,8 @@ Los puestos siempre tienen que tener abierta la aplicación de turnos para reali
 
 El menú de Tareas → Tiempo Real es el que permite a los puestos llamar a los clientes.
 
+![11. ¿Cómo se llama a los clientes?](/media/manual/11-como-se-llama-a-los-clientes-692c97d997.png)
+
 1. Al hacer “Siguiente tarea” aparece el número (ticket del cliente) en las pantallas centrales y se ilumina el número del puesto.
 2. Puedes seleccionar una cola en concreto, de manera que además de tener en cuenta la hora de la petición, al hacer Siguiente tareas, se tendrá en cuenta las colas seleccionadas.
 3. Tareas asignadas a los puestos, en caso de tener varias especialidades informadas se ven todas ellas, si tienes el perfil de administrador visualizas todas las colas.
@@ -68,9 +70,3 @@ El menú de Tareas → Tiempo Real es el que permite a los puestos llamar a los 
 8. Comienza a computar el Tiempo de la Tarea.
 9. Para terminar la tarea y hacer otra llamada, para la cita
 10. En el caso de que el cliente esté Ausente, se vuelve a marcar “Siguiente tarea”, la cita de este cliente pasa
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![11. ¿Cómo se llama a los clientes?](/media/manual/11-como-se-llama-a-los-clientes-692c97d997.png)

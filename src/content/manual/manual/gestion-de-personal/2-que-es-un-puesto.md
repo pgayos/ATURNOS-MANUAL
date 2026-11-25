@@ -68,8 +68,4 @@ Las tareas (o funciones) definidas en las colas están determinadas por las espe
 
 Es obligatorio informar una especialidad al menos por puesto para que puedan hacer llamadas a los clientes. Accede a Trabajadores → Listado.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![2. ¿Qué es un puesto?](/media/manual/2-que-es-un-puesto-f224b3c807.png)

@@ -61,16 +61,12 @@ El administrador del equipo desde modifica las localizaciones, puede cambiar las
 ## Qué debes saber
 De la misma forma, si no existe localización en los turnos, también puede asignarle una localización o dejarle “sin localización”.
 
+![13. Modifica las localizaciones](/media/manual/13-modifica-las-localizaciones-39b91888f4.webp)
+
 Existe un buscador donde se puede escribir el nombre de la localización para encontrarla rápidamente.
+
+![13. Modifica las localizaciones](/media/manual/13-modifica-las-localizaciones-d2d1fc3ced.webp)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![13. Modifica las localizaciones](/media/manual/13-modifica-las-localizaciones-39b91888f4.webp)
-
-![13. Modifica las localizaciones](/media/manual/13-modifica-las-localizaciones-d2d1fc3ced.webp)

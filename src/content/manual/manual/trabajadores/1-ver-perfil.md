@@ -61,12 +61,8 @@ Aprende a ver perfil, con instrucciones y contexto revisables por el equipo de a
 ## Procedimiento
 Se accede a ver perfil del trabajador, donde se encuentra la información General del trabajador, sus Especialidades, Datos personalizados y Restricciones. También se pueden consultar sus Estadísticas, Periodos de absentismo e información de exportación a Nóminas.
 
+![1. Ver perfil](/media/manual/1-ver-perfil-1d5ba32e2b.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1. Ver perfil](/media/manual/1-ver-perfil-1d5ba32e2b.webp)

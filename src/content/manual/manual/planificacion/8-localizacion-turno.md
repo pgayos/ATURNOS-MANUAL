@@ -55,6 +55,8 @@ order: 1
 
 Las localizaciones se pueden emplear para organizar un equipo en diferentes departamentos o localizaciones físicas, por ejemplo, diferentes puntos de venta o trabajadores que realizan la misma tarea.
 
+![8. Localización turno](/media/manual/8-localizacion-turno-6ade4a6e91.png)
+
 ## Procedimiento
 Esta función, cambia ese día seleccionado a ese turno en concreto a una localización que le apliques, por ejemplo, un trabajador que tiene su localización por defecto en la recepción de un hotel, pero en un día/turno determinado se modifica y se cambia a oficinas administración (si lo que deseas es cambiar a ese trabajador de localización por defecto, en el cuadrante del trabajador, haz clic en la columna donde está su nombre/foto y selecciona “localización por defecto”).
 
@@ -65,9 +67,3 @@ La opción de Localización turno se utiliza para insertar una localización en 
 - Asignar localización a un turno: el modal te ofrece la opción de “Buscar” la localización que necesitas y/o debajo de esa opción aparecerán todas las localizaciones que tienes creadas y que podrás asignar al turno, haz clic en la localización que deseas añadir (si ya existe una previa, se borrará y se insertará la nueva automáticamente).
 
 Para crear una localización hay que acceder al menú Administrar → Localizaciones → Añadir.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![8. Localización turno](/media/manual/8-localizacion-turno-6ade4a6e91.png)

@@ -71,6 +71,8 @@ Estos usuarios tienen control total sobre los widgets visibles para sí mismos y
 
 Para activar un widget, simplemente arrastra el widget deseado de la columna izquierda a la columna derecha.
 
+![⚙️ ¿Cómo se configuran los widgets?](/media/manual/como-se-configuran-los-widgets-90286674fa.webp)
+
 En algunos widgets podrás encontrar el siguiente icono:
 
 Este icono nos indica que el widget muestra información de terceros. Por el contrario si activamos un widget que no tiene ese icono, nos mostrará información propia.
@@ -97,6 +99,8 @@ El widget Documentos, permite la visualización en la Pantalla de inicio de los 
 
 Visible para: Trabajadores.
 
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-ebd43ce9d2.webp)
+
 Permite ver qué peticiones están pendientes pendientes y además, crear nuevas peticiones desde la pantalla de inicio. Visible para: Superusuarios y administradores totales.
 
 Este widget muestra las horas de absentismo y horas extra/complementarias, junto con el número total de absentismos y días de vacaciones del mes actual. También indica información del día en curso. Visible para: superusuarios y los administradores totales.
@@ -104,6 +108,8 @@ Este widget muestra las horas de absentismo y horas extra/complementarias, junto
 Muestra noticias y actualizaciones del sistema aTurnos, pero puedes personalizarlo con cualquier otro. Visible para: Todos.
 
 Para mostrar otro blog, edita este campo y haz clic en guardar.
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b1a151c142.webp)
 
 Muestra en un gráfico las demandas entre las fechas que aparecen en el eje horizontal de la gráfica, así como los trabajadores ajustados a esas demandas, en la misma gráfica mostrada como una línea de otro color. Visible para: Administradores.
 
@@ -139,11 +145,17 @@ Muestra documentos que deben leerse y aún no se han descargado. Cuando se desca
 
 Muestra cuántos fichajes no se han cerrado en los turnos realizados con anterioridad. Visible para: Administradores.
 
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-c5b21079a4.webp)
+
 Permite la visualización en la pantalla de inicio de los trabajadores, las horas demandadas y el total de horas computadas de cada una de las demandas existentes, en la fecha seleccionada en el widget, así como la posibilidad de navegar entre fechas para ver las demandas asociadas a estas. Visible para: Administradores.
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-f2cacd48e0.webp)
 
 Muestra el listado de especialidades creadas en el equipo, indicando número total de trabajadores que tienen asignada cada una de ellas, comparándolo con el número total de trabajadores del equipo. Visible para: Administradores y el superusuario.
 
 Informa de los trabajadores que, teniendo turno u horas planificadas en su cuadrante, han fichado el inicio de su jornada laboral en el control horario. Más información ver “Diario” y “Detalle”. Visible para: Administradores
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-ed0bdb96c8.webp)
 
 Muestra 4 pasos que guían al administrador de cómo empezar y configurar sus equipos en aTurnos. Visible para: Todos.
 
@@ -163,7 +175,11 @@ Muestra las ofertas de turnos disponibles. Los Administradores Totales y el Supe
 
 Identificado como Cambios (Administrador Planificador). Se muestran los cambios pendientes de validación, así como dos botones: el ‘+’ a continuación del título, que lleva al cuadrante para gestionar los cambios de turno, y el “ver histórico”, que enlaza con la pantalla de peticiones, cambios y ofertas pendientes.
 
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-fafe3d285a.webp)
+
 Este widget permite que los trabajadores vean los cambios que se les ha pedido desde la pantalla de inicio y aceptarlos o denegarlos.
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-91eda9bcb8.webp)
 
 Este widget permite ver las últimas acciones que han dado lugar en el equipo, es decir, de las acciones realizadas por los usuarios en el equipo.
 
@@ -185,7 +201,11 @@ Este Widget está relacionado con la restricción 5.1, 5.5, 5.8 y 5.12, mostrand
 
 - 5.5 Limitar las horas extras planificadas al año a las informadas en el perfil del trabajador
 
+  ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-adeef4407b.webp)
+
 - 5.8 Limitar las horas complementarias planificadas al año a las informadas en el perfil del trabajador
+
+  ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a299d652ea.webp)
 
 - 5.12 Máximo de un tipo de hora determinado al año
 
@@ -193,7 +213,11 @@ Pueden acceder a este widget el administrador total, planificador, validador y t
 
 Informa al trabajador el total de horas no ajustadas del estado de horas.
 
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-da452c9d1b.webp)
+
 Este widget funciona tanto como asistente, como reflejo de las tareas existentes, con su seguimiento por colores, como se muestra en la leyenda. Tiene dos botones con vínculos: “Cómo configurar una cita previa”, que lleva a su página del manual, y “Nueva tarea”, que abre la pestaña para crear una nueva pestaña. A su derecha muestra en una tabla las tareas creadas.
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-bb2792eaba.webp)
 
 Identificado como “No superar un tipo de hora personalizada al año (R5.12)”, en la configuración de la pantalla de inicio.
 
@@ -205,11 +229,17 @@ Pueden acceder a este widget el administrador total, planificador, validador y t
 
 Identificado como Nómina (Trabajador). Muestra el periodo correspondiente a la nómina a la que da acceso.
 
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-86c39dde3c.webp)
+
 Botón de acceso directo a calidad de fichaje. Visible para: Administradores.
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-6d08158fff.webp)
 
 Botón que lleva directamente a la vista diaria del cuadrante de trabajo. Visible para: Superusuarios y administradores totales.
 
 El administrador puede calcular el tanto por ciento de fichajes no automáticos totales de un equipo de trabajo, como se muestra en el informe estadístico de calidad de fichaje. Visible para: Administradores.
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-0be039b16a.webp)
 
 El administrador puede consultar los trabajadores que tienen el Timecard Cerrado y/o Validado. Si se hace clic en “Ir a Timecard Localizado”, redirige la página hacia la pestaña “Control Horario (Timecard Localizado)”. Visible para: Administradores.
 
@@ -221,7 +251,11 @@ Pueden acceder a este widget el administrador total, planificador, validador y t
 
 Informa al trabajador las alertas de control horario de toda una semana.
 
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a1b1b67ed6.webp)
+
 Muestra al trabajador los datos de sus conceptos de nómina. Más información en Nóminas.
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-614adb0cf7.webp)
 
 El widget: Acumulado Semanal o Mensual
 
@@ -234,6 +268,8 @@ Este widget es personalizable con permisos.
 - Muestra el número de horas semanales del perfil.
 
 - La media de horas de los periodos del patrón aplicado.
+
+  ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-2d6e1e845c.webp)
 
 Muestra al trabajador el balance semanal y diario de Control Horario de las horas Trabajadas con las horas Computadas. Más información ver Detalle.
 
@@ -463,6 +499,8 @@ Balance: un balance positivo indica cuantos absentimos de este tipo aún se pued
 
 Muestra los nuevos empleados que serán dados de alta en las proximas dos semanas
 
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-297f220869.webp)
+
 Este widget muestra la IA de aTurnos, es un widget que te asiste en tu recorrido por aTurnos. Tiene tres acciones: Hacer preguntas, pedirle que realice acciones por ti o, si es tu primera vez utilizando aTurnos, utilizando la acción “Chat onboarding” te va guiando paso a paso como si fuera una formación sobre lo que necesitas hacer para empezar a utilizar aTurnos.
 
 Este widget muestra el nombre de los trabajadores que han introducido un fichaje sin tener ningún tipo de planificación en el cuadrante. Visible para: Administrador Total y Superusuario
@@ -474,6 +512,8 @@ Este widget muestra el nombre de los trabajadores que en los próximos 30 días 
 Este widget te muestra la cantidad de horas que tienes planificadas de un tipo de absentismo seleccionado. Visible a nivel: Trabajador, validador y planificador.
 
 Este widget muestra el balance con el número de horas computadas en el año (según la planificación del cuadrante), comparadas con las horas año contrato establecidas en el perfil del trabajador que ha iniciado sesión. Además lo que diferencia este widget de los anteriores es que aparece el balance con los ajustes de horas que se le han realizado al trabajador y si se hace clic sobre él nos lleva al cuadrante anual para obtener más detalle sobre lo planificado y lo ajustado.
+
+![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-5bb31c7361.webp)
 
 ## PENDIENTE de validación
 
@@ -487,19 +527,13 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 
 ![⚙️ ¿Cómo se configuran los widgets?](/media/manual/como-se-configuran-los-widgets-0d4ef4c1e5.webp)
 
-![⚙️ ¿Cómo se configuran los widgets?](/media/manual/como-se-configuran-los-widgets-90286674fa.webp)
-
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-44061a99c4.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-ebd43ce9d2.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a2e2b5d8fa.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-27d1873a08.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-e61d8b0d64.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b1a151c142.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-3d91ff9a0d.webp)
 
@@ -525,15 +559,9 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-e9b2b4b538.webp)
 
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-c5b21079a4.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-f2cacd48e0.webp)
-
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a37a65e250.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-04e5392bad.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-ed0bdb96c8.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-14613c9e65.webp)
 
@@ -543,41 +571,21 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-029d6051c8.webp)
 
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-fafe3d285a.webp)
-
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b0d66cd2b0.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-91eda9bcb8.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-f8cefd7f48.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-eb98eb8aca.webp)
 
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-da452c9d1b.webp)
-
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-9ddbc70450.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-157e1c7931.webp)
 
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-86c39dde3c.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-6d08158fff.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-0be039b16a.webp)
-
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-0678a7ff48.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-bb2792eaba.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-455d7d21ee.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-df5aa43eee.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a1b1b67ed6.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-614adb0cf7.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-2d6e1e845c.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-726dc75574.webp)
 
@@ -591,17 +599,11 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-2186557ddb.webp)
 
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-adeef4407b.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-a299d652ea.webp)
-
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-f476308461.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-d2a9385ab1.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-37b0deb419.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-297f220869.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-b795b0d879.webp)
 
@@ -612,7 +614,5 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-61dc8ab2b9.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-168e66f208.webp)
-
-![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-5bb31c7361.webp)
 
 ![Descripción detallada de los Widgets en aTurnos](/media/manual/descripcion-detallada-de-los-widgets-en-aturnos-02cd912f74.webp)

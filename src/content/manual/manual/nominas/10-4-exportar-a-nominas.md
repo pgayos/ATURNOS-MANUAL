@@ -70,6 +70,8 @@ Si para el cálculo de variables no se utilizan conceptos que operan entre ellos
 
 1.- Seleccionar los equipos
 
+![10.4 Exportar a nóminas](/media/manual/10-4-exportar-a-nominas-030041f124.png)
+
 2.- Fecha de inicio
 
 3.- Fecha de fin
@@ -78,18 +80,12 @@ Si para el cálculo de variables no se utilizan conceptos que operan entre ellos
 
 5.- En caso de que en el modo de validación para la exportación (ver punto 1.1. del Manual) está indicada la opción “El cuadrante debe estar cerrado”, hay que desmarcar el check de “Cierre de cuadrante”.
 
-6.- Descargar el fichero en formato csv
-
-7.- Guarda el fichero generado
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![10.4 Exportar a nóminas](/media/manual/10-4-exportar-a-nominas-030041f124.png)
-
 ![10.4 Exportar a nóminas](/media/manual/10-4-exportar-a-nominas-60bbd3081b.png)
 
+6.- Descargar el fichero en formato csv
+
 ![10.4 Exportar a nóminas](/media/manual/10-4-exportar-a-nominas-d61a30c3fc.png)
+
+7.- Guarda el fichero generado
 
 ![10.4 Exportar a nóminas](/media/manual/10-4-exportar-a-nominas-f7bc1147f4.png)

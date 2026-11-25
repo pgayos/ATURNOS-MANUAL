@@ -58,6 +58,8 @@ Aprende a creación de los patrones de trabajo, con instrucciones y contexto rev
 ## Procedimiento
 El patrón es la relación consecutiva de los días de trabajo y/o descanso establecidos. Con independencia que el sistema permite otras configuraciones, los patrones serán siempre semanales. Para la creación de los patrones acceda a Planificador → Patrones de turnos → Añadir.
 
+![5. Creación de los patrones de trabajo](/media/manual/5-creacion-de-los-patrones-de-trabajo-f5badca01e.png)
+
 1. Dale una descripción al patrón con el que posteriormente planificaremos los puestos.
 2. Por defecto, escalonados a 7 días
 3. Por defecto Aplicar a Festivos
@@ -67,9 +69,3 @@ El patrón es la relación consecutiva de los días de trabajo y/o descanso esta
 7. Elimina el día, en el caso de jornada partida, elimina los dos turnos que lo componen.
 
 IMPORTANTE: En este caso el patrón creado es de lunes a sábado, en el caso de centros que abren todos los domingos, edite el patrón, eliminando el último día e informando el horario del domingo.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5. Creación de los patrones de trabajo](/media/manual/5-creacion-de-los-patrones-de-trabajo-f5badca01e.png)

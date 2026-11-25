@@ -54,12 +54,8 @@ Información sobre configuración, con instrucciones y contexto revisables por e
 ## Opciones y datos disponibles
 Para un correcto funcionamiento de la importación y la exportación es necesario configurar el comportamiento de la plataforma de aTurnos para obtener los resultados deseados. Dentro de la pestaña de configuración aparecen 3 secciones distintas:
 
+![a. Configuración](/media/manual/a-configuracion-affcfaf6db.png)
+
 - Formato de exportación: se trata del separador que se insertará en el archivo csv a la hora de exportarlo. Se puede elegir entre cuatro opciones distintas: Coma (,), Punto y coma (;), Tabulador (t) o Tubería (|).
 - Formato de fecha: para una correcta asociación de campos se puede definir el formato de fecha deseado para la importación y para cualquier tipo de exportación.
 - Asocia los campos para la exportación: desde este apartado, podrás indicar el nombre de la columna que deseas que te aparezca a la hora de exportar esos campos. Por ejemplo, en Nombre del aTurno, puedes indicar que se muestre como: Centro de trabajo, de forma que en el archivo exportado a parecerá dicha columna como: Centro de trabajo.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![a. Configuración](/media/manual/a-configuracion-affcfaf6db.png)

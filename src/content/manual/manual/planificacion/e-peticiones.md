@@ -54,6 +54,8 @@ order: 1
 
 En ajustes, existe una configuración avanzada dedicada a las peticiones del equipo.
 
+![e. Peticiones](/media/manual/e-peticiones-61b43033e5.png)
+
 ### Flujo de peticiones
 
 Para las peticiones se puede personalizar el flujo de aprobación. Igual que ocurre con los cambios de turno, se pueden definir una serie de pasos (4) para aprobar o cancelar la petición hasta conseguir la aceptación definitiva de la misma, para ello se deben indicar los roles o perfiles de usuarios que aprobarán en cada paso (ver roles de aTurnos ).
@@ -62,7 +64,11 @@ Aqui te mostramos algunos ejemplos de como configurar este flujo.
 
 - Ejemplo de flujo 1: nivel mínimo = Administrador Validador, nivel máximo = Administrador Planificador, cualquiera de estos dos roles de administrador puede aprobar la petición.
 
+  ![Flujo de peticiones](/media/manual/flujo-de-peticiones-3fac237132.png)
+
 - Ejemplo de flujo 2: nivel mínimo=Administrador Total, nivel máximo= Administrador Total, solo este rol puede dar la aprobación definitiva de la petición.
+
+  ![Flujo de peticiones](/media/manual/flujo-de-peticiones-4f1916745d.png)
 
 ### Autovalidación de peticiones
 
@@ -137,13 +143,3 @@ Si se configura esta opción en SI, cuando se realiza una sustitución en la que
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Flujo de peticiones](/media/manual/flujo-de-peticiones-3fac237132.png)
-
-![Flujo de peticiones](/media/manual/flujo-de-peticiones-4f1916745d.png)
-
-![e. Peticiones](/media/manual/e-peticiones-61b43033e5.png)

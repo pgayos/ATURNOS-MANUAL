@@ -57,8 +57,12 @@ order: 1
 
 Este reporte de control de presencia muestra de forma sencilla una comparación entre las horas computadas y las horas presenciales (lo que se ha fichado).
 
+![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-140e4bd63c.png)
+
 ## Qué debes saber
 Esta comparación puede ser por días, entre los “Días con horario planificado” y los “Días con horario fichado”, mostrando la diferencia entre ambas variables.
+
+![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-a438c96ab2.png)
 
 De la misma forma, se comparan la “Horas computadas” y las “Horas presenciales”, junto a un balance con la diferencia entre ambas variables.
 
@@ -68,16 +72,8 @@ Las horas presenciales de esta tabla, corresponde a las horas trabajadas de la t
 
 Se excluyen las horas afectadas por cualquier tipo de absentismos (no justificados y justificados).
 
-Son los datos que se pueden comprobar en el ‘Detalle por trabajador’ del Control de Presencia.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-140e4bd63c.png)
-
-![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-a438c96ab2.png)
-
 ![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-5105768fee.png)
+
+Son los datos que se pueden comprobar en el ‘Detalle por trabajador’ del Control de Presencia.
 
 ![4.1 Computadas VS Presenciales](/media/manual/4-1-computadas-vs-presenciales-bd31fa8836.png)

@@ -54,6 +54,8 @@ order: 1
 
 Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas.
 
+![e. Localizaciones](/media/manual/e-localizaciones-d1474ac2f6.png)
+
 En este informe se reflejan las distintas localizaciones (ver más) que hay en nuestro equipo con las horas computadas en nuestro Cuadrante o Cuadrante Borrador. Estas horas son comparadas con las horas presenciales que se registran a través del Control de Presencia (ver más), mostrando el porcentaje de las mismas por cada localización.
 
 Existen tres pestañas dentro de las estadísticas por localizaciones:
@@ -78,9 +80,3 @@ Se trata de un diagrama, donde se representan las horas de cada localización so
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![e. Localizaciones](/media/manual/e-localizaciones-d1474ac2f6.png)

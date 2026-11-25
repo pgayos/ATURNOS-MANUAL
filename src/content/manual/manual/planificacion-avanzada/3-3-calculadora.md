@@ -66,6 +66,8 @@ Es una herramienta que te ofrece, tras informar con valores unas variables previ
 
 La cobertura o necesidad es previamente informada en un formulario donde se indicará los siguientes valores:
 
+![3.3 Calculadora](/media/manual/3-3-calculadora-6b31fc3c82.png)
+
 - Trabajadores del equipo u Horas por trabajador/año: Indicar número de trabajadores: se puede escoger el número de trabajadores que van a componer esta demanda de turnos. Por ejemplo, si una unidad organizativa o equipo se compone de 20 trabajadores y 14 de ellos son los que van a cubrir la demanda que necesitamos, hay que distribuir esos 14 trabajadores en los tipos de turnos y días que necesitamos (en nuestro ejemplo, hemos distribuido los 14 trabajadores en el turno M3 de lunes a viernes). Con los 6 trabajadores restantes, buscaremos otra demanda de turnos repitiendo el proceso anterior (en nuestro ejemplo, los hemos distribuido en el turno M2). Horas por trabajador/año: se trata del número total de horas por Convenio de los trabajadores al año, sin contar con las horas de las vacaciones. Ejemplo: si informas 1800 horas, hay que tener en cuenta añadir las 176 horas de los días de vacaciones (en caso de 40 horas semanales/22 días laborables).
 
 Una opción excluye a la otra, es decir, si informas el número de trabajadores, el sistema no permitirá que añadas un valor al número de horas por trabajador/año y viceversa.
@@ -77,9 +79,13 @@ Para que una restricción pueda considerarse en la calculadora, debe estar asign
 - Turnos/Días: a modo de tabla, aparece en columnas los días de la semana, y en filas los diferentes tipos de turnos. Es aquí donde hay que informar el número de trabajadores que se necesitan para cubrir la demanda, indicando cuántos trabajadores se necesitan por cada tipo de turno y día de la semana. Los días libres se van a calcular de forma automática, restando los trabajadores que se necesitan de los disponibles y teniendo en cuenta cualquier restricción sobre los descansos.
 - Datos avanzados para calculadora: l as dos funciones que aparecen en esta sección son complementarias para una planificación más avanzada, pero si se dejan por defecto, el resultado igualmente será óptimo.
 
+  ![3.3 Calculadora](/media/manual/3-3-calculadora-94619a5d76.png)
+
 - Una asignación más relajada o concentrada: al hacer clic, aparece un desplegable con 2 variables (“dispersa, más relajada, pero con menos libres seguidos” o “concentrada y con más libres seguidos”). Total de días a calcular: el resultado de la calculadora es un patrón de demanda de turnos constituido por periodos. Al hacer clic, aparece un desplegable que te permite seleccionar el escalonado de tu patrón, es decir, puedes decidir si la rotación de tu patrón será cada 7 días, 30 días, o algún otro. Son cuatro opciones: “para hacer patrones 7 días, equivale a una semana y cuadran los fines de semana al rotar” es el más recomendado; “28 días, equivale a cuatro semanas y cuadran los fines de semana al rotar”; “30 días”, un mes de 30 días o “31 días”, un mes de 31 días.
 
 Una vez se realiza el cálculo según las variables incluidas, la calculadora te muestra como resultado una propuesta de patrón de turnos, sobre ella puedes realizar ajustes o cambios para adaptarla aún más a las necesidades del equipo. Por ejemplo, permite cambiar de posición un turno por otro (en el mismo día o columna) si consideras que así mejora la rotación de los turnos y días libres, del patrón.
+
+![3.3 Calculadora](/media/manual/3-3-calculadora-8ed7187e1c.png)
 
 La tabla con el resultado de la calculadora muestra la siguiente información:
 
@@ -91,22 +97,12 @@ La tabla con el resultado de la calculadora muestra la siguiente información:
 
 Cuando se parte o divide la propuesta por Especialidad se muestra también la cantidad de horas que genera cada patrón por separado, así como el detalle de cantidad de turnos y horas de los mismos.
 
+![3.3 Calculadora](/media/manual/3-3-calculadora-29bee9646e.png)
+
 1.- Tabla de cobertura: desde la Tabla de cobertura del equipo se valida si el patrón está cubriendo realmente la necesidad solicitada. Se muestra, en resumen, la cantidad de trabajadores asignados día a día y por turnos para cubrir la demanda.
-
-2.- Gráfico de la demanda: Por último, puedes visualizar fácilmente la cobertura del patrón propuesto a través del gráfico que refleja la Cobertura cubierta vs. Cobertura demandada.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3.3 Calculadora](/media/manual/3-3-calculadora-94619a5d76.png)
-
-![3.3 Calculadora](/media/manual/3-3-calculadora-6b31fc3c82.png)
 
 ![3.3 Calculadora](/media/manual/3-3-calculadora-e8d51cc861.png)
 
-![3.3 Calculadora](/media/manual/3-3-calculadora-29bee9646e.png)
+2.- Gráfico de la demanda: Por último, puedes visualizar fácilmente la cobertura del patrón propuesto a través del gráfico que refleja la Cobertura cubierta vs. Cobertura demandada.
 
 ![3.3 Calculadora](/media/manual/3-3-calculadora-bc23d3dce4.png)
-
-![3.3 Calculadora](/media/manual/3-3-calculadora-8ed7187e1c.png)

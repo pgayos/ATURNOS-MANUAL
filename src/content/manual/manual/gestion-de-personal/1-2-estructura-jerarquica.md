@@ -60,9 +60,15 @@ En aTurnos una estructura jerárquica es un modelo organizativo común en compa�
 ## Opciones y datos disponibles
 Esta estructura se representa mediante un diagrama en árbol. Su diseño se compone de:
 
+![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-f38f9f91a1.webp)
+
 - Equipos que son unidades de negocio que comparten por defecto un convenio, una configuración de permisos, tipos de turnos, absentismos, flujos de aprobación y configuración de privacidad.
 
+  ![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-a94a4cf6eb.webp)
+
 - Localizaciones que pueden definirse como departamentos, ubicaciones o grupos de trabajo de una organización, donde se pueden asignar a los trabajadores dentro de un equipo. Un empleado puede tener una localización por defecto, tener acceso a otras localizaciones e incluso pueden tener planificado un turno de trabajo en el resto, dando polivalencia al trabajador.
+
+  ![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-4cffc0b25c.webp)
 
 La dependencia jerárquica puede constar de:
 
@@ -70,16 +76,6 @@ La dependencia jerárquica puede constar de:
 
 La jerarquía de equipos se puede diseñar seleccionando el equipo padre de un equipo en la configuración de ‘Datos del equipo’.
 
-De la misma forma, una localización, puede tener una localización padre según la configuración o también se pueden jerarquizar cambiando el orden.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-4cffc0b25c.webp)
-
-![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-f38f9f91a1.webp)
-
-![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-a94a4cf6eb.webp)
-
 ![1.2 Estructura jerárquica](/media/manual/1-2-estructura-jerarquica-d9ed9c576b.webp)
+
+De la misma forma, una localización, puede tener una localización padre según la configuración o también se pueden jerarquizar cambiando el orden.

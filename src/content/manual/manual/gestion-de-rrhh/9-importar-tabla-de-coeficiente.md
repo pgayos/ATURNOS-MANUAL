@@ -65,14 +65,10 @@ La plantilla debe contener los siguientes datos:
 
 Es importante destacar que los decimales en el coeficiente deben estar separados por punto “.”, ejemplo: 0.50
 
+![9. Importar tabla de coeficiente](/media/manual/9-importar-tabla-de-coeficiente-fb4271c825.png)
+
 Por último, antes de realizar la importación, guarda el documento E xcel con formato tipo CSV.
 
 Para importar el archivo puedes consultar los pasos que indicamos en nuestro menú de “Importar “.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![9. Importar tabla de coeficiente](/media/manual/9-importar-tabla-de-coeficiente-fb4271c825.png)
 
 ![9. Importar tabla de coeficiente](/media/manual/9-importar-tabla-de-coeficiente-923fe5c605.png)

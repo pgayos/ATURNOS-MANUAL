@@ -65,12 +65,8 @@ La visualización del las llamadas, tanto para el cliente, como las llamadas a t
 ## Opciones y datos disponibles
 A continuación os mostramos todas las opciones disponibles, en todos los casos, hay que informar una short url que encontramos en Timeline → Configuración de filtros.
 
+![15. Url´s de kiosko, pantallas centrales, kiosko stop&go, etc.](/media/manual/15-url-s-de-kiosko-pantallas-centrales-kiosko-stop-go-etc-355872ede2.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![15. Url´s de kiosko, pantallas centrales, kiosko stop&go, etc.](/media/manual/15-url-s-de-kiosko-pantallas-centrales-kiosko-stop-go-etc-355872ede2.png)

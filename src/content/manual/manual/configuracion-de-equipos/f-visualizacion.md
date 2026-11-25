@@ -56,23 +56,37 @@ order: 1
 
 Aquí se puede configurar la visualización de los datos que se necesite tener en el cuadrante.
 
+![f. Visualización](/media/manual/f-visualizacion-0d5eb286d8.png)
+
 ### Ver los turnos libres vacíos. Sino le aparecen: L
 
 Si se desactiva esta opción (seleccionando NO), en las casillas del cuadrante que representan los días libres se indicará con la abreviatura “L”, la “L” representa que está Libre (no tiene turno de trabajo planificado).
 
+![Sino le aparecen: L](/media/manual/sino-le-aparecen-l-c2b86fc615.webp)
+
 Con la opción activada en la cuadrante (Seleccionando SI) no aparece vacío sin ningún tipo de abreviatura cuando no hay turno, es la opción que recomendamos para simplificar la información del cuadrante.
+
+![Sino le aparecen: L](/media/manual/sino-le-aparecen-l-bc6b8f092d.webp)
 
 ### Ordenar trabajadores por localización por defecto
 
 Los trabajadores se clasifican en el cuadrante según la localización que se indica en su perfil. Se agrupan los trabajadores de forma más visual centrándose en la localización del trabajador.
 
+![Ordenar trabajadores por localización por defecto](/media/manual/ordenar-trabajadores-por-localizacion-por-defecto-9f447fa3a8.webp)
+
 Así quedarían ordenados por localizaciones.
+
+![Ordenar trabajadores por localización por defecto](/media/manual/ordenar-trabajadores-por-localizacion-por-defecto-71865b4cff.webp)
 
 ### Comienzo de semana
 
 A efectos de cálculos, se trata del primer día de la semana por defecto.
 
+![Comienzo de semana](/media/manual/comienzo-de-semana-ea0e7399c2.webp)
+
 De esta forma, por defecto aparece como primer día de la semana el Lunes, pero se puede establecer por ejemplo que sea el Domingo, mostrándose la información en el tooltip de las horas semanales de domingo a sábado.
+
+![Comienzo de semana](/media/manual/comienzo-de-semana-d297f43c7d.webp)
 
 ### Campos identificativos de los trabajadores en el cuadrante
 
@@ -100,11 +114,17 @@ Estos datos ayudan a identificar a cada trabajador. Se pueden añadir datos como
 - Horas contrato mes.
 - Fecha de alta.
 
+  ![Campos identificativos de los trabajadores en el cuadrante](/media/manual/campos-identificativos-de-los-trabajadores-en-el-cuadrante-16a569f470.png)
+
 ### Campos identificativos del tooltip del trabajador en el cuadrante
 
 El tooltip del trabajador muestra información adicional que aparece al pasar el cursor sobre el nombre del trabajador en el cuadrante.
 
+![Campos identificativos del tooltip del trabajador en el cuadrante](/media/manual/campos-identificativos-del-tooltip-del-trabajador-en-el-cuadrante-99a327a8ba.webp)
+
 Se puede añadir o quitar información.
+
+![Campos identificativos del tooltip del trabajador en el cuadrante](/media/manual/campos-identificativos-del-tooltip-del-trabajador-en-el-cuadrante-9add60ab41.png)
 
 - Año: muestra las horas del presente año que han sido planificadas en relación a las horas al año por contrato.
 - Mes: informa las horas al mes planificadas en el mes que se está visualizando, en comparación con las horas al mes que tiene por contrato.
@@ -121,32 +141,8 @@ Se puede añadir o quitar información.
 
 Añadir información de ‘Datos personalizados’, para ser mostrados en los ‘Reportes por localización’.
 
+![Campos identificativos en los reportes de localizaciones](/media/manual/campos-identificativos-en-los-reportes-de-localizaciones-3697801bb7.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![f. Visualización](/media/manual/f-visualizacion-0d5eb286d8.png)
-
-![Sino le aparecen: L](/media/manual/sino-le-aparecen-l-c2b86fc615.webp)
-
-![Sino le aparecen: L](/media/manual/sino-le-aparecen-l-bc6b8f092d.webp)
-
-![Ordenar trabajadores por localización por defecto](/media/manual/ordenar-trabajadores-por-localizacion-por-defecto-9f447fa3a8.webp)
-
-![Campos identificativos de los trabajadores en el cuadrante](/media/manual/campos-identificativos-de-los-trabajadores-en-el-cuadrante-16a569f470.png)
-
-![Ordenar trabajadores por localización por defecto](/media/manual/ordenar-trabajadores-por-localizacion-por-defecto-71865b4cff.webp)
-
-![Comienzo de semana](/media/manual/comienzo-de-semana-ea0e7399c2.webp)
-
-![Comienzo de semana](/media/manual/comienzo-de-semana-d297f43c7d.webp)
-
-![Campos identificativos del tooltip del trabajador en el cuadrante](/media/manual/campos-identificativos-del-tooltip-del-trabajador-en-el-cuadrante-9add60ab41.png)
-
-![Campos identificativos del tooltip del trabajador en el cuadrante](/media/manual/campos-identificativos-del-tooltip-del-trabajador-en-el-cuadrante-99a327a8ba.webp)
-
-![Campos identificativos en los reportes de localizaciones](/media/manual/campos-identificativos-en-los-reportes-de-localizaciones-3697801bb7.webp)

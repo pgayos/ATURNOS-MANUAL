@@ -67,12 +67,8 @@ En este informe tendrás la posibilidad de consultar:
 
 Por ejemplo, dos días de vacaciones confirmados en el cuadrante del año 2020, al haber una fecha fin de periodo vacacional del año anterior del 15 de enero de 2020, esos días pertenecen al saldo del periodo de 2019.
 
-Las estadísticas del año 2020, muestra que esos días no pertenecen al periodo de 2020.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![4.7 Vacaciones](/media/manual/4-7-vacaciones-463e3f0344.png)
+
+Las estadísticas del año 2020, muestra que esos días no pertenecen al periodo de 2020.
 
 ![4.7 Vacaciones](/media/manual/4-7-vacaciones-896f5d88d5.png)

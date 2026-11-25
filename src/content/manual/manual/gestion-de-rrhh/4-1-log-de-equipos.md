@@ -57,12 +57,8 @@ Información sobre log de equipos, con instrucciones y contexto revisables por e
 ## Qué debes saber
 Aquí encuentras el registro de todas las acciones que se han realizado en los equipos en los que eres superusuario. Además de este registro, permite realizar anotaciones sobre los mismos (para explicar la causa de alguna modificación que hayas realizado). Puedes también validar el log, se utiliza para hacer un seguimiento específico sobre algunas peticiones que pueden generar efectos en tareas asignadas. Por último, para facilitar la búsqueda utilizar el filtro.
 
+![4.1 Log de equipos](/media/manual/4-1-log-de-equipos-9cec25d983.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.1 Log de equipos](/media/manual/4-1-log-de-equipos-9cec25d983.png)

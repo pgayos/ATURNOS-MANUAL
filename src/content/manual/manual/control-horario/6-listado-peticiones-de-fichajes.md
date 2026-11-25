@@ -56,11 +56,19 @@ order: 1
 
 Este reporte permite visualizar todas las ‘ Peticiones de fichajes ‘ pendientes de ser aprobadas por los administradores de los equipos consultados.
 
+![6. Listado peticiones de fichajes](/media/manual/6-listado-peticiones-de-fichajes-0188bcd3ca.webp)
+
 Como en otros listados, dependiendo del volumen de datos se puede consultar por pantalla o generar una ‘ Petición de reporte ‘ para su descarga en un Excel.
+
+![6. Listado peticiones de fichajes](/media/manual/6-listado-peticiones-de-fichajes-e767a948f9.webp)
 
 ## Filtros
 
 En esta consulta se puede definir:
+
+![Filtros](/media/manual/filtros-72e7c63bbb.webp)
+
+![Filtros](/media/manual/filtros-2881c513c8.webp)
 
 - Fechas
 
@@ -70,22 +78,10 @@ En esta consulta se puede definir:
 
 En esta pantalla se permite ‘Aceptar’ o ‘Denegar’ las peticiones que están pendientes aprobar, tanto de forma individual, como masivamente.
 
+![Acciones](/media/manual/acciones-82098cc41e.webp)
+
 Una vez validadas, no es posible deshacer la acción.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6. Listado peticiones de fichajes](/media/manual/6-listado-peticiones-de-fichajes-e767a948f9.webp)
-
-![6. Listado peticiones de fichajes](/media/manual/6-listado-peticiones-de-fichajes-0188bcd3ca.webp)
-
-![Filtros](/media/manual/filtros-72e7c63bbb.webp)
-
-![Filtros](/media/manual/filtros-2881c513c8.webp)
-
-![Acciones](/media/manual/acciones-82098cc41e.webp)

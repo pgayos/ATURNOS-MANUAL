@@ -60,6 +60,8 @@ El cuadrante se visualiza dentro del menú CUADRANTE, la opción CUADRANTE y don
 
 En el caso de que alguna de las tareas no tengan asociada un puesto con turno de trabajo, los clientes no podrán solicitar cita (no pueden reservar un slot de tiempo al no tener tiempo, no tiene turno asignado).
 
+![¿Cómo se comprueba?](/media/manual/como-se-comprueba-e5bb348319.png)
+
 1. Usuarios dados de alta.
 2. Fecha de visualización de los turnos de trabajo.
 3. Opciones de visualización del cuadrante: Diario por horas, diario, 1 semana, 2 semanas, 3 semanas, 4 semanas, 1 mes.
@@ -89,9 +91,3 @@ En estos casos, si le quitamos la función que ha estado desarrollando (le indic
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo se comprueba?](/media/manual/como-se-comprueba-e5bb348319.png)

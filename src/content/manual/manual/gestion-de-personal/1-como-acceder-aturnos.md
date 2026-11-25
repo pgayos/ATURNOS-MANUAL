@@ -52,15 +52,11 @@ order: 1
 
 Una vez accedido a la URL de aTurnos, se pedirá un usuario y una contraseña para acceder al sistema.
 
+![1. Cómo acceder aTurnos](/media/manual/1-acceso-aturnos-c6443e961a.webp)
+
 ## Respuesta
 Una vez realizado el login en la página inicial de aTurnos, el sistema automáticamente te redirigirá a la página inicial de la empresa. Allí, te aparecerá en pantalla para confirmar los credenciales y finalmente se accederá a aTurnos.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1. Cómo acceder aTurnos](/media/manual/1-acceso-aturnos-c6443e961a.webp)

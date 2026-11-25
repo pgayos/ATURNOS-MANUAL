@@ -57,6 +57,8 @@ order: 1
 
 Los trabajadores que hayan realizado un fichaje con duración inferior a 4 horas, se mostrarán en el reporte.
 
+![4. Menos de 4 Hrs fichadas en un día](/media/manual/4-menos-de-4-hrs-fichadas-en-un-dia-038a8fbaee.webp)
+
 ## Procedimiento
 El reporte informa:
 
@@ -68,16 +70,10 @@ El reporte informa:
 - Horas trabajadas.
 - Absentismo, informando “Si” o “No”, dependiendo de si existe un absentismo planificado en ese día.
 
+  ![4. Menos de 4 Hrs fichadas en un día](/media/manual/4-menos-de-4-hrs-fichadas-en-un-dia-4c540f537b.webp)
+
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
-
-Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![4. Menos de 4 Hrs fichadas en un día](/media/manual/4-menos-de-4-hrs-fichadas-en-un-dia-caafdf125b.webp)
 
-![4. Menos de 4 Hrs fichadas en un día](/media/manual/4-menos-de-4-hrs-fichadas-en-un-dia-4c540f537b.webp)
-
-![4. Menos de 4 Hrs fichadas en un día](/media/manual/4-menos-de-4-hrs-fichadas-en-un-dia-038a8fbaee.webp)
+Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.

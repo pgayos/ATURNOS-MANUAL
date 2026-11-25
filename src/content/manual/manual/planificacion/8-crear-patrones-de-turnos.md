@@ -68,16 +68,12 @@ Si por el contrario, quieres crear tu propio archivo, te contamos los pasos para
 - Aplicar a festivos: con valor -1, al aplicar patrón no se inserta turnos en los días festivos del cuadrante. Si es valor 1, se insertan turnos del patrón en los días festivos. Los días festivos deberán estar creados previamente a realizar la importación (ver Festivos ).
 - Día de la semana: los patrones pueden comenzar en un día distinto al lunes (por defecto) aquí se hace referencia al día de la semana por el cual se inicia el patrón. Siendo el valor 1 para el lunes, 2 martes, 3 miércoles, …6 sábado y 0 domingo.
 
+  ![8. Crear patrones de turnos](/media/manual/8-crear-patrones-de-turnos-f15cc6660f.png)
+
 A continuación, se debe guardar el documento como formato CSV.
 
 Para importar el archivo se deben seguir los pasos que indicamos en nuestro menú ‘Importar’.
 
 Recuerda que debes asociar los campos de tu archivo con los mismos del listado para completar la importación.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![8. Crear patrones de turnos](/media/manual/8-crear-patrones-de-turnos-f15cc6660f.png)
 
 ![8. Crear patrones de turnos](/media/manual/8-crear-patrones-de-turnos-1a062a659a.png)

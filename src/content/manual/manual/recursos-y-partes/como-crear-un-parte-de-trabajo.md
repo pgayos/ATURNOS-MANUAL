@@ -62,6 +62,8 @@ El primer paso que tiene que realizar un administrador es crear los recursos que
 ## Respuesta
 Los Recursos se crean través del menú RECURSOS → RECURSOS, clicando el botón “Acciones” y “Añadir Recursos”.
 
+![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-1edb1d9235.png)
+
 Los datos que se precisan para crear un recurso son:
 
 - Nombre: Descripción del recurso a crear.
@@ -74,7 +76,11 @@ Los datos que se precisan para crear un recurso son:
 
 - Trabajadores: Los recursos pueden ser asignados específicamente para trabajadores “sueltos”. Para ello se debe seleccionar al trabajador en el listado de Disponibles para traspasarlo al Listado de disponibles (columna derecha). En caso de no mover a ningún trabajador el recurso puede ser asignado a cualquier trabajador del equipo.
 
+  ![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-68bea9f76d.webp)
+
 El administrador del equipo desde el menú acceder a la página de recursos → recurso. En la parte superior derecha en el botón de acciones selecciona la opción ‘ Añadir Clasificación’.
+
+![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-463066cfe6.webp)
 
 Una clasificación de recurso se crea para agrupar a los recursos. Es obligatorio crear las clasificaciones antes de crear los recursos, para que puedan seleccionarse al crear el recurso. También se puede asignar una clasificación a un recurso ya creado, editando las propiedades.
 
@@ -83,9 +89,3 @@ Una clasificación de recurso se crea para agrupar a los recursos. Es obligatori
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-d18618ec57.png)
-
-![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-1edb1d9235.png)
-
-![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-463066cfe6.webp)
-
-![¿Cómo crear un parte de trabajo?](/media/manual/como-crear-un-parte-de-trabajo-68bea9f76d.webp)

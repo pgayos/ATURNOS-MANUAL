@@ -62,11 +62,7 @@ Información sobre ajuste de coeficientes en nocturnidad y festivos, con instruc
 ## Opciones y datos disponibles
 Existen ajustes en las horas realizadas que no se corresponden con una planificación de turnos asignada a un trabajador pero que se deben tener en cuenta dentro del contaje de horas de su jornada. Por ejemplo, si las horas trabajadas son nocturnas computan más horas (coeficiente mayor en el conteo de horas nocturnas), si hace horas festivas se computan más horas (coeficiente mayor en el conteo de horas festivas). En este apartado podrás definir estos ajustes:
 
+![5. Ajuste de coeficientes en nocturnidad y festivos](/media/manual/5-ajuste-de-coeficientes-en-nocturnidad-y-festivos-8f75ccc340.png)
+
 - Calcular mediante tabla de coeficientes: Se pueden cargar por tabla, donde por cada hora de noche o festiva realizada se corresponde un incremento en las horas planificadas específicas. Esto se realiza cuando no existe una relación directa porcentual entre las horas realizadas por el trabajador y el conteo de las horas (nocturnas y/o festivas). Esta tabla se carga desde la importación.
 - Horas nocturnas, Horas festivas, Horas festivas nocturnas, etc.: Cuando no se carga por tabla, se deben informar los coeficientes en cada tipo de horas de nocturnidad, si es festiva, festiva extraordinaria, etc. para multiplicar por ese porcentaje e incrementar el conteo de las horas del ajuste cuando se planifiquen horas con esas características.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5. Ajuste de coeficientes en nocturnidad y festivos](/media/manual/5-ajuste-de-coeficientes-en-nocturnidad-y-festivos-8f75ccc340.png)

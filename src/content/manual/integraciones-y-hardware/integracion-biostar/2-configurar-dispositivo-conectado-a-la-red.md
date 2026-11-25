@@ -61,20 +61,16 @@ En los casos donde se haya conectado un nuevo dispositivo de lectura de huella, 
 
 - Acceder al software “BioStarConfig”, seleccionar la subred y buscar dispositivo.
 
+  ![Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-fb306c698c.webp)
+
 - Una vez encontrado el dispositivo, seleccionarlo y desmarcar ‘DHCP’. De esta forma, ya se puede editar la IP que se desea asignar al dispositivo y por último, una vez indicados los datos, pinchar en el botón ‘Apply’.
+
+  ![Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-d6040b83a7.webp)
 
 - Acceder a BioStar, y en el menú de ‘Dispositivo’ se procede a la búsqueda del dispositivo. Para ello, se tiene que pinchar en ‘Búsqueda avanzada’ y se informan los datos de IP y puerto configurado en el BioStarConfig.
 
+  ![Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-6a3aa95974.png)
+
 - Una vez encontrado, se añade el dispositivo, mostrándose en el listado junto al resto.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-6a3aa95974.png)
-
-![Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-fb306c698c.webp)
-
-![Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-d6040b83a7.webp)
-
-![Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-e613188e54.webp)
+  ![Configurar dispositivo conectado a la red](/media/manual/2-configurar-dispositivo-conectado-a-la-red-e613188e54.webp)

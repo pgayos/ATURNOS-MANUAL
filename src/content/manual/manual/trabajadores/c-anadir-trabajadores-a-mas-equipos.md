@@ -61,8 +61,12 @@ order: 1
 
 Si la necesidad es añadir a un trabajador en otro equipo, el cual ya está dado de alta en un equipo, desde el maestro de empleados, el superusuario lo puede gestionar siguiendo estos pasos:.
 
+![c Añadir trabajadores a más equipos](/media/manual/c-anadir-trabajadores-a-mas-equipos-1fec87fdf1.png)
+
 ## Procedimiento
 - Tiene que hacer clic en el botón “+” y completar los campos necesarios del formulario.
+
+  ![c Añadir trabajadores a más equipos](/media/manual/c-anadir-trabajadores-a-mas-equipos-41c88538ba.png)
 
 1. El equipo de destino: equipo donde se añade y activa al trabajador.
 2. El rol de usuario que se le asigna al trabajador en el equipo de destino. Dependiendo del rol de usuario tendrá determinados permisos sobre los diferentes equipos.
@@ -72,11 +76,3 @@ Si la necesidad es añadir a un trabajador en otro equipo, el cual ya está dado
 6. La fecha indicará el día en que el trabajador estará activo en el nuevo equipo. La fecha fin (hasta) no es necesaria informarla en el caso de que se desconozca la fecha fin de actividad del trabajador en este equipo.
 7. Clonar especialidades y datos personalizados: si tiene un periodo anterior en otro equipo, clonaría los datos personales de su perfil (Id empleado, posición, etc.)., asi como datos personalizados y especialidad que tenga informada de ese equipo.
 8. Guardar, haciendo clic en este botón de acción se actualizará aTurnos, en base a la información cumplimentada en los pasos anteriores.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![c Añadir trabajadores a más equipos](/media/manual/c-anadir-trabajadores-a-mas-equipos-1fec87fdf1.png)
-
-![c Añadir trabajadores a más equipos](/media/manual/c-anadir-trabajadores-a-mas-equipos-41c88538ba.png)

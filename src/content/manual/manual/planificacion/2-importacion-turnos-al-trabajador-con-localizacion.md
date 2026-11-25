@@ -64,6 +64,8 @@ Para poder importar la planificación puedes completar la plantilla de ejemplo q
 
 CSV Tipos de turnos
 
+![2. Importación turnos al trabajador con localización](/media/manual/2-importacion-turnos-al-trabajador-con-localizacion-454da64fd6.png)
+
 - ID User o ID Empleado*
 - Nombre del trabajador
 - Email
@@ -77,11 +79,5 @@ CSV Tipos de turnos
 Guarda el documento como formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “Importar “.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Importación turnos al trabajador con localización](/media/manual/2-importacion-turnos-al-trabajador-con-localizacion-454da64fd6.png)
 
 ![2. Importación turnos al trabajador con localización](/media/manual/2-importacion-turnos-al-trabajador-con-localizacion-673750bb96.png)

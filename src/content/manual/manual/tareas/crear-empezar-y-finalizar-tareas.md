@@ -60,14 +60,10 @@ Este apartado tan sólo estará disponible en el caso de tener activado el Módu
 ## Qué debes saber
 En este caso el proceso comienza con creando una nueva tarea desde el Menú “Tareas” haciendo clic en el icono “+” se podrán añadir todas las tareas necesarias y generar un enlace que se podrá mandar a las personas correspondientes:
 
-Una vez creadas las tareas, saldrán con la fecha de cada una de ellas el listado de todas las tareas, de tal manera que desde el botón de “play” podrá empezar la tarea, desde la “cruz” podrá finalizar la tarea y desde el botón del “ojo” podrá ver todos los detalles de la tarea (esto último podrá realizarlo también el trabajador):
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![Crear, empezar y finalizar tareas](/media/manual/crear-empezar-y-finalizar-tareas-950288a25d.png)
 
 ![Crear, empezar y finalizar tareas](/media/manual/crear-empezar-y-finalizar-tareas-1cf33c5494.png)
+
+Una vez creadas las tareas, saldrán con la fecha de cada una de ellas el listado de todas las tareas, de tal manera que desde el botón de “play” podrá empezar la tarea, desde la “cruz” podrá finalizar la tarea y desde el botón del “ojo” podrá ver todos los detalles de la tarea (esto último podrá realizarlo también el trabajador):
 
 ![Crear, empezar y finalizar tareas](/media/manual/crear-empezar-y-finalizar-tareas-6740b2e07f.png)

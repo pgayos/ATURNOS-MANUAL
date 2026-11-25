@@ -169,6 +169,8 @@ Cálculo mediante tabla de coeficientes
 
 Recupera valor 1 o cero en función de lo que el trabajador tenga informado en el perfil del trabajador. Se utiliza como activador para el pago de variables.
 
+![Concepto tipo 1.1: Conceptos relacionados con los turnos](/media/manual/concepto-tipo-1-1-conceptos-relacionados-con-los-turnos-fc97baf987.png)
+
 Número de turnos de noche entre fechas (periodo solicitado)
 
 Descarga un valor 1 cuando se superan los turnos definidos en el concepto.
@@ -194,9 +196,3 @@ Filtros:
 Turnos seguidos de un mismo tipo de turno.
 
 Recupera el número de turnos seguidos desde el día de inicio al fin que se indiquen.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Concepto tipo 1.1: Conceptos relacionados con los turnos](/media/manual/concepto-tipo-1-1-conceptos-relacionados-con-los-turnos-fc97baf987.png)
