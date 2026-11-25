@@ -159,6 +159,17 @@
   if (picker) picker.value = storedProfile;
   applyProfileFilter(storedProfile);
 
+  // Navegación sin recarga (ClientRouter): este script no se vuelve a
+  // ejecutar, así que el rol se pasa al <html> nuevo y el filtro se aplica
+  // al contenido recién llegado (y al menú, que vuelve a su estado sin filtrar).
+  document.addEventListener("astro:before-swap", (event) => {
+    event.newDocument.documentElement.dataset.profile =
+      document.documentElement.dataset.profile;
+  });
+  document.addEventListener("astro:after-swap", () => {
+    applyProfileFilter(localStorage.getItem("manual-profile") || "general");
+  });
+
   if (picker) {
     picker.addEventListener("change", () => {
       profileLoader.hidden = false;

@@ -4,17 +4,21 @@
 // Las activan el menú (manual/SiteNav.astro) y src/lib/searchWidget.js.
 ---
 
+<!-- transition:persist: se conservan al navegar sin recarga (ver BaseLayout). -->
 <div
+  transition:persist="header-search-backdrop"
   class="header-search-backdrop"
   id="header-search-backdrop"
   aria-hidden="true"
 ></div>
 <div
+  transition:persist="site-nav-backdrop"
   class="site-nav-backdrop"
   id="site-nav-backdrop"
   aria-hidden="true"
 ></div>
 <div
+  transition:persist="drawer-search-suggestions"
   class="hero-search-suggestions"
   id="drawer-search-suggestions"
   role="listbox"

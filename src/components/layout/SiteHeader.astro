@@ -14,7 +14,7 @@ interface Props {
 const { showProfilePicker = true } = Astro.props;
 ---
 
-<header class="site-header">
+<header class="site-header" transition:persist="site-header">
   <nav class="nav" aria-label="Navegación principal">
     <NavMenuToggle />
     <SiteLogo />

@@ -19,12 +19,16 @@ interface Props {
    *  resaltar y abrir su rama en el menú persistente. Las páginas que no son
    *  un artículo (home, buscar, hub de módulos…) lo omiten. */
   currentId?: string;
+  /** Navegación sin recarga entre páginas que también lo activan (hoy, solo
+   *  los artículos). El resto de páginas carga como siempre. */
+  clientRouter?: boolean;
 }
 const {
   title = "Centro de ayuda de aTurnos",
   description = "Aprende a utilizar aTurnos con guías claras y respuestas verificadas.",
   showProfilePicker = true,
   currentId,
+  clientRouter = false,
 } = Astro.props;
 
 // Menú persistente: se construye en cada página (home, buscar, artículos…)
@@ -36,9 +40,13 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" transition:animate="none">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead
+      title={title}
+      description={description}
+      clientRouter={clientRouter}
+    />
   </head>
   <body>
     <ProfileLoader />
@@ -50,7 +58,7 @@ const activeSection = activeSiteNavSectionFor(Astro.url.pathname, siteNav);
         activeSection={activeSection}
         currentId={currentId}
       />
-      <div class="app-main">
+      <div class="app-main" transition:animate="fade">
         <slot />
         <SiteFooter />
       </div>

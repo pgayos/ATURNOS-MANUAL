@@ -90,6 +90,7 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
   description={d.description}
   showProfilePicker={showProfilePicker}
   currentId={currentId}
+  clientRouter
 >
   <div class="container breadcrumbs">
     <a href="/">Inicio</a> /{" "}
@@ -231,5 +232,8 @@ const articleAudience = d.audience.map((a) => a.role).join("|");
   <script>
     import { initArticleEnhancements } from "../../lib/articleEnhancements.js";
     initArticleEnhancements();
+    // Navegación sin recarga entre artículos: este script no se repite, así
+    // que se reinicia con el contenido nuevo tras cada cambio de página.
+    document.addEventListener("astro:after-swap", initArticleEnhancements);
   </script>
 </BaseLayout>

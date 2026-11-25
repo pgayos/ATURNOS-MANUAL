@@ -27,6 +27,7 @@ const externalLinkSvg =
 ---
 
 <nav
+  transition:persist="site-nav"
   class="site-nav is-booting"
   id="site-nav"
   data-site-nav
@@ -299,6 +300,29 @@ const externalLinkSvg =
           r.top - box.top - (box.height - r.height) / 2;
       }
     }
+    // Navegación sin recarga (ClientRouter): el menú no se repinta, así que
+    // aquí solo se cierra el cajón móvil y se centra el artículo nuevo si
+    // quedó fuera de la vista. El estado (activo/abierto) lo sincroniza el
+    // script de abajo en astro:before-swap. Al trasladar el <nav> a la página
+    // nueva el navegador reinicia su scroll: se guarda antes y se restaura.
+    let navScrollTop = 0;
+    document.addEventListener("astro:before-swap", () => {
+      navScrollTop =
+        document.querySelector("#site-nav .site-nav-scroll")?.scrollTop ?? 0;
+    });
+    document.addEventListener("astro:after-swap", () => {
+      closeSiteNav();
+      const nav = document.querySelector("#site-nav");
+      const box = nav?.querySelector(".site-nav-scroll");
+      if (box) box.scrollTop = navScrollTop;
+      const link = nav?.querySelector("[data-panel]:not([hidden]) .active");
+      if (!box || !link) return;
+      const b = box.getBoundingClientRect();
+      const r = link.getBoundingClientRect();
+      if (r.top < b.top || r.bottom > b.bottom) {
+        box.scrollTop += r.top - b.top - (b.height - r.height) / 2;
+      }
+    });
     window.addEventListener("pagehide", () => {
       try {
         sessionStorage.setItem(
@@ -315,6 +339,47 @@ const externalLinkSvg =
 </script>
 
 <script>
+  // Navegación sin recarga (ClientRouter): el <nav> se conserva entre
+  // artículos (transition:persist), así que antes del intercambio se le copia
+  // el estado que trae la página nueva: artículo activo, ramas abiertas y
+  // categoría. El filtro por rol se vuelve a aplicar después (ProfileFilter).
+  // Si la estructura no coincide (p. ej. se publicó una versión nueva del
+  // manual con la pestaña abierta), se hace una carga completa normal.
+  const SYNCED_ATTRS = [
+    "class",
+    "hidden",
+    "aria-current",
+    "aria-expanded",
+    "aria-selected",
+    "data-role-hidden",
+  ];
+  document.addEventListener("astro:before-swap", (event) => {
+    const oldNav = document.querySelector("[data-site-nav]");
+    const newNav = event.newDocument.querySelector("[data-site-nav]");
+    if (!oldNav || !newNav) return;
+    const oldEls = oldNav.querySelectorAll("*");
+    const newEls = newNav.querySelectorAll("*");
+    const sameStructure =
+      oldEls.length === newEls.length &&
+      [...oldEls].every(
+        (el, i) =>
+          el.tagName === newEls[i].tagName &&
+          el.getAttribute("href") === newEls[i].getAttribute("href"),
+      );
+    if (!sameStructure) {
+      event.swap = () => {};
+      location.replace(event.to.href);
+      return;
+    }
+    oldEls.forEach((el, i) => {
+      for (const name of SYNCED_ATTRS) {
+        const value = newEls[i].getAttribute(name);
+        if (value === null) el.removeAttribute(name);
+        else if (el.getAttribute(name) !== value) el.setAttribute(name, value);
+      }
+    });
+  });
+
   const nav = document.querySelector<HTMLElement>("[data-site-nav]");
   if (nav) {
     // --- Selector de categoría (pills): cambia qué panel se ve, sin recargar

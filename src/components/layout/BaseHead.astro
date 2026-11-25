@@ -1,10 +1,15 @@
 ---
 // Contenido común del <head>: metadatos, tema inicial, favicon y fuentes.
+import { ClientRouter } from "astro:transitions";
+
 interface Props {
   title: string;
   description: string;
+  /** Navegación sin recarga (solo artículos): la cabecera y el menú lateral
+   *  se quedan fijos y solo cambia el contenido. Ver BaseLayout. */
+  clientRouter?: boolean;
 }
-const { title, description } = Astro.props;
+const { title, description, clientRouter = false } = Astro.props;
 
 // Fuera de producción (main) no se indexa: evita que Google publique ramas de prueba.
 const deploymentBranch = import.meta.env.PUBLIC_DEPLOYMENT_BRANCH;
@@ -25,6 +30,12 @@ const preventIndexing = Boolean(
         ? "dark"
         : "light");
     document.documentElement.dataset.theme = theme;
+    // Navegación sin recarga: el <html> de la página nueva llega sin tema;
+    // se le pasa el actual antes del intercambio para que no parpadee.
+    document.addEventListener("astro:before-swap", (event) => {
+      event.newDocument.documentElement.dataset.theme =
+        document.documentElement.dataset.theme;
+    });
   })();
 </script>
 <meta name="description" content={description} />
@@ -37,3 +48,4 @@ const preventIndexing = Boolean(
   rel="stylesheet"
 />
 <title>{title}</title>
+{clientRouter && <ClientRouter />}
