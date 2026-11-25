@@ -58,16 +58,12 @@ Aprende a activar usuarios, con instrucciones y contexto revisables por el equip
 ## Procedimiento
 En este listado, aparecen los trabajadores no activados, es decir, trabajadores que a pesar de estar de alta en el equipo (aparecen en listado de trabajadores y se pueden planificar) no tienen acceso a aTurnos. Al activar a los usuarios, los trabajadores recibirán un email de activación con contraseña de acceso al sistema.
 
+![7.9 Activar usuarios](/media/manual/7-9-activar-usuarios-963657a40e.png)
+
 Se puede seleccionar a todos o solo a aquellos que necesites. Para facilitar la búsqueda de un trabajador, grupo de trabajadores de una localización o categoría en particular, puedes hacer uso del filtro.
 
 Al hacer clic en Activar usuarios seleccionados se creará un listado con contraseñas autogeneradas por aTurnos para cada trabajador. Dicho listado se descargará automáticamente, además en la parte superior de la nueva tabla que se muestra, haciendo clic en Acciones se puede descargar dicho archivo en caso de fallar la descarga automática.
 
-¡IMPORTANTE! La tabla de contraseñas solo se puede consultar una vez, por ello es muy importante descargarse el archivo de contraseñas y asegurarse de que se puede leer correctamente antes de abandonar la página (o antes de que el sistema cierre la sesión automáticamente por inactividad).
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![7.9 Activar usuarios](/media/manual/7-9-activar-usuarios-ca01014998.png)
 
-![7.9 Activar usuarios](/media/manual/7-9-activar-usuarios-963657a40e.png)
+¡IMPORTANTE! La tabla de contraseñas solo se puede consultar una vez, por ello es muy importante descargarse el archivo de contraseñas y asegurarse de que se puede leer correctamente antes de abandonar la página (o antes de que el sistema cierre la sesión automáticamente por inactividad).

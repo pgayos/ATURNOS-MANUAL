@@ -71,6 +71,8 @@ Los días son:
 - Día 14/04/2024 tiene un turno de 1 horas, debe recuperar valor el concepto 3K00
 - Día 16/04/2024 tiene un turno de 2 horas, debe recuperar valor el concepto 3K00
 
+  ![7.1 Estadística diaria](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
 Al acceder a ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA, se genera un reporte donde se recuperan los conceptos calculados día a día, en función de la configuración de la plantilla de nómina. Ver en el Manual (Plantilla de nómina).
 
 1.- Selecciona las fechas
@@ -86,7 +88,11 @@ Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística.
 
 4.- Por defecto, el tipo de descarga (estadística diaria sin totalizar o estadística diaria totalizada) es el indicado. (Ver en el Manual).
 
+![7.1 Estadística diaria](/media/manual/7-1-estadistica-diaria-16cef81545.png)
+
 5.- Al cargar la estadística, salta un aviso para que la aplicación genere un reporte.
+
+![7.1 Estadística diaria](/media/manual/6-1-estadistica-por-periodo-fee9586091.png)
 
 5.- El reporte se genera en ADMINISTRAR → PETICIONES DE REPORTE:
 
@@ -96,18 +102,8 @@ Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística.
 
 6.- En el reporte con el tipo de descarga: estadística diaria sin totalizar se visualiza el valor diario de los conceptos 3K00 o 3000 atendiendo al número de horas nocturnas realizadas cada día.
 
+![7.1 Estadística diaria](/media/manual/7-1-estadistica-diaria-96c5670b0e.png)
+
 7.- En el reporte con el tipo de descarga: estadística diaria totalizada se visualiza el valor totalizado de los conceptos 3K00 o 3000 atendiendo al número de horas nocturnas realizadas cada día.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7.1 Estadística diaria](/media/manual/5-1-exportar-nominas-9666500d33.png)
-
-![7.1 Estadística diaria](/media/manual/6-1-estadistica-por-periodo-fee9586091.png)
-
 ![7.1 Estadística diaria](/media/manual/7-1-estadistica-diaria-4705cbf9f3.png)
-
-![7.1 Estadística diaria](/media/manual/7-1-estadistica-diaria-16cef81545.png)
-
-![7.1 Estadística diaria](/media/manual/7-1-estadistica-diaria-96c5670b0e.png)

@@ -65,6 +65,8 @@ Utilizando la versión aTurnos Enterprise, se tendrá acceso a la funcionalidad 
 
 Esta información es especialmente útil para tomar decisiones estratégicas, como ajustar los turnos según las necesidades operativas o mejorar la asignación del personal.
 
+![e. Franjas horarias](/media/manual/e-franjas-horarias-89f9a2d5ee.webp)
+
 ## Crear franja horaria
 
 Para comenzar a trabajar con franjas horarias en aTurnos, es necesario crearlas siguiendo estos pasos:
@@ -81,6 +83,8 @@ Para comenzar a trabajar con franjas horarias en aTurnos, es necesario crearlas 
 
 - Turnos a excluir: configurar que ciertos turnos no se consideren en el cómputo de la tabla de cobertura. Estos turnos no aparecerán en los reportes de cobertura relacionados con las franjas horarias.
 
+  ![Crear franja horaria](/media/manual/crear-franja-horaria-76efa17cb4.webp)
+
 Franja horaria: Apertura y preparación
 
 - Descripción: “Mañanas”
@@ -92,11 +96,3 @@ Franja horaria: Apertura y preparación
 - Turnos a excluir: Turnos de limpieza nocturna que terminaron antes de esta franja, para evitar duplicidades en el conteo de personal activo.
 
 Explicación de su uso: Durante esta franja, los empleados se encargan de tareas como abastecer estanterías, organizar las cajas registradoras y preparar el espacio para los clientes.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Crear franja horaria](/media/manual/crear-franja-horaria-76efa17cb4.webp)
-
-![e. Franjas horarias](/media/manual/e-franjas-horarias-89f9a2d5ee.webp)

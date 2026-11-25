@@ -76,13 +76,19 @@ El objetivo de este tipo de recurso es poder asociar una descripción al turno o
 
 En este ejemplo se crea un recurso llamado: Descripción.
 
+![Tipos de recursos](/media/manual/tipos-de-recursos-b09e1d4d10.png)
+
 El objetivo de este tipo de recurso es poder asociar un importe al turno o a las horas que el trabajador tiene planificado en el cuadrante. Para crear un recurso de este tipo se han de seguir los pasos indicados en ¿Cómo crear un parte de trabajo? y seleccionar el tipo: Numérico.
 
 En este ejemplo, se crea un recurso llamado: Kilómetros. Es el que se debe utilizar si el recurso se quiere exportar como variables de nómina. Accede a nuestro Manual de Nómina.
 
 Además, permite indicar un límite que generará una alarma en el Resumen de los recursos. Consulta en el Manual el funcionamiento de las Alarmas de los Recursos. En este ejemplo, el límite se ha fijado en 300 kilómetros.
 
+![Tipos de recursos](/media/manual/tipos-de-recursos-5ea9d6b97f.png)
+
 El objetivo de este tipo es crear por ejemplo, una Lista de Comprobación asociada al turno o a las horas que el trabajador tiene planificado en el cuadrante. Para crear un recurso de este tipo se han de seguir los pasos indicados en ¿Cómo crear un parte de trabajo? y seleccionar el tipo: Sí o No.
+
+![Tipos de recursos](/media/manual/tipos-de-recursos-28b3eace46.png)
 
 El objetivo de este tipo es utilizar un recurso tipo numérico creado previamente para multiplicarlo por un valor fijo. El ejemplo típico es el abono de los Kilómetros (informados como recurso por el trabajador, de acuerdo a la configuración que se indique) por el precio que se informe en la fórmula.
 
@@ -92,20 +98,10 @@ En este ejemplo, se crea un recurso llamado: “Kilómetros a pagar” en el cam
 
 Además, permite indicar un límite que generará una alarma en el Resumen de los recursos. Consulta en el Manual el funcionamiento de las Alarmas de los Recursos.
 
+![Tipos de recursos](/media/manual/tipos-de-recursos-cfc6cac4bb.png)
+
 El objetivo de este tipo de recurso es poder asociar un dato con formato horario asociado al turno o a las horas planificadas. Para crear un recurso de este tipo se han de seguir los pasos indicados en ¿Cómo crear un parte de trabajo? y seleccionar el tipo: Hora.
 
 En este ejemplo se crea un recurso llamado: Horas
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Tipos de recursos](/media/manual/tipos-de-recursos-b09e1d4d10.png)
-
-![Tipos de recursos](/media/manual/tipos-de-recursos-28b3eace46.png)
-
-![Tipos de recursos](/media/manual/tipos-de-recursos-5ea9d6b97f.png)
-
 ![Tipos de recursos](/media/manual/tipos-de-recursos-677242a821.png)
-
-![Tipos de recursos](/media/manual/tipos-de-recursos-cfc6cac4bb.png)

@@ -66,7 +66,11 @@ Dos formas de acceder al cálculo estimado:
 
 - En el perfil del trabajador
 
+  ![5. Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-4512076862.png)
+
 - A través del cuadrante
+
+  ![5. Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-84f5c0f5be.png)
 
 ### Objetivo del cálculo estimado
 
@@ -95,6 +99,8 @@ Con estas 4 variables se calculan el número de horas contrato:
 - Fórmula: horas año por defecto (las anuales del convenio) dividido entre 365 o 366 por los los días de alta por el porcentaje de jornada.
 
 Las horas contrato se visualizan en el perfil del trabajador.
+
+![Horas contrato](/media/manual/horas-contrato-b415d677a2.png)
 
 Como ya se ha indicado, el objetivo del cálculo estimado es distribuir mensualmente las horas contrato atendiendo a:
 
@@ -191,6 +197,8 @@ En la penúltima columna se visualiza el balance mensual, diferencia entre las h
 
 En la última columna, en el mes de febrero el balance acumulado del mes de enero (13,32) más el balance del mes de febrero (17,50), total balance acumulado es igual a 30,82
 
+![Balance mensual / acumulado en el perfil del trabajador sin vacaciones planificadas:](/media/manual/balance-mensual-acumulado-en-el-perfil-del-trabajador-sin-vacaciones-p-d5c914511b.png)
+
 El balance acumulado es de 180 horas, las vacaciones no están planificadas, cuando se planifiquen el balance será menor, en el siguiente ejemplo veremos el comportamiento de la aplicación con las vacaciones planificadas.
 
 6.- A modo de ejemplo, cálculo de los “días contrato al mes febrero”,
@@ -265,6 +273,8 @@ En el cálculo de los días contrato mes del primer ejemplo se descontaban la pr
 
 Es interesante pararse a ver las horas contrato mes del mes de Junio, al estar de vacaciones “no tiene el deber de prestar servicios” de forma que los días contrato al mes es igual a cero.
 
+![Balance mensual / acumulado en el perfil del trabajador con vacaciones planificadas:](/media/manual/balance-mensual-acumulado-en-el-perfil-del-trabajador-con-vacaciones-p-33b6ba9be7.png)
+
 ### Festivos vs descanso semanal
 
 En los ejemplos que se han visto hasta ahora se calculan con:
@@ -274,7 +284,11 @@ En los ejemplos que se han visto hasta ahora se calculan con:
 
 El número de festivos que resta tanto de los días de alta anuales como de los días contrato mes depende del valor que esté informado en ADMINISTRAR → AJUSTES → Consideración de festivos según convenio.
 
+![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-56a0b9a818.png)
+
 En este ejemplo, se considera festivo, los festivos indicados, es decir, los días que se hayan definido como tales en ADMINISTRAR → FESTIVOS
+
+![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-c432c45adb.png)
 
 Las opciones disponible son:
 
@@ -290,6 +304,8 @@ Dos son los principales efectos:
 Continuando con el ejemplo, si se modifica la opción seleccionada en el campo “Consideración de festivos según convenio” y se selecciona la opción, se consideran festivos, los domingos más festivos indicados, los datos para el cálculo de los “días estimados a trabajar al año” se van a ver afectados.
 
 Además, a nivel de cada trabajador, se puede indicar si trabaja o no los festivos o que solo tenga en cuenta el festivo si se trabaja, así como los días de descanso semanal medio.
+
+![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-9feebe927d.png)
 
 ¿Cómo afecta las modificaciones en el cálculo estimado al balance del trabajador?
 
@@ -313,16 +329,24 @@ Cuando el personal es contratado eventualmente, lo más habitual es que se le ab
 
 Accede a ADMINISTRAR → AJUSTES → Configuración y selecciona la opción SI en el campo “Restar las vacaciones pendientes al balance”
 
+![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-15410b3c6a.png)
+
 En el primer ejemplo, el balance mensual, en enero, el trabajador tenía 13,32 horas de exceso.
 
 Con la modificación del cálculo, restando las horas de vacaciones pendientes del balance, el trabajador tiene un defecto de 0,81. La suma de las horas contrato más las horas vacaciones pendientes es igual a 160,81.
 
+![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-6a1bb06054.png)
+
 Las horas de vacaciones se calculan multiplicando las “horas estimadas por día de alta” por el campo “vacaciones prorrateadas.
+
+![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-e57e40bbf7.png)
 
 El cálculo de las “horas estimadas por día de alta” depende del valor que tenga informado el campo “Restar las vacaciones para el calculo de horas estimadas por día de alta”:
 
 - Si está informado si, la fórmula de cálculo es la siguiente: horas contrato (1780) / días de alta (365) – días de vacaciones (30) – festivos (14) es igual a 5,55
 - En caso contrario, la fórmula de cálculo es la siguiente: horas contrato (1780) / días de alta (365) es igual a 4,88
+
+  ![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-5c43d79251.png)
 
 ### Horas contrato en contratos de sustitución
 
@@ -348,6 +372,8 @@ Se describe con ejemplos la diferencia en el cálculo de las horas contrato.
 
 En ambos casos las horas contrato s0n 34,14
 
+![Ejemplo horas contrato por defecto enero 2022](/media/manual/ejemplo-horas-contrato-por-defecto-enero-2022-eafacb4a1f.png)
+
 ### Ejemplo horas contrato descontando festivos enero 2022
 
 - Horas año por defecto: 1780
@@ -360,6 +386,8 @@ En ambos casos las horas contrato s0n 34,14
 - Días estimados a trabajar al año: días de alta (7) menos festivos del mes (2) menos los días de vacaciones (0,575342) menos días de descanso semanal 0,948138. es igual a 3,47652
 - Horas contrato: horas estimadas por día de trabajo (calculados conforme a lo indicado en el punto 4 de este Manual) (7,05749079580855) x días estimados a trabajar al año ( 3,47652) es igual a 24,54
 
+  ![Ejemplo horas contrato descontando festivos enero 2022](/media/manual/ejemplo-horas-contrato-descontando-festivos-enero-2022-c36f3d65ce.png)
+
 ### Ejemplo horas contrato descontando festivos febrero 2022
 
 - Horas año por defecto: 1780
@@ -371,6 +399,8 @@ En ambos casos las horas contrato s0n 34,14
 - Días de descanso semanal: días de alta (7) menos los días de vacaciones (0,575342) / entre 7 días de la semana x 1,5 días de descanso semanal es igual a 1,376712.
 - Días estimados a trabajar al año: días de alta (7) menos los días de vacaciones (0,575342) menos días de descanso semanal 1,376712. es igual 5,04174
 - Horas contrato: horas estimadas por día de trabajo (calculados conforme a lo indicado en el punto 4 de este Manual) (7,05749079580855) x días estimados a trabajar al año ( 5,04174) es igual a 35,63
+
+  ![Ejemplo horas contrato descontando festivos febrero 2022](/media/manual/ejemplo-horas-contrato-descontando-festivos-febrero-2022-d88ee89093.png)
 
 ### Informes de los balances
 
@@ -386,42 +416,12 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![5. Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-4512076862.png)
-
-![5. Cálculo estimado de horas](/media/manual/calculo-estimado-de-horas-84f5c0f5be.png)
-
 ![Ejemplo cálculo sin vacaciones planificadas](/media/manual/ejemplo-calculo-sin-vacaciones-planificadas-2e4cf074e3.png)
-
-![Horas contrato](/media/manual/horas-contrato-b415d677a2.png)
 
 ![Horas contrato](/media/manual/horas-contrato-5ef9bf849a.png)
 
 ![Ejemplo cálculo sin vacaciones planificadas](/media/manual/ejemplo-calculo-sin-vacaciones-planificadas-28e3f05c5a.png)
 
-![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-56a0b9a818.png)
-
-![Balance mensual / acumulado en el perfil del trabajador con vacaciones planificadas:](/media/manual/balance-mensual-acumulado-en-el-perfil-del-trabajador-con-vacaciones-p-33b6ba9be7.png)
-
-![Balance mensual / acumulado en el perfil del trabajador sin vacaciones planificadas:](/media/manual/balance-mensual-acumulado-en-el-perfil-del-trabajador-sin-vacaciones-p-d5c914511b.png)
-
 ![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-7c4bdd467d.png)
-
-![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-9feebe927d.png)
-
-![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-c432c45adb.png)
-
-![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-5c43d79251.png)
-
-![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-e57e40bbf7.png)
-
-![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-6a1bb06054.png)
-
-![Ejemplo horas contrato por defecto enero 2022](/media/manual/ejemplo-horas-contrato-por-defecto-enero-2022-eafacb4a1f.png)
-
-![Ejemplo horas contrato descontando festivos enero 2022](/media/manual/ejemplo-horas-contrato-descontando-festivos-enero-2022-c36f3d65ce.png)
-
-![Ejemplo horas contrato descontando festivos febrero 2022](/media/manual/ejemplo-horas-contrato-descontando-festivos-febrero-2022-d88ee89093.png)
-
-![Balance en contratos de sustitución](/media/manual/balance-en-contratos-de-sustitucion-15410b3c6a.png)
 
 ![Festivos vs descanso semanal](/media/manual/festivos-vs-descanso-semanal-f805b3b342.png)

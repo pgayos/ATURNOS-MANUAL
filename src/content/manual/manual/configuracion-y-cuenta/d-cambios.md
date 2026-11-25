@@ -56,6 +56,8 @@ Aprende a cambios en aTurnos, con instrucciones y contexto revisables por el equ
 
 En aTurnos, los trabajadores pueden hacer cambios de turno si en “Ajustes” se tiene habilitada la opción y si el tipo de turno está configurado como “Seleccionable para cambio entre compañeros”. Una vez se han configurado ambas opciones para permitir el cambio de turnos, se puede personalizar a través de una configuración más avanzada desde Ajustes → Cambios.
 
+![d. Cambios](/media/manual/d-cambios-f2e9bd44af.png)
+
 ### Se permiten cambios de turnos entre los trabajadores
 
 Marcando ‘ SI’ el administrador da permiso a los trabajadores del equipo a realizar cambios de turnos. Marcando ‘ NO’, no se permite hacer cambios entre los trabajadores del equipo.
@@ -77,11 +79,17 @@ En este flujo de se pueden seleccionar las siguientes opciones:
 - Los cambios tienen que ser confirmados por el administrador y por el compañero. Primero tiene que aceptar el trabajador o compañero a quien se le solicita el cambio y una vez que este lo confirma, finalizará el proceso con la confirmación o anulación por parte del Administrador. La notificación de cambio pendiente no le aparece al administrador hasta que no lo aprueba el trabajador (al que se le solicita el cambio), más información en Peticiones y cambios. En el caso de que administrador sea el usuario que realiza el cambio, necesitará de la aprobación de ambos trabajadores destino del cambio para que pueda ser validado por el administrador.
 - Personalizar: se abrirá un formulario donde se informa por medio de un abanico de roles el proceso de validación que desea en el equipo, definiendo el rol mínimo y máximo del trabajador (ver roles de aTurnos ) que debe aceptar o rechazar los cambios de turno en cada uno de los pasos hasta conseguir la aprobación definitiva del cambio. Se puede configurar hasta 5 pasos en el flujo de aprobación. Por ejemplo, un flujo puede ser: Ejemplo de flujos 1: nivel mínimo= usuario destino. De esta forma el primero que deberá aprobar el cambio es el trabajador con el que se quiere cambiar el turno. Para los casos en los que el administrador sea el autor del cambio, si el primer nivel es el trabajador destino, ambos trabajadores serán usuario destino del cambio y para poder ser validado por el administrador, necesitará la aprobación de los dos trabajadores implicados. Ejemplo de flujos 2: nivel mínimo= administrador validador y nivel máximo= administrador total. En este caso, para que el cambio sea aprobado se necesita que alguno de los administradores (bien sea un administrador validador, un planificador o un total, es decir, solo uno de ellos) apruebe el cambio.
 
+  ![Flujo de aprobación de cambios de turnos](/media/manual/flujo-de-aprobacion-de-cambios-de-turnos-880297c528.png)
+
 ### Permite cambios de libre al mismo empleado
 
 Marcando ‘ SI ‘ los trabajadores pueden cambiarse a sí mismos un turno planificado de un día a otro día que tiene libre. Este cambio se puede realizar con el tipo de cambio “Libre”. Con esta configuración el sistema ofrece todos los días en los que libra para hacerse a si mísmo el cambio. De esta manera el turno se inserta en el libre y el día que tenía planificado con ese turno se queda libre.
 
+![Permite cambios de libre al mismo empleado](/media/manual/permite-cambios-de-libre-al-mismo-empleado-e104ea7ff6.png)
+
 Cuando se opta por esta opción, se activa una nueva opción donde es necesario seleccionar el flujo de aprobación para este proceso. Las opciones pueden ser, usar el flujo de aprobación de cambios o el flujo de aprobación de peticiones.
+
+![Permite cambios de libre al mismo empleado](/media/manual/permite-cambios-de-libre-al-mismo-empleado-16582b9a19.png)
 
 ### Indica los días de antelación con los que puedes realizar un cambio
 
@@ -92,6 +100,8 @@ El trabajador puede solicitar cambios de turno en un periodo de tiempo anterior 
 Marcando ‘ SI’ solo los trabajadores que tengan el mismo nivel de experiencia y especialidad, pueden hacer cambios entre ellos. Si dos trabajadores tienen la misma especialidad, pero la experiencia en las especialidades es diferente, no podrán hacer un cambio entre ellos. Tampoco puede hacer cambios entre ellos, en el caso de que la experiencia de las especialidades de los trabajadores sean iguales, pero la experiencia del trabajador sea diferente.
 
 Para ver información sobre que es la “Especialidad” y como se configura puedes revisar este siguiente enlace: Especialidades del trabajador
+
+![Al hacer un cambio, requerir que los trabajadores tengan la misma experiencia y especialidad](/media/manual/al-hacer-un-cambio-requerir-que-los-trabajadores-tengan-la-misma-exper-2e337bde9d.png)
 
 ### Al hacer un cambio, requerir que los tipos de turnos tengan la misma duración computada
 
@@ -165,24 +175,10 @@ Es importante señalar que cuando el trabajador hace una solicitud de cambios (p
 
 Dentro de aTurnos las notificaciones llegan a los usuarios a través de un indicador en rojo con un número que le alerta sobre la cantidad de solicitudes que tiene pendientes por aprobar, si hace clic sobre él lo redireccionará al menú de “Peticiones y cambios” de manera que el usuario complete el paso de aprobar o denegar la solicitud (ver Peticiones y cambios )
 
+![Notificaciones](/media/manual/notificaciones-570451769c.png)
+
 De igual forma, llegarán notificaciones al correo electrónico de los implicados con el aviso de la solicitud que tiene pendiente. En el caso de los cambios de turno se puede configurar el sistema para NO enviar dichas notificaciones a los correos de los implicados, tal como se explica anteriormente en “Enviar correos a los implicados en un cambio de turno”.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Permite cambios de libre al mismo empleado](/media/manual/permite-cambios-de-libre-al-mismo-empleado-e104ea7ff6.png)
-
-![Permite cambios de libre al mismo empleado](/media/manual/permite-cambios-de-libre-al-mismo-empleado-16582b9a19.png)
-
-![Flujo de aprobación de cambios de turnos](/media/manual/flujo-de-aprobacion-de-cambios-de-turnos-880297c528.png)
-
-![Al hacer un cambio, requerir que los trabajadores tengan la misma experiencia y especialidad](/media/manual/al-hacer-un-cambio-requerir-que-los-trabajadores-tengan-la-misma-exper-2e337bde9d.png)
-
-![d. Cambios](/media/manual/d-cambios-f2e9bd44af.png)
-
-![Notificaciones](/media/manual/notificaciones-570451769c.png)

@@ -59,6 +59,8 @@ aTurnos pone a disposición de los administradores de los equipos de trabajo de 
 ## Procedimiento
 Desde aquí, se pueden exportar todos los informes de los trabajadores de todos los equipos que se gestionan.
 
+![3. Informe](/media/manual/3-informe-c2eac45696.webp)
+
 Es necesario definir:
 
 - Fecha de inicio.
@@ -67,20 +69,14 @@ Es necesario definir:
 
 Al solicitar el Informe, el sistema permite seleccionar qué campos mostrar.
 
+![3. Informe](/media/manual/3-informe-38a7cc0039.webp)
+
 También permite seleccionar si se quiere exportar en PDF o Excel.
+
+![3. Informe](/media/manual/3-informe-bce47ae644.webp)
 
 Debido al volumen de datos, se generará una ‘ Petición de reporte ‘ para su descarga.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Informe](/media/manual/3-informe-c2eac45696.webp)
-
-![3. Informe](/media/manual/3-informe-38a7cc0039.webp)
-
-![3. Informe](/media/manual/3-informe-bce47ae644.webp)

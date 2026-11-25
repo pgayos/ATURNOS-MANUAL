@@ -69,7 +69,11 @@ Las alertas tienen un doble objetivo:
 
 En primer lugar se debe activar el cálculo de alertas.
 
+![Configuración](/media/manual/configuracion-e1ee6a5705.webp)
+
 Activado el cálculo, se pueden seleccionar y añadir todas aquellas alertas que se necesiten.
+
+![Configuración](/media/manual/configuracion-4a9148a96b.webp)
 
 Para finalizar la configuración, se deben guardar los cambios realizados en el Control de Presencia.
 
@@ -77,13 +81,23 @@ Para finalizar la configuración, se deben guardar los cambios realizados en el 
 
 Este es el tipo de alerta que se mostraría.
 
+![Información de alertas](/media/manual/informacion-de-alertas-469c9e06dc.webp)
+
 ### Reportes de alertas
 
 A través de Control de Presencia → Estadística → Alertas por Trabajador se puede generar un informe entre las fechas que se indiquen con el nombre del trabajador, la alerta definida y el número de veces que se incumple.
 
+![Reportes de alertas](/media/manual/reportes-de-alertas-24c247f006.webp)
+
 También se puede sacar el mismo reporte pero de varios equipos desde RRHH → Control de Presencia → Control Legal → Alertas por Trabajador se puede generar el mismo informe seleccionando los equipos.
 
+![Reportes de alertas](/media/manual/reportes-de-alertas-183d78740d.webp)
+
 El informe estará disponible para ser descargado en RRHH → Peticiones de Reporte con el nombre “Alertas por trabajador”.
+
+![Reportes de alertas](/media/manual/reportes-de-alertas-0c84f684fa.webp)
+
+![Reportes de alertas](/media/manual/reportes-de-alertas-2860b637ae.webp)
 
 ## PENDIENTE de validación
 
@@ -93,18 +107,4 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![Configuración](/media/manual/configuracion-e1ee6a5705.webp)
-
-![Configuración](/media/manual/configuracion-4a9148a96b.webp)
-
 ![Información de alertas](/media/manual/informacion-de-alertas-1aaed92fd1.webp)
-
-![Reportes de alertas](/media/manual/reportes-de-alertas-24c247f006.webp)
-
-![Reportes de alertas](/media/manual/reportes-de-alertas-183d78740d.webp)
-
-![Reportes de alertas](/media/manual/reportes-de-alertas-0c84f684fa.webp)
-
-![Información de alertas](/media/manual/informacion-de-alertas-469c9e06dc.webp)
-
-![Reportes de alertas](/media/manual/reportes-de-alertas-2860b637ae.webp)

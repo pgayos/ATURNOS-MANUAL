@@ -57,9 +57,15 @@ order: 1
 
 Seleccionando esta acción se despliegan en la configuración avanzada una serie de configurables para realizar la acción acorde a las preferencias del administrador.
 
+![b. Acción de copiar turnos](/media/manual/b-accion-de-copiar-turnos-df85262d20.webp)
+
 ## Configuración avanzada
 
 Se pueden seleccionar estas opciones:
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-bb6e1fec49.webp)
+
+![Configuración avanzada](/media/manual/configuracion-avanzada-8d0d430d6e.webp)
 
 - Colocar al trabajador sustituto debajo del trabajador a sustituir, asignándole la misma localización por defecto. Esta opción en SI cambia el orden en el cuadrante, situando al trabajador que recibe los turnos, en este caso, debajo del trabajador al que se los ha copiado, asignándole la misma localización por defecto. Si se configura como NO, no realizará esta opción
 - No copiar vacaciones. Con la opción en SÍ no copiará las vacaciones, sin embargo, con la opción en NO sí que las copia.
@@ -68,16 +74,6 @@ Se pueden seleccionar estas opciones:
 - No copiar horas complementarias y extras. Con la opción en SÍ no las copiaría, pero con la opción en NO, sí que las copia.
 - Copiar datos de planificación. Con la opción en SÍ, copiaría estos datos, y con la opción en NO, no los copiaría. Estos datos aparecen en el perfil del trabajador, es la última opción de la pestaña General.
 
+  ![Configuración avanzada](/media/manual/configuracion-avanzada-c2f3164d5e.webp)
+
 - Copiar pre-peticiones: Con la opción en Sí te permitirá aplicar los turnos planificados que tenía el trabajador a sustituir al trabajador sustituto, antes de que le hayan aceptado las peticiones de permisos al trabajador a sustituir. Con la opción en NO, no los aplicará.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![b. Acción de copiar turnos](/media/manual/b-accion-de-copiar-turnos-df85262d20.webp)
-
-![Configuración avanzada](/media/manual/configuracion-avanzada-bb6e1fec49.webp)
-
-![Configuración avanzada](/media/manual/configuracion-avanzada-c2f3164d5e.webp)
-
-![Configuración avanzada](/media/manual/configuracion-avanzada-8d0d430d6e.webp)

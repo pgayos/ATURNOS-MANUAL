@@ -72,19 +72,15 @@ Después tenemos la función de visualizar la información del cuadrante, donde 
 - La forma de visualizar: Horas, 1 Día, 1 Semana, 2 Semanas, 3 Semanas, 4 Semanas o un Mes.
 - Los detalles que se quieren visualizar: Solo turnos.
 
+  ![a. Barra superior del cuadrante](/media/manual/a-barra-superior-del-cuadrante-40e05fcaa6.png)
+
 - Con localización.
+
+  ![a. Barra superior del cuadrante](/media/manual/a-barra-superior-del-cuadrante-f4d0e3825e.png)
 
 - Todos los detalles.
 
+  ![a. Barra superior del cuadrante](/media/manual/a-barra-superior-del-cuadrante-14e6ef9947.png)
+
 - Filtro: haciendo clic en el icono del filtro se puede filtrar por detalles de los trabajadores (nombre, localización, categoría, etc.) o por turnos (sin datos de planificación, con datos de planificación, tipos de turnos y tipos de horas). OJO: al utilizar el filtro, se queda grabada la selección a medida que se navega por las distintas pestañas de aTurnos.
 - Exportar: Se puede exportar el cuadrante en forma de Excel, PDF A4 o A3.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![a. Barra superior del cuadrante](/media/manual/a-barra-superior-del-cuadrante-40e05fcaa6.png)
-
-![a. Barra superior del cuadrante](/media/manual/a-barra-superior-del-cuadrante-f4d0e3825e.png)
-
-![a. Barra superior del cuadrante](/media/manual/a-barra-superior-del-cuadrante-14e6ef9947.png)

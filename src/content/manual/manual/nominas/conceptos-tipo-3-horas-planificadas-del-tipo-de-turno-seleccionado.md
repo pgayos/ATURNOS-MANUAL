@@ -70,6 +70,8 @@ Recupera el número de horas por la duración total de un determinado tipo, exce
 
 En este caso, recuperar 17 horas por la duración total del turno, en el caso de utilizar el concepto tipo 2 asociado a este turno, devolvería cero horas por las horas de la duración computada.
 
+![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado-b10c2cdef4.png)
+
 Se suele utilizar para el abono de horas por turnos de guardia, ya que las guardias suelen ser turnos que están así configurados, es decir, turno que tienen duración total y no computada.
 
 Para recuperar el número de horas de alguno/s de los turno/s creados se debe acceder a ADMINISTRAR → NOMINAS → CONCEPTOS DE CALCULO
@@ -85,6 +87,8 @@ Para definir el concepto se debe indicar:
 - Categoría: Sí se debe calcular el número de turno solo a los trabajadores con una categoría determinada. Por defecto “Todas las categorías”
 - Filtro de días: Se puede seleccionar los días en los que debe recuperar el número de turnos indicados: Días de la semana de lunes a domingo Festivos Días previos a festivos Festivos especiales Días previos a festivos especiales Todos los días menos los festivos especiales Días de la semana de lunes a domingo (incluyendo festivos). La diferencia entre los “Días de la semana de lunes a domingo” y “Días de la semana de lunes a domingo (incluyendo festivos)” está en lo que se indique en la configuración de los festivos a nivel de equipo.
 
+  ![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-760452fd0f.png)
+
 En el caso de que esté marcado sábados y domingos como festivos en los ajustes del equipo, si se desea recuperar el número de turnos en sábado o en domingo el filtro a seleccionar sería “Sábados (incluyendo festivos)” y/o “Domingos (incluyendo festivos)”
 
 - Absentismo: Se puede indicar un absentismo, en el caso de que el trabajador tenga un turno con un absentismo total devolverá valor. No tiene en cuenta los absentismos temporales ni los periodos de absentismo.
@@ -93,16 +97,8 @@ En el caso de que esté marcado sábados y domingos como festivos en los ajustes
 
 El trabajador tiene la siguiente planificación, el concepto creado recuperará las horas computadas del turno GP17
 
-Al recuperar las horas de la duración total a través de ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA recupera las 17 horas (el día 7 de agosto) indicadas en el turno creado anteriormente.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-760452fd0f.png)
-
 ![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado-18addc5981.png)
 
-![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado-b10c2cdef4.png)
+Al recuperar las horas de la duración total a través de ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA recupera las 17 horas (el día 7 de agosto) indicadas en el turno creado anteriormente.
 
 ![Conceptos tipo 3: Horas planificadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-3-horas-planificadas-del-tipo-de-turno-seleccionado-51341c39fd.png)

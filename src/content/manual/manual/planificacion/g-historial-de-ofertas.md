@@ -54,6 +54,8 @@ order: 1
 
 En esta pestaña podrá consultar el historial de ofertas de turno que se han lanzado por el Administrador en este equipo dentro del periodo seleccionado en el filtro de fechas de la parte superior de la pantalla.
 
+![g. Historial de ofertas](/media/manual/g-historial-de-ofertas-1f36b4998a.png)
+
 ## Revisión requerida
 
 La fuente pública de **Historial de ofertas** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
@@ -61,9 +63,3 @@ La fuente pública de **Historial de ofertas** contiene muy poca información te
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![g. Historial de ofertas](/media/manual/g-historial-de-ofertas-1f36b4998a.png)

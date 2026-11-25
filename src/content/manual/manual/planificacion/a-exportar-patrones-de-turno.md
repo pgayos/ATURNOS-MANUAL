@@ -60,6 +60,8 @@ Desde el menú Planificador – Patrones de turnos se tiene la opción de export
 
 A continuación se muestra ejemplo de fichero CSV exportado:
 
+![a. Exportar patrones de turno](/media/manual/a-exportar-patrones-de-turno-14dbc90da9.png)
+
 El fichero presenta la información de los patrones, según la configuración al crearlos (ver más Cómo crear un patrón de turnos ):
 
 - Descripción: nombre del patrón
@@ -69,9 +71,3 @@ El fichero presenta la información de los patrones, según la configuración al
 - Dia de la semana: muestra el día de la semana en la que inicia el patrón, es decir, 1 = lunes, 2 = martes, 3 = miércoles, 4 = jueves, 5 = viernes, 6 = sábado y 7 = domingo. En caso de que el patrón esté configurado para que inicie con “día indefinido” el dato será igual a -1
 
 Así como en aTurnos se puede exportar el listado de patrones también es posible al contrario, es decir, importar patrones desde un fichero CSV al sistema, desde el menú Administrar – Importar/Exportar. Para ver más detalles: Importación para crear patrones de turnos.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![a. Exportar patrones de turno](/media/manual/a-exportar-patrones-de-turno-14dbc90da9.png)

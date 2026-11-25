@@ -59,6 +59,8 @@ Como administrador podrás realizar peticiones sobre diferentes aspectos del con
 
 Para iniciar el proceso de crear una petición desde el cuadrante haciendo clic en el día y en la opción de menú peticiones. Se abrirá un modal donde se debe informar los datos para generar la petición.
 
+![¿Cómo realizar una petición desde el cuadrante?](/media/manual/como-realizar-una-peticion-desde-el-cuadrante-c25e7cccdd.png)
+
 Una vez enviada la petición, cuando se cliquea en el botón “guardar”, se queda registrada en peticiones pendientes, en el cuadrante destaca en color morado la propuesta de la petición y al administrador le llegará un aviso de petición pendiente, notificaciones y mail (depende de configuración), avisando de que se han generado peticiones y están pendiente de ser gestionadas.
 
 El administrador para gestionar las peticiones pendientes puede hacerlo desde el propio cuadrante (propuesta morada que destaca en la planificación del cuadrante), desde el widgets de peticiones y desde las peticiones y cambios del menú.
@@ -67,9 +69,3 @@ Más detalle en:
 
 - Nueva petición
 - Ejemplo de un caso de uso: ¿Cómo realizar una petición de vacaciones y cómo gestionar la petición de vacaciones?
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo realizar una petición desde el cuadrante?](/media/manual/como-realizar-una-peticion-desde-el-cuadrante-c25e7cccdd.png)

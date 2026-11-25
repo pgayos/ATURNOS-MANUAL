@@ -57,6 +57,12 @@ Aprende a la preparación de los puestos, con instrucciones y contexto revisable
 1. Cree un acceso directo de Google Chrome y renómbrelo con el nombre de aTurnos. Para ello márquelo con el ratón y accione el botón derecho del ratón, seleccionando la opción “Cambiar nombre”
 2. Abra Google Chrome y escriba la siguiente dirección http://beta-mediamarkt.aturnos.com/login (abra una nueva pestaña y cierre las que abiertas por el Chrome) y al solicitar el email o usuario, informe el puesto al que va a crear el acceso directo. Los puestos de trabajo están asociados a través de la configuración de Filtros con las pantallas.
 
+   ![10. La preparación de los puestos](/media/manual/10-la-preparacion-de-los-puestos-879c365c2b.png)
+
+   ![10. La preparación de los puestos](/media/manual/10-la-preparacion-de-los-puestos-e4cd73f3e0.png)
+
+   ![10. La preparación de los puestos](/media/manual/10-la-preparacion-de-los-puestos-b1fe5844b4.png)
+
 1. Email: Es el del puesto en el que creamos el acceso directo: puesto1_nombredetienda@aturnos.com.
 2. Contraseña: La indicada en el Manual Básico.
 3. Entrar.
@@ -66,13 +72,3 @@ Aprende a la preparación de los puestos, con instrucciones y contexto revisable
 7. Aplicar y Aceptar.
 8. Entramos utilizando el acceso directo.
 9. Si se han seguido todos los pasos deberán entrar en el menú de Tareas → Tiempo Real, comprobando si el puesto es el que le corresponde.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![10. La preparación de los puestos](/media/manual/10-la-preparacion-de-los-puestos-e4cd73f3e0.png)
-
-![10. La preparación de los puestos](/media/manual/10-la-preparacion-de-los-puestos-b1fe5844b4.png)
-
-![10. La preparación de los puestos](/media/manual/10-la-preparacion-de-los-puestos-879c365c2b.png)

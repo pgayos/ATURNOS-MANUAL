@@ -54,6 +54,8 @@ order: 1
 
 Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas.
 
+![a. Turnos](/media/manual/a-turnos-15ef227d16.png)
+
 En las estadísticas de turnos encontramos tres pestañas:
 
 ### Tabla
@@ -79,9 +81,3 @@ Gráfico de barras para representar de una forma más visual, los turnos planifi
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![a. Turnos](/media/manual/a-turnos-15ef227d16.png)

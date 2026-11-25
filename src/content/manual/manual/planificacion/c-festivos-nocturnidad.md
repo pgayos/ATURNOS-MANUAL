@@ -58,6 +58,8 @@ order: 1
 
 Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas.
 
+![c. Festivos & Nocturnidad](/media/manual/c-festivos-nocturnidad-74b98adef7.png)
+
 Las estadísticas de festivos y nocturnidad vienen condicionadas por la configuración de lo que queremos considerar como festivos y como nocturnidad en Administrar → Ajustes → Datos de convenio. Es decir, los festivos pueden ser sábados y domingos también, o solo los festivos indicados; y la nocturnidad se puede configurar entre dos horas, es decir, entre por ejemplo las 22:00 y las 06:00.
 
 En las estadísticas de festivos y nocturnidad encontramos tres pestañas:
@@ -93,9 +95,3 @@ Las estadísticas de Festivos y Nocturnidad, se nos representan según los filtr
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![c. Festivos & Nocturnidad](/media/manual/c-festivos-nocturnidad-74b98adef7.png)

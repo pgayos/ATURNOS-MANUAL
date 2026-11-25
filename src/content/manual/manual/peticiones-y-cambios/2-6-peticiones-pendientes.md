@@ -57,12 +57,8 @@ Información sobre peticiones pendientes, con instrucciones y contexto revisable
 ## Qué debes saber
 En este apartado podremos ver y hacer un seguimiento de todas las peticiones que hemos hecho y están pendientes de aprobar o denegar por el Administrador. Deslizando la flecha y haciendo clic en el icono del ojo, podrás ver los detalles de las peticiones pendientes.
 
+![2.6 Peticiones pendientes](/media/manual/2-6-peticiones-pendientes-4bc03d6a03.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.6 Peticiones pendientes](/media/manual/2-6-peticiones-pendientes-4bc03d6a03.webp)

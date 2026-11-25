@@ -79,15 +79,25 @@ Para crear una nueva demanda, se necesitan completar los siguientes datos:
 
 - Guardar como una demanda ya existente para modificar los datos como la fecha fin de la curva de demanda, pudiendo ampliar a una fecha posterior a la original. Para ello se ha de indicar la demanda ya creada que se pretende modificar.
 
+  ![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-9b820218bc.webp)
+
 Así como, seleccionar la fecha a partir de la cual queremos ampliarla, la nueva fecha fin y finalmente la opción ‘Modificar demanda’.
 
+![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-a0c21429f5.webp)
+
 - Guardar como una demanda ya existente para incrementar los datos de la demanda en función de la demanda existente a partir de una nueva fecha fin de la curva de demanda. Es decir, si teníamos una demanda de un trabajador por el turno “M” en cada día de la semana en la demanda original, si volvemos cargar esta demanda e indicamos la opción ‘Incrementar demanda’, a partir de la nueva fecha la curva de demanda necesitará dos trabajadores por el turno “M” en cada día de la semana, al incrementarse en un trabajador.
+
+  ![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-575e2794e1.webp)
 
 Y por último se procede a “Guardar” la demanda creada.
 
 Desde el menú Operaciones – Cuadro de mando, puedes crear también una curva de demanda haciendo clic en el icono de Acciones.
 
+![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-652bfe3a96.webp)
+
 En Acciones debes seleccionar la opción de añadir demanda y registrar la información:
+
+![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-a7d5ffe617.png)
 
 - Demanda: debes seleccionar la opción de Nueva demanda.
 - Descripción: Indica el nombre con el que se identificará la demanda.
@@ -107,17 +117,3 @@ Este proceso de carga también se puede hacer mediante la importación de un arc
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-9b820218bc.webp)
-
-![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-a7d5ffe617.png)
-
-![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-652bfe3a96.webp)
-
-![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-a0c21429f5.webp)
-
-![Crear curva de Demanda](/media/manual/crear-curva-de-demanda-575e2794e1.webp)

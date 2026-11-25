@@ -62,7 +62,11 @@ Para añadir un Recurso, el trabajador debe:
 
 1.- Desde el menú CUADRANTE → CUADRANTE, hacer clic en el día y turno al que se le va a añadir el recurso y seleccionar la opción “Recursos”
 
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-8a057412d9.png)
+
 2.- Los “Recursos” disponibles son los creados por el administrador de aTurnos (accede al Manual de Administrador de Recursos, para ampliar la información), marca “Por defecto” para visualizar los recursos disponibles.
+
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-4d96dfd160.png)
 
 El trabajador informa los “Recursos” disponibles, en este ejemplo:
 
@@ -72,11 +76,17 @@ El trabajador informa los “Recursos” disponibles, en este ejemplo:
 - Luces: En el que se marca un check que puede formar parte de una Lista de Comprobación informa una descripción, en el caso de que se precise. Es un campo tipo texto.
 - Kilómetros a pagar: Es un campo autocalculado, multiplica el número del recurso “Kilómetros” x el valor 0,21 indicado en el campo “Fórmula” del recurso.
 
+  ![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-0e94669a2c.png)
+
 3. Por último Guardar y cerrar o Borrar.
 
 4.- Los trabajadores visualizan los recursos tanto en el Cuadrante, siempre que se tenga filtrado con la opción “Recursos”
 
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-ace07f5733.png)
+
 5.- Accediendo a RECURSOS → RESUMEN, el trabajador puede visualizar los recursos informados y el estado del recurso (validado o no por el administrador).
+
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-869e78f717.png)
 
 Un trabajador de mantenimiento tiene que registrar los recursos creados del tipo “Si o No”.
 
@@ -94,24 +104,10 @@ La acciones que tiene que realizar el trabajador en este caso son las siguientes
 
 2.- Los recursos añadidos por el administrador están creados como tipo de recurso check list, apareciendo una casilla sin marcar junto al lado de cada una de ellos. El trabajador marcará haciendo clic sobre las casillas de los recursos realizados y terminados.
 
+![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-a2d8c00dc6.png)
+
 3.- Por último hacer clic en Cerrar.
 
 4.- En el resumen de los recursos, se visualiza con un 1 en el caso de que este marcado el check, en este ejemplo los recursos “Revisión del estado del agua de la piscina” y “Revisión de los extintores de la comunidad”
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-4d96dfd160.png)
-
-![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-0e94669a2c.png)
-
-![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-a2d8c00dc6.png)
-
 ![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-a73c15b042.png)
-
-![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-ace07f5733.png)
-
-![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-869e78f717.png)
-
-![¿Cómo informan los trabajadores los recursos?](/media/manual/como-informan-los-trabajadores-los-recursos-8a057412d9.png)

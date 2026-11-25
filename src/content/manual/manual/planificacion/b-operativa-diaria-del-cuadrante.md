@@ -77,6 +77,8 @@ Se puede solicitar sobre el mismo cuadrante para los días que quieres realizar 
 
 Sobre el cuadrante, puedes validar que la petición está en proceso de aprobación con la abreviatura de la petición en color morado sobre los días solicitados. Además, tienes un listado con todas las peticiones en proceso y del histórico.
 
+![¿Qué es una petición?](/media/manual/que-es-una-peticion-0337c5eb96.png)
+
 ### ¿Qué es un cambio de turno?
 
 El cambio de turno es uno de los procesos más usado por los profesionales que trabajan a turnos. El cambio de turno entre trabajadores facilita la conciliación laboral y familiar, disminuyendo el número de absentismos por la flexibilidad en la planificación de los trabajadores con sus cambios de turnos.
@@ -96,9 +98,3 @@ Por lo tanto, para iniciar el cambio tienes que hacer clic en el cuadrante dentr
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Qué es una petición?](/media/manual/que-es-una-peticion-0337c5eb96.png)

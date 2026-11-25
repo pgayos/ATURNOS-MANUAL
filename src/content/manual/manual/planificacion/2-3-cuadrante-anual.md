@@ -62,7 +62,11 @@ Además, el cuadrante anual muestra un resumen general de eventos del año, junt
 
 En este cuadrante anual, el administrador podrá ver también el total de horas efectivas por mes y la cantidad de horas ajustadas, que tiene el trabajador en ese período.
 
+![2.3 Cuadrante Anual](/media/manual/2-3-cuadrante-anual-fccb0f4d64.png)
+
 ### Barra superior del cuadrante anual
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-65123740f7.webp)
 
 Esta barra incluye opciones para personalizar la visualización y exportación de datos del cuadrante:
 
@@ -96,6 +100,8 @@ Opciones:
 
 - Enviar cuadrante anual por email: Envía el cuadrante al correo del trabajador o a otra dirección (email de aTurnos o no).
 
+  ![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-803a948ec2.webp)
+
 Se puede incluir, entre otros, información resumida de:
 
 - Horas planificadas y balance de horas
@@ -104,9 +110,15 @@ Se puede incluir, entre otros, información resumida de:
 
 - Vista Grid: modifica la vista del cuadrante anual a modo Grid o cuadrícula.
 
+  ![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-2ab15e3c63.webp)
+
 - Vista Tabla: modifica la vista del cuadrante anual a modo Tabla.
 
+  ![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-1eebb3f42b.webp)
+
 - Exportar: Permite exportar o descargar el cuadrante anual en Excel, PDF A4 o PDF A3. Un administrador o superusuario puede exportar el cuadrante de un solo trabajador o de todos a la vez.
+
+  ![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-8d1b1eb66d.webp)
 
 Opciones de exportación:
 
@@ -120,9 +132,13 @@ Permiten ajustar la información visualizada según criterios del trabajador, lo
 
 - Filtro por trabajador
 
+  ![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-ac4ae55654.webp)
+
 Muestra únicamente los turnos asociados a las localizaciones seleccionadas.
 
 - Filtro por turnos
+
+  ![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-714c3f545d.webp)
 
 Ofrece tres opciones:
 
@@ -130,11 +146,15 @@ Ofrece tres opciones:
 2. Excluir turnos con absentismos: oculta turnos que tengan el absentismo indicado (solo si cubre el turno completo).
 3. Mostrar absentismos tipo: muestra únicamente los turnos con los absentismos seleccionados (parciales o totales).
 
+   ![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-b7a03d40ae.webp)
+
 - Por Turnos, ofrece 3 opciones,: Por Tipo de turno, solo se mostrarán en el cuadrante anual los turnos seleccionados. Excluir turnos con Absentismos, se muestra el cuadrante sin los turnos que tengan asignado el absentismo seleccionado (en jornada completa, es decir, el turno completo, no excluye los turnos que tengan informado solo algunas horas de ese absentismo). Mostrar absentismos tipo, con esta opción se mostrará en el cuadrante solamente los turnos con el o los absentismos seleccionados (tanto absentismos de horas como totales).
 
 ### Acciones dentro del cuadrante anual
 
 Haciendo clic en cualquier día del calendario, se despliega un menú que permite:
+
+![Acciones dentro del cuadrante anual](/media/manual/acciones-dentro-del-cuadrante-anual-a5fb1835f2.png)
 
 1. Añadir turno: permite insertar un turno del listado de tipos de turno que se hayan creado.
 2. Modificar turno: cuando el día o casilla seleccionada ya tiene un turno asignado esta opción permite cambiar ese turno por otro.
@@ -150,15 +170,23 @@ En la parte inferior se puede consultar la siguiente información:
 
 - Resumen: se puede ver la cantidad o total de cada turno que el trabajador tiene asignado a lo largo del año, con el total de horas por turno. En caso de necesitar una comparación directa con otros compañeros del equipo, debe acceder a Estadísticas-Turnos y filtrar por el periodo deseado (por ejemplo, un año).
 
+  ![Estadísticas y datos del cuadrante anual](/media/manual/estadisticas-y-datos-del-cuadrante-anual-801cbff85d.png)
+
 - Tiempos: muestra conceptos relacionados con los parámetros establecidos para el cálculo de horas, vacaciones, nocturnidades y festivos correspondientes al trabajador que afectan su registro de horas en el año. Es la misma información que podrás encontrar en el perfil del trabajador en los apartados de ‘Vacaciones’ y ‘Horas’.
 
+  ![Estadísticas y datos del cuadrante anual](/media/manual/estadisticas-y-datos-del-cuadrante-anual-3de3067dc6.png)
+
 - Horas y Vacaciones: aquí puede consultar de forma ágil y sencilla detalles relacionados con las horas y vacaciones anuales del trabajador en los equipos donde está dado de alta y planificado. También se tiene acceso al apartado Horas en los equipos cuando se ha marcado la opción “Mostrar todos mis equipos”.
+
+  ![Estadísticas y datos del cuadrante anual](/media/manual/estadisticas-y-datos-del-cuadrante-anual-037e052cc2.png)
 
 ### Cuadrante anual según año fiscal
 
 El ejercicio o año fiscal de las empresas no siempre corresponde con el período del año natural (01 de enero a 31 de diciembre) para generar reportes o informes en relación al área financiera (Ver mas acerca de Configurar Año fiscal ). En estos casos, la visualización del cuadrante anual se adaptará a los 12 meses que correspondan al año fiscal informado.
 
 Ejemplo, si el año fiscal de la empresa es del 01/04 al 31/03 (FY= Fiscal Year) los 12 meses que se mostrarán en el cuadrante se informarán iniciando la secuencia con el mes de Abril y así sucesivamente cerrará con el mes de Marzo.
+
+![Cuadrante anual según año fiscal](/media/manual/cuadrante-anual-segun-ano-fiscal-f7b62e10ba.webp)
 
 En la barra superior desplegable se selecciona el año fiscal (FY= Fiscal Year) que se quiere consultar o visualizar en el cuadrante anual. De igual forma, todas las estadísticas y datos del cuadrante se ajustarán según el año fiscal informado.
 
@@ -170,34 +198,6 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-65123740f7.webp)
-
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-803a948ec2.webp)
-
 ![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-236aab397a.webp)
 
 ![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-209e2f1cbc.webp)
-
-![2.3 Cuadrante Anual](/media/manual/2-3-cuadrante-anual-fccb0f4d64.png)
-
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-ac4ae55654.webp)
-
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-2ab15e3c63.webp)
-
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-8d1b1eb66d.webp)
-
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-714c3f545d.webp)
-
-![Estadísticas y datos del cuadrante anual](/media/manual/estadisticas-y-datos-del-cuadrante-anual-801cbff85d.png)
-
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-1eebb3f42b.webp)
-
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-b7a03d40ae.webp)
-
-![Estadísticas y datos del cuadrante anual](/media/manual/estadisticas-y-datos-del-cuadrante-anual-037e052cc2.png)
-
-![Estadísticas y datos del cuadrante anual](/media/manual/estadisticas-y-datos-del-cuadrante-anual-3de3067dc6.png)
-
-![Cuadrante anual según año fiscal](/media/manual/cuadrante-anual-segun-ano-fiscal-f7b62e10ba.webp)
-
-![Acciones dentro del cuadrante anual](/media/manual/acciones-dentro-del-cuadrante-anual-a5fb1835f2.png)

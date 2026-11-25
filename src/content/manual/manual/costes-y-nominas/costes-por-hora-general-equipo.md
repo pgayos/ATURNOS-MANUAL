@@ -64,6 +64,8 @@ Este coste por hora es aquel que se define cuando todos los trabajadores del equ
 
 Se configura desde Menú Administrar – Ajustes en la pestaña de “Módulos” tal como mostramos a continuación:
 
+![Costes por hora general (equipo)](/media/manual/costes-por-hora-general-equipo-d0ebb8697f.webp)
+
 Al acceder a esta pantalla se informarán los siguientes campos:
 
 - Coste / Hora por defecto: valor que se asignará o imputará por cada hora de trabajo.
@@ -71,9 +73,3 @@ Al acceder a esta pantalla se informarán los siguientes campos:
 - Base de cotización máximo: salario bruto anual máximo establecido de ley para los trabajadores dados de alta por nómina. Base máxima de cotización a la Seguridad Social.
 
 Una vez cumplimentados los campos, se debe guardar la información.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Costes por hora general (equipo)](/media/manual/costes-por-hora-general-equipo-d0ebb8697f.webp)

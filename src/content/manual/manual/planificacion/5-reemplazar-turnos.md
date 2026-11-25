@@ -56,6 +56,8 @@ order: 1
 
 La acción de ‘Reemplazar turnos’ permite cambiar un mismo turno por otro a un trabajador entre dos fechas.
 
+![5. Reemplazar turnos](/media/manual/5-reemplazar-turnos-d994dbb401.webp)
+
 ## Qué debes saber
 Se nos mostrará un formulario en el cual informar:
 
@@ -63,16 +65,10 @@ Se nos mostrará un formulario en el cual informar:
 - Elige que turno quiere reemplazar: el turno origen.
 - Elige el nuevo turno: el turno destino.
 
+  ![5. Reemplazar turnos](/media/manual/5-reemplazar-turnos-3bb365b051.webp)
+
 Para realizar el reemplazo de turnos, se debe hacer clic en ‘Guardar’.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5. Reemplazar turnos](/media/manual/5-reemplazar-turnos-3bb365b051.webp)
-
-![5. Reemplazar turnos](/media/manual/5-reemplazar-turnos-d994dbb401.webp)

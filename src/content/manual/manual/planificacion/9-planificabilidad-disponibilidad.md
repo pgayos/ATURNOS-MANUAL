@@ -72,6 +72,8 @@ Los otros cinco días de la semana está disponible al 20% donde reparte su jorn
 
 Este trabajador, por ejemplo, puede realizar 8 horas al día de máximo pero no puede trabajar ni jueves ni viernes:
 
+![Disponibilidad](/media/manual/disponibilidad-4789d499b7.png)
+
 ### Planificabilidad
 
 El objetivo final es medir la puntuación para planificar un trabajador en un día determinado con respecto a una demanda. Es un factor clave para realizar las mejores planificaciones posibles, pues tiene en cuenta todo (restricciones, demanda, especialidades…).
@@ -107,38 +109,32 @@ En el ejemplo se ve como el martes la puntuación es mucho mayor debido a que ti
 
 A continuación, a modo de ejemplo, se va a realizar una comparativa entre un trabajador 40 horas (con concreción laboral el viernes), un 20 horas y un weekend, para ver quién tiene prioridad en cada caso:
 
+![Planificabilidad](/media/manual/planificabilidad-2c4c660dd9.png)
+
 En este caso (sin turnos asignados) vemos que el trabajador de 40 horas a la semana va a tener prioridad de lunes a jueves, lógico pues tiene más horas de disponibilidad esos días que el 20 horas, el 20 horas va a tener prioridad el viernes, pues solo puede trabajar él, y en el fin de semana tendrá prioridad el weekend.
 
 ¿Qué pasa si añadimos turnos a los trabajadores? Lo vemos a continuación:
 
+![Planificabilidad](/media/manual/planificabilidad-811ca1fa98.png)
+
 Ahora el trabajador de 40 horas tiene asignado un turno el lunes de 10 a 16 horas y por eso el martes tiene tanta prioridad (restricción 2.6), los demás días se comporta de la misma manera que antes:
+
+![Planificabilidad](/media/manual/planificabilidad-d716787884.png)
 
 En este caso, el 40 horas tiene un turno el sábado, por eso el domingo tiene tanta prioridad, ya que interesa que si trabaja el sábado, el domingo también, y viceversa:
 
+![Planificabilidad](/media/manual/planificabilidad-a050ba9a78.png)
+
 Aquí, el 20 horas tiene un turno el martes, y por eso el lunes y el miércoles tiene prioridad frente a los otros trabajadores:
+
+![Planificabilidad](/media/manual/planificabilidad-d303003975.png)
 
 En este caso, el trabajador de 20 horas tiene un turno el sábado, y por lo tanto, los días contiguos tendrán prioridad para trabajar.
 
 Lo mismo pasa cuando es el weekend el que tiene el turno:
 
+![Planificabilidad](/media/manual/planificabilidad-d4100a44ef.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Disponibilidad](/media/manual/disponibilidad-4789d499b7.png)
-
-![Planificabilidad](/media/manual/planificabilidad-2c4c660dd9.png)
-
-![Planificabilidad](/media/manual/planificabilidad-811ca1fa98.png)
-
-![Planificabilidad](/media/manual/planificabilidad-d716787884.png)
-
-![Planificabilidad](/media/manual/planificabilidad-a050ba9a78.png)
-
-![Planificabilidad](/media/manual/planificabilidad-d303003975.png)
-
-![Planificabilidad](/media/manual/planificabilidad-d4100a44ef.png)

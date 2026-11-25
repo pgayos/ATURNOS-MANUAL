@@ -64,7 +64,11 @@ Por ejemplo, llamaríamos absentismo total a una ausencia debido a una baja por 
 
 El administrador del equipo puede crear absentismos desde el menú ‘ Planificador ‘, en ‘ Tipos de turno ‘, pulsando sobre el botón de la barra superior ‘Acciones’, se desplegarán varias opciones, entre las que se encuentra ‘Crear Absentismo’.
 
+![b. Absentismos](/media/manual/b-absentismos-d0cd056ddb.webp)
+
 Se mostrará un modal en el cual se debe informar la siguiente información:
+
+![b. Absentismos](/media/manual/b-absentismos-1d394f2dcf.png)
 
 - Descripción con la que se identifica el nombre del absentismo/permiso.
 - Abreviatura, es el acrónimo con el que se identifica el absentismo (máximo 4 caracteres con letras y/o números). Son únicos por cada absentismo.
@@ -75,11 +79,3 @@ Se mostrará un modal en el cual se debe informar la siguiente información:
 - Petición, para que el absentismo esté disponible para ser solicitado mediante una petición por los trabajadores.
 
 Se pueden crear ‘Nuevos datos’ con nueva fecha de modificación en tipo de absentismo, puede ser que, en el permiso de día de mudanza, la empresa lo consideraba y lo tenía informado como justificado productivo, incluyendo plus de festividad y nocturnidad, y por decisión de la empresa, se cambiará, para que a partir de una determinada fecha sea productivo, pero no incluye plus de festividad y nocturnidad. Será a partir de la fecha informada en ‘Entrada en vigor’ cuando este permiso cambia de tipo de productividad.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![b. Absentismos](/media/manual/b-absentismos-d0cd056ddb.webp)
-
-![b. Absentismos](/media/manual/b-absentismos-1d394f2dcf.png)

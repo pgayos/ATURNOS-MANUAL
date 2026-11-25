@@ -60,8 +60,4 @@ Se define como Especialidad a la experiencia que define el perfil del trabajador
 
 Es muy importante validar la cobertura de especialidades y definir mínimos de habilidades. Ejemplo: al comprobar la cobertura de experiencia de trabajadores durante una jornada, se pueden conseguir matrices de polivalencia y así analizar coberturas y hacer una mejor planificación. Para ver cómo crearlas y configurarlas: Especialidades.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![2. Especialidades del trabajador](/media/manual/2-especialidades-del-trabajador-60d504ac11.webp)

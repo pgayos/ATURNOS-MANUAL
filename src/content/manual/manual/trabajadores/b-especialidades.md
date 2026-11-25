@@ -66,23 +66,19 @@ Dentro de Especialidades tenemos las siguientes pestañas:
 
 Como se ha expuesto anteriormente, es el conjunto de habilidades que tiene un determinado trabajador, y con las cuales se pueden diferenciar del resto del equipo.
 
+![b. Especialidades](/media/manual/b-especialidades-9f255d2c30.png)
+
 Si quieres añadir una determinada especialidad, sólo tienes que hacer clic en el botón de Acciones (esquina superior derecha), elegir “Nueva Especialidad/Rol” y rellenar un formulario con los siguientes campos:
+
+![b. Especialidades](/media/manual/b-especialidades-114507266d.png)
 
 - Descripción: Nombre con el que quieres identificar a la especialidad que posteriormente vas a añadir sobre uno o todos los trabajadores de tu equipo. Ejemplo: “FORMADOR” (dentro del grupo de Capacidades).
 - Nuevo grupo: Puedes insertar el grupo de especialidades al cual quieres que pertenezca la nueva especialidad. Es importante que se añada el “grupo de especialidades”, para que así, a la hora de rellenar el formulario de la especialidad, ya puedas seleccionar en el desplegable si pertenece a un grupo concreto de especialidades o si, por el contrario, no pertenece a ningún grupo.
 
 Se trata del nombre con el que se puede identificar a un determinado tipo de especialidades, con el fin de tenerlas todas agrupadas en un mismo departamento. Para añadirlos, tienes que hacer clic en “Acciones- → Nuevo grupo” y únicamente hay que informar de la descripción con la que quieres nombrar a ese determinado tipo de especialidades.
 
-En esta pestaña aparecerá el listado de todos los trabajadores de tu equipo, a los cuales, dependiendo de las especialidades que anteriormente has creado, se le puede otorgar una puntuación (con un intervalo de 0-5). Para tener mejor identificados a aquellos trabajadores a los cuales realizan mejor una determinada especialidad, les puedes conceder un valor próximo a “5” o si, por el contrario, en otra determinada especialidad no destaca especialmente, le puedes conceder un valor próximo a “0”.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![b. Especialidades](/media/manual/b-especialidades-114507266d.png)
-
 ![b. Especialidades](/media/manual/b-especialidades-b9b7cb260b.png)
 
-![b. Especialidades](/media/manual/b-especialidades-9f255d2c30.png)
+En esta pestaña aparecerá el listado de todos los trabajadores de tu equipo, a los cuales, dependiendo de las especialidades que anteriormente has creado, se le puede otorgar una puntuación (con un intervalo de 0-5). Para tener mejor identificados a aquellos trabajadores a los cuales realizan mejor una determinada especialidad, les puedes conceder un valor próximo a “5” o si, por el contrario, en otra determinada especialidad no destaca especialmente, le puedes conceder un valor próximo a “0”.
 
 ![b. Especialidades](/media/manual/b-especialidades-bb07a75070.png)

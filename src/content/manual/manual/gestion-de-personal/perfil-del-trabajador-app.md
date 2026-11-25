@@ -79,6 +79,8 @@ En este apartado de tu perfil, dispondrás de la siguiente información relacion
 - Fecha de baja en aTurnos
 - ID empleado
 - Horas contrato/Horas realizadas
+
+  ![8.2 Contrato](/media/manual/8-2-contrato-a8eadb4b16.webp)
 - Ajustes
 - Total
 
@@ -90,11 +92,17 @@ En este otro apartado, podrás consultar la información sobre las vacaciones co
 - Vacaciones planificadas/Vacaciones totales
 - Saldo vacaciones
 
+  ![8.3 Vacaciones](/media/manual/8-3-vacaciones-4dc2953b67.webp)
+
 ### 8.4 Configuración
 
 En este último apartado de la Configuración, podrás realizar las siguientes acciones principalmente para cambiar tus datos personales, la contraseña de tu usuario en aTurnos o el idioma en el que quieras que esté la app:
 
+![8.4 Configuración](/media/manual/8-4-configuracion-6acc6653d9.webp)
+
 - Cambiar datos: como puede ser el Email, tu nombre o tu teléfono.
+
+  ![8.4 Configuración](/media/manual/8-4-configuracion-51dc557770.webp)
 
 - Cambiar contraseña
 - Idioma
@@ -108,11 +116,3 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![8.1 Ver perfil](/media/manual/8-1-ver-perfil-0ad9afbd54.webp)
-
-![8.3 Vacaciones](/media/manual/8-3-vacaciones-4dc2953b67.webp)
-
-![8.2 Contrato](/media/manual/8-2-contrato-a8eadb4b16.webp)
-
-![8.4 Configuración](/media/manual/8-4-configuracion-6acc6653d9.webp)
-
-![8.4 Configuración](/media/manual/8-4-configuracion-51dc557770.webp)

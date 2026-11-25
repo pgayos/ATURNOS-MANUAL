@@ -58,19 +58,15 @@ order: 1
 
 Con esta función el administrador del equipo puede copiar los turnos planificados del cuadrante de un trabajador a otro en el período que está visible en el cuadrante.
 
+![7. Copiar y pegar cuadrante](/media/manual/7-copiar-y-pegar-cuadrante-a092c61e1b.webp)
+
 ## Qué debes saber
 Es importante tener en cuenta que solo se copiará la planificación hasta la fecha visible (ver Barra superior del cuadrante ).
 
 Una vez se hace la acción de ‘Copiar cuadrante’, se habilita la acción de ‘Pegar cuadrante’.
 
+![7. Copiar y pegar cuadrante](/media/manual/7-copiar-y-pegar-cuadrante-095a9d44e3.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7. Copiar y pegar cuadrante](/media/manual/7-copiar-y-pegar-cuadrante-a092c61e1b.webp)
-
-![7. Copiar y pegar cuadrante](/media/manual/7-copiar-y-pegar-cuadrante-095a9d44e3.webp)

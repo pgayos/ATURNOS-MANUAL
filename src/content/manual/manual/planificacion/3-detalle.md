@@ -56,11 +56,15 @@ Información sobre detalle en aTurnos, con instrucciones y contexto revisables p
 
 El trabajador puede tener acceso a sus fichajes para ver gráficamente el estado de sus horas comparando las horas trabajadas presenciales con las horas planificadas. Las horas realizadas son aquellas que suman la duración total de los tipos de turno aplicados en el cuadrante.
 
+![3. Detalle](/media/manual/3-detalle-1e59babcc5.webp)
+
 Se divide en dos pestañas para el trabajador, principalmente el listado de fichajes con el detalle diario y un informe de fichajes que puede ser solicitado por la inspección laboral.
 
 ### Listado de fichajes
 
 Al igual que se puede ver en ‘ Detalle ‘ se puede visualizar la representación gráfica de las horas computables de los turnos que hay planificados en el cuadrante y las horas que se han registrado en el sistema de control de presencia (ver Interpretación de los gráficos ).
+
+![Listado de fichajes](/media/manual/listado-de-fichajes-2db5b90b8d.webp)
 
 Desde el botón ‘+’ se pueden realizar peticiones de fichajes.
 
@@ -81,6 +85,8 @@ Esta pestaña en Control de Presencia → Detalle por trabajador incluye dos pes
 
 Por otro lado en la pestaña de Informe se puede ver en formato de listado los fichajes realizados en el periodo de tiempo seleccionado en la parte superior de la pantalla.
 
+![Informe](/media/manual/informe-2774f55fb1.webp)
+
 Los datos son los siguientes:
 
 - Fecha: día, mes y año.
@@ -96,13 +102,3 @@ Los datos son los siguientes:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Detalle](/media/manual/3-detalle-1e59babcc5.webp)
-
-![Listado de fichajes](/media/manual/listado-de-fichajes-2db5b90b8d.webp)
-
-![Informe](/media/manual/informe-2774f55fb1.webp)

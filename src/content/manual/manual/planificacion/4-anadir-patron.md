@@ -55,6 +55,8 @@ order: 1
 
 El administrador puede insertar un patrón de turnos (una secuencia de turnos) a un trabajador desde el propio cuadrante.
 
+![4. Añadir patrón](/media/manual/4-anadir-patron-7d3c5432c0.png)
+
 ## Procedimiento
 En este menú te aparecen las siguientes opciones:
 
@@ -63,9 +65,3 @@ En este menú te aparecen las siguientes opciones:
 -Patrones que ya tienes creados: En el momento que se haga clic en uno de esos patrones, el sistema aplicará en el cuadrante el patrón elegido, insertando toda la secuencia de tipos de turnos que forman parte del patrón. Si ya tienes un patrón aplicado, éste se añadirá al que ya tienes, siempre hasta el día que tienes visualizado en pantalla.
 
 -Añadir patrón: Al seleccionar esta opción, se muestran todos los patrones dados de alta en el equipo. (Para ver cómo crear un patrón, consulte el siguiente enlace del manual: Cómo crear un patrón ).
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4. Añadir patrón](/media/manual/4-anadir-patron-7d3c5432c0.png)

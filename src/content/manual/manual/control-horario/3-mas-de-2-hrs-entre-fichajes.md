@@ -67,6 +67,8 @@ Esta continuidad puede darse:
 - Por el fichaje, con entrada a las 22:00 horas y salida a las 00:30 del día siguiente.
 - Por un turno u horas planificadas, como un turno de 22:00 a 06:00 del día siguiente.
 
+  ![3. Más de 2 Hrs entre fichajes](/media/manual/3-mas-de-2-hrs-entre-fichajes-4d21b5ea22.webp)
+
 El reporte informa:
 
 - Equipo donde sucede el caso.
@@ -76,16 +78,10 @@ El reporte informa:
 - Fecha en la que se produce el caso.
 - Tiempo entre fichajes (entre el fichaje anterior y el siguiente).
 
+  ![3. Más de 2 Hrs entre fichajes](/media/manual/3-mas-de-2-hrs-entre-fichajes-542e99c9ca.webp)
+
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
-
-Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![3. Más de 2 Hrs entre fichajes](/media/manual/3-mas-de-2-hrs-entre-fichajes-8f0d0a0a4e.webp)
 
-![3. Más de 2 Hrs entre fichajes](/media/manual/3-mas-de-2-hrs-entre-fichajes-542e99c9ca.webp)
-
-![3. Más de 2 Hrs entre fichajes](/media/manual/3-mas-de-2-hrs-entre-fichajes-4d21b5ea22.webp)
+Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.

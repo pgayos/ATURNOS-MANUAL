@@ -64,11 +64,15 @@ Además, el administrador puede poner a disposición de su equipo un documento p
 
 Para descargarse dicho archivo tendrá que pulsar el siguiente icono:
 
+![6.1 Ver y descargar documentos](/media/manual/6-1-ver-y-descargar-documentos-769faea0d3.webp)
+
 ### 6.2 Subir documentos
 
 El trabajador puede tener el permiso de subir documentos que sean de importancia o relevancia para los administradores del equipo (un parte de baja o trabajo, un justificante médico o de examen, la inscripción en un curso o congreso, etc.).
 
 Para ello tendrá que hacer clic sobre el icono situado en la parte inferior derecha:
+
+![6.2 Subir documentos](/media/manual/6-2-subir-documentos-386d653151.png)
 
 ## PENDIENTE de validación
 
@@ -79,7 +83,3 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![6.2 Subir documentos](/media/manual/6-2-subir-documentos-f01f56d749.webp)
-
-![6.1 Ver y descargar documentos](/media/manual/6-1-ver-y-descargar-documentos-769faea0d3.webp)
-
-![6.2 Subir documentos](/media/manual/6-2-subir-documentos-386d653151.png)

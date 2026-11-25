@@ -59,22 +59,18 @@ Todos los documentos subidos a los que se tiene acceso según los permisos dados
 ## Qué debes saber
 Ya sea vista en Grid.
 
+![3. Ver documentos subidos](/media/manual/3-ver-documentos-subidos-9fc1604868.webp)
+
 En vista listado.
 
+![3. Ver documentos subidos](/media/manual/3-ver-documentos-subidos-5f2758a3c0.webp)
+
 Desde aquí, según los permisos, los documentos se pueden descargar o borrar.
+
+![3. Ver documentos subidos](/media/manual/3-ver-documentos-subidos-9757e69c91.webp)
 
 También se puede consultar desde el widget que aparece en la página de inicio.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Ver documentos subidos](/media/manual/3-ver-documentos-subidos-5f2758a3c0.webp)
-
-![3. Ver documentos subidos](/media/manual/3-ver-documentos-subidos-9757e69c91.webp)
-
-![3. Ver documentos subidos](/media/manual/3-ver-documentos-subidos-9fc1604868.webp)

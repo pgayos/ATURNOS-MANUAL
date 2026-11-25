@@ -58,6 +58,8 @@ order: 1
 
 Una vez iniciada sesión en la app, encontrarás todos los equipos a los que pertenece tu usuario logueado:.
 
+![1. Inicio sesión y equipo](/media/manual/1-inicio-sesion-y-equipo-b24718a11b.png)
+
 ### 1. Inicio sesión y equipo
 
 En la parte de abajo, aparecerán los equipos en los que en ese momento no te encuentras dado de alta.
@@ -85,14 +87,8 @@ Cuando se selecciona el equipo deseado, en la pantalla de inicio encontrarás lo
 
 Estos widget aparecerán en función de la configuración que se ha realizado previamente desde un administrador, de tal forma que sólo se podrán visualizar aquellos que estén seleccionados como visibles para el trabajador.
 
+![2. Widgets](/media/manual/2-widgets-3c3f347957.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1. Inicio sesión y equipo](/media/manual/1-inicio-sesion-y-equipo-b24718a11b.png)
-
-![2. Widgets](/media/manual/2-widgets-3c3f347957.png)

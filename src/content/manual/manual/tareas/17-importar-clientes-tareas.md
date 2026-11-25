@@ -64,30 +64,26 @@ Para llevar a cabo la importación del fichero que contiene los catálogos de ta
 
 Una vez creadas las columnas, se deberá colocar la información referente al catálogo de tareas en las columnas correspondientes, quedando el fichero de la siguiente forma.
 
-Se debe acceder al módulo Administrar → Importar/Exportar → Importar. Una vez dentro, se selecciona el fichero CSV creado y se elige la opción Importar cliente s (Tareas) para posteriormente clicar en el botón Enviar.
-
-Una vez se clique en dicho botón, la herramienta redirige a una nueva ventana donde se debe asociar los campos del fichero CSV con los campos en aTurnos.
-
-Para poder realizar la asociación de campos, se debe seleccionar el campo correspondiente al desplegable Columna CSV y posteriormente, seleccionar el campo del desplegable “Asociar con…”
-
-Una vez seleccionados dichos campos, se clica en el botón Asociar para que esta asociación aparezca listada en la parte inferior de la página.
-
-Si hemos asociado mal los campos, se puede clicar en el botón Eliminar, y realizar la nueva asociación. Una vez estén todos los campos asociados correctamente, se clica en el botón Asociar para realizar la carga. Cuando la carga se haya completado, en la parte inferior de la página aparecerá el resultado de la carga.
-
-*Se recomienda tener en cuenta que, aunque el resultado de la carga sea satisfactorio, hay que confirmar en el catálogo de tareas que lo nuevo aparece listado.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-8de302edf3.png)
+
+Se debe acceder al módulo Administrar → Importar/Exportar → Importar. Una vez dentro, se selecciona el fichero CSV creado y se elige la opción Importar cliente s (Tareas) para posteriormente clicar en el botón Enviar.
 
 ![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-0ed62b94b1.png)
 
+Una vez se clique en dicho botón, la herramienta redirige a una nueva ventana donde se debe asociar los campos del fichero CSV con los campos en aTurnos.
+
 ![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-f9f1779f7e.png)
+
+Para poder realizar la asociación de campos, se debe seleccionar el campo correspondiente al desplegable Columna CSV y posteriormente, seleccionar el campo del desplegable “Asociar con…”
 
 ![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-83e83bfb70.png)
 
+Una vez seleccionados dichos campos, se clica en el botón Asociar para que esta asociación aparezca listada en la parte inferior de la página.
+
 ![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-8fe635eee7.png)
 
+Si hemos asociado mal los campos, se puede clicar en el botón Eliminar, y realizar la nueva asociación. Una vez estén todos los campos asociados correctamente, se clica en el botón Asociar para realizar la carga. Cuando la carga se haya completado, en la parte inferior de la página aparecerá el resultado de la carga.
+
 ![17. Importar clientes (Tareas)](/media/manual/4-importacion-de-catalogos-de-tareas-dea62044dd.png)
+
+*Se recomienda tener en cuenta que, aunque el resultado de la carga sea satisfactorio, hay que confirmar en el catálogo de tareas que lo nuevo aparece listado.

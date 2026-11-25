@@ -56,16 +56,16 @@ Una vez realizadas las imputaciones de tareas, se puede acceder a las estadísti
 ## Qué debes saber
 El submódulo Estadísticas, se encuentra en la parte izquierda.
 
+![4. Estadísticas jobs](/media/manual/4-estadisticas-jobs-3b0c4d7505.webp)
+
 Las estadísticas disponibles corresponden al balance de tareas realizadas en un periodo de tiempo y, a las tareas diarias realizadas. Con estos dos reportes se podrá controlar si se ha realizado bien las imputaciones o falta algo por imputar.
+
+![4. Estadísticas jobs](/media/manual/4-estadisticas-jobs-55c83ba94a.webp)
 
 Para saber si faltan horas por imputar en un día determinado, se podrá saber porque el día que falta tiempo por imputar el reporte lo mostrará en número negativo, por ejemplo el día 01 de Octubre 2021 falta por imputar 7h.
 
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4. Estadísticas jobs](/media/manual/4-estadisticas-jobs-3b0c4d7505.webp)
-
-![4. Estadísticas jobs](/media/manual/4-estadisticas-jobs-55c83ba94a.webp)
 
 ![4. Estadísticas jobs](/media/manual/4-estadisticas-jobs-6053d7df47.webp)

@@ -77,6 +77,8 @@ Los días son:
 - Día 14/04/2024 tiene un turno de 1 horas, debe recuperar valor el concepto 3K00
 - Día 16/04/2024 tiene un turno de 2 horas, debe recuperar valor el concepto 3K00
 
+  ![6.6 Estadística diaria de todos los equipos](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
 Al acceder a RRHH → NOMINAS → ESTADISTICA DIARIA DE TODOS LOS EQUIPOS, se genera un reporte donde se recuperan los conceptos calculados día a día, en función de la configuración de la plantilla de nómina del equipo en el que el usuario que genera el reporte está logueado. Ver en el Manual (Plantilla de nómina).
 
 1.- Selecciona las fechas.
@@ -94,7 +96,11 @@ Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística.
 
 5.- Por defecto, el tipo de descarga (estadística diaria sin totalizar o estadística diaria totalizada) es el indicado en la plantilla de nómina del equipo en el que está logueado el usuario que ejecuta la estadística. (Ver en el Manual).
 
+![6.6 Estadística diaria de todos los equipos](/media/manual/6-6-estadistica-diaria-de-todos-los-equipos-5433b7c885.png)
+
 5.- Al cargar la estadística, salta un aviso para que la aplicación genere un reporte.
+
+![6.6 Estadística diaria de todos los equipos](/media/manual/6-1-estadistica-por-periodo-fee9586091.png)
 
 5.- El reporte se genera en RRHH → PETICIONES DE REPORTES:
 
@@ -104,18 +110,8 @@ Pudiendo indicar el tipo de plantilla cada vez que se ejecute la estadística.
 
 6.- En el reporte con el tipo de descarga: estadística diaria sin totalizar se visualiza el valor diario de los conceptos 3K00 o 3000 atendiendo al número de horas nocturnas realizadas cada día.
 
-7.- En el reporte con el tipo de descarga: estadística diaria totalizada se visualiza el valor totalizado de los conceptos 3K00 o 3000 atendiendo al número de horas nocturnas realizadas cada día.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6.6 Estadística diaria de todos los equipos](/media/manual/5-1-exportar-nominas-9666500d33.png)
-
-![6.6 Estadística diaria de todos los equipos](/media/manual/6-1-estadistica-por-periodo-fee9586091.png)
-
 ![6.6 Estadística diaria de todos los equipos](/media/manual/7-1-estadistica-diaria-96c5670b0e.png)
 
-![6.6 Estadística diaria de todos los equipos](/media/manual/7-1-estadistica-diaria-4705cbf9f3.png)
+7.- En el reporte con el tipo de descarga: estadística diaria totalizada se visualiza el valor totalizado de los conceptos 3K00 o 3000 atendiendo al número de horas nocturnas realizadas cada día.
 
-![6.6 Estadística diaria de todos los equipos](/media/manual/6-6-estadistica-diaria-de-todos-los-equipos-5433b7c885.png)
+![6.6 Estadística diaria de todos los equipos](/media/manual/7-1-estadistica-diaria-4705cbf9f3.png)

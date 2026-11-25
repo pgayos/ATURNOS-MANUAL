@@ -57,13 +57,9 @@ order: 1
 
 Es muy importante señalar el comportamiento en el pago de las variables del valor que se indica en el campo: “Computar las horas en el día de inicio”.
 
+![1.9 Computar las horas en el día de inicio](/media/manual/1-9-computar-las-horas-en-el-dia-de-inicio-e46328d16f.png)
+
 ## Qué debes saber
 Si el valor informado es SI, todas las horas nocturnas se calcularan en el día de inicio y por el contrario si el valor informado es NO, las horas nocturnas se calcularán en el día en que se realizan.
 
 Es decir, en el caso de un turno de noche de 22:00 a 08:00, en el primer caso, las 10 horas nocturnas las calculará en el día de inicio del turno y en el segundo caso, calculará 2 horas nocturnas en el día de inicio del turno y 8 horas nocturnas en el día final del turno.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.9 Computar las horas en el día de inicio](/media/manual/1-9-computar-las-horas-en-el-dia-de-inicio-e46328d16f.png)

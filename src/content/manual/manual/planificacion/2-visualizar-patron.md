@@ -55,6 +55,8 @@ order: 1
 
 Una de las acciones que puedes realizar desde el listado de patrones de turnos es visualizarlo. Con esta opción, se puede visualizar la secuencia de tipos de turnos que componen los diferentes periodos del patrón.
 
+![2. Visualizar patrón](/media/manual/2-visualizar-patron-e32fea577b.png)
+
 ## Qué debes saber
 1. Visualización de datos básicos del patrón: visualizarás los datos esenciales que componen el patrón, que son los siguientes:
 
@@ -63,9 +65,3 @@ Una de las acciones que puedes realizar desde el listado de patrones de turnos e
 1. Secuencia que compone el patrón de turnos: en nuestro ejemplo, el patrón de turnos está compuesto de 8 periodos de patrón. Esto quiere decir, por ejemplo, que el trabajador “A” empieza el primer periodo (L/L/M5H/M/T1/T1/T1) y cuando termina este periodo comienza con el segundo periodo (M/M5H/T1/L/M/M/M y así hasta el periodo 8 del patrón ejemplo. Cuando finalice el último periodo 8, el “trabajador A” comenzará de nuevo el ciclo desde el periodo 1.
 2. Tabla de cobertura de turnos: se visualiza según el tipo de turno, cuántos tipos de turno tiene cada día teniendo en cuenta todos los periodos del patrón. El total de turnos es la suma de cada tipo de turno, teniendo en cuenta todos los días de todos los periodos del patrón.
 3. Leyenda: resumen del significado de cada tipo de turno. Incluye la abreviatura, la descripción y el intervalo horario del turno.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Visualizar patrón](/media/manual/2-visualizar-patron-e32fea577b.png)

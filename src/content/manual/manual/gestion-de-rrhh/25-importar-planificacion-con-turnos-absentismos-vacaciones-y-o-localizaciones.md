@@ -68,6 +68,8 @@ Para poder importar la planificación puedes completar la plantilla de ejemplo q
 
 CSV Importar planificacion (turnos)
 
+![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-e4165fe436.png)
+
 - Nombre: nombres que identifican a los trabajadores
 - Email*: se añade en las diferentes filas los correos electrónicos de los trabajadores.
 - Id Empleado*
@@ -85,16 +87,14 @@ Existen tres opciones de importación, si se informa en el documento de Excel co
 - Valor 1, se importa en el cuadrante borrador.
 - Valor 2, se importan tanto en el cuadrante, como en el cuadrante borrador.
 
+  ![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-9219ccfa15.png)
+
 Si los trabajadores tienen horarios con tipos de turno asignados a diferentes localizaciones, también se pueden importar, añadiendo a cada tipo de turno, el ID de la localización (por ejemplo: M 84652).
+
+![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-3a7ca25975.png)
 
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-e4165fe436.png)
-
-![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-3a7ca25975.png)
-
 ![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-c3b6af4b33.png)
-
-![25. Importar planificación con turnos, absentismos, vacaciones y/o localizaciones](/media/manual/25-importar-planificacion-con-turnos-absentismos-vacaciones-y-o-locali-9219ccfa15.png)

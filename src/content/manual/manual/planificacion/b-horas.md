@@ -56,6 +56,8 @@ order: 1
 
 Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas.
 
+![b. Horas](/media/manual/b-horas-34f7ac0e2a.png)
+
 En las estadísticas de horas encontramos dos pestañas:
 
 ### Tabla
@@ -83,9 +85,3 @@ Gráfico de barras, que especifica el total de horas por cada trabajador.
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![b. Horas](/media/manual/b-horas-34f7ac0e2a.png)

@@ -54,19 +54,15 @@ order: 1
 
 En esta pestaña le aparecerán todos aquellos cambios pendientes de confirmar. Por ejemplo, cuando un compañero quiere intercambiar un turno, al otro trabajador le aparecerá una notificación en Cambios pendientes.
 
+![2.7 Cambios pendientes](/media/manual/2-7-cambios-pendientes-d72621f8ab.webp)
+
 ## Procedimiento
 Deslizando la flecha y pulsando el icono del ojo, podrás ver los detalles de los cambios pendientes.
+
+![2.7 Cambios pendientes](/media/manual/2-7-cambios-pendientes-8f9afa1872.webp)
 
 Y si desactivas el “Ver todos los cambios” podrás seleccionar una fecha determinada para ver los cambios producidos en ese periodo de tiempo.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.7 Cambios pendientes](/media/manual/2-7-cambios-pendientes-d72621f8ab.webp)
-
-![2.7 Cambios pendientes](/media/manual/2-7-cambios-pendientes-8f9afa1872.webp)

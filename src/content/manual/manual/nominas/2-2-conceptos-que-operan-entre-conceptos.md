@@ -89,6 +89,8 @@ A continuación, se explica paso a paso un caso de uso, en el que se calcula el 
 - Localización (por defecto) del trabajador: Por defecto “Todas las localizaciones”, a no ser que se desee filtrar por alguna localización en concreto.
 - Categoría: Por defecto “Todas las categorías”
 
+  ![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-12fe73c628.png)
+
 4.- Crear el concepto que opera entre conceptos indicando:
 
 - Concepto: Indicando en este caso, el concepto “3000”, que coincide con el código del software de nómina que realiza el cálculo. Es obligatorio informar este campo.
@@ -100,6 +102,8 @@ A continuación, se explica paso a paso un caso de uso, en el que se calcula el 
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “3000 horas nocturnidad”, añadir como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el dato personalizado NO_FIJO_NOCHE”, añadir como “concepto seleccionado para operar”
 
+  ![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-d5362d17df.png)
+
 El dato personalizado tiene la función de activador del pago, sí está informado en el perfil del trabajador con el valor correspondiente, en este caso un 1, calcula el concepto.
 
 Otro uso frecuente es cuando hay que restar horas de un determinado turno de un concepto común, por ejemplo, en el caso de las guardias.
@@ -109,6 +113,8 @@ Habitualmente las guardias de 24 horas se abonan en un concepto distinto (el de 
 La parametrización a realizar en la aplicación sería la siguiente:
 
 1.- Crear el concepto que abona las horas de guardia presencial, en este ejemplo, el concepto 1.2.38. Algunos conceptos comunes de nómina están asociados al módulo de control de presencia, como es el caso del concepto que recupera las horas de guardias presenciales.
+
+![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-c2e1c48110.png)
 
 2.- Crear el concepto que opera entre conceptos que restará del concepto horas nocturnidad en el día de inicio las horas de guardia presenciales
 
@@ -121,6 +127,8 @@ La parametrización a realizar en la aplicación sería la siguiente:
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “3000 horas nocturnidad”, y añadirlo como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, concepto “K385”, y añadirlo como “concepto seleccionado para operar”
 - Forzar valores negativos a cero: Se aconseja marcar a SI esta opción para que no devuelva valores negativos.
+
+  ![2.2. Conceptos que operan entre conceptos](/media/manual/2-2-conceptos-que-operan-entre-conceptos-233c1d7eb7.png)
 
 En este ejemplo, se multiplica el concepto “Turnos N12” (que recupera el número de turnos de este tipo que el trabajador tenga planificados) por un valor fijo, 0,5. Cada turno planificado N12 tiene valor 0,5.
 
@@ -137,6 +145,8 @@ Una vez creado el campo fijo y creado el concepto de cálculo que recupera el n�
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “Turnos N12”, y añadirlo como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, campo fijo “Valor 0,5”, y añadirlo como “concepto seleccionado para operar”
 
+  ![2.2. Conceptos que operan entre conceptos](/media/manual/2-2-conceptos-que-operan-entre-conceptos-63cea46bb2.png)
+
 Recordad que para que el concepto creado se visualice en la estadística se debe añadir como concepto de nómina, acceded a ADMINISTRAR → NOMINA → CONCEPTOS DE NÓMINA
 
 ## Imágenes de referencia
@@ -144,13 +154,3 @@ Recordad que para que el concepto creado se visualice en la estadística se debe
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-839bfd8fa9.png)
-
-![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-12fe73c628.png)
-
-![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-c2e1c48110.png)
-
-![2.2. Conceptos que operan entre conceptos](/media/manual/8-1-ejemplos-practicos-d5362d17df.png)
-
-![2.2. Conceptos que operan entre conceptos](/media/manual/2-2-conceptos-que-operan-entre-conceptos-63cea46bb2.png)
-
-![2.2. Conceptos que operan entre conceptos](/media/manual/2-2-conceptos-que-operan-entre-conceptos-233c1d7eb7.png)

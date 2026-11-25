@@ -64,26 +64,22 @@ Tanto el Administrador Total, como un Superusuario, pueden ver, subir o borrar p
 
 En esta página, se visualizarán todos los trabajadores del equipo con unas cajas, como si fueran casilleros de un armario o estante.
 
+![2. Subir documentos](/media/manual/2-subir-documentos-74384f6eba.webp)
+
 Para subir un documento, primero deberemos saber si es un documento que se va a compartir a la totalidad del equipo o si por el contrario afecta a uno o varios trabajadores en concreto.
 
 Una vez tenemos visible la opción deseada, en la fila de ‘ Todos’ o del trabajador/es, se hará clic en la casilla “Drop files here to upload” del tipo de documento que se necesita subir.
 
-Al hacer clic, se abre la opción de seleccionar el documento que disponga el terminal (móvil, pc, tablet,…).
-
-También existe la opción de arrastrar desde una carpeta de nuestro explorador del dispositivo, haciendo clic y soltando en el casillero donde se quiera subir el archivo.
-
-Una vez se han subido los documentos, se mostrará el tamaño y el nombre en el casillero que se ha cargado.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Subir documentos](/media/manual/2-subir-documentos-74384f6eba.webp)
-
 ![2. Subir documentos](/media/manual/2-subir-documentos-c3b0addb33.webp)
+
+Al hacer clic, se abre la opción de seleccionar el documento que disponga el terminal (móvil, pc, tablet,…).
 
 ![2. Subir documentos](/media/manual/2-subir-documentos-2ee208abd6.webp)
 
+También existe la opción de arrastrar desde una carpeta de nuestro explorador del dispositivo, haciendo clic y soltando en el casillero donde se quiera subir el archivo.
+
 ![2. Subir documentos](/media/manual/2-subir-documentos-69a6cfff86.webp)
+
+Una vez se han subido los documentos, se mostrará el tamaño y el nombre en el casillero que se ha cargado.
 
 ![2. Subir documentos](/media/manual/2-subir-documentos-107ac55ac1.webp)

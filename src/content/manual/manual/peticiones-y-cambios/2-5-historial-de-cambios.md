@@ -54,6 +54,8 @@ order: 1
 
 En esta pestaña aparecen todas las solicitudes de cambios que se han realizado. Al igual que en el Historial de Peticiones, podrás ver los detalles de cada cambio deslizando la flecha en el icono del ojo.
 
+![2.5 Historial de cambios](/media/manual/2-5-historial-de-cambios-772ab672a0.webp)
+
 ## Revisión requerida
 
 La fuente pública de **Historial de cambios** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
@@ -61,9 +63,3 @@ La fuente pública de **Historial de cambios** contiene muy poca información te
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.5 Historial de cambios](/media/manual/2-5-historial-de-cambios-772ab672a0.webp)

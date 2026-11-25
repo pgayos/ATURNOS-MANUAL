@@ -58,6 +58,8 @@ Información sobre módulos en aTurnos, con instrucciones y contexto revisables 
 ## Qué debes saber
 Principalmente, esta página muestra datos técnicos del equipo (Datos de la API), que son de utilidad para identificarlos y para los casos en los que hay integración entre aTurnos y el sistema de nómina del cliente. De igual forma, cuando el equipo cuenta con módulos adicionales como el de Recursos, Tareas, etc, podrá configurar desde esta pantalla información de los mismos, tal como se muestra en este ejemplo para el módulo de Recursos que tenia asignado el equipo.
 
+![j. Módulos](/media/manual/j-modulos-725fa79fab.png)
+
 En aTurnos, además de las funcionalidades que se muestran por defecto en nuestro menú principal, también se ofrecen Módulos para poder realizar actividades o funciones adicionales. El administrador tiene la opción de solicitar a Turnos su activación en el equipo para disponer de dichos módulos. Entre estos se encuentran:
 
 - Módulo de Control de Presencia.
@@ -68,13 +70,21 @@ En aTurnos, además de las funcionalidades que se muestran por defecto en nuestr
 
 Se pueden automatizar o lanzar de forma manual las siguiente acciones integradas con un sistema externo.
 
+![j. Módulos](/media/manual/j-modulos-216c7eba4a.webp)
+
 Esta acción se puede programar para personalizar la integración con Personio, de esta forma, aTurnos recibiría los datos de los empleados en los plazos de tiempo configurados.
 
 - Día de ejecución: se selecciona la frecuencia de la ejecución de dicha acción. Cuenta con las opciones: No programar la ejecución Todos los días. Con esta opción la acción se realizará todos los días del rango de la acción indicada. Último día del mes. Se realizará los 30 o 31 de cada mes, pero si necesitamos que sea así se aconseja que sea indicando 31 días en la opción del ‘Margen de días’ para evitar problemas con aquellos meses que tienen 30 o 31. Seleccionando día en concreto: se indicará el día exacto en el que quiero que se realice la acción.
 
+  ![j. Módulos](/media/manual/j-modulos-a89df842b0.webp)
+
 - Margen de días. La programación de la acción se ejecutará desde el día actual hasta el valor indicado, según el ‘Rango de acción’ y ‘ Día de ejecución’ configurados. Por ejemplo, si estamos a día 18 de Abril y se indica un ‘Margen de días’ de 20, y en ‘Rango de acción’ se informa ‘Mes completo’, se estaría realizando lo siguiente. En cuanto al margen de días estaríamos a 30/03 y como se indica mes completo la acción se realizará sobre el mes entero de marzo.
 
+  ![j. Módulos](/media/manual/j-modulos-61049e48e1.webp)
+
 - Rango de acción. Se selecciona el periodo de tiempo durante el cual se ejecutará la acción, las opciones son: Mes completo. Realiza la ejecución sobre el mes en curso en el cual se está realizando la acción. Por ejemplo, si estamos a 18 de abril, dependiendo del ‘Margen de días’, por defecto si está a 0, la ejecución se va a realizar sobre todo el mes de abril. Si se informan 31, lo hará sobre el mes de marzo. Día ejecución. Realiza la ejecución el día que estamos lanzando la acción. Por ejemplo, si estamos a 18 de abril, la ejecución solo se va a comprobar dicho día. Rango personalizado. La ejecución se realizará en los días indicados, dependiendo del ‘Margen de días’ configurado. Días a pasado. Si se indica 1 día, el ‘Margen de días’ debe ser igual o mayor a 0. Si se indica 0, no consultará nada.
+
+  ![j. Módulos](/media/manual/j-modulos-53acf37630.webp)
 
 Todos los absentismos que se informen en Personio, se trasladan como periodos de absentismo a aTurnos cada vez que se ejecuta la acción, según la configuración registrada.
 
@@ -87,17 +97,3 @@ Encontramos tres datos fundamentales de cara a la integración del equipo con ot
 - Token API: es una cadena de texto bien larga, encriptada con una clave.
 
 Para más información, clic en este enlace: Webhooks.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![j. Módulos](/media/manual/j-modulos-216c7eba4a.webp)
-
-![j. Módulos](/media/manual/j-modulos-61049e48e1.webp)
-
-![j. Módulos](/media/manual/j-modulos-a89df842b0.webp)
-
-![j. Módulos](/media/manual/j-modulos-725fa79fab.png)
-
-![j. Módulos](/media/manual/j-modulos-53acf37630.webp)

@@ -62,14 +62,10 @@ Como trabajador podrás realizar peticiones sobre diferentes aspectos de tus der
 - Tipo: en aTurnos podrás realizar hasta 6 tipos diferentes de peticiones como son vacaciones, permisos, permisos temporales, horas, turnos y jornadas libres.
 - Localización: en el caso de querer escoger una localización determinada.
 - Fecha de inicio y fin
+
+  ![2.1 Nueva petición](/media/manual/2-1-nueva-peticion-ad8a001d66.webp)
 - Comentarios
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.1 Nueva petición](/media/manual/2-1-nueva-peticion-ad8a001d66.webp)

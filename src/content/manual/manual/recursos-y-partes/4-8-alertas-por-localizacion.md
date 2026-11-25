@@ -54,28 +54,24 @@ order: 1
 
 En este informe se reportarán todas aquellas alertas o incidencias que se produzcan en el control de presencia, las cuales se pueden visualizar en el ‘Detalle’ o ‘Detalle por trabajador’.
 
+![4.8 Alertas por localización](/media/manual/1-6-alertas-warnings-dfa460e35d.webp)
+
 ## Qué debes saber
 Los datos de este reporte se pueden filtrar entre dos fecha y desde el botón de la barra superior.
 
+![4.8 Alertas por localización](/media/manual/4-8-alertas-por-localizacion-a352ed0cd1.webp)
+
 Se pueden buscar los fichajes de uno o más trabajadores, así como los de las localizaciones que se seleccionen.
+
+![4.8 Alertas por localización](/media/manual/4-8-alertas-por-localizacion-c65c20a001.webp)
 
 Los parámetros que se pueden consultar en este reporte son las siguientes:
 
 - Alerta: descripción de la incidencia producida.
 - Total: número de alertas que se han producido de ese tipo.
 
+  ![4.8 Alertas por localización](/media/manual/4-8-alertas-por-localizacion-f95dc309f2.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.8 Alertas por localización](/media/manual/1-6-alertas-warnings-dfa460e35d.webp)
-
-![4.8 Alertas por localización](/media/manual/4-8-alertas-por-localizacion-a352ed0cd1.webp)
-
-![4.8 Alertas por localización](/media/manual/4-8-alertas-por-localizacion-c65c20a001.webp)
-
-![4.8 Alertas por localización](/media/manual/4-8-alertas-por-localizacion-f95dc309f2.webp)

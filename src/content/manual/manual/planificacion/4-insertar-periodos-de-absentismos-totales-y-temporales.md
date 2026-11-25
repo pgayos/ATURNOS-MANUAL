@@ -75,6 +75,8 @@ En caso de querer hacer un fichero propio, te ayudamos a confeccionar un documen
 - Borrado: es utilizado para borrar un absentismo informado previamente a un trabajador en el equipo. Se deben rellenar las celdas anteriores relacionadas al absentismo que se desea eliminar, e informar en esta celda un 1. En caso de no querer borrar el absentismo se enviará la celda el blanco.
 - Borrar periodo superpuesto: al registrar en el fichero un absentismo informando en esta celda un 1, se eliminarían los absentismos ya planificados en el cuadrante del trabajador entre la fecha de inicio y fin del periodo de absentismo que se quiere informar. En el caso de querer mantener los absentismos ya planificados se debe enviar la celda en blanco.
 
+  ![4. Insertar periodos de absentismos totales y temporales](/media/manual/4-insertar-periodos-de-absentismos-totales-y-temporales-f1dfd9ef37.png)
+
 Una vez se ha creado o completado el archivo, guardar tu documento como formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú Administrar → Importar/Exportar → Importar (ver Importar ).
@@ -82,7 +84,5 @@ Para importar el archivo debe seguir los pasos que indicamos en nuestro menú Ad
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4. Insertar periodos de absentismos totales y temporales](/media/manual/4-insertar-periodos-de-absentismos-totales-y-temporales-f1dfd9ef37.png)
 
 ![4. Insertar periodos de absentismos totales y temporales](/media/manual/4-insertar-periodos-de-absentismos-totales-y-temporales-438561d6de.png)

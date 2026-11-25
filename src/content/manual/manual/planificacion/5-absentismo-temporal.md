@@ -56,17 +56,13 @@ order: 1
 
 El administrador tiene a su disposición una herramienta para añadir tipos de absentismos temporales a todos los trabajadores en un día concreto.
 
+![5. Absentismo temporal](/media/manual/5-absentismo-temporal-5a62ba0a81.png)
+
 ## Qué debes saber
 Al hacer clic en la acción, en el formulario se define el tipo de hora y si se asocia o no a una localización, además de poderse añadir una descripción del motivo del absentismo.
+
+![5. Absentismo temporal](/media/manual/5-absentismo-temporal-d4bb342341.png)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5. Absentismo temporal](/media/manual/5-absentismo-temporal-d4bb342341.png)
-
-![5. Absentismo temporal](/media/manual/5-absentismo-temporal-5a62ba0a81.png)

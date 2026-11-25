@@ -56,6 +56,10 @@ order: 1
 
 Esta opción consiste en transformar automáticamente todo el turno a horas.
 
+![14. Cambiar Turno a Horas](/media/manual/14-cambiar-turno-a-horas-875d18a9a6.png)
+
+![14. Cambiar Turno a Horas](/media/manual/14-cambiar-turno-a-horas-cbd85b4b02.png)
+
 ## Revisión requerida
 
 La fuente pública de **Cambiar Turno a Horas** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
@@ -63,11 +67,3 @@ La fuente pública de **Cambiar Turno a Horas** contiene muy poca información t
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![14. Cambiar Turno a Horas](/media/manual/14-cambiar-turno-a-horas-cbd85b4b02.png)
-
-![14. Cambiar Turno a Horas](/media/manual/14-cambiar-turno-a-horas-875d18a9a6.png)

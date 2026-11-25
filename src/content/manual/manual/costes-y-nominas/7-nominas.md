@@ -74,8 +74,4 @@ En la pestaña de nómina del trabajador se puede visualizar:.
 
 También se visualiza la fecha y hora de la exportación, el periodo descargado así como el usuario que ha realizado la descarga de nómina.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![7. Nóminas](/media/manual/7-nominas-186be33955.png)

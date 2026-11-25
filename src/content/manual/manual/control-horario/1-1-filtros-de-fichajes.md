@@ -56,6 +56,8 @@ order: 1
 
 En la barra superior podemos filtrar los fichajes que se quieren visualizar por:.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-db4452ebca.webp)
+
 ## Procedimiento
 
 - Fechas: se muestran los fichajes de un día.
@@ -82,25 +84,51 @@ Este filtro puede mostrar:
 
 Aparecen todos los trabajadores con o sin planificación de turnos u horas que hayan realizado algún fichaje.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-6aad6b6edb.webp)
+
 Indica los trabajadores que no han tenido un ajuste del estado por parte del administrador o de forma automática. Estos son los fichajes que tienen exceso o defecto de tiempo respecto al turno u horas planificadas.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-963c5f895a.webp)
 
 Se visualizan a los trabajadores que se les ha ajustado el estado (ver Ajustar fichajes ).
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-144de52860.webp)
+
 Indica los trabajadores que han registrado el fichaje de entrada más tarde de la hora inicio del turno u horas que tiene planificados. Por ejemplo: un trabajador que tenía un turno de inicio a las 22:00 horas y ha fichado a las 22:10. Estos casos se pueden supervisar de forma más específica en ‘Detalle’. De igual forma se mostrarán los trabajadores que no hayan realizado ningún fichaje.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-d75e55c7d1.webp)
 
 Se muestran los fichajes realizados por los trabajadores a través de los distintos sistemas de control de presencia sin ninguna acción manual de administradores.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-f2a8304c6a.webp)
+
 Aparecen los trabajadores que tienen fichajes que han sido añadidos o editados en algún momento por algún administrador desde las acciones de ‘Añadir fichajes’, des ‘Insertar fichajes’.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-530e069c78.webp)
 
 Se visualizan los trabajadores cuyas horas planificadas son mayores que las horas presenciales. Interpretado como saldo o estado negativo.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-8cc731031e.webp)
+
 Muestra los trabajadores cuyas horas planificadas son menores que las horas presenciales. Interpretado como saldo o estado positivo.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-c3844eb6f6.webp)
 
 Aparecen filtrados los fichajes que se hayan realizado por cualquier trabajador que tuviera un absentismo total planificado en el mismo día.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-c6357463f8.webp)
+
 Cuando hay planificado un turno sin horas en el cuadrante, si el trabajador que lo tiene en su cuadrante ha fichado ese día, aparecerá filtrado el fichaje.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-a32fafa476.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-4faaa786f8.webp)
+
 Se muestran los fichajes realizados por los trabajadores en un día que tienen planificado en el cuadrante con un turno “V” de vacaciones.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-7dc2d1bfb0.webp)
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-f5e3b9616b.webp)
 
 Aparecen todos aquellos trabajadores que han fichado cuando por su planificación no deberían haber fichado porque:
 
@@ -108,39 +136,75 @@ Aparecen todos aquellos trabajadores que han fichado cuando por su planificació
 - No tienen un turno planificado.
 - Tienen un absentismo planificado en ese día.
 
+  ![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-b6d22b6e57.webp)
+
+  ![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-e454495bca.webp)
+
 Si existe un descanso a nivel del turno, un descanso a nivel del trabajador o un descanso a nivel de equipo, en caso de que el trabajador haya realizado el fichaje y en la configuración se descansos se indique que se deben fichar los descansos, se mostrarán aquellos trabajadores que no han fichado el descanso.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-e527bb7dde.webp)
 
 Cuando exista un descanso a nivel del turno, un descanso a nivel del trabajador o un descanso a nivel de equipo, si los descansos están configurados que se fichan, se mostrarán todos los descansos que se hayan fichado que sean superiores a 1:30, es decir, hora y media.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5002e33971.webp)
+
 Esto se puede ver que se cumple, si se consulta el ‘Detalle por trabajador’, donde aparece en la columna ‘Descanso’ más de 1 hora y 30 minutos.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-801d7f78d2.webp)
 
 Se mostrarán todos aquellos trabajadores que hayan fichado un descanso menor del 50% del descanso que tiene planificado a nivel del turno, a nivel del trabajador o a nivel de equipo.
 
 Por ejemplo, si un trabajador tiene configurado un descanso de 30 minutos y el trabajador ficha un descanso de 14 minutos, aparecerá filtrado.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-3e4c374f0b.webp)
+
 Esto se puede ver que se cumple, si se consulta el ‘Detalle por trabajador’, donde aparece en la columna ‘Descanso’ menos de 15 minutos.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-18ec994730.webp)
 
 Para que un fichaje se considere cerrado, debe tener un fichaje de entrada y otro de salida. En ocasiones, ya sea por olvido o un fallo técnico, es posible que el fichaje de entrada o salida no haya sido realizado. Este filtro, muestra todos aquellos fichajes que no se han cerrado, los cuales deben actualizarse para computar el tiempo presencial trabajado de los empleados.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-0c2fdfd826.webp)
+
 El Control de Presencia de aTurnos dispone de una configuración para que los descansos se fichen, pero por la cual si los descansos no se fichan, se descuenten automáticamente. Este descanso descontado automáticamente, puede ser anulado por el trabajador.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-3a8df331d2.webp)
 
 Todos aquellos descansos descontados automáticamente que hayan sido anulados por los trabajadores, se mostrarán con este filtro.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-b2cdc72614.webp)
+
 Aparecen los fichajes cerrados que no coinciden con los turnos y horas planificadas a los trabajadores en ese día.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5e1d223050.webp)
 
 Se mostrarán los trabajadores que teniendo planificadas un tipo de horas extra o complementaria, no se ha realizado ningún fichaje de entrada o salida.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5726503f13.webp)
+
 En los casos donde existan dos trabajadores que tengan un cambio sin confirmar en un día, además de mostrarse la alerta.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-ef282c620b.webp)
 
 Se podrán filtrar todos aquellos afectados por un cambio, hayan fichado o no en el Control de Presencia.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-3ccbc7ec51.webp)
+
 Un trabajador puede tener tres días seguidos planificados en el cuadrante.
+
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-ff968ddda7.webp)
 
 En el caso de que ese trabajador no haya fichado en ninguno de esos tres días, se mostrará una alerta.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-8ffb33a56a.webp)
+
 Todos aquellos trabajadores que cumplan estos requisitos, aparecerán filtrados.
 
+![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5314db2a70.webp)
+
 Son los trabajadores que en el momento de hacer la consulta están en tiempo de trabajo y han fichado.
+
+![1.1 Filtros de fichajes](/media/manual/barra-de-filtros-61c7f27752.png)
 
 Se muestran los trabajadores que en el momento de hacer la consulta, no están en tiempo de trabajo, tienen informado un absentismo en el cuadrante (ver añadir absentismo en el cuadrante ) o no han fichado.
 
@@ -148,68 +212,4 @@ Se muestran los trabajadores que en el momento de hacer la consulta, no están e
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-db4452ebca.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-6aad6b6edb.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-f2a8304c6a.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-963c5f895a.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-d75e55c7d1.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-8cc731031e.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-530e069c78.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-144de52860.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-c3844eb6f6.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-c6357463f8.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-a32fafa476.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-4faaa786f8.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-7dc2d1bfb0.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-f5e3b9616b.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-b6d22b6e57.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5002e33971.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-e527bb7dde.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-801d7f78d2.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-3e4c374f0b.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-0c2fdfd826.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-18ec994730.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-3a8df331d2.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-b2cdc72614.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5e1d223050.webp)
-
-![1.1 Filtros de fichajes](/media/manual/barra-de-filtros-61c7f27752.png)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5726503f13.webp)
-
 ![1.1 Filtros de fichajes](/media/manual/barra-de-filtros-c9dfaefcf5.png)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-ef282c620b.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-e454495bca.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-3ccbc7ec51.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-ff968ddda7.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-5314db2a70.webp)
-
-![1.1 Filtros de fichajes](/media/manual/1-1-filtros-de-fichajes-8ffb33a56a.webp)

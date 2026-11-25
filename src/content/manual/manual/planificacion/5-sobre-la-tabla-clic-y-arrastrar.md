@@ -61,12 +61,8 @@ El patrón creado te permite realizar cambios en la rotación de turnos ya cread
 ## Procedimiento
 Si lo que se pretende es realizar un intercambio entre periodos del patrón (orden de los periodos), éste se realiza con las flechas de desplazamiento (ubicadas al lado del icono de papelera).
 
+![5. Sobre la tabla, clic y arrastrar](/media/manual/5-sobre-la-tabla-clic-y-arrastrar-d2bc0f2bd4.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5. Sobre la tabla, clic y arrastrar](/media/manual/5-sobre-la-tabla-clic-y-arrastrar-d2bc0f2bd4.webp)

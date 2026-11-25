@@ -55,14 +55,20 @@ order: 1
 
 Los trabajadores pueden tener un patrón aplicado (ver aplicar Patrón de turnos ) hasta una fecha, es posible extender planificación hasta otra fecha futura.
 
+![3. Extender planificación](/media/manual/3-extender-planificacion-ed1fdf180d.webp)
+
 ## Qué debes saber
 Un ejemplo de su utilidad es cuando el administrador planifica al trabajador aplicándole un patrón de turnos por un mes y luego quiere extenderle esa misma planificación al mes siguiente o por un período más largo. En este caso, Jaime tiene planificado el mes de enero.
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-e6925a5369.webp)
 
 Un dato importante, antes de extender planificación, es conocer qué es:
 
 Fecha de inicio (1): es la fecha en la que se ha insertado por primera vez el patrón. Esta fecha siempre es la misma en los datos de planificación. Solo cambiará cuando se aplique otro patrón distinto.
 
 Fecha de fin (2) de planificación: es la fecha hasta donde se ha aplicado el patrón o extendido planificación por última vez. Se cambia cada vez que se extiende el patrón. Este dato lo encontramos en su perfil del trabajador. En este caso, la fecha fin es el 31/01/2022, por lo que al extender planificación posteriormente, lo hará a partir del 01/02/2022, si no se edita la fecha de inicio (3).
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-f675de1998.png)
 
 Fecha de inicio (3): esta fecha puede ser editable, depende de un permiso de configuración del equipo. Esta fecha indica, a partir de qué día, se quiere extender la planificación, en el caso de que no se quiera extender desde el día siguiente de la fecha fin (2).
 
@@ -72,7 +78,11 @@ Al hacer clic en extender planificación, lo primero que nos aparece es la infor
 
 Además, nos ofrece las siguientes opciones de planificación con la acción de extensión:
 
+![3. Extender planificación](/media/manual/3-extender-planificacion-674fa91efa.webp)
+
 En esta opción, se visualizará con todo detalle el patrón que tiene aplicado el trabajador antes de extender su planificación.
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-b96cfe9629.webp)
 
 El sistema extiende el patrón dando continuidad a la planificación desde el último período que había aplicado en el cuadrante hasta la fecha fin que se informe.
 
@@ -86,19 +96,33 @@ Se utiliza cuando el administrador necesita que cada mes la planificación sea i
 
 Por ejemplo, si Pepe tiene un patrón de 31 días, si se aplica al mes de febrero, planificará hasta el 28 o 29, según se trate de año bisiesto o no.
 
+![3. Extender planificación](/media/manual/3-extender-planificacion-354837c43e.webp)
+
 Con extender planificación, los días 1, 2, 3 y 4 de marzo, se planificarán continuando donde termino el patrón, en este caso sería un turno (T), informando en estos días los turnos correspondientes a los días 29, 30, 31 y 1 del patrón.
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-79b8ba3466.webp)
 
 Al marcar la opción “Comenzar desde inicio de patrón”, la planificación de los días 1, 2, 3 y 4 de marzo será la misma que tuvo los días 1, 2, 3 y 4 de febrero o los mismos días en enero, en este caso un turno (M), dependiendo de la fecha de inicio de los datos de planificación.
 
+![3. Extender planificación](/media/manual/3-extender-planificacion-ebdeb9b543.webp)
+
 Este proceso también deberá marcar la opción de planificar “Hasta final de mes” y seleccionar en la fecha fin, el mes hasta el cual se quiere extender.
 
+![3. Extender planificación](/media/manual/3-extender-planificacion-6733ba8cb0.webp)
+
 Al seleccionar esta opción, se extenderá la planificación hasta el último día del mes indicado.
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-849bb34692.webp)
 
 Dará continuidad al patrón desde el último día del periodo hasta el final del mes que se indique.
 
 Por ejemplo, al extender planificación de Pepe, continuaría el patrón aplicando turnos (T) el 1 y 2 de abril, siguiendo la secuencia del patrón hasta el final del mes.
 
+![3. Extender planificación](/media/manual/3-extender-planificacion-fe1e7c5f89.webp)
+
 En este caso, hasta el mes de mayo, se ha hecho hasta el final de mes de mayo.
+
+![3. Extender planificación](/media/manual/3-extender-planificacion-6915c32f90.webp)
 
 También tienes la opción de no elegir ninguna de las anteriores. Si esto sucede, el sistema solo le dará continuidad al patrón según el día en el que quedó en la planificación anterior.
 
@@ -112,30 +136,6 @@ Para revisar los detalles del patrón que tiene aplicado un trabajador antes de 
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![3. Extender planificación](/media/manual/3-extender-planificacion-f675de1998.png)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-ed1fdf180d.webp)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-674fa91efa.webp)
-
 ![3. Extender planificación](/media/manual/3-extender-planificacion-9ba1a4941c.webp)
 
-![3. Extender planificación](/media/manual/3-extender-planificacion-e6925a5369.webp)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-b96cfe9629.webp)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-354837c43e.webp)
-
 ![3. Extender planificación](/media/manual/3-extender-planificacion-9a4919a1e8.webp)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-79b8ba3466.webp)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-ebdeb9b543.webp)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-6733ba8cb0.webp)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-fe1e7c5f89.webp)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-6915c32f90.webp)
-
-![3. Extender planificación](/media/manual/3-extender-planificacion-849bb34692.webp)

@@ -62,28 +62,24 @@ El siguiente paso es asignar los botones Bluetooth, cada botón estará asignado
 
 Conectamos por anydesk a la RPIde fila única y abrimos una consola:
 
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-619405fa57.png)
+
 A continuación tecleamos “sudo pm2 logs” o pm2 logs (en el caso que sean las RPI nuevas):
+
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-d53c7dd398.png)
 
 En la web de aTurnos nos vamos a “Timeline” y abrimos en otra pestaña “Timeline - → Raspberry”. En “Raspberry” pulsamos en el botón + de la columna “BUTTONS” de la RPI:
 
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-c8b65cc197.png)
+
 En la consola de la RPI se puede ver entonces “Welcome to flic buttons wizard. Pulse button”. Al pulsar el botón aparece “Button found” con una mac (si es un FLIC v2 hay que mantenerlo pulsado unos segundos). Hay que copiar la mac (80:e4:XX:XX:XX:XX):
 
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-18a5421b74.png)
+
 En Buttons le damos a añadir arriba a la derecha y nos pregunta la mac que hemos apuntado antes, el usuario al que irá asignado, este usuario lo hemos creado previamente en el listado de trabajadores, y el tipo, que seleccionamos FLIC:
+
+![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-d320aef73b.png)
 
 Una vez asignados todos reiniciamos desde la rpi la aplicación, saliendo de “sudo pm2 logs” pulsando CTRL+C y escribiendo con “sudo pm2 restart all” o pm2 restart all en el caso de las nuevas RPI.
 
 Para realizar las pruebas de los botones una vez configurados, además de reiniciar la RPI, también deberíamos reiniciar la pantalla donde se muestran los avisos.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-d53c7dd398.png)
-
-![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-c8b65cc197.png)
-
-![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-619405fa57.png)
-
-![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-d320aef73b.png)
-
-![Asignar botones en RPI](/media/manual/asignar-botones-en-rpi-18a5421b74.png)

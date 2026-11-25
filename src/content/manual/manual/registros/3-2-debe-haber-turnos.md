@@ -64,12 +64,8 @@ La función debe/haber ofrece una tabla con información si el trabajador que es
 
 Estas deudas de cambios pendientes por devolver, se generan cuando se hacen un cambio de turnos entre trabajadores desde el cuadrante ‘Hacer cambios’, en los tipos de cambios por los distintos tipos de cambio: Libres o Doblajes de turno, y siempre que no se “devuelva el cambio”.
 
+![3.2 Debe/Haber turnos](/media/manual/3-2-debe-haber-turnos-364e87a4a4.png)
+
 Ver registro, ofrece en detalle los cambios que les deben y/o los que deben los trabajadores.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![3.2 Debe/Haber turnos](/media/manual/3-2-debe-haber-turnos-da3bc4f529.png)
-
-![3.2 Debe/Haber turnos](/media/manual/3-2-debe-haber-turnos-364e87a4a4.png)

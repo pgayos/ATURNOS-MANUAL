@@ -64,32 +64,28 @@ El menú principal de aTurnos te permite acceder y gestionar la información de 
 
 - Inicio: Es la pantalla de aterrizaje una vez inicias sesión en aTurnos. A través de esta pantalla se puede ver de manera resumida tanta información como se desee. Esta pantalla es personalizable gracias a los Widgets. Se pueden añadir los widgets que se deseen desde Administrar → Pantalla de inicio.
 
+  ![1.1. Menú Principal](/media/manual/1-1-menu-principal-229e922858.webp)
+
 - Cuadrante: Al hacer clic sobre esta pestaña, se despliega un menú que te permite acceder a todos los cuadrantes disponibles en aTurnos. Además, en esta pestaña también se encuentra la opción “peticiones y cambios” la cual también es un desplegable para gestionar las peticiones y cambios pendientes o visualizar un histórico de todas las peticiones y cambios que se han gestionado. (Saber más)
+
+  ![1.1. Menú Principal](/media/manual/1-1-menu-principal-66746e3a51.png)
 - Planificador: Haciendo clic en esta pestaña se despliega un menú que te permite realizar distintas gestiones sobre la planificación.
+
+  ![1.1. Menú Principal](/media/manual/1-1-menu-principal-5d01dcd79f.png)
 
 - Tipos de turno. Esta opción te permite añadir, editar y eliminar tipos de turno, absentismos, Jornadas partidas, tipos de hora y franjas horarias. (Saber más) Patrones de turnos. Esta opción permite crear secuencias de trabajo totalmente personalizables. Pueden ser fijas, rotativas, muy cambiante, poco cambiante… Una vez creados, se pueden aplicar a los trabajadores, visualizarlos, editarlos, duplicarlos o eliminarlos. (Saber más) Calculadora. Esta opción te ayuda a crear tu patrón de turnos ideal para cubrir con la demanda de trabajadores para cada tipo de turno. (Saber más) Restricciones. Son unas reglas personalizables que permiten al administrador cumplir con la ley y con la disponibilidad e intereses de cada trabajador. En aTurnos contamos con más de 100 restricciones para facilitar los procesos de los RR.HH. (Saber más)
 - Registro. Esta pestaña es un desplegable en el que se recopila y agrupa toda la información sobre todo lo que se realice en el equipo. Encontramos: Acciones, Comentarios, Turnos y Horas, Absentismos, Periodos de vacaciones y Cambios a deber. (Saber más)
 
+  ![1.1. Menú Principal](/media/manual/1-1-menu-principal-9c397458d0.webp)
+
 - Trabajadores: Esta pestaña permite al administrador gestionar altas/bajas de trabajadores, realizar sustituciones y añadir/editar sus datos. Encontramos: Listado de trabajadores, sustituciones y datos del trabajador (Saber más)
+
+  ![1.1. Menú Principal](/media/manual/1-1-menu-principal-1dcddd1d10.webp)
 
 - Estadísticas: Te permite ver y descargar informes y reportes de todas las opciones en distintos formatos. Encontramos: Reportes de trabajador, Reportes de localizaciones, Estadísticas por defecto y Tooltip del trabajador. (Saber más)
 
+  ![1.1. Menú Principal](/media/manual/1-1-menu-principal-d0de4ba579.webp)
+
 - Administrar: Esta pestaña permite gestionar la configuración del equipo. Encontramos: Ajustes, Festivos, Bolsas, Calendarios, Perfil del trabajador, Localizaciones, Importar/Exportar, Nóminas, Activar usuarios, Resetear contraseña trabajadores anónimos y Externos. (Saber más)
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.1. Menú Principal](/media/manual/1-1-menu-principal-66746e3a51.png)
-
-![1.1. Menú Principal](/media/manual/1-1-menu-principal-5d01dcd79f.png)
-
-![1.1. Menú Principal](/media/manual/1-1-menu-principal-9c397458d0.webp)
-
-![1.1. Menú Principal](/media/manual/1-1-menu-principal-1dcddd1d10.webp)
-
-![1.1. Menú Principal](/media/manual/1-1-menu-principal-d0de4ba579.webp)
-
-![1.1. Menú Principal](/media/manual/1-1-menu-principal-9873d22747.webp)
-
-![1.1. Menú Principal](/media/manual/1-1-menu-principal-229e922858.webp)
+  ![1.1. Menú Principal](/media/manual/1-1-menu-principal-9873d22747.webp)

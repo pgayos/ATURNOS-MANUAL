@@ -66,25 +66,21 @@ Puedes completar la plantilla de ejemplo, la cual tienes disponible para descarg
 - ID usuario, número identificativo del trabajador en aTurnos
 - ID equipo de aTurnos, número identificativo del equipo en aTurnos
 
+  ![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-4f17017c95.png)
+
 - ID del periodo de contrato, número identificativo del periodo de contrato en aTurnos. Se localiza en el final de la url que se muestra en navegador.
+
+  ![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-862c390741.png)
 
 - Fecha inicio del periodo de contrato, en el que se quiere informar los datos personalizados de cada trabajador.
 - Dato personalizado, se crea tantas columnas como datos personalizados se quieran añadir.
+
+  ![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-4547c21ffc.png)
 
 Una vez creado el fichero, habría que asociar los campos siguiendo las indicaciones mencionadas en b. Importar
 
 En el caso de las columnas de los Datos personalizados, se asociará cada una de ella al campo “Dato personalizado” tantas veces como columnas de datos personalizados haya.
 
 Los campoS que se asocian de “datos personalizados” aparecen con el nombre del dato personalizado que se han generado previamente en el equipo.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-4f17017c95.png)
-
-![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-4547c21ffc.png)
-
-![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-862c390741.png)
 
 ![26. Importar datos personalizados](/media/manual/26-importar-datos-personalizados-cd68874be1.png)

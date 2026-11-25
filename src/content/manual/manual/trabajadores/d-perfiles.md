@@ -56,7 +56,11 @@ Hablamos de perfiles como el conjunto de características comunes que pueden def
 
 Se pueden crear tantos perfiles como se necesite, para ello desde el botón de la barra superior de ‘Acciones’, se puede añadir un nuevo perfil.
 
+![d. Perfiles](/media/manual/d-perfiles-ac96952598.webp)
+
 Creado el perfil, el siguiente paso es editar las características del perfil. En el listado, cada perfil tiene dos botones de acción, ‘Editar’ (en verde) y ‘Eliminar’ (en rojo).
+
+![d. Perfiles](/media/manual/d-perfiles-27f890dd59.webp)
 
 Los perfiles se caracterizan por:
 
@@ -65,46 +69,38 @@ Los perfiles se caracterizan por:
 - Datos personalizados: información o campos de los empleados que sean de interés que no estén en los datos personales del perfil del trabajador (ver ‘Datos personalizados’ ).
 - Bloques de datos personalizados: otra información del empleado agrupada en un bloque que ha sido creado en ‘Datos personalizados’.
 
+  ![d. Perfiles](/media/manual/d-perfiles-d5fd909c8c.webp)
+
 ### General
 
 En esta característica únicamente hay que informar el nombre del perfil para identificarlo y la localización en la que se ubicaría cada trabajador que tenga el perfil.
 
 Sería la misma localización que aparece en el perfil del trabajador.
 
+![General](/media/manual/general-cd6933f5ee.webp)
+
 ### Especialidades
 
 Un trabajador puede tener una serie de capacidades y habilidades que lo identifiquen para un puesto de trabajo por las tareas que tenga que realizar. Estas especialidades pueden estar agrupadas en Grupos. Cada especialidad puede tener una calificación, dando mayor o menor nivel de dominio de dicha especialidad al trabajador que tenga el perfil configurado.
+
+![Especialidades](/media/manual/especialidades-88b1e30755.webp)
 
 ### Datos personalizados
 
 Aquellos datos personalizados creados en el equipo de trabajo para completar el perfil del trabajador pueden ser definidos en el perfil para que se informen por defecto. Por ejemplo, en el caso de que se entreguen los EPIs, saber si todos los trabajadores que tengan el perfil asignado, tiene EPIs o si tienen alguna herramienta de trabajo como un PC.
 
+![Datos personalizados](/media/manual/datos-personalizados-e79b159608.webp)
+
 ### Bloque de datos personalizados
 
 Los datos personalizados que se hayan creado se puede agrupar en ‘Bloques de datos personalizados’ para poder hacer distinción de distintos tipos de datos de carácter personal de los trabajadores. En este caso, para el mismo perfil se puede indicar la ciudad o si tienen carnet de conducir.
 
+![Bloque de datos personalizados](/media/manual/bloque-de-datos-personalizados-d104c502cd.webp)
+
 Configuradas todas las características del perfil, para registrarlo, únicamente faltaría ‘Guardar’ los cambios realizados.
+
+![Bloque de datos personalizados](/media/manual/bloque-de-datos-personalizados-bca4c52ff9.webp)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![d. Perfiles](/media/manual/d-perfiles-ac96952598.webp)
-
-![d. Perfiles](/media/manual/d-perfiles-27f890dd59.webp)
-
-![d. Perfiles](/media/manual/d-perfiles-d5fd909c8c.webp)
-
-![Datos personalizados](/media/manual/datos-personalizados-e79b159608.webp)
-
-![General](/media/manual/general-cd6933f5ee.webp)
-
-![Bloque de datos personalizados](/media/manual/bloque-de-datos-personalizados-d104c502cd.webp)
-
-![Especialidades](/media/manual/especialidades-88b1e30755.webp)
-
-![Bloque de datos personalizados](/media/manual/bloque-de-datos-personalizados-bca4c52ff9.webp)

@@ -66,26 +66,22 @@ Permisos
 
 Una vez creados los calendarios con el botón “Añadir” los calendarios, en este ejemplo el Calendario de Ciudad Real y el Calendario de Puertollano.
 
+![7.4 Calendarios](/media/manual/7-4-calendarios-fac4c840bf.png)
+
 Se asocian los festivos a los calendarios, a través de ADMINISTRAR → CALENDARIOS → FESTIVOS.
+
+![7.4 Calendarios](/media/manual/7-4-calendarios-e53ca8d4eb.png)
 
 Indicando en nombre, fecha, localización en su caso y el calendario al que se va a asociar.
 
+![7.4 Calendarios](/media/manual/7-4-calendarios-edb07b6fd6.png)
+
 A través del perfil del trabajador se informa el Calendario.
+
+![7.4 Calendarios](/media/manual/7-4-calendarios-8d4749a96d.png)
 
 En el cuadrante, solo los trabajadores que tengan el calendario de festivos asignado aparecerán como festivo, en este ejemplo, el día 22 de agosto (creado en el paso anterior) se visualiza en rojo solo al trabajador “Calendario.1”, para el resto de trabajador el 22.
 
 El día 15 al ser festivo nacional está marcado en festivo para todos los trabajadores.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7.4 Calendarios](/media/manual/7-4-calendarios-fac4c840bf.png)
-
-![7.4 Calendarios](/media/manual/7-4-calendarios-8d4749a96d.png)
-
-![7.4 Calendarios](/media/manual/7-4-calendarios-e53ca8d4eb.png)
-
-![7.4 Calendarios](/media/manual/7-4-calendarios-edb07b6fd6.png)
 
 ![7.4 Calendarios](/media/manual/7-4-calendarios-4210876b9c.png)

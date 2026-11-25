@@ -66,7 +66,11 @@ Para añadir recursos, el administrador puede:.
 
 2.1.- En el cuadrante se marca trabajador y día, seleccionar la opción Recursos → Recursos por periodo
 
+![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-9245015f47.png)
+
 2.2.- Informar los campos que se precisan tal y como se indica
+
+![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-5f1e6b8438.png)
 
 3.- Copia de recursos entre trabajadores.
 
@@ -74,18 +78,10 @@ Solo se pueden copiar recursos si se tienen turno y/u horas planificadas en el c
 
 El administrador de aTurnos dispone de herramientas en el cuadrante para “Copiar Recursos” de un trabajador a otro, marcando el día con el recurso informado que se desea copiar.
 
+![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-1d8cf7f225.png)
+
 Y marca al trabajador y día al que se va a copiar los Recursos
-
-4.- Importar los recursos tal y como se indica en el Manual para la importación de Recursos
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-60f7a7bb80.png)
 
-![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-1d8cf7f225.png)
-
-![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-5f1e6b8438.png)
-
-![¿Cómo informan los administradores los recursos a los trabajadores?](/media/manual/como-informan-los-administradores-los-recursos-a-los-trabajadores-9245015f47.png)
+4.- Importar los recursos tal y como se indica en el Manual para la importación de Recursos

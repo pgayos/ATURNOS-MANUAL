@@ -65,6 +65,8 @@ Para poder recuperar la planificación necesitamos conocer:
 
 En el caso de no saber esta fecha con exactitud se puede informar otra fecha aproximada hasta conseguir que se muestre los turnos borrados en forma de tabla al hacer clic en le botón de acción “Buscar”.
 
+![7.6 Recuperar planificación](/media/manual/7-6-recuperar-planificacion-8ac12339fc.webp)
+
 En la tabla que se muestra nos informa los tipos de turnos que se pueden recuperar en el cuadrante del equipo donde se borraron. Es importante indicar que los turnos se insertarán de nuevo solo en el cuadrante del equipo donde se perdieron, a pesar de que el trabajador esté activo en más de un equipo/cuadrantes. En esta misma tabla nos dará la siguiente información:
 
 - Equipo: Nombre del equipo donde será insertado de nuevo los turnos.
@@ -74,6 +76,8 @@ En la tabla que se muestra nos informa los tipos de turnos que se pueden recuper
 - Fecha: Cuando se borró el tipo turno en el cuadrante del trabajador.
 - Recuperado: si es turno eliminado, ya ha sido recuperado previamente.
 
+  ![7.6 Recuperar planificación](/media/manual/7-6-recuperar-planificacion-1cdf681afa.webp)
+
 Una vez tenemos buscados los turnos borrados, hay que recuperarlos.
 
 Para recuperarlos debemos indicar:
@@ -82,13 +86,5 @@ Para recuperarlos debemos indicar:
 - Recuperar solamente la última planificación borrada de cada día: esta opción permite recuperar la última planificación que se ha borrado dentro de las fechas seleccionadas, de esta forma podemos evitar el solapamiento de planificaciones si se han borrado varias veces dentro de las mismas fechas y con distintos turnos.
 
 El último paso es seleccionar los turnos borrados a recuperar, se pueden seleccionar desde todos a varios. Para completar el proceso hay que hacer clic sobre ‘Recuperar seleccionados’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7.6 Recuperar planificación](/media/manual/7-6-recuperar-planificacion-8ac12339fc.webp)
-
-![7.6 Recuperar planificación](/media/manual/7-6-recuperar-planificacion-1cdf681afa.webp)
 
 ![7.6 Recuperar planificación](/media/manual/7-6-recuperar-planificacion-e163ddd473.webp)

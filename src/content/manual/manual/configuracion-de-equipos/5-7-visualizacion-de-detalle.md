@@ -54,8 +54,12 @@ order: 1
 
 El menú del ‘Detalle’ contiene diferente información sobre los fichajes realizados por los trabajadores.
 
+![5.7 Visualización de Detalle](/media/manual/5-7-visualizacion-de-detalle-23d7b0a038.webp)
+
 ## Qué debes saber
 Las columnas que se muestran pueden ser configurables a nivel de cada rol de usuario e incluso que no sea disponible.
+
+![5.7 Visualización de Detalle](/media/manual/5-7-visualizacion-de-detalle-07d39e050e.webp)
 
 ## Revisión requerida
 
@@ -64,11 +68,3 @@ La fuente pública de **Visualización de Detalle** contiene muy poca informaci�
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.7 Visualización de Detalle](/media/manual/5-7-visualizacion-de-detalle-23d7b0a038.webp)
-
-![5.7 Visualización de Detalle](/media/manual/5-7-visualizacion-de-detalle-07d39e050e.webp)

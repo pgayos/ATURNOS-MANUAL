@@ -55,59 +55,55 @@ order: 1
 
 Los fichajes son todas aquellas líneas rojas que hay en la línea del tiempo de un día o aquellos fichajes cerrados que forman un periodo naranja entre el fichaje de entrada y el de salida.
 
+![1.2 Detalle de los fichajes](/media/manual/insertar-o-modificar-marcajes-fe79415dd9.png)
+
 ## Qué debes saber
 Al pasar el cursor sobre un fichaje (línea roja) o un fichaje completado (periodo naranja) se mostrará información sobre el fichaje realizado por el trabajador.
+
+![1.2 Detalle de los fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-22fe4ecb01.webp)
 
 Cada fichaje insertado, puede ser modificable de forma manual, para ello hay más información en ‘ Modificar fichajes’.
 
 La representación gráfica en la línea del tiempo, ayuda a entender los fichajes realizados en comparación con los turnos y/o tipo de horas planificadas en el cuadrante. Para ello se muestran distintos colores según el evento o acción:
 
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-e49ffd2980.webp)
+
 Representa el horario planificado con turnos y/o un tipo de hora (de tipo normales) planificada en el cuadrante del equipo.
-
-Representa un día de vacaciones planificado.
-
-Muestra cualquier tipo de hora extra/complementaria planificada en el cuadrante o insertada mediante un ajuste con motivo de un exceso de tiempo sobre el turno planificado. También es posible que se muestren por una petición de horas del trabajador que haya sido aprobada por el administrador.
-
-Representa la duración de un absentismo. Este absentismo puede afectar a la totalidad del turno y/o horas planificadas en el cuadrante, afectando todo el periodo negro al total de lo planificado.
-
-El absentismo también puede ser temporal y afectar a parte de la totalidad de un turno y/o horas planificadas. El administrador puede haberlo planificado en el cuadrante o aprobado al ser pedido por los trabajadores mediante una petición. También se puede dar el caso al realizar la acción de ajuste de un fichaje cerrado con defecto de tiempo (teniendo en cuenta los tiempos de tolerancia previamente configurados).
-
-Muestra gráficamente las horas trabajadas presenciales (las fichadas descontando los descansos no fichados) por el trabajador.
-
-Representa un fichaje insertado que no está cerrado (una entrada sin salida o una salida cuya entrada no se fichó).
-
-Indica un fichaje no computable que no está cerrado.
-
-Representa un fichaje no computable cerrado (una entrada con una salida no computable).
-
-Muestra gráficamente un turno sin horas.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.2 Detalle de los fichajes](/media/manual/insertar-o-modificar-marcajes-fe79415dd9.png)
-
-![1.2 Detalle de los fichajes](/media/manual/1-4-anadir-insertar-modificar-y-cerrar-fichajes-22fe4ecb01.webp)
 
 ![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-e1b7422a23.png)
 
-![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-e49ffd2980.webp)
-
-![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-c82821aa0a.png)
+Representa un día de vacaciones planificado.
 
 ![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-80e8c39bea.webp)
 
-![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-558697faae.png)
+Muestra cualquier tipo de hora extra/complementaria planificada en el cuadrante o insertada mediante un ajuste con motivo de un exceso de tiempo sobre el turno planificado. También es posible que se muestren por una petición de horas del trabajador que haya sido aprobada por el administrador.
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-c82821aa0a.png)
+
+Representa la duración de un absentismo. Este absentismo puede afectar a la totalidad del turno y/o horas planificadas en el cuadrante, afectando todo el periodo negro al total de lo planificado.
 
 ![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-37621d2603.webp)
 
+El absentismo también puede ser temporal y afectar a parte de la totalidad de un turno y/o horas planificadas. El administrador puede haberlo planificado en el cuadrante o aprobado al ser pedido por los trabajadores mediante una petición. También se puede dar el caso al realizar la acción de ajuste de un fichaje cerrado con defecto de tiempo (teniendo en cuenta los tiempos de tolerancia previamente configurados).
+
+![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-558697faae.png)
+
+Muestra gráficamente las horas trabajadas presenciales (las fichadas descontando los descansos no fichados) por el trabajador.
+
 ![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-3c0af9c10e.png)
+
+Representa un fichaje insertado que no está cerrado (una entrada sin salida o una salida cuya entrada no se fichó).
 
 ![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-e168c6344e.png)
 
+Indica un fichaje no computable que no está cerrado.
+
 ![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-499d4cd59f.webp)
 
+Representa un fichaje no computable cerrado (una entrada con una salida no computable).
+
 ![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-56c9fb6f91.webp)
+
+Muestra gráficamente un turno sin horas.
 
 ![1.2 Detalle de los fichajes](/media/manual/1-2-detalle-de-los-fichajes-8c774eb72d.webp)

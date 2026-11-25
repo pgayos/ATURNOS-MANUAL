@@ -58,6 +58,8 @@ En este informe se detalla toda la información que se necesita presentar ante l
 
 En la estructura del reporte se informarán los siguientes datos:
 
+![2.2 Informe](/media/manual/2-2-informe-a702a41734.png)
+
 - Fecha: día, mes y año.
 - Planificado: turno planificado en el día.
 - Entradas: fichajes de entrada realizados en el día*
@@ -70,24 +72,18 @@ En la estructura del reporte se informarán los siguientes datos:
 
 En la parte superior derecha de la tabla, se puede ver el botón para ‘Exportar’ el informe con los fichajes filtrados en la barra superior (fechas, trabajador, localización).
 
-Este informe se puede descargar en dos formatos: Excel y PDF. También se puede exportar por el trabajador seleccionado en la barra superior o que se exporten los informes de todos los trabajadores del equipo.
-
-A la hora de generar el informe, se pueden seleccionar qué campos se quieren o no exportar en el archivo.
-
-En la siguientes imágenes se puede ver un ejemplo de un informe exportado en Excel y otro ejemplo exportado en PDF.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.2 Informe](/media/manual/2-2-informe-a702a41734.png)
-
 ![2.2 Informe](/media/manual/2-2-informe-e1dd67f099.png)
 
-![2.2 Informe](/media/manual/2-2-informe-5c4d9e221a.png)
+Este informe se puede descargar en dos formatos: Excel y PDF. También se puede exportar por el trabajador seleccionado en la barra superior o que se exporten los informes de todos los trabajadores del equipo.
 
 ![2.2 Informe](/media/manual/2-2-informe-0bf02f76f6.png)
 
-![2.2 Informe](/media/manual/2-2-informe-78342541d6.png)
+A la hora de generar el informe, se pueden seleccionar qué campos se quieren o no exportar en el archivo.
 
 ![2.2 Informe](/media/manual/2-2-informe-9d95c9d71b.png)
+
+En la siguientes imágenes se puede ver un ejemplo de un informe exportado en Excel y otro ejemplo exportado en PDF.
+
+![2.2 Informe](/media/manual/2-2-informe-5c4d9e221a.png)
+
+![2.2 Informe](/media/manual/2-2-informe-78342541d6.png)

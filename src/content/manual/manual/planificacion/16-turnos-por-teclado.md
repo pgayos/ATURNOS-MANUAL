@@ -57,12 +57,8 @@ Información sobre turnos por teclado, con instrucciones y contexto revisables p
 ## Qué debes saber
 Esta opción permite ir insertando turnos tecleando la secuencia sin necesidad de crear un patrón primero o un Excel previo. Para ello, hay que escribir la abreviatura del turno y pulsar el tabulador para insertarlo en el cuadrante. De la misma forma que antes, el sistema comprueba turno por turno si existen restricciones que impidan que se inserte.
 
+![16. Turnos por teclado](/media/manual/16-turnos-por-teclado-063318a92d.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![16. Turnos por teclado](/media/manual/16-turnos-por-teclado-063318a92d.png)

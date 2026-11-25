@@ -68,6 +68,8 @@ Como administrador o trabajador podrás realizar peticiones sobre diferentes asp
 
 Para iniciar el proceso, se puede hacer haciendo clic en el botón de ‘Acciones’ del que se desplegará ‘Nueva petición’. Esta acción es posible realizar también en el mismo cuadrante, solo haciendo clic sobre el día que se quiere solicitar (ver Petición en cuadrante ). Se abrirá un modal donde deberás informar los siguientes datos para generar la petición:
 
+![Acción de nueva petición y filtros](/media/manual/accion-de-nueva-peticion-y-filtros-cc461c3b62.png)
+
 - Tipo: vacaciones, permisos, permisos temporales, horas, turnos y jornadas libres.
 - Fecha de inicio y fin.
 - Localización: en el caso de querer escoger una localización determinada.
@@ -78,6 +80,8 @@ Una vez enviada la petición, cuando se cliquea en el botón “guardar “, se 
 
 El administrador para gestionarlas puede hacerlo desde el propio cuadrante (propuesta morada que destaca en la planificación del cuadrante) o desde las peticiones y cambios del menú.
 
+![Acción de nueva petición y filtros](/media/manual/accion-de-nueva-peticion-y-filtros-c3c2841252.png)
+
 Una vez que el administrador haya aprobado tu petición, te llegará un correo y en las solicitudes pendientes confirmarás tu petición, y en el cuadrante se reflejara en su color según el tipo de petición: naranjas vacaciones, negros permisos, horas se representa con el intervalo de tiempo solicitado, y el libre sin nada o con la letra L según configuración del administrador.
 
 En la barra que aparece debajo del botón de ‘Nueva petición’, tendremos la opción de filtrar las peticiones o cambios según la fecha que indiquemos.
@@ -85,6 +89,8 @@ En la barra que aparece debajo del botón de ‘Nueva petición’, tendremos la
 ### Peticiones pendientes
 
 Por medio de esta pestaña, hacemos el seguimiento de todas las solicitudes que hemos hecho de vacaciones, permisos, turnos, horas o jornadas libres.
+
+![Peticiones pendientes](/media/manual/peticiones-pendientes-cb7055d467.webp)
 
 Información de las columnas:
 
@@ -103,9 +109,15 @@ Para gestionar las diferentes peticiones por parte del administrador te lo conta
 
 Si eres trabajador, las ‘Acciones’ que puedes realizar en solicitudes pendientes son las siguientes: ver registro de la petición pendiente y denegarla.
 
+![Peticiones pendientes](/media/manual/peticiones-pendientes-907ede8cd2.png)
+
 - Ver registro: Haciendo clic en el botón de acción con el símbolo del ojo, se incluye el detalle de la petición.
 
+  ![Peticiones pendientes](/media/manual/peticiones-pendientes-851dee13b5.png)
+
 - Denegar petición: en el caso de querer cancelar una petición que hemos hecho (este permiso es posible que no esté habilitado para todos los usuarios con rol de trabajador).
+
+  ![Peticiones pendientes](/media/manual/peticiones-pendientes-21c9ed80fb.webp)
 
 Más información sobre peticiones pendientes:
 
@@ -119,9 +131,13 @@ Más información sobre peticiones pendientes:
 
 Aquí dispondremos de un registro histórico de todas las peticiones que hemos hecho, tanto las confirmadas, como las denegadas por los administradores del equipo. También podremos ver quiénes nos las han confirmado y quién las ha denegado.
 
+![Historial de peticiones](/media/manual/historial-de-peticiones-a700246a8b.png)
+
 ### Cambios pendientes
 
 En esta pestaña le aparecerán todos aquellos cambios pendientes de confirmar. Por ejemplo, cuando un compañero quiere intercambiar un turno, al otro trabajador le indique una notificación en Cambios pendiente. En la columna de “acción” se puede visualizar el detalle del cambio, aceptarlo o denegarlo (al hacer clic en una de estas acciones, el cambio se aprueba o deniega directamente).
+
+![Cambios pendientes](/media/manual/cambios-pendientes-d6f926fb9d.png)
 
 ### Historial de cambios
 
@@ -129,11 +145,17 @@ En esta pestaña aparecen todas las solicitudes de cambios que se han realizado 
 
 El trabajador puede visualizar el detalle del cambio haciendo clic en el icono del ‘ojo’.
 
+![Historial de cambios](/media/manual/historial-de-cambios-e54a932695.png)
+
 Se podrá ver qué turnos y en qué fechas está afectando el cambio, así como el trabajador origen del cambio (quién lo solicitó) y el trabajador destino (el compañero que lo valida). El detalle se completa con el compañero y administrador que tienen que validar el cambio y en qué estado se encuentra la acción.
 
 En este ejemplo el cambio está aprobado.
 
+![Historial de cambios](/media/manual/historial-de-cambios-f1a9291f3a.png)
+
 En el caso de que el trabajador destino lo haya denegado, aparecería de la siguiente forma.
+
+![Historial de cambios](/media/manual/historial-de-cambios-5d09407e9c.png)
 
 ### Oferta de turno
 
@@ -151,29 +173,3 @@ Aún no está planificado. Será el administrador quien decida, a quién planifi
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Acción de nueva petición y filtros](/media/manual/accion-de-nueva-peticion-y-filtros-cc461c3b62.png)
-
-![Peticiones pendientes](/media/manual/peticiones-pendientes-cb7055d467.webp)
-
-![Peticiones pendientes](/media/manual/peticiones-pendientes-907ede8cd2.png)
-
-![Peticiones pendientes](/media/manual/peticiones-pendientes-21c9ed80fb.webp)
-
-![Acción de nueva petición y filtros](/media/manual/accion-de-nueva-peticion-y-filtros-c3c2841252.png)
-
-![Historial de peticiones](/media/manual/historial-de-peticiones-a700246a8b.png)
-
-![Historial de cambios](/media/manual/historial-de-cambios-e54a932695.png)
-
-![Cambios pendientes](/media/manual/cambios-pendientes-d6f926fb9d.png)
-
-![Historial de cambios](/media/manual/historial-de-cambios-f1a9291f3a.png)
-
-![Peticiones pendientes](/media/manual/peticiones-pendientes-851dee13b5.png)
-
-![Historial de cambios](/media/manual/historial-de-cambios-5d09407e9c.png)

@@ -60,18 +60,14 @@ El trabajador puede tener el permiso de subir documentos que sean de importancia
 
 Desde el módulo de Documentos, el trabajador puede acceder al menú “Subir” para que el documento esté en el equipo. Para subir un documento, primero deberemos saber si es un documento que se va a compartir a la totalidad del equipo (TODOS), o si por el contrario te afecta a ti como trabajador. También tendrá que hacer clic sobre la columna del tipo de documento que se va a subir, por ejemplo un justificante de examen.
 
+![1. Subir documentos](/media/manual/1-subir-documentos-c7ba9d2442.png)
+
 Se pueden subir los documentos de dos modos:
 
 - Haciendo clic encima de “drop files here to upload” en la columna del tipo de documento a subir.
 
+  ![1. Subir documentos](/media/manual/1-subir-documentos-11b220c29d.png)
+
 - Desde la carpeta de origen del documento en el dispositivo, una vez ha sido seleccionado, arrastrando sin levantar el clic sobre el documento hasta la caja del tipo de documento.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1. Subir documentos](/media/manual/1-subir-documentos-c7ba9d2442.png)
-
-![1. Subir documentos](/media/manual/1-subir-documentos-11b220c29d.png)
-
-![1. Subir documentos](/media/manual/1-subir-documentos-122e461733.png)
+  ![1. Subir documentos](/media/manual/1-subir-documentos-122e461733.png)

@@ -57,6 +57,8 @@ El superusuario puede acceder y exportar todos los días festivos que estén ins
 ## Procedimiento
 Ver más información en festivos de un equipo.
 
+![2.7 Listado de festivos](/media/manual/2-7-listado-de-festivos-fc2500e94f.png)
+
 ## Revisión requerida
 
 La fuente pública de **Listado de festivos** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
@@ -64,9 +66,3 @@ La fuente pública de **Listado de festivos** contiene muy poca información tex
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.7 Listado de festivos](/media/manual/2-7-listado-de-festivos-fc2500e94f.png)

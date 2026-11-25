@@ -66,9 +66,13 @@ Existen empresas donde la generación de demanda viene asociada a diferentes tar
 
 En este ejemplo existen una serie de tareas de consultas de quirófanos de cardiología, estas tareas que están generadas se pueden convertir en demanda desde la pantalla del listado de tareas.
 
+![Generación de demanda por tareas existentes](/media/manual/generacion-de-demanda-por-tareas-existentes-4c0d2bfae3.png)
+
 Es interesante para generar las demandas con los datos en tiempo real de las tareas que están ocurriendo en la empresa y poder tener una herramienta más visual desde las tablas de cobertura. Sería más difícil ver en los listado si estamos cumpliendo con las taras y que personal tenemos por exceso o defecto de las tareas que tenemos en proceso. Desde el listado tienes la opción de crear la demanda entre las fechas seleccionadas y de las tareas que existan en la tabla.
 
 Recuerda que puedes filtrar las tareas si quieres solo de cierta localización o especialidad.
+
+![Generación de demanda por tareas existentes](/media/manual/generacion-de-demanda-por-tareas-existentes-31e53bee51.png)
 
 ### Generación de demanda desde plantillas de tareas
 
@@ -82,8 +86,4 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![Generación de demanda por tareas existentes](/media/manual/generacion-de-demanda-por-tareas-existentes-31e53bee51.png)
-
 ![Generación de demanda desde plantillas de tareas](/media/manual/generacion-de-demanda-desde-plantillas-de-tareas-b084832178.png)
-
-![Generación de demanda por tareas existentes](/media/manual/generacion-de-demanda-por-tareas-existentes-4c0d2bfae3.png)

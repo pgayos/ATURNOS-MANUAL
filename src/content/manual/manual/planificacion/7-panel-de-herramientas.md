@@ -63,8 +63,4 @@ Desde este panel, puedes añadir tipos de turnos a los periodos del patrón de t
 - Eliminar último: borrado de turnos a partir de la última posición.
 - Pegar al final: pegado de turnos desde Excel o desde el portapapeles.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7. Panel de herramientas](/media/manual/7-panel-de-herramientas-261941ffdb.png)
+  ![7. Panel de herramientas](/media/manual/7-panel-de-herramientas-261941ffdb.png)

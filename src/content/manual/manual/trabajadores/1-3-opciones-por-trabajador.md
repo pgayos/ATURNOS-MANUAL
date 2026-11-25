@@ -54,10 +54,14 @@ order: 1
 
 Haciendo clic en el nombre del trabajador se puede acceder directamente a su perfil del trabajador.
 
+![1.3 Opciones por trabajador](/media/manual/1-3-opciones-por-trabajador-b9ef541a3d.webp)
+
 ## Procedimiento
 Desde el icono de “+” se pueden añadir fichajes al trabajador.
 
 Por último, desde el icono del calendario se accede al ‘Detalle por trabajador’.
+
+![1.3 Opciones por trabajador](/media/manual/1-3-opciones-por-trabajador-b234ff2e2a.webp)
 
 ## Revisión requerida
 
@@ -66,11 +70,3 @@ La fuente pública de **Opciones por trabajador** contiene muy poca información
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.3 Opciones por trabajador](/media/manual/1-3-opciones-por-trabajador-b9ef541a3d.webp)
-
-![1.3 Opciones por trabajador](/media/manual/1-3-opciones-por-trabajador-b234ff2e2a.webp)

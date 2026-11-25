@@ -65,12 +65,18 @@ En las primeras cinco columnas nos centramos únicamente en el número de horas 
 - Horas Festivas: número de horas planificadas en días indicados como festivos.
 - Horas Festivas Nocturnas: número de horas en días festivos que están afectados por turnos en horario nocturno.
 
+  ![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-fccf60cb20.png)
+
 Las siguientes dos columnas muestran los datos de las horas que se tienen planificadas en días festivos que han sido calificados de carácter especial (pueden ser días como el 25 de diciembre, 1 de enero o 6 de enero), distinguiendo entre:
 
 - Horas Festivas Especiales: horas en festivos marcados como especiales.
 - Horas Festivas Nocturnas Especiales: número de horas en festivos especiales afectados por turnos con nocturnidad.
 
+  ![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-e9914da8d5.png)
+
 Estas estadísticas se pueden ver también por el número de Jornadas que se han visto afectadas por festividad o nocturnidad.
+
+![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-38a5301651.png)
 
 Por último podemos ver representados estos datos en un Gráfico circular, donde se nos muestra el porcentaje sobre el total de horas:
 
@@ -79,14 +85,4 @@ Por último podemos ver representados estos datos en un Gráfico circular, donde
 - Horas nocturnas.
 - Horas festivas nocturnas.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-e9914da8d5.png)
-
-![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-fccf60cb20.png)
-
-![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-38a5301651.png)
-
-![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-01b6001140.png)
+  ![4.3 Festivos & Nocturnidad](/media/manual/4-3-festivos-nocturnidad-01b6001140.png)

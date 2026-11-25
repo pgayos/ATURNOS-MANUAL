@@ -59,11 +59,17 @@ En esta consulta se informan todos los fichajes resumidos en un listado con los 
 
 Es un informe similar al que se puede consultar por equipo en ‘Listado de fichajes’.
 
+![7. Listado de fichajes](/media/manual/7-listado-de-fichajes-a5f15bebfd.png)
+
 El listado se puede ver por pantalla o generar una ‘ Petición de reporte ‘ para su descarga cuando el volumen de datos se sobrepasa.
 
 ## Filtros
 
 Se puede definir en la consulta:
+
+![Filtros](/media/manual/filtros-4d4b8752eb.webp)
+
+![Filtros](/media/manual/filtros-96454db7ef.webp)
 
 - Fechas
 
@@ -71,11 +77,15 @@ Se puede definir en la consulta:
 
 - Trabajadores, filtrando por Nombre, Email o ID Empleado.
 
+  ![Filtros](/media/manual/filtros-a30be1dacc.webp)
+
 - Fichajes: Sin fichajes realizados. Con fichajes realizados.
 
 - Ficticio, son todos aquellos trabajadores que al crearlo se les informa como ficticio, así como aquellos trabajadores que no tienen un correo real. Se puede filtrar por: Todos. Ocultar ficticios. Mostrar solo ficticios.
 
 - Horario, Desde y Hasta una hora predefinida de la jornada planificada.
+
+  ![Filtros](/media/manual/filtros-230c71a09d.webp)
 
 - Planificados, se pueden filtrar por aquellos trabajadores que tienen alguna planificación de turnos u horas. No está planificado. Está planificado.
 
@@ -90,24 +100,14 @@ Encontramos la siguiente información en el listado, además de los campos confi
 - Tipo de marcaje: informa del tipo de marcaje que se ha realizado si hay varios tipos creados: descansos, almuerzo, fumar, etc. (ver más sobre tipos de fichajes).
 - Datos del fichaje: si estos han sido realizado desde un dispositivo registrado, por IP o Geolocalización.
 
+  ![Variables](/media/manual/variables-c24fe3ca2d.webp)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Filtros](/media/manual/filtros-4d4b8752eb.webp)
-
-![Filtros](/media/manual/filtros-96454db7ef.webp)
-
-![Filtros](/media/manual/filtros-a30be1dacc.webp)
-
-![7. Listado de fichajes](/media/manual/7-listado-de-fichajes-a5f15bebfd.png)
 
 ![Filtros](/media/manual/filtros-f85868535c.webp)
 
 ![Filtros](/media/manual/filtros-35c67597e1.webp)
 
 ![Filtros](/media/manual/filtros-319ed66ecc.webp)
-
-![Variables](/media/manual/variables-c24fe3ca2d.webp)
-
-![Filtros](/media/manual/filtros-230c71a09d.webp)

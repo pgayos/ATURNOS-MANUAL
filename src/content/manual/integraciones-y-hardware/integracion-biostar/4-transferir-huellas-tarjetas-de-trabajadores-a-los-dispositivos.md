@@ -71,7 +71,11 @@ Pasos para realizar el volcado de los trabajadores a los dispositivos:
 2. Haz clic en **Transferir a Dispositivo**.
 3. Selecciona el/los dispositivos de destino. Hay varias opciones:
    - Un dispositivo en concreto, o varios dentro de un mismo grupo.
+
+     ![Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-9d23d261d9.png)
    - Todos los dispositivos de un grupo en concreto.
+
+     ![Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-cd575136b8.png)
    - Todos los dispositivos dependientes de uno o varios grupos, que a su vez dependen de un grupo padre.
 
 Si un usuario ya estaba transferido y quieres que fiche también en más dispositivos, repite el proceso de selección y activa la opción **“Reemplazar usuarios con información diferente”** antes de pulsar “Transferir”.
@@ -93,11 +97,7 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 
 ![Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-f80613c887.png)
 
-![Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-9d23d261d9.png)
-
 ![Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-b39be9d7bb.webp)
-
-![Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-cd575136b8.png)
 
 ![Transferir huellas/tarjetas de trabajadores a los dispositivos](/media/manual/4-transferir-huellas-tarjetas-de-trabajadores-a-los-dispositivos-986c9ecc96.png)
 

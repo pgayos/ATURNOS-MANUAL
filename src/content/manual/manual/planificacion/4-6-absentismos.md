@@ -58,7 +58,11 @@ En estas estadísticas se nos mostrará toda la información relacionada con los
 
 – En primer lugar se nos mostrarán los absentismos totales. Las columnas que aparezcan corresponderán al turno en el cual se ha producido el absentismo total. Cada absentismo total se identifica con una abreviatura y el número de veces que ha tenido lugar entre paréntesis.
 
+![4.6 Absentismos](/media/manual/4-6-absentismos-228a97d7e1.png)
+
 En la siguiente pestaña se podrá ver en un Gráfico el número de absentismos totales según el tipo de turno:
+
+![4.6 Absentismos](/media/manual/4-6-absentismos-59739e77d0.png)
 
 – En la pestaña de absentismos temporales, estarán clasificados según cada tipo de absentismo temporal (identificados con su abreviatura), indicando las veces que se ha producido ese absentismo temporal. A su vez se añade la siguiente información:
 
@@ -70,16 +74,8 @@ En la siguiente pestaña se podrá ver en un Gráfico el número de absentismos 
 
 En la representación del Gráfico veremos el total de horas de absentismos temporales:
 
+![4.6 Absentismos](/media/manual/4-6-absentismos-548a3d05de.png)
+
 – Por último, también está la opción de ver la relación entre el número de horas trabajadas y planificadas, mostrando la diferencia en un porcentaje que sería el de las horas de absentismos.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.6 Absentismos](/media/manual/4-6-absentismos-228a97d7e1.png)
-
-![4.6 Absentismos](/media/manual/4-6-absentismos-59739e77d0.png)
-
 ![4.6 Absentismos](/media/manual/4-6-absentismos-20267380c5.png)
-
-![4.6 Absentismos](/media/manual/4-6-absentismos-548a3d05de.png)

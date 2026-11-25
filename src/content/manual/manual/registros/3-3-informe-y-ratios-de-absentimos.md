@@ -56,6 +56,8 @@ order: 1
 
 Comprende el total de absentismo por turno y tipo, ya sean absentismo totales o periodos de absentismos informados, identificando el equipo y trabajador.
 
+![Absentismos totales](/media/manual/absentismos-totales-0ce79c7d67.png)
+
 Este informe está compuesto por tres:
 
 ### Absentismos totales
@@ -64,18 +66,12 @@ Este informe está compuesto por tres:
 
 Comprende los absentismos temporales.
 
+![Absentismos temporales](/media/manual/absentismos-temporales-48a7a43759.png)
+
 Ratio de horas planificadas en comparación con las horas trabajadas.
+
+![Resumen](/media/manual/resumen-883ceaf75c.png)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Absentismos temporales](/media/manual/absentismos-temporales-48a7a43759.png)
-
-![Resumen](/media/manual/resumen-883ceaf75c.png)
-
-![Absentismos totales](/media/manual/absentismos-totales-0ce79c7d67.png)

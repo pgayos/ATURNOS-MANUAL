@@ -54,15 +54,11 @@ order: 1
 
 Todos aquellos fichajes que el trabajador ha realizado en los distintos sistemas para registrar su jornada diaria, se cargarán en este listado.
 
+![4. Mis fichajes](/media/manual/4-mis-fichajes-25b366aa29.webp)
+
 ## Qué debes saber
 Desde la barra superior, se puede indicar una fecha anterior o posterior para visualizar todos los fichajes realizados entre esas dos fechas.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4. Mis fichajes](/media/manual/4-mis-fichajes-25b366aa29.webp)

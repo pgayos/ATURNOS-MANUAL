@@ -61,6 +61,8 @@ A la hora de entrar a la app de aTurnos, se puede haber olvidado la contraseña 
 ## Respuesta
 Para recuperarla, se debe pulsar sobre ¿Olvidaste tu contraseña?
 
+![¿Cómo recuperar contraseña desde la APP de aTurnos?](/media/manual/como-recuperar-contrasena-desde-la-app-de-aturnos-bcac8b734a.webp)
+
 1. Informa tu correo.
 2. Marca “No soy un robot”.
 3. Pulsar sobre “Restaurar contraseña”.
@@ -72,9 +74,3 @@ Para recuperarla, se debe pulsar sobre ¿Olvidaste tu contraseña?
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo recuperar contraseña desde la APP de aTurnos?](/media/manual/como-recuperar-contrasena-desde-la-app-de-aturnos-bcac8b734a.webp)

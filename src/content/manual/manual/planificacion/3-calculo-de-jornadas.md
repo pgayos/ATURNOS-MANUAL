@@ -62,15 +62,11 @@ En este punto se define por ejemplo como puede afectar a nóminas:
 - Si se paga una unidad de jornada nocturna si se hacen al menos 3 horas.
 - Si se hacen más de 12 horas serían dos jornadas.
 
+  ![3. Cálculo de jornadas](/media/manual/3-calculo-de-jornadas-9200a986d6.webp)
+
 Para poder considerar una jornada necesitará identificar los siguientes parámetros:
 
 - Horas para considerar una jornada en un día: el sistema contabilizará como jornada, las horas planificadas en un día si igualan o superan el valor indicado en este campo. Con este dato podrá obtener estadísticas en: Estadísticas Jornadas II.
 - Horas mínimas para considerar la jornada en ese día: Para saber en qué día se computa esa jornada se puede definir un mínimo de horas que tiene que hacerse en ese día para que compute en el mismo. Por ejemplo, en un turno de noche de 22:00 a 8:00 am, si indicamos que con hacer una hora computa en ese día, la jornada quedaría registrada en el día que inicia el turno. Pero si en cambio le indicamos que tiene que hacer 4 horas para computar en ese día la jornada quedaría registrada al día siguiente. Una jornada solo puede contabilizarse en un día.
 - Límite de horas para considerar una jornada más: Identifica la cantidad de horas a partir de las cuales consideraría otra jornada. Por ejemplo, si se ha configurado a 10 horas como límite para considerar una jornadas más, y el trabajador tuviera planificadas 20 horas y cumpliera para tener 10 horas por jornada, el sistema contabilizaría 2 jornadas en ese día. Se utiliza este límite para controlar la cantidad de jornadas que pueden pasar a los conceptos de nómina. Por ejemplo, en una fabrica, si haces un turno de 8 horas cobras una jornada pero si haces 16 horas no cobras 2 jornadas porque este plus se paga de otra forma.
 - Varias jornadas: marcando la opción “SI”, activaremos la función anterior de contabilizar varias jornadas en un mismo día en caso de que se cumplieran los criterios para calcular esa jornada más en un día.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Cálculo de jornadas](/media/manual/3-calculo-de-jornadas-9200a986d6.webp)

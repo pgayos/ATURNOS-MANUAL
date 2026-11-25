@@ -61,14 +61,10 @@ Información sobre aceptar peticiones de marcajes, con instrucciones y contexto 
 ## Qué debes saber
 Esta función sólo estará disponible en el caso de que tengas disponible el Módulo del Control de Presencia. Si lo tienes activado, aparecerá en el menú un apartado del Control de Presencia y haciendo clic en las “peticiones de fichajes pendientes” podrás ver todas aquellas peticiones de fichajes pendientes de validar en el caso de que a los trabajadores se les haya olvidado fichar.
 
+![Aceptar peticiones de marcajes](/media/manual/aceptar-peticiones-de-marcajes-57c4d51c76.png)
+
 El proceso de aceptar o denegar las peticiones de fichajes es igual al de peticiones y cambios en la planificación.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Aceptar peticiones de marcajes](/media/manual/aceptar-peticiones-de-marcajes-57c4d51c76.png)

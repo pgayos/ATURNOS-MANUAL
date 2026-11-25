@@ -62,8 +62,4 @@ Para poder tener la información más ordenada hemos creado ámbitos para buscar
 
 También existe la posibilidad de exportar esta información como archivo CSV o Libro de Excel.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![3.1 Acciones](/media/manual/3-1-acciones-ea07f53e9d.png)

@@ -71,6 +71,8 @@ Al acceder a RRHH → ADMINISTRAR → NOMINAS → ESTADISTICA TODOS LOS EQUIPOS 
 - Equipo o equipos seleccionados
 - Por defecto, el formato de salida de la estadística (plantilla de nómina) recuperará la plantilla de nómina (conceptos por filas o conceptos por columnas) del equipo en el que se está logueado. (Ver en el Manual).
 
+  ![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-3a91011be8.png)
+
 Por defecto, el tipo de consulta es el modo Consulta, las opciones disponibles son:
 
 - Consulta. Recupera el valor de los conceptos de nómina sin tener en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, informados en el perfil del trabajador.
@@ -80,20 +82,14 @@ Por defecto, el tipo de descarga (estadística diaria sin totalizar o estadísti
 
 Al marcar “Cargar”, la aplicación nos muestra un mensaje
 
+![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-ecb64568e6.png)
+
 - Al Solicitar, se genera la petición de reporte en RRHH → PETICIONES DE REPORTE, el reporte puede estar en estado: Pendiente Ejecución Pendiente de descarga Descargado
 
 - Una vez que termine la ejecución, en el menú RRHH → PETICIONES DE REPORTE, se visualiza un aviso en verde
 
+  ![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-f1c2823584.png)
+
 - Guardar el fichero descargado
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-ecb64568e6.png)
-
-![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-f1c2823584.png)
-
-![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-547ebc349d.png)
-
-![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-3a91011be8.png)
+  ![10.6 Estadística diaria de todos los equipos](/media/manual/10-6-estadistica-diaria-de-todos-los-equipos-547ebc349d.png)

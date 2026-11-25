@@ -60,6 +60,8 @@ Aprende a añade absentismos, con instrucciones y contexto revisables por el equ
 
 Un absentismo es una ausencia del trabajador al no estar ejerciendo sus funciones y deberes de su puesto de trabajo en un horario planificado. Dichos absentismos pueden ser justificados o no, dependiendo de su configuración (ver tipos de absentismo ).
 
+![7. Añade absentismos](/media/manual/7-anade-absentismos-fc97749f1a.png)
+
 En aTurnos existen varias formas de informar un absentismo según la finalidad:
 
 - Absentismo temporal (afecta a un número de horas).
@@ -73,17 +75,27 @@ Para crear los diferentes tipos de absentismo: ir al Médico, Formación, Compen
 
 Se habla de absentismo temporal como aquella ausencia o permiso de duración determinada con una fecha y hora de inicio y fin. Se suele utilizar para absentismos como por ejemplo una Visita Médica o un permiso por la realización de horas sindicales.
 
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-d1fb2cf062.png)
+
 En el caso de que exista un límite máximo de horas de un tipo de absentismo, se puede restringir que se supere esa duración mediante las restricciones asociada a los absentismos.
 
 Ejemplo, hay convenios que permiten 8 horas de visita médica, se podría limitar con la restricción “Máximo de horas de un tipo de absentismo”.
 
 Los absentismos entre fechas en aTurnos se entienden como una secuencia de días con un tipo de absentismo, por ejemplo, “Compensación de festivos trabajados”, que, a diferencia de los ‘ Periodos de absentismo ‘ se pueden eliminar individualmente o con la opción borrar absentismo entre fechas.
 
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-213b1b15b5.png)
+
 A la hora de informar un absentismo entre dos fechas, únicamente se debe de indicar la fecha inicio y fin, así como el tipo de absentismo.
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-8aca24279a.webp)
 
 Los absentismos totales cubren todos los turnos u horas planificados en un día.
 
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-f24ca945ee.webp)
+
 Para insertar un absentismo total, hay que hacer clic en el turno y en la opción de absentismos, seleccionar el tipo de absentismo del que se trate, por ejemplo: “Consulta Médica”.
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-7535fcb590.webp)
 
 Periodo de tiempo planificado en el cuadrante, el cual informa, que el trabajador se encuentra ausente en los días que incluyen este periodo, por un determinado tipo de absentismo, como por ejemplo una baja por maternidad, por incapacidad temporal, permisos de larga duración …
 
@@ -95,9 +107,13 @@ Si se solicita y se acepta una petición de un periodo de absentismo, se refleja
 
 En el caso, de planificar el cuadrante con turnos/horas a posteriori en los días del periodo de absentismo, si aparecerá el tipo de absentismo de la petición con el turno que se ha planificado en el cuadrante.
 
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-147d517ce5.webp)
+
 A estos periodos de absentismo se puede acceder también desde el perfil del trabajador (ver Editar perfil del trabajador ), editar los datos del trabajador e informar el inicio del periodo, así como el tipo de absentismo (ver Tipos de absentismo ) que se asociará a todo lo planificado en ese periodo de absentismo.
 
 Al hacer clic sobre añadir ‘Nuevo periodo de absentismo’, se mostrará el siguiente modal:
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-0c47ce587e.webp)
 
 - Fecha de inicio: día, mes y año en el que comienza el periodo.
 - Fecha de fin: día, mes y año en el que termina el periodo.
@@ -112,11 +128,21 @@ En los casos en los cuales el periodo de absentismo tenga una larga duración, s
 
 - Cada día las horas diarias. Las horas contrato día (ver perfil del trabajador ), se multiplican por la cantidad de días con turno para verlos por este valor y se añaden a su planificación.
 
+  ![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-a1344f1d80.webp)
+
+  ![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-ffa1b00eb1.webp)
+
 - Cada días las horas semanales entre 7. En el otro caso, la media de la semana toma las horas contrato a la semana y lo divide entre 7 y se añaden a la planificación. En el siguiente ejemplo, las horas semanales del trabajador son 48, divididas entre 7, añadirán 6,86, traducido al sistema sexagesimal son 6:51 minutos.
+
+  ![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-508dac65be.webp)
 
 Con esta opción se pueden visualizar los periodos de absentismo sin necesidad de acceder al perfil del trabajador. De esta forma, se puede editar (por ejemplo, introduciendo una fecha de fin de la baja previa a la prevista) o se puede eliminar el periodo de absentismo.
 
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-d1167bc41e.png)
+
 Esta opción permite borrar los absentismos insertados entre dos fechas (no confundir con la opción anterior de “Periodos de absentismo”). Para ello hay que introducir las fechas entre las cuales se desean eliminar los absentismos totales y guardar.
+
+![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-c676c7c1e3.png)
 
 Para quitar un absentismo total, hay que hacer clic encima del turno afectado por el absentismo, se desplegará el menú de opciones. Seleccionando la opción Absentismo, se nos abrirá otro menú donde elegir ‘Quitar absentismo’.
 
@@ -127,31 +153,5 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7. Añade absentismos](/media/manual/7-anade-absentismos-fc97749f1a.png)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-213b1b15b5.png)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-d1fb2cf062.png)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-8aca24279a.webp)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-f24ca945ee.webp)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-0c47ce587e.webp)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-147d517ce5.webp)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-7535fcb590.webp)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-a1344f1d80.webp)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-d1167bc41e.png)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-c676c7c1e3.png)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-ffa1b00eb1.webp)
-
-![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-508dac65be.webp)
 
 ![Acciones para añadir absentismos desde el cuadrante](/media/manual/acciones-para-anadir-absentismos-desde-el-cuadrante-c053ce6f53.png)

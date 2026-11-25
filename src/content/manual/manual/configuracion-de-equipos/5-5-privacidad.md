@@ -56,6 +56,8 @@ Aprende a privacidad, con instrucciones y contexto revisables por el equipo de a
 ## Procedimiento
 En este apartado se puede limitar que los trabajadores tengan acceso a ciertas funciones de Control Horairo, así como la configuración de los niveles del rol de aTurnos que puede acceder a los fichajes de los trabajadores o que puede aprobar peticiones de fichajes.
 
+![5.5 Privacidad](/media/manual/5-5-privacidad-e703ef80cc.webp)
+
 Al seleccionar esta opción los trabajadores podrán tener acceso a su detalle y a su informe de fichajes (ver Detalle ).
 
 Si se habilita, los administradores con rol Administrador Total, Administrador Planificador o Administrador Validador, podrán añadir o modificar sus propios fichajes, así como sus ‘Peticiones de fichajes’, siempre que cumpla las condiciones de ‘Rol mínimo para ajustar y editar marcajes ‘ y ‘Rol mínimo para aprobar las peticiones de fichaje ‘ (ver Detalle ).
@@ -80,15 +82,9 @@ Esta opción restringe el tiempo sobre el cual se pueden realizar peticiones sob
 
 Es decir, si configura 1 semana, los fichajes no realizados anterior a 1 semanas, no pueden ser solicitador por petición de fichaje.
 
+![5.5 Privacidad](/media/manual/5-5-privacidad-15e2173eea.webp)
+
 Se puede configurar la condición para el cómputo de la opción ‘Limitar peticiones de fichaje a pasado’:
 
 - Semana por días naturales.
 - Desde el comienzo de la semana (comprobando siempre desde el lunes).
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.5 Privacidad](/media/manual/5-5-privacidad-e703ef80cc.webp)
-
-![5.5 Privacidad](/media/manual/5-5-privacidad-15e2173eea.webp)

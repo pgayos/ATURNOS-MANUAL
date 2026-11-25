@@ -66,13 +66,19 @@ Otra opción, es añadir la IP Pública, pero esto es recomendable cuando se hay
 
 En el submenú de Control horario, Configuración, se puede acceder a la pestaña IPS, desde aquí se añadirán las IPs que se van a ser filtradas para permitir el fichaje.
 
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-8d34818cd7.png)
+
 El filtrado se puede realizar mediante la IP privada (es la que utiliza cada ordenador dentro de su red local, permitiendo identificar a los distintos dispositivos conectados a la misma) o a través de la IP pública (es la que se te asigna por tu proveedor de servicios de internet para identificarte cuando te conectas).
 
 En los casos de que la empresa disponga de una red con un servidor propio, ambas opciones son aptas. Pero si no existe esta red local, aTurnos recomienda añadir la IP privada ya que la pública cambia con frecuencia, lo que puede obligar a añadirla nuevamente para el funcionamiento del sistema.
 
 Haciendo clic sobre el botón ‘+’, se podrá definir la IP que se muestra.
 
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-b52512413e.png)
+
 Cada IP definida (se pueden añadir varias IPs), puede estar asociada al fichaje en una localización concreta. Una misma IP puede estar asociada a varias localizaciones. Como también cada IP, puede tener una localización distinta, de esta forma podemos filtrar los fichajes por su localización.
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-8535e03074.webp)
 
 Esto ofrece la posibilidad al trabajador de indicar la localización en el momento que realiza el marcaje.
 
@@ -80,13 +86,21 @@ Una vez el administrador ha registrado la IP, todos aquellos ordenadores que se 
 
 El usuario podrá fichar cuando vea en la parte superior de la pantalla que aparece un botón con el icono de ‘ Play ‘ (ver Barra superior de la pantalla ).
 
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-735b65d888.webp)
+
 Al pulsar sobre ese botón, se abrirá el modal para registrar el fichaje, donde se podrá indicar la localización del fichaje (siempre que la misma IP en la que se está conectado esté asociada a una localización o varias). La otra variable que se puede indicar es el tipo de marcaje. Para terminar de realizar el marcaje de entrada, únicamente se debe pulsar sobre el botón ‘Guardar’.
 
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-333d8595f6.webp)
+
 Una vez se ha guardado el marcaje, el botón que aparecerá en la parte superior de la pantalla será el de un icono ‘Stop’.
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-bcc4946fac.webp)
 
 El procedimiento es el mismo que para fichar la entrada, lo único que cambia es el botón que se necesita pulsar. Para fichar la salida, el usuario debe pulsar sobre el botón ‘ Stop ‘.
 
 De desplegará el modal para registrar el marcaje de salida, en el que también se podrá indicar la localización y el tipo de marcaje.
+
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-aa6afe3c50.webp)
 
 El fichaje por IP debe realizarse principalmente por Google Chrome. Si no es posible porque no aparece el botón de ‘ Play’ o ‘Stop’ puede deberse a que la IP Privada o Pública no está añadida en el equipo de trabajo o bien porque la configuración del navegador está impidiendo el filtrado por IP.
 
@@ -94,11 +108,19 @@ Para ello se deben seguir los siguientes pasos en Google Chrome para que permita
 
 Instala la extensión WebRTC Control.
 
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-c1df58ac11.webp)
+
 - Haz clic con el botón izquierdo sobre el botón de extensiones y fija la extensión instalada del WebRTC Control.
+
+  ![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-b411271571.webp)
 
 - Haz clic derecho en la extensión y entra en ‘ Opciones ‘.
 
+  ![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-3be16ccf36.webp)
+
 - Haz clic en Test WebRTC Leak y vuelve a acceder al equipo de aTurnos.
+
+  ![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-6a81ec0ad5.webp)
 
 Esta extensión es posible descargarla en otros navegadores para que el funcionamiento del fichaje por filtrado de IP también sea posible:
 
@@ -110,34 +132,12 @@ Esta extensión es posible descargarla en otros navegadores para que el funciona
 
 Si existen varios perfiles de usuario registrados en el navegador, la extensión se debe instalar en cada perfil.
 
+![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-3769f0904a.webp)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-8d34818cd7.png)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-b52512413e.png)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-735b65d888.webp)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-8535e03074.webp)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-bcc4946fac.webp)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-333d8595f6.webp)
-
 ![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-c905e2f560.webp)
 
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-aa6afe3c50.webp)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-b411271571.webp)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-c1df58ac11.webp)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-3be16ccf36.webp)
-
 ![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-6e35d1dbf5.webp)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-6a81ec0ad5.webp)
-
-![5.9 Fichaje por IP](/media/manual/5-9-fichaje-por-ip-3769f0904a.webp)

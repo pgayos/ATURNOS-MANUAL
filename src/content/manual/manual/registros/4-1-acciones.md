@@ -58,6 +58,8 @@ Información sobre acciones, con instrucciones y contexto revisables por el equi
 ## Qué debes saber
 En aTurnos, los administradores disponen de un registro de todas las acciones que se realizan por parte de los trabajadores y administradores del equipo. De esta manera queda constancia de todas las acciones que se han ejecutado en un equipo dentro de los últimos tres meses. En este apartado quedan asentadas todas las operaciones que ocurren, quién ha realizado cada una de las acciones y a qué usuarios ha afectado.
 
+![4.1 Acciones](/media/manual/4-1-acciones-18e6b53d60.webp)
+
 Desde esta ventana se muestra:
 
 – Listado de acciones: con nombre del trabajador, que ha ejecutado la acción, y todos los detalles de la misma como es el ámbito de la acción, su descripción, el día y la hora en que se realizó, usuario involucrado en la acción, si esta acción viene de un sistema de terceros a través de la API como, por ejemplo: SAP, Meta4, entre otros. A simple vista, se muestran los comentarios que tenga la acción y si ha sido validada.
@@ -77,9 +79,3 @@ Desde esta ventana se muestra:
 – Exportar: También existe la posibilidad de descargar (en CSV o Excel) la información deseada para su posterior estudio o tratamiento.
 
 La descripción de las acciones en algunos casos aparece en inglés, debido a que es extraída directamente desde la BBDD de aTurnos.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.1 Acciones](/media/manual/4-1-acciones-18e6b53d60.webp)

@@ -78,6 +78,8 @@ Es posible por otra parte incluir los recursos, creando desde cero un documento 
 
 Los datos indicados con * son de carácter obligatorio indicarlos en el fichero.
 
+![18. Importación recursos](/media/manual/18-importacion-recursos-1cee57f428.png)
+
 Por último, antes de realizar la importación, guarda el documento con formato tipo CSV.
 
 Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de “Importar “.
@@ -85,7 +87,5 @@ Para importar el archivo debe seguir los pasos que indicamos en nuestro menú de
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![18. Importación recursos](/media/manual/18-importacion-recursos-1cee57f428.png)
 
 ![18. Importación recursos](/media/manual/18-importacion-recursos-2a28eb53c4.png)

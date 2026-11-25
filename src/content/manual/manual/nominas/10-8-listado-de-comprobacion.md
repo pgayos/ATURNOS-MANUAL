@@ -64,18 +64,14 @@ En el listado que se ejecute se comprueba por trabajador, día y turno, horas, s
 
 Se solicita indicando la fecha de inicio, fin y seleccionando los equipos
 
+![10.8 Listado de comprobación](/media/manual/10-8-listado-de-comprobacion-5f0a00db04.png)
+
 Al solicitar, la aplicación genera un reporte
+
+![10.8 Listado de comprobación](/media/manual/10-8-listado-de-comprobacion-60c0862943.png)
 
 Que se encuentra disponible una vez termine la ejecución en RRHH → PETICIONES DE REPORTE
 
 Siguiendo el ejemplo, en el listado se visualizan los trabajadores con turno G17 que abona solo el concepto K285
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![10.8 Listado de comprobación](/media/manual/10-8-listado-de-comprobacion-5f0a00db04.png)
-
-![10.8 Listado de comprobación](/media/manual/10-8-listado-de-comprobacion-60c0862943.png)
 
 ![10.8 Listado de comprobación](/media/manual/10-8-listado-de-comprobacion-bd95cc95d6.png)

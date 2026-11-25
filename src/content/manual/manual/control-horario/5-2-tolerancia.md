@@ -72,7 +72,11 @@ Para más información con algunos ejemplos, consultar nuestro articulo del blog
 
 Si se ha elegido la primera opción en el punto anterior, la tolerancia a rellenar es la total de toda la jornada, por ejemplo: 15 minutos.
 
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-7e9612fe4b.webp)
+
 Si se ha elegido la segunda opción en el punto anterior, las tolerancias a rellenar son las del inicio y fin de cada turno realizado, por ejemplo: 5 minutos en el inicio y 5 minutos en el final.
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-649340eaad.webp)
 
 Y en última opción, se podrá aplicar una tolerancia por defecto o exceso de tiempo al inicio del turno, así como una tolerancia al final del turno por defecto o exceso. Por ejemplo: 5 minutos por exceso de tiempo al inicio, 10 por defecto de tiempo al inicio, 5 minutos por defecto de tiempo al final del turno y 10 minutos por exceso de tiempo al final del turno.
 
@@ -83,38 +87,30 @@ Tiempo en minutos de la tolerancia que puede ser recuperable cuando se ha fichad
 
 Si llegase más tarde de esos 10 minutos no podría recuperarlo y afectaría al estado, siempre y cuando esté marcada la opción de ‘Restar la tolerancia del total si se supera’.
 
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-d796e09b6e.webp)
+
 Para que este tiempo recuperable aparezca en el detalle, se debe configurar la visualización de la columna ‘Horas recuperadas’ en el detalle.
 
 Esta función no permite superar el número de horas que devuelve la comparación entre las horas planificadas y las horas presenciales según el valor informado.
 
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-292fbac106.webp)
+
 Por ejemplo, si en un turno planificado de 7 horas, el trabajador ficha 8 horas y 30 minutos, en el estado únicamente se contarán los 60 minutos configurados.
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-648b261c87.webp)
 
 No permite superar el número de minutos configurados que se computan entre el fichaje de entrada y salida, es decir de “Horas presenciales”.
 
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-825513ac60.webp)
+
 Por ejemplo, si se indican 480 minutos, el límite de fichaje estaría en 8 horas. Si se ficharan 8 horas y 30 minutos, solo se computarían 8 horas.
 
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-de741b7036.webp)
+
 Es decir, si el trabajador tiene un horario de 9:00 a 14:00 y efectúa el fichaje de entrada a las 9:09 teniendo una tolerancia de 15 minutos, con esta opción activada, el sistema al ajustar el fichaje considera que existe un absentismo de 9 minutos (es decir, no tiene en cuenta la tolerancia).
+
+![5.2 Tolerancia](/media/manual/5-2-tolerancia-7396f29460.webp)
 
 Activando esta función, permite que en el informe del control de presencia que se tenga que presentar ante la inspección laboral, en el estado tenga en cuenta el tiempo de tolerancia configurado.
 
 Es decir, si el trabajador tiene un horario de 9:00 a 14:00 y efectúa el fichaje de entrada a las 9:20 teniendo una tolerancia de 15 minutos, con esta opción activada, el sistema al ajustar el fichaje considera que existe un absentismo de 5 minutos (es decir, resta la tolerancia de los 20 minutos).
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.2 Tolerancia](/media/manual/5-2-tolerancia-7e9612fe4b.webp)
-
-![5.2 Tolerancia](/media/manual/5-2-tolerancia-649340eaad.webp)
-
-![5.2 Tolerancia](/media/manual/5-2-tolerancia-d796e09b6e.webp)
-
-![5.2 Tolerancia](/media/manual/5-2-tolerancia-648b261c87.webp)
-
-![5.2 Tolerancia](/media/manual/5-2-tolerancia-825513ac60.webp)
-
-![5.2 Tolerancia](/media/manual/5-2-tolerancia-292fbac106.webp)
-
-![5.2 Tolerancia](/media/manual/5-2-tolerancia-de741b7036.webp)
-
-![5.2 Tolerancia](/media/manual/5-2-tolerancia-7396f29460.webp)

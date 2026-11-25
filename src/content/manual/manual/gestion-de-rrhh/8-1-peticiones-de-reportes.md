@@ -59,12 +59,8 @@ Algunos de los reportes que solicitas precisan un poco más de tiempo para que s
 ## Qué debes saber
 En el momento que se genera un reporte solicitado y está pendiente de consultar o descargar, aparece un aviso de color azul en la opción “peticiones de reporte” del menú de aTurnos.
 
+![8.1 Peticiones de reportes](/media/manual/8-1-peticiones-de-reportes-02c4fa2334.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![8.1 Peticiones de reportes](/media/manual/8-1-peticiones-de-reportes-02c4fa2334.png)

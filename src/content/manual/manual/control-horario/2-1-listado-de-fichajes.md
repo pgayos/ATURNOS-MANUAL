@@ -55,16 +55,22 @@ order: 1
 
 Se nos muestra una lista con todos los fichajes de un trabajador entre las fechas indicadas en la barra superior de filtro, por defecto siempre aparecerá la del mes actual.
 
+![2.1 Listado de fichajes](/media/manual/2-1-listado-de-fichajes-173a98ec6c.webp)
+
 De esta forma podemos revisar qué fichajes están ajustados (Estado igual a 0) o cuáles son necesarios de ajustar (Estado positivo o negativo). El estado dependerá también de las tolerancias configuradas (ver Tolerancias ).
 
 ## Barra superior
 
 La visualización dependerá de lo indicado en la barra superior:
 
+![Barra superior](/media/manual/barra-superior-9ccfebe2f7.webp)
+
 - Fechas: se muestran los fichajes desde un día hasta otro día.
 - Trabajador: en el selector se puede seleccionar a un trabajador en alta del equipo de trabajo.
 - Fichajes que se pueden filtrar por: Todos los fichajes. Solo sin ajustar, es decir, existe exceso (estado positivo) o defecto de tiempo (estado negativo). Solo los ajustados, su estado es 0.
 - Filtro que permite seleccionar a los trabajadores de una localización.
+
+  ![Barra superior](/media/manual/barra-superior-f0b3f35bf5.webp)
 
 ## Variables de Control Horario
 
@@ -74,33 +80,51 @@ El listado de fichajes reportará la siguiente información por defecto, configu
 
 Día del fichaje. Para ver otra fecha, se puede modificar en la barra superior.
 
+![Fecha](/media/manual/fecha-7dec1cd46f.webp)
+
 ### Línea del tiempo
 
 Muestra una línea temporal de la duración de un día desde las 00:00 hasta las 23:59 horas. En este espacio se representan gráficamente los eventos (turnos y/o tipos de horas planificadas) y las acciones (fichajes, absentismos por defecto de tiempo o tipos de horas por exceso de tiempo) realizadas en el registro del Control de Presencia.
+
+![Línea del tiempo](/media/manual/linea-del-tiempo-c8f664d02e.webp)
 
 ### Presencia en horario
 
 Total de horas presenciales dentro del tiempo de los turnos y/o tipos de horas planificadas. Es el tiempo fichado dentro del inicio y fin del turno planificado.
 
+![Presencia en horario](/media/manual/presencia-en-horario-21178eb9dd.webp)
+
 ### Presenciales
 
 Total de horas que contabiliza los fichajes, desde la acción del fichaje de entrada al fichaje de salida. Se incluye el descanso disfrutado. No incluye la configuración de tolerancias.
+
+![Presenciales](/media/manual/presenciales-d6e68c2d15.webp)
 
 ### Fichadas
 
 Total de horas que contabiliza los fichajes, desde la acción del fichaje de entrada al fichaje de salida. Se excluye el descanso disfrutado. No incluye la configuración de tolerancias.
 
+![Fichadas](/media/manual/fichadas-47490962a9.webp)
+
 ### Fichadas no computables
 
 Total de horas que contabiliza los fichajes, desde la acción del fichaje de entrada al fichaje de salida de tipos de fichaje no computable.
+
+![Fichadas no computables](/media/manual/fichadas-no-computables-a2a71ea17b.webp)
 
 ### Trabajadas
 
 Total de horas presenciales que pueden coincidir o no con el tiempo de los turnos y/o tipo de horas planificadas en el cuadrante.
 
+![Trabajadas](/media/manual/trabajadas-a47fd3c4e0.webp)
+
 Al no estar trabajando, el tiempo de descanso del turno planificado, del trabajador o del equipo no se computan, según la configuración de descansos.
 
+![Trabajadas](/media/manual/trabajadas-ee8ab18b45.webp)
+
 No tiene en cuenta ningún absentismo.
+
+![Trabajadas](/media/manual/trabajadas-f88b95f6c7.png)
 
 ### Descanso
 
@@ -112,17 +136,25 @@ Tenemos que distinguir los descansos entre:
 
 Por ejemplo un turno de mañanas con un horario de 08:00 a 15:00 horas, puede tener una duración computada de 6:30, donde 30 minutos son de descanso, si la configuración de descansos es ‘Contabilizar los descansos, no se fichan’ o ‘Contabilizar los descansos, en el caso de que no se fichen se calcularán automáticamente’, estamos hablando de un ‘Descanso planificado’, el cual no debe ser fichado y siempre se computará.
 
+![Descanso](/media/manual/descanso-c24ab567fc.png)
+
 En un segundo caso, si hay un turno de 15:00-22:00 horas, con una duración computada de 6:40, donde 20 minutos son de descanso que se han fichado de 18:20 a 18:40 horas y la configuración de descansos es ‘Contabilizar los descansos, si se fichan’, se mostrará el tiempo exactamente fichado, lo llamaríamos descanso de control de presencia.
 
 Otro caso sería si se fichan los descansos, cuando el trabajador haga un marcaje de salida a las 11:30 y un marcaje de entrada a las 11:42, donde 12 minutos son de descanso.
+
+![Descanso](/media/manual/descanso-9830448c5f.webp)
 
 ### Computadas
 
 Total de horas y turnos planificados en el cuadrante. Incluye horas y turnos que computan, además de horas extraordinarias, complementarias y turnos sin horas computadas (se tiene en cuenta la duración total del turno). Se excluyen las horas asociadas a los absentismos no justificado.
 
+![Computadas](/media/manual/computadas-3ff5913a33.png)
+
 ### Puntualidad
 
 Tiempo de menos fichado al inicio del turno planificado, dependiendo de las tolerancias indicadas (ver Tolerancias ).
+
+![Puntualidad](/media/manual/puntualidad-e91fca6272.png)
 
 ### Estado de horas
 
@@ -130,11 +162,17 @@ Diferencia entre horas de un turno y/o un tipo de hora planificadas en el cuadra
 
 - Positivo, si hay exceso de horas fichadas frente al tiempo de los turnos y/o tipos de horas planificados en el cuadrante.
 
+  ![Estado de horas](/media/manual/estado-de-horas-3ed39141b8.png)
+
 - Negativo, si hay defecto de horas fichadas frente al tiempo de los turnos y/o tipos de horas planificados en el cuadrante.
+
+  ![Estado de horas](/media/manual/estado-de-horas-fecfa415ab.png)
 
 ### Acumulado estado de horas
 
 Suma (exceso de tiempo) o resta (defecto de tiempo) de los ‘Estados de horas’ de todos los fichajes visibles en función del filtro de fechas. Son horas no ajustadas del estado.
+
+![Acumulado estado de horas](/media/manual/acumulado-estado-de-horas-cb9401efd7.png)
 
 ### Ajustar fichajes
 
@@ -144,11 +182,15 @@ Si existe exceso de tiempo presencial (fichajes cerrados) se mostrará un estado
 
 Si existe defecto de tiempo presencial, se mostrará un estado negativo, al ajustarse será tiempo de absentismo para completar la duración de los turnos u horas planificadas, se puede insertar con un ajuste real o un ajuste sobre el total. También se da la opción de poder realizar un ajuste por ‘ Reducir jornada ‘.
 
+![Ajustar fichajes](/media/manual/ajustar-fichajes-7c2d7be302.png)
+
 Además de estas columnas, se puede configurar para añadir la siguiente información desde ‘Visibilidad’:
 
 ### Presencia fuera del horario
 
 Indica todo el tiempo fichado que no se corresponde con el horario del turno planificado en el cuadrante. Si existe un turno planificado con un horario de inicio de las 08:00 horas y final de las 15:00 horas, si el inicio del fichaje se ha realizado a las 07:30 horas, esos 30 minutos que no se corresponden con el horario del turno, se informarán como ‘Presencia fuera del horario’.
+
+![Presencia fuera del horario](/media/manual/presencia-fuera-del-horario-dad2758fbd.webp)
 
 De la misma forma, si el fichaje de fin de la jornada, se ha realizado a las 16:00 horas, se informa de esa hora que no corresponde con el horario.
 
@@ -160,11 +202,17 @@ Cuando el tiempo fichado que no se corresponde con el horario del turno, no supe
 
 Sin embargo, si hay una tolerancia configurada de 10 minutos por exceso al final del turno y el fichaje de final de jornada se realiza a las 16:00 horas, se informa de esa hora de tiempo fichado fuera del horario del turno.
 
+![Presencia fuera del horario sin tolerancia](/media/manual/presencia-fuera-del-horario-sin-tolerancia-20ca169ed5.webp)
+
 De la misma forma, si está configurada la opción ‘Restar la tolerancia del total si se supera’, en el caso de superar la tolerancia, se va a mostrar el tiempo fichado que no coincide con el horario del turno planificado, restado el tiempo de tolerancia configurado. Por ejemplo, si existe una tolerancia de 30 minutos de exceso al inicio del turno de trabajo y el fichaje de inicio se realiza a las 07:00 horas, la columna ‘Presencia fuera del horario sin tolerancia’ informa de 30 minutos y no de 1 hora.
+
+![Presencia fuera del horario sin tolerancia](/media/manual/presencia-fuera-del-horario-sin-tolerancia-23a2cb5c99.webp)
 
 ### Presencia en horario + Horas Recuperadas
 
 Informa del tiempo de ‘Presencia fuera del horario’ más las ‘Horas recuperadas’.
+
+![Presencia en horario + Horas Recuperadas](/media/manual/presencia-en-horario-horas-recuperadas-4e07254db7.webp)
 
 ### Descanso autorizado
 
@@ -172,11 +220,15 @@ En esta columna se muestra el descanso configurado a nivel de turno, trabajador 
 
 Por ejemplo, si el descanso configurado a nivel de trabajador es de 30 minutos y el trabajador ha fichado un descanso de 35 minutos, se muestran los 30 minutos de ‘Descanso autorizado’.
 
+![Descanso autorizado](/media/manual/descanso-autorizado-637c567d3f.webp)
+
 ### Incumplimiento
 
 Se informa del defecto de tiempo fichado teniendo en cuenta el horario del turno planificado y el descanso configurado. Si por ejemplo, hay configurado un descanso de 15 minutos y el trabajador ha fichado un descanso de 35 minutos, se informará de un ‘Incumplimiento’ de 20 minutos. En caso de que el trabajador, haya fichado más tarde el inicio de jornada y el final, fichando 10 minutos más tardes al inicio y 10 minutos antes al final, también tendrá un incumplimiento de 20 minutos.
 
 Esto también tendrá en cuenta las tolerancias configuradas.
+
+![Incumplimiento](/media/manual/incumplimiento-b2b1b37a4a.webp)
 
 ### Horas Recuperadas
 
@@ -184,31 +236,45 @@ Indica el tiempo que se ha fichado de menos al inicio del turno de trabajo, que 
 
 Si por ejemplo, al inicio del turno se fichan la entrada a las 08:11 (habiendo una configuración de ‘Tolerancia recuperable’ de 10 minutos) y al final del turno se ficha la salida a las 15:30, se informan esos 10 minutos como ‘Horas recuperadas’ y en el estado solo habría 19 minutos de exceso de tiempo.
 
+![Horas Recuperadas](/media/manual/horas-recuperadas-cb3449e247.webp)
+
 ### Absentismos
 
 Se muestra el tiempo de los absentismos aplicados, ya sea por haber sido planificado por una petición de permiso o al realizar un ajuste por defecto de tiempo fichado.
 
 Por ejemplo, un trabajador que ha salido 2 horas antes de su fichaje de fin del turno, al ajustar ese tiempo, se marcará como 2 horas de absentismos. También si tiene un permiso planificado ese día, sea o no justificado, se informarán de las horas afectadas por el absentismo.
 
+![Absentismos](/media/manual/absentismos-d068faba30.webp)
+
 ### Horas extras/complementarias
 
 Indica las horas planificadas, ajustadas o solicitadas por petición de horas que sean de tipo Extra o Complementarias.
+
+![Horas extras/complementarias](/media/manual/horas-extras-complementarias-4d76413805.webp)
 
 ### Cómputo presencia
 
 Se informa del tiempo fichado, computando los absentismos justificados, descontando la horas extras/complementarias y descontando los descansos no fichados si así está configurado en la gestión de descansos.
 
+![Cómputo presencia](/media/manual/computo-presencia-f128973612.webp)
+
 ### Cómputo presencia extra
 
 Se muestra el tiempo fichado, computando los absentismos justificados y las horas extras/complementarias, pero descontando los descansos no fichados si así está configurado en la gestión de descansos.
+
+![Cómputo presencia extra](/media/manual/computo-presencia-extra-f4206eec7b.webp)
 
 ### Exceso de horas pendientes de aplicar
 
 Informa del tiempo que el trabajador ha fichado de exceso con respecto al turno u horas planificadas, teniendo en cuenta la configuración de tolerancias. Por ejemplo, si existe un turno planificado de 08:00 a 15:00 horas, y el fichaje realizado es de 08:11 a 15:30, al haber una tolerancia de 10 minutos de exceso al final del turno y restarse, el tiempo de “Exceso de horas pendientes de aplicar”, es de 20 minutos.
 
+![Exceso de horas pendientes de aplicar](/media/manual/exceso-de-horas-pendientes-de-aplicar-f076327628.webp)
+
 ### Absentismos pendientes de aplicar
 
 En este caso, se indica el defecto de tiempo entre un fichaje y lo planificado, tomando la configuración de tolerancia s. Por ejemplo, si un trabajador tiene un turno de 08:00 a 15:00 horas, con un fichaje de inicio a las 09:00 y uno de fin a las 15:00 horas. Hay una hora de defecto de tiempo pendiente de justificar por un absentismo.
+
+![Absentismos pendientes de aplicar](/media/manual/absentismos-pendientes-de-aplicar-ce6e0fb194.webp)
 
 ### Ajustes
 
@@ -218,11 +284,17 @@ En los casos en los que se necesario corregir el estado de horas de un fichaje, 
 
 Muestra el tiempo de horas nocturnas trabajadas por el trabajador en función de la configuración de ‘Nocturnidad’ del equipo.
 
+![Nocturnidad](/media/manual/nocturnidad-d338991a77.webp)
+
 ### Acumulado año anterior
 
 Este dato solo se muestra en el caso de haber realizado la acción de ‘Migrar saldo del acumulado del estado de horas’, indicando el saldo del año anterior al final del año natural o fiscal.
 
+![Acumulado año anterior](/media/manual/acumulado-ano-anterior-fbc5e7a3b1.webp)
+
 De esta forma, el estado de horas, se empezará a compensar con este saldo hasta quedarse a 0, fecha desde la cual se empezará a volcar el saldo en el ‘Acumulado anual’.
+
+![Acumulado año anterior](/media/manual/acumulado-ano-anterior-424b276e13.webp)
 
 Esta función no funciona con el ‘Acumulado del estado de horas’.
 
@@ -230,84 +302,8 @@ Esta función no funciona con el ‘Acumulado del estado de horas’.
 
 Computa el exceso de tiempo o defecto de tiempo, compensando ambos según los estados diarios de todos los fichajes del año hasta la fecha actual.
 
-En el caso de ‘Migrar saldo del acumulado del estado de horas’, si existe defecto o exceso de horas en el saldo, se compensará con el ‘Acumulado del año anterior’. Una vez saldado, el exceso o defecto de tiempo se compensa con el ‘Acumulado anual’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Barra superior](/media/manual/barra-superior-9ccfebe2f7.webp)
-
-![Fecha](/media/manual/fecha-7dec1cd46f.webp)
-
-![2.1 Listado de fichajes](/media/manual/2-1-listado-de-fichajes-173a98ec6c.webp)
-
-![Línea del tiempo](/media/manual/linea-del-tiempo-c8f664d02e.webp)
-
-![Barra superior](/media/manual/barra-superior-f0b3f35bf5.webp)
-
-![Presencia en horario](/media/manual/presencia-en-horario-21178eb9dd.webp)
-
-![Fichadas](/media/manual/fichadas-47490962a9.webp)
-
-![Fichadas no computables](/media/manual/fichadas-no-computables-a2a71ea17b.webp)
-
-![Presenciales](/media/manual/presenciales-d6e68c2d15.webp)
-
-![Trabajadas](/media/manual/trabajadas-a47fd3c4e0.webp)
-
-![Trabajadas](/media/manual/trabajadas-ee8ab18b45.webp)
-
-![Descanso](/media/manual/descanso-9830448c5f.webp)
-
-![Trabajadas](/media/manual/trabajadas-f88b95f6c7.png)
-
-![Computadas](/media/manual/computadas-3ff5913a33.png)
-
-![Descanso](/media/manual/descanso-c24ab567fc.png)
-
-![Puntualidad](/media/manual/puntualidad-e91fca6272.png)
-
-![Estado de horas](/media/manual/estado-de-horas-3ed39141b8.png)
-
-![Estado de horas](/media/manual/estado-de-horas-fecfa415ab.png)
-
-![Acumulado estado de horas](/media/manual/acumulado-estado-de-horas-cb9401efd7.png)
-
-![Presencia fuera del horario](/media/manual/presencia-fuera-del-horario-dad2758fbd.webp)
-
-![Presencia fuera del horario sin tolerancia](/media/manual/presencia-fuera-del-horario-sin-tolerancia-20ca169ed5.webp)
-
-![Ajustar fichajes](/media/manual/ajustar-fichajes-7c2d7be302.png)
-
-![Presencia fuera del horario sin tolerancia](/media/manual/presencia-fuera-del-horario-sin-tolerancia-23a2cb5c99.webp)
-
-![Descanso autorizado](/media/manual/descanso-autorizado-637c567d3f.webp)
-
-![Horas Recuperadas](/media/manual/horas-recuperadas-cb3449e247.webp)
-
-![Incumplimiento](/media/manual/incumplimiento-b2b1b37a4a.webp)
-
-![Absentismos](/media/manual/absentismos-d068faba30.webp)
-
-![Cómputo presencia extra](/media/manual/computo-presencia-extra-f4206eec7b.webp)
-
-![Horas extras/complementarias](/media/manual/horas-extras-complementarias-4d76413805.webp)
-
-![Cómputo presencia](/media/manual/computo-presencia-f128973612.webp)
-
-![Exceso de horas pendientes de aplicar](/media/manual/exceso-de-horas-pendientes-de-aplicar-f076327628.webp)
-
-![Presencia en horario + Horas Recuperadas](/media/manual/presencia-en-horario-horas-recuperadas-4e07254db7.webp)
-
-![Nocturnidad](/media/manual/nocturnidad-d338991a77.webp)
-
-![Absentismos pendientes de aplicar](/media/manual/absentismos-pendientes-de-aplicar-ce6e0fb194.webp)
-
 ![Acumulado anual](/media/manual/acumulado-anual-01b3435a1f.webp)
 
-![Acumulado año anterior](/media/manual/acumulado-ano-anterior-fbc5e7a3b1.webp)
+En el caso de ‘Migrar saldo del acumulado del estado de horas’, si existe defecto o exceso de horas en el saldo, se compensará con el ‘Acumulado del año anterior’. Una vez saldado, el exceso o defecto de tiempo se compensa con el ‘Acumulado anual’.
 
 ![Acumulado anual](/media/manual/acumulado-anual-b8416b6c88.webp)
-
-![Acumulado año anterior](/media/manual/acumulado-ano-anterior-424b276e13.webp)

@@ -54,6 +54,8 @@ order: 1
 
 En esta pantalla se visualiza el listado los absentismos totales, es decir, aquellos que ocupan la jornada completa de trabajo del día. (ver más en: ¿Qué es y cómo crear un absentismo? ).
 
+![b. Totales](/media/manual/b-totales-222d7b6bc0.png)
+
 ## Procedimiento
 El registro identifica nombre del trabajador, el día, la hora de inicio del turno y del absentismo, la abreviatura, el número de horas de ausencia y el tipo (nombre del Absentismo, ej. Asuntos propios).
 
@@ -62,9 +64,3 @@ Desde la columna de acciones puedes utilizar el icono de editar para modificar e
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![b. Totales](/media/manual/b-totales-222d7b6bc0.png)

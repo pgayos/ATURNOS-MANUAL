@@ -60,9 +60,15 @@ Para obtener la variables de un trabajador para realizar el finiquito:.
 ## Qué debes saber
 1.- Informar la fecha de baja en el perfil del trabajador
 
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-444810d686.png)
+
 2.- Guardar la modificación efectuada para que se actualicen los datos, al aceptar al informar la fecha de baja, la aplicación pregunta si se deben recalcular las horas a trabajar, es decir, el trabajador que fue alta el 01/09 hasta fin de año debía hacer unas horas, al terminar su contrato el 25/10, las horas a realizar son menos, por tanto si se deben “Calcular automáticamente”
 
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-ced6c359a0.png)
+
 3.- Informa en el apartado “Nómina” del perfil del trabajador la fecha de cierre de cuadrante.
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-213177a2f2.png)
 
 4.- Solo se exportaran los datos hasta la fecha de cierre de cuadrante, en este ejemplo, los conceptos de nómina a abonar hasta el 25/10/2020.
 
@@ -74,13 +80,23 @@ Ahora, hemos de configurar nuestros conceptos de cálculo.
 
 1.- PLUS SÁBADO. Contabilizamos los turnos entrantes en Sábado.
 
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-77260df33f.png)
+
 2.- PLUS DOMINGO. Contabilizamos los turnos entrantes en Domingo
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-db1b195eab.png)
 
 3.- PLUS FIN DE SEMANA. Sumamos los conceptos PLUS SÁBADO y PLUS DOMINGO.
 
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-4ae9077108.png)
+
 4.- Ya tenemos los tres conceptos de cálculo necesarios:
 
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-b507bc8940.png)
+
 5.- Una vez definidos nuestros conceptos de cálculo, publicamos el Concepto en nómina requerido para proceder a la exportación de las variables.
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-aa085fbe0b.png)
 
 A continuación, se explica paso a paso un caso de uso, en el que se calcula el concepto “horas nocturnidad en el día de inicio” por el dato personalizado “No Fijo Noche” para el abono de los pluses nocturnos.
 
@@ -103,6 +119,8 @@ A continuación, se explica paso a paso un caso de uso, en el que se calcula el 
 - Localización (por defecto) del trabajador: Por defecto “Todas las localizaciones”, a no ser que se desee filtrar por alguna localización en concreto.
 - Categoría: Por defecto “Todas las categorías”
 
+  ![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-12fe73c628.png)
+
 4.- Crear el concepto que opera entre conceptos indicando:
 
 - Concepto: Indicando en este caso, el concepto “3000”, que coincide con el código del software de nómina que realiza el cálculo. Es obligatorio informar este campo.
@@ -114,6 +132,8 @@ A continuación, se explica paso a paso un caso de uso, en el que se calcula el 
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “3000 horas nocturnidad”, añadir como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el dato personalizado NO_FIJO_NOCHE”, añadir como “concepto seleccionado para operar”
 
+  ![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-d5362d17df.png)
+
 El dato personalizado tiene la función de activador del pago, si está informado en el perfil del trabajador con el valor correspondiente, en este caso un 1, calcula el concepto.
 
 Otro uso frecuente es cuando hay que restar horas de un determinado turno de un concepto común, por ejemplo, en el caso de las guardias.
@@ -123,6 +143,8 @@ Habitualmente las guardias de 24 horas se abonan en un concepto distinto (el de 
 La parametrización a realizar en la aplicación sería la siguiente:
 
 1.- Crear el concepto que abona las horas de guardia presencial, en este ejemplo, el concepto 1.2.38. Algunos conceptos comunes de nómina están asociados al módulo de control de presencia, como es el caso del concepto que recupera las horas de guardias presenciales.
+
+![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-c2e1c48110.png)
 
 2.- Crear el concepto que opera entre conceptos que restará del concepto horas nocturnidad en el día de inicio las horas de guardia presenciales
 
@@ -136,6 +158,8 @@ La parametrización a realizar en la aplicación sería la siguiente:
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, concepto “K385”, y añadirlo como “concepto seleccionado para operar”
 - Forzar valores negativos a cero: Se aconseja marcar a SI esta opción para que no devuelva valores negativos.
 
+  ![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-99f80b6fa3.png)
+
 Este tipo de conceptos (que operan entre conceptos) además de realizar las operaciones entre conceptos ya creados, puede realizar estas mismas operaciones sobre valores fijos que se definen en las plantillas de nómina del punto 4 de este Manual.
 
 La parametrización en la aplicación debe ser la siguiente:
@@ -143,6 +167,8 @@ La parametrización en la aplicación debe ser la siguiente:
 1.- Crear el valor de comparación, en este caso, el valor 10.
 
 Para hacerlo se debe acceder ADMINISTRAR → NOMINAS → PLANTILLA DE NOMINA → CAMPO FIJO → Añadir
+
+![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-a540c9d0b4.png)
 
 Importante: Los decimales en el campo valor se indican con un punto (no con una coma). Ejemplo Valor 0.142
 
@@ -157,6 +183,8 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Localización por defecto del trabajador: “Todas las localizaciones”.
 - Categoría: “Todas las categorías”.
 
+  ![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-090bc4085b.png)
+
 3.- El concepto de comparación que comprueba si las horas de nocturnidad en el día de inicio son mayores o iguales a 10 horas nocturnas, es el activador cuando las horas nocturnas son mayores o iguales a 10.
 
 - Concepto: Indicando en este caso, el concepto “3000 – las horas de nocturnidad en el día de inicio son mayores o iguales a 10”. Es obligatorio informar este campo.
@@ -169,6 +197,8 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Tipo: Las opciones permitidas son: Concepto, cuando el segundo comparador es un concepto previamente calculado. Campo fijo, cuando el segundo comparador es un valor fijo, como es este caso de uso.
 - Valor Verdadero, en este caso valor 1, es decir, si las horas de nocturnidad en el día de inicio son mayores o iguales al valor indicado, devuelve un 1.
 - Valor Falso, en este caso valor 0, es decir, si las horas de nocturnidad en el día de inicio son menores o no iguales al valor indicado, devuelve un 0.
+
+  ![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-a457d0b1c7.png)
 
 4.- El concepto que comprueba si las horas de nocturnidad en el día de inicio son menores a 10 horas nocturnas, es el activador cuando las horas nocturnas son menores a 10.
 
@@ -183,6 +213,8 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Valor Verdadero, en este caso valor 1, es decir, si las horas de nocturnidad en el día de inicio son menores al valor indicado, es decir al valor 10, devuelve un 1.
 - Valor Falso, en este caso valor 0, es decir, si las horas de nocturnidad en el día de inicio son mayores o no iguales al valor indicado, devuelve un 0.
 
+  ![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-9800e16f59.png)
+
 5.- Para el concepto 3000 (horas nocturnas mayores o iguales a 10), el concepto que opera entre conceptos multiplicará el concepto “3000 – 3K00 horas de nocturnidad en el día de inicio” x “3000 – las horas de nocturnidad en el día de inicio son mayores a 10”, es decir multiplica por el activador creado en el punto 3.
 
 - Concepto: Indicando en este caso, el concepto “3000”, que coincide con el código del software de nómina que realiza el cálculo. Es obligatorio informar este campo.
@@ -193,6 +225,8 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Operador: las opciones permitidas son: Sumar Restar Multiplicar, en este caso, es la operación seleccionada. Dividir
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “3000 – 3K00 horas nocturnidad en el día de inicio”, añadir como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el concepto 3000 – las horas de nocturnidad en el día de inicio son mayores a 10”, es decir el activador creado.
+
+  ![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-01feee3213.png)
 
 6.- Para el concepto 3K00 (horas nocturnas menores a 10), el concepto que opera entre conceptos multiplicará el concepto “3000 – 3K00 horas de nocturnidad en el día de inicio” x “3K00 – las horas de nocturnidad en el día de inicio son menores a 10””, es decir multiplica por el activador creado en el punto 4.
 
@@ -205,48 +239,14 @@ Una vez creado el campo fijo con el valor de comparación se crea:
 - Conceptos: Seleccionar el primer multiplicador, en este ejemplo, el concepto “3000 – 3K00 horas nocturnidad en el día de inicio”, añadir como “concepto seleccionado para operar”
 - Conceptos: Seleccionar el segundo multiplicador, en este ejemplo, el concepto 3K00 – las horas de nocturnidad en el día de inicio son menores a 10”, es decir el activador creado.
 
+  ![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-cfdb94c83d.png)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-ced6c359a0.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-213177a2f2.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-77260df33f.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-444810d686.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-db1b195eab.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-aa085fbe0b.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-b507bc8940.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-4ae9077108.png)
-
 ![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-839bfd8fa9.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-12fe73c628.png)
 
 ![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-9d57131878.png)
 
 ![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-7264306c8a.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-c2e1c48110.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-a540c9d0b4.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-090bc4085b.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-d5362d17df.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-cfdb94c83d.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/8-1-ejemplos-practicos-99f80b6fa3.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-a457d0b1c7.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-9800e16f59.png)
-
-![8.1 Ejemplos Prácticos](/media/manual/2-3-conceptos-comparacion-01feee3213.png)

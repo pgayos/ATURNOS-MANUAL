@@ -60,6 +60,8 @@ Aprende a barra superior del cuadrante, con instrucciones y contexto revisables 
 
 En la parte superior del cuadrante se encuentra una barra de herramientas desde la que se pueden realizar diferentes acciones. Para mejorar la visibilidad del mismo, ésta se puede ocultar y mostrar desde el botón de la flecha (1). En ella podrás marcar y ver los siguientes puntos:
 
+![b. Barra superior del cuadrante](/media/manual/b-barra-superior-del-cuadrante-40a0cbcb5f.webp)
+
 ### 1. Ocultar / Mostrar barra
 
 Para ganar mayor visibilidad del cuadrante, al hacer clic en la flecha, se puede ocultar o mostrar la barra superior del cuadrante.
@@ -68,19 +70,35 @@ Para ganar mayor visibilidad del cuadrante, al hacer clic en la flecha, se puede
 
 Información sobre la leyenda de colores que aparecen en el cuadrante:
 
+![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-697e227faa.png)
+
 - Bolsas: Los trabajadores con horas de bolsa se muestran en el cuadrante en color rojo. Para ver cómo crear bolsas haz clic en el siguiente enlace (ver Bolsas ). En este caso muestra las horas de bolsa y la localización.
+
+  ![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-aa537eaa1b.png)
 
 - Extra / Complementarias: Los trabajadores con horas extra / complementarias se muestran en el cuadrante en color marrón. Las horas extras / complementarias se pueden ejecutar en el cuadrante por añadirlas directamente desde” Añadir horas “, o por petición de un trabajador teniendo el administrador que aceptarlas en ‘ Peticiones y cambios ‘ o al añadir horas extra / complementarias al hacer un ajuste en el control de presencia.
 
+  ![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-a46f5df3f8.png)
+
 - Vacaciones: Los trabajadores con vacaciones aceptadas se muestran en el cuadrante en color amarillo. Las vacaciones podrán ser añadidas en la planificación por el administrador añadiendo un turno “V”, por aplicar un patrón con turnos “V” de vacaciones o porque el administrador acepta una petición de vacaciones del trabajador en ‘ Peticiones y cambios ‘. Tienes más información sobre la gestión de vacaciones en Operativa de vacaciones.
+
+  ![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-2be79e8d05.png)
 
 - Absentismo: Los trabajadores con absentismos se muestran en el cuadrante en color negro. Los absentismos también pueden planificarse añadiendo un absentismo en el cuadrante, por petición de un trabajador teniendo el administrador que aceptarlas en ‘ Peticiones y cambios ‘ o al ajustar por defecto de tiempo registrado de la jornada de trabajo respecto al turno planificado, al hacer un ajuste en el control de presencia.
 
+  ![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-b55dff6605.png)
+
 - Propuesta: Se muestra así las solicitudes realizadas que aún no han sido aceptadas por el administrador y que aún están pendientes de su aprobación en ‘ Peticiones y cambios ‘.
+
+  ![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-5edaf84cbb.png)
 
 - Cambios Pendientes: Se muestran así los cambios pendientes de confirmar. Éstos se solicitan en el cuadrante por los trabajadores en” Hacer cambio” a los compañeros para intercambiar turnos, cambiarlo por un día libre o para que doble turno un compañero, quedando pendiente en ‘ Peticiones y cambios’ hasta que lo apruebe el administrador.
 
+  ![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-feda2fad7d.png)
+
 - Cambios confirmados: Se muestran así los cambios confirmados. Se aplica este color verde a los turnos, una vez han sido confirmados por los compañeros y administradores (dependiendo del flujo de aprobación de cambios ) en” Peticiones y cambios “.
+
+  ![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-ffc421f539.png)
 
 ### 3. Fecha del cuadrante
 
@@ -89,6 +107,10 @@ En el caso de querer visualizar el cuadrante desde una fecha concreta, seleccion
 ### 4. Visualización del cuadrante
 
 Indicaremos de qué forma se quiere visualizar el cuadrante:
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-b74087a407.webp)
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-e8f4138e2e.webp)
 
 En esta función se indicará la opción de los detalles que se quieren visualizar en los turnos del cuadrante:
 
@@ -109,17 +131,27 @@ En caso de que no necesite filtrar por los datos guardados, se tiene que selecci
 
 Es importante destacar que para filtrar por “Datos personalizados” sebe seleccionar primero el Nombre del dato personalizado que se requiere y luego informar en la casilla de “Valor” el dato a buscar. Ej. Si un dato personalizado es la Licencia para Conducir debo colocar en el campo de valor el número de Licencia que necesita buscar.
 
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-f3810c8a50.webp)
+
 Este filtro en el cuadrante sirve para filtrar por la localización por defecto (indicada en el perfil) del trabajador. Funciona de la siguiente forma:
 
 1. Si filtramos por una localización en Localización por defecto, nos muestra los trabajadores que tienen esa localización por defecto con toda su planificación (aunque su planificación no esté en la localización filtrada)
 
+   ![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-dab645e5e9.png)
+
 2. Si filtramos tanto en la Localización por defecto y en Localizaciones por la misma localización, el resultado es: muestra la planificación en dicha localización de los trabajadores con dicha localización por defecto.
 
+   ![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-a88428acb3.png)
+
 3. Si se filtra por la Localización por defecto una localización y en Localizaciones otra, el resultado es que se mostrarán los eventos planificados en la localización de “Localizaciones” de los trabajadores que tienen como “Localización por defecto” la localización filtrada.
+
+   ![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-dfd684444e.png)
 
 Se puede exportar para su distribución / impresión en formato Excel, PDF A4 o A3.
 
 También se puede exportar el cuadrante para crear un patrón, está opción está disponible si el periodo que se visualiza es múltiplo de 7 (1, 2,3 o 4 semanas) utilizando la opción Exportar a patrón.
+
+![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-0dd2dc9ff8.webp)
 
 Desde este botón se puede activar la función de aplicar patrón a los trabajadores que desee (ver Manual de Aplicar Patrón).
 
@@ -131,29 +163,7 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![b. Barra superior del cuadrante](/media/manual/b-barra-superior-del-cuadrante-40a0cbcb5f.webp)
-
-![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-aa537eaa1b.png)
-
-![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-697e227faa.png)
-
-![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-a46f5df3f8.png)
-
-![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-2be79e8d05.png)
-
-![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-b55dff6605.png)
-
-![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-5edaf84cbb.png)
-
-![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-feda2fad7d.png)
-
-![2. Leyenda cuadrante](/media/manual/2-leyenda-cuadrante-ffc421f539.png)
-
 ![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-de42098150.webp)
-
-![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-e8f4138e2e.webp)
-
-![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-b74087a407.webp)
 
 ![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-fdc5f18140.webp)
 
@@ -163,14 +173,4 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 
 ![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-5db66a3c7a.webp)
 
-![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-f3810c8a50.webp)
-
-![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-a88428acb3.png)
-
-![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-dab645e5e9.png)
-
 ![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-6957d5f948.webp)
-
-![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-dfd684444e.png)
-
-![4. Visualización del cuadrante](/media/manual/4-visualizacion-del-cuadrante-0dd2dc9ff8.webp)

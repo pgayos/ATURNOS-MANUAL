@@ -71,16 +71,12 @@ Estas opciones permiten personalizar la visualización del cuadrante anual segú
 
 Por último si la configuración de permisos del equipo lo permite, el trabajador puede acceder a información del cómputo de los turnos planificados.
 
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-647c766324.webp)
+
 Así como un balance de horas del año y/o periodo e información de las vacaciones que han sido planificadas y el saldo por disfrutar.
+
+![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-8b17569f59.webp)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-647c766324.webp)
-
-![Barra superior del cuadrante anual](/media/manual/barra-superior-del-cuadrante-anual-8b17569f59.webp)

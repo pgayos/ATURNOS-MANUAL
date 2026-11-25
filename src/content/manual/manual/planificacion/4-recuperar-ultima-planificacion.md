@@ -61,16 +61,12 @@ Los administradores de los equipos de trabajo pueden haber eliminado la planific
 ## Qué debes saber
 Esta función permite reestablecer la última planificación borrada.
 
+![4. Recuperar última planificación](/media/manual/4-recuperar-ultima-planificacion-4f70e810b8.webp)
+
 La herramienta mostrará una advertencia sobre la última planificación borrada y desde qué fecha hasta qué fecha se produjo el borrado.
+
+![4. Recuperar última planificación](/media/manual/4-recuperar-ultima-planificacion-db32668a48.webp)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4. Recuperar última planificación](/media/manual/4-recuperar-ultima-planificacion-db32668a48.webp)
-
-![4. Recuperar última planificación](/media/manual/4-recuperar-ultima-planificacion-4f70e810b8.webp)

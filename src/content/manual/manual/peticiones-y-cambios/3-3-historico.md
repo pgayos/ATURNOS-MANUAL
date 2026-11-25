@@ -52,6 +52,8 @@ order: 1
 
 Para acceder a este informe debes acceder a Control de Presencia → Peticiones pendientes → Histórico.
 
+![3.3 Histórico](/media/manual/3-3-historico-f43520a404.png)
+
 ## Qué debes saber
 La pestaña de Histórico, muestra el total de peticiones que han sido aceptadas, denegadas y también el estado de las mismas, que puede ser:
 
@@ -62,9 +64,3 @@ La pestaña de Histórico, muestra el total de peticiones que han sido aceptadas
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3.3 Histórico](/media/manual/3-3-historico-f43520a404.png)

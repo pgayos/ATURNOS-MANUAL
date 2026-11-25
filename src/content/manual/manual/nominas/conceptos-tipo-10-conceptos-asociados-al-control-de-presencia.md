@@ -64,7 +64,11 @@ El módulo de Control de Presencia activa el concepto de cálculo: Control de Pr
 ## Qué debes saber
 ADMINISTRAR → NOMINAS → CONCEPTOS DE CALCULO
 
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-0b9d846a76.png)
+
 ADMINISTRAR → CONCEPTOS DE NOMINA
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-4c9a7f8d8f.png)
 
 Ejemplo
 
@@ -88,7 +92,11 @@ El día 9:
 
 Horas extras desde las 06:00 a las 14:00. Marcaje de inicio a las 06:00 y de fin a las 14:00. El concepto horas presencia nocturnidad devuelve 2 horas (desde las 06:00 hasta las 08:00)
 
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-d44da72ded.png)
+
 En ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-78b01b4743.png)
 
 Este concepto recupera un valor 1 cuando el trabajador tiene, al menos, un fichaje de entrada y salida del tipo indicado en el día, Se precisa para el cálculo dos fichajes del mismo tipo.
 
@@ -100,42 +108,30 @@ Se precisa crear el tipo de fichaje accede al Manual Añadir tipos de fichaje
 
 Una vez creado se accede a ADMINISTRAR → NOMINAS → CONCEPTOS.
 
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-869480c124.png)
+
 Ejemplo:
 
 En la estadística diaria se recupera un valor 1 por cada día que tenga un fichaje de entrada y salida del tipo: Teletrabajo.
 
-El día 02/10/2023 tiene 3 fichajes del tipo Teletrabajo (2 fichajes de entrada y 1 de salida), en la estadística diaria devuelve valor
-
-El día 03/10/2023 tiene un fichaje de entrada del tipo Teletrabajo, en la estadística diaria no devuelve valor
-
-El día 04/10/2023 tiene dos fichajes del tipo Teletrabajo ( 1 fichaje de entrada y 1 de salida), en la estadística diaria devuelve valor
-
-El día 05/10/2023 no tiene fichajes del tipo Teletrabajo, en la estadística diaria no devuelve valor
-
-El día 06/10/2023 tiene cuatro fichajes del tipo Teletrabajo ( 2 fichajes de entrada y 2 de salida), en la estadística diaria devuelve valor
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-0b9d846a76.png)
-
-![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-4c9a7f8d8f.png)
-
-![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-78b01b4743.png)
-
 ![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-aa085dadb5.png)
 
-![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-869480c124.png)
+El día 02/10/2023 tiene 3 fichajes del tipo Teletrabajo (2 fichajes de entrada y 1 de salida), en la estadística diaria devuelve valor
 
 ![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-926e73cb78.png)
 
-![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-37ae8ba535.png)
+El día 03/10/2023 tiene un fichaje de entrada del tipo Teletrabajo, en la estadística diaria no devuelve valor
 
 ![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-2c61c81f0e.png)
 
-![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-d44da72ded.png)
+El día 04/10/2023 tiene dos fichajes del tipo Teletrabajo ( 1 fichaje de entrada y 1 de salida), en la estadística diaria devuelve valor
 
-![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-1170d03b0d.png)
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-37ae8ba535.png)
+
+El día 05/10/2023 no tiene fichajes del tipo Teletrabajo, en la estadística diaria no devuelve valor
 
 ![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-c1add6c9c6.png)
+
+El día 06/10/2023 tiene cuatro fichajes del tipo Teletrabajo ( 2 fichajes de entrada y 2 de salida), en la estadística diaria devuelve valor
+
+![Conceptos tipo 10: Conceptos asociados al control de presencia](/media/manual/conceptos-tipo-10-conceptos-asociados-al-control-de-presencia-1170d03b0d.png)

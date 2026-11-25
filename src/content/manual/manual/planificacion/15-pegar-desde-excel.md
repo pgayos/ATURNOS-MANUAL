@@ -59,6 +59,8 @@ order: 1
 
 Al seleccionar esta opción, se abrirá la siguiente ventana, donde te indicará que pegues los turnos que has copiado desde tu excel, éstos se crearan a partir del día seleccionado en el cuadrante.
 
+![15. Pegar desde Excel](/media/manual/15-pegar-desde-excel-25457c6946.png)
+
 ## Procedimiento
 Para pegar una secuencia de turnos directamente desde Excel, hay que tener en cuenta los siguientes puntos:
 
@@ -69,9 +71,3 @@ Para pegar una secuencia de turnos directamente desde Excel, hay que tener en cu
 Para ver más sobre este proceso, accede al siguiente enlace: ¿Cómo pegar mi planificación de Excel en el cuadrante de aTurnos?
 
 En aTurnos, dispones de otra opción de importación más rápida mediante un fichero CSV, te puedes informar en este enlace: Importación de planificación.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![15. Pegar desde Excel](/media/manual/15-pegar-desde-excel-25457c6946.png)

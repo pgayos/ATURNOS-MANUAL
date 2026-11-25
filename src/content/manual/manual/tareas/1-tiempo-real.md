@@ -64,6 +64,8 @@ En este punto aparece el listado de tareas que han sido llamadas o que están si
 - Icono de Filtro: te permite seleccionar de manera rápida y sencilla la información que deseas visualizar. Bien sea para ver la información de un trabajador(es) en específico o realizar un filtrado por Tareas según la plantilla creada, la especialidad/rol (servicio) o por tipo (Sin asignar y/o Asignadas), así como filtrar por cliente (por email, nombre y/o apellido)
 - Acciones: Te permite crear una nueva tarea o añadir tareas de plantilla.
 
+  ![1. Tiempo Real](/media/manual/1-tiempo-real-a89f91edd7.webp)
+
 2.- Llamados o en proceso:
 
 - Ticket: aparece el nombre del servicio asignado.
@@ -74,6 +76,8 @@ En este punto aparece el listado de tareas que han sido llamadas o que están si
 3.- Mostrar Ocupación
 
 Haciendo clic sobre “Mostrar ocupación”, se desplegará la información de los trabajadores del equipo que tienen asignada la especialidad o experiencia requerida por cada servicio. De igual forma se muestra la disponibilidad de horarios de los trabajadores, en verde el horario que tienen asignado para realizar las tareas o atender las citas.
+
+![1. Tiempo Real](/media/manual/1-tiempo-real-e62f01565a.webp)
 
 Haciendo clic nuevamente en “Mostrar ocupación” podrás ocultar nuevamente la información.
 
@@ -96,6 +100,8 @@ En esta tabla se muestran los siguientes conceptos:
 
 1. Icono de Ver (el ojito): se muestra toda la información de la tarea:
 
+   ![1. Tiempo Real](/media/manual/1-tiempo-real-44ae2fdd65.png)
+
 1. Icono de Inicio o fin de Tarea o cita: Muestra la hora en la que empiezas a atender al cliente. Por consiguiente, una vez iniciada, también la puedes finalizar para pasar a la siguiente tarea o cita. Para iniciarla, tendrás que pulsar el botón de “play” (triangulo) y para terminarla debes pulsar “stop” (cuadrado).
 2. Icono de Eliminar (la “X”): se selecciona para cancelar una tarea o cita, por ejemplo cuando el cliente no asiste o no esta puntual a la hora de la cita. (luego se podrá recuperar en caso de que la configuración del servicio lo permita.
 3. Icono de Llamada (la campana): seleccionando este icono se hace la llamada al cliente para atender la cita y se espera que el cliente se acerque para su atención.
@@ -105,9 +111,3 @@ En esta tabla se muestran los siguientes conceptos:
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![1. Tiempo Real](/media/manual/1-tiempo-real-23ca029887.webp)
-
-![1. Tiempo Real](/media/manual/1-tiempo-real-a89f91edd7.webp)
-
-![1. Tiempo Real](/media/manual/1-tiempo-real-44ae2fdd65.png)
-
-![1. Tiempo Real](/media/manual/1-tiempo-real-e62f01565a.webp)

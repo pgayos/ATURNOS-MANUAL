@@ -62,14 +62,10 @@ A la hora de añadir un comentario hay dos opciones:
 - Que sea visible para administrador únicamente
 - Que sea visible para los trabajadores y administradores del equipo.
 
+  ![Añadir comentarios](/media/manual/anadir-comentarios-ba5a12a3cc.png)
+
 En los días que haya insertado un comentario de cualquier tipo, quedaría visible de la siguiente manera:
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Añadir comentarios](/media/manual/anadir-comentarios-ba5a12a3cc.png)

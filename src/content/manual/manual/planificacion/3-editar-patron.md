@@ -82,6 +82,8 @@ Planificar con patrones de turnos es una acción habitual que puedes realizar en
 
 - Desde el menú de acciones al hacer clic en una celda/día. En este menú aparece varias opciones como añadir, borrar, modificar turno; copiar, pegar, mover día; asociar una localización al turno, etc. Desde la barra de herramientas, que se encuentra en la parte inferior, haciendo clic sobre los tipos de turnos disponibles, se insertan de una manera ordenada, a su vez la secuencia del patrón va añadiendo nuevas celdas/días con el tipo de turno seleccionado. Desde la barra de herramientas, arrastrando el tipo de turno a la celda/día de la secuencia del patrón que corresponda. En la propia secuencia que va definiendo el patrón, se puede mover turnos de una celda para insertarlos en otra, también con una acción de arrastre del contenido de una celda a otra.
 
+  ![3. Editar patrón](/media/manual/3-editar-patron-94745471c7.png)
+
 - El día 1 (de la secuencia del patrón, no se refiere al día 1 del mes) será lunes y el día 7 (de la secuencia del patrón) será domingo, porque hemos informado “Lunes” en el campo Aplicar patrón desde y el patrón tiene una secuencia de 7 días.
 - Se inserta el tipo de turno M (mañana) en los días del 1 hasta 5 (corresponde de lunes a viernes) y además se inserta un turno tipo T (tarde) en los días 2 y 4 (martes y jueves). Para el día 6 y 7, considerado como sábado y domingo, se insertará L (libres).
 - Observando la última columna de la tabla, te muestra la información del total de horas de cada periodo del patrón. En cada fila informa la suma de horas computadas de los diferentes turnos que forman parte de cada periodo del patrón. Se actualiza cuando alguna celda/día cambia de planificación (inserta un turno nuevo, se borra, se cambia un turno por otro con diferente número de horas computadas,…).
@@ -93,8 +95,6 @@ En el momento de editar un patrón de turnos con más de un periodo, dispones de
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Editar patrón](/media/manual/3-editar-patron-94745471c7.png)
 
 ![3. Editar patrón](/media/manual/3-editar-patron-68d0af11ca.png)
 

@@ -55,8 +55,12 @@ order: 1
 
 Seleccionando la opción de “tooltip flotante”, podrás moverlo a cualquier parte de la pantalla.
 
+![10. Tooltip flotante](/media/manual/10-tooltip-flotante-35ad493fea.webp)
+
 ## Procedimiento
 Este tooltip nos muestra la información básica configurada en ‘Visualización’.
+
+![10. Tooltip flotante](/media/manual/10-tooltip-flotante-9804472dcc.webp)
 
 De manera visual, para saber si los trabajadores están cumpliendo las horas, a modo de ejemplo con las “Horas por semana”.
 
@@ -74,9 +78,5 @@ Para entender si ha trabajado lo que le corresponde, se hace lo siguiente:
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![10. Tooltip flotante](/media/manual/10-tooltip-flotante-35ad493fea.webp)
-
-![10. Tooltip flotante](/media/manual/10-tooltip-flotante-9804472dcc.webp)
 
 ![10. Tooltip flotante](/media/manual/10-tooltip-flotante-856cfd4eae.webp)

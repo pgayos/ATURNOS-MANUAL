@@ -58,13 +58,23 @@ Este sistema de fichaje permite que cualquier dispositivo que se registre (orden
 
 Para registrar un dispositivo, el administrador tiene que acceder a aTurnos, a Configuración del Control de Presencia, en el apartado Dispositivos.
 
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-665365c369.webp)
+
 Para añadir un nuevo dispositivo, se debe pulsar sobre el botón ‘Acciones’ de la barra superior y ‘Registrar este dispositivo’.
+
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-bdd5b31d8c.webp)
 
 El registro se realiza únicamente asignando una descripción a dicho dispositivo y pulsando ‘Aceptar’ para finalizar.
 
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-be560cbcbe.webp)
+
 Cuando un dispositivo se encuentra registrado, en el listado de dispositivos además de aparecer con la descripción con la cual se registró, se muestra el mensaje “Este dispositivo se encuentra registrado para poder realizar fichajes “.
 
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-69788b4ca3.webp)
+
 Cualquier usuario, se administrador o trabajador podrá realizar sus fichajes de entrada y salida de su jornada, ya que aparecerá en la barra superior el botón ‘ Play ‘ para marcar la entrada y el botón ‘ Stop ‘ para marcar la salida.
+
+![5.10 Dispositivos](/media/manual/5-10-dispositivos-011929ed77.webp)
 
 Es importante indicar que el registro del dispositivo se haga desde el navegador en el cual el trabajador accede normalmente a aTurnos y que no se realice un borrado de los datos de navegación, ya que se perderá el registro del dispositivo.
 
@@ -107,17 +117,3 @@ Entonces:
 
 - Edge → Chrome → ya no tienes la key
 - Nuevo perfil de Edge → storage vacío
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.10 Dispositivos](/media/manual/5-10-dispositivos-665365c369.webp)
-
-![5.10 Dispositivos](/media/manual/5-10-dispositivos-bdd5b31d8c.webp)
-
-![5.10 Dispositivos](/media/manual/5-10-dispositivos-be560cbcbe.webp)
-
-![5.10 Dispositivos](/media/manual/5-10-dispositivos-69788b4ca3.webp)
-
-![5.10 Dispositivos](/media/manual/5-10-dispositivos-011929ed77.webp)

@@ -66,6 +66,8 @@ Hay columnas, que por defecto están ocultas, ellas pueden ser por ejemplo la de
 
 Haciendo clic sobre el icono “Descargas” situado a la derecha del icono “Mostrar/Ocultar”, se accede a un menú donde indica la posibilidad que tienes de exportar el listado de trabajadores en otro tipo de documento (puedes elegir aquel que te sea de mayor utilidad). Entre las opciones, hacia las cuales puedes exportar dicho listado, están las siguientes:
 
+![e. Mostrar/Ocultar y Acciones](/media/manual/e-mostrar-ocultar-y-acciones-0c309fe8fd.png)
+
 - Copiar: Te permite la opción de extraer mediante la copia todos los datos de los trabajadores y posteriormente pegarlos sobre un documento Excel (el cual, previamente, debes tener preparado). Es una opción más rudimentaria, ya que depende del programa con el que trabajes habitualmente, puede variar el formato al realizado el pegado del documento con todos los datos de los trabajadores.
 - CSV: Esta opción te permitirá la posibilidad de exportar todo el listado con los datos de los trabajadores en un documento del formato “Excel (CSV delimitado por comas”). En aTurnos es muy útil, ya que, para importar cualquier información al sistema, se tiene que utilizar este formato.
 - Excel: Exportar toda la información de los datos de los trabajadores que aparecen en el listado a un formato “Excel (xls.)
@@ -75,7 +77,5 @@ Haciendo clic sobre el icono “Descargas” situado a la derecha del icono “M
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![e. Mostrar/Ocultar y Acciones](/media/manual/e-mostrar-ocultar-y-acciones-0c309fe8fd.png)
 
 ![e. Mostrar/Ocultar y Acciones](/media/manual/e-mostrar-ocultar-y-acciones-24ef6c817e.png)

@@ -70,6 +70,8 @@ Una vez creada la Curva de necesidad o demanda (Véase como crear curvas de dema
 
 Desde esta ventana podrás realizar las funciones enumeradas a continuación.
 
+![Cuadro de mando](/media/manual/cuadro-de-mando-21f2208b04.webp)
+
 Período: se debe indicar el periodo durante el cual se va a insertar o visualizar la secuencia de la curva de demanda (desde/hasta).
 
 Casilla Cuadrante: Puedes seleccionar si quieres ver/crear demanda en el cuadrante o en cuadrante borrador.
@@ -81,8 +83,12 @@ Acciones: Haciendo clic en este botón la aplicación te permite realizar las si
 - Calcular contratos
 - Añadir Turno: admite agregar un turno, definiendo el día y trabajadores a los que quieres aplicarles el mismo. Es importante resaltar que dichos turnos se cargan automáticamente en el Cuadrante de los trabajadores.
 
+  ![Cuadro de mando](/media/manual/cuadro-de-mando-17edbdcd4f.png)
+
 - Añadir demanda: puedes añadir una demanda ya existente o crearla según tus indicadores de calidad del servicio (QOS). (Ver detalle en Crear Curva de demanda – Curva de demanda desde Cuadro de mando )
 - Eliminar demanda: elimina de manera definitiva una demanda creada que ya no sea de utilidad. haciendo clic en la casilla se selecciona la demanda a eliminar.
+
+  ![Cuadro de mando](/media/manual/cuadro-de-mando-bcf3d2af50.png)
 
 La ventana mostrará un gráfico de barras en el que se han dispuesto horizontalmente los valores de la cobertura o demanda, y los días según el periodo informado.
 
@@ -90,28 +96,18 @@ Ayuda a visualizar fácilmente el comportamiento de los datos de la(s) demanda(s
 
 Leyenda: Cada color de las barras representa los valores de las demandas que tengas añadidas en el gráfico, y se visualiza siempre en color rojo los trabajadores planificados. Haciendo clic sobre alguno de los datos de la leyenda (Trabajadores o nombre de la curva de demanda) podrás ocultarla (no la elimina) y/o mostrarla nuevamente. Ejemplo:
 
+![Cuadro de mando](/media/manual/cuadro-de-mando-b85e85de5e.webp)
+
 De igual forma, posicionando el cursor sobre alguna de las barras se revela el detalle de la demanda y trabajador para ese momento en específico (día y hora) como se presenta:
+
+![Cuadro de mando](/media/manual/cuadro-de-mando-28ede99b06.png)
 
 Resume las horas que genera ese modelo, como lo son horas demandadas, horas por exceso y por defecto. También identifica punto de mayor demanda, Mayor necesidad de trabajadores (día y hora) y Mayor exceso de trabajadores (día y hora).
 
 Adicionalmente, haciendo clic en el icono de “Tabla de cobertura del equipo” se mostrará la cantidad de personas que están cubriendo cada hora por día (según período establecido).
 
+![Cuadro de mando](/media/manual/cuadro-de-mando-4459292cf1.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Cuadro de mando](/media/manual/cuadro-de-mando-17edbdcd4f.png)
-
-![Cuadro de mando](/media/manual/cuadro-de-mando-bcf3d2af50.png)
-
-![Cuadro de mando](/media/manual/cuadro-de-mando-28ede99b06.png)
-
-![Cuadro de mando](/media/manual/cuadro-de-mando-b85e85de5e.webp)
-
-![Cuadro de mando](/media/manual/cuadro-de-mando-21f2208b04.webp)
-
-![Cuadro de mando](/media/manual/cuadro-de-mando-4459292cf1.webp)

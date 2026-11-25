@@ -70,6 +70,8 @@ Recupera el número de horas por la duración computada de un determinado tipo, 
 
 Para el turno GN12, el concepto del tipo 2 asociado a este turno recuperará 12 horas. Para recuperar las 16 horas por la duración computada del turno se deben utilizar los conceptos tipo 3.
 
+![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-f04a2a8dbe.png)
+
 Se utiliza eventualmente para el abono de horas por ciertos turnos específicos.
 
 Para recuperar el número de horas de alguno/s de los turno/s creados se debe acceder a ADMINISTRAR → NOMINAS → CONCEPTOS DE CALCULO
@@ -85,26 +87,20 @@ Para definir el concepto se debe indicar:
 - Categoría: Sí se debe calcular el número de turno solo a los trabajadores con una categoría determinada. Por defecto “Todas las categorías”
 - Filtro de días: Se puede seleccionar los días en los que debe recuperar el número de turnos indicados: Días de la semana de lunes a domingo Festivos Días previos a festivos Festivos especiales Días previos a festivos especiales Todos los días menos los festivos especiales Días de la semana de lunes a domingo (incluyendo festivos). La diferencia entre los “Días de la semana de lunes a domingo” y “Días de la semana de lunes a domingo (incluyendo festivos)” está en lo que se indique en la configuración de los festivos a nivel de equipo.
 
+  ![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-760452fd0f.png)
+
 En el caso de que esté marcado sábados y domingos como festivos en los ajustes del equipo, si se desea recuperar el número de turnos en sábado o en domingo el filtro a seleccionar sería “Sábados (incluyendo festivos)” y/o “Domingos (incluyendo festivos)”
 
 - Absentismo: Se puede indicar un absentismo, en el caso de que el trabajador tenga un turno con un absentismo total devolverá valor. No tiene en cuenta los absentismos temporales ni los periodos de absentismo.
 - Incluir Peticiones de Vacaciones: En el caso de que el trabajador tenga planificado el turno definido el concepto y sobre ese turno se han aprobado unas vacaciones (a través de una petición realizada en aTurnos) recupera valor, se considera el turno como trabajado.
 - Tipos de turno: Se debe informar el tipo de turno o los tipos de turno que debe tener en cuenta el conceptos.
 
+  ![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-a895dec43a.png)
+
 El trabajador tiene la siguiente planificación, el concepto creado recuperará las horas computadas del turno GN12
+
+![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-10691740f3.png)
 
 Al recuperar las horas de la duración computada a través de ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA recupera las 16 horas (el día 11 de julio) indicadas en el turno creado anteriormente.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-f04a2a8dbe.png)
-
-![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-760452fd0f.png)
-
 ![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-d16dfbc0ad.png)
-
-![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-a895dec43a.png)
-
-![Conceptos tipo 2: Horas computadas del tipo de turno seleccionado](/media/manual/conceptos-tipo-2-horas-computadas-del-tipo-de-turno-seleccionado-10691740f3.png)

@@ -60,6 +60,8 @@ order: 1
 
 Esta barra de herramientas se mantendrá fija mientras navegas por las distintas páginas de aTurnos. Las funciones que la componen son las siguientes:.
 
+![1.2 Barra superior de la pantalla](/media/manual/1-2-barra-superior-de-la-pantalla-a108aa31a4.png)
+
 ### Contacto
 
 Se hace especial mención de este punto por la importancia que tiene para la gestión de incidencias de aTurnos. A continuación te damos más detalles acerca de su utilidad.
@@ -68,22 +70,16 @@ En la barra superior de la pantalla del equipo se encuentra el icono de un sobre
 
 Esta acción, en inicio, solo la podrá realizar un usuario con rol de administrador total o de superusuario, a menos que sea solicitado el acceso a los demás roles (trabajador, administrador validador y/o planificador) y se configuren los permisos del equipo.
 
+![Contacto](/media/manual/contacto-a848c9c18f.png)
+
 La consulta será enviada al departamento de soporte, quienes analizarán el asunto y darán soluciones al usuario que se ha puesto en contacto por este medio.
 
+![Contacto](/media/manual/contacto-cde253db39.png)
+
 Una vez resuelta la incidencia, duda o sugerencia, nuestro equipo cambiará el estado del ticket a “resuelta”. El usuario en cualquier momento puede realizar un seguimiento del ticket, accediendo al centro de ayuda de aTurnos desde los enlaces que se adjuntan en los mails que recibe al generarse el ticket.
+
+![Contacto](/media/manual/contacto-df00841124.png)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.2 Barra superior de la pantalla](/media/manual/1-2-barra-superior-de-la-pantalla-a108aa31a4.png)
-
-![Contacto](/media/manual/contacto-cde253db39.png)
-
-![Contacto](/media/manual/contacto-a848c9c18f.png)
-
-![Contacto](/media/manual/contacto-df00841124.png)

@@ -58,6 +58,8 @@ Aprende a modifica las localizaciones, con instrucciones y contexto revisables p
 ## Procedimiento
 Al gestionar un equipo puede haber cambios completos de un día en un servicio, en un departamento, en un centro de trabajo, con los que en aTurnos se trabaja con las localizaciones. Desde esta función, se cambian las localizaciones de los turnos planificados en el día que se seleccione al hacer clic con el ratón.
 
+![7. Modifica las localizaciones](/media/manual/7-modifica-las-localizaciones-7587910877.webp)
+
 Para ello, una vez seleccionada la acción “Localización Turno”, se desplegará un menú contextual con todas las localizaciones creadas. Para modificarla, simplemente se debe hacer clic en aquella que se quiere aplicar a todos los turnos de los trabajadores de ese día.
 
 En este mismo desplegable aparecen dos opciones adicionales: Cambiar localización entre fechas y Quitar localización.
@@ -68,12 +70,10 @@ Esta opción abre una ventana emergente que te permite modificar durante un peri
 
 El resultado es que después del día 19 de septiembre, vuelve a tener los turnos en la localización Marketing dptment
 
+![7. Modifica las localizaciones](/media/manual/7-modifica-las-localizaciones-7547f47187.webp)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![7. Modifica las localizaciones](/media/manual/7-modifica-las-localizaciones-8d5decd2b8.webp)
-
-![7. Modifica las localizaciones](/media/manual/7-modifica-las-localizaciones-7587910877.webp)
-
-![7. Modifica las localizaciones](/media/manual/7-modifica-las-localizaciones-7547f47187.webp)

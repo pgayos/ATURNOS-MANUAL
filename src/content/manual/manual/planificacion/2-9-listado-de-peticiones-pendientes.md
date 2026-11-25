@@ -56,15 +56,11 @@ order: 1
 
 Aquí encuentras todas las peticiones pendientes por aprobar en los equipos en los que eres superusuario. Haciendo clic en “Acción” te permite navegar a la petición que selecciones.
 
+![2.9 Listado de peticiones pendientes](/media/manual/2-9-listado-de-peticiones-pendientes-3113664974.png)
+
 ## Procedimiento
 En la primera columna aparece el nombre del equipo de las peticiones de permisos y cambios de turnos pendientes por gestionar y en la última columna, llamada acción, aparece 3 botones funcionales: vista del estado de las peticiones, aceptar y denegar las mismas. Al hacer clic en cualquiera de ellos, el superusuario accede a la página de peticiones y cambios del equipo asociado a la petición que quiere gestionar, donde realizará la gestión de la solicitud pendiente.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.9 Listado de peticiones pendientes](/media/manual/2-9-listado-de-peticiones-pendientes-3113664974.png)

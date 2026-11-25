@@ -60,6 +60,8 @@ Las medidas de personal de Gestión de Personal sirven para registrar en el sist
 
 Además, estos tipos de medidas puedan afectar tanto en las altas como en las bajas.
 
+![1.4. Medidas](/media/manual/1-4-medidas-8897555bad.png)
+
 Para añadir una nueva medida, se debe hacer clic en ‘Acciones’, desplegándose el botón ‘Nueva medida’.
 
 Estas opciones para configurar las medidas son acumulables y se ejecutan en el orden definido.
@@ -72,17 +74,11 @@ Estas opciones para configurar las medidas son acumulables y se ejecutan en el o
 
 Al añadir une nueva medida de las enumeradas anteriormente, debemos completar el siguiente formulario:
 
+![1.4. Medidas](/media/manual/1-4-medidas-84cdcead6c.png)
+
 - Nombre: descripción de la medida.
 - Tipo: si afecta a un alta o una baja de los trabajadores.
 - Calcular vacaciones con respecto al porcentaje de jornada: si o no.
 - Ajustar los excesos o defecto de las horas de contrato: si o no.
 - Ajustar los excesos o defecto de las vacaciones: si o no.
 - Contrato sin vacaciones: si o no.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.4. Medidas](/media/manual/1-4-medidas-8897555bad.png)
-
-![1.4. Medidas](/media/manual/1-4-medidas-84cdcead6c.png)

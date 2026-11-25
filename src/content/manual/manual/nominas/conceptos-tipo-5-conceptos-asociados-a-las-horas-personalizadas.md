@@ -82,6 +82,8 @@ A través de PLANIFICADOR → TIPOS DE TURNO → Pestaña Horas se visualiza si 
 
 5.3.- Recupera el número de días en los que se ha planificadas el tipo de horas “Ejemplo Manual”.
 
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-37ecd45992.png)
+
 5.4.- Recupera el número de veces en los que se ha planificado el tipo de horas “Ejemplo Manual”, pudiendo filtrar por:
 
 - La localización de las horas del tipo indicado
@@ -116,6 +118,8 @@ El trabajador tiene en el cuadrante:
 
 - El día 7 de junio tiene planificadas Horas del tipo “Ejemplo Manual” desde las 20:00 a las 08:00 del día 8 de junio: 12 horas
 
+  ![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-860b4aa03d.png)
+
 La estadística que se visualiza desde ADMINISTRAR → NOMINAS → ESTADISTICA DIARIA es:
 
 5.1.- El concepto número de horas con coeficiente son 18, de decir las 12 horas del tipo “Ejemplo Manual” (de 20:00 a 08:00) multiplicadas por el coeficiente 1,5 que está indicado en el tipo de hora.
@@ -131,6 +135,8 @@ La estadística que se visualiza desde ADMINISTRAR → NOMINAS → ESTADISTICA D
 5.6.- Las horas diurnas del tipo “Ejemplo Manual son 2, desde las 20:00 a las 22:00
 
 5.7.- Las horas nocturnas del tipo “Ejemplo Manual son 10, desde las 22:00 hasta las 00:00 del día 7 de junio más las 08:00 desde las 00:00 hasta las 08:00 del día 8.
+
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-178f0154c4.png)
 
 El trabajador tiene el día 9 planificadas:
 
@@ -154,6 +160,8 @@ La estadística que se visualiza desde ADMINISTRAR → NOMINAS → ESTADISTICA D
 
 5.7.- Las horas nocturnas del tipo “Ejemplo Manual son 1, desde las 07:00 hasta las 09:00.
 
+![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-d046377d1d.png)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
@@ -162,8 +170,6 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 
 ![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-54e2facdc8.png)
 
-![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-37ecd45992.png)
-
 ![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-fab59eb79a.png)
 
 ![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-6c0040db63.png)
@@ -171,9 +177,3 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 ![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-0b57d1a650.png)
 
 ![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-b00bf0997a.png)
-
-![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-860b4aa03d.png)
-
-![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-178f0154c4.png)
-
-![Conceptos tipo 5.: Conceptos asociados a las horas personalizadas](/media/manual/conceptos-tipo-5-conceptos-asociados-a-las-horas-personalizadas-d046377d1d.png)

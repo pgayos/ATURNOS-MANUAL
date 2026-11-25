@@ -80,11 +80,15 @@ Además de estos 2 permisos anteriores, hay que tener en cuenta otros requisitos
 - El cambio de turnos entre trabajadores no se puede realizar en fecha anterior a la de hoy, es decir el sistema no permite cambios de turnos en el pasado.
 - Tener en cuenta, el periodo de antelación en la que se permite hacer cambios de turnos (ver Días de antelación en los cambios ).
 
+  ![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-5c383f9488.png)
+
 En aTurnos, existen tres tipos de cambios de turnos: Intercambia r turno en el mismo día, Librar un turno planificado, o doblar turno en el mismo día.
 
 Cuando un trabajador necesita cambiar un turno en el mismo día, el ejemplo habitual es un trabajador con turno M (de mañana) quiere cambiar el turno por otro trabajador que lo tiene por la tarde (T), de manera que al realizar el intercambio, se modifica la planificación. Al seleccionar la opción “Intercambio “, la aplicación muestra a todos los trabajadores con turno (distinto) del que tiene el trabajador solicitante.
 
 El sistema permite un cambio de turno en el mismo día entre tipos de turnos diferentes con el fin de garantizar que la cobertura sea la misma antes del proceso del cambio.
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-3a95d409fc.png)
 
 ¿Cómo se solicita un cambio tipo intercambio de turno?
 
@@ -96,6 +100,8 @@ No aparecerán trabajadores con un turno, ni trabajadores con jornadas partidas 
 
 Una vez seleccionado el turno (y el trabajador), debe aprobarla el trabajador de destino, y el administrador, una vez apruebe o deniegue el intercambio, recibirá un aviso en aTurnos, o en el correo o móvil (si tiene los permisos activados). El proceso de validación de cambios se realiza en el menú peticiones y cambios, en la opción cambios pendientes.
 
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-8a97977ea6.png)
+
 En la validación final de los cambios pendientes el administrador puede validar los dos cambios que se generan en este tipo (intercambio) a la vez, con tan solo clicar en la acción de aceptar el cambio en uno de ellos se validará los dos registros generados en este cambio. Esta opción es posible en este tipo de cambios, en los tipos de cambios libres y doblajes no es posible, al no ser en el mismo día donde se generan los cambios, y el administrador puede decidir validar un día y otro no.
 
 En este tipo de cambio el trabajador selecciona un turno que tiene planificado con el fin de que ese turno lo realice otro trabajador. El trabajador puede librar ese día (en el caso que solo tenga 1 turno planificado en ese día).
@@ -104,6 +110,8 @@ Si el trabajador en un mismo día tiene más de un turno planificado, dispone de
 
 - Puede liberarse de un solo turno (Libre turno seleccionado), el turno que seleccione será el turno que se libera de hacer y se planificará en el día libre del trabajador que ha aceptado el cambio.
 - Puede liberarse de todos los turnos planificados que tenga el mismo día (Libre día completo), y quedar libre de planificación en esta segunda opción, porque los turnos de ese día se insertarán en el trabajador que haya aceptado previamente este tipo de cambios de libres.
+
+  ![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-a6556c8b49.png)
 
 ¿Cómo se solicita un cambio de turno tipo libre?
 
@@ -115,9 +123,15 @@ El sistema no muestra a los trabajadores que ya tienen planificación, porque ac
 
 - Si ‘ Dejar a deber ‘ el turno: el trabajador que antes tenía turno y con el cambio libra, deja a deber el turno para gestionarlo en otra ocasión, y más adelante asumirá el turno del trabajador que le hizo su turno. Si se deja a deber puede consultar las deudas entre los trabajadores en Registro → Debe / Haber Turno (ver Debe/Haber Turnos ), en caso de que se devuelva el cambio no genera “deudas” de turnos.
 
+  ![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-c8eb8ac171.png)
+
 - Si realiza “Devolver cambio” de turno: en el mismo proceso de cambio de turno, cierra la gestión de cambios sin quedar nada pendiente. Si el trabajador (A), hace un turno para que el trabajador (B) libre, aTurnos te da la opción para que el trabajador (A) elija un día en el cuadrante para que el trabajador (B) realice un turno del trabajador (A).
 
+  ![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-8b92e25279.png)
+
 En este tipo de cambio el trabajador selecciona un turno que tiene planificado con el fin de que ese turno lo realice otro trabajador (con planificación previa). El trabajador puede librar ese día (en el caso que solo tenga 1 turno planificado en ese día) haciendo doblar al compañero que acepta el turno.
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-1bf25f9a22.png)
 
 Si en ese día tiene más de un turno, el turno que seleccione será el turno que se cambie en el cuadrante y planificación del trabajador que lo acepte.
 
@@ -127,7 +141,11 @@ Por ejemplo, si el trabajador que solicita tiene un turno M (de mañana) y quier
 
 Al marcar el día, la aplicación muestra a todos los trabajadores que tienen turno (distinto a la M del trabajador de origen del ejemplo) el día asignado, al seleccionar el turno y trabajador de destino, debes indicar si el turno se deja a deber o se devuelve (igual que lo comentado en el Hacer cambio → Libre).
 
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-647baee6d8.png)
+
 De la misma forma que con el cambio de “Libre “, el trabajador puede devolver ese turno que no hace al trabajador destino del cambio, seleccionando otro día en el cuadrante del trabajador destino.
+
+![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-8ea361702f.png)
 
 Una de las principales funcionalidades de aTurnos, es permitir que los trabajadores de un mismo equipo puedan solicitar un cambio de turno a otro compañero.
 
@@ -147,7 +165,13 @@ Este proceso de cambio consiste en que un trabajador puede cambiar el turno plan
 
 El trabajador desde el cuadrante, sobre un turno planificado seleccionar la opción “Libre “, la aplicación muestra todos los días libres disponibles (es decir, sin turno asignado).
 
+![¿Cómo realizar un cambio de turno por un libre un trabajador, a sí mismo?](/media/manual/como-realizar-un-cambio-de-turno-por-un-libre-un-trabajador-a-si-mismo-5893d53b11.png)
+
+![¿Cómo realizar un cambio de turno por un libre un trabajador, a sí mismo?](/media/manual/como-realizar-un-cambio-de-turno-por-un-libre-un-trabajador-a-si-mismo-b5a7706d00.png)
+
 Cuando el trabajador selecciona el día, aparece un formulario que resume el cambio y con la opción de poner un comentario antes de guardarlo.
+
+![¿Cómo realizar un cambio de turno por un libre un trabajador, a sí mismo?](/media/manual/como-realizar-un-cambio-de-turno-por-un-libre-un-trabajador-a-si-mismo-88f7038bdb.png)
 
 Más especificaciones sobre la configuración del equipo relacionada con los cambios de turnos: acceda a este enlace.
 
@@ -159,28 +183,4 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-a6556c8b49.png)
-
-![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-5c383f9488.png)
-
-![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-8a97977ea6.png)
-
-![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-1bf25f9a22.png)
-
-![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-c8eb8ac171.png)
-
-![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-3a95d409fc.png)
-
 ![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-fa89b4c4a8.png)
-
-![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-8ea361702f.png)
-
-![¿Cómo realizar un cambio de turno por un libre un trabajador, a sí mismo?](/media/manual/como-realizar-un-cambio-de-turno-por-un-libre-un-trabajador-a-si-mismo-5893d53b11.png)
-
-![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-647baee6d8.png)
-
-![Hacer cambio de turnos entre trabajadores](/media/manual/hacer-cambio-de-turnos-entre-trabajadores-8b92e25279.png)
-
-![¿Cómo realizar un cambio de turno por un libre un trabajador, a sí mismo?](/media/manual/como-realizar-un-cambio-de-turno-por-un-libre-un-trabajador-a-si-mismo-b5a7706d00.png)
-
-![¿Cómo realizar un cambio de turno por un libre un trabajador, a sí mismo?](/media/manual/como-realizar-un-cambio-de-turno-por-un-libre-un-trabajador-a-si-mismo-88f7038bdb.png)

@@ -66,34 +66,60 @@ Tenemos que seguir los siguientes pasos:
 
 1. Entrar en Configuración, en la barra superior.
 
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-6a7420c885.webp)
+
 1. En Configuración, hacer clic en el icono que aparece en la zona inferior, llamado Agente USB.
+
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-c9be039adc.webp)
 
 1. En Agente USB, tendremos que descargar el software que nos permitirá instalar el Dispositivo USB en el ordenador y poderlo localizar en Biostar2. Para ello tiene que hacer clic en Descargar.
 
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-bef8087c39.webp)
+
 1. Descargado el software, procederemos a su instalación.
 
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-523ba8e4a0.webp)
+
 1. Accedemos a nuestro apartado de Descargas o a la carpeta Descargas de nuestro ordenador. Después accionamos el ejecutable para instalar el dispositivo, que previamente debe haberse conectado en un puerto USB del ordenador.
+
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-42ed7360c0.webp)
 
 1. Aceptamos realizar cambios pinchando en Sí.
 2. Abierto el instalador, cliqueamos en Ok para aceptar el idioma English.
 
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-dabfdaa44a.webp)
+
 1. Seleccionamos I Accept the agreement. Y hacemos clic en Next.
+
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-8345ccf678.webp)
 
 1. Confirmamos que está seleccionada la opción USB Device Agent y pinchamos en Next.
 
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-ccc997b4dc.webp)
+
 1. Pulsamos nuevamente Next.
 
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-39995a28b1.webp)
+
 1. Y finalmente pinchamos en Install.
+
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-139a4d7caa.webp)
 
 1. Una vez instalado, nos aparecerá un icono en el menú de iconos ocultos del Área de Notificaciones de nuestra Barra de Tareas. Haciendo clic sobre el icono, aparecerá un submenú, pinchamos en Setup.
 
 1. Se nos abrirá el estado en el que se encuentra nuestro dispositivo. Si la opción Start aparece como deshabilitada y que no se puede cliquear, es que nuestro dispositivo se encuentra correctamente instalado.
 
+   ![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-9be8c8929d.webp)
+
 ### Localización de Dispositivo USB
 
 Volvemos a nuestra ventana de usuario de Biostar2 en el navegador y accedemos al menú de Dispositivos, pinchando en la pestaña de la barra lateral izquierda con dicho nombre.
 
+![Localización de Dispositivo USB](/media/manual/localizacion-de-dispositivo-usb-d275214922.webp)
+
 A la derecha de esta barra, encontramos el panel de dispositivos, donde se muestran todos aquellos dispositivos que están sincronizados con los Grupos de Usuarios que gestiona el administrador. En la última raíz del árbol de dispositivos, encontramos Dispositivos USB, si no ha aparecido justo debajo el dispositivo instalado, haz clic sobre Dispositivo USB y se mostrará justo debajo con el nombre BioMini.
+
+![Localización de Dispositivo USB](/media/manual/localizacion-de-dispositivo-usb-80427fd216.webp)
 
 Ya tenemos configurado e instalado nuestro dispositivo, el siguiente paso será entrar en los usuarios creados previamente para comenzar la recogida de huellas. Sino aparece el dispositivo puede ser que el puerto del ordenador 8081 o 8082 estén cerrados por el Firewall. Puede consultar previamente a su técnico de redes.
 
@@ -109,9 +135,15 @@ https://suprema5-my.sharepoint.com/:f:/g/personal/yu1yu_suprema_co_kr/
 
 EttR3AGMCjlMnYNoFmPe7J0BLtTjYX13dddsTGGRmCZjug?e=tFKtK1
 
+![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-742b1d1b8c.png)
+
 Una vez tenemos descargado y descomprimido el archivo realizamos el reemplazo en la carpeta de instalación del programa.
 
+![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-0b6c74c98d.png)
+
 Cuando se ha reemplazado el archivo hay que ejecutar nuevamente el programa (preferentemente con una cuenta de administrador del equipo).
+
+![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-4e9b3a256c.png)
 
 ## PENDIENTE de validación
 
@@ -123,38 +155,6 @@ Estas imágenes proceden de la documentación pública utilizada para migrar est
 
 ![1. Instalar Dispositivos USB](/media/manual/1-instalar-dispositivos-usb-c2c140e34b.png)
 
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-523ba8e4a0.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-6a7420c885.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-c9be039adc.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-42ed7360c0.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-bef8087c39.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-dabfdaa44a.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-8345ccf678.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-ccc997b4dc.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-39995a28b1.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-139a4d7caa.webp)
-
-![Instalación de Dispositivo USB](/media/manual/instalacion-de-dispositivo-usb-9be8c8929d.webp)
-
 ![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-d7b0bad5fd.png)
 
-![Localización de Dispositivo USB](/media/manual/localizacion-de-dispositivo-usb-d275214922.webp)
-
 ![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-11d4589fa4.png)
-
-![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-742b1d1b8c.png)
-
-![Localización de Dispositivo USB](/media/manual/localizacion-de-dispositivo-usb-80427fd216.webp)
-
-![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-4e9b3a256c.png)
-
-![Actualización de Dispositivo USB](/media/manual/actualizacion-de-dispositivo-usb-0b6c74c98d.png)

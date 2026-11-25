@@ -56,6 +56,8 @@ Información sobre privacidad, con instrucciones y contexto revisables por el eq
 ## Opciones y datos disponibles
 Los datos en la gestión de personal son muy sensibles, existen configuraciones más abiertas a mostrar datos y otras más cerradas. En este caso, aTurnos permite configurar un abanico de posibilidades para ser más o menos restrictivos. Existe diferentes opciones de privacidad de datos con respecto a los trabajadores y administradores.
 
+![c. Privacidad](/media/manual/c-privacidad-1018b74ed2.png)
+
 Esta opción permite que el administrador total de un equipo no aparezca en el cuadrante. Es frecuente que los administradores totales tengan accesos a equipos donde no se planifiquen, y por ello se prefiere que no aparezca en el cuadrante. Sin embargo, puede darse el caso contrario, donde el administrador necesita una planifcación y por ello es necesario que aparezca en el cuadrante y ser planificable.
 
 - SI, el administrador no aparecerá en el cuadrante para ser planificado.
@@ -84,6 +86,8 @@ Al delimitar la visibilidad por localizaciones, se mostrarán dos opciones adici
 
 Se puede desde no limitar los niveles visualizados (ve todos los niveles de la jerarquía de localizaciones), pasando porque solo pueda ver su nivel jerárquico de la localización o que se limite hasta 7 niveles de la jerarquía creados.
 
+![c. Privacidad](/media/manual/c-privacidad-4458d3d1da.png)
+
 ‘ Ver turnos de otras localizaciones’ con la opción en ‘SI’ el trabajador podrá ver los turnos que tengan sus compañeros asignados a cualquier localización, siempre que tengan informado al menos un turno con su misma localización por defecto. El trabajador podrá ver toda la planificación de turnos y horas del compañero, incluyendo las informadas en otras localizaciones distintas a la suya.
 
 - SI, los trabajadores no tendrán información de la localización en la que se encuentran destinados sus turnos. Puede ser interesante, si no quieres que vean su asignación de localización.
@@ -94,10 +98,14 @@ Se puede desde no limitar los niveles visualizados (ve todos los niveles de la j
 
 Informa el rol mínimo de administradores, a partir del cual se puede insertar absentismos temporales o totales en su propia planificación.
 
+![c. Privacidad](/media/manual/c-privacidad-7464b3c852.png)
+
 Este permiso bloquea el acceso al equipo a determinados roles de aTurnos, tales como: trabajador, administrador validador y administrador planificador.
 
 - SI, bloquea el acceso.
 - NO, trabajadores, validadores y planificadores acceden al equipo. Dependiendo de la opción seleccionada.
+
+  ![c. Privacidad](/media/manual/c-privacidad-422fc3fe9f.png)
 
 Normalmente, los usuarios son activados por los administradores cuando son añadidos a un equipo, a su correo electrónico les llegará un enlace de activación y una contraseña. Una vez acceden al equipo con esa contraseña, este permiso obliga a que los trabajadores cambien esa contraseña por una propia.
 
@@ -127,18 +135,6 @@ Esta función permite que cuando los trabajadores vean una acción en el ‘ Reg
 - SI, el trabajador podrá ver su propio tooltip flotante (resumen de horas planificadas, vacaciones, …) en el cuadrante cuando coloca el cursor/ratón por encima de su nombre.
 - NO, el trabajador podrá ver su propio tooltip flotante.
 
+  ![c. Privacidad](/media/manual/c-privacidad-f036f4ecce.png)
+
 Los roles de validador y planificador solo pueden realizar peticiones a los trabajadores en aquellas localizaciones que compartan con ellos. Esto significa que, por defecto, solo podrán interactuar con trabajadores asignados a las mismas ubicaciones. En caso de que no exista una localización compartida, el validador o planificador podrá igualmente realizar peticiones si tiene permisos de gestión sobre la localización en cuestión, aunque el trabajador no la tenga asignada.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![c. Privacidad](/media/manual/c-privacidad-4458d3d1da.png)
-
-![c. Privacidad](/media/manual/c-privacidad-7464b3c852.png)
-
-![c. Privacidad](/media/manual/c-privacidad-422fc3fe9f.png)
-
-![c. Privacidad](/media/manual/c-privacidad-f036f4ecce.png)
-
-![c. Privacidad](/media/manual/c-privacidad-1018b74ed2.png)

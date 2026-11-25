@@ -80,9 +80,13 @@ Para definir el concepto se debe indicar:
 - Categoría: Sí se debe calcular el número de turno solo a los trabajadores con una categoría determinada. Por defecto “Todas las categorías”
 - Filtro de días: Se puede seleccionar los días en los que debe recuperar el número de turnos indicados: Días de la semana de lunes a domingo Festivos Días previos a festivos Festivos especiales Días previos a festivos especiales Todos los días menos los festivos especiales Días de la semana de lunes a domingo (incluyendo festivos). La diferencia entre los “Días de la semana de lunes a domingo” y “Días de la semana de lunes a domingo (incluyendo festivos)” está en lo que se indique en la configuración de los festivos a nivel de equipo. En el caso de que esté marcado sábados y domingos como festivos en los ajustes del equipo, si se desea recuperar el número de turnos en sábado o en domingo el filtro a seleccionar sería “Sábados (incluyendo festivos)” y/o “Domingos (incluyendo festivos)”
 
+  ![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-869f43a352.png)
+
 - Absentismo: Se puede indicar un absentismo, en el caso de que el trabajador tenga un turno con un absentismo total devolverá valor. No tiene en cuenta los absentismos temporales ni los periodos de absentismo.
 - Incluir Peticiones de Vacaciones: En el caso de que el trabajador tenga planificado el turno definido el concepto y sobre ese turno se han aprobado unas vacaciones (a través de una petición realizada en aTurnos) recupera valor, se considera el turno como trabajado.
 - Tipos de turno: Se debe informar el tipo de turno o los tipos de turno que debe tener en cuenta el conceptos.
+
+  ![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-4b1fe49f5b.png)
 
 En el cuadrante el trabajado tiene la siguiente planificación:
 
@@ -90,18 +94,10 @@ Los días 4, 8, 12 (con absentismo no justificado), el día 14 (con absentismo n
 
 Si el turno tiene informado un absentismo no justificado o un absentismo no productivo no recupera valor, el trabajador no ha prestado servicio el turno que genera el derecho al abono en la nómina.
 
-A través de ADMINISTRAR → NOMINAS → ESTADÍSTICA DIARIA, se visualizan los resultados.
-
-En el caso que el convenio establezca un valor distinto a 1 cuando el trabajador tiene el turno planificado, recordad que a través de los conceptos que operan entre conceptos se puede multiplicar por un valor distinto. En este enlace Ejemplo multiplicación por campo fijo, se describe el proceso.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-869f43a352.png)
-
 ![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-5f85fdc582.png)
 
-![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-4b1fe49f5b.png)
+A través de ADMINISTRAR → NOMINAS → ESTADÍSTICA DIARIA, se visualizan los resultados.
 
 ![Conceptos tipo 4: Conceptos asociados a los tipos de turnos](/media/manual/conceptos-tipo-4-conceptos-asociados-a-los-tipos-de-turnos-fbb3b99533.png)
+
+En el caso que el convenio establezca un valor distinto a 1 cuando el trabajador tiene el turno planificado, recordad que a través de los conceptos que operan entre conceptos se puede multiplicar por un valor distinto. En este enlace Ejemplo multiplicación por campo fijo, se describe el proceso.

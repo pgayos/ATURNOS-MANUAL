@@ -74,8 +74,4 @@ Cuando se precise cerrar el cuadrante y/o validar, así como modificar la fecha 
 
 Seleccionando la opción (cerrar cuadrante, validar cuadrante o fecha de exportación) aparece un submenú donde informar la nueva fecha.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![10.3 Cierre por empleado, fecha de validación y último día exportado (por trabajador)](/media/manual/10-3-cierre-por-empleado-fecha-de-validacion-y-ultimo-dia-exportado-po-c60ec576ce.png)

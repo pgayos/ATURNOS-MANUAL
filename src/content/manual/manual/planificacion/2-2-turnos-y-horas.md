@@ -58,11 +58,17 @@ Aprende a turnos y horas, con instrucciones y contexto revisables por el equipo 
 ## Procedimiento
 Se puede obtener información de los turnos y de los diferentes tipos de horas de manera detallada o resumida (Ej. en un período de tiempo, de un trabajador en específico) que estén planificadas en los equipos que se gestionan como superusuario.
 
+![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-c60b88afb6.png)
+
 Se pueden seleccionar tantos equipos se necesite cargar los datos de los turnos y tipos de horas planificados. Para facilitar la búsqueda, se puede introducir el nombre del equipo de trabajo. También se podrán elegir todos aquellos equipos que dependan de un equipo o jerarquía superior.
+
+![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-55b192a12b.png)
 
 Una vez seleccionados los equipos, haciendo clic en “Cargar” se mostrarán los resultados.
 
 Cada tipo de evento tiene su listado al que acceder en cada pestaña. Se encontrará el trabajador planificado, el equipo, la fecha y las horas computadas del turno o el tipo de hora.
+
+![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-7702e818c7.png)
 
 - Turnos
 
@@ -70,20 +76,10 @@ Más detalle sobre el turno planificado: la abreviatura del turno y la localizac
 
 - Tipos de horas
 
+  ![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-e80f2ce1d1.png)
+
 Más detalle del tipo de hora planificado. La hora de inicio y fin planificada, la horas de duración, comentario si existiese, la localización y por último la descripción del tipo de hora añadida.
 
 Desde esta función se tiene la opción de descargar el listado con los resultados en Excel o PDF
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-7702e818c7.png)
-
-![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-55b192a12b.png)
-
-![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-c60b88afb6.png)
-
 ![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-834460cc08.png)
-
-![2.2 Turnos y horas](/media/manual/2-2-turnos-y-horas-e80f2ce1d1.png)

@@ -65,9 +65,15 @@ Para identificar el equipo (puede relacionarse con una estructura organizativa d
 - Descripción.
 - Sustitución: Si en tu sector hay mucha rotación, probablemente necesites que estos trabajadores estén agrupados, si marcas si, todos los trabajadores con la misma posición aparecen agrupados en el cuadrante.
 
+  ![2.5 Posiciones](/media/manual/2-5-posiciones-7b2af55663.png)
+
 En el ejemplo, la posición v0204-1 está asociada al EQUIPO 1, con el rol de trabajador y asignado a la localización Oficina. Una posición puede estar asociada a varios equipos, cuando se es trabajador en un equipo y supervisor en otro.
 
+![2.5 Posiciones](/media/manual/2-5-posiciones-b0de09906c.png)
+
 Una posición puede estar asociada a varios equipos, cuando se es trabajador en un equipo y supervisor en otro.
+
+![2.5 Posiciones](/media/manual/2-5-posiciones-11ce8644ba.png)
 
 Dar de baja una posición es un proceso necesario cuando ésta ya no pertenece a un equipo, e interviene en proceso de integración. De esta manera se pueden evitar duplicidad de trabajadores en más de un equipo, por ejemplo.
 
@@ -77,18 +83,8 @@ A continuación, te contamos como lo puede hacer un superusuario:
 - 2º Buscar, con ayuda del filtro la posición. El sistema filtra por la posición que se ha informado y mostrará a modo de tabla los equipos que tiene asociada la posición.
 - 3º Dar de baja la posición en el equipo, eliminando la posición con el botón borrar de acción.
 
+  ![2.5 Posiciones](/media/manual/2-5-posiciones-15ecd96dd6.webp)
+
 - 1º Acceder desde Menú/RRHH opción Registros/Posiciones.
 - 2º Buscar, con ayuda del filtro el equipo en la que se quiera borrar las posiciones. El sistema filtra por el equipo informado y mostrará todas las posiciones a modo de tabla tiene asociada el equipo.
 - 3º Dar de baja las posiciones en el equipo, eliminando la posición con el botón borrar de acción.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.5 Posiciones](/media/manual/2-5-posiciones-7b2af55663.png)
-
-![2.5 Posiciones](/media/manual/2-5-posiciones-b0de09906c.png)
-
-![2.5 Posiciones](/media/manual/2-5-posiciones-11ce8644ba.png)
-
-![2.5 Posiciones](/media/manual/2-5-posiciones-15ecd96dd6.webp)

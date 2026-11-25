@@ -60,24 +60,20 @@ El cuadrante es la herramienta principal de un trabajador dentro de aTurnos. Si 
 
 - Solo tu planificación.
 
+  ![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-2bc52d97ff.webp)
+
 - La planificación de los trabajadores de tu localización.
+
+  ![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-80f7accbb9.webp)
 
 - La planificación de todo el equipo.
 
+  ![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-bf50d5742e.webp)
+
 La ventana del Cuadrante dispone de diferentes menús a través de los cuales acceder a las funciones. También muestra una leyenda con colores, diferenciando las acciones que se han realizado en cada día. A continuación pasamos a explicar las dos partes fundamentales del cuadrante:
+
+![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-4a18358a37.png)
 
 A) Barra superior del cuadrante
 
 B) Operativa diaria del cuadrante
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-4a18358a37.png)
-
-![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-80f7accbb9.webp)
-
-![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-2bc52d97ff.webp)
-
-![2.1 Cuadrante Trabajador](/media/manual/2-1-cuadrante-trabajador-bf50d5742e.webp)

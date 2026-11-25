@@ -58,6 +58,8 @@ En esta pestaña, puedes visualizar el listado histórico del total de sustituci
 
 En esta pestaña mostrará el listado mediante los siguientes campos que te explicamos de forma breve a continuación (los cuales aparecen en azul oscuro, para que así tengas sobre ellos una mejor identificación):
 
+![d. Histórico](/media/manual/d-historico-78337536c9.webp)
+
 - Trabajador a sustituir: es el trabajador el cual tiene ya registrados los turnos y/o localizaciones, así como ya realizada su planificación en el cuadrante, es decir, es al trabajador al cual se pretende cambiar la planificación para aplicarla sobre otro compañero del equipo. Ejemplo: si quieres aplicar la planificación de Jesús en otro compañero, Jesús será tu usuario origen.
 - Trabajador sustituto: es el trabajador al que se le aplica la planificación, turnos y/o localizaciones del trabajador origen. Ejemplo: se pretende aplicar la misma planificación que tiene Jesús (trabajador origen) sobre su compañera María, por lo tanto, María es la trabajadora destino.
 - Realizado: indica el usuario que realizó la acción de sustituir a los trabajadores, con el fin de que tengas mejor identificado la persona que realizó cada acción.
@@ -66,9 +68,3 @@ En esta pestaña mostrará el listado mediante los siguientes campos que te expl
 - Desde: muestra la fecha de comienzo del periodo a través del cual se aplicó la sustitución sobre el trabajador.
 - Hasta: muestra la fecha de finalización del periodo en el que se aplicó la sustitución al trabajador.
 - Fecha: indica la fecha en la cual surte efecto la acción de sustitución por parte de un determinado usuario del equipo.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![d. Histórico](/media/manual/d-historico-78337536c9.webp)

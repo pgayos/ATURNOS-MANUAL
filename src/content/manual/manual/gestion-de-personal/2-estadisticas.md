@@ -54,31 +54,27 @@ order: 1
 
 Para acceder a las estadísticas, se debe acceder al menú lateral izquierdo.
 
+![2. Estadísticas](/media/manual/2-estadisticas-b247890beb.webp)
+
 ## Qué debes saber
 Los reportes a los que tiene acceso en el módulo de Estadísticas son:
 
 1. Reportes por trabajador: en este informe el administrador total podrá ver a todos los usuarios y, sus imputaciones de tareas sin restricción alguna.
 
+   ![2. Estadísticas](/media/manual/2-estadisticas-660885fb40.webp)
+
 De la misma forma, puede obtener el reporte de balance de tareas o horas diarias en el apartado Cargar reportes.
+
+![2. Estadísticas](/media/manual/4-estadisticas-b5dfb14fa0.png)
 
 Esta misma acción se puede realizar con el reporte Balance de tareas y Horas diarias.
 
+![2. Estadísticas](/media/manual/2-estadisticas-c65181a378.png)
+
 Al ejecutar el reporte Balance de tareas, se obtendrá un reporte como el que se visualiza a continuación.
+
+![2. Estadísticas](/media/manual/2-estadisticas-4943489455.webp)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Estadísticas](/media/manual/4-estadisticas-b5dfb14fa0.png)
-
-![2. Estadísticas](/media/manual/2-estadisticas-b247890beb.webp)
-
-![2. Estadísticas](/media/manual/2-estadisticas-c65181a378.png)
-
-![2. Estadísticas](/media/manual/2-estadisticas-4943489455.webp)
-
-![2. Estadísticas](/media/manual/2-estadisticas-660885fb40.webp)

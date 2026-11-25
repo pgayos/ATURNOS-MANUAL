@@ -70,6 +70,8 @@ Por ejemplo, si el contrato del trabajador es de 1.756 horas al año, no podrá 
 
 - Flexibilidad. Permite establecer un porcentaje adicional sobre las horas anuales de contrato, que puede ser excedido antes de que se active la restricción. Por ejemplo, con un 5 % de flexibilidad sobre 1.756 horas, el sistema permitirá hasta 1.843,8 horas antes de alertar.
 
+  ![5. Límites superiores de horas de los empleados](/media/manual/5-limites-superiores-de-horas-de-los-empleados-097056c5f6.webp)
+
 En caso de que la restricción tuviera configura una “Flexibilidad” fuera del 5%, permitiría un límite de 87,8 más, siendo el total de 1.843,8 horas.
 
 Esta restricción impide que un trabajador tenga planificadas más horas en un día de las que figuran como máximas en su perfil de contrato. Se utiliza para garantizar que, diariamente, la planificación respete los límites establecidos por jornada.
@@ -179,9 +181,3 @@ Esta restricción impide que se planifiquen más horas de las permitidas en un m
 ⚙️Configuración: Esta restricción, además de la configuración básica, tiene dos campos adicionales.
 
 - Valor de restricción. Indica el número máximo de horas diarias permitido para los tipos de horas seleccionados. Tipo de horas personalizadas. Permite seleccionar uno o varios tipos de horas personalizadas sobre los que se aplicará esta limitación diaria.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5. Límites superiores de horas de los empleados](/media/manual/5-limites-superiores-de-horas-de-los-empleados-097056c5f6.webp)

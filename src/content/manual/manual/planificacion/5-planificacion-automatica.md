@@ -55,6 +55,8 @@ order: 1
 
 Una vez definidas las variables, como lo son curvas de necesidades o demanda y las restricciones, pasamos a planificar de manera automática a través del menú Planificación Automática- → Planificación Automática.
 
+![5. Planificación Automática](/media/manual/5-planificacion-automatica-0a04ba4634.png)
+
 ## Procedimiento
 Esta función te permite crear una nueva Petición de Planificación que, posteriormente, podrás aplicar al cuadrante. Se muestran 8 pasos a seguir:
 
@@ -97,6 +99,8 @@ Calcular: Una vez informados los 8 puntos, haces clic en el botón de Calcular p
 
 En este desplegable se muestran las peticiones de planificación o propuestas que se han generado, detallando el estatus de las mismas, ejemplo: Terminado, Visualizado el resultado, o Planificado (cuando se ha aplicado esa propuesta en el cuadrante). Cuando ya se ha calculado la petición aparecerá como “Terminado” (recuadro Nro. 1 del gráfico) y se mostrará un alerta en azul en el menú principal Operaciones (recuadro Nro. 2 del gráfico):
 
+![5. Planificación Automática](/media/manual/5-planificacion-automatica-8b3add20c0.webp)
+
 En el punto Nro. 1 tienes las opciones de:
 
 - Cargar: una vez seleccionas la petición, haces clic en el botón Cargar para ver la propuesta de planificación sugerida por el sistema según los parámetros que estableciste.
@@ -104,18 +108,10 @@ En el punto Nro. 1 tienes las opciones de:
 
 Al “Cargar” la propuesta se mostrará la planificación que ha calculado el algoritmo, tomando en cuenta las restricciones (tanto individuales del trabajador como las totales o colectivas del equipo), los turnos que propone el algoritmo aparecerán con un fondo morado.
 
+![5. Planificación Automática](/media/manual/5-planificacion-automatica-00a5822b77.webp)
+
 1.- Mover o cambiar el período de un trabajador; puedes cambiar la línea de planificación del trabajador para asignarle otra, haciendo clic en los iconos de las flechas de subir y/o bajar
 
 2.- Mover o cambiar el turno del día de un trabajador por otro. Puedes realizar modificaciones posteriormente sobre la propuesta de planificación para mejorarla o ajustarla mas a lo que deseas, en los turnos con fondo morado, al hacer clic en el que quieres modificar se coloreará en naranja o amarillo y luego hacer clic en el turno con el que deseas cambiarlo. Puedes validar o controlar las coberturas de la demanda en la pestaña de “Tabla Cobertura” que se ubica abajo a la derecha.
 
 3.- Aplicar en Cuadrante: luego de revisar la propuesta generada por el algoritmo y hacer los cambios (en caso de requerirlo) podrás aplicar la propuesta para registrarla directamente en el Cuadrante.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5. Planificación Automática](/media/manual/5-planificacion-automatica-0a04ba4634.png)
-
-![5. Planificación Automática](/media/manual/5-planificacion-automatica-8b3add20c0.webp)
-
-![5. Planificación Automática](/media/manual/5-planificacion-automatica-00a5822b77.webp)

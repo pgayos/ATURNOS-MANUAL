@@ -60,15 +60,11 @@ La configuración de este tipo de costes se recomienda cuando el coste que neces
 
 Esta configuración de coste de por turno se realiza desde el menú Planificador – Tipos de turno, al crear o entrar a editar un turno:
 
+![Costes por turno](/media/manual/costes-por-turno-572d6ee5ac.png)
+
 * Para ver más información de cómo crear o editar un Tipo de turno puedes consultar los siguientes enlaces: ¿Cómo crear los turnos de trabajo en mi equipo? y ¿Cómo editar un tipo de turno?
 
 Al tener activado el módulo de Costes aparecerán las siguientes opciones relacionadas con el módulo:
 
 - Coste por turno: se debe indicar el valor a imputar por el turno planificado, es decir, cada vez que se planifique ese turno en el cuadrante imputará el valor que se indique en el campo.
 - Suplemento: el valor que se indique en este punto se imputará adicionalmente a otros valores de costes que se tengan informados en aTurnos, es decir, si tengo ya informado un coste por categoría e indico un valor al suplemente de un turno, tomará en cuenta ambos valores (por categoría y suplemento del turno) imputando ambos en los informes.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Costes por turno](/media/manual/costes-por-turno-572d6ee5ac.png)

@@ -70,8 +70,4 @@ Accede a RRHH → NOMINAS → ESTADISTICA TODOS LOS EQUIPOS
 
 Nota: En este ejemplo, el único concepto que calcula es el número de horas nocturnas (las de dentro del periodo nocturno) cualquiera que sea el número de las realizadas, que se calcula en el concepto 3000.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![10.5 Estadística todos los equipos](/media/manual/10-5-estadistica-todos-los-equipos-2068d77e76.png)

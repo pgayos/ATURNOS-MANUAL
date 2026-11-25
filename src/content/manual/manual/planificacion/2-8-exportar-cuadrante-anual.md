@@ -65,6 +65,8 @@ El superusuario puede exportar todos los cuadrantes anuales de los trabajadores 
 Desde el menú de aTurnos en la función RRHH, al acceder a la opción Registros/Exportar cuadrante anual:
 
 1. El superusuario puede seleccionar el año del cuadrante anual y el/os equipo/os de los que quiere exportar los cuadrantes anuales de todos los trabajadores de los equipos seleccionados.
+
+   ![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-e16e5be68d.png)
 2. Cuando solicita el informe, al hacer clic en “solicitar informe”, el sistema ofrece varias opciones para generar los datos que se van a registrar informes:
 
 - Generar solo el cuadrante anual
@@ -72,16 +74,10 @@ Desde el menú de aTurnos en la función RRHH, al acceder a la opción Registros
 - Generar el cuadrante con todos los detalles. Ver información del cuadrante anual
 - Incluir la fecha de generación del informe en el propio informe
 
+  ![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-90fe1c1ed6.png)
+
 3. Cuando lo solicita la petición al hacer clic en “OK”, el sistema nos informa que la petición se ha realizado correctamente. El resultado serán los cuadrantes de todos los trabajadores de los equipos seleccionados y año indicado. Se podrá acceder a los informes y descargarlos cuando se haya generado y almacenado en el listado de Peticiones de reporte del menú.(RRHH/Peticiones de reportes).
 
-## Imágenes de referencia
+   ![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-7299e1bc09.png)
 
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-7299e1bc09.png)
-
-![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-90fe1c1ed6.png)
-
-![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-e16e5be68d.png)
-
-![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-b605f4f1bc.png)
+   ![2.8 Exportar cuadrante anual](/media/manual/2-8-exportar-cuadrante-anual-b605f4f1bc.png)

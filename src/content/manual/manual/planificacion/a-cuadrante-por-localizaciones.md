@@ -62,6 +62,8 @@ En aTurnos, el administrador dispone de varias opciones de cuadrante, atendiendo
 
 Es una nueva visión para el responsable o administrador del equipo que necesita consultar los turnos planificados según las Localizaciones establecidas. En este punto, es importante recordar que una localización en aTurnos es el área, tarea o localización física que tiene asignado por defecto un trabajador o un turno de trabajo. Ejemplo: la localización por defecto del trabajador sea “Hospitalización”, y la localización asignada a un turno de ese trabajador sea “Planta 1” (Ver detalles de Localizaciones).
 
+![a. Cuadrante por localizaciones](/media/manual/a-cuadrante-por-localizaciones-3f92d7386f.webp)
+
 El cuadrante por localizaciones presenta, a modo de tabla, una primera columna con todas las localizaciones, previamente creadas en el equipo (Ver Localizaciones ), y los turnos con nombre de los trabajadores que lo tienen asignado día a día, según la opción de vista del calendario que se seleccione (día, semana, mes) en la barra superior del cuadrante.
 
 A continuación mostramos las opciones y acciones que se pueden realizar desde esta funcionalidad:
@@ -78,13 +80,21 @@ Filtro: donde puede filtrar o seleccionar un dato en específico que se pretende
 
 - Filtro trabajadores: Permite filtrar por datos asociados a los trabajadores como el nombre, la localización o la experiencia:
 
+  ![Barra superior del cuadrante](/media/manual/barra-superior-del-cuadrante-9dce01bb11.webp)
+
 - Filtro de turnos: Permite filtrar por datos asociados a los turnos como el tipo de turno que se quiere filtrar, o la franja a la que corresponde:
 
+  ![Barra superior del cuadrante](/media/manual/barra-superior-del-cuadrante-be0e373e26.webp)
+
 Cuando filtramos por franja horaria, encontramos en la parte izquierda especificando la franja por la que hemos filtrado y los horarios que conforman la misma.
+
+![Barra superior del cuadrante](/media/manual/barra-superior-del-cuadrante-83a654bed8.webp)
 
 ### Tabla de cobertura
 
 La información que facilita el “Cuadrante por Localizaciones” es de utilidad cuando, por ejemplo, el Administrador necesita garantizar que ciertas localizaciones o tareas están cubiertas y cuentan con la cantidad de trabajadores requeridos. Apoyándose en el desplegable de la “Tabla de cobertura” verá la cantidad de turnos planificados en el cuadrante por localización.
+
+![Tabla de cobertura](/media/manual/tabla-de-cobertura-f901e8f1cf.webp)
 
 - Buscar trabajador para el turno: cuando la cobertura sea inferior a la demanda requerida y previamente informada, esta opción le permitirá ver los trabajadores que están disponibles para cubrir el turno y así seleccionar uno de ellos para cubrir la necesidad.
 - Añadir demanda de turno: en caso de requerir el aumento de la demanda un día puntual.
@@ -93,6 +103,8 @@ La información que facilita el “Cuadrante por Localizaciones” es de utilida
 ### Acciones en el cuadrante
 
 Este cuadrante cuenta con un menú de acciones de planificación, de manera que el Administrador pueda hacer los cambios que considere. Para acceder a este menú de acciones se debe hacer clic sobre la celda del día y localización del cuadrante.
+
+![Acciones en el cuadrante](/media/manual/acciones-en-el-cuadrante-60fea09830.webp)
 
 Es importante resaltar que todos los cambios o modificaciones que se realicen en el Cuadrante por localizaciones se actualizarán y registrarán automáticamente en el Cuadrante (principal).
 
@@ -112,19 +124,3 @@ Nuevamente resaltamos que las acciones realizadas en el Cuadrante por localizaci
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Barra superior del cuadrante](/media/manual/barra-superior-del-cuadrante-9dce01bb11.webp)
-
-![Barra superior del cuadrante](/media/manual/barra-superior-del-cuadrante-be0e373e26.webp)
-
-![a. Cuadrante por localizaciones](/media/manual/a-cuadrante-por-localizaciones-3f92d7386f.webp)
-
-![Barra superior del cuadrante](/media/manual/barra-superior-del-cuadrante-83a654bed8.webp)
-
-![Tabla de cobertura](/media/manual/tabla-de-cobertura-f901e8f1cf.webp)
-
-![Acciones en el cuadrante](/media/manual/acciones-en-el-cuadrante-60fea09830.webp)

@@ -55,6 +55,8 @@ order: 1
 
 El trabajador puede tener acceso rápido a sus fichaje día a día, para revisar si los fichaje se han realizado correctamente y validar si el estado de ese día está correcto.
 
+![2. Diario](/media/manual/2-diario-f7c6991007.png)
+
 ## Procedimiento
 Por medio de esta herramienta, el trabajador puede seleccionar el detalle del día que elija en el selector del calendario que se despliega.
 
@@ -88,27 +90,21 @@ En este apartado se indica el tiempo de más o de menos respecto al fichaje, has
 Siempre que no esté a cero, el fichaje se encuentra sin ajustar.
 
 - Día con turno sin fichajes.
+
+  ![2. Diario](/media/manual/2-diario-00844ee25a.png)
 - Día con turno, con exceso de tiempo fichado.
+
+  ![2. Diario](/media/manual/2-diario-14ce5c5c94.png)
 - Día con turno, con defecto de tiempo fichado.
+
+  ![2. Diario](/media/manual/2-diario-1ec5f6e012.png)
 
 En ocasiones puede haber errores en el registro de los fichajes del control de presencia, al hacer clic sobre este botón ‘Solicitar modificación’, se puede hacer una petición para modificar los fichajes de ese día.
 
-Se desplegará un modal con los fichajes de ese día, haciendo clic sobre el día, se puede modificar tanto la fecha, como la hora.
-
-Para realizar la petición, una vez modificada la hora del fichaje, se debe hacer clic en ‘Guardar’. Al igual que con las peticiones de fichajes, éstas pueden necesitar la validación del administrador del equipo para su modificación definitiva.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Diario](/media/manual/2-diario-00844ee25a.png)
-
 ![2. Diario](/media/manual/2-diario-f6d1398de5.png)
+
+Se desplegará un modal con los fichajes de ese día, haciendo clic sobre el día, se puede modificar tanto la fecha, como la hora.
 
 ![2. Diario](/media/manual/2-diario-6095fc343b.png)
 
-![2. Diario](/media/manual/2-diario-f7c6991007.png)
-
-![2. Diario](/media/manual/2-diario-14ce5c5c94.png)
-
-![2. Diario](/media/manual/2-diario-1ec5f6e012.png)
+Para realizar la petición, una vez modificada la hora del fichaje, se debe hacer clic en ‘Guardar’. Al igual que con las peticiones de fichajes, éstas pueden necesitar la validación del administrador del equipo para su modificación definitiva.

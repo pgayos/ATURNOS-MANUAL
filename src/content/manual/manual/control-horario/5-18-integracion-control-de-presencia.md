@@ -66,6 +66,8 @@ En este enlace ofrecemos toda la documentación sobre los parámetros de Control
 
 En este método, en el parámetro “what” primero mira si lo que se pasa es un Dato Personalizado sino, mira el “id_user” y si no el “id_employee”.
 
+![5.18 Integración Control de Presencia](/media/manual/5-18-integracion-control-de-presencia-40c52af690.webp)
+
 POST
 
 Parámetro
@@ -86,6 +88,8 @@ Parámetro
 
 En este método, el parámetro “what” únicamente mira por el “id_employee”.
 
+![5.18 Integración Control de Presencia](/media/manual/5-18-integracion-control-de-presencia-3bdee12777.webp)
+
 POST
 
 Parámetro
@@ -105,11 +109,3 @@ Parámetro
 - Request-Example:
 
 En este enlace ofrecemos toda la documentación sobre los parámetros de Control de Presencia: APIdoc
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.18 Integración Control de Presencia](/media/manual/5-18-integracion-control-de-presencia-40c52af690.webp)
-
-![5.18 Integración Control de Presencia](/media/manual/5-18-integracion-control-de-presencia-3bdee12777.webp)

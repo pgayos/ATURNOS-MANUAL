@@ -60,14 +60,10 @@ En este apartado, los trabajadores podrán ver el listado de los compañeros que
 - Llamar: símbolo del teléfono
 - Enviar correo electrónico: símbolo del Email
 
+  ![Listado de trabajadores](/media/manual/listado-de-trabajadores-f24ede0c28.png)
+
+  ![Listado de trabajadores](/media/manual/listado-de-trabajadores-d18ff03bcb.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Listado de trabajadores](/media/manual/listado-de-trabajadores-d18ff03bcb.webp)
-
-![Listado de trabajadores](/media/manual/listado-de-trabajadores-f24ede0c28.png)

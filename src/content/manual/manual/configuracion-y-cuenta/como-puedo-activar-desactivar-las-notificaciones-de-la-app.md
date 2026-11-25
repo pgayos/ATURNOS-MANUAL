@@ -63,14 +63,10 @@ En el caso de que tengas ese permiso hay 2 opciones:
 
 - Desde tu perfil, en el apartado de “Notificaciones” podrás configurar las notificaciones y desactivarlas como se muestra a continuación:
 
+  ![¿Cómo puedo activar/desactivar las notificaciones de la APP?](/media/manual/como-puedo-activar-desactivar-las-notificaciones-de-la-app-fca31aa265.png)
+
 - Desde los ajustes desde tu móvil o dispositivo, en la aplicación de aTurnos, podrás activar/desactivar las notificaciones.
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo puedo activar/desactivar las notificaciones de la APP?](/media/manual/como-puedo-activar-desactivar-las-notificaciones-de-la-app-fca31aa265.png)

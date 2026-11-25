@@ -54,8 +54,12 @@ order: 1
 
 Esta función permite cargar cualquier reporte que haya sido guardado.
 
+![6.3 Cargar reportes](/media/manual/6-3-cargar-reportes-ef956b1cc0.webp)
+
 ## Qué debes saber
 Para acceder a un reporte, se debe hacer clic sobre la descripción del reporte.
+
+![6.3 Cargar reportes](/media/manual/6-3-cargar-reportes-94f1ed7867.webp)
 
 ## Revisión requerida
 
@@ -64,11 +68,3 @@ La fuente pública de **Cargar reportes** contiene muy poca información textual
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6.3 Cargar reportes](/media/manual/6-3-cargar-reportes-ef956b1cc0.webp)
-
-![6.3 Cargar reportes](/media/manual/6-3-cargar-reportes-94f1ed7867.webp)

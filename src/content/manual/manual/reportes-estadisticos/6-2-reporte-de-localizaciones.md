@@ -56,11 +56,15 @@ order: 1
 
 Para ver más sobre las funciones de filtrado, ocultar columnas y las opciones de exportar datos, accede al siguiente enlace: Introducción de estadísticas.
 
+![6.2 Reporte de localizaciones](/media/manual/6-2-reporte-de-localizaciones-56f06a7bc9.png)
+
 Este informe te posibilitará comparar diferentes variables como: Turnos, Horas, Festivos, Vacaciones, Absentismo, Horas Extra, etc., desde las distintas localizaciones que previamente has creado en tu equipo.
 
 ### Barra superior de reportes de localizaciones
 
 Para obtener este reporte, se te muestran una serie de campos, los cuales tienes que proceder a añadir para posteriormente analizar el reporte. Dichos campos son los siguientes:
+
+![Barra superior de reportes de localizaciones](/media/manual/barra-superior-de-reportes-de-localizaciones-894f5ad2e9.png)
 
 1. Desde/hasta: elige el período a consultar.
 2. Variable: haciendo clic en el campo en blanco se desplegaran todas las opciones o variables que tiene la tabla de reportes. Elige la(s) variable(s) que deseas ver o comparar, una, dos o más, según requieras.
@@ -74,6 +78,8 @@ A partir de esta tabla, podrás construir tu propio reporte para visualizar cóm
 
 Dicha tabla se configura de la siguiente forma, y para ello se muestran una serie de variables, que son las siguientes:
 
+![Variables de las tabla del reporte de localizaciones](/media/manual/variables-de-las-tabla-del-reporte-de-localizaciones-d030200c3f.png)
+
 - Localizaciones: se define como cada una de las localizaciones que previamente has creado en tu equipo.
 - Variables seleccionables: Turnos: como periodo de tiempo definido con una hora de entrada y hora de salida, en el cual un trabajador cubre su puesto de trabajo. Jornadas: cantidad de tiempo definida en Ajustes (enlazar nuevo Administrar) que se considera como jornada en un día, dependiendo de lo estipulado en contrato de trabajo o convenio. Vacaciones: número de días de vacaciones disfrutados y planificados a la fecha por el trabajador. Libres: número de días libres de cada persona por periodo indicado. Jornadas absentismos: es la suma de absentismos de cada trabajador según la Jornada establecida por contrato o convenio. Horas: muestra el total de horas planificadas y trabajadas, dispuestas en el cuadrante de cada trabajador. Complementarias/Extras: presenta la suma de horas complementarias y extras. Horas absentismos: indica el total de horas de todos los tipos de absentismos en los que ha incurrido cada trabajador. Horas Extra: aquellas horas de trabajo que se realicen sobre la duración máxima de la jornada ordinaria de trabajo, fijada mediante convenio colectivo o, en su defecto, contrato individual. Complementaria: número de horas realizadas como adición a las horas ordinarias pactadas en el contrato a tiempo parcial. Normal: muestra las horas adicionales que se han añadido a cualquier tipo de turno por cada trabajador, que no son consideradas ni extras, ni complementarias. Horas festivas: refleja las horas planificadas en días que son declarados como festivos (domingos y festivos marcados en el calendario laboral correspondiente). Horas nocturnas: cantidad de horas realizadas en un turno considerado nocturno, entre las diez de la noche y las seis de la mañana, según estipula la legislación.
 
@@ -82,13 +88,3 @@ Todos estos datos se generan a lo largo de un periodo, el cual puede abarcar má
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6.2 Reporte de localizaciones](/media/manual/6-2-reporte-de-localizaciones-56f06a7bc9.png)
-
-![Barra superior de reportes de localizaciones](/media/manual/barra-superior-de-reportes-de-localizaciones-894f5ad2e9.png)
-
-![Variables de las tabla del reporte de localizaciones](/media/manual/variables-de-las-tabla-del-reporte-de-localizaciones-d030200c3f.png)

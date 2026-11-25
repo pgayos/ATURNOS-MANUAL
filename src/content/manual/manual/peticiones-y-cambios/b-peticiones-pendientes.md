@@ -58,6 +58,8 @@ Aprende a peticiones Pendientes, con instrucciones y contexto revisables por el 
 
 Para acceder a esta pestaña debes ir al Menú → Cuadrante → Peticiones y cambios → Pendientes. Aquí aparecerán todas las peticiones de permisos, vacaciones y horas pendientes de gestionar en el periodo seleccionado, así cómo para los filtros aplicados.
 
+![b. Peticiones Pendientes](/media/manual/b-peticiones-pendientes-981772187d.png)
+
 ### Información de las columnas
 
 - Trabajador. Nombre del trabajador que ha pedido la petición.
@@ -89,6 +91,8 @@ El asistente de peticiones es distinto para cada tipo de petición y depende de 
 2. Visualizar la lista con las peticiones que tienes pendientes de aprobar o denegar
 3. Para aprobarla, tiene que hacer clic en el botón de acciones “ir al asistente” (botón verde del check en la columna de acciones). En este caso, se abrirá la siguiente pestaña:
 
+   ![¿Cómo se aprueban las peticiones?](/media/manual/como-se-aprueban-las-peticiones-d4e383add4.png)
+
 Una vez dentro del asistente de peticiones aparecen los siguientes campos de configuración, aunque dependiendo del tipo de petición aparecen más o menos y son más o menos configurables.
 
 Este campo te permite elegir si quieres que las peticiones sustituyan la planificación del trabajador en el cuadrante.
@@ -108,6 +112,8 @@ Esta opción aparece solo si el tipo de petición es vacaciones. Esta opción no
 
 Sea la causa que sea, los administradores pueden denegar la petición solicitada por el trabajador. Para denegar la petición, la persona que administra el equipo tiene que hacer clic sobre el botón del aspa roja “Denegar petición”.
 
+![¿Cómo se deniegan las peticiones?](/media/manual/como-se-deniegan-las-peticiones-5a93d91da0.webp)
+
 Más información sobre peticiones en aTurnos:
 
 ¿Cómo puedo gestionar las peticiones de vacaciones, absentismos, turnos, horas y libres?
@@ -117,13 +123,3 @@ Más información sobre peticiones en aTurnos:
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![b. Peticiones Pendientes](/media/manual/b-peticiones-pendientes-981772187d.png)
-
-![¿Cómo se deniegan las peticiones?](/media/manual/como-se-deniegan-las-peticiones-5a93d91da0.webp)
-
-![¿Cómo se aprueban las peticiones?](/media/manual/como-se-aprueban-las-peticiones-d4e383add4.png)

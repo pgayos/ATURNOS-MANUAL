@@ -72,13 +72,23 @@ Se puede añadir los distintos tipos de ajustes que se pueden realizar de forma 
 
 Si los trabajadores no han cerrado el fichaje con una entrada o salida, esta acción insertará el fichaje al inicio o final del turno para cerrar el fichaje.
 
+![Automatizar ajustes](/media/manual/automatizar-ajustes-a12d460d5e.webp)
+
 En los equipos de trabajo se pueden configurar tipos de fichajes personalizados. El trabajador puede seleccionar un tipo que tenga configurado un tipo de hora añadida (cuando hay exceso de tiempo fichado) o un absentismo (cuando hay defecto de tiempo fichado), al ajustarse insertará ese tipo de hora o absentismo en el cuadrante.
+
+![Automatizar ajustes](/media/manual/automatizar-ajustes-219de6ba0c.webp)
 
 En los casos, donde el trabajador seleccione al fichar un tipo de fichaje ‘No computable’, al ajustarse insertará el tipo de hora o absentismo configurado en el tipo de fichaje.
 
+![Automatizar ajustes](/media/manual/automatizar-ajustes-5473039706.webp)
+
 Ajusta los fichajes de los días que tienen planificadas horas extra o complementarias cuando se ha fichado exceso o defecto de tiempo.
 
+![Automatizar ajustes](/media/manual/automatizar-ajustes-77dc15b69a.webp)
+
 En el caso de que un trabajador tenga solicitado o planificado un absentismo temporal, como por ejemplo una visita médica. Si el trabajador ficha la entrada, antes de la hora fin del absentismo, el ajuste reducirá el absentismo hasta la hora del fichaje de entrada.
+
+![Automatizar ajustes](/media/manual/automatizar-ajustes-87be5a1497.webp)
 
 ## PENDIENTE de validación
 
@@ -88,14 +98,4 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![Automatizar ajustes](/media/manual/automatizar-ajustes-a12d460d5e.webp)
-
-![Automatizar ajustes](/media/manual/automatizar-ajustes-219de6ba0c.webp)
-
 ![Automatizar ajustes](/media/manual/automatizar-ajustes-26a2a40bac.webp)
-
-![Automatizar ajustes](/media/manual/automatizar-ajustes-77dc15b69a.webp)
-
-![Automatizar ajustes](/media/manual/automatizar-ajustes-5473039706.webp)
-
-![Automatizar ajustes](/media/manual/automatizar-ajustes-87be5a1497.webp)

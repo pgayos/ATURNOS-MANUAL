@@ -57,6 +57,8 @@ order: 1
 
 Se precisa indicar si se permite descargar de nuevo los conceptos de nómina ya descargados o por el contrario una vez descargados no se permite realizar una nueva descarga.
 
+![1.2 Descarga de nómina](/media/manual/1-2-descarga-de-nomina-c02d327a98.png)
+
 ## Opciones y datos disponibles
 Las opciones disponibles son dos:
 
@@ -75,12 +77,6 @@ En la siguiente pantalla, se visualiza las tres fechas a las que hemos hecho ref
 2. Fecha de validación.
 3. Último día exportado.
 
+   ![1.2 Descarga de nómina](/media/manual/1-2-descarga-de-nomina-9e7b912d60.png)
+
 Para ver en nuestro Manual cómo se modifica la fecha de cierre del cuadrante, la fecha de validación y el último día exportado en todos los equipos (o los indicados en el filtro de equipos), haz clic aquí.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.2 Descarga de nómina](/media/manual/1-2-descarga-de-nomina-9e7b912d60.png)
-
-![1.2 Descarga de nómina](/media/manual/1-2-descarga-de-nomina-c02d327a98.png)

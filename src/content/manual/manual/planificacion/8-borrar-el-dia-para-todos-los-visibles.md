@@ -60,6 +60,8 @@ order: 1
 
 El administrador borra los turnos planificados en el día de todos los trabajadores visibles en el cuadrante, sin la posibilidad de recuperarlos.
 
+![8. Borrar el día para todos los visibles](/media/manual/8-borrar-el-dia-para-todos-los-visibles-78cbcc3030.png)
+
 ## Revisión requerida
 
 La fuente pública de **Borrar el día para todos los visibles** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
@@ -67,9 +69,3 @@ La fuente pública de **Borrar el día para todos los visibles** contiene muy po
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![8. Borrar el día para todos los visibles](/media/manual/8-borrar-el-dia-para-todos-los-visibles-78cbcc3030.png)

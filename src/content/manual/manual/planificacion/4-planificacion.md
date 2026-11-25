@@ -58,6 +58,8 @@ La atención al cliente depende de que los puestos estén planificados, si no ha
 
 Para la creación de patrones en primer lugar definiremos la jornada de trabajo o turnos de trabajo. Acceda a ADMINISTRAR → TIPOS DE TURNO. Ya tendrás definido al turno general de acuerdo a la apertura de la Tienda de 09:30 a 21.30 o de 10:00 a 22:00, pero si precisas crear alguno más, como en Navidad, aquí te indicamos que debes hacer.
 
+![4.1 La creación de turnos](/media/manual/4-1-la-creacion-de-turnos-7d3900fbb3.png)
+
 1. Descripción.
 2. Abreviatura: tres caracteres
 3. Inicio: Indicar la hora de inicio del turno
@@ -68,9 +70,3 @@ Para la creación de patrones en primer lugar definiremos la jornada de trabajo 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.1 La creación de turnos](/media/manual/4-1-la-creacion-de-turnos-7d3900fbb3.png)

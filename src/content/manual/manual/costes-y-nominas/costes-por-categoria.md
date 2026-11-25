@@ -58,12 +58,8 @@ Este reporte permite obtener información de los costes totales diarios por cada
 
 Esta visualización se muestra en la pestaña de Tabla por Categoría:
 
-Otra visualización de Coste por Categoría está en la pestaña de “Gráfico por Categoría” con un gráfico de torta. Posicionando el cursor sobre alguna de las Categorías se muestra detalle del valor total de la misma.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![Costes por Categoría](/media/manual/costes-por-categoria-bdfb809a19.png)
+
+Otra visualización de Coste por Categoría está en la pestaña de “Gráfico por Categoría” con un gráfico de torta. Posicionando el cursor sobre alguna de las Categorías se muestra detalle del valor total de la misma.
 
 ![Costes por Categoría](/media/manual/costes-por-categoria-aecb9c3184.png)

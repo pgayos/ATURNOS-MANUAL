@@ -56,17 +56,13 @@ order: 1
 
 Por medio de este cuadrante, puedes visualizar por localizaciones, los trabajadores planificados en cada localización de los equipos que se gestiona como superusuario.
 
+![5.1 Cuadrante por localizaciones](/media/manual/5-1-cuadrante-por-localizaciones-6fe25ac4cd.png)
+
 ## Procedimiento
 Al hacer clic en el botón de las localizaciones de la barra superior, se pueden seleccionar aquellas localizaciones que se quieren visualizar en el cuadrante.
+
+![5.1 Cuadrante por localizaciones](/media/manual/5-1-cuadrante-por-localizaciones-07f5af0998.png)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.1 Cuadrante por localizaciones](/media/manual/5-1-cuadrante-por-localizaciones-07f5af0998.png)
-
-![5.1 Cuadrante por localizaciones](/media/manual/5-1-cuadrante-por-localizaciones-6fe25ac4cd.png)

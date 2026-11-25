@@ -55,12 +55,8 @@ Información sobre jornadas, con instrucciones y contexto revisables por el equi
 ## Qué debes saber
 Muestra el número de turnos efectivos, es decir, los turnos planificados menos los absentismos no productivos y no justificados (ver Tipos de absentismo ), los turnos presenciales, es decir sin absentismo, las noches trabajadas, los festivos trabajados, así como los sábados y domingos.
 
+![h. Jornadas](/media/manual/h-jornadas-40f11c65dc.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![h. Jornadas](/media/manual/h-jornadas-40f11c65dc.png)

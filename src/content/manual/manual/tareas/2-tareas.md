@@ -51,6 +51,8 @@ order: 1
 
 Desde el menú de Tareas – Tareas, se van a mostrar el histórico con las tareas o citas que se han creado o solicitadas por servicios.
 
+![2. Tareas](/media/manual/2-tareas-096c69cf28.webp)
+
 ## Opciones y datos disponibles
 - Filtro: se puede filtrar la información que deseas visualizar tanto por trabajador que la realiza como por la tarea que hace (por Especialidad o servicio, cliente, entre otros).
 - Acciones: entre las opciones encontrarás:
@@ -76,10 +78,4 @@ Esta tabla o plantilla indica la siguiente información:
 
 A continuación se muestra un ejemplo de los iconos que aparecen en la columna de Acciones luego de desasignar la tarea a un trabajador:
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![2. Tareas](/media/manual/2-tareas-c85b6f0442.webp)
-
-![2. Tareas](/media/manual/2-tareas-096c69cf28.webp)

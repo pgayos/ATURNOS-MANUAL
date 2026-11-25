@@ -56,6 +56,10 @@ order: 1
 
 Muestra la información del cálculo estimado de horas del perfil del trabajador.
 
+![12. Cálculo estimado de horas](/media/manual/12-calculo-estimado-de-horas-e5e280a0ae.webp)
+
+![12. Cálculo estimado de horas](/media/manual/12-calculo-estimado-de-horas-bf387f5c1e.webp)
+
 ## Revisión requerida
 
 La fuente pública de **Cálculo estimado de horas** contiene muy poca información textual. Se ha conservado todo el texto útil disponible, pero el equipo de Producto debe ampliar y validar este borrador antes de aprobarlo.
@@ -63,11 +67,3 @@ La fuente pública de **Cálculo estimado de horas** contiene muy poca informaci
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![12. Cálculo estimado de horas](/media/manual/12-calculo-estimado-de-horas-e5e280a0ae.webp)
-
-![12. Cálculo estimado de horas](/media/manual/12-calculo-estimado-de-horas-bf387f5c1e.webp)

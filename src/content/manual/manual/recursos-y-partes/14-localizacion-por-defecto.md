@@ -60,20 +60,16 @@ En aTurnos, los trabajadores pueden tener una localización por defecto o estar 
 ## Diagnóstico y solución
 Esta acción permite cambiar la localización por defecto de un trabajador a partir de una fecha. Sin que se necesite crear un nuevo periodo de contrato.
 
-Por ejemplo, Ana Sánchez tiene asignada la localización por defecto en “Oficina”, y turnos con localización en “Administración”, El administrador podrá cambiar a la trabajadora de la localización “Oficina” a la localización por defecto “Administración”. El sistema preguntará si se quieren cambiar las localizaciones de la planificación a la nueva localización por defecto.
-
-En este caso, no habría problema puesto que los turnos ya tienen la localización por defecto “Administración”.
-
-La localización de los turnos planificados en origen, suele ser distinta. Al cambiar a una nueva localización por defecto, habrá que indicar a partir de qué fecha se cambiará la localización.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![14. Localización por defecto](/media/manual/14-localizacion-por-defecto-f974b1e985.webp)
+
+Por ejemplo, Ana Sánchez tiene asignada la localización por defecto en “Oficina”, y turnos con localización en “Administración”, El administrador podrá cambiar a la trabajadora de la localización “Oficina” a la localización por defecto “Administración”. El sistema preguntará si se quieren cambiar las localizaciones de la planificación a la nueva localización por defecto.
 
 ![14. Localización por defecto](/media/manual/14-localizacion-por-defecto-700f321e81.webp)
 
+En este caso, no habría problema puesto que los turnos ya tienen la localización por defecto “Administración”.
+
 ![14. Localización por defecto](/media/manual/14-localizacion-por-defecto-d2d8d0d919.webp)
+
+La localización de los turnos planificados en origen, suele ser distinta. Al cambiar a una nueva localización por defecto, habrá que indicar a partir de qué fecha se cambiará la localización.
 
 ![14. Localización por defecto](/media/manual/14-localizacion-por-defecto-6c8481c2c5.webp)

@@ -62,11 +62,19 @@ Todos los fichajes modificados o insertados por el administrador se guardarán c
 
 Muestra la diferencia de tiempo entre las horas trabajadas presenciales y el tiempo de los turnos y/o tipos de horas planificados en el cuadrante. Este estado de tiempo, tiene en cuenta las tolerancias indicadas (ver Tolerancias ).
 
+![Estado](/media/manual/estado-b81df5ca58.webp)
+
 Existe un estado igual a 0, si el tiempo de los turnos y/o horas planificadas en el cuadrante, es el mismo que las horas trabajadas presenciales, teniendo en cuenta la tolerancia configurada.
+
+![Estado](/media/manual/estado-319a0cd441.webp)
 
 Cuando las horas trabajadas presenciales son superiores al tiempo de los turnos y/o horas planificadas en el cuadrante, existe un estado positivo. Por ejemplo, si se ha fichado la entrada 14:30 y la salida a las 22:30, cuando hay un turno planificado con inicio a las 14:00 horas y fin a las 22:00 horas, existe 1 hora en positivo, es decir, se ha trabajador una hora de más que no estaba planificada en el cuadrante.
 
+![Estado](/media/manual/estado-f4ad39361b.webp)
+
 En el caso de que las horas presenciales trabajadas son inferiores al tiempo de los turnos y/o horas planificadas en el cuadrante, existe un estado negativo. Por ejemplo, si se ha fichado la entrada a las 22:30 y la salida a las 07.30 del día siguiente, cuando hay un turno planificado en el cuadrante con inicio a las 22:00 horas y fin a las 08:00 horas del siguiente día, existe 1 hora en negativo, es decir, se ha trabajado una hora de menos que no estaba planificada en el cuadrante.
+
+![Estado](/media/manual/estado-64d39a1a9f.webp)
 
 ### Acciones
 
@@ -82,6 +90,8 @@ A plicable a consecuencia de que el trabajador haya realizado un fichaje cerrado
 
 Los ajustes también se pueden realizar a todos los trabajadores filtrados desde el botón ‘Ajustar todos’, habiendo seleccionado previamente el botón de todos los trabajadores.
 
+![Acciones](/media/manual/ajustar-marcajes-3b8301a0da.png)
+
 En los ajustes se deberán indicar cinco campos:
 
 - Descripción: razón o necesidad por la cual se ha insertado el absentismo o el tipo de hora añadida.
@@ -89,6 +99,8 @@ En los ajustes se deberán indicar cinco campos:
 - Localización: ubicación, departamento o servicio según la configuración de Localizaciones.
 - Inicio: fecha y hora inicio del ajuste.
 - Fin: fecha y hora fin del ajuste.
+
+  ![Acciones](/media/manual/acciones-0e92f522f8.png)
 
 A continuación, se explican los diferentes tipos de ajustes.
 
@@ -100,7 +112,11 @@ Caso 1
 
 Un trabajador que con un turno planificado de 15:00 a 22:00 horas, ha realizado un fichaje cerrado de 15:15 a 21:55 (teniendo una tolerancia de 5 minutos al inicio y final del turno). Tendrá un estado negativo de -15 minutos (ya que existe una tolerancia de 5 minutos al final del turno y la opción ‘ Restar la tolerancia del total si se supera ‘ está configurada en ‘No’), que al ajustar propondrá insertar como un tipo de absentismo (Horas a compensar de menos – HCM).
 
+![Acciones](/media/manual/acciones-21c2f4720f.png)
+
 Al realizar el ajuste, se insertará un absentismo que estará representado en el gráfico de la línea temporal con una periodo negro (ver Interpretación de los gráficos ).
+
+![Acciones](/media/manual/acciones-90ff156ead.png)
 
 Si existe exceso de tiempo registrado al inicio o final del turno planificado, el ajuste propondrá insertar un tipo de hora añadida.
 
@@ -110,7 +126,11 @@ Un trabajador tiene planificado un turno de 08:00 a 15:00 horas, ha realizado un
 
 Tendrá un estado positivo de 10 minutos (ya que existe una tolerancia de 10 minutos al final del turno y la opción ‘ Restar la tolerancia del total si se supera ‘ está configurada en ‘Si’), que al ajustar propondrá insertar como un tipo de hora añadida (HCMAS – HORAS A COMPENSAR DE MÁS).
 
+![Acciones](/media/manual/acciones-f460ad8396.png)
+
 En este caso, al hacer el ajuste, se insertarán horas añadidas (tipo normales) que estarán representadas gráficamente en la línea del tiempo con otro periodo verde (ver Interpretación de los gráficos ).
+
+![Acciones](/media/manual/acciones-edf7fa31e7.png)
 
 Caso 3
 
@@ -118,7 +138,15 @@ Una trabajadora tiene planificado en su cuadrante un turno de noche con horario 
 
 Tendrá un estado positivo de 1 hora (ya que existe una tolerancia global de 20 minutos, la cual se supera tanto al inicio como al final y la opción ‘ Restar la tolerancia del total si se supera ‘ está configurada en ‘No’) que al ajustar propondrá insertar como un tipo de absentismo (Horas a compensar de menos – HCM) los 30 minutos de defecto al inicio del turno y un tipo de hora añadida (HEX – HORAS EXTRAORDINARIAS) de exceso de tiempo de 1 hora y 30 minutos al final del turno.
 
+![Acciones](/media/manual/acciones-d134533823.png)
+
+![Acciones](/media/manual/acciones-6801c8a9d7.png)
+
 Cuando se realice el ajuste, se insertarán horas de absentismo con un periodo negro y unas horas añadidas (tipo extra) que estarán representadas en el gráfico con un periodo marrón (ver Interpretación de los gráficos ). En estos casos de turnos nocturnos que empiezan en un día y acaban en el siguiente, se debe tener en cuenta que el ajuste del estado se realizará en el día que comienza el turno.
+
+![Acciones](/media/manual/acciones-910a97ab45.png)
+
+![Acciones](/media/manual/acciones-c961b8291c.png)
 
 Este ajuste necesita tener activada la opción de ‘Calculando el total de horas de la jornada’ de ‘ Mostrar botón de ajustar fichajes ’ que compara el total del tiempo registrado (teniendo en cuenta las tolerancias y si se tiene configurado ‘ Restar la tolerancia del total si se supera ‘), con el turno planificado.
 
@@ -128,60 +156,28 @@ Caso 4
 
 Un trabajador con una jornada partida tiene un horario con un turno planificado de 09:00 a 14:00 horas y de 15:00 a 18:00 horas. El trabajador ficha en el turno de mañana a las 09:10 y 13:50 horas (20 minutos de defecto de tiempo), y en el turno de tarde cerró un marcar de 14:15 a 18:00 horas (15 minutos de exceso de tiempo). En este caso no existen tolerancias, por lo que el tiempo del estado son -5 minutos.
 
+![Acciones](/media/manual/acciones-8fda3d2400.png)
+
 El ajuste sobre el total realiza ese cálculo de diferencia e inserta ese tiempo, que en este ejemplo al ser defecto de tiempo, insertará un tipo de absentismo (Horas a compensar de menos – HCM). Este tiempo de menos siempre se insertará al inicio del turno.
+
+![Acciones](/media/manual/acciones-92963624ee.png)
 
 Caso 5
 
 Una trabajadora con turno planificado en horario de 22:00 a (+a) 08:00 horas, realiza un fichaje de entrada a las 22:15 horas y un fichaje de salida (+1) 08:30. El estado es positivo, al haber 15 minutos de exceso de tiempo fichado.
 
+![Acciones](/media/manual/acciones-3a459727cd.png)
+
 Al realizar el ajuste sobre el total, se calculará esa diferencia de 15 minutos positivos, por lo que insertará un tipo de hora añadida al final del turno.
+
+![Acciones](/media/manual/acciones-066ec98744.png)
 
 El ajuste de reducción de jornada permite que si por razones de fuerza mayor o para no modificar el tipo de turno asignado a un trabajador que se ha acogido a una reducción de jornada, el turno planificado se adapte al tiempo registrado en el control de presencia.
 
 Por ejemplo, una trabajadora tiene un turno de 15:00 a 22:00 horas, pero por razones de conciliación familiar ha fichado la entrada a las 15:45 y la salida a las 21:00 horas. El turno se ve reducido a unas horas planificadas, aunque también es posible que el administrador modifique el tipo de turno planificado en el cuadrante (ver Modificar turno ) o convertirlo a horas para adaptar la duración al fichaje (ver Cambiar turno a horas ).
 
+![Acciones](/media/manual/acciones-141b68495f.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Acciones](/media/manual/ajustar-marcajes-3b8301a0da.png)
-
-![Estado](/media/manual/estado-319a0cd441.webp)
-
-![Estado](/media/manual/estado-f4ad39361b.webp)
-
-![Estado](/media/manual/estado-64d39a1a9f.webp)
-
-![Acciones](/media/manual/acciones-21c2f4720f.png)
-
-![Acciones](/media/manual/acciones-90ff156ead.png)
-
-![Estado](/media/manual/estado-b81df5ca58.webp)
-
-![Acciones](/media/manual/acciones-f460ad8396.png)
-
-![Acciones](/media/manual/acciones-0e92f522f8.png)
-
-![Acciones](/media/manual/acciones-edf7fa31e7.png)
-
-![Acciones](/media/manual/acciones-6801c8a9d7.png)
-
-![Acciones](/media/manual/acciones-d134533823.png)
-
-![Acciones](/media/manual/acciones-910a97ab45.png)
-
-![Acciones](/media/manual/acciones-c961b8291c.png)
-
-![Acciones](/media/manual/acciones-8fda3d2400.png)
-
-![Acciones](/media/manual/acciones-92963624ee.png)
-
-![Acciones](/media/manual/acciones-3a459727cd.png)
-
-![Acciones](/media/manual/acciones-066ec98744.png)
-
-![Acciones](/media/manual/acciones-141b68495f.png)

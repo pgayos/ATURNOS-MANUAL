@@ -54,8 +54,12 @@ Aprende a clientes, con instrucciones y contexto revisables por el equipo de aTu
 ## Procedimiento
 Al entrar por menú Tareas – Clientes, se muestra el listado de clientes que han solicitado citas o servicios, este histórico te permite ver el detalle de la solicitud así como agregar mas información en caso de requerirlo.
 
+![3. Clientes](/media/manual/3-clientes-c19b2151ee.webp)
+
 - Filtro: al hacer clic en el filtro podrás buscar directamente a un cliente en específico, colocando el nombre o email del mismo.
 - Acciones: te permite crear un nuevo cliente, registrando los datos de Nombre, Email, Teléfono y seleccionando si va a permitir o no que se le envíe información acerca del estatus de la cita:
+
+  ![3. Clientes](/media/manual/3-clientes-93b163d7e5.png)
 
 - Nombre: muestra el nombre del cliente.
 - Email: indica la dirección del correo electrónico del cliente.
@@ -72,9 +76,5 @@ En el icono de “Acciones”: te permite exportar los datos del listado en un f
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![3. Clientes](/media/manual/3-clientes-93b163d7e5.png)
-
-![3. Clientes](/media/manual/3-clientes-c19b2151ee.webp)
 
 ![3. Clientes](/media/manual/3-clientes-991458a624.webp)

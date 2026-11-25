@@ -62,6 +62,8 @@ Los trabajadores que tienen un descanso programado a nivel de equipo, trabajador
 ## Procedimiento
 En el caso de que la configuración sea con la opción ‘Contabilizar los descansos, en el caso de que no se fichen se calcularán automáticamente’, al descontarse automáticamente, no se mostrarán en el reporte.
 
+![5. Más de 5 Hrs fichadas sin descanso](/media/manual/5-mas-de-5-hrs-fichadas-sin-descanso-305fef1f6a.webp)
+
 El reporte informa:
 
 - Equipo donde sucede el caso.
@@ -71,16 +73,10 @@ El reporte informa:
 - Fecha en la que se produce el caso.
 - Horas trabajadas.
 
+  ![5. Más de 5 Hrs fichadas sin descanso](/media/manual/5-mas-de-5-hrs-fichadas-sin-descanso-a37fb1b80e.webp)
+
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
-
-Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![5. Más de 5 Hrs fichadas sin descanso](/media/manual/5-mas-de-5-hrs-fichadas-sin-descanso-fbeda983a7.webp)
 
-![5. Más de 5 Hrs fichadas sin descanso](/media/manual/5-mas-de-5-hrs-fichadas-sin-descanso-a37fb1b80e.webp)
-
-![5. Más de 5 Hrs fichadas sin descanso](/media/manual/5-mas-de-5-hrs-fichadas-sin-descanso-305fef1f6a.webp)
+Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.

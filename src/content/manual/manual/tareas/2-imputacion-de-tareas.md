@@ -56,20 +56,16 @@ Una vez logeado en el sistema, se accede a la ventana de inicio visualizando la 
 ## Procedimiento
 Siempre que se tenga un turno asignado en el correspondiente equipo al que se pertenezca, se podrá imputar tareas. Es decir, un validador al tener más de un equipo al que puede acceder solo podrá imputar tareas en aquel equipo al que pertenezca como empleado.
 
+![2. Imputación de tareas](/media/manual/2-imputacion-de-tareas-b18d6b1c6f.webp)
+
 Para poder añadir tareas, se debe clicar en el botón “Añadir tareas”. Este botón habilitará una ventana emergente en la cual podremos informar la tarea, el tiempo dedicado, fecha en la que se ha realizado, comentarios sobre la tarea realizada, cantidad y ubicación.
+
+![2. Imputación de tareas](/media/manual/2-imputacion-de-tareas-a124b87b3b.webp)
 
 Si la tarea tiene una descripción adjunta, ésta se visualizará en el apartado “Descripción de la tarea”.
 
 Una vez completada la información se debe clicar sobre el botón “Añadir”. Cuando se ha añadido la tarea, ésta se listará en la tabla de la página de inicio.
 
-Si al añadir una tarea, no estamos conformes con la misma o con algún dato introducido, se clica en el icono de papelera () para borrar el registro realizado.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Imputación de tareas](/media/manual/2-imputacion-de-tareas-a124b87b3b.webp)
-
-![2. Imputación de tareas](/media/manual/2-imputacion-de-tareas-b18d6b1c6f.webp)
-
 ![2. Imputación de tareas](/media/manual/2-imputacion-de-tareas-6725418841.webp)
+
+Si al añadir una tarea, no estamos conformes con la misma o con algún dato introducido, se clica en el icono de papelera () para borrar el registro realizado.

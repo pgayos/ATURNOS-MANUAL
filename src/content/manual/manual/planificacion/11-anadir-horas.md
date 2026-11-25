@@ -56,6 +56,8 @@ order: 1
 
 Con esta opción se pueden añadir horas, bien sean extra, complementarias o de cualquier otro tipo creado, en Planificador → Tipos de turno → Horas. Cómo planificar horas.
 
+![11. Añadir horas](/media/manual/11-anadir-horas-cfd5486773.png)
+
 Para ello, hay que introducir una descripción (por ejemplo, la razón), posteriormente la duración de esas horas, y el tipo (por defecto en aTurnos existen las horas extra y complementarias, pero se pueden crear más, como se ha indicado en el párrafo anterior). Estas horas pueden considerarse dentro de una bolsa o fuera de ésta. Para crear una bolsa hay que acceder a: Administrar → Bolsas.
 
 ### ¿Cómo planificar horas desde la bolsa de trabajo a un determinado tipo de trabajador?
@@ -69,9 +71,3 @@ Las horas asignadas a un trabajador a través de bolsa, se encontrarán planific
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![11. Añadir horas](/media/manual/11-anadir-horas-cfd5486773.png)

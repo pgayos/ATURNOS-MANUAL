@@ -62,6 +62,8 @@ Con esta función, desde el menú RRHH, el administrador tiene la posibilidad de
 
 Obtendrá un resultado en formato Excel, que puede ser descargado. Este Excel muestra los trabajadores de los equipos, que se han seleccionado previamente, y los datos, en las diferentes columnas que corresponden a las variables a consultar.
 
+![1. Reporte detalles trabajador](/media/manual/1-reportes-por-trabajador-e21bb5dad8.png)
+
 En esta función el administrador debe indicar:
 
 - Desde/hasta: E lige el período a consultar.
@@ -73,7 +75,11 @@ En esta función el administrador debe indicar:
 
 Seleccionar el modo de consultar el periodo seleccionado. Este periodo se puede presentar por días, por año, por meses o por el periodo seleccionado. Recomendamos por periodo o meses. El número de columnas del reporte dependerá del modo seleccionado.
 
+![1. Reporte detalles trabajador](/media/manual/1-reportes-por-trabajador-34cc561628.png)
+
 Seleccionar el/los equipos a consultar, marcando las casillas de los equipos. En caso de que los equipos estén agrupados con una estructura tipo árbol, seleccionado el equipo principal, se marcarían todos los que dependen de él. También puede filtrar por trabajadores que se encuentran en los equipos seleccionados, para ello filtrar por el nombre, mail o id de empleado del trabajador.
+
+![1. Reporte detalles trabajador](/media/manual/1-reportes-por-trabajador-372ac32178.png)
 
 El administrador puede configurar el reporte comparativo con tantas variables como requiera visualizar por cada trabajador del equipo. Esta consulta puede ser con vistas diarias, mensuales, anuales o en un periodo de tiempo previamente seleccionado.
 
@@ -145,24 +151,14 @@ Cargar la petición del reporte solicitado. Cuando se cliquea “Cargar”, el s
 
 Esta petición comenzará a ejecutarse, y dependiendo del volumen de datos a reportar durará un tiempo (minutos) en conseguir el resultado.
 
+![Listado de variables del reporte](/media/manual/listado-de-variables-del-reporte-ea3fb9418a.png)
+
 ¿Dónde puedo consultar el estado de la petición del reporte? ¿Dónde puedo descargar el reporte solicitado?
 
 Pasado unos minutos, el sistema consigue generar el reporte solicitado. El propio sistema mediante un aviso en la pestaña RRHH/PETICIONES REPORTES indica al administrador que esta pendiente de descargar, cliqueando el icono “Descarga” se obtiene el reporte esperado en formato Excel.
 
+![Listado de variables del reporte](/media/manual/listado-de-variables-del-reporte-cd6ef3729e.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1. Reporte detalles trabajador](/media/manual/1-reportes-por-trabajador-34cc561628.png)
-
-![1. Reporte detalles trabajador](/media/manual/1-reportes-por-trabajador-372ac32178.png)
-
-![Listado de variables del reporte](/media/manual/listado-de-variables-del-reporte-ea3fb9418a.png)
-
-![Listado de variables del reporte](/media/manual/listado-de-variables-del-reporte-cd6ef3729e.png)
-
-![1. Reporte detalles trabajador](/media/manual/1-reportes-por-trabajador-e21bb5dad8.png)

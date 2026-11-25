@@ -60,8 +60,4 @@ Se identifica como Datos Personalizados aquella información que se quiere intro
 
 A través de la introducción del código del empleado puedes visualizar qué tipo de datos personalizados y en qué grupo de los mismos tiene el trabajador en cuestión dichos datos que previamente has añadido para tener mejor identificado uno o una serie de trabajadores de tu equipo (Aquí puedes ver más detalladamente qué son los datos personalizados ).
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![3. Datos personalizados del trabajador](/media/manual/3-datos-personalizados-del-trabajador-514e1b4f15.webp)

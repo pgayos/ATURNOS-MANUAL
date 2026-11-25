@@ -58,14 +58,10 @@ Información sobre periodos de absentismo, con instrucciones y contexto revisabl
 ## Qué debes saber
 Este registro ayuda al Administrador a visualizar todos los periodos de baja de sus trabajadores, ej. Baja médica por incapacidad temporal. Es muy útil ya que puede consultar fechas de inicio y fin del absentismo para replanificar tareas o asignar un nuevo trabajador para cubrir la necesidad. (Ver más en: Crear periodo de absentismo desde el cuadrante ).
 
+![c. Periodos de absentismo](/media/manual/c-periodos-de-absentismo-25ff8e9747.png)
+
 El listado muestra nombre del trabajador, fecha de inicio y fin del período, tipo de absentismo (aparece la abreviatura) y si el absentismo ha tenido recaída o no, es decir, si el trabajador se vuelve a ausentar por una enfermedad que previamente lo había dado de baja en otro período.
 
 Cabe resaltar que este registro en particular no permite modificar datos del Periodo de absentismo de los trabajadores. Si el Administrador del equipo desea modificarlo debe entrar al perfil del trabajador y hacerlo desde la pestaña de Periodos de absentismos. (Ver más en: Periodos de absentismo en el perfil del trabajador ).
 
 En el icono de “Ocultar” puedes quitar y agregar nuevamente alguna de las columnas que se muestran en el informe o tabla, así como, exportar el listado a un archivo CSV, Excel, PDF, entre otros, dese el icono de “Acciones”.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![c. Periodos de absentismo](/media/manual/c-periodos-de-absentismo-25ff8e9747.png)

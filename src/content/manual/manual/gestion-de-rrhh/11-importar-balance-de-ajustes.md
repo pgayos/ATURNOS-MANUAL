@@ -74,6 +74,8 @@ La plantilla del fichero debe contener las siguientes columnas:
 - Valor del ajuste: Número o cantidad de horas a informar. El separador de decimales se realiza a través del punto (.)
 - Fecha del ajuste: fecha en la que se va a hacer el ajuste, a partir de la cual afectará el balance total de horas planificadas del trabajador.
 
+  ![11. Importar balance de ajustes](/media/manual/11-importar-balance-de-ajustes-3dcbb78e25.png)
+
 Para poder importar los ajustes de horas puedes completar la plantilla de ejemplo que puedes descargar:
 
 CSV Importar balance de ajustes
@@ -81,11 +83,5 @@ CSV Importar balance de ajustes
 Por último, antes de realizar la importación, guarda el documento con formato tipo CSV.
 
 Para importar el archivo puedes consultar los pasos que indicamos en nuestro menú de “Importar “.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![11. Importar balance de ajustes](/media/manual/11-importar-balance-de-ajustes-3dcbb78e25.png)
 
 ![11. Importar balance de ajustes](/media/manual/11-importar-balance-de-ajustes-8b5db4bb1a.png)

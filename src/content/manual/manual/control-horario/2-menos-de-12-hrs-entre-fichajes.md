@@ -60,6 +60,8 @@ Aprende a menos de 12 hrs entre fichajes, con instrucciones y contexto revisable
 ## Procedimiento
 Los trabajadores que hayan fichado en menos de 12 horas entre un fichaje cerrado y el siguiente, se mostrarán en este reporte. Esto siempre que se cumpla la configuración de “Tiempo máximo en minutos para considerar descanso”, ya que cuando la duración entre el fichaje cerrado anterior y el siguiente supere la duración de minutos configurada.
 
+![2. Menos de 12 hrs entre fichajes](/media/manual/2-menos-de-12-hrs-entre-fichajes-50a37623c4.webp)
+
 El reporte informa:
 
 - Equipo donde sucede el caso.
@@ -69,16 +71,10 @@ El reporte informa:
 - Fecha en la que se produce el caso.
 - Tiempo entre fichajes (entre el fichaje anterior y el siguiente).
 
+  ![2. Menos de 12 hrs entre fichajes](/media/manual/2-menos-de-12-hrs-entre-fichajes-69faec4d27.webp)
+
 Al igual que en el resto de reportes, se puede seleccionar entre qué fechas realizar la consulta, en qué equipo y poder filtrar por trabajadores.
 
-Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2. Menos de 12 hrs entre fichajes](/media/manual/2-menos-de-12-hrs-entre-fichajes-69faec4d27.webp)
-
-![2. Menos de 12 hrs entre fichajes](/media/manual/2-menos-de-12-hrs-entre-fichajes-50a37623c4.webp)
-
 ![2. Menos de 12 hrs entre fichajes](/media/manual/2-menos-de-12-hrs-entre-fichajes-4ceaa11814.webp)
+
+Si la consulta requiere de muchos datos, se realizará una petición de reporte que se puede descargar en ‘Peticiones de reportes’.

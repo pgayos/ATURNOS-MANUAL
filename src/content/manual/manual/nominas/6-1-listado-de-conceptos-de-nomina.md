@@ -62,12 +62,8 @@ Información sobre listado de conceptos de nómina, con instrucciones y contexto
 ## Qué debes saber
 En este listado puedes ver y exportar con el botón Acciones, los conceptos de nómina creados en los equipos en los que eres Superusuario de manera que puedas comprobar rápidamente si están creados los mismos conceptos en todos los equipos, etc.
 
+![6.1 Listado de conceptos de nómina](/media/manual/6-1-listado-de-conceptos-de-nomina-d4a96a2f07.png)
+
 El botón “OCULTAR” se utiliza para ocultar las columnas del informe, si no quieres ver por ejemplo, el Equipo, lo puedes “ocultar” a través de esta opción.
 
 Recuerda que puedes utilizar la opción de Clonar datos, diferenciando la clonación de los conceptos de cálculo (que pueden ser distintos por cada uno de los equipos) de la clonación de los conceptos de nómina que son los que se muestra en los informes.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6.1 Listado de conceptos de nómina](/media/manual/6-1-listado-de-conceptos-de-nomina-d4a96a2f07.png)

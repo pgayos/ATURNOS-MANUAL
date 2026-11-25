@@ -70,12 +70,8 @@ Las opciones permitidas son:
 - Administrador Total: Opción por defecto
 - Superusuario: Opción recomendada PYMES y Grandes Empresas muy descentralizadas
 
+  ![1.5 Nivel que puede cambiar la fecha de cierre de un empleado](/media/manual/1-5-nivel-que-puede-cambiar-la-fecha-de-cierre-de-un-empleado-16ae94f808.png)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![1.5 Nivel que puede cambiar la fecha de cierre de un empleado](/media/manual/1-5-nivel-que-puede-cambiar-la-fecha-de-cierre-de-un-empleado-16ae94f808.png)

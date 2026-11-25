@@ -67,10 +67,10 @@ El listado de fichajes se desglosa en dos pestañas: Fichajes y Fichajes automá
 
 En el listado de fichajes automáticos encontramos las mismas cabeceras, sin embargo, solo aparecerán los fichajes automáticos, es decir, aquellos realizados por el propio trabajado en el momento que comienza o finaliza la jornada (no mediante petición de fichajes).
 
+![4.6 Listado de fichajes](/media/manual/4-6-listado-de-fichajes-a98db8c800.png)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![4.6 Listado de fichajes](/media/manual/4-6-listado-de-fichajes-a98db8c800.png)
 
 ![4.6 Listado de fichajes](/media/manual/4-6-listado-de-fichajes-069649a052.png)

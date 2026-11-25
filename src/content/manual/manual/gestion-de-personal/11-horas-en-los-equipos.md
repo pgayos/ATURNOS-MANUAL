@@ -57,21 +57,17 @@ order: 1
 
 Se trata de una función que permite al administrador planificar sin perder de vista la evolución de las horas y vacaciones del trabajador en todos los equipos de trabajo del año en curso.
 
+![11. Horas en los equipos](/media/manual/11-horas-en-los-equipos-a978ed6d02.webp)
+
 ## Qué debes saber
 En la opción ‘Horas’ la tabla muestra un resumen de los tiempos computados en cada periodo y equipo, mostrando la misma información que se puede consultar en ‘Horas de los equipos’ del perfil del trabajador.
+
+![11. Horas en los equipos](/media/manual/11-horas-en-los-equipos-b7631b6b20.webp)
 
 Los balances de horas pueden ser traspasados entre periodos (ver ¿Cómo ajustar y pasar las horas por exceso o defecto de un periodo de contrato a otro? )
 
 Por otro lado, la opción ‘Vacaciones’ informa del mismo resumen por periodo y equipo de las vacaciones, el balance entre las vacaciones contrato, las planificadas y las disfrutadas, como se puede consultar en ‘Horas de los equipos’ del perfil del trabajador.
 
-Los balances de vacaciones se pueden traspasar o finiquitar.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![11. Horas en los equipos](/media/manual/11-horas-en-los-equipos-b7631b6b20.webp)
-
-![11. Horas en los equipos](/media/manual/11-horas-en-los-equipos-a978ed6d02.webp)
-
 ![11. Horas en los equipos](/media/manual/11-horas-en-los-equipos-19e743f71c.webp)
+
+Los balances de vacaciones se pueden traspasar o finiquitar.

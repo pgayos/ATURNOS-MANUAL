@@ -78,10 +78,10 @@ Para importar el archivo debe seguir los pasos que indicamos en nuestro menú Ad
 
 A continuación, se hace la importación del fichero a aTurnos y se asociará los conceptos de las columnas del fichero con los campos existentes en aTurnos.
 
+![21. Importar fichajes de trabajadores](/media/manual/21-importar-fichajes-de-trabajadores-ee91e60971.webp)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
 ![21. Importar fichajes de trabajadores](/media/manual/21-importar-fichajes-de-trabajadores-8cb74dcad3.png)
-
-![21. Importar fichajes de trabajadores](/media/manual/21-importar-fichajes-de-trabajadores-ee91e60971.webp)

@@ -60,8 +60,4 @@ El análisis semanal es un potente herramienta para analizar tu cobertura media 
 
 Por ejemplo, en este caso se aprecia como existe una necesidades media de horas en sábado y domingo de 7 horas y 14 horas respectivamente.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![7. Análisis semanal](/media/manual/7-analisis-semanal-21b42a3db2.png)

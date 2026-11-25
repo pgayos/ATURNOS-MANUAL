@@ -64,6 +64,8 @@ Para fichar desde la app de aTurnos (iOS y Android), acceda a Control Horario �
 
 Dicho proceso se ejecutará desde el apartado de fichar, donde te saldrá el tiempo que ha trabajado en caso haber fichada la entrada anteriormente, o directamente el botón donde hacer clic:
 
+![1.1 Cómo fichar](/media/manual/1-1-como-fichar-1f5780edd7.webp)
+
 - No estar en la zona delimitada por el administrador, aunque físicamente estés dentro de la “zona”, en muchas ocasiones, el GPS del móvil no estático y se mueve de sitio intentando encontrar la localización correcta. Por ello, te recomendamos que si este problema persiste, lo comentes con tu administrador.
 - No tener el GPS activo, o que la APP de aTurnos no tenga permiso de geolocalización (siempre y cuando sea un requisito para fichar en tu equipo).
 - No estar conectado a la red (WIFI) registrado en tu equipo, por ejemplo, si estas conectado con los datos del móvil.
@@ -80,6 +82,12 @@ En este apartado del Control de Presencia, aparecerá la información sobre un d
 
 Además, también te aparecerá el estado mensual del mes en el que te encuentres, es decir, tanto las horas planificadas como las horas realizadas hasta ese mismo día, así como los tiempos en cuanto a horas complementarias, nocturnidades, absentismos, descansos realizados, etc. También, gracias a esta información existe la posibilidad de c errar el Timecard el último día de cada mes con los datos correspondientes:
 
+![1.2 Mis fichajes](/media/manual/1-2-mis-fichajes-2ae084da89.webp)
+
+![1.2 Mis fichajes](/media/manual/1-2-mis-fichajes-9ea944f7ee.png)
+
+![1.2 Mis fichajes](/media/manual/1-2-mis-fichajes-804a506e32.png)
+
 ### 1.3 Petición de marcajes
 
 Si por error u olvido no se han registrado los marcajes de entrada o salida en el Control Horario, tienes la opción de solicitar a los administradores del equipo la petición de cerrar esos fichajes. Para ello tendrás que hacer clic en “Nueva petición de marcaje” y rellenar los siguientes campos:
@@ -90,19 +98,31 @@ Si por error u olvido no se han registrado los marcajes de entrada o salida en e
 - Fecha y hora: Indica la fecha y la hora en la cual se te ha olvidado realizar dicho marcaje.
 - Comentario: si desea poner algún comentario extra en la solicitud.
 
+  ![1.3 Petición de marcajes](/media/manual/1-3-peticion-de-marcajes-ddc1920099.webp)
+
 Una vez rellenados estos datos, tienes que pulsar en solicitar e inmediatamente esa petición le llegará al Administrador del equipo, el cual tendrá que aceptarla o en caso de que dicha acción sea automática, le aparecerá el fichaje marcado ya.
 
 ### 1.4 Peticiones pendientes
 
 En esta sección podrá ver todas las solicitudes de marcajes pendientes que estén pendientes de aprobar por el Administrador de su equipo en caso de no ser automáticas, y podrá verlas de una fecha seleccionada o la lista al completo.
 
+![1.4 Peticiones pendientes](/media/manual/1-4-peticiones-pendientes-92cab857e5.webp)
+
+![1.4 Peticiones pendientes](/media/manual/1-4-peticiones-pendientes-698a8f44ee.webp)
+
 ### 1.5 Historial de peticiones de marcajes
 
 Al igual que el caso anterior, aquí podrá visualizar todo el historial de solicitudes de marcajes manuales realizados hasta el momento.
 
+![1.5 Historial de peticiones de marcajes](/media/manual/1-5-historial-de-peticiones-de-marcajes-e1affd0270.webp)
+
 ### 1.6 Incidencias
 
 Este apartado nos muestra los errores al realizar los fichajes del Control Horario, ya sea por olvido de alguno de ellos o debido a una mala planificación (absentismo o turnos de vacaciones erróneo). En esta lista de incidencias aparecerán todos aquellos errores de forma ordenada dentro de la fecha seleccionada. Dicha fecha podrá modificarse haciendo clic en ella.
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-00c5716836.webp)
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-25697dd8ec.webp)
 
 Hay distintos tipos de incidencias:
 
@@ -114,6 +134,10 @@ Hay distintos tipos de incidencias:
 - Fichajes coincidentes con el absentismo. Son trabajadores que estando de absentismo planificado en el cuadrante, han realizado algún fichaje en día.
 
 Para ver los detalles o resolverlos en este caso, deslizando hacia la izquierda nos aparece el emoticono de un ojo. Haciendo clic en él, se muestra en pantalla todos los detalles de dicha incidencia, así como la opción de “solicitar el fichaje” y “solicitar modificación” y de esta forma eliminar el error.
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-aaf2787f71.webp)
+
+![1.6 Incidencias](/media/manual/1-6-incidencias-e5ff8832e6.webp)
 
 Además, más abajo aparecerán todos los detalles relacionados con los tiempos donde nos muestran toda la información sobre:
 
@@ -128,6 +152,10 @@ Además, más abajo aparecerán todos los detalles relacionados con los tiempos 
 - Descanso fichado: también llamado como descanso de control de presencia, hace referencia a cuando el trabajador hace un fichaje de salida a las 11:30 y un marcaje de entrada a las 11:42, donde 12 minutos son de descanso, por ejemplo (contabilizar los descansos, si se fichan).
 - Ajustes: si se realiza un exceso o defecto de tiempo presencial, se comprobará un estado positivo o negativo.
 
+  ![1.6 Incidencias](/media/manual/1-6-incidencias-74074296c6.webp)
+
+  ![1.6 Incidencias](/media/manual/1-6-incidencias-b7c8eeba04.webp)
+
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
@@ -136,32 +164,4 @@ El equipo de Producto debe confirmar que los nombres de las opciones, los permis
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![1.2 Mis fichajes](/media/manual/1-2-mis-fichajes-9ea944f7ee.png)
-
-![1.2 Mis fichajes](/media/manual/1-2-mis-fichajes-804a506e32.png)
-
-![1.2 Mis fichajes](/media/manual/1-2-mis-fichajes-2ae084da89.webp)
-
-![1.1 Cómo fichar](/media/manual/1-1-como-fichar-1f5780edd7.webp)
-
-![1.3 Petición de marcajes](/media/manual/1-3-peticion-de-marcajes-ddc1920099.webp)
-
-![1.4 Peticiones pendientes](/media/manual/1-4-peticiones-pendientes-92cab857e5.webp)
-
-![1.6 Incidencias](/media/manual/1-6-incidencias-00c5716836.webp)
-
-![1.6 Incidencias](/media/manual/1-6-incidencias-25697dd8ec.webp)
-
 ![1.1 Cómo fichar](/media/manual/1-1-como-fichar-127f5d200e.png)
-
-![1.5 Historial de peticiones de marcajes](/media/manual/1-5-historial-de-peticiones-de-marcajes-e1affd0270.webp)
-
-![1.6 Incidencias](/media/manual/1-6-incidencias-aaf2787f71.webp)
-
-![1.6 Incidencias](/media/manual/1-6-incidencias-e5ff8832e6.webp)
-
-![1.6 Incidencias](/media/manual/1-6-incidencias-74074296c6.webp)
-
-![1.6 Incidencias](/media/manual/1-6-incidencias-b7c8eeba04.webp)
-
-![1.4 Peticiones pendientes](/media/manual/1-4-peticiones-pendientes-698a8f44ee.webp)

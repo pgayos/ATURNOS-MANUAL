@@ -58,29 +58,25 @@ order: 1
 
 Recuperamos los valores de los conceptos de nómina totalizado por equipo.
 
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-765601f689.png)
+
 ## Procedimiento
 Desde aquí se validan los datos, haz clic en el. Indica la fecha de validación del cuadrante.
 
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-3f168cc404.png)
+
 Este proceso es obligatorio si en la configuración general del equipo está seleccionada la opción “El cuadrante debe estar cerrado y validado”.Cierra el cuadrante haciendo clic en el candado.
+
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-c0f25cb730.png)
 
 1.- Cierra el cuadrante, impidiendo la modificación accidental de la planificación pagada.
 
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-71164171d0.png)
+
 2.- Guarda en el perfil del trabajador, los días en los que se ha realizado la exportación.
+
+![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-f92942b842.png)
 
 ## PENDIENTE de validación
 
 El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-3f168cc404.png)
-
-![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-765601f689.png)
-
-![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-c0f25cb730.png)
-
-![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-71164171d0.png)
-
-![6.7 Totalizada por equipo](/media/manual/6-7-totalizada-por-equipo-f92942b842.png)

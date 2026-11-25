@@ -69,16 +69,12 @@ Los administradores podrán crear ofertas de turnos y horas para los trabajadore
 - Fecha inicio y fecha fin.
 - Comentarios: si queremos añadir un comentario para complementar la información, es opcional.
 
+  ![2.8 Crear nueva oferta](/media/manual/2-8-crear-nueva-oferta-9311137fe3.webp)
+
+  ![2.8 Crear nueva oferta](/media/manual/2-8-crear-nueva-oferta-2dcc93915e.webp)
+
 Una vez seleccionada y completadas las opciones anteriores, se hará clic en solicitar y automáticamente buscar todo el listado de ofertas en el apartado de “ofertas de turno”:
 
-El proceso para inscribirse en dichas ofertas de turnos y horas es igual que el apartado ofertas de turno.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![2.8 Crear nueva oferta](/media/manual/2-8-crear-nueva-oferta-2dcc93915e.webp)
-
-![2.8 Crear nueva oferta](/media/manual/2-8-crear-nueva-oferta-9311137fe3.webp)
-
 ![2.8 Crear nueva oferta](/media/manual/2-8-crear-nueva-oferta-d591787fbe.webp)
+
+El proceso para inscribirse en dichas ofertas de turnos y horas es igual que el apartado ofertas de turno.

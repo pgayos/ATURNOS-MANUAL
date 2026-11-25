@@ -102,6 +102,8 @@ order: 1
 ## Qué debes saber
 Si estás accediendo desde la APP, ya sea en app.aturnos.com o en la APP descargada en en tu dispositivo Android o iOS; primero debes generar el enlace en la versión del navegador y posteriormente lo podrás copiar cuando lo desees en tu app. Para ello accede al apartado de Tareas y en la parte superior puede ver el botón para copiar el enlace al portapapeles.
 
+![¿Cómo empezar inmediatamente a utilizar la herramienta de Cita Previa?](/media/manual/como-empezar-inmediatamente-a-utilizar-la-herramienta-de-cita-previa-5de94fc0dd.png)
+
 Ahora bien, este formulario tiene los siguientes datos estándares que tu puedes modificar o crear más:
 
 - Un servicio único llamado: Servicio general.
@@ -116,7 +118,5 @@ Para gestionar las citas (tareas) que se van generando, accede al siguiente enla
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![¿Cómo empezar inmediatamente a utilizar la herramienta de Cita Previa?](/media/manual/como-empezar-inmediatamente-a-utilizar-la-herramienta-de-cita-previa-5de94fc0dd.png)
 
 ![¿Cómo empezar inmediatamente a utilizar la herramienta de Cita Previa?](/media/manual/como-empezar-inmediatamente-a-utilizar-la-herramienta-de-cita-previa-5c96620d0f.png)

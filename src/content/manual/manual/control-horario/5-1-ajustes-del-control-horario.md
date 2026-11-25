@@ -62,17 +62,31 @@ El funcionamiento del control horario se basa en la configuración de los ajuste
 
 Aspectos como el cálculo de la tolerancias y definición de tiempos de las tolerancias, la duración máxima de la jornada entre un fichaje y el siguiente (ver configuración de la duración máxima de la jornada ) o si los descansos en los turnos se fichan o no (ver configuración de los descansos ) pueden ser configurados según las necesidades del equipo de trabajo. A continuación se explica el funcionamiento de cada ajuste.
 
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-563c37c833.webp)
+
 La duración máxima de la jornada, limita el número de horas necesarias para que el sistema de control horario identifique como nuevo fichaje de entrada cuando se ha superado el número de horas informado desde el anterior fichaje realizado. Esto es útil para aquellos casos en los que el trabajador se olvida de fichar la salida o si en el sistema de fichaje no identifica si es entrada o salida y tiene que ser estimado por aTurnos.
 
 Si por ejemplo están configuradas 12 horas de duración máxima de jornada.
 
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-1646af1a51.webp)
+
 En el caso de un trabajador que tenga un turno de 22:00 – 08:00(+1), realiza un fichaje de entrada a las 22:05 y el siguiente fichaje lo hace a las 10:10, el sistema lo marcará como una nueva entrada, al haber superado las 12 horas de jornada máxima.
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-7ed3b40a3c.webp)
 
 - En los casos donde los turnos planificados sean de larga duración (superen la duración máxima de la jornada), es recomendable que se indique la opción “Si”. Aunque se supere, se considerará el primer fichaje como entrada y el segundo como salida. Por ejemplo, cuando después de un turno mañana se planifica un turno de guardia, donde la duración en horas de ambos turnos es superior a la duración máxima de la jornada.
 
+  ![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-51a2b949b3.webp)
+
+  ![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-3cf0fb06e6.webp)
+
 - Si se opta por la opción “NO”, en este caso el registro de las acciones de entrada y salida dependerá de la duración máxima de la jornada. El primer fichaje será una salida, pero el siguiente fichaje, en el caso de superar la duración máxima de la jornada, será una nueva entrada. Por ejemplo, en caso de olvido del fichaje en la salida del trabajador, al transcurrir la duración configurada, el siguiente fichaje se inserta como nueva entrada.
 
+  ![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-459e62d8a8.webp)
+
 Se pueden crear distintos tipos de fichaje para identificarlos según el sistema de fichaje que se realice. Por ejemplo, si el fichaje es mediante el sistema remoto que se activa en el perfil del trabajador, se puede forzar que el fichaje sea de un tipo en concreto.
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-57dc320304.webp)
 
 Esta opción permite elegir algún dato personalizado distinto al “ID Usuario” o “ID Empleado” para identificar al trabajador.
 
@@ -80,7 +94,13 @@ Se puede seleccionar un absentismo que si se planifica o ajusta en un día donde
 
 Esta función habilita poder forzar saldos en positivo o negativo en el estado del Detalle de cada trabajador.
 
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-cf4a41ba98.webp)
+
 Por ejemplo, se puede forzar un saldo de 1 hora positiva para descontarla del estado.
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-3c91a82f54.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-3295de3192.webp)
 
 Por retrasos en las altas o renovaciones de contrato de los trabajadores, los trabajadores pueden realizar su trabajo y por tanto fichar, para no perder esos fichajes, se pueden registrar los fichajes aunque no esté dado de alta en esa fecha en el sistema, siempre que esté configurada a “Si” está opción.
 
@@ -100,13 +120,21 @@ Esta configuración permite diferencias cómo se quieren computar los fichajes c
 
 Es la configuración por defecto, computando el tiempo de los fichajes en el día que se marca la entrada del fichaje.
 
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-e4e2766e01.webp)
+
 En el caso de fichajes con turnos que empiezan en un día y acaban en el siguiente, se puede computar el fichaje al día donde se marca el fichaje de salida.
 
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-6f1e6a2974.webp)
+
 Por último, existe la opción que cuando existan turnos planificados entre dos días, compute en el día donde hay más horas planificadas o donde el fichaje cerrado haya contabilizado más horas.
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-1bb1db7dd1.webp)
 
 En primer lugar debemos entender que esta función solo se ejecuta en el ‘Timecard’ y para los trabajadores sin fecha de baja (indefinidos).
 
 Después la principal opción a tener en cuenta, es saber cuál es el inicio del año fiscal configurado en los ‘Datos de convenio’ en el equipo de trabajo.
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-32672a956b.webp)
 
 En este caso, la fecha de inicio de año fiscal es el 1 de mayo.
 
@@ -114,52 +142,20 @@ Si existe en el balance acumulado entre el 1 de mayo del año anterior y el 1 de
 
 Si no se activa la opción, el saldo quedará con el acumulado en positivo sin migrarlo al año siguiente.
 
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-76995fc9b9.webp)
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-26e3fed1b6.webp)
+
 Cuando la acción automatizada migre el saldo acumulado al año siguiente, se mostrará una columna con el saldo acumulado del año anterior.
 
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-24ee1f3077.webp)
+
 Si hay tiempo fichado de menos, se compensará con el saldo acumulado del año anterior.
+
+![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-1dfbcb9940.webp)
 
 En ocasiones los trabajadores puede tener errores a la hora de realizar su fichaje por los distintos sistema de fichaje, más habitualmente en el sistema biométrico en los dispositivos de lectura de huella dactilar.
 
 Es posible que el trabajador crea que no ha fichado, por lo que realice varios fichajes con su huella dactilar, lo que puede provocar una distorsión en el Control horario, ya que cada fichaje puede indicar una entrada y el siguiente una salida.
 
 Para evitar estos errores, se puede poner un tiempo mínimo en el cual el Control horario, no insertará ningún nuevo fichaje después de haber realizado un primer fichaje. Si por ejemplo, se configura con el valor de 5 minutos, si el trabajador entra a las 8:00 de la mañana, fichando a las 07.59 pero al cree que no ha fichado, fiche una segunda vez en el mismo minuto o en el siguiente, el sistema no insertará ese fichaje, deberán pasar al menos 5 minutos para que se pueda realizar un nuevo fichaje que se inserte.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-7ed3b40a3c.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-1646af1a51.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-563c37c833.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-51a2b949b3.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-57dc320304.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-459e62d8a8.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-cf4a41ba98.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-3cf0fb06e6.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-3c91a82f54.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-3295de3192.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-6f1e6a2974.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-e4e2766e01.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-32672a956b.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-1bb1db7dd1.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-26e3fed1b6.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-1dfbcb9940.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-24ee1f3077.webp)
-
-![5.1 Ajustes del control horario](/media/manual/5-1-ajustes-del-control-horario-76995fc9b9.webp)

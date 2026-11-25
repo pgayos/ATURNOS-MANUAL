@@ -57,6 +57,8 @@ Los trabajadores o administradores pueden ser notificados en dos casos:.
 - Fichaje realizado sobre un día de vacaciones.
 - Horas Extra/Complementarias sin fichar.
 
+  ![5.6 Notificaciones](/media/manual/5-6-notificaciones-b09cada2ef.webp)
+
 Al activar esta opción, los usuarios escogidos, recibirán un correo cuando un trabajador realice un marcaje en un día planificado con vacaciones. La notificación es inmediata.
 
 En este caso, si un trabajador no ficha un tramo completo de horas complementarias o extras, recibirán un correo los usuarios escogidos en la configuración. Este aviso no es inmediato, sino que se calcula en un proceso nocturno, y se notifican pasadas las 24 horas del evento.
@@ -66,18 +68,12 @@ Existen dos configuraciones:
 - Usuario implicado, al estar marcada la opción en “Si”, el usuario implicado recibiría las notificaciones activadas (independientemente de su rol, al ser su propia gestión de fichajes).
 - Nivel mínimo y nivel máximo, para escoger desde qué rol de administradores deben recibir las notificaciones y hasta qué rol como máximo.
 
+  ![5.6 Notificaciones](/media/manual/5-6-notificaciones-8aeec1065a.webp)
+
 Por ejemplo, si se quiere activar que se notifique a los administradores validadores y planificadores cuando un trabajador suyo realiza un fichaje en vacaciones, pero no se quiere notificar al trabajador afectado, tendríamos la siguiente configuración.
 
-Por otro lado, si se quiere notificar a los trabajadores para recordarles de que no han fichado sus horas extra o complementarias planificadas, pero no queremos que sus administradores reciban nada al respecto, tendríamos la siguiente configuración.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![5.6 Notificaciones](/media/manual/5-6-notificaciones-b09cada2ef.webp)
-
-![5.6 Notificaciones](/media/manual/5-6-notificaciones-8aeec1065a.webp)
-
 ![5.6 Notificaciones](/media/manual/5-6-notificaciones-b672240046.webp)
+
+Por otro lado, si se quiere notificar a los trabajadores para recordarles de que no han fichado sus horas extra o complementarias planificadas, pero no queremos que sus administradores reciban nada al respecto, tendríamos la siguiente configuración.
 
 ![5.6 Notificaciones](/media/manual/5-6-notificaciones-62f4f9e315.webp)

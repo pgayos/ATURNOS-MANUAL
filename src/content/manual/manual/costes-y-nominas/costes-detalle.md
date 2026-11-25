@@ -60,16 +60,12 @@ El menú de Costes Detalle muestra:
 
 - Tablas totales: en esta vista se muestran los costes totales por día según el período de tiempo seleccionado (a menos que, se utilice el filtro para visualizar alguna variable en específico.
 
+  ![Costes Detalle](/media/manual/costes-detalle-61fb009e9e.png)
+
 - Tabla por usuarios: muestra los costes totales por día y trabajador según el período de tiempo seleccionado (se utiliza el filtro para visualizar alguna variable en específico en caso de requerirlo).
+
+  ![Costes Detalle](/media/manual/costes-detalle-34afc3d7a0.png)
 
 - Gráfico por usuario: muestra gráfico de barras con los costes totales por usuario. Posicionando el cursor sobre la barra del trabajador obtendrá información del valor del coste total que ha generado el mismo.
 
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![Costes Detalle](/media/manual/costes-detalle-61fb009e9e.png)
-
-![Costes Detalle](/media/manual/costes-detalle-34afc3d7a0.png)
-
-![Costes Detalle](/media/manual/costes-detalle-1fc65695f9.png)
+  ![Costes Detalle](/media/manual/costes-detalle-1fc65695f9.png)

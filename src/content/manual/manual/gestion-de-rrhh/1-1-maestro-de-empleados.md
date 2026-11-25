@@ -62,9 +62,13 @@ Para acceder al maestro de empleado lo puede hacer cualquier superusuario desde 
 
 Desde este menú se visualizan en pantalla todos los usuarios de los equipos a los que tiene acceso el superusuario.
 
+![Vista de 1 1 maestro de empleados en aTurnos](/media/manual/vista-de-1-1-maestro-de-empleados-en-aturnos-c8d25b0808.png)
+
 En la pantalla se visualizan por defecto los usuarios de alta.
 
 - Estado. Filtro por los diferentes estados de los usuarios en aTurnos. Los usuarios pueden estar en alta, baja o alta futura en la fecha seleccionada.
+
+  ![Vista de 1 1 maestro de empleados en aTurnos](/media/manual/vista-de-1-1-maestro-de-empleados-en-aturnos-550a2e1fb1.png)
 
 - Filtros de búsqueda de usuarios:
 
@@ -90,8 +94,4 @@ El superusuario que accede al maestro de empleado puede realizar las siguientes 
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![Vista de 1 1 maestro de empleados en aTurnos](/media/manual/vista-de-1-1-maestro-de-empleados-en-aturnos-550a2e1fb1.png)
-
 ![Vista de 1 1 maestro de empleados en aTurnos](/media/manual/vista-de-1-1-maestro-de-empleados-en-aturnos-f3f9c92063.png)
-
-![Vista de 1 1 maestro de empleados en aTurnos](/media/manual/vista-de-1-1-maestro-de-empleados-en-aturnos-c8d25b0808.png)

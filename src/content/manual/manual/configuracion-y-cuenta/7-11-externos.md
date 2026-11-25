@@ -62,6 +62,8 @@ Este usuario puede tener permiso de acceso a determinados menús dentro de aTurn
 
 Desde aquí se da de alta a un nuevo usuario externo. Para ello hay que hacer clic en el botón en la parte superior derecha ‘Nuevo Externo’.
 
+![7.11 Externos](/media/manual/7-11-externos-29c1142e15.png)
+
 Se nos mostrará un formulario para crear el ‘Nuevo externo’, necesitando completar los siguientes campos:
 
 - Nombre: identificación del usuario que se va a crear.
@@ -71,6 +73,8 @@ Se nos mostrará un formulario para crear el ‘Nuevo externo’, necesitando co
 Una vez completada la información, haciendo clic en ‘Guardar’, quedará registrado el nuevo usuario externo.
 
 Todos los externos que se creen, aparecerán en el listado del menú de ‘Externos’, con su nombre, email y localización.
+
+![7.11 Externos](/media/manual/7-11-externos-f7ea6af3a6.png)
 
 Estos usuarios se pueden borrar, para que de esta forma no vuelvan a acceder al equipo, con solo hacer clic en el icono de la papelera, quedará eliminado.
 
@@ -85,14 +89,10 @@ Al acceder un usuario con rol externo a un equipo de trabajadores, tiene permiso
 3. Trabajadores: puede visualizar el listado de trabajadores del equipo. Opcionalmente, según permisos del equipo, puede tener la información de contacto de los trabajadores (teléfono de contacto y/o mail).
 4. Control de presencia: puede visualizar el listado de marcajes de los trabajadores en el periodo de tiempo que se determine. Consultando el nombre del trabajador, hora de marcaje, si este ha sido una entrada o salida, localización, tipo de marcaje…
 
+   ![7.11 Externos](/media/manual/7-11-externos-18e10d6a8a.png)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![7.11 Externos](/media/manual/7-11-externos-f7ea6af3a6.png)
-
-![7.11 Externos](/media/manual/7-11-externos-29c1142e15.png)
-
-![7.11 Externos](/media/manual/7-11-externos-18e10d6a8a.png)
 
 ![7.11 Externos](/media/manual/7-11-externos-697c0d3ea4.png)

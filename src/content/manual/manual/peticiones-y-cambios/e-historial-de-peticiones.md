@@ -58,32 +58,28 @@ Información sobre historial de peticiones, con instrucciones y contexto revisab
 ## Qué debes saber
 Desde esta pestaña se puede consultar todo el registro de peticiones (de permisos, horas y vacaciones) que realizan los trabajadores filtrando por la fecha en la parte superior, así como por cualquier otro filtro (icono del embudo). El administrador puede ver el detalle de la petición haciendo clic en el icono del ojo en la columna “Acción”.
 
+![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-bc67c50926.webp)
+
 En este listado, las peticiones se pueden encontrar en distintos estados de confirmación:
 
 - Aceptado. Se muestra con icono ‘check’. Los administradores responsables han aprobado la petición.
 
+  ![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-ae7515bc38.webp)
+
 - Denegado. Se visualiza con un aspa. Los administradores responsables han rechazado la petición.
+
+  ![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-36864669ed.webp)
 
 - Deshecho. Se indica un icono de reciclaje. Los administradores responsables han deshecho la petición aprobada o bien se ha borrado el absentismo que había sobre el turno planificado en ese día.
 
+  ![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-27105af4c1.webp)
+
 - Borrado. Se muestra con el icono de una papelera. Los administradores responsables o el sistema, ha borrado el evento que afectaba a la petición. Por ejemplo, si existe una petición aprobada de un permiso de día y se ha borrado el turno de ese día.
+
+  ![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-434ac5de32.webp)
 
 Si te aparecen peticiones denegadas que no se han confirmado por algún administrador del equipo, consulta el campo de comentario, si aparece Flujo cambiado, se debe a que en Administrar → Ajustes → Peticiones se ha modificado el flujo de aprobación para gestionar las peticiones. Cuando se produce un cambio en el flujo, las peticiones se deniegan automáticamente.
 
 Si por algún motivo, luego de aprobar una petición, el administrador necesita deshacer la petición, lo puede hacer desde el historial de peticiones con la opción “deshacer acción”. Desde esta acción, no solo se eliminan los turnos de la petición (por ejemplo, unas vacaciones), sino que además recupera los turnos anteriores que tenía planificado el cuadrante antes de que se aprobase la petición. Es decir, vuelve la planificación que existía antes de las vacaciones.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
-![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-bc67c50926.webp)
-
-![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-ae7515bc38.webp)
-
-![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-36864669ed.webp)
-
-![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-27105af4c1.webp)
-
-![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-434ac5de32.webp)
 
 ![e. Historial de peticiones](/media/manual/e-historial-de-peticiones-f1cae065f6.png)

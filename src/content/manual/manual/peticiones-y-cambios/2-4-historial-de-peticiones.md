@@ -59,16 +59,12 @@ Información sobre historial de peticiones, con instrucciones y contexto revisab
 ## Qué debes saber
 Aquí dispondremos de un registro histórico de todas las solicitudes que el trabajador ha hecho, tanto las confirmadas como las denegadas por los administradores del equipo en el periodo indicado en la parte superior. Podrás ver además el detalle de cada petición pulsando en el icono del ojo al deslizar dicha petición.
 
-## PENDIENTE de validación
-
-El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.
-
-## Imágenes de referencia
-
-Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
-
 ![2.4 Historial de peticiones](/media/manual/2-4-historial-de-peticiones-8f54338e49.webp)
 
 ![2.4 Historial de peticiones](/media/manual/2-4-historial-de-peticiones-d7745a2a08.webp)
 
 ![2.4 Historial de peticiones](/media/manual/2-4-historial-de-peticiones-b58aba2bc5.png)
+
+## PENDIENTE de validación
+
+El equipo de Producto debe confirmar que los nombres de las opciones, los permisos necesarios y el resultado descrito siguen coincidiendo con la versión actual de aTurnos. El contenido anterior procede de la documentación pública de origen y sirve como punto de partida para la revisión.

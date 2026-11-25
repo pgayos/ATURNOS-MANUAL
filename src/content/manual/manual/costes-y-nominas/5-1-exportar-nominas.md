@@ -60,12 +60,16 @@ La exportación a nómina genera un fichero csv que recupera los valores calcula
 ## Procedimiento
 Desde ADMINISTRAR → NÓMINAS → EXPORTAR A NÓMINA se accede al menú
 
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-80ebddde52.png)
+
 1.- Filtros para la exportación.
 
 - Fecha de inicio
 - Fecha de fin
 - Plantilla de nómina, por defecto la que esté configurada en la Plantilla de nómina (Ver en el Manual), pudiendo seleccionar (abriendo el campo) para cada ejecución si los conceptos se va a exportar por filas o por columnas.
 - Tipo de consulta: Consulta: Recupera el valor de los conceptos de nómina sin tener en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, informados en el perfil del trabajador. Simulación: Recupera el valor de los conceptos de nómina teniendo en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, sin modificar la fecha del último día exportado en el perfil del trabajador. Descarga: Recupera el valor de los conceptos de nómina teniendo en cuenta la fecha de cierre de cuadrante y la fecha del último día exportado, modificando la fecha del último día exportado en el perfil del trabajador con la fecha de fin informada.
+
+  ![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-b83dd0e9cc.png)
 
 Ver en el Manual (Configuración de nómina)
 
@@ -88,17 +92,29 @@ Los días son:
 - Día 14/04/2024 tiene un turno de 1 horas, debe recuperar valor el concepto 3K00
 - Día 16/04/2024 tiene un turno de 2 horas, debe recuperar valor el concepto 3K00
 
+  ![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-9666500d33.png)
+
 En el caso del export de nómina y/o la estadística por periodo, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el período, es decir, suma las horas nocturnas 9 + 10 + 10 + 1 +1 + 2, hace un total de 33 horas, al superar las 10 horas nocturnas, el concepto que abona es el 3000
 
 En el caso de la estadística diaria, el concepto que compara si las horas nocturnas son menores a 10, suma todas las horas nocturnas en el día, es decir, comprueba si las 9 horas nocturnas del día 9 son menores a 10, como es menor, devuelve valor el concepto 3K00, pasa al día 10 y comprueba si las horas nocturnas son mayores o iguales que 10, de forma que devuelve valor ell concepto 3000.
 
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-a4c008e18f.png)
+
 2.- Seleccionar a los trabajadores
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-4d0553f15f.png)
 
 3.- Campos fijos: Hacer siguiente
 
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-15cbddc6a8.png)
+
 4.- Al terminar el proceso, se visualizan los resultados y se activa el botón “Descarga”
 
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-f9cafb5ba2.png)
+
 A nivel de trabajador, el efecto que produce la exportación a nóminas es la actualización del campo “Último día exportado” en la pestaña de Nómina en el perfil del trabajador.
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-e61b4d508b.png)
 
 En la misma pestaña, en el apartado “Descargas de conceptos de nómina” se visualiza:
 
@@ -107,11 +123,17 @@ En la misma pestaña, en el apartado “Descargas de conceptos de nómina” se 
 - Fecha de fin de todas las exportación a nómina realizadas
 - Nombre del usuario
 
+  ![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-d4bae844c8.png)
+
 El proceso para la realización de los finiquitos:
 
 1.- Informar la fecha de baja del trabajador en el perfil del trabajador
 
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-e458e34d40.png)
+
 2.- Informar la fecha de cierre de cuadrante
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-f7d9d68652.png)
 
 3.- Informar:
 
@@ -123,42 +145,20 @@ El proceso para la realización de los finiquitos:
 
 Informar la fecha de inicio y fin de la exportación
 
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-1e1fdecdea.png)
+
 4.- Seleccionar a los trabajadores
+
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-db24badff4.png)
 
 5.- Campos Fijos: Siguiente
 
 6.- Descargar fichero
 
+![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-2bc3c41623.png)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-b83dd0e9cc.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-4d0553f15f.png)
-
 ![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-77e367a650.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-9666500d33.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-80ebddde52.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-15cbddc6a8.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-f9cafb5ba2.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-e61b4d508b.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-d4bae844c8.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-f7d9d68652.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-e458e34d40.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-1e1fdecdea.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-2bc3c41623.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-db24badff4.png)
-
-![5.1 Exportar nóminas](/media/manual/5-1-exportar-nominas-a4c008e18f.png)

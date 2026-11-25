@@ -53,7 +53,11 @@ order: 1
 
 La tabla de cobertura es una solución que aTurnos ofrece a los administradores para que puedan consultar de un vistazo si las demandas están cubiertas. Esta tabla se encuentra haciendo clic en su pestaña en el cuadrante.
 
+![F. Tabla de Cobertura](/media/manual/f-tabla-de-cobertura-70d334b792.png)
+
 Dentro de esta opción, encontramos varios filtros para visualizar la información según la preferencia del administrador que lo consulta. Estos filtros se pueden desplegar haciendo clic el botón con un triángulo invertido:
+
+![F. Tabla de Cobertura](/media/manual/f-tabla-de-cobertura-cfb67d57b4.png)
 
 El número de las opciones que se despliegan dependerá de si se tiene activado o no el módulo de planificación automática. Si no lo tienes activado, tendrás 7 maneras de visualizar la cobertura de tu equipo. Si lo tienes activado, el número asciende a 14. Para saber más sobre el cuadrante con el módulo de planificación automática activado, haz clic aquí.
 
@@ -77,6 +81,8 @@ A continuación, te desarrollamos qué puedes visualizar en cada una de las opci
 
 Seleccionando esta opción, se pueden visualizar el número de trabajadores que tienen planificado cada tipo de turno. Esta información muestra, de manera general, el número de trabajadores que tiene planificado cada tipo de turno. Cabe mencionar que esta opción no atiende a la localización que se tenga informada, únicamente muestra cuantos trabajadores tienen planificado cada turno.
 
+![Opción Total por turno](/media/manual/opcion-total-por-turno-e501c79684.png)
+
 En el caso, de tener contratado el módulo de planificación automática y tener demandas, puedes consultar en este enlace información detallada de la Tabla de cobertura por turno con demandas
 
 ## Opción Total por localización
@@ -84,6 +90,8 @@ En el caso, de tener contratado el módulo de planificación automática y tener
 Para este tipo de visualización es fundamental tener definidas unas localizaciones en el equipo en las que se agrupará a los trabajadores.
 
 La diferencia con respecto a la primera visualización es el desglose detallado por localizaciones, es decir, ya no contabiliza únicamente los turnos, sino que también muestra sus localizaciones.
+
+![Opción Total por localización](/media/manual/opcion-total-por-localizacion-b6737a5213.png)
 
 ## Opción. Total por turno descontando peticiones
 
@@ -94,6 +102,8 @@ Si comparamos esta opción con la opción Total por turno podemos observar difer
 ## Opción Resumen medio Total
 
 Es la única opción de visualización que muestra la información de la planificación por horas. Adicionalmente a las horas de los turnos, se incluyen horas complementarias, extra o normales y los absentismos temporales planificados. Lo único que contabiliza como tipo de turno son las vacaciones.
+
+![Opción Resumen medio Total](/media/manual/opcion-resumen-medio-total-f4a5a5833c.webp)
 
 1.- Horas planificadas: Suma las horas computadas de los trabajadores que tienen planificación sin ningún tipo de absentismos.
 
@@ -117,32 +127,22 @@ En ocasiones, un mismo administrador es el encargado de planificar y gestionar v
 
 Para comparar la planificación de otros equipos, se debe seleccionar la opción “Ver cuadrante de otro equipo” y elegir en el seleccionable el equipo con el que se quiere comparar. En el menú se desplegarán todos los equipos que se administran:
 
+![Opción Ver cuadrante de otro equipo](/media/manual/opcion-ver-cuadrante-de-otro-equipo-0c540b71e7.png)
+
 Una vez se elige el equipo, aparece un nuevo botón, el botón “Intercambiar”. Si se hace clic, se pondrá en primer plano el cuadrante de este equipo (detrás de la pestaña de tabla de cobertura).
+
+![Opción Ver cuadrante de otro equipo](/media/manual/opcion-ver-cuadrante-de-otro-equipo-32dff068da.png)
 
 ¡Importante!
 
 Si se intercambia el equipo, la barra de localizaciones cambiará a color lila, esto indica que no se pueden realizar modificaciones sobre ese cuadrante (modo solo visualización). Si se quiere volver al equipo anterior al intercambio se debe volver a la pantalla de “mis equipos”, ya que si se intenta volver desde el botón “Intercambiar” ambos cuadrantes aparecerán de color lila y no se puede modificar.
 
+![Vista de f tabla de cobertura en aTurnos](/media/manual/vista-de-f-tabla-de-cobertura-en-aturnos-ed1448ae35.png)
+
 ## Imágenes de referencia
 
 Estas imágenes proceden de la documentación pública utilizada para migrar este artículo.
 
-![F. Tabla de Cobertura](/media/manual/f-tabla-de-cobertura-70d334b792.png)
-
-![F. Tabla de Cobertura](/media/manual/f-tabla-de-cobertura-cfb67d57b4.png)
-
-![Opción Total por turno](/media/manual/opcion-total-por-turno-e501c79684.png)
-
-![Opción Total por localización](/media/manual/opcion-total-por-localizacion-b6737a5213.png)
-
 ![Opción. Total por turno descontando peticiones](/media/manual/opcion-total-por-turno-descontando-peticiones-ea4be023d8.png)
 
 ![Opción. Total por turno descontando peticiones](/media/manual/opcion-total-por-turno-descontando-peticiones-22b93b09ef.png)
-
-![Opción Ver cuadrante de otro equipo](/media/manual/opcion-ver-cuadrante-de-otro-equipo-0c540b71e7.png)
-
-![Opción Resumen medio Total](/media/manual/opcion-resumen-medio-total-f4a5a5833c.webp)
-
-![Opción Ver cuadrante de otro equipo](/media/manual/opcion-ver-cuadrante-de-otro-equipo-32dff068da.png)
-
-![Vista de f tabla de cobertura en aTurnos](/media/manual/vista-de-f-tabla-de-cobertura-en-aturnos-ed1448ae35.png)
