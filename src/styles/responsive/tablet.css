@@ -23,6 +23,9 @@
   .profile-unavailable {
     order: 4;
   }
+  .article-pager {
+    order: 4;
+  }
   .app-shell {
     display: block;
     flex: none;
