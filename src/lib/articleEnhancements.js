@@ -2,10 +2,15 @@
 // - índice «En esta página» que marca la sección que se está leyendo,
 // - barra de progreso de lectura,
 // - enlace copiable en los encabezados (h2/h3),
-// - zoom de capturas en un <dialog>.
+// - zoom de capturas en un <dialog>,
+// - atajos ← / → del paginador.
+//
+// Con la navegación sin recarga (ClientRouter) el script del layout solo se
+// ejecuta una vez: initArticleEnhancements() se vuelve a llamar tras cada
+// cambio de página y `signal` retira los listeners globales de la anterior.
 
 /** Marca en el índice la sección visible y actualiza la barra de progreso. */
-function initReadingTracking({ body, index, progress }) {
+function initReadingTracking({ body, index, progress }, signal) {
   const links = index ? [...index.querySelectorAll('a[href^="#"]')] : [];
   const sections = links
     .map((link) => {
@@ -59,8 +64,8 @@ function initReadingTracking({ body, index, progress }) {
       update();
     });
   };
-  window.addEventListener("scroll", onScroll, { passive: true });
-  window.addEventListener("resize", onScroll);
+  window.addEventListener("scroll", onScroll, { passive: true, signal });
+  window.addEventListener("resize", onScroll, { signal });
   // Las imágenes diferidas cambian la altura del artículo al cargarse.
   body?.querySelectorAll("img").forEach((img) =>
     img.addEventListener("load", onScroll, { once: true }),
@@ -80,7 +85,8 @@ function initHeadingAnchors(body) {
     button.addEventListener("click", async () => {
       const url = new URL(window.location.href);
       url.hash = heading.id;
-      history.replaceState(null, "", url.hash);
+      // Conserva el estado del historial (lo usa la navegación sin recarga).
+      history.replaceState(history.state, "", url.hash);
       try {
         await navigator.clipboard.writeText(url.href);
         button.dataset.copied = "Enlace copiado";
@@ -143,7 +149,7 @@ function initImageZoom(body, dialog) {
  * No actúan mientras se escribe, con modificadores (Alt+← es «Atrás» del
  * navegador), con un diálogo abierto o si el enlace está oculto por el rol.
  */
-function initPagerShortcuts() {
+function initPagerShortcuts(signal) {
   const prev = document.querySelector(".article-pager-link.is-prev");
   const next = document.querySelector(".article-pager-link.is-next");
   if (!prev && !next) return;
@@ -159,17 +165,26 @@ function initPagerShortcuts() {
     if (!link || link.hidden) return;
     e.preventDefault();
     link.click();
-  });
+  }, { signal });
 }
 
+let controller;
+
 export function initArticleEnhancements() {
-  initPagerShortcuts();
+  controller?.abort();
+  controller = new AbortController();
+  const { signal } = controller;
+
+  initPagerShortcuts(signal);
   const body = document.querySelector(".article-body");
-  initReadingTracking({
-    body,
-    index: document.querySelector(".panel-index"),
-    progress: document.querySelector("[data-reading-progress]"),
-  });
+  initReadingTracking(
+    {
+      body,
+      index: document.querySelector(".panel-index"),
+      progress: document.querySelector("[data-reading-progress]"),
+    },
+    signal,
+  );
   if (!body) return;
   initHeadingAnchors(body);
   initImageZoom(body, document.querySelector("[data-image-zoom]"));

@@ -59,5 +59,7 @@ import SoporteCard from "../SoporteCard.astro";
         supportToggle.focus();
       }
     });
+    // Navegación sin recarga: la cabecera se conserva; se cierra al cambiar.
+    document.addEventListener("astro:after-swap", () => setSupportOpen(false));
   }
 </script>

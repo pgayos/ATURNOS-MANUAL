@@ -190,4 +190,13 @@ export function initSearchWidget({ form, input, suggestions, backdrop, minWidth 
   window.addEventListener('resize', () => {
     if (!suggestions.hidden) positionSuggestions();
   });
+  // Navegación sin recarga (ClientRouter): la cabecera se conserva, así que
+  // se deja el buscador como tras una carga normal: cerrado y vacío.
+  document.addEventListener('astro:after-swap', () => {
+    if (!document.contains(input)) return;
+    window.clearTimeout(timer);
+    deactivateSearch();
+    input.value = '';
+    input.blur();
+  });
 }
